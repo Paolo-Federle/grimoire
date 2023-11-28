@@ -45,7 +45,7 @@ a:hover {
   gap: 100px;
 }
 
-.flex-row>flexed-column {
+.flexed-column {
   flex: 1 0 auto;
   align-items: center;
   align-content: space-evenly;

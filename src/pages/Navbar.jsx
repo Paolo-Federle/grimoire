@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Header() {
+export default function Navbar() {
     return (
         <header>
           <h1>My Website</h1>
