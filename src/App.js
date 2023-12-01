@@ -42,7 +42,7 @@ import './css/App.css';
 function App() {
   return (
     <>
-      <BrowserRouter basename={"/grimoire"}>
+      <BrowserRouter basename={"/Grimoire"}>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
