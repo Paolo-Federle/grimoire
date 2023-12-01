@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Change the background color as needed */
+    color: white;
+    padding: 10px; /* Add padding as desired */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+a.active {
+    font-weight: bold; 
+    text-decoration: underline; 
+}

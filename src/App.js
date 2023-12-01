@@ -1,62 +1,105 @@
 import React from 'react';
 import Home from './pages/home'
-import NewHome from './pages/NewHome'
-import Navbar from './pages/Navbar';
+import Vampire from './pages/Vampire/Vampire'
+import Disciplines from './pages/Vampire/Disciplines'
+import VampireMerits from './pages/Vampire/VampireMerits'
+import Werewolf from './pages/Werewolf/Werewolf'
+import Gifts from './pages/Werewolf/Gifts'
+import Rites from './pages/Werewolf/Rites'
+import WerewolfMerits from './pages/Werewolf/WerewolfMerits'
+import Mage from './pages/Mage/Mage'
+import Spells from './pages/Mage/Spells'
+import MageMerits from './pages/Mage/MageMerits'
+import Path from './pages/Mage/Path';
+import Order from './pages/Mage/Order';
+import Legacy from './pages/Mage/Legacy';
+import Promethean from './pages/Promethean/Promethean'
+import Transmutations from './pages/Promethean/Transmutations'
+import PrometheanMerits from './pages/Promethean/PrometheanMerits'
+import Changeling from './pages/Changeling/Changeling';
+import Contracts from './pages/Changeling/Contracts';
+import Oaths from './pages/Changeling/Oaths';
+import ChangelingMerits from './pages/Changeling/ChangelingMerits';
+import Hunter from './pages/Hunter/Hunter';
+import Endowments from './pages/Hunter/Endowments';
+import Tactics from './pages/Hunter/Tactics';
+import HunterMerits from './pages/Hunter/HunterMerits';
+import Geist from './pages/Geist/Geist';
+import KeysAndHaunts from './pages/Geist/KeysAndHaunts';
+import Ceremonies from './pages/Geist/Ceremonies';
+import GeistMerits from './pages/Geist/GeistMerits';
+import Mummy from './pages/Mummy/Mummy';
+import Affinities from './pages/Mummy/Affinities';
+import Utterances from './pages/Mummy/Utterances';
+import MummyMerits from './pages/Mummy/MummyMerits';
+import Mortal from './pages/MortalsAndOthers/Mortal';
+import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
+import Books from './pages/Generale/Books';
 import { Routes, Route } from 'react-router-dom'
-import './App.css';
+import Navbar from './components/Navbar';
+import './css/App.css';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/new" element={<NewHome />} />
-      {/* <Route path="/generale" element={<Generale />} />
-      <Route path="/mortal" element={<Mortal />} />
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/books" element={<Books />} />
 
-// VAMPIRI
-      <Route path="/vampire" element={<Vampire />} />
-      <Route path="/vampire/disciplines" element={<Disciplines />} />
-      <Route path="/vampire/merits" element={<VampireMerits />} />
+        {/* Mortals */}
+        <Route path="/mortal" element={<Mortal />} />
+        <Route path="/mortal/merits" element={<MortalMerits />} />
 
-//WEREWOLF
-      <Route path="/werewolf" element={<Werewolf />} />
-      <Route path="/werewolf/gifts " element={<Gifts />} />
-      <Route path="/werewolf/rites" element={<Rites />} />
-      <Route path="/werewolf/merits" element={<WerewolfMerits />} />
+        {/* VAMPIRI */}
+        <Route path="/vampire" element={<Vampire />} />
+        <Route path="/vampire/disciplines" element={<Disciplines />} />
+        <Route path="/vampire/merits" element={<VampireMerits />} />
 
-// MAGE
-      <Route path="/mage" element={<Mage />} />
-      <Route path="/mage/spells" element={<Transmutations />} />
-      <Route path="/mage/merits" element={<MageMerits />} />
+        {/* WEREWOLF */}
+        <Route path="/werewolf" element={<Werewolf />} />
+        <Route path="/werewolf/gifts " element={<Gifts />} />
+        <Route path="/werewolf/rites" element={<Rites />} />
+        <Route path="/werewolf/merits" element={<WerewolfMerits />} />
 
-// PROMETEANI
-      <Route path="/promethean" element={<Promethean />} />
-      <Route path="/promethean/transmutations" element={<Transmutations />} />
-      <Route path="/promethean/merits" element={<PrometheanMerits />} />
+        {/* MAGE */}
+        <Route path="/mage" element={<Mage />} />
+        <Route path="/mage/spells" element={<Spells />} />
+        <Route path="/mage/merits" element={<MageMerits />} />
+        <Route path="/mage/path" element={<Path />} />
+        <Route path="/mage/order" element={<Order />} />
+        <Route path="/mage/legacy" element={<Legacy />} />
 
-// CHANGELING
-      <Route path="/changeling" element={<Changeling />} />
-      <Route path="/changeling/contracts" element={<Contracts />} />
-      <Route path="/changeling/oaths" element={<Oaths />} />
-      <Route path="/changeling/merits" element={<ChangelingMerits />} />
+        {/* PROMETEANI */}
+        <Route path="/promethean" element={<Promethean />} />
+        <Route path="/promethean/transmutations" element={<Transmutations />} />
+        <Route path="/promethean/merits" element={<PrometheanMerits />} />
 
-// HUNTER
-      <Route path="/hunter" element={<Hunter />} />
-      <Route path="/hunter/endowments " element={<Endowments />} />
-      <Route path="/hunter/tactics" element={<Tactics />} />
-      <Route path="/hunter/merits" element={<HunterMerits />} />
+        {/* CHANGELING */}
+        <Route path="/changeling" element={<Changeling />} />
+        <Route path="/changeling/contracts" element={<Contracts />} />
+        <Route path="/changeling/oaths" element={<Oaths />} />
+        <Route path="/changeling/merits" element={<ChangelingMerits />} />
 
-// GEIST
-      <Route path="/geist" element={<Geist />} />
-      <Route path="/geist/Keys_and_Haunts" element={<KeysAndHaunts />} />
-      <Route path="/geist/Ceremonies" element={<Ceremonies />} />
-      <Route path="/geist/merits" element={<GeistMerits />} />
+        {/* HUNTER */}
+        <Route path="/hunter" element={<Hunter />} />
+        <Route path="/hunter/endowments " element={<Endowments />} />
+        <Route path="/hunter/tactics" element={<Tactics />} />
+        <Route path="/hunter/merits" element={<HunterMerits />} />
 
-//MUMMY
-      <Route path="/mummy" element={<Mummy />} />
-      <Route path="/mummy/affinities" element={<Affinities />} />
-      <Route path="/mummy/utterances" element={<Utterances />} /><Route path="/mummy/merits" element={<MummyMerits />} /> */}
-    </Routes>
+        {/* GEIST */}
+        <Route path="/geist" element={<Geist />} />
+        <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
+        <Route path="/geist/ceremonies" element={<Ceremonies />} />
+        <Route path="/geist/merits" element={<GeistMerits />} />
+
+        {/* MUMMY */}
+        <Route path="/mummy" element={<Mummy />} />
+        <Route path="/mummy/affinities" element={<Affinities />} />
+        <Route path="/mummy/utterances" element={<Utterances />} />
+        <Route path="/mummy/merits" element={<MummyMerits />} />
+      </Routes>
+    </>
   );
 }
 
