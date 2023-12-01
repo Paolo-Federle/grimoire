@@ -1,6 +1,6 @@
 {
-  "homepage": "http://paolo-federle.github.io/Grimoire/public/index.html",
-  "name": "grimoire_of_darkness",
+  "homepage": "http://paolo-federle.github.io/grimoire/public/index.html",
+  "name": "grimoire",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
