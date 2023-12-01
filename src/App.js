@@ -69,7 +69,7 @@ function App() {
         <Route path="/mage/path" element={<Path />} />
         <Route path="/mage/order" element={<Order />} />
         <Route path="/mage/legacy" element={<Legacy />} />
-        
+
 
         {/* PROMETEANI */}
         <Route path="/promethean" element={<Promethean />} />

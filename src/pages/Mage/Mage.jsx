@@ -7,7 +7,6 @@ export default function Mage() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Mage: the Awakening</h1>
-
                 <section >
                     <div>
                         <p>
@@ -25,7 +24,6 @@ export default function Mage() {
                             and a Morality trait called <a href='/mage/wisdom'>Wisdom</a>.
                         </p>
                     </div>
-
                     <div>
                         <h2>Abilities</h2>
                         <p>
