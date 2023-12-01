@@ -58,7 +58,7 @@ function App() {
 
         {/* WEREWOLF */}
         <Route path="/werewolf" element={<Werewolf />} />
-        <Route path="/werewolf/gifts " element={<Gifts />} />
+        <Route path="/werewolf/gifts" element={<Gifts />} />
         <Route path="/werewolf/rites" element={<Rites />} />
         <Route path="/werewolf/merits" element={<WerewolfMerits />} />
 
