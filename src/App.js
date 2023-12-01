@@ -35,14 +35,14 @@ import MummyMerits from './pages/Mummy/MummyMerits';
 import Mortal from './pages/MortalsAndOthers/Mortal';
 import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
 import Books from './pages/Generale/Books';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import './css/App.css';
 
 function App() {
   return (
     <>
-      <BrowserRouter basename={"/Grimoire"}>
+      <HashRouter >
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -100,7 +100,7 @@ function App() {
           <Route path="/mummy/utterances" element={<Utterances />} />
           <Route path="/mummy/merits" element={<MummyMerits />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
