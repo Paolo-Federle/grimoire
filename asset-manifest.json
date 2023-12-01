@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Grimoire/static/css/main.caad46f3.css",
+    "main.js": "/Grimoire/static/js/main.d1f98b0e.js",
+    "static/js/787.e8045ec9.chunk.js": "/Grimoire/static/js/787.e8045ec9.chunk.js",
+    "index.html": "/Grimoire/index.html",
+    "main.caad46f3.css.map": "/Grimoire/static/css/main.caad46f3.css.map",
+    "main.d1f98b0e.js.map": "/Grimoire/static/js/main.d1f98b0e.js.map",
+    "787.e8045ec9.chunk.js.map": "/Grimoire/static/js/787.e8045ec9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caad46f3.css",
+    "static/js/main.d1f98b0e.js"
+  ]
+}
