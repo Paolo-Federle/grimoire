@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Home.css';
 
 export default function Home() {
@@ -18,7 +19,6 @@ export default function Home() {
                                     <a href="/resources" title="Resources">External Resources</a>
                                 </td>
                             </tr>
-                            {/* ... Rest of your table structure ... */}
                         </tbody>
                     </table>
                     <table className="table-container">
@@ -63,14 +63,16 @@ export default function Home() {
                                 </td>
                             </tr>
                             <tr>
-                                <td className='table-cell'><a href="/vampire" title="Vampire: the Requiem">
-                                    Vampire: the Requiem</a>
+                                <td className='table-cell'>
+                                    <Link to="/vampire" title="Vampire: the Requiem">
+                                        Vampire: the Requiem
+                                    </Link>
                                     &nbsp;•&nbsp;
                                     <a href="/werewolf" title="Werewolf: the Forsaken">Werewolf: the Forsaken</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td className='table-cell'> 
+                                <td className='table-cell'>
                                     <a href="/mage" title="Mage: the Awakening">Mage: the Awakening</a>
                                     &nbsp;•&nbsp;
                                     <a href="/promethean" title="Promethean: the Created">Promethean: the Created</a>
