@@ -14,9 +14,9 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/books" title="Books">List of Books</a>
+                                    <Link to="/books" title="Books">List of Books</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/resources" title="Resources">External Resources</a>
+                                    <Link to="/resources" title="Resources">External Resources</Link>
                                 </td>
                             </tr>
                         </tbody>
@@ -28,22 +28,22 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/skills" title="Skills">Skills</a>
+                                    <Link to="/skills" title="Skills">Skills</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/advantages" title="Category:Advantages">Advantages</a>
+                                    <Link to="/advantages" title="Category:Advantages">Advantages</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/merits" title="Category:Merits">Merits</a>
+                                    <Link to="/merits" title="Category:Merits">Merits</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/traits" title="Category:Traits">Traits</a>
+                                    <Link to="/traits" title="Category:Traits">Traits</Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/wiki/Category:Equipment" title="Category:Equipment">Equipment</a>
+                                    <Link to="/wiki/Category:Equipment" title="Category:Equipment">Equipment</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/wiki/Category:NPCs" title="Category:NPCs">NPCs</a>
+                                    <Link to="/wiki/Category:NPCs" title="Category:NPCs">NPCs</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/wiki/Category:Settings" title="Category:Settings">Settings</a>
+                                    <Link to="/wiki/Category:Settings" title="Category:Settings">Settings</Link>
                                 </td>
                             </tr>
                         </tbody>
@@ -57,9 +57,9 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/mortal" title="Mortals and Lesser Templates">
+                                    <Link to="/mortal" title="Mortals and Lesser Templates">
                                         Mortals and Lesser Templates
-                                    </a>
+                                    </Link>
                                 </td>
                             </tr>
                             <tr>
@@ -68,28 +68,28 @@ export default function Home() {
                                         Vampire: the Requiem
                                     </Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/werewolf" title="Werewolf: the Forsaken">Werewolf: the Forsaken</a>
+                                    <Link to="/werewolf" title="Werewolf: the Forsaken">Werewolf: the Forsaken</Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/mage" title="Mage: the Awakening">Mage: the Awakening</a>
+                                    <Link to="/mage" title="Mage: the Awakening">Mage: the Awakening</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/promethean" title="Promethean: the Created">Promethean: the Created</a>
+                                    <Link to="/promethean" title="Promethean: the Created">Promethean: the Created</Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/changeling" title="Changeling: the Lost">Changeling: the Lost</a>
+                                    <Link to="/changeling" title="Changeling: the Lost">Changeling: the Lost</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/hunter" title="Hunter: the Vigil">Hunter: the Vigil</a>
+                                    <Link to="/hunter" title="Hunter: the Vigil">Hunter: the Vigil</Link>
                                 </td>
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <a href="/geist" title="Geist: the Sin-Eaters">Geist: the Sin-Eaters</a>
+                                    <Link to="/geist" title="Geist: the Sin-Eaters">Geist: the Sin-Eaters</Link>
                                     &nbsp;•&nbsp;
-                                    <a href="/mummy" title="Mummy: the Curse">Mummy: the Curse</a>
+                                    <Link to="/mummy" title="Mummy: the Curse">Mummy: the Curse</Link>
                                 </td>
                             </tr>
                         </tbody>
