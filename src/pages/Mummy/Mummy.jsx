@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Races.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Mummy() {
@@ -14,30 +15,30 @@ export default function Mummy() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            Each mummy had a <a href='/mummy/decree'>Decree</a> that epitomized the best part of their soul, and was a
-                            member of a <a href='/mummy/guild'>Guild</a> prior to their first death. The Arisen must also answer
-                            to a <a href='/mummy/judge'>Judge</a> each time they descend into death.
+                            Each mummy had a <Link to='/mummy/decree'>Decree</Link> that epitomized the best part of their soul, and was a
+                            member of a <Link to='/mummy/guild'>Guild</Link> prior to their first death. The Arisen must also answer
+                            to a <Link to='/mummy/judge'>Judge</Link> each time they descend into death.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            The Deathless possess a unique Power Stat trait called <a href='/mummy/sekhem'>Sekhem</a>, and a
-                            Morality trait called <a href='/mummy/memory'>Memory</a>.
+                            The Deathless possess a unique Power Stat trait called <Link to='/mummy/sekhem'>Sekhem</Link>, and a
+                            Morality trait called <Link to='/mummy/memory'>Memory</Link>.
                         </p>
                     </div>
 
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            The Arisen wield supernatural abilities called <a href='/mummy/affinities'>Affinities</a>, and
-                            work horrible miracles by mastering <a href='/mummy/utterances'>Utterances</a>.
+                            The Arisen wield supernatural abilities called <Link to='/mummy/affinities'>Affinities</Link>, and
+                            work horrible miracles by mastering <Link to='/mummy/utterances'>Utterances</Link>.
                         </p>
                         <p>
-                            Their searching often leaves mummies in possession of the <a href='/mummy/relics'>Relics</a> of Irem,
+                            Their searching often leaves mummies in possession of the <Link to='/mummy/relics'>Relics</Link> of Irem,
                             each of which holds a power and a curse.
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            Mummies have access to several unique Deathless <a href='/mummy/merits'>Merits</a>, including those of their Tomb.
+                            Mummies have access to several unique Deathless <Link to='/mummy/merits'>Merits</Link>, including those of their Tomb.
                         </p>
                     </div>
                 </section>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Races.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Hunter() {
@@ -14,7 +15,7 @@ export default function Hunter() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            Hunters belong to <a href='/hunter/compacts_conspiracies'>Compacts and Conspiracies</a> at one of
+                            Hunters belong to <Link to='/hunter/compacts_conspiracies'>Compacts and Conspiracies</Link> at one of
                             three tiers, from local organizations to global.
                         </p>
                         <h2>Technicalities</h2>
@@ -26,18 +27,18 @@ export default function Hunter() {
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            Some Hunters gain access to special or supernatural <a href='/hunter/endowments'>Endowments</a> from their organizations.
+                            Some Hunters gain access to special or supernatural <Link to='/hunter/endowments'>Endowments</Link> from their organizations.
                         </p>
                         <p>
-                            Cells of Hunters work together to take down their targets through the use of <a href='/hunter/tactics'>Tactics</a>.
+                            Cells of Hunters work together to take down their targets through the use of <Link to='/hunter/tactics'>Tactics</Link>.
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            Hunters have access to several unique <a href='/hunter/merits'>Merits</a>, including
-                            specific <a href='/hunter/locations'>Locations</a> and <a href='/hunter/combat_styles'>Combat Styles</a>.
+                            Hunters have access to several unique <Link to='/hunter/merits'>Merits</Link>, including
+                            specific <Link to='/hunter/locations'>Locations</Link> and <Link to='/hunter/combat_styles'>Combat Styles</Link>.
                         </p>
                         <p>
-                            Being mundane humans, Hunters often have a normal <a href='/hunter/profession'>Profession</a>.
+                            Being mundane humans, Hunters often have a normal <Link to='/hunter/profession'>Profession</Link>.
                         </p>
                     </div>
                 </section>

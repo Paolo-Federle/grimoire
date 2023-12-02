@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Races.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Promethean() {
@@ -14,28 +15,28 @@ export default function Promethean() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            Each Created has a <a href='/promethean/lineage'>Lineage</a> that shapes their form,
-                            and their path takes them through many <a href='/promethean/refinements'>Refinements</a> over the long years.
+                            Each Created has a <Link to='/promethean/lineage'>Lineage</Link> that shapes their form,
+                            and their path takes them through many <Link to='/promethean/refinements'>Refinements</Link> over the long years.
                         </p>
                         <p>
-                            Prometheans may also cultivate an <a href='/promethean/athanor'>Athanor</a> out of their developing understanding.
+                            Prometheans may also cultivate an <Link to='/promethean/athanor'>Athanor</Link> out of their developing understanding.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            The Created posses a unique Power Stat trait called <a href='/promethean/azoth'>Azoth</a>, and
-                            a Morality trait called <a href='/promethean/humanity'>Humanity</a>.
+                            The Created posses a unique Power Stat trait called <Link to='/promethean/azoth'>Azoth</Link>, and
+                            a Morality trait called <Link to='/promethean/humanity'>Humanity</Link>.
                         </p>
                     </div>
 
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            Each Created is gifted a <a href='/promethean/bestowment'>Bestowment</a> based on their Lineage, and can use their inner
-                            fire to ignite change in the world and themselves through <a href='/promethean/transmutations'>Transmutations</a>.
+                            Each Created is gifted a <Link to='/promethean/bestowment'>Bestowment</Link> based on their Lineage, and can use their inner
+                            fire to ignite change in the world and themselves through <Link to='/promethean/transmutations'>Transmutations</Link>.
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            The Created have access to several unique <a href='/promethean/merits'>Merits</a> beyond mortal scope.
+                            The Created have access to several unique <Link to='/promethean/merits'>Merits</Link> beyond mortal scope.
                         </p>
                     </div>
                 </section>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Races.css';
+import { Link } from 'react-router-dom';
 
 export default function Vampire() {
     return (
@@ -14,12 +15,12 @@ export default function Vampire() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            Vampires are reborn as members of a <a href='/vampire/clan'>Clan</a>, and may further belong to or join a <a href='/vampire/bloodline'>Bloodline</a>.
-                            Vampires often join a <a href='/vampire/covenant'>Covenant</a> based on their philosophy toward the Long Night.
+                            Vampires are reborn as members of a <Link to='/vampire/clan'>Clan</Link>, and may further belong to or join a <Link to='/vampire/bloodline'>Bloodline</Link>.
+                            Vampires often join a <Link to='/vampire/covenant'>Covenant</Link> based on their philosophy toward the Long Night.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            Kindred posses a unique Power Stat trait called <a href='/vampire/blood_potency'>Blood Potency</a>,
+                            Kindred posses a unique Power Stat trait called <Link to='/vampire/blood_potency'>Blood Potency</Link>,
                             and a Morality trait called Humanity.
                         </p>
                     </div>
@@ -27,16 +28,16 @@ export default function Vampire() {
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            The Kindred practice <a href='/vampire/disciplines'>Disciplines</a> by manipulating their Vitae,
-                            and can combine them into advanced techniques called <a href='/vampire/devotions'>Devotions</a>.
+                            The Kindred practice <Link to='/vampire/disciplines'>Disciplines</Link> by manipulating their Vitae,
+                            and can combine them into advanced techniques called <Link to='/vampire/devotions'>Devotions</Link>.
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            Vampires have access to several unique <a href='/vampire/merits'>Merits</a> beyond mortal scope,
-                            including specific <a href='/vampire/locations'>Locations</a> and Combat Styles.
+                            Vampires have access to several unique <Link to='/vampire/merits'>Merits</Link> beyond mortal scope,
+                            including specific <Link to='/vampire/locations'>Locations</Link> and Combat Styles.
                         </p>
                         <p>
-                            The Kindred can also create <a href='/vampire/ghoul'>Ghouls</a> to act as their pawns.
+                            The Kindred can also create <Link to='/vampire/ghoul'>Ghouls</Link> to act as their pawns.
                         </p>
                     </div>
                 </section>

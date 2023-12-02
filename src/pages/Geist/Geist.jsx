@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/Races.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Geist() {
@@ -14,32 +15,32 @@ export default function Geist() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            The Bound either have <a href='/geist/thresholds'>Thresholds</a> describing the character of their deaths.
-                            <a href='/geist/archetypes'>Archetypes</a> describe what they do with their second life and what greater missions move them.
+                            The Bound either have <Link to='/geist/thresholds'>Thresholds</Link> describing the character of their deaths.
+                            <Link to='/geist/archetypes'>Archetypes</Link> describe what they do with their second life and what greater missions move them.
                         </p>
                         <p>
                             Sin-Eaters gather unique krewes around them and their ideas, which provide
-                            various <a href='/geist/krewe_traits'>Krewe Traits</a> to members.
+                            various <Link to='/geist/krewe_traits'>Krewe Traits</Link> to members.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            The twice-living possess a unique power trait called <a href='/geist/psyche'>Psyche</a>, and a Morality
-                            trait called <a href='/geist/synergy'>Synergy</a>.
+                            The twice-living possess a unique power trait called <Link to='/geist/psyche'>Psyche</Link>, and a Morality
+                            trait called <Link to='/geist/synergy'>Synergy</Link>.
                         </p>
                     </div>
 
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            Sin-Eaters can unlock <a href='/geist/manifestations'>Manifestations</a> through the Keys of the Underworld to
-                            conjure ghostly phenomena. They can also learn and teach deathly <a href='/geist/ceremonies'>Ceremonies</a>.                        </p>
+                            Sin-Eaters can unlock <Link to='/geist/manifestations'>Manifestations</Link> through the Keys of the Underworld to
+                            conjure ghostly phenomena. They can also learn and teach deathly <Link to='/geist/ceremonies'>Ceremonies</Link>.                        </p>
                         <p>
-                            Many Sin-Eaters carry <a href='/geist/mementos'>Mementos</a> touched by significant deaths.
+                            Many Sin-Eaters carry <Link to='/geist/mementos'>Mementos</Link> touched by significant deaths.
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            Sin-Eaters have access to several unique <a href='/geist/merits'>Merits</a> beyond mortal
-                            scope, as well as specific <a href='/geist/locations'>Locations</a>.
+                            Sin-Eaters have access to several unique <Link to='/geist/merits'>Merits</Link> beyond mortal
+                            scope, as well as specific <Link to='/geist/locations'>Locations</Link>.
                         </p>
                     </div>
                 </section>
