@@ -13,6 +13,10 @@ import MageMerits from './pages/Mage/MageMerits'
 import Path from './pages/Mage/Path';
 import Order from './pages/Mage/Order';
 import Legacy from './pages/Mage/Legacy';
+import LegacyDetail from './pages/Mage/LegacyDetail';
+import Gnosis from './pages/Mage/Gnosis'
+import Wisdom from './pages/Mage/Wisdom';
+import LegacyData from './Data/Mage/LegacyData';
 import Promethean from './pages/Promethean/Promethean'
 import Transmutations from './pages/Promethean/Transmutations'
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
@@ -35,11 +39,16 @@ import MummyMerits from './pages/Mummy/MummyMerits';
 import Mortal from './pages/MortalsAndOthers/Mortal';
 import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
 import Books from './pages/Generale/Books';
-import { BrowserRouter,Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import './css/App.css';
 
 function App() {
+
+  const removeSpaceForLinks = (title) => {
+    return title.replace(/ /g, '_');
+  };
+
   return (
     <>
       <Navbar />
@@ -69,7 +78,16 @@ function App() {
         <Route path="/mage/path" element={<Path />} />
         <Route path="/mage/order" element={<Order />} />
         <Route path="/mage/legacy" element={<Legacy />} />
-
+        <Route path="/mage/gnosis" element={<Gnosis />} />
+        <Route path="/mage/wisdom" element={<Wisdom />} />
+        {/* Loop through LegacyData to generate routes */}
+        {LegacyData.map((legacy, index) => (
+          <Route
+            key={index}
+            path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
+            element={<LegacyDetail />} // Assuming the component for each legacy is <Legacy />
+          />
+        ))}
 
         {/* PROMETEANI */}
         <Route path="/promethean" element={<Promethean />} />
