@@ -33,7 +33,8 @@ export default function Mage() {
                             in the form of Attainments that are unaffected by mortal disbelief.
                         </p>
                         <p>
-                            Mages often find or craft mystic items, including Artifacts, Imbued Items, and Grimoires.
+                            Mages often find or craft mystic items, including <Link to='/mage/artifacts'>Artifacts</Link>, <Link to='/mage/imbued_items'>Imbued Items</Link>,
+                            and <Link to='/mage/grimoires'>Grimoires</Link>.
                         </p>
                         <p>
                             Civilized conflict among the Wise is resolved through the Duel Arcane, a direct conflict of magical will.

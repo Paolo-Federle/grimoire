@@ -1,9 +1,8 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 
-
+// activeRowLink per attivare link nella tabella
 export default function SimpleTable(props) {
-
     const tableHeaders = Object.keys(props.table[0]).filter(header => header !== 'link');
 
     const navigate = useNavigate();
@@ -26,7 +25,16 @@ export default function SimpleTable(props) {
                                 ))}
                             </tr>
                             {props.table.map((data, index) => (
-                                <tr key={index} className='alternating-row table-clickable' onClick={()=> goRouteId(data.link)}>
+                                <tr
+                                    key={index}
+                                    className={`alternating-row table-clickable ${props.activeRowLink ? 'active-row-link' : ''
+                                        }`}
+                                    onClick={
+                                        props.activeRowLink
+                                            ? () => goRouteId(data.link)
+                                            : undefined
+                                    }
+                                >
                                     {tableHeaders.map((header) => (
                                         <td key={header}>{data[header]}</td>
                                     ))}

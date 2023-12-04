@@ -37,6 +37,6 @@ export default function Legacy() {
 
 
     return (
-        <SimpleTable table={LegacyReducedData} title={'Legacy'} />
+        <SimpleTable table={LegacyReducedData} title={'Legacy'} activeRowLink={true}/>
     );
 }
