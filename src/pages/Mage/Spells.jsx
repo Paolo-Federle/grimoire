@@ -9,10 +9,8 @@ import { primeOneData, primeTwoData, primeThreeData, primeFourData, primeFiveDat
 import { spaceOneData, spaceTwoData, spaceThreeData, spaceFourData, spaceFiveData } from '../../Data/Mage/Arcana/SpaceData';
 import { spiritOneData, spiritTwoData, spiritThreeData, spiritFourData, spiritFiveData } from '../../Data/Mage/Arcana/SpiritData';
 import { timeOneData, timeTwoData, timeThreeData, timeFourData, timeFiveData } from '../../Data/Mage/Arcana/TimeData';
-import { DeathData, FateData, ForceData, LifeData, MatterData, MindData, PrimeData, SpaceData, SpiritData, TimeData, SpellsData } from '../../Data/Mage/Arcana/allArcana'
 import MultipleTables from '../../components/MultipleTables';
 
-// console.log(deathOneData)
 
 export default function Spells() {
 

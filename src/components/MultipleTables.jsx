@@ -13,17 +13,7 @@ export default function MultipleTables(props) {
 
     const goRouteId = (id) => {
         navigate(`${id}`);
-        console.log('goroute', id)
     }
-
-    const checkRowData = (rowData) => {
-        console.log('Row Data:', rowData);
-        console.log('Row Data type:', typeof rowData);
-        console.log('Is Array?', Array.isArray(rowData));
-        console.log('Row Data length:', Array.isArray(rowData) ? rowData.length : 'Not an array');
-        console.log()
-    };
-    checkRowData(props.listOfRows)
 
 
     return (

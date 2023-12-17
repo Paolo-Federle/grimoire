@@ -14,6 +14,7 @@ import Path from './pages/Mage/Path';
 import Order from './pages/Mage/Order';
 import Legacy from './pages/Mage/Legacy';
 import LegacyDetail from './pages/Mage/LegacyDetail';
+import SpellDetail from './pages/Mage/SpellDetail';
 import Gnosis from './pages/Mage/Gnosis'
 import Wisdom from './pages/Mage/Wisdom';
 import LegacyData from './Data/Mage/LegacyData';
@@ -93,7 +94,7 @@ function App() {
           <Route
             key={index}
             path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
-            element={<LegacyDetail legacy={spell} />}
+            element={<SpellDetail spell={spell} />}
           />
         ))}
 
