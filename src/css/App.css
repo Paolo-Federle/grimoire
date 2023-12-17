@@ -1,6 +1,7 @@
 .spacing-table {
     border-collapse: collapse;
     text-align: left;
+    width: 100%;
 }
 
 
@@ -26,11 +27,11 @@ th {
     box-sizing: border-box;
 }
 
-.conteiner-text{
+.conteiner-text {
     text-align: center;
 }
 
-.additional-text{
+.additional-text {
     display: inline-block;
     width: max-content;
     text-align: left;
@@ -53,6 +54,6 @@ th {
 }
 
 .table-clickable:hover {
-    background-color: rgba(0, 26, 255, 0.1); 
-    cursor: pointer; 
+    background-color: rgba(0, 26, 255, 0.1);
+    cursor: pointer;
 }

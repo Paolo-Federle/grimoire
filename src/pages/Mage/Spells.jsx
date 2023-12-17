@@ -9,11 +9,67 @@ import { primeOneData, primeTwoData, primeThreeData, primeFourData, primeFiveDat
 import { spaceOneData, spaceTwoData, spaceThreeData, spaceFourData, spaceFiveData } from '../../Data/Mage/Arcana/SpaceData';
 import { spiritOneData, spiritTwoData, spiritThreeData, spiritFourData, spiritFiveData } from '../../Data/Mage/Arcana/SpiritData';
 import { timeOneData, timeTwoData, timeThreeData, timeFourData, timeFiveData } from '../../Data/Mage/Arcana/TimeData';
+import { DeathData, FateData, ForceData, LifeData, MatterData, MindData, PrimeData, SpaceData, SpiritData, TimeData, SpellsData } from '../../Data/Mage/Arcana/allArcana'
+import MultipleTables from '../../components/MultipleTables';
 
+// console.log(deathOneData)
 
 export default function Spells() {
-    return (
-        <>
-        </>
-    );
+
+    function addLinkToList(listOfLists) {
+        return listOfLists.map(list => {
+            return list.map(obj => {
+                obj.link = `/mage/spells/${obj.Titolo.replace(/ /g, '_')}`;
+                return obj;
+            });
+        });
+    }
+
+    function generateHeaders(title) {
+        const displayHeaders = ['Description', 'Aspect', 'Cost', 'Arcana'];
+        const headers = [];
+
+        for (let i = 1; i <= 5; i++) {
+            headers.push([`${title} ${i}`, ...displayHeaders]);
+        }
+
+        return headers;
+    }
+
+
+    const arcanaSets = ['Death', 'Fate', 'Force', 'Life', 'Matter', 'Mind', 'Prime', 'Space', 'Spirit', 'Time'];
+
+    const deathWithLink = addLinkToList([deathOneData, deathTwoData, deathThreeData, deathFourData, deathFiveData])
+    const fateWithLink = addLinkToList([fateOneData, fateTwoData, fateThreeData, fateFourData, fateFiveData])
+    const forceWithLink = addLinkToList([forceOneData, forceTwoData, forceThreeData, forceFourData, forceFiveData])
+    const LifeWithLink = addLinkToList([lifeOneData, lifeTwoData, lifeThreeData, lifeFourData, lifeFiveData])
+    const MatterWithLink = addLinkToList([matterOneData, matterTwoData, matterThreeData, matterFourData, matterFiveData])
+    const MindWithLink = addLinkToList([mindOneData, mindTwoData, mindThreeData, mindFourData, mindFiveData])
+    const PrimeWithLink = addLinkToList([primeOneData, primeTwoData, primeThreeData, primeFourData, primeFiveData])
+    const SpaceWithLink = addLinkToList([spaceOneData, spaceTwoData, spaceThreeData, spaceFourData, spaceFiveData])
+    const SpiritWithLink = addLinkToList([spiritOneData, spiritTwoData, spiritThreeData, spiritFourData, spiritFiveData])
+    const TimeWithLink = addLinkToList([timeOneData, timeTwoData, timeThreeData, timeFourData, timeFiveData])
+
+    const arcanaData = [
+        deathWithLink, fateWithLink, forceWithLink, LifeWithLink, MatterWithLink,
+        MindWithLink, PrimeWithLink, SpaceWithLink, SpiritWithLink, TimeWithLink
+    ];
+
+    const arcanaHeaders = arcanaSets.map(set => generateHeaders(set.charAt(0) + set.slice(1)));
+
+    // Define the headers that correspond to your data keys
+    const tableFields = ['Titolo', 'DescrizioneBreve', 'Aspect', 'Cost', 'Arcana'];
+
+    const renderedArcanaTables = arcanaData.map((arcana, index) => (
+        <MultipleTables
+            key={index}
+            listOfRows={arcana}
+            title={arcanaSets[index]}
+            activeRowLink={true}
+            displayHeaders={arcanaHeaders[index]}
+            tableFields={tableFields}
+        />
+    ));
+
+    return <div className='grid-container'>{renderedArcanaTables}</div>;
 }

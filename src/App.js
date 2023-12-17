@@ -17,6 +17,7 @@ import LegacyDetail from './pages/Mage/LegacyDetail';
 import Gnosis from './pages/Mage/Gnosis'
 import Wisdom from './pages/Mage/Wisdom';
 import LegacyData from './Data/Mage/LegacyData';
+import { SpellsData } from './Data/Mage/Arcana/allArcana'
 import Promethean from './pages/Promethean/Promethean'
 import Transmutations from './pages/Promethean/Transmutations'
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
@@ -80,12 +81,19 @@ function App() {
         <Route path="/mage/legacy" element={<Legacy />} />
         <Route path="/mage/gnosis" element={<Gnosis />} />
         <Route path="/mage/wisdom" element={<Wisdom />} />
-        {/* Loop through LegacyData to generate routes */}
+        {/* Loop through data to generate routes */}
         {LegacyData.map((legacy, index) => (
           <Route
             key={index}
             path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
-            element={<LegacyDetail />} // Assuming the component for each legacy is <Legacy />
+            element={<LegacyDetail legacy={legacy} />}
+          />
+        ))}
+        {SpellsData.map((spell, index) => (
+          <Route
+            key={index}
+            path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
+            element={<LegacyDetail legacy={spell} />}
           />
         ))}
 
