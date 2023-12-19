@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Home from './pages/home'
 import Vampire from './pages/Vampire/Vampire'
 import Disciplines from './pages/Vampire/Disciplines'
@@ -43,90 +43,152 @@ import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
 import Books from './pages/Generale/Books';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
+import { useLocation } from 'react-router-dom';
 import './css/App.css';
+import './css/Races-Style.css'
 
 function App() {
+  const [categoryStyle, setCategoryStyle] = useState('');
+  const location = useLocation();
+
+  useEffect(() => {
+    const getCategoryFromPath = (path) => {
+      const categories = [
+        'mortals',
+        'vampire',
+        'werewolf',
+        'mage',
+        'promethean',
+        'changeling',
+        'hunter',
+        'geist',
+        'mummy',
+        'others'
+      ];
+
+      const pathSegments = path.split('/'); // Split the URL by '/'
+      const categoryIndex = pathSegments.findIndex(segment =>
+        categories.includes(segment)
+      );
+      if (categoryIndex !== -1) {
+        return pathSegments[categoryIndex]; // Return the category found in the URL
+      }
+
+      return 'others'; // If no matching category is found, default to 'others'
+    };
+
+
+    const handlePageChange = () => {
+      const currentCategory = getCategoryFromPath(window.location.href);
+      let newCategoryStyle = '';
+
+      switch (currentCategory) {
+        case 'mage':
+          newCategoryStyle = 'mage-style';
+          document.body.className = newCategoryStyle
+          break;
+        case 'vampire':
+          newCategoryStyle = 'vampire-style';
+          document.body.className = newCategoryStyle
+          break;
+        default:
+          newCategoryStyle = 'default-style';
+          document.body.className = newCategoryStyle
+          break;
+      }
+
+      setCategoryStyle(newCategoryStyle);
+    };
+
+    
+    // Initial update based on current URL
+    handlePageChange();
+
+  }, [location]);
 
   const removeSpaceForLinks = (title) => {
     return title.replace(/ /g, '_');
   };
 
+
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/books" element={<Books />} />
+      <div className={`page-container ${categoryStyle}`}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/books" element={<Books />} />
 
-        {/* Mortals */}
-        <Route path="/mortal" element={<Mortal />} />
-        <Route path="/mortal/merits" element={<MortalMerits />} />
+          {/* Mortals */}
+          <Route path="/mortal" element={<Mortal />} />
+          <Route path="/mortal/merits" element={<MortalMerits />} />
 
-        {/* VAMPIRI */}
-        <Route path="/vampire" element={<Vampire />} />
-        <Route path="/vampire/disciplines" element={<Disciplines />} />
-        <Route path="/vampire/merits" element={<VampireMerits />} />
+          {/* VAMPIRI */}
+          <Route path="/vampire" element={<Vampire />} />
+          <Route path="/vampire/disciplines" element={<Disciplines />} />
+          <Route path="/vampire/merits" element={<VampireMerits />} />
 
-        {/* WEREWOLF */}
-        <Route path="/werewolf" element={<Werewolf />} />
-        <Route path="/werewolf/gifts" element={<Gifts />} />
-        <Route path="/werewolf/rites" element={<Rites />} />
-        <Route path="/werewolf/merits" element={<WerewolfMerits />} />
+          {/* WEREWOLF */}
+          <Route path="/werewolf" element={<Werewolf />} />
+          <Route path="/werewolf/gifts" element={<Gifts />} />
+          <Route path="/werewolf/rites" element={<Rites />} />
+          <Route path="/werewolf/merits" element={<WerewolfMerits />} />
 
-        {/* MAGE */}
-        <Route path="/mage" element={<Mage />} />
-        <Route path="/mage/spells" element={<Spells />} />
-        <Route path="/mage/merits" element={<MageMerits />} />
-        <Route path="/mage/path" element={<Path />} />
-        <Route path="/mage/order" element={<Order />} />
-        <Route path="/mage/legacy" element={<Legacy />} />
-        <Route path="/mage/gnosis" element={<Gnosis />} />
-        <Route path="/mage/wisdom" element={<Wisdom />} />
-        {/* Loop through data to generate routes */}
-        {LegacyData.map((legacy, index) => (
-          <Route
-            key={index}
-            path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
-            element={<LegacyDetail legacy={legacy} />}
-          />
-        ))}
-        {SpellsData.map((spell, index) => (
-          <Route
-            key={index}
-            path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
-            element={<SpellDetail spell={spell} />}
-          />
-        ))}
+          {/* MAGE */}
+          <Route path="/mage" element={<Mage />} />
+          <Route path="/mage/spells" element={<Spells />} />
+          <Route path="/mage/merits" element={<MageMerits />} />
+          <Route path="/mage/path" element={<Path />} />
+          <Route path="/mage/order" element={<Order />} />
+          <Route path="/mage/legacy" element={<Legacy />} />
+          <Route path="/mage/gnosis" element={<Gnosis />} />
+          <Route path="/mage/wisdom" element={<Wisdom />} />
+          {/* Loop through data to generate routes */}
+          {LegacyData.map((legacy, index) => (
+            <Route
+              key={index}
+              path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
+              element={<LegacyDetail legacy={legacy} />}
+            />
+          ))}
+          {SpellsData.map((spell, index) => (
+            <Route
+              key={index}
+              path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
+              element={<SpellDetail spell={spell} />}
+            />
+          ))}
 
-        {/* PROMETEANI */}
-        <Route path="/promethean" element={<Promethean />} />
-        <Route path="/promethean/transmutations" element={<Transmutations />} />
-        <Route path="/promethean/merits" element={<PrometheanMerits />} />
+          {/* PROMETEANI */}
+          <Route path="/promethean" element={<Promethean />} />
+          <Route path="/promethean/transmutations" element={<Transmutations />} />
+          <Route path="/promethean/merits" element={<PrometheanMerits />} />
 
-        {/* CHANGELING */}
-        <Route path="/changeling" element={<Changeling />} />
-        <Route path="/changeling/contracts" element={<Contracts />} />
-        <Route path="/changeling/oaths" element={<Oaths />} />
-        <Route path="/changeling/merits" element={<ChangelingMerits />} />
+          {/* CHANGELING */}
+          <Route path="/changeling" element={<Changeling />} />
+          <Route path="/changeling/contracts" element={<Contracts />} />
+          <Route path="/changeling/oaths" element={<Oaths />} />
+          <Route path="/changeling/merits" element={<ChangelingMerits />} />
 
-        {/* HUNTER */}
-        <Route path="/hunter" element={<Hunter />} />
-        <Route path="/hunter/endowments " element={<Endowments />} />
-        <Route path="/hunter/tactics" element={<Tactics />} />
-        <Route path="/hunter/merits" element={<HunterMerits />} />
+          {/* HUNTER */}
+          <Route path="/hunter" element={<Hunter />} />
+          <Route path="/hunter/endowments " element={<Endowments />} />
+          <Route path="/hunter/tactics" element={<Tactics />} />
+          <Route path="/hunter/merits" element={<HunterMerits />} />
 
-        {/* GEIST */}
-        <Route path="/geist" element={<Geist />} />
-        <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
-        <Route path="/geist/ceremonies" element={<Ceremonies />} />
-        <Route path="/geist/merits" element={<GeistMerits />} />
+          {/* GEIST */}
+          <Route path="/geist" element={<Geist />} />
+          <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
+          <Route path="/geist/ceremonies" element={<Ceremonies />} />
+          <Route path="/geist/merits" element={<GeistMerits />} />
 
-        {/* MUMMY */}
-        <Route path="/mummy" element={<Mummy />} />
-        <Route path="/mummy/affinities" element={<Affinities />} />
-        <Route path="/mummy/utterances" element={<Utterances />} />
-        <Route path="/mummy/merits" element={<MummyMerits />} />
-      </Routes>
+          {/* MUMMY */}
+          <Route path="/mummy" element={<Mummy />} />
+          <Route path="/mummy/affinities" element={<Affinities />} />
+          <Route path="/mummy/utterances" element={<Utterances />} />
+          <Route path="/mummy/merits" element={<MummyMerits />} />
+        </Routes>
+      </div>
     </>
   );
 }
