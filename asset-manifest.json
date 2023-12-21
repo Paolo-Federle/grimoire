@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/grimoire/static/css/main.d17fc7cc.css",
-    "main.js": "/grimoire/static/js/main.d89b6070.js",
+    "main.css": "/grimoire/static/css/main.35a5d83a.css",
+    "main.js": "/grimoire/static/js/main.74b50961.js",
     "static/js/787.b814840d.chunk.js": "/grimoire/static/js/787.b814840d.chunk.js",
     "index.html": "/grimoire/index.html",
-    "main.d17fc7cc.css.map": "/grimoire/static/css/main.d17fc7cc.css.map",
-    "main.d89b6070.js.map": "/grimoire/static/js/main.d89b6070.js.map",
+    "main.35a5d83a.css.map": "/grimoire/static/css/main.35a5d83a.css.map",
+    "main.74b50961.js.map": "/grimoire/static/js/main.74b50961.js.map",
     "787.b814840d.chunk.js.map": "/grimoire/static/js/787.b814840d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d17fc7cc.css",
-    "static/js/main.d89b6070.js"
+    "static/css/main.35a5d83a.css",
+    "static/js/main.74b50961.js"
   ]
 }
