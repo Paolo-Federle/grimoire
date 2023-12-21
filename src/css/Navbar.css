@@ -20,3 +20,15 @@ a.active {
     font-weight: bold !important;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        position: static;
+    }
+    .navbar a {
+        margin: 5px;
+    }
+
+}

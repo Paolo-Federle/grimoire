@@ -4,7 +4,7 @@ import '../css/Navbar.css';
 
 export default function Navbar() {
     return (
-        <div className="navbar center-horizontally">
+        <div className="navbar">
             <NavLink exact to="/" >Home</NavLink>
             <NavLink exact to="/mortal" >Mortals</NavLink>
             <NavLink exact to="/vampire">Vampire</NavLink>
