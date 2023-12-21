@@ -7,7 +7,7 @@ export default function Home() {
         <>
             <div className="center-vertically flex-row">
                 <div className="flexed-column">
-                    <table className="table-container">
+                    <table className="home-table-container">
                         <tbody>
                             <tr>
                                 <th className='table-header'>About the Chronicles of Darkness</th>
@@ -21,7 +21,7 @@ export default function Home() {
                             </tr>
                         </tbody>
                     </table>
-                    <table className="table-container">
+                    <table className="home-table-container">
                         <tbody>
                             <tr>
                                 <th className='table-header'>Subject Areas</th>
@@ -50,7 +50,7 @@ export default function Home() {
                     </table>
                 </div>
                 <div class="flexed-column">
-                    <table className="table-container">
+                    <table className="home-table-container">
                         <tbody>
                             <tr>
                                 <th className='table-header'>Gameline Portals</th>
