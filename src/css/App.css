@@ -31,6 +31,7 @@ th {
     max-width: 100vw;
     display: table;
     box-sizing: border-box;
+    background-color: white;
 }
 
 .conteiner-text {
@@ -52,11 +53,13 @@ th {
 }
 
 .alternating-row {
-    background: none;
+    background: white;
+    color: black;
 }
 
 .alternating-row:nth-child(odd) {
     background: #EEE;
+    color: black;
 }
 
 .table-clickable:hover {

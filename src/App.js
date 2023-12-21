@@ -54,7 +54,7 @@ function App() {
   useEffect(() => {
     const getCategoryFromPath = (path) => {
       const categories = [
-        'mortals',
+        'mortal',
         'vampire',
         'werewolf',
         'mage',
@@ -91,6 +91,22 @@ function App() {
           newCategoryStyle = 'vampire-style';
           document.body.className = newCategoryStyle
           break;
+        case 'mortal':
+          newCategoryStyle = 'mortals-style';
+          document.body.className = newCategoryStyle
+          break;
+        case 'werewolf':
+          newCategoryStyle = 'werewolf-style';
+          document.body.className = newCategoryStyle
+          break;
+        case 'promethean':
+          newCategoryStyle = 'promethean-style';
+          document.body.className = newCategoryStyle
+          break;
+        case 'changeling':
+          newCategoryStyle = 'changeling-style';
+          document.body.className = newCategoryStyle
+          break;
         default:
           newCategoryStyle = 'default-style';
           document.body.className = newCategoryStyle
@@ -100,7 +116,7 @@ function App() {
       setCategoryStyle(newCategoryStyle);
     };
 
-    
+
     // Initial update based on current URL
     handlePageChange();
 
