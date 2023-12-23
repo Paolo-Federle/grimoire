@@ -10,7 +10,7 @@ export default function LegacyDetail(props) {
             {matchedLegacy && (
                 <>
                     <h1 style={{ marginBottom: '10px' }}>{matchedLegacy.Nome}</h1>
-                    <div style={{ backgroundColor: '#f7f7f7', color: '#333333', overflow: 'hidden' }}>
+                    <div style={{ overflow: 'hidden' }}>
                         <div style={{ display: 'flex' }}>
                             <div style={{ width: '600px', marginRight: '20px', overflowY: 'scroll', height: '96vh', margin: '10px' }}>
 

@@ -13,7 +13,7 @@ export default function SimpleTable(props) {
     return (
         <>
 
-            <div className='grid-container'>
+            <div>
                 <h1>{props.title}</h1>
                 <div className='table-container'>
 

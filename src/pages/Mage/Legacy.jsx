@@ -37,6 +37,8 @@ export default function Legacy() {
 
 
     return (
-        <SimpleTable table={LegacyReducedData} title={'Legacy'} activeRowLink={true}/>
+        <div className='grid-container'>
+            <SimpleTable table={LegacyReducedData} title={'Legacy'} activeRowLink={true} />
+        </div>
     );
 }

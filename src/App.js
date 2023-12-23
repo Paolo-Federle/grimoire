@@ -19,6 +19,9 @@ import Gnosis from './pages/Mage/Gnosis'
 import Wisdom from './pages/Mage/Wisdom';
 import LegacyData from './Data/Mage/LegacyData';
 import { SpellsData } from './Data/Mage/Arcana/allArcana'
+import Artifacts from './pages/Mage/Artifact'
+import ArtifactsData from './Data/Mage/artifactsData';
+import ArtifactDetail from './pages/Mage/ArtifactDetail';
 import Promethean from './pages/Promethean/Promethean'
 import Transmutations from './pages/Promethean/Transmutations'
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
@@ -152,14 +155,12 @@ function App() {
 
           {/* MAGE */}
           <Route path="/mage" element={<Mage />} />
-          <Route path="/mage/spells" element={<Spells />} />
           <Route path="/mage/merits" element={<MageMerits />} />
           <Route path="/mage/path" element={<Path />} />
           <Route path="/mage/order" element={<Order />} />
-          <Route path="/mage/legacy" element={<Legacy />} />
           <Route path="/mage/gnosis" element={<Gnosis />} />
           <Route path="/mage/wisdom" element={<Wisdom />} />
-          {/* Loop through data to generate routes */}
+          <Route path="/mage/legacy" element={<Legacy />} />
           {LegacyData.map((legacy, index) => (
             <Route
               key={index}
@@ -167,6 +168,7 @@ function App() {
               element={<LegacyDetail legacy={legacy} />}
             />
           ))}
+          <Route path="/mage/spells" element={<Spells />} />
           {SpellsData.map((spell, index) => (
             <Route
               key={index}
@@ -174,6 +176,15 @@ function App() {
               element={<SpellDetail spell={spell} />}
             />
           ))}
+          <Route path="/mage/artifacts" element={<Artifacts />} />
+          {ArtifactsData.map((artifact, index) => (
+            <Route
+              key={index}
+              path={`/mage/artifacts/${removeSpaceForLinks(artifact.Nome)}`}
+              element={<ArtifactDetail artifact={artifact} />}
+            />
+          ))}
+
 
           {/* PROMETEANI */}
           <Route path="/promethean" element={<Promethean />} />

@@ -5,6 +5,8 @@ import PathData from '../../Data/Mage/PathData';
 export default function Path() {
 
     return (
-        <SimpleTable table={PathData} title={'Path'} />
+        <div className='grid-container'>
+            <SimpleTable table={PathData} title={'Path'} />
+        </div>
     );
 }

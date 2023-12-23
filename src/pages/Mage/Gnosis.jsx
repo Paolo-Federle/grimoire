@@ -5,6 +5,8 @@ import GnosisData from '../../Data/Mage/GnosisData';
 export default function Path() {
 
     return (
-        <SimpleTable table={GnosisData} title={'Gnosis'} />
+        <div className='grid-container'>
+            <SimpleTable table={GnosisData} title={'Gnosis'} />
+        </div>
     );
 }

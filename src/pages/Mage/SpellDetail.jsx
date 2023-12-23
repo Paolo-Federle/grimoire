@@ -53,38 +53,12 @@ export default function SpellDetail(props) {
         return text;
     }
 
-    function generateNewPageContent(matchedSpell) {
-        // Object to display
 
-
-        return (
-            <div>
-                {matchedSpell && (
-                    <>
-                        <div style="margin: 20px; background-color: #f7f7f7; color: #333333; width: 600px;">
-                            <h1>${matchedSpell.Titolo} (${matchedSpell.Arcana})</h1>
-
-                            {matchedSpell.DescrizioneAlta && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.DescrizioneAlta }} /></p>}
-                            {matchedSpell.Practice && <div><b>Practice:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Practice }} /></div>}
-                            {matchedSpell.Action && <div><b>Action:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Action }} /></div>}
-                            {matchedSpell.Duration && <div><b>Duration:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Duration }} /></div>}
-                            {matchedSpell.Aspect && <div><b>Aspect:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Aspect }} /></div>}
-                            {matchedSpell.Cost && <div><b>Cost:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Cost }} /></div>}
-                            ${matchedSpell.DescrizioneMiddle ? `<p>${replacePlaceholders(matchedSpell.DescrizioneMiddle)}</p>` : ''}
-                            {matchedSpell.RoteName && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteName }} /></p>}
-                            {matchedSpell.RoteDice && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} /></p>}
-                            {matchedSpell.RoteDescrizione && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDescrizione }} /></p>}
-                        </div>
-                    </>
-                )}
-            </div>
-        );
-    }
     return (
         <div>
             {matchedSpell && (
                 <>
-                    <div style={{ margin: '20px', color: '#333333', width: '1000px' }}>
+                    <div style={{ margin: '20px', width: '1000px' }}>
                         <h1>{matchedSpell.Titolo} ({matchedSpell.Arcana})</h1>
 
                         {matchedSpell.DescrizioneAlta && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.DescrizioneAlta }} /></p>}
