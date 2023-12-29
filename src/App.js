@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Home from './pages/home'
+import Skills from './pages/Generale/Skills'
 import Vampire from './pages/Vampire/Vampire'
 import Disciplines from './pages/Vampire/Disciplines'
 import VampireMerits from './pages/Vampire/VampireMerits'
@@ -8,6 +9,7 @@ import Gifts from './pages/Werewolf/Gifts'
 import Rites from './pages/Werewolf/Rites'
 import WerewolfMerits from './pages/Werewolf/WerewolfMerits'
 import Mage from './pages/Mage/Mage'
+import Arcana from './pages/Mage/Arcana';
 import Spells from './pages/Mage/Spells'
 import MageMerits from './pages/Mage/MageMerits'
 import Path from './pages/Mage/Path';
@@ -110,6 +112,18 @@ function App() {
           newCategoryStyle = 'changeling-style';
           document.body.className = newCategoryStyle
           break;
+        case 'hunter':
+          newCategoryStyle = 'hunter-style';
+          document.body.className = newCategoryStyle
+          break;
+        case 'geist':
+          newCategoryStyle = 'geist-style';
+          document.body.className = newCategoryStyle
+          break;
+        case 'mummy':
+          newCategoryStyle = 'mummy-style';
+          document.body.className = newCategoryStyle
+          break;
         default:
           newCategoryStyle = 'default-style';
           document.body.className = newCategoryStyle
@@ -137,6 +151,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
+          <Route path="/skills" element={<Skills />} />
 
           {/* Mortals */}
           <Route path="/mortal" element={<Mortal />} />
@@ -174,6 +189,13 @@ function App() {
               key={index}
               path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
               element={<SpellDetail spell={spell} />}
+            />
+          ))}
+          {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
+            <Route
+              key={index}
+              path={`/mage/${arcana}`}
+              element={<Arcana arcana={arcana}/>}
             />
           ))}
           <Route path="/mage/artifacts" element={<Artifacts />} />

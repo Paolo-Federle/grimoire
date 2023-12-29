@@ -572,7 +572,7 @@ const fateThreeData = [
     },
     {
         "Titolo": "Alternate Scenerio",
-        "Arcana": "Song: No Trap) (Fate •••, Time •••",
+        "Arcana": "Fate •••, Time •••",
         "DescrizioneAlta": "The mage splits across multiple time streams, coalescing into one person at the most favorable version of events.",
         "Practice": "Weaving",
         "Action": "Instant",

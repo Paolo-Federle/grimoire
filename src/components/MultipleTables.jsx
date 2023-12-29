@@ -20,36 +20,38 @@ export default function MultipleTables(props) {
         <>
             <div className='grid-container'>
                 <h1>{props.title}</h1>
-                <button onClick={toggleTableVisibility}>
-                    {isTableVisible ? 'Hide' : 'Show'}
-                </button>
+                {!props.hideButton && ( // Check for the hideButton prop
+                    <button onClick={toggleTableVisibility}>
+                        {isTableVisible ? 'Hide' : 'Show'}
+                    </button>
+                )}
                 {isTableVisible && (
                     <div className='table-container'>
                         <table className='spacing-table'>
                             <tbody>
                                 {props.listOfRows.map((rows, index) => (
                                     <React.Fragment key={index}>
-                                            <tr className='table-row'>
-                                                {props.displayHeaders[index].map((header, index) => (
-                                                    <th key={header}>{header}</th>
+                                        <tr className='table-row'>
+                                            {props.displayHeaders[index].map((header, index) => (
+                                                <th key={header}>{header}</th>
+                                            ))}
+                                        </tr>
+                                        {rows.map((data, dataIndex) => (
+                                            <tr
+                                                key={dataIndex}
+                                                className={`alternating-row table-clickable ${props.activeRowLink ? 'active-row-link' : ''
+                                                    }`}
+                                                onClick={
+                                                    props.activeRowLink
+                                                        ? () => goRouteId(data.link)
+                                                        : undefined
+                                                }
+                                            >
+                                                {props.tableFields.map((header) => (
+                                                    <td key={header}>{data[header]}</td>
                                                 ))}
                                             </tr>
-                                            {rows.map((data, dataIndex) => (
-                                                <tr
-                                                    key={dataIndex}
-                                                    className={`alternating-row table-clickable ${props.activeRowLink ? 'active-row-link' : ''
-                                                        }`}
-                                                    onClick={
-                                                        props.activeRowLink
-                                                            ? () => goRouteId(data.link)
-                                                            : undefined
-                                                    }
-                                                >
-                                                    {props.tableFields.map((header) => (
-                                                        <td key={header}>{data[header]}</td>
-                                                    ))}
-                                                </tr>
-                                            ))}
+                                        ))}
 
                                     </React.Fragment>
                                 ))}
