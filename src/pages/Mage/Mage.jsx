@@ -29,7 +29,7 @@ export default function Mage() {
                         <h2>Abilities</h2>
                         <p>
                             The Wise can influence the world around them through <Link to='/mage/spells'>Spells</Link> crafted
-                            by their knowledge of the ten Arcana (<Link to='/mage/death'>Death</Link>, <Link to='/mage/fate'>Fate</Link>,
+                            by their knowledge of the ten Arcana (<Link to='/mage/death'>Death</Link>, <Link to='/mage/fate'>Fate</Link>,&nbsp;
                             <Link to='/mage/force'>Force</Link>,&nbsp;
                             <Link to='/mage/life'>Life</Link>,&nbsp;
                             <Link to='/mage/matter'>Matter</Link>,&nbsp;

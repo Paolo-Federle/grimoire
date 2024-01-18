@@ -2,7 +2,7 @@ import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
 import { skillsMentalData, skillsPhysicalData, skillsSocialData, skillsAlternateData } from '../../Data/SkillsData';
 
-export default function Order() {
+export default function Skills() {
 
     function renameSkillField(data, newFieldName) {
     return data.map(item => {

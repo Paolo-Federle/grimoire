@@ -32,7 +32,7 @@ export default function Home() {
                                     &nbsp;•&nbsp;
                                     <Link to="/advantages" title="Category:Advantages">Advantages</Link>
                                     &nbsp;•&nbsp;
-                                    <Link to="/merits" title="Category:Merits">Merits</Link>
+                                    <Link to="/universal_merits" title="Category:Merits">Merits</Link>
                                     &nbsp;•&nbsp;
                                     <Link to="/traits" title="Category:Traits">Traits</Link>
                                 </td>

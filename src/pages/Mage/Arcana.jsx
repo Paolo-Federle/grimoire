@@ -57,7 +57,6 @@ export default function Spells(props) {
     // Define the headers that correspond to your data keys
     const tableFields = ['Titolo', 'DescrizioneBreve', 'Aspect', 'Cost', 'Arcana'];
 
-
     const lowercaseArcanaSets = arcanaSets.map(set => set.toLowerCase());
 
     // Find the index of the arcana specified in props.arcana

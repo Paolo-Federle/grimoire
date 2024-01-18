@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Home from './pages/home'
 import Skills from './pages/Generale/Skills'
+import UniversalMerits from './pages/Generale/UniversalMerits'
 import Vampire from './pages/Vampire/Vampire'
 import Disciplines from './pages/Vampire/Disciplines'
 import VampireMerits from './pages/Vampire/VampireMerits'
@@ -12,6 +13,8 @@ import Mage from './pages/Mage/Mage'
 import Arcana from './pages/Mage/Arcana';
 import Spells from './pages/Mage/Spells'
 import MageMerits from './pages/Mage/MageMerits'
+import { allMageMeritsData } from './Data/Mage/mageMeritsData'
+import MageMeritsDetail from './pages/Mage/MageMeritsDetail'
 import Path from './pages/Mage/Path';
 import Order from './pages/Mage/Order';
 import Legacy from './pages/Mage/Legacy';
@@ -45,6 +48,8 @@ import Utterances from './pages/Mummy/Utterances';
 import MummyMerits from './pages/Mummy/MummyMerits';
 import Mortal from './pages/MortalsAndOthers/Mortal';
 import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
+import { allUniMeritsData } from './Data/universalMeritsData'
+import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
@@ -152,10 +157,19 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/universal_merits" element={<UniversalMerits />} />
+          {allUniMeritsData.map((merits, index) => (
+            <Route
+              key={index}
+              path={`/universal_merits/${removeSpaceForLinks(merits.Title)}`}
+              element={<UniversalMeritsDetail merits={merits} />}
+            />
+          ))}
 
           {/* Mortals */}
           <Route path="/mortal" element={<Mortal />} />
           <Route path="/mortal/merits" element={<MortalMerits />} />
+          
 
           {/* VAMPIRI */}
           <Route path="/vampire" element={<Vampire />} />
@@ -170,12 +184,19 @@ function App() {
 
           {/* MAGE */}
           <Route path="/mage" element={<Mage />} />
-          <Route path="/mage/merits" element={<MageMerits />} />
           <Route path="/mage/path" element={<Path />} />
           <Route path="/mage/order" element={<Order />} />
           <Route path="/mage/gnosis" element={<Gnosis />} />
           <Route path="/mage/wisdom" element={<Wisdom />} />
           <Route path="/mage/legacy" element={<Legacy />} />
+          <Route path="/mage/merits" element={<MageMerits />} />
+          {allMageMeritsData.map((merits, index) => (
+            <Route
+              key={index}
+              path={`/mage/merits/${removeSpaceForLinks(merits.Title)}`}
+              element={<MageMeritsDetail merits={merits} />}
+            />
+          ))}
           {LegacyData.map((legacy, index) => (
             <Route
               key={index}
