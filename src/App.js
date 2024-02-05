@@ -27,6 +27,9 @@ import { SpellsData } from './Data/Mage/Arcana/allArcana'
 import Artifacts from './pages/Mage/Artifact'
 import ArtifactsData from './Data/Mage/artifactsData';
 import ArtifactDetail from './pages/Mage/ArtifactDetail';
+import ImbuedItems from './pages/Mage/ImbuedItems'
+import imbuedItemsData from './Data/Mage/imbuedItemsData';
+import ImbuedItemsDetail from './pages/Mage/ImbuedItemsDetail';
 import Promethean from './pages/Promethean/Promethean'
 import Transmutations from './pages/Promethean/Transmutations'
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
@@ -225,6 +228,14 @@ function App() {
               key={index}
               path={`/mage/artifacts/${removeSpaceForLinks(artifact.Nome)}`}
               element={<ArtifactDetail artifact={artifact} />}
+            />
+          ))}
+          <Route path="/mage/imbued_items" element={<ImbuedItems />} />
+          {imbuedItemsData.map((imbuedItem, index) => (
+            <Route
+              key={index}
+              path={`/mage/imbued_items/${removeSpaceForLinks(imbuedItem.Nome)}`}
+              element={<ImbuedItemsDetail imbuedItem={imbuedItem} />}
             />
           ))}
 
