@@ -1,0 +1,18 @@
+.center-races {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.main-races {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 20px;
+  }
