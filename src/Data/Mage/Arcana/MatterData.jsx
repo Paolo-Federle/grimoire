@@ -1527,7 +1527,7 @@ const matterFiveData = [
     },
     {
         "Titolo": "Raw Creation",
-        "Arcana": "Matter ••••",
+        "Arcana": "Matter •••••",
         "DescrizioneAlta": "The mage can create an object out of nothing.",
         "Practice": "Making",
         "Action": "Instant",
