@@ -37,6 +37,7 @@ import Changeling from './pages/Changeling/Changeling';
 import Contracts from './pages/Changeling/Contracts';
 import Oaths from './pages/Changeling/Oaths';
 import ChangelingMerits from './pages/Changeling/ChangelingMerits';
+import Clarity from './pages/Changeling/Clarity';
 import Hunter from './pages/Hunter/Hunter';
 import Endowments from './pages/Hunter/Endowments';
 import Tactics from './pages/Hunter/Tactics';
@@ -250,6 +251,7 @@ function App() {
           <Route path="/changeling/contracts" element={<Contracts />} />
           <Route path="/changeling/oaths" element={<Oaths />} />
           <Route path="/changeling/merits" element={<ChangelingMerits />} />
+          <Route path="/changeling/clarity" element={<Clarity />} />
 
           {/* HUNTER */}
           <Route path="/hunter" element={<Hunter />} />

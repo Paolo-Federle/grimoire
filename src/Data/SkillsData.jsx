@@ -68,7 +68,6 @@ const skillsPhysicalData = [
     }
 ]
 
-
 const skillsSocialData = [
     {
         "skill": "Animal Ken",
