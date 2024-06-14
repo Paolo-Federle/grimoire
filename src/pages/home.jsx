@@ -39,7 +39,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <Link to="/wiki/Category:Equipment" title="Category:Equipment">Equipment</Link>
+                                    <Link to="/equipment" title="Category:Equipment">Equipment</Link>
                                     &nbsp;•&nbsp;
                                     <Link to="/wiki/Category:NPCs" title="Category:NPCs">NPCs</Link>
                                     &nbsp;•&nbsp;

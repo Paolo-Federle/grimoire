@@ -12,12 +12,11 @@ export default function SimpleTable(props) {
 
     return (
         <>
-
             <div>
                 <h1>{props.title}</h1>
                 <div className='table-container'>
 
-                    <table className='spacing-table'>
+                    <table className='spacing-table' style={{minWidth: 600}}>
                         <tbody>
                             <tr className='table-row'>
                                 {tableHeaders.map((header) => (

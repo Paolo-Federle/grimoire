@@ -1,197 +1,197 @@
 const WoDBookData = [
     {
-        'ShortName': 'Ant',
+        'Code Name': 'Ant',
         'Type': '',
-        'Name': 'Antagonists',
-        'ReleaseDate': '10/04'
+        'Title': 'Antagonists',
+        'Release Date': '10/04'
     },
     {
-        'ShortName': 'Arm',
+        'Code Name': 'Arm',
         'Type': 'Equipment',
-        'Name': 'Armory',
-        'ReleaseDate': '01/06'
+        'Title': 'Armory',
+        'Release Date': '01/06'
     },
     {
-        'ShortName': 'Reload',
+        'Code Name': 'Reload',
         'Type': 'Equipment',
-        'Name': 'Armory Reloaded',
-        'ReleaseDate': '04/09'
+        'Title': 'Armory Reloaded',
+        'Release Date': '04/09'
     },
     {
-        'ShortName': 'Asy',
+        'Code Name': 'Asy',
         'Type': '',
-        'Name': 'Asylum',
-        'ReleaseDate': '08/07'
+        'Title': 'Asylum',
+        'Release Date': '08/07'
     },
     {
-        'ShortName': 'BoS',
+        'Code Name': 'BoS',
         'Type': '',
-        'Name': 'Book of Spirits',
-        'ReleaseDate': '05/07'
+        'Title': 'Book of Spirits',
+        'Release Date': '05/07'
     },
     {
-        'ShortName': 'CB',
+        'Code Name': 'CB',
         'Type': '',
-        'Name': 'Changing Breeds',
-        'ReleaseDate': '12/07'
+        'Title': 'Changing Breeds',
+        'Release Date': '12/07'
     },
     {
-        'ShortName': 'Chi',
+        'Code Name': 'Chi',
         'Type': 'Location',
-        'Name': 'Chicago',
-        'ReleaseDate': '12/05'
+        'Title': 'Chicago',
+        'Release Date': '12/05'
     },
     {
-        'ShortName': 'DoW',
+        'Code Name': 'DoW',
         'Type': '',
-        'Name': 'Dogs of War',
-        'ReleaseDate': '06/08'
+        'Title': 'Dogs of War',
+        'Release Date': '06/08'
     },
     {
-        'ShortName': 'GS',
+        'Code Name': 'GS',
         'Type': '',
-        'Name': 'Ghost Stories',
-        'ReleaseDate': '11/04'
+        'Title': 'Ghost Stories',
+        'Release Date': '11/04'
     },
     {
-        'ShortName': 'Imm',
+        'Code Name': 'Imm',
         'Type': '',
-        'Name': 'Immortals',
-        'ReleaseDate': '05/09'
+        'Title': 'Immortals',
+        'Release Date': '05/09'
     },
     {
-        'ShortName': 'Inf',
+        'Code Name': 'Inf',
         'Type': '',
-        'Name': 'Inferno',
-        'ReleaseDate': '01/09'
+        'Title': 'Inferno',
+        'Release Date': '01/09'
     },
     {
-        'ShortName': 'Inn',
+        'Code Name': 'Inn',
         'Type': '',
-        'Name': 'Innocents',
-        'ReleaseDate': '04/08'
+        'Title': 'Innocents',
+        'Release Date': '04/08'
     },
     {
-        'ShortName': 'MR',
+        'Code Name': 'MR',
         'Type': '',
-        'Name': 'Midnight Roads',
-        'ReleaseDate': '02/08'
+        'Title': 'Midnight Roads',
+        'Release Date': '02/08'
     },
     {
-        'ShortName': 'Mir',
+        'Code Name': 'Mir',
         'Type': 'Alternate Setting',
-        'Name': 'Mirrors',
-        'ReleaseDate': '07/10'
+        'Title': 'Mirrors',
+        'Release Date': '07/10'
     },
     {
-        'ShortName': 'MP',
+        'Code Name': 'MP',
         'Type': '',
-        'Name': 'Mysterious Places',
-        'ReleaseDate': '06/05'
+        'Title': 'Mysterious Places',
+        'Release Date': '06/05'
     },
     {
-        'ShortName': 'Rel',
+        'Code Name': 'Rel',
         'Type': '',
-        'Name': 'Reliquary',
-        'ReleaseDate': '08/07'
+        'Title': 'Reliquary',
+        'Release Date': '08/07'
     },
     {
-        'ShortName': 'SS',
+        'Code Name': 'SS',
         'Type': '',
-        'Name': 'Second Sight',
-        'ReleaseDate': '04/06'
+        'Title': 'Second Sight',
+        'Release Date': '04/06'
     },
     {
-        'ShortName': 'SoM',
+        'Code Name': 'SoM',
         'Type': 'Location',
-        'Name': 'Shadows of Mexico',
-        'ReleaseDate': '10/06'
+        'Title': 'Shadows of Mexico',
+        'Release Date': '10/06'
     },
     {
-        'ShortName': 'SotUK',
+        'Code Name': 'SotUK',
         'Type': 'Location',
-        'Name': 'Shadows of the UK',
-        'ReleaseDate': '06/06'
+        'Title': 'Shadows of the UK',
+        'Release Date': '06/06'
     },
     {
-        'ShortName': 'Skin',
+        'Code Name': 'Skin',
         'Type': '',
-        'Name': 'Skinchangers',
-        'ReleaseDate': '07/06'
+        'Title': 'Skinchangers',
+        'Release Date': '07/06'
     },
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Screen',
-        'Name': 'Storyteller Screen',
-        'ReleaseDate': '04/06'
+        'Title': 'Storyteller Screen',
+        'Release Date': '04/06'
     },
     {
-        'ShortName': '13th',
+        'Code Name': '13th',
         'Type': '',
-        'Name': 'Tales from the 13th Precinct',
-        'ReleaseDate': '07/06'
+        'Title': 'Tales from the 13th Precinct',
+        'Release Date': '07/06'
     },
     {
-        'ShortName': 'UL',
+        'Code Name': 'UL',
         'Type': '',
-        'Name': 'Urban Legends',
-        'ReleaseDate': '04/07'
+        'Title': 'Urban Legends',
+        'Release Date': '04/07'
     },
     {
-        'ShortName': 'WoD',
+        'Code Name': 'WoD',
         'Type': 'Core',
-        'Name': 'The World of Darkness',
-        'ReleaseDate': '08/04'
+        'Title': 'The World of Darkness',
+        'Release Date': '08/04'
     },
     {
-        'ShortName': 'DE',
+        'Code Name': 'DE',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras',
-        'ReleaseDate': '05/16'
+        'Title': 'Dark Eras',
+        'Release Date': '05/16'
     },
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: Three Kingdoms of Darkness (CTL/GTS crossover)',
-        'ReleaseDate': '06/17'
+        'Title': 'Dark Eras: Three Kingdoms of Darkness (CTL/GTS crossover)',
+        'Release Date': '06/17'
     },
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: The Wolf and the Raven (WTF/GTS crossover)',
-        'ReleaseDate': '01/17'
+        'Title': 'Dark Eras: The Wolf and the Raven (WTF/GTS crossover)',
+        'Release Date': '01/17'
     },
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Joke',
-        'Name': 'Dudes of Legend (April Fools!)',
-        'ReleaseDate': '04/10'
+        'Title': 'Dudes of Legend (April Fools!)',
+        'Release Date': '04/10'
     },
     {
-        'ShortName': 'GotU',
+        'Code Name': 'GotU',
         'Type': '',
-        'Name': 'Glimpses of the Unknown',
-        'ReleaseDate': '07/11'
+        'Title': 'Glimpses of the Unknown',
+        'Release Date': '07/11'
     },
     {
-        'ShortName': 'MirBE',
+        'Code Name': 'MirBE',
         'Type': 'Alternate Setting',
-        'Name': 'Mirrors: Bleeding Edge (World Shard)',
-        'ReleaseDate': '01/11'
+        'Title': 'Mirrors: Bleeding Edge (World Shard)',
+        'Release Date': '01/11'
     },
 
     {
-        'ShortName': 'MirIM',
+        'Code Name': 'MirIM',
         'Type': 'Alternate Setting',
-        'Name': 'Mirrors: Infinite Macabre (World Shard)',
-        'ReleaseDate': '01/11'
+        'Title': 'Mirrors: Infinite Macabre (World Shard)',
+        'Release Date': '01/11'
     },
 
     {
-        'ShortName': 'PM',
+        'Code Name': 'PM',
         'Type': '',
-        'Name': 'Proverbial Monsters',
-        'ReleaseDate': '10/09'
+        'Title': 'Proverbial Monsters',
+        'Release Date': '10/09'
     }
 ]
 
@@ -199,855 +199,855 @@ const VampireBookData = [
 
 
     {
-        'ShortName': 'AB',
+        'Code Name': 'AB',
         'Type': 'Bloodlines',
-        'Name': 'Ancient Bloodlines',
-        'ReleaseDate': '05/09'
+        'Title': 'Ancient Bloodlines',
+        'Release Date': '05/09'
     },
 
     {
-        'ShortName': 'AM',
+        'Code Name': 'AM',
         'Type': '',
-        'Name': 'Ancient Mysteries',
-        'ReleaseDate': '04/09'
+        'Title': 'Ancient Mysteries',
+        'Release Date': '04/09'
     },
 
     {
-        'ShortName': 'Nos',
+        'Code Name': 'Nos',
         'Type': '',
-        'Name': 'The Beast That Haunts the Blood: Nosferatu',
-        'ReleaseDate': '03/09'
+        'Title': 'The Beast That Haunts the Blood: Nosferatu',
+        'Release Date': '03/09'
     },
 
     {
-        'ShortName': 'BB',
+        'Code Name': 'BB',
         'Type': '',
-        'Name': "Belial's Brood",
-        'ReleaseDate': '01/07'
+        'Title': "Belial's Brood",
+        'Release Date': '01/07'
     },
 
     {
-        'ShortName': 'Blood',
+        'Code Name': 'Blood',
         'Type': '',
-        'Name': 'The Blood',
-        'ReleaseDate': '05/07'
+        'Title': 'The Blood',
+        'Release Date': '05/07'
     },
 
     {
-        'ShortName': 'BtC',
+        'Code Name': 'BtC',
         'Type': 'Bloodlines',
-        'Name': 'Bloodlines: the Chosen',
-        'ReleaseDate': '07/07'
+        'Title': 'Bloodlines: the Chosen',
+        'Release Date': '07/07'
     },
 
     {
-        'ShortName': 'BtH',
+        'Code Name': 'BtH',
         'Type': 'Bloodlines',
-        'Name': 'Bloodlines: the Hidden',
-        'ReleaseDate': '02/05'
+        'Title': 'Bloodlines: the Hidden',
+        'Release Date': '02/05'
     },
 
     {
-        'ShortName': 'BtL',
+        'Code Name': 'BtL',
         'Type': 'Bloodlines',
-        'Name': 'Bloodlines: the Legendary',
-        'ReleaseDate': '01/06'
+        'Title': 'Bloodlines: the Legendary',
+        'Release Date': '01/06'
     },
 
     {
-        'ShortName': 'Cart',
+        'Code Name': 'Cart',
         'Type': 'Covenant',
-        'Name': 'Carthians',
-        'ReleaseDate': '04/06'
+        'Title': 'Carthians',
+        'Release Date': '04/06'
     },
 
     {
-        'ShortName': 'Crone',
+        'Code Name': 'Crone',
         'Type': 'Covenant',
-        'Name': 'Circle of the Crone',
-        'ReleaseDate': '08/06'
+        'Title': 'Circle of the Crone',
+        'Release Date': '08/06'
     },
 
     {
-        'ShortName': 'NOrl',
+        'Code Name': 'NOrl',
         'Type': 'Location',
-        'Name': 'City of the Damned: New Orleans',
-        'ReleaseDate': '05/05'
+        'Title': 'City of the Damned: New Orleans',
+        'Release Date': '05/05'
     },
 
     {
-        'ShortName': 'Cote',
+        'Code Name': 'Cote',
         'Type': '',
-        'Name': 'Coteries',
-        'ReleaseDate': '10/04'
+        'Title': 'Coteries',
+        'Release Date': '10/04'
     },
 
     {
-        'ShortName': 'DC',
+        'Code Name': 'DC',
         'Type': '',
-        'Name': 'Damnation City',
-        'ReleaseDate': '08/07'
+        'Title': 'Damnation City',
+        'Release Date': '08/07'
     },
 
     {
-        'ShortName': 'DM',
+        'Code Name': 'DM',
         'Type': '',
-        'Name': 'The Danse Macabre',
-        'ReleaseDate': '03/11'
+        'Title': 'The Danse Macabre',
+        'Release Date': '03/11'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': '',
-        'Name': 'Dark Influences',
-        'ReleaseDate': '10/06'
+        'Title': 'Dark Influences',
+        'Release Date': '10/06'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': '',
-        'Name': 'Dark Influences Rulebook',
-        'ReleaseDate': '03/12'
+        'Title': 'Dark Influences Rulebook',
+        'Release Date': '03/12'
     },
 
     {
-        'ShortName': 'FotC',
+        'Code Name': 'FotC',
         'Type': 'Alternate Setting',
-        'Name': 'Requiem for Rome: Fall of the Camarilla',
-        'ReleaseDate': '01/08'
+        'Title': 'Requiem for Rome: Fall of the Camarilla',
+        'Release Date': '01/08'
     },
 
     {
-        'ShortName': 'Ghou',
+        'Code Name': 'Ghou',
         'Type': '',
-        'Name': 'Ghouls',
-        'ReleaseDate': '05/05'
+        'Title': 'Ghouls',
+        'Release Date': '05/05'
     },
 
     {
-        'ShortName': 'Inv',
+        'Code Name': 'Inv',
         'Type': 'Covenant',
-        'Name': 'The Invictus',
-        'ReleaseDate': '10/05'
+        'Title': 'The Invictus',
+        'Release Date': '10/05'
     },
 
     {
-        'ShortName': 'Daeva',
+        'Code Name': 'Daeva',
         'Type': 'Clan',
-        'Name': 'Kiss of the Succubus: Daeva',
-        'ReleaseDate': ''
+        'Title': 'Kiss of the Succubus: Daeva',
+        'Release Date': ''
     },
 
     {
-        'ShortName': 'Lancea',
+        'Code Name': 'Lancea',
         'Type': 'Covenant',
-        'Name': 'Lancea Sanctum',
-        'ReleaseDate': '03/05'
+        'Title': 'Lancea Sanctum',
+        'Release Date': '03/05'
     },
 
     {
-        'ShortName': 'Vent',
+        'Code Name': 'Vent',
         'Type': 'Clan',
-        'Name': 'Lords Over the Damned: Ventrue',
-        'ReleaseDate': '04/08'
+        'Title': 'Lords Over the Damned: Ventrue',
+        'Release Date': '04/08'
     },
 
     {
-        'ShortName': 'Myth',
+        'Code Name': 'Myth',
         'Type': '',
-        'Name': 'Mythologies',
-        'ReleaseDate': '06/06'
+        'Title': 'Mythologies',
+        'Release Date': '06/06'
     },
 
     {
-        'ShortName': 'NH-IS',
+        'Code Name': 'NH-IS',
         'Type': '',
-        'Name': 'Night Horrors: Immortal Sinners',
-        'ReleaseDate': '03/09'
+        'Title': 'Night Horrors: Immortal Sinners',
+        'Release Date': '03/09'
     },
 
     {
-        'ShortName': 'NH-WD',
+        'Code Name': 'NH-WD',
         'Type': '',
-        'Name': 'Night Horrors: Wicked Dead',
-        'ReleaseDate': '09/09'
+        'Title': 'Night Horrors: Wicked Dead',
+        'Release Date': '09/09'
     },
 
     {
-        'ShortName': 'Noma',
+        'Code Name': 'Noma',
         'Type': '',
-        'Name': 'Nomads',
-        'ReleaseDate': '11/04'
+        'Title': 'Nomads',
+        'Release Date': '11/04'
     },
 
     {
-        'ShortName': 'Ordo',
+        'Code Name': 'Ordo',
         'Type': 'Covenant',
-        'Name': 'Ordo Dracul',
-        'ReleaseDate': '07/05'
+        'Title': 'Ordo Dracul',
+        'Release Date': '07/05'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': '',
-        'Name': 'Prince of the City Rulebook',
-        'ReleaseDate': '07/10'
+        'Title': 'Prince of the City Rulebook',
+        'Release Date': '07/10'
     },
 
     {
-        'ShortName': 'RCG',
+        'Code Name': 'RCG',
         'Type': '',
-        'Name': 'Requiem Chroniclers Guide',
-        'ReleaseDate': '02/06'
+        'Title': 'Requiem Chroniclers Guide',
+        'Release Date': '02/06'
     },
 
     {
-        'ShortName': 'RfR',
+        'Code Name': 'RfR',
         'Type': 'Alternate Setting',
-        'Name': 'Requiem for Rome',
-        'ReleaseDate': '11/07'
+        'Title': 'Requiem for Rome',
+        'Release Date': '11/07'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': '',
-        'Name': 'Rites of the Dragon',
-        'ReleaseDate': '11/04'
+        'Title': 'Rites of the Dragon',
+        'Release Date': '11/04'
     },
 
     {
-        'ShortName': 'Gan',
+        'Code Name': 'Gan',
         'Type': 'Clan',
-        'Name': 'Savage and Macabre: Gangrel',
-        'ReleaseDate': '09/08'
+        'Title': 'Savage and Macabre: Gangrel',
+        'Release Date': '09/08'
     },
 
     {
-        'ShortName': 'Mekh',
+        'Code Name': 'Mekh',
         'Type': 'Clan',
-        'Name': 'Shadows in the Dark: Mekhet',
-        'ReleaseDate': '02/09'
+        'Title': 'Shadows in the Dark: Mekhet',
+        'Release Date': '02/09'
     },
 
     {
-        'ShortName': 'VTR',
+        'Code Name': 'VTR',
         'Type': 'Core',
-        'Name': 'Vampire: The Requiem',
-        'ReleaseDate': '08/04'
+        'Title': 'Vampire: The Requiem',
+        'Release Date': '08/04'
     },
 
     {
-        'ShortName': 'VII',
+        'Code Name': 'VII',
         'Type': 'Covenant',
-        'Name': 'VII',
-        'ReleaseDate': '08/05'
+        'Title': 'VII',
+        'Release Date': '08/05'
     },
 
     {
-        'ShortName': 'BSorc',
+        'Code Name': 'BSorc',
         'Type': '',
-        'Name': 'Blood Sorcery: Sacraments and Blasphemies',
-        'ReleaseDate': '09/12'
+        'Title': 'Blood Sorcery: Sacraments and Blasphemies',
+        'Release Date': '09/12'
     },
 
     {
-        'ShortName': 'InvO',
+        'Code Name': 'InvO',
         'Type': '',
-        'Name': 'Invite Only',
-        'ReleaseDate': '07/10'
+        'Title': 'Invite Only',
+        'Release Date': '07/10'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': '',
-        'Name': 'The Man Himself: Count Dracula',
-        'ReleaseDate': '10/09'
+        'Title': 'The Man Himself: Count Dracula',
+        'Release Date': '10/09'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Bloodlines',
-        'Name': 'Naditu',
-        'ReleaseDate': '07/08'
+        'Title': 'Naditu',
+        'Release Date': '07/08'
     },
 
     {
-        'ShortName': 'NWR',
+        'Code Name': 'NWR',
         'Type': 'Alternate Setting',
-        'Name': 'New Wave Requiem',
-        'ReleaseDate': '02/09'
+        'Title': 'New Wave Requiem',
+        'Release Date': '02/09'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Characters',
-        'Name': 'Ready-Made PCs',
-        'ReleaseDate': '06/09'
+        'Title': 'Ready-Made PCs',
+        'Release Date': '06/09'
     },
 
     {
-        'ShortName': 'SDL',
+        'Code Name': 'SDL',
         'Type': 'Alternate Setting',
-        'Name': 'Strange, Dead Love (World Shard)',
-        'ReleaseDate': '12/11'
+        'Title': 'Strange, Dead Love (World Shard)',
+        'Release Date': '12/11'
     },
 ]
 
 const WerewolfBookData = [
     {
-        'ShortName': 'Blas',
+        'Code Name': 'Blas',
         'Type': '',
-        'Name': 'Blasphemies',
-        'ReleaseDate': '01/06'
+        'Title': 'Blasphemies',
+        'Release Date': '01/06'
     },
 
     {
-        'ShortName': 'BotW',
+        'Code Name': 'BotW',
         'Type': '',
-        'Name': 'Blood of the Wolf',
-        'ReleaseDate': '09/05'
+        'Title': 'Blood of the Wolf',
+        'Release Date': '09/05'
     },
 
     {
-        'ShortName': 'HG',
+        'Code Name': 'HG',
         'Type': 'Location',
-        'Name': 'Hunting Ground: The Rockies',
-        'ReleaseDate': '04/05'
+        'Title': 'Hunting Ground: The Rockies',
+        'Release Date': '04/05'
     },
     {
-        'ShortName': 'LodgF',
+        'Code Name': 'LodgF',
         'Type': '',
-        'Name': 'Lodges: The Faithful',
-        'ReleaseDate': '11/05'
+        'Title': 'Lodges: The Faithful',
+        'Release Date': '11/05'
     },
 
     {
-        'ShortName': 'LodgS',
+        'Code Name': 'LodgS',
         'Type': '',
-        'Name': 'Lodges: The Splintered',
-        'ReleaseDate': '09/06'
+        'Title': 'Lodges: The Splintered',
+        'Release Date': '09/06'
     },
 
     {
-        'ShortName': 'Lore',
+        'Code Name': 'Lore',
         'Type': '',
-        'Name': 'Lore of the Forsaken',
-        'ReleaseDate': '08/05'
+        'Title': 'Lore of the Forsaken',
+        'Release Date': '08/05'
     },
     {
-        'ShortName': 'NH-W',
+        'Code Name': 'NH-W',
         'Type': '',
-        'Name': 'Night Horrors: Wolfsbane',
-        'ReleaseDate': '09/09'
-    },
-
-    {
-        'ShortName': 'Pred',
-        'Type': '',
-        'Name': 'Predators',
-        'ReleaseDate': '06/05'
+        'Title': 'Night Horrors: Wolfsbane',
+        'Release Date': '09/09'
     },
 
     {
-        'ShortName': 'Pure',
+        'Code Name': 'Pred',
         'Type': '',
-        'Name': 'The Pure',
-        'ReleaseDate': '11/06'
-    },
-    {
-        'ShortName': 'Rage',
-        'Type': '',
-        'Name': 'The Rage: Forsaken Players Guide',
-        'ReleaseDate': '01/07'
-    },
-    {
-        'ShortName': 'SotM',
-        'Type': '',
-        'Name': 'Signs of the Moon',
-        'ReleaseDate': '08/10'
-    },
-    {
-        'ShortName': 'Terr',
-        'Type': '',
-        'Name': 'Territories',
-        'ReleaseDate': '04/06'
-    },
-    {
-        'ShortName': 'Tribes',
-        'Type': '',
-        'Name': 'Tribes of the Moon',
-        'ReleaseDate': '04/08'
+        'Title': 'Predators',
+        'Release Date': '06/05'
     },
 
     {
-        'ShortName': 'WAtP',
+        'Code Name': 'Pure',
         'Type': '',
-        'Name': 'The War Against the Pure',
-        'ReleaseDate': '04/07'
+        'Title': 'The Pure',
+        'Release Date': '11/06'
+    },
+    {
+        'Code Name': 'Rage',
+        'Type': '',
+        'Title': 'The Rage: Forsaken Players Guide',
+        'Release Date': '01/07'
+    },
+    {
+        'Code Name': 'SotM',
+        'Type': '',
+        'Title': 'Signs of the Moon',
+        'Release Date': '08/10'
+    },
+    {
+        'Code Name': 'Terr',
+        'Type': '',
+        'Title': 'Territories',
+        'Release Date': '04/06'
+    },
+    {
+        'Code Name': 'Tribes',
+        'Type': '',
+        'Title': 'Tribes of the Moon',
+        'Release Date': '04/08'
     },
 
     {
-        'ShortName': 'WTF',
+        'Code Name': 'WAtP',
+        'Type': '',
+        'Title': 'The War Against the Pure',
+        'Release Date': '04/07'
+    },
+
+    {
+        'Code Name': 'WTF',
         'Type': 'Core',
-        'Name': '	Werewolf: The Forsaken',
-        'ReleaseDate': '03/05'
+        'Title': '	Werewolf: The Forsaken',
+        'Release Date': '03/05'
     },
     {
-        'ShortName': 'FCG',
+        'Code Name': 'FCG',
         'Type': '',
-        'Name': "Forsaken Chronicler's Guide",
-        'ReleaseDate': '06/11'
+        'Title': "Forsaken Chronicler's Guide",
+        'Release Date': '06/11'
     }
 
 ]
 
 const MageBookData = [
     {
-        'ShortName': 'AA',
+        'Code Name': 'AA',
         'Type': 'Order',
-        'Name': 'Adamantine Arrow',
-        'ReleaseDate': '12/07'
+        'Title': 'Adamantine Arrow',
+        'Release Date': '12/07'
     },
 
     {
-        'ShortName': 'AR',
+        'Code Name': 'AR',
         'Type': '',
-        'Name': 'Astral Realms',
-        'ReleaseDate': '11/07'
+        'Title': 'Astral Realms',
+        'Release Date': '11/07'
     },
     {
-        'ShortName': 'Ban',
+        'Code Name': 'Ban',
         'Type': '',
-        'Name': 'Banishers',
-        'ReleaseDate': '03/08'
+        'Title': 'Banishers',
+        'Release Date': '03/08'
     },
 
     {
-        'ShortName': 'BU',
+        'Code Name': 'BU',
         'Type': 'Location',
-        'Name': 'Boston: Unveiled',
-        'ReleaseDate': '10/05'
+        'Title': 'Boston: Unveiled',
+        'Release Date': '10/05'
     },
 
     {
-        'ShortName': 'FC',
+        'Code Name': 'FC',
         'Type': 'Order',
-        'Name': 'Free Council',
-        'ReleaseDate': '05/07'
+        'Title': 'Free Council',
+        'Release Date': '05/07'
     },
     {
-        'ShortName': 'GoG',
+        'Code Name': 'GoG',
         'Type': '',
-        'Name': 'Grimoire of Grimoires',
-        'ReleaseDate': '05/08'
+        'Title': 'Grimoire of Grimoires',
+        'Release Date': '05/08'
     },
 
     {
-        'ShortName': 'GotV',
+        'Code Name': 'GotV',
         'Type': 'Order',
-        'Name': 'Guardians of the Veil',
-        'ReleaseDate': '02/06'
+        'Title': 'Guardians of the Veil',
+        'Release Date': '02/06'
     },
 
     {
-        'ShortName': 'IEwtA',
+        'Code Name': 'IEwtA',
         'Type': '',
-        'Name': 'Intruders: Encounters with the Abyss',
-        'ReleaseDate': '03/07'
+        'Title': 'Intruders: Encounters with the Abyss',
+        'Release Date': '03/07'
     },
     {
-        'ShortName': 'KST',
+        'Code Name': 'KST',
         'Type': '',
-        'Name': 'Keys to the Supernal Tarot',
-        'ReleaseDate': '11/08'
+        'Title': 'Keys to the Supernal Tarot',
+        'Release Date': '11/08'
     },
 
     {
-        'ShortName': 'LtA',
+        'Code Name': 'LtA',
         'Type': 'Legacies',
-        'Name': 'Legacies: the Ancient',
-        'ReleaseDate': '01/07'
+        'Title': 'Legacies: the Ancient',
+        'Release Date': '01/07'
     },
 
     {
-        'ShortName': 'LtS',
+        'Code Name': 'LtS',
         'Type': 'Legacies',
-        'Name': 'Legacies: the Sublime',
-        'ReleaseDate': '01/06'
+        'Title': 'Legacies: the Sublime',
+        'Release Date': '01/06'
     },
     {
-        'ShortName': 'MTA',
+        'Code Name': 'MTA',
         'Type': 'Core',
-        'Name': 'Mage: The Awakening',
-        'ReleaseDate': '08/05'
+        'Title': 'Mage: The Awakening',
+        'Release Date': '08/05'
     },
 
     {
-        'ShortName': 'MCG',
+        'Code Name': 'MCG',
         'Type': '',
-        'Name': "Mage Chronicler's Guide",
-        'ReleaseDate': '07/10'
+        'Title': "Mage Chronicler's Guide",
+        'Release Date': '07/10'
     },
 
     {
-        'ShortName': 'MT',
+        'Code Name': 'MT',
         'Type': '',
-        'Name': 'Magical Traditions',
-        'ReleaseDate': '06/07'
+        'Title': 'Magical Traditions',
+        'Release Date': '06/07'
     },
     {
-        'ShortName': 'Myst',
+        'Code Name': 'Myst',
         'Type': 'Order',
-        'Name': 'Mysterium',
-        'ReleaseDate': '09/07'
+        'Title': 'Mysterium',
+        'Release Date': '09/07'
     },
 
     {
-        'ShortName': 'NH-TU',
+        'Code Name': 'NH-TU',
         'Type': '',
-        'Name': 'Night Horrors: The Unbidden',
-        'ReleaseDate': '01/10'
+        'Title': 'Night Horrors: The Unbidden',
+        'Release Date': '01/10'
     },
 
     {
-        'ShortName': 'RotE',
+        'Code Name': 'RotE',
         'Type': 're',
-        'Name': 'Reign of the Exarchs',
-        'ReleaseDate': '07/06'
+        'Title': 'Reign of the Exarchs',
+        'Release Date': '07/06'
     },
     {
-        'ShortName': 'S&S',
+        'Code Name': 'S&S',
         'Type': '',
-        'Name': 'Sanctum & Sigil',
-        'ReleaseDate': '11/05'
+        'Title': 'Sanctum & Sigil',
+        'Release Date': '11/05'
     },
 
     {
-        'ShortName': 'SotRT',
+        'Code Name': 'SotRT',
         'Type': '',
-        'Name': 'Secrets of the Ruined Temple',
-        'ReleaseDate': '05/06'
+        'Title': 'Secrets of the Ruined Temple',
+        'Release Date': '05/06'
     },
 
     {
-        'ShortName': 'SotT',
+        'Code Name': 'SotT',
         'Type': 'Order',
-        'Name': 'Seers of the Throne',
-        'ReleaseDate': '03/09'
+        'Title': 'Seers of the Throne',
+        'Release Date': '03/09'
     },
     {
-        'ShortName': 'Summ',
+        'Code Name': 'Summ',
         'Type': '',
-        'Name': 'Summoners',
-        'ReleaseDate': '04/09'
+        'Title': 'Summoners',
+        'Release Date': '04/09'
     },
 
     {
-        'ShortName': 'SL',
+        'Code Name': 'SL',
         'Type': 'Order',
-        'Name': 'Silver Ladder',
-        'ReleaseDate': '07/08'
+        'Title': 'Silver Ladder',
+        'Release Date': '07/08'
     },
 
     {
-        'ShortName': 'TotM',
+        'Code Name': 'TotM',
         'Type': '',
-        'Name': 'Tome of the Mysteries',
-        'ReleaseDate': '11/06'
+        'Title': 'Tome of the Mysteries',
+        'Release Date': '11/06'
     },
     {
-        'ShortName': 'TotW',
+        'Code Name': 'TotW',
         'Type': '',
-        'Name': 'Tome of the Watchtowers',
-        'ReleaseDate': '04/06'
-    },
-
-    {
-        'ShortName': 'IM',
-        'Type': '',
-        'Name': 'Imperial Mysteries',
-        'ReleaseDate': '01/12'
+        'Title': 'Tome of the Watchtowers',
+        'Release Date': '04/06'
     },
 
     {
-        'ShortName': 'LHP',
+        'Code Name': 'IM',
         'Type': '',
-        'Name': 'Left-Hand Path',
-        'ReleaseDate': '11/12'
+        'Title': 'Imperial Mysteries',
+        'Release Date': '01/12'
+    },
+
+    {
+        'Code Name': 'LHP',
+        'Type': '',
+        'Title': 'Left-Hand Path',
+        'Release Date': '11/12'
     },
     {
-        'ShortName': 'MN',
+        'Code Name': 'MN',
         'Type': 'Alternate Setting',
-        'Name': 'Mage Noir',
-        'ReleaseDate': '03/11'
+        'Title': 'Mage Noir',
+        'Release Date': '03/11'
     }
 ]
 
 const PrometheanBookData = [
     {
-        'ShortName': 'MO',
+        'Code Name': 'MO',
         'Type': '',
-        'Name': 'Magnum Opus',
-        'ReleaseDate': '02/07'
+        'Title': 'Magnum Opus',
+        'Release Date': '02/07'
     },
     {
-        'ShortName': 'PB',
+        'Code Name': 'PB',
         'Type': '',
-        'Name': "Pandora's Book",
-        'ReleaseDate': '10/06'
+        'Title': "Pandora's Book",
+        'Release Date': '10/06'
     },
     {
-        'ShortName': 'PTC',
+        'Code Name': 'PTC',
         'Type': 'Core',
-        'Name': 'Promethean: The Created',
-        'ReleaseDate': '08/06'
+        'Title': 'Promethean: The Created',
+        'Release Date': '08/06'
     },
 
     {
-        'ShortName': 'SN',
+        'Code Name': 'SN',
         'Type': '',
-        'Name': 'Saturnine Night',
-        'ReleaseDate': '03/07'
+        'Title': 'Saturnine Night',
+        'Release Date': '03/07'
     },
 
     {
-        'ShortName': 'SA',
+        'Code Name': 'SA',
         'Type': '',
-        'Name': 'Strange Alchemies',
-        'ReleaseDate': '11/06'
+        'Title': 'Strange Alchemies',
+        'Release Date': '11/06'
     },
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: A Handful of Dust',
-        'ReleaseDate': '09/16'
+        'Title': 'Dark Eras: A Handful of Dust',
+        'Release Date': '09/16'
     }
 ]
 
 const ChangelingBookData = [
     {
-        'ShortName': 'AN',
+        'Code Name': 'AN',
         'Type': '',
-        'Name': 'Autumn Nightmares',
-        'ReleaseDate': '10/07'
+        'Title': 'Autumn Nightmares',
+        'Release Date': '10/07'
     },
 
     {
-        'ShortName': 'CTL',
+        'Code Name': 'CTL',
         'Type': 'Core',
-        'Name': 'Changeling: The Lost',
-        'ReleaseDate': '08/07'
+        'Title': 'Changeling: The Lost',
+        'Release Date': '08/07'
     },
     {
-        'ShortName': 'DitD',
+        'Code Name': 'DitD',
         'Type': '',
-        'Name': 'Dancers in the Dusk',
-        'ReleaseDate': '04/09'
+        'Title': 'Dancers in the Dusk',
+        'Release Date': '04/09'
     },
 
     {
-        'ShortName': 'ER',
+        'Code Name': 'ER',
         'Type': '',
-        'Name': 'The Equinox Road',
-        'ReleaseDate': '08/08'
+        'Title': 'The Equinox Road',
+        'Release Date': '08/08'
     },
 
     {
-        'ShortName': 'LoS',
+        'Code Name': 'LoS',
         'Type': '',
-        'Name': 'Lords of Summer',
-        'ReleaseDate': '06/08'
+        'Title': 'Lords of Summer',
+        'Release Date': '06/08'
     },
     {
-        'ShortName': 'NH-GF',
+        'Code Name': 'NH-GF',
         'Type': '',
-        'Name': 'Night Horrors: Grim Fears',
-        'ReleaseDate': '10/08'
-    },
-
-    {
-        'ShortName': 'RoS',
-        'Type': '',
-        'Name': 'Rites of Spring',
-        'ReleaseDate': '02/08'
+        'Title': 'Night Horrors: Grim Fears',
+        'Release Date': '10/08'
     },
 
     {
-        'ShortName': 'SaD',
+        'Code Name': 'RoS',
         'Type': '',
-        'Name': 'Swords at Dawn',
-        'ReleaseDate': '07/09'
-    },
-    {
-        'ShortName': 'WM',
-        'Type': '',
-        'Name': 'Winter Masques',
-        'ReleaseDate': '12/07'
+        'Title': 'Rites of Spring',
+        'Release Date': '02/08'
     },
 
     {
-        'ShortName': '',
+        'Code Name': 'SaD',
+        'Type': '',
+        'Title': 'Swords at Dawn',
+        'Release Date': '07/09'
+    },
+    {
+        'Code Name': 'WM',
+        'Type': '',
+        'Title': 'Winter Masques',
+        'Release Date': '12/07'
+    },
+
+    {
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: Changeling: The Lost Compilation',
-        'ReleaseDate': '06/20'
+        'Title': 'Dark Eras: Changeling: The Lost Compilation',
+        'Release Date': '06/20'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: Lily, Sabre and Thorn',
-        'ReleaseDate': '08/17'
+        'Title': 'Dark Eras: Lily, Sabre and Thorn',
+        'Release Date': '08/17'
     },
     {
-        'ShortName': 'GobM',
+        'Code Name': 'GobM',
         'Type': '',
-        'Name': 'Goblin Markets',
-        'ReleaseDate': '09/09'
+        'Title': 'Goblin Markets',
+        'Release Date': '09/09'
     },
 
     {
-        'ShortName': 'VL',
+        'Code Name': 'VL',
         'Type': 'Alternate Setting',
-        'Name': 'Victorian Lost',
-        'ReleaseDate': '06/12'
+        'Title': 'Victorian Lost',
+        'Release Date': '06/12'
     }
 ]
 
 const HunterBookData = [
     {
-        'ShortName': 'HRG',
+        'Code Name': 'HRG',
         'Type': 'Fiction',
-        'Name': 'Horror Recognition Guide',
-        'ReleaseDate': '02/09'
+        'Title': 'Horror Recognition Guide',
+        'Release Date': '02/09'
     },
     {
-        'ShortName': 'HTV',
+        'Code Name': 'HTV',
         'Type': 'Core',
-        'Name': 'Hunter: The Vigil',
-        'ReleaseDate': '08/08'
+        'Title': 'Hunter: The Vigil',
+        'Release Date': '08/08'
     },
 
     {
-        'ShortName': 'NS',
+        'Code Name': 'NS',
         'Type': '',
-        'Name': 'Night Stalkers',
-        'ReleaseDate': '03/09'
+        'Title': 'Night Stalkers',
+        'Release Date': '03/09'
     },
 
     {
-        'ShortName': 'Slash',
+        'Code Name': 'Slash',
         'Type': '',
-        'Name': 'Slasher',
-        'ReleaseDate': '02/09'
+        'Title': 'Slasher',
+        'Release Date': '02/09'
     },
     {
-        'ShortName': 'SpSl',
+        'Code Name': 'SpSl',
         'Type': '',
-        'Name': 'Spirit Slayers',
-        'ReleaseDate': '04/09'
+        'Title': 'Spirit Slayers',
+        'Release Date': '04/09'
     },
     {
-        'ShortName': 'WF',
+        'Code Name': 'WF',
         'Type': '',
-        'Name': 'Witch Finders',
-        'ReleaseDate': '09/08'
+        'Title': 'Witch Finders',
+        'Release Date': '09/08'
     },
 
     {
-        'ShortName': 'C&C',
+        'Code Name': 'C&C',
         'Type': '',
-        'Name': 'Compacts and Conspiracies',
-        'ReleaseDate': '05/10'
+        'Title': 'Compacts and Conspiracies',
+        'Release Date': '05/10'
     },
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: Doubting Souls',
-        'ReleaseDate': '02/17'
+        'Title': 'Dark Eras: Doubting Souls',
+        'Release Date': '02/17'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: Fallen Blossoms',
-        'ReleaseDate': '03/17'
+        'Title': 'Dark Eras: Fallen Blossoms',
+        'Release Date': '03/17'
     }
 ]
 
 const GeistBookData = [
     {
-        'ShortName': 'BotD',
+        'Code Name': 'BotD',
         'Type': '',
-        'Name': 'Book of the Dead',
-        'ReleaseDate': '12/09'
+        'Title': 'Book of the Dead',
+        'Release Date': '12/09'
     },
     {
-        'ShortName': 'GTS',
+        'Code Name': 'GTS',
         'Type': 'Core',
-        'Name': 'Geist: The Sin-Eaters',
-        'ReleaseDate': '08/09'
+        'Title': 'Geist: The Sin-Eaters',
+        'Release Date': '08/09'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': "Dark Eras: God's Own Country",
-        'ReleaseDate': '10/17'
+        'Title': "Dark Eras: God's Own Country",
+        'Release Date': '10/17'
     }
 ]
 
 const MummyBookData = [
     {
-        'ShortName': 'Dec',
+        'Code Name': 'Dec',
         'Type': '',
-        'Name': 'Book of the Deceived',
-        'ReleaseDate': '11/14'
+        'Title': 'Book of the Deceived',
+        'Release Date': '11/14'
     },
     {
-        'ShortName': 'DC',
+        'Code Name': 'DC',
         'Type': 'Location',
-        'Name': 'Cursed Necropolis: DC',
-        'ReleaseDate': '05/14'
+        'Title': 'Cursed Necropolis: DC',
+        'Release Date': '05/14'
     },
 
     {
-        'ShortName': 'Rio',
+        'Code Name': 'Rio',
         'Type': 'Location',
-        'Name': 'Cursed Necropolis: Rio',
-        'ReleaseDate': '04/17'
+        'Title': 'Cursed Necropolis: Rio',
+        'Release Date': '04/17'
     },
 
     {
-        'ShortName': '',
+        'Code Name': '',
         'Type': 'Alternate Setting',
-        'Name': 'Dark Eras: Ruins of Empire',
-        'ReleaseDate': '01/17'
+        'Title': 'Dark Eras: Ruins of Empire',
+        'Release Date': '01/17'
     },
     {
-        'ShortName': 'GotD',
+        'Code Name': 'GotD',
         'Type': '',
-        'Name': 'Guildhalls of the Deathless',
-        'ReleaseDate': '10/13'
+        'Title': 'Guildhalls of the Deathless',
+        'Release Date': '10/13'
     },
 
     {
-        'ShortName': 'LotD',
+        'Code Name': 'LotD',
         'Type': '',
-        'Name': 'Lore of the Deceived',
-        'ReleaseDate': '02/15'
+        'Title': 'Lore of the Deceived',
+        'Release Date': '02/15'
     },
 
     {
-        'ShortName': 'MTC',
+        'Code Name': 'MTC',
         'Type': 'Core',
-        'Name': 'Mummy: The Curse',
-        'ReleaseDate': '03/13'
+        'Title': 'Mummy: The Curse',
+        'Release Date': '03/13'
     },
     {
-        'ShortName': 'Soth',
+        'Code Name': 'Soth',
         'Type': '',
-        'Name': 'Sothis Ascends',
-        'ReleaseDate': '04/15'
+        'Title': 'Sothis Ascends',
+        'Release Date': '04/15'
     }
 ]
 

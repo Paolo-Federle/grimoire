@@ -9,6 +9,8 @@ import Werewolf from './pages/Werewolf/Werewolf'
 import Gifts from './pages/Werewolf/Gifts'
 import Rites from './pages/Werewolf/Rites'
 import WerewolfMerits from './pages/Werewolf/WerewolfMerits'
+import Talen from './pages/Werewolf/Talen'
+import Fetish from './pages/Werewolf/Fetish'
 import Mage from './pages/Mage/Mage'
 import Arcana from './pages/Mage/Arcana';
 import Spells from './pages/Mage/Spells'
@@ -30,6 +32,7 @@ import ArtifactDetail from './pages/Mage/ArtifactDetail';
 import ImbuedItems from './pages/Mage/ImbuedItems'
 import imbuedItemsData from './Data/Mage/imbuedItemsData';
 import ImbuedItemsDetail from './pages/Mage/ImbuedItemsDetail';
+import Grimoire from './pages/Mage/Grimoire';
 import Promethean from './pages/Promethean/Promethean'
 import Transmutations from './pages/Promethean/Transmutations'
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
@@ -37,6 +40,8 @@ import Changeling from './pages/Changeling/Changeling';
 import Contracts from './pages/Changeling/Contracts';
 import Oaths from './pages/Changeling/Oaths';
 import ChangelingMerits from './pages/Changeling/ChangelingMerits';
+import GoblinFruits from './pages/Changeling/GoblinFruits';
+import Token from './pages/Changeling/Token';
 import Clarity from './pages/Changeling/Clarity';
 import Hunter from './pages/Hunter/Hunter';
 import Endowments from './pages/Hunter/Endowments';
@@ -50,11 +55,18 @@ import Mummy from './pages/Mummy/Mummy';
 import Affinities from './pages/Mummy/Affinities';
 import Utterances from './pages/Mummy/Utterances';
 import MummyMerits from './pages/Mummy/MummyMerits';
+import Relic from './pages/Mummy/Relic';
 import Mortal from './pages/MortalsAndOthers/Mortal';
+import Armor from './pages/MortalsAndOthers/Armor';
+import Tools from './pages/MortalsAndOthers/Tools';
+import Reliquary from './pages/MortalsAndOthers/Reliquary';
+import Vehicle from './pages/MortalsAndOthers/Vehicle';
+import Weapon from './pages/MortalsAndOthers/Weapon';
 import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
 import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
+import Equipment from './pages/Generale/Equipment';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import { useLocation } from 'react-router-dom';
@@ -160,6 +172,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
+          <Route path="/equipment" element={<Equipment />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
           {allUniMeritsData.map((merits, index) => (
@@ -173,8 +186,12 @@ function App() {
           {/* Mortals */}
           <Route path="/mortal" element={<Mortal />} />
           <Route path="/mortal/merits" element={<MortalMerits />} />
+          <Route path="/mortal/armor" element={<Armor />} />
+          <Route path="/mortal/reliquary" element={<Reliquary />} />
+          <Route path="/mortal/tools" element={<Tools />} />
+          <Route path="/mortal/vehicles" element={<Vehicle />} />
+          <Route path="/mortal/weapons" element={<Weapon />} />
           
-
           {/* VAMPIRI */}
           <Route path="/vampire" element={<Vampire />} />
           <Route path="/vampire/disciplines" element={<Disciplines />} />
@@ -185,6 +202,8 @@ function App() {
           <Route path="/werewolf/gifts" element={<Gifts />} />
           <Route path="/werewolf/rites" element={<Rites />} />
           <Route path="/werewolf/merits" element={<WerewolfMerits />} />
+          <Route path="/werewolf/fetishes" element={<Fetish />} />
+          <Route path="/werewolf/talens" element={<Talen />} />
 
           {/* MAGE */}
           <Route path="/mage" element={<Mage />} />
@@ -194,6 +213,7 @@ function App() {
           <Route path="/mage/wisdom" element={<Wisdom />} />
           <Route path="/mage/legacy" element={<Legacy />} />
           <Route path="/mage/merits" element={<MageMerits />} />
+          <Route path="/mage/grimoires" element={<Grimoire />} />
           {allMageMeritsData.map((merits, index) => (
             <Route
               key={index}
@@ -252,6 +272,8 @@ function App() {
           <Route path="/changeling/oaths" element={<Oaths />} />
           <Route path="/changeling/merits" element={<ChangelingMerits />} />
           <Route path="/changeling/clarity" element={<Clarity />} />
+          <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
+          <Route path="/changeling/tokens" element={<Token />} />
 
           {/* HUNTER */}
           <Route path="/hunter" element={<Hunter />} />
@@ -264,12 +286,14 @@ function App() {
           <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
           <Route path="/geist/ceremonies" element={<Ceremonies />} />
           <Route path="/geist/merits" element={<GeistMerits />} />
+          <Route path="/geist/mementos" element={<GeistMerits />} />
 
           {/* MUMMY */}
           <Route path="/mummy" element={<Mummy />} />
           <Route path="/mummy/affinities" element={<Affinities />} />
           <Route path="/mummy/utterances" element={<Utterances />} />
           <Route path="/mummy/merits" element={<MummyMerits />} />
+          <Route path="/mummy/relics" element={<Relic />} />
         </Routes>
       </div>
     </>
