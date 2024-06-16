@@ -188,7 +188,7 @@ const artifactData = [
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
-    'Mana Capacity': 1,
+    'Mana Capacity': 11,
     'Description': [
       'Shows possessing spirits.',
     ],

@@ -1,7 +1,7 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
 
 .spacing-table {
@@ -17,6 +17,11 @@ th {
     padding: 2px 15px 3px 5px;
     line-height: 24px;
     font-size: 18px;
+}
+
+td {
+    border-right: solid 1px #dfdfdf;
+    border-left: solid 1px #dfdfdf;
 }
 
 .grid-container {
@@ -78,20 +83,24 @@ th {
     }
 
     .additional-text {
-        padding: 0 10px; 
+        padding: 0 10px;
     }
 }
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 480px) {
+
     .spacing-table td,
     .spacing-table th {
-        padding: 5px; /* Adjust the padding for smaller screens */
-        font-size: 14px; /* Decrease font size for smaller screens */
+        padding: 5px;
+        /* Adjust the padding for smaller screens */
+        font-size: 14px;
+        /* Decrease font size for smaller screens */
     }
 
     .additional-text {
-        padding: 0 5px; /* Adjust the padding as needed */
+        padding: 0 5px;
+        /* Adjust the padding as needed */
     }
 
     .table-container {

@@ -20,7 +20,7 @@ export default function Skills() {
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={mentalSkillsData} />
+            <SimpleTable title={'Skills'} table={mentalSkillsData} />
             <SimpleTable table={physicalSkillsData} />
             <SimpleTable table={socialSkillsData} />
             <SimpleTable table={alternateSkillsData} />

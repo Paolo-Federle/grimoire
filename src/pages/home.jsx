@@ -44,6 +44,8 @@ export default function Home() {
                                     <Link to="/wiki/Category:NPCs" title="Category:NPCs">NPCs</Link>
                                     &nbsp;•&nbsp;
                                     <Link to="/wiki/Category:Settings" title="Category:Settings">Settings</Link>
+                                    &nbsp;•&nbsp;
+                                    <Link to="/size" title="Category:Size">Size</Link>
                                 </td>
                             </tr>
                         </tbody>

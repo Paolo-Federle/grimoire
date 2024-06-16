@@ -66,6 +66,7 @@ import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
 import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
+import Size from './pages/Generale/Size';
 import Equipment from './pages/Generale/Equipment';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
@@ -172,6 +173,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
+          <Route path="/size" element={<Size />} />
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
@@ -277,7 +279,7 @@ function App() {
 
           {/* HUNTER */}
           <Route path="/hunter" element={<Hunter />} />
-          <Route path="/hunter/endowments " element={<Endowments />} />
+          <Route path="/hunter/endowments" element={<Endowments />} />
           <Route path="/hunter/tactics" element={<Tactics />} />
           <Route path="/hunter/merits" element={<HunterMerits />} />
 
