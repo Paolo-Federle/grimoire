@@ -91,6 +91,11 @@ a.active {
         font-weight: normal !important;
     }
 
+    .mobile-nav a.active {
+        font-weight: bold !important;
+        text-decoration: underline;
+    }
+
     .mobile-nav-toggle {
         display: block;
         width: 100%;

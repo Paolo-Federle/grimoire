@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <>
             <button className="mobile-nav-toggle" onClick={toggleMobileNav}>
-                ☰
+                {isMobileNavVisible ? '✖' : '☰'}
             </button>
             {isMobileNavVisible ? (
                 <div className="mobile-nav">
