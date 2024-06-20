@@ -51,7 +51,7 @@ export default function Mage() {
                         <h2>Advantages</h2>
                         <p>
                             Mages have access to several unique <Link to='/mage/merits'>Merits</Link> beyond mortal scope,
-                            including specific <Link to='/mage/locations'>Locations</Link> and <Link to='/mage/combat_styles'>Combat Styles</Link>.
+                            including specific <Link to='/merits/location'>Locations</Link> and <Link to='/mage/combat_styles'>Combat Styles</Link>.
                             They can also access the universally available list of Merits.
                         </p>
                         <p>

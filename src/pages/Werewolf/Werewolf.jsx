@@ -41,7 +41,7 @@ export default function Werewolf() {
                         <h2>Advantages</h2>
                         <p>
                             The Forsaken have access to several unique <Link to='/werewolf/merits'>Merits</Link> beyond mortal scope, including
-                            specific <Link to='/werewolf/locations'>Locations</Link> and <Link to='/werewolf/combat_styles'>Combat Styles</Link>.
+                            specific <Link to='/merits/location'>Locations</Link> and <Link to='/werewolf/combat_styles'>Combat Styles</Link>.
                         </p>
                     </div>
                 </section>

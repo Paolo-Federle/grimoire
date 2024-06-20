@@ -34,7 +34,7 @@ export default function Vampire() {
                         <h2>Advantages</h2>
                         <p>
                             Vampires have access to several unique <Link to='/vampire/merits'>Merits</Link> beyond mortal scope,
-                            including specific <Link to='/vampire/locations'>Locations</Link> and Combat Styles.
+                            including specific <Link to='/merits/location'>Locations</Link> and Combat Styles.
                         </p>
                         <p>
                             The Kindred can also create <Link to='/vampire/ghoul'>Ghouls</Link> to act as their pawns.

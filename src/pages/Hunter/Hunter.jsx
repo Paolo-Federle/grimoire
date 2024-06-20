@@ -35,7 +35,7 @@ export default function Hunter() {
                         <h2>Advantages</h2>
                         <p>
                             Hunters have access to several unique <Link to='/hunter/merits'>Merits</Link>, including
-                            specific <Link to='/hunter/locations'>Locations</Link> and <Link to='/hunter/combat_styles'>Combat Styles</Link>.
+                            specific <Link to='/merits/location'>Locations</Link> and <Link to='/hunter/combat_styles'>Combat Styles</Link>.
                         </p>
                         <p>
                             Being mundane humans, Hunters often have a normal <Link to='/hunter/profession'>Profession</Link>.

@@ -66,6 +66,7 @@ import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
 import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
+import Location from './pages/Generale/Location';
 import Size from './pages/Generale/Size';
 import Equipment from './pages/Generale/Equipment';
 import { Routes, Route } from 'react-router-dom'
@@ -174,6 +175,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
           <Route path="/size" element={<Size />} />
+          <Route path="/merits/location" element={<Location />} />
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
@@ -193,7 +195,7 @@ function App() {
           <Route path="/mortal/tools" element={<Tools />} />
           <Route path="/mortal/vehicles" element={<Vehicle />} />
           <Route path="/mortal/weapons" element={<Weapon />} />
-          
+
           {/* VAMPIRI */}
           <Route path="/vampire" element={<Vampire />} />
           <Route path="/vampire/disciplines" element={<Disciplines />} />
@@ -242,7 +244,7 @@ function App() {
             <Route
               key={index}
               path={`/mage/${arcana}`}
-              element={<Arcana arcana={arcana}/>}
+              element={<Arcana arcana={arcana} />}
             />
           ))}
           <Route path="/mage/artifacts" element={<Artifacts />} />

@@ -41,7 +41,7 @@ export default function Changeling() {
                         <h2>Advantages</h2>
                         <p>
                             Changelings have access to several unique <Link to='/changeling/merits'>Merits</Link> beyond mortal
-                            scope, including specific <Link to='/changeling/location'>Locations</Link> and <Link to='/changeling/combat_styles'>Combat Styles</Link>.
+                            scope, including specific <Link to='/merits/location'>Locations</Link> and <Link to='/changeling/combat_styles'>Combat Styles</Link>.
                         </p>
                     </div>
                 </section>
