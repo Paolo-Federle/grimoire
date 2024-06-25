@@ -79,88 +79,87 @@ function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
   const location = useLocation();
 
-  useEffect(() => {
-    const getCategoryFromPath = (path) => {
-      const categories = [
-        'mortal',
-        'vampire',
-        'werewolf',
-        'mage',
-        'promethean',
-        'changeling',
-        'hunter',
-        'geist',
-        'mummy',
-        'others'
-      ];
+  // Pagine colorate per le razze
+  // useEffect(() => {
+  //   const getCategoryFromPath = (path) => {
+  //     const categories = [
+  //       'mortal',
+  //       'vampire',
+  //       'werewolf',
+  //       'mage',
+  //       'promethean',
+  //       'changeling',
+  //       'hunter',
+  //       'geist',
+  //       'mummy',
+  //       'others'
+  //     ];
 
-      const pathSegments = path.split('/'); // Split the URL by '/'
-      const categoryIndex = pathSegments.findIndex(segment =>
-        categories.includes(segment)
-      );
-      if (categoryIndex !== -1) {
-        return pathSegments[categoryIndex]; // Return the category found in the URL
-      }
+  //     const pathSegments = path.split('/'); 
+  //     const categoryIndex = pathSegments.findIndex(segment =>
+  //       categories.includes(segment)
+  //     );
+  //     if (categoryIndex !== -1) {
+  //       return pathSegments[categoryIndex]; 
+  //     }
 
-      return 'others'; // If no matching category is found, default to 'others'
-    };
+  //     return 'others'; 
+  //   };
 
+  //   const handlePageChange = () => {
+  //     const currentCategory = getCategoryFromPath(window.location.href);
+  //     let newCategoryStyle = '';
 
-    const handlePageChange = () => {
-      const currentCategory = getCategoryFromPath(window.location.href);
-      let newCategoryStyle = '';
+  //     switch (currentCategory) {
+  //       case 'mage':
+  //         newCategoryStyle = 'mage-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'vampire':
+  //         newCategoryStyle = 'vampire-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'mortal':
+  //         newCategoryStyle = 'mortals-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'werewolf':
+  //         newCategoryStyle = 'werewolf-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'promethean':
+  //         newCategoryStyle = 'promethean-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'changeling':
+  //         newCategoryStyle = 'changeling-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'hunter':
+  //         newCategoryStyle = 'hunter-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'geist':
+  //         newCategoryStyle = 'geist-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       case 'mummy':
+  //         newCategoryStyle = 'mummy-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //       default:
+  //         newCategoryStyle = 'default-style';
+  //         document.body.className = newCategoryStyle
+  //         break;
+  //     }
 
-      switch (currentCategory) {
-        case 'mage':
-          newCategoryStyle = 'mage-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'vampire':
-          newCategoryStyle = 'vampire-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'mortal':
-          newCategoryStyle = 'mortals-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'werewolf':
-          newCategoryStyle = 'werewolf-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'promethean':
-          newCategoryStyle = 'promethean-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'changeling':
-          newCategoryStyle = 'changeling-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'hunter':
-          newCategoryStyle = 'hunter-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'geist':
-          newCategoryStyle = 'geist-style';
-          document.body.className = newCategoryStyle
-          break;
-        case 'mummy':
-          newCategoryStyle = 'mummy-style';
-          document.body.className = newCategoryStyle
-          break;
-        default:
-          newCategoryStyle = 'default-style';
-          document.body.className = newCategoryStyle
-          break;
-      }
+  //     setCategoryStyle(newCategoryStyle);
+  //   };
 
-      setCategoryStyle(newCategoryStyle);
-    };
+  //   // Initial update based on current URL
+  //   handlePageChange();
 
-
-    // Initial update based on current URL
-    handlePageChange();
-
-  }, [location]);
+  // }, [location]);
 
   const removeSpaceForLinks = (title) => {
     return title.replace(/ /g, '_');

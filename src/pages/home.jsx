@@ -10,7 +10,7 @@ export default function Home() {
                     <table className="home-table-container">
                         <tbody>
                             <tr>
-                                <th className='table-header'>About the Chronicles of Darkness</th>
+                                <th className='table-header'>Sources</th>
                             </tr>
                             <tr>
                                 <td className='table-cell'>
@@ -55,7 +55,7 @@ export default function Home() {
                     <table className="home-table-container">
                         <tbody>
                             <tr>
-                                <th className='table-header'>Gameline Portals</th>
+                                <th className='table-header'>Main Games</th>
                             </tr>
                             <tr>
                                 <td className='table-cell'>

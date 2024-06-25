@@ -58,7 +58,7 @@ export default function SpellDetail(props) {
         <div>
             {matchedSpell && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
+                    <div style={{ margin: '20px', maxWidth: '1000px' }}>
                         <h1>{matchedSpell.Titolo} ({matchedSpell.Arcana})</h1>
 
                         {matchedSpell.DescrizioneAlta && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.DescrizioneAlta }} /></p>}

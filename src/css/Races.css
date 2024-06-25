@@ -7,7 +7,7 @@
 
 .main-races {
     width: 100%;
-    padding: 20px;
+    padding: 20px 60px;
     box-sizing: border-box;
 }
 
@@ -15,4 +15,4 @@
     font-size: 2em;
     margin: 0;
     margin-bottom: 20px;
-  }
+}
