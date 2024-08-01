@@ -13,7 +13,7 @@ const spiritNuminaData = [
         "Description": "act twice, only one of which is Influence or Numina",
         "Pool": "-",
         "Cost": "5e",
-        "Page": "Summ p221, IEwtA p221"
+        "Page": "Summ p221"
     },
     {
         "Origin": "Pyros",

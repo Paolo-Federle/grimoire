@@ -34,7 +34,7 @@ th {
     /* top, right, bottom, left */
     padding: 2px 15px 3px 5px;
     line-height: 24px;
-    font-size: 18px;
+    font-size: 16spx;
 }
 
 td {
@@ -73,6 +73,7 @@ td {
     color: #fff;
     background-color: #333;
     font-weight: bold;
+    border-top: solid 1px #dfdfdf;
 }
 
 .alternating-row {

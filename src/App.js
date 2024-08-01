@@ -5,6 +5,7 @@ import UniversalMerits from './pages/Generale/UniversalMerits'
 import Vampire from './pages/Vampire/Vampire'
 import Disciplines from './pages/Vampire/Disciplines'
 import VampireMerits from './pages/Vampire/VampireMerits'
+import Devotion from './pages/Vampire/Devotion';
 import Werewolf from './pages/Werewolf/Werewolf'
 import Gifts from './pages/Werewolf/Gifts'
 import Rites from './pages/Werewolf/Rites'
@@ -199,6 +200,7 @@ function App() {
           <Route path="/vampire" element={<Vampire />} />
           <Route path="/vampire/disciplines" element={<Disciplines />} />
           <Route path="/vampire/merits" element={<VampireMerits />} />
+          <Route path="/vampire/devotions" element={<Devotion />} />
 
           {/* WEREWOLF */}
           <Route path="/werewolf" element={<Werewolf />} />
