@@ -57,6 +57,8 @@ import Affinities from './pages/Mummy/Affinities';
 import Utterances from './pages/Mummy/Utterances';
 import MummyMerits from './pages/Mummy/MummyMerits';
 import Relic from './pages/Mummy/Relic';
+import Numina from './pages/Spirit/Numina';
+import NuminaDetail from './pages/Spirit/NuminaDetail';
 import Mortal from './pages/MortalsAndOthers/Mortal';
 import Armor from './pages/MortalsAndOthers/Armor';
 import Tools from './pages/MortalsAndOthers/Tools';
@@ -75,6 +77,9 @@ import Navbar from './components/Navbar';
 import { useLocation } from 'react-router-dom';
 import './css/App.css';
 import './css/Races-Style.css'
+import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
+import Advantage from './pages/Generale/Advantage';
+import Lexycon from './pages/Generale/Lexycon';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -179,6 +184,8 @@ function App() {
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
+          <Route path="/advantages" element={<Advantage />} />
+          <Route path="/lexycon" element={<Lexycon />} />
           {allUniMeritsData.map((merits, index) => (
             <Route
               key={index}
@@ -299,6 +306,17 @@ function App() {
           <Route path="/mummy/utterances" element={<Utterances />} />
           <Route path="/mummy/merits" element={<MummyMerits />} />
           <Route path="/mummy/relics" element={<Relic />} />
+
+          {/* SPIRIT */}
+          <Route path="/spirit/numina" element={<Numina />} />
+          {spiritNuminaData.map((numina, index) => (
+            <Route
+              key={index}
+              path={`/spirit/numina/${removeSpaceForLinks(numina.Name)}`}
+              element={<NuminaDetail numina={numina} />}
+            />
+          ))}
+
         </Routes>
       </div>
     </>

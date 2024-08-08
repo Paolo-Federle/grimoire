@@ -46,6 +46,8 @@ export default function Home() {
                                     <Link to="/wiki/Category:Settings" title="Category:Settings">Settings</Link>
                                     &nbsp;•&nbsp;
                                     <Link to="/size" title="Category:Size">Size</Link>
+                                    &nbsp;•&nbsp;
+                                    <Link to="/lexycon" title="Category:Size">Lexycon</Link>
                                 </td>
                             </tr>
                         </tbody>
