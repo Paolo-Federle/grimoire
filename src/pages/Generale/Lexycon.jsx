@@ -27,7 +27,7 @@ export default function Lexycon() {
   );
 
   const [activeSections, setActiveSections] = React.useState(
-    new Set(Object.keys(lexyconData)) // Initially show all sections
+    new Set(Object.keys(lexyconData))
   );
 
   const handleSectionToggle = (sectionName) => {
