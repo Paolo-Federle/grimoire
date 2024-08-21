@@ -15,13 +15,13 @@ export default function Vampire() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            Vampires are reborn as members of a <Link to='/vampire/clan'>Clan</Link>, and may further belong to or join a <Link to='/vampire/bloodline'>Bloodline</Link>.
-                            Vampires often join a <Link to='/vampire/covenant'>Covenant</Link> based on their philosophy toward the Long Night.
+                            Vampires are reborn as members of a <Link to='/vampire/clans'>Clan</Link>, and may further belong to or join a <Link to='/vampire/bloodline'>Bloodline</Link>.
+                            Vampires often join a <Link to='/vampire/covenants'>Covenant</Link> based on their philosophy toward the Long Night.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
                             Kindred posses a unique Power Stat trait called <Link to='/vampire/blood_potency'>Blood Potency</Link>,
-                            and a Morality trait called Humanity.
+                            and a Morality trait called <Link to='/vampire/humanity'>Humanity</Link>.
                         </p>
                     </div>
 
@@ -37,7 +37,7 @@ export default function Vampire() {
                             including specific <Link to='/merits/location'>Locations</Link> and Combat Styles.
                         </p>
                         <p>
-                            The Kindred can also create <Link to='/vampire/ghoul'>Ghouls</Link> to act as their pawns.
+                            The Kindred can also create <Link to='/vampire/ghoul_families'>Ghouls</Link> to act as their pawns.
                         </p>
                     </div>
                 </section>

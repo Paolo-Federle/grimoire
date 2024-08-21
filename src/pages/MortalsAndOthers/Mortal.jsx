@@ -16,7 +16,7 @@ export default function Mortal() {
                         <h2>Technicalities</h2>
                         <p>
                             Mortal humans have a <Link to='/mortal/morality'>Morality</Link> and
-                            a <Link to='/mortal/virtue'>Virtue</Link> and <Link to='/mortal/vice'>Vice</Link>.
+                            a <Link to='/mortal/virtue_vice'>Virtue and Vice</Link>.
                         </p>
                     </div>
                 </section>

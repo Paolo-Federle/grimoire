@@ -80,6 +80,18 @@ import './css/Races-Style.css'
 import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
 import Advantage from './pages/Generale/Advantage';
 import Lexycon from './pages/Generale/Lexycon';
+import Clan from './pages/Vampire/Clan';
+import Covenant from './pages/Vampire/Covenant';
+import Kith from './pages/Changeling/Kith';
+import Court from './pages/Changeling/Court';
+import Entitlements from './pages/Changeling/Entitlement';
+import Wyrd from './pages/Changeling/Wyrd';
+import Bloodline from './pages/Vampire/Bloodline';
+import BloodPotency from './pages/Vampire/BloodPotency';
+import GhoulFamilies from './pages/Vampire/Ghoul';
+import Morality from './pages/MortalsAndOthers/Morality';
+import Humanity from './pages/Vampire/Humanity';
+import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -196,6 +208,8 @@ function App() {
 
           {/* Mortals */}
           <Route path="/mortal" element={<Mortal />} />
+          <Route path="/mortal/morality" element={<Morality />} />
+          <Route path="/mortal/virtue_vice" element={<VirtueVice />} />
           <Route path="/mortal/merits" element={<MortalMerits />} />
           <Route path="/mortal/armor" element={<Armor />} />
           <Route path="/mortal/reliquary" element={<Reliquary />} />
@@ -208,6 +222,13 @@ function App() {
           <Route path="/vampire/disciplines" element={<Disciplines />} />
           <Route path="/vampire/merits" element={<VampireMerits />} />
           <Route path="/vampire/devotions" element={<Devotion />} />
+          <Route path="/vampire/clans" element={<Clan />} />
+          <Route path="/vampire/covenants" element={<Covenant />} />
+          <Route path="/vampire/bloodline" element={<Bloodline />} />
+          <Route path="/vampire/blood_potency" element={<BloodPotency />} />
+          <Route path="/vampire/ghoul_families" element={<GhoulFamilies />} />
+          <Route path="/vampire/merits" element={<VampireMerits />} />
+          <Route path="/vampire/humanity" element={<Humanity />} />
 
           {/* WEREWOLF */}
           <Route path="/werewolf" element={<Werewolf />} />
@@ -280,6 +301,10 @@ function App() {
 
           {/* CHANGELING */}
           <Route path="/changeling" element={<Changeling />} />
+          <Route path="/changeling/kiths" element={<Kith />} />
+          <Route path="/changeling/court" element={<Court />} />
+          <Route path="/changeling/entitlement" element={<Entitlements />} />
+          <Route path="/changeling/wyrd" element={<Wyrd />} />
           <Route path="/changeling/contracts" element={<Contracts />} />
           <Route path="/changeling/oaths" element={<Oaths />} />
           <Route path="/changeling/merits" element={<ChangelingMerits />} />

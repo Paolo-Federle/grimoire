@@ -1,4 +1,10 @@
-const BeastsData = [
+const kithData = [
+    {
+        "Kith": "Beasts",
+        "Description": "N/A",
+        "Blessing": "N/A",
+        "Book": "N/A"
+    },
     {
         "Kith": "Broadback",
         "Description": "Beasts of Burden",
@@ -94,10 +100,13 @@ const BeastsData = [
         "Description": "Flyers",
         "Blessing": "Gift of the Sky",
         "Book": "Reduced falling damage. Spend Glamour to glide one minute per Wyrd dot."
-    }
-]
-
-const DarklingsData = [
+    },
+    {
+        "Kith": "Darklings",
+        "Description": "N/A",
+        "Blessing": "N/A",
+        "Book": "N/A"
+    },
     {
         "Kith": "Antiquarian",
         "Description": "Collectors of Forbidden Secrets",
@@ -186,12 +195,14 @@ const DarklingsData = [
         "Kith": "Whisperwisp",
         "Description": "Spies, Watching and Listening",
         "Blessing": "Turncoat's Tongue",
-
         "Book": "9-Again on Empathy and Subterfuge on conversation/gather info. Spend Glamour to whisper a message within earshot."
-    }
-]
-
-const ElementalsData = [
+    },
+    {
+        "Kith": "Elementals",
+        "Description": "N/A",
+        "Blessing": "N/A",
+        "Book": "N/A"
+    },
     {
         "Kith": "Airtouched",
         "Description": "Air/Clouds/Wind",
@@ -275,10 +286,13 @@ const ElementalsData = [
         "Description": "Plants/Fungi/Wood",
         "Blessing": "Fade into the Foliage",
         "Book": "9-Again on Stealth and Survival rolls. Can spend a Glamour to hide in a normally unhideable area with decent foliage"
-    }
-]
-
-const FairestData = [
+    },
+    {
+        "Kith": "Fairest",
+        "Description": "N/A",
+        "Blessing": "N/A",
+        "Book": "N/A"
+    },
     {
         "Kith": "Bright Ones",
         "Description": "Transformed by Light/Fire/Ice",
@@ -372,7 +386,6 @@ const FairestData = [
     {
         "Kith": "Treasured",
         "Description": "Treasured Item",
-
         "Blessing": "Alabaster Fortitude",
         "Book": "Once per scene, spend a Glamour to retake one Stamina, Resolve or Composure roll (Not for derangement rolls.)"
     },
@@ -381,10 +394,13 @@ const FairestData = [
         "Description": "Kind, Sad Pale Matrons",
         "Blessing": "Kiss of Life",
         "Book": "Usable once per game session, Spend a Glamour and kiss a target Target gains +2 armor. If target is younger then 13, +3. Does not stack with other armor."
-    }
-]
-
-const OgresData = [
+    },
+    {
+        "Kith": "Ogres",
+        "Description": "N/A",
+        "Blessing": "N/A",
+        "Book": "N/A"
+    },
     {
         "Kith": "Bloodbrute",
         "Description": "Gladiator",
@@ -462,10 +478,13 @@ const OgresData = [
         "Description": "Crones and Warlocks",
         "Blessing": "Black Hex",
         "Book": "Spend a Glamour for +1 occult. +1 to activate Contracts that curse."
-    }
-]
-
-const WizenedData = [
+    },
+    {
+        "Kith": "Wizened",
+        "Description": "N/A",
+        "Blessing": "N/A",
+        "Book": "N/A"
+    },
     {
         "Kith": "Artist",
         "Description": "Artists",
@@ -570,4 +589,4 @@ const WizenedData = [
     }
 ]
 
-export { BeastsData, DarklingsData, ElementalsData, FairestData, OgresData, WizenedData }
+export { kithData }
