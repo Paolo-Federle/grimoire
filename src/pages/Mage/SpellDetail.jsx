@@ -68,8 +68,8 @@ export default function SpellDetail(props) {
                         {matchedSpell.Aspect && <div><b>Aspect:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Aspect }} /></div>}
                         {matchedSpell.Cost && <div><b>Cost:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Cost }} /></div>}
                         {matchedSpell.DescrizioneMiddle && <div><span dangerouslySetInnerHTML={{ __html: replacePlaceholders(matchedSpell.DescrizioneMiddle) }} /></div>}
-                        {matchedSpell.RoteName && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteName }} /></p>}
-                        {matchedSpell.RoteDice && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} /></p>}
+                        <p>{matchedSpell.RoteName && <b><span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteName }} /></b>}<br />
+                            {matchedSpell.RoteDice && <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} />}</p>
                         {matchedSpell.RoteDescrizione && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDescrizione }} /></p>}
                     </div>
                 </>

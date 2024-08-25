@@ -22,7 +22,7 @@ const timeOneData = [
         "Cost": "None",
         "DescrizioneMiddle": "A simple success is enough to get an answer concerning one action or event. The Storyteller answers this question as well as he can, knowing what he knows about the situation and the intentions of his Storyteller characters. However, there is no guarantee that the new course of action the mage chooses based on this knowledge will not eventually lead to an adverse choice, since events are always in flux based on many factors. This spell tells the mage only if the specific event queried will lead to good or ill for him in the immediate future.",
         "RoteName": "Silver Ladder Rote: Seizing the Moment",
-        "RoteDice": "Dice Pool: Wits + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Time",
         "RoteDescrizione": "To mages of the Silver Ladder, the use of this rote is nothing less than asserting power over an instant in time and shaping its outcome according to one’s own will.",
         "DescrizioneBreve": "determine if event was beneficial"
     },
@@ -37,7 +37,7 @@ const timeOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Each success grants the mage a single extra die in the next roll that has to — or is chosen to — be made. This does not include spellcasting rolls. If the next roll is for a spell (perhaps the mage needs to quickly cast a countermagic), the character loses the benefit.",
         "RoteName": "Adamantine Arrow Rote: Strike True",
-        "RoteDice": "Dice Pool: Intelligence + Composure + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Composure + Time",
         "RoteDescrizione": "Mages of the Adamantine Arrow who master this rote find that they need strike only once in order to fell their enemies. By attuning his perceptions to the perfect instant in time in which to act, the willworker attacks with efficiency.",
         "DescrizioneBreve": "add dice to next roll in turn"
     },
@@ -84,7 +84,7 @@ const timeOneData = [
             }
         ],
         "RoteName": "Mysterium Rote: Temporal Forensics",
-        "RoteDice": "Dice Pool: Wits + Science + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Science + Time",
         "RoteDescrizione": "For the Mysterium’s archeologists, learning if a shard of ancient pottery dates to the long-lost days of Atlantis, or is merely a 1,300-years-old relic of the Dark Ages is an invaluable method of separating fakes from real artifacts. This spell is also a swift and useful method of determining if a potentially interesting site is worth pursuing or if it is more recent, and therefore less interesting, than it looks.",
         "DescrizioneBreve": "determine when target reached its current form"
     },
@@ -99,7 +99,7 @@ const timeOneData = [
         "Cost": "None",
         "DescrizioneMiddle": "",
         "RoteName": "Free Council Rote: The Gravity of Instants",
-        "RoteDice": "Dice Pool: Wits + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Time",
         "RoteDescrizione": "Free Council willworkers use this rote to perceive the ways in which Time clings to people, places, and things, and how more or less 'substantial' pockets of Time accrue within the flow of the greater whole.",
         "DescrizioneBreve": "Mage Sight"
     },
@@ -114,7 +114,7 @@ const timeOneData = [
         "Cost": "None",
         "DescrizioneMiddle": "During this spell’s Duration, a reflexive Wits + Investigation roll can be made for the mage to detect a temporal disturbance that occurs within his sensory range. She can also examine such phenomena.",
         "RoteName": "Guardians of the Veil Rote: Espying the Graven Hour",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "With this rote, Guardians of the Veil are able to discern Time magics (or similar powers) that have been used to somehow alter the natural flow of past, present, and future. Some describe such phenomena as being 'etched' or 'engraved' on the progression of Time. Mages of the Adamantine Arrow prefer not to be surprised by other uses of the Arcanum (such as 'Prepared Spells,' p. 260), so use this rote as a matter of security.",
         "DescrizioneBreve": "detect presence of temporal disturbances"
     },
@@ -129,7 +129,7 @@ const timeOneData = [
         "Cost": "None",
         "DescrizioneMiddle": "For each success, the mage may add or subtract up to five minutes to the target’s internal time clock. The target will feel with absolute certainty that the correct time is that much later or earlier, and act accordingly. So strong is this altered sense of time that the spell’s recipient won’t feel any need to check with a watch or clock for the duration of the spell. When the spell expires, the target’s sense of time resumes its normal accuracy, but he won’t sense that he’s gained or lost time until he sees a clock or some other clue to the real time. (Should the target happen to see the correct time while the spell is in effect, he’s free to act on that knowledge even though it contradicts his instincts.)<p>If the target is a mage with Time 1 or greater, he makes a reflexive Wits + Composure roll to sense that he’s a victim of Time magic.</p>",
         "RoteName": "Guardians of the Veil Rote: Personal Time",
-        "RoteDice": "Dice Pool: Intelligence + Subterfuge + Time Composure",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Time Composure",
         "RoteDescrizione": "As with many Guardian rotes, strategic application is key to getting the best results from this spell. Knowing the target’s schedule — he needs to be at such-and-such a place at such-andsuch a time — allows the mage to disrupt or manipulate him more effectively (someone taking a leisurely day off may not change his behavior much no matter what time he thinks it is, while someone on his lunch hour may bolt if he thinks his time is up). The rote can still be useful in the absence of such knowledge; causing a subject of surveillance to linger in one place long enough to be carefully observed, for example.",
         "DescrizioneBreve": "alter target's sense of time"
     },
@@ -175,7 +175,7 @@ const timeOneData = [
             }
         ],
         "RoteName": "Mysterium Rote: Acceptable Expiration",
-        "RoteDice": "Dice Pool: Intelligence + Crafts + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Time",
         "RoteDescrizione": "Though this spell results in eventually unusable items, the peripatetic experimenters of the Mysterium rely heavily on this technique of spell relinquishment when playing around with new concepts. If an item proves unsatisfactory after preliminary testing, no great inconvenience arises from the item’s eventual shutdown. Truly compelling concepts, on the other hand, can later be remade using more costly but reliable relinquishment methods.",
         "DescrizioneBreve": "item crafting, alternate relinquishment cost - each owner only gets a limited time of usability"
     },
@@ -190,7 +190,7 @@ const timeOneData = [
         "Cost": "None",
         "DescrizioneMiddle": "The mage stares intently at the object or target of the spell. She does not need to touch the target. If the spell is successfully cast, the mage knows how much time has passed since the target was born (for a living being, which requires Life 1) or worked into its present form (for an object, which requires Matter 1). Using this spell on unworked natural matter, such as a simple stone, tends to produce a disorienting rush of images as the mage’s mind tries to process the sheer onslaught of years bombarding her brain; as such, Time’s Mark is much more useful on crafted objects such as works of art or weapons. <p>Using this spell on a book or a piece of paper with writing on it doesn’t tell how long ago the words were written (or conceived), only how long ago the book or paper was created. No information about the object or target of this spell is conveyed other than age.</p><p>This spell can be used to discern how much time has elapsed since a ghost or vampire’s death, but requires the mage to have Death 1.</p><p>If the mage has Time 2, she can cast this spell without use of a conjunctional Arcanum.</p><p>If the object or being has been artificially aged or its age has been retarded somehow (for instance, a vampire’s ghoul doesn’t age as long as he continues to drink vampiric blood), this spell detects an anomaly but does not automatically tell the mage how old the being or object is. In this case, the caster can perform an extended scrutiny action, with each roll taking one turn. The number of success required is equal to the target’s Resolve (if a living being) or 5 (if an object). The spell’s Duration is still concentration, so if the caster is interrupted during this extended examination, the spell expires.</p>",
         "RoteName": "Mysterium Rote: Rings of the Oak",
-        "RoteDice": "Dice Pool: Intelligence + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Time",
         "RoteDescrizione": "The mages of the Alae Draconis find that, while it’s possible to discern a relic’s age through scientific or scholarly means, using magic is much more precise.",
         "DescrizioneBreve": "reliably determine object/person's creation/birth date"
     }
@@ -208,7 +208,7 @@ const timeTwoData = [
         "Cost": "None",
         "DescrizioneMiddle": "The mage must declare a target — a person, place, or thing. (Temporal sympathy modifies the casting roll; see p. 259.) He can then ask a simple question about that target’s future and gain a general answer. Examples of proper questions include: “Will Tony get the job he just interviewed for?” “Will Charlotte marry George?” “Will Angrboda kill again?“ <p>Improper questions get no answers. Examples of improper questions include: “How much money will that lottery ticket win me? (Too specific; try instead: “Is this the winning ticket?”) “Will my son be a good man?” (“Good” is too relative a term — good to whom, exactly?)<p>The Storyteller decides what the future holds for the target, knowing that knowledge of the future is often enough to change that future. A woman who is told she will be a store clerk for the rest of her life might then quit her job to go back to school. Some mages don’t even need to cast this spell to effect change. Their reputations for prophecy can be used to make others think they have read the future by means of magic. In this way, a mage might influence a friend’s behavior in hopes of turning her toward a more productive life by scaring her with predictions of just where her current path will lead.</p> The same person can be targeted with this spell only once every 24 hours. Any attempts to augur him again before 24 hours have passed reveal meaningless echoes of myriad possible actions the target could take, but with no clue as to which might occur, or which is even more probable than the others. If the mage persists, the spell becomes vulgar.</p>",
         "RoteName": "Silver Ladder Rote: Seer’s Song",
-        "RoteDice": "Dice Pool: Intelligence + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Time",
         "RoteDescrizione": "Leadership carries many burdens, among them the need to know what may yet come to pass. Mages of the Silver Ladder use this rote in their constant efforts to bring order to chaos and to have some sense of how best to provide wise counsel during uncertain times.",
         "DescrizioneBreve": "see the general nature of the future"
     },
@@ -223,7 +223,7 @@ const timeTwoData = [
         "Cost": "None",
         "DescrizioneMiddle": "<p>Success in the casting of this spell grants a willworker insight into the immediate past of an ephemeral entity presently manifested before her or whom she can otherwise perceive. Effectively, the mage begins to “rewind” the recent history of the entity, following it back, one minute per turn of concentration and studying the sensory input of its surroundings during that time. The mage may “pause” on any given minute and analyze it for content of interest. In the case of a being recently summoned from its home realm, this actually allows the caster to look upon that realm in the time leading up to the summoning. </p><p>An entity whose existence is only recently established (such as one temporarily created with the Spirit Arcanum), however, may not have much history to study. Likewise, a being summoned from a place in which time has no meaning may reveal nothing, or it may reveal wildly inconclusive information. </p><p>Following the history of an entity summoned from the Abyss back through the moment of summoning to its place of origin instantly terminates the spell and the mage’s player must successfully roll Resolve + Composure, with a dice-pool penalty equal to the Gulmoth’s Rank, with failure resulting in a mild derangement (or, if the mage already suffers from a mild derangement, a severe one). At the Storyteller’s discretion, a similar effect may befall a willworker using this spell to see back beyond the moment at which an alien entity first arrived in the Fallen World from outside of the Tapestry. Using this spell in an attempt to look past the moment of summoning for a denizen of the Supernal Realms grants a painful and confusing — and utterly unhelpful — glimpse of the higher world before abruptly ending the spell. Attempting to look into the Realms Supernal in this way is an act of hubris for any mage with a Wisdom higher than 3, requiring a degeneration roll on two dice.</p>",
         "RoteName": "Mysterium Rote: Whence It Came",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "Information moves not just forward, but also backward, in time for those with the skill necessary to obtain it. Some mystagogues summon strange spirits from the other worlds, simply to analyze their places of origin by way of this magic, thus advancing the state of Awakened knowledge.",
         "DescrizioneBreve": "see the past of an ephemeral being"
     },
@@ -238,7 +238,7 @@ const timeTwoData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Even one success accrued in the casting of the spell enables a mage to automatically succeed (or fail if he wishes) at an uncontested action with only two possible outcomes and immediate consequences for success or failure.<p>(In this case 'uncontested' could mean a coin toss or bucking up for evens or odds, despite the fact that there are two participants, since no one can normally exert effort to win.) Note that this effect cannot be used in relation to combat, since a fight is contested (opponents exert effort to win) and the variables are more than simple success or failure (one can win but at the cost of major wounds, or the fight can result in a draw or surrender).</p>",
         "RoteName": "Free Council Rote: Instant Gratification",
-        "RoteDice": "Dice Pool: Wits + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Time",
         "RoteDescrizione": "Mages of the Free Council understand that sometimes what others perceive as luck or a good sense of intuition is nothing more than the product of knowing how it’s all going to turn out.",
         "DescrizioneBreve": "determine outcome of simple act"
     },
@@ -253,7 +253,7 @@ const timeTwoData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Success allows the player to roll twice for a single instant action his character performs in the following turn, taking the better of the two results.<p>With Time 3, this spell can be cast reflexively, applying to an instant action taken in the same turn in which the magic is cast.</p>",
         "RoteName": "Adamantine Arrow Rote: Failure is Death",
-        "RoteDice": "Dice Pool: Wits + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Time",
         "RoteDescrizione": "The Adamantine Arrow willworker knows that when battle is joined a misplaced blow or inaccurate shot transforms certain victory into disastrous failure. She does not tolerate such weakness in herself. Members of other orders use this rote for different reasons. Mages of the Silver Ladder sometimes discover that a given idea could be better expressed (or at least better accepted) with a slightly different turn of phrase (Resolve + Investigation + Time).",
         "DescrizioneBreve": "roll twice for action, taking the better roll"
     },
@@ -268,7 +268,7 @@ const timeTwoData = [
         "Cost": "None",
         "DescrizioneMiddle": "Each success allows the caster to make one Research roll per 15 minutes for extended action research (see 'Research,' pp. 55–56, the <b>World of Darkness Rulebook</b>), instead of the usual 30 minutes per roll.",
         "RoteName": "Guardians of the Veil Rote: The Right Book",
-        "RoteDice": "Dice Pool: Wits + Academics + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Academics + Time",
         "RoteDescrizione": "An Eleventh Question mage (Guardians of the Veil Rulebook p. 166-168) devised this rote after being forced to go through a suspect’s rare book collection, looking for a specific clue about a breed of octopus used for a sympathetic connection to an acamoth. Because he was unable to find the information in time, the acamoth caused the deaths of three mages before its destruction. The Question vowed he would find a way to search for information more quickly and so developed this rote.",
         "DescrizioneBreve": "half Research roll time"
     },
@@ -283,7 +283,7 @@ const timeTwoData = [
         "Cost": "None",
         "DescrizioneMiddle": "The mage declares the time and place that she wishes to view, and casting dice pool is modified by temporal sympathy (see p. 259). Each success allows the mage to view up to one turn of time in that place, beginning at the moment declared during casting (such as 'Midnight on New Years Day, 1999, at Times Square'). She views events in real time (it takes one turn of current time to review one turn of past time) as if through a camera placed amidst the scene, but she can fast forward and replay any part within the viewing period. With Time 3, the mage can view one minute of time per success, and 10 minutes per success with Time 4.<p>The Duration of this spell is concentration; as soon as the mage ceases to concentrate on viewing the past, the spell expires.</p>",
         "RoteName": "Mysterium Rote: Gazing Through the Sands",
-        "RoteDice": "Dice Pool: Intelligence + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Time",
         "RoteDescrizione": "With this rote, a mage of the Mysterium can bear witness to events that have already transpired, a useful capability for those who seek to uncover the lost secrets of the past. Guardians of the Veil use this rote for similar purposes, though they usually apply whatever knowledge they glean to protecting the occult world from the scrutiny of the unenlightened.",
         "DescrizioneBreve": "view past events"
     },
@@ -298,7 +298,7 @@ const timeTwoData = [
         "Cost": "1 Mana (optional)",
         "DescrizioneMiddle": "The mage becomes invisible to prophecy, divination and other forms of temporal scrying unless the caster overcomes the Potency of the occluded mage’s spell.<p>By spending one Mana, the Duration can be made to last for one day.</p>",
         "RoteName": "Guardians of the Veil Rote: Breaking the Trail of Days",
-        "RoteDice": "Dice Pool: Composure + Stealth + Time",
+        "RoteDice": "<b>Dice Pool:</b> Composure + Stealth + Time",
         "RoteDescrizione": "For many Guardians of the Veil, the first, best secrets to keep are one’s own. With this rote, the mage becomes invisible to all save the most persistent and invasive searches of the Time Arcanum. Willworkers of the Silver Ladder use such magic (Presence + Stealth + Time) to occlude any unsavory activities upon the long road to rule, while those of the Adamantine Arrow employ this spell as yet another means to approach their enemies unseen.",
         "DescrizioneBreve": "prevent others from viewing through Time"
     },
@@ -313,7 +313,7 @@ const timeTwoData = [
         "Cost": "1 Mana (optional)",
         "DescrizioneMiddle": "The mage gains one point of armor per dot she possesses in the Time Arcanum. By spending one Mana, the Duration can be made to last for one day. Most mages cast such a shielding spell at the beginning of the day, as part of their morning rituals. Successes are used to combat attempts to dispel the shield.<p>Note that this magical armor applies against attempts to grapple the caster (both his Defense and Temporal Dodge armor are subtracted from the grappler’s dice pool when he attempts to achieve a hold on the mage), but it does not protect against attempts by an opponent to overpower and/or inflict damage once he has managed to grapple the mage.</p>",
         "RoteName": "Adamantine Arrow Rote: Dancing upon the River",
-        "RoteDice": "Dice Pool: Dexterity + Athletics + Time",
+        "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Time",
         "RoteDescrizione": "The River of Time is a dangerous place. One who knows how to dance upon its surface understands that danger, like all other things, is fleeting and can be circumvented by those with understanding of Time’s intricacies.",
         "DescrizioneBreve": "Shielding"
     },
@@ -328,7 +328,7 @@ const timeTwoData = [
         "Cost": "None",
         "DescrizioneMiddle": "If the target is unwilling, he may resist with a reflexive and contested Resolve + Gnosis roll.<p>The effect lasts for one hour.</p>",
         "RoteName": "Silver Ladder Rote: A Glance Through the Hourglass",
-        "RoteDice": "Dice Pool: Presence + Persuasion + Time",
+        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Time",
         "RoteDescrizione": "Sometimes it just isn’t enough to explain a thing to another. On occasion, one must show. This rote enables a willworker to extend his temporal perceptions to someone else so that she might perceive resonance as he does.",
         "DescrizioneBreve": "grant Mage Sight"
     },
@@ -343,7 +343,7 @@ const timeTwoData = [
         "Cost": "None",
         "DescrizioneMiddle": "The mage can either use this spell while physically at the location where she expects to attack her foes or combine it with Space 2 to determine both when and where to strike. In either case, temporal sympathy applies, and if the subject of the spell is under the effect of the 'Shield of Chronos' spell, the Banisher must exceed the Potency of that spell for this one to function.<p>If the spell succeeds, the Banisher knows when to attack the target to gain the greatest tactical advantage. What 'greatest tactical advantage' means in game terms is somewhat fluid; the spell might indicate that attacking the target at dawn, while he is just waking, would be the best use, and in that case, the character might be disoriented and without his armor spells. The spell might induce the Banisher to attack the target after a protracted battle, when his Mana and Willpower reserves are depleted. The advantages can be story-based rather than mechanical, but if the Storyteller would like something more objective, he can allow the Banisher to apply twice the successes rolled for the spell in penalties over the course of the scene.</p>",
         "RoteName": "Banisher Rote: Never Let Up",
-        "RoteDice": "Dice Pool: Wits + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Time",
         "RoteDescrizione": "The creator of this rote is long dead, shot multiple times by the Sleeper widow of one of the mages he killed. The creator was a ruthless Banisher, pursuing identified mages until they couldn’t run anymore and then looking ahead to determine where they would go to sleep. He taught this rote to at least one of his protégés, however, and so it slowly spreads to other Banishers.",
         "DescrizioneBreve": "predict the best time to attack target, inflict environmental penalties"
     }
@@ -361,7 +361,7 @@ const timeThreeData = [
         "Cost": "None during casting, 1 Mana per turn after casting",
         "DescrizioneMiddle": "This spell boosts the mage’s ability to avoid attacks, her Initiative, and Speed. Although the spell’s Duration lasts for one hour, the mage gains its benefits only in those turns in which she spends one Mana reflexively, and the benefits last for that turn. <p>The benefits are as follows:</p><ul><li> For each Time dot the mage possesses, one die is subtracted from any and all attackers’ dice pools (including ranged attacks), as the mage moves much more quickly than normal and is harder to hit.</li><li> Adds one to the mage’s Initiative per dot of Time.</li><li> Each dot of Time allows the caster’s Speed to be added again to his total Speed rating.</li></ul>With Time 4, the mage can cast this spell on others.",
         "RoteName": "Adamantine Arrow Rote: Swift as Death",
-        "RoteDice": "Dice Pool: Stamina + Athletics + Time",
+        "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Time",
         "RoteDescrizione": "Mages of the Adamantine Arrow must be ready for battle at all times. As history has proven, speed is one the most crucial advantages in combat. With this rote, the willworker can close on an enemy with preternatural speed and avoid attacks with ease. Naturally, this utilitarian rote sees use by members of every order.",
         "DescrizioneBreve": "1 mana/turn to increase speed, defense by time dots against"
     },
@@ -376,7 +376,7 @@ const timeThreeData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "For every five successes added to the target number, the user of the item can borrow one success per roll on any action to which the item contributes an equipment bonus. The Storyteller takes note of the situation, type of action, and number of successes borrowed. In a subsequent scene, when the user undertakes a similar action, the same number of successes is subtracted as dice from that roll, even if this means reducing the dice pool to a chance die. This occurs whether or not the user employs the item in that attempt. The Storyteller times this settling of temporal accounts so that the failure carries negative consequences roughly equal to what the character would have suffered in the original incident.<p><b>Example:</b> <i>A user borrows successes from his magic gun during a firefight with members of a drug gang. He can’t erase his debt with a mere trip to the range to pop off a few failed shots. It will instead catch up with him the next time he finds himself in life-or-death combat.</i></p>",
         "RoteName": "Adamantine Arrow Rote: Temporal Marker",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "The use of items enchanted with this spell reminds one of a popular Adamantine Arrow adage: “Kill your enemies today; let tomorrow fend for itself.” This motto is sometimes engraved on the items themselves.",
         "DescrizioneBreve": "item crafting, trade future penalties for successes"
     },
@@ -391,7 +391,7 @@ const timeThreeData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "As with the Augury spell, the mage must declare a target. (Temporal sympathy modifies the casting roll; see p. 259.) One success allows the mage to ask one question about the target’s future and get an answer. Additional successes allow follow-up questions, allowing the mage to get more specific details.<p><i>Example: Arethusa gets three successes on her Divination roll, so she can ask one lead question and two follow-up questions. She’s trying to find out if a rival mage named Garrik is planning on attacking her. Her first question is: “Will Garrick attack us tonight?” She gets a vision of Garrick standing in her foyer, readying a spell. Her first follow-up question is “When will Garrick attack?” The image changes “camera” angles, and she can see the large grandfather clock in the foyer past Garrick, showing 10 minutes until midnight. Her final follow-up question is “Is he working alone?” She sees a new image, this one showing her a number of stealthy, black-clad figures sneaking through the bushes outside her home.</i></p>The same person can be targeted with this spell only once every 24 hours. Any attempts to divine him again before 24 hours have passed reveal only meaningless echoes of myriad possible actions the target could take, but with no clue as to which he might take, or which are even more probable than others. If the mage persists, the spell becomes vulgar.",
         "RoteName": "Guardians of the Veil Rote: Speaking the Name of Tomorrow",
-        "RoteDice": "Dice Pool: Intelligence + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Time",
         "RoteDescrizione": "Time presents innumerable variables and one who would guard the Mysteries must be apprised of them in order to perform his duty. Guardians of the Veil cast this magic when vague predictions simply will not do. Mages of the Silver Ladder are often known to use such magic when attempting to discern the designs of their rivals.",
         "DescrizioneBreve": "gain information about possible future events by asking questions"
     },
@@ -406,7 +406,7 @@ const timeThreeData = [
         "Cost": "None",
         "DescrizioneMiddle": "For this spell’s Duration, the caster’s history and future reflect whatever she wishes when glimpsed by anyone using prophecy, divination or any other form of temporal Scrying to read either, unless the caster overcomes the Potency of this spell.",
         "RoteName": "Seers of the Throne Rote: Lie to Yesterday and Tomorrow",
-        "RoteDice": "Dice Pool: Wits + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Time",
         "RoteDescrizione": "Few things are as precious as one’s history and future, particularly to Seers of the Throne who have pursued the mysteries of the Time Arcanum. With magic such as this, however, an enterprising servant of the Throne can skew an enemy’s temporal perceptions when he turns them on her, allowing her to reflect whatever past or future she wishes.",
         "DescrizioneBreve": "for Duration of spell, caster's history and future are shown as defined"
     },
@@ -421,7 +421,7 @@ const timeThreeData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "A successful casting of this spell confers the following benefits: the mage does not require any sustenance, does not need to breathe and most of her internal organs cease functioning in any measurable capacity, providing complete immunity to non-magical diseases and toxins. This spell cannot suspend the aging process, as the inevitability of entropy carries more metaphysical weight than the mundane urgency of bodily functions. Although mundane medical examinations invariably diagnose a mage with this attainment as dead (and offer no rational explanation for how she can continue to function), magic still detects her Pattern as living unless she has somehow modified it with other magic.<p>Mages with one more dot in the spell’s required Arcana than listed above can cast a variant of this spell to suspend another’s body with an enchanted touch.</p>",
         "RoteName": "Mysterium Rote: Life Between Heartbeats",
-        "RoteDice": "Dice Pool: Stamina + Survival + Life/Time",
+        "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Life/Time",
         "RoteDescrizione": "Mysterium researchers cannot be troubled to take precious time away from their studies for anything so trivial as food or an insistent bladder. More intrepid members of the order use this rote to fortify themselves for hazardous expeditions without worrying about malaria, packing provisions or a pounding heartbeat betraying their location to a guardian monster’s keen sense of hearing.",
         "DescrizioneBreve": "make self immune to toxins/disease"
     },
@@ -436,7 +436,7 @@ const timeThreeData = [
         "Cost": "None",
         "DescrizioneMiddle": "The subject simply knows that she is experiencing (and has experienced) a dream about the future, though she might choose to disregard this awareness if she is morally or intellectually opposed to the idea of divinations, psychic phenomena or magic. (This spell does not, however, invoke Disbelief under any circumstances.) <p>Note that the mage does not have any control over what the subject perceives in such a dream, and he doesn’t possess any special insight into it, beyond that which might be gleaned through other uses of his Arcana. Subjects of this spell tend to experience visions based upon their own circumstances and experiences, though especially significant impending phenomena might take a subject outside of the cares and experiences of her own life.</p><p>The effects are similar to those of Time 3 “Divination,” centered on the dreamer herself.</p>",
         "RoteName": "Silver Ladder Rote: Naming the Prophet",
-        "RoteDice": "Dice Pool: Presence + Empathy + Time",
+        "RoteDice": "<b>Dice Pool:</b> Presence + Empathy + Time",
         "RoteDescrizione": "With this rote, a Ladder willworker can bestow the gift (or curse) of prophecy upon another, willing or otherwise.",
         "DescrizioneBreve": "grant another a prophetic dream, typically centered around the target"
     },
@@ -451,7 +451,7 @@ const timeThreeData = [
         "Cost": "1 Mana per attack",
         "DescrizioneMiddle": "Upon successfully casting this spell, the mage may make use of the various autofire options (see the <b>World of Darkness Rulebook</b>, pp. 160–161), with any sort of ranged weapon (not a ranged spell, but only a ranged weapon — even an enchanted one); even those that do not normally allow for such. In fact, the mage can, if he so wishes, use autofire with weapons that aren’t even firearms (and using another Skill, such as Athletics, if appropriate), such as bows or throwing hatchets. The mage’s hands move in a blur almost too swift to follow, and the projectiles fly faster than wind resistance and the constraints of physics should allow. Note that the mage must release three projectiles (from a single weapon, in the case of guns, bows, slings and the like) to use the first stage of autofire, 10 for the second stage and 20 for the third (meaning that the constraint of how many projectiles he has on hand may limit his options). Also note that a character with the Gunslinger Merit may use autofire with both of his pistols while under the effects of this spell if he so wishes, provided that he has the Mana to spend on both attacks.",
         "RoteName": "Adamantine Arrow Rote: Pissing Metal",
-        "RoteDice": "Dice Pool: Dexterity + Athletics + Time",
+        "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Time",
         "RoteDescrizione": "No one is really sure where this rote came from, or who it was that first conceived of it. Some Arrows who are tight with certain mystagogues claim that sparse records exist of an Atlantean diaspora-era archer named Sharmach-il having bent the tides of time to cast dozens of arrows at his enemies in the blink of an eye. Others say that the rote has its origins in a 19th-century Arrow by the shadow name of Six-Gun Kate. Still others maintain that it was a veteran of the Second World War, simply called Sarge, who invented the rote. In the end, though, while they might dispute the circumstances of its genesis, few argue with the magic’s effectiveness.",
         "DescrizioneBreve": "use Autofire with any ranged weapon"
     },
@@ -466,7 +466,7 @@ const timeThreeData = [
         "Cost": "None",
         "DescrizioneMiddle": "Even a single success allows the mage to gain a general understanding of the events of a person’s life or the history of an object. Additional successes provide further details and a more complete knowledge of events. A single success provides as much information about the person or object as might be contained in a two or three paragraph, written summary. Two successes reveal an amount of information that might be written on a single page, and five successes provide approximately the same information as a 15 or 20-page monograph about the history of the person or object. Even if five successes are rolled, this spell does not provide all of the minute details of a person’s life and is definitely not a substitute for the far more detailed information gained through the Time 2 spell “Postcognition.” However, this spell can provide a breadth of information and a general outline of the history of the subject that require only a few minutes for the mage to absorb.",
         "RoteName": "Mysterium Rote: Reading the Book of Time",
-        "RoteDice": "Dice Pool: Intelligence + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Time",
         "RoteDescrizione": "The histories written by Sleepers rarely include much information about magic and the lives of mages. This spell allows Mysterium historians and researchers to obtain general information about people or artifacts. This spell has allowed the historian of the Mysterium to understand the general outline of the history of magic and magical events. Also, this spell provides sufficient information to allow other researchers to target more precise spells (such as “Postcognition”) to learn the details of events that this spell provides basic information about.",
         "DescrizioneBreve": "view entirety of dead/broken pieces lifetime"
     },
@@ -481,7 +481,7 @@ const timeThreeData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "This spell can be cast anytime in the Initiative roster from when the caster performed his action until his place in the roster in the next turn. If the player does not declare this casting before then, the previous turn cannot be replayed. If the casting roll fails, the mage does not rewind time (he essentially spends that turn casting and nothing else). If it succeeds, he rewinds himself through time and can then replay his action from the last turn, changing it however he wants (he might decide not to open the door that released a spirit guardian, for example). Doing so, of course, might change other characters’ actions that occurred after his action in the turn he replays and before he casts this spell.<p><i>Example: Zeno steps into an alley and is confronted by a gang of submachine-guntoting thugs. They smile at him and heft their guns, ready to fire, but delay for a moment to savor Zeno’s obvious dismay. Smirking at Zeno is their action for the turn. The next turn now plays out. Zeno has a higher Initiative than all the thugs but one. That thug fires a short burst of autofire, missing. On his turn in the Initiative roster, Zeno casts Shifting Sands, rewinding himself through time by one turn. In the original turn, he entered the alley. This time, during his replay, he decides to turn the other way and run, never even showing his face around the corner. From that point on, all other characters redo their actions as if the original turn never happened. Since Zeno doesn’t enter the alley, the thug doesn’t fire his gun (as he did in the original flow of time). He still awaits Zeno’s appearance as his cue. </i></p>This spell cannot undo any effects the mage suffered the first time he experienced the turn that he replays. If he got shot in that turn, and then casts this spell to replay that action, he still suffers from the gunshot wound, even though he might decide to dodge in his replay of the turn, causing the bullet to miss him. (And if it does hit him, he suffers a second wound!). This spell does not erase the effects of time on the mage. It merely allows him to step back in the river of time by one turn and replay its flow. Although he cannot reverse any harm he himself has suffered, it can be instrumental in allowing the mage to save the lives of others. <p>Those other than the caster may feel a sense of déjà vu about the situation, but for them the caster’s new action is the first and only time this turn has happened or will happen. Participants remember the turn only as it has just been played, not as it was previously played before Shifting Sands altered it. (Unless one of them uses the “Temporal Wrinkles” spell, p. 258, in which case he is aware of what happened.) </p>With Time 4, the mage can cast this spell upon others, allowing them to alter their actions when replaying the turn. ",
         "RoteName": "Silver Ladder Rote: Turn Back the Page",
-        "RoteDice": "Dice Pool: Resolve + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Time",
         "RoteDescrizione": "A leader must sometimes acknowledge that things have not gone as planned. For mages of the Silver Ladder, the ability to admit the possibility of failure is not nearly so laudable as the power to erase such mistakes and see things done correctly. Mages of all orders manage to find uses for this rote.",
         "DescrizioneBreve": "rewind events by one turn"
     },
@@ -496,7 +496,7 @@ const timeThreeData = [
         "Cost": "None during casting; 1 Mana per use after casting.",
         "DescrizioneMiddle": "If she spends a point of Mana while attacking with a weapon or unarmed strike during the duration of the spell, reduce her opponent’s Defense by her Time dots. This benefit does not affect the benefits of armor or Shielding Practice spells except for Time-based protection. It does reduce the defensive benefits of supernatural powers that provide increased speed or raw agility, but not those that protect the user by virtue of increased toughness, mental misdirection or any other means. This spell doesn’t benefit ranged attacks.",
         "RoteName": "Adamantine Arrows Rote: Shikake",
-        "RoteDice": "Dice Pool: Composure + Weaponry + Time",
+        "RoteDice": "<b>Dice Pool:</b> Composure + Weaponry + Time",
         "RoteDescrizione": "An Arrow who uses this rote learns how to strike when opponents are unprepared to respond. Every fight has a rhythm; the warrior breaks it, attacking in the moments between an enemy’s movements.",
         "DescrizioneBreve": "able to spend 1 mana per strike that reduces opponent's Defense by Time dots"
     },
@@ -522,7 +522,7 @@ const timeThreeData = [
         "Cost": "1 Mana (optional)",
         "DescrizioneMiddle": "The target gains one point of armor per dot the caster possesses in the Time Arcanum. The effect lasts for one hour, but the Duration can be made to last for a day by spending one Mana.",
         "RoteName": "Adamantine Arrow Rote: Bending the River’s Flow",
-        "RoteDice": "Dice Pool: Manipulation + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Time",
         "RoteDescrizione": "Often cast in preparation for battle, this rote enables a mage to defend a charge, dispersing the force of incoming attacks along the unseen axes of Time.",
         "DescrizioneBreve": "grant Shielding"
     },
@@ -537,7 +537,7 @@ const timeThreeData = [
         "Cost": "None",
         "DescrizioneMiddle": "This spell is similar to Temporal Pocket (see <b>Mage: The Awakening</b>, p. 265) except the spell only affects the mage’s mental state: the mage is able to think for an extended period of time “in between” moments. Successes are assigned to the spell’s Duration, affecting the subjective time the mage has in which to think. So, at a basic level, the mage can consider for up to an hour while no time at all appears to pass for everyone else. Additional successes increase this time as usual for a prolonged spell. The caster under this spell is “inside” his or her own mind and has no resources other than what the mage can think or imagine. Still, the mage may be able to undertake and complete extended mental actions, appearing to accomplish them in just a moment’s time. This does not include extended spellcasting, as that is not a purely mental action.",
         "RoteName": "Free Council Rote: Seven Thoughts in a Moment",
-        "RoteDice": "Dice Pool: Intelligence + Science + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Time",
         "RoteDescrizione": "When a mage needs a “moment to consider,” this techné is just the thing, since it usually grants more than enough time to puzzle out a particular situation, giving Free Councilors a reputation for the ability to think of their feet.",
         "DescrizioneBreve": "accelerate mental state"
     }
@@ -555,7 +555,7 @@ const timeFourData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "The target suffers a –1 penalty to Defense per success on the casting roll. Additionally, the subject’s Speed is halved per success (rounding up), to a minimum of 1. When the victim of this spell attacks others with a ranged attack, her targets gain their Defense (even if the attack is not at point-blank range). The attacker moves slowly enough that others can anticipate her attack.",
         "RoteName": "Silver Ladder Rote: Crushed Beneath the Sands",
-        "RoteDice": "Dice Pool: Manipulation + Occult + Time – Composure",
+        "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Time – Composure",
         "RoteDescrizione": "When afflicted by this magic, enemies of the sanctum or cabal usually prove easy prey. Mages of the Mysterium sometimes use a variant of this rote (Wits + Occult + Time) while making an escape with lore or relics “appropriated” from jealous owners.",
         "DescrizioneBreve": "slow target and reduce Defense"
     },
@@ -570,7 +570,7 @@ const timeFourData = [
         "Cost": "One point of Mana",
         "DescrizioneMiddle": "Immediately after failing to perform a non-magical action, the willworker may reflexively cast this spell. Successes accrued in the casting effectively add to the failed action’s dice pool, retroactively. These dice are rolled, as normal, during the mage’s current place in the initiative roster, and any successes scored on them count as normal. Qualities such as 8-again apply to the bonus dice created by this spell, though not for actions initially rolled on a chance die. This spell’s Duration may not be increased. Further, its effects may not be coupled with the Fate 4 spell, “Probable Cause” (<b>Mage: The Awakening</b>, p. 157); the willworker must choose one spell or the other to take precedence. This spell may only be cast once in a given turn.",
         "RoteName": "Free Council Rote: Short-Term Gain",
-        "RoteDice": "Dice Pool: Intelligence + Science + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Time",
         "RoteDescrizione": "Around the time of the Great Refusal, Libertines were beset on all sides by the depredations of the Seers of the Throne whose offer they had spurned. The forces of the Exarchs were seemingly everywhere and many members of the newly convened Free Council were run to ground in those desperate days, unable to stand against the considerable might of the Exarchs’ slaves. A charming Libertine Enchanter known simply as “the Gentleman” concocted this spell in the darkest hours of that conflict, granting outmanned and outgunned willworkers that last, desperate chance that often spelled the difference between life and death. While the Gentleman was murdered in a Parisian back alley on the five-year anniversary of the Great Refusal by vindictive Seers of the Throne, his spell became part of the Free Council’s repertoire, and eventually spread to the other Pentacle Orders and beyond.",
         "DescrizioneBreve": "retroactively add successes on casting to failed non-magical roll"
     },
@@ -585,7 +585,7 @@ const timeFourData = [
         "Cost": "None",
         "DescrizioneMiddle": "<p>’Erase History' requires a simple success, but the character’s dice pool is penalized by the span of time he wants to occlude. Use the Duration chart for Prolonged spells to find the dice penalty (see <b>Mage: The Awakening</b>, p. 119). If a character has Time 5, use the Advanced Prolongation chart (so blocking an Indefinite span of time, such as occluding an entire human life or the history of a building, would require Time 5 and a –10 dice penalty). Large or multiple targets can impose further penalties.</p><p>If a mage wants to block a section of time that itself is far in the past, use the modifiers for sympathetic ties (see <b>Mage: The Awakening</b>, pp. 114–115), but for the temporal connection. The less accurately you can define the span of time you want to occlude, the weaker the sympathetic tie will be. For instance, erasing “Bob’s history between 8 and 10 p.m. last Tuesday, when he was at that motel” would provide a Known connection: you know exactly what time, by clock, calendar and what the subject was doing. Having an object tied to a specific event in that timespan, such as the wrapper of a cheeseburger Bob ate in the motel room, would raise the connection to Intimate. However, hiding “Bob’s visit to the motel some time last week” would provide, at most, an Acquainted connection. If you had no idea when Bob might have visited the motel, the connection would be Unknown, and the spell would fail; and, of course, you would need Bob’s presence to block that episode in his past, anyway. </p><p>A mage can also perform “Erase History” through an Extended casting, and try to accumulate enough successes to erase a span of history from temporal sensing. </p>",
         "RoteName": "Guardians of the Veil Rote: Forgotten Past",
-        "RoteDice": "Dice Pool: Intelligence + Subterfuge + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Time",
         "RoteDescrizione": "Sometimes the Guardians of the Veil need to make sure nobody can ever find out what they did, or what someone else did. This rote can shield hours or even days from 'Postcognition' and similar attempts to view the past. The Seers of the Throne also use the rote to hide mystical events from later viewing, while the Cult of the Doomsday Clock erases its operatives’ time-traces during missions. The Mysterium loathes this rote, and 'Erase History' in general, for mages have blocked many significant moments in Sleeper and occult history from later viewing.",
         "DescrizioneBreve": "remove a piece of time to prevent scrying"
     },
@@ -600,7 +600,7 @@ const timeFourData = [
         "Cost": "Special (see below)",
         "DescrizioneMiddle": "This spell functions on any single object up to Size 10. While this spell does function on machines, it renders them inoperable for the duration of the spell. (See below.) The target number of successes is equal to twice the Size of the object, and the mage must expend Mana equal to the object’s Structure. When the ritual is complete, the object remains in its current state for 1 scene. It cannot be altered, damaged, defaced or repaired, though it can be moved. A gun imbued with this spell could not be fired, since no part of the object can be removed (and so the bullet could not leave the chamber). A car using this spell would not function, as doing so requires gasoline to be consumed, though a bicycle would function normally. A painting could not be marred or damaged even if tossed into a bonfire. Any attempted change to an object won’t “take” — fire ignores the painting, the magazine on the pistol won’t eject. At Time 5, this spell can be cast with advanced Prolongation factors, allowing an Indefinite duration.",
         "RoteName": "Orpheus’ Last Riddle Rote",
-        "RoteDice": "Dice Pool: Resolve + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Time",
         "DescrizioneBreve": "prevent object from being altered in any way"
     },
     {
@@ -614,7 +614,7 @@ const timeFourData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Upon successfully casting this spell, the caster regains a point of Willpower (up to her normal maximum) each time she suffers an attack that results in at least 1 point of lethal or aggravated damage, has her soul directly targeted by any kind of hostile effect, or is the subject of any effect intended to usurp control of her mind or body, whether magical or otherwise, out to a maximum number of times equal to the successes accrued in the casting. The caster regains only a single Willpower point per 'attack,' but may regain Willpower points multiple times in a single turn if targeted by more than one effect meeting the criteria above. If the character is already at maximum Willpower when subjected to a trigger for this spell’s effect, one use of the spell is wasted, without benefit.",
         "RoteName": "Guardians of the Veil Rote: Agonies of the Prophet",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "Religion, myth, and history alike are filled with examples of those who knew of torments to come and found courage in the face of inevitable suffering. Guardians of the Veil who master this magic willingly embrace the path of martyrdom for the greater good, learning how to recover a sense of purpose through the many slings and arrows the Fallen World casts.",
         "DescrizioneBreve": "gain Willpower by suffering foreseen attacks"
     },
@@ -629,7 +629,7 @@ const timeFourData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "On the turn following a successful casting, the mage’s player can require that every player who has a character affected by the spell’s Target factors declare what his character’s action will be for that turn. The Storyteller does the same for his characters. The player does not need to declare his own action for the turn, but can wait to act at any point within the initiative order, trumping all other supernatural Initiative effects. (In the event that two or more willworkers use this spell during the same scene, determine their Initiatives normally, in the event that more than one attempts to act at the same time.)<p>In addition, the character gains +1 Defense per spellcasting success against attacks from those affected by the spell. (This is in addition to any benefit provided by the “Acceleration” spell; see p. 262)</p>",
         "RoteName": "Adamantine Arrow Rote: Measure the River’s Flow",
-        "RoteDice": "Dice Pool: Intelligence + Occult + Time vs. Composure + Gnosis",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Time vs. Composure + Gnosis",
         "RoteDescrizione": "Ultimately, knowledge and understanding can overcome any strength of arms. Mages of the Adamantine Arrow understand this wisdom and use this rote to predict, and thus dictate, the pacing of a violent encounter. Willworkers of the Silver Ladder have sometimes been known to use this magic (Presence + Occult + Time) in order to control less physical (but no less dangerous) situations.",
         "DescrizioneBreve": "predict actions of others perfectly"
     },
@@ -644,7 +644,7 @@ const timeFourData = [
         "Cost": "None",
         "DescrizioneMiddle": "As with “Divination,” p. 263, the mage can ask one question about a target or event per success. Instead of reading the future, however, he reads how things might be, provided some action or event comes to pass. Note that a target’s dots in the Destiny Merit (if any) levy penalties on the spellcasting roll — it is more difficult to find an alternate future when a person’s fate is ordained.<p><i>Example: Bahazid has learned that a certain boy is destined to become a great leader. She uses Prophecy to find out how she might avert that fate, for she does not want it to come to pass. She gains an image of somebody murdering the boy’s mother, and knows that if this comes to pass the boy shall become a tyrant.</i></p><p>Because of the vagueness of prophetic ability at this level, the mage learns only broad and sweeping details. Bahazid might not, for example, discover that saving the boy’s mother will lead to his sister becoming a great leader.</p>The same target can be targeted with this spell only once every 24 hours.",
         "RoteName": "Guardians of the Veil Rote: Merlin’s Foresight",
-        "RoteDice": "Dice Pool: Intelligence + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Time",
         "RoteDescrizione": "Protecting the Mysteries is not always simply a matter of knowing the past or perceiving the present. Sometimes such work involves discerning that which has not yet come. In this fashion, the ignorant can be shepherded away from perils they lack the discernment to understand, and the occult world can be shielded from the gaze of those who might seek to do it harm in their blindness.",
         "DescrizioneBreve": "gain information about possible future events by asking questions"
     },
@@ -690,7 +690,7 @@ const timeFourData = [
             }
         ],
         "RoteName": "Free Council Rote: Seven Breaths in an Instant",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "This rote enables a Free Council willworker to step outside of Time, assess his situation, and make any preparations he requires in order to be at his most effective when he returns. After all, adaptability is sometimes nothing more than a chance to evaluate a difficulty from a safe vantage and with plenty of time to plan.",
         "DescrizioneBreve": "step into altered time flow"
     },
@@ -704,7 +704,7 @@ const timeFourData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "This spell affects only a living creature (and what he wears and carries), stuttering him forward for one turn per success. (If cast over an area, only people or objects that are wholly within the defined area are affected.)<p>Onlookers simply see those affected disappear for up to several seconds, while those affected lurch forward in time (to find whatever changes having occurred outside of the spell’s area of effect during those seconds). Thus, reinforcements three turns away might, in the subjective time of those affected by the spell, arrive in one.</p>If, in the intervening turns, a person or object moves into the space occupied by one or more of the time-stuttering targets, a clash ensues when the time travelers arrive back in their places. Compare the Size of each person or thing who now shares the same space. Those with the smallest Size suffer a knockdown effect (see p. 168 of the <b>World of Darkness Rulebook</b>). If Sizes are equal, both must contend with a knockdown.<p><i>Example: Zeno, standing next to his motorbike, uses Temporal Stutter to shift forward in time for three turns (three successes were rolled for him). In the intervening turns, Arctos sees Zeno’s bike and walks over to check it out. In the fourth turn, Zeno reappears — exactly where Arctos is standing. Both mages are Size 5, so both must contend with knockdown. A reflexive Dexterity + Athletics roll is made for each. Zeno succeeds, but Arctos fails, so falls down, knocked aside by Zeno’s sudden appearance. </i></p>",
         "RoteName": "Mysterium Rote: Cresting the Wave",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "Sometimes the flow of history doesn’t move quite fast enough for a willworker’s purposes. The mages of the Mysterium have circumvented that restriction by means of this rote. While it moves subjects forward in time only by several seconds, those seconds have occasionally meant the difference between a fantastic discovery and a grisly demise. Mages of the Adamantine Arrow have been known to use this very same rote in combat (perhaps vanishing into the immediate future just before an explosion and then reappearing seconds afterward).",
         "DescrizioneBreve": "push self or target forward in time"
     }
@@ -722,7 +722,7 @@ const timeFiveData = [
         "Cost": "1 Mana during casting; 1 Mana on activation",
         "DescrizioneMiddle": "The mage casts the spell on himself, storing it for later use (this storage counts against the mage’s Spell Tolerance). Casting the spell requires the expenditure of one Mana and a single success on the casting roll. This spell may have its Duration increased to one day by spending an additional Mana during the casting. Only one instance of Duplicate may exist on a mage at any time.<p>Activating the stored spell is a reflexive action that costs one Mana. Once the spell is active, the next instant action performed by the mage will be doubled as though the mage had performed the action twice.</p> Any expenditure required by the repeated action must be paid for twice, and any penalties accrued by that action will be inflicted twice.<p><i>An Adamantine Arrow decides to attack his enemy with the “Telekinetic Strike” rote (see <b>Mage: The Awakening</b>, p. 170) and double the effectiveness of the spell by activating Duplicate. The Arrow gains four successes on his casting roll for Telekinetic Strike and succeeds at the aiming check to hit his target. In the span of one turn, the Arrow’s target receives eight levels of bashing damage from the duplicated “Telekinetic Strike” spell. If the Arrow had decided to change the damage to lethal, he would have been required to spend three Mana this turn (one for each casting of Telekinetic Strike and one Mana for activating Duplicate). The total number of Paradox dice rolled for the doubled casting of Telekinetic Strike would be a minimum of three (Gnosis 3 required to spend three Mana a turn generates a base pool of two dice, plus an additional die from the successive casting of a vulgar spell in the same scene).</i></p>",
         "RoteName": "Adamantine Arrow Rote: Multiplicity",
-        "RoteDice": "Dice Pool: Resolve + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Time",
         "RoteDescrizione": "The origins of this rote are dubious at best. Legend states this rote was developed by a warrior-mage Exarch shortly before his ascension to the Realms Supernal via the Celestial Ladder. Regardless of the rote’s origin, the obvious advantages of this spell led to its further development by the Adamantine Arrow. The ability to increase damage done versus time spent is of interest to any warrior.",
         "DescrizioneBreve": "loop time so that one action happens twice"
     },
@@ -736,7 +736,7 @@ const timeFiveData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "This spell acts like the “Temporal Pocket” spell, p. 265, except that the mage can now cast it upon an area. One success affects a five-foot square area and anything within it, and additional Target factors can be devoted to increasing this area.<p>The flow of time can also be reversed so that time within the Pocket moves more slowly than time without. For example, with one success the time within the pocket moves at half the rate as time without: one turn within for every two turns without. With three successes, four turns pass within for every one turn that passes without. A person who enters the area must succeed in a reflexive and contested Composure + Gnosis roll or be caught within the time flux.</p>",
         "RoteName": "Mysterium Rote: Temporal Bastion",
-        "RoteDice": "Dice Pool: Wits + Occult + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "Mages of the Mysterium often use this rote to provide themselves with nearly limitless quantities of time to devote to their esoteric research. Some members of the Silver Ladder, when pondering a particularly difficult course of action, may use the same magic (Composure + Occult + Time) to afford themselves weeks or even months in which to consider a decision that must be made by tomorrow morning.",
         "DescrizioneBreve": "alter speed of time flow in area"
     },
@@ -782,7 +782,7 @@ const timeFiveData = [
             }
         ],
         "RoteName": "Free Council Rote: Archeologist’s Boon",
-        "RoteDice": "Dice Pool: Presence + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Presence + Investigation + Time",
         "RoteDescrizione": "A few Free Council mages use this rote to plant buried treasures from their own past, although they can’t mine such bounties until well into the future. At least they assure that nobody else can use them, either.",
         "DescrizioneBreve": "shunt object to future time"
     },
@@ -797,7 +797,7 @@ const timeFiveData = [
         "Cost": "Special (see below)",
         "DescrizioneMiddle": "For each success accrued in the casting of this spell, the mage may send a single point of Mana from her current total forward into the future, using the table given for the “Future Legacy” spell (<b>Mage: The Awakening</b>, p. 267) to determine how long the character has to recover her Mana. Because the caster attunes her spell to the threads of her own destiny and because the Mana within her is essentially stored within her Awakened spirit, she effectively chooses the moment that constitutes her “hour of need” and may freely recover the Mana at that time, circumventing even wards and other barriers that prevent the flow of such energies; the Mana exists out of time and place until it is needed and never actually “goes” anywhere. No willworker may have more points of Mana readied for use in this way than she has dots in Fate or Prime, whichever is less. The Mana sent forward is lost from the character’s current total and recovered points may not bring her over the normal maximum Mana permitted by her Gnosis. Mana not recovered before the maximum allowable span of time is lost back into the Tapestry.",
         "RoteName": "Silver Ladder Rote: Supernal Reserve",
-        "RoteDice": "Dice Pool: Manipulation + Subterfuge + Time",
+        "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Time",
         "RoteDescrizione": "A capable leader knows her true power lies not merely in what she has at hand, but also in what she can bring to bear when the need is dire. By exercising a bit of resource management, a théarch well-versed in the lore of time’s flow can put aside some much needed Mana in times of feast, knowing a time of famine must, inevitably, follow.",
         "DescrizioneBreve": "store Mana in timestream for future use"
     },
@@ -812,7 +812,7 @@ const timeFiveData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Each success allows the mage to shift one dot from a mundane trait (an Attribute, Skill or Merit, but not a magical trait such as Gnosis or an Arcanum) to another within the same trait category (dots of Social Attributes switch with other Social Attributes, etc.), up to his normal maximum within a given category (five dots for most humans). (Dots cannot be added directly to or subtracted directly from Advantages.) It is as if he had made different choices in the past, leading to different personal results. For example, in his newly rewritten past, a mage went to the gym rather than to the library he actually frequented in his real past, allowing him to shift traits from Mental Attributes to Physical Attributes.<p>Note that changing a number that has derived characteristics (Composure or Stamina, for example) alters any such derived characteristics appropriately (say, Willpower or Health).</p><p>When the spell expires, the caster’s real history is restored and his traits return to their original distribution.</p>",
         "RoteName": "Silver Ladder Rote: Thief of Years",
-        "RoteDice": "Dice Pool: Manipulation + Investigation + Time",
+        "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Time",
         "RoteDescrizione": "The Silver Ladder’s willworkers will not be ruled by any force outside of their order, not even the immutability of Time itself. By means of this rote, such mages become eloquent speakers, capable swordsmen, marathon runners or whatever else is required, moving just a little bit of history here and there to affect the desired changes.",
         "DescrizioneBreve": "alter your Skills and Attributes"
     },
@@ -827,7 +827,7 @@ const timeFiveData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Each success allows the subject to be frozen in time for one turn. The field of suspended time exists immediately around the target. If anyone or anything enters this field — that is, if the target is touched — the spell is broken and the target is restored to normal time.",
         "RoteName": "Free Council Rote: Hand of Glory",
-        "RoteDice": "Dice Pool: Intelligence + Occult + Time vs. Composure + Gnosis",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Time vs. Composure + Gnosis",
         "RoteDescrizione": "Willworkers of the Free Council use this rote for a wide variety of purposes, such as stealing money from a wealthy countesses’ safe right before her very (unseeing) eyes, or giving a conspiracy theorist a case of “lost time,” so that he might think that aliens had abducted him in the interval of time of which he has no memory (but which clocks clearly show having passed).",
         "DescrizioneBreve": "freeze time around a target"
     },
@@ -842,7 +842,7 @@ const timeFiveData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "The mage “fixes” a moment in time when the spell is completed. Thereafter, an invisible, ethereal “lifeline” connects the caster to that moment as it moves into the past. At any time thereafter, the mage can choose to return to that moment as an instant action, simply by willing it. This ends the spell as the temporal lifeline “snaps back” into the past and disappears. The Mana cost of the temporal lifeline cannot be regained so long as the lifeline exists. The mage returns to the chosen moment and all the intervening “time” essentially never happened, although the mage remembers it as though it did. It can be considered a “possible” future in that the mage can take actions to change the outcome of events. Once Temporal Lifeline is cast, a mage can even use spells such as Temporal Pocket and Temporal Stutter to move forward faster in time in order to reach a particular future point, then “snap back” to the past using the lifeline. It is impossible for the same caster to fix the “end point” at two temporal lifelines closer than 24 hours together or to have more than one temporal lifeline active at a time. Thus, after activating the lifeline and returning to the past, the mage cannot cast this spell again until at least 24 hours later.",
         "RoteName": "Free Council Rote: Save Point",
-        "RoteDice": "Dice Pool: Wits + Science + Time",
+        "RoteDice": "<b>Dice Pool:</b> Wits + Science + Time",
         "RoteDescrizione": "Free Council legend has it that this rote was actually inspired by multiple-choice adventure fiction even before the advent of videogames, but the popular name has stuck. The rote — similar to many others in the Free Council arsenal — originated during the Nameless War with desperate measures taken by Libertine masters to ensure the survival of their movement (and themselves, of course).",
         "DescrizioneBreve": "mark a point in time to return to up to 24 hours later"
     }
