@@ -1479,7 +1479,7 @@ const courtContractData = [
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
         "Cost": "N/A",
-        "Dice Pool": "N/A"
+        "Dice Pool": ""
     },
     {
         "Rank": "Contracts of Eternal Spring",
@@ -1650,7 +1650,7 @@ const courtContractData = [
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
         "Cost": "N/A",
-        "Dice Pool": "N/A"
+        "Dice Pool": ""
     },
     {
         "Rank": "Contracts of Eternal Summer",
@@ -1821,7 +1821,7 @@ const courtContractData = [
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
         "Cost": "N/A",
-        "Dice Pool": "N/A"
+        "Dice Pool": ""
     },
     {
         "Rank": "Contracts of Eternal Autumn",
@@ -1992,7 +1992,7 @@ const courtContractData = [
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
         "Cost": "N/A",
-        "Dice Pool": "N/A"
+        "Dice Pool": ""
     },
     {
         "Rank": "Contracts of Eternal Winter",
@@ -2163,7 +2163,7 @@ const courtContractData = [
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
         "Cost": "N/A",
-        "Dice Pool": "N/A"
+        "Dice Pool": ""
     },
     {
         "Rank": "Contracts of the Four Directions",
@@ -2226,7 +2226,7 @@ const courtContractData = [
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
         "Cost": "N/A",
-        "Dice Pool": "N/A"
+        "Dice Pool": ""
     },
     {
         "Rank": "Contracts of Potential (Dawn)",
