@@ -15,7 +15,6 @@ export default function MultipleTables(props) {
         navigate(`${id}`);
     }
 
-
     return (
         <>
             <div className='grid-container'>

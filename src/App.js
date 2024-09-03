@@ -39,6 +39,8 @@ import Transmutations from './pages/Promethean/Transmutations'
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
 import Changeling from './pages/Changeling/Changeling';
 import Contracts from './pages/Changeling/Contracts';
+import { allContracts } from './Data/Changeling/ContractData';
+import ContractsDetail from './pages/Changeling/ContractsDetail';
 import Oaths from './pages/Changeling/Oaths';
 import ChangelingMerits from './pages/Changeling/ChangelingMerits';
 import GoblinFruits from './pages/Changeling/GoblinFruits';
@@ -183,7 +185,6 @@ function App() {
     return title.replace(/ /g, '_');
   };
 
-
   return (
     <>
       <Navbar />
@@ -306,6 +307,14 @@ function App() {
           <Route path="/changeling/entitlement" element={<Entitlements />} />
           <Route path="/changeling/wyrd" element={<Wyrd />} />
           <Route path="/changeling/contracts" element={<Contracts />} />
+
+          {allContracts.map((contracts, index) => (
+            <Route
+              key={index}
+              path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
+              element={<ContractsDetail contracts={contracts} />}
+            />
+          ))}
           <Route path="/changeling/oaths" element={<Oaths />} />
           <Route path="/changeling/merits" element={<ChangelingMerits />} />
           <Route path="/changeling/clarity" element={<Clarity />} />

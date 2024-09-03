@@ -113,7 +113,7 @@ const uniMeritsMentalData = [
         "Prerequisites": "",
         "Description": "Remember with ease, gain +2 to Intelligence + Composure to remember facts from large swaths of data",
         "LongDescription": [
-            "Your character has a near-photographic memory, being able to recall vast amounts of observed detail with astonishing accuracy. You do not normally need to make a roll for your character to remember an obscure fact or past experience, unless he is under stress (such as in combat). Under stress, there is a +2 modifier on any Intelligence + Composure or other Skill- based roll (say, Academics, to remember a fact) for memory recall.",
+            "Your character has a near-photographic memory, being able to recall vast amounts of observed detail with astonishing accuracy. You do not normally need to make a roll for your character to remember an obscure fact or past experience, unless he is under stress (such as in combat). Under stress, there is a +2 modifier on any Intelligence + Composure or other Skill-based roll (say, Academics, to remember a fact) for memory recall.",
             "<i>Available at character creation only.</i>"
         ],
         "Book": "WoD 108",
@@ -342,7 +342,7 @@ const uniMeritsMentalData = [
         "Description": "2 languages per dot, conversationally",
         "LongDescription": [
             "The character either has knack for languages or grew up in a culture that teaches several different tongues. In addition to the character’s native language, the player may choose two languages for every dot in this Merit that the character speaks conversationally.",
-            "Note that the character cannot speak effortlessly in these languages. Communicating quickly or over the telephone requires an Intelligence + Wits roll, and talk- ing about anything esoteric (including humor, politics and certainly occult matters) imposes a penalty of –1 to –3 dice. Reading the language requires an Intelligence + Academics or Wits roll (depending on how the character learned the language; study or immersion, respectively), and writing something coherent in the language requires a roll of Wits + Academics or Intelligence (again, study or immersion). Even if these rolls succeed, the character’s utterances or writings obviously come from a non-native, unless the player rolls an exceptional success, in which case the character manages to sound like a native-born speaker of the language for a few moments.",
+            "Note that the character cannot speak effortlessly in these languages. Communicating quickly or over the telephone requires an Intelligence + Wits roll, and talking about anything esoteric (including humor, politics and certainly occult matters) imposes a penalty of –1 to –3 dice. Reading the language requires an Intelligence + Academics or Wits roll (depending on how the character learned the language; study or immersion, respectively), and writing something coherent in the language requires a roll of Wits + Academics or Intelligence (again, study or immersion). Even if these rolls succeed, the character’s utterances or writings obviously come from a non-native, unless the player rolls an exceptional success, in which case the character manages to sound like a native-born speaker of the language for a few moments.",
             "The player can spend one experience point for the character to become fluent in one of languages covered by this Merit."
         ],
         "Book": "Rel 85",
@@ -364,8 +364,8 @@ const uniMeritsMentalData = [
         "Prerequisites": "",
         "Description": "Inhibit mental alteration by psychics",
         "LongDescription": [
-            "Your character, either through extensive train- ing or natural ability, has an innate resistance to invasive telepathic powers such as Mind Breaker, Mind Control, Mind Reading and Psychic Empathy. This resistance might take the form of performing math problems mentally, quoting nursery rhymes or even praying fervently. With even one dot, the character can tell if a psychic attempts to use a telepathic or other mind-affecting psychic power on him with a successful Wits + Composure roll (made reflexively by the Storyteller).",
-            "The character’s Psychic Resistance dots are also added to his Resolve or Composure when rolling to contest any psychic powers that affect his mind. Neither powers directed against his body (such as Psychic Vampirism or Telekinetic Grapples) nor psychic powers that affect the mind but that do not allow a con- tested roll (such as Mental Blast or Psychic Invisibility) are affected by this Merit. The benefits of this Merit do not apply to mind-controlling effects used by vampires, werewolves or mages."
+            "Your character, either through extensive training or natural ability, has an innate resistance to invasive telepathic powers such as Mind Breaker, Mind Control, Mind Reading and Psychic Empathy. This resistance might take the form of performing math problems mentally, quoting nursery rhymes or even praying fervently. With even one dot, the character can tell if a psychic attempts to use a telepathic or other mind-affecting psychic power on him with a successful Wits + Composure roll (made reflexively by the Storyteller).",
+            "The character’s Psychic Resistance dots are also added to his Resolve or Composure when rolling to contest any psychic powers that affect his mind. Neither powers directed against his body (such as Psychic Vampirism or Telekinetic Grapples) nor psychic powers that affect the mind but that do not allow a contested roll (such as Mental Blast or Psychic Invisibility) are affected by this Merit. The benefits of this Merit do not apply to mind-controlling effects used by vampires, werewolves or mages."
         ],
         "Book": "SS 67",
     },
@@ -488,7 +488,7 @@ const uniMeritsMentalData = [
         "Prerequisites": "",
         "Description": "Can purchase Dream and use it as Instant Action, at the cost of sanity	",
         "LongDescription": [
-            "Your character’s mind has ripped open, al- lowing tendrils of underlying primordial truths to reach into his psyche. He can purchase the Dream Merit (see Mage: The Awakened, p. 82) even if he is not a mage, and may attempt to gain insights through that Merit as an instant action while conscious rather than requiring the usual hour of meditation or sleep. However, each time he accesses Dream in this accelerated manner further erodes his sanity, requiring a character with a Wisdom (or Morality) higher than five dots to make a degeneration roll."
+            "Your character’s mind has ripped open, allowing tendrils of underlying primordial truths to reach into his psyche. He can purchase the Dream Merit (see Mage: The Awakened, p. 82) even if he is not a mage, and may attempt to gain insights through that Merit as an instant action while conscious rather than requiring the usual hour of meditation or sleep. However, each time he accesses Dream in this accelerated manner further erodes his sanity, requiring a character with a Wisdom (or Morality) higher than five dots to make a degeneration roll."
         ],
         "Book": "Myst 179",
     }
@@ -525,8 +525,8 @@ const uniMeritsPhysicalData = [
         "Description": "Add Athletics rather than doubling Defense on Dodge",
         "LongDescription": [
             "Whenever your character performs a dodge (see “Dodge”, the World of Darkness Rulebook, page 156) you can add his Athletics Skill dots to his Defense instead of doubling his Defense. He essentially draws on his knowledge of how his body moves to parry and evade attacks rather than rely on his raw ability alone.",
-            "Athletics Dodge applies against incoming Brawl- and Weaponry-based attacks, against thrown-weapon attacks, and against firearms attacks made within close-combat range. Your character can move up to his Speed and perform an Athletics Dodge maneuver in a turn.",
-            "A character can possess this Merit and also the Brawl- ing Dodge and Weaponry Dodge Merits, but only one can be used per turn."
+            "Athletics Dodge applies against incoming Brawl and Weaponry-based attacks, against thrown-weapon attacks, and against firearms attacks made within close-combat range. Your character can move up to his Speed and perform an Athletics Dodge maneuver in a turn.",
+            "A character can possess this Merit and also the Brawling Dodge and Weaponry Dodge Merits, but only one can be used per turn."
         ],
         "Book": "DoW 38",
     },
@@ -536,8 +536,8 @@ const uniMeritsPhysicalData = [
         "Prerequisites": "Strength •• and Brawl •",
         "Description": "Add Brawl rather than doubling Defense on Dodge	WoD 110 Demolisher	• to ••	Strength or Intelligence •••",
         "LongDescription": [
-            "Whenever your character performs a dodge (see “Dodge,” p. 156), you can choose to add his Brawl Skill dots to his Defense instead of doubling his Defense. He essentially draws on his training in blocking and evad- ing attacks rather than relying on his raw ability alone. While this might provide little benefit to a brawling nov- ice, it can give the advanced fighter an edge.",
-            "Brawling Dodge applies against incoming Brawl- and Weaponry-based attacks, against thrown-weapon attacks, and against Firearms attacks made within close-combat range. Your character can move up to his Speed and per- form a Brawling Dodge maneuver in a turn.",
+            "Whenever your character performs a dodge (see “Dodge,” p. 156), you can choose to add his Brawl Skill dots to his Defense instead of doubling his Defense. He essentially draws on his training in blocking and evading attacks rather than relying on his raw ability alone. While this might provide little benefit to a brawling novice, it can give the advanced fighter an edge.",
+            "Brawling Dodge applies against incoming Brawl and Weaponry-based attacks, against thrown-weapon attacks, and against Firearms attacks made within close-combat range. Your character can move up to his Speed and perform a Brawling Dodge maneuver in a turn.",
             "A character can possess both the Brawling Dodge and Weaponry Dodge Merits, but only one can be used per turn."
         ],
         "Book": "WoD 110",
@@ -659,14 +659,14 @@ const uniMeritsPhysicalData = [
         "LongDescription": [
             "Your character is seven or more feet tall and over 250 pounds. He is +1 Size (and thus +1 Health).",
             "<i>Available at character creation only.</i>",
-            "<b>Drawback:</b> Your character needs to shop in big-and- tall clothing stores or gets clothes custom tailored. He might also be required to purchase two seats for air travel, depending on the airline."
+            "<b>Drawback:</b> Your character needs to shop in big-and-tall clothing stores or gets clothes custom tailored. He might also be required to purchase two seats for air travel, depending on the airline."
         ],
         "Book": "WoD 112",
     },
     {
         "Title": "Ground and Pound",
         "Rating": "••",
-        "Prerequisites": "Combination Blows Fighting Style Maneuver (Boxing or Aggressive Striking •••), Take- down/Throw Fighting Style Maneuver (Grappling ••)",
+        "Prerequisites": "Combination Blows Fighting Style Maneuver (Boxing or Aggressive Striking •••), Take-down/Throw Fighting Style Maneuver (Grappling ••)",
         "Description": "Perform Takedown/Throw, gain +2 to following unarmed strike",
         "LongDescription": [
             "Your character may use Combination Blows (World of Darkness core, pp. 110–111) to perform Takedown/Throw Maneuver followed by an unarmed strike. If she succeeds with the first maneuver, her dice pool doesn’t suffer the usual –1 penalty for the second attack in the Combination Blows series. Instead, the character gains a +2 bonus to strike her prone opponent.",
@@ -1026,11 +1026,11 @@ const uniMeritsSocialData = [
         "Prerequisites": "",
         "Description": "Formal awards for meritorious conduct from the military or a comparable organization",
         "LongDescription": [
-            "Your character has received an award for meritorious conduct of some sort. Characters gain a bonus on all Social rolls relating to one’s Allies, Con- tacts or Status in the military, regardless of whether the character is currently serving or not.",
+            "Your character has received an award for meritorious conduct of some sort. Characters gain a bonus on all Social rolls relating to one’s Allies, Contacts or Status in the military, regardless of whether the character is currently serving or not.",
             "The three-dot, four-dot and five-dot Merits indicate an exceptional award: the Silver Star for the three-dot Merit; the Distinguished Service Medal or Distinguished Service Cross for the four-dot Merit; and the Medal of Honor for the five-dot Merit.",
             "Those who have earned the Medal of Honor are entitled to a salute regardless of rank or whether they are now civilians.",
             "Servicemen and servicewomen who have received lethal injuries as a result of combat during a military action are automatically awarded the Purple Heart, a two-dot Merit.",
-            "<b>Drawback:</b> This Merit rides on the world’s percep- tion of the character’s honor and Morality. The character must be seen to retain honor and dignity in his actions. Should the character commit sins rated 5 or lower on the Morality chart, and should those sins become public knowledge, the Merit may be revoked, earning him the Notoriety Flaw (see “Character Flaws”, the World of Darkness Rulebook, p. 217)."
+            "<b>Drawback:</b> This Merit rides on the world’s perception of the character’s honor and Morality. The character must be seen to retain honor and dignity in his actions. Should the character commit sins rated 5 or lower on the Morality chart, and should those sins become public knowledge, the Merit may be revoked, earning him the Notoriety Flaw (see “Character Flaws”, the World of Darkness Rulebook, p. 217)."
         ],
         "Book": "DoW 39"
     },
@@ -1468,7 +1468,7 @@ const uniMeritsSupernaturalData = [
         "Title": "Spirit Ear",
         "Rating": "•• to ••••",
         "Prerequisites": "Wits ••• or Composure •••",
-        "Description": "+1 to Empathy and Subterfuge rolls to understand spirits speaking human tongues, ignoring penalties, or with four dots, roll Wits + Empathy - 3 to understand the tongue of spirits",
+        "Description": "+1 to Empathy and Subterfuge rolls to understand spirits speaking human tongues, ignoring penalties, or with four dots, roll Wits + Empathy -3 to understand the tongue of spirits",
         "LongDescription": [
             ""
         ],

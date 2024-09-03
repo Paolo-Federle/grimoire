@@ -392,15 +392,15 @@ const mageMeritsData = [
     {
         "Title": "Law of Embodiment",
         "Rating": "•••••",
-        "Prerequisites": "Gnosis 3, knowledge of at least fi ve rotes",
+        "Prerequisites": "Gnosis 3, knowledge of at least five rotes",
         "Description": "cast Rote while attacking",
         "LongDescription": [
             "The mage who has studied the occult Law of Embodiment understands the deep secrets of the point of manifestation, where the Supernal macrocosm connects with the Fallen microcosm and true magic happens. These magicians are very skilled with rotes, and capable of performing mundane and magical actions nearly simultaneously.",
             "First, the mage must adapt a rote he knows to this purpose. Even if he cannot normally create the rote, he can adjust any rote that he learns by spending one experience point per rote. Once he has done this, he can Embody that rote in action.",
-            "The process is relatively simple: the Embodied rote’s Imago is created in the Awakened will fi rst, and then with only a slight pause, the action is carried out in the physical world. When dealing with instant actions, there is some measure of delay; to outsiders, it appears as though the mage spends one turn focusing, and then acts, his action having both physical and magical purpose. (In game terms, the mage loses his place in the Initiative roster. He now acts last in the turn, after everybody else has taken an action.)",
+            "The process is relatively simple: the Embodied rote’s Imago is created in the Awakened will first, and then with only a slight pause, the action is carried out in the physical world. When dealing with instant actions, there is some measure of delay; to outsiders, it appears as though the mage spends one turn focusing, and then acts, his action having both physical and magical purpose. (In game terms, the mage loses his place in the Initiative roster. He now acts last in the turn, after everybody else has taken an action.)",
             "In such an instant, an Adamantine Arrow might focus his will and then lash out with an eagle-claw fist at his opponent, infl icting both punching damage and casting the spell “Life Force Assault.”",
             "The mage rolls the rote’s Attribute + Skill dice pool (Dexterity + Athletics, in the case of the “Life Force Assault” rote). If it is successful, he then rolls his Arcanum dice for the spell (Life, in the case of “Life Force Assault”). The successes from the two rolls do not mix — the mundane action is resolved separately from the spellcasting action, even though they take place simultaneously. If the mundane roll fails, the spellcasting portion of the action cannot be performed (the Arcanum dice are not rolled).",
-            "A target’s defense is considered separately for both rolls. First, the mundane dice roll is affected by any condition that would normally affect such an action — the target’s Defense against melee attacks, any modifi ers for cover or concealment, range penalties, etc. Second, the spellcasting roll is affected by any defense the target is normally allowed (a contested roll, or subtracting a Resistance Attribute from the casting dice pool).",
+            "A target’s defense is considered separately for both rolls. First, the mundane dice roll is affected by any condition that would normally affect such an action — the target’s Defense against melee attacks, any modifiers for cover or concealment, range penalties, etc. Second, the spellcasting roll is affected by any defense the target is normally allowed (a contested roll, or subtracting a Resistance Attribute from the casting dice pool).",
             "An Embodied casting might not be as effective as a normal casting if the caster’s mundane dice pool isn’t very good, but since a mundane action is accomplished at the same time, it can prove worthwhile for certain spells — especially those that require the caster to touch the target (so long as the rote Skill used is Athletics, Brawl or Weaponry). "
         ],
         "Book": "TotM p77",
@@ -518,7 +518,7 @@ const mageMeritsData = [
         "Description": "gain one Skill-based Rote Specialty / dot",
         "LongDescription": [
             "Each dot in this Merit confers one Skill-based Rote Specialty. This Specialty adds a die to the pool for rotes that use the listed Skill.",
-            "<b>Drawback:</b> Fully initiated members of an order effectively possess the maximum number of dots in this Merit and can’t take it again. Some order apprentices might have only one- or two-dot Rote Specialties. If they leave order training early, they might forge a unique path, picking up their own rote skills."
+            "<b>Drawback:</b> Fully initiated members of an order effectively possess the maximum number of dots in this Merit and can’t take it again. Some order apprentices might have only one or two-dot Rote Specialties. If they leave order training early, they might forge a unique path, picking up their own rote skills."
         ],
         "Book": "Ban p42",
     },

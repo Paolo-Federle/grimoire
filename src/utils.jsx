@@ -12,3 +12,19 @@ export function sortByKey(list, key) {
         }
     });
 }
+
+// Filtro per array di oggetti che elimina oggetti indesiderati (ad esempio per creare link a pagine)
+export const filtreArrayOfObjects = (array, keyToFilter, valueToLeaveOut) =>
+    array.filter(object => !valueToLeaveOut.includes(object[keyToFilter]))
+
+// Add link to list of objects
+// data = lista di dati da passare, keyname nome della chiave da usare per parte dinamica link (titolo, nome), baselink base del link fisso
+export function addLink(data, keyName, baseLink) {
+    return data.map(item => {
+        const keyValue = item[keyName];
+        return {
+            ...item,
+            link: `${baseLink}${keyValue.replace(/ /g, '_')}`,
+        };
+    });
+}

@@ -6,7 +6,7 @@ export default function LegacyDetail(props) {
     const matchedLegacy = props.legacy
 
     return (
-        <div>
+        <div style={{ paddingBottom: '20px' }}>
             {matchedLegacy && (
                 <>
                     <h1 style={{ marginBottom: '10px' }}>{matchedLegacy.Nome}</h1>

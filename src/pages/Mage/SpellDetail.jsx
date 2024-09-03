@@ -55,7 +55,7 @@ export default function SpellDetail(props) {
 
 
     return (
-        <div>
+        <div style={{ paddingBottom: '20px' }}>
             {matchedSpell && (
                 <>
                     <div style={{ margin: '20px', maxWidth: '1000px' }}>

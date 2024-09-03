@@ -8,7 +8,7 @@ export default function ArtifactDetail(props) {
 
 
     return (
-        <div>
+        <div style={{ paddingBottom: '20px' }}>
             {matchedImbuedItem && (
                 <>
                     <div style={{ margin: '20px', width: '1000px' }}>

@@ -8,7 +8,7 @@ export default function MageMeritsDetail(props) {
 
 
     return (
-        <div>
+        <div style={{ paddingBottom: '20px' }}>
             {matchedMerit && (
                 <>
                     <div style={{ margin: '20px', width: '1000px' }}>
