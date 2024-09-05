@@ -10,7 +10,6 @@ import { addLink } from '../../utils';
 
 export default function Contracts() {
 
-
     const universalContHeader = ['Name', 'Rank', 'Cost', 'Dice Pool', 'Catch', 'Description', 'Book']
     const courtContHeader = ['Name', 'Rank', 'Description', 'Catch', 'Court Goodwill Requirement if not a member', 'Cost', 'Dice Pool']
     const goblinContHeader = ['Name', 'Rank', 'Benefit', 'Drawback', 'Catch', 'Cost', 'Dice Pool', 'Book']
@@ -23,27 +22,41 @@ export default function Contracts() {
     const courtData = ['Rank', 'Dice Pool']
     const unclassifiedData = ['Name']
 
-    const univContractData = addLink(universalContractData, 'Name', '/changeling/contracts/')
+    // Function to render a table with added link
+    const renderContractTable = (data, title, headers, headerCheckFields, alternateData, activeRowLink = false) => {
+        const tableData = activeRowLink ? addLink(data, 'Name', '/changeling/contracts/') : data;
+        return (
+            <ManyHeadersTable
+                table={tableData}
+                title={title}
+                headers={headers}
+                headerCheckFields={headerCheckFields}
+                alternateData={alternateData}
+                activeRowLink={activeRowLink}
+            />
+        );
+    };
 
     return (
         <div className='grid-container'>
-            <ManyHeadersTable table={univContractData} title={'Universal Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} activeRowLink={true} />
-            <ManyHeadersTable table={beastlyContractsData} title={'Beastly Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} />
-            <ManyHeadersTable table={darklingContractsData} title={'Darkling Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} />
-            <ManyHeadersTable table={elementalContractsData} title={'Elemental Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} />
-            <ManyHeadersTable table={fairestContractsData} title={'Fairest Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} />
-            <ManyHeadersTable table={ogreishContractsData} title={'Ogreish Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} />
-            <ManyHeadersTable table={wizenedContractsData} title={'Wizened Contracts'} headers={universalContHeader} headerCheckFields={headerCheckFields} alternateData={contractData} />
-            <ManyHeadersTable table={springCourtContractsData} title={'Spring Court Contracts'} headers={courtContHeader} headerCheckFields={headerAltCheckFields} alternateData={courtData} />
-            <ManyHeadersTable table={summerCourtContractsData} title={'Summer Court Contracts'} headers={courtContHeader} headerCheckFields={headerAltCheckFields} alternateData={courtData} />
-            <ManyHeadersTable table={autumnCourtContractsData} title={'Autumn Court Contracts'} headers={courtContHeader} headerCheckFields={headerAltCheckFields} alternateData={courtData} />
-            <ManyHeadersTable table={winterCourtContractsData} title={'Winter Court Contracts'} headers={courtContHeader} headerCheckFields={headerAltCheckFields} alternateData={courtData} />
-            <ManyHeadersTable table={autumnCourtContractsData} title={'Autumn Court Contracts'} headers={courtContHeader} headerCheckFields={headerAltCheckFields} alternateData={courtData} />
-            <ManyHeadersTable table={minorCourtContractData} title={'Other Court Contracts'} headers={courtContHeader} headerCheckFields={headerAltCheckFields} alternateData={courtData} />
+            {renderContractTable(universalContractData, 'Universal Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(beastlyContractsData, 'Beastly Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(darklingContractsData, 'Darkling Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(elementalContractsData, 'Elemental Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(fairestContractsData, 'Fairest Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(ogreishContractsData, 'Ogreish Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(wizenedContractsData, 'Wizened Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderContractTable(springCourtContractsData, 'Spring Court Contracts', courtContHeader, headerAltCheckFields, courtData, true)}
+            {renderContractTable(summerCourtContractsData, 'Summer Court Contracts', courtContHeader, headerAltCheckFields, courtData, true)}
+            {renderContractTable(autumnCourtContractsData, 'Autumn Court Contracts', courtContHeader, headerAltCheckFields, courtData, true)}
+            {renderContractTable(winterCourtContractsData, 'Winter Court Contracts', courtContHeader, headerAltCheckFields, courtData, true)}
+            {renderContractTable(minorCourtContractData, 'Other Court Contracts', courtContHeader, headerAltCheckFields, courtData, true)}
+            
             <p><b>Note:</b> To buy an ability with Mantle, ability must be Clause Rank - 1 = Mantle. So a level 4 can own the 5th dot, and a level 2 the 3rd.</p>
-            <ManyHeadersTable table={goblinContractData} title={'Goblin Contracts'} headers={goblinContHeader} headerCheckFields={goblinFields} alternateData={courtData} />
+
+            {renderContractTable(goblinContractData, 'Goblin Contracts', goblinContHeader, goblinFields, courtData)}
             <p><b>Note:</b> Goblin Contracts are not chained and any clause rank can be bought with no prerequisites.</p>
-            <ManyHeadersTable table={unclassifiedGoblinContractData} title={'Unclassified Goblin Contracts'} headers={unclassifiedGoblinContHeader} headerCheckFields={unclassifiedFields} alternateData={unclassifiedData} />
+            {renderContractTable(unclassifiedGoblinContractData, 'Unclassified Goblin Contracts', unclassifiedGoblinContHeader, unclassifiedFields, unclassifiedData)}
         </div>
     );
 }
