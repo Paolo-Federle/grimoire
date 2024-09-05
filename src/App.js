@@ -94,6 +94,7 @@ import GhoulFamilies from './pages/Vampire/Ghoul';
 import Morality from './pages/MortalsAndOthers/Morality';
 import Humanity from './pages/Vampire/Humanity';
 import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
+import DynamicDetail from './components/Disuso/DynamicDetail';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -308,6 +309,13 @@ function App() {
           <Route path="/changeling/wyrd" element={<Wyrd />} />
           <Route path="/changeling/contracts" element={<Contracts />} />
 
+          {/* {allContracts.map((contracts, index) => (
+            <Route
+              key={index}
+              path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
+              element={<DynamicDetail data={contracts} />}
+            />
+          ))} */}
           {allContracts.map((contracts, index) => (
             <Route
               key={index}

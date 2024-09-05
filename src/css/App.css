@@ -49,6 +49,7 @@ td {
 }
 
 .table-container {
+    margin-top: 10px;
     width: 100%;
     overflow: auto;
     max-width: 100vw;
@@ -99,6 +100,7 @@ td {
 
     .table-container {
         overflow-x: auto;
+        margin-top: 10px;
     }
 
     .additional-text {
@@ -126,9 +128,11 @@ td {
         overflow-x: auto;
         display: block;
         width: 100%;
+        margin-top: 10px;
     }
 
     .table-container table {
+        margin-top: 10px;
         width: 100%;
     }
 }

@@ -4,8 +4,6 @@ import { useLocation } from 'react-router-dom';
 export default function MageMeritsDetail(props) {
     const location = useLocation();
     const matchedMerit = props.merits
-    console.log(matchedMerit)
-
 
     return (
         <div style={{ paddingBottom: '20px' }}>

@@ -1,3 +1,5 @@
+import BaseTable from "./components/BaseTable";
+
 export function sortByKey(list, key) {
     return list.sort((a, b) => {
         const valueA = a[key].toLowerCase();

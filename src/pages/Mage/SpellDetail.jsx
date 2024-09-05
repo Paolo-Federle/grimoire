@@ -71,6 +71,7 @@ export default function SpellDetail(props) {
                         <p>{matchedSpell.RoteName && <b><span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteName }} /></b>}<br />
                             {matchedSpell.RoteDice && <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} />}</p>
                         {matchedSpell.RoteDescrizione && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDescrizione }} /></p>}
+                        {/* {matchedSpell.Book && (<div><b>Book:</b> {matchedSpell.Book}</div>)} */}
                     </div>
                 </>
             )}

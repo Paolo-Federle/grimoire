@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import BaseTable from '../../components/BaseTable';
 
 export default function ContractsDetail(props) {
     const location = useLocation();
     const matchedcontract = props.contracts
-    console.log(matchedcontract)
-    console.log('TEST')
 
     return (
         <div style={{ paddingBottom: '20px' }}>
@@ -22,7 +21,7 @@ export default function ContractsDetail(props) {
                                 ))}
                             </div>
                         )}
-                        {matchedcontract.Cost && (<div><b>Cost:</b> {matchedcontract.Cost}</div>)}
+                        {matchedcontract.FullCost && (<div><b>Cost:</b> {matchedcontract.FullCost}</div>)}
                         {matchedcontract['Dice Pool'] && (<div><b>Dice Pool:</b> {matchedcontract['Dice Pool']}</div>)}
                         {matchedcontract.Action && (<div><b>Action:</b> {matchedcontract.Action}</div>)}
                         {matchedcontract.FullCatch && (
@@ -34,39 +33,27 @@ export default function ContractsDetail(props) {
                                 ))}
                             </span>
                         )}
-                        {matchedcontract['Roll Results'] && (
-                            <div style={{ paddingBottom: "20px" }}>
-                                {matchedcontract['Roll Results'].map((item, index) =>
-                                    typeof item === 'object' ? (
-                                        <div key={index} style={{ marginBottom: '20px' }}>
-                                            <h3>{Object.keys(item)[0]}</h3>
-                                            <table className='spacing-table'>
-                                                <thead>
-                                                    <tr className='table-row'>
-                                                        {Object.keys(item[Object.keys(item)[0]][0]).map((header, i) => (
-                                                            <th key={i}>{header}</th>
-                                                        ))}
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    {item[Object.keys(item)[0]].map((modifier, idx) => (
-                                                        <tr key={idx} className={`alternating-row table-clickable`}>
-                                                            {Object.values(modifier).map((value, i) => (
-                                                                <td key={i}>{value}</td>
-                                                            ))}
-                                                        </tr>
-                                                    ))}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    ) : (
-                                        <p key={index}>
-                                            <span dangerouslySetInnerHTML={{ __html: item }} />
-                                        </p>
-                                    )
-                                )}
-                            </div>
-                        )}
+                        {matchedcontract['Roll Results'].map((item, index) => {
+                            if (typeof item !== 'object') {
+                                return (
+                                    <p key={index}>
+                                        <span dangerouslySetInnerHTML={{ __html: item }} />
+                                    </p>
+                                );
+                            }
+
+                            const [title, data] = Object.entries(item)[0];
+                            const headers = Object.keys(data[0]);
+
+                            return (
+                                <BaseTable
+                                    key={index}
+                                    headers={headers}
+                                    data={data}
+                                    title={title}
+                                />
+                            );
+                        })}
                         {matchedcontract.Book && (<div><b>Book:</b> {matchedcontract.Book}</div>)}
                     </div>
                 </>

@@ -4,6 +4,7 @@ const universalContractData = [
     {
         "Name": "Contracts of the Board",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -24,6 +25,7 @@ const universalContractData = [
     {
         "Name": "The Honest Eye",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd vs Composure + Tolerance",
         "Catch": "Against someone you've caught cheating without this clause",
@@ -54,6 +56,7 @@ const universalContractData = [
     {
         "Name": "Knowing the Competition",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "Use in a rematch",
@@ -82,6 +85,7 @@ const universalContractData = [
     {
         "Name": "The Living Game",
         "Rank": "•••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Occult + Wyrd",
         "Catch": "Play a game analogous to the conflict",
@@ -113,6 +117,7 @@ const universalContractData = [
     {
         "Name": "The Game Master's Table",
         "Rank": "••••",
+        "FullCost": "4 Glamour or 4 Glamour and 1 Willpower",
         "Cost": "●●●● (○)",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Prepare custom pieces representing each player",
@@ -146,6 +151,7 @@ const universalContractData = [
     {
         "Name": "The Cheater's Gambit",
         "Rank": "•••••",
+        "FullCost": "4 Glamour and 1 Willpower",
         "Cost": "●●●●○",
         "Dice Pool": "Manipulation + Wyrd vs Composure + Tolerance",
         "Catch": "Through a game you've played against someone who's died recently",
@@ -177,6 +183,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Dream",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -197,6 +204,7 @@ const universalContractData = [
     {
         "Name": "Pathfinder",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "Pluck a Thorn within the day",
@@ -224,6 +232,7 @@ const universalContractData = [
     {
         "Name": "Forging the Dream",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Touch hands to your temple and the dreamer's",
@@ -255,6 +264,7 @@ const universalContractData = [
     {
         "Name": "Phantasmal Bastion",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "A token gifted from a loved one or enemy",
@@ -274,6 +284,7 @@ const universalContractData = [
     {
         "Name": "Cobblethought",
         "Rank": "••••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "Thread from the dreamer's bedclothes",
@@ -306,6 +317,7 @@ const universalContractData = [
     {
         "Name": "Dreamsteps",
         "Rank": "•••••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "Leave a handcrafted item behind in dreams",
@@ -335,6 +347,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Hearth",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -358,6 +371,7 @@ const universalContractData = [
     {
         "Name": "Fickle Fate",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "",
@@ -378,6 +392,7 @@ const universalContractData = [
     {
         "Name": "Favored Fate",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "",
@@ -398,6 +413,7 @@ const universalContractData = [
     {
         "Name": "Beneficent Fate",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "",
@@ -418,6 +434,7 @@ const universalContractData = [
     {
         "Name": "Fortuna’s Cornucopia",
         "Rank": "••••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "",
@@ -438,6 +455,7 @@ const universalContractData = [
     {
         "Name": "Triumphal Fate",
         "Rank": "•••••",
+        "FullCost": "1 Glamour + 1 Willpower",
         "Cost": "●○",
         "Dice Pool": "None",
         "Catch": "",
@@ -459,6 +477,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Hours",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -479,6 +498,7 @@ const universalContractData = [
     {
         "Name": "Restoration of Dawn Beauty",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Crafts + Wyrd",
         "Catch": "Family property from before the Durance",
@@ -507,6 +527,7 @@ const universalContractData = [
     {
         "Name": "Frozen Moment",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Sunrise or sunset",
@@ -535,6 +556,7 @@ const universalContractData = [
     {
         "Name": "Thief of Days",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Investigation + Wyrd",
         "Catch": "Know a dead owner's name",
@@ -563,6 +585,7 @@ const universalContractData = [
     {
         "Name": "Flickering Hours",
         "Rank": "••••",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Smash a timepiece",
@@ -603,6 +626,7 @@ const universalContractData = [
     {
         "Name": "Leaping Toward Nightfall",
         "Rank": "•••••",
+        "FullCost": "4 Glamour + 1 Willpower",
         "Cost": "●●●●○",
         "Dice Pool": "Investigation + Wyrd vs Composure + Tolerance",
         "Catch": "Subject touches a Hedge gate",
@@ -644,6 +668,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Lucidity",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -668,6 +693,7 @@ const universalContractData = [
     {
         "Name": "Read Lucidity",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "Touch the subject",
@@ -691,6 +717,7 @@ const universalContractData = [
     {
         "Name": "Temporary Sanity",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Occult + Wyrd",
         "Catch": "Stand on one foot, eyes shut, for a minute",
@@ -714,6 +741,7 @@ const universalContractData = [
     {
         "Name": "Gift of Lucidity",
         "Rank": "•••",
+        "FullCost": "1 Glamour per level of Clarity rating “lent”(to a maximum of 3) + 1 Willpower",
         "Cost": "●/Clarity, ○",
         "Dice Pool": "Presence + Clarity + Wyrd - Resolve + Composure",
         "Catch": "Subject lost Clarity in the last half of the day",
@@ -739,6 +767,7 @@ const universalContractData = [
     {
         "Name": "Armored Clarity",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Resolve + Clarity",
         "Catch": "Spend the hour with more regular humans than fae",
@@ -762,6 +791,7 @@ const universalContractData = [
     {
         "Name": "Thief of Reason",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Presence + Intimidation + Wyrd - Willpower + Tolerance",
         "Catch": "Subject expressed doubts of sanity within the hour",
@@ -791,6 +821,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Mirror",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -810,6 +841,7 @@ const universalContractData = [
     {
         "Name": "Riddle-Kith",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "As that of a changeling you've dined with this week",
@@ -837,6 +869,7 @@ const universalContractData = [
     {
         "Name": "Skinmask",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Stamina + Wyrd",
         "Catch": "One of the subject's possessions",
@@ -866,6 +899,7 @@ const universalContractData = [
     {
         "Name": "Transfigure the Flesh",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Stamina + Wyrd",
         "Catch": "Stolen garmant that doesn't fit you",
@@ -888,6 +922,7 @@ const universalContractData = [
     {
         "Name": "Oddbody",
         "Rank": "••••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Strength + Wyrd",
         "Catch": "Eat a caterpillar's cocoon",
@@ -912,6 +947,7 @@ const universalContractData = [
     {
         "Name": "Chrysalis",
         "Rank": "•••••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Strength + Wyrd",
         "Catch": "Specially commission an object as model",
@@ -937,6 +973,7 @@ const universalContractData = [
     {
         "Name": "Contracts of the Moon",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -957,6 +994,7 @@ const universalContractData = [
     {
         "Name": "Lunatic’s Knowing Glance",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Masquerade as a medical professional",
@@ -985,6 +1023,7 @@ const universalContractData = [
     {
         "Name": "Maddening Eye",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Manipulation + Wyrd - Composure",
         "Catch": "Suffer a derangement, or after first use in a scene",
@@ -1014,6 +1053,7 @@ const universalContractData = [
     {
         "Name": "Touch of Bedlam",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Presence + Wyrd vs Composure + Tolerance",
         "Catch": "Victim broke an oath sworn to you",
@@ -1042,6 +1082,7 @@ const universalContractData = [
     {
         "Name": "The Madness of Crowds",
         "Rank": "••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Expression + Wyrd",
         "Catch": "Performing for an audience",
@@ -1071,6 +1112,7 @@ const universalContractData = [
     {
         "Name": "Lurking Insanity",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Subterfuge + Wyrd",
         "Catch": "Victim has betrayed family.",
@@ -1100,6 +1142,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Omen",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -1120,6 +1163,7 @@ const universalContractData = [
     {
         "Name": "Vision of Strife",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Empathy + Wyrd",
         "Catch": "Subject discusses their past",
@@ -1150,7 +1194,8 @@ const universalContractData = [
     {
         "Name": "Glimpse of Fortune’s Favor",
         "Rank": "••",
-        "Cost": "●/●●",
+        "FullCost": "1 Glamour, 2 Glamour if cast reflexively",
+        "Cost": "●/●● if cast reflexively",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "On games of skill",
         "Action": "Instant",
@@ -1178,6 +1223,7 @@ const universalContractData = [
     {
         "Name": "Reading the Portents",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "On a minor",
@@ -1209,6 +1255,7 @@ const universalContractData = [
     {
         "Name": "Vision of Disaster",
         "Rank": "••••",
+        "FullCost": "4 Glamour + 1 Willpower",
         "Cost": "●●●●○",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Betrayed by a trusted ally",
@@ -1238,6 +1285,7 @@ const universalContractData = [
     {
         "Name": "Tying the Knots of Fate",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 2 Willpower",
         "Cost": "●●●○○",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "Blessing a mortal minor",
@@ -1269,6 +1317,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Smoke",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -1288,6 +1337,7 @@ const universalContractData = [
     {
         "Name": "The Wrong Foot",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "Lick thumb and smudge a mirror",
@@ -1307,6 +1357,7 @@ const universalContractData = [
     {
         "Name": "Nevertread",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "Spent an hour barefoot today",
@@ -1336,6 +1387,7 @@ const universalContractData = [
     {
         "Name": "Shadowpatch",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Spent an hour out of sunlight today",
@@ -1364,6 +1416,7 @@ const universalContractData = [
     {
         "Name": "Murkblur",
         "Rank": "••••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Wyrd vs Resolve + Tolerance",
         "Catch": "Swallow an animal's eye",
@@ -1393,6 +1446,7 @@ const universalContractData = [
     {
         "Name": "Smoke-Stepping",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "As the sun rises or sets, or on cloudy days",
@@ -1422,6 +1476,7 @@ const universalContractData = [
     {
         "Name": "Light-Shy",
         "Rank": "•••••",
+        "FullCost": "1 Glamour + 1 Willpower",
         "Cost": "●○",
         "Dice Pool": "Intelligence + Wyrd",
         "Catch": "After telling someone important to you a serious lie that day",
@@ -1451,6 +1506,7 @@ const universalContractData = [
     {
         "Name": "Contracts of Thorns and Brambles",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -1474,6 +1530,7 @@ const universalContractData = [
     {
         "Name": "Bite of the Wooden Fang",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Dexterity + Wyrd",
         "Catch": "Using a whip",
@@ -1503,6 +1560,7 @@ const universalContractData = [
     {
         "Name": "Leechweed",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Occult + Wyrd",
         "Catch": "Against your Keeper or their agents",
@@ -1535,6 +1593,7 @@ const universalContractData = [
     {
         "Name": "Briarpath",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Scatter Hedge thorns behind you",
@@ -1564,6 +1623,7 @@ const universalContractData = [
     {
         "Name": "Shield of Thorns",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Watered by your blood",
@@ -1594,6 +1654,7 @@ const universalContractData = [
     {
         "Name": "Hedgewall",
         "Rank": "•••••",
+        "FullCost": "4 Glamour or 4 Glamour + 1 Willpower",
         "Cost": "●●●●(○)",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "After transplanting a bush in place",
@@ -1632,6 +1693,7 @@ const beastlyContractsData = [
     {
         "Name": "Contracts of the Den",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -1651,6 +1713,7 @@ const beastlyContractsData = [
     {
         "Name": "Trespasser’s Spoor",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "None",
         "Catch": "Scribe your name at the entrance in chalk and blood",
@@ -1670,6 +1733,7 @@ const beastlyContractsData = [
     {
         "Name": "Trapdoor Spider’s Trick",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Keep a spider in your mouth",
@@ -1698,6 +1762,7 @@ const beastlyContractsData = [
     {
         "Name": "Cuckoo’s Ruse",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Manipulation + Wyrd (vs Hollow Wards)",
         "Catch": "Invite the resident to your own home",
@@ -1728,6 +1793,7 @@ const beastlyContractsData = [
     {
         "Name": "Blessing of the Burrow",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Survival + Wyrd",
         "Catch": "Nude",
@@ -1758,6 +1824,7 @@ const beastlyContractsData = [
     {
         "Name": "Collapsing the Entrance",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Strength + Wyrd",
         "Catch": "Your own property",
@@ -1796,6 +1863,7 @@ const beastlyContractsData = [
     {
         "Name": "Contracts of Fang and Talon",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -1815,6 +1883,7 @@ const beastlyContractsData = [
     {
         "Name": "Tongues of Birds and Words of Wolves",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Animal Ken + Wyrd",
         "Catch": "Name the animals",
@@ -1843,6 +1912,7 @@ const beastlyContractsData = [
     {
         "Name": "Beast’s Keen Senses",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "In contact with the chosen animal",
@@ -1872,6 +1942,7 @@ const beastlyContractsData = [
     {
         "Name": "Pipes of the Beastcaller",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Animal Ken + Wyrd",
         "Catch": "To guard your home",
@@ -1900,6 +1971,7 @@ const beastlyContractsData = [
     {
         "Name": "Tread of the Swift Hooves",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Dexterity + Wyrd",
         "Catch": "In contact with the chosen animal",
@@ -1928,6 +2000,7 @@ const beastlyContractsData = [
     {
         "Name": "Cloak of the Bear’s Massive Form",
         "Rank": "•••••",
+        "FullCost": "4 Glamour",
         "Cost": "●●●●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "In contact with the chosen animal in its habitat",
@@ -1957,6 +2030,7 @@ const beastlyContractsData = [
     {
         "Name": "Contracts of the Wild",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -1977,6 +2051,7 @@ const beastlyContractsData = [
     {
         "Name": "Wildwalker",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Persuasion + Wyrd",
         "Catch": "After sleeping outdoors",
@@ -2005,6 +2080,7 @@ const beastlyContractsData = [
     {
         "Name": "Nature’s Curse",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intimidation + Wyrd",
         "Catch": "Target has a gun",
@@ -2033,6 +2109,7 @@ const beastlyContractsData = [
     {
         "Name": "Viridian Embrace",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Expression + Wyrd",
         "Catch": "To aid a mortal",
@@ -2063,6 +2140,7 @@ const beastlyContractsData = [
     {
         "Name": "Calling Wind and Weather",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "On behalf of a dozen mortals",
@@ -2101,6 +2179,7 @@ const beastlyContractsData = [
     {
         "Name": "Calling Nature’s Wrath",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Survival + Wyrd",
         "Catch": "On family land",
@@ -2135,6 +2214,7 @@ const darklingContractsData = [
     {
         "Name": "Contracts of Darkness",
         "Rank": "N/A",
+        "FullCost": "N/A",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -2154,6 +2234,7 @@ const darklingContractsData = [
     {
         "Name": "Creeping Dread",
         "Rank": "•",
+        "FullCost": "1 Glamour or 2 Glamour + 1 Willpower",
         "Cost": "●/●●○",
         "Dice Pool": "Manipulation + Wyrd - Resolve",
         "Catch": "Against intruders in your home",
@@ -2184,6 +2265,7 @@ const darklingContractsData = [
     {
         "Name": "Night’s Subtle Distractions",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Stealth + Wyrd",
         "Catch": "Out in the night",
@@ -2212,6 +2294,7 @@ const darklingContractsData = [
     {
         "Name": "Balm of Unwakeable Slumber",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Manipulation + Wyrd vs Resolve + Tolerance",
         "Catch": "Against someone in their own bed at night",
@@ -2240,6 +2323,7 @@ const darklingContractsData = [
     {
         "Name": "Boon of the Scuttling Spider",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Athletics + Wyrd",
         "Catch": "Across outdoor walls at night",
@@ -2269,6 +2353,7 @@ const darklingContractsData = [
     {
         "Name": "Touch of Paralyzing Shudder",
         "Rank": "•••••",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Presence + Wyrd vs Resolve + Tolerance",
         "Catch": "Isolate and unnerve target",
@@ -2297,6 +2382,7 @@ const darklingContractsData = [
     {
         "Name": "Contracts of Shade and Spirit",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -2316,6 +2402,7 @@ const darklingContractsData = [
     {
         "Name": "Ghostly Presence",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "Gravewight, or knew the ghost in life",
@@ -2338,6 +2425,7 @@ const darklingContractsData = [
     {
         "Name": "Dread Companion",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Press drops of your blood to witnesses' foreheads",
@@ -2360,6 +2448,7 @@ const darklingContractsData = [
     {
         "Name": "Haunting Intercession",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Prepare a \"dead supper\" with unused silverware",
@@ -2382,6 +2471,7 @@ const darklingContractsData = [
     {
         "Name": "Waking the Dead",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Strength + Wyrd",
         "Catch": "Blood offering",
@@ -2404,6 +2494,7 @@ const darklingContractsData = [
     {
         "Name": "Opening the Black Gate",
         "Rank": "•••••",
+        "FullCost": "2 Glamour, 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Stamina + Wyrd",
         "Catch": "At midnight in a mausoleum, invoking laws of hospitality",
@@ -2431,6 +2522,7 @@ const elementalContractsData = [
     {
         "Name": "Contracts of Communion",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -2450,6 +2542,7 @@ const elementalContractsData = [
     {
         "Name": "Sense Element",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Meditation",
@@ -2480,6 +2573,7 @@ const elementalContractsData = [
     {
         "Name": "Primordial Voice",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Socialize + Wyrd",
         "Catch": "Courteous offering to the element",
@@ -2510,6 +2604,7 @@ const elementalContractsData = [
     {
         "Name": "Distant Connection",
         "Rank": "•••",
+        "FullCost": "2 Glamour and (optional) 1 Willpower",
         "Cost": "●●(○)",
         "Dice Pool": "Persuasion + Wyrd",
         "Catch": "Through intimately familiar instances of the element",
@@ -2535,6 +2630,7 @@ const elementalContractsData = [
     {
         "Name": "Elemental Servitor",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Persuasion + Wyrd",
         "Catch": "Laborious offering to the element",
@@ -2566,6 +2662,7 @@ const elementalContractsData = [
     {
         "Name": "Elemental Ally",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "Negotiate payment to compensate the element",
@@ -2595,6 +2692,7 @@ const elementalContractsData = [
     {
         "Name": "Contracts of Elements",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -2616,6 +2714,7 @@ const elementalContractsData = [
     {
         "Name": "Cloak of the Elements",
         "Rank": "•",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "None",
         "Catch": "Wearing a symbol of the element",
@@ -2637,6 +2736,7 @@ const elementalContractsData = [
     {
         "Name": "Armor of the Element’s Fury",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Dexterity + Wyrd",
         "Catch": "In significant contact with the element",
@@ -2666,6 +2766,7 @@ const elementalContractsData = [
     {
         "Name": "Control Elements",
         "Rank": "•••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Where the element dominates",
@@ -2707,6 +2808,7 @@ const elementalContractsData = [
     {
         "Name": "Calling the Element",
         "Rank": "••••",
+        "FullCost": "4 Glamour",
         "Cost": "●●●●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "As a performance or display",
@@ -2735,6 +2837,7 @@ const elementalContractsData = [
     {
         "Name": "Become the Primal Foundation",
         "Rank": "•••••",
+        "FullCost": "4 Glamour",
         "Cost": "●●●●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Commune with a manifestation of the element.",
@@ -2766,6 +2869,7 @@ const elementalContractsData = [
     {
         "Name": "Contracts of the Wild",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -2786,6 +2890,7 @@ const elementalContractsData = [
     {
         "Name": "Wildwalker",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Persuasion + Wyrd",
         "Catch": "After sleeping outdoors",
@@ -2814,6 +2919,7 @@ const elementalContractsData = [
     {
         "Name": "Nature’s Curse",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intimidation + Wyrd",
         "Catch": "Target has a gun",
@@ -2842,6 +2948,7 @@ const elementalContractsData = [
     {
         "Name": "Viridian Embrace",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Expression + Wyrd",
         "Catch": "To aid a mortal",
@@ -2872,6 +2979,7 @@ const elementalContractsData = [
     {
         "Name": "Calling Wind and Weather",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "On behalf of a dozen mortals",
@@ -2910,6 +3018,7 @@ const elementalContractsData = [
     {
         "Name": "Calling Nature’s Wrath",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Survival + Wyrd",
         "Catch": "On family land",
@@ -2944,6 +3053,7 @@ const fairestContractsData = [
     {
         "Name": "Contracts of Reflection",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -2963,6 +3073,7 @@ const fairestContractsData = [
     {
         "Name": "Reflections of the Past",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "On a loved one's mirror",
@@ -2994,6 +3105,7 @@ const fairestContractsData = [
     {
         "Name": "Glimpse of a Distant Mirror",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Composure + Wyrd",
         "Catch": "Into a sworn enemy's mirror",
@@ -3026,6 +3138,7 @@ const fairestContractsData = [
     {
         "Name": "Reflection’s Grasp",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Dexterity + Wyrd",
         "Catch": "Through the mirror you most see yourself in",
@@ -3058,6 +3171,7 @@ const fairestContractsData = [
     {
         "Name": "Mirror Walk",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Athletics + Wyrd",
         "Catch": "Out a mirror reflecting a blood relative",
@@ -3089,6 +3203,7 @@ const fairestContractsData = [
     {
         "Name": "Stealing the Solid Reflection",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Larceny + Wyrd",
         "Catch": "The reflected object's owner owes you a debt",
@@ -3123,6 +3238,7 @@ const fairestContractsData = [
     {
         "Name": "Contracts of Separation",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -3142,6 +3258,7 @@ const fairestContractsData = [
     {
         "Name": "Tread Lightly",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Dexterity + Wyrd",
         "Catch": "Protecting nice shoes from getting dirty",
@@ -3170,6 +3287,7 @@ const fairestContractsData = [
     {
         "Name": "Evasion of Shackles",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Larceny + Wyrd",
         "Catch": "Imprisoned for an offense you didn't commit",
@@ -3198,6 +3316,7 @@ const fairestContractsData = [
     {
         "Name": "Breaching Barriers",
         "Rank": "•••",
+        "FullCost": "1 or 2 Glamour",
         "Cost": "●",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "Imprisoned by a changeling",
@@ -3226,6 +3345,7 @@ const fairestContractsData = [
     {
         "Name": "Elegant Protection",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Dexterity + Wyrd",
         "Catch": "Unarmed, without aggressing",
@@ -3255,6 +3375,7 @@ const fairestContractsData = [
     {
         "Name": "Phantom Glory",
         "Rank": "•••••",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Persuasion + Wyrd",
         "Catch": "Unarmed and unarmored",
@@ -3285,6 +3406,7 @@ const fairestContractsData = [
     {
         "Name": "Contracts of Vainglory",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -3304,6 +3426,7 @@ const fairestContractsData = [
     {
         "Name": "Mask of Superiority",
         "Rank": "•",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Intimidation + Wyrd - Resolve",
         "Catch": "As a socialite or shallow celebrity.",
@@ -3332,6 +3455,7 @@ const fairestContractsData = [
     {
         "Name": "Songs of Distant Arcadia",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Expression + Wyrd",
         "Catch": "Entertaining a powerful audience",
@@ -3360,6 +3484,7 @@ const fairestContractsData = [
     {
         "Name": "Splendor of the Envoy’s Protection",
         "Rank": "•••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "At a formal soirée",
@@ -3390,6 +3515,7 @@ const fairestContractsData = [
     {
         "Name": "Mantle of Terrible Beauty",
         "Rank": "••••",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Intimidation + Wyrd vs Composure + Tolerance",
         "Catch": "Fighting a formal trial by combat",
@@ -3419,6 +3545,7 @@ const fairestContractsData = [
     {
         "Name": "Words of Memories Never Lived",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Expression + Wyrd vs Composure + Tolerance",
         "Catch": "Stories you believe to be fact",
@@ -3452,6 +3579,7 @@ const ogreishContractsData = [
     {
         "Name": "Contracts of Oath and Punishment",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -3471,6 +3599,7 @@ const ogreishContractsData = [
     {
         "Name": "Pursuer’s Seven-League Leap",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Athletics + Wyrd",
         "Catch": "Pursuing an oathbreaker",
@@ -3493,6 +3622,7 @@ const ogreishContractsData = [
     {
         "Name": "Sense Tainted Vows",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd vs Composure + Tolerance",
         "Catch": "Pledgesworn with the subject",
@@ -3515,6 +3645,7 @@ const ogreishContractsData = [
     {
         "Name": "Inexorable Pursuer",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Resolve + Wyrd",
         "Catch": "Resisted manipulation within the day",
@@ -3537,6 +3668,7 @@ const ogreishContractsData = [
     {
         "Name": "Relentless Pursuit",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Stamina + Wyrd",
         "Catch": "Pursue without resting",
@@ -3559,6 +3691,7 @@ const ogreishContractsData = [
     {
         "Name": "Cruel Vengeance",
         "Rank": "•••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Presence + Wyrd vs Manipulation + Tolerance",
         "Catch": "Fellow freehold member",
@@ -3581,6 +3714,7 @@ const ogreishContractsData = [
     {
         "Name": "Contracts of Stone",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -3600,6 +3734,7 @@ const ogreishContractsData = [
     {
         "Name": "Might of the Terrible Brute",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Strength + Wyrd",
         "Catch": "Outnumbered and unarmed",
@@ -3628,6 +3763,7 @@ const ogreishContractsData = [
     {
         "Name": "Ogre’s Rending Grasp",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Strength + Wyrd",
         "Catch": "Smashing through barriers",
@@ -3656,6 +3792,7 @@ const ogreishContractsData = [
     {
         "Name": "Display Grandiose Might",
         "Rank": "•••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Athletics + Wyrd",
         "Catch": "Just to impress or entertain",
@@ -3684,6 +3821,7 @@ const ogreishContractsData = [
     {
         "Name": "Gluttonous Feast of Health",
         "Rank": "••••",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Stamina + Wyrd",
         "Catch": "Offered a feast by a stranger",
@@ -3713,6 +3851,7 @@ const ogreishContractsData = [
     {
         "Name": "Red Rage of Terrible Vengeance",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Resolve + Wyrd",
         "Catch": "Avenging a loved one",
@@ -3744,6 +3883,7 @@ const wizenedContractsData = [
     {
         "Name": "Contracts of Animation",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -3763,6 +3903,7 @@ const wizenedContractsData = [
     {
         "Name": "Knowing Touch",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Crafts + Wyrd",
         "Catch": "Owner bids you examine",
@@ -3791,6 +3932,7 @@ const wizenedContractsData = [
     {
         "Name": "Instant Expertise",
         "Rank": "••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Converse with the tool for ten minutes",
@@ -3819,6 +3961,7 @@ const wizenedContractsData = [
     {
         "Name": "Inanimate Communion",
         "Rank": "•••",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Empathy + Wyrd",
         "Catch": "In disuse for a year",
@@ -3847,6 +3990,7 @@ const wizenedContractsData = [
     {
         "Name": "Animate Device",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "Possessed and used regularly for a month",
@@ -3877,6 +4021,7 @@ const wizenedContractsData = [
     {
         "Name": "Command the Inanimate",
         "Rank": "•••••",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "A stranger or enemy's neglected belongings",
@@ -3906,6 +4051,7 @@ const wizenedContractsData = [
     {
         "Name": "Contracts of Artifice",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -3925,6 +4071,7 @@ const wizenedContractsData = [
     {
         "Name": "Brief Glamour of Repair",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Crafts + Wyrd",
         "Catch": "Items you neither own nor use",
@@ -3954,6 +4101,7 @@ const wizenedContractsData = [
     {
         "Name": "Touch of the Workman’s Wrath",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Larceny + Wyrd",
         "Catch": "Belongs to someone who has tried to cheat you",
@@ -3983,7 +4131,8 @@ const wizenedContractsData = [
     {
         "Name": "Blessing of Perfection",
         "Rank": "•••",
-        "Cost": "●●●",
+        "FullCost": "3 Glamour, or 3 Glamour + 1 Willpower",
+        "Cost": "●●●/●●●○",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "Returning a favor, upon another's possession",
         "Action": "Extended (one roll per turn, eight successes needed)",
@@ -4012,6 +4161,7 @@ const wizenedContractsData = [
     {
         "Name": "Unmaker’s Destructive Gaze",
         "Rank": "••••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Presence + Wyrd",
         "Catch": "Study or handle the object",
@@ -4040,7 +4190,8 @@ const wizenedContractsData = [
     {
         "Name": "Tatterdemalion’s Workshop",
         "Rank": "•••••",
-        "Cost": "●●●●(○)",
+        "FullCost": "4 Glamour or 4 Glamour + 2 Willpower",
+        "Cost": "●●●●(○○)",
         "Dice Pool": "Crafts + Wyrd",
         "Catch": "In your own workshop, with your own tools",
         "Action": "Extended (the target number and frequency of rolls are variable)",
@@ -4073,6 +4224,7 @@ const wizenedContractsData = [
     {
         "Name": "Contracts of the Forge",
         "Rank": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Catch": "N/A",
@@ -4093,6 +4245,7 @@ const wizenedContractsData = [
     {
         "Name": "Rewriting the Image",
         "Rank": "•",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Expression + Wyrd",
         "Catch": "Replacing with your own likeness",
@@ -4126,6 +4279,7 @@ const wizenedContractsData = [
     {
         "Name": "Trivial Reworking",
         "Rank": "••",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Crafts + Wyrd",
         "Catch": "Turning a stolen item against its owner",
@@ -4155,6 +4309,7 @@ const wizenedContractsData = [
     {
         "Name": "Discreet Conjuration",
         "Rank": "•••",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Manipulation + Wyrd",
         "Catch": "As payment to an enemy",
@@ -4185,6 +4340,7 @@ const wizenedContractsData = [
     {
         "Name": "Hidden Reality",
         "Rank": "••••",
+        "FullCost": "3 Glamour +1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Wits + Wyrd",
         "Catch": "To escape confinement",
@@ -4213,6 +4369,7 @@ const wizenedContractsData = [
     {
         "Name": "Paths of Desire",
         "Rank": "•••••",
+        "FullCost": "3 Glamour + 2 Willpower",
         "Cost": "●●●○○",
         "Dice Pool": "Academics + Wyrd",
         "Catch": "Bury your blood in the destination's soil",
@@ -4257,6 +4414,7 @@ const springCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 151"
     },
@@ -4271,7 +4429,7 @@ const springCourtContractsData = [
             'The subject of the Contract has freely offered the changeling some form of sustenance since the last sunrise.'
         ],
         "Roll Results": [
-            '<b>Dramatic Failure:</b> The subject suffers starvation and fatigue as if he had been without food and sleep for a number of days equal to the changeling’s Wyrd, and without water for half that long. (See the World of Darkness Rulebook, pp. 175–176 and 179–180, for information on such things.) For things that can endure longer periods of deprivation without penalty, increase the base time until they are adversely affected (cacti, for example).',
+            '<b>Dramatic Failure:</b> The subject suffers starvation and fatigue as if he had been without food and sleep for a number of days equal to the changeling’s Wyrd, and without water for half that long. (See the World of Darkness Rulebook, pp. 175-176 and 179-180, for information on such things.) For things that can endure longer periods of deprivation without penalty, increase the base time until they are adversely affected (cacti, for example).',
             '<b>Failure:</b> The character does not aid the subject.',
             '<b>Success:</b> The Contract’s subject gains energy. He becomes as healthy and alert as though he has just risen from a full night’s rest and had a full breakfast. All fatigue penalties disappear, and any bashing damage or damage suffered from food or water deprivation is fully healed.',
             '<b>Exceptional Success:</b> The subject gains +1 Stamina for the duration of the scene.',
@@ -4285,6 +4443,7 @@ const springCourtContractsData = [
         "Description": "Rejuvenates a target, alleviating suffering from fatigue and deprivation, and healing bashing damage.",
         "Catch": "The subject of the clause has freely offered the changeling some form of sustenance since the last sunrise.",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Resolve + Survival"
     },
@@ -4313,6 +4472,7 @@ const springCourtContractsData = [
         "Description": "Conjure rain, no matter current cloud conditions, potentially up to even a deluge.",
         "Catch": "A mortal human has commented, within the character's hearing and within the past hour, that it looks like rain.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Intelligence + Survival"
     },
@@ -4335,6 +4495,7 @@ const springCourtContractsData = [
         "Description": "Downgrade a subject's lethal wounds to bashing, or heal bashing wounds entirely.",
         "Catch": "The target has honestly professed a heartfelt and deep love, romantic or familial, for the changeling.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "1 Glamour + 1 Willpower",
         "Cost": "●○",
         "Dice Pool": "Mantle + Wits + Medicine"
     },
@@ -4366,6 +4527,7 @@ const springCourtContractsData = [
         "Description": "Age a target by a full season, leaving it as if it were now the height of Spring; requires additional Glamour and a willpower dot to apply to humans.",
         "Catch": "The character spills two drops of blood on the target object and cups it in her hands.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "1 Glamour or 3 Glamour + 1 Willpower dot",
         "Cost": "●(●●○)",
         "Dice Pool": "Wyrd + Medicine"
     },
@@ -4382,7 +4544,7 @@ const springCourtContractsData = [
         "Roll Results": [
             '<b>Dramatic Failure:</b> The plants the changeling attempted to control turn on her. They make a single grappling attack on her each turn for the rest of the scene. See below for more details.',
             '<b>Failure:</b> Nearby plants gain a few years’ worth of new growth over the next few minutes, but most of it dries up within the next hour and the plants to not move abnormally.',
-            '<b>Success:</b> Plants around the changeling grow at an extraordinary rate, quickly enough for vines, roots and the like to grow around people and entangle them. Each turn, the character may designate one grapple attack on any creature or target within 10 feet of a plant in her sight in addition to her normal action. She may sacrifice her normal action to designate two grapple attacks, and if she does that she may also sacrifice her Defense for a third. Plant grapple attacks use a dice pool of the changeling’s Wyrd + 1–3 equipment bonus for the plant (vines are excellent, branches less so). This lasts a number of turns equal to the changeling’s Wyrd rating. Over the next hour, all but one  year’s worth of the new growth dies off.',
+            '<b>Success:</b> Plants around the changeling grow at an extraordinary rate, quickly enough for vines, roots and the like to grow around people and entangle them. Each turn, the character may designate one grapple attack on any creature or target within 10 feet of a plant in her sight in addition to her normal action. She may sacrifice her normal action to designate two grapple attacks, and if she does that she may also sacrifice her Defense for a third. Plant grapple attacks use a dice pool of the changeling’s Wyrd + 1-3 equipment bonus for the plant (vines are excellent, branches less so). This lasts a number of turns equal to the changeling’s Wyrd rating. Over the next hour, all but one  year’s worth of the new growth dies off.',
             '<b>Exceptional Success:</b> The plants fight for the character for the rest of the scene, and all new growth remains afterward.',
             {
                 'Suggested Modifiers': [
@@ -4397,6 +4559,7 @@ const springCourtContractsData = [
         "Description": "Animates the plant life in an area and have it fight on the changeling's behalf.",
         "Catch": "A man bled to death on this soil within the past year.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Mantle + Presence + Empathy"
     },
@@ -4405,8 +4568,7 @@ const springCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'The Contracts of Fleeting Spring allow changelings to manipulate and evoke feelings of desire within others.'
         ],
         "FullCatch": [
             ''
@@ -4417,106 +4579,173 @@ const springCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Spring)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 149"
     },
     {
         "Rank": "•",
         "Name": "Cupid’s Eye",
-        "Action": "",
+        "Action": "Contested",
         "FullDescription": [
-            '',
-            ''
+            'This clause takes the first step in fulfilling a person’s desires — or teasing him and stringing him along — by revealing what those desires are.'
         ],
         "FullCatch": [
-            ''
+            'The character has kissed the subject within the past 24 hours, or the subject’s object of desire is the character.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling receives false impressions, becoming absolutely sure that the subject’s desire is something it is not.',
+            'Failure: The character cannot discern the subject’s desires.',
+            'Success: The changeling learns one of the subject’s desires. See the suggested modifiers list that follows for specific depths to which this power can plumb.',
+            'Exceptional Success: Exceptional success at Cupid’s Eye provides the character with two desires of the targeted level, or the knowledge that there is only one desire at that level.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character has a pledge with the subject." },
+                    { Modifier: "—", Situation: "The character discerns a desire currently in the forefront of the subject’s mind." },
+                    { Modifier: "-1", Situation: "The character learns a desire not currently concerning the subject." },
+                    { Modifier: "-1", Situation: "The character learns a specific kind of desire (sexual, employment, etc.)." },
+                    { Modifier: "-2", Situation: "The character discovers a desire the subject recognizes but generally keeps hidden." },
+                    { Modifier: "-3", Situation: "The character finds a desire the subject hides even from himself." }
+                ]
+            }
         ],
         "Description": "Learn one of the subject's desires",
         "Catch": "Used on someone who has kissed the Changeling in the past 24 hours, or who desires the Changeling",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits vs Powerstat + Composure"
     },
     {
         "Rank": "••",
         "Name": "Growth of the Ivy",
-        "Action": "",
+        "Action": "Contested; resistance is reflexive.",
         "FullDescription": [
-            '',
-            ''
+            'Humans are fickle creatures, changing desires with the day or the season. This Contract allows the character to direct a subject’s desires somewhat.'
         ],
         "FullCatch": [
-            ''
+            'The character is acting to make the subject desire her or is doing so to resolve a pledge.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The target develops an active dislike for or aversion to the subject of the intended desire.',
+            'Failure: The subject’s desires do not change.',
+            'Success: The subject’s desires change in a manner of the character’s choosing. See the suggested modifiers list that follows for guidelines on how a character may affect the target. The change lasts for one day per success rolled, though natural interaction may be able to prolong the desire beyond the point where the supernatural effect ends.',
+            'Exceptional Success: The change is instead permanent. The inflicted desires remain until the character chooses to release them, and they may then become natural.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character changes a momentary desire." },
+                    { Modifier: "—", Situation: "The character changes a long-term desire." },
+                    { Modifier: "—", Situation: "The character changes a desire to something similar (e.g., lust for one man to lust for another)." },
+                    { Modifier: "-1", Situation: "The character changes a desire concealed from others." },
+                    { Modifier: "-1", Situation: "The character changes a desire moderately (e.g., from wanting a cat to wanting a Nintendo)." },
+                    { Modifier: "-2", Situation: "The character changes a desire the subject conceals from himself." },
+                    { Modifier: "-2", Situation: "The character changes a desire significantly (e.g., a desire for the Nobel Prize becomes the desire for a family)." },
+                    { Modifier: "-5", Situation: "The character eliminates a desire or creates one from scratch." },
+                ]
+            }
         ],
         "Description": "Change one of the subject's desires",
         "Catch": "Using the contract to resolve a Pledge. Must spend a Willpower point when using on a Supernatural",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "2 Glamour; add 1 Willpower for a supernatural subject",
         "Cost": "●●(○)",
         "Dice Pool": "Mantle + Manipulation + Persuasion - Subject's Resolve"
     },
     {
         "Rank": "•••",
         "Name": "Wyrd-Faced Stranger",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling appears as whomever the subject most desires to see at that moment.'
         ],
         "FullCatch": [
-            ''
+            'The character has recently offered food to the target and the target has accepted, or vice versa.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The subject instead sees the character as the person he would least like to see right now. The character is not aware of the failure.',
+            'Failure: The character appears as herself, and she is aware of the failed attempt.',
+            'Success: The subject recognizes the character as the person he would most like to see at the moment. The character has no say over who she becomes, she just knows that she is recognized as the desired individual. This lasts for one scene.',
+            'When using this power on a group of observers, the changeling chooses one as the subject but subtracts the highest Composure in the group from her roll. Success indicates that all observers see her as the same person.',
+            'Acting in ways foreign to the visage donned allows reflexive Wits + Composure rolls from people who know whomever the character is pretending to be. These rolls suffer a dice penalty equal to the successes on the character’s activation roll but gain a +1 or +2 dice bonus for actions flagrantly out of character.',
+            'Note that the changeling does not always appear as someone the subject knows. The character may appear to be the dark, handsome stranger the target was secretly wishing would appear and whisk her away or the “federal agent” that the beat cop wants to take a murder off his hands. In such cases, the changeling’s actual appearance becomes whatever the subject assumes the desired person would look like.',
+            'Exceptional Success: The deception lasts as long as the changeling would like to maintain it.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character knows the subject’s current desire(s)." },
+                    { Modifier: "—", Situation: "The character approaches the subject “blind.”" }
+                ]
+            }
         ],
         "Description": "Become someone who the target desire/expect to see",
         "Catch": "The changeling has offered food to the target and it was accepted, or the other way around.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Presence + Subterfuge vs Powerstat + Composure"
     },
     {
         "Rank": "••••",
         "Name": "Pandora’s Gift",
-        "Action": "",
+        "Action": "Extended (2+ successes, based on the complexity and size of the object; each roll represents 10 minutes of effort)",
         "FullDescription": [
-            '',
-            ''
+            'The changeling creates an object that another person truly desires out of nothing but emotion, dreamstuff and random materials.'
         ],
         "FullCatch": [
-            ''
+            'The subject has recently (within one week) given the character a gift. This gift comes with no strings attached, including any expectation of this gift.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character creates the desired object, but it is destined to fail its wielder at an appropriately dramatic moment — the gun jams at the last minute, the masterpiece painting discolors in the sun or the key breaks off in the lock.',
+            'Failure: The character makes no progress.',
+            'Success: The character makes progress toward creating the desired object. The number of required successes is equal to the object’s Size + rough complexity, 1 being no moving parts and 10 being a high-precision pocket watch. Things created through this Contract last for the rest of the scene (or longer, based on modifiers) before returning to their original states. Until that time, they function perfectly as normal.',
+            'Exceptional Success: The character makes significant progress toward creating the object.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Exceptionally appropriate materials" },
+                    { Modifier: "-1", Situation: "Exceptionally inappropriate materials" },
+                    { Modifier: "-1", Situation: "Object is exceptional (per point of equipment bonus above normal)" },
+                    { Modifier: "-1", Situation: "One-hour duration" },
+                    { Modifier: "-2", Situation: "One-day duration" },
+                    { Modifier: "-3", Situation: "Two-day duration" },
+                ]
+            }
         ],
         "Description": "Temporarily produce an object the subject desires",
         "Catch": "Used on someone who gave the Changeling a no strings attached gift in the past week",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Wits + Craft"
     },
     {
         "Rank": "•••••",
         "Name": "Waking the Inner Faerie",
-        "Action": "",
+        "Action": "Contested and Extended (subject’s Willpower in successes, one roll is made each turn); resistance is reflexive.",
         "FullDescription": [
-            '',
-            ''
+            'The changeling makes a target pursue his greatest de- sires, regardless of other considerations.'
         ],
         "FullCatch": [
-            ''
+            'The subject of the Contract has voluntarily and without coercion confided his desire(s) to the character.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The Contract backfires, affecting the character for one scene instead of the subject.',
+            'Failure: The character rolls fewer or equal successes than the subject. The character makes no headway.',
+            'Success: The character rolls more successes than the subject and makes headway. If the character reaches the required number of successes, the target feels the immediate impulse to try to achieve one of his greatest desires. He abandons other responsibilities and rational thinking to obey that urge. See the list of suggested modifiers below for guidelines on the effect’s duration.',
+            'Exceptional Success: The character rolls many more successes than the subject and makes great headway.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character knows what the target’s greatest desires are." },
+                    { Modifier: "+1", Situation: "Five-minute duration" },
+                    { Modifier: "—", Situation: "One scene’s duration" },
+                    { Modifier: "-1", Situation: "One-hour duration" },
+                    { Modifier: "-2", Situation: "One-day duration" },
+                    { Modifier: "-3", Situation: "Two-day duration" },
+                ]
+            }
         ],
         "Description": "Alter a subject's desire and force them to pursue it above all else.",
         "Catch": "The subject freely told the Changeling his desires.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Mantle + Intelligence + Expression vs Powerstat + Composure"
     },
@@ -4525,8 +4754,10 @@ const springCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'Passion is a keen-edged weapon: it is capable of spurring a changeling to unimaginable heights but, like dancing along a cliff edge, the exhilaration is equal to the potential risk. While the Fleeting Spring Contract allows those of the Emerald Court to sense, manipulate and fulfill desire, the Verdant Court Contract allows them to channel their passion to accomplish a variety of goals.',
+            'Within the Spring Court, the Verdant Spring is a popular Contract among those who would ride their passionate desire to something greater than a cold beer or a hot lay. The clauses of the Verdant Spring offer the Spring Court the possibility of spurring themselves and others to great heights, but like passion itself, they are neither safe nor sure. Each carries with it a higher than normal penalty for failure (akin to those normally associated with dramatic failures). Among the Emerald Court, great risk always exists when striving for great accomplishment.',
+            'Unlike the Fleeting and Enduring Spring Contracts, Verdant Spring Contracts are, in many ways, fickle. Their catches are often more generous than is usual for a Contract. On the other hand, some of the Verdant Spring clauses contain a drawback that comes into play only during certain circumstances, even when the clause is used successfully. Thus are the whims of Spring, which gives (and takes away) according to its own whims.',
+            'While some clauses of the Verdant Spring contract are taught to those who are not of the Court but held in their Goodwill, the Contract works best for those who have the inner drive and passion of the Spring Court. Many of the clauses take into consideration the Spring Mantle level of the changeling who is activating it when figuring its effectiveness or potency. As usual, Court Goodwill (Spring) cannot be used in place of Spring Mantle; Court Goodwill represents enough social standing to be taught a basic clause, but does not have the mystical power of the season strengthening it.'
         ],
         "FullCatch": [
             ''
@@ -4537,106 +4768,133 @@ const springCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Spring)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lords of Summer 39"
     },
     {
         "Rank": "•",
         "Name": "Font of Inspiration",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'There is more to a successful creation than the creating itself. In order to craft an effective speech, you have to not only have a way with words, but an knack for reading your audience and what they want (or are willing) to hear. Creating the perfect toy requires more than the ability to build, paint or design mechanics. You have to have a sense of what will be fun for the toy’s intended owner. By accessing their own inherent knack for sensing others’ desires, Lost with this clause are able to create more successfully. The enhanced results are not a result of the clause increasing their workmanship, but because it allows them to better interpret and anticipate the needs and desires of their target demographic. Thus, the ability can be applied to other’s creations as well, allowing a changeling with this clause to inspire, advise and consult with other people and enhance their ability to create as well.',
+            'Unfortunately, the line between incredible success and dismal failure is sometimes a very thin one, and the fires of creativity can burn unwary fingers. For those who set their sights on amazing creations, one misstep may mean disaster. Success or failure, only one attempt to use this Clause may be made on any given creative endeavor.'
         ],
         "FullCatch": [
-            ''
+            'The changeling invests his own (literal) blood, sweat or tears into the creation of the object or plans for the project.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The endeavor fails horribly. The creator (and inspiration, should the changeling be exerting influence on another individual) is under a -4 penalty for all creative works (Crafts or Expression challenges) for the next month as the weight of his disastrous efforts hinder future creations. As well, even if the failure happens in secret, the creator (and inspiration, if applicable) is set at -2 for all social challenges against members of the Spring Court for one month, as those of the Antler Crown will inherently sense the failure.',
+            'Failure: The creator (and inspiration, should the changeling be exerting influence on another individual) is under a -4 penalty for all creative works (Crafts or Expression challenges) for the next month as the weight of his disastrous efforts hinder future creations.',
+            'Success: For each success, the changeling (or person he is inspiring) receives a +1 bonus to his next Crafts or Expression challenge. These bonuses stack with any other supernatural or equipment bonuses applicable to the challenge.',
+            'Exceptional Success: Not only does the bonus above apply to the character’s next creative challenge, but to all social challenges made against members of the Spring Court (minimum 1 point of Spring Mantle) for the next week. Only one such bonus can be active at any given time. For better or worse, if another exceptional success using this clause is made before the previous one wears off, its bonuses apply rather than the earlier ones.'
         ],
         "Description": "Each success is a +1 to Crafts or Expression rolls",
         "Catch": "Invests his own literal blood sweat or tears into the creation",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Wits + Empathy - Subject's Resolve (If subject is opposed)"
     },
     {
         "Rank": "••",
         "Name": "The Ineffable Gift",
-        "Action": "",
+        "Action": "Contested; resistance is reflexive.",
         "FullDescription": [
-            '',
-            ''
+            'Some people have a certain aura of confidence and focus about them that comes from being dedicated to following their own dreams, goals and desires - regardless of what the rest of the world thinks. This can come across to others as intensely annoying and self-centered, or strangely attractive and intriguing. Changelings with this clause of Verdant Spring can use their own inner passions to appear more appealing to others. Unfortunately, if used too often, the clause backfires, driving others away.'
         ],
         "FullCatch": [
-            ''
+            'The character speaks out loud about something she is passionate about.'
         ],
         "Roll Results": [
-            ''
+            '<b>Drawback:</b> Every time after the first that this Clause is attempted on the same target gives a -1 cumulative penalty to the roll. Thus the second time the Clause is attempted on any given target (whether the first attempt was successful or not) the roll is made at a -1 penalty; the third attempt is -2, and so on. Attempts on other targets do not affect each other. These penalties do not decrease over time.',
+            'Dramatic Failure: The character’s passion comes across as self-centered narcissism. Any attempts at Social challenges (those using Presence, Manipulation, Composure as a stat) towards the target fail for a number of weeks equal to the changeling’s Mantle (Spring) plus the target’s Mantle (Spring) or Court Goodwill (Spring) if they have any. As well, all Social challenges made by the changeling against any target are at -4 for the next 24 hours as his self-centered nature taints interactions with others.',
+            'Failure: The clause doesn’t take hold. This still counts as an attempt for purposes of the cumulative penalties applied against a single target.',
+            'Success: The changeling’s passions come across as somehow appealing or persuasive to the target. For the next 24-hour period, all Social challenges towards the target by the changeling gain a +3 bonus, which is stackable with any other supernatural or natural bonuses the changeling may possess, but not stackable with itself (i.e.: only one use of this clause by any changeling can be actively affecting a target at any given time.',
+            'Exceptional Success: The target cannot help but be struck by the changeling’s passionate nature. The changeling is at a +4 bonus for any Social challenges made against the target for a number of days equal to the changeling’s Mantle (Spring) plus the target’s Mantle (Spring) or Court Goodwill (Spring).'
         ],
         "Description": "Gains a +3 bonus in social challenges. Drawback of being less effective with multiple uses.",
         "Catch": "Speaks out loud about something she is passionate about",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Presence + Manipulation vs Resolve + Composure"
     },
     {
         "Rank": "•••",
         "Name": "Impassioned Blow",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Some combats are calm, cool and calculated. Then there are those that involve the Spring Court. A courtier driven to combat by her passions may well find that they allow her to strike a devastating blow. Unfortunately, this same drive can leave her vulnerable to less hot-headed opponents.'
         ],
         "FullCatch": [
-            ''
+            'The target has insulted or assaulted (by word or deed) the changeling in the last hour.'
         ],
         "Roll Results": [
-            ''
+            '<b>Drawback:</b> Intended target gets +2 to next physical attack of any sort against the changeling. This penalty is in effect whether the Clause is successful or has failed. It is not, however, stackable. If the changeling’s target does not attack her between multiple uses of Impassioned Blow, the target only gains a single +2 bonus against the changeling.',
+            'Dramatic Failure: The changeling’s emotions get the best of her, effectively leaving her vulnerable for the rest of the turn. This may manifest as a misstep that throws her to the ground, a jammed firearm or a dropped weapon. She loses all Defense (not including Armor) for the remainder of the scene, and can take no further actions (including reflexive ones) for the remainder of the turn. If she wishes to continue combat, she must spend the next turn preparing again (picking herself up, recovering her weapon, clearing her firearm’s chamber, etc.) and can make no attack until the following turn.',
+            'Failure: The clause fails; the attack is resolved as normal.',
+            'Success: Passion steers the changeling’s attack, compounding its effectiveness. She receives +4 to her attack pool against the chosen target.',
+            'Exceptional Success: In addition to the + 4 dice bonus offered by the success, the changeling receives an additional dice bonus equal to her level of Mantle (Spring).'
         ],
         "Description": "+4 Bonus to attack pool, but the opponent gets a +2 bonus as well.",
         "Catch": "Target has insulted or assaulted by word or deed the changeling in the last hour",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Resolve + Brawl / Firearms / Weaponry"
     },
     {
         "Rank": "••••",
         "Name": "Spur the Crowd",
-        "Action": "",
+        "Action": "Extended and Contested (five successes; each roll represents five minutes). One contested roll may be made reflexively for a crowd based on the highest Composure present. Supernatural targets make their own resistance rolls.",
         "FullDescription": [
-            '',
-            ''
+            'Sometimes a changeling’s goal is not to exert his influence on a single person, but to sway an entire crowd. Whether it’s rallying folks at a political protest march from passive resistance to aggressive action, or turning a cocktail party against a newcomer’s cutting edge fashion statement, a mob can be a potent tool for the Emerald Court.',
+            'Unlike the Vainglory Contract “Words of Memories Never Lived”, this clause does not rely upon the changeling’s own inherent impressiveness, but rather his ability to trigger the (sometimes hidden) desires of certain members of the crowd, bringing them to the surface where they can spark similar passions in others. Because of this, the changeling does not need to be actively speaking or performing in front of the crowd, or even be visible to them. His kenning of their desires (and ability to shift them to suit his needs) is enough.'
         ],
         "FullCatch": [
-            ''
+            'No one in the target crowd knows that the individual using the clause is a changeling.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The crowd is not only not swayed, but turns on the changeling. The effects of this may vary: in a public political gathering, the changeling may become the target of the police’s attention, leading to arrest or physical assault even if he’s done nothing to deserve it. In a social setting, the changeling becomes the brunt of the crowd’s derision, even if they do not realize he was attempting to sway them. Any Social challenge the character makes automatically fails for the rest of the scene. As well, any Social challenge the changeling makes against any member of the targeted group is at a -4 penalty for a full lunar month.',
+            'Failure: The crowd is not swayed.',
+            'Success: The crowd begins to sway in the direction that the changeling desires. A complacent and peaceful group may be made anxious and irritated. A burgeoning mob might be soothed and calmed. The changeling can encourage a group to disperse by increasing their paranoia, incite an already-irritated group to violent action, or lull a relaxed and comfortable one into a near-sleep. At the Storyteller’s discretion, changing a crowd’s attitude and energy level more than one “degree” (i.e. from calm to agitated and then from agitated to violent) may require exceptional success or continued effort on the part of the changeling.',
+            'Exceptional Success: The crowd is so completely affected that their attitude and demeanor as a group is moved entirely in the direction that the changeling desired.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character has successfully performed Cupid’s Eye (Fleeting Spring •) upon a  member of the crowd and uncovered desires of the kind that he is attempting to spark. (Cumulative bonus)" },
+                    { Modifier: "-3", Situation: "The crowd is actively gathered for a reason which directly opposes the desired reaction (i.e. inspiring violence in a peace rally, or turning a loyal gathering of changelings against the leader they have gathered to protect)." }
+                ]
+            }
         ],
         "Description": "Sway a crowd in a certain emotional direction",
         "Catch": "No one in the crowd knows the user is a changeling",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Wyrd + Presence (Extended and Contested)"
     },
     {
         "Rank": "•••••",
         "Name": "Verdant, Roiling Heart",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Virtues and Vices represent, on a fundamental level, the things a character is passionate about and how those passions manifest. In using Verdant, Roiling Heart, the changeling taps into her inherent passions (as represented by her Virtue or Vice) and uses her core sense of self to renew her internal fortitude. This clause may only be attempted one time per week, whether it is successful or not. Additional attempts automatically fail, but may incur the Glamour cost and drawback, regardless.'
         ],
         "FullCatch": [
-            ''
+            'The character takes an action that is di- rectly related to his Virtue or Vice.'
         ],
         "Roll Results": [
-            ''
+            '<b>Drawback:</b> For the rest of the scene, all social interactions the changeling undertakes are tainted by his Virtue or Vice. Social interactions are strained for the remainder of the scene and all Social challenges the character initiates are subject to a -2 penalty for the scene.',
+            'Dramatic Failure: Unable to tap into his inner strength, the character loses a Willpower point and is unable to regain Willpower through any means until he has slept for at least 8 hours.',
+            'Failure: The clause fails to activate.',
+            'Success: Bolstered by his passions, the changeling’s Willpower pool is entirely refreshed. All previously spent Willpower is renewed and the changeling’s inner strength is bolstered by tapping into his sense of self.',
+            'Exceptional Success: The character’s Willpower pool is entirely refreshed at the end of the turn. As well, he receives a +2 bonus to any challenges involving his Resolve or Composure for the duration of the scene.'
         ],
         "Description": "Renew Willpower pool as if fulfilling Virtue, drawback of all social actions being tainted by her virtue or vice and a -2 to all social rolls",
         "Catch": "Takes an action directly related to virtue or vice",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Mantle + Composure + Empathy"
     },
@@ -4648,8 +4906,7 @@ const summerCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'These Contracts provide changelings with physical manifestations of Summer, including great heat and bright sun.'
         ],
         "FullCatch": [
             ''
@@ -4660,106 +4917,135 @@ const summerCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Summer)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 155"
     },
     {
         "Rank": "•",
         "Name": "Son of the Hearth",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character is comfortable in all temperatures, and may even heat a chamber with his power.'
         ],
         "FullCatch": [
-            ''
+            'The character spits on a fading ember or spark.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: Rather than remaining comfortably warm, the character treats his surroundings as very hot or very cold (whichever is more appropriate) and may not activate this Contract again. See the World of Darkness Rulebook, p. 181, for rules on temperature extremes.',
+            'Failure: The character fails to keep out the cold or conquer the heat.',
+            'Success: The character heats himself or expels excess heat to avoid growing too hot. He remains at a personally comfortable temperature. If he spends a point of Willpower, he can keep an entire room at the same temperature (and thus avail his companions of the same warmth). The effects last for one hour.',
+            'Exceptional Success: The effects last for a full day. With the point of Willpower, the area around the character remains comfortably warm no matter what (i.e., heated air will not be lost when doors are opened).',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "-1", Situation: "Every 20 degrees below zero or above 120 degrees Fahrenheit." },
+                    { Modifier: "-1", Situation: "The space to be heated is Size 10." },
+                    { Modifier: "-2", Situation: "The space to be heated is Size 20." }
+                ]
+            }
         ],
         "Description": "Remain at a comfortable temperature, no matter what the outside circumstances are.",
         "Catch": "Spit on a fading ember or spark",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": " Glamour, or 1 Glamour + 1 Willpower",
         "Cost": "●(○)",
         "Dice Pool": "Wyrd + Survival"
     },
     {
         "Rank": "••",
         "Name": "Ulf’s Heart",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character shines the light of high Summer on his surroundings.'
         ],
         "FullCatch": [
-            ''
+            'It is within five minutes of midnight.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character becomes unable to see for five minutes.',
+            'Failure: No light appears.',
+            'Success: The character shines with a light as bright as the Summer noonday sun. The light illuminates an area 200 yards around the character and does not hinder his vi- sion. It does significantly hinder any attempts at stealth the character may make. This is not true sunlight and cannot harm creatures susceptible to light (such as vampires), but it might frighten them. The light remains for the rest of the scene, but the character may spend two points of Glamour at activation to instead summon the light for a full hour.',
+            'Exceptional Success: The character may also dim the light at will for the Contract’s duration, allowing at least the possibility of stealth.'
         ],
         "Description": "Produce light in radius pf 200 yards for one scene; extend its presence to one hour by spending 1 more Glamour.",
         "Catch": "Within 5 minutes of midnight",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 or 2 Glamour",
         "Cost": "●(●)",
         "Dice Pool": "Mantle + Strength + Occult"
     },
     {
         "Rank": "•••",
         "Name": "Noonday Grasp",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character borrows some of Summer’s immense strength to increase his own.'
         ],
         "FullCatch": [
-            ''
+            'The character eats a chunk of naturally formed ice.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character loses a dot of Strength for the rest of the scene.',
+            'Failure: The character fails to bolster his Strength.',
+            'Success: The character successfully increases his Strength by one point, plus one point for every three successes after the first (to a maximum of three points). Note that increased Strength may change other values, such as Speed. The increase lasts for the rest of the scene.',
+            'Exceptional Success: The character also increases his Stamina by one for the rest of the scene.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The sun is in the sky and clearly visible." },
+                    { Modifier: "-1", Situation: "It is after dark." }
+                ]
+            }
         ],
         "Description": "Gain +1 Strength with one success, and another +1 with every three successes after that.",
         "Catch": "Eats a chunk of naturally formed ice",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Stamina + Brawl"
     },
     {
         "Rank": "••••",
         "Name": "Solstice Revelation",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Channeling the light of the sun at its most intense, the changeling reveals all that is hidden around him. Darkness and illusion can hide nothing from his gaze.'
         ],
         "FullCatch": [
-            ''
+            'The changeling is using the power within five minutes of noon.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The improperly channeled energy of Summer sears the changeling rather than revealing what’s hidden. The changeling takes one point of bashing damage, and receives a -2 dice penalty to any rolls involving vision for the remainder of the scene.',
+            'Failure: The power of the sun eludes the changeling.',
+            'Success: The character floods the area with light, up to a radius of 100 feet. Anywhere the light shines, the ability to hide or disguise oneself is reduced to a chance roll, and previously hidden or disguised characters must make a chance roll or lose their obfuscations. Those attempting to hide or disguise themselves with supernatural powers must make a Stealth + Wyrd roll (substituting Blood Potency, Primal Urge or similar Traits, if possessed) at -5 or lose the protection of those powers as well. Even the Mask flickers and weakens; anyone who could not normally see through the Mask may make a standard perception test to see the fae miens of any fae or tokens they look at. The light lasts for one turn per success, after which any characters may attempt to conceal themselves once more.',
+            'Exceptional Success: The revelatory light lasts for two turns per success, and the changeling may choose to dismiss it at will.'
         ],
         "Description": "Let loose a bright light that reveals all hidden individuals and challenges supernatural cloaking.",
         "Catch": "Within five minuets of noon",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Mantle + Presence + Occult"
     },
     {
         "Rank": "•••••",
         "Name": "The Lord’s Dread Gaze",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Channeling the destructive power of the relentless Sum- mer sun, the changeling sears his enemies with sunlight.'
         ],
         "FullCatch": [
-            ''
+            'The character’s target is wearing or touching elemental gold.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s blazing strike misses his target, and the character’s lack of control causes him to strike something he had hoped not to harm.',
+            'Failure: The beam of sunlight misses its target but fades to harmlessness without doing other damage.',
+            'Success: A sunbeam heavy with potent Glamour lashes out from the changeling to strike his foe. It inflicts lethal points of damage equal to successes on the activation roll. If the changeling spends one point of Willpower, the damage is aggravated. Against creatures susceptible to sunlight, this attack may have additional affects (inflicting aggravated or additional damage, for example). The Ranges for this attack are 10/30/50 and inflict penalties as normal.',
+            'Exceptional Success: No special benefits other than a great deal of damage.'
         ],
         "Description": "Unleashing a beam of focused sunlight that does Lethal (Aggravated with Willpower)",
         "Catch": "The target is wearing or touching gold",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour (+ 1 Willpower, optional)",
         "Cost": "●●●(○)",
         "Dice Pool": "Mantle + Dexterity + Athletics - Subject's Defense"
     },
@@ -4768,8 +5054,7 @@ const summerCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'The Contracts of Fleeting Summer give a changeling the ability to influence the wrath of those around him.'
         ],
         "FullCatch": [
             ''
@@ -4780,106 +5065,154 @@ const summerCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Summer)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 153"
     },
     {
         "Rank": "•",
         "Name": "Baleful Sense",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character senses the greatest source of wrath nearby.'
         ],
         "FullCatch": [
-            ''
+            'The character is angry when he -invokes this clause.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character becomes enraged, and the clause pinpoints only him.',
+            'Failure: The character cannot locate wrath in his vicinity.',
+            'Success: The character becomes aware of the greatest concentration of wrath (in any form) within a mile radius. He knows the direction and approximate distance, and approximately how many people are involved.',
+            'Exceptional Success: The character also learns the cause of the anger and approximately how many people are intimately involved.'
         ],
         "Description": "Sense the greatest nearby source of wrath.",
         "Catch": "Character is angry when he invokes this clause.",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits"
     },
     {
         "Rank": "••",
         "Name": "Goblin’s Malignance",
-        "Action": "",
+        "Action": "Contested",
         "FullDescription": [
-            '',
-            ''
+            'The character redirects the subject’s wrath onto a new target, most likely himself.'
         ],
         "FullCatch": [
-            ''
+            'The current victim of the subject’s wrath owes the character a favor, or the subject has red hair.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The subject’s anger redoubles, ensuring that she will focus on her victim for the rest of the scene. No attempt to change her focus works for that length of time.',
+            'Failure: The character fails to redirect the subject’s wrath.',
+            'Success: The character redirects the subject’s wrath onto a target of the character’s choice. The target must be present, and the subject must be aware of the target. As an exception, the character may always make himself the target of the subject’s wrath, which explicitly makes the subject aware of the character.',
+            'Exceptional Success: Subjects of this clause rationalize the change of focus and anger to themselves after the fact. (“He was on her side,” “I knew he was talking trash about me,” etc.)',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+3", Situation: "The subject redirects anger onto the character." },
+                    { Modifier: "-1", Situation: "The subject has no reason to be angry at new target." },
+                    { Modifier: "-2", Situation: "The subject likes or is loyal to new target." },
+                    { Modifier: "-3", Situation: "The subject redirects anger off the character." }
+                ]
+            }
         ],
         "Description": "Redirect the focus of a subject's wrath.",
         "Catch": "The current victim of the subject's wrath owes the character a favor, or the subject has red hair.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Manipulation + Persuasion vs Powerstat + Composure"
     },
     {
         "Rank": "•••",
         "Name": "Friendless Tongue",
-        "Action": "",
+        "Action": "Extended (successes required equal to the subject’s Willpower; each roll represents one minute of conversation with the subject); resistance is reflexive.",
         "FullDescription": [
-            '',
-            ''
+            'The character incites a person to uncontrollable wrath through innocent-seeming conversation.'
         ],
         "FullCatch": [
-            ''
+            'The clause’s subject wears a ring on the left hand.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt fails. The subject realizes what the changeling is trying to do and reacts naturally.',
+            'Failure: The character garners no successes.',
+            'Success: The character gains successes. If his total number of successes equals or exceeds the subject’s Willpower, the subject becomes intensely incensed at whomever is the focus of his attention. This will often be the changeling, but in a group, the character’s comments may rouse anger at someone else principal in the discussion, or the subject’s attention could be on an old flame at the bar even while she listens to the character talk.',
+            'Exceptional Success: The character is at +2 dice bonus when using other Fleeting Summer clauses on the subject for the rest of the scene, and +1 die bonus when using Friendless Tongue on the subject for the rest of the month.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The subject is easily roused to anger." },
+                    { Modifier: "+1", Situation: "The subject has “issues” with her current focus." },
+                    { Modifier: "-1", Situation: "The subject is extremely unlikely to become angry at her current focus under normal circumstances." }
+                ]
+            }
         ],
         "Description": "Stir a person to fury with harmless words.",
         "Catch": "The clause's target wears a ring on the left hand.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Manipulation + Subterfuge vs Powerstat + Composure"
     },
     {
         "Rank": "••••",
         "Name": "Sundown Eyes",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character drains wrath from those near him, calm- ing even the most furious combatants.'
         ],
         "FullCatch": [
-            ''
+            'The character is suffering wound penalties and has taken at least two points of lethal damage.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt to calm the situation backfires. Each of the character’s opponents gain a +1 die bonus to attack the character on their next actions.',
+            'Failure: The attempt fails.',
+            'Success: The character drains the wrath from the people nearby. Combat ceases and does not begin again for at least a number of turns equal to the character’s Wyrd. Add one die to attempts to make peace (or prevent a return to open combat) per success on the roll. The character may not use this Contract again for the rest of the scene.',
+            'Exceptional Success: Combat ends. Even if the people involved cannot resolve their differences, they refuse to use violent means of interacting with one another for the rest of the scene. The character may not use this Contract again for the rest of the scene.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "A significant fraction of combatants fight reluctantly." },
+                    { Modifier: "-", Situation: "Two people are targeted." },
+                    { Modifier: "-1", Situation: "Four people are targeted." },
+                    { Modifier: "-2", Situation: "Eight people are targeted." },
+                    { Modifier: "-3", Situation: "Twelve people are targeted." },
+                    { Modifier: "-4", Situation: "Twenty people are targeted." }
+                ]
+            }
         ],
         "Description": "Quell all conflict in an area temporarily.",
         "Catch": "The character is suffering wound penalties and has taken at least two points of lethal damage.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Mantle + Presence + Socialize - Subject's Composure"
     },
     {
         "Rank": "•••••",
         "Name": "The Flames of Summer",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character drives his anger into the realm of rage, making it impossible to disturb and lending extra strength to his wrath.'
         ],
         "FullCatch": [
-            ''
+            'The sun is within five minutes of its zenith, and the character has called out a formal challenge to an opponent.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt to inflame the character’s anger fails, and the character may not try again for a full week.',
+            'Failure: The attempt fails.',
+            'Success: The attempt succeeds. The character becomes implacable in his anger, incapable of being swayed by reason or calmed down for the rest of the scene. He attacks the targets of his wrath without hesitation or mercy and may not take rational or thoughtful actions. He adds a +2 dice bonus to all Physical rolls for the duration. The character also ignores all wound penalties for the duration and need not roll Stamina to remain conscious when his last wound box is marked with bashing damage.',
+            'Exceptional Success: The bonus to Physical rolls rises to +4.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character is expected to fight." },
+                    { Modifier: "+1", Situation: "The character is up against losing odds." },
+                    { Modifier: "-1", Situation: "The character’s opponent is (perceived as) inferior." }
+                ]
+            }
         ],
         "Description": "Enter an unstoppable fury; gain +2 to Physical rolls and ignore all wound penalties.",
         "Catch": "The sun is within five minutes of its zenith, and the character has called out a formal challenge to an opponent.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Mantle + Stamina + Animal Ken"
     },
@@ -4888,8 +5221,17 @@ const summerCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'Long ago, the earliest rulers of the Court of Wrath forged contracts with the blistering heat of the hottest summers. Many of the clauses to these pacts are lost to the weave and weft of history, but some still remain. Those of the Summer Court use these searing clauses to punish their enemies for their transgressions, whether on the sunlit battlefield or in a dark subbasement. These are the tools of war. These are the instruments of Wrath.',
+            'Any of the clauses within this contract are subject to the same set of potential modifiers.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+2", Situation: "Performed during summer" },
+                    { Modifier: "+1", Situation: "Sun is at its apex in the sky (between 11AM — 1PM)" },
+                    { Modifier: "-1", Situation: "Performed at night" },
+                    { Modifier: "-2", Situation: "Performed during winter" }
+                ]
+            },
+            '<b>Vampires Don’t Like Sunlight:</b> All of these clauses evoke sunlight (the hot, summer sun to be specific), but what does that mean for vampires? None of these abilities conjure real sunlight, and as such it doesn’t do additional damage to the Kindred. That said, it’s similar enough to sunlight where it likely triggers a vampire’s panicked aversion to it. Sometimes called the “Red Fear,” a vampire who witnesses a clause like Battle Bright in action must make an extended Resolve + Composure roll and achieve five total successes (with each roll equivalent to one turn). If at any point one of those rolls fails, the vampire automatically flees — and, frankly, even if the rolls don’t fail, some vampires are going to get the hell out of Dodge anyway, having little interest in suffering aggravated burns.'
         ],
         "FullCatch": [
             ''
@@ -4900,106 +5242,140 @@ const summerCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Summer)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lords of Summer 59"
     },
     {
         "Rank": "•",
         "Name": "Smoldergrip",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Items left long in the sun collect deep and terrible heat: a steering wheel in a hot car, a plastic toy left on a desiccated lawn, the rubber grips to sun-scorched pruning shears. With this clause, the Summer courtier may force any object of Size 3 or smaller to burn turn after turn, as if left in the hottest noon-time sun. The object must be in sight for this clause to be successful.',
+            'A courtier might use this on a foe in battle, hoping to force the adversary to drop that deadly revolver, or might instead use it to help stall pursuers reaching for that now-scorching doorknob.'
         ],
         "FullCatch": [
-            ''
+            'The character sports a real sunburn (not artificial).'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s own hand suddenly suffers a terrible sunburn; the skin grows blistery red. She takes one point of bashing damage.',
+            'Failure: The changeling fails to manifest the heat needed, and the object remains at its extant temperature.',
+            'Success: The object gains the heat of an object lying in direct summer sun. Any attempts to touch the object fail unless the target succeeds on a Resolve + Stamina roll. This roll is penalized by a number of dice equal to the Mantle (Summer) score of the changeling who invoked Smoldergrip. If the target is able to touch or use it, prolonged use is still difficult: he must succeed on that same roll every turn he touches the item. The terrible heat lasts for a number of turns equal to the changeling’s Wyrd score.',
+            'Exceptional Success: As with success, except any time someone touches the object while it’s hot, he suffers one point of bashing damage.'
         ],
         "Description": "Makes an object unbearably hot to the touch.",
         "Catch": "The Changeling sports a real sunburn",
         "Court Goodwill Requirement if not a member": "None",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Strength + Wits - Objects Size"
     },
     {
         "Rank": "••",
         "Name": "Battle Bright",
-        "Action": "",
+        "Action": "Instant and contested",
         "FullDescription": [
-            '',
-            ''
+            'Fighting with the sun in one’s eyes is no easy task. Depth perception is weakened as a fighter squints to see his foe. Is that his target or his target’s shadow? The bright light blinds. While using this ability, a changeling makes himself radiate with the white, searing light of the summer sun, a hot bright mote that burns in the eyes of all who see it. The exception to this is those who possess any dots in Mantle (Summer). Summer courtiers who wear the Mantle of the Court remain unaffected by the bright light since the fierce light is their ally, not their enemy. This ability can only be used once per day.'
         ],
         "FullCatch": [
-            ''
+            'The changeling holds a real, burning torch aloft.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling must’ve missed a detail in fulfilling this clause of the contract, and the summer sun rebukes him for it: his vision becomes filled with bright “floaters,” causing him a -3 to all sight-based Perception rolls for the rest of the day.',
+            'Failure: The character fails to draw on the summer sun’s intensity.',
+            'Success: The changeling becomes a supernatural beacon of intense light. Any who can see the changeling suffer the following: Defense halved (round down), any rolls to attack are made at -2 dice, and all sight-based Perception rolls are complicated by a -3 penalty. This ability lasts for up to one scene, with one exception. Use of this clause necessitates that the changeling remain still. If the changeling moves more than one inch, the clause ends prematurely. Note that any characters who possess one or more dots in the Mantle (Summer) Merit are unaffected by this power.',
+            'Exceptional Success: Targets affected by this clause continue to suffer from the Perception penalty (-3) even after the clause ends. The penalty remains for one hour after completion of the clause.'
         ],
         "Description": "Creates a blinding beacon that distracts all attackers.",
         "Catch": "The Changeling is holding a real, burning torch.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Presence vs Highest Wits + Composure within sight."
     },
     {
         "Rank": "•••",
         "Name": "Crown of Clashing Fire",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Woe to those chosen to do battle with a courtier of Summer in the Crown of Clashing Fire. With this clause, a changeling chooses a foe on the battlefield with a simple point of the finger. When the two are within 10 yards of one another, a ring of thorns rises up around the two of them and in the next turn those thorns catch fire. The duel is on.'
         ],
         "FullCatch": [
-            ''
+            'The changeling has one or more scars from his last battle with this foe.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The fiery thorns rise up and encircle only the changeling. Trying to leave the crown of fire is as per a success, below.',
+            'Failure: The thorns and fire fails to manifest.',
+            'Success: A ring of thorns about two feet high rise up and, in the subsequent turn, catch fire. The fire burns high with hot, red flames.',
+            'At the time of the circle’s inception, any other characters within the fiery circle who are not part of the duel hear a deafening, crackling roar in their ears: the sounds of surrounding conflagration. Remaining within that circle is difficult, demanding one Willpower point per turn. In addition, those not part of the duel but lingering in the circle also suffer -3 to all Physical rolls while within the fiery borders. In leaving the circle, the flames do not burn any of these nondueling characters.',
+            'The same cannot be said for the two individuals locked in skirmish. If either try to leave the circle before the flames burn out, that character suffers two aggravated levels of damage automatically upon exit. (And he can be dragged back into the circle by the other opponent.)',
+            'The fire burns for a number of turns equal to twice the changeling’s Wyrd score and only ends prematurely when one of the opponents is either knocked unconscious or killed (thus resulting in an “end” to the duel). Otherwise, the changeling cannot end it until those turns expire.',
+            'Exceptional Success: As with success, but the changeling who initiated this clause gains the spent Willpower back.'
         ],
         "Description": "Summons up a ring of flaming thorns that forces a target into one-on-one combat.",
         "Catch": "The Changeling has one or more scars from the last battle with this foe.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour, 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Resolve - Subject's Stamina"
     },
     {
         "Rank": "••••",
         "Name": "Baleful Stroke of Summer Sun",
-        "Action": "",
+        "Action": "Reflexive and contested",
         "FullDescription": [
-            '',
-            ''
+            'With a close strike of a deadly weapon, a Summer courtier with this ability infects the target with a debilitating poison that simulates the effects of sunstroke and heat exhaustion. As the seconds pass after the strike, the victim begins to feel the effects take hold. He is no longer able to sweat. His tongue turns to cotton. The target’s heart race accelerates, he suffers splitting cramps, and he gets dizzy with fatigue.'
         ],
         "FullCatch": [
-            ''
+            'The changeling strikes with a weapon featuring metal that the changeling himself forged. It must be a substantial part of the weapon: the pommel and quillons of a sword, the blade of a knife, the bludgeoning end of a mace.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The effect does not occur and the changeling loses his Defense in the subsequent turn due to the invested (and failed) attempt.',
+            'Failure: While the attack may have been successful, the effects of the clause fail to manifest.',
+            'Success: One turn after the successful lethal attack, the target begins to suffer the effects of sunstroke and heat exhaustion. This cursed effect lasts for a number of turns equal to the Resolve score of the changeling who used this clause.',
+            'However, the victim does have a choice as to how this curse manifests: she can choose to accept cumulative dice penalties equal to one die of penalty per turn (thus she chooses to let the heatstroke potentially affect her actions) or she can choose to instead internalize the effects and eschew taking penalties, but in doing so she takes one aggravated level of damage every turn she makes this choice. The choice can be made on a turn by turn basis. If the changeling’s Resolve was 3, the effect would go for three turns. On the first turn, the target might choose a -1 die penalty, on the second turn she might take a point of aggravated damage, and on the third and final turn might take another penalty, which becomes a -2 penalty (as those dice are cumulative until the effect ends). Alternately, she could just choose to take three full aggravated (with no penalties) or -3 dice (with no damage). Penalties occur at the beginning of a combat round, and thus are in play when the target opts to make a roll.',
+            'Penalties from the curse fade once the effect’s turns are completed (in the above example, starting on the fourth turn) at a rate of one die of penalty per turn. (So, 3 penalty dice after three turns becomes -2 on the fourth turn, -1 on the fifth, and no related penalty on the sixth.)',
+            'Exceptional Success: As with success, but the affected target cannot spend Willpower while the curse is active.'
         ],
         "Description": "Inflicts a sun stroke on the target, resulting in either mounting mechanical penalties or aggravated damage (target's choice).",
         "Catch": "The Changeling strikes with a metal weapon he forged, has to hit with substantial metal part.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
-        "Dice Pool": "Wyrd + Stamina vs Stamina + Composure. This is after an attack."
+        "Dice Pool": "Wyrd + Stamina vs Stamina + Composure. the changeling must first make a successful close combat attack (with Brawl or Weaponry) and do at least a sin- gle point of lethal damage. The moment of the attack’s success occurs when the reflexive roll takes place."
     },
     {
         "Rank": "•••••",
         "Name": "Scorched Earth",
-        "Action": "",
+        "Action": "Extended (10+ successes; each roll represents a turn of uninterrupted meditation)",
         "FullDescription": [
-            '',
-            ''
+            'This clause represents the ultimate punishment of summer: with it, a changeling curses an area to bake in blistering heat, blighting the plants, incurring drought, possibly even invoking the death of pets, older adults, or children. Many Summer courtiers have been known to invoke this clause in the midst of battle. While it runs the risk of harming those who fight for the freehold, one hopes that they are prepared to fight through such scorching weather.'
         ],
         "FullCatch": [
-            ''
+            'The changeling meditates beneath a Summer Court pennon or battle-flag that she helped to create.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling grows warm, then hot, then the air is sucked out of her lungs in a vacuous rush of heat. She falls unconscious for a number of turns equal to 10 minus her Resolve score.',
+            'Failure: No progress is made.',
+            'Success: The character makes progress toward the end result. Ten successes are required for every half-mile radius of effect. The character must decide the radius of effect before beginning to evoke this clause.',
+            'Once the Scorched Earth curse is active, the following effects occur:',
+            '<ul><li>All of those within the radius of effect find the following stats halved (round down): Stamina, Strength, Composure, Resolve. (The loss of these dots while in the radius of effect also affects related traits such as Speed, Health, Willpower, etc.)</li><li>Bashing damage does not heal while one is in the area of effect and Willpower cannot be regained. The heat truly saps one’s internal energy and spirit.</li><li>All plant life within the radius of effect begins to die. Death can be forestalled by some measure of preventative care (usually necessitating Wits + Science rolls).</li><li>Water turns to steam. Faucets and hoses only trickle water. Puddles turn to vapor. Rivers run thin and muddy while streams dry up entirely. Water is not impossible to get, but it’s always warm and in far scarcer supply than it had been.</li></ul>',
+            'Effects plaguing a character end as soon as that character leaves the area of effect.',
+            'The Scorched Earth curse continues for a number of days equal to the changeling’s Wyrd score. It can be ended prematurely, but requires that the changeling spills a pint of his own blood (necessitating him taking one point of lethal damage) on the ground of the affected area.',
+            'Note that this effect can occur even in winter. While it likely baffles meteorologists and is surely an extraordinary experience, it doesn’t necessarily appear supernatural.',
+            'Exceptional Success: If the character achieves an exceptional success on the extended roll (gaining five successes in total beyond what was necessary to activate the clause), she may add a stipulation to the clause that allows for those with dots in Mantle (Summer) to remain unaffected by the Scorched Earth effects.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Meditative Mind Merit" },
+                    { Modifier: "-1", Situation: "Spring or Autumn" }
+                ]
+            },
+            '<b>Cloudburst:</b> There is a variant version of the Scorched Earth clause that features not the dry, blistering weather of summer, but the punishing monsoons common in certain parts of the world. The effects on individual characters remain the same. Water, however, is not scarce; quite the opposite, as flooding becomes a certainty. Plants don’t necessarily die from drought, either, though many will either die from over-watering (yes, plants can drown, too) or are broken and diminished by ravaging hurricane-like winds.'
         ],
         "Description": "Turns the area into a blighted waste land that inflicts penalties on all combatants.",
         "Catch": "The Changeling meditates under a Summer Court flag or pendant she helped make.",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "",
         "Cost": "●●●●●",
         "Dice Pool": "Wyrd + Strength"
     },
@@ -5011,8 +5387,7 @@ const autumnCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'Changelings who use the Eternal Autumn Contracts affect harvests, autumnal natures and weather.'
         ],
         "FullCatch": [
             ''
@@ -5023,106 +5398,148 @@ const autumnCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Autumn)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 159"
     },
     {
         "Rank": "•",
         "Name": "Last Breath Isaac",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character brings a plant to its ripest point of the year, ready for harvest. Changelings often use this clause to gather food when necessary, but some also find it a way to gather more baneful fruits such as mistletoe berries.'
         ],
         "FullCatch": [
-            ''
+            'The plant or tree is unclaimed, or the changeling has permission to harvest from it (to any degree).'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The plant withers a little and will bear no harvest for the next year and a day.',
+            'Failure: The character fails to make the plant bear fruit.',
+            'Success: Over the next minute, the plant bears a ripe harvest. A pumpkin plant grows a few plump pumpkins, an apple branch grows heavy with juicy apples and so on. This Contract can only affect parts of the plant around which the character can put her hand. She can affect the branch of an apple tree by putting her hand around it (and the entire branch from that point out is affected), but not the whole tree. Likewise, she could only target some branches of a blueberry bush unless she could circle her hand around its very base.',
+            'Exceptional Success: The entire plant is affected, even when the character could only target a portion.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Within a month (either way) of the plant’s natural harvest season" },
+                    { Modifier: "-1", Situation: "The month opposite the plant’s natural harvest season" },
+                ]
+            }
         ],
         "Description": "Ripen a portion of a plant",
         "Catch": "The plant or tree is unclaimed or the Changeling has permission to harvest from it.",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Manipulation"
     },
     {
         "Rank": "••",
         "Name": "Withering Glare",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character can wither any plant to any degree with a simple glance. Her gaze will also sicken animals that cross her glare.'
         ],
         "FullCatch": [
-            ''
+            'The plant bears the changeling’s name (or common moniker) on it somewhere, carved into the bark or written on a tag.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character fails to harm the target and suffers one point of bashing damage.',
+            'Failure: The character fails to affect the target.',
+            'Success: The character makes the plant progress toward Winter or toward death as she desires, but she cannot make the plant grow more Spring-like or healthier. She may make the plant instantly shed its leaves or retract into a bulb as though it were the deepest Winter, or make it shed its needles, leaves or petals and completely dry up into a state of near-death. Plants forced into the Winter season remain alive and prove it with the advent of true Spring, but only the most skilled gardener could bring a plant back from near-death.',
+            'If this clause is used against an animal, including a human being or even a supernatural entity, this clause inflicts one point of bashing damage for every success. Armor does not protect against the glare, though Defense still applies.',
+            'Exceptional Success: The character can completely kill a plant. She may also choose to make the plant act as though it were Winter for a full year and a day, recovering only when Spring comes after that time.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Plant is not overly robust or well cared for." },
+                    { Modifier: "-1", Situation: "Plant is remarkably robust and well cared for." },
+                ]
+            }
         ],
         "Description": "Wither a plant to Winter or age an animal.",
         "Catch": "The plant has the Changelings name or moniker carved into it or written on a tag.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Presence + Science"
     },
     {
         "Rank": "•••",
         "Name": "Brother to the Ague",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The life of the world wanes with the advent of Autumn. This clause inflicts the same fate on a changeling’s enemy.'
         ],
         "FullCatch": [
-            ''
+            'The character can name two diseases that the subject has suffered (or is suffering) and one that the subject fears.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: Rather than enervating an opponent, the character loses energy herself. She suffers a -1 die penalty to all dice pools as if she had stayed awake for 30 hours straight and suffers one point of bashing damage as if she had been deprived of water for several days. (See the World of Darkness Rulebook, pp. 175-176 and pp. 179-180, for more information on water and sleep deprivation.)',
+            'Failure: The character fails to weary the subject.',
+            'Success: The subject takes one point of bashing damage per success, as from dehydration. In addition, he suffers a -1 die fatigue penalty to all dice pools for every two points of the character’s Wyrd (rounded up). The subject actually becomes tired, so his fatigue penalties only disappear after sleep. The subject does not actually become severely dehydrated, so his bashing wounds heal naturally.',
+            'Exceptional Success: The subject actually does become dehydrated, so points of bashing damage inflicted through this Contract do not heal until the subject has rehydrated.'
         ],
         "Description": "Damage a foe through dehydration.",
         "Catch": "The character can name two diseases that the subject has suffered or is suffering, and one that the subject fears.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Dexterity + Medicine"
     },
     {
         "Rank": "••••",
         "Name": "Riding the Falling Leaves",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling becomes a temporary avatar of Autumn, transforming into a colorful spray of dry Autumn leaves. This ability is typically invoked to move inconspicuously or evade harm.'
         ],
         "FullCatch": [
-            ''
+            'The character catches a naturally falling leaf at the moment of the clause’s activation.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling’s innards temporarily transform into leaves, but not the entirety of her body. She takes two points of bashing damage from the shock.',
+            'Failure: The transformation does not take place.',
+            'Success: The changeling’s body transforms into a spray of dry Autumn leaves. Despite the fragmented physicality of this form, the changeling is still a single entity, and the leaves are highly resistant to being separated or scattered. These leaves are also resistant to damage, though the changeling can still be injured in this form. While in this form, she receives an additional six Defense; this does not apply to attacks that could conceivably damage a great many falling leaves at once, such as fire or being sucked into a large fan. The character may fly in this form at -3 Speed, gaining altitude on unseen thermals. She may also pass through openings too small to admit her ordinary form. However, while riding the leaf-form, the character cannot manipulate physical objects or cause any damage.',
+            'Exceptional Success: The character’s Defense bonus rises to eight, and she may fly at her full Speed.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "-1", Situation: "Spring" },
+                    { Modifier: "+1", Situation: "Winter or Autumn" },
+                ]
+            }
         ],
         "Description": "Transform into a cloud of autumn leaves",
         "Catch": "The character catches a naturally falling leaf at the moment of the clause's activation.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Dexterity + Survival"
     },
     {
         "Rank": "•••••",
         "Name": "Tears of Autumn",
-        "Action": "",
+        "Action": "Extended (5+ successes; each roll represents 10 minutes of commanding the sky)",
         "FullDescription": [
-            '',
-            ''
+            'The character calls a hailstorm from the sky, which can be light enough to just keep people off the streets or heavy enough to inflict major damage.'
         ],
         "FullCatch": [
-            ''
+            'The character holds a key encased in ice that finishes thawing at the start of the ritual.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt to command the weather fails. A localized hailstorm of the desired strength forms, just large enough to hover overhead of the changeling and drop hailstones on only her. This lasts for one full hour, and time spent indoors (or otherwise safe) does not count.',
+            'Failure: The character makes no progress.',
+            'Success: The character makes some progress. If she accumulates successes equal to or greater than the required number, the hailstorm begins anywhere within her line of sight. Five successes summons a minor hailstorm with stones that might sting but do no harm. For every 10 additional successes required, the character causes the hailstones to do one point of bashing damage to anything caught in them each turn, to a maximum of three points of bashing damage. The hailstorm lasts for a number of minutes equal to the changeling’s Wyrd, and covers an area equal to 100 yards radius per point of Wyrd.',
+            'Exceptional Success: The character makes excellent progress.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Already cloudy and cold" },
+                    { Modifier: "-1", Situation: "Not cloudy at all" },
+                    { Modifier: "-1", Situation: "Completely unseasonal" },
+                ]
+            }
         ],
         "Description": "Bring about a hailstorm",
         "Catch": "The character holds a key encased in ice that finishes thawing at the start of the ritual.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Mantle + Manipulation + Occult"
     },
@@ -5131,8 +5548,7 @@ const autumnCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'These Contracts provide the changelings who wield them power over aspects of fear.'
         ],
         "FullCatch": [
             ''
@@ -5143,106 +5559,160 @@ const autumnCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Autumn)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 156"
     },
     {
         "Rank": "•",
         "Name": "Witches’ Intuition",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character dredges knowledge of one fear from the subject’s mind or subconscious.'
         ],
         "FullCatch": [
-            ''
+            'The Contract’s subject does not know the character’s name.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character fails to discern one of the subject’s fears. Worse, the next time the character speaks to the subject, the character will accidentally let the subject know one of hers.',
+            'Failure: The character learns no fears.',
+            'Success: The character acquires knowledge of one of the subject’s fears. See the list of suggested modifiers below for guidelines on what fear the character learns.',
+            'Exceptional Success: The character learns two fears of the targeted level, if there are two such fears to be had.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character has a pledge with the target." },
+                    { Modifier: "-", Situation: "The character discerns a fear currently in the forefront of the target’s mind." },
+                    { Modifier: "-1", Situation: "The character learns a fear not currently concerning the target." },
+                    { Modifier: "-1", Situation: "The character learns a specific kind of fear (i.e., Halloween monsters, school-related, etc.)." },
+                    { Modifier: "-2", Situation: "The character discovers a fear the target recognizes but generally keeps hidden." },
+                    { Modifier: "-3", Situation: "The character finds a fear the target hides even from herself." },
+                ]
+            }
         ],
         "Description": "Learn one of the subject's fears",
         "Catch": "Subject does not know the Changelings name",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits - Composure"
     },
     {
         "Rank": "••",
         "Name": "Tale of the Baba Yaga",
-        "Action": "",
+        "Action": "Extended (one success per person to scare; each roll represents five minutes of fright-mongering)",
         "FullDescription": [
-            '',
-            ''
+            'Through the course of conversation or oratory, the character makes a concept as supernaturally frightening as she can, instilling individuals or entire crowds with an unnatural fear of that thing.'
         ],
         "FullCatch": [
-            ''
+            'The unnatural fear the character evokes is based upon a myth, urban legend or actual threat with which all subjects of the Contract are familiar.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character does not influence her subjects as desired. Instead, they find her silly, and she suffers a -1 die penalty to all Social rolls to influence them for the rest of the scene or night (whichever is longer).',
+            'Failure: The character fails to induce supernatural fear.',
+            'Success: The subjects develop a temporary fear of the intended topic. Without further stimulus, this only manifests as some jittery conversation, on-edge whispers and a few people getting a thrill from the story. Should they be faced with a believable manifestation of that fear, this Contract evokes a supernaturally strong fear in all affected individuals. They are afflicted with mind-numbing terror, fleeing from the built-up monster for one turn per success. If they cannot flee, they cower (but are not denied Defense).',
+            'Exceptional Success: The character’s seed bears a rich harvest. Add the character’s Wyrd rating to the number of turns the subjects must flee or cower',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Spooky ambiance (graveyard, skeletal orchard)" },
+                    { Modifier: "-1", Situation: "Every five people in crowd/at party not subject to the Contract" },
+                    { Modifier: "-1", Situation: "Comfortable, safe ambiance (lit dining hall, kindly dean’s office)" },
+                ]
+            }
         ],
         "Description": "Invoke fear of intended object in subjects for 1 turn per success.",
         "Catch": "The unnatural fear the character evokes is based upon a myth, urban legend or actual threat with which all subjects of the Contract are familiar.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Manipulation + Intimidation"
     },
     {
         "Rank": "•••",
         "Name": "Heart of the Antlion",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character uses her Contract with Autumn to steel herself against all manner of fear, natural or supernatural.'
         ],
         "FullCatch": [
-            ''
+            'The character consumes a spider or other vermin that has literally been scared to death.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character becomes more susceptible to fear. Add two dice to any external attempts to scare her until the next sunrise.',
+            'Failure: The character gains no special fortitude.',
+            'Success: The character becomes strong against fear. Mundane attempts to frighten, scare or intimidate her automatically fail. Supernatural attempts to frighten her suffer a penalty equal to the number of successes scored on her roll. This lasts the rest of the scene.',
+            'Exceptional Success: The protection lasts until the next sunrise.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character invokes the clause in a supportive environment (i.e., surrounded by friends, in a comfortable sanctum or under the reassuring sun)." },
+                    { Modifier: "-1 to -3", Situation: "The character invokes the clause when she is already nervous (i.e., surrounded by zombies, in a vampire’s haven or lost in a misty graveyard at night)." },
+                ]
+            }
         ],
         "Description": "Immune to mundane attempts at fear and resistant to supernatural fear.",
         "Catch": "The character consumes a spider or other vermin that has literally been scared to death.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Resolve + Investigation"
     },
     {
         "Rank": "••••",
         "Name": "Scent of the Harvest",
-        "Action": "",
+        "Action": "Extended (one success per subject; each roll represents one minute of support)",
         "FullDescription": [
-            '',
-            ''
+            'The character reassures friends and allies, protecting them against fear just as she protects herself.'
         ],
         "FullCatch": [
-            ''
+            'Two of the subjects’ greatest fears are each other.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt to bolster the character’s allies fails. The character cannot try again until the next sunrise.',
+            'Failure: The character makes no progress.',
+            'Success: The character makes progress. If she reaches the required number of successes, she completes the effort. Affected allies are completely immune to mundane efforts to scare them, and supernatural efforts suffer a dice penalty equal to the dice penalty the character took invoking the Contract. This lasts the rest of the scene.',
+            'Exceptional Success: The protection lasts until the next sunrise.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character’s allies are in a supportive environment (i.e., surrounded by friends, in a comfortable sanctum or under the reassuring sun)." },
+                    { Modifier: "-1", Situation: "Each point of dice penalty to rolls that would cause supernatural fear (to a maximum of the character’s Wyrd)." },
+                    { Modifier: "-1 to -3", Situation: "The character’s allies are already nervous (i.e., surrounded by zombies, in a vampire’s haven or lost in a misty graveyard at night)." },
+                ]
+            }
         ],
         "Description": "Heart of the Antlion for friends.",
         "Catch": "Two of the subjects greatest fears are each other.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Presence + Expression, Extended"
     },
     {
         "Rank": "•••••",
         "Name": "Mien of the Baba Yaga",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character takes on the aspect of one of her subject’s great fears.'
         ],
         "FullCatch": [
-            ''
+            'One of the subject’s great fears is actually the character.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character temporarily sees the subject as one of the character’s greatest fears. She suffers one point of bashing damage.',
+            'Failure: The character fails to become her subject’s nightmare.',
+            'Success: The changeling, to all observers, takes on the aspect of one of the subject’s great fears. The character cannot see what this is without a reflective surface. The subject of the Contract suffers points of bashing damage out of fear equal to the successes rolled, and may only flee or cower in fear for a like number of turns. He is not denied his Defense. This visage may frighten others as well, but holds no special power over them. (Except that it might, if used with Tale of the Baba Yaga, above.)',
+            'Exceptional Success: The subject of this Contract loses a point of Willpower and loses access to his Defense until the end of the next turn.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The character has been building up the subject’s fear." },
+                    { Modifier: "+1", Situation: "The locale has appropriate ambiance (e.g., abandoned school for the fear of a teacher)." },
+                    { Modifier: "-1", Situation: "Someone has been bolstering the subject against this fear." },
+                    { Modifier: "-1", Situation: "The locale is unsupportive of the fear’s appearance (e.g., Freddy Krueger at a sunny picnic)." },
+                ]
+            }
         ],
         "Description": "Become the subjects fear. Scare them badly enough to actually deal damage",
         "Catch": "One of the subjects greatest fears is actually the character.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Mantle + Wits + Empathy"
     },
@@ -5251,8 +5721,7 @@ const autumnCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'The season of lengthening nights and falling leaves is possessed of magic that is more than simple symbolism. Changelings who use the Contracts of Spellbound Autumn call upon the season’s affinity for sorcery and otherworldly phenomena.'
         ],
         "FullCatch": [
             ''
@@ -5263,106 +5732,122 @@ const autumnCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Autumn)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lords of Summer 79"
     },
     {
         "Rank": "•",
         "Name": "Warlock’s Gaze",
-        "Action": "",
+        "Action": "Instant (and possibly Contested; resistance is reflexive)",
         "FullDescription": [
-            '',
-            ''
+            'The character detects the presence of the supernatural; even those beings, objects and effects that are deliberately concealed.'
         ],
         "FullCatch": [
-            ''
+            'The character physically makes contact with a non-allied supernatural being other than another changeling when activating this clause.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character falsely detects the presence of one or more supernatural creatures, objects, and/or phenomena, as well as failing to detect any such presences that are truly in his vicinity.',
+            'Failure: The character either rolls no successes or fails to exceed the successes accrued by a character concealed by or concealing a supernatural effect, and does not detect any supernatural creatures, objects, and/or phenomena. He is aware that the clause was not successfully enacted.',
+            'Success: The character scores successes in excess of those accrued by a character concealed by or concealing any supernatural effect, if any, and detects any non-concealed supernatural creatures, objects, and/or phenomena within a number of yards equal to his Wyrd. (Note that the character may succeed against some subjects and fail against others, depending upon how many successes are scored by each character in the contested roll. The character using this clause, however, rolls only once and compares his total successes against all other nearby individuals using supernatural powers of occlusion.)',
+            'Exceptional Success: No additional result, beyond the possibility of penetrating especially strong methods of supernatural occlusion.'
         ],
         "Description": "Detect the presence of the supernatural, even deliberately obscured. AoE: Yards = to Wyrd",
         "Catch": "Physical contact with non-allied supernatural being other than another changeling.",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Occult (vs. Powerstat + Compusure if target supernaturally concealed)"
     },
     {
         "Rank": "••",
         "Name": "Barrow-Whisper",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling learns how to utter the sepulchral tongue of the unquiet dead — to hear and be heard by such restless shades.'
         ],
         "FullCatch": [
-            ''
+            'A ghost in the area wants to communicate, either with the character specifically or with anyone who will listen.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s presumption angers any nearby ghosts, who will do what they can to inconvenience, harass, or even harm her.',
+            'Failure: The character is unable to communicate with or otherwise perceive the presence of any ghosts in the vicinity.',
+            'Success: For the remainder of the scene the character can hear and be heard by (though not see) any restless shades in her presence.',
+            'Exceptional Success: As a normal success, but the ability to hear and be heard by ghosts lasts for the entire night, should the character wish it.'
         ],
         "Description": "Hears and is heard by ghosts.",
         "Catch": "Ghost in the area wants to communicate.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Expression"
     },
     {
         "Rank": "•••",
         "Name": "Smith’s Wisdom",
-        "Action": "",
+        "Action": "Extended — 5 successes required per dot of the item (Storyteller’s discretion for items without dot values); each roll represents four hours of uninterrupted study.",
         "FullDescription": [
-            '',
-            ''
+            'By studying an unknown object of power — whether a token or something else — the fae learns its abilities and intended purpose.'
         ],
         "FullCatch": [
-            ''
+            'The character has stolen the item from a friend (the theft must be malicious; items left un- attended in the hopes that they will be taken don’t count) or been freely given the item by an enemy.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character radically misinterprets the object’s abilities and implicitly believes his assessment to be correct, to the point of being willing to stake his wellbeing or that of his allies on it.',
+            'Failure: The character accrues no further successes in his attempt to discern the item’s function and powers, and suffers a -1 die penalty to all subsequent rolls to unravel the object’s secrets. This penalty is cumulative for multiple failures.',
+            'Success: The character scores one or more successes and grows closer to learning the purpose of the item in question. When the Storyteller rules that the appropriate number of successes has been accrued, the character learns the object’s supernatural capabilities. Note, however, that this does not necessarily equate to being able to actually make use of these powers.',
+            'Exceptional Success: No additional effect, beyond accruing five or more successes toward uncovering the item’s mystic secrets.'
         ],
         "Description": "Learn abilities and purpose of item of power (token or else).",
         "Catch": "The character has stolen the item from a friend (without permission) or been freely given the item by an enemy.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Mantle + Intelligence + Occult"
     },
     {
         "Rank": "••••",
         "Name": "Arcadian Commandment",
-        "Action": "",
+        "Action": "Instant and Contested",
         "FullDescription": [
-            '',
-            ''
+            'The character gains the power to speak with the authority of a True Fae to a hobgoblin or other such minion of the Gentry, even those normally incapable of understanding speech.'
         ],
         "FullCatch": [
-            ''
+            'The character knowingly comes unarmed and unarmored into the presence of the creature to be commanded.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character automatically earns the enmity of whatever creature she is attempting to command. It immediately reacts in a manner appropriate to its nature.',
+            'Failure: The character either accrues either no successes or fewer successes than the creature she is trying to command, and cannot exert any influence over it.',
+            'Success: The character scores more successes than the creature she is attempting to command. For the remainder of the scene, she may compel the being to any course of action that doesn’t directly endanger its wellbeing, or that of the Gentry that created it and/or acts as its direct master, if applicable. If the changeling sends the creature out of her direct presence to perform a task, it will do so to the best of its ability, subject to the parameters outlined above, until an hour is up, whereupon the creature will immediately break off from the task. The creature is aware that it has been supernaturally compelled and may pursue revenge or other action against the character, if such is in its nature.',
+            'Exceptional Success: As above, save that the creature may be dispatched on a task taking up to a full day and night, and will believe its actions to have been of its own choosing, unless the character’s influence is subsequently pointed out to it.'
         ],
         "Description": "Power to speak with authority of True Fae to hobgoblins and other Gentry minions, even to those incapable of speech.",
         "Catch": "Character knowingly comes unarmed and unarmored to the presence of entity to be commanded.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "3 Glamour and 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Wyrd + Presence vs Powerstat + Resolve"
     },
     {
         "Rank": "•••••",
         "Name": "Oathbreaker’s Honesty",
-        "Action": "",
+        "Action": "Extended — one success per level of bonus or penalty involved in each factor of the Pledge (in other words, a -3 penalty Alliance Task factor would require three successes, and a -2 Poisoning of Boon Sanction another two successes); each roll takes one turn.",
         "FullDescription": [
-            '',
-            ''
+            'The changeling manipulates the power of a pledge to violate its strictures without falling under its Sanction.'
         ],
         "FullCatch": [
-            ''
+            'The changeling is begged to enact this clause by someone who will knowingly come to disaster (loss of life or loved ones, loss of Clarity to the point of a descent into madness, etc.) on account of his betrayal.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character immediately falls under the Sanction of the Pledge, just as though he’d broken it normally, and may never again attempt to circumvent this pledge. The spent Glamour and Willpower dot are lost (the Willpower dot may, however, be re-purchased for eight experience points).',
+            'Failure: The character fails to circumvent the pledge and loses his Glamour and Willpower dot, as above, though he may later attempt to cheat the Pledge if he so wishes.',
+            'Success: The character accrues successes toward the process of sidestepping the Pledge. When sufficient successes have been scored, he may do so for the remainder of the scene or an hour, whichever is less, without incurring the pledge’s Sanction. As above, the character’s Willpower dot may be re-purchased for eight experience points.',
+            'Exceptional Success: No additional effect, beyond scoring numerous successes toward circumventing the Pledge.'
         ],
         "Description": "Violate the pledge without falling under its Sanctions.",
         "Catch": "Begged to enact this clause by someone who will knowingly come to disaster on account of his betrayal.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "",
         "Cost": "●●●●●○",
         "Dice Pool": "Wyrd + Resolve (extended)"
     }
@@ -5374,8 +5859,7 @@ const winterCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'Changelings who wield the Eternal Winter Contracts control the cold strength of the season itself.'
         ],
         "FullCatch": [
             ''
@@ -5386,6 +5870,7 @@ const winterCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Winter)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 162"
     },
@@ -5394,98 +5879,137 @@ const winterCourtContractsData = [
         "Name": "Jack’s Breath",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'The character cools a room considerably, or an area roughly the size of a room.'
         ],
         "FullCatch": [
-            ''
+            'The character hears someone shiver or tastes someone’s sweat.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The room grows warmer instead of colder.',
+            'Failure: The character fails to cool the room.',
+            'Success: The room cools by a degree decided by the character before the dice roll. See the list of suggested modifiers below for guidelines on how far a character can reduce the temperature, and in how large a room. The cooling lasts for one scene before the room gradually returns to normal temperature.',
+            'Exceptional Success: The cooling lasts as long as the character desires before returning to normal.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "-1", Situation: "Every 20 degrees Fahrenheit of cooling." },
+                    { Modifier: "-1", Situation: "The room is Size 20." },
+                    { Modifier: "-2", Situation: "The room is Size 40." },
+                ]
+            }
         ],
         "Description": "Cools a room, potentially by a significant margin.",
         "Catch": "The character hears someone shiver or tastes someones sweat.",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Survival"
     },
     {
         "Rank": "••",
         "Name": "Touch of Winter",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Liquid freezes with just a caress of the changeling’s fin- gertips.'
         ],
         "FullCatch": [
-            ''
+            'The character first spells out a name or idea he hates with the liquid on a dry surface.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s hand grows very cold, and the character suffers a point of bashing damage from early frostbite.',
+            'Failure: The character fails to freeze the liquid.',
+            'Success: The liquid freezes over. The liquid has an effective Strength (for purposes of supporting people on a frozen pond, for example) equal to the number of successes rolled. (See the World of Darkness Rulebook, p. 47, for Strength and weight information.) This Strength is effective over a few square feet, not the entire surface, so a group can walk across the frozen pond as long as they give each other distance. A character may distribute his weight (cutting it approximately in half) by lying down on the frozen surface. See the list of suggested modifiers for guidelines on the area this Contract freezes. The liquid’s surface remains frozen until it melts naturally.',
+            'Exceptional Success: The character may instantly return the frozen liquid to its original liquid form, as long as he chooses to do so within the same scene.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Liquid is already near its freezing point" },
+                    { Modifier: "-", Situation: "The area of a bathtub" },
+                    { Modifier: "-1", Situation: "The area of a driveway" },
+                    { Modifier: "-2", Situation: "The area of a swimming pool" },
+                    { Modifier: "-3", Situation: "The area of a parking lot" },
+                ]
+            }
         ],
         "Description": "Freeze the surface of a body of water, potentially affecting quite a large area.",
         "Catch": "The character first spells out a name or idea he hates with liquid on a dry surface",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Intelligence + Science"
     },
     {
         "Rank": "•••",
         "Name": "Riding the Devil’s Jawbone",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character surrounds himself with an aura so cold that it can disable his enemies.'
         ],
         "FullCatch": [
-            ''
+            'There is a bell ringing within 20 feet of the character.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character grows instantaneously cold himself, suffering two points of bashing damage.',
+            'Failure: The character fails to activate the clause.',
+            'Success: The character blankets everything within 20 feet under a cloak of intense cold. Anyone other than the character within that field, which moves with him, suffers a -1 die penalty to all actions while in the freezing aura. Multiple changelings invoking this clause do not increase the level of cold, but the penalty may increase with further exposure. For every five turns someone spends inside the aura (cumulative), that penalty increases by one. Penalties immediately disappear when the aura fades or when a person steps outside the aura, but return at full current strength if the person is again caught inside it. The field lasts for a number of minutes equal to successes on the roll, or until the changeling falls unconscious or dies.',
+            'Exceptional Success: The field lasts the entire scene, or until the changeling falls unconscious or dies.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+2", Situation: "Already quite cold" },
+                    { Modifier: "+1", Situation: "Already chilly" },
+                    { Modifier: "-1", Situation: "Warm day" },
+                    { Modifier: "-2", Situation: "Heat wave" },
+                ]
+            }
         ],
         "Description": "Inflicts an area with intense cold, causing penalties to all within.",
         "Catch": "There is a bell ringing within 20 feet of the character.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Dexterity + Stealth"
     },
     {
         "Rank": "••••",
         "Name": "Fallen from the Timbers",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character calls a great shaft of cold air and partially frozen particles to materialize above an enemy and fall upon her.'
         ],
         "FullCatch": [
-            ''
+            'The Contract’s target wears silver jewelry that has religious meaning for her.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: A small wind of sharp ice particles cuts the character and causes one point of lethal damage.',
+            'Failure: The character fails to materialize his attack.',
+            'Success: The blast of cold and ice inflicts points of lethal damage equal to the successes on the roll. The target of the attack also suffers a -1 die penalty to all actions for the rest of the scene due to the extreme chill.',
+            'Exceptional Success: The attack inflicts a great deal of damage. The penalty from cold escalates to -2.'
         ],
         "Description": "Blasts a target with cold and ice, inflicting lethal damage and penalizing all of their actions.",
         "Catch": "The contracts target is wearing silver jewelry that has a religious meaning to her.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Mantle + Dexterity + Athletics - Subject's Defense"
     },
     {
         "Rank": "•••••",
         "Name": "Witch’s Paradise",
-        "Action": "",
+        "Action": "Extended (5+ successes; each roll represents five minutes of exhorting the sky)",
         "FullDescription": [
-            '',
-            ''
+            'The changeling summons a lasting snowstorm over an extended area.'
         ],
         "FullCatch": [
-            ''
+            'The moon is in the sky, and the character can hear a wolf howling.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt fails. The weather lightens and gets a little warmer.',
+            'Failure: The character makes no headway.',
+            'Success: The character makes some headway. If he accumulates the required number of successes, the snowstorm begins. Five required successes summons light flurries over a one-mile radius for one hour. Each additional five successes drops the temperature by 10 degrees Fahrenheit, increases the wind strength by five miles per hour, doubles the storm’s radius or increases the duration by one hour.',
+            'Exceptional Success: The character makes great headway.'
         ],
         "Description": "Summons a lasting snowstorm over an area.",
         "Catch": "The moon is in the sky and the character can hear a wolf howling.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Mantle + Presence + Occult"
     },
@@ -5494,8 +6018,7 @@ const winterCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'The Fleeting Winter Contracts allow a changeling to manipulate the signature emotion of the Court: sorrow.'
         ],
         "FullCatch": [
             ''
@@ -5506,106 +6029,156 @@ const winterCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Winter)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lost 160"
     },
     {
         "Rank": "•",
         "Name": "The Dragon Knows",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character can tell why a person is sorrowful, guess- ing her regrets with but a glance.'
         ],
         "FullCatch": [
-            ''
+            'The character looks into the subject’s eyes for a moment.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character cannot figure out why the subject is sad, but it afflicts the character as well. His mood lasts the rest of the scene and inflicts a -1 die penalty on his Social dice pools.',
+            'Failure: The character fails to discover the subject’s regrets.',
+            'Success: The character discovers the root of the subject’s sorrow. This Clause reveals only the cause of the sorrow the subject feels now, and returns no result at all (even if successfully used) if the subject is not currently experiencing sorrow (or sadness or another similar emotion).',
+            'Exceptional Success: If the subject is not currently sad but was within the last hour, the character finds out the cause of that and why it ended.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The emotion is evident." },
+                    { Modifier: "-1", Situation: "The subject is hard to see." },
+                ]
+            }
         ],
         "Description": "Determine the source of sorrow someone is experiencing.",
         "Catch": "The character looks into the subjects eyes for a moment.",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Empathy - Subject's Composure"
     },
     {
         "Rank": "••",
         "Name": "Slipknot Dreams",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling forces a person to forget about her sorrows just long enough to deal with the matters at hand.'
         ],
         "FullCatch": [
-            ''
+            'The subject has accepted something from the character within the past 24 hours.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The subject becomes even more sad, making it even more difficult to deal with her.',
+            'Failure: The character fails to put off the subject’s sorrows.',
+            'Success: The subject completely forgets why she feels sad, or even that she was sad just a moment ago. She acts as though everything were perfectly all right for a number of minutes equal to the successes rolled.',
+            'Exceptional Success: The character may, if he so desires, cause the subject to remain blissfully ignorant for a full hour.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "Minor or distant sorrow (goldfish died, weeping over the state of the world)" },
+                    { Modifier: "-2", Situation: "Deeply personal tragedy (entire branch of the family dead in accident)" },
+                ]
+            }
         ],
         "Description": "Forces a subject to temporarily let go of their sorrow.",
         "Catch": "The subject has accepted something from the character in the past 24 hours.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Mantle + Manipulation + Subterfuge - Subject's Resolve"
     },
     {
         "Rank": "•••",
         "Name": "Faces in the Water",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The subject remembers a sad memory from her past and dwells on it, filling herself with sorrow.'
         ],
         "FullCatch": [
-            ''
+            'The subject is carrying a photograph (or other image) of an older relative or ancestor on her person.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt fails, and the subject is immune to the character’s Fleeting Winter Contracts for one full day.',
+            'Failure: The subject remains unaffected.',
+            'Success: The subject recalls one sad or painful memory, and it causes her sorrow. The character has no influence over what memory surfaces. The subject’s Social rolls suffer a dice penalty equal to half the number of the character’s successes; the same penalty is applied to people attempting to influence the subject. The recollection and sorrow last for one scene.',
+            'Exceptional Success: The character may also choose to trigger another such event (which may or may not be a different memory) at a set time within the next 24 hours.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The subject has a doleful personality." },
+                    { Modifier: "-1", Situation: "The subject is naturally upbeat." },
+                    { Modifier: "-1", Situation: "Something good just happened to the subject." },
+                    { Modifier: "-3", Situation: "The subject has no genuinely sad memories (a truly innocent child, for instance)." },
+                ]
+            }
         ],
         "Description": "Fills a subject with sorrow over a painful memory, inflicting social penalties.",
         "Catch": "The subject is carrying a photograph or some other image of an older relative or ancestor on her person.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Intelligence + Investigation - Subject's Composure"
     },
     {
         "Rank": "••••",
         "Name": "Fallow Fields, Empty Harvest",
-        "Action": "",
+        "Action": "Contested; resistance is reflexive.",
         "FullDescription": [
-            '',
-            ''
+            'The character eliminates a person’s ability to experience positive emotions for a significant period of time.'
         ],
         "FullCatch": [
-            ''
+            'The character has made the subject happy (or happier) within the last 10 minutes.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The subject remains capable of positive emotions and becomes immune to the character’s Fleeting Winter Contracts for one full day.',
+            'Failure: The character does not affect the subject.',
+            'Success: The subject loses all capability to experience positive emotions such as joy, happiness and variations thereon for one day per success rolled. She becomes unable to regain Willpower by acting on her Virtues or Vices, and suffers a -2 dice penalty to all Social rolls.',
+            'Exceptional Success: The subject’s positive emotions remain deadened until the changeling releases them.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The subject is already sad." },
+                    { Modifier: "-1", Situation: "The subject is experiencing positive emotions currently." },
+                    { Modifier: "-2", Situation: "The subject’s positive emotions are notably strong." },
+                ]
+            }
         ],
         "Description": "Eliminates a subject's ability to feel positive emotions for a time, suffering social penalties and an inability to regain Willpower via virtues or vices.",
         "Catch": "The character has made the subject happy (or happier) within the last 10 minutes.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Manipulation + Intimidation vs Powerstat + Composure"
     },
     {
         "Rank": "•••••",
         "Name": "Every Sorrow a Jewel",
-        "Action": "",
+        "Action": "Contested; resistance is reflexive.",
         "FullDescription": [
-            '',
-            ''
+            'The character magnifies the emotions of a person already feeling sorrowful to such extremes that the subject becomes incapable of taking any action.'
         ],
         "FullCatch": [
-            ''
+            'The subject has tasted one of the changeling’s tears.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The subject remains only moderately sad, but the character is momentarily overcome with great sadness. He loses his Defense until his next action.',
+            'Failure: The character fails to inflate the subject’s emotions.',
+            'Success: The subject’s sorrow grows to unmanageable proportions. She can do nothing beyond curl up and feel terrible for a number of turns equal to the successes rolled. The subject may take no actions and may not move but retains her Defense. This Contract affects only subjects already feeling sorrow.',
+            'Exceptional Success: The subject’s emotion so overwhelms her that she loses her Defense for the Contract’s duration.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+2", Situation: "The subject’s sorrow is already great." },
+                    { Modifier: "+1", Situation: "The subject’s sorrow is strong." },
+                    { Modifier: "-1", Situation: "The subject’s sorrow is quite minor." },
+                ]
+            }
         ],
         "Description": "Paralyzes a subject with grief, rendering them briefly unable to take any actions.",
         "Catch": "The subject has tasted one of the changelings tears.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Mantle + Manipulation + Persuasion vs Powerstat + Composure"
     },
@@ -5614,8 +6187,11 @@ const winterCourtContractsData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'Sorrow is the paradoxical torment: the suffering that eases suffering. In Arcadia, pain was a species: a hundred races of hurt, each devoted to its own method and taste. But Sorrow set itself apart from the simple animal pains of Burning, Cutting and their cousins, for it induced a special numbness: a fatalism that allowed contracted changelings to endure other discomfort. Sorrow is a pain of contemplation. Once the Lost accepts its inevitability, other hurts fade.',
+            'In the Winter Court, the Sorrow-Frozen Heart is an unpopular Contract, but it is theirs nonetheless. Most Winter changelings prefer to master sorrow through calculated denial. They fight despondency with hope, but only apply it to attainable things. To live for today and revel in a quiet life is hardly spectacular, but serves cautious courtiers well enough. The minority who embrace the contract take the radical step of accepting their sadness, even reveling in it. She crosses that threshold and strikes a powerful, heart-wrenching bargain.',
+            'As the Lost explores this Contract’s clauses, she inevitably loses her empathy for others. Practitioners become absorbed in the particulars of their own sorrow. How could anyone else’s pain compare to that which they’ve come to know so intimately? This is a power of the Sorrow-Frozen Heart. Its warriors do not flinch at inflicting pain. Compared to sorrow, anything else is like a snowflake compared to a glacier.',
+            'The Sorrow-Frozen Heart is a subtle Contract, suited to the Court. It doesn’t cause any obviously supernatural displays. The Court desires quiet survivors who can protect Winter’s holdings even in extreme adversity. Practitioners treat it as a memoriam in action. They remember the sorrow of slavery and channel it into tools that will protect them from it ever after.',
+            'This Contract’s nature makes it fundamentally incompatible with the ability to regain Willpower from fulfilling a Virtue. Inspiring moments disrupt the character’s sorrow. If the changeling satisfies a Virtue while using Contracts of the Sorrow-Frozen Heart, the player can refuse to refresh his character’s Willpower. (The character chooses to dwell within his sorrow instead of the moment of inspiration.) If he does not, the Contract’s benefits end immediately.'
         ],
         "FullCatch": [
             ''
@@ -5626,106 +6202,126 @@ const winterCourtContractsData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Winter)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Lords of Summer 99"
     },
     {
         "Rank": "•",
         "Name": "A Mere Vessel for Loss",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling focuses on her own sorrow to ex- clude debilitating physical conditions. Numbness sets in, followed vitality, driven by a sense of the inevitable. She can ignore the effects of pain and discomfort.'
         ],
         "FullCatch": [
-            ''
+            'The character pierces her skin with a thin needle (this does not inflict damage).'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character is overwhelmed by physical pain and discomfort, even minor irritations that she could normally endure. She suffers a -1 die penalty to all actions until then end of the next turn.',
+            'Failure: The character feels physical discomfort normally.',
+            'Success: Reduce the character’s dice pool penalties for physical discomfort, pain or illness by the number of successes scored. This includes wound penalties, drowsiness, nausea — any physical irritation, no matter which actions these would normally penalize. This does not remove the actual injuries. A cut still bleeds, bones are still broken, flesh is still burnt and so on. This effect lasts for a scene.',
+            'Exceptional Success: In addition to the effects of a standard success, the character cannot be incapacitated by physical injuries or sensations for the rest of the scene.'
         ],
         "Description": "Reduce the Effects of pain and discomfort by success",
         "Catch": "Pierces skin with a thin needle",
         "Court Goodwill Requirement if not a member": "Waived",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Resolve + Occult"
     },
     {
         "Rank": "••",
         "Name": "Fear is Nothing",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling takes refuge in sorrow: memories of a terrible loss or knowledge of a doom to come. He accepts his destiny with fatalistic fervor, warding off fear.'
         ],
         "FullCatch": [
-            ''
+            'The character empties his hands and leaves them open at his sides, as if he feels no need to arm himself against danger. (If necessary, he can arm himself after invoking the clause.)'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character drifts from his sorrow into fear. He suffers a -2 penalty to dice rolls to resist a source of fear, or reduces the applicable Resistance attribute by one for the purpose of determining a fear-inducing power’s effects if that power’s dice pool is normally reduced by the attribute.',
+            'Failure: The character deals with fear as well or as poorly as anyone else.',
+            'Success: The character reduces the dice pool of supernatural powers that might cause him fear by his Wyrd dots. This effect lasts for the scene. He can freely ignore mundane sources of fear or disgust. Things like butchered corpses and big, growling dogs don’t faze him at all. Mundane terrors cannot induce derangements while he is in this state.',
+            'Exceptional Success: As for a standard success, except increase the penalty of fear-inducing powers by the character’s Wyrd + 2. Furthermore, the character does not suffer from any Phobia derangements for the rest of the scene, even if they were imposed beforehand.'
         ],
         "Description": "Reduces dice pool of supernatural fear effects by Wyrd",
         "Catch": "Empties his hands and leaves them open at his side",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Mantle + Composure + Expression"
     },
     {
         "Rank": "•••",
         "Name": "Grief is Stronger than Death",
-        "Action": "",
+        "Action": "2 Glamour",
         "FullDescription": [
-            '',
-            ''
+            'The changeling is so immersed in his own sorrow that her injuries are irrelevant.'
         ],
         "FullCatch": [
-            ''
+            'The character contemptuously tosses a chunk of cold iron to the ground.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s attention snaps back to her body, leaving her vulnerable and clumsy. Add a die to the next attack directed against her during the scene.',
+            'Failure: The character does not benefit from the clause.',
+            'Success: The character staves off the effects of injury. When she is struck in combat, tally the damage (any abilities or equipment that would affect it apply) and leave it aside for the rest of the scene. The character can “ignore” damage equal to her successes. Do not apply it to the character’s health levels.',
+            'Once the scene ends or she runs out of successes, inflict all of the damage that she “ignored” in the order in which it was inflicted. This takes effect over successive turns, effectively “paying back” the wounds that were delayed.',
+            'Exceptional Success: As a standard success, but the character also benefits from one point of armor until the power’s effects end.'
         ],
         "Description": "Damage from an attack is ignored for a round, to be applied next round",
         "Catch": "Contemptuously tosses a chunk of cold iron on the ground.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Resolve + Survival"
     },
     {
         "Rank": "••••",
         "Name": "Remorseless Strike",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling has as little regard for others’ pain as his own; all are doomed to sorrow. He strikes with cold savagery, holding nothing back. Compared to his own pain, the enemy’s suffering means nothing.'
         ],
         "FullCatch": [
-            ''
+            'The character slashes himself with a sharp instrument and suffers a point of lethal damage.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character is struck with a torrent of overwhelming compassion. He cannot harm another person for the rest of the turn.',
+            'Failure: The character fights and acts normally.',
+            'Success: If the character’s next Brawl or Weaponry attacks inflict any damage at all by scoring at least one success, the target suffers additional damage equal to the character’s Wyrd. This damage is of the same type as the original attack unless the character’s using a cold iron weapon.',
+            'Exceptional Success: The unrelenting force of the blow also stuns the victim for a turn. Note that this assumes that the target has a Size of 5. If the target’s Size is more or less, the victim suffers the stunning effect if the clause’s successes meet or exceed that Size number.'
         ],
         "Description": "Next Brawl or weaponry attack target suffers additional bonus damage equal to Wyrd",
         "Catch": "Slashes himself with a sharp instrument and takes 1 lethal",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Mantle + Resolve + Brawl"
     },
     {
         "Rank": "•••••",
         "Name": "A Cold Hand on the Heart",
-        "Action": "",
+        "Action": "Instant and Contested. Roll the target’s Composure + Wyrd to resist (though he may choose not to do so).",
         "FullDescription": [
-            '',
-            ''
+            'The changeling learns how to give others the “gift” of his sorrowful fatalism. They share her power and outlook.'
         ],
         "FullCatch": [
-            ''
+            'The character clutches the recipient of her power with one hand and anoints her forehead with the ashes of a suicide or someone who died from a crime of passion.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The target’s unaltered emotions flow back to the character. She cannot use Contracts of the Sorrow-Frozen Heart for the rest of the scene.',
+            'Failure: The target feels none of the character’s sorrow.',
+            'Success: The target’s fatalism rows powerful enough to benefit from either the first, second or third clauses of this Contract. The character chooses the recipient’s benefit. Use successes scored on The Coldest Comfort to determine the effects of the clause on the target. If the recipient uses Fear is Nothing, use the character’s Wyrd to determine its benefits instead of the recipient’s. The character can cancel the effects of this power at any time.',
+            'There are significant drawbacks to the power. The recipient’s sorrow is taxing; he loses a Willpower point. The power also automatically wracks the recipient with sorrowful, fatalistic Bedlam. The clause’s effects also automatically end if the recipient regains Willpower points from satisfying a Virtue. A changeling can choose to deny that inspiration and stick with The Coldest Comfort, but a mortal cannot.',
+            'The Coldest Comfort cannot affect supernatural beings other than changelings. Normal humans can be subjected to this power, but at a grave price. The recipient suffers a new, permanent mild derangement (one that belongs to the character or a new one determined by the storyteller) at the end of the scene unless he succeeds at a Resolve + Composure roll. If the recipient already suffers from a mild derangement, “upgrade” it to a related, severe derangement. Thus, a changeling can turn a mortal into a powerful ally, but repeated uses of this power will drive him irrevocably insane. Fortunately, a mortal can evade this danger if he fulfills his Virtue while he’s under the throes of the clause. Its benefits cease, but he finds his own way out of maddening sorrow.',
+            'Needless to say, using this power on a mortal usually demands a Clarity check.',
+            'Exceptional Success: The powerful emotions the clause arouses are refined enough to prevent the recipient from losing a point of Willpower.'
         ],
         "Description": "Bestow previous clauses on others as well.",
         "Catch": "Clutches target with one hand and anoints with ashes of a suicide victim or victim of a crime of passion.",
         "Court Goodwill Requirement if not a member": "-",
+        "FullCost": "3 Glamour + 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Mantle + Composure + Expression"
     }
@@ -5749,6 +6345,7 @@ const minorCourtContractData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": ""
     },
@@ -5757,8 +6354,7 @@ const minorCourtContractData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'These Contracts were founded long ago by those of the directional Courts, and generally help a changeling find his way in this world — or cause others to lose theirs. It’s not just about the so-called cardinal directions; it’s about the space in which a changeling exists, and his innate understanding of how all the world and universe moves around him.'
         ],
         "FullCatch": [
             ''
@@ -5769,106 +6365,131 @@ const minorCourtContractData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Directional)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Winter Masques 134"
     },
     {
         "Rank": "•",
         "Name": "Mindfinder",
-        "Action": "",
+        "Action": "Reflexive",
         "FullDescription": [
-            '',
-            ''
+            'The changeling is able to track down another individual without any tracking skills or other information. It doesn’t provide the character with the target’s location, only the direction of that location. Mystically, the target’s chi or internal energy suddenly appears on the character’s internal radar — it may manifest as a faint humming sound that increases as one gets closer, or even a flash of light or a “floater” in one’s vision that changes as the distance between character and target decreases.'
         ],
         "FullCatch": [
-            ''
+            'The changeling has a lock of hair from the target.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s internal compass goes wild, causing dizziness and headaches. The character suffers a -1 penalty to all rolls until she secures eight hours of uninterrupted sleep.',
+            'Failure: The character is unable to get a bead on the target.',
+            'Success: For the next hour, the character knows in what direction the target is. If the target moves, the character’s sense of direction toward the target adjusts accordingly. Note that the target may be moving in the opposite direction, and Speed may end up a factor in if one is able to outpace the other.',
+            'The character can reactivate this clause once the hour is up in an endeavor to continue tracking that same target. Doing so, however, becomes more and more difficult as the hours go on — with each subsequent hour after the first, the character suffers a cumulative -1 penalty to the roll to activate Mindfinder.',
+            'Note that the character must have at least met the target in question, even in passing. She cannot use this clause to locate targets she has never before encountered.',
+            'Exceptional Success: The power works for two hours instead of one on this activation.'
+
         ],
         "Description": "Know the direction to any target",
         "Catch": "Changeling has a lock of hair from the target.",
         "Court Goodwill Requirement if not a member": "None",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Survival - Subject's Wits"
     },
     {
         "Rank": "••",
         "Name": "Finding the Flow",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The character finds that his movement is aided by a preternatural flow that he did not before possess — perhaps he feels in step with the southerly warm wind or the harsh gales sweeping from the north. Perhaps he simply feels in tune with every element in his proximity.'
         ],
         "FullCatch": [
-            ''
+            'The character successfully meditated for one full uninterrupted hour within the last 24 hours.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character’s movements are cursed for the remainder of the scene. All Physical dice pools suffer a -2 penalty during this time.',
+            'Failure: The character is unable to find his directional flow.',
+            'Success: The character can ignore a number of environmental dice penalties equal to successes gained (maximum of five penalty dice ignored). This works only on environmental penalties that would hamper Physical dice rolls (for instance, during a fight on an icy street, driving through a flooded parking lot, jumping across a chasm in gale-force winds or while picking a lock in total darkness). The character’s body seems to move almost of its own accord, aided by the balancing forces of the four directions. The effect lasts for a scene.',
+            'Exceptional Success: The character also gains +1 to his Defense during this time — he finds himself almost supernaturally attuned to incoming attacks.'
         ],
         "Description": "Ignore environmental penalties",
         "Catch": "The character successfully meditated for one full uninterrupted hour within the last 24 hours.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits"
     },
     {
         "Rank": "•••",
         "Name": "Inequity of the Center",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'In much of Asia, the “center” is as much a direction as north, south, east or west. One’s center is, to a point, one’s current location but it’s also more than that — it’s the axis of that person’s very being upon which all of space and time swings. This clause disrupts one’s sense of self, staggering the flow of chi in the brain and body — or, in less mystical terms, upsets the magnetic balance of a target’s internal compass with a directional curse.'
         ],
         "FullCatch": [
-            ''
+            'The changeling succeeds in touching a magnet to the target’s bare skin (requires a successful touch attack).'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character loses his own center. Assume that the negative effects that would plague the intended target now plague the character, instead (see below under “success”).',
+            'Failure: The curse fails to take hold (the opponent gets the same or more successes).',
+            'Success: The character rolls more successes. The target feels slightly confused and dizzy, particularly in regard to his location. In system terms, the target’s Speed is halved (round down) for the remainder of the scene. This also applies to any vehicle in which the character drives or is a passenger.',
+            'In story terms, this manifests in a number of ways. If walking, running or driving, the character makes persistent wrong turns without meaning to — in meaning to run through the doors of the restaurant, he accidentally instead walks into the alley just behind the restaurant without realizing he’s done so. In driving, he perhaps pulls into a dead-end or cul-de-sac, or maybe finds himself hemmed in by construction while the character’s own vehicle is able to handily escape. (In this way, the curse may manifest as obstacles as well as wrong turns.)',
+            'While the target’s actual Speed is technically unaffected (a man walking 10 miles per hour still walks 10 miles per hour), the Speed score sees a drop because of constant wrong turns, obstacles and interruptions.',
+            'Exceptional Success: The confusion further affects the target’s balance, and he assumes a -1 Defense for the remainder of the scene.'
         ],
         "Description": "Confuses a target, causing them to take many wrong turns, effectively penalizing speed",
         "Catch": "The changeling succeeds in touching a magnet to the target's bare skin.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Manipulation vs Powerstat + Survival"
     },
     {
         "Rank": "••••",
         "Name": "The Hundred Steps",
-        "Action": "",
+        "Action": "Extended (one roll is equivalent to one minute, successes required increase with the size of the space protected; a 100-square-foot room requires five successes, a 500-square-foot room requires 10 successes and a 1,000-square-foot room requires 15 successes)",
         "FullDescription": [
-            '',
-            ''
+            'With this clause, a changeling protects his domicile — up to a thousand square feet — from intruders. The clause requires him to walk 100 steps away from his domicile in each of the four directions before the clause can take full effect.'
         ],
         "FullCatch": [
-            ''
+            'The character has two working compasses somewhere on his body at the time of the clause’s activation.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The supposedly protected room rejects the character. For as long as he remains within that space, he suffers flulike symptoms (chills, fever, coughing, nausea) that cause him a -3 dice penalty. The flu-like effects fade immediately when he leaves the space. The space remains cursed in this way for 12 hours.',
+            'Failure: The character fails to call the four directions to protect his chosen space.',
+            'Success: The space is blessed by the four directions that conspire to protect it from intrusion. If the space is a room or building with exits and entry points, anybody besides the character must make a successful Lockpicking roll (five successes necessary) just to open a door, window, or other point-of-entry (such as a gate, grate, manhole cover, etc.). Even if the point of entry isn’t or cannot be locked, it becomes locked during this time (even so far as manifesting a keyhole during this time frame). If the space protected has no walls, then the general area gains the following blessings, but can be penetrated without fail (as there are no points of entry able to feature the mystical locks).',
+            'Once inside, anybody besides the character suffers several ill effects. His Defense and Initiative scores are halved (round up). Also, changelings and the True Fae cannot access their Contracts in this space (though they can affect the space from outside of it with no problem). The Storyteller might also declare that other supernatural creatures cannot access their magic in the protected space (vampires are cut off from Disciplines, werewolves from Gifts, Prometheans from Transmutations, mages from their spells, etc.).',
+            'In story and setting terms, all but the character feels “off” while in the space. They find objects are always in their way, the might inadvertently trip on loose floorboards or simply feel queasy as they smell something strange, feel unnaturally warm, or suffer from a chill wind at their backs.',
+            'This blessing lasts until the next sunrise or sundown, which-ever comes first. However, the character may continue the benefits without rolling by expending an additional two Glamour (the catch does not apply, here). If the character does so, the benefits extend for another 24 hours. He can continue these effects indefinitely.',
+            'Exceptional Success: Not only is the space itself blessed, but the character using the clause finds himself blessed, as well.'
         ],
         "Description": "Powerful blessing upon an area to protect it from intruders",
         "Catch": "The character has two working compasses somewhere on his body",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "2 Glamour and 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Resolve"
     },
     {
         "Rank": "•••••",
         "Name": "Harmony of Portals",
-        "Action": "",
+        "Action": "Reflexive",
         "FullDescription": [
-            '',
-            ''
+            'A changeling using this clause can step through one door and walk out another one miles away — in no more time than it takes to blink an eye.'
         ],
         "FullCatch": [
-            ''
+            'The character possesses the key to both doors.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character steps through the door and appears in a particularly dangerous part of the Hedge.',
+            'Failure: The character walks through the doorway and comes out the other side.',
+            'Success: The character walks, climbs or crawls through one portal and exits out another portal of his choice within a number of miles equal to his Wyrd score.',
+            'This has a few restrictions. First, it requires that each portal be closeable in some fashion — a door on hinges, a manhole cover sliding over the hole, a trap door to be shut, etc. Second, the changeling cannot come out a random door. He must have in the past seen the portal out of which he cares to exit. Choosing a random door dumps him into the Hedge — which may be fine, but it may also put him in great danger, as this portal into the Hedge is only one-way.',
+            'Exceptional Success: The character can choose an exit portal within a range equal to twice his Wyrd score in miles.'
         ],
         "Description": "Walk between two doors, potentially separated by several miles",
         "Catch": "The character possesses the key to both doors.",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Stamina"
     },
@@ -5889,6 +6510,7 @@ const minorCourtContractData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": ""
     },
@@ -5897,8 +6519,8 @@ const minorCourtContractData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'Entropy is an active force in the world, attempting to break down all aspects of reality. Left unguided and unsupported, all manner of things will deteriorate, whether they be objects falling to decay, politics tangling to disorder or ideals tarnishing into apathy. To combat this force and bring about positive change, active effort must be made. Determining where and when to bring about change is a heavy responsibility, but to ignore it is to concede the Lost existence to destruction, and that is an unacceptable fate to allow.',
+            'This is the basis of the Dawn Court’s philosophy, and the bargains they’ve struck with Potential reflect their views. Because Dawn Court believes not all Lost are capable of the insight or responsibility to Lost society that must be possessed to use the Contracts of Potential wisely, Court Goodwill for Dawn is required in order for those outside the Court to purchase the Contracts of Potential. It is their hope that all Lost will eventually come to see the wisdom of the Bloody Rose, and, in doing so, play their own vital role in Lost culture’s future. They are, however, pragmatic enough to know that time has not yet come. Contracts of Potential are non-affinity Contracts for any Lost who is not a part of the Dawn Court.'
         ],
         "FullCatch": [
             ''
@@ -5909,106 +6531,142 @@ const minorCourtContractData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "Court Goodwill (Dawn)",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "Swords at Dawn 138"
     },
     {
         "Rank": "•",
         "Name": "Light the Path",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Lost are as capable of duplicity and subterfuge as any other sentient beings, but an accurate understanding of another’s true motives can be vital when determining what path to take forward. For the Dawn Courtier whose life is at stake (along with the lives and Clarity of others), being able to sense others’ true motivations in taking a certain action can be vital.'
         ],
         "FullCatch": [
-            ''
+            'The changeling has caught the target in a lie previously.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling receives an incorrect motivation about the specified action or statement, and believes it to be true.',
+            'Failure: The character cannot discern the target’s motivation.',
+            'Success: The changeling learns one of the subject’s motivations of the specified action or statement.',
+            'Exceptional Success: The character learns two motivations of the specified action or statement or that only a single motivation exists for it.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "-", Situation: "The statement or action is currently happening or just happened in the last turn." },
+                    { Modifier: "-1", Situation: "The specified statement or action is not currently pertinent to the situation at hand (ie: is not being discussed, was not recently witnessed, a similar situation is not happening, etc.)" },
+                    { Modifier: "+1", Situation: "The changeling was present for the statement or action." },
+                    { Modifier: "-3", Situation: "The changeling was not present, but only heard about it second hand." },
+                    { Modifier: "-1", Situation: "The motives for the specified action or statement are something the targeted individual is actively hiding or considers a secret." },
+                    { Modifier: "-3", Situation: "The targeted individual is not, himself, aware of his motivations for the specified action or statement." },
+                ]
+            }
         ],
         "Description": "Learn of the motivation of an action or statement",
         "Catch": "Previously caught the target in a lie.",
         "Court Goodwill Requirement if not a member": "None",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Wyrd vs Powerstat + Composure"
     },
     {
         "Rank": "••",
         "Name": "Read the Web",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'No man is an island. When decisive action must be taken, knowing the relationship between those involved can help to minimize potential unexpected backsplash from said action. Being able to sense where one’s allies or enemies exist is even more helpful. A changeling with this clause can perceive and interpret the relationships of those around him, as represented by a web of ethereal threads perceivable only to him.'
         ],
         "FullCatch": [
-            ''
+            'The changeling shares a pledge with the target.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The character misreads the relationship threads between the target and other individuals. This could manifest as if no web existed, or in a wholly inaccurate set of readings.',
+            'Failure: The changeling is unable to perceive any relationship ties between the target and others.',
+            'Success: The character perceives the connections between the target and those presently around him as translucent threads that run between them. This effect lasts only for a single turn, and the amount of information gleaned is equal to the number of successes achieved (see Relationship Threads sidebar for details.) Examples of information gleaned include but are not limited to: whether the target has a relationship tie with the other individual, the general length of acquaintance, the intensity of the target’s feelings for or about the other individual, the dominant emotion the target is feeling for or about the other individual at the moment, whether the target shares an oath with the other individual and how significant that oath is.',
+            'Exceptional Success: As per a success, however the number of pieces of information gleaned is twice the number of successes.',
+            '<b>Relationship Threads:</b> The relationship threads brought to light by the use of Read the Web represent the connection between two individuals in a visible fashion. Read the Web gives the character using it the ability to see and understand the relationship threads connecting his target with others present at that time. The changeling can choose to gain one piece of information about a thread between his target and any other person present. The first success is enough to tell if there is a relationship thread present between the target and one other individual present. If more successes are achieved, the changeling can either note the existence of threads between the target and other individuals, or garner more details on the first thread noted (assuming that a thread exists.)',
+            'Relationship threads grow in dimension over time, so the bonds between two individuals who have just met might be as narrow as a spider’s web, while those between Lost who shared decades’ worth of a durance together might appear as a thick rope. One trait the changeling can look for is the thickness of the thread, from which he can garner a general idea of whether the target has known the other individual for a long time or is a recent acquaintance. As with all information garnered using this clause, the data is general. A lifelong acquaintance will obviously be thicker than newly-met individuals, but exact months, or even years of time are impossible to tell.',
+            'Other traits that can be learned from a relationship thread are the intensity and general emotion felt by the target for the person on the other end of the thread. Different relationship types are represented visually through different colors. Romantic love glows a bright and healthy pink, with lust and passion tinting the connections into the burgundy range. Anger or hatred flares a jarring orange, while loathing or distaste falls into the icy blue-white range. Bland or casual acquaintanceships are represented by threads that are likewise bland and dull in color, whereas intense emotions (positive or negative) appear vibrant or even luminescent.',
+            'Oathbound individuals’ ties to another person are woven through with tiny red decorative threads, with the ornamental threads being thicker to reflect weightier oaths.',
+            'Note that this clause shows only the general feelings of the target for the person on the other end of the relationship thread, not the other person’s feelings for them. While some relationships will be equal in both directions, if a stalker who is obsessed with someone was the target, his thread might show a bright and loving thread for his object of admiration. On the other hand, if the object of his admiration was the target, her thread to him might show apathy or distaste.'
         ],
         "Description": "Determine the nature of a relationship between two people through a translucent strand that connects.",
         "Catch": "The Changeling shares a Pledge with the target",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Intelligence + Wyrd - Subject's Composure"
     },
     {
         "Rank": "•••",
         "Name": "Martyr's Will",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Sometimes doing what must be done to help bring about change demands more than the average Lost can provide. For those who steel themselves to the task, however, using Martyr’s Will can bolster their resolve and supplement their bravery even beyond what Heroic Effort normally can reach.'
         ],
         "FullCatch": [
-            ''
+            'The changeling deliberately sheds a few drops of his own blood.'
         ],
         "Roll Results": [
-            ''
+            '<b>Drawback:</b> Using Martyr’s Will stretches the potential of even the strongest Lost’s Willpower. After successfully activating this clause, the changeling may not regain Willpower by any means for the next 24 hours.',
+            'Dramatic Failure: The changeling’s will is simply not strong enough to bolster them. The Contract fails, and any attempts to spend Willpower to gain bonuses to actions or Resistance efforts garner one less die bonus than normal (ie: only 2 for Heroic Effort and 1 for Resistance efforts.)',
+            'Failure: The Contract fails to have any effect.',
+            'Success: For the remainder of the scene after activating Martyr’s Will, the changeling receives an additional +2 dice bonus (for a total of a +5 dice bonus) to any action where Willpower is being expended for Heroic Effort (pp. 132-133 of the World of Darkness Rulebook.) They also receive a +2 die bonus to any Resistance efforts where Willpower is expended (for a total of a +4 dice bonus.)',
+            'Exceptional Success: As with a normal success, but the effect of Martyr’s Will lasts until the next sunrise.'
         ],
         "Description": "Increase extra dice when spending Willpower. Drawback of target being unable to regain willpower for the next 24 hours.",
         "Catch": "Deliberately shed a few drops of blood",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
         "Dice Pool": "Wyrd + Resolve"
     },
     {
         "Rank": "••••",
         "Name": "Shift the Foundation",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Sometimes one’s own efforts are not enough to create great change, and allies must be formed or opinions swayed. This clause allows the Dawn Court to create fundamental (although temporary) changes in others, shifting their Virtue or Vice to one which is more conducive to the targeting changeling’s goals.'
         ],
         "FullCatch": [
-            ''
+            'The changeling and target are actively involved in a conversation related to the Vice or Virtue he hopes to shift the target towards.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The targeted individual’s Virtue or Vice is unchanged. Instead, the changeling’s Virtue or Vice (whichever he was attempting to shift) changes to match that of the target.',
+            'Failure: The clause fails to have any effect.',
+            'Success: The target’s Virtue or Vice temporarily changes to that specified by the changeling. If the target’s Virtue or Vice is already what the changeling is attempting to shift it to (either naturally or because it has been successfully shifted previously), that Virtue or Vice is strengthened, and the target must make a successful Resolve + Composure roll (or spend a Willpower) to avoid taking action in any situation where their Virtue or Vice comes into play. Either effect lasts until the next sunrise.',
+            'Exceptional Success: As with a normal success, but the target makes a Resolve + Composure check at the next dawn. If he fails, the effects continue until sunset. Tests are run at each dawn and sunset and the effects last until the target succeeds in his roll.'
         ],
         "Description": "Temporarily change the targets Virtue or Vice.",
         "Catch": "Changeling and Subject are conversing about Virtue or Vice targeted as the result of the Contract.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "3 Glamour",
         "Cost": "●●●",
-        "Dice Pool": "Dusk Court Mantle +\n                Manipulation + Expression vs Composure + Subterfuge"
+        "Dice Pool": "Dusk Court Mantle + Manipulation + Expression vs Composure + Subterfuge"
     },
     {
         "Rank": "•••••",
         "Name": "Tenacity of Hope",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Some victories are simply too important to allow anything to keep them from being accomplished. By using Tenacity of Hope, a changeling can supernaturally dedicate himself towards achieving a certain goal and be aided by the force of the Wyrd in their efforts.',
+            'A changeling attempting to activate this clause must focus it towards a certain specific goal that is achievable through the action of the Lost in question. The Storyteller is the final authority on what goals are acceptable to use for this clause, and whether a specific goal has been accomplished or not. Specific goals such as “To discover who betrayed my motley” is likely acceptable. “To bring about Mara-Zen’s social downfall” might be acceptable, although vague. “To have the sun come up in the morning” or other accomplishments that are assured to happen through no action of the Lost are not appropriate goals — unless for some reason the sun is currently being prevented from rising in some fashion and the changeling has set the goal of fixing the matter.',
+            '“To survive” is never an acceptable goal for the purpose of this clause. The Wyrd will not make bargains in a situation where its price (the drawback) has no chance of being fulfilled.'
         ],
         "FullCatch": [
-            ''
+            'The target is using this Contract for a selfless purpose (ie: to benefit someone other than himself, or Lost society as a whole.)'
         ],
         "Roll Results": [
-            ''
+            '<b>Drawback:</b> Once the Contract is successfully activated, if the specified task is not fully accomplished before the Contract wears off, the character receives a penalty of -3 dice on all attempted actions and a -2 dice penalty on all Resistance efforts (not just those related to the goal) for a number of days equal to the duration of the clause. If the goal is achieved during the drawback, the drawback ends immediately.',
+            'Dramatic Failure: The changeling fails to receive any benefit to attempts to accomplish the specified task, and loses the benefit of the 10-again rule on any attempts related towards that task for the next 24 hours; attempts by the changeling to activate Tenacity of Hope on that that specific task within the next 24 hours will automatically fail.',
+            'Failure: The clause fails to have any effect.',
+            'Success: The changeling receives the benefits of the 8-again rule towards any actions taken to accomplish the specific goal focused on while activating it. As well, any action or resistance rolls directly related to achieving that goal are made as if they were under the effects of Heroic Effort rules (p. 132, World of Darkness Rulebook). These include a +3 die bonus to any actions taken towards achieving the goal and a +2 die bonus to Resistance efforts related to attempts to deter or delay their efforts towards the goal. These bonuses end when the task is completed, or after a number of days equal to the number of successes achieved, whichever comes first.',
+            'If the goal is accomplished before the Contract wears off, no drawback is enacted. Once activated, Tenacity of Hope cannot be voluntarily “turned off” before the duration runs out or the task is accomplished, whichever comes first.',
+            'Exceptional Success: As with a normal success, but the changeling receives the benefits for a number of days equal to twice the amount of successes rolled or until the goal is achieved, whichever comes first.'
         ],
         "Description": "Massive benefits towards a goal, such as 8-again, etc. Drawback: If goal is not reached within time period, suffer penalties until goal or equal time is met.",
         "Catch": "Target is using this Contract for a selfless Purpose.",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "3 Glamour and 1 Willpower",
         "Cost": "●●●○",
         "Dice Pool": "Wyrd + Resolve"
     },
@@ -6017,8 +6675,7 @@ const minorCourtContractData = [
         "Name": "N/A",
         "Action": "",
         "FullDescription": [
-            '',
-            ''
+            'The end is predestined; it is only our path between here and there which we have any control over. All things will fail in the end; we can only shine as brightly as we can before the night envelops us entirely. This is the basis of the Dusk Court’s philosophy, and the bargains they’ve struck with Entropy reflect this fatalistic belief. Because the Dusk Court believes that the truth behind their fatalism affects all Lost, not only those of their own Court (and because they believe that the Fate of all Lost is to eventually come to realize the truth in their philosophy), no Court Goodwill for Dusk is required to purchase the Contracts of Entropy. Whatever pact was struck with Entropy, apparently it was a generous one. They are, however, considered non-affinity Contracts for any Lost who is not a part of the Dusk Court. Those with Dusk Court’s Goodwill can also purchase them as affinity Contracts.'
         ],
         "FullCatch": [
             ''
@@ -6029,126 +6686,145 @@ const minorCourtContractData = [
         "Description": "N/A",
         "Catch": "N/A",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A"
     },
     {
-        "Rank": "(Dusk)",
-        "Name": "N/A",
-        "Action": "",
-        "FullDescription": [
-            '',
-            ''
-        ],
-        "FullCatch": [
-            ''
-        ],
-        "Roll Results": [
-            ''
-        ],
-        "Description": "N/A",
-        "Catch": "N/A",
-        "Court Goodwill Requirement if not a member": "Court Goodwill (Dusk)",
-        "Cost": "Cost",
-        "Dice Pool": "Dancers in the Dusk 141"
-    },
-    {
         "Rank": "•",
         "Name": "Babel's Curse",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Communication is based on a carefully crafted set of common understanding, symbolism and meaning. An utter breakdown of one’s ability to give and share information is a devastating blow.'
         ],
         "FullCatch": [
-            ''
+            'The changeling writes the target’s name or commonly-used nickname on a piece of paper and tears it into tiny pieces.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The Contract backfires, and the changeling suffers from the effects of Babel’s Curse for the next 24 hours.',
+            'Failure: The Contract has no effect.',
+            'Success: The targeted individual is unable to communicate in any manner for a number of turns equal to the changeling’s successes. This includes verbal, written, physical or supernatural means. It is not simply a matter of losing one’s voice or forgetting how to write; the shared basis for communicating ideas breaks down for the target, leaving them able to speak words, write letters or use gestures, but not in such a way that they have any meaning for those around them. The most fundamental of communications: a shout of alarm, a cry of pain or a joyful laugh can be communicated. Anything more complex is scrambled until its meaning is lost entirely.',
+            'Exceptional Success: As with an ordinary success, however, for the duration of the Contract the targeted individual can also not understand any written, verbal, physical or supernatural communication more complex than the fundamentals expressed above, effectively shutting off communication entirely as long as the Contract is in effect.'
         ],
         "Description": "Prevent another from communicating",
         "Catch": "Write target's name or common nickname on a piece of paper then tear it to pieces",
         "Court Goodwill Requirement if not a member": "None",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Intelligence + Expression + Mantle (Dusk) - Resolve"
     },
     {
         "Rank": "••",
         "Name": "Sense the Impending Doom",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'The changeling invoking this clause is able to sense disaster headed his direction. His sheer certainty that something bad will without a doubt befall him becomes not paranoia, but a supernatural sensitivity to the many dooms lying in wait.'
         ],
         "FullCatch": [
-            ''
+            'The changeling has consumed at least a serving of caffeinated beverage within the last hour.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling’s fatalism reaches paranoid levels, effectively undermining his ability to sense potential true danger. For the next 24 hours, all Perception rolls he makes suffer from a -2 penalty. This penalty is cumulative, if he suffers multiple instances of dramatic failure while making attempts to activate this Contract.',
+            'Failure: The changeling’s senses are unaltered.',
+            'Success: The character’s acceptance that bad things will happen to him gives him the ability to react to them faster when they do. After successfully activating this Contract, the changeling receives the benefit of the Danger Sense Merit for the scene. If he already possesses the Danger Sense Merit, the normal +2 modifier becomes +4 for the duration of the Contract. As well, when entering into an inherently dangerous situation with the Contract activated (even one which does not involve an impending ambush) the Lost experiences an uneasy feeling. The Contract gives no indication of the nature or source of the danger, but it does grow somewhat stronger should the Lost continue towards a dangerous Fate. This power is not specific enough to determine which wire is connected to a bomb and which is not, for example, but might be used to warn a changeling that opening or passing through a certain door is more dangerous than remaining in the room or going back the way he came.',
+            'Exceptional Success: As per a success, but the effects last for a 24-hour period.'
         ],
         "Description": "Detect dangerous situations, react to danger faster",
         "Catch": "Consume at least a serving of caffeinated beverage within the last hour.",
         "Court Goodwill Requirement if not a member": "●●●",
+        "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wits + Occult + Mantle (Dusk)"
     },
     {
         "Rank": "•••",
         "Name": "Gift of the Skald",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'This clause allows the Dusk Court to share the strength gleaned from their acceptance of their Fate with those around them. It is often used as a recruiting tool to the Dusk Court, by those who believe that it is the ultimate Fate of all Lost to join the Glacial Axe.',
+            'The Gift of the Skald bonus cannot be stacked with other applications of the same Contract. Any individual may only be affected by one “application” of this Contract at any given time.'
         ],
         "FullCatch": [
-            ''
+            'The changeling is a member of the Dusk Court and proselytizes to the target(s) for a minimum of five minutes about the truth of the Dusk philosophy.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling suffers a -2 penalty to all Resistance-based rolls for the next 24 hours.',
+            'Failure: The Contract fails to have any effect.',
+            'Success: For a number of turns equal to the changeling’s successes, each target receives a +2 bonus to all Resistance rolls made.',
+            'Exceptional Success: As with a normal success, but the targets’ bonuses last for 24 hours.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "At least half the targeted group is Dusk Court." },
+                    { Modifier: "+1", Situation: "The changeling has bested at least one of the target group in combat within the last 24 hours." },
+                ]
+            }
         ],
         "Description": "Target(s) gain a bonus to Resolve checks",
         "Catch": "Invoker is a member of Dusk and spends at least 5 minutes proselytizing on the Dusk philosophy.",
         "Court Goodwill Requirement if not a member": "●●●●",
+        "FullCost": "1 Glamour per target (to a maximum of the changeling’s Wyrd in targets) + 1 Willpower",
         "Cost": "● per target + ○",
         "Dice Pool": "Presence + Persuasion + Mantle (Dusk) (vs target's Resolve + Wyrd if they WANT to resist)"
     },
     {
         "Rank": "••••",
         "Name": "Hero's Stand",
-        "Action": "",
+        "Action": "Instant Contested",
         "FullDescription": [
-            '',
-            ''
+            'Using this clause allows the changeling to draw a proverbial line in the sand and declare a formal duel against any single enemy or foe within earshot of him. While this challenge does not force the enemy to engage him in battle, it gives the changeling strong bonuses when fighting his declared enemy, and curses the foe who would run rather than face him.',
+            'The changeling indicates his target, challenging him in no uncertain terms. This can be visual (making an obscene gesture) or verbal (anything from yelling “Hey you!” to a formal declaration of challenge.) The target must be able to perceive the challenge (visually or audibly) but the Contract makes the nature of the challenging words or gesture immediately apparent.'
         ],
         "FullCatch": [
-            ''
+            'The changeling is standing on something which marks off a small territory (no more than 5 foot by 5 foot). This can be as simple and temporary as a blanket thrown on the ground, or as elaborate or permanent as a formal Holm-gang square or inlayed square of flooring. If the changeling uses this catch to activate the Contract, all effects of the Contract (bonuses and target’s curse) end immediately if he steps (or is forced) outside of that marked ground.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The changeling suffers a -2 penalty to all Brawl or Weaponry rolls for the next 24 hours, and the Glamour is wasted. The target is aware he has been challenged and may respond, but is under no ill effects if he does not.',
+            'Failure: The Contract fails to have any effect and the Glamour is wasted. The target is aware that he has been challenged and may respond, but is under no ill effects if he does not.',
+            'Success: For a number of turns equal to the changeling’s successes, the changeling’s Brawl or Weaponry (whichever was used in the challenge) is increased by a number of dots equal to the number of successes rolled, but only against the specified target. As well, should the targeted enemy attempt to flee or refuse to engage the changeling in combat, he is cursed with a -2 penalty to all Composure rolls for a number of turns equal to the changeling’s number of successes.',
+            'Exceptional Success: As with a normal success, but the target’s penalty curse lasts for 24 hours.',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "+1", Situation: "The changeling is wielding an axe." },
+                    { Modifier: "+1", Situation: "The changeling and his target have already exchanged blows within the last 24 hours." },
+                    { Modifier: "+1", Situation: "The target’s allies in the immediate area outnumber the changeling’s allies in the immediate area (+1 for each ally over to a maximum of +5)" },
+                    { Modifier: "-1", Situation: "The changeling’s allies in the immediate area outnumber the target’s allies in the immediate area (-1 for each ally over to a maximum of -5)" },
+                ]
+            }
         ],
         "Description": "Challenge a target to gain a bonus to Brawl/Weaponry, they take Composure penalty if flee",
         "Catch": "Issue challenge while standing in a marked space <5' square.",
         "Court Goodwill Requirement if not a member": "●●●●●",
+        "FullCost": "1 Glamour + 1 Willpower",
         "Cost": "●○",
         "Dice Pool": "Resolve + Brawl or Weaponry + Mantle (Dusk) vs Composure + Wyrd"
     },
     {
         "Rank": "•••••",
         "Name": "The Centre Cannot Stand",
-        "Action": "",
+        "Action": "Instant",
         "FullDescription": [
-            '',
-            ''
+            'Even Wyrd is not immune to the effects of entropy, and with sufficient effort a changeling may turn the Wyrd against itself, dispelling an active Contract. The targeting changeling must specify what Contract she are attempting to cancel. If the Contract is specifically cast on a target object or individual, she must specify the object or individual as well.'
         ],
         "FullCatch": [
-            ''
+            'The changeling herself possesses the Contract which she is targeting and has activated it within the last 24 hours.'
         ],
         "Roll Results": [
-            ''
+            'Dramatic Failure: The attempt to nullify the Contract fails and some unpredictable but negative by-product befalls the changeling. This effect is left to the Storyteller’s discretion. Options include (but are not limited to) having the changeling fall under the effects of the Contract she was attempting to dispel (mirroring the level and duration that it was originally activated at), a loss of half (rounded up) of her remaining Glamour, delivering lethal damage equal to the dot level of the Contract she was targeting, or bestowing a major derangement for a number of days equal to the dot level of the Contract she was targeting. Derangements gained in this way do trigger clarity checks at the appropriate level. Storytellers are encouraged to elaborate on cosmetic but neutral effects for this backlash of Wyrd, as well.',
+            'Failure: The changeling is unable to affect the targeted Contract. If the Contract is actively affecting someone else, the affected individual may make a Wyrd + Occult test to attempt to determine that someone was attempting to dispel the Contract. An exceptional success on this test allows them to identify the source of the attempt as well.',
+            'Success: The targeted Contract is nullified. If the Contract is actively affecting someone else, the affected individual may make a Wyrd + Occult test to determine that someone was attempting to dispel the Contract. An exceptional success on this test allows him to identify the source of the attempt as well.',
+            'Exceptional Success: The Contract is nullified, and none of the previously-mentioned tests can be made to determine where the dispelling came from. This does not stop others from assuming the Lost is guilty, if they are aware of her ability to cancel Contracts, nor does it protect her action from being sensed by other abilities or Contracts (such as Wyrd’s Eye.)',
+            {
+                'Suggested Modifiers': [
+                    { Modifier: "-1", Situation: "The Lost who activated the targeted Contract is of a higher Wyrd than the changeling attempting to cancel it (-1 per level higher)" },
+                    { Modifier: "+1", Situation: "The changeling has witnessed the specific Contract she is attempting to nullify being activated" },
+                    { Modifier: "+1", Situation: "The changeling spends additional Glamour into her efforts (beyond the required 2, +1 modifier per extra Glamour spent up to a maximum of 3)" },
+                ]
+            }
         ],
         "Description": "Nullify a target's Contract",
         "Catch": "The Changeling knows and has used the target Contract in the last 24 hours.",
         "Court Goodwill Requirement if not a member": "N/A",
+        "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Intelligence + Occult + Mantle (Dusk) - level of Contract"
     }
@@ -6172,6 +6848,7 @@ const goblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "Rites of Spring 117"
@@ -6193,6 +6870,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a willpower dot.",
         "Catch": "Used to protect a close friend from harm",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Manipulation",
         "Book": "RoS 117"
@@ -6214,6 +6892,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a willpower dot.",
         "Catch": "Used when striking a blow against a mortal enemy",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Wits",
         "Book": "RoS 117"
@@ -6235,6 +6914,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a willpower dot.",
         "Catch": "Target publicly lied about the user to turn public or official opinion against the user",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Subterfuge vs. Powerstat + Resolve",
         "Book": "RoS 118"
@@ -6256,6 +6936,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a willpower dot.",
         "Catch": "User is being pursued by Hobgoblins",
+        "FullCost": "",
         "Cost": "●●●",
         "Dice Pool": "Wyrd + Stealth - Subject's Powerstat",
         "Book": "RoS 118"
@@ -6277,6 +6958,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend 2 willpower dots.",
         "Catch": "Used to recall a child younger than seven",
+        "FullCost": "",
         "Cost": "●●●●",
         "Dice Pool": "Wyrd + Occult",
         "Book": "RoS 119"
@@ -6298,6 +6980,7 @@ const goblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "Rites of Spring 120"
@@ -6319,6 +7002,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a willpower dot.",
         "Catch": "Used to heal or cure a blood relative",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Medicine",
         "Book": "RoS 120"
@@ -6340,6 +7024,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a willpower dot.",
         "Catch": "Target is a blood relative within three generations",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Stamina",
         "Book": "RoS 121"
@@ -6361,6 +7046,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Changeling permanently loses the color of his eyes and his beauty, becoming bland and colorless (Though never ugly) or downgrading Striking Looks merit.",
         "Catch": "Target must be fed an item of food the user prepared",
+        "FullCost": "",
         "Cost": "●●●",
         "Dice Pool": "Wyrd + Manipulation -Subject's Composure",
         "Book": "RoS 121"
@@ -6382,6 +7068,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a resolve dot.",
         "Catch": "Causes someone to believe an abstract ideal",
+        "FullCost": "",
         "Cost": "●●●●○○",
         "Dice Pool": "Wyrd + Persuasion - Subject's Powerstat + Resolve",
         "Book": "RoS 122"
@@ -6403,6 +7090,7 @@ const goblinContractData = [
         ],
         "Drawback": "Expensive cost to invoke. Must spend a stamina dot.",
         "Catch": "Target has slain one of the user's blood relatives",
+        "FullCost": "",
         "Cost": "●●●○",
         "Dice Pool": "Wyrd + Intimidation vs. Powerstat + Stamina",
         "Book": "RoS 123"
@@ -6424,6 +7112,7 @@ const goblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "Dancers in the Dusk 65"
@@ -6445,6 +7134,7 @@ const goblinContractData = [
         ],
         "Drawback": "Signs of use remain for twice as long as the disguised mantle.",
         "Catch": "The decorates her skin with a sign appropriate to the Court she is disguising herself as.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Occult",
         "Book": "DiD 65"
@@ -6466,6 +7156,7 @@ const goblinContractData = [
         ],
         "Drawback": "All Glamour costs are increased by one for 24 hours.",
         "Catch": "Brandishing a drawn weapon.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Presence - Composure",
         "Book": "DiD 66"
@@ -6487,6 +7178,7 @@ const goblinContractData = [
         ],
         "Drawback": "Significant negative Perception modifiers to the following scene.",
         "Catch": "Burn the feather of a keen sighted bird and rub the ashes on your eyelid.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Occult",
         "Book": "DiD 66"
@@ -6508,6 +7200,7 @@ const goblinContractData = [
         ],
         "Drawback": "All Perception for things unrelated to the Wyrd is penalized.",
         "Catch": "Breaks a pair of prescription glasses.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Occult",
         "Book": "DiD 67"
@@ -6529,6 +7222,7 @@ const goblinContractData = [
         ],
         "Drawback": "Pay the cost of the Clause you are attempting to block.",
         "Catch": "The Changeling has been a target of a Contract cast by the subject in the past 24 hours.",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Occult - Subject's Wyrd",
         "Book": "DiD 68"
@@ -6552,6 +7246,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "N/A"
@@ -6572,6 +7267,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "One of the three shots is automatically reduced to a chance die.",
         "Catch": "In a fight scheduled beforehand.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Dexterity",
         "Book": "CtL 164"
@@ -6592,6 +7288,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "If the user lies while the contract is active, however, they lose any ability to tell truth from lies, believing all but the most blatant fabrications.",
         "Catch": "Used at an official occasion",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Subterfuge",
         "Book": "RoS 114"
@@ -6612,6 +7309,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "This is done in return for a minor turn of bad luck.",
         "Catch": "Using the contract to win at gambling.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits",
         "Book": "CtL 164"
@@ -6632,6 +7330,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "N/A"
@@ -6652,6 +7351,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The guardian can not distinguish between a blow that would actually do harm or a playful shove.",
         "Catch": "Currently suffering at least one lethal or aggravated damage from a hand-to-hand attack",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Dexterity",
         "Book": "Rites of Spring 114"
@@ -6672,6 +7372,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Make a clarity roll at 5 dice when you next sleep, regardless of your current Clarity.",
         "Catch": "Used while naked.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits",
         "Book": "SaD 109"
@@ -6692,6 +7393,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Causes temporary insanity.",
         "Catch": "Divining the past or future of someone the changeling is in love with.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits",
         "Book": "Lost 165"
@@ -6712,6 +7414,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Causes one of the changeling's doors to be similarly opened for another some time soon.",
         "Catch": "Opening the door to someone who confessed his hatred towards the Changeling.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Larceny",
         "Book": "Lost 165"
@@ -6732,6 +7435,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "This illusion lasts only for a time though, and when it expires the deceived parties automatically know who was responsible for the deception.",
         "Catch": "Clause is used to deceive someone who's lied to the Changeling in the last 24 hours.",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Manipulation",
         "Book": "Lost 166"
@@ -6752,6 +7456,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The user can takes real Lethal damage when hurt inside the dream.",
         "Catch": "Used after staying awake for 24 hours",
+        "FullCost": "",
         "Cost": "●",
         "Dice Pool": "Wyrd + Resolve",
         "Book": "SaD 110"
@@ -6772,6 +7477,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "N/A"
@@ -6792,6 +7498,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Curses the user to suffer a dramatic failure on the next Subterfuge roll to get someone to believe a necessary lie.",
         "Catch": "Used to make the target forget about an event in which the user betrayed the target",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Manipulation - Subject's Composure",
         "Book": "RoS 115"
@@ -6812,6 +7519,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "If you heal target for 4 or more damage, the user takes all damage the target would take in the next day instead.",
         "Catch": "Target was injured while saving the Character from harm.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Empathy",
         "Book": "CtL 166"
@@ -6832,6 +7540,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The next attack they suffer doing lethal or aggravated damage does the previously avoided damage as a bonus.",
         "Catch": "Character is unarmed or otherwise unable to defend herself.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Dexterity",
         "Book": "CtL 167"
@@ -6852,6 +7561,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Curse of antipathy on you and a minor fae curse on the target's offspring",
         "Catch": "the target has broken your heart",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Empathy",
         "Book": "GobM p25"
@@ -6872,6 +7582,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Take a similar penalty on all actions not related to maintaining hospitality, except against violators",
         "Catch": "Own or be primary resident of location",
+        "FullCost": "",
         "Cost": "● to ●●●●●",
         "Dice Pool": "Willpower + Wyrd",
         "Book": "GotU p29"
@@ -6892,6 +7603,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The target will see the Changeling when she next looks into a mirror.",
         "Catch": "The changeling breaks the mirror.",
+        "FullCost": "",
         "Cost": "●○",
         "Dice Pool": "Wyrd + Resolve",
         "Book": "SaD 53"
@@ -6912,6 +7624,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "N/A"
@@ -6932,6 +7645,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The changeling must also swear an oath to the subject and suffers similar penalties if he breaks his oath — but the nature of the Goblin Oath is such that both parties may suffer if only one is unfaithful.",
         "Catch": "Used when making a treaty of alliance or non-aggression",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Intimidation",
         "Book": "RoS 115"
@@ -6952,6 +7666,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Suffer a bout of bad lack afterwords.",
         "Catch": "Used to best a rival or enemy.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Wits",
         "Book": "CtL 167"
@@ -6972,6 +7687,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Haha oh man what were you thinking? No seriously, nice going dumb ass! You deserve this.",
         "Catch": "Character is in the Hedge",
+        "FullCost": "",
         "Cost": "●○",
         "Dice Pool": "Wyrd + Presence",
         "Book": "CtL 167"
@@ -6992,6 +7708,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Many people in the area vividly remember the changeling and that they are responsible for the riot.",
         "Catch": "The changeling addresses the crowd and urges them to violence immediately before use. Most of the crowd must hear the changeling.",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Presence",
         "Book": "VL 23"
@@ -7012,6 +7729,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Changeling is marked with a fiery crown showing he was the one that activated the contract.",
         "Catch": "Drink a tablespoon of castor oil and suffer from stomach cramps.",
+        "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Dexterity",
         "Book": "SaD 54"
@@ -7032,6 +7750,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "N/A",
         "Catch": "N/A",
+        "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
         "Book": "N/A"
@@ -7052,6 +7771,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The user is drained of all Glamour as well.",
         "Catch": "Used against someone who murdered a blood relative. (Glamour expenditure is not negated)",
+        "FullCost": "",
         "Cost": "○(All Glamour)",
         "Dice Pool": "Wyrd + Presence",
         "Book": "RoS 116"
@@ -7072,6 +7792,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The creator cannot use his Seeming Blessing for as long as the ward continues to exist.",
         "Catch": "The ward is painted with the blood of a murdered enemy.",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Occult",
         "Book": "SaD 54"
@@ -7092,6 +7813,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "Another enemy is made aware of the escapee's new location.",
         "Catch": "Escaping someone who knew the changeling personally for over a year.",
+        "FullCost": "",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Presence",
         "Book": "CtL 168"
@@ -7112,6 +7834,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The keeper spied on knows where to find you until the following dawn.",
         "Catch": "Given a gift by the keeper or it's servants.",
+        "FullCost": "",
         "Cost": "●○",
         "Dice Pool": "Wyrd + Composure",
         "Book": "SaD 110"
@@ -7132,6 +7855,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "The changeling suffers a roll of their total Wyrd in bashing damage.",
         "Catch": "The user has been employed at some point to work on machines that they are targeting.",
+        "FullCost": "",
         "Cost": "●●●○",
         "Dice Pool": "Wyrd + Crafts",
         "Book": "VL 24"
@@ -7152,6 +7876,7 @@ const unclassifiedGoblinContractData = [
         ],
         "Drawback": "-3 to perception while the contract is active. The user cannot sleep and halves all traits until they can sleep.",
         "Catch": "Devours a child's dream",
+        "FullCost": "",
         "Cost": "●○",
         "Dice Pool": "Wyrd + Wits",
         "Book": "SaD 111"
