@@ -54,7 +54,8 @@ export default function ManyHeadersTable(props) {
                       className={`${isHeader ? 'table-row' : `alternating-row table-clickable ${props.activeRowLink ? 'active-row-link' : ''}`}`}
                       // onClick={!isHeader && props.activeRowLink ? () => goRouteId(data.link) : undefined}
                       onClick={
-                        props.activeRowLink
+                        props.activeRowLink &&
+                        (props.prereqForLink === undefined || data[props.prereqForLink] !== "" )
                           ? () => goRouteId(data.link)
                           : undefined
                       }

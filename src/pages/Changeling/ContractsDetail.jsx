@@ -11,20 +11,40 @@ export default function ContractsDetail(props) {
             {matchedcontract && (
                 <>
                     <div style={{ margin: '20px', width: '1000px' }}>
-                        <h1>{matchedcontract.Name} ({matchedcontract.Rank})</h1>
-                        {matchedcontract.FullDescription && (
-                            <div style={{ paddingBottom: "20px" }}>
-                                {matchedcontract.FullDescription.map((desc, index) => (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: desc }} />
-                                    </p>
-                                ))}
-                            </div>
-                        )}
-                        {matchedcontract.FullCost && (<div><b>Cost:</b> {matchedcontract.FullCost}</div>)}
-                        {matchedcontract['Dice Pool'] && (<div><b>Dice Pool:</b> {matchedcontract['Dice Pool']}</div>)}
+                        <h1>
+                            {matchedcontract.Name}
+                            {matchedcontract.Rank && matchedcontract.Rank !== "N/A" && ` (${matchedcontract.Rank})`}
+                        </h1>
+
+                        <div style={{ paddingBottom: "20px" }}>
+                            {matchedcontract.FullDescription.map((item, index) => {
+
+                                if (typeof item !== 'object') {
+                                    return (
+                                        <p key={index}>
+                                            <span dangerouslySetInnerHTML={{ __html: item }} />
+                                        </p>
+                                    );
+                                }
+
+                                const [title, data] = Object.entries(item)[0];
+                                const headers = Object.keys(data[0]);
+
+                                return (
+                                    <BaseTable
+                                        key={index}
+                                        headers={headers}
+                                        data={data}
+                                        title={title}
+                                    />
+                                );
+                            })}
+                        </div>
+                        {matchedcontract.FullCost && matchedcontract.FullCost  !== "N/A" && (<div><b>Cost:</b> {matchedcontract.FullCost}</div>)}
+                        {matchedcontract['Dice Pool'] && matchedcontract['Dice Pool']  !== "N/A" && (<div><b>Dice Pool:</b> {matchedcontract['Dice Pool']}</div>)}
                         {matchedcontract.Action && (<div><b>Action:</b> {matchedcontract.Action}</div>)}
-                        {matchedcontract.FullCatch && (
+
+                        {matchedcontract.FullCatch?.length > 0 && matchedcontract?.FullCatch[0] !== "" && (
                             <span>
                                 {matchedcontract.FullCatch.map((desc, index) => (
                                     <span key={index}>
@@ -54,10 +74,11 @@ export default function ContractsDetail(props) {
                                 />
                             );
                         })}
-                        {matchedcontract.Book && (<div><b>Book:</b> {matchedcontract.Book}</div>)}
+                        {matchedcontract.Book && matchedcontract.Book  !== "N/A" && (<div><b>Book:</b> {matchedcontract.Book}</div>)}
                     </div>
                 </>
-            )}
-        </div>
+            )
+            }
+        </div >
     )
 }
