@@ -15,7 +15,6 @@ export default function Contracts() {
     const goblinContHeader = ['Name', 'Rank', 'Benefit', 'Drawback', 'Catch', 'Cost', 'Dice Pool', 'Book']
     const unclassifiedGoblinContHeader = ['Name', 'Benefit', 'Drawback', 'Catch', 'Cost', 'Dice Pool', 'Book']
     const headerCheckFields = ['Rank']
-    const goblinFields = ['Name']
     const unclassifiedFields = ['Drawback']
     const contractData = ['Name']
     const courtData = ['Name', 'Dice Pool']

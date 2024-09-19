@@ -72,6 +72,8 @@ import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
 import Location from './pages/Generale/Location';
+import { allLocation } from './Data/LocationMerit';
+import LocationDetail from './pages/Generale/LocationDetail';
 import Size from './pages/Generale/Size';
 import Equipment from './pages/Generale/Equipment';
 import { Routes, Route } from 'react-router-dom'
@@ -195,6 +197,13 @@ function App() {
           <Route path="/books" element={<Books />} />
           <Route path="/size" element={<Size />} />
           <Route path="/merits/location" element={<Location />} />
+          {allLocation.map((location, index) => (
+            <Route
+              key={index}
+              path={`/merits/locations/${removeSpaceForLinks(location.Name)}`}
+              element={<LocationDetail location={location} />}
+            />
+          ))}
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />

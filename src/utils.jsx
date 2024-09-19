@@ -15,7 +15,7 @@ export function sortByKey(list, key) {
     });
 }
 
-// Filtro per array di oggetti che elimina oggetti indesiderati (ad esempio per creare link a pagine)
+// Filtro per array di oggetti che elimina interi oggetti indesiderati (ad esempio per creare link a pagine)
 export const filtreArrayOfObjects = (array, keyToFilter, valueToLeaveOut) =>
     array.filter(object => !valueToLeaveOut.includes(object[keyToFilter]))
 
@@ -28,5 +28,16 @@ export function addLink(data, keyName, baseLink) {
             ...item,
             link: `${baseLink}${keyValue.replace(/ /g, '_')}`,
         };
+    });
+}
+
+// rimuove un singolo campo da una lista di oggetti
+export function rimuoviCampi(lista, campiDaRimuovere) {
+    return lista.map(obj => {
+        const nuovoOggetto = { ...obj };
+        campiDaRimuovere.forEach(campo => {
+            delete nuovoOggetto[campo];
+        });
+        return nuovoOggetto;
     });
 }
