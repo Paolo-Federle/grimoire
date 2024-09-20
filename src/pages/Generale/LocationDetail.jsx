@@ -9,10 +9,9 @@ export default function LocationDetail(props) {
     console.log(matchedLocation)
 
     return (
-        <div style={{ paddingBottom: '20px' }}>
+        <div className='longTextContainer' >
             {matchedLocation && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
                         <h1>
                             {matchedLocation.Name}
                             {matchedLocation.Dots && matchedLocation.Dots !== "N/A" && ` ${matchedLocation.Dots}`}
@@ -41,7 +40,6 @@ export default function LocationDetail(props) {
                             );
                         })}
                         {matchedLocation.Book && matchedLocation.Book  !== "N/A" && (<div><b>Book:</b> {matchedLocation.Book}</div>)}
-                    </div>
                 </>
             )
             }

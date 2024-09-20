@@ -6,10 +6,9 @@ export default function NuminaDetail(props) {
     const matchedNumina = props.numina
 
     return (
-        <div>
+        <div className='longTextContainer'>
             {matchedNumina && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
                         <h1 style={{ marginBottom: '10px' }}>{matchedNumina.Name}</h1>
                         {matchedNumina.Page && (<div><b>Book:</b> {matchedNumina.Page}</div>)}
                         {matchedNumina.descrizione && <p dangerouslySetInnerHTML={{ __html: matchedNumina.descrizione }} />}
@@ -19,7 +18,6 @@ export default function NuminaDetail(props) {
                         ))}
 
                         <br />
-                    </div>
                 </>
             )}
         </div>

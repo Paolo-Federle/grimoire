@@ -55,10 +55,9 @@ export default function SpellDetail(props) {
 
 
     return (
-        <div style={{ paddingBottom: '20px' }}>
+        <div className='longTextContainer'>
             {matchedSpell && (
                 <>
-                    <div style={{ margin: '20px', maxWidth: '1000px' }}>
                         <h1>{matchedSpell.Titolo} ({matchedSpell.Arcana})</h1>
 
                         {matchedSpell.DescrizioneAlta && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.DescrizioneAlta }} /></p>}
@@ -72,7 +71,6 @@ export default function SpellDetail(props) {
                             {matchedSpell.RoteDice && <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} />}</p>
                         {matchedSpell.RoteDescrizione && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDescrizione }} /></p>}
                         {/* {matchedSpell.Book && (<div><b>Book:</b> {matchedSpell.Book}</div>)} */}
-                    </div>
                 </>
             )}
         </div>

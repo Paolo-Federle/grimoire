@@ -8,11 +8,10 @@ export default function ArtifactDetail(props) {
 
 
     return (
-        <div style={{ paddingBottom: '20px' }}>
+        <div className='longTextContainer'>
             {matchedImbuedItem && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
-                        <h1>{matchedImbuedItem.Nome} (Artifact Level {matchedImbuedItem["Artifact Level"]})</h1>
+                        <h1>{matchedImbuedItem.Nome} (Artifact Rank {matchedImbuedItem["Artifact Level"]})</h1>
 
                         {matchedImbuedItem.Durability && (<div><b>Durability:</b> {matchedImbuedItem.Durability}</div>)}
                         {matchedImbuedItem.Size && (<div><b>Size:</b> {matchedImbuedItem.Size}</div>)}
@@ -29,8 +28,6 @@ export default function ArtifactDetail(props) {
                                 ))}
                             </div>
                         )}
-
-                    </div>
                 </>
             )}
         </div>

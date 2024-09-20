@@ -92,6 +92,14 @@ td {
     cursor: pointer;
 }
 
+.longTextContainer {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px; 
+    padding-bottom: 20px;
+  }
+
 /* Media query for tablets */
 @media only screen and (max-width: 768px) {
     .grid-container {

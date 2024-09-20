@@ -6,10 +6,9 @@ export default function MageMeritsDetail(props) {
     const matchedMerit = props.merits
 
     return (
-        <div style={{ paddingBottom: '20px' }}>
+        <div className='longTextContainer'>
             {matchedMerit && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
                         <h1>{matchedMerit.Title} ({matchedMerit.Rating})</h1>
                         {matchedMerit.Prerequisites && (<div><b>Prerequisites:</b> {matchedMerit.Prerequisites}</div>)}
                         {matchedMerit.LongDescription && (
@@ -22,7 +21,6 @@ export default function MageMeritsDetail(props) {
                             </div>
                         )}
                         {matchedMerit.Book && (<div><b>Book:</b> {matchedMerit.Book}</div>)}
-                    </div>
                 </>
             )}
         </div>

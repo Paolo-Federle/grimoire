@@ -7,10 +7,9 @@ export default function ContractsDetail(props) {
     const matchedcontract = props.contracts
 
     return (
-        <div style={{ paddingBottom: '20px' }}>
+        <div className='longTextContainer'>
             {matchedcontract && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
                         <h1>
                             {matchedcontract.Name}
                             {matchedcontract.Rank && matchedcontract.Rank !== "N/A" && ` (${matchedcontract.Rank})`}
@@ -75,7 +74,6 @@ export default function ContractsDetail(props) {
                             );
                         })}
                         {matchedcontract.Book && matchedcontract.Book  !== "N/A" && (<div><b>Book:</b> {matchedcontract.Book}</div>)}
-                    </div>
                 </>
             )
             }

@@ -8,11 +8,10 @@ export default function ArtifactDetail(props) {
 
 
     return (
-        <div style={{ paddingBottom: '20px' }}>
+        <div className='longTextContainer'>
             {matchedArtifact && (
                 <>
-                    <div style={{ margin: '20px', width: '1000px' }}>
-                        <h1>{matchedArtifact.Nome} (Artifact Level {matchedArtifact["Artifact Level"]})</h1>
+                        <h1>{matchedArtifact.Nome} (Artifact Rank {matchedArtifact["Artifact Level"]})</h1>
 
                         {matchedArtifact.Durability && (<div><b>Durability:</b> {matchedArtifact.Durability}</div>)}
                         {matchedArtifact.Size && (<div><b>Size:</b> {matchedArtifact.Size}</div>)}
@@ -29,8 +28,6 @@ export default function ArtifactDetail(props) {
                                 ))}
                             </div>
                         )}
-
-                    </div>
                 </>
             )}
         </div>
