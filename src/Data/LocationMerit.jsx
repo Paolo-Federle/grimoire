@@ -1703,12 +1703,39 @@ const baronyLocationData = [
 
 const allLocation = [
     ...securedLocationData, ...universalFixturesData, ...mageLocationData, ...changelingLocationData,
-    ...ruralTerritoryData, ...urbanTerritoryData, ...generalTerritoryData, ...supernaturalTerritoryData, 
+    ...ruralTerritoryData, ...urbanTerritoryData, ...generalTerritoryData, ...supernaturalTerritoryData,
     ...descriptorsTerritoryData, ...wideDescriptorsTerritoryData, ...baronyLocationData
+]
+
+const ruralDescriptionData = [
+    'Rural features represent places with relatively light human populations. Any of these sites can be placed within a more urban locale (there are still horse stables in the heart of New York City today), but such rural sites are more likely to be found in the countryside.'
+]
+
+const urbanDescriptionData = [
+    'Not every feature listed below is restricted to “the big city.” Most of them can occur in more rural areas. They are more commonly found in or around population centers. Note that the werewolves don’t have to legally own some specific features (such as a bar or club) to benefit from them, though some features may have to be claimed as “theirs” informally.'
+]
+
+const generalDescriptionData = [
+    'These territory elements can exist almost anywhere, whether urban or rural.'
+]
+
+const spiritualDescriptionData = [
+    'These areas may only exist in the Shadow, or they may be intrusions across the Gauntlet (either a finger of the physical world pushing into the Hisil or part of the spirit world interfering with material reality).'
+]
+
+const descriptorsDescriptionData = [
+    'The following descriptors could feasibly apply many territory elements, within reason. Few places have more than one descriptor, and many places have no extra descriptors at all. Each descriptor has the same sorts of features as those already described; the only difference is that descriptors add to an existing territory element. Merit costs that are listed as “+•” mean that they add one dot to the Merit cost of an existing location.',
+    'A “–•” cost means that the element is one dot cheaper than it would ordinarily be (though no element’s cost can ever be reduced below ‘free’).',
+    "Storytellers — and other players — are within their power to veto an especially silly combination (particularly the stacking of descriptor on descriptor — a bloody arcane haunted site, for instance), but, in general, troupe are encouraged to say yes to unusual ideas if they are well-justified or would lead to good and believable stories.'"
+]
+
+const wideDesciptorsDescriptionData = [
+    'The descriptors listed below can, at the Storyteller’s discretion, apply to an entire territory as well as the surrounding areas. These descriptors cannot be created or destroyed, and they have no Merit cost. Only in the rarest and weirdest of cases would one of the following descriptors apply to just one part of a pack’s territory. They are regional. The Storyteller may prefer not to bother with these descriptors — if every pack’s territory in a region is tropical, he may not bother applying the associated dice pool bonuses and penalties, since they apply equally to everyone in the chronicle.'
 ]
 
 export {
     securedLocationData, universalFixturesData, mageLocationData, changelingLocationData,
-    ruralTerritoryData, urbanTerritoryData, generalTerritoryData, supernaturalTerritoryData, 
-    descriptorsTerritoryData, wideDescriptorsTerritoryData, baronyLocationData, allLocation
+    ruralTerritoryData, urbanTerritoryData, generalTerritoryData, supernaturalTerritoryData,
+    descriptorsTerritoryData, wideDescriptorsTerritoryData, baronyLocationData, allLocation,
+    ruralDescriptionData, urbanDescriptionData, generalDescriptionData, spiritualDescriptionData, descriptorsDescriptionData, wideDesciptorsDescriptionData
 }

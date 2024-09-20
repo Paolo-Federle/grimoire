@@ -23,6 +23,15 @@ export default function SimpleTable(props) {
                         {props.title} {isSectionActive ? '∧' : '∨'}
                     </h1>
                 )}
+                {props.upperText && isSectionActive && (
+                    <div style={{ paddingBottom: "20px", maxWidth: props.maxWidth }}>
+                        {props.upperText.map((desc, index) => (
+                            <p key={index}>
+                                <span dangerouslySetInnerHTML={{ __html: desc }} />
+                            </p>
+                        ))}
+                    </div>
+                )}
                 {isSectionActive && (
                     <div className='table-container'>
                         <BaseTable
