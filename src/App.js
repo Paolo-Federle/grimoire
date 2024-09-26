@@ -45,6 +45,8 @@ import Oaths from './pages/Changeling/Oaths';
 import ChangelingMerits from './pages/Changeling/ChangelingMerits';
 import GoblinFruits from './pages/Changeling/GoblinFruits';
 import Token from './pages/Changeling/Token';
+import { tokenDesc } from './Data/Changeling/TokenData';
+import { allToken } from './Data/Changeling/TokenData';
 import Clarity from './pages/Changeling/Clarity';
 import Hunter from './pages/Hunter/Hunter';
 import Endowments from './pages/Hunter/Endowments';
@@ -72,7 +74,7 @@ import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
 import Location from './pages/Generale/Location';
-import { allLocation } from './Data/LocationMerit';
+import { allLocation } from './Data/LocationMeritData';
 import LocationDetail from './pages/Generale/LocationDetail';
 import Size from './pages/Generale/Size';
 import Equipment from './pages/Generale/Equipment';
@@ -83,6 +85,8 @@ import './css/App.css';
 import './css/Races-Style.css'
 import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
 import Advantage from './pages/Generale/Advantage';
+import Traits from './pages/Generale/Traits';
+import Derangements from './pages/Generale/Derangements';
 import Lexycon from './pages/Generale/Lexycon';
 import Clan from './pages/Vampire/Clan';
 import Covenant from './pages/Vampire/Covenant';
@@ -97,6 +101,8 @@ import Morality from './pages/MortalsAndOthers/Morality';
 import Humanity from './pages/Vampire/Humanity';
 import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
 import DynamicDetail from './components/Disuso/DynamicDetail';
+import TokensDetail from './pages/Changeling/TokensDetail';
+import TokenRules from './pages/Changeling/TokenRules';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -208,6 +214,8 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
           <Route path="/advantages" element={<Advantage />} />
+          <Route path="/traits" element={<Traits />} />
+          <Route path="/derangements" element={<Derangements />} />
           <Route path="/lexycon" element={<Lexycon />} />
           {allUniMeritsData.map((merits, index) => (
             <Route
@@ -337,6 +345,15 @@ function App() {
           <Route path="/changeling/clarity" element={<Clarity />} />
           <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
           <Route path="/changeling/tokens" element={<Token />} />
+          <Route path="/changeling/token_rules" element={<TokenRules />} />
+          
+          {allToken.map((tokens, index) => (
+            <Route
+              key={index}
+              path={`/changeling/tokens/${removeSpaceForLinks(tokens.Name)}`}
+              element={<TokensDetail tokens={tokens} />}
+            />
+          ))}
 
           {/* HUNTER */}
           <Route path="/hunter" element={<Hunter />} />

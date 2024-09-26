@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import BaseTable from './BaseTable';
 
 export default function SimpleTable(props) {
@@ -27,7 +27,13 @@ export default function SimpleTable(props) {
                     <div style={{ paddingBottom: "20px", maxWidth: props.maxWidth }}>
                         {props.upperText.map((desc, index) => (
                             <p key={index}>
-                                <span dangerouslySetInnerHTML={{ __html: desc }} />
+                                {typeof desc === 'string' ? (
+                                    <span dangerouslySetInnerHTML={{ __html: desc }} />
+                                ) : (
+                                    <Link to={desc.link}>
+                                        {desc.text}
+                                    </Link>
+                                )}
                             </p>
                         ))}
                     </div>

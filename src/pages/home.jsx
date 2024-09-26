@@ -53,7 +53,7 @@ export default function Home() {
                         </tbody>
                     </table>
                 </div>
-                <div class="flexed-column">
+                <div className="flexed-column">
                     <table className="home-table-container">
                         <tbody>
                             <tr>

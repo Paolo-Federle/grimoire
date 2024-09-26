@@ -53,7 +53,7 @@ export default function Weapon() {
     }));
 
     return (
-        <div className='grid-container'>
+        <div className='grid-container longTextContainer'>
             {weaponDataEdit.map((weapon, index) => (
                 <SimpleTable key={index} table={weapon.data} title={weapon.title} activeRowLink={false} />
             ))}

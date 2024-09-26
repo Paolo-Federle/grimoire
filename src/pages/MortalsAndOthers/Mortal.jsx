@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../css/Races.css';
 import { Link } from 'react-router-dom';
+import SimpleTable from '../../components/SimpleTable';
+import { lesserTemplatesData } from '../../Data/Mortal/Lesser templates/LesserTemplateData';
 
 export default function Mortal() {
     return (
@@ -18,6 +20,7 @@ export default function Mortal() {
                             Mortal humans have a <Link to='/mortal/morality'>Morality</Link> and
                             a <Link to='/mortal/virtue_vice'>Virtue and Vice</Link>.
                         </p>
+                        <SimpleTable table={lesserTemplatesData} title={'Lesser Templates Character Types'} activeRowLink={false} />
                     </div>
                 </section>
             </main>
