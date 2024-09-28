@@ -3303,42 +3303,42 @@ const toxinsData = [
     {
         "Name": "Ammonia",
         "Application": "Inhalation",
-        "Toxicity Rating": "3",
+        "Toxicity": "3",
         "Weapon Type": "Toxin",
         "Book": "WoD 181"
     },
     {
         "Name": "Bleach",
         "Application": "Ingestion",
-        "Toxicity Rating": "4",
+        "Toxicity": "4",
         "Weapon Type": "Toxin",
         "Book": "WoD 181"
     },
     {
         "Name": "Cyanide",
         "Application": "Ingestion, Inhalation",
-        "Toxicity Rating": "7",
+        "Toxicity": "7",
         "Weapon Type": "Toxin",
         "Book": "WoD 181"
     },
     {
         "Name": "Drug/Alcohol Abuse",
         "Application": "Ingestion, Inhalation, Injection",
-        "Toxicity Rating": "3-7",
+        "Toxicity": "3-7",
         "Weapon Type": "Toxin",
         "Book": "WoD 181"
     },
     {
         "Name": "Salmonella",
         "Application": "Ingestion",
-        "Toxicity Rating": "2",
+        "Toxicity": "2",
         "Weapon Type": "Toxin",
         "Book": "WoD 181"
     },
     {
         "Name": "Venom",
         "Application": "Injection, Ingestion",
-        "Toxicity Rating": "3-8",
+        "Toxicity": "3-8",
         "Weapon Type": "Toxin",
         "Book": "WoD 181"
     },
