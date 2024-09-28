@@ -2,10 +2,12 @@ import React from 'react';
 import SimpleTable from '../../components/SimpleTable';
 import {
     bluntWeaponData, kniveWeaponData, swordWeaponData, axeWeaponData, polearmWeaponData,
-    chainWeaponData, improvisedWeaponData, miscellaneousWeaponData, revolverWeaponData,
+    chainWeaponData, improvisedWeaponData, miscellaneousWeaponData, foundRiggedWeaponsData,
+    revolverWeaponData,
     autoloadersWeaponData, rifleData, submachineGunData, assaultRifleData, shotgunsData,
-    machineGunData, miscellaneousRangedData, thrownWeaponData, mountedWeaponsData, arrowsData,
-    bulletsData, shotgunSpecificsData, explosivesData, grenadesData, toxinsData
+    machineGunData, archaicFirearmData, miscellaneousRangedData, thrownWeaponData, mountedWeaponsData, arrowsData,
+    bulletsData, shotgunSpecificsData, standardExplosivesData, explosiveData, grenadesData, grenadeLauncherData,
+    grenadeAmmunitionData, artilleryShellData, rocketMissileData, militaryVehicleArmamentData, landMinesData, toxinsData
 } from '../../Data/Mortal/WeaponData';
 
 export default function Weapon() {
@@ -30,6 +32,7 @@ export default function Weapon() {
         { data: chainWeaponData, title: 'Chain weapon' },
         { data: improvisedWeaponData, title: 'Improvised melee weapon' },
         { data: miscellaneousWeaponData, title: 'Miscellaneous melee weapon' },
+        { data: foundRiggedWeaponsData, title: 'Found and rigged weapons' },
         { data: revolverWeaponData, title: 'Revolver' },
         { data: autoloadersWeaponData, title: 'Autoloaders' },
         { data: rifleData, title: 'Rifles' },
@@ -37,14 +40,22 @@ export default function Weapon() {
         { data: assaultRifleData, title: 'Assault Rifles' },
         { data: shotgunsData, title: 'Shotguns' },
         { data: machineGunData, title: 'Machine Guns' },
+        { data: archaicFirearmData, title: 'Archaic firearms' },
         { data: miscellaneousRangedData, title: 'Miscellaneous Ranged' },
         { data: thrownWeaponData, title: 'Thrown Weapons' },
         { data: mountedWeaponsData, title: 'Mounted' },
         { data: [...arrowsData, ...bulletsData], title: 'Special ammunition' },
         { data: shotgunSpecificsData, title: 'Shotgun specifics' },
-        { data: explosivesData, title: 'Explosive' },
+        { data: standardExplosivesData, title: 'Standard Explosive' },
+        { data: explosiveData, title: 'Explosive' },
         { data: grenadesData, title: 'Grenades' },
-        { data: toxinsData, title: 'Toxins' }
+        { data: grenadeLauncherData, title: 'Grenade Launchers' },
+        { data: grenadeAmmunitionData, title: 'Grenade Launchers Ammunition' },
+        { data: artilleryShellData, title: 'Artillery Shell' },
+        { data: rocketMissileData, title: 'Rocket & Missile Launchers' },
+        { data: militaryVehicleArmamentData, title: 'Military Vehicle Arment' },
+        { data: landMinesData, title: 'Land Mines' },
+        { data: toxinsData, title: 'Toxins, Biological and Chemical Weapons' }
     ];
 
     const weaponDataEdit = weaponData.map(weapon => ({

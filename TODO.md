@@ -2,4 +2,4 @@ Aggiungere Book alle spell dei maghi
 
 Modificare dati delle tabelle per spells, legacy
 
-Completare dettagli Contratti
+completare Lista NPCs https://docs.google.com/spreadsheets/d/1n3TviHt7TZUBlDEIlorn8wctGTnP6kQ78GhIhby079s/edit?gid=0#gid=0

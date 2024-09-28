@@ -379,6 +379,126 @@ const genericToolsData = [
     }    
 ]
 
+const weaponToolsData = [
+    {
+        Name: "Belt Sander",
+        Damage: "-2(L)",
+        Size: "2/N",
+        Durability: "3",
+        Cost: "••",
+        Notes: "Two-Handed",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Belt Blowtorch",
+        Damage: "-1(L) fire",
+        Size: "2/S",
+        Durability: "2",
+        Cost: "•••",
+        Notes: "",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Chainsaw",
+        Damage: "-2(L) 8 again",
+        Size: "3/N",
+        Durability: "3",
+        Cost: "•",
+        Notes: "+1 Defense, Two-Handed",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Claw Hammer",
+        Damage: "1(B)/0(L)",
+        Size: "1/S",
+        Durability: "3",
+        Cost: "•",
+        Notes: "Damage varies by side used",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Fishing Gaff",
+        Damage: "-1(L)",
+        Size: "3/N",
+        Durability: "2",
+        Cost: "•",
+        Notes: "",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Flare",
+        Damage: "-2(L) fire",
+        Size: "1/S",
+        Durability: "1",
+        Cost: "•",
+        Notes: "Maximum damage 4",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Nail Gun",
+        Damage: "0(L)",
+        Size: "2/J",
+        Durability: "3",
+        Cost: "•",
+        Notes: "Strength + Firearms, 1 extra success",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Post-Hole Digger",
+        Damage: "1(L)",
+        Size: "4/N",
+        Durability: "2",
+        Cost: "•",
+        Notes: "Two-Handed",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Power Drill",
+        Damage: "0(L)",
+        Size: "2/J",
+        Durability: "3",
+        Cost: "•",
+        Notes: "",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Screwdriver",
+        Damage: "0(L)",
+        Size: "1/S",
+        Durability: "3",
+        Cost: "•",
+        Notes: "Armor Piercing 1",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Scythe",
+        Damage: "2(L)",
+        Size: "4/N",
+        Durability: "2",
+        Cost: "•",
+        Notes: "+1 Defense",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Shovel",
+        Damage: "1(B)",
+        Size: "3/N",
+        Durability: "2",
+        Cost: "•",
+        Notes: "Full lethal damage on exceptional success",
+        Page: "Arm 39"
+    },
+    {
+        Name: "Sledgehammer",
+        Damage: "2(B) 9 again",
+        Size: "3/N",
+        Durability: "2",
+        Cost: "•",
+        Notes: "Two-Handed",
+        Page: "Arm 39"
+    },
+]
+
 const animalTrainingEquipData = [
     {
         Name: "Clicker",
@@ -551,6 +671,7 @@ const disguisesData = [
 
 export {
     genericToolsData,
+    weaponToolsData,
     animalTrainingEquipData,
     fakeBadegesAndIdsData,
     drugsData,
