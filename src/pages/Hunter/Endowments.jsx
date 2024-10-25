@@ -2,7 +2,7 @@ import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
 import {
     advancedArmoryData, benedictionData, castigationData, dreamscapeData,
-    elixirData, inkData, relicData, ritesDuChevalData, seitokukenData,
+    elixirData, relicData, ritesDuChevalData, seitokukenData,
     thaumatechnologyData, teleinformaticsInterviewData, teleinformaticsInvestigationData,
     teleinformaticsResearchData, gospelOfAgaresData, gospelOfAmonData,
     gospelOfBelethData, ritesOfDenialData, otherEndowmentData
@@ -16,7 +16,6 @@ export default function Endowments() {
             <SimpleTable table={castigationData} title={'Castigation'} activeRowLink={false} />
             <SimpleTable table={dreamscapeData} title={'Dreamscape'} activeRowLink={false} />
             <SimpleTable table={elixirData} title={'Elixir'} activeRowLink={false} />
-            <SimpleTable table={inkData} title={'Ink'} activeRowLink={false} />
             <SimpleTable table={relicData} title={'Relic'} activeRowLink={false} />
             <SimpleTable table={ritesDuChevalData} title={'Rites du Cheval'} activeRowLink={false} />
             <SimpleTable table={seitokukenData} title={'Seitokuken'} activeRowLink={false} />

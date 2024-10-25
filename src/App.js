@@ -77,7 +77,7 @@ import Location from './pages/Generale/Location';
 import { allLocation } from './Data/LocationMeritData';
 import LocationDetail from './pages/Generale/LocationDetail';
 import Size from './pages/Generale/Size';
-import Equipment from './pages/Generale/Equipment';
+import Items from './pages/Generale/Items';
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import { useLocation } from 'react-router-dom';
@@ -210,7 +210,7 @@ function App() {
               element={<LocationDetail location={location} />}
             />
           ))}
-          <Route path="/equipment" element={<Equipment />} />
+          <Route path="/items" element={<Items />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
           <Route path="/advantages" element={<Advantage />} />

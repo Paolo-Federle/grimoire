@@ -711,57 +711,6 @@ const elixirData = [
     }
 ]
 
-const inkData = [
-    {
-        "Endowment": "Bear Mace",
-        "Roll": "(as part of a Brawl attack)",
-        "Description": "Unarmed damage, plus inflicts Stunned Tilt on supernatural creatures. Can only be used (Ink) times per scene.",
-        "Book": "HMR 139"
-    },
-    {
-        "Endowment": "Brother Road",
-        "Roll": "Wits + Investigation",
-        "Description": "Ask specific questions about recent history in the area. Can only be used (Ink) times per scene",
-        "Book": "HMR 140"
-    },
-    {
-        "Endowment": "Fist of Revelation",
-        "Roll": "(as part of a Brawl attack)",
-        "Description": "Unarmed damage, plus inflicts Knocked Down Tilt on demons, removes their Cover for a scene and reveals their Apocalyptic Form. Once/Demon/Scene, can't be used at same time as Bear Mace",
-        "Book": "HMR 140"
-    },
-    {
-        "Endowment": "King of the Road",
-        "Roll": "—",
-        "Description": "Bond a particular motor vehicle so that it will always reappear within a day if destroyed or lost",
-        "Book": "HMR 140"
-    },
-    {
-        "Endowment": "The Lord Provides",
-        "Roll": "—",
-        "Description": "When using a firearm of a particular bonded model, have infinite ammunition",
-        "Book": "HMR 140"
-    },
-    {
-        "Endowment": "LOVE/HATE",
-        "Roll": "Right (LOVE): Wits + Composure",
-        "Description": "Right (LOVE): Gain Informed Condition regarding a person while shaking their hand and general feeling if they are trustworthy. Left (HATE): Brawl attacks are Lethal rather than Bashing",
-        "Book": "HMR 140"
-    },
-    {
-        "Endowment": "Pain Magnet",
-        "Roll": "—",
-        "Description": "Suffer damage for others nearby (but not if your last health box is filled)",
-        "Book": "HMR 141"
-    },
-    {
-        "Endowment": "Tough as the Last Guy",
-        "Roll": "—",
-        "Description": "Store a supernatural opponent's rating in Strength, Dexterity, Brawl, Firearms or Weaponry to use in a future scene.",
-        "Book": "HMR 141"
-    }
-]
-
 const relicData = [
     {
         "Endowment": "Aegis Talisman",
@@ -1678,7 +1627,7 @@ const otherEndowmentData = [
 ]
 
 export { advancedArmoryData, benedictionData, castigationData, dreamscapeData,
-    elixirData, inkData, relicData, ritesDuChevalData, seitokukenData,
+    elixirData, relicData, ritesDuChevalData, seitokukenData,
     thaumatechnologyData, teleinformaticsInterviewData, teleinformaticsInvestigationData,
     teleinformaticsResearchData, gospelOfAgaresData, gospelOfAmonData, 
     gospelOfBelethData, ritesOfDenialData, otherEndowmentData
