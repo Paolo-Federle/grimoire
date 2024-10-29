@@ -807,6 +807,10 @@ export const milestoneMeritsData = [
     }
 ]
 
+export const milestoneMeritsDescriptionData =[
+    'You may not buy Milestone Merits. All Milestone Merits are granted when a Changeling kills her Fetch. They have no dots.'
+]
+
 export const fateMeritsData = [
     {
         "Name": "Bean Buyer",
@@ -930,6 +934,10 @@ export const fateMeritsData = [
         ],
         "Book": "SaD p92",
     }
+]
+
+export const fateMeritsDescriptionData =[
+    "Take these merits only at your ST's discretion."
 ]
 
 export const allChangelingMeritsData = [

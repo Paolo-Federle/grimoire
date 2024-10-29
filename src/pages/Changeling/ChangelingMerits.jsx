@@ -4,8 +4,8 @@ import {
     changelingMeritsData,
     kithRestrictedMeritsData,
     entitlementRestrictedMeritsData,
-    milestoneMeritsData,
-    fateMeritsData
+    milestoneMeritsData, milestoneMeritsDescriptionData,
+    fateMeritsData, fateMeritsDescriptionData
 } from '../../Data/Changeling/changelingMeritsData';
 import { addLink, rimuoviCampi } from '../../utils';
 
@@ -16,8 +16,8 @@ export default function ChangelingMerits() {
         { data: changelingMeritsData, title: 'Changeling Merits' },
         { data: kithRestrictedMeritsData, title: 'Kith Restricted Merits' },
         { data: entitlementRestrictedMeritsData, title: 'Entitlement Restricted Merits' },
-        { data: milestoneMeritsData, title: 'Milestone Merits' },
-        { data: fateMeritsData, title: 'Fate Merits' },
+        { data: milestoneMeritsData, title: 'Milestone Merits', upperText: milestoneMeritsDescriptionData },
+        { data: fateMeritsData, title: 'Fate Merits', upperText: fateMeritsDescriptionData },
     ]
 
     const renderTable = ({ data, title, upperText = null }) => (
@@ -25,7 +25,7 @@ export default function ChangelingMerits() {
             table={rimuoviCampi(addLink(data, 'Name', '/changeling/merits/'), campiDaRimuovere)}
             title={title}
             activeRowLink={true}
-            upperText={upperText ? [upperText] : null}
+            upperText={upperText ? upperText : null}
         />
     );
     return (

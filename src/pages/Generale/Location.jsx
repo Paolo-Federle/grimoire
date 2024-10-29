@@ -32,7 +32,7 @@ export default function Location() {
             table={rimuoviCampi(addLink(data, 'Name', '/merits/locations/'), campiDaRimuovere)}
             title={title}
             activeRowLink={true}
-            upperText={upperText ? [upperText] : null}
+            upperText={upperText ? upperText : null}
             maxWidth={upperText ? maxWidthValue : undefined}
         />
     );
