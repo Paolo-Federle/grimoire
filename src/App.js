@@ -43,11 +43,13 @@ import { allContracts } from './Data/Changeling/ContractData';
 import ContractsDetail from './pages/Changeling/ContractsDetail';
 import Oaths from './pages/Changeling/Oaths';
 import ChangelingMerits from './pages/Changeling/ChangelingMerits';
+import ChangelingMeritsDetail from './pages/Changeling/ChangelingMeritsDetail';
 import GoblinFruits from './pages/Changeling/GoblinFruits';
 import Token from './pages/Changeling/Token';
 import { tokenDesc } from './Data/Changeling/TokenData';
 import { allToken } from './Data/Changeling/TokenData';
 import Clarity from './pages/Changeling/Clarity';
+import { allChangelingMeritsData } from './Data/Changeling/changelingMeritsData';
 import Hunter from './pages/Hunter/Hunter';
 import Endowments from './pages/Hunter/Endowments';
 import Tactics from './pages/Hunter/Tactics';
@@ -325,19 +327,18 @@ function App() {
           <Route path="/changeling/entitlement" element={<Entitlements />} />
           <Route path="/changeling/wyrd" element={<Wyrd />} />
           <Route path="/changeling/contracts" element={<Contracts />} />
-
-          {/* {allContracts.map((contracts, index) => (
-            <Route
-              key={index}
-              path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
-              element={<DynamicDetail data={contracts} />}
-            />
-          ))} */}
           {allContracts.map((contracts, index) => (
             <Route
               key={index}
               path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
               element={<ContractsDetail contracts={contracts} />}
+            />
+          ))}
+          {allChangelingMeritsData.map((merits, index) => (
+            <Route
+              key={index}
+              path={`/changeling/merits/${removeSpaceForLinks(merits.Name)}`}
+              element={<ChangelingMeritsDetail merits={merits} />}
             />
           ))}
           <Route path="/changeling/oaths" element={<Oaths />} />
@@ -346,7 +347,6 @@ function App() {
           <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
           <Route path="/changeling/tokens" element={<Token />} />
           <Route path="/changeling/token_rules" element={<TokenRules />} />
-          
           {allToken.map((tokens, index) => (
             <Route
               key={index}
