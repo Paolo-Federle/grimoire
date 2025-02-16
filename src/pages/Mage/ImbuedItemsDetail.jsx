@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom';
 export default function ArtifactDetail(props) {
     const location = useLocation();
     const matchedImbuedItem = props.imbuedItem
-    console.log(matchedImbuedItem)
 
 
     return (

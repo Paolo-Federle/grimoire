@@ -6,8 +6,6 @@ export default function LocationDetail(props) {
     const location = useLocation();
     const matchedLocation = props.location
 
-    console.log(matchedLocation)
-
     return (
         <div className='longTextContainer' >
             {matchedLocation && (

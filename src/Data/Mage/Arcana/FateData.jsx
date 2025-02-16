@@ -13,6 +13,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Weaponry + Fate",
         "RoteDescrizione": "A former Adamantine Arrow called Lacon took this rote from the Adamantine Arrow and spread it far and wide among American Banishers. The rote is based on the Arrow’s close-range spear-fighting techniques, combined with a rigorous study of anatomy and the strange energies that animate the cursed dead. This rote is more limited than the basic version of the spell, as the weapon-based Imago does not lend the rote’s benefits to ranged attacks.",
         "DescrizioneBreve": "subtract Potency from penalties to call shots on an undead target",
+        "Book": "Ban 56"
     },
     {
         "Titolo": "Counterspell",
@@ -25,6 +26,7 @@ const fateOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
         "DescrizioneBreve": "counter Fate spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Friendly Face",
@@ -40,6 +42,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Fate",
         "RoteDescrizione": "At the height of the Spanish Inquisition, a group of Scelesti used the chaos and distrust to their advantage, directing mortal hunters towards the Consilium of Logroño. Over the course of months, the Consilium lost half a dozen members to the inquisitors. As the local mages did their best to escape the pawns of the Accursed, a Guardian of the Veil known by the Shadow Name of Acallar sought allies to not only protect the mages of Logroño, but also to seek out those responsible for the attacks.<p>In a matter of nights, the seemingly tireless Acallar devised this spell, using it to seek out agents within Twilight, Shadow, and the Underworld. Having located those able — if not necessarily willing — to assist him, the Guardian quickly set about summoning the various otherworldly beings to his cause. With new and unexpected resources at his beck and call, Acallar made short work of both the inquisitors and the Scelesti, and this spell eventually found its way into the repertoires of many mages throughout his order.</p>",
         "DescrizioneBreve": "determine which creature to summon from which realm to assist with a problem",
+        "Book": "Summ 208"
     },
     {
         "Titolo": "Interconnections",
@@ -86,6 +89,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Fate",
         "RoteDescrizione": "The power to read Fate’s mark on another can often prove vital to a Guardian’s work. Sometimes, a paranormal influence impresses itself upon a given individual’s destiny, for example, and drastic steps must be taken to defend the secrecy of the Mysteries. Mages of the Silver Ladder often use a variant of this rote (Wits + Investigation + Fate) to discern those who might be suitable for inclusion among their own ranks (or conversely to discern those who may prove to be rivals to their order in time).",
         "DescrizioneBreve": "analyze fate threads",
+        "Book": "M:tA 148"
     },
     {
         "Titolo": "Quantum Flux",
@@ -101,6 +105,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "In the course of defending allied Awakened against their enemies, willworkers of the Adamantine Arrow must occasionally deal with strange circumstances and maddening distractions such as high winds, driving rain or the pain of a grievous injury. This rote enables such a warrior-mage to focus fully on the task at hand. Mages of the Mysterium also use this magic (Resolve + Occult + Fate) to concentrate when their explorations into the secrets of the occult lead them into hazardous situations in which lack of focus can prove deadly.",
         "DescrizioneBreve": "'aim' any action",
+        "Book": "M:tA 148"
     },
     {
         "Titolo": "Reading the Outermost Eddies",
@@ -116,6 +121,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Fate",
         "RoteDescrizione": "There are times for grand shifts in the fabric of destiny, and there are times when a small nudge is sufficient. Part of being a member of the Silver Ladder is knowing when a small change is enough. Members of all orders find use for such small turns of good fortune.",
         "DescrizioneBreve": "gain small good fortune",
+        "Book": "M:tA 149"
     },
     {
         "Titolo": "Sharpshooter's Eye",
@@ -131,6 +137,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Firearms + Fate",
         "RoteDescrizione": "More than once, the secrecy of the Mysteries has hinged on a Guardian being able to eliminate some small scampering thing before it can escape to bedevil Sleepers, or perhaps to destroy some tiny relic dangling from around an enemy’s wrist. This rote enables a willworker under such circumstances to shoot from the hip with precision that would be envied by the world’s finest snipers.",
         "DescrizioneBreve": "get 'target lock' when shooting",
+        "Book": "M:tA 149"
     },
     {
         "Titolo": "Sacrifice Fortune",
@@ -146,6 +153,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "The flashier risk-takers of the Free Council enjoy the show-boating nature of this rote, which allows them to simultaneously squander and profit from their grander successes.",
         "DescrizioneBreve": "item crafting, alternate relinquishment cost - downgrade exceptional successes",
+        "Book": "TotM 131"
     },
     {
         "Titolo": "Study Final Name",
@@ -188,6 +196,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Fate",
         "RoteDescrizione": "The Namers of the Mysterium use this rote to contemplate the knowledge held within Final Names.",
         "DescrizioneBreve": "view a recorded Final Name or Momentary Name",
+        "Book": "L:tS 101"
     },
     {
         "Titolo": "Synchronicity",
@@ -203,6 +212,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Streetwise + Fate",
         "RoteDescrizione": "When heading into an unknown situation, the willworker seeks out the nearest facility with a Lost and Found department, and lays claim to the oddest and most unusual item left behind there. This item will then prove instrumental in overcoming a crucial obstacle in the trial ahead.",
         "DescrizioneBreve": "gain clues from random events",
+        "Book": "TotM"
     },
     {
         "Titolo": "The Sybil's Sight",
@@ -218,6 +228,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "Perceiving the presence of the Mysteries can sometimes involve nothing more than the ability to discern a particular gravity to a seemingly random statement. Mages of the Mysterium use this rote in their endless hunt for hidden lore.",
         "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 149"
     },
     {
         "Titolo": "Winds of Chance",
@@ -232,6 +243,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Fate",
         "RoteDescrizione": "Quantum probabilities affect people’s lives in all sorts of ways at all times. Mages of the Free Council manipulate these probabilities through this rote, creating runs of what most would consider good or bad luck. Nothing life altering, but certainly sufficient to make someone smile or to ruin his day.",
         "DescrizioneBreve": "slight boon or bane",
+        "Book": "M:tA 150"
     }
 ]
 
@@ -250,6 +262,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Expression + Fate",
         "RoteDescrizione": "Death itself is no bar to the service of those whose promises are more than merely words.",
         "DescrizioneBreve": "Swear oath that makes caster a revenant after death with a Passion of fulfilling said oath",
+        "Book": "GoG 110"
     },
     {
         "Titolo": "Dialing the Lucky Number",
@@ -265,6 +278,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Space",
         "RoteDescrizione": "The trick isn’t to tell the phone lines where to call, like you usually do. The trick is telling them who to call and then letting them do their thing. You lend them your knowledge of the Space Arcanum and let them work it out. Listen carefully and you can hear phones find each other.",
         "DescrizioneBreve": "call the phone nearest your target",
+        "Book": "FC 105"
     },
     {
         "Titolo": "Exceptional Luck",
@@ -280,6 +294,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Fate",
         "RoteDescrizione": "Prowess of arms can take a mage only so far. On occasion, a bit of luck is also required. This rote imparts such good fortune upon an Arrow willworker in the heat of battle. Naturally, such a helpful rote finds use by mages of all orders.",
         "DescrizioneBreve": "gain 9-Again",
+        "Book": "M:tA 151"
     },
     {
         "Titolo": "Fate's Justice",
@@ -295,6 +310,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Fate",
         "RoteDescrizione": "This techné treats the forces of Fate as any other set of opposing forces: push in one direction, and the opposing force pushes back in the other. The rote’s “instant karma” effect appeals to the Libertine’s sense of justice and equality.",
         "DescrizioneBreve": "preemptively curse an attacker",
+        "Book": "FC 106"
     },
     {
         "Titolo": "Fortunate Timing",
@@ -310,6 +326,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Persuasion + Fate",
         "RoteDescrizione": "Sometimes it’s all a matter of being in the right place at the right time, as Libertines know all too well. This rote enlisted the forces of Fate of the Free Council’s side during its formative period and helped ensure the order’s survival (and that of many of its members).",
         "DescrizioneBreve": "manage event timing",
+        "Book": "FC 106"
     },
     {
         "Titolo": "Fortune's Protection",
@@ -325,6 +342,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Athletics + Fate",
         "RoteDescrizione": "Not all threats to the hidden society of the Awakened stem from supernatural sources. A well-aimed tire iron (perhaps swung by a frightened Sleeper who has seen too much) can prove just as deadly to a Guardian as any ancient curse, so protective countermeasures are sometimes in order. Mages of the Adamantine Arrow also favor a variant of this rote (Resolve + Athletics + Fate) for self-defense while about their order’s assigned tasks.",
         "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 152"
     },
     {
         "Titolo": "Grant the Sybil's Sight",
@@ -340,6 +358,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Fate",
         "RoteDescrizione": "It is not always sufficient to perceive Fate’s nuances for oneself. On occasion, others must be made aware of destiny’s pattern. Willworkers of the Mysterium developed this rote to impart such understanding upon those who would otherwise go blind to such intricacies.",
         "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 152"
     },
     {
         "Titolo": "Heroic Effort",
@@ -355,6 +374,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "John O’Dale, an Acanthus Arrow of some small fame among the Consilii scattered across the English countryside, was, among other things, an inveterate gambler. He loved to take all manner of ridiculous wagers to perform insanely improbable deeds — preferably for considerable sums of money. While many of those who bet against him knew that he used magic to transform abject impossibilities into fighting chances, he was always entertaining enough about it and such a good sport on the frequent occasions upon which he still managed to fall short that no one complained much about it.",
         "DescrizioneBreve": "increase next Chance Die pool by one",
+        "Book": "AA 175"
     },
     {
         "Titolo": "Loyal Possession",
@@ -370,6 +390,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Persuasion + Fate",
         "RoteDescrizione": "Some call the Libertines materialists for their fascination with technology, and it’s true they do like their “toys.” This rote is a helpful means of safeguarding the most valuable of those toys, especially ones that can do the mage harm, should they fall into the wrong hands.",
         "DescrizioneBreve": "item crafting, item returns after loss",
+        "Book": "FC 107"
     },
     {
         "Titolo": "Platonic Mechanism",
@@ -385,6 +406,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Fate",
         "RoteDescrizione": "In the pursuit of alternate aspects of magic, the mages of the Free Council have established this rote, a series of procedures intended to enhance any mechanical or electronic device to the point of perfection. In doing so, the order aims to illustrate that new ways need not be anathema to the Awakened.",
         "DescrizioneBreve": "negate dramatic failure of device",
+        "Book": "M:tA 152"
     },
     {
         "Titolo": "Querulous Minds",
@@ -400,6 +422,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Fate",
         "RoteDescrizione": "<p>Guardians use this spell to seek out those dedicated people (or unlucky individuals) who have been touched by the supernatural. Simply seeing them is just the start. A Guardian must perform additional investigation to determine the target’s name and other information. Inquiries with the local Cultors usually follow, making sure the fellow hasn’t already been taken into the Labyrinth.</p><p>Subjects found through the use of this spell (when they aren’t already involved in the Labyrinth) often get visits from strangers in black, corporate men from mysterious companies and others who wish to interview them about their experiences. Some Guardians of the Veil simply activate this spell and spend time wandering the streets, the equivalent of a police car patrolling for suspicious activity.</p>",
         "DescrizioneBreve": "detect Sleepers with magical experiences",
+        "Book": "GotV 187"
     },
     {
         "Titolo": "Reveal Enigmas",
@@ -415,6 +438,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Fate",
         "RoteDescrizione": "Some of the more secretive mages and scholars concealed their knowledge within riddles, puzzle-like allegories or in secret compartments hidden in complicated puzzle boxes. Some of these puzzles and mechanisms are designed so that only someone trained in various esoteric symbologies can open them. This spell cuts through these webs of secrets and trickery and allows the mage to find the solutions to these puzzles.",
         "DescrizioneBreve": "uncover and understand patterns of puzzles or codes",
+        "Book": "Myst 193"
     },
     {
         "Titolo": "Scribe Final Name",
@@ -430,6 +454,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Fate",
         "RoteDescrizione": "Stone Scribes take their charge very seriously, and never scribe a Final Name on anything less sturdy than stone tablets.",
         "DescrizioneBreve": "record a dying person's history; or a living person's Momentary Name",
+        "Book": "L:tS 101"
     },
     {
         "Titolo": "Shifting the Odds",
@@ -445,6 +470,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Fate",
         "RoteDescrizione": "There are those who believe that the flapping of a butterfly’s wings on one side of the world can create a hurricane on the other side. While that notion has never truly been proven, mages of the Free Council nevertheless understand the beautiful complexity of the chain of causality that creates any event, no matter how great or minor, and capitalize upon that understanding by means of this rote. Guardians of the Veil are also known to favor this magic, hounding the inquisitive away from the Mysteries with a sudden turn of bad (or sometimes good) luck.",
         "DescrizioneBreve": "minor boons and banes",
+        "Book": "M:tA 153"
     },
     {
         "Titolo": "Sniffing the Winds of Fate",
@@ -460,6 +486,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Investigation + Death",
         "RoteDescrizione": "Guardians use this rote regularly to discern the merit of mortals they watch over. This rote lets them know whether a particular mortal would do well as a mage, or whether it’s preferable to channel her away from the Awakening altogether. Guardians may allow a mage with a faintly shadowed destiny to survive, but any member of the Awakened limned with heavy shadow is likely to be targeted for death. By the same token, a mage targeted for destruction by the Guardians might get a reprieve if this rote reveals him to have a bright destiny.",
         "DescrizioneBreve": "determine magnitude of Destiny",
+        "Book": "GotV 187"
     },
     {
         "Titolo": "Swearing an Oath",
@@ -475,6 +502,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Fate",
         "RoteDescrizione": "There are few things in this world more fearsome than a warrior sworn sincerely to a cause. Willworkers of the Adamantine Arrow consecrate their oaths before Fate itself and so dedicate themselves entirely to their missions. Mages of the Silver Ladder, wishing to make a good impression upon those over whom they would hold sway, sometimes take similar vows, as a show of good faith.",
         "DescrizioneBreve": "minor Oathbinding",
+        "Book": "M:tA 153"
     },
     {
         "Titolo": "The Evil Eye",
@@ -490,6 +518,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Fate – Composure",
         "RoteDescrizione": "A leader can lay low a dissident with political machinations, armed thugs, or any number of other relatively indelicate tactics. Some willworkers of the Silver Ladder prefer to allow Fate itself to unmake those that fail to understand the proper order of things. Guardians of the Veil also make use of a similar rote (Wits + Persuasion + Fate) to bedevil persistent Sleepers with ill luck when they pry too deep into the affairs of the invisible world.",
         "DescrizioneBreve": "penalizes target's rolls",
+        "Book": "M:tA 151"
     },
     {
         "Titolo": "The Perfect Moment",
@@ -505,6 +534,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "It’s not always the ideal way to do so, but a socially inept bookworm of the Mysterium is occasionally put into a position in his search for knowledge that renders this rote the only way to attain that which he seeks.",
         "DescrizioneBreve": "affects social situations beneficially",
+        "Book": "M:tA 152"
     },
     {
         "Titolo": "Zone of Extremity",
@@ -551,6 +581,7 @@ const fateTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Fate",
         "RoteDescrizione": "Risk-takers of the Free Council resort to this rote in situations in which the need for an over-the-top success outweighs the potential for devastating failure.",
         "DescrizioneBreve": "all successes and failures exaggerated",
+        "Book": "TotM 60"
     }
 ]
 
@@ -569,6 +600,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Politics + Fate",
         "RoteDescrizione": "There are times when it simply isn’t expedient to be bound by the letter of the law. When the law is a Fate-enforced oath, mages of the Silver Ladder can either endure the consequences of their promises or make use of this rote. Of course, willworkers of the Free Council also enjoy the freedom offered by this magic (Wits + Politics + Fate), and are known to alter the “small details” of binding vows their cabal-mates make.",
         "DescrizioneBreve": "change the terms of an Oath",
+        "Book": "M:tA 154"
     },
     {
         "Titolo": "Alternate Scenerio",
@@ -584,6 +616,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "Blixa Dark considers this spell to be 'an occult symphony of the self.' He visualizes each reality as a string on a sublime instrument, combining to create one glorious sound.",
         "DescrizioneBreve": "choose best of multiple attempted rolls",
+        "Book": "GoG 57"
     },
     {
         "Titolo": "Bad Penny",
@@ -599,6 +632,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Fate",
         "RoteDescrizione": "Silver Ladder mages are partial to this trick, symbolizing as it does their unswerving determination to ensure that those who are screwed by the hierarchy stay screwed.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 136"
     },
     {
         "Titolo": "Bestow Exceptional Luck",
@@ -613,6 +647,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Fate",
         "RoteDescrizione": "Sometimes, the best gift one can give another is a chance. Council mages use this rote to grant just that to allies, bestowing a bit of luck that can prove to be a lifesaver. No order overlooks the utility of this rote, though; all recognize the value of looking out for their friends.",
         "DescrizioneBreve": "grant 9-Again",
+        "Book": "M:tA 155"
     },
     {
         "Titolo": "Blessing",
@@ -655,6 +690,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Fate",
         "RoteDescrizione": "Although many mages sever ties with Sleeper society upon Awakening (as best they can), some willworkers attempt to have a family as well as perform their duties to the Wise. The soldiers of the Adamantine Arrow use their rote to keep their loved ones safe in times of danger. The Silver Ladder sometimes uses this rote to keep those they have earmarked for eventual Awakening safe as well.",
         "DescrizioneBreve": "survive a named fatality",
+        "Book": "TotM"
     },
     {
         "Titolo": "Cursed Object",
@@ -670,6 +706,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Fate",
         "RoteDescrizione": "Despite this rote’s grimly jocular name, this curse can be cast on any communication device.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 136"
     },
     {
         "Titolo": "Eleggua's Notice",
@@ -683,6 +720,7 @@ const fateThreeData = [
         "RoteDice": "Manipulation + Persuasion + Fate",
         "DescrizioneMiddle": "<p>If the spell is successful, the rival suffers the following effects:</p><li><ul> If the rival has the Destiny Merit, he cannot make use of its benefits during the scene in which he menaces the mage. The Storyteller can, however, apply the effects of his Bane (and probably should).</li><li>A number of the rival’s rolls equal to the mage’s Fate rating are reduced to chance dice during the scene. Dramatic failures involve some spectacularly bad run of luck.</li></ul><p>While normally this spell has a duration of Prolonged (one scene), most santeros use the Conditional Trigger effect (see p. 151 of <b>Mage: The Awakening</b>), provided they know Time 2.</p><p>To cast this spell, the mage must have fashioned a representation of Elegguá under the guidance of another santero (usually, this is done during the initiation rites anyway). The mage writes the rival’s name on a piece of paper and places it underneath Elegguá’s head, and then spends hours in meditation, dance and vocal entreaty to the orisha.</p>",
         "DescrizioneBreve": "severely deprive target of Destiny and luck",
+        "Book": "MT 75"
     },
     {
         "Titolo": "Fabricate Fortune",
@@ -698,6 +736,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Fate",
         "RoteDescrizione": "A false trail that seems paranormal to inexperienced Awakened (or even to Sleepers somehow sensitive to fortune and prophecy), but that ultimately leads nowhere, can do more to conceal the truth of the occult than any smear campaign or threatening encounter.",
         "DescrizioneBreve": "create false Destiny",
+        "Book": "M:tA 155"
     },
     {
         "Titolo": "Grant Fortune's Protection",
@@ -712,6 +751,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Fate",
         "RoteDescrizione": "While it is well and good to be fortified against one’s enemies, few can stand alone when those enemies press from all sides. Thus, the Adamantine Arrow developed this rote for the purposes of protecting allies, keeping them safe from foes both subtle and obvious.",
         "DescrizioneBreve": "grant Shielding",
+        "Book": "M:tA 155"
     },
     {
         "Titolo": "Instill Malediction",
@@ -778,6 +818,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Fate",
         "RoteDescrizione": "This method of spell relinquishment is popular within the voluminous ranks of the Silver Ladder, as there’s always a colleague lower down on the totem pole who can be forced to trade a functioning item for an Enchanted Item that has become laden with unpleasant curses.",
         "DescrizioneBreve": "item crafting, relinquish by accepting a curse of ill luck on the item",
+        "Book": "TotM 130"
     },
     {
         "Titolo": "Lucky Coin",
@@ -793,6 +834,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Fate ",
         "RoteDescrizione": "Some mages of the Mysterium are inclined to see this rote as a product of paranormal forces brought to bear on an object, while others believe that perfectly reasonable scientific processes create the seemingly supernatural effect. Regardless, the result is the same. Adamantine Arrow willworkers are known to use a similar rote (Presence + Occult + Fate), blessing their own armaments with good fortune.",
         "DescrizioneBreve": "give item Equipment or Armor bonus",
+        "Book": "M:tA 155"
     },
     {
         "Titolo": "Monkey's Paw",
@@ -808,6 +850,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Fate",
         "RoteDescrizione": "Adamantine Arrow willworkers use this rote to curse their enemies’ armaments with ill luck.",
         "DescrizioneBreve": "give item negative Equipment or Armor bonus",
+        "Book": "M:tA 155"
     },
     {
         "Titolo": "Occlude Destiny",
@@ -823,6 +866,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Fate",
         "RoteDescrizione": "Guardians must sometimes create destinies in order to protect the Mysteries, and those destinies must be protected. Likewis, they are on occasion forced to conceal the fortune of people, places or things so that Sleepers will remain blissfully ignorant. Silver Ladder willworkers have also used this magic (Composure + Subterfuge + Fate) to occlude their own (often powerful) destinies, so as to go unnoticed when stealth and secrecy are required.",
         "DescrizioneBreve": "hide target's Destiny",
+        "Book": "M:tA 155"
     },
     {
         "Titolo": "Sense Strength and Weakness",
@@ -838,6 +882,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Fate",
         "RoteDescrizione": "Adamantine Arrows who’ve studied the Gogyo deeply use this rote to help plan an attack against a group of enemies. The mage studies subtle omens and the enemy’s habits to expose weakness and avoid meeting strength head on. He is said to have the quality for which the rote is named: “divinely inspired strategy.”",
         "DescrizioneBreve": "discern best and worst competence in a group",
+        "Book": "GoG 72"
     },
     {
         "Titolo": "Shared Fate",
@@ -853,6 +898,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Fate",
         "RoteDescrizione": "“My fate will be yours,” was a commonly heard oath from the Nameless, and they usually made good on it with this techné. While democratic ideals should be enough for a convocation of Libertines, sometimes they’re not; in which case, this rote can help to ensure a degree of restraint and even-handedness.",
         "DescrizioneBreve": "targets are done duplicate damage",
+        "Book": "FC 107"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -864,6 +910,7 @@ const fateThreeData = [
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
         "DescrizioneBreve": "(Acanthus only) call a Moira from Arcadia, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Superlative Luck",
@@ -879,6 +926,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Fate",
         "RoteDescrizione": "Like any other thing, Fate can be bent to the needs of a superior will. A Ladder willworker uses this rote to defy any twist of fortune that leads him away from the destiny he knows to be rightfully his, enhancing his prowess in virtually all endeavors well beyond human norms. Mages of all orders eventually find one use or another for this powerful rote.",
         "DescrizioneBreve": "gain 8-Again per success",
+        "Book": "M:tA 156"
     },
     {
         "Titolo": "Tangle the Threads",
@@ -894,6 +942,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "An Arrow can truly depend upon only one sort of luck: the luck she creates. Every soldier knows that reducing the potential number of uncontrolled variables upon the field is a good way to increase the odds for victory. Of course, this rote also makes it more difficult for allies to tweak destiny in her favor, but all of that is probably best handled before the engagement, anyway.",
         "DescrizioneBreve": "shield self against Fate effects",
+        "Book": "AA 176"
     },
     {
         "Titolo": "Technology Curse",
@@ -909,6 +958,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Fate",
         "RoteDescrizione": "The Seers of the lesser Pantechnicon Ministry believe modern technology to be an excellent cage and controlling mechanism for humanity. Central to their doctrine is the precept that humanity walks into that cage themselves. Sometimes, an object lesson is needed as to why technology is a good thing. Using the Anti-Electronic Field, the Seers demonstrate just what a life without modern conveniences is like.",
         "DescrizioneBreve": "prevent target from using electronic devices",
+        "Book": "SotT 190"
     },
     {
         "Titolo": "Uncover Final Name",
@@ -924,6 +974,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Fate",
         "RoteDescrizione": "The Stone Scribes consider the loss of any true name a tragedy, and take steps to recover those lost to time.",
         "DescrizioneBreve": "rebuild a passed Final Name",
+        "Book": "L:tS 102"
     }
 ]
 
@@ -939,6 +990,7 @@ const fateFourData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Assuming another person’s Final Name confers the following benefits:<ul><li>Your Virtue and Vice appear to be those of the owner of the Final Name (these traits do not actually change, but they appear different to supernatural observation).<li></li>Your aura appears fixed as the owner’s aura at the instant the original Scribe Final Name spell was cast.<li></li>Your resonance appears to be that of the Final Name.<li></li>You automatically gain any sympathetic connections the Final Name carries with it, at no penalty. (The penalty for not knowing a subject’s name applies, however — including a penalty if you don’t know the mundane name attached to the Final Name you assumed.)</li></ul><p>Any supernatural effect intended to pierce the veil of this spell must achieve successes equal to the spell’s Potency. An exceptional success on a spell or power that reads auras reveals that your aura is completely static, which may signal something amiss, but does not necessarily pierce the deception. If the Duration of the “Scribe Final Name” spell that carries the assumed Final Name expires, this spell’s effects end immediately<p>",
         "DescrizioneBreve": "wear the Final Name of the departed",
+        "Book": "L:tS 102"
     },
     {
         "Titolo": "Coincidental Travel",
@@ -954,6 +1006,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Persuasion + Fate",
         "RoteDescrizione": "Often a big part of being able to control a situation is the ability to be at the right place at the right time. Members of the Silver Ladder use this spell as a way to easily move themselves to their destinations faster than their opposition.",
         "DescrizioneBreve": "series of coincidences help mage get to desired location much faster and easier than usual",
+        "Book": "SL 196"
     },
     {
         "Titolo": "Destroy Bindings",
@@ -969,6 +1022,7 @@ const fateFourData = [
         "RoteDice": "Resolve + Occult + Fate vs. bond’s Potency",
         "RoteDescrizione": "With relentless conviction, the willworker of the Adamantine Arrow shatters all fetters binding a spirit against its will. In this manner, powerful fetishes can be destroyed and bound servants are given the ability to turn upon their would-be masters. Even those ephemeral beings that choose to remain at an enemy’s side can be dismissed. Guardians of the Veil use a variant on this rote (Intelligence + Occult + Fate) to break the bonds between troublesome spiritual entities and the material world, so the being can either leave of their own volition or be banished, no longer threatening the secrecy of the Mysteries.",
         "DescrizioneBreve": "dispel Anchors, Fetishes and Fetters",
+        "Book": "M:tA 156"
     },
     {
         "Titolo": "Forbidden Fate",
@@ -984,6 +1038,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Fate",
         "RoteDescrizione": "One of the best ways to win an election or convince others to accept your ideas is to make certain anyone opposing you looks sufficiently bad that you and your ideas look better in comparison. This rote ensures those who oppose members of the Silver Ladder often fail quite badly in their efforts, because this spell can easily make an expert seem a rank amateur.",
         "DescrizioneBreve": "target suffers bad luck when attempting to reach a specific goal",
+        "Book": "SL 196"
     },
     {
         "Titolo": "Fortune's Fool",
@@ -999,6 +1054,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate",
         "RoteDescrizione": "A good warrior finds a way to turn misfortune to his favor. The Adamantine Arrow developed this rote to transform missed opportunities into weapons to loose on their foes. Proper use of this rote requires some foresight. It does no good to inflict failure on an enemy just to see that failure manifest itself in a minor way.",
         "DescrizioneBreve": "store failures to inflict on others",
+        "Book": "AA 177"
     },
     {
         "Titolo": "Gift of Fortune",
@@ -1045,6 +1101,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Fate",
         "RoteDescrizione": "Members of the Mysterium skilled in the Arcanum of Fate need not go traipsing through dark jungles or crawling around dusty tombs to find the relics or knowledge they seek, but can call such things to them by means of this rote.",
         "DescrizioneBreve": "deliver an object from anywhere",
+        "Book": "M:tA 157"
     },
     {
         "Titolo": "Probable Cause",
@@ -1060,6 +1117,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Fate",
         "RoteDescrizione": "This is a rote for those times when a Guardian simply must not fail in protecting the hidden world from the eyes of the uninitiated. Named for circumstances in which a given person or object must be acquired and spirited away, this rote sees use in all manner of situations and by members of all orders.",
         "DescrizioneBreve": "gain Rote Quality to rolls",
+        "Book": "M:tA 157"
     },
     {
         "Titolo": "Sanctify Oaths",
@@ -1075,6 +1133,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Fate",
         "RoteDescrizione": "Those who would offer solemn oaths to a mage of the Silver Ladder should be wary of this rote, lest their words be rendered truly binding. Willworkers of the Mysterium also make use of this powerful magic in the course of their work, whether to hold another to a promise of aid or to a vow to deliver a certain artifact by a given date.",
         "DescrizioneBreve": "witness others Oath Swearing",
+        "Book": "M:tA 157"
     },
     {
         "Titolo": "Sever Oaths",
@@ -1090,6 +1149,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Fate vs. oath’s Potency",
         "RoteDescrizione": "One who would rule must not hesitate to break a promise that stands in the way of good governance. In the case of an oath sanctified through the Fate Arcanum, this rote is the only way to break from it safely, and Ladder mages make use of it when they must. Free Council willworkers bound to unpleasant oaths likewise feel little or no shame in use of such a rote. If the one to whom such a vow was made were worthy, there would be no need for mystic fetters ensuring complicity.",
         "DescrizioneBreve": "dispel Oaths",
+        "Book": "M:tA 158"
     },
     {
         "Titolo": "Transfer Destiny",
@@ -1105,6 +1165,7 @@ const fateFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Fate",
         "RoteDescrizione": "The Seers of the Throne believe that history is made by powerful actors, individuals destined for great things, but they also believe that this mandate to influence the world can be stolen by the dedicated. As the Exarchs took the mantle of the Gods, this spell allows a clever Seer to take the mantle of mortal heroes.",
         "DescrizioneBreve": "touch both donor and receiver, and transfer dots of Destiny between the two",
+        "Book": "SotT 190"
     }
 ]
 
@@ -1123,6 +1184,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Fate vs. geas Potency",
         "RoteDescrizione": "This rote enables a Council willworker to shift the specifics of a geas, or to destroy the compulsion utterly. After all, Council members reason, what good can come of respecting the wishes of one who obviously has so little regard for the desires of others as to forcibly bind another to her will? Sorcerers of the Silver Ladder are also drawn to this magic (Resolve + Occult + Fate) in their determination never to be fettered against their will.",
         "DescrizioneBreve": "unweave Oaths and magical bonds of all types",
+        "Book": "M:tA 159"
     },
     {
         "Titolo": "Forge Destiny",
@@ -1138,6 +1200,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Fate vs. Resolve + Gnosis",
         "RoteDescrizione": "Setting Fate’s mark upon an individual can protect the hidden society of the Awakened. Guardians are known to use this magic to great effect, creating false trails leading away from genuine mystic phenomena. Mages of the Mysterium sometimes use this magic (Intelligence + Persuasion + Fate) to draw another into the occult world.",
         "DescrizioneBreve": "give bonus to all rolls involving the destiny and penalty to all rolls resisting destiny",
+        "Book": "M:tA 159"
     },
     {
         "Titolo": "Forge Doom",
@@ -1153,6 +1216,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Fate vs. Resolve + Gnosis",
         "RoteDescrizione": "Even a mediocre swordsman wielding a weapon forged as a given foe’s doom is a force to be reckoned with. So goes the reasoning of Adamantine Arrow willworkers who make use of this rote. Even a skilled warrior can benefit by use of an item (or place, person or circumstance) named as the downfall of an enemy. Guardians of the Veil sometimes use this magic as a last resort, ending a threat to the secrecy of the Mysteries",
         "DescrizioneBreve": "adds to all damage received while within presence of Doom",
+        "Book": "M:tA 159"
     },
     {
         "Titolo": "Forge Godsend",
@@ -1168,6 +1232,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Survival + Fate vs. Resolve + Gnosis",
         "RoteDescrizione": "Some believe that members of the Mysterium are eclectic scholars unsuited for the rigors of combat. In some cases, that sentiment may ring true. By means of this rote, however, even the most retiring researcher can hold her own in dangerous situations, defended by Fate itself. Of course, willworkers of the Adamantine Arrow are also quick to make use of this potent aegis in the course of their perilous work.",
         "DescrizioneBreve": "negate damage while within presence of Godsend",
+        "Book": "M:tA 159"
     },
     {
         "Titolo": "Geas",
@@ -1218,6 +1283,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Fate vs. Resolve + Gnosis",
         "RoteDescrizione": "There are times when respecting the rights and freedoms of others simply does not produce necessary results. Mages of the Silver Ladder use this rote sparingly, lest they be perceived (and rightly so) as tyrants. But it is occasionally necessary, nevertheless. Guardians of the Veil also make use of such magic, perhaps as one of the ultimate defenses for the Mysteries.",
         "DescrizioneBreve": "place target under Oath forcibly",
+        "Book": "M:tA 160"
     },
     {
         "Titolo": "Great Curse",
@@ -1233,6 +1299,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Fate Composure",
         "RoteDescrizione": "A tiger is a fierce and powerful beast, but how much less so would it be without fangs or claws, or when robbed of its great strength and agility? Mages of the Adamantine Arrow use this rote to cripple their foes, robbing the tiger of its claws. Mages of all orders make use of this rote, however, whether to achieve victory in battle, to outmaneuver a rival suitor or to just win a debate.",
         "DescrizioneBreve": "penalize all of target's rolls",
+        "Book": "M:tA 160"
     },
     {
         "Titolo": "Infectious Curse",
@@ -1248,6 +1315,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Fate",
         "RoteDescrizione": "Some persistent Sleepers just don’t respond well to threats against their own health, but, when you add in a threat to the well-being of their family and friends, many change their tunes. Guardians use this magic to curse those outsiders that delve too deeply into the Mysteries, making them a source of pain and misfortune for their loved ones and, indeed, everyone they associate with.",
         "DescrizioneBreve": "affect all relations of target with Great Curse",
+        "Book": "TotM 33"
     },
     {
         "Titolo": "Swarm of Locusts",
@@ -1294,6 +1362,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Fate",
         "RoteDescrizione": "This rote drives to the heart of the new philosophies on magic espoused by the Free Council. It unleashes chaotic happenings upon a world that most people would rather be ordered and safe, but opens people to the possibility that the universe isn’t always as it seems, causing even the dimmest of Sleepers to wonder what other mysteries are still out there. Also, as some members of the order are quick to point out, it makes one hell of a smokescreen when attempting a hasty getaway.",
         "DescrizioneBreve": "summon a swarm of pests, humans dont add paradox on this spell",
+        "Book": "M:tA"
     },
     {
         "Titolo": "True Love",
@@ -1308,6 +1377,7 @@ const fateFiveData = [
         "RoteName": "Orpheus’ Last Riddle Rote",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Fate",
         "DescrizioneBreve": "lovers gain joined resistance, Willpower use",
+        "Book": "GoG"
     }
 ]
 

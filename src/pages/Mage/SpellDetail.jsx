@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom';
 export default function SpellDetail(props) {
     const location = useLocation();
     const matchedSpell = props.spell
-    console.log(matchedSpell)
 
     function generateTable(data) {
         if (!Array.isArray(data) || data.length === 0) {
@@ -70,7 +69,7 @@ export default function SpellDetail(props) {
                         <p>{matchedSpell.RoteName && <b><span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteName }} /></b>}<br />
                             {matchedSpell.RoteDice && <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} />}</p>
                         {matchedSpell.RoteDescrizione && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDescrizione }} /></p>}
-                        {/* {matchedSpell.Book && (<div><b>Book:</b> {matchedSpell.Book}</div>)} */}
+                        {matchedSpell.Book && (<div><b>Book:</b> {matchedSpell.Book}</div>)}
                 </>
             )}
         </div>

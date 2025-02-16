@@ -5,7 +5,6 @@ import BaseTable from '../../components/BaseTable';
 export default function ChangelingMeritsDetail(props) {
     const location = useLocation();
     const matchedMerits = props.merits
-    console.log('matchedMerits', matchedMerits)
 
     return (
         <div className='longTextContainer'>

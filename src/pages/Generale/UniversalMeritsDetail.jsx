@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom';
 export default function UniversalMeritsDetail(props) {
     const location = useLocation();
     const matchedMerit = props.merits
-    console.log(matchedMerit)
 
 
     return (

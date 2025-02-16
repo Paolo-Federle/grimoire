@@ -24,7 +24,7 @@ export default function Spells() {
     }
 
     function generateHeaders(title) {
-        const displayHeaders = ['Description', 'Aspect', 'Cost', 'Arcana'];
+        const displayHeaders = ['Description', 'Aspect', 'Cost', 'Arcana', "Book"];
         const headers = [];
 
         for (let i = 1; i <= 5; i++) {
@@ -56,7 +56,7 @@ export default function Spells() {
     const arcanaHeaders = arcanaSets.map(set => generateHeaders(set.charAt(0) + set.slice(1)));
 
     // Define the headers that correspond to your data keys
-    const tableFields = ['Titolo', 'DescrizioneBreve', 'Aspect', 'Cost', 'Arcana'];
+    const tableFields = ['Titolo', 'DescrizioneBreve', 'Aspect', 'Cost', 'Arcana', "Book"];
 
     const renderedArcanaTables = arcanaData.map((arcana, index) => (
         <MultipleTables

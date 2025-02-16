@@ -10,6 +10,7 @@ const deathOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
         "DescrizioneBreve": "counter Death spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Ectoplasmic Shaping",
@@ -25,6 +26,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death vs. Resolve + Gnosis (mage) or Resistance (ghost)",
         "RoteDescrizione": "Named after the mage who first formulized it, the title of this rote also refers to the image of ectoplasm as hot wax, to which the mage’s will is applied like a signet.",
         "DescrizioneBreve": "alter existing ectoplasm",
+        "Book": "M:tA 133"
     },
     {
         "Titolo": "Forensic Gaze",
@@ -40,6 +42,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Death",
         "RoteDescrizione": "This rote relies not only on sight, but on the olfactory senses to aid the mage in reading the secrets of a corpse. Some Free Council mages enjoy employing the seemingly miraculous forensic techniques seen in many of today’s most popular prime-time shows in the casting of this rote.",
         "DescrizioneBreve": "learn how a subject died",
+        "Book": "M:tA 134"
     },
     {
         "Titolo": "Grim Sight",
@@ -55,6 +58,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "Those whose lives have been touched in certain ways by Death can be manipulated through that contact. Using this rote, a mage can perceive another’s grief through a recent loss, and use this knowledge to manipulate that person’s emotional vulnerability. It can be used to identify murderers who have otherwise concealed their crimes from all knowledge (although this rote reveals no details about the murder, only that the target has blood on his hands). Some members of the Adamantine Arrow use a similar rote to size up a person as a potential threat.",
         "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 134"
     },
     {
         "Titolo": "Instill Mortality",
@@ -70,6 +74,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Death",
         "RoteDescrizione": "Guardians don’t like to leave Enchanted Items around where unworthy fingers might grasp them. “Consigned to Oblivion” provides the Guardians’ favorite method of relinquishing control of item-bound spells, ensuring that any devices created with it will eventually self-destruct.",
         "DescrizioneBreve": "item crafting, alternate cost relinquishment - Item dies as it is used",
+        "Book": "TotM 130"
     },
     {
         "Titolo": "Pain Harvest",
@@ -85,6 +90,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Death",
         "RoteDescrizione": "For Adamantine Arrow warriors, getting wounded is an everyday occurrence, affording frequent opportunities to top up their Pain Harvest pools. As an added bonus, the spell allows them to show off their stoic indifference to physical suffering.",
         "DescrizioneBreve": "item crafting, alternate cost relinquishment - Increase damage to pattern from violence",
+        "Book": "TotM 131"
     },
     {
         "Titolo": "Shadow Sculpting",
@@ -100,6 +106,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "Sleepers rarely believe in anything more than what they can see. When a phenomenon is masked by shadows, most simply walk away, unwilling to delve any deeper into Mysteries best left to the Awakened.",
         "DescrizioneBreve": "deepen existing shadows",
+        "Book": "M:tA 135"
     },
     {
         "Titolo": "Soul Marks",
@@ -114,6 +121,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Death",
         "RoteDescrizione": "Arrow mages seek to exploit any weakness their enemies might display. Conversely, this rote can also be used to detect vulnerabilities amongst one’s allies.",
         "DescrizioneBreve": "examine a soul for Derangements (extended Intelligence + Empathy to diagnose what kind)",
+        "Book": "M:tA 135"
     },
     {
         "Titolo": "Speak with the Dead",
@@ -129,6 +137,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "Long have the Awakened known that the dead keep secrets. Mages of the Mysterium use this magic to learn such lost lore. More pragmatically, willworkers of the Adamantine Arrow have sometimes been known to use this rote to ask questions of allies or enemies recently slain.",
         "DescrizioneBreve": "see, hear, and speak with ghosts in Twilight",
+        "Book": "M:tA"
     }
 ]
 
@@ -147,6 +156,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "Occasionally, the business of discovering the knowledge of the ancients is better pursued under cover of darkness than with a lantern proudly outstretched to dispel the shadows of ignorance.",
         "DescrizioneBreve": "move shadows into lit areas",
+        "Book": "M:tA"
     },
     {
         "Titolo": "Bestow Ghostly Sight",
@@ -162,6 +172,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Empathy + Death",
         "RoteDescrizione": "By means of this rote, mages of the Mysterium can enable Sleeper associates to perceive the goings-on of the disincarnate dead. Alternately, a Sleeper who has somehow earned the wrath of the willworker might be compelled to gaze into the ghostly realm, whether the Sleeper likes it or not.",
         "DescrizioneBreve": "grant ability to see ghosts",
+        "Book": "TotM 29"
     },
     {
         "Titolo": "Corpse Mask",
@@ -177,6 +188,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Death",
         "RoteDescrizione": "Even the most savvy coroner can be put off the trail of a blatantly paranormal death by means of this rote. Guardians thus preserve the integrity of the Mysteries. Adamantine Arrow mages, in the course of their work, must also sometimes occlude the truth behind a killing, so they too make use of this magic (Wits + Subterfuge + Death).",
         "DescrizioneBreve": "hide the true cause of death",
+        "Book": "M:tA 136"
     },
     {
         "Titolo": "Corpse Unmasking",
@@ -192,6 +204,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death",
         "RoteDescrizione": "The Guardians of the Veil were the first to invent the rote for piercing the Corpse Mask, though other orders have since followed in the Guardians’ footsteps. It is a common rote among Sentinels, though the actual Skills used may vary. (The Free Council frequently substitutes Science for Occult.)",
         "DescrizioneBreve": "reveal the true cause of death",
+        "Book": "GotV 186"
     },
     {
         "Titolo": "Decay",
@@ -207,6 +220,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Intimidation + Death",
         "RoteDescrizione": "Mundane weapons are of little use against Arrow mages, for they can be rendered brittle and easily destroyed. Guardians of the Veil sometimes use a similar rote (Resolve + Intimidation + Death) in preparation for destroying surveillance equipment used to capture evidence of the unseen world.",
         "DescrizioneBreve": "reduce Durability of a touched object",
+        "Book": "M:tA 136"
     },
     {
         "Titolo": "Dislodge the Soul",
@@ -222,6 +236,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Death",
         "RoteDescrizione": "While most mages find the images they see when using this spell disturbing (those few mages to whom it ever occurs to dislodge a person’s soul, that is), the Echo Walkers claim to see quick glances of the Ones Before. Over time, they claim, they build up enough of a concept of these beings to shape their usages of the Legacy’s Attainments. Of course, by combining this rote with the Image of Perfection Merit (see below), the Echo Walkers become much more driven and dangerous.",
         "DescrizioneBreve": "damage a soul of a sleeper (or mage at Death 4) for opportunity to gain Willpower",
+        "Book": "L:tA 124"
     },
     {
         "Titolo": "Ectoplasm",
@@ -237,6 +252,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Death",
         "RoteDescrizione": "Spectral manifestations are intrinsic to the “new” definition of the occult. This rote enables Council mages to facilitate the appearance of such apparitions, especially before the eyes of those turning to scientific (or other nontraditional) aspects of “ghost hunting.” Silver Ladder willworkers sometimes highlight objects or beings in Twilight so that their allies can study or perhaps use other magics upon such subjects.",
         "DescrizioneBreve": "generate ectoplasm from an orifice",
+        "Book": "M:tA 136"
     },
     {
         "Titolo": "Entropic Guard",
@@ -252,6 +268,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "While some of the rewards yielded up by a long familiarity with Death are dubious at best, no Arrow mage argues with the benefits of this rote.",
         "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 136"
     },
     {
         "Titolo": "Final Sight",
@@ -267,6 +284,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Death",
         "RoteDescrizione": "The Guardians of the Veil are well known for using this rote in their inquiries. Even if the final image is not directly useful as a clue, it can provide clues indirectly. For instance, a killer might have, as mentioned above, thrown someone off a cliff. But if the body fell into a river and washed out to sea, the location of the death may lead the willworker to the scene of the crime, where other methods (such as the Time 2 spell “Postcognition”) might prove useful.",
         "DescrizioneBreve": "view the last image a body saw",
+        "Book": "GotV 186"
     },
     {
         "Titolo": "Forensic Invisibility",
@@ -282,6 +300,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Stealth + Death",
         "RoteDescrizione": "A Moros Banisher recently taught this rote to members of St. Michael’s Promise (see Boston Unveiled) because he thought they’d need it in a city so infested by sorcery. The Banisher concentrates on humbling himself before God, reminding himself to leave no sign of pride, lest a subconscious desire to take credit for his work give him away to the authorities.",
         "DescrizioneBreve": "destroys fibers, dead skin, saliva, oils and hair",
+        "Book": "Ban 54"
     },
     {
         "Titolo": "Ghost Summons",
@@ -297,6 +316,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death vs. Resistance",
         "RoteDescrizione": "Even the shades of the dead can be gathered by the call of a Silver Ladder willworker. While the mage cannot compel a ghost to do anything without more advanced magics, nothing prevents her from convincing the dead to serve her by more mundane means.",
         "DescrizioneBreve": "call to ghosts in the area",
+        "Book": "M:tA 137"
     },
     {
         "Titolo": "Grant the Grim Sight",
@@ -312,6 +332,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Death",
         "RoteDescrizione": "The mage whispers to the target, coaxing him to open his third eye. Those who have never before glimpsed the heavy shadow of Death are often changed by the experience. It is for this reason that Adamantine Arrow mages also make use of this magic (Presence + Persuasion + Death), so that none can forget the heavy burden that their order has accepted.",
         "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 137"
     },
     {
         "Titolo": "Lighten Anchor",
@@ -327,6 +348,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "Though this rote is especially popular with mages who bind ghosts to Enchanted Items, mages of the Free Council often cast it for philosophical reasons, providing precious inches of liberty to their life-challenged brethren.",
         "DescrizioneBreve": "increase the range a ghost can travel",
+        "Book": "TotM 60"
     },
     {
         "Titolo": "Quiet Grave",
@@ -342,6 +364,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Academics + Death",
         "RoteDescrizione": "Simplicius routinely casts this spell on victims and perpetrators alike. Nobody deserves to have his body violated by sorcery after he dies, even if the person would have happily done it to someone else while alive.<p>Thanks to Simplicius’s theological education, he’s capable of performing ad hoc funeral blessings from dozens of religions. He always takes the time to perform a service that fits the dead person’s religious background as best Simplicius knows it. Otherwise, he prefers ecumenical prayers with a slight bias toward his own Christian beliefs.</p>",
         "DescrizioneBreve": "subtract Potency from attempts to animate a corpse",
+        "Book": "Ban 54"
     },
     {
         "Titolo": "Soul Jar",
@@ -357,6 +380,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Death (or Spirit)",
         "RoteDescrizione": "In ancient times, Silver Ladder mages would carry out a terrible punishment levied against mage criminals: the severing of their souls. This was sometimes a temporary sentence; the caster would store the soul in a jar and release it once the convict’s sentence had been served.",
         "DescrizioneBreve": "prevent a dying soul from departing",
+        "Book": "M:tA 137"
     },
     {
         "Titolo": "Suppress Aura",
@@ -372,6 +396,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Death",
         "RoteDescrizione": "Concealing the truth of the Mysteries sometimes entails occluding the mark of power within oneself, especially when enemies of the Awakened are about. When entering hostile territory in the pursuit of hidden wisdom, Mysterium mages have also been known to use this rote.",
         "DescrizioneBreve": "make examination of your soul more difficult",
+        "Book": "M:tA 137"
     },
     {
         "Titolo": "Touch of the Grave",
@@ -387,6 +412,7 @@ const deathTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Survival + Death",
         "RoteDescrizione": "Often, the things that willworkers of the Mysterium seek have been lost to the ravages of time. On occasion, these relics leave shadows of themselves, shadows that can be used to open ancient vaults, studied for the imagery that they depict, or even read to learn the secrets they contain.",
         "DescrizioneBreve": "reach into twilight",
+        "Book": "M:tA 138"
     }
 ]
 
@@ -405,6 +431,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death",
         "RoteDescrizione": "The restless ghosts of fallen Adamantine Arrow warriors relish the opportunity to strike out against the enemies of their glorious order, and are anxious to be armed with spells of the most devastating caliber.",
         "DescrizioneBreve": "allow a ghost to trigger a precast spell",
+        "Book": "TotM 134"
     },
     {
         "Titolo": "Control Ghost",
@@ -420,6 +447,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Death vs. Resistance",
         "RoteDescrizione": "The unquiet dead can be potent allies, and Silver Ladder mages waste no resource. Some use the shades of the departed as simple shock troops, while the more cunning compel them to reveal desired knowledge or to use the subtle abilities of the dead in pursuits other than battle. Mysterium willworkers often find uses for a closely related rote (Manipulation + Intimidation + Death) in their endless endeavor to gather up the hoary secrets of the world.",
         "DescrizioneBreve": "dominate the will of a ghost",
+        "Book": "M:tA 138"
     },
     {
         "Titolo": "Corpse Flesh",
@@ -435,6 +463,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Medicine + Death",
         "RoteDescrizione": "Arrows die, so that others need not. This rote is just another way of accepting that heavy cost — one that an individual Arrow might just walk away from intact.",
         "DescrizioneBreve": "become halfway dead to survive damage",
+        "Book": "AA 173"
     },
     {
         "Titolo": "Curse of Withering",
@@ -477,6 +506,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Death",
         "RoteDescrizione": "This rote is popular among Mysterium librarians and collectors as a measure against book thieves. The curse is woven into an especially rare and tempting volume. Its purloined pages poison the thief from a position of pride in his bookcase. This version of 'Curse of Withering' immunizes the creator from the book’s curse.",
         "DescrizioneBreve": "item creation, curse",
+        "Book": "TotM 137"
     },
     {
         "Titolo": "Destroy Ephemera",
@@ -492,6 +522,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
         "RoteDescrizione": "Even ephemeral objects have sometimes been known to exert an invisible pull on the material world, motivating Sleepers to strange and inexplicable acts. In these cases, Guardians have been known to destroy such items, ending the invisible pull they exert and preserving the secrecy of the occult.",
         "DescrizioneBreve": "fray objects in twilight",
+        "Book": "M:tA 138"
     },
     {
         "Titolo": "Destroy Object",
@@ -507,6 +538,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts or Science + Death",
         "RoteDescrizione": "A crumbling truncheon or dissolving handgun poses no threat to a mage of the Adamantine Arrow, or to the charges of such a willworker. The Guardians of the Veil sometimes use a similar rote (Composure + Crafts or Science + death) in the pursuit of their work.",
         "DescrizioneBreve": "reduce structure of a touched object if successes > durability",
+        "Book": "M:tA 139"
     },
     {
         "Titolo": "Devouring the Slain",
@@ -522,6 +554,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Death",
         "RoteDescrizione": "Some scientifically minded Free Council mages see this spell as a means of conserving energy, taking it from the dying before it can dissipate beyond anyone’s use. More traditional, mystically minded Awakened see the grim truths of this rote for what they are. Despite such knowledge, no few make use of it.",
         "DescrizioneBreve": "gain willpower from wounded foes",
+        "Book": "M:tA 139"
     },
     {
         "Titolo": "Dissipate Unreal Construct",
@@ -537,6 +570,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Death",
         "RoteDescrizione": "This rote enables a Libertine to dissipate phantasms and other such constructs, without resorting to more vulgar magics.",
         "DescrizioneBreve": "reduce structure of phantasms or ephemera",
+        "Book": "TotM 26"
     },
     {
         "Titolo": "Entropic Shroud",
@@ -552,6 +586,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "The Guardians protect their charges with this spell, although some of them find its aura disturbing.",
         "DescrizioneBreve": "grant Shielding",
+        "Book": "M:tA 139"
     },
     {
         "Titolo": "Ghost Gate",
@@ -567,6 +602,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
         "RoteDescrizione": "While it is one thing to speak to the dead and learn their lore, it is another entirely to physically become like a ghost and employ one’s senses while in a ghostly state. Certain locations inaccessible from the material realm can also be explored by means of this rote, enabling a Mysterium willworker to discover relics and knowledge perhaps lost for ages.",
         "DescrizioneBreve": "open a passage to Twilight",
+        "Book": "M:tA 139"
     },
     {
         "Titolo": "Ghostly Object",
@@ -581,6 +617,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult or Science + Death",
         "RoteDescrizione": "Mysterium mages often populate their sanctums with Twilight objects, ready to be drawn forth using “Touch of the Grave” as needed. Free Council mages learn a version of this rote that uses the Science Skill in place of Occult.",
         "DescrizioneBreve": "transition an object to ephemera in Twilight",
+        "Book": "M:tA 140"
     },
     {
         "Titolo": "Healing the Dead Mind",
@@ -596,6 +633,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Death",
         "RoteDescrizione": "Ghosts see a great deal more than they remember, making them a valuable, but often untappable resource for those who seek lost knowledge or the location of long-forgotten (by humans) artifacts. The mages of the Mysterium frequently do not have time to waste in the slow (and sometimes fruitless) task of talking ghosts into remembering that they are dead so that they can query them about information. By using this spell, a mystagogue can cut to the chase, diving directly into negotiation for the information he needs.",
         "DescrizioneBreve": "increase a ghost's Mental Attributes",
+        "Book": "Myst 192"
     },
     {
         "Titolo": "Hollow Victory",
@@ -611,6 +649,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Medicine + Death",
         "RoteDescrizione": "This 'rote' is obviously not gained through practice; it might be attained through study of a particular grimoire, or even learned instinctively after a series of terrible dreams. When used to its greatest effect, this rote is combined with a spell, Artifact or imbued item that removes the Banisher’s soul beyond the reach of magic. Banishers know all too well that dead men sometimes can be forced to tell tales.",
         "DescrizioneBreve": "caster dies",
+        "Book": "Ban 54"
     },
     {
         "Titolo": "Martyr's Bequest",
@@ -626,6 +665,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death",
         "RoteDescrizione": "In ancient times, some cultures practiced a form of sacred regicide, with rulers going willingly to their deaths in time of need so the people might know prosperity and wellbeing. So, too, do some willworkers of the Silver Ladder give of their lives when circumstances become dire so others might draw strength from their fallen comrade and, renewed, struggle onward to victory.",
         "DescrizioneBreve": "kill self when fatally injured; grant remaining Health/Willpower/Mana to allies",
+        "Book": "SL 195"
     },
     {
         "Titolo": "Orpheus' Lament",
@@ -640,6 +680,7 @@ const deathThreeData = [
         "RoteName": "Orpheus’ Last Riddle Rote",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Death",
         "DescrizioneBreve": "all in earshot suffer penalty to deliberate rolls",
+        "Book": "GoG 131"
     },
     {
         "Titolo": "Quicken Corpse",
@@ -655,6 +696,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death",
         "RoteDescrizione": "Most Ladder mages have little compunction against creating zombies, since they view corpses as the material shells of departed souls. Such unthinking servants suit the temperament of imperious Silver Ladder willworkers quite well, but few members of the order debate their utility. Members of other orders create walking dead for their own purposes, ranging from cheap labor to defense to scaring the living hell out of intruders.<br><h2><b>Zombies</b></h2><p>Each zombie created by the “Quicken Corpse” spell (one per Target factor) has the following base traits:</p><b>Attributes:</b> Power 1, Finesse 1, Resistance 2<br><b>Size:</b> 5 (or less if the corpse is small)<br><b>Speed:</b> 1*<br><b>Initiative:</b> 1*<br><b>Defense:</b> 1*<br>* These traits begin at 1, regardless of Attribute scores; the caster must spend successes on a one-successper-dot basis to raise them.<p>Zombies do not suffer wound penalties and cannot heal damage naturally. Bashing, lethal and aggravated wounds are marked normally, but zombies never suffer incapacitation — they just keep going until their last Health point is lost to aggravated damage. When a zombie’s final (rightmost) Health box is marked with bashing damage, no roll is required to remain conscious. When its final Health box is marked with lethal damage, it does not collapse and begin bleeding to death — it keeps going. Any damage suffered after that is upgraded to aggravated. Once this happens, the corpse loses body parts with each new upgraded wound until it is completely pulverized or disintegrated (the Storyteller decides which parts fall off with each wound).</p><p>A zombie continues to rot. It suffers one lethal point of damage with each passage of a number of days equal to its Resistance. A zombie with a Resistance of 3 therefore suffers one lethal point of rotting damage every three days.</p><p>In addition, zombies created by this spell have a vulnerability to one specific type of attack, such as fire, damage to the brain or carving a mystic sigil on one’s body. If a zombie suffers at least one lethal or aggravated point of damage from an attack to which it is vulnerable, it is destroyed instantly. The caster chooses the zombie’s vulnerability during spellcasting, unless he devotes a success (over and above the simple success needed to animate the corpse) to make it Indestructible. Indestructible zombies can be destroyed only when their final Health box is marked with aggravated damage.</p>",
         "DescrizioneBreve": "raise a zombie",
+        "Book": "M:tA 140"
     },
     {
         "Titolo": "Restore Corpus",
@@ -670,6 +712,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Death",
         "RoteDescrizione": "Some mages prefer to bend the dead to their will. Many in the Free Council are eager to point out that one catches more flies with honey than with vinegar. Aiding restless ghosts can often help in winning their trust and perhaps friendship. Adamantine Arrow mages often use a version of this rote (Resolve + Occult + Death) to heal shades that they have sent into battle, enabling them to keep fighting for a little longer.",
         "DescrizioneBreve": "restore a ghost's body",
+        "Book": "M:tA 141"
     },
     {
         "Titolo": "Sculpt Ephemera",
@@ -685,6 +728,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Death",
         "RoteDescrizione": "Mysterium willworkers often use this rote to craft useful objects before drawing them out of the Shadow Realm and into the material world. Sometimes, however, they create such items as gifts for spirits or ghosts.",
         "DescrizioneBreve": "alter the form of twilight objects",
+        "Book": "M:tA 141"
     },
     {
         "Titolo": "Self Repairing Zombie",
@@ -700,6 +744,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death",
         "RoteDescrizione": "In ancient days, the dead were more commonly employed as weapons by a minority of the willworkers of the Adamantine Arrow. While the practice has fallen out of use in most corners of the world, it still sees enough action to warrant means to repair the tireless and unfeeling soldiers without having to directly mend them with magic every time they’re badly damaged.",
         "DescrizioneBreve": "allow zombies eat corpses for health",
+        "Book": "AA 173"
     },
     {
         "Titolo": "Sever the Sleeping Soul",
@@ -715,6 +760,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Death",
         "RoteDescrizione": "Arrow mages claim their order used this rote in Atlantis to punish criminals. Since this magic is difficult to cast with any degree of subtlety, Guardians of the Veil rarely if ever use it unless they believe they can do so in secrecy. Even then, Guardians almost never do so unless to quiet a particularly persistent Sleeper.",
         "DescrizioneBreve": "cut a Sleeper's soul free",
+        "Book": "M:tA 141"
     },
     {
         "Titolo": "Shadow-Forged",
@@ -730,6 +776,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Death",
         "RoteDescrizione": "The warrior-mages of the Adamantine Arrow don’t usually lack for weapons or equipment, so they put this rote to a different use. When cast, “Shadow Breastwork” forms a wall of solid shadow in front of the Arrow that may be used as cover. The basic wall formed, with a single success on the casting roll, is a three-foot by three-foot square of Durability 2 that appears membrane thick. A mage may increase the Durability of the wall by 2 or the length of the wall by three feet (maximum of 12 feet long) for each additional success beyond the first. A mage with four successes on the casting roll (for example) could create a sixfoot-long, Durability 6 wall. Regardless of length, the wall continues in a straight line. If the wall intersects with a solid object, the wall ends at that object, and any additional length is lost.<p>Bright light brought to bear on the wall for more than one turn will degrade the wall in the same way a “ShadowForged” object is degraded by being exposed to light.</p>",
         "DescrizioneBreve": "create weapons or tools from shadows",
+        "Book": "AA 174"
     },
     {
         "Titolo": "Summon Shadows",
@@ -745,6 +792,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "By conjuring up such impenetrable and even animate shadows from light, a Free Council mage can create a barrier that serves as cover against rangedweapon attacks, he can conjure a specter to frighten off an intruder, or he can wield a battering ram to fell a door.",
         "DescrizioneBreve": "create animate, physical shadows",
+        "Book": "M:tA 142"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -756,6 +804,7 @@ const deathThreeData = [
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
         "DescrizioneBreve": "(Moros only) call a Spectre from Stygia, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Suppress Own Life",
@@ -771,6 +820,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Subterfuge + Death",
         "RoteDescrizione": "Not many people think to ask anything of a corpse, and Guardians whose activities have been compromised sometimes use this rote in order to avoid difficult questions. While the issues that crop up in the wake of a body disappearing from the local morgue can prove problematic, they are often less of a headache than being arrested or genuinely killed. On occasion, willworkers of the Silver Ladder have faked their own deaths by way of this rote, in order to cut the losses of one life and start anew.",
         "DescrizioneBreve": "pretend to be dead",
+        "Book": "M:tA 142"
     },
     {
         "Titolo": "The Metal Dead (Song: Blade Broken)",
@@ -786,6 +836,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts + Death",
         "RoteDescrizione": "Andy designed this rote as a work of art. He wouldn’t dream of using it on a human corpse and usually casts it on animal corpses. The rest of the band was duly impressed, with Blixa going so far as to declare it “fucking metal.”",
         "DescrizioneBreve": "animate corpse and transform to metal",
+        "Book": "GoG 56"
     },
     {
         "Titolo": "Transfer Anchor",
@@ -845,6 +896,7 @@ const deathThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Larceny + Death",
         "RoteDescrizione": "Guardians of the Veil covering up supernatural events sometimes find it necessary to whisk pesky ghosts away from the gaze of curious Sleepers. Guardians’ warehouses are thick with relocated ghosts, knocking abjectly at crates where their new anchors are stored.",
         "DescrizioneBreve": "alter a ghost's anchor to a different subject",
+        "Book": "TotM 133"
     }
 ]
 
@@ -863,6 +915,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts or Science + Death",
         "RoteDescrizione": "Application of strategy in battle is just as important as application of force. Many warriors train extensively in one area of combat and, if denied the opportunity to use that training, are quickly defeated. When confronted with an opponent who shows expertise with a particular weapon, use of this spell can disarm and demoralize them.",
         "DescrizioneBreve": "apply Destroy Object against Melee attacks",
+        "Book": "AA 175"
     },
     {
         "Titolo": "Enervation",
@@ -878,6 +931,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death",
         "RoteDescrizione": "If she lacks the strength to lift a weapon, an enemy without recourse to other means is rendered virtually harmless. Thus do Arrow mages strike at their foes’ power and secure victory. Of course, willworkers of all orders can find one use or another for this rote. Mysterium mages, for example, have been known to use one like it (Manipulation + Occult + Death) in order to slow pursuers while they flee.",
         "DescrizioneBreve": "reduce a touched foe's physical attributes",
+        "Book": "M:tA 143"
     },
     {
         "Titolo": "Ghost Familiar Pact",
@@ -893,6 +947,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescription": "Sometimes by way of threats, bribes, or other forms of coercion, and sometimes on account of sincere offers of aid and companionship through the long, lonely years of restless death, mages of the Mysterium occasionally enter into the familiar bond with the shades of the departed. At least a few willworkers of all orders, however, know of and employ this grim magic.",
         "DescrizioneBreve": "bind a Ghost Familiar to self",
+        "Book": "Summ 38"
     },
     {
         "Titolo": "Ghostly Archive",
@@ -908,6 +963,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death",
         "RoteDescrizione": "While the great wisdom once gathered in the legendary Cenacle of Sighs is forever lost, modern mages can call upon powers similar to those used in the Cenacle’s creation to archive the knowledge of the dead, creating an interactive library of ghosts.",
         "DescrizioneBreve": "invest in Library of bound ghosts",
+        "Book": "GoG 110"
     },
     {
         "Titolo": "Haunted Shell",
@@ -920,6 +976,7 @@ const deathFourData = [
         "Cost": "None",
         "DescrizioneMiddle": "The targeted ghost enters the object to which it is bound as though the object were an anchor, save that the ghost continues to be aware of its surroundings and capable of using its Numina. The object Durability becomes the Resistance of the ghost, if the ghost’s Resistance is higher than its original Durability. In objects capable of moving and taking actions, all rolls use the ghost’s normal attributes. The item must in some way contain or incorporate one of the ghost’s anchors or be located in a place that is the ghost’s anchor.",
         "DescrizioneBreve": "bind a ghost into a physical object",
+        "Book": "GoG 29"
     },
     {
         "Titolo": "Haunting",
@@ -966,6 +1023,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death vs. Resolve (Sleeper) or Resistance (ghost)",
         "RoteDescrizione": "On occasion, even death is not punishment enough for the enemies of the Silver Ladder. This rote allows a mage to bind the spirit of a recently dead person, or one who is dying, to a given locale. The shade may be commanded through other magics, or simply left to its own devices, as the willworker desires. Sometimes members of the Mysterium perform similar bindings (Intelligence + Persuasion + Death), using the dead to drive off those who might seek to steal the lore they have worked so hard to acquire.",
         "DescrizioneBreve": "bind a dying soul to become a ghost",
+        "Book": "M:tA 143"
     },
     {
         "Titolo": "Revenant",
@@ -981,6 +1039,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Death",
         "RoteDescrizione": "Ladder mages often use this rote to raise to service those who have not yet fulfilled their debts, though some cast it for no reason other than that they need a loyal servant with exceptional capabilities and who is largely incapable of betrayal. Still, such castings are dangerous and potentially quite cruel, and can easily lead a mage away from the path of Wisdom.<br><h2><b>Revenants</b></h2><p>This undead being possesses all the same Attributes and Skills as in life, but subtract one dot each from the revenant’s Composure (due to its obsessive nature) and Wits (because of its disconnection between body and spirit). The revenant cannot regain Willpower points by any means.</p><p>The revenant has a pool of Essence points equal to its Resolve +5, and it can hold a maximum amount of points equal to 10 + Resolve. It loses one Essence per day.</p><p>Instead of his former Virtue and Vice, the revenant has a Passion (the caster can add one additional Passion per success added to the spell’s target number). This could be “avenge a murder” (including its own), “protect Sarah,” or “steal the Ebon Grimoire.” Whenever the revenant performs an action that promotes the achievement of its Passion, roll a number of dice: one die is rolled for actions that only weakly benefit the Passion, while five dice (the maximum) are rolled for actions that are directly relevant to the Passion. Each success gives the revenant one Essence.</p><p>Finally, the revenant has one spirit Numen, a power it can use to help achieve its Passion. The caster can imbue the being with additional Numina, one per every two successes added to the spell’s target number.</p>",
         "DescrizioneBreve": "raise a revenant",
+        "Book": "M:tA 143"
     },
     {
         "Titolo": "Rotting Flesh",
@@ -996,6 +1055,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Death – Stamina",
         "RoteDescrizione": "When a willworker of the Adamantine Arrow just needs to kill someone and kill him quickly, this rote is a favored one. Every order practices similar magics, however.",
         "DescrizioneBreve": "do Lethal damage with a touch attack",
+        "Book": "M:tA 144"
     },
     {
         "Titolo": "Scourge Ghost",
@@ -1011,6 +1071,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death versus Resistance",
         "RoteDescrizione": "Mysterium explorers use this rote to deter guardian ghosts, including the protectors of Artifacts and valuable Enchanted Items, from harming the mages. Ethical tomb-robbers employ it sparingly, keeping it active for the few moments required to make their point.",
         "DescrizioneBreve": "psychicaly traumatize a ghost",
+        "Book": "TotM 134"
     },
     {
         "Titolo": "Shadow Flesh",
@@ -1026,6 +1087,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Death",
         "RoteDescrizione": "Little in this world moves so stealthily as a shadow. No wonder, then, that certain Seers of the Throne who wish to move in secrecy aspire to emulate the qualities of darkness, itself. By way of this rote, they may do so, shedding flesh and bone in favor of a form comprised of living night.",
         "DescrizioneBreve": "transform self into living shadow",
+        "Book": "SotT 189"
     },
     {
         "Titolo": "Slay Own Aura",
@@ -1041,6 +1103,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Death",
         "RoteDescrizione": "The Free Council is in many ways all about a fresh start, and this rote proves that Death is merely the gateway to a new beginning. Powerful mages of all orders turn to this rote when their auras become overpowering.",
         "DescrizioneBreve": "prevent identification of your aura",
+        "Book": "M:tA 144"
     },
     {
         "Titolo": "Soul Binding",
@@ -1056,6 +1119,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Empathy + Death",
         "RoteDescrizione": "Used far more often to attach a soul to another who has been left soulless than for the Council mage’s own benefit, this rote has preserved the sanity of many an unwitting pawn dragged into the struggles of the Awakened.",
         "DescrizioneBreve": "attach a stolen soul",
+        "Book": "M:tA 144"
     },
     {
         "Titolo": "Suppress Other's Life",
@@ -1071,6 +1135,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Death vs. Composure + Gnosis",
         "RoteDescrizione": "When all else fails and a Guardian of the Veil has no wish to actually end the life of a problematic Sleeper, she can use this rote to make him seem to be dead temporarily. She then acquires the “corpse” and helps to ease the individual into a new life elsewhere. Arrow mages in war-torn areas sometimes cast this rote to help allies infiltrate an enemy’s lair.",
         "DescrizioneBreve": "falsify another's death",
+        "Book": "M:tA 144"
     },
     {
         "Titolo": "Twilight Shift",
@@ -1086,6 +1151,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Death",
         "RoteDescrizione": "A bit more precise than any gateway into the state of unlife, this rote enables a member of the Mysterium to affect a quick escape for which there can be no mundane pursuit. Granted, such sojourns often come with their own difficulties, but most willworkers would argue that it is better to go among the dead in this fashion than in the traditional manner.",
         "DescrizioneBreve": "transition to and from Twilight",
+        "Book": "M:tA 145"
     },
     {
         "Titolo": "Undying Zeal",
@@ -1101,6 +1167,7 @@ const deathFourData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Medicine + Death",
         "RoteDescrizione": "Erik “Shugyosha” Osterberg is a martial arts fanatic who fancies himself a “modern-day samurai.” After he Awakened as a Banisher, he took his long-time interests in jujutsu and iaido to the point of obnoxious Orientalism and delusion. It was a defense mechanism; the Moros Awakening taught him that honing his body, meditating and studying another culture meant nothing. He’d be food for worms in the end. With his penchant for wearing tabi (“socks”) and carrying around a sword bag, he’d be a figure of mockery, if not for the fact that sword in the bag is real and he’s used it to behead two mages and one woman he mistook for one.<p>Erik based his spell on the philosophies of Hagakure, a Japanese text that extols the virtues of suicide for one’s lord. He believes that he’s serving Sleepers as a whole and should be ready to lay down his life at any time, so he casts this spell periodically so that, in the event of being critically wounded or trapped, he can die and will his remains to continue. His rote Imago consists of visualizing, in as exact a fashion as possible, various ways he might die.</p>",
         "DescrizioneBreve": "come back as revenant after willing death",
+        "Book": "Ban 55"
     }
 ]
 
@@ -1116,6 +1183,7 @@ const deathFiveData = [
         "Cost": "None (special)",
         "DescrizioneMiddle": "Although the casting of the spell is described here as “instant,” the time it takes a mage to prepare to cast the spell can be lengthy, as the caster will sometimes set up an appointment with the Reaper — perhaps creating the circumstances that will allow a crazed enemy to take one final, fatal shot, perhaps subconsciously exposing himself to a disease or a poison.<p>The corpse of the person whom the mage wants to raise must be intact, meaning that the body can’t have begun to decay. Also, the subject cannot have died of old age — the subject must have had an untimely death, from disease, violence or an accident.</p><p>If the spell succeeds, the subject returns to life with all her Health dots, Attributes, Skills and Advantages intact. The mage who cast the spell dies. How he dies depends upon the circumstances he has created. In effect, fate takes a hand in his demise. A sniper’s bullet finds his temple at the moment the other arises. A terrible car accident claims his life, seconds after the spell is complete. His heart gives way to a congenital defect and he collapses, as the subject of the spell opens her eyes.</p><p>The price of this spell cannot be avoided. The Reaper can’t be tricked. It’s a life for a life; that’s the deal.</p><p>The soul of the Tamer of the Cave who cast this spell vanishes. The soul cannot be retrieved, and the Saint cannot be revived by any means.</p><p>The subject of the spell, meanwhile, Awakens. She doesn’t awaken immediately. It could be days, weeks, months or years down the line. But she does Awaken. It could be that this is where the mage’s soul goes: it enters the body of the person the mage wanted to raise, joining with her and making her a mage.</p><p>Given that this spell can only ever be cast once by any given mage, it has never been formalized as a rote.</p>",
         "DescrizioneBreve": "return a dead sleeper to life and to awaken by dying",
+        "Book": "L:tA 35"
     },
     {
         "Titolo": "Create Ghost",
@@ -1131,6 +1199,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Academics + Death",
         "RoteDescrizione": "Although vast amounts of knowledge have been lost, someone once living once knew all of it. If a master of Death can find the bones or place of death of someone who once knew the desired information, the mage can call this deceased individual back so that she can reveal her knowledge to the living.",
         "DescrizioneBreve": "call a ghost out of the past",
+        "Book": "Myst 193"
     },
     {
         "Titolo": "Deathlike Journey",
@@ -1145,6 +1214,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
         "RoteDescrizione": "Euthanists of the Guardians of the Veil use the rote to send their initiates to the lands of the dead. Initiates often acquire Arcane Experience on the journey that allows them to commit to the Legacy. Euthanist tutors who are not Guardians of the Veil also know this rote.",
         "DescrizioneBreve": "send soul on journey to the Underworld	",
+        "Book": "L:tA 104"
     },
     {
         "Titolo": "Destroy Mana",
@@ -1160,6 +1230,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Death – Resolve",
         "RoteDescrizione": "A gun without ammunition is largely useless. While the same cannot be said of a mage without Mana, such a willworker is nevertheless cut off from many of her most powerful magics. Arrow mages enjoy using this rote against enemies that have become reliant on advanced magic.",
         "DescrizioneBreve": "unweave Mana that is bound as Tass",
+        "Book": "M:tA 145"
     },
     {
         "Titolo": "Devouring the Living",
@@ -1175,6 +1246,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Death – Stamina (living being) or Resistance (ghost)",
         "RoteDescrizione": "Let those who would lead the charge in battle be the first to sample victory’s fruits. So goes the logic of the Adamantine Arrow, whose willworkers use this rote to destroy enemies, even as they restore reserves of both will and mystic power. Mages of the Silver Ladder also favor such magic, obliterating those who would express defiance through force of arms.",
         "DescrizioneBreve": "gain Willpower from healthy foes",
+        "Book": "M:tA 145"
     },
     {
         "Titolo": "Grant Ghost Familiar",
@@ -1190,6 +1262,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death",
         "RoteDescrizione": "Through the use of this rote, willworkers occasionally bestow ghostly familiars upon friends, allies, and students.",
         "DescrizioneBreve": "bind a Ghost Familiar to another person",
+        "Book": "Summ 39"
     },
     {
         "Titolo": "Grant Lifespan",
@@ -1204,6 +1277,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Death",
         "RoteDescrizione": "The Libertine who uses this rote begins by coughing up the years of his life in the form of a small, black, round substance resembling a pearl. Then he gives it to the subject of the spell to eat, and eating passes on the years.<p>Libertines who teach this rote do not use it often, understandably, and when they do, they choose subjects whom they consider to be worthy.</p>",
         "DescrizioneBreve": "give others years of your life",
+        "Book": "L:tA 35"
     },
     {
         "Titolo": "Quell the Spark",
@@ -1218,6 +1292,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
         "RoteDescrizione": "The Guardians of the Veil are willing to employ even the most drastic measures. This rote destroys a spell utterly, and Sleepers who did not perceive it previously will never know it existed at all. Members of the Free Council are also known to use a variant of this rote (Manipulation + Occult + Death) to prove that the “tried and true” ways of magic are not quite as infallible as some would like to believe.",
         "DescrizioneBreve": "destroy set magic",
+        "Book": "M:tA 145"
     },
     {
         "Titolo": "Quicken Ghost",
@@ -1233,6 +1308,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Death",
         "RoteDescrizione": "Ghosts make powerful allies. Supplemented by this rote, they can accomplish feats far beyond their already impressive capabilities. Mysterium mages sometimes bribe the dead by means of this rote. A Guardian (Resolve + Occult + Death) may bring a given ghost’s anchor along with him to another ghost’s haunt, and then fortify his interloping shade to drive out the resident spirit.",
         "DescrizioneBreve": "increase a ghost's traits",
+        "Book": "M:tA 146"
     },
     {
         "Titolo": "Secret Marriage",
@@ -1248,6 +1324,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death (or Spirit)",
         "RoteDescrizione": "Heroes of the Arrow who die in the cause of duty are sometimes brought back as clawed, iron-clad killing machines — a consummation devoutly to be wished.",
         "DescrizioneBreve": "bind willing Ghost to Homonculus",
+        "Book": "TotM 152"
     },
     {
         "Titolo": "Steal Body",
@@ -1263,6 +1340,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Death vs. Resolve",
         "RoteDescrizione": "The body is just a vehicle for the mind and spirit, and techné allow the unseating of an existing 'occupant' so a new life-force can inhabit a body. For the Nameless rebels, this techné held the added benefit of erasing their former lives: appearance, flesh and bone, and allowing them to start anew away from the pursuit of their enemies.",
         "DescrizioneBreve": "supplant a target's soul with your own	",
+        "Book": "FC 105"
     },
     {
         "Titolo": "Steal Lifespan",
@@ -1278,6 +1356,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Death vs. Stamina",
         "RoteDescrizione": "Building something of lasting importance can be difficult at best to accomplish within a single lifetime. Ladder willworkers turn to this rote to seize a few more precious years in which to finish their grand works. Mysterium scholars (Intelligence + Subterfuge + Death) likewise fail to see any reward in departing the mortal coil while half-completed projects and unfinished research remain.",
         "DescrizioneBreve": "steal a year of someone's life",
+        "Book": "M:tA 146"
     },
     {
         "Titolo": "Summon Chthonian",
@@ -1290,6 +1369,7 @@ const deathFiveData = [
         "Cost": "2 Mana per Rank (see below)",
         "DescrizioneMiddle": "In order to summon a chthonian, a willworker must accrue five successes per desired effective spirit Rank of the entity: five successes for a Rank 1 chthonian, for instance, or 20 for a creature of Rank 4. Further, two points of Mana must be spent in the casting for each Rank of the chthonian. This spell is not contested as chthonians appear to lack the wherewithal to resist a summons to the material realm (though they are perfectly capable of contesting any other magics directed at them once they are present). As specified, above, a summoned chthonian exists in the immaterial state of Twilight and cannot materialize, by any means. Further, no matter what steps are taken, the entity always returns to the Underworld at the next new moon, if not released (whether by the cast or under its own power) before such a time.",
         "DescrizioneBreve": "call a never-born from the Underworld",
+        "Book": "Summ 46"
     },
     {
         "Titolo": "Summon the Dead",
@@ -1305,6 +1385,7 @@ const deathFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death vs. Resistance",
         "RoteDescrizione": "Even the denizens of the Underworld are not forbidden to one who attains mastery of the Arcanum of Death. Mages of the Silver Ladder are known to gather all kinds of information with this rote, often of the sort conducive to the accrual of temporal power. Mages of the Mysterium (Manipulation + Persuasion + Death) most commonly cast one much like it with the intention of learning more esoteric lore.",
         "DescrizioneBreve": "call a ghost from the Underworld",
+        "Book": "M:tA 146"
     }
 ]
 

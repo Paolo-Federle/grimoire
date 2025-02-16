@@ -128,6 +128,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "RoteDescrizione": "In nature, most creatures give their emotional state away through a combination of body posture, facial expression, and other physiological cues (such as musk or excessive saliva). Humans have learned to suppress many of these cues for the sake of “polite” social interaction, but a mage of the Adamantine Arrow can look past these civilized contrivances and read an individual’s true intent. Willworkers of the Silver Ladder are also known to employ this rote; the power to control a person through understanding of her emotions is not to be underestimated.",
         "DescrizioneBreve": "view emotional states as colors",
+        "Book": "M:tA 205"
     },
     {
         "Titolo": "Counterspell",
@@ -140,6 +141,7 @@ const mindOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
         "DescrizioneBreve": "counter Mind spell",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Detect Alien Mind",
@@ -155,6 +157,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Mind",
         "RoteDescrizione": "Infestations are always nasty things. Back around the turn of the 20th century, Chicago played host to one. Someone — word was, a Tremere lich — got her hands on a weird polyhedral box that some said could only be opened from the inside by one who was outside of it. Whatever the case, she figured out how to unlock the thing and a small horde of skittering things poured out of it from Elsewhere. Robert Baron, local leader of the Guardians of the Veil, however, happened to be a quick thinker, with a bit of experience summoning unpleasant things from worlds without names, and he recognized the telltale signs of alien entities. No one is rightly sure if he already knew this spell when he went on the hunt; if he didn’t, though, he certainly came up with it with suspicious alacrity. Reluctantly, Baron taught his rote to as many mages as he needed to curb the infestation, and then he vanished inexplicably at its conclusion.",
         "DescrizioneBreve": "track emotional resonance and presence of otherworldly being",
+        "Book": "Summ 209"
     },
     {
         "Titolo": "Know Virtue",
@@ -170,6 +173,7 @@ const mindOneData = [
         "RoteName": "Epee’s Rote: Who Are You Really?",
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "DescrizioneBreve": "know target's Virtue",
+        "Book": "KST 103"
     },
     {
         "Titolo": "Mask of Normality",
@@ -216,6 +220,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Mind",
         "RoteDescrizione": "This rote gets a workout from the most overtly modern of orders. The Free Council’s version of the spell, concerned as much with style as subterfuge, affects the Awakened, too. Mage Sight still reveals the item’s original outlines.",
         "DescrizioneBreve": "item crafting, sleepers perceive unusual item as normal",
+        "Book": "TotM 143"
     },
     {
         "Titolo": "Merge Mind",
@@ -231,6 +236,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Expression + Mind (optional)",
         "RoteDescrizione": "Roger, or any Banisher with a similar problem, can bring his inward-turning, rapidly processing mind into a state of relative stillness and focus to communicate with other people in an intelligible and rational fashion, including engaging in 'small talk' about the weather or sports or giving clear, concise instructions for building a complicated piece of experimental machinery.",
         "DescrizioneBreve": "center your mind and silence 'voices'",
+        "Book": "Ban 59"
     },
     {
         "Titolo": "One Mind, Two Thoughts",
@@ -246,6 +252,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Mind",
         "RoteDescrizione": "Leaders think not only for themselves, but also for those whom they would keep as vassals. Willworkers of the Silver Ladder use this rote to conduct the many tasks of rule in the limited time usually available to them. Mages of the Mysterium also occasionally use the same rote, especially when considering weighty matters of exceedingly obscure lore.",
         "DescrizioneBreve": "undertake two mental actions",
+        "Book": "M:tA 206"
     },
     {
         "Titolo": "Sense Consciousness",
@@ -261,6 +268,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "RoteDescrizione": "Mages of the Mysterium use this rote to discern the presence of other thinking beings nearby. While skulking through ancient ruins, the revelation of thousands of insect minds nearby may indicate some sort of trap, while one vast and potent intelligence could mean an entirely different sort of guardian. Some Guardians of the Veil also make use of this magic, sensing for the presence of witnesses to the inexplicable, the better to act quickly and conceal any potential breaches of the veil.",
         "DescrizioneBreve": "be aware of all entities in area",
+        "Book": "M:tA 206"
     },
     {
         "Titolo": "Third Eye",
@@ -276,6 +284,7 @@ const mindOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "RoteDescrizione": "This rote enables Guardians of the Veil to dissect thought processes and background reasons, bringing them closer to their targets. Free Council mages use similar magic to delve into the echoes of consciousness and understand the underlying factors behind the changing face of magic.",
         "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 206"
     }
 ]
 
@@ -294,6 +303,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "Perhaps most commonly employed by Guardians to disguise their true intent, this rote nevertheless sees use for a wide variety of ends. Silver Ladder willworkers sometimes use a variant (Composure + Subterfuge + Mind) to conceal the truth of their feelings.",
         "DescrizioneBreve": "falsify your emotional aura",
+        "Book": "M:tA 207"
     },
     {
         "Titolo": "Beast Control",
@@ -309,6 +319,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Animal Ken + Mind vs. Resolve",
         "RoteDescrizione": "Some Ladder mages enjoy use of this rote as a means of keeping order in their homes. They drive out unwanted insects and other pests, and can even command dangerous lower creatures kept as pets or guardians (such as alligators or sharks). No order spurns so utilitarian a rote.",
         "DescrizioneBreve": "dominate lesser life forms",
+        "Book": "M:tA 207"
     },
     {
         "Titolo": "Control Waking",
@@ -324,6 +335,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Persuasion + Mind – Resolve",
         "RoteDescrizione": "A Sleeper unable to resist the lure of the Mysteries always leaves signs about, and the Guardians of the Veil are quite practiced at seeking and finding those signs. Some of most telling are best found in the Sleeper’s residence or, among the exceptionally paranoid, on the Sleeper’s person. And the best time for a Guardian to perform his investigation is at night, not just for the darkness that criminals favor but also for the solitude it affords the mage — no one wants to invoke Disbelief. Because of this, Guardians of the Veil often end up searching suspects’ homes or apartments during the witching hour. More likely than not, the suspects are home then (which is good, because the Guardians sometimes need to search the suspects, as well). Guardians make use of this rote to ensure that the subject remains asleep during the investigation.",
         "DescrizioneBreve": "make target sleep deeper or wake",
+        "Book": "GotV 191"
     },
     {
         "Titolo": "Delayed Rest",
@@ -339,6 +351,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Investigation + Mind",
         "RoteDescrizione": "The Mysteries won’t protect themselves, and as much as a Guardian of the Veil may need her sleep, it is rare that there is another Guardian available to take up the burden. Too many opportunities have been lost because of a night’s rest. Instead, Guardians use this rote to keep themselves functional and awake longer than they usually could be.",
         "DescrizioneBreve": "go for extended time without sleep",
+        "Book": "GotV 192"
     },
     {
         "Titolo": "Directory Enquiry",
@@ -354,6 +367,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Mind",
         "RoteDescrizione": "Telephones are as much a means of control as they are a means of communication. The Seers know that. As long as you have a telephone, you’re never out of reach, no matter how secure the line.",
         "DescrizioneBreve": "learn a telephone number from a phone you can see",
+        "Book": "RoTE 53"
     },
     {
         "Titolo": "Don Spirit Mask",
@@ -369,6 +383,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "In the course of fulfilling his order’s obligations, a Guardian of the Veil must often walk in secrecy and silence, unobserved by all. The Fallen World, however, teems with entities that populate the invisible layers of the Tapestry. In concealing himself from these beings — walking among them as though he were one of them — the Guardian hides in plain sight.",
         "DescrizioneBreve": "disguise own essence as Ghost or Spirit",
+        "Book": "Summ 210"
     },
     {
         "Titolo": "Eagle-Eye View",
@@ -384,6 +399,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Academics + Mind",
         "RoteDescrizione": "The version of this rote developed by the Adamantine Arrow varies slightly in its approach. Rather than seeking an overhead view of the combat, the mage fixes and tracks the position of combatants in his mind. The Arrows prefer this approach in small battles where an overhead view may not be as useful as knowing where each target is, where they were and what they’ve done.",
         "DescrizioneBreve": "+1/success to Initiative",
+        "Book": "AA 182"
     },
     {
         "Titolo": "Emotional Urging",
@@ -399,6 +415,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Mind vs. Composure + Gnosis",
         "RoteDescrizione": "Blatant displays of power are not always necessary or even prudent. Mages of the Mysterium can often get by with nothing more than a subtle emotional suggestion. Guardians of the Veil also use such magics (Wits + Empathy + Mind) to carefully nudge the unknowing away from secrets they are not yet ready to glimpse.",
         "DescrizioneBreve": "alter the emotional state of others",
+        "Book": "M:tA 207"
     },
     {
         "Titolo": "Euphoria",
@@ -414,6 +431,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind",
         "RoteDescrizione": "A Seer that can remain active until the very last moment is a Seer with an extra chance to escape whatever calamity has befallen her. A slave that can fight on in the face of terrible wounds is a slave buying another few seconds in which the enemy is not attacking his master.",
         "DescrizioneBreve": "block out pain to reduce wound penalties, stay conscious",
+        "Book": "SotT 192"
     },
     {
         "Titolo": "False Speech (lesser)",
@@ -429,6 +447,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind",
         "RoteDescrizione": "Without understanding, there is no such thing as cooperation. Théarchs who learn this magic use it when necessary to deny their enemies, rivals, underlings, and pawns alike the free and open exchange of information.",
         "DescrizioneBreve": "distort sound in an area",
+        "Book": "TotM 25"
     },
     {
         "Titolo": "First Impressions",
@@ -444,6 +463,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Socialize + Mind",
         "RoteDescrizione": "It helps when you can back up charm with some substance, but charm alone can do the trick if it’s possessed in abundance. Council mages make use of this rote to set the tone for interactions with others. Members of the Silver Ladder are also known to use the same magic, seeing nothing wrong in stacking the deck in their own favor.",
         "DescrizioneBreve": "bonus to first social interaction",
+        "Book": "M:tA 208"
     },
     {
         "Titolo": "Gain Skill",
@@ -459,6 +479,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Mind",
         "RoteDescrizione": "The days when a Renaissance Man could know everything there is to know are long past, and members of the Free Council know it. Still, that doesn’t mean they can’t fill in the gaps in their knowledge and experience from time to time. Many contemporary Libertines believe this spell taps into the Astral depths of the universal consciousness to imbue the caster with knowledge imprinted there by countless other minds. Whether the spell touches upon morphic fields or the Akashic Records, the effect is the same.",
         "DescrizioneBreve": "gain increase to a Skill to a limit of 5",
+        "Book": "FC 111"
     },
     {
         "Titolo": "Hurried Rest",
@@ -474,6 +495,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Investigation + Mind",
         "RoteDescrizione": "The greatest of the order’s strategists are constantly in demand. There are more decisions to be made than even twice their number could handle in the time they have. For them, there is no greater resource than time — and purchasing it with mastery of the appropriate Arcanum has too high a cost. Instead, the top brass utilize this rote to significantly reduce the amount of time they actually need to rest. Agents in the field also use it, sometimes out of a need for a quick rest, sometimes out of simple paranoia — the less time a Guardian spends in one place and asleep, the safer she is.",
         "DescrizioneBreve": "catch up on sleep quickly",
+        "Book": "GotV 192"
     },
     {
         "Titolo": "Incognito Presence",
@@ -489,6 +511,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Mind",
         "RoteDescrizione": "A Guardian employing this rote is a stranger everywhere she goes, unnoticed by all if she does nothing to draw attention to herself. Others go about their business, unconcerned at her passing.",
         "DescrizioneBreve": "make self less noticeable",
+        "Book": "M:tA 208"
     },
     {
         "Titolo": "Inconspicuous Object",
@@ -504,6 +527,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Larceny + Mind",
         "RoteDescrizione": "Scholars of the Mysterium don’t always have sufficient time to carefully secret away their acquisitions. This spell enables such a willworker to conceal an object without really hiding it at all.",
         "DescrizioneBreve": "make object less noticeable",
+        "Book": "TotM 22"
     },
     {
         "Titolo": "Inspire",
@@ -519,6 +543,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind versus Resolve + Gnosis",
         "RoteDescrizione": "Someone likely to reject unsolicited advice may follow the same course of action if he thinks it’s his own idea. By choosing the proper suggestion and delivering it at the right moment, it’s possible for a Guardian steer the target in a desired direction, while the target thinks he’s acting of his own free will (because he is). The better the mage knows his target, the more effective his message becomes: someone who’s afraid of dogs, for example, could be powerfully affected by the thought that there might be dogs nearby.",
         "DescrizioneBreve": "telepathically insert one idea into target's mind",
+        "Book": "GotV 192"
     },
     {
         "Titolo": "Memory Hole",
@@ -534,6 +559,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Mind",
         "RoteDescrizione": "Advancing the science of magic is not always honest work. Members of the Free Council use this rote to conceal the unsavory business in which they must occasionally indulge.",
         "DescrizioneBreve": "forget something temporarily",
+        "Book": "M:tA 208"
     },
     {
         "Titolo": "Mental Shield",
@@ -549,6 +575,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "Adamantine Arrow mages like the psychic bulwark such magic provides. Silver Ladder mages also value this rote, as it assures them that no rival gets the better of them through mystic means.",
         "DescrizioneBreve": "gain Armor against psychic effects, pierce illusions with reflexive Gnosis + Mind",
+        "Book": "M:tA 208"
     },
     {
         "Titolo": "Misperception",
@@ -564,6 +591,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Stealth + Mind",
         "RoteDescrizione": "This rote protects an Arrow mage with a collage of minor hallucinations and compulsions. Would-be attackers become uncertain of their senses or even their intentions.",
         "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 209"
     },
     {
         "Titolo": "Moment of Doubt",
@@ -579,6 +607,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Mind – Composure",
         "RoteDescrizione": "Sometimes a person’s worst enemy is herself. With this rote, a Guardian traps an antagonist in a struggle with her own inner critic, giving the mage an opportunity to escape or take action.",
         "DescrizioneBreve": "inspire doubt in target",
+        "Book": "GotV 193"
     },
     {
         "Titolo": "Opening the Lidless Eye",
@@ -594,6 +623,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Mind",
         "RoteDescrizione": "It can be difficult to inspire others to follow one’s plan if they lack an understanding of its details. Mages of the Silver Ladder use this rote to reveal the nuances of a situation to others, enabling subjects to comprehend why the mages’ designs are ultimately for the best. Guardians of the Veil open others to the sorcerers’ exceptional senses (Wits + Persuasion + Mind) so that all might act in concert to defend the sanctity of the Mysteries.",
         "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 209"
     },
     {
         "Titolo": "Perfect Mnemonic",
@@ -609,6 +639,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind",
         "RoteDescrizione": "Although the Mysterium spends more time solving mysteries than protecting them, members also recognize that every secret forgotten is one that they must waste time rediscovering. Therefore, members make extensive use of this rote, to help themselves remember and to educate junior members in the order’s regulations. The aggressive casting method is not widely known, but thankfully, mages cannot accidentally stumble on it unless they actually intend such harm.",
         "DescrizioneBreve": "brand information into own mind",
+        "Book": "Myst 199"
     },
     {
         "Titolo": "Phantom Thoughts",
@@ -624,6 +655,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Subterfuge + Mind",
         "RoteDescrizione": "Members of the Adamantine Arrow use this spell to sow false information about their practices, tactics and suspicions among their enemies. Tricking an enemy into believing false information can create a large advantage in battle, whether that battle is physical or political in nature.",
         "DescrizioneBreve": "mask thoughts with false imagery",
+        "Book": "AA 183"
     },
     {
         "Titolo": "Playback Vision",
@@ -639,6 +671,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Expression + Mind",
         "RoteDescrizione": "In times past, a shaman would communicate with and do battle with spirits to gain the knowledge his village needed. However, the village could not properly parse the knowledge as the shaman understood it. Moreover, such information could not be conveyed meaningfully through mere words or miming. As such, the village would gather together to experience what the shaman experienced. To do so, they all drank from a cup of the shaman’s urine. The urine delivered unto them the magic of the experience (and, as some scientists suggest, traces of the psychoactive chemical leaving the bloodstream via the waste). This rote is much the same. The chief “shaman” (likely the cult leader) delivers unto the sect his urine. They drink it. They gain the visions he experienced. The urine is, of course, the chief focus here. Some other “blessing” mechanism must come in play, similar to the Catholics aspergillum. Some shake a bone over the cup, others might wave a rusty pipe over it, or a branch from a purportedly “sacred” tree. The final focus is, as always, the entheogen in the bloodstream.",
         "DescrizioneBreve": "record hallucinatory experience",
+        "Book": "MT 138"
     },
     {
         "Titolo": "Stammer",
@@ -654,6 +687,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "During his extended surveillance of order mages in Miami, a solitary Banisher noted the mages frequently chanted in an unknown language to enhance their spells. The Banisher developed this rote as a method of disrupting the chanting, giving him the edge in a fight.",
         "DescrizioneBreve": "cause target to slightly mispronounce Words of Power",
+        "Book": "Ban 59"
     },
     {
         "Titolo": "Voice from Afar",
@@ -669,6 +703,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind – Resolve",
         "RoteDescrizione": "There are times when mundane communication is inconvenient or even dangerous, but members of the Mysterium must get word to their comrades, whether it’s “Help!” or “Duck!” Likewise, a psychic statement of “It’s here” may bring about the conclusion of months of research and questing. In combat, Arrow mages are known to use variant magics (Presence + Expression + Mind) to communicate.",
         "DescrizioneBreve": "send short telepathic message",
+        "Book": "M:tA 210"
     },
     {
         "Titolo": "Willful Process",
@@ -684,6 +719,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Academics + Mind",
         "RoteDescrizione": "Through a series of meditations and mental exercises, Mysterium scholars about to undertake extensive studies or research often use this rote to hone their personal skills. When time is of the essence, the mind must be sharp.",
         "DescrizioneBreve": "gain Rote Quality to a Mental or Social Skill",
+        "Book": "Myst 200"
     },
     {
         "Titolo": "Zeal",
@@ -699,6 +735,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation or Resolve + Persuasion + Mind",
         "RoteDescrizione": "The Seers of the Throne are well known as devoted followers of their cause, but even the most devoted suffer from doubt. By using this rote, the Seer can banish those last doubts from her mind, gaining the freedom of certainty in the Exarchs’ cause.",
         "DescrizioneBreve": "gain +2 extra dice when spending Willpower, defer Degeneration until spell expires",
+        "Book": "SotT 193"
     }
 ]
 
@@ -717,6 +754,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Empathy + Mind",
         "RoteDescrizione": "Dream spaces are rich with forgotten knowledge, but it takes a team to get any of the good stuff. Mystagogues use this rote to bring their cabal along for richer rewards.",
         "DescrizioneBreve": "mark an Astral location to make it easier to find",
+        "Book": "AR 23"
     },
     {
         "Titolo": "Astral Entrance",
@@ -732,6 +770,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Survival + Mind",
         "RoteDescrizione": "Libertines exploring Astral Space together use this rote so they start their journey off on the right foot. Guardians of the Veil use a version of this rote (Intelligence + Streetwise + Mind) to ambush astral travelers or capture astral natives.",
         "DescrizioneBreve": "allow others to descend to your Oneiros",
+        "Book": "AR 22"
     },
     {
         "Titolo": "Augment the Mind",
@@ -747,6 +786,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Academics + Mind",
         "RoteDescrizione": "Guardians are called upon to be brilliant, forceful and persuasive. Such acumen in all fields is not often found within a single individual. Indeed, Guardians must occasionally be far more brilliant, forceful or persuasive than any normal human being could possibly be. This rote enables such willworkers to become veritable Einsteins, rivaling the genius of even the most renowned intellect.",
         "DescrizioneBreve": "gain increase to a Mental or Social Attribute",
+        "Book": "M:tA 210"
     },
     {
         "Titolo": "Aura Cloak",
@@ -762,6 +802,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "It is well and good to conceal one’s own emotional state, but an elaborate ruse can fall apart entirely if even one conspirator betrays her true feelings. For just such circumstances, Mysterium willworkers use this rote to conceal the auras of their companions. Conversely, Guardians of the Veil use the rote to alter the aura of another so as to create false trails leading away from the Mysteries.",
         "DescrizioneBreve": "falsify others emotional aura",
+        "Book": "M:tA 211"
     },
     {
         "Titolo": "Bestow High Speech",
@@ -777,6 +818,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Expression + Mind",
         "RoteDescrizione": "Mystagogues use this secret rote on their most trusted Sleepwalker research assistants.<p>It allows a Sleepwalker to read books written in High Speech, as many of the older and more valuable tomes are in the Atlantean language. Otherwise, many mages would be without research assistance when looking for the one clue to an important mystery.</p>The Mysterium assumes that the Guardians of the Veil would consider this rote a betrayal of the Veil and attempt to destroy all record of its existence. The order therefore keeps Words from the Isle a great secret.",
         "DescrizioneBreve": "target can speak and understand High Speech",
+        "Book": "Myst 98"
     },
     {
         "Titolo": "Bestow Skill",
@@ -792,6 +834,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Persuasion + Mind",
         "RoteDescrizione": "While Libertines are fine with teaching what they know the old-fashioned way, sometimes there just isn’t time to give loyal helpers or allies the instruction they need.",
         "DescrizioneBreve": "grant target Skill up to limit of 5",
+        "Book": "FC 111"
     },
     {
         "Titolo": "Bolster Virtue",
@@ -806,6 +849,7 @@ const mindThreeData = [
         "RoteName": "Epee’s Rote: Best Foot Forward",
         "RoteDice": "<b>Dice Pool:</b> Presence + Empathy + Mind",
         "DescrizioneBreve": "strengthen virtuous use of Willpower for self",
+        "Book": "KST 103"
     },
     {
         "Titolo": "Curse of Dementia",
@@ -820,6 +864,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Mind",
         "RoteDescrizione": "Members of the Free Council use items infected with the Instant Alzheimer's rote as a means of poetic justice against enemies who seek to stifle intellectual freedom.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 138"
     },
     {
         "Titolo": "Curse of Ostracism",
@@ -834,6 +879,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Mind",
         "RoteDescrizione": "Guardians of the Veil employ the Blackball rote to silence babbling fools and erode their ability to communicate with others. No one heeds the words of a frightened, drooling milquetoast.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 138"
     },
     {
         "Titolo": "Defer Conscience",
@@ -849,6 +895,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Mind",
         "RoteDescrizione": "The warrior’s burden is a heavy one, and she occasionally must undertake inhumane acts to protect those in her charge. None are certain when this magic was first developed by the Dragon’s Talon, though no Arrow questions its usefulness. A soldier must remain steadfast and unmoved in the face of inflicting hurts from which lesser men flinch, after all, and the Arrow must be capable of enacting her duty without complaint or the hesitation born of inner turmoil.",
         "DescrizioneBreve": "postpone morality checks to end of scene",
+        "Book": "AA 183"
     },
     {
         "Titolo": "Denial of Senses",
@@ -864,6 +911,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Mind",
         "RoteDescrizione": "Every spy and secret agent wants the power to affect those around her so that she may pass unnoticed. The Guardians of the Veil have it, and they use it to great effect. Although this rote becomes unwieldy or ineffective if there are crowds about, Dimmed Sight is quite good at getting the Guardian through slow bank lobbies and past bored security guards.",
         "DescrizioneBreve": "reduce target's Reflexive Perception rolls",
+        "Book": "GotV 193"
     },
     {
         "Titolo": "Diplomat's Protection",
@@ -879,6 +927,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Expression + Mind",
         "RoteDescrizione": "Théarchs often enjoy using a rote that enables them to walk freely among their enemies with no risk of harm. This rote invokes the ancient protection of the Vox Draconis in their sacred role as Heralds of Atlantis.",
         "DescrizioneBreve": "prevent creatures of weak Resolve from attacking you",
+        "Book": "SL 200"
     },
     {
         "Titolo": "Directed Havoc",
@@ -894,6 +943,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "The rough poetic justice meted out by this item defense maintains a special appeal for the Free Council’s more anarchic practitioners.",
         "DescrizioneBreve": "item crafting, defense",
+        "Book": "GoG 57"
     },
     {
         "Titolo": "Disinhibiting Sympathy",
@@ -909,6 +959,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind",
         "RoteDescrizione": "Doktor Kultur wove this rote into the lyrics of the song, which is a long, seductive digression on the nature of passion, how authority holds it in check and how indulgence is the true path to self-mastery.",
         "DescrizioneBreve": "force target and associates to roll to avoid acting on Vice",
+        "Book": "GoG 57"
     },
     {
         "Titolo": "Disrupt Concentration",
@@ -924,6 +975,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Mind",
         "RoteDescrizione": "There are many things that a Guardian does not want others to learn. Though “Wasted Research” isn’t a complete solution, this spell slows progress while the mage comes up with a real fix. In Astral Space, this spell is a good way to make sure that a person cannot follow one up or down through the strata — or to prevent him from reaching the astral in the first place.",
         "DescrizioneBreve": "impose penalties to efforts of concentration",
+        "Book": "AR 23"
     },
     {
         "Titolo": "Enforce Paradigm",
@@ -939,6 +991,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Mind",
         "RoteDescrizione": "Although Guardians of the Veil can cast the spell in advance, as explained above, they often find this rote useful in retrospect, to prevent rumors of the supernatural spreading among the great unwashed. This rote, which requires Mind 4, can be cast as a lasting spell long after the occult incident. The subject then revises her memories to fit a mundane explanation proposed by the mage, who casts the spell while engaging her in conversation.",
         "DescrizioneBreve": "prevent Sleeper from seeing or realizing supernatural events",
+        "Book": "TotM 65"
     },
     {
         "Titolo": "Eternal Now",
@@ -954,6 +1007,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Mind",
         "RoteDescrizione": "When looking through rare books or stealing ancient artifacts, Mysterium investigators who are discovered prefer to use this spell to keep the target from remembering their identity and even their presence.",
         "DescrizioneBreve": "prevent target from having new memories",
+        "Book": "Myst 200"
     },
     {
         "Titolo": "Eyes of the Master",
@@ -969,6 +1023,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Perception + Empathy + Mind",
         "RoteDescrizione": "This rote goes back to just after the Fall. Afraid for their own safety, the Guardians of the Veil would send junior mages on errands for their masters, remaining in telepathic communication. This spell would frequently be supplemented by the Mind 3 'Mental Wall' spell, giving the 'horse' a mental barrier for everything except the mental link.",
         "DescrizioneBreve": "view within a familiar structure",
+        "Book": "GotV 193"
     },
     {
         "Titolo": "False Fame",
@@ -984,6 +1039,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Socialize + Mind",
         "RoteDescrizione": "Sometimes, schmoozing is the only way to get by, and sometimes you have to cheat. This rote is fairly popular among some of those Free Council mages who practice their art among the doyennes of the entertainment industry. It’s often useful in some circles to look more impressive than you are.",
         "DescrizioneBreve": "foster belief of celebrity around self",
+        "Book": "TotM 66"
     },
     {
         "Titolo": "False Speech (greater)",
@@ -999,6 +1055,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind",
         "RoteDescrizione": "Without understanding, there is no such thing as cooperation. Théarchs who learn this magic use it when necessary to deny their enemies, rivals, underlings, and pawns alike the free and open exchange of information.",
         "DescrizioneBreve": "",
+        "Book": "TotM 25"
     },
     {
         "Titolo": "Goetic Struggle",
@@ -1011,6 +1068,7 @@ const mindThreeData = [
         "Cost": "None",
         "DescrizioneMiddle": "<p>This spell “summons” an inner demon into a mage’s consciousness and binds it to his will. Then, whenever the mage’s Vice might come into play during the spell’s duration, he can mentally wrestle the demon (a contested roll between his Gnosis + Mind and his own Resolve + Composure). If he wins, he gains Willpower as if his action had reflected the Vice (even though he didn’t actually act upon it). The demon is put down and banished (this spell must be cast again to gain the same effect). If the demon wins the contest, however, the mage must act out the Vice — and he doesn’t get Willpower for it. </p> <p>Example: A mage whose Vice is Gluttony is offered expensive champagne and all the drinks he wants. He knows his enemies are near, so he wants to keep his head clear and not indulge. The alcohol is tempting, however (he could sure use a Willpower point!). He had cast the “Goetic Struggle” spell earlier that hour, so decides to wrestle with the Goetic demon bound to him in hopes of reaping the benefit of his Vice without having to actually indulge it (and risking the consequences of becoming drunk). </p> <p>His player rolls Gnosis 3 + Mind 3 in a contested roll against his character’s own Resolve 2 and Composure 3. His Gnosis + Mind roll yields two successes, while the Resolve + Composure roll gets one. He wins the contest, so the mage gains one Willpower as if he had indulged his Gluttony, and he doesn’t have to touch a drink. If the Resolve + Composure (representing the demon) roll had won, he would have been forced to drink the alcohol offered and would not have recovered Willpower for it. </p><p>Casting this spell is an act of hubris, requiring a mage with a Wisdom higher than 4 dots to make a degeneration roll. </p>",
         "DescrizioneBreve": "fight inner demons to prevent frailty",
+        "Book": "M:tA 324"
     },
     {
         "Titolo": "Greater Beast Control",
@@ -1026,6 +1084,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Animal Ken + Mind vs. Resolve",
         "RoteDescrizione": "Human allies, whether Awakened or otherwise, can be reliable, but they are sometimes insufficient to a task. A rat can scamper between the walls of a house much more easily than any person, and rare indeed is the human being capable of eliciting the same sort of response from others as a full-grown charging grizzly bear. Mages of the Silver Ladder use the same magic to control the actions of both treasured pets and less valued animal servants.",
         "DescrizioneBreve": "dominate lesser lifeforms",
+        "Book": "M:tA 211"
     },
     {
         "Titolo": "Implant Subliminal Message",
@@ -1068,6 +1127,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Mind versus Composure + Gnosis",
         "RoteDescrizione": "The Guardians of the Veil do their best to make absolutely certain that information about magic does not make it into the mass media or onto the Internet. However, in these days of bloggers and electronic media, stopping everyone who has seen an act of vulgar magic from reporting it is no longer always possible. Instead, the Guardians must be content to discredit both the source of the information and the information itself. If the Guardians cannot use this rote on the actual source of information, either because it was a live broadcast or because it is a rumor spread by word of mouth, or printed in a book or newspaper, they implant information in all manner of related electronic media that influences the public’s view of the original source. While it is often impossible to stop a rumor, Guardians who are skilled with this rote can often alter the nature of a story so that their revised version swiftly replaces the story they wish to suppress. Guardians have numerous uses for this spell that do not directly involve causing the public to disbelieve a specific piece of evidence for the existence of magic. However, using this (or any other) spell to cause Sleepers to believe in magic more is one of the most serious crimes one of the Guardians of the Veil can commit, unless this is done inside of the strictures of an occult Labyrinth, where the Sleeper’s belief in a conspiracy theory or occult phenomena might be the key to redirecting that Sleeper into falsehoods. In such cases, it may be necessary at times to foment someone’s belief in the occult.",
         "DescrizioneBreve": "affect reaction to media",
+        "Book": "GotV 194"
     },
     {
         "Titolo": "Imposter",
@@ -1083,6 +1143,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Mind vs. Composure + Gnosis",
         "RoteDescrizione": "Guardians often use this rote to pose as bureaucrats or administrators in places where a persona’s authority can get them access to the files or data they seek.",
         "DescrizioneBreve": "appear to be someone else",
+        "Book": "M:tA 211"
     },
     {
         "Titolo": "Induce Hoarding Instinct",
@@ -1098,6 +1159,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Crafts + Mind",
         "RoteDescrizione": "When the Silver Ladder sends you a present, the order expects you to keep it.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 138"
     },
     {
         "Titolo": "Induce Sleep",
@@ -1140,6 +1202,7 @@ const mindThreeData = [
         "RoteDice": "Manipulation + Persuasion + Mind",
         "RoteDescrizione": "The simplest way to deal with anyone who might object to the presence of an intruder is to either cause the person to fall asleep or keep an already sleeping person asleep. No one is surprised if a guard falls asleep at her post or if a wealthy person sleeps through his house being robbed.",
         "DescrizioneBreve": "cause target to become sleepy",
+        "Book": "Myst 201"
     },
     {
         "Titolo": "Kinesthesia",
@@ -1155,6 +1218,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Athletics + Mind",
         "RoteDescrizione": "Yao Tzu was, in his youth, infamous for starting brawls with the local toughs wherever he wandered, so as to demonstrate the power of his many martial arts techniques. Sometime around the start of the 13th century, however, as he was transitioning out of youth and into a more respectable age, he compiled his philosophies and the fundamentals of his spells in seven scrolls, which he gifted to the Awakened caretakers of the monastery upon the doorstep of which he was left as an infant. The monastery, unfortunately, was destroyed sometime in the late 17th century, but one of Yao Tzu’s scrolls survived — the one illuminating the secrets of this highly prized rote.",
         "DescrizioneBreve": "gain bonus against multiple attackers, partially negate environmental penalties",
+        "Book": "AA 183"
     },
     {
         "Titolo": "Know the Truth",
@@ -1170,6 +1234,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Mind",
         "RoteDescrizione": "“Ye shall know the truth, and the truth shall make you free.” The mages of the Mysterium know that. Some work to make others free, by revealing the truth of matters above and beyond all other things.",
         "DescrizioneBreve": "verify accuracy of a document",
+        "Book": "L:tA 69"
     },
     {
         "Titolo": "Know Thyself",
@@ -1185,6 +1250,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "RoteDescrizione": "The Guardians claim to have been the first to develop the process of mental self-examination, and are believed to be the first to have codified it into a rote, though the Silver Ladder and the Mysterium are known to have similar rotes.",
         "DescrizioneBreve": "determine if own memory was altered",
+        "Book": "gotV 194"
     },
     {
         "Titolo": "Lift the Astral Barrier",
@@ -1200,6 +1266,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Mind",
         "RoteDescrizione": "In the hope of Awakening mortals or discovering  new magic in the Sleeping mind, the Free Council uses this rote to bring Sleepers on astral journeys.",
         "DescrizioneBreve": "pay the cost of the Astral Threshold for others",
+        "Book": "AR 23"
     },
     {
         "Titolo": "Mental Wall",
@@ -1214,6 +1281,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Mind",
         "RoteDescrizione": "Guardians’ companions must sometimes be protected from deleterious influences, and Sleepers (or others meant to remain ignorant of the Awakened world) can occasionally be kept in the dark with nothing more than a simple ward to put alien influences out of their minds.",
         "DescrizioneBreve": "grant Armor against psychic effects",
+        "Book": "M:tA 211"
     },
     {
         "Titolo": "Multi-Tasking",
@@ -1229,6 +1297,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Academics + Mind",
         "RoteDescrizione": "Asserting control over one’s own consciousness is one of the many steps on the path to true mastery over one’s environment. Mages of the Silver Ladder use this rote to encompass numerous trains of thought at once, outthinking less gifted individuals and holding their own against many quick-thinking rivals. Guardians of the Veil also favor this rote, as it allows them to better analyze difficult situations before they turn to disasters, or to salvage disasters.",
         "DescrizioneBreve": "undertake multiple mental actions",
+        "Book": "M:tA 211"
     },
     {
         "Titolo": "Passion Link",
@@ -1244,6 +1313,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Subterfuge + Mind versus Composure + Gnosis",
         "RoteDescrizione": "Sometimes it’s imperative that a subject shows discretion regarding a particular topic that he might otherwise speak of too freely. This variant of the spell links that topic to the subject’s deepest shame. The mage determines one topic that he does not want the spell’s subject to talk about — magic, for example, or the name of the person who supplied a murder weapon or anything else — and for the spell’s duration, that specific subject is wrapped in a cloak of shame in the subject’s psyche. To talk about that subject feels like blabbing the most sickeningly embarrassing and awkward topic possible, although the spell does not actually prevent the target from talking about it, should someone convince him to speak his shame.",
         "DescrizioneBreve": "create emotional connection with topic",
+        "Book": "GotV 195"
     },
     {
         "Titolo": "Past Life Regression",
@@ -1259,6 +1329,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Mind",
         "RoteDescrizione": "The Mysterium investigate every shade of being they can. The few Mysterium mages who travel through apparent past lives have come back with powerful insights.<p><b>Theosophical Rote: Path of the Augoeides</b><br><b>Dice Pool:</b> Presence + Occult + Mind<p>It's a long, drawn-out process. The spell needs a quiet, dark room and a relaxed atmosphere. The caster induces trance in himself and/or his colleagues. Perhaps he hypnotizes each of them with a watch or a pendulum in turn. Perhaps he chants. The mage calls on one of the Mahatmas to appear and show the subjects their past lives. They perceive the Master as a presence, leading each of them in turn out of the room and into a former memory. The process of inducing the trance and taking the subjects back into their previous lives takes a whole lot longer than the actual experience, although the subject doesn't perceive it that way.</p> </p>",
         "DescrizioneBreve": "experience events from possible past life",
+        "Book": "MT 105"
     },
     {
         "Titolo": "Precious Malediction",
@@ -1274,6 +1345,7 @@ const mindThreeData = [
         "RoteDice": "Manipulation + Persuasion + Mind",
         "RoteDescrizione": "Mages of the Mysterium, who tend to suffer a touch of obsessive-compulsive disorder regarding their Artifact hordes, can easily project the dark side of collecting mania into the cursed objects they create.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 137"
     },
     {
         "Titolo": "Preserve Astral Object",
@@ -1289,6 +1361,7 @@ const mindThreeData = [
         "RoteDice": "Intelligence + Science + Mind",
         "RoteDescrizione": "Mages find the most interesting examples of psychosis in Oneiroi, and the symbols born from sick intentions found in the deeper astral realms are incredibly fascinating. Free Council psychologists who explore Astral Space (especially Jungians in the Temenos) use this rote for extra time to study their findings. The Mysterium has a similar rote (Intelligence + Occult + Mind) they use for the same purpose.",
         "DescrizioneBreve": "prevent object from changing with Astral",
+        "Book": "AR 24"
     },
     {
         "Titolo": "Preserve Astral Space",
@@ -1304,6 +1377,7 @@ const mindThreeData = [
         "RoteDice": "Intelligence + Survival + Mind",
         "RoteDescrizione": "No Adamantine Arrow enjoys being behind enemy lines, and traveling through Astral Space that can change shape without warning and leave a mage surrounded by hostile creatures with no way out is as far behind enemy lines as one can get. This rote produces a base of operations, a place the mage can be sure won’t abandon him. Mysterium mages have a similar rote (Intelligence + Academics + Mind) they use to create repositories of knowledge within their own Oneiroi, keeping the repositories safe from external examination and from being washed away by dream tides.",
         "DescrizioneBreve": "prevent location from changing with Astral",
+        "Book": "AR 25"
     },
     {
         "Titolo": "Provoke Wrath",
@@ -1319,6 +1393,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind",
         "RoteDescrizione": "The General is the Exarch of anger, frustration, and violence. His plans are found in the protest turned riot, the sudden outpouring of hate, and the loved one struck down in a moment of madness. With this rote, the Ministry of Praetorian and their Myrmidon servants bestow the General’s gift on the unsuspecting masses.",
         "DescrizioneBreve": "overwhelm target's ability to stay calm, defer Degeneration till end of duration",
+        "Book": "SotT 193"
     },
     {
         "Titolo": "Psychic Assault",
@@ -1334,6 +1409,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Mind – Resolve",
         "RoteDescrizione": "There are those who think the Adamantine Arrow is nothing more than a gang of thugs who brandish vulgar magic in the name of peace. Most mages of that order are content to allow detractors such illusions, keeping their silence about rotes such as this one. Often dismissed as a seizure or other neurological ailment, this magic constitutes a potent weapon in the Arrow arsenal. In fact, it is so effective and discrete that it is used, in one form or another, by most mages sufficiently skilled in the Mind Arcanum.",
         "DescrizioneBreve": "inflict Bashing damage psionicaly",
+        "Book": "M:tA 212"
     },
     {
         "Titolo": "Read Trends",
@@ -1380,6 +1456,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Perception + Empathy + Mind",
         "RoteDescrizione": "This rote is regularly used by the Guardians of the Veil to determine the affect that significant incidents of vulgar magic may have had on the populace of a region. Guardians also use this rote to find evidence of such magic and to attempt to substantiate rumors of magic, Artifacts or other unexplained phenomena that might cause Sleepers to investigate matters that the Guardians would prefer to have them avoid. Because of the lengthy casting, this rote is only used when the Guardians have reason to believe that something unusual is occurring in the area in question. They often use successive castings of this rote to narrow down the exact area of the phenomena in question. To do this, one or more mages must perform this rote multiple times in different sections of a city, in an attempt to discover where exactly the phenomena in question occurred.",
         "DescrizioneBreve": "determine general public opinion",
+        "Book": "GotV 195"
     },
     {
         "Titolo": "Seal Oneiros",
@@ -1395,6 +1472,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Academics + Mind",
         "RoteDescrizione": "Silver Ladder mages consider their minds places of great importance and incredible secrecy. They use this spell to ensure that no enemy mages come anywhere near their minds.",
         "DescrizioneBreve": "create Ward on Oneiros",
+        "Book": "AR 24"
     },
     {
         "Titolo": "Shackled Morality",
@@ -1409,6 +1487,7 @@ const mindThreeData = [
         "RoteName": "Le Livre Rouge Rote",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Mind",
         "DescrizioneBreve": "target can not regain Willpower from Virtue",
+        "Book": "GoG 117"
     },
     {
         "Titolo": "Shroud of Disinterest",
@@ -1467,6 +1546,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "Guardians of the Veil place curses into bits of detritus such as broken shoelaces, crumpled balls of paper, rags, or even pest control devices. Weaving Below the Radar for good measure, they then sneak into a victim’s place of residence, secreting the item in a hard-to-reach cranny: behind radiators, under couch cushions, or beneath carpet edges. Alternately, Guardians may enchant items such as coupons, business cards, lip balms, or dinner mints and furtively place them in their victim’s coats, wallets, or handbags.",
         "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 142"
     },
     {
         "Titolo": "Sleep of the Just",
@@ -1482,6 +1562,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Mind",
         "RoteDescrizione": "<p>A leader’s work is never truly done. A Silver Ladder willworker can use this rote to work through his plans even while he sleeps, creating vivid and realistic scenarios in his dreams, preparing for the difficulties of his ascent through the ranks of the Awakened. Free Council mages also make use of such magic, using lucid dreaming and regimented control of sleep patterns to ponder the difficulties of their waking lives.",
         "DescrizioneBreve": "control sleep and dreams",
+        "Book": "M:tA 212"
     },
     {
         "Titolo": "Summon Esoteric",
@@ -1497,6 +1578,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "The oldest known use of this rote dates back to a Consilium in 13th century Spain. A Mastigos Guardian now known only by her Shadow Name, Lucia, was following the trail of a Tremere lich who had allegedly infiltrated the Consilium. Unable to piece together the fragmentary clues left by the Left-Handed Necromancer, the Warlock turned to other options. In secret, she studied her fellow mages through scrying portals, calling their foremost conscious desires out of them, so they could be studied and the truth of the matter discerned. Lucia never found a lich, however, as none existed within the Consilium to find. Instead, she discovered that the rumor had been seeded by two Seers of the Throne who had quietly replaced Councilors, and that they were using the paranoia that the story engendered to gradually weaken any hope of concerted resistance when the time came for their allies to strike. Armed with this knowledge, Lucia petitioned for, and received, permission to eliminate the threat.",
         "DescrizioneBreve": "call an esoteric (conscious desire) to Twilight",
+        "Book": "Summ 54"
     },
     {
         "Titolo": "Summon Morphean",
@@ -1512,6 +1594,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Mind",
         "RoteDescrizione": "Summoning dreams is a practice, some say, as old as Atlantis itself. While the Free Council is not nearly that ancient, they are no less dedicated to their arts than mages who came before. This rote, in particular, was crafted early in the Order’s existence and was used extensively in the early days of the Free Council to help guide and direct the path of Libertines interested in the burgeoning field of psychology, drawing upon their common dreams. It remains a popular and well-used rote to this day and is often shared amongst the ranks of the Free Council and beyond.",
         "DescrizioneBreve": "call a dream-fragment out of Oneiros to Twilight",
+        "Book": "Summ 52"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -1523,6 +1606,7 @@ const mindThreeData = [
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
         "DescrizioneBreve": "(Mastigos only) call a Wraith from Pandemonium, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Telepathic Alarm",
@@ -1538,6 +1622,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "Followers of the Adamantine Arrow use the telepathic link to frighten interlopers via long distance, employing their typically formidable Intimidation skills to send chills through the thief’s cerebral cortex.",
         "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 141"
     },
     {
         "Titolo": "Telepathic Eavesdropping",
@@ -1553,6 +1638,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "RoteDescrizione": "This rote hails back to the original Eye of the Dragon on the isle of Atlantis. This rote is one of many techniques the early form of the order used to watch over and keep safe the inhabitants of the island. Today, Guardian spies watch over the known Hallows and Demesnes of other orders for stray psychic streams; when any arise, Guardians tap them.",
         "DescrizioneBreve": "overhear telepathic conversations",
+        "Book": "GotV 196"
     },
     {
         "Titolo": "Telepathy",
@@ -1595,6 +1681,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind vs. Resolve + Gnosis",
         "RoteDescrizione": "Telepathy and other “psychic” phenomena are staples of modern occult lore. Mages of the Free Council capitalize upon these ideas through use of rotes such as this one.",
         "DescrizioneBreve": "create telepathic link",
+        "Book": "M:tA 212"
     },
     {
         "Titolo": "The Inescapable Question",
@@ -1610,6 +1697,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind",
         "RoteDescrizione": "Socrates was the master of creating aporia, the shocked silence that comes when someone has no answer to a question so challenging, so unexpected, that it shocks its subject into baffled silence. Many of the mages in the Silver Ladder know the value of this, and although they use it sparingly, they use it to good effect.",
         "DescrizioneBreve": "halt target as they ponder question",
+        "Book": "L:tA 34"
     },
     {
         "Titolo": "Transfer Will",
@@ -1625,6 +1713,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "The Silver Ladder finds this useful when one of its members has the capacity to work a taxing spell that will motstly benefit someone else. The former mage completes the spell, and the latter pays the toll. ",
         "DescrizioneBreve": "allow others to pay relinquishment costs",
+        "Book": "TotM 66"
     },
     {
         "Titolo": "Universal Language",
@@ -1640,6 +1729,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Academics + Mind",
         "RoteDescrizione": "Mages of the Mysterium reduce all languages to their root concepts, ideals potentially shared by all forms of communication, in all times, in all places, and indeed among all forms of consciousness. In so doing, they decipher long-dead tongues, converse with beings that have never before set eyes on a human, and never need to ask someone to translate a road sign in a foreign country. Calling upon the Universal Unconscious, Free Council willworkers make use of the same rote, delving into ideas shared by all minds.",
         "DescrizioneBreve": "understand any language",
+        "Book": "M:tA 213"
     },
     {
         "Titolo": "Will of Fire",
@@ -1686,6 +1776,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Mind",
         "RoteDescrizione": "A leader is nothing without a following. With this rote, a mage can inspire his followers with the extra force of will to achieve beyond their usual means.",
         "DescrizioneBreve": "grant others Willpower through oratory",
+        "Book": "L:tA 44"
     }
 ]
 
@@ -1704,6 +1795,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Mind",
         "RoteDescrizione": "Access to Astral Space occupies a small place in the typical Awakened mind, but access is important to some and vital in some moments. Silver Ladder mages learn this rote to get more control over other mages; with it, they can punish a student of the astral by denying him access or get the edge on rivals when Astral Space is key.",
         "DescrizioneBreve": "prevents target from entering Astral Space",
+        "Book": "AR 25"
     },
     {
         "Titolo": "Augment Other Minds",
@@ -1719,6 +1811,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Persuasion + Mind",
         "RoteDescrizione": "The Silver Ladder likes its servants and bodyguards to perform at peak potential, whether to perceive enemy incursions (Wits) or to scare off potential troublemakers (Presence).",
         "DescrizioneBreve": "grant increase to Mental or Social Attribute",
+        "Book": "M:tA 213"
     },
     {
         "Titolo": "Autopilot",
@@ -1734,6 +1827,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Drive + Mind",
         "RoteDescrizione": "The Adamantine Arrow recognizes that not all battles take place in ideal circumstances, and trying to split your attention between rush-hour traffic on the freeway and the gun-toting Banishers coming up in the left lane can be a fatal distraction. Arrow mages use this rote to devote their full attention to any potential threats and leave the driving to the autopilot.",
         "DescrizioneBreve": "give vehicle limited sentience",
+        "Book": "TotM"
     },
     {
         "Titolo": "Befuddle",
@@ -1749,6 +1843,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind",
         "RoteDescrizione": "The mages of the Silver Ladder often know how to degrade the reasoning abilities or social grace of debating rivals, reducing them to confused and stammering fools.",
         "DescrizioneBreve": "decrease targets Mental or Social Attribute",
+        "Book": "M:tA 213"
     },
     {
         "Titolo": "Breach the Vault of Memory",
@@ -1791,6 +1886,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind vs. Resolve + Gnosis",
         "RoteDescrizione": "If at all possible, most Guardians prefer not to cause harm in the course of their work. This rote enables such mages to alter the memories of those who have seen what they ought not. Silver Ladder willworkers also use this rote, creating friendships and enmities where none existed before, winning lifetimes worth of trust in a matter of hours, and forging loyal servants out of bitter foes.",
         "DescrizioneBreve": "search subject's subconscious",
+        "Book": "M:tA 214"
     },
     {
         "Titolo": "Call Eidolon",
@@ -1806,6 +1902,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Empathy + Mind",
         "RoteDescrizione": "<p>Scelesti killed Sarah Holt, but her husband John survived to Awaken. He saw fire leap from their hands and knew they worshiped some kind of demon. He was tied up, bleeding and angry, so he called out to it — and it answered. That’s how he escaped and got the power to kill Sarah’s murderers. But at the last moment, when he could have called the demon’s true name and taken the cult’s power for himself, he stopped, begged Sarah for forgiveness and reflexively bound his will within a powerful, obsessed Imago. She appeared.</p> <p>John spends his days hunting supernatural evil and thinking of her. When he doesn’t know what to do he calls out to Sarah, asking her to remember what he was like before he took up the Banisher’s burden. She appears as shining and beautiful as the day they met and always reminds him that he’s still a <i>good</i> person deep down, in the part of his soul that murder and angry magic can’t touch.</p>",
         "DescrizioneBreve": "call upon Virtue, as with 'Goetic Evocation'",
+        "Book": "Ban 59"
     },
     {
         "Titolo": "Climbing the Tree",
@@ -1821,6 +1918,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "Just as energy travels down the Tree of Life in the Lightning Flash, so too does it ascend once more in the Serpent's Path. The mage who climbs that treacherous road and passes all the wrathful guardian angels set over it will achieve unity with God, or so they say. This rote is one of the more subdued Kabbalistic rituals: the mage dons a purple robe (even if Yesod is not his ultimate destination, it is the traditional “beginning” of the road). Surrounded by foci that represent his goal, the mage meditates until he slips into the Astral Plane, then continues meditating on the names of God and the archangels of the sephiroth. When the spell is complete, the mage enters the “realm” of the sephira, and can interact with its inhabitants. If he overcomes their challenges and riddles, he may gain enlightenment. If he fails, the result could be messy to say the least.",
         "DescrizioneBreve": "journey to an Astral Realm representing Arcana's purview",
+        "Book": "MT 43"
     },
     {
         "Titolo": "Confuse Language",
@@ -1836,6 +1934,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "Banishers who follow the Abrahamic religions (including Christianity, Islam, and Judaism) frequently develop this spell. Devout Banishers recall the Tower of Babel: a story that bears more than a passing resemblance to legends about the fall of Atlantis.",
         "DescrizioneBreve": "deprive target of the abstract concepts of language",
+        "Book": "Ban 61"
     },
     {
         "Titolo": "Dream Bridge",
@@ -1850,6 +1949,7 @@ const mindFourData = [
         "RoteName": "Silver Ladder Rote: Through the Rabbit Hole",
         "RoteDescrizione": "A protected Oneiros is one of the most secure locations possible, and that makes Oneiroi ideal for private meetings. This rote lets Silver Ladder mages enter each others’ Oneiroi without any outward evidence.",
         "DescrizioneBreve": "connect Oneiroi of targets",
+        "Book": "AR 25"
     },
     {
         "Titolo": "Dream Traveler",
@@ -1865,6 +1965,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Mind vs. Composure + Gnosis",
         "RoteDescrizione": "Mages of the Mysterium use this rote to delve into the secrets of the inner universe, seeking answers within the thoughts and dreams of others. Such a willworker could seek the source of a psychosis, help an individual to combat her nightmares, or even just use one person’s dreams as a convenient meeting place for a cabal. Guardians of the Veil are also known to use this rote, carefully sculpting the dreams of those who grow too close to the Mysteries and encouraging them to seek their answers upon false trails, or to abandon such quests entirely.",
         "DescrizioneBreve": "project into target's dreams",
+        "Book": "M:tA 214"
     },
     {
         "Titolo": "Gleaning the Crowd",
@@ -1880,6 +1981,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Mind",
         "RoteDescrizione": "Entheogenic cults are known for their ceremonial festivals – from the Harmonic Convergence in the late 1980s (a moment that supposedly began the world’s temporal trek to the year 2012 when humanity would either end or evolve), to the current annual Burning Man Festival. The goal of the gathering matters little (Burning Man offers a generic focus on creativity, self-reliance, and ecstasy while something like the Harmonic Convergence was a conscious attempt to turn humanity’s collective soul toward positive karma and dharma), but the gathering of people is a focus. Also important is that a number of the gatherers must be operating with some manner of psychoactive in their bloodstream (the number of dosed individuals isn’t a hard or fast number, but one can assume that approximately 1/4 of the attendees should have recently imbibed some kind of entheogen). Another focus of the festival is a key symbol that serves as the literal center of the activities. At Burning Man, it is obviously the giant effigy (which may actually burn or may be a figure comprising neon tubes and car parts), while at other ceremonial festivals it may be a central tree representing Axis Mundi or a sacred figure (such as Om, some kind of Buddhist mandala, or a figure from Native American or Japanese symbology) laid across or etched into the ground. Music is the final focus. It may come from a drum circle, or may instead be trance music pulsing from a tower of speakers. It doesn’t matter what kind of music it is, only that it’s loud enough for the crowd to hear it.<p>The caster then literally surfs the crowd – they pick him up and carry him about. While atop the crowd, he projects psychically, his limp body carried by the crowd until the scene’s end.</p>",
         "DescrizioneBreve": "gain Skill from group mind",
+        "Book": "MT 139"
     },
     {
         "Titolo": "Goetic Doppelganger",
@@ -1894,6 +1996,7 @@ const mindFourData = [
         "RoteName": "Le Livre Rouge Rote",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Empathy + Mind",
         "DescrizioneBreve": "summon Goetic Evocation (see Spirit section) of target",
+        "Book": "GoG 117"
     },
     {
         "Titolo": "Hallucination",
@@ -1909,6 +2012,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Mind vs. Resolve + Gnosis",
         "RoteDescrizione": "Council willworkers use this rote to misdirect those who mean them harm, or who could benefit from a humbling lesson. Some use this rote as a means to lead an individual into insanity, or away from the Lie and toward the Awakening. Of course, Guardians of the Veil also use a variant of this rote (Wits + Subterfuge + Mind) to protect the Mysteries from compromise.",
         "DescrizioneBreve": "falsify senses of target",
+        "Book": "M:tA 215"
     },
     {
         "Titolo": "Knowing the Dead",
@@ -1924,6 +2028,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Mind vs. Resistance",
         "RoteDescrizione": "Questioning a ghost about the events of its life is useful, but actually being able to see and hear what the ghost saw and heard is a far more powerful tool, both because of the wealth of detail gained and because ghosts often forget some of the more intricate or subtle details of their lives.",
         "DescrizioneBreve": "read the Depths of a ghost's mind",
+        "Book": "Myst 201"
     },
     {
         "Titolo": "Lashes of Fire",
@@ -1939,6 +2044,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Mind",
         "RoteDescrizione": "<p>Because of the elaborate casting ritual traditionally involved, many Kabbalists incorporate Space 2 to cast this rote sympathetically. The Pulsa di Nura, as this spell is traditionally named, begins in the Kabbalist's preferred ritual space. An altar draped with red cloth (for Gevurah) and set with purple candles (for Yesod and Death) is the centerpiece of the ritual. As with most Kabbalist spells, it begins with chanting in the High Speech for a half an hour. Once the ritual proper is begun, the mage takes up a silver dagger (representing both Chokhmah and his desire to do harm), with which he traces the names of Michael and Kamael in the air above the altar. Finally, at the completion of the casting, he pierces an image of the desired target (or another object which has sympathy to the target) with the dagger, then transfers the object to a burning brazier to be consumed. If the ritual is performed during the astrological hour of Mars (for example, at dawn on a Tuesday), the Mana cost is waived.</p><p>There is no common consensus as to the appropriate number of successes the willworker should target with this spell. Most agree that it should last no less than two days, so five successes are often allocated to Duration; alternately, the spell's conditional duration is often set so that the spell expires if the target deviates from a course of action the caster finds displeasing — for example, a Pulsa di Nura cast on a businessman might be set to end if the target gives up his efforts to buy the apartment building that houses the mage's sanctum. Successes devoted to Potency range from one (if the caster only wishes to gently goad the target) to ten or more for truly Biblical-scale vengeance.</p>",
         "DescrizioneBreve": "harm target whenever Morality drops",
+        "Book": "MT 42"
     },
     {
         "Titolo": "Living Library",
@@ -1985,6 +2091,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Academics + Mind",
         "RoteDescrizione": "While this is highly frowned upon, the Mysterium routinely stores fragments of wisdom in Sleepers who serve their needs. The Mysterium keeps lists of such 'chapters,' as they call them, for retrieval later and often inserts the Sleepers back into mundane lives to protect them from magical threats. Some people believe that if the chapters are left alone too long with their forbidden knowledge, it changes them, but no one has definitively proven this.",
         "DescrizioneBreve": "store information in subconscious",
+        "Book": "S&S 22"
     },
     {
         "Titolo": "Love Spell",
@@ -2000,6 +2107,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Socialize + Mind",
         "RoteDescrizione": "The Guardians of the Veil hold many secrets, including secrets about the Labyrinth and about covert actions they have taken against mages from other orders. Some of this information is exceptionally sensitive, but even the most sensitive data must occasionally be given to individuals other than the order’s trusted and highly placed members. To ensure that they never reveal this information to anyone outside of the order, the leaders of the Guardians insist that anyone who is told certain pieces of vitally important information should be subjected to this magical oath. Such information includes the locations of items that might prove the existence of magic to Sleepers, the name of order members who have deeply infiltrated the ranks of the Seers of the Throne and other equally sensitive data. When taking this oath, the order requires that subjects also give up samples of hair, blood, and fingernails, so that the subjects will be easy to find with Space magic if they ever break this oath.<p>Occasionally, this rote is cast upon an unknowing subject. While obviously less powerful if used in this fashion, Guardians sometimes perform this rote on members who have fallen under suspicion of being traitors or are simply exceedingly careless. In such cases, this rote is partly used as a test of loyalty. If the rote is never triggered, then the subject is obviously loyal; if it is triggered, then the caster is instantly aware of this fact and the subject is not able to reveal anything of importance to the order’s enemies.</p>",
         "DescrizioneBreve": "become irresistible to target",
+        "Book": "TotM 67"
     },
     {
         "Titolo": "Memory Oath",
@@ -2015,6 +2123,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind versus Resolve + Gnosis",
         "RoteDescrizione": "The Guardians of the Veil hold many secrets, including secrets about the Labyrinth and about covert actions they have taken against mages from other orders. Some of this information is exceptionally sensitive, but even the most sensitive data must occasionally be given to individuals other than the order’s trusted and highly placed members. To insure that they never reveal this information to anyone outside of the order, the leaders of the Guardians insist that anyone who is told certain pieces of vitally important information should be subjected to this magical oath. Such information includes the locations of items that might prove the existence of magic to Sleepers, the name of order members who have deeply infiltrated the ranks of the Seers of the Throne and other equally sensitive data. When taking this oath, the order requires that subjects also give up samples of hair, blood and fingernails, so that the subjects will be easy to find with Space magic if they ever break this oath. Occasionally, this rote is cast upon an unknowing subject. While obviously less powerful if used in this fashion, Guardians sometimes perform this rote on members who have fallen under suspicion of being traitors or are simply exceedingly careless. In such cases, this rote is partly used as a test of loyalty. If the rote is never triggered, then the subject is obviously loyal; if it is triggered, then the caster is instantly aware of this fact and the subject is not able to reveal anything of importance to the order’s enemies.",
         "DescrizioneBreve": "trigger memory loss if violated",
+        "Book": "GotV 196"
     },
     {
         "Titolo": "Opening the Dream Space",
@@ -2030,6 +2139,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "People hide their greatest secrets—even some from themselves — in their subconscious. This rote lets Guardians dig those secrets from others’ Oneiroi.",
         "DescrizioneBreve": "enter another's Oneiros instead of your own",
+        "Book": "AR 26"
     },
     {
         "Titolo": "Psychic Projection",
@@ -2045,6 +2155,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "Some secrets are hidden far beyond the realm of flesh, and mages of the Mysterium go where they must to seek them out. By entering the state of Twilight, they wander amongst fleshless entities and spy upon others without heeding physical obstructions like walls.",
         "DescrizioneBreve": "travel mentally in Twilight",
+        "Book": "M:tA 215"
     },
     {
         "Titolo": "Psychic Sword",
@@ -2060,6 +2171,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Mind – Resolve",
         "RoteDescrizione": "Guardians use this rote to preserve the integrity of the hidden world, causing those who delve too deeply into secrets they were not meant to know to fall dead by unknown causes. Adamantine Arrow mages use similar magic (Strength + Intimidation + Mind) to strike down their enemies subtly.",
         "DescrizioneBreve": "inflict Lethal damage psionicaly",
+        "Book": "M:tA 216"
     },
     {
         "Titolo": "Psychic Violation",
@@ -2074,6 +2186,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Mind (Instant) or Manipulation + Empathy + Mind (Extended)",
         "RoteDescrizione": "The Fangs of Mara use this spell to cow their enemies into submission and to render them more pliant for other uses of the Mind Arcanum. In combat, Nightmares generally prefer the faster variant of the spell, while the slower one is reserved for “interrogations” and the like.",
         "DescrizioneBreve": "paralyze and drain target's Willpower with terror",
+        "Book": "L:tS 143"
     },
     {
         "Titolo": "Purge Oneiros",
@@ -2089,6 +2202,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Mind",
         "RoteDescrizione": "Unwanted astral travelers in one’s dream space are like saboteurs of the mind. Silver Ladder mages use this rote to ensure they are free of untrustworthy outside influences.",
         "DescrizioneBreve": "remove non-natives from you Oneiros",
+        "Book": "AR 27"
     },
     {
         "Titolo": "Read the Depths",
@@ -2101,6 +2215,7 @@ const mindFourData = [
         "Cost": "None",
         "DescrizioneMiddle": "Particularly remote or traumatic memories (such as an instance of child abuse) might levy penalties to access (perhaps –3 for the child abuse). The ability to enter a subject’s subconscious allows the mage to divine that individual’s Virtue and Vice, among other things.<p>If the target is a mage with at least Mind 1, he might have an idea via his Unseen Senses (see p. 110) that he is being “read.” A reflexive Wits + Composure roll is made to sense intrusion into his subconscious. He can know nothing about the intrusion unless he casts magic (such as “Third Eye,” p. 206) to learn more. Most mages react by first erecting a “Mental Shield,” p. 208.</p>",
         "DescrizioneBreve": "enter another's subconscious",
+        "Book": "M:tA 215"
     },
     {
         "Titolo": "Reinforce the Lie",
@@ -2116,6 +2231,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind",
         "RoteDescrizione": "Long a favored weapon in the Seer’s arsenal, this rote neutralizes much of a Sleepwalker’s usefulness to another willworker, rendering her more a hindrance as a help when her Awakened keeper is forced to resort to vulgar spells.",
         "DescrizioneBreve": "if Sleepwalker's resistance overcome, they count as Sleeper for the duration",
+        "Book": "SotT 194"
     },
     {
         "Titolo": "Seal Other's Oneiros",
@@ -2131,6 +2247,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Science + Mind",
         "RoteDescrizione": "Many misuse others’ minds, exploring them to discover a person’s weaknesses or manipulate their decisions. There is so much to be learned from the human unconscious that Libertines make an effort to protect minds, the last boundary beyond which people are free to be themselves. Using this rote makes more minds unsullied by Awakened intrusion, making them more valuable for the Free Council’s studies.",
         "DescrizioneBreve": "create Ward on other's Oneiros",
+        "Book": "AR 26"
     },
     {
         "Titolo": "Severed Sense",
@@ -2146,6 +2263,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Mind",
         "RoteDescrizione": "As much as the Guardians of the Veil prefer not to use vulgar magic before witnesses, sometimes the alternatives are worse. A Guardian will use this spell on as many Sleepers as possible before a mighty vulgar spell, or series of effects, he knows is coming and cannot prevent. This is just another way that the Guardians help safeguard the Awakened world from the unwanted attentions of the Sleepers. With the spell’s duration, however, the Guardian’s timing needs to be impeccable.",
         "DescrizioneBreve": "turn off target's senses",
+        "Book": "GotV 197"
     },
     {
         "Titolo": "Shape Soul Stone",
@@ -2161,6 +2279,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Mind",
         "RoteDescrizione": "A soul stone is a mighty thing, and the Silver Ladder appreciates power. There are many reasons to carve a stone from one’s own soul, but none to be careless about it. Members of the Silver Ladder who possess their own soul stones and do not bind them into secure Demesnes often use this spell to conceal and protect their soul stones, or even the fact that they possess one.",
         "DescrizioneBreve": "alter form of a Soul Stone",
+        "Book": "TotM 68"
     },
     {
         "Titolo": "Silver Threads",
@@ -2176,6 +2295,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Socialize + Mind",
         "RoteDescrizione": "Exploring an astral realm can be a martial exercise — the realm certainly dangerous enough. Adamantine Arrows use this rote to ensure that the unit can’t be split up, even in the worst circumstances. Mystagogues use a similar rote to more efficiently discover astral wonders: the group covers more ground apart then instantly join the person who makes the most interesting discovery.",
         "DescrizioneBreve": "link a group to make finding each other easy",
+        "Book": "AR 27"
     },
     {
         "Titolo": "Skeptic",
@@ -2191,6 +2311,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "When forced to battle another mage in front of Sleeper witnesses, the Adepts of Mind among the Arrows combine this spell with their more mundane combat skills. If a mage is foolish or desperate enough to cast vulgar spells during the battle, the Arrow can watch with satisfaction as the backlash from that mage’s spells turn the fight against him.",
         "DescrizioneBreve": "cause Sleeper to give 9-Again on Paradox rolls, make Improbable spells Vulgar",
+        "Book": "AA 184"
     },
     {
         "Titolo": "Skill Mastery",
@@ -2206,6 +2327,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Persuasion + Mind",
         "RoteDescrizione": "This rote taps into the universal wisdom of the Astral Planes (or the Collective Unconscious, if you prefer), drawing upon the imprinted knowledge and memories of everyone who has ever lived to grant the willworker mastery of certain Skills. Some Libertines report momentary visions and flashes of memories not their own when using this spell, and some botched uses have even resulted in mages picking up foreign memories or personality traits permanently.",
         "DescrizioneBreve": "gain increase of multiple Skills up to limit of Gnosis",
+        "Book": "FC 111"
     },
     {
         "Titolo": "Summon Astral Archtype",
@@ -2221,13 +2343,14 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Mind",
         "RoteDescrizione": "This rote is an old account within the Dragon’s Voice, dating back (some say) to the time of the Atlantean Diaspora. Seeking knowledge and guidance from the overarching concepts that bind the cosmos together, enterprising théarchs cried out directly to the Astral Realm and gave heed to its replies.",
         "DescrizioneBreve": "call incarnation of universal concept into Twilight",
+        "Book": "Summ 56"
     },
     {
         "Titolo": "Suppress Wisdom",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell enables a mage to temporarily confound her moral center, allowing her to perform a single, specified act counter to the dictates of Wisdom without fear of degeneration.",
         "Practice": "Patterning",
-        "Action": "Extended (target number = 10 – character’s current Wisdom rating)",
+        "Action": "Extended (target number = 10 - character’s current Wisdom rating)",
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
@@ -2236,6 +2359,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult (for casting on oneself) or Empathy (for another) + Mind",
         "RoteDescrizione": "Sometimes, a Guardian’s work is accompanied by the flashing of long knives in the dark or the tormented screams of an unwilling subject. This rote enables such a willworker to maintain some semblance of sanity in the face of such grim duties.",
         "DescrizioneBreve": "undertake one Wisdom sin without consequence",
+        "Book": "TotM 68"
     },
     {
         "Titolo": "Supreme Augmentation",
@@ -2251,6 +2375,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Academics + Life",
         "RoteDescrizione": "Mages of the Mysterium know that they must sometimes be everything to everybody — or at least pretend to be that good. This rote allows them to back up such claims.",
         "DescrizioneBreve": "gain increase to multiple Mental and Social Attributes",
+        "Book": "M:tA 216"
     },
     {
         "Titolo": "Telepathic Control",
@@ -2266,6 +2391,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind vs. Resolve + Gnosis",
         "RoteDescrizione": "This rote is not used lightly by any save the most callous (and foolish) willworker of the Silver Ladder, as its abuse can easily lead one far from the path of Wisdom. Members of all orders find some use for such magics on occasion.",
         "DescrizioneBreve": "dominate target's mind",
+        "Book": "M:tA 216"
     },
     {
         "Titolo": "Triumphant Will",
@@ -2281,6 +2407,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "Invoking the powerful names of various gods of learning and knowledge, the Mysterium scholar literally takes all knowledge to be his province. Some Mysterium have a variation of this rote, using Presence + Occult + Mind, which invokes various gods of beauty and charisma to allow the magus to dazzle those around him.",
         "DescrizioneBreve": "gain Rote Quality on Mental or Social Skills",
+        "Book": "Myst 201"
     },
     {
         "Titolo": "Virtual Voyage",
@@ -2296,6 +2423,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Computers or Science + Mind",
         "RoteDescrizione": "Free Council “reality hackers” have long believed that this techné accesses a “machine consciousness” or a Twilight “shadow” of the Fallen World’s computer networks, proof that the mundane works of humanity have a kind of magic to them, and that there are deeper connections and mysteries for the Awakened to explore and understand. The rapid spread and growth of computer technology in modern culture has only made the techné more useful (and easier to conceal).",
         "DescrizioneBreve": "project mind of self and others into internet",
+        "Book": "FC 112"
     }
 ]
 
@@ -2314,6 +2442,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Mind",
         "RoteDescrizione": "Guardians do some of their most sensitive and secret work inside others’ minds. When another mage follows Guardians into Astral Space, this allows a Guardian to trap the mage and move on to the private astral realms. Guardians and Silver Ladder mages use this rote (Silver Ladders roll Presence + Expression + Mind) to condemn other mages to serve terms trapped in Astral Space, usually inside their own minds.",
         "DescrizioneBreve": "target can't move in or out of Astral Space",
+        "Book": "AR 27"
     },
     {
         "Titolo": "Casual Brutality",
@@ -2327,6 +2456,7 @@ const mindFiveData = [
         "DescrizioneMiddle": "For each success gained on the casting roll, the Morality rating of the target is temporarily reduced by 1. Individuals with lowered Morality will act in accordance with their new perceptions of right and wrong, without regard for their old beliefs. A mage with Wisdom 7, for example, who has his Wisdom reduced to 3 by this spell will feel no remorse for draining another mage’s Mana against her Will. Targets of this spell who have their Morality reduced to 0 or less become raving, murderous lunatics for the duration of the spell. Any Morality sins committed while under the influence of this spell have no effect on the permanent Morality rating of the target. Characters who perform particularly brutal acts while their Morality is artificially lowered may develop derangements based on their experiences, at Storyteller discretion. This spell doesn’t force the target to commit atrocities, it simply increases the chances that the target will behave in more vicious and callous ways than normal. <p>Use of this rote (or voluntary participation as the target) is an act of hubris that requires a degeneration roll for mages of Wisdom 3 or higher (roll 2 dice).</p>",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Mind",
         "DescrizioneBreve": "temporarily reduce target's Morality",
+        "Book": "GoG 118"
     },
     {
         "Titolo": "Construct Homunculus Persona",
@@ -2402,6 +2532,7 @@ const mindFiveData = [
         "RoteName": "Silver Ladder Rote: Formation of the Psyche",
         "RoteDescrizione": "Silver Ladder mages put extra time and effort into the personae of their homunculi, ensuring pliable and slavishly servile beings, grateful for existence and anxious to placate their every whim.",
         "DescrizioneBreve": "create conscious of homunculus",
+        "Book": "TotM 150"
     },
     {
         "Titolo": "Dream Network",
@@ -2417,6 +2548,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Socialize + Mind",
         "RoteDescrizione": "The Oneiros is an enlightening place to work, and more so to work with multiple people in multiple Oneiroi. Libertines use this rote so their entire cabal can self-improve and work together at the same time.",
         "DescrizioneBreve": "create multiple Dream Bridges",
+        "Book": "AR 28"
     },
     {
         "Titolo": "Fiery Servant",
@@ -2432,6 +2564,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind",
         "RoteDescrizione": "Even mages who prefer to do their work face-to-face admit that it can, on occasion, be necessary to send a small fiery agent in to defeat a minion, purify the ground or flush an enemy out so that the mage can confront him, man to man.",
         "DescrizioneBreve": "create an intelligent flame being",
+        "Book": "L:tA 43"
     },
     {
         "Titolo": "Goetic Manifestation",
@@ -2447,6 +2580,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Mind",
         "RoteDescrizione": "Some cultures believed in the notion of an invisible and otherworldly devil at one’s ear, whispering dark counsel. Those who make use of this magic have the opportunity to be somewhat more directly guided toward wickedness by the devil within. For the price of such sinful inspiration, however, they enjoy the assistance of their inner demons in ways more meaningful than an occasional shred of advice that runs counter to conscience.",
         "DescrizioneBreve": "bind your Vice as a Goetic Familiar",
+        "Book": "GoG 95"
     },
     {
         "Titolo": "Network",
@@ -2493,6 +2627,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Empathy + Mind",
         "RoteDescrizione": "Arrow mages capable of assembling the equivalent of a “psychic switchboard” are valued by members of the order as assets in battle. This rote enables an entire cabal to coordinate its activities without the need for visual contact or even a spoken word.",
         "DescrizioneBreve": "link many with telepathic contact",
+        "Book": "M:tA 217"
     },
     {
         "Titolo": "Nightmare Journey",
@@ -2507,6 +2642,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "By means of this rote, Fangs of Mara make the Astral journey into the thoughts and dreams of the acamoth and other Abyssal entities, there to harness the maddening nightmares of things never meant for human minds to experience.",
         "DescrizioneBreve": "project target's mind into the Abyss",
+        "Book": "L:tS 144"
     },
     {
         "Titolo": "No Exit",
@@ -2522,6 +2658,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Expression + Mind",
         "RoteDescrizione": "Roger’s peculiar take on this spell, and the form the spell takes whenever he casts it, causes the victim to speak in inarticulate phrases, unable to finish any thoughts either mentally or verbally. This means that a victim of “Roger’s World” cannot even put together the complete thought “I’m going to try to overcome this spell” without first succeeding in a Willpower roll against a difficulty of 10.",
         "DescrizioneBreve": "force target's brain into a continuous loop, permanently",
+        "Book": "Ban 61"
     },
     {
         "Titolo": "Possession",
@@ -2537,6 +2674,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind vs. Resolve + Gnosis",
         "RoteDescrizione": "Using another being as a “horse” (as the host of a possession is occasionally referred to), the Ladder willworker assumes that creature’s identity and physical capabilities. Some use this magic to perform dangerous or illegal acts, while a rare few do so simply to illustrate the power they can exert over those who displease them.",
         "DescrizioneBreve": "project into target's body",
+        "Book": "M:tA 217"
     },
     {
         "Titolo": "Psychic Dominion",
@@ -2551,6 +2689,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Mind vs. Resolve + Gnosis",
         "RoteDescrizione": "The ultimate act of mental influence, this rote enables a Silver Ladder willworker to force compliance in another. Mages of the Mysterium by and large find such magic distasteful, but they also recognize its occasional necessity, so have a variant of their own (Wits + Intimidation + Mind).",
         "DescrizioneBreve": "dominate target's mind",
+        "Book": "M:tA 217"
     },
     {
         "Titolo": "Psychic Genesis",
@@ -2566,6 +2705,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Empathy + Mind",
         "RoteDescrizione": "Using innovative means, the will workers of the Free Council use this very ancient art. Some powerful mages give consciousness to mystically fabricated servants, while others bestow such a gift upon a particularly advanced computer. Guardians of the Veil occasionally use a similar procedure to add a new consciousness into the blank mind of a dangerously intrusive Sleeper whose entire psyche has been erased through unfortunate circumstances, allowing the individual to carry on as normal, very nearly the person she once was.",
         "DescrizioneBreve": "create free consciousness",
+        "Book": "M:tA 218"
     },
     {
         "Titolo": "Psychic Reprogramming",
@@ -2581,6 +2721,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Mind vs. Composure + Gnosis",
         "RoteDescrizione": "Guardians use this rote to deal with those individuals whose interference cannot be addressed in any way save but to completely alter who they are. By doing so, Guardians preserve life (either out of necessity or personal ethics) and still protect the Mysteries.",
         "DescrizioneBreve": "rewrite memories and personality of target",
+        "Book": "M:tA 218"
     },
     {
         "Titolo": "Shadow Projection",
@@ -2596,21 +2737,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Mind",
         "RoteDescrizione": "When necessary (and typically only when absolutely necessary), mages of the Mysterium are known to delve into the deepest reaches of the Shadow in search of long-lost knowledge. Such journeys are incredibly dangerous, and have been known to lead to encounters with things forgotten since the age of Atlantis (or perhaps even before).",
         "DescrizioneBreve": "mentally project into the Shadow",
-    },
-    {
-        "Titolo": "Knowing the Dead",
-        "Arcana": "Mind •••• + Death ••",
-        "DescrizioneAlta": "The mage can read the minds of ghosts.",
-        "Practice": "Patterning",
-        "Action": "Instant and contested; target rolls Resistance reflexively",
-        "Duration": "Prolonged (one scene)",
-        "Aspect": "Covert",
-        "Cost": "None",
-        "DescrizioneMiddle": "This spell functions much as the Mind 4 spell 'Reading the Depths,' except that this spell works on ghosts. Learning any of the secrets of dying or any events the ghost experienced since its death is exceptionally difficult. Rolls to accomplish this always have penalties between –4 and –5, and the experiences themselves are so alien to a living being that most of the information received is exceedingly sketchy and difficult to interpret. However, this spell also allows the mage to read the ghost’s mind to learn about the events of the ghost’s life. Since traumatic memories of life are less troublesome to the dead, any penalties for examining traumatic memories that would be present if reading the memories of a living person by using the 'Reading the Depths' spell are halved (round up). Also, this spell can be used to uncover memories that the ghost may no longer consciously remember. If the ghost is willing to permit the mage to examine its memories, or if the mage has already used magic to control this ghost, then the ghost does not receive a Resistance roll.",
-        "RoteName": "Mysterium Rote: Memories from Beyond the Veil",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Mind vs. Resistance",
-        "RoteDescrizione": "Questioning a ghost about the events of its life is useful, but actually being able to see and hear what the ghost saw and heard is a far more powerful tool, both because of the wealth of detail gained and because ghosts often forget some of the more intricate or subtle details of their lives.",
-        "DescrizioneBreve": "Read the Depths of a ghost's mind",
+        "Book": "M:tA 218"
     },
     {
         "Titolo": "Sin Eating",
@@ -2626,6 +2753,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Mind",
         "RoteDescrizione": "By consuming the iniquity of others, a Guardian of the Veil demonstrates the courage of her conviction, accepting the burden of not only her own sins, but also the sins of those around her. In addition to the spells and rotes concealed within <i>The Codex of Lies</i>, the grimoire itself bestows certain interesting benefits upon its possessor. First and foremost, the <i>Codex</i> grants a +1 modifier to all degeneration checks made by its current owner, as well as a +1 modifier to the roll to avoid gaining a derangement in the event of an unsuccessful degeneration check. Whether this is on account of metaphysical proximity to Plures’ ideology of eternal sacrifice or some other reason is unknown; some Guardians have spent years researching the seemingly enhanced moral and psychological resiliency of an owner of the <i>Codex</i>, but to no avail. Further, regular study of the <i>Codex</i> grants a Guardian of the Veil (or any that manage to decipher its many tiers of hidden meaning) a +2 modifier to any rolls to influence, infiltrate, or otherwise interact with the structures, policies, and procedures of nearly any Sleeper occult society wholly or partially of Western European origin, with traditions (whether legitimately handed down, pilfered, or acquired by whatever other means) spanning back to at least the early 18th century. This insight is the result of regular perusal and contemplation of the symbolism integrated into the text, and so functions only for one who has reviewed the grimoire within the past month. This bonus drops to a +1 in dealings with more modern societies deliberately cast in the mold of more antiquated fellowships of this sort, since many of the prominent symbols and ideals of such organizations have entered into the common consciousness and are thus co-opted by such groups.",
         "DescrizioneBreve": "possibly consume Morality Sin of target",
+        "Book": "Gog 48"
     },
     {
         "Titolo": "Temenos Sanctuary",
@@ -2641,6 +2769,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Mind",
         "RoteDescrizione": "Many of the Clavicularius construct Astral sanctuaries where they can study their deepest internal darkness, and learn to use its strengths without falling victim to it. The Great Temple of Solomon is one such edifice, and all who reach the first attainment of the Legacy can enter this sanctum.",
         "DescrizioneBreve": "create bulwarks in Astral Realm",
+        "Book": "L:tS 19"
     },
     {
         "Titolo": "The Book of Self",
@@ -2656,6 +2785,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Mind",
         "RoteDescrizione": "The Guardians of the Veil are believed to have a hidden library, secreted in a pocket of space time, and only accessible by the most trusted members of the order. The library is rumored to contain Soul Books dating back even to the time of Atlantis, though that remains just a rumor to date. The Free Council is allegedly attempting to adapt this rote to electronic media using Forces instead of Matter.",
         "DescrizioneBreve": "imprint own mind into a book",
+        "Book": "GotV 197"
     },
     {
         "Titolo": "Twilight Temple",
@@ -2705,6 +2835,7 @@ const mindFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Mind",
         "RoteDescrizione": "Mages of the Free Council use this rote to create a temporary shelter within Twilight from where they can watch and observe a ghost’s haunt or spirit locus while protected from easy assault.",
         "DescrizioneBreve": "create bulwarks in Twilight",
+        "Book": "M:tA 219"
     }
 ]
 

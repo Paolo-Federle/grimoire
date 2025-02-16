@@ -10,6 +10,7 @@ const forceOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
         "DescrizioneBreve": "counter Forces spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Influence Heat",
@@ -24,6 +25,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "The mages of the Mysterium like this rote because it allows them to keep their drafty old libraries from losing too much heat.",
         "DescrizioneBreve": "redirect heat",
+        "Book": "M:tA 162"
     },
     {
         "Titolo": "Influence Light",
@@ -39,6 +41,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "A Silver Ladder mage might use this rote to control the manner in which light falls around him, creating dramatic under-lighting or shining all the lamps in a room directly into the face of someone he interrogates.",
         "DescrizioneBreve": "redirect light",
+        "Book": "M:tA 163"
     },
     {
         "Titolo": "Influence Sound",
@@ -53,6 +56,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "A whispered word can mean the downfall of an empire, a fact well known to the willworkers of the Silver Ladder. With this rote, such words can be overheard.",
         "DescrizioneBreve": "redirect sound",
+        "Book": "M:tA 163"
     },
     {
         "Titolo": "Nightsight",
@@ -68,6 +72,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Composure + Forces",
         "RoteDescrizione": "Few things are more frightening to the enemies of the heirs of Atlantis than a squad of Adamantine Arrow willworkers moving in under cover of night and supplemented by this rote. Whether used on the defensive (when a sanctum suddenly loses power, for example, and something unspeakable begins seething up from the basement) or on the attack, this rote is to its caster as a light in the darkness.",
         "DescrizioneBreve": "see in darkness or low light",
+        "Book": "M:tA 163"
     },
     {
         "Titolo": "Outer Music",
@@ -83,6 +88,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Forces",
         "RoteDescrizione": "A Banisher may use this rote to determine if the signal is hostile and if it signals an imminent attack. By substituting Time for Forces in the dice pool, the Banisher may get a sense of the approximate time remaining before the attack arrives.",
         "DescrizioneBreve": "listen to the noise of outer space",
+        "Book": "Ban 56"
     },
     {
         "Titolo": "Read Matrices",
@@ -133,6 +139,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Forces",
         "RoteDescrizione": "The ancients sometimes buried secrets not in crude etchings on stone and clay, but in the unseen energies of the world. This rote enables a member of the Mysterium to sense such invisible forces for whatever purpose, and to witness their interplay. Members of all orders use this rote to discern the patterns of energy that move around them, and to detect the presence of forceful or energetic resonance.",
         "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 163"
     },
     {
         "Titolo": "Receiver",
@@ -148,6 +155,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Forces",
         "RoteDescrizione": "Perception is a large part of being a Guardian of the Veil. A number of Guardians make use of this rote to pick up on things ordinary humans might miss. After all, the world is full of all sorts of wondrous and terrible phenomena, and one never knows if, say, all the dogs in the neighborhood are howling because of some unnatural presence, or due to nothing more than a sound painful to their ears, one far above the register audible to humans. Mages of the Mysterium also make use of such magics, for sometimes the secret to an enigma lies not in what one can see, but in what one can hear.",
         "DescrizioneBreve": "hear sub/supersonic frequencies",
+        "Book": "M:tA 164"
     },
     {
         "Titolo": "Tune In",
@@ -163,6 +171,7 @@ const forceOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Forces",
         "RoteDescrizione": "Good for more than just free satellite radio, this rote allows a Free Council willworker to listen in on police-band radios, walkie-talkies and cellular phone transmissions. Guardians of the Veil also make regular use of this magic in the course of their work defending the Mysteries.",
         "DescrizioneBreve": "listen to radio frequencies",
+        "Book": "M:tA 164"
     }
 ]
 
@@ -181,6 +190,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Streetwise + Forces",
         "RoteDescrizione": "This rote was created by an Obrimos Banisher who, pre Awakening, was a police dispatcher. Noting how quickly cops respond to a call in which fellow officers are in danger, he developed this rote to summon some quick aid (or at least a distraction) when necessary.",
         "DescrizioneBreve": "send a pulsed 'officers need assistance' signal",
+        "Book": "Ban 56"
     },
     {
         "Titolo": "Aether Net",
@@ -195,6 +205,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Science + Forces",
         "RoteDescrizione": "Wireless service doesn’t quite cover the world just yet, and even in places where it’s ubiquitous, it’s not always free. Free Council mages were quick to “crack” wireless Internet and cell communications in order to provide them with constant free and accessible service, making their cell phones, PDAs and laptops little more than talismans for the mystic “aether-net.”<p>Note that this spell doesn’t provide a network device with any capabilities it doesn’t normally possess other than providing a free and open connection to the existing network. Still, the usefulness of searching the web, making cell calls and sending and receiving e-mail in the depths of a ruined temple or in an isolated locale shouldn’t be underestimated.</p>",
         "DescrizioneBreve": "wireless connection from any location",
+        "Book": "FC 108"
     },
     {
         "Titolo": "Alter Frequency",
@@ -210,6 +221,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Forces",
         "RoteDescrizione": "Some secrets are too sensitive to be spoken, but too important not to be recorded or shared with another trustworthy Guardian. When this is the case, the Guardians of the Veil may use their magic to narrow the field of who can eavesdrop. One Guardian uses this rote while another casts Forces 1 “Receiver,” enabling the first to speak in a tone no human (or unprepared mage) will understand while the second listens. Being observed talking without sound is suspicious, so some mages utilize recording devices. Some record their altered voices (in which case they must be sure that the device can capture that range) and use them as personal journals, from which others will only hear static. Used to communicate, the altered voice can be played while the mage makes filler conversation, and the second mage listens to the recording. This is more secure than the alternative, which involves recording normal sound and altering the recording as it plays back.",
         "DescrizioneBreve": "increase or decrease frequency of sound",
+        "Book": "GotV 188"
     },
     {
         "Titolo": "Circuit Television",
@@ -224,6 +236,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Computer + Forces",
         "RoteDescrizione": "Sometimes it’s as easy as magically activating a webcam on some distant twig of a big sprawling network. Sometimes it’s as complicated as drawing the video signal from the camera that sees it to the equipment that wants to. It’s trickier, but these machines want to see and show. You just have to appeal to their natures.",
         "DescrizioneBreve": "tap into any local wired signal",
+        "Book": "FC 108"
     },
     {
         "Titolo": "Control Heat",
@@ -239,6 +252,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "The Mysterium uses this rote to control the temperature in the libraries and storerooms in which they keep their valuable finds, creating toasty reading rooms or freezing lockers.",
         "DescrizioneBreve": "increase or decrease temperature",
+        "Book": "M:tA 165"
     },
     {
         "Titolo": "Control Light",
@@ -254,6 +268,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "The Guardians of the Veil use this rote to darken the places they sneak into without affecting any existing systems, which could be centrally monitored.",
         "DescrizioneBreve": "brighten or darken light source",
+        "Book": "M:tA 165"
     },
     {
         "Titolo": "Control Sound",
@@ -269,6 +284,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "It takes more than a voice that carries to make a great speaker, but this sort of thing almost never hurts, either.",
         "DescrizioneBreve": "increase or decrease volume in area",
+        "Book": "M:tA 165"
     },
     {
         "Titolo": "Control Traffic",
@@ -284,6 +300,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Forces",
         "RoteDescrizione": "Sometimes, you just need to get the hell away. Free Council mages use this rote to clear the road ahead and make sure nothing gets in the way when sundry unpleasant folk are on their tails.",
         "DescrizioneBreve": "alter traffic control patterns",
+        "Book": "TotM 61"
     },
     {
         "Titolo": "Electronic Eye",
@@ -299,6 +316,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Computer + Forces",
         "RoteDescrizione": "Electronic storage of information is quite useful, except when the machinery breaks down. This techné is an essential “backup” for a crashed drive or a damaged disk reader. It’s also useful for accessing information the caster shouldn’t be able to access at all or for finding “hidden” files on storage disks.",
         "DescrizioneBreve": "read data from touched disk or drive",
+        "Book": "FC 108"
     },
     {
         "Titolo": "Eyes of the Matrix",
@@ -314,6 +332,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Forces",
         "RoteDescrizione": "Explorations into the Mysteries sometimes make for strange bedfellows. The mages of the Mysterium use this rote to bestow basic Forces Arcanum perceptions upon erstwhile allies, whether Awakened or of some other occult origin. Silver Ladder willworkers use a variant rote (Presence + Science + Forces) to extend such perceptions to those supernatural beings, mage or otherwise, with whom they associate.",
         "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 165"
     },
     {
         "Titolo": "Fireproofing",
@@ -329,6 +348,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Forces",
         "RoteDescrizione": "If you play with fire, you’re going to get burned. Except that some mages don’t seem to get burned all that often.",
         "DescrizioneBreve": "prevent damage from flames",
+        "Book": "L:tA 44"
     },
     {
         "Titolo": "Friction Reduction",
@@ -375,6 +395,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Forces",
         "RoteDescrizione": "Free Council mages cast this rote on a patch of ground — pursuers in a car or in other vehicles hit the patch of “black ice” (or, if not in winter, a hard-to-see “oil slick”) and likely lose control of the vehicle. Best to use this on an area of ground around a curve or near obstacles, thus requiring an already-difficult Drive roll — Black Ice only makes the maneuver tougher.",
         "DescrizioneBreve": "make surface slick",
+        "Book": "TotM 62"
     },
     {
         "Titolo": "Influence Electricity",
@@ -442,6 +463,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Forces",
         "RoteDescrizione": "Occasionally, a spark is all that’s required. Of course, even an ordinary wall socket packs a potentially lethal punch, so Adamantine Arrow mages do not overlook the usefulness of this rote.",
         "DescrizioneBreve": "cause electricity to arc at targets",
+        "Book": "M:tA 165"
     },
     {
         "Titolo": "Influence Fire",
@@ -505,6 +527,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Athletics + Forces – Defense",
         "RoteDescrizione": "The Guardians like this rote because it gives them a plausible way to cover up evidence they don’t want getting out. There is no sign of arson with this rote, and besides, even a small arc of flame can spell disaster for an enemy weighed down with guns and ammunition.",
         "DescrizioneBreve": "force fire to burn in direction of choice",
+        "Book": "M:tA 166"
     },
     {
         "Titolo": "Insulate",
@@ -520,6 +543,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Forces",
         "RoteDescrizione": "Certain of the names of the General offer some protection against the fury of lightning, at least to a Seer that knows them.",
         "DescrizioneBreve": "reduce damage from electricity by 2/dot of Forces, automatically pull away",
+        "Book": "SotT 191"
     },
     {
         "Titolo": "Invisible Object",
@@ -535,6 +559,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Forces",
         "RoteDescrizione": "This rote allows a Guardian to render some object (whether a faintly glowing obelisk, exsanguinated corpse, or something else entirely) invisible to mundane sight. Silver Ladder mages sometimes use this rote to conceal some manner of leverage (perhaps a weapon) during delicate negotiations until the time is right.",
         "DescrizioneBreve": "make stationary objects invisible",
+        "Book": "M:tA 166"
     },
     {
         "Titolo": "Invisibility to Machines",
@@ -550,6 +575,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Persuasion + Forces",
         "RoteDescrizione": "This Free Council rote quickly found its way into the repertoires of other orders, once they realized its usefulness. The Guardians of the Veil have a similar one called Blinding the Machine, which uses Stealth in place of Persuasion (a metaphor for the difference between the Guardians and the Free Council if ever there was one). Libertines never let the Guardians forget that the Libertines thought of it first, though.",
         "DescrizioneBreve": "elude electronic surveillance",
+        "Book": "FC 108"
     },
     {
         "Titolo": "Invoke Password",
@@ -565,6 +591,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Forces",
         "RoteDescrizione": "Sometimes magic makes a more effective supplement to mundane skills; an Awakened hacker with a willingness to “cheat” can be a terror, as others discovered when the Free Council adopted the digital revolution as part of their own. The Atlantean orders have since learned to ward their computer systems, but Sleepers remain as blissfully unaware as ever.",
         "DescrizioneBreve": "gain access to active computer function",
+        "Book": "Fc 109"
     },
     {
         "Titolo": "Kinetic Blow",
@@ -580,6 +607,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Brawl or Weaponry + Forces",
         "RoteDescrizione": "The greatest martial artists can kill with a single blow. Arrow willworkers with this rote don’t require any special training to transform fists and feet into deadly weapons. As an incredibly useful combat tool, this magic sees considerable use among mages of all orders.",
         "DescrizioneBreve": "give a Bashing weapon Lethal damage",
+        "Book": "M:tA 166"
     },
     {
         "Titolo": "Modulate Frequency",
@@ -595,6 +623,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Forces",
         "RoteDescrizione": "In 1974, an Arrow calling himself Arclight developed this rote as a better means of coordinating between strike teams. Modern Arrows have taken his work and expanded upon it, enabling secure transmissions with cell phones, video equipment, and words spoken into the wind by mages who can hijack radio waves for personal communication.",
         "DescrizioneBreve": "create secure network of devices",
+        "Book": "AA 177"
     },
     {
         "Titolo": "Modulate Speech",
@@ -610,6 +639,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Forces",
         "RoteDescrizione": "The ability to express oneself accurately is, in many cases, requisite to strong, stable leadership. A théarch who cannot convey her points in a manner that motivates others to follow her finds her ability to guide and direct other Awakened failing when she most needs them; allies are not roused to her causes, and rivals and enemies exploit the shortcomings in her delivery. Thus this magic is used to bestow upon such willworkers — from the most shy and retiring to the most socially adept — a helpful edge.",
         "DescrizioneBreve": "control own speech patterns and volume",
+        "Book": "SL 197"
     },
     {
         "Titolo": "Nullify Combustion",
@@ -625,6 +655,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult or Science + Forces",
         "RoteDescrizione": "A wandering Arrow calling himself Gregory Saint — a devout adherent of the way of the sword — developed this rote in the mid-1950s, to rob gunfighters of the advantage of what he called their “coward’s toys.” The sentiment wasn’t particularly popular in many quarters of the order, but the rote definitely was and came into use for a wide variety of purposes, only one of which is denying an enemy recourse to the use of firearms.",
         "DescrizioneBreve": "prevent or kill combustion in action",
+        "Book": "AA 177"
     },
     {
         "Titolo": "Spare Sleepers",
@@ -640,6 +671,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Firearms + Forces",
         "RoteDescrizione": "Rumor has it that this spell was originally developed by a former police sniper. The inventor’s name has been lost, but gun-toting Banishers have passed it around amongst themselves ever since. Thanks to this spell, a Banisher almost never needs to worry about shooting the wrong person — by Banisher standards, at least.",
         "DescrizioneBreve": "use ranged weapons without hitting Sleepers",
+        "Book": "Ban 56"
     },
     {
         "Titolo": "Telekinetic Push",
@@ -655,6 +687,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Forces",
         "RoteDescrizione": "While mages of the Arrow are generally quite capable of knocking their foes down through conventional means, there’s something undeniably scary about doing it through sheer magical force.",
         "DescrizioneBreve": "push results in knockdown; target rolls Dex+Athletics-Potency to stay up",
+        "Book": "GotU 23"
     },
     {
         "Titolo": "Transmission",
@@ -670,6 +703,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Forces",
         "RoteDescrizione": "Good for sending police on wild-goose chases and creating scares about Martian invasions, among many other uses, this Mysterium rote is also quite popular with Guardians of the Veil, who cherish its potential for misdirection.",
         "DescrizioneBreve": "alter radio exchanges",
+        "Book": "M:tA 167"
     },
     {
         "Titolo": "Unseen Shield",
@@ -685,6 +719,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult or Science + Forces",
         "RoteDescrizione": "This Free Council rote generates a weave of simple energies designed to blunt any incoming attack. Adamantine Arrow willworkers use a similar rote to guard against such assaults.",
         "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 167"
     }
 ]
 
@@ -703,6 +738,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Forces",
         "RoteDescrizione": "Mysterium mages are stereotyped as being too buried in their books to attend to mundane matters, such as shaving, cleaning or even dressing properly. This rote’s popularity among mages of that order does little to break the stereotype, although it does allow a bookworm mage to at least dust his library before visitors arrive without losing valuable study time.",
         "DescrizioneBreve": "telekenetic assistant",
+        "Book": "M:tA 167"
     },
     {
         "Titolo": "Bestow Unseen Shield",
@@ -717,6 +753,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "This rote is usually cast upon an area, creating a barrier with which attacks and objects must contend. Free Council mages often cast this rote with strange devices, while Mysterium willworkers usually invoke its power through more traditional means (Resolve + Occult + Forces).",
         "DescrizioneBreve": "grant Shielding",
+        "Book": "M:tA 168"
     },
     {
         "Titolo": "Call Lightning",
@@ -732,6 +769,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Forces",
         "RoteDescrizione": "Sometimes the best way to silence a witness to the Mysteries is to let nature take its course — with a little bit of guidance. The Guardians use this rote as a last resort, but it’s still easier to explain away to the authorities than most direct forms of magical assault.",
         "DescrizioneBreve": "pull lightning from cloudy sky",
+        "Book": "M:tA 168"
     },
     {
         "Titolo": "Complex Transmission",
@@ -746,6 +784,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Science + Forces",
         "RoteDescrizione": "It’s short for 'Mage Television,' and Libertines like to claim they came up with the abbreviation first. In addition to the joys of pirate video broadcasting, this rote is useful for messing with live video feeds from closed circuit TV cameras and the like.",
         "DescrizioneBreve": "alter complicated signals",
+        "Book": "FC 109"
     },
     {
         "Titolo": "Control Electricity",
@@ -761,6 +800,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Forces",
         "RoteDescrizione": "Mysterium mages are accustomed to having to disable security systems when they need to acquire something that just can’t be bought with money. This rote allows them to disable power to a system without shutting down the entire line (and possibly alerting someone to trouble when all goes dark).",
         "DescrizioneBreve": "change direction of current or diminish flow",
+        "Book": "M:tA 168"
     },
     {
         "Titolo": "Control Fire",
@@ -776,6 +816,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult or Science + Forces",
         "RoteDescrizione": "It is not unknown for Free Council mages to accidentally start fires in their laboratories. This rote helps put them out before they can destroy hours of work.",
         "DescrizioneBreve": "increase or decrease intensity of fire",
+        "Book": "M:tA 168"
     },
     {
         "Titolo": "Curse of Electrical Rebellion",
@@ -791,6 +832,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Forces",
         "RoteDescrizione": "Free Council technophiles enjoy bringing down their opponents with items that opportunistically monkey wrench their gear.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 139"
     },
     {
         "Titolo": "Cutting Scream",
@@ -806,6 +848,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Expression + Forces",
         "RoteDescrizione": "Arrows who prefer to get up close and personal in combat favor this rote. The close range blast of sound is difficult to avoid and deals satisfactory damage. The secondary deafening effect is also useful in reducing the ability of multiple opponents to coordinate their attacks.",
         "DescrizioneBreve": "deal damage and cause deafness with voice",
+        "Book": "AA 178"
     },
     {
         "Titolo": "Empowered Voice",
@@ -821,6 +864,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Athletics + Forces",
         "RoteDescrizione": "“Speak loudly and carry a big stick” is a philosophy many Arrow mages can relate to. Knowing this rote allows the voice to become the stick... or at least buy some time for the mage to bring a bigger stick to bear.",
         "DescrizioneBreve": "knockdown opponents with a shouted syllable",
+        "Book": "AA 178"
     },
     {
         "Titolo": "Floating Step",
@@ -836,6 +880,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Athletics + Forces",
         "RoteDescrizione": "The “body lightening art” gives practitioners the ability to leap incredible distances and balance on the most precarious surfaces.",
         "DescrizioneBreve": "maintain balance, leap prodigious distances",
+        "Book": "GoG 70"
     },
     {
         "Titolo": "Instill Shock",
@@ -845,12 +890,13 @@ const forceThreeData = [
         "Action": "Instant",
         "Duration": "Prolonged (this spell uses the advanced prolongation factors)",
         "Aspect": "Covert",
-        "Cost": "1 – 3 Mana, at caster’s discretion",
+        "Cost": "1 - 3 Mana, at caster’s discretion",
         "DescrizioneMiddle": "Shock victims suffer bashing damage equal to the number of Mana spent during item creation.<p>If Sleepers witness the same device delivering repeated shocks, Disbelief might come into play, unless the device is connected to a power source at the time, offering a plausible excuse for its effect.</p>",
         "RoteName": "Free Council Rote: Hands Off",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Forces",
         "RoteDescrizione": "Free Council mages use this spell to protect their favorite Enchanted Items and other pieces of critical gear. For this reason, booting up a Free Councilor’s laptop without permission is unwise.",
         "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 140"
     },
     {
         "Titolo": "Light Mastery",
@@ -897,6 +943,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult or Science + Forces",
         "RoteDescrizione": "This rote is a major boon to a tombcrawling Mysterium mage. Even if the batteries in his flashlight fail him, his magic can still light his way — or darken the way for his rivals.",
         "DescrizioneBreve": "create or extinguish light",
+        "Book": "M:tA 169"
     },
     {
         "Titolo": "Optimize Kinetic Attack",
@@ -912,6 +959,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Brawl + Forces",
         "RoteDescrizione": "A master of the “storm technique” sees the chaotic currents of the wind reflected in his physical movements. He uses his mind and body to smooth the frayed lines of motion in his movement without sacrificing raw power.",
         "DescrizioneBreve": "gain bonus to future attack, up to weapon bonus",
+        "Book": "GoG 71"
     },
     {
         "Titolo": "Personal Invisibility",
@@ -927,6 +975,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Stealth + Forces",
         "RoteDescrizione": "A Guardian could ask for few finer rotes when about the business of her order, whether tailing a troublesome Sleeper, gathering intelligence on a potential problem site, or preparing to eliminate a threat to the secrecy of the Mysteries. The Guardian could be the proverbial “fly on the wall” watching an event unfold, unseen and unnoticed, save by ill luck (if someone blunders into her) or mystic senses. Mages of all orders make use of this magic given its broad utility.",
         "DescrizioneBreve": "become invisible while concentrating",
+        "Book": "M:tA 169"
     },
     {
         "Titolo": "Sorcerer's Retribution",
@@ -942,6 +991,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Forces",
         "RoteDescrizione": "Hellson designed this rote to strike down sorcerers who would dare attack him. He visualizes his voice coalescing into a serpent-shaped coil of energy, lying in wait against magical assault.",
         "DescrizioneBreve": "protect self against spells and lash out at attacker",
+        "Book": "Gog 55"
     },
     {
         "Titolo": "Sound Mastery",
@@ -988,6 +1038,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult or Science + Forces",
         "RoteDescrizione": "Guardians armed with this rote can distract Sleeper interlopers with all manner of sounds, or quiet their own noises should a Sleeper approach.",
         "DescrizioneBreve": "alter qualities and direction of sound",
+        "Book": "M:tA 170"
     },
     {
         "Titolo": "Stay the Invisible Fires",
@@ -1002,6 +1053,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Science + Forces",
         "RoteDescrizione": "A Libertine’s work often involves going to dangerous places and handling dangerous materials, and this techné helps to ensure such things are a bit less dangerous.",
         "DescrizioneBreve": "gain armor against radiation",
+        "Book": "FC 109"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -1013,6 +1065,7 @@ const forceThreeData = [
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
         "DescrizioneBreve": "(Obrimos only) call a Seraph from the Aether, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Supernal Hack",
@@ -1026,6 +1079,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Computer + Forces",
         "RoteDescrizione": "In many ways, computers and data banks are the archives of the next age, holding untold secrets and knowledge. Just as Mind mages can use “Telepathy” to read an individual’s thoughts, mystagogues who are adept with both Matter and Forces can “read” the contents of an electronic disk or hard drive, intuitively sensing the interplay between magnetic, photonic or electronic markers and their physical components. Using a combination of the Matter and Forces Arcana in a technological version of telepathy, the mage can read computer files as if they were printed out on a monitor before them. Text document or database files are standard difficulty, reading data that has been intentionally given additional encryption may be attempted at a –1 to –3 penalty, depending on the complexity of the encryption used. Information can be read at the same rate as if it was being read in a text form.",
         "DescrizioneBreve": "gain bonus to Computer rolls",
+        "Book": "Myst 194"
     },
     {
         "Titolo": "Telekinesis",
@@ -1041,6 +1095,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Athletics or Larceny + Forces",
         "RoteDescrizione": "A leader must resort to underhanded means on occasion. A document may need to be filched or a lock picked. Likewise, displays of brute force are sometimes useful, such as when battering down a door. Silver Ladder mages use this rote for those times. Adamantine Arrow willworkers use their version of the rote (Strength + Athletics + Forces) for almost purely martial purposes, such as to toss things at their enemies.",
         "DescrizioneBreve": "move or throw objects",
+        "Book": "M:tA 170"
     },
     {
         "Titolo": "Telekinetic Strike",
@@ -1056,6 +1111,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Athletics + Forces",
         "RoteDescrizione": "Unarmed and at range, an Arrow mage can attack her foes. This rote launches a telekinetic assault that can strike at a distance. Of course, other mages also make use of this rote, as one never knows when it might become necessary to take someone down at 30 paces.",
         "DescrizioneBreve": "strike a target at range",
+        "Book": "M:tA 170"
     },
     {
         "Titolo": "Turn Projectile",
@@ -1123,6 +1179,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Forces",
         "RoteDescrizione": "The Adamantine Arrow is perhaps not surprisingly renowned for this rote, by which members turn enemies’ bullets back upon them.",
         "DescrizioneBreve": "alter the trajectory of an object reflexively",
+        "Book": "M:tA 171"
     }
 ]
 
@@ -1141,6 +1198,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Science + Forces",
         "RoteDescrizione": "The Mysterium sometimes find it useful to give a bit of wind or rain to a friend, as a secret, “between you and me.” With this, it’s easy, as long as the friend isn’t tempted to take a peek inside too soon.",
         "DescrizioneBreve": "store weather for later use",
+        "Book": "L:tA 68"
     },
     {
         "Titolo": "Bestow Invisibility",
@@ -1156,6 +1214,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Stealth + Forces",
         "RoteDescrizione": "Guardians understand that not everyone has the capabilities required to do the work the order requires of them, but they must, nonetheless, occasionally bring such unprepared souls along for the ride. This rote helps to even the odds somewhat, enabling even the most normally conspicuous souls to move with preternatural stealth. Silver Ladder mages also make use of this rote, often to conceal a bodyguard.",
         "DescrizioneBreve": "grant invisibility to others while concentrating",
+        "Book": "M:tA 171"
     },
     {
         "Titolo": "Burst of Speed",
@@ -1171,6 +1230,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Athletics + Forces",
         "RoteDescrizione": "There is a time for negotiations, a time to hold one’s ground, and a time to get the hell out of Dodge. This Mysterium rote is magic for the last of those situations. Of course, members of the Mysterium are just as apt to use this spell to catch up with someone or something as to use it to take flight. Guardians of the Veil also occasionally use this magic when they need to intercept a threat to the secrecy of the Mysteries and don’t have time to hail a cab.",
         "DescrizioneBreve": "make yourself faster temporarily",
+        "Book": "M:tA 171"
     },
     {
         "Titolo": "Change Weather",
@@ -1186,6 +1246,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "Long has humanity tried to harness weather to its own ends. A Free Council mage with this rote can call up rain to end a drought, a bit of warmth to break a cold snap, or whatever other non-extreme condition she desires. Mysterium mages use alternate means to control these forces (Resolve + Science + Forces), but accomplish the same ends.",
         "DescrizioneBreve": "create any non-disaster level weather condition",
+        "Book": "M:tA 172"
     },
     {
         "Titolo": "Containment",
@@ -1201,6 +1262,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Craft + Forces",
         "RoteDescrizione": "Ancient magics are often even less predictable than modern explosives, and so this spell has saved the lives of more than one Mysterium experimenter who has had a rote or artifact react in a dangerous manner.",
         "DescrizioneBreve": "protect against fast movement and environmental dangers",
+        "Book": "Myst 195"
     },
     {
         "Titolo": "Control Velocity",
@@ -1274,6 +1336,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Forces",
         "RoteDescrizione": "Mages of the Free Council use this rote to slow down escaping enemies or to slow down those enemies’ bullets.",
         "DescrizioneBreve": "alter the speed of an object",
+        "Book": "M:tA 172"
     },
     {
         "Titolo": "Destroy Spirit",
@@ -1289,6 +1352,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Athletics + Forces",
         "RoteDescrizione": "Many of the most destructive spells created were designed in response to a looming threat. This rote was crafted as a preemptive measure by a particularly paranoid Banner Warden of the Arrow named Phosphorous. Scarred by the death of her brother at the many hands of a hideous spirit of gluttony, Phosphorous devised a means to safeguard those that could not save themselves. In the early summer of 1920, while tourists flocked to the shores of the eastern United States, the bitter Obrimos waged war against the blossoming spirits of corruption and vice that were springing up throughout the area. A number of the mages of Phosphorous’ Consilium were against these unprovoked attacks, and more than one chastised the Arrow for creating such a one-dimensional spell; what good would come of such destructive power? They soon found out when one local mystagogue got in over his head. “Dapper” Dave hadn’t intended any harm by it, but whatever it was that he dredged up from the Underworld longed only to destroy. Phosphorous answered its aggression with the fury of her magic, unleashing this brutal spell upon the creature, until it troubled the Consilium no more. After that, folks stopped criticizing the Arrow’s “one-dimensional” approach.",
         "DescrizioneBreve": "inflict lethal damage and remove essence from a Spirit",
+        "Book": "Summ 208"
     },
     {
         "Titolo": "Fiery Transformation",
@@ -1304,6 +1368,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Intimidation + Forces",
         "RoteDescrizione": "Arrow mages who learn this rote use it to sow fear among their enemies and to inflict horrific harm in combat. While some see the rote as needlessly flashy, few things are quite as terrifying as a warrior of living fire, carving a charred and bloody swath through the ranks of her foes. Mysterium mages, though not often renowned for martial prowess, occasionally use a version of this rote to augment what combat ability they possess.",
         "DescrizioneBreve": "become living flame",
+        "Book": "M:tA 172"
     },
     {
         "Titolo": "Fiery Servant",
@@ -1319,6 +1384,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Mind",
         "RoteDescrizione": "Even mages who prefer to do their work face-to-face admit that it can, on occasion, be necessary to send a small fiery agent in to defeat a minion, purify the ground or flush an enemy out so that the mage can confront him, man to man.",
         "DescrizioneBreve": "create sentient being of fire",
+        "Book": "L:tA 43"
     },
     {
         "Titolo": "Firebolt",
@@ -1334,6 +1400,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Forces",
         "RoteDescrizione": "While some Arrows prefer lightning and others sonic bursts, the simple fact of the matter is that more supernatural weirdness appears to be harmed in a meaningful way by fire than by any other natural form of energy. This rote, probably older than the order itself, capitalizes upon that truth.",
         "DescrizioneBreve": "inflict serious damage, ignite flammable objects",
+        "Book": "AA 179"
     },
     {
         "Titolo": "Firestarter",
@@ -1415,6 +1482,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Forces",
         "RoteDescrizione": "A mage with enough skill can actually frighten the atoms of the surrounding area into combusting. The truly inspired use further Forces magic to direct the course of the fire they have created. An intelligent and sensitive mage can cause a vast amount of destruction with very little effort.",
         "DescrizioneBreve": "kindle flames",
+        "Book": "L:tA 43"
     },
     {
         "Titolo": "Friction Knife",
@@ -1430,6 +1498,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces vs. Stamina + Gnosis",
         "RoteDescrizione": "The greatest warrior learns to use every resource in her environment, a lesson taken to heart by those Arrow mages who practice this rote. With such magic, an Arrow lays low her enemies without force of arms, allowing them to destroy themselves. Silver Ladder mages also make use of this magic to destroy foes without lifting a finger.",
         "DescrizioneBreve": "increase air friction to lethal levels",
+        "Book": "M:tA 173"
     },
     {
         "Titolo": "Gravity Shift",
@@ -1445,6 +1514,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Forces",
         "RoteDescrizione": "With this rote, no wall is too high to climb. Floor-level traps or alarm systems can be bypassed; rooftops, tree tops and even mountaintops are simple to reach.",
         "DescrizioneBreve": "redirect personal center of gravity",
+        "Book": "AA 179"
     },
     {
         "Titolo": "Influence Magnet",
@@ -1460,6 +1530,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Forces",
         "RoteDescrizione": "This rote is excellent for creating powerful magnets for scientific or occult experiments, or just for boosting the power from existing magnets. Using this spell on a computer hard drive is an excellent way to wipe the memory completely, leaving no evidence of electronic data or the attempt to destroy it.",
         "DescrizioneBreve": "make a magnet stronger or weaker",
+        "Book": "TotM 63"
     },
     {
         "Titolo": "Invisible Fire",
@@ -1475,6 +1546,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Forces",
         "RoteDescrizione": "The Libertines weren’t the first to think of using radiation as a weapon, just the first mages to do so. This techné is considered a weapon of last resort since it’s dirty and vulgar, and tends to raise difficult questions.",
         "DescrizioneBreve": "cause Lethal or Aggravated radiation damage",
+        "Book": "FC 110"
     },
     {
         "Titolo": "Kinetic Ripple",
@@ -1490,6 +1562,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Forces",
         "RoteDescrizione": "The Adamantine Arrow uses this spell to disrupt enemy lines and to scatter clumped groups. Multiple Arrows with knowledge of this spell, working as a group, can quickly clear an area with successive pulses of damaging energy.",
         "DescrizioneBreve": "create an outward blast of force",
+        "Book": "AA 180"
     },
     {
         "Titolo": "Levitation",
@@ -1505,6 +1578,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Athletics + Forces",
         "RoteDescrizione": "Guardian mages find this a very useful spell when they need to perform home or office intrusions to fetch or destroy incriminating evidence — or to spy on someone from where he least expects it, above.",
         "DescrizioneBreve": "float slowly",
+        "Book": "M:tA 173"
     },
     {
         "Titolo": "Quench the Invisible Fires",
@@ -1520,6 +1594,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Forces",
         "RoteDescrizione": "While Libertines work with radioactive materials only rarely, this techné allows them to clean up after themselves quickly, leaving no traces behind.",
         "DescrizioneBreve": "remove radiation from area",
+        "Book": "FC 110"
     },
     {
         "Titolo": "Sensory Deprivation",
@@ -1535,6 +1610,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Forces",
         "RoteDescrizione": "Using this rote, a Guardian can more effectively interrogate a victim through the use of magical torture.",
         "DescrizioneBreve": "block a target's senses",
+        "Book": "TotM 63"
     },
     {
         "Titolo": "Thunderbolt",
@@ -1550,6 +1626,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Forces",
         "RoteDescrizione": "Perhaps one of the more awe-inspiring modes of attack common to the Adamantine Arrow (which is saying something), this rote is emblematic of that order’s very name. Free Council willworkers use their own means of generating the energy needed for such magic (Intelligence + Athletics + Forces).",
         "DescrizioneBreve": "create electricity",
+        "Book": "M:tA 173"
     },
     {
         "Titolo": "Transform Energy",
@@ -1620,6 +1697,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "By using advanced scientific techniques, a Council willworker can transmute simple forces, causing one form of energy to become another. Guardians of the Veil use similar magic (Wits + Occult or Science + Forces) when their duties require it.",
         "DescrizioneBreve": "change one energy form to another",
+        "Book": "M:tA 173"
     },
     {
         "Titolo": "Trojan Horse",
@@ -1635,6 +1713,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Forces",
         "RoteDescrizione": "A Guardians of the Veil cabal, located in Chicago, have published a report documenting the cabal’s battles with a small cell of Banishers and the Banishers’ extensive use of this spell. The report indicates Banishers use this spell in two ways. One is to seed a crowd with Sleeper carriers, then draw a mage to the crowd and attack them in a mundane fashion. The crueler use is to cast the spell on Sleeper friends and allies of a mage.",
         "DescrizioneBreve": "embed a Thunderbolt in a Sleeper subject that fires at the next Mage nearby",
+        "Book": "Ban 57"
     },
     {
         "Titolo": "Unseen Hand",
@@ -1650,6 +1729,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Brawl + Forces vs. Composure + Gnosis",
         "RoteDescrizione": "The Adamantine Arrow often uses this rote to freeze enemies in place, or to lift them high and then drop them (see “Falling,” p. 179 of the <b>World of Darkness Rulebook</b>). It lacks honor, but so do many Arrow enemies.",
         "DescrizioneBreve": "kinetically lift a creature",
+        "Book": "M:tA "
     }
 ]
 
@@ -1667,6 +1747,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Forces",
         "RoteDescrizione": "Given the choice between creating a short-term panic with sudden hurricane force winds and allowing Sleepers to bear witness to something that could utterly destroy the secrecy of the occult world, most Guardians opt for the former. This rote can also be used for purely destructive purposes, of course, and this “wrath of heaven” potential draws certain members of the Silver Ladder to learn the same magic.",
         "DescrizioneBreve": "create disaster level weather condition",
+        "Book": "M:tA 174"
     },
     {
         "Titolo": "Bestow Burst of Speed",
@@ -1682,6 +1763,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Athletics + Forces",
         "RoteDescrizione": "Silver Ladder mages use this rote to give their cabal-mates the speed to catch or intercept enemies.",
         "DescrizioneBreve": "make someone else faster temporarily",
+        "Book": "M:tA 175"
     },
     {
         "Titolo": "Bestow Levitation",
@@ -1697,6 +1779,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "A quick casting of this rote has saved the life of more than one Mysterium willworker’s cabal-mate. Adamantine Arrow mages use their own version of the rote (Wits + Occult + Forces) to give their allies the means to flee a hostile encounter or to attack a foe from an unexpected angle.",
         "DescrizioneBreve": "allow others to float slowly",
+        "Book": "M:tA 175"
     },
     {
         "Titolo": "Complete Invisibility",
@@ -1712,6 +1795,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Stealth + Forces",
         "RoteDescrizione": "Guardians prize this rote as among the most valued for their “profession” of policing the Awakened world.",
         "DescrizioneBreve": "gain prolonged invisibility",
+        "Book": "M:tA 175"
     },
     {
         "Titolo": "Control Gravity",
@@ -1754,6 +1838,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "With this rote, a Mysterium mage can reach places normally inaccessible to her, or suddenly cause an entire roomful of assailants to “fall” upward and hit the ceiling. Adamantine Arrow mages use their own version of this magic (Composure + Occult + Forces) to seize the advantage in combat.",
         "DescrizioneBreve": "alter power and direction of gravity",
+        "Book": "M:tA 176"
     },
     {
         "Titolo": "Create Sunlight",
@@ -1796,6 +1881,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "Some creatures cannot be driven out by fire or the sword, but recoil from the cleansing light of the sun. Silver Ladder willworkers use this rote to summon true sunlight. Free Council mages are also known to make use of the same rote, whether for experimentation, defense or even just to provide some light for growing plants in a sanctum far from natural light.",
         "DescrizioneBreve": "create a burst of light",
+        "Book": "M:tA 176"
     },
     {
         "Titolo": "Earthquake",
@@ -1838,6 +1924,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Athletics + Forces",
         "RoteDescrizione": "The earth itself can be used as a weapon by a mage of the Adamantine Arrow. With this rote, not even the ground that enemies stand on is safe. Guardians of the Veil occasionally make use of this magic (Manipulation + Athletics + Forces), using tremors to cover up stranger happenings, or to demolish a site before inquiring eyes spy things they were not meant to see.",
         "DescrizioneBreve": "shift tectonics in the area",
+        "Book": "M:ta 176"
     },
     {
         "Titolo": "Electromagnetic Pulse",
@@ -1853,6 +1940,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Science + Forces",
         "RoteDescrizione": "Free Council mages understand that modern people are often overly dependent on technology. Take that away, and the odds in any situation shift radically. Many people panic when their conveniences are taken away, not to mention the chaos that can ensue based purely on the loss of those devices. Communications break down, computers are destroyed and electronic recording media are wiped clean. Mysterium mages also use this rote, stripping others of the edge afforded by technology and stacking the deck in favor of the Awakened.",
         "DescrizioneBreve": "deactivate electronic devices",
+        "Book": "M:tA 177"
     },
     {
         "Titolo": "Eradicate Radiation",
@@ -1895,6 +1983,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Science + Forces",
         "RoteDescrizione": "While the circumstances under which this rote is useful are (thankfully) few and far between, it is definitely the sort of magic Free Council mages are glad to have at their disposal when it is necessary.",
         "DescrizioneBreve": "remove traces of toxic radiation",
+        "Book": "M:tA 177"
     },
     {
         "Titolo": "Flight",
@@ -1910,6 +1999,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Forces",
         "RoteDescrizione": "This rote allows members of the Mysterium to avoid both the hassles and occasional perils of earthbound transportation. Granted, flight bears its own unique problems and risks, but no few mages are willing to accept them. Adamantine Arrow sorcerers use the same rote in conferring the powers of flight upon themselves.",
         "DescrizioneBreve": "gain perfect, but slow, flight",
+        "Book": "M:tA 177"
     },
     {
         "Titolo": "Increase Gravity",
@@ -1952,6 +2042,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult or Science + Forces",
         "RoteDescrizione": "Quarry under the effect of this rote find any physical task that much harder to perform, which is why it is so favored by Guardians of the Veil in their efforts to maintain the secrecy of the Mysteries. Those who have seen too much discover that retreat is difficult, and it can be almost impossible to surmount even the most elementary obstacles. Some Silver Ladder willworkers use their own rote (Presence + Science + Forces) to literally force stubborn foes and rivals to their knees.",
         "DescrizioneBreve": "increase power of gravitational pull",
+        "Book": "M:tA 178"
     },
     {
         "Titolo": "Magnetize",
@@ -1967,6 +2058,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Forces",
         "RoteDescrizione": "Libertines use this rote to create powerful magnets out of anything that is at hand. One might use the result to hide a note under a metal table, while another might use one to “lock” a metal door closed.",
         "DescrizioneBreve": "make a non-ferrous substance magnetic",
+        "Book": "TotM 63"
     },
     {
         "Titolo": "Nullify Gravity",
@@ -2009,6 +2101,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Forces",
         "RoteDescrizione": "Great for a quick escape for an entire cabal, this Mysterium rote occasionally comes in handy in various other strange circumstances. Adamantine Arrow mages use this rote as well, enabling a number of willworkers to close quickly on foes, moving easily over even difficult terrain.",
         "DescrizioneBreve": "cancel gravity entirely in a region",
+        "Book": "M:tA 178"
     },
     {
         "Titolo": "Radiation",
@@ -2055,6 +2148,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult or Science + Forces",
         "RoteDescrizione": "Even the most hardened Arrow willworker admits that use of this rote is cruel and unusual, but pragmatic members of the order recognize the need for such tactics every now and then. Free Council mages also make occasional use of this magic in experimentation.",
         "DescrizioneBreve": "create a burst of destructive radiation",
+        "Book": "M:tA 178"
     },
     {
         "Titolo": "Velocity Mastery",
@@ -2093,6 +2187,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Athletics + Forces",
         "RoteDescrizione": "A Silver Ladder mage can ensure that no one whom he calls before him can delay arrival. Although this rote does not make a Silver Ladder mage bulletproof, it can make it seem that way.",
         "DescrizioneBreve": "increase or decrease speed of an object",
+        "Book": "M:tA 179"
     }
 ]
 

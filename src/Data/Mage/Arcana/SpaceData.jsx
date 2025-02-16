@@ -12,7 +12,8 @@ const spaceOneData = [
         "RoteName": "Guardians of the Veil Rote: The Crooked Eye",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Space",
         "RoteDescrizione": "While this rote helps a Guardian to see what might otherwise be hidden, it’s also useful for disguising her intent. When the rote is active, no one can be certain exactly what the mage is looking at or where she’s directing her attention. She may seem to have her head stuck in a paperback novel when she actually has a clear view of what’s happening on the other side of the book.",
-        "DescrizioneBreve": "view around corners"
+        "DescrizioneBreve": "view around corners",
+        "Book": "GotV 197"
     },
     {
         "Titolo": "Correspondence",
@@ -27,7 +28,8 @@ const spaceOneData = [
         "RoteName": "Guardians of the Veil Rote: Revelation of the Unseen Thread",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Space",
         "RoteDescrizione": "Protecting the Mysteries sometimes involves a great deal of detective work. This rote enables a Guardian to track leads through the esoteric connections that bind them. Perhaps a troublesome Sleeper grows too close to the secrets of the occult because he seeks a cure for his daughter’s terminal ailment, or an Artifact exerts a sympathetic pull on him. This sense allows a mage to discern such influences and gives him the opportunity to adjust his tactics accordingly.",
-        "DescrizioneBreve": "sense sympathetic connection between two subjects"
+        "DescrizioneBreve": "sense sympathetic connection between two subjects",
+        "Book": "M:tA 232"
     },
     {
         "Titolo": "Counterspell",
@@ -39,7 +41,8 @@ const spaceOneData = [
         "Aspect": "Covert",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
-        "DescrizioneBreve": "counter Space spells"
+        "DescrizioneBreve": "counter Space spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Finder",
@@ -54,7 +57,8 @@ const spaceOneData = [
         "RoteName": "Mysterium Rote: Eyes on the Prize",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Space",
         "RoteDescrizione": "Mysterium mages often use this rote to track a relic to be traded (or one that has already been traded but which the mage intends to get back), a weapon, or any other inanimate item.",
-        "DescrizioneBreve": "locate object in area"
+        "DescrizioneBreve": "locate object in area",
+        "Book": "M:tA 233"
     },
     {
         "Titolo": "Omnivision",
@@ -69,7 +73,8 @@ const spaceOneData = [
         "RoteName": "Free Council Rote: Spatial Topography",
         "RoteDice": "<b>Dice Pool:</b> Wits + Composure + Space",
         "RoteDescrizione": "Some Free Council willworkers like to think of this rote as an updated version of Zen archery or similar styles of combat, wherein the master is instinctually aware of his surroundings. Adamantine Arrow mages use this very rote for martial purposes.",
-        "DescrizioneBreve": "360 degree vision"
+        "DescrizioneBreve": "360 degree vision",
+        "Book": "M:tA 233"
     },
     {
         "Titolo": "Spatial Awareness",
@@ -84,7 +89,8 @@ const spaceOneData = [
         "RoteName": "Silver Ladder Rote: Trailing the Long Stride",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "Silver Ladder willworkers named this rote for its practical application in detecting the passage of those who had fled by means of the Space Arcanum. It is also frequently used to discern the presence of ongoing spatial warps, such as gateways or locations that have been altered indefinitely to be smaller, larger, or more convoluted than they should be. Mysterium mages use a similar rote (Wits + Occult + Space) to sense similar disturbances, as they know the objects they seek are sometimes hidden beyond such magics.",
-        "DescrizioneBreve": "Mage Sight"
+        "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 233"
     },
     {
         "Titolo": "Spatial Map",
@@ -99,7 +105,8 @@ const spaceOneData = [
         "RoteName": "Adamantine Arrow Rote: Ballistic Targeting",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "Arrow mages who learn this rote can be crack shots during a blizzard in the middle of the night (or at least not have whatever prowess they naturally possess suffer for adverse conditions). Any willworker in need of a good spatial sense in a tense situation can benefit from this rote.",
-        "DescrizioneBreve": "sense locations of nearby objects"
+        "DescrizioneBreve": "sense locations of nearby objects",
+        "Book": "M:tA 233"
     }
 ]
 
@@ -117,7 +124,8 @@ const spaceTwoData = [
         "RoteName": "Free Council Rote: Nothing Up My Sleeve",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Investigation + Space vs. Composure",
         "RoteDescrizione": "In addition to being an astounding magic trick, this rote allows a Council willworker to summon a much-needed resource to hand quickly, or to send something away just as quickly (definitely useful when an officer is about to pat one down for drugs or weapons). Adamantine Arrow mages who favor firearms typically use this rote to produce clips of ammunition or even entirely new firearms from “concealed inner pockets” in jackets and such when one gun runs dry.",
-        "DescrizioneBreve": "teleport small objects"
+        "DescrizioneBreve": "teleport small objects",
+        "Book": "M:tA 234"
     },
     {
         "Titolo": "Astral Beacon",
@@ -159,7 +167,8 @@ const spaceTwoData = [
         "RoteName": "Mysterium Rote: Brand the Worldsoul",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "Mystagogues study the lore of souls with “field research” in the Astral Reaches. When they find a particularly interesting bit of Astral lore, they use Brand of the Worldsoul so that other scholars can find and study these evocative dreams. Other orders have their Astral voyagers, and variations of this rote find use among them all.",
-        "DescrizioneBreve": "create signpost in Astral Realms"
+        "DescrizioneBreve": "create signpost in Astral Realms",
+        "Book": "TotM 71"
     },
     {
         "Titolo": "Bestow Spatial Awareness",
@@ -174,7 +183,8 @@ const spaceTwoData = [
         "RoteName": "Mysterium Rote: Derangement of the Senses",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Space",
         "RoteDescrizione": "Mysterium mages sometimes need to show others exactly what it is they themselves see. This rote enables a mage to pass on her own sense of resonance to one who would otherwise be unable to benefit from such perception.",
-        "DescrizioneBreve": "grant Mage Sight"
+        "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 234"
     },
     {
         "Titolo": "Conceal Sympathy",
@@ -189,7 +199,8 @@ const spaceTwoData = [
         "RoteName": "Guardians of the Veil Rote: Dispersing the Threads",
         "RoteDice": "<b>Dice Pool:</b> Composure + Subterfuge + Space",
         "RoteDescrizione": "A Guardian who fears that enemies will try to strike at her through friends and loved ones can baffle them by making it appear that connections are more aloof than they truly are.",
-        "DescrizioneBreve": "prevent others sensing your sympathetic connection"
+        "DescrizioneBreve": "prevent others sensing your sympathetic connection",
+        "Book": "M:tA 234"
     },
     {
         "Titolo": "Follow Through",
@@ -204,7 +215,8 @@ const spaceTwoData = [
         "RoteName": "Mysterium Rote: Taking the Road Once Traveled",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Space",
         "RoteDescrizione": "It occasionally happens that a trail ends at an old (or perhaps even recent) doorway in Space and the only thing to do is turn back or move forward and hope for the best. Mages of the Mysterium use this rote to pursue Artifacts and lore, seeking them through the many lapsed portals riddled through the Tapestry. Adamantine Arrow willworkers use this spell when in hot pursuit of a fleeing adversary.",
-        "DescrizioneBreve": "activate latent Portal"
+        "DescrizioneBreve": "activate latent Portal",
+        "Book": "M:tA 234"
     },
     {
         "Titolo": "Intrusion Warning",
@@ -250,7 +262,8 @@ const spaceTwoData = [
         "RoteName": "Guardians of the Veil Rote: Ensuring Solitude",
         "RoteDice": "<b>Dice Pool:</b> Composure + Investigation + Space",
         "RoteDescrizione": "Guardians have many needs, and one of them is often privacy. An agent rifling through a Seer’s wardrobe does not want to be disturbed or seen, and would like to know whether the Seer is concurrently sneaking into her apartment. Spies meeting in order to pass on information would rather know if they suddenly need to act naturally. Ensuring Solitude allows them all to be more secure in the knowledge that they will be aware of any intrusion.",
-        "DescrizioneBreve": "determine entries or exits from area"
+        "DescrizioneBreve": "determine entries or exits from area",
+        "Book": "GotV 198"
     },
     {
         "Titolo": "Locate Source",
@@ -265,7 +278,8 @@ const spaceTwoData = [
         "RoteName": "Mysterium Rote: Determine Provenance",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Space",
         "RoteDescrizione": "Sometimes a single item from a large cache of important relics is found by accident, far from its source. This spell allows the mage to locate this cache, as well as allowing scholars to determine where and possibly when a particular object was made.",
-        "DescrizioneBreve": "determine locations of significant events in history of target"
+        "DescrizioneBreve": "determine locations of significant events in history of target",
+        "Book": "Myst 204"
     },
     {
         "Titolo": "Moving Target",
@@ -280,7 +294,8 @@ const spaceTwoData = [
         "RoteName": "Guardians of the Veil Rote: Mapping the Fugitive",
         "RoteDice": "<b>Dice Pool:</b> Perception + Investigation + Time versus Composure + Gnosis",
         "RoteDescrizione": "In the careful and paranoid ranks of the Guardians of the Veil, this rote is used quite often. In addition to tracking the movements and location of important and powerful Artifacts, this rote is also used to spy upon the movements of mages that the caster worries might be using too much vulgar magic or otherwise disrupting the Sleepers or revealing magic to the Fallen World. This rote is also regularly used to keep track of the movements of suspected members of the Seers of the Throne.<p>In addition to tracking enemies and disruptive mages, members of the Guardians of the Veil also regularly use this rote to keep track of one another. Most Guardians have no greater fear than one of their number either betraying them to the Seers or the Banishers, so they regularly watch anyone who begins to act suspiciously. All but the most naïve Guardians are perfectly aware of this sort of spying, which further reduces the odds of a member helping the order’s enemies.</p>",
-        "DescrizioneBreve": "track past movements of target"
+        "DescrizioneBreve": "track past movements of target",
+        "Book": "GotV 198"
     },
     {
         "Titolo": "Scrying",
@@ -295,7 +310,8 @@ const spaceTwoData = [
         "RoteName": "Guardians of the Veil Rote: Remote Viewing",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Space",
         "RoteDescrizione": "Guardians of the Veil often use magics such as this to spy on quarries before determining appropriate courses of action. Likewise, Mysterium mages use the same rote to peer ahead and ascertain whether a destination is safe.",
-        "DescrizioneBreve": "remotely view location"
+        "DescrizioneBreve": "remotely view location",
+        "Book": "M:tA 235"
     },
     {
         "Titolo": "Sympathetic Tap",
@@ -341,7 +357,8 @@ const spaceTwoData = [
         "RoteName": "Seers of the Throne Rote: Watching the Threads",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Space",
         "RoteDescrizione": "The Ministry of Panopticon is not content to merely watch their targets; they watch those target’s associations as well. The use of this rote allows a Seer to know when a target is meeting with a significant person, so that follow-up magic may be brought to bear.",
-        "DescrizioneBreve": "determine when a Sympathetic connection is active"
+        "DescrizioneBreve": "determine when a Sympathetic connection is active",
+        "Book": "SotT 195"
     },
     {
         "Titolo": "Track Projectile",
@@ -356,7 +373,8 @@ const spaceTwoData = [
         "RoteName": "Adamantine Arrow Rote: From Bowstring to Target",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Space",
         "RoteDescrizione": "This versatile rote can aid a warrior’s mission in dozens of ways. The rote can tell him if his shot hit the target, or how far off his aim was. The rote can reveal where a sniper is concealed, or make it easier to retrieve a dropped piece of equipment. Some Arrow mages use the conjunctional form of the spell to examine and understand the angles and firing patterns of a complicated gun battle.",
-        "DescrizioneBreve": "determine origin and path of a projectile"
+        "DescrizioneBreve": "determine origin and path of a projectile",
+        "Book": "AA 185"
     },
     {
         "Titolo": "Untouchable",
@@ -371,7 +389,8 @@ const spaceTwoData = [
         "RoteName": "Silver Ladder Rote: Twisting Threads",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Space",
         "RoteDescrizione": "By bending the weave of Space, a Ladder willworker can evade harm at the hands of enemies, as well as avoid injuries stemming from simple happenstance. Naturally, mages of all orders make use of similar rotes.",
-        "DescrizioneBreve": "Shielding"
+        "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 235"
     },
     {
         "Titolo": "Ward",
@@ -386,7 +405,8 @@ const spaceTwoData = [
         "RoteName": "Adamantine Arrow Rote: Unseen Guard",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Space",
         "RoteDescrizione": "Protecting a sanctum against spies is a duty gladly undertaken by most members of the Adamantine Arrow. For those who have mastered this rote, such work is perhaps a bit easier. Willworkers of the Silver Ladder use the same magics to defend their private quarters.",
-        "DescrizioneBreve": "prevent Space magic from intruding"
+        "DescrizioneBreve": "prevent Space magic from intruding",
+        "Book": "M:tA 236"
     }
 ]
 
@@ -404,7 +424,8 @@ const spaceThreeData = [
         "RoteName": "Free Council Rote: Sideslip",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Space",
         "RoteDescrizione": "The Free Council uses this rote to defend its cabal members and allies from the sorts of harm they all too commonly encounter.",
-        "DescrizioneBreve": "grant Shielding"
+        "DescrizioneBreve": "grant Shielding",
+        "Book": "M:tA 236"
     },
     {
         "Titolo": "Ban",
@@ -419,7 +440,8 @@ const spaceThreeData = [
         "RoteName": "Silver Ladder Rote: Barring the Ways",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Space",
         "RoteDescrizione": "A Ladder mage’s sanctum is inviolate to him. By means of this rote, he can render it thus to others, forbidding passage to inanimate objects, outside sources of energy, or even living things. Guardians of the Veil are known to use the same rote to cordon off potentially hazardous areas while they determine what to do about the sites.",
-        "DescrizioneBreve": "prevent associate Arcana from intruding"
+        "DescrizioneBreve": "prevent associate Arcana from intruding",
+        "Book": "M:tA 237"
     },
     {
         "Titolo": "Destroy the Threads",
@@ -434,7 +456,8 @@ const spaceThreeData = [
         "RoteName": "Adamantine Arrow Rote: Shattering the Invisible Bonds",
         "RoteDice": "<b>Dice Pool:</b> Strength + Investigation + Space",
         "RoteDescrizione": "As willworkers of the Arrow know, any kind of vulnerability can and eventually is exploited by an enemy. This rote drastically reduces the likelihood of an attack via sympathetic magic. Mages of the Mysterium, who are occasionally pursued by hostile willworkers (or even stranger beings) in the course of their work value similar magic (Resolve + Investigation + Space).",
-        "DescrizioneBreve": "destroy sympathetic links"
+        "DescrizioneBreve": "destroy sympathetic links",
+        "Book": "M:tA 237"
     },
     {
         "Titolo": "Double Shape",
@@ -449,7 +472,8 @@ const spaceThreeData = [
         "RoteName": "Mysterium Rote: The Right Tool",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Space",
         "RoteDescrizione": "Whether you’re exploring an ancient crypt or creeping uninvited into a secret library, carrying capacity can be a critical issue. Mysterium explorers like to keep a wide range of important tools at their disposal while still leaving room in their bags for any alluring Artifacts they may feel the need to liberate.",
-        "DescrizioneBreve": "item crafting, allow two objects to alternate in a spatial pocket"
+        "DescrizioneBreve": "item crafting, allow two objects to alternate in a spatial pocket",
+        "Book": "TotM 143"
     },
     {
         "Titolo": "Duplicate Sympathy",
@@ -495,7 +519,8 @@ const spaceThreeData = [
         "RoteName": "Seers of the Throne Rote: Thrall Trading",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Space",
         "RoteDescrizione": "Seers of the Throne must rely on sympathetic connections to control slaves with Profane Vestments, to spy on the enemy and work their magic from places of safety. This rote allows a Seer to grant another the use of a Thrall he has cultivated, or to gain second-hand connections from those Thralls to new victims.",
-        "DescrizioneBreve": "assume Sympathy of another, or grant others your Sympathy"
+        "DescrizioneBreve": "assume Sympathy of another, or grant others your Sympathy",
+        "Book": "SotT 194"
     },
     {
         "Titolo": "Expanded Volume",
@@ -510,7 +535,8 @@ const spaceThreeData = [
         "RoteName": "Guardians of the Veil Rote: Deep Pockets",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Subterfuge + Space",
         "RoteDescrizione": "A Guardian tends to use this rote under two conditions. First, when he needs to carry extra equipment without calling attention to himself, and second, when he needs to smuggle something away without causing suspicion. Experienced users of the spell are careful to match the added volume of the container to their purposes, so they can retrieve the contents quickly without having to grope for what they need.",
-        "DescrizioneBreve": "make the inside of a container larger"
+        "DescrizioneBreve": "make the inside of a container larger",
+        "Book": "GotV 199"
     },
     {
         "Titolo": "Eyes of the Building",
@@ -525,7 +551,8 @@ const spaceThreeData = [
         "RoteName": "Silver Ladder Rote: The Eye in the Pyramid",
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Space",
         "RoteDescrizione": "Mages have been using this rote since the days of ancient Egypt, and the rote still survives today. Even if the buildings have changed, the sacred geometry of the buildings they work on still operates on principles established thousands of years ago.",
-        "DescrizioneBreve": "be aware of everything inside a structure"
+        "DescrizioneBreve": "be aware of everything inside a structure",
+        "Book": "L:tA 61"
     },
     {
         "Titolo": "Hostile Space",
@@ -540,7 +567,8 @@ const spaceThreeData = [
         "RoteName": "Mysterium Rote: Enmity of the Land",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Space",
         "RoteDescrizione": "This rote has come in and out of favor with summoners for centuries, and perhaps even millennia. Certain Mys- terium Athenaeums, however, have quietly maintained texts containing its formulae, dating back to the Middle Ages or before. Unfortunately for the Dragon’s Wing, the rote — long out of vogue and maintained as a secret of the Mysterium — went back into circulation after the ransack of the Athenaeum in Berlin, Germany, in 1945, by parties unknown.",
-        "DescrizioneBreve": "create 'static' for denizens of a given non-Fallen realm, impeding their actions"
+        "DescrizioneBreve": "create 'static' for denizens of a given non-Fallen realm, impeding their actions",
+        "Book": "Summ 211"
     },
     {
         "Titolo": "Instill Elusiveness",
@@ -586,7 +614,8 @@ const spaceThreeData = [
         "RoteName": "Mysterium Rote: Hard To Grasp",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Space",
         "RoteDescrizione": "Mages of the Mysterium go to great lengths to steal important Artifacts, and hate to think that someone with exactly the same predilections might come along to return the favor. This spell not only protects a coveted item, but allows one to thumb one’s nose at the aspiring thief in the process.",
-        "DescrizioneBreve": "item crafting, defense"
+        "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 140"
     },
     {
         "Titolo": "Instill Homing Instinct",
@@ -632,7 +661,8 @@ const spaceThreeData = [
         "RoteName": "Adamantine Arrow Rote: Old Reliable",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Space",
         "RoteDescrizione": "To warriors of the Adamantine Arrow, the phrase 'trusty sword' need not be a mere figure of speech.",
-        "DescrizioneBreve": "item crafting, defense"
+        "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 144"
     },
     {
         "Titolo": "Interpose",
@@ -647,7 +677,8 @@ const spaceThreeData = [
         "RoteName": "Adamantine Arrow Rote: Taking a Bullet",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Space",
         "RoteDescrizione": "In the mid-18th century, a Seer of the Throne infiltrator attempted to assassinate the Hierarch of the Consilium of Königsberg with a poisoned stiletto in open court. Konrad Torvald, the Consilium’s Adamant Sage, intercepted the blow, apparently by way of a spell improvised as the weapon’s envenomed tip closed on the Hierarch’s heart. Although Torvald died, he did so in the execution of his duties and was buried with a hero’s honors. Afterward, other Arrows studied and dissected the magics their fallen brother had employed and this rote has gradually come into use as a part of the Adamantine Arrow’s repertoire of bodyguarding techniques.",
-        "DescrizioneBreve": "receive an attack meant for another"
+        "DescrizioneBreve": "receive an attack meant for another",
+        "Book": "AA 186"
     },
     {
         "Titolo": "Maintained Sympathy",
@@ -662,7 +693,8 @@ const spaceThreeData = [
         "RoteName": "Adamantine Arrow Rote: Kit Bag",
         "RoteDice": "<b>Dice Pool:</b> Wits + Survival + Space",
         "RoteDescrizione": "Soldiers know the value of being prepared. The Adamant Way reinforces that wisdom. This rote lets Adamantine Arrows bring everything they'll need into Astral Space.",
-        "DescrizioneBreve": "designate items to carry into Astral Space"
+        "DescrizioneBreve": "designate items to carry into Astral Space",
+        "Book": "AR 28"
     },
     {
         "Titolo": "Multispatial Perception",
@@ -677,7 +709,8 @@ const spaceThreeData = [
         "RoteName": "Free Council Rote: Spatial Collage",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Space",
         "RoteDescrizione": "This rote enables a Council willworker to glimpse multiple locations simultaneously. While he might have some difficulty processing what he sees without the Mind Arcanum, he is definitely able to notice any obviously strange occurrences, and anything blatantly out of place in familiar locations.",
-        "DescrizioneBreve": "perceive multiple locations simultaneously"
+        "DescrizioneBreve": "perceive multiple locations simultaneously",
+        "Book": "M:tA 237"
     },
     {
         "Titolo": "New Threads",
@@ -692,7 +725,8 @@ const spaceThreeData = [
         "RoteName": "Free Council Rote: Spinning the False Strand",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Space – Composure",
         "RoteDescrizione": "Sometimes the only way to get close to someone is to create the means oneself. Free Council mages use this rote to forge an artificial sympathetic connection with another person, usually for the purposes of targeting that individual remotely with other magics. Guardians use a rote much like it (Composure + Occult + Space) to affect others at great distance, without ever needing to reveal themselves.",
-        "DescrizioneBreve": "strengthen sympathetic links"
+        "DescrizioneBreve": "strengthen sympathetic links",
+        "Book": "M:tA 237"
     },
     {
         "Titolo": "Portal",
@@ -707,7 +741,8 @@ const spaceThreeData = [
         "RoteName": "Mysterium Rote: Escape Hatch",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Investigation + Space",
         "RoteDescrizione": "Mysterium mages use this rote to move friends and allies from dangerous locations. Silver Ladder willworkers often use their own version of the rote (Presence + Investigation + Space) to send servants on errands of various sorts.",
-        "DescrizioneBreve": "open a Portal between two locations"
+        "DescrizioneBreve": "open a Portal between two locations",
+        "Book": "M:tA 238"
     },
     {
         "Titolo": "Ranged Blow",
@@ -722,7 +757,8 @@ const spaceThreeData = [
         "RoteName": "Adamantine Arrow Rote: Far Strike",
         "RoteDice": "<b>Dice Pool:</b> Strength + Investigation + Space",
         "RoteDescrizione": "Rare martial artists of great skill can land a blow on a subject from considerable distances, transferring energy through empty space to inflict damage without ever touching an enemy conventionally. Adamantine Arrow mages make use of such a concept with this rote, allowing them to damage a foe from a distant range, even when no suitable ranged weapon is at hand.",
-        "DescrizioneBreve": "transfer a strike's effect to a distance"
+        "DescrizioneBreve": "transfer a strike's effect to a distance",
+        "Book": "M:tA 238"
     },
     {
         "Titolo": "Repel",
@@ -737,7 +773,8 @@ const spaceThreeData = [
         "RoteName": "Adamantine Arrow Rote: Mantlet",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Space",
         "RoteDescrizione": "Members of the Adamantine Arrow frequently use this spell as a means of safely advancing while under fire from mundane ranged weaponry. Bullets, arrows, and rocks are easily deflected by this spell as the warrior advances on foot. Captured enemies have been reported as saying they found it disheartening to fire a full clip from an automatic weapon at a target with no effect.",
-        "DescrizioneBreve": "create a mobile Ban by Combining with other Arcana"
+        "DescrizioneBreve": "create a mobile Ban by Combining with other Arcana",
+        "Book": "AA 186"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -748,13 +785,15 @@ const spaceThreeData = [
         "Aspect": "Covert",
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
-        "DescrizioneBreve": "(Mastigos only) call an Imp from Pandemonium, with difficulty"
+        "DescrizioneBreve": "(Mastigos only) call an Imp from Pandemonium, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Walls in the Labyrinth",
         "Arcana": "Space •••, Fate ••, Time ••, Prime •-•••••",
         "DescrizioneAlta": "This spell is an exception to the normal spell-control rules (see “spell control”, <b>Mage: The Awakening</b>, p. 128), allowing the mage to add a “Wall” to a pre-existing Ward. He can also combine this spell with a Ward during casting (see “Combining Spell”, <b>Mage: The Awakening</b>, p. 128).<p>When combined with another spell (which can be provided by a separate caster), this gives the Ward offensive capabilities. For instance, it could be combined with “Evil Eye” (<b>Mage: The Awakening</b>, p. 151) to cause those who passed through it to suffer penalties per that spell.</p><p>A Ward altered in this manner uses the casting pool for the supplementary spell when it activates. The Wall has one charge of this spell, but additional charges may be applied without additional rolls if done at the time of casting, at a cost of one Mana each (in addition to the normal Mana cost for that spell). These additional charges do not go off all at once; they activate one at a time, as people come in contact with the Ward.</p><p>Homever this kind of warding is very fragile. Dispelling either the Ward of the encased spell will eliminate both, with the encased spell having an effective Potency equal to the remaining charges.</p><p><i>Exemple: Pardy has cast Walls of the Labyrinth with four charges of “Celestial Fire” (Prime 4 version) built in. This cost him a total of four mana (one for the first casting, and three more for the additional charges). While his Ward has a Potency of 6, the Walls portion has only an effective potency of 4.</p><p>When Bob comes into contact with the Ward, he will be “attacked” by using Pardy’s “Celestial Fire) dice pool. Bob survives the assault and decides to Dispel the Ward/Walls combined spell. After a few minutes of analyzing the spells, he chooses to go after the Walls portion of the spell. He needs only three successes to tear down the Walls (though if he’d noticed them before being attacked, it would have been four successes; one point of effective Potency was used up in the attack).</i></p>",
-        "DescrizioneBreve": "add a Wall with active hostile effects to a Ward"
+        "DescrizioneBreve": "add a Wall with active hostile effects to a Ward",
+        "Book": "LoP 12"
     }
 ]
 
@@ -796,7 +835,8 @@ const spaceFourData = [
                 ]
             }
         ],
-        "DescrizioneBreve": "open multiple Portals simultaneously"
+        "DescrizioneBreve": "open multiple Portals simultaneously",
+        "Book": "RotE 22"
     },
     {
         "Titolo": "Astral Reaches",
@@ -811,7 +851,8 @@ const spaceFourData = [
         "RoteName": "Mysterium Rote: Puncturing the Worldskin",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "Enlightening as it may be, the journey into Astral Space is time-consuming and distracting. Mystagogues use this rote to foreshorten the astral journey (traveling to the Oneiros and then teleporting to a deeper stratum) or bypass the journey entirely at Space 5.",
-        "DescrizioneBreve": "allow Space magic to be used between layers of Astral/Fallen	"
+        "DescrizioneBreve": "allow Space magic to be used between layers of Astral/Fallen	",
+        "Book": "AR 28"
     },
     {
         "Titolo": "Co-Location",
@@ -826,7 +867,8 @@ const spaceFourData = [
         "RoteName": "Guardians of the Veil Rote: Cleanup Crew",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Space",
         "RoteDescrizione": "With this rote, a Guardian can be in many places at once, able to move effortlessly between locations and act as a one-man team to quickly and efficiently contain breaches of the veil. Adamantine Arrow mages use the same rote to move virtually unstoppably across a battle-field or through an enemy holding.",
-        "DescrizioneBreve": "exist in multiple locations simultaneously"
+        "DescrizioneBreve": "exist in multiple locations simultaneously",
+        "Book": "M:tA 239"
     },
     {
         "Titolo": "Ephemeral Co-Location",
@@ -841,7 +883,8 @@ const spaceFourData = [
         "RoteName": "Adamantine Arrow Rote: Warrior of Many Worlds",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Space",
         "RoteDescrizione": "In late June of 1967, a Mastigos Arrow by the name of Anaïs happened upon the scene of a Shadow Realm summoning gone horribly awry. The three Guardians of the Veil responsible for the act were already unconscious by the time the Warlock arrived and she knew that time was of the essence. The spirit’s trail moved back and forth through the Gauntlet and Anaïs, also a Disciple of the Spirit Arcanum, formulated this spell on the spot as a means of keeping track of it, no matter how it attempted to flee its pursuer.<p>Later, when the entity was contained, the mess cleaned up, and the three Guardians properly chastised for their ill-conceived plan, Anaïs codified the spell into a rote at the request of the Hierarch, who offered it as a good-faith gesture to a number of Consilii elsewhere in the world.</p>",
-        "DescrizioneBreve": "Co-Locate on opposite side of Gauntlet"
+        "DescrizioneBreve": "Co-Locate on opposite side of Gauntlet",
+        "Book": "Summ 211"
     },
     {
         "Titolo": "Look Within the Gauntlet",
@@ -856,7 +899,8 @@ const spaceFourData = [
         "RoteName": "Free Council Rote: Worlds Between Worlds",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Space",
         "RoteDescrizione": "With their at times eccentric approach to magic, Libertines were the first willworkers to discern the existence of something like a realm, tucked away within the Gauntlet between the Shadow Realm and the material world. The scant few Free Council mages who made this discovery shared their findings with students of such bizarre lore among the other Pentacle Orders, though the rote remains little more than a curiosity.",
-        "DescrizioneBreve": "look inside the barrier between worlds"
+        "DescrizioneBreve": "look inside the barrier between worlds",
+        "Book": "Summ 62"
     },
     {
         "Titolo": "Pocket Realm",
@@ -871,7 +915,8 @@ const spaceFourData = [
         "RoteName": "Free Council Rote: Non-space",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Investigation + Space",
         "RoteDescrizione": "Some Free Council mages use the pocket of nil-space provided by this rote as a place to hide out, and perhaps even as something of a “home away from home,” a safe haven during dangerous times. Mysterium mages use a variant rote (Composure + Investigation + Space) to access a quiet place to rest, meditate and ponder away from distractions.",
-        "DescrizioneBreve": "create an area that exists outside space"
+        "DescrizioneBreve": "create an area that exists outside space",
+        "Book": "M:tA 239"
     },
     {
         "Titolo": "Portal Key",
@@ -886,7 +931,8 @@ const spaceFourData = [
         "RoteName": "Silver Ladder Rote: Attuning the Gateway",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Space",
         "RoteDescrizione": "Silver Ladder mages use this rote both as a means to program their spatial gateways and to craft instantaneous portals when a situation suddenly turns unfavorable.",
-        "DescrizioneBreve": "restrict access to a Portal"
+        "DescrizioneBreve": "restrict access to a Portal",
+        "Book": "M:tA 240"
     },
     {
         "Titolo": "Safe Keeping",
@@ -901,7 +947,8 @@ const spaceFourData = [
         "RoteName": "Free Council Rote: Storage Space",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Investigation + Space",
         "RoteDescrizione": "Over time, some Free Council mages find that their Correspondence Point spaces end up as something of a dumping ground for useful items or those too precious to leave anywhere in the universe. This rote enables the willworker to place inanimate objects (quite a large quantity of them, actually, should such prove necessary) in one of the safest possible locales. Some Adamantine Arrow mages use such a non-place as a secret weapons cache.",
-        "DescrizioneBreve": "move item to a pocket in space"
+        "DescrizioneBreve": "move item to a pocket in space",
+        "Book": "M:tA 240"
     },
     {
         "Titolo": "Shatter Space",
@@ -916,7 +963,8 @@ const spaceFourData = [
         "RoteName": "Guardians of the Veil Rote: Shadow Maze",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Space",
         "RoteDescrizione": "In extremis, Guardians use Shadow Maze to cover an escape, because the rote can hinder pursuit most effectively. The rote is cast upon an area occupied by the pursuers, and they are then subject to the area’s shifting space and orientations. Mages of all orders have developed similar rotes, though in many cases, they have only been used as a meditation aid or to demonstrate some obscure facet of Space magic.",
-        "DescrizioneBreve": "divide area into fractured spatial cells"
+        "DescrizioneBreve": "divide area into fractured spatial cells",
+        "Book": "TotM"
     },
     {
         "Titolo": "Suspension",
@@ -931,7 +979,8 @@ const spaceFourData = [
         "RoteName": "Adamantine Arrow Rote: Spider and Fly",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Space",
         "RoteDescrizione": "Like a spider enmeshing its quarry in a web, an Arrow mage uses this rote to bind an enemy in place, rendering her easy prey. Guardians of the Veil also use this magic to ensnare escaping witnesses before they can do anything foolish.",
-        "DescrizioneBreve": "bind a target into their current location"
+        "DescrizioneBreve": "bind a target into their current location",
+        "Book": "M:tA 240"
     },
     {
         "Titolo": "Teleportation",
@@ -946,7 +995,8 @@ const spaceFourData = [
         "RoteName": "Mysterium Rote: Wormhole",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "Sometimes used as an escape route and sometimes as a means to reach otherwise inaccessible locales, this rote is occasionally employed simply as a mode of transportation. Silver Ladder mages who do not wish to resort to mundane conveyances sometimes make use of this magic (Presence + Occult + Space).",
-        "DescrizioneBreve": "teleport to a location"
+        "DescrizioneBreve": "teleport to a location",
+        "Book": "M:tA 241"
     }
 ]
 
@@ -964,7 +1014,8 @@ const spaceFiveData = [
         "RoteName": "Free Council Rote: Many-Roomed Mansion",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Space",
         "RoteDescrizione": "A Council willworker with knowledge of this rote can have an entire mansion’s worth of rooms in a studio apartment — provided, of course, he’s willing to have all of the rooms existing in the same space. At the very least, this magic serves as quite the spacesaver, allowing the mage to 'stack' tremendous quantities of materials 'inside' one another and to interact with each individual item as desired through use of the Space Arcanum.",
-        "DescrizioneBreve": "stack multiple locations"
+        "DescrizioneBreve": "stack multiple locations",
+        "Book": "M:tA 241"
     },
     {
         "Titolo": "Hide Space",
@@ -979,7 +1030,8 @@ const spaceFiveData = [
         "RoteName": "Mysterium Rote: The House in the Woods",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Space",
         "RoteDescrizione": "Mages of the Mysterium often become collectors of strange, wonderful and dangerous treasures. This rote allows such a willworker to protect his possessions and his abode from intruders, confounding perceptions and driving would-be thieves away. Guardians also make use of this rote, protecting unusual places and paranormal phenomena from prying eyes.",
-        "DescrizioneBreve": "distort space around an area"
+        "DescrizioneBreve": "distort space around an area",
+        "Book": "M:tA 242"
     },
     {
         "Titolo": "Labyrinth",
@@ -994,7 +1046,8 @@ const spaceFiveData = [
         "RoteName": "Guardians of the Veil Rote: Sundered Path",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "Guaranteed to eventually dissuade all save the most dogged of interlopers, this rote helps a Guardian of the Veil defeat Sleeper (and others’) curiosity with frustration, fear or despair, as the caster sees fit. Roads that go on a little too long leave inquiring souls feeling tired and most eventually lose interest. Paths that double back on themselves in some nightmarish Möbius loop can erode the courage and even sanity of one unprepared for such inexplicable experiences.",
-        "DescrizioneBreve": "mutate space freely in area"
+        "DescrizioneBreve": "mutate space freely in area",
+        "Book": "M:tA 242"
     },
     {
         "Titolo": "Manifold Presence",
@@ -1009,7 +1062,8 @@ const spaceFiveData = [
         "RoteName": "Adamantine Arrow Rote: Walking with the Sun",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "An Arrow willworker with this rote at her disposal becomes a veritable army unto herself. Likewise, a Mysterium mage using this rote is a one-man research team.",
-        "DescrizioneBreve": "co-locate with free acting"
+        "DescrizioneBreve": "co-locate with free acting",
+        "Book": "M:tA 242"
     },
     {
         "Titolo": "Oubliette",
@@ -1024,7 +1078,8 @@ const spaceFiveData = [
         "RoteName": "Mysterium Rote: Hell of Many Mirrors",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Space",
         "RoteDescrizione": "Sometimes employed in combat, and sometimes simply as a punishment, this rote sees some use on the part of Mysterium mages who are more concerned with ends than means. A few Free Council willworkers have their own version of the rote (Wits + Occult + Space), which they use to wrest forth magical secrets from those who refuse to share.",
-        "DescrizioneBreve": "force target into subspace torture cell"
+        "DescrizioneBreve": "force target into subspace torture cell",
+        "Book": "M:tA 243"
     },
     {
         "Titolo": "Phased Strike",
@@ -1039,7 +1094,8 @@ const spaceFiveData = [
         "RoteName": "Adamantine Arrow Rote: Subtle Blade",
         "RoteDice": "<b>Dice Pool:</b> Strength + Weaponry + Space",
         "RoteDescrizione": "The story is told among the mages of the Adamantine Arrow that the old master, Kamimori, asked of his two youthful apprentices how it is that the indomitable will overcomes the impenetrable guard. Fifty years later, they returned to him with their responses. No records now exist regarding the reply of Kusanagi, a Perfected Adept and the elder of the two. As for Tsukiyomi, the onikaze swordsman, this rote was his answer.",
-        "DescrizioneBreve": "pass weapon through mundane armor"
+        "DescrizioneBreve": "pass weapon through mundane armor",
+        "Book": "AA 187"
     },
     {
         "Titolo": "Shrink/Expand",
@@ -1054,7 +1110,8 @@ const spaceFiveData = [
         "RoteName": "Silver Ladder Rote: Loom of Space",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine (for living creatures) or Crafts or Science (for objects) + Space",
         "RoteDescrizione": "This rote grants a Silver Ladder willworker the ability to increase or decrease the spatial axes of any person, place or thing he can affect. Thus, a small steel plate could be expanded to serve as a shield, a rare relic made small enough to evade all save the most thorough mundane examinations, or the mage himself rendered sufficiently tall to reach a height twice or more than normal. Given the utility of this magic, it sees use by mages of every order.",
-        "DescrizioneBreve": "alter size, but not mass"
+        "DescrizioneBreve": "alter size, but not mass",
+        "Book": "M:tA 243"
     },
     {
         "Titolo": "Worlds Collide",
@@ -1069,7 +1126,8 @@ const spaceFiveData = [
         "RoteName": "Adamantine Arrow Rote: Shattered Images",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Investigation + Space vs. Stamina + Gnosis",
         "RoteDescrizione": "By crudely superimposing the spatial axes of multiple foes atop one another, a Ladder willworker is capable of striking them down, no matter where they stand or how they move. Those affected by such magic are often horribly maimed if not killed outright. Most mages caution against the spell’s indiscriminate use, lest Wisdom be forsaken.",
-        "DescrizioneBreve": "overlay two locations violently"
+        "DescrizioneBreve": "overlay two locations violently",
+        "Book": "M:tA 244"
     }
 ]
 

@@ -13,6 +13,7 @@ const lifeOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Survival (plants) or Animal Ken (animals) or Medicine (humans) + Life",
         "RoteDescrizione": "In all things, there is hierarchy, and the teeming life is no exception. Ladder mages use this rote to classify and categorize the living things around them.",
         "DescrizioneBreve": "Discern species, age & sex of plant or animal",
+        "Book": "M:tA 180"
     },
     {
         "Titolo": "Cleanse the Body",
@@ -28,6 +29,7 @@ const lifeOneData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Medicine + Life",
         "RoteDescrizione": "While it doesn’t happen quite as often in modern times, it was once the case that guardsmen and warriors often needed to be mindful of poison. Adamantine Arrow mages use this rote to purge unwanted influences from their systems. Of course, the spell is as effective on, say, alcohol as it is on strychnine, so mages of all orders eventually manage to find one use or another for it.",
         "DescrizioneBreve": "purge yourself of toxins",
+        "Book": "M:tA 180"
     },
     {
         "Titolo": "Counterspell",
@@ -40,6 +42,7 @@ const lifeOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
         "DescrizioneBreve": "counter Life spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Forgo Rest",
@@ -55,6 +58,7 @@ const lifeOneData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts + Life",
         "RoteDescrizione": "Free Councilors often find it necessary to stay up all night (or for a few days, for that matter) to complete a particular project, and they don’t necessarily want the jitters of caffeine or other stimulants interfering with their faculties. Some say this rote dates back to the Nameless War, when many Libertines were afraid to sleep at all, preferring to remain on their guard.",
         "DescrizioneBreve": "go for longer without sleep, bsed on successes",
+        "Book": "FC 110"
     },
     {
         "Titolo": "Healer's Trance",
@@ -70,6 +74,7 @@ const lifeOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "Guardians occasionally come across strange illnesses in the course of their work, or are forced to quickly diagnose injuries caused by any number of malign entities. Adamantine Arrow mages use this rote for similar reasons, assessing injuries sustained in the defense of their charges.",
         "DescrizioneBreve": "gain understanding of a subject's condition",
+        "Book": "M:tA 181"
     },
     {
         "Titolo": "Pulse of the Living World",
@@ -85,6 +90,7 @@ const lifeOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Medicine or Science + Life",
         "RoteDescrizione": "Free Council mages use this rote to study the living universe, discerning the elegant motions of the Tapestry as a single organism. Mages of the Mysterium often approach this magic with the same perspective, but with different methods (Intelligence + Medicine or Science + Life).",
         "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 181"
     },
     {
         "Titolo": "Sense Life",
@@ -131,6 +137,7 @@ const lifeOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Animal Ken + Life",
         "RoteDescrizione": "Mysterium mages often have cause for vigilance. One never knows if a newly opened ruin contains some ancient mold spore or other dangerous form of life.",
         "DescrizioneBreve": "detect living presences in the area",
+        "Book": "M:tA 181"
     }
 ]
 
@@ -149,6 +156,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Athletics + Life",
         "RoteDescrizione": "Adamantine Arrow mages treat their bodies like temples, and this rote provides them with a purified shrine.",
         "DescrizioneBreve": "assume control of autonomic processes",
+        "Book": "M:tA 182"
     },
     {
         "Titolo": "Bread Alone",
@@ -164,6 +172,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Survival + Life",
         "RoteDescrizione": "There are stories of Free Council sailors found adrift on lifeboats for weeks on end without any food. They never seem to starve, although quite a few lose their taste for seafood after they find their way to shore.",
         "DescrizioneBreve": "create edible food from inedible organic matter",
+        "Book": "TotM 64"
     },
     {
         "Titolo": "Control Base Life",
@@ -210,6 +219,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Animal Ken + Life vs. Stamina",
         "RoteDescrizione": "While perhaps not as exacting as the kind of control that can be exerted through the use of the Mind Arcanum, mages of the Silver Ladder find this rote to be just as effective. With it, a swarm of hornets is made to descend upon an enemy.",
         "DescrizioneBreve": "control insects, lesser amphibians, ect",
+        "Book": "M:tA 182"
     },
     {
         "Titolo": "Evidence Shroud",
@@ -225,6 +235,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Life or Matter",
         "RoteDescrizione": "Corpses, notorious for exuding an assortment of messy and aggressively sticky excretions, conspire to incriminate those responsible for the bodies’ deaths. Assassins of the Adamantine Arrow counter their victims’ tendency to leave behind inconvenient residues with this widely useful rote. Despite its name, the rote’s general applicability to infiltration and burglary missions should not be overlooked.",
         "DescrizioneBreve": "destroy biological/physical traces",
+        "Book": "TotM 65"
     },
     {
         "Titolo": "Heal Flora and Fauna",
@@ -240,6 +251,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "With advanced medicines and experimental treatment techniques, Free Council mages are capable of mending the injuries of virtually any creature other than human. It is most commonly used on pets, but could conceivably be used on most any animal or plant. Guardians of the Veil also use this magic to erase all evidence of unnatural damage to flora or fauna.",
         "DescrizioneBreve": "heal lesser creatures and plants",
+        "Book": "M:tA 182"
     },
     {
         "Titolo": "Organic Resilience",
@@ -255,6 +267,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Life",
         "RoteDescrizione": "When going into a potentially perilous situation, Guardians with skill in Life magics often make use of this rote, armoring flesh and bone with a preternatural resilience. Some Mysterium mages use a variant rote (Resolve + Athletics + Life) that steels the body with a disciplined mind.",
         "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 183"
     },
     {
         "Titolo": "Purify Bodies",
@@ -270,6 +283,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "Even in the middle of nowhere, short on supplies and unable to call for help, a Mysterium mage with this rote is prepared to save a companion’s life from envenomization by whatever sort of creature, terrestrial or otherworldly. Some Free Council willworkers use a more improvisational rote (Wits + Medicine + Life) to accomplish the same.",
         "DescrizioneBreve": "purge others of toxins",
+        "Book": "M:tA 183"
     },
     {
         "Titolo": "Puissant Skill",
@@ -285,6 +299,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Medicine + Life",
         "RoteDescrizione": "Certain members of the Mysterium find that the best tool for a given job is the human body — when faced liberating museums of Atlantean artifacts mistaken for simple archaeological finds, for instance. In such instances, the application of pressure to certain points in the body stimulates the flow of adrenaline through the body sufficient to prepare the body for upcoming action.",
         "DescrizioneBreve": "gain Rote Quality to a Physical Skill",
+        "Book": "Myst 195"
     },
     {
         "Titolo": "Self-Healing",
@@ -300,6 +315,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Medicine + Life",
         "RoteDescrizione": "No warrior goes her entire life without a scratch. The mages of the Adamantine Arrow use this rote to mend flesh and bone when skill fails or luck takes a turn for the worse. Such willworkers are careful to grit their teeth through the pain, so that a cursory inspection (and casting) can reveal even grievous hurts (to the eyes of the unenlightened, at any rate) to have been merely “flesh wounds.” Guardians of the Veil who practice such arts often prefer slightly calmer surroundings for their healing magics (Intelligence + Medicine + Life) than the frantic circumstances in which Arrow mages often find themselves.",
         "DescrizioneBreve": "heal yourself of Bashing and Lethal damage",
+        "Book": "M:tA 183"
     },
     {
         "Titolo": "Self-Purging",
@@ -315,6 +331,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Medicine + Life",
         "RoteDescrizione": "With poultices and strange elixirs, a mage of the Mysterium banishes illness and disease from her body, revitalizing and restoring herself from the ravages of even the most terrible sicknesses to the fullness of health.",
         "DescrizioneBreve": "purge yourself of diseases",
+        "Book": "M:tA 183"
     },
     {
         "Titolo": "Simulate Basic Needs",
@@ -330,6 +347,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Life (Stamina)",
         "RoteDescrizione": "A Banisher strategist realized that the ability to “refresh” quickly after a fight was a critical advantage to have. He developed this rote to give his cult and him the power to do so, and used the few hours this bought them to devastating effect on his enemies.",
         "DescrizioneBreve": "remove effects of hunger and fatigue",
+        "Book": "Ban 57"
     },
     {
         "Titolo": "Sustenance",
@@ -344,6 +362,7 @@ const lifeTwoData = [
         "RoteName": "Tablets of U’mat Rote",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Survival + the lowest spell pool of either Life or Spirit",
         "DescrizioneBreve": "sustain body on food from Dreamtime",
+        "Book": "GoG 140"
     },
     {
         "Titolo": "Transfer Base Features",
@@ -359,6 +378,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Animal Ken or Survival + Life vs. Stamina",
         "RoteDescrizione": "Free Council mages use this rote to produce effects that even today’s most skilled and well-schooled geneticists would be stunned to witness. Granted, many of these changes can unravel with Disbelief if witnessed by a Sleeper, but a cautious and discrete willworker can produce some truly miraculous transformations. Mages of the Mysterium use the same rote to perform similar alterations to basic life forms.",
         "DescrizioneBreve": "copy features from one Base to another",
+        "Book": "M:tA 184"
     },
     {
         "Titolo": "Transform Base Life",
@@ -435,6 +455,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Animal Ken or Survival + Life vs. Stamina",
         "RoteDescrizione": "Ladder mages armed with this rote can bend simple life to their will, transmuting blades of grass into hornets or flies into scorpions to harry and perhaps even kill enemies. Adamantine Arrow mages use their own rote (Resolve + Animal Ken or Survival + Life) to craft such living weapons.",
         "DescrizioneBreve": "alter lesser creatures into new forms",
+        "Book": "M:tA 184"
     },
     {
         "Titolo": "Visions of the Living World",
@@ -450,6 +471,7 @@ const lifeTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Animal Ken or Survival + Life",
         "RoteDescrizione": "This magic allows an Arrow willworker to bestow simple Life Arcanum perceptions upon another. Some cast this rote to bolster the capabilities of allies, while others have been known to use it to disorient intruders with senses they have trouble controlling or understanding. Some Mysterium mages use a different rote (Manipulation + Animal Ken or Survival + Life) to gift others with such senses.",
         "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 185"
     }
 ]
 
@@ -468,6 +490,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Medicine + Life",
         "RoteDescrizione": "Sickness and disease are just some of the threats encountered by Mysterium mages and their compatriots as they work to uncover the secrets of the ancients. With this rote, illness can be banished from the bodies of friends, or even just innocent strangers. Free Council mages also make some use of this magic (Intelligence + Medicine + Life) through the application of cutting-edge medical techniques and innovative treatments.",
         "DescrizioneBreve": "purge others of diseases",
+        "Book": "M:tA 185"
     },
     {
         "Titolo": "Body Mastery",
@@ -483,6 +506,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Medicine + Life",
         "RoteDescrizione": "One of the greatest and most profound limitations of the lives of all scholars and experimenters is the unavoidably combination of ill health and mortality that cuts short their ability to continue their research. Although no form of magic can avert these universal problems, this spell can certainly postpone them.",
         "DescrizioneBreve": "heal faster, live longer, resist toxins",
+        "Book": "Myst 195, GoG 32"
     },
     {
         "Titolo": "Chemical Imbalance",
@@ -535,6 +559,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Life – Stamina",
         "RoteDescrizione": "So many secrets to uncover, so little time. Many of the secrets are kept by various threshold guardians — and some of these guardians are normal (security guards, archaeologists, librarians). This spell helps to stimulate general drunkenness, whether or not a target has had a sip of alcohol. With the target’s Social rolls reduced, prying information from the target is easier for the Mysterium mage.",
         "DescrizioneBreve": "intoxicate target",
+        "Book": "TotM 65"
     },
     {
         "Titolo": "Control Median Life",
@@ -550,6 +575,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Animal Ken + Life vs. Resolve",
         "RoteDescrizione": "While some might overlook the utility of command over lesser beasts, Silver Ladder mages put such power to good use with this rote. Though animals can be compelled to act only within the parameters of their potential normal behaviors, a cunning willworker can get most creatures to do almost anything she requires. Guardians of the Veil use their own version of this magic (Manipulation + Animal Ken + Life) when compelling animals to do their bidding.",
         "DescrizioneBreve": "dominate the will of lesser mammals, reptiles, insects",
+        "Book": "M:tA 185"
     },
     {
         "Titolo": "Curse of Predation",
@@ -596,6 +622,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Life",
         "RoteDescrizione": "Adamantine Arrow killers plant these cursed objects on their targets as part of an intimidation campaign, designed to distract and terrify their victims in the leadup to assassination attempts.",
         "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 138"
     },
     {
         "Titolo": "Degrading the Form",
@@ -611,6 +638,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Life – Stamina",
         "RoteDescrizione": "People who might feel perfectly justified harassing a hale and hardy man could suddenly experience a change of heart when confronted with a frail and limping one. Also, it is occasionally beneficial to be underestimated, or to be able to render a lesser beast too weak to cause harm. Adamantine Arrow mages use a different rote (Resolve + Athletics + Life) to cripple guard animals and the like.",
         "DescrizioneBreve": "degrade your physical attributes",
+        "Book": "M:tA 186"
     },
     {
         "Titolo": "Enforced Silence",
@@ -653,6 +681,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Medicine + Life versus Stamina + Gnosis",
         "RoteDescrizione": "A guard dog’s bark, a screeching parrot, a mage about to utter a word of power — the wrong noise at the wrong time can make it difficult for a Guardian to perform his duties. With this rote, an agent of the Dragon’s Eye can prevent an enemy from shouting for help or blurting out an important piece of information.",
         "DescrizioneBreve": "prevent target from speaking",
+        "Book": "GotV 188"
     },
     {
         "Titolo": "Feral Reflex",
@@ -668,6 +697,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Animal Ken + Life",
         "RoteDescrizione": "Deciphering only with great difficulty the secrets of the mind, the Thyrsus Arrow, Artemis, developed this rote centuries ago by way of imitating the profound agility of the wolf, the stag, and the great cat in time of battle.",
         "DescrizioneBreve": "use greater of Wits or Dexterity for Defense",
+        "Book": "AA 180"
     },
     {
         "Titolo": "Gaia's Hold",
@@ -683,6 +713,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Life",
         "RoteDescrizione": "Many people would rather flee than submit themselves to the proper authority of an Arrow fulfilling his oath. This rote was developed to slow a running target as well as for those occasions when an Arrow needs to bring his target back alive.",
         "DescrizioneBreve": "entangle target with plant life",
+        "Book": "AA 180"
     },
     {
         "Titolo": "Healing Heart",
@@ -698,6 +729,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Medicine + Life",
         "RoteDescrizione": "Whether through a potion, poultice or some other means, members of the Mysterium use this rote to mend injuries, restoring torn flesh and shattered bone. Guardians of the Veil use a version of this rote (Resolve + Medicine + Life) to remove evidence of injury by paranormal phenomena.",
         "DescrizioneBreve": "heal others of Bashing or Lethal",
+        "Book": "M:tA 186"
     },
     {
         "Titolo": "Honing the Form",
@@ -713,6 +745,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Athletics + Life – Stamina",
         "RoteDescrizione": "Free Council mages use this rote to tap into enhanced physical capabilities. Prodigious strength, quick reflexes, enhanced resilience; all can be manifested by a willworker sufficiently skilled in the Life Arcanum. This magic can also be used on lesser life forms, bestowing such amazing capabilities upon virtually any non-human creature. Given its broad appeal and amazing usefulness, this rote is practiced among all orders.",
         "DescrizioneBreve": "increase one physical attribute",
+        "Book": "M:tA 186"
     },
     {
         "Titolo": "Image of Striking Beauty",
@@ -728,6 +761,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Life",
         "RoteDescrizione": "Attractive people are usually quite successful. Looking sufficiently good can give a member of the Silver Ladder an important edge when dealing with others.",
         "DescrizioneBreve": "make self more attractive, but still recognisably oneself",
+        "Book": "SL 197"
     },
     {
         "Titolo": "Induce Vertigo",
@@ -743,6 +777,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Medicine + Life – Stamina",
         "RoteDescrizione": "Aaron Murphy, the 'Huntsman' Banisher (see p. 103), developed this rote in his ongoing campaign to kill non-Thyrsus mages. As a Master of Life, he is capable of spreading his 'venom' over a small area, and then walking through it, delivering killing blows at will. His disciples, however, have to start with the less potent version.",
         "DescrizioneBreve": "disorient and dizzy target with a touch",
+        "Book": "Ban 58"
     },
     {
         "Titolo": "Inflict Agony",
@@ -758,6 +793,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Life",
         "RoteDescrizione": "Seers of the Praetorian Ministry are often confronted with stubborn enemies, unwilling to reveal what they know when offered gentler forms of persuasion. Thus, torture occasionally becomes necessary in the pursuit of critical intelligence... or even just the “reeducation” of troublesome foes.",
         "DescrizioneBreve": "gain successes on Interrogation attempt per success on casting",
+        "Book": "SotT 191"
     },
     {
         "Titolo": "Metabolic Suspension",
@@ -773,6 +809,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Life/Time",
         "RoteDescrizione": "Mysterium researchers cannot be troubled to take precious time away from their studies for anything so trivial as food or an insistent bladder. More intrepid members of the order use this rote to fortify themselves for hazardous expeditions without worrying about malaria, packing provisions or a pounding heartbeat betraying their location to a guardian monster’s keen sense of hearing.",
         "DescrizioneBreve": "make self immune to toxins/disease",
+        "Book": "Myst 196"
     },
     {
         "Titolo": "Organic Shield",
@@ -787,6 +824,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "By performing subtle modifications to body chemistry and physiology, a Council willworker can fortify the body of a treasured companion, an ally of convenience, or even an innocent bystander. Silver Ladder mages are known to use similar magic (Presence + Medicine + Life) to fortify their champions in dangerous times.",
         "DescrizioneBreve": "grant Shielding",
+        "Book": "M:tA 187"
     },
     {
         "Titolo": "Palsy",
@@ -802,6 +840,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Medicine + Life – Stamina",
         "RoteDescrizione": "The work of the Guardians occasionally requires them to neutralize or detain a subject without causing lasting damage. This rote is ideal for that use. It prevents the subject from running or attacking, but inflicts no more damage than what the subject might take from a fall. Likewise, weapons, magical or otherwise, fall from his hands, preventing him from being a danger to himself or anyone else. Best yet, it’s perfectly suitable for use in front of Sleepers, who will assume that the unfortunate subject of the spell is simply having a seizure of some sort.",
         "DescrizioneBreve": "reduce target's Dexterity",
+        "Book": "GotV 189"
     },
     {
         "Titolo": "Physical Reconfiguration",
@@ -817,6 +856,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Subterfuge + Life",
         "RoteDescrizione": "A leader must be many things. Sometimes, he must be what he is not and make use of capabilities he does not truly possess in order to best guide and serve his people. By way of this magic, a willworker of the Silver Ladder learns that even the subtle nuances of his own physical form are subject to the dictates of his will, making him faster, more durable or imposing, or whatever else is needful.",
         "DescrizioneBreve": "grant oneself temporary Physical and Mental Merits",
+        "Book": "SL 198"
     },
     {
         "Titolo": "Scent of Nature",
@@ -831,6 +871,7 @@ const lifeThreeData = [
         "RoteName": "Tablets of U’mat Rote",
         "RoteDice": "<b>Dice Pool:</b> Wits + Animal Ken + Life",
         "DescrizioneBreve": "mask scent as natural to prevent animals from attacking",
+        "Book": "GoG 139"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -842,6 +883,7 @@ const lifeThreeData = [
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
         "DescrizioneBreve": "(Thyrsus only) call an Atavism from the Primal Wild, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Transfer Median Features",
@@ -857,6 +899,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life vs. Stamina",
         "RoteDescrizione": "When nature does not provide a Ladder mage with the exact beast she needs for a given situation, she crafts one of her own design, cobbling parts together to form a useful whole. Free Council mages usually make use of advanced laboratories and the like when casting their own variant of this rote.",
         "DescrizioneBreve": "copy features from one median to another",
+        "Book": "M:tA 187"
     },
     {
         "Titolo": "Transform Median Life",
@@ -903,6 +946,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life vs. Stamina",
         "RoteDescrizione": "Many Free Council mages are aware of how many earthly creatures share genetic similarities. Calling upon those connections, such a willworker is capable of transforming one basic or median life form into another, rearranging strands of DNA and thereby facilitating a total genetic shift. Mysterium mages usually prefer to define this magic as an act of transmutation, an organic alchemy.",
         "DescrizioneBreve": "alter the form of mammals, fish, reptiles, birds",
+        "Book": "M:tA 187"
     },
     {
         "Titolo": "Transform Self",
@@ -918,6 +962,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Life",
         "RoteDescrizione": "The work of a mage of the Adamantine Arrow can be harsh and unforgiving. This rote enables an Arrow willworker to survive under all but the most brutal conditions, killing prey with his bare hands, thriving beneath the waves or in the deadliest cold, or going for weeks without a drop of water or morsel of food. Mysterium mages use similar magic to persevere in the sometimes-perilous environments in which they seek their lore.",
         "DescrizioneBreve": "gain features of mammals, fish, reptiles, birds",
+        "Book": "M:tA 187"
     },
     {
         "Titolo": "Trigger Autonomic Function",
@@ -933,6 +978,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "An inattentive guardian has made more than one Mysterium Reclaimant’s job much easier to complete. Putting an individual to sleep by means of this rote is less dangerous (for the target) than the stereotypical blow to the back of the head, and is much more effective for the mage as well. With a touch (or at sensory distance if Life 3 is used) the mystagogue can put one target life form to sleep. The target will remain asleep for a minimum of one scene, regardless of circumstances; however, after one scene the target may continue to sleep or be awakened normally by external stimuli (uncomfortable positioning, loud noises, etc.)",
         "DescrizioneBreve": "activate bodily functions in touched target",
+        "Book": "Myst 196"
     },
     {
         "Titolo": "Two Faces",
@@ -948,6 +994,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Life",
         "RoteDescrizione": "With this rote, a Guardian can be someone other than himself, a useful ability in his line of work. Indeed, such a mage can go from a “blond-haired, clean-shaven, green-eyed, early-30s” suspect being chased by police to a 40ish man with salt-and-pepper hair and beard saying, “He went that way.” Silver Ladder willworkers sometimes use the same rote when trying to go unnoticed.",
         "DescrizioneBreve": "change cosmetic features",
+        "Book": "M:tA 188"
     },
     {
         "Titolo": "Verminous Metamorphosis",
@@ -994,6 +1041,7 @@ const lifeThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Animal Ken + Life",
         "RoteDescrizione": "Council willworkers use this rote to buy precious time when being pursued by those hostile to them, or to sow confusion and fear among foes. Silver Ladder mages use their own version of the rote (Intelligence + Animal Ken + Life) to turn even random detritus into a weapon against enemies.",
         "DescrizioneBreve": "transform inanimate object into swarm of creatures",
+        "Book": "M:tA 200"
     }
 ]
 
@@ -1012,6 +1060,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Medicine + Life",
         "RoteDescrizione": "During the course of his work, an Arrow is called upon to place himself directly in the path of harm, often with little time to step back and receive restorative spells. But a dead Arrow is of no help to anyone, and so he must find ways of enduring all that his sacred task throws in his path. This rote is one answer to that quandary.",
         "DescrizioneBreve": "spend Mana to heal Bashing or Lethal Damage",
+        "Book": "AA 180"
     },
     {
         "Titolo": "Animal Degradation",
@@ -1027,6 +1076,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Animal Ken + Life vs. Stamina",
         "RoteDescrizione": "Just as with the lesser version of this rote, Arrow mages use this magic to strike at the martial prowess of lesser life forms, granting themselves the edge in combat.",
         "DescrizioneBreve": "degrade Physical Attributes of median life",
+        "Book": "M:tA 188"
     },
     {
         "Titolo": "Animal Minion",
@@ -1042,6 +1092,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Life vs. Resolve",
         "RoteDescrizione": "At times, the Silver Ladder willworker needs an animal to do something it normally won’t.",
         "DescrizioneBreve": "dominate body of medium creatures",
+        "Book": "M:tA 188"
     },
     {
         "Titolo": "Bind the Wayward Body",
@@ -1057,6 +1108,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Life vs. Resolve + Gnosis",
         "RoteDescrizione": "The mage must follow the fugitive, who needs to be within line of sight (unless Space 2 is added to the casting). As she travels, she repeats a prayer similar to the following: <i>Peter, Paul and all the Apostles, be my witness to God’s power which binds all rogues, thieves, murderers and fugitives who seek to hide from justice. In particular, let Thy power find</i> [name of fugitive or some other form of specific identification, such as “the man who robbed the Big Ivy branch bank last night”] <i>and bind him with fetters of guilt. Let him not step forward. Let him not step backward. Let him breathe but not speak until such time as he is released by me.</i><p>The mage must say this prayer (or whichever one she uses) three times. When she comes in sight of the fugitive, she must point her hand and clench it into a fist. As her hand tightens, the muscles of the fugitive will tighten until he cannot move.</p>",
         "DescrizioneBreve": "lock a target into an area",
+        "Book": "MT 124"
     },
     {
         "Titolo": "Contagion",
@@ -1072,6 +1124,7 @@ const lifeFourData = [
         "RoteName": "Guardians of the Veil Rote: Interdiction",
         "RoteDescrizione": "Guardians occasionally use this rote to end a threat to the secrecy of the Mysteries in a way that raises few suspicions. After all, a noted journalist who suddenly disappears raises questions, while a fatal or even just crippling illness is dismissed by most as nothing more than bad luck. Free Council mages experimenting with microbial life and the like occasionally use a variant rote (Intelligence + Medicine + Life).",
         "DescrizioneBreve": "create a sickness or disease",
+        "Book": "M:tA 188"
     },
     {
         "Titolo": "Control Reactions",
@@ -1087,6 +1140,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Life versus Composure + Gnosis",
         "RoteDescrizione": "This is one of the Guardians’ most subtle and powerful tools. While the Guardians remain in the shadows, they make individual Sleepers seem far more or less credible than they otherwise would. The Guardians also carefully manipulate the reactions of important people to various ideas and pieces of information. In addition to allowing the Guardians to cause important people to dismiss all evidence of an incident of vulgar magic, this rote is also regularly used to render those determined to uncover the truth about mages and magic harmless by making them appear to be raving lunatics or harmless and unstable crackpots.<p>Guardians who work closely with the Labyrinth are particularly fond of this rote, because it allows them to make and break the people who lead the various cults and other organizations that make up this complex morass. Leaders whom the Guardians deem unsuitable appear weak or insane, while people the Guardians support seem unusually confident and eloquent. There are rumors that some Guardians have used this rote to do far more than depose minor cult leaders. Although many such charges are exaggerations, a few Guardians have used this rote to change the course of national elections during political speeches and debates, causing one candidate to appear far more sensible and suitable than the others. Naturally, the Guardians deny all such uses of this rote.</p>",
         "DescrizioneBreve": "cause dramatic emotional response",
+        "Book": "GotV 189"
     },
     {
         "Titolo": "Doppelganger",
@@ -1102,6 +1156,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Life",
         "RoteDescrizione": "A Guardian of the Veil with this rote can transform herself into any person she wishes to become. Cunning Arrow mages are sometimes known to use this rote to appear much less imposing or physically capable than normal.",
         "DescrizioneBreve": "alter physical features dramatically",
+        "Book": "M:tA 188"
     },
     {
         "Titolo": "Enfeeblement",
@@ -1117,6 +1172,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Life – Stamina",
         "RoteDescrizione": "The threat posed by an enemy incapable of holding a weapon is much less than that of one at full strength. Adamantine Arrow willworkers cast this rote to debilitate foes, whether in combat or for some other reason (perhaps rendering them less agile while she pursues over treacherous ground, or less hardy during frigid weather). Silver Ladder mages use their own version of this magic (Presence + Intimidation + Life) to whittle away the physical prowess of opponents.",
         "DescrizioneBreve": "degrade one of target's Physical Attributes",
+        "Book": "M:tA 189"
     },
     {
         "Titolo": "Hone Another's Form",
@@ -1132,6 +1188,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "Sometimes consisting of “energy supplements” and such, the casting of this Free Council rote augments another’s physical capabilities.",
         "DescrizioneBreve": "grant bonus to one of target's Physical Attributes",
+        "Book": "M:tA 189"
     },
     {
         "Titolo": "Life Force Assault",
@@ -1147,6 +1204,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Life",
         "RoteDescrizione": "Adamantine Arrow mages use this rote to strike down creatures or human enemies that endanger or assault their charges.",
         "DescrizioneBreve": "inflict Lethal damage",
+        "Book": "M:tA 190"
     },
     {
         "Titolo": "Many Faces",
@@ -1162,6 +1220,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Life",
         "RoteDescrizione": "Mysterium mages often use this rote to send cabal-mates or other allies into questionable situations without the risk of their being recognized.",
         "DescrizioneBreve": "change target's cosmetic features",
+        "Book": "M:tA 190"
     },
     {
         "Titolo": "Perfect Mask",
@@ -1177,6 +1236,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Stealth + Life",
         "RoteDescrizione": "Rumor has it that the Guardians invented this rote in order to infiltrate the court of Queen Victoria, believing that the Silver Ladder were attempting to control her with Mind magics. Whether the Guardians were correct or not has not been recorded, but the rote proved so useful that it has been handed down from master to apprentice since then.",
         "DescrizioneBreve": "imitate another perfectly",
+        "Book": "GotV 190"
     },
     {
         "Titolo": "Shapechanging",
@@ -1223,6 +1283,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Animal Ken + Life",
         "RoteDescrizione": "Mysterium willworkers cast this magic for a variety of reasons. Animals can go unnoticed in many places that humans can’t. Likewise, there are times when it would be more useful to be a rat, a wolf, an eagle or even a fern than a human being. Some mages use this rote almost purely for the experience of being other than human, discovering new perceptions of the universe through other creatures’ eyes (or photoreceptors, or whatever). Adamantine Arrow mages are also practitioners of this magic, changing into whatever form is most advantageous in a given situation.",
         "DescrizioneBreve": "transform to animal shapes; might lose self in new midset",
+        "Book": "M:tA 190"
     },
     {
         "Titolo": "Skilled Triumph",
@@ -1238,6 +1299,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Athletics + Life",
         "RoteDescrizione": "To a viewer, it might seem that the mage who invokes this rote is simply stretching, or posing in some mimicry of athletes the world over. In actuality, the Mysterium mage draws upon his knowledge of the thousand-thousand athletes of history, assuming their poses, claiming their victories for himself in body posture and will.",
         "DescrizioneBreve": "gain Rote Quality to Physical Skills",
+        "Book": "Myst 197"
     },
     {
         "Titolo": "Supreme Honing",
@@ -1253,6 +1315,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Athletics + Life",
         "RoteDescrizione": "By means of this rote, Silver Ladder mages enhance their physical capabilities to the limits of human perfection and beyond. A willworker under the effects of this magic can seem like a demigod to lesser specimens, able to run faster, leap farther, endure more and otherwise perform far beyond what could be expected of her. (Although she needs to beware showing off too much, lest Sleepers begin to Disbelieve what they see.)",
         "DescrizioneBreve": "gain bonus to multiple Physical Attributes",
+        "Book": "M:tA 190"
     },
     {
         "Titolo": "Sustain Body",
@@ -1268,6 +1331,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Athletics + Life",
         "RoteDescrizione": "Serious mystagogues cannot be bothered to leave their research in Astral Space for their body’s needs. After all, one might never find a way back to this astral realm. They use this rote to stave off starvation and thirst a few more days and keep to their studies.",
         "DescrizioneBreve": "make up for lack of food and water",
+        "Book": "AR 22"
     },
     {
         "Titolo": "Transform Other",
@@ -1283,6 +1347,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Animal Ken + Life vs. Stamina + Gnosis",
         "RoteDescrizione": "Guardians use this rote to stigmatize others, perhaps drawing attention away from a more troubling supernatural occurrence or forcing subjects to hide (lest they be seen as monsters). This rote can also be used to bestow more survivable characteristics upon allies in a dangerous or alien environment.",
         "DescrizioneBreve": "give target features of median or base life",
+        "Book": "M:tA 191"
     },
     {
         "Titolo": "Trigger the Lizard Brain",
@@ -1297,6 +1362,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Life vs. Resolve + Gnosis",
         "RoteDescrizione": "Fear is a powerful tool. Adamantine Arrow willworkers who learn the casting of this rote understand the utility of such a resource. Of course, other instinctual reactions, such as deference to a superior or even the urge to mate, can be brought on through the use of such magic. Free Council mages use their own rote (Wits + Intimidation + Life) to trigger those sorts of reactions in other human beings.",
         "DescrizioneBreve": "control instincts of human",
+        "Book": "M:tA 191"
     },
     {
         "Titolo": "Uplift the Species",
@@ -1312,6 +1378,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life vs. Stamina",
         "RoteDescrizione": "Free Council mages sometimes use this rote to create strange pets with the docility of lower life forms but the bodies of dogs or cats.",
         "DescrizioneBreve": "change base to median life",
+        "Book": "M:tA 191"
     },
     {
         "Titolo": "Venom",
@@ -1327,6 +1394,7 @@ const lifeFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Medicine + Life",
         "RoteDescrizione": "Sometimes, Followers of the Lie must be dealt with subtly. This rote allows Libertines to exploit their enemies’ bodies, stopping battles with a single well-placed sting.",
         "DescrizioneBreve": "create deadly toxins",
+        "Book": "LHP 56"
     }
 ]
 
@@ -1376,6 +1444,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Life",
         "RoteDescrizione": "Members of the Mysterium regard the creation of a homunculus as proof positive of alchemical mastery.",
         "DescrizioneBreve": "animate components of humunculus",
+        "Book": "TotM 151"
     },
     {
         "Titolo": "Create Life",
@@ -1391,6 +1460,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Animal Ken + Life",
         "RoteDescrizione": "Guardians of the Veil have a number of different reasons for casting this rote. A mindless human body can be created, bribing a troublesome spirit with a host, or a Siberian tiger could be spun out of nothing, giving the mage a body to control with other Life Arcanum spells. Some Free Council mages use this rote to conjure up a desired sample of flora or fauna so as to have a life form on which to pattern transposed characteristics for the “Transform Self” spell (see p. 187).",
         "DescrizioneBreve": "create complex biological organism",
+        "Book": "M:tA 191"
     },
     {
         "Titolo": "Evolutionary Shift",
@@ -1406,6 +1476,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Animal Ken + Life vs. Stamina",
         "RoteDescrizione": "Perhaps more a product of intellectual curiosity than anything else, this rote enables a Council mage to elevate a lesser life form to human state. While some mages of exceptional skill in the Mind Arcanum use this magic to develop the consciousness of such a being, others find their own uses for it, not all of them scrupulous. Some particularly vicious Adamantine Arrow willworkers use this rote to transform lesser life forms into humans, upon whom they hone their combat skills.",
         "DescrizioneBreve": "change base or median to human",
+        "Book": "M:tA 191"
     },
     {
         "Titolo": "Fantasia",
@@ -1421,6 +1492,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Academics + Life vs. Stamina",
         "RoteDescrizione": "Silver Ladder willworkers use this rote to create beautiful and terrible forms of life, with which they defend their homes and sanctums, impress and horrify allies and rivals, and lay siege to enemies.",
         "DescrizioneBreve": "alter existing life in dramatic ways",
+        "Book": "M:tA 192"
     },
     {
         "Titolo": "Ghastly Metamorphosis",
@@ -1436,6 +1508,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Animal Ken + Life",
         "RoteDescrizione": "There are many animals in this world far less dangerous than a human being. Arrow mages use this rote to transform their enemies into such forms and inflict terrible hurts upon them in the process. Silver Ladder willworkers have their own variant of the rote (Presence + Animal Ken + Life), which they use to punish disobedient servants, treating them as the uncouth animals that they are (in the Ladder mages' eyes, at any rate).",
         "DescrizioneBreve": "transform other to animal shape while inflicting Lethal damage",
+        "Book": "TotM 30"
     },
     {
         "Titolo": "Greater Shapechanging",
@@ -1451,6 +1524,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Animal Ken + Life vs. Stamina + Gnosis",
         "RoteDescrizione": "Without the threat of losing herself in the form she adopts, this rote can be one of the strongest weapons in an Arrow’s arsenal, especially considering her ability to freely modify her new shape. Such a willworker can become a veritable living siege engine, combining all of the deadliest characteristics in the plant and animal kingdoms, as she wills. Mysterium mages are also known to use a version of this rote for their own purposes.",
         "DescrizioneBreve": "transform self and others to animal shapes safely",
+        "Book": "M:tA 192"
     },
     {
         "Titolo": "Hereditary Change",
@@ -1466,6 +1540,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life vs. Stamina",
         "RoteDescrizione": "In a few isolated sanctums, Mysterium mages still practice the timeless art of shaping life itself, giving rise to entirely new creatures. Some believe that the strange flora and fauna being discovered even today is the result of such tampering. Some Silver Ladder willworkers, reveling in the sheer power of their magic, use their own variant of this rote (Resolve + Medicine + Life).",
         "DescrizioneBreve": "alter living beings permanently",
+        "Book": "M:tA 192"
     },
     {
         "Titolo": "Human Minion",
@@ -1481,6 +1556,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Life vs. Resolve + Gnosis",
         "RoteDescrizione": "With this magic, even the mightiest foe can be turned to the service of a Ladder mage. Guardians of the Veil also use a version of this rote to control the actions of others when needed.",
         "DescrizioneBreve": "dominate human bodies",
+        "Book": "M:tA 192"
     },
     {
         "Titolo": "Multitudinous Form",
@@ -1495,6 +1571,7 @@ const lifeFiveData = [
         "RoteName": "Tablets of U’mat Rote",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Animal Ken or Survival + Life",
         "DescrizioneBreve": "transform into a swarm of insects",
+        "Book": "GoG 140"
     },
     {
         "Titolo": "Regeneration",
@@ -1553,6 +1630,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Life",
         "RoteDescrizione": "Free Council mages make regular use of this rote to restore the functionality of their comrades’ lost or damaged limbs. The less altruistic among them charge for the service and then refuse to recast it when the original spell expires should the subject lack the funds or ability to fulfill the favor levied.",
         "DescrizioneBreve": "temporarily regrow severed limbs",
+        "Book": "M:tA 193"
     },
     {
         "Titolo": "Ultimate Degradation",
@@ -1568,6 +1646,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Strength + Athletics + Life vs. Resolve + Gnosis",
         "RoteDescrizione": "True power lies not in being well armed, but in denying the opposition access to weapons. By using this powerful magic, an Arrow mage can render an enemy all but incapable of standing up to a stiff breeze, let alone being a threat in combat.",
         "DescrizioneBreve": "lower multiple Physical Attributes of target",
+        "Book": "M:tA 193"
     },
     {
         "Titolo": "Ultimate Honing",
@@ -1583,6 +1662,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Medicine + Life",
         "RoteDescrizione": "This rote gives the Adamantine Arrow a means of equipping an army with boosted performance techniques.",
         "DescrizioneBreve": "grant bonus to other's multiple Physical Attributes",
+        "Book": "M:tA 193"
     },
     {
         "Titolo": "Vital Balance",
@@ -1597,6 +1677,7 @@ const lifeFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Life",
         "RoteDescrizione": "Nicholas Kollar was a skilled and brilliant occultist who was also nominally a member of the Mysterium. As a result, he designed this rote to make the best use of his prodigious intellect and his occult studies.",
         "DescrizioneBreve": "slow aging dramatically",
+        "Book": "GoG 33"
     }
 ]
 

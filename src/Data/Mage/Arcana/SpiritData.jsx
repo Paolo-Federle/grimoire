@@ -12,7 +12,8 @@ const spiritOneData = [
         "RoteName": "Free Council Rote: Helping Hand",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Socialize + Spirit",
         "RoteDescrizione": "Some Free Council mages understand that consciousness exists in more varied forms than most modern Sleepers know. Calling upon traditional wisdom, they use this rote to speak to the slumbering presence within most things, requesting aid in a task at hand. Silver Ladder mages are often more direct and forceful in casting their own version of this rote (Presence + Socialize + Spirit).",
-        "DescrizioneBreve": "gain bonus from spirit of item"
+        "DescrizioneBreve": "gain bonus from spirit of item",
+        "Book": "M:tA 245"
     },
     {
         "Titolo": "Counterspell",
@@ -24,7 +25,8 @@ const spiritOneData = [
         "Aspect": "Covert",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
-        "DescrizioneBreve": "counter Spirit spells"
+        "DescrizioneBreve": "counter Spirit spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Exorcist's Eye",
@@ -39,7 +41,8 @@ const spiritOneData = [
         "RoteName": "Guardians of the Veil Rote: Parting the Shadow",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Spirit",
         "RoteDescrizione": "The Guardians of the Veil have catalogued a wide variety of phenomena that are known to suddenly and inexplicably change a person’s demeanor, often into something frightening and alien. One of the more common paranormal causes is possession, whether on the part of a ghost, a spirit or something else entirely. This rote enables a Guardian to detect the presence of an ephemeral entity “riding” a host. Mages of the Mysterium use the same rote when searching out possession in the course of their work.",
-        "DescrizioneBreve": "determine if target is possessed"
+        "DescrizioneBreve": "determine if target is possessed",
+        "Book": "M:tA 245"
     },
     {
         "Titolo": "Gremlins",
@@ -54,7 +57,8 @@ const spiritOneData = [
         "RoteName": "Silver Ladder Rote: Unassailable Regency",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Spirit",
         "RoteDescrizione": "When Silver Ladder mages invoke this spell, even the weapons of their enemies recognize the Ladder’s rightful authority, betraying their owners and refusing to attack the keepers of the Imperium Mysteriorum.",
-        "DescrizioneBreve": "hinder usage of touched object"
+        "DescrizioneBreve": "hinder usage of touched object",
+        "Book": "TotM 72"
     },
     {
         "Titolo": "Otherworldly Instrument",
@@ -69,7 +73,8 @@ const spiritOneData = [
         "RoteName": "Free Council Rote: Immaterial Artifice",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Spirit",
         "RoteDescrizione": "During the course of experimentation, Libertines occasionally find cause to work with Twilight-bound entities; this rote enables Libertines to craft functional equipment for their physically insubstantial assistants.",
-        "DescrizioneBreve": "create ephemeral tool for Spirits and Ghosts to use"
+        "DescrizioneBreve": "create ephemeral tool for Spirits and Ghosts to use",
+        "Book": "TotM 18"
     },
     {
         "Titolo": "Second Sight",
@@ -84,7 +89,8 @@ const spiritOneData = [
         "RoteName": "Silver Ladder Rote: Solomon’s Sight",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Spirit",
         "RoteDescrizione": "King Solomon was said to be wise in the ways of magic, a master of the spiritual realms. This rote allows a Ladder willworker to emulate that ancient ruler, perceiving the most intricate and delicate nuances of magic, and the local complexion of the barrier holding spirit apart from flesh. Mages of all orders use this rote, but Mysterium willworkers often do so under urgent circumstances (Wits + Occult + Spirit).",
-        "DescrizioneBreve": "Mage Sight"
+        "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 246"
     },
     {
         "Titolo": "Spirit Tongue",
@@ -99,7 +105,8 @@ const spiritOneData = [
         "RoteName": "Mysterium Rote: Fleshless Speech",
         "RoteDice": "<b>Dice Pool:</b> Presence + Socialize + Spirit",
         "RoteDescrizione": "Mages of the Mysterium have many reasons for dealing with the denizens of Twilight (or the Shadow Realm). Some spirits recall the crafting (or final resting places) of ancient relics, and might be willing to share such knowledge for a price. Conversely, some spirits pay close attention to the happenings of the world of flesh and can prove invaluable informants. This rote enables a member of the Mysterium to communicate with a spirit currently inhabiting the same plane of existence as her (though it by no means guarantees civil or any discourse on the part of the spirit). Silver Ladder willworkers use the same rote in their own dealings with entities of the unseen world.",
-        "DescrizioneBreve": "see and speak with Spirits in Twilight"
+        "DescrizioneBreve": "see and speak with Spirits in Twilight",
+        "Book": "M:tA 246"
     },
 ]
 
@@ -117,7 +124,8 @@ const spiritTwoData = [
         "RoteName": "Mysterium Rote: Ephemeral Classification",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Spirit",
         "RoteDescrizione": "The Mysterium’s central maxim of “Knowledge Is Power” is never more true than when dealing with the strange and potentially deadly residents of the Shadow Realm. Mysterium mages who regularly use this spell often keep detailed records and sketches of the various spirits they have encountered and add these notes to the Mysterium’s extensive catalogs of spirit types and varieties.",
-        "DescrizioneBreve": "determine general powers of a Spirit/Ghost/psychic construct"
+        "DescrizioneBreve": "determine general powers of a Spirit/Ghost/psychic construct",
+        "Book": "Myst 204"
     },
     {
         "Titolo": "Communion with the Messenger",
@@ -131,7 +139,8 @@ const spiritTwoData = [
         "DescrizioneMiddle": "The foci for this spell are all three of the hallmark Templar symbols: the Baphomet, the Holy Cross, and a cipher. First, the Templar creates the sign of the Holy Cross on the ground where he wishes to commune with the angel — the cross in the circle serves as a sort of beacon to the angel in question. Next, the Templar speaks the name of the angel after it has been encoded as a cipher. The more important the “messenger,” the more elaborate the cipher must be. Finally, the Templar makes the hand-sign of the Baphomet when the angel arrives, proving to the angel that he is worthy of witnessing the light of God.<p>The Templar casting this spell makes a single call to a single, specific “messenger” angel (whose name he may have procured from any number of sources, liturgical or lay, but it must be the angel’s true name). The angel who heeds the call (if the spell is successful) is from the loftier regions of the Shadow Realm but has a singular connection to the Aether, or “Heaven” as the Templar understands it. Obviously, the “angel” is not from the Aether proper, but is savvy to what has occurred there in an up-to-date sense. In the communion with the angel, the Templar may ask the angel any questions that he wishes, and the angel responds with whatever information is salient.</p><p>Of course, mere men surely cannot grasp the full import of what occurs in the Realms Supernal, and the angel’s answers may seem obtuse, incomprehensible, or chaotic. As well, the angel might simply deem the answer to a given question as one the Templar’s mind cannot possibly understand, and may deliberately occlude or withhold information (though it will never lie outright). “What does God look like?” is not a viable question for this spell to answer, nor is “What is the meaning of life?” In response to this first question, the angel might loose a torrent of incomprehensible Enochian syllables, answering the question honestly, but in the language only the angels can understand. The second question might yield an almost rhetorical response, such as, “To live in righteous imitation of Christ.” The angels will not be fooled by vain men’s attempts to divine the secrets of heaven.</p><p>Information that may be legitimately gleaned is information that the angel believes men have the context to understand. For example, “Is God angry that we seek the Ten Commandments” is a question that would receive a concise answer, while “How does God feel about our quest for the Ten Commandments” would elicit either an answer incomprehensible to the Templar or a simple rebuff that “It is beyond your capacity to know.”</p><p>The answers asked of the angels need not always concern the loftier realms. “Is the Temple Mount the true site of the Temple of Solomon?” is a fine question to ask (the answer to which depends upon the individual chronicle). So is “Where have the Templars stored their treasures?” Indeed, so is, “Where are my car keys?” but such a flippant question may well serve to stoke the ire of the angel, and the anger of angels isn’t something any mortal is likely to emerge from unchanged. To this end, it’s worth noting that summoning the angel in no way offers any protection from it, should its divine graces be mocked, challenged, or denigrated.</p>",
         "DicePool": "<b>Dice Pool:</b> Presence + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "The Templars believe that the evolution of this spell occurred during New Testament times. They note that Abraham, Isaac, Moses, and other key Biblical figures had to use nothing of the sort to commune with God, while later figures such as Simon Magus had to use the same sorts of formulae that the order itself must. Of course, Simon Magus met his end after challenging God’s supremacy, but the Templars are certainly capable of learning from the mistakes of others.<p>Some Templars have taken it upon themselves to learn the celestial speech of the angels, potentially in hopes of tricking the angels to answer their questions with a language they assume the mortals not to comprehend. Again, the angels aren’t so simple as this. If an angel suspects a man might have learned the divine tongue, it might simply respond that the answer to a particularly dire question isn’t for men to know. And again, attempts at fooling the angels rarely work out well for the would-be trickster.</p><p>(Of course, that begs the question as to whether a man might even learn the Enochian language, where he’d learn it, and to what end. The occultists John Dee and Edward Kelley claimed to know the speech of Angels, but neither of them is associated with the Templar tradition.)</p>",
-        "DescrizioneBreve": "summon Shadow denizen for information"
+        "DescrizioneBreve": "summon Shadow denizen for information",
+        "Book": "MT 89"
     },
     {
         "Titolo": "Cowing the Spirit",
@@ -146,7 +155,8 @@ const spiritTwoData = [
         "RoteName": "Adamantine Arrow Rote: Turning Aside the Shadow",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Spirit",
         "RoteDescrizione": "When confronted by this rote, even the stoutest of blades and most accurate of guns fail. Willworkers of the Adamantine Arrow also use this magic to foil items of a less martial nature, aware that Existence Is War, and that all conflicts — regardless of their nature — are battlefields of a sort: lock picks, first aid kits, computers or any other sort of mundane equipment can be rendered virtually useless.",
-        "DescrizioneBreve": "reduce Equipment bonus of item by -1/suxx"
+        "DescrizioneBreve": "reduce Equipment bonus of item by -1/suxx",
+        "Book": "AA 187"
     },
     {
         "Titolo": "Ephemeral Shield",
@@ -161,7 +171,8 @@ const spiritTwoData = [
         "RoteName": "Adamantine Arrow Rote: Ghost Shirt",
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Spirit",
         "RoteDescrizione": "Not all threats come from this world. Arrow mages use this rote to armor themselves against physical attacks from beings native to the Shadow Realm. Guardians of the Veil, who also have occasion to meet with spirits under less-than-friendly circumstances, use their own magic (Resolve + Occult + Spirit) to achieve the same effect.",
-        "DescrizioneBreve": "Shielding"
+        "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 246"
     },
     {
         "Titolo": "Gossamer Touch",
@@ -175,7 +186,8 @@ const spiritTwoData = [
         "RoteName": "Free Council Rote: Grasp the Otherworld",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Spirit",
         "RoteDescrizione": "Free Council mages cast this rote in order to interact physically with Twilight spirits. While under the effects of this magic, they can make contact with such beings, whether to offer a friendly touch or a closed fist. Adamantine Arrow willworkers use the same magic in the defense of cabal and sanctum.",
-        "DescrizioneBreve": "touch entities in Twilight"
+        "DescrizioneBreve": "touch entities in Twilight",
+        "Book": "M:tA 247"
     },
     {
         "Titolo": "Grant the Second Sight",
@@ -190,7 +202,8 @@ const spiritTwoData = [
         "RoteName": "Silver Ladder Rote: Imparting the Spirit Gaze",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Spirit",
         "RoteDescrizione": "Members of the Silver Ladder use this rote to bestow Spirit Arcanum perceptions upon allies of supernatural origin, mage or otherwise. Free Council mages are known to extend similar perceptions through alternate means (Intelligence + Persuasion + Spirit).",
-        "DescrizioneBreve": "grant Mage sight"
+        "DescrizioneBreve": "grant Mage sight",
+        "Book": "M:tA 247"
     },
     {
         "Titolo": "Invitation to the Orishas",
@@ -203,7 +216,8 @@ const spiritTwoData = [
         "Cost": "None",
         "RoteDice": "<b>Dice Pool:</b> Presence + Athletics + Spirit",
         "RoteDescrizione": "The mage dances a bembe, and he must be accompanied by ritual drums. Often, other santeros dance with him, and this ritual usually follows an ebbó. The mage continues to dance until his mind and body are overwhelmed by the exertion of the bembe and the drums, and the orisha enters him. In game terms, the player must accumulate a number of successes equal to the mage’s Stamina + Resolve, and if the character possesses the Iron Stamina Merit, those dots are also added to the target number of successes. Each roll equates one minute of dancing, and the player can only make a number of rolls equal to the mage’s Stamina + Athletics (after which the mage is too exhausted to dance properly).<p>Once the player has accumulated the proper number of successes, the orisha possesses the mage. At this point, the mage begins to behave like the orisha in question. Osain limps and leans on a walking stick. Changó is lusty and belligerent, while Oshún is flirtatious. The orishas demand their tribute — many of them try to take bites of the raw flesh of the ritual sacrifice, and all must have their special foods and items (see Foci), or else they depart and the spell ends.</p><p>While the mage is being possessed, the orisha speaks and acts through him. The other santeros present can ask the orisha for advice or intercession. If any are Awakened, they can ask the orisha for magical understanding (this can be used to justify an increase in Gnosis or Arcana ratings), even learning rotes from the orisha. Occasionally, a mage channels one of the warlike orishas (Changó, Oggún, Elegguá, Ochosi, or Oyá) to help him fight in an upcoming battle.</p><p>The game effects of this possession vary depending on the Storyteller’s decision of what the orishas are and what role they fulfill in the chronicle. In general, this spell allows an effect similar to Coaxing the Spirits (Spirit 1), but with farther-reaching effects. The mage receives a number of bonus dice to a given task based on how satisfied the orisha is with the sacrifice, the items offered to it, and the bembe the mage performed (the Storyteller should take all of this into consideration and then make a roll for the player, probably Manipulation + Socialize, and use the successes for the bonus dice). These dice can be used on any roll that the task involves, but the player does not know how many he has to work with (just as the mage doesn’t know how far the orisha’s influence will carry him). At some point, the capricious orisha’s attention fades, and the mage is on his own again.</p>",
-        "DescrizioneBreve": "permit possession by powerful Spirits"
+        "DescrizioneBreve": "permit possession by powerful Spirits",
+        "Book": "MT 76"
     },
     {
         "Titolo": "Lesser Spirit Summons",
@@ -218,7 +232,8 @@ const spiritTwoData = [
         "RoteName": "Silver Ladder Rote: Gather the Unseen Host",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "Silver Ladder willworkers cast this rote to summon wandering spirits. Some phrase this call as a demand, while others opt for a more humble request. In either case, spirits that hear usually answer, whether out of curiosity or compulsion. Mysterium mages often use ancient formulae and mystic signs to perform such a call (Intelligence + Persuasion + Spirit), rather than resorting to force of personality as Ladder willworkers do.",
-        "DescrizioneBreve": "summon Spirit by name or issue general call in Twilight"
+        "DescrizioneBreve": "summon Spirit by name or issue general call in Twilight",
+        "Book": "M:tA 247"
     },
     {
         "Titolo": "Peer Across the Gauntlet",
@@ -233,7 +248,8 @@ const spiritTwoData = [
         "RoteName": "Mysterium Rote: Otherworldly Sight",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Spirit",
         "RoteDescrizione": "The power to gaze into the Shadow is prized by many Mysterium willworkers. With this rote, a mage can watch that other world, espying its details as easily he normally does in his own native plane.",
-        "DescrizioneBreve": "see into Shadow"
+        "DescrizioneBreve": "see into Shadow",
+        "Book": "M:tA 247"
     },
     {
         "Titolo": "Place of Power",
@@ -248,7 +264,8 @@ const spiritTwoData = [
         "RoteName": "Guardians of the Veil Rote: Closing the Ways",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Survival + Spirit",
         "RoteDescrizione": "Most commonly used by Guardians of the Veil to render the Gauntlet virtually impermeable at a Hallow, this rote can also be used to reduce the Strength of that barrier. Silver Ladder mages occasionally use the same magic to make manifestation easier for spirit allies.",
-        "DescrizioneBreve": "raise or lower Gauntlet in Hallow"
+        "DescrizioneBreve": "raise or lower Gauntlet in Hallow",
+        "Book": "M:tA 247"
     },
     {
         "Titolo": "Read Spirit",
@@ -260,7 +277,8 @@ const spiritTwoData = [
         "Aspect": "Covert",
         "Cost": "None",
         "DescrizioneMiddle": "As spirits become more powerful, their bans become more complex and difficult to read. When a mage attempts Read Spirit, the Potency of the casting must exceed the Rank of the spirit in order for any useful information to be learned. Conversely, the more Potent the spell, the more likely it is the spirit will notice the casting. If the spell reaches Potency 3 or more, the spirit is allowed a reflexive Finesse roll, requiring a simple success to sense the attempt to read it. A spirit’s reaction to such an intrusive act varies from spirit to spirit, but is unlikely to be viewed in a positive manner.",
-        "DescrizioneBreve": "determine a Spirit's Ban"
+        "DescrizioneBreve": "determine a Spirit's Ban",
+        "Book": "AA 188"
     },
     {
         "Titolo": "Soul Jar",
@@ -275,7 +293,8 @@ const spiritTwoData = [
         "RoteName": "Silver Ladder Rote: Urn of Motes",
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Death (or Spirit)",
         "RoteDescrizione": "In ancient times, Silver Ladder mages would carry out a terrible punishment levied against mage criminals: the severing of their souls. This was sometimes a temporary sentence; the caster would store the soul in a jar and release it once the convict’s sentence had been served.",
-        "DescrizioneBreve": "create a vessel for a freed Soul"
+        "DescrizioneBreve": "create a vessel for a freed Soul",
+        "Book": "M:tA 248"
     },
     {
         "Titolo": "Spirit Pact",
@@ -290,7 +309,8 @@ const spiritTwoData = [
         "RoteName": "Mysterium Rote: Twilight Contract",
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Spirit",
         "RoteDescrizione": "Operatives of the Mysterium, who attach a romantic significance to quests and enjoy plumbing a tantalizing mystery, would sooner truck with enigmatic godlings than spend their own force of will to relinquish spell control.",
-        "DescrizioneBreve": "item crafting, alternate relinquishment cost - fulfill quest for spirit"
+        "DescrizioneBreve": "item crafting, alternate relinquishment cost - fulfill quest for spirit",
+        "Book": "TotM 129"
     },
     {
         "Titolo": "Spiritual Bulwark",
@@ -305,7 +325,8 @@ const spiritTwoData = [
         "RoteName": "Silver Ladder Rote: Resplendent Diadem",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Spirit",
         "RoteDescrizione": "Just as a well-made crown is a symbol of authority, so, too, can a crown serve as armor against harm. This rote defends a Ladder mage against undue influence by the denizens of both Twilight and the Shadow. Guardians of the Veil have their own variant of the rote (Resolve + Occult + Spirit), which they use to resist the strange powers of the entities of the Abyss.",
-        "DescrizioneBreve": "protect against non-attack Numina"
+        "DescrizioneBreve": "protect against non-attack Numina",
+        "Book": "TotM 23"
     }
 ]
 
@@ -323,7 +344,8 @@ const spiritThreeData = [
         "RoteName": "Banisher Rote: Morris’s One-Way Trip",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Survival + Spirit",
         "RoteDescrizione": "The Translators’ version of this spell, as practiced by Morris, has an altered Duration — concentration. The opening can remain viable as long as the Translator concentrates on it, allowing the caster to yank the victim back once she has had a 'taste' of what’s behind the door or else enabling the caster to close the road immediately, trapping the victim on the other side, subject to whatever horrors await her.",
-        "DescrizioneBreve": "as Spirit Road, but random chance to open to Shadow, Earth, outer space or the Abyss"
+        "DescrizioneBreve": "as Spirit Road, but random chance to open to Shadow, Earth, outer space or the Abyss",
+        "Book": "Ban 68"
     },
     {
         "Titolo": "Control Spirit",
@@ -338,7 +360,8 @@ const spiritThreeData = [
         "RoteName": "Adamantine Arrow Rote: Crown of the Incarna",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Death vs. Resistance",
         "RoteDescrizione": "The Adamantine Arrow’s relations with spirits are often as martial as their relations with mages. This rote is no exception, and Arrow mages use it to enlist spirits as soldiers in their wars. The Mysterium uses a similar rote to turn aside the assaults of spirit guardians.",
-        "DescrizioneBreve": "force Spirit to obey commands"
+        "DescrizioneBreve": "force Spirit to obey commands",
+        "Book": "M:tA 248"
     },
     {
         "Titolo": "Create Fetish Tattoo",
@@ -353,7 +376,8 @@ const spiritThreeData = [
         "RoteName": "Adamantine Arrow Rote: Otherworldly Brand",
         "RoteDice": "<b>Dice Pool:</b> Stamina + Crafts + Spirit",
         "RoteDescrizione": "Arrow mages often wear the price of their dedication upon their flesh, and, to many of them, this rote is no different from the scars that they accept as a part of their duties. By binding a spirit under the skin, such willworkers gain yet another armament, one that cannot easily be taken away.",
-        "DescrizioneBreve": "make a tattoo suitable to house a spirit for Create Fetish"
+        "DescrizioneBreve": "make a tattoo suitable to house a spirit for Create Fetish",
+        "Book": "TotM 73"
     },
     {
         "Titolo": "Exorcism",
@@ -368,7 +392,8 @@ const spiritThreeData = [
         "RoteName": "Guardians of the Veil Rote: Exiled from the Flesh",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Spirit vs. Power + Resistance",
         "RoteDescrizione": "Often making use of forceful chants, invocations of divine powers, and the like, Guardians use this magic to drive out a spiritual entity possessing a terrestrial host.",
-        "DescrizioneBreve": "expel a Spirit that is possessing a target"
+        "DescrizioneBreve": "expel a Spirit that is possessing a target",
+        "Book": "M:tA 248"
     },
     {
         "Titolo": "Familiar Pact",
@@ -383,7 +408,8 @@ const spiritThreeData = [
         "RoteName": "Mysterium Rote: Soul-Bonding",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Socialize + Spirit",
         "RoteDescrizione": "Supplemented by conversation, coaxing, and even by threats and bribery, this rote enables a mage of the Mysterium to enter into a bond that ties a willworker to her familiar. Mages of every order make use of this magic, though, as familiars are popular among the Awakened.",
-        "DescrizioneBreve": "bind a willing Spirit to yourself as a Familiar"
+        "DescrizioneBreve": "bind a willing Spirit to yourself as a Familiar",
+        "Book": "M:tA 249"
     },
     {
         "Titolo": "Greater Spirit Summons",
@@ -398,7 +424,8 @@ const spiritThreeData = [
         "RoteName": "Silver Ladder Rote: Whisper to the Ancients",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "A traditional sorcery employed in almost every culture’s myth and legend, this rote is used by the Silver Ladder to compel an audience with the spirits. Guardians of the Veil sometimes use their own magics (Manipulation + Persuasion + Presence) to call up otherworldly entities for questioning, or in the worst case more permanent measures.",
-        "DescrizioneBreve": "summon Spirit by name in Twilight or Shadow"
+        "DescrizioneBreve": "summon Spirit by name in Twilight or Shadow",
+        "Book": "M:tA 249"
     },
     {
         "Titolo": "Harm Spirit",
@@ -413,7 +440,8 @@ const spiritThreeData = [
         "RoteName": "Adamantine Arrow Rote: Strike the Unseen",
         "RoteDice": "<b>Dice Pool:</b> Strength + Athletics + Spirit – Resistance",
         "RoteDescrizione": "Bypassing the need for weapons to strike through the Gauntlet, or spells to draw spirits into the material world, this rote enables an Adamantine Arrow mage to attack a spirit’s ephemeral substance directly. Guardians of the Veil use the same rote when such direct methods become necessary.",
-        "DescrizioneBreve": "inflict lethal damage on Spirits"
+        "DescrizioneBreve": "inflict lethal damage on Spirits",
+        "Book": "M:tA 249"
     },
     {
         "Titolo": "Hone the Pack Spirit",
@@ -459,7 +487,8 @@ const spiritThreeData = [
         "RoteName": "Free Council Rote: Bleeding Leviathan",
         "RoteDice": "<b>Dice Pool:</b> Wits + Survival + Spirit",
         "RoteDescrizione": "It might seem that this rote encourages conformity, but it’s designed with the opposite intent, symbolizing a 'rogue pack' within the body politic — the 'leviathan' of the song’s title. Lyla created this spell to symbolize the power of a committed cadre to prey on the 'sheep' that do what society tells them.",
-        "DescrizioneBreve": "give sophisticated instructions to a group of animals"
+        "DescrizioneBreve": "give sophisticated instructions to a group of animals",
+        "Book": "GoG 57"
     },
     {
         "Titolo": "Nullify Shadow Resonance",
@@ -474,7 +503,8 @@ const spiritThreeData = [
         "RoteName": "Seers of the Throne Rote: Calm Waters",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit",
         "RoteDescrizione": "Every so often, the wind grows so calm that even a massive body of water appears still and smooth as glass. Such placidity mirrors the Seers’ (particularly, the Hegemonic Ministry’s) desired destiny for the Fallen World’s Sleepers and this spell serves to disconnect them from potentially unbalancing emotional chaos from the invisible realm, encouraging conformity and silent obedience.",
-        "DescrizioneBreve": "negate the influence of the Shadow on Resonance of an area"
+        "DescrizioneBreve": "negate the influence of the Shadow on Resonance of an area",
+        "Book": "SotT 195"
     },
     {
         "Titolo": "Numinous Shield",
@@ -489,7 +519,8 @@ const spiritThreeData = [
         "RoteName": "Adamantine Arrow Rote: Ephemeral Ward",
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Spirit",
         "RoteDescrizione": "An invaluable asset to the Adamantine Arrow willworker anticipating hostile attention from spirits, this rote guards against the paranormal abilities of such beings in the same way that the Prime Arcanum wards against magic. Silver Ladder mages use similar magics (Composure + Occult + Spirit) when aware of an ephemeral threat.",
-        "DescrizioneBreve": "protect against Spirit Numina"
+        "DescrizioneBreve": "protect against Spirit Numina",
+        "Book": "M:tA 249"
     },
     {
         "Titolo": "Otherworldly Armory",
@@ -504,7 +535,8 @@ const spiritThreeData = [
         "RoteName": "Silver Ladder Rote: Divine Artifice",
         "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Spirit",
         "RoteDescrizione": "As the spiritual leaders of the Awakened, mages of the Silver Ladder enjoy converse with the beings of Shadow. Those sufficiently skilled in such lore can enjoy their service, as well, even altering their very shapes into instruments useful to almost any task.",
-        "DescrizioneBreve": "pull spirit across Gauntlet and transform it into appropriate item"
+        "DescrizioneBreve": "pull spirit across Gauntlet and transform it into appropriate item",
+        "Book": "SL 201"
     },
     {
         "Titolo": "Reaching",
@@ -519,7 +551,8 @@ const spiritThreeData = [
         "RoteName": "Adamantine Arrow Rote: Shadow Strike",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Athletics + Spirit",
         "RoteDescrizione": "Reaching across the Gauntlet to take hold of an ephemeral weapon or to strike a spirit, the Arrow mage lets nothing, not even the span between worlds, stand in the way of her duty. This rote grants a willworker the ability to pierce the barrier between spirit and flesh. Mysterium mages often use their own version of the rote (Wits + Athletics + Spirit) to freely interact with the ephemeral environment.",
-        "DescrizioneBreve": "touch across Gauntlet"
+        "DescrizioneBreve": "touch across Gauntlet",
+        "Book": "M:tA 250"
     },
     {
         "Titolo": "Restore Corpus",
@@ -534,7 +567,8 @@ const spiritThreeData = [
         "RoteName": "Free Council Rote: Spirit Mending",
         "RoteDice": "<b>Dice Pool:</b> Composure + Empathy + Spirit",
         "RoteDescrizione": "Free Council willworkers use this rote to repair damage done to the insubstantial flesh of spirits. Such magic can be a powerful bargaining tool in dealing with such entities, though not all use it for such purely mercenary purposes. After all, this magic can also repair harm done to an immaterial familiar. The Mysterium variant of the rote (Resolve + Empathy + Spirit) uses different methods to obtain the same effect.",
-        "DescrizioneBreve": "heal damage to Spirits"
+        "DescrizioneBreve": "heal damage to Spirits",
+        "Book": "M:tA 250"
     },
     {
         "Titolo": "Restore Lost Soul",
@@ -549,7 +583,8 @@ const spiritThreeData = [
         "RoteName": "Guardians of the Veil Rote: Restoring the Stolen Light",
         "RoteDice": "<b>Dice Pool:</b> Presence + Empathy + Spirit",
         "RoteDescrizione": "Not all of a Guardian’s duties are unpleasant, though it might sometimes seem that way. This rote enables such a mage to restore a stolen soul to its rightful owner.",
-        "DescrizioneBreve": "bind a freed Soul to a Soulless target"
+        "DescrizioneBreve": "bind a freed Soul to a Soulless target",
+        "Book": "M:tA 250"
     },
     {
         "Titolo": "Rouse Spirit",
@@ -564,7 +599,8 @@ const spiritThreeData = [
         "RoteName": "Free Council Rote: Stirred from Sleep",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Spirit",
         "RoteDescrizione": "Mages of the Free Council use this rote to wake the sleeping spirits within objects and places. A house or sanctum enhanced by judicious use of this rote takes care of its inhabitants of its own accord, and items so modified can be used to interact with the ephemeral world. Silver Ladder mages often choose to inspire (Presence + Persuasion + Spirit) such slumbering spirits to wakefulness, rather than subtly coaxing service out of them.",
-        "DescrizioneBreve": "waken latent Spirit inside an object to assist you"
+        "DescrizioneBreve": "waken latent Spirit inside an object to assist you",
+        "Book": "M:tA 250"
     },
     {
         "Titolo": "Spirit Road",
@@ -579,7 +615,8 @@ const spiritThreeData = [
         "RoteName": "Mysterium Rote: Into Shadow",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Survival + Spirit",
         "RoteDescrizione": "While a dangerous undertaking, the creation of a Spirit Road is occasionally necessary for Mysterium mages. Through such a path, a willworker and his entire cabal might enter the Shadow Realm, or something residing in that plane can be brought into the world of flesh.",
-        "DescrizioneBreve": "create Portal across Gauntlet"
+        "DescrizioneBreve": "create Portal across Gauntlet",
+        "Book": "M:tA 251"
     },
     {
         "Titolo": "Spirit Steed",
@@ -594,7 +631,8 @@ const spiritThreeData = [
         "RoteName": "Adamantine Arrow Rote: Sleipnir’s Get",
         "RoteDice": "<b>Dice Pool:</b> Manipulate + Socialize + Spirit",
         "RoteDescrizione": "Some of the order’s tall tales and legends describe bold warriors who travel into battle on the back of fantastic spiritual allies. Daring rescues, challenging quests or fast exits are all made easier with the help of this rote.",
-        "DescrizioneBreve": "bind a Spirit to use as transport in a pinch"
+        "DescrizioneBreve": "bind a Spirit to use as transport in a pinch",
+        "Book": "AA 188"
     },
     {
         "Titolo": "Summon Cryptid",
@@ -609,7 +647,8 @@ const spiritThreeData = [
         "RoteName": "Mysterium Rote: Fortean Bestiary",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Spirit",
         "RoteDescrizione": "Mystagogues often have occasion to encounter aberrations of the natural world. Those that make a habit of such unusual adventures sometimes wish to be able to call up a particular specimen for study, rare sacramental components, or even just a pleasant chat. This rote is ancient, indeed, and has long since passed into the hands of mages outside of the Mysterium.",
-        "DescrizioneBreve": "call a cryptid out of a Verge or other hiding place"
+        "DescrizioneBreve": "call a cryptid out of a Verge or other hiding place",
+        "Book": "Summ 29"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -620,7 +659,8 @@ const spiritThreeData = [
         "Aspect": "Covert",
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
-        "DescrizioneBreve": ""
+        "DescrizioneBreve": "",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "The Divining Spirit",
@@ -635,7 +675,8 @@ const spiritThreeData = [
         "RoteName": "Tradition Rote: Mystery of the Barley Wine",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "This rote provides a modern refashioning of the ceremonies at Eleusis, particularly those that initiated a participant into the Eleusinian Mysteries.<p>In the Greek rites of old, the cultists drank from a heady entheogenic brew of what was believed to be barley, water, and pennyroyal (a slightly toxic variety of strong mint). Honey was often added for flavor, and the modern version has it, as well. Some speculate that the entheogen of the brew came from empurpled barley, whose color was granted by the psychoactive ergot fungus that grew upon it. Others believe it the combination of the toxic mint and the fermentation of the brew contributed toward visions.</p><p>Here, modern participants of this ritual add their own hallucinogen – most prefer to add something natural (mushrooms, extract of ayahuasca, peyote), but some will add synthetics like LSD or lab-DMT to the brew.</p><p>The drink provides the first focus of the rote, and to a point, the hallucinogen in the drink is the second focus. Participants must gulp, not sip, the brew. The third focus is a copy of one of Homer’s books: likely The Iliad or The Odyssey, though the anonymous (but oft-attributed to him) Homeric Hymns work just as well. The caster must read from random passages from the text. The nature of the passages matters little. The simple repetition of these ancient words is believed to form a conduit between past, present and future through which the gods can travel.</p><p>(Note that some mages set a conditional duration upon this spell for the sake of safety. That condition is met when the Homeric text is closed. With the clap of the book’s closing, the “god” is banished.)</p><p>Note that this rote does not have a condition of environment (it can be performed anywhere, whether in the middle of a circle of stones or in a dark attic strewn with old toys), but it does have a temporal condition. It must be performed at dawn or dusk; at any other time, the rote fails. Improvised casting has no such restrictions.</p>",
-        "DescrizioneBreve": "converse with a Spirit from another time"
+        "DescrizioneBreve": "converse with a Spirit from another time",
+        "Book": "MT 138"
     }
 ]
 
@@ -653,7 +694,8 @@ const spiritFourData = [
         "RoteName": "Silver Ladder Rote: Mantle of the Gods",
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Spirit",
         "RoteDescrizione": "By channeling her Will through a spirit, a mage might direct another of the powers concealed behind the reality known to Sleepers. Often more narrow in focus than the Ten Arcana, these powers sometimes sacrifice flexibility for raw power or utility in a single sort of endeavor.",
-        "DescrizioneBreve": "exchange Mana for forced use of a Spirit's Numina or Influence"
+        "DescrizioneBreve": "exchange Mana for forced use of a Spirit's Numina or Influence",
+        "Book": "GoG 109"
     },
     {
         "Titolo": "Bind Spirit",
@@ -668,7 +710,8 @@ const spiritFourData = [
         "RoteName": "Silver Ladder Rote: Chains of Mist",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Spirit vs. Resistance",
         "RoteDescrizione": "Sometimes cast as a reward, but commonly as a punishment, this rote enables a Silver Ladder mage to bind a spiritual entity in place in the material world (although the spirit is in the state of Twilight unless it has the ability to manifest). Most spirits fear confinement and do as they are bidden to avoid such a fate. Ladder willworkers, however, caution their students to use such this cruel magic as a scalpel rather than as a hammer — sparingly, and only as often as absolutely necessary. Spirits have long memories. Mysterium mages use a similar rote in their own bindings.",
-        "DescrizioneBreve": "restrict Spirit to a location"
+        "DescrizioneBreve": "restrict Spirit to a location",
+        "Book": "M:tA 251"
     },
     {
         "Titolo": "Create Fetish",
@@ -683,7 +726,8 @@ const spiritFourData = [
         "RoteName": "Adamantine Arrow Rote: Blade of the Gods",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "This rote allows Adamantine Arrow mages to infuse weapons, armor, and other items with the powers of spirits to create fetishes. The spirits' consent may or may not be required. Silver Ladder mages have their own method to achieve similar effects.",
-        "DescrizioneBreve": "bind Spirit to object as Fetish"
+        "DescrizioneBreve": "bind Spirit to object as Fetish",
+        "Book": "M:tA 252"
     },
     {
         "Titolo": "Essence Gift",
@@ -698,7 +742,8 @@ const spiritFourData = [
         "RoteName": "Mysterium Rote: Word of Honor",
         "RoteDice": "<b>Dice Pool:</b> Presence + Socialize + Spirit",
         "RoteDescrizione": "The mages of the Mysterium use this rote to prove to a skeptical spirit that their pledge and bond is good, usually to coax it into a fetish or convince it to act as a familiar.",
-        "DescrizioneBreve": "convert Mana to Essence"
+        "DescrizioneBreve": "convert Mana to Essence",
+        "Book": "M:tA 252"
     },
     {
         "Titolo": "Goetic Evocation",
@@ -710,7 +755,8 @@ const spiritFourData = [
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "The ephemeral demon has the following traits: Rank 1; Attributes: Power 2, Finesse 2, Resistance 2; Essence: 10 (10 max); Influence: Sin 2 (choose one Vice, derangement or Flaw); Numina: Materialize, Possession.<p>Each additional success added to the target number provides one of the following benefits (choose which it is as the target number is determined, before casting commences):</p><ul><li>+1 Rank (maximum 4)</li><li>+1 dot to a single Attribute</li><li>+1 Influence</li></ul></p><p>Every two additional successes can give the demon one extra Numina.</p><p>The demon can use its Influence to seduce someone into acting out the demon’s Vice (which is not necessarily the victim’s own), succumbing to its derangement, or falling prey to its psychological Flaw (depending on the type of demon summoned). If the demon’s Vice is the same as the victim’s, the victim is not rewarded the usual Willpower point for acting out the Vice — the demon gets this point instead, although he doesn’t have to act out the Vice himself (and hence, doesn’t get the blame).</p><p>The demon follows the mage’s orders, al- though if the mage himself engages his personal Vice, derangement or Flaw while this spell is in effect, the demon is freed from control and turns its attentions to corrupting the mage.</p><p>Casting this spell is an act of hubris, requiring a mage with a Wisdom higher than 4 dots to  make a degeneration roll.</p><p>The demon’s ephemeral form remains for one hour.</p>",
-        "DescrizioneBreve": "bring forth inner demon as Spirit entity"
+        "DescrizioneBreve": "bring forth inner demon as Spirit entity",
+        "Book": "M:tA 324"
     },
     {
         "Titolo": "Grant Familiar",
@@ -725,7 +771,8 @@ const spiritFourData = [
         "RoteName": "Silver Ladder Rote: Mentor’s Gift",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit",
         "RoteDescrizione": "By casting this rote, a Ladder mage can bond another willworker to a familiar, provided that neither already shares in such a bond and that both parties are willing. Mysterium mages impart familiars upon their apprentices by way of their own variant of the rote (Intelligence + Persuasion + Spirit).",
-        "DescrizioneBreve": "grant target a bond with a willing Spirit as a Familiar"
+        "DescrizioneBreve": "grant target a bond with a willing Spirit as a Familiar",
+        "Book": "M:tA 253"
     },
     {
         "Titolo": "Living Land",
@@ -739,7 +786,8 @@ const spiritFourData = [
         "RoteName": "Adamantine Arrows Rote: Ryutora no Jutsu",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Intimidation + Spirit",
         "RoteDescrizione": "Ryutora means 'Tiger and Dragon,' or colloquially, 'two powerful rivals.' The Adamantine Arrows employ this rote by using ritualized threats and orders to mobilize half-slumbering spirits in service to their cause. Trees, stones, clouds, insects — all of them hinder foes and help allies. The Gogyo also refers to this rote by the same name to evoke the principles of feng shui.",
-        "DescrizioneBreve": "coax Spirit of an area to penalize foes and benefit allies"
+        "DescrizioneBreve": "coax Spirit of an area to penalize foes and benefit allies",
+        "Book": "GoG 69"
     },
     {
         "Titolo": "Medicine Bag",
@@ -754,7 +802,8 @@ const spiritFourData = [
         "RoteName": "Guardians of the Veil Rote: Palm of Plenty",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Spirit",
         "RoteDescrizione": "Guardians of the Veil mages often create Medicine Bags to have a form of bribe to deal with troublesome spirits. This rote allows them to craft such bags. Mysterium mages also employ this rote to have a dedicated place to store some of the spoils from their explorations.",
-        "DescrizioneBreve": "create repository for Essence"
+        "DescrizioneBreve": "create repository for Essence",
+        "Book": "M:tA 253"
     },
     {
         "Titolo": "Outer Channel",
@@ -769,7 +818,8 @@ const spiritFourData = [
         "RoteName": "Mysterium Rote: The Other Door",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit vs. Resistance (or the entity’s Resolve + Composure if it’s not strictly a “spirit”)",
         "RoteDescrizione": "The Mysterium knows it is sometimes necessary to plumb the deepest, strangest depths of the cosmos to increase awareness, understanding, and knowledge. This rote does just that, calling forth a truly bizarre being into audience. Its willworkers do not use this rote lightly, recognizing that once such a creature is summoned, it is not always so keen to leave. The effects of bringing an eldritch or insane entity into this plane of existence always come with powerful consequences — sometimes, a being’s very presence will corrupt this world, for they cannot be so easily contained in the material plane.",
-        "DescrizioneBreve": "call a quincunx entity (or other mad being)"
+        "DescrizioneBreve": "call a quincunx entity (or other mad being)",
+        "Book": "Summ 144"
     },
     {
         "Titolo": "Road Master",
@@ -784,7 +834,8 @@ const spiritFourData = [
         "RoteName": "Mysterium Rote: Shadow Gate",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Spirit",
         "RoteDescrizione": "With this rote, a Mysterium willworker can control who and what is permitted to cross through the roads he makes through the Gauntlet, or he can simply step through without the need for such a gateway. Guardians of the Veil use much the same magic (Composure + Occult + Space) in the pursuit of their work.",
-        "DescrizioneBreve": "transition to Shadow without Portal; control access to Portal across Gauntlet"
+        "DescrizioneBreve": "transition to Shadow without Portal; control access to Portal across Gauntlet",
+        "Book": "M:tA 254"
     },
     {
         "Titolo": "Sacramental Chain",
@@ -799,7 +850,8 @@ const spiritFourData = [
         "RoteName": "Mysterium Rote: Spirit Gold",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Spirit – Resistance",
         "RoteDescrizione": "Mysterium mages tread into territory rich with Essence, such as loci guarded by spirits or werewolves. This spell makes such dangerous journeys worth the risk, giving them something with which to barter when dealing with spirits.",
-        "DescrizioneBreve": "grant Essence to Spirit"
+        "DescrizioneBreve": "grant Essence to Spirit",
+        "Book": "M:tA 253"
     },
     {
         "Titolo": "Spirit Guardian",
@@ -814,7 +866,8 @@ const spiritFourData = [
         "RoteName": "Mysterium Rote: Watch Over My House",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "Through force of personality and a measure of cleverness, a member of the Mysterium can bind a spirit to the defense of a person, place or thing. Free Council mages make use of similar magic, though their methods are often considered more understanding and perhaps kinder.",
-        "DescrizioneBreve": "bind Spirit to a target as a guardian"
+        "DescrizioneBreve": "bind Spirit to a target as a guardian",
+        "Book": "M:tA 253"
     },
     {
         "Titolo": "Spirit Possession",
@@ -829,14 +882,16 @@ const spiritFourData = [
         "RoteName": "Silver Ladder Rote: Breaking the Horse",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Spirit vs. Resistance",
         "RoteDescrizione": "Ladder mages use this rote for any number of reasons. A powerful enemy can be transformed into an ally by allowing a friendly spirit to possess him, for example, or a problematic Sleeper can be made to seem like a delusional madman. Free Council mages use a different method in their own magic (Intelligence + Persuasion + Spirit), but the effect is essentially the same.",
-        "DescrizioneBreve": "grant Spirit the Possession Numen"
+        "DescrizioneBreve": "grant Spirit the Possession Numen",
+        "Book": "M:tA 253"
     },
     {
         "Titolo": "Spiritual Ascension",
         "Arcana": "“Unwinding Fleshly Bonds“) (Life •••• + Spirit ••••",
         "RoteDice": "Intelligence + Occult + Life",
         "RoteDescrizione": "This spell works like the Forces spell “Fiery Transformation,” save that instead of turning the caster into a creature of fire, it allows the caster to turn his physical body into spiritual ephemera. Unlike with the spell “Spirit Road” or similar magics, this is not simply transferring the body into Twilight or Shadow. This actually changes the form into spiritual essence.<p>At Life •••••, this spell can be used on other physical creatures by touch, and was most often used by Gaolers to transform Abyssal intrusions with physical bodies into spiritual entities in order to imprison them within the Codex.</p>",
-        "DescrizioneBreve": "transform user's body into Spirit ephemera"
+        "DescrizioneBreve": "transform user's body into Spirit ephemera",
+        "Book": "GoG 86"
     }
 ]
 
@@ -853,7 +908,8 @@ const spiritFiveData = [
         "RoteName": "Guardians of the Veil Rote: Watchman Between Worlds",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Survival + Spirit",
         "RoteDescrizione": "A more potent and versatile version of the “Place of Power” spell, this magic is used by Guardians of the Veil for the same purposes.",
-        "DescrizioneBreve": "alter Gauntlet in any location"
+        "DescrizioneBreve": "alter Gauntlet in any location",
+        "Book": "M:tA 254"
     },
     {
         "Titolo": "Dragon's Call",
@@ -867,7 +923,8 @@ const spiritFiveData = [
         "DescrizioneMiddle": "The target number of successes is determined as follows. The base is 10 successes. Add one success for every point of the Hallow’s rating below five (so a one-dot Hallow adds four successes to the required total). Add one success if the resonance of the Hallow is directly opposed to the Realm that the mage is trying to reach (Storyteller’s discretion). Add one success if the character is trying to call on a specific dragon. Add one success if the dragon in question is unlikely to be found in the Realm that the mage is trying to reach (again, Storyteller’s discretion).<p>This spell costs 10 Mana to cast. The mage can draw the Mana from the Hallow, from his own pool, or he can add any Mana he does not wish to pay as successes to the target number.</p><p>If the spell succeeds, the Hallow splits open and a dragon appears. Thus far, no dragon thus summoned has ever attacked the summoner, though Llana maintains that it could happen if the spell were cast improperly. The dragon can give the character information about whatever topic she might desire, especially news and descriptions of the Supernal Realms, new rotes, or weaknesses and powers of Abyssal creatures. The dragon always tells the cast to “find the World Dragon,” however.</p>",
         "RoteName": "Disciples of the World Dragon Rote",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Spirit",
-        "DescrizioneBreve": "call a Dragon from the Supernal inside a Hallow"
+        "DescrizioneBreve": "call a Dragon from the Supernal inside a Hallow",
+        "Book": "KST 149"
     },
     {
         "Titolo": "Invoke Twilight",
@@ -882,7 +939,8 @@ const spiritFiveData = [
         "RoteName": "Guardians of the Veil Rote: Fourth Dimension",
         "RoteDice": "<b>Dice Pool:</b> Presence + Science + Spirit",
         "RoteDescrizione": "Exploring Astral Space becomes less arduous when a Guardian can create a spirit servitor to slip through the newly created Twilight and reconnoiter.",
-        "DescrizioneBreve": "create a state of Twilight in an Astral Realm"
+        "DescrizioneBreve": "create a state of Twilight in an Astral Realm",
+        "Book": "AR 29"
     },
     {
         "Titolo": "Materialize Spirit",
@@ -897,7 +955,8 @@ const spiritFiveData = [
         "RoteName": "Adamantine Arrow Rote: Descending from Heaven",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Spirit",
         "RoteDescrizione": "Despite the name of this rote, it need not be used on angelic or beatific spirits. Indeed, it is most commonly cast on hostile and malevolent entities so that Arrow willworkers and their allies can bring the fight directly to the beings. Conversely, a friendly spirit can be incarnated, whether in combat or in time of peace.",
-        "DescrizioneBreve": "force Spirit to materialize	"
+        "DescrizioneBreve": "force Spirit to materialize	",
+        "Book": "M:tA 254"
     },
     {
         "Titolo": "Secret Marriage",
@@ -912,7 +971,8 @@ const spiritFiveData = [
         "RoteName": "Adamantine Arrow Rote: Resurrect the Fallen Hero",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death (or Spirit)",
         "RoteDescrizione": "Heroes of the Arrow who die in the cause of duty are sometimes brought back as clawed, iron-clad killing machines — a consummation devoutly to be wished.",
-        "DescrizioneBreve": "bind Spirit to a homunculus"
+        "DescrizioneBreve": "bind Spirit to a homunculus",
+        "Book": "TotM 152"
     },
     {
         "Titolo": "Shadow Slave",
@@ -927,7 +987,8 @@ const spiritFiveData = [
         "RoteName": "Silver Ladder Rote: Call to Darkness",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Spirit",
         "RoteDescrizione": "Unthinking obedience and a terrifying presence combine in this Silver Ladder rote to create a fantastically efficient servitor. Mysterium mages sometimes use a variant (Intelligence + Intimidation + Spirit) to similar effect.",
-        "DescrizioneBreve": "create animate shadow spirits"
+        "DescrizioneBreve": "create animate shadow spirits",
+        "Book": "M:tA 255"
     },
     {
         "Titolo": "Shape Spirit",
@@ -942,7 +1003,8 @@ const spiritFiveData = [
         "RoteName": "Free Council Rote: Transformation of the Timeless",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Spirit vs. Resistance",
         "RoteDescrizione": "By way of this magic, a Council willworker can utterly transform a spirit, changing its strengths, powers and even fundamental nature, or else create a spirit where none existed before. Some use this rote to make an intractable or dangerous spirit more pliant or friendly, while others do so to fortify an allied spirit, and still others in order to custom craft an ephemeral entity for a specific purpose.",
-        "DescrizioneBreve": "create or alter Spirit natures"
+        "DescrizioneBreve": "create or alter Spirit natures",
+        "Book": "M:tA 255"
     },
     {
         "Titolo": "Spirit Court",
@@ -957,7 +1019,8 @@ const spiritFiveData = [
         "RoteName": "Silver Ladder Rote: Throne of the Celestial Potentate",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Spirit",
         "RoteDescrizione": "By claiming lordship within the hierarchies of the spirit world, a Silver Ladder mage can strengthen his aspirations to leadership among mortals. The use of this rote can entail a great deal of peril, as the willworker is sometimes embroiled in millennia-old allegiances, conflicts and rivalries, but many in the order would argue that such danger is truly worth its potential rewards.",
-        "DescrizioneBreve": "establish yourself in Spirit hierarchy"
+        "DescrizioneBreve": "establish yourself in Spirit hierarchy",
+        "Book": "M:tA 255"
     },
     {
         "Titolo": "Spirit Manse",
@@ -972,7 +1035,8 @@ const spiritFiveData = [
         "RoteName": "Mysterium Rote: Spirit Sanctum",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Spirit",
         "RoteDescrizione": "With this rote, a Mysterium mage can craft a stronghold far from the prying eyes of ordinary mortals. Despite the dangers inherent to doing so, such a domain has its advantages.",
-        "DescrizioneBreve": "create bulwarks in Shadow"
+        "DescrizioneBreve": "create bulwarks in Shadow",
+        "Book": "M:tA 256"
     },
     {
         "Titolo": "Summon Royal Avatar",
@@ -987,7 +1051,8 @@ const spiritFiveData = [
         "RoteName": "Silver Ladder Rote: Descent of Kings",
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Spirit",
         "RoteDescrizione": "As they did in times of old, modern théarchs still dare to summon individual facets of the gods, themselves, when the need is dire. Throughout the ages, this incredibly dangerous spell has passed out of the exclusive lore of the Silver Ladder and into the hands of willworkers of all orders.",
-        "DescrizioneBreve": "call to an avatar of a royal spirit (Rank 6+)"
+        "DescrizioneBreve": "call to an avatar of a royal spirit (Rank 6+)",
+        "Book": "Summ 27"
     }
 ]
 

@@ -44,6 +44,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Matter",
         "RoteDescrizione": "A common tactic of modern law enforcement and military personnel is to cut the power to a location shortly before storming it. Adamantine Arrow mages also make use of this tactic by way of this rote. Conversely, those with access to the Forces Arcanum occasionally grant conductivity to substances not normally possessing such a characteristic, in order to electrocute their enemies in combat.",
         "DescrizioneBreve": "make or prevent conduction in a substance",
+        "Book": "M:tA 194"
     },
     {
         "Titolo": "Breach Point",
@@ -59,6 +60,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Athletics + Matter",
         "RoteDescrizione": "No barrier can ward away the weapons and offensive magics of a dedicated Arrow. This rote enables such a mage to penetrate even the most stalwart defenses, striking at the enemies of the Pentacle, no matter how or where they might try to hide from the perils of battle.",
         "DescrizioneBreve": "use successes to pierce cover",
+        "Book": "AA 181"
     },
     {
         "Titolo": "Crafter's Eye",
@@ -74,6 +76,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts or Science + Matter",
         "RoteDescrizione": "Often the most difficult part of effecting repairs is figuring out the problem. Whereas the “Diagnostic Scan” rote (see <b>Mage: The Awakening</b>, p. 195) informs the caster of an object’s composition, this rote determines the object’s status. In particular, the mage learns whether or not a piece of technology is functional, how functional (if so) and how damaged (if not).",
         "DescrizioneBreve": "counter Matter spells",
+        "Book": "M:tA 194"
     },
     {
         "Titolo": "Craftsman's Eye",
@@ -88,6 +91,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation or Science + Matter",
         "RoteDescrizione": "Elaborate moving-part puzzles and ancient machines of unknown purpose, among many other things, can be deciphered by means of this Mysterium rote. Free Council mages are also known to favor such magic in their work to modernize the face of magic.",
         "DescrizioneBreve": "gain insight to make repairs",
+        "Book": "FC 110"
     },
     {
         "Titolo": "Counterspell",
@@ -100,6 +104,7 @@ const matterOneData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
         "DescrizioneBreve": "analyze workings of mechanical operations",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Dark Matter",
@@ -115,6 +120,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "Guardians often find the ability to perceive “heavy” resonance useful in the course of their tasks. Such influences can have a profound impact on both the Awakened and Sleeping worlds, often on such a deep-rooted and basic level as to be virtually invisible to more refined senses.",
         "DescrizioneBreve": "Mage Sight",
+        "Book": "M:tA 194"
     },
     {
         "Titolo": "Detect Substance",
@@ -157,6 +163,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Composure + Matter",
         "RoteDescrizione": "This rote gets its name from mages who use it to seek out precious metals in old abandoned attics, basements, mines and the like (though some think it refers to dragons’ hoards from truly ancient days). Silver Ladder mages use it to detect the presence of that which they seek, whether such is lost treasure or just a measure of leverage in a conversation or hostile encounter.",
         "DescrizioneBreve": "locate chosen substance in area",
+        "Book": "M:tA 195"
     },
     {
         "Titolo": "Discern Composition",
@@ -172,6 +179,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts or Science + Matter",
         "RoteDescrizione": "As many Council willworkers will gladly admit, the first step to changing a thing lies in understanding that thing. This rote is used to discern the fundamentals of an object’s composition. Mysterium mages often use slightly different magic (Intelligence + Crafts or Science + Matter) to accomplish the same ends.",
         "DescrizioneBreve": "identify components of a substance",
+        "Book": "M:tA 195"
     },
     {
         "Titolo": "Eye for Destruction",
@@ -187,6 +195,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts (for objects) or Occult (for the animate dead) + Matter",
         "RoteDescrizione": "Rob an enemy of his arms and armor, and the fight is already half over. So goes the philosophy behind this Adamantine Arrow spell.",
         "DescrizioneBreve": "increase effectiveness of strikes on an object",
+        "Book": "TotM 19"
     },
     {
         "Titolo": "Find the Hidden Hoard",
@@ -202,6 +211,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Matter",
         "RoteDescrizione": "With this rote, a Mysterium willworker is capable of detecting the presence of unseen spaces within seemingly solid structures.",
         "DescrizioneBreve": "locate hidden compartments in an object",
+        "Book": "M:tA 195"
     },
     {
         "Titolo": "Sense Poisons and Drugs",
@@ -217,6 +227,7 @@ const matterOneData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Science + Matter",
         "RoteDescrizione": "The Militant Auditing cult uses this rote to detect attempts by so-called suppressive persons to drug or poison cult members. The cult is paranoid by policy and requires members to use the rote on everything from restaurant takeout to hotel rooms.",
         "DescrizioneBreve": "detect and understand effects of substance",
+        "Book": "Ban 58"
     }
 ]
 
@@ -235,6 +246,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Crafts or Occult + Matter",
         "RoteDescrizione": "Adamantine Arrow mages are quick to turn any useful innovation to defense and this rote is no exception. Swords, knives or even simple sticks can be made deadly, and common house tools can be made better.",
         "DescrizioneBreve": "grant 9-Again to a weapon",
+        "Book": "M:tA 196"
     },
     {
         "Titolo": "Control Object",
@@ -250,6 +262,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Persuasion + Matter",
         "RoteDescrizione": "In addition to commanding other mages, members of the Silver Ladder also often learn to command various facets of the natural world. The mage typically addresses the object with tones of great authority, invoking the ancient relationship between the world and the willworker.",
         "DescrizioneBreve": "make object perform function within the object's capabilities",
+        "Book": "SL 198"
     },
     {
         "Titolo": "Deceptive Appearance",
@@ -265,6 +278,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Matter",
         "RoteDescrizione": "When removing magical objects from the hands of the unworthy, sometimes guile works better than force, and an individual’s own greed may well convince him that trading the simple box for that large lump of gold is a good trade, especially if he does not realize the box’s magical potential. Mystagogues frequently use this rote to temporarily give a worthless item the appearance of value in order to trade the item for magical items, Artifacts, or tomes containing mysteries that have fallen into undeserving hands. Although some might say the practice is immoral, the Mysterium feels it is sometimes a preferable alternative to violent or potentially deadly conflict over the acquisition of such items.",
         "DescrizioneBreve": "disguise object without changing function",
+        "Book": "Myst 197"
     },
     {
         "Titolo": "Eyes of the Earth",
@@ -280,6 +294,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Matter",
         "RoteDescrizione": "As members of the Free Council well understand, mages unskilled in the Arcanum of Matter can sometimes benefit from enhanced material perceptions. Silver Ladder willworkers use their own magic (Presence + Occult or Science + Matter) to bestow such revelations upon others.",
         "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 196"
     },
     {
         "Titolo": "Find the Cornerstone",
@@ -295,6 +310,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Matter",
         "RoteDescrizione": "That single can at the foot of the stack can bring the whole pyramid crashing down. The trick lies in finding it. Pulling it out is the easy part.",
         "DescrizioneBreve": "locate weak point in structure",
+        "Book": "L:tA 61"
     },
     {
         "Titolo": "Loosen the Threads",
@@ -310,6 +326,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Larceny + Life or Matter",
         "RoteDescrizione": "In their constant search for lost magic and due to their tendency to come up against odd combinations of materials that do not always respond to magic from a single Arcana, the Mysterium has devised this rote for handling objects that blend together unusual materials, such as living plant matter with monofilament wire, etc.",
         "DescrizioneBreve": "open locks, knots, loosen doors",
+        "Book": "GoG 103"
     },
     {
         "Titolo": "Shape Liquid",
@@ -368,6 +385,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Occult + Matter",
         "RoteDescrizione": "Mysterium mages find this rote most useful for uncovering artifacts buried in shallow water or for allowing spellcasters to ford a river and restore its natural flow before pursuers arrive.",
         "DescrizioneBreve": "give Durability and form to liquids",
+        "Book": "M:tA 196"
     },
     {
         "Titolo": "Steel Windows",
@@ -383,6 +401,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts or Occult + Matter",
         "RoteDescrizione": "Sometimes, a Guardian is an investigator, sometimes an assassin, and sometimes she must be a spy. This rote enables a mage to literally see through walls that occlude her activities. While the transparency or opacity of the affected material goes both ways, a clever willworker can find ways to use such magic to her advantage.",
         "DescrizioneBreve": "make touched substance transparent",
+        "Book": "M:tA 197"
     },
     {
         "Titolo": "Temporary Repair",
@@ -397,6 +416,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "With a swift kick or thump and an exclamation like 'Work!,' the caster can bring otherwise dead machines roaring back to life. It's a short-term solution, but very useful in a pinch.",
         "DescrizioneBreve": "cause a broken machine to work",
+        "Book": "FC 111"
     },
     {
         "Titolo": "Transmute Water",
@@ -449,6 +469,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "Guardians of the Veil find this rote useful for preventing an enemy’s escape by automobile, turning gasoline to water. Of course, at this level of casting, touching the gas to affect its adjacent volume can be tricky, but that’s what siphons are for.",
         "DescrizioneBreve": "alter composition of a liquid",
+        "Book": "M:tA 197"
     },
     {
         "Titolo": "Unseen Aegis",
@@ -464,6 +485,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "This rote defends a Free Council mage behind a shield of lifeless elements: air, water and whatever else is nearby. Many Mysterium mages use a similar rote (Intelligence + Occult + Matter) that owes more to alchemy than chemistry.",
         "DescrizioneBreve": "Shielding",
+        "Book": "M:tA 197"
     },
     {
         "Titolo": "Weaponize Object",
@@ -479,6 +501,7 @@ const matterTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts + Matter",
         "RoteDescrizione": "An Arrow who uses this rote is guaranteed an arsenal wherever he goes: a broom handle becomes a quarterstaff, a letter opener becomes a dagger, a length of thesline becomes a whip.",
         "DescrizioneBreve": "make Improvised Weapons formidable",
+        "Book": "AA 181"
     }
 ]
 
@@ -497,6 +520,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Medicine + Matter",
         "RoteDescrizione": "From ancient Atlantis to the modern day, the Adamantine Arrow has been asked to shed its blood for others. In time, the Arrows learned to turn their blood into a weapon. Adamantine Arrow scholars claim they can trace use of this rote to the days when the Arrows led the forces of Atlantis in battle against poorly armored enemies of the Awakened City. The rote is still useful today against violent shapechangers, combative familiars and other aggressive denizens of the world unseen by Sleepers.",
         "DescrizioneBreve": "cause acid damage upon injury",
+        "Book": "AA 182"
     },
     {
         "Titolo": "Alter Integrity",
@@ -512,6 +536,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "Silver Ladder mages use this rote to fortify or destroy the material integrity of objects. A car door can be rendered almost indestructible during a firefight, or a stone wall made brittle enough to be damaged with a single stout blow. Adamantine Arrow willworkers use their own version of the same magic (Wits + Crafts + Matter) in the defense of their fellows.",
         "DescrizioneBreve": "increase or decrease Durability",
+        "Book": "M:tA 198"
     },
     {
         "Titolo": "Alter Raiment",
@@ -527,6 +552,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Matter",
         "RoteDescrizione": "Sometimes a Guardian needs to move from one setting to another as quickly as possible; with this spell, he can be properly attired to blend in with any crowd. If pursued by enemies, the mage can quickly duck out of sight and significantly alter his guise, while his pursuers search for sartorial details that no longer exist.",
         "DescrizioneBreve": "change appearance of clothing",
+        "Book": "GotV 190"
     },
     {
         "Titolo": "Animate Object",
@@ -542,6 +568,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Matter",
         "RoteDescrizione": "Silver Ladder mages use this rote to create butlers, maids and other menial laborers from simple stick-figure armatures they pre-craft for this purpose.",
         "DescrizioneBreve": "grant object locomotion",
+        "Book": "S&S 145"
     },
     {
         "Titolo": "Animate Object",
@@ -557,6 +584,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Matter",
         "RoteDescrizione": "Members of the Silver Ladder prefer to have allies working by their sides, even if these allies sometimes include animate furniture. As with the above rote, the théarch typically addresses the object as if it were already a sworn ally, calling upon old allegiances.",
         "DescrizioneBreve": "grant object sentience and animation	",
+        "Book": "SL 199"
     },
     {
         "Titolo": "Armor Piercing",
@@ -595,6 +623,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts + Matter",
         "RoteDescrizione": "Even the most heavily armored foe can be laid low by an Arrow mage with this rote. Bullets pierce ceramic plates as though they were tissue paper, and even a seemingly crude blade penetrates the most advanced forms of protection. Guardians of the Veil use their own rote (Wits + Crafts + Matter) to enhance their weaponry.",
         "DescrizioneBreve": "grant weapon AP",
+        "Book": "M:tA 198"
     },
     {
         "Titolo": "Backbite",
@@ -610,6 +639,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Firearms or Weaponry (depending on the type of weapon affected) + Matter",
         "RoteDescrizione": "The Guardians of the Veil have been known to let themselves be captured and disarmed, knowing that their weapons cannot be used against them (until they cancel the spell).",
         "DescrizioneBreve": "cause touched weapon to strike wielder	",
+        "Book": "GotV 190"
     },
     {
         "Titolo": "Books of Metal",
@@ -625,6 +655,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Craft + Matter",
         "RoteDescrizione": "A Forge Master brought the Free Council this rote, which enables a mage to turn any object of metal into a grimoire. The only visible sign to alert other mages to the hidden grimoire is a symbol stamped in the metal. The symbol itself is not magical; it is typically the mage’s personal monogram. Many variations are possible. For instance, a Powersmith could bind a rote into a ring, re-learn the rote and so gain the grimoire’s benefit to casting the rote whenever he wore the ring. Forge Masters in the Adamantine Arrow sometimes turn weapons into grimoires, so they can gain the same benefit by turning the rote mudra into a weapon-flourish. A few Guardians of the Veil use this rote to record their secrets.",
         "DescrizioneBreve": "create a metallic Grimoire",
+        "Book": "L:tA 78"
     },
     {
         "Titolo": "Bundle Enhancements",
@@ -640,6 +671,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "Access to Enchanted Items is one of the perks of power for high-ranking climbers of the Silver Ladder. Many a promising mid-level operative has been routed to the order’s laboratories, to churn out enchantments for his superiors. This rote is basic to the task.",
         "DescrizioneBreve": "item crafting, alternate relinquishment cost - all matter based finishing spells count as one spell",
+        "Book": "TotM 128"
     },
     {
         "Titolo": "Enhance Toxin",
@@ -655,12 +687,14 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Animal Ken (for a poison or venom still inside an animal) or Science + Matter",
         "RoteDescrizione": "From their earliest days, certain among the servants of the Lie have resorted to the envenomed dagger and the poisoned chalice as tools of their masters’ control. Even now, Seers continue this insidious science, refining the vicious tools of their trade to levels wholly unseen in nature.",
         "DescrizioneBreve": "increase the Toxicity of a poison by 1/success",
+        "Book": "SotT 192"
     },
     {
         "Titolo": "Gift of the Unseen Aegis",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "As with the Matter 2 “Unseen Aegis” spell, p. 293, but the mage can now cast this magic upon others.",
         "DescrizioneBreve": "grant Shielding",
+        "Book": "MET: Awakening"
     },
     {
         "Titolo": "Jury-Rig",
@@ -676,6 +710,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "Mysterium mages find a wide variety of uses for this rote. A last-resort handgun can be integrated into a stapler or a hairdryer, for example, or a pen and a flashlight can be merged to produce a writing implement that provides its own illumination (for taking notes in the dark). Some Guardians of the Veil transpose a number of different objects into one another to create elaborate multipurpose tools for all situations.",
         "DescrizioneBreve": "transfuse properties of objects",
+        "Book": "M:tA 198"
     },
     {
         "Titolo": "Manufacture Drop",
@@ -691,6 +726,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Matter",
         "RoteDescrizione": "During investigations into indiscreet uses of magic, Guardian agents may make use of a pocketful of liquid information-gathering spells they themselves are unable to work.",
         "DescrizioneBreve": "item crafting, gross matter - gain preception altering spell",
+        "Book": "TotM 148"
     },
     {
         "Titolo": "Manufacture Medication",
@@ -770,6 +806,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Matter",
         "RoteDescrizione": "An EpiPen full of healing magic has saved the life of many an Adamantine Arrow guerrilla.",
         "DescrizioneBreve": "item crafting, gross matter - spell that acts on biology",
+        "Book": "TotM 147"
     },
     {
         "Titolo": "Manufacture Oil or Jelly",
@@ -785,6 +822,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Matter",
         "RoteDescrizione": "Free Council technophiles often carry around vials of oil ready to heal ailing machines, or to unobtrusively sabotage the operations of functioning items.",
         "DescrizioneBreve": "item crafting, gross matter - spell that alters an object",
+        "Book": "TotM 147"
     },
     {
         "Titolo": "Manufacture Powder",
@@ -800,6 +838,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Matter",
         "RoteDescrizione": "Explosive effects that can be detonated from afar provide a wide array of tactical options to explorers of lost cities, forgotten ruins and the hermetically sealed vaults of rival willworkers.",
         "DescrizioneBreve": "item crafting, gross matter - area effect spell",
+        "Book": "TotM 147"
     },
     {
         "Titolo": "Manufacture Salve",
@@ -815,6 +854,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Matter",
         "RoteDescrizione": "Before battle, commandos of the Adamantine Arrow douse themselves in armoring unguents, such as those imprinted with the Life 3 spell “Organic Shield.”",
         "DescrizioneBreve": "item crafting, gross matter - contains protective spell",
+        "Book": "TotM 147"
     },
     {
         "Titolo": "Manufacture Spray",
@@ -830,6 +870,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Matter",
         "RoteDescrizione": "Silver Ladder potentates often equip their underlings with sprayers laced with mind-influencing spells, allowing them to exact compliance from bureaucrats, functionaries and gatekeepers.",
         "DescrizioneBreve": "item crafting, gross matter - spell that harms or manipulates an entity",
+        "Book": "TotM 147"
     },
     {
         "Titolo": "Perfect Lock",
@@ -845,6 +886,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "For all the Guardians’ reputation as remorseless killers, the Guardians of the Veil do, on occasion, take prisoners. Mages are notoriously difficult to contain. However, this rote lets them briefly imprison any mage who lacks the Space Arcana. There are applications of this spell that combine with warding spells to create a temporary prison cell from which few mages (though certainly not all) can escape.",
         "DescrizioneBreve": "bind a sealed door to adjoining wall",
+        "Book": "GotV 191"
     },
     {
         "Titolo": "Plasticity",
@@ -860,6 +902,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Matter",
         "RoteDescrizione": "This rote has seen use by Mysterium mages for innumerable purposes. Any source of normally hard material can be shaped into almost any simple tool as needed. A massive stone or metal door can be bent like a slab of clay, or a hostile mage’s weapon can be rendered soft, pliant and useless. Adamantine Arrow mages sometimes use this rote to create improvised weapons and armor.",
         "DescrizioneBreve": "make substance malleable",
+        "Book": "M:tA 199"
     },
     {
         "Titolo": "Reassembly",
@@ -875,6 +918,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Craft + Matter",
         "RoteDescrizione": "For Mysterium archeologists, this spell means that finding a small fragment of an ancient artifact is the same as finding the entire artifact. Given the antiquity of many of the items these intrepid scholars seek, this spell has proven invaluable in their efforts.",
         "DescrizioneBreve": "summon pieces of an object to make it whole",
+        "Book": "Myst 198"
     },
     {
         "Titolo": "Repair Object",
@@ -890,6 +934,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Matter",
         "RoteDescrizione": "Mysterium mages use this rote to mend even the most badly damaged objects and are capable of restoring them to perfect functionality.",
         "DescrizioneBreve": "restore Structure",
+        "Book": "M:tA 199"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -901,6 +946,7 @@ const matterThreeData = [
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
         "DescrizioneBreve": "(Moros only) call an Apeiron from Stygia, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Transmute Earth",
@@ -916,6 +962,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "This classic act of alchemical wizardry sees use by many mages of the Silver Ladder. A flimsy card table could be overturned and transformed into a steel barrier, or a stout door could be turned into cheap glass. Naturally, this useful magic is practiced by members of all orders with sufficient skill in the Matter Arcanum.",
         "DescrizioneBreve": "alter composition of a substance",
+        "Book": "M:tA 200"
     },
     {
         "Titolo": "Verminous Metamorphosis",
@@ -962,6 +1009,7 @@ const matterThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Animal Ken + Life",
         "RoteDescrizione": "Council willworkers use this rote to buy precious time when being pursued by those hostile to them, or to sow confusion and fear among foes. Silver Ladder mages use their own version of the rote (Intelligence + Animal Ken + Life) to turn even random detritus into a weapon against enemies.",
         "DescrizioneBreve": "transform object into swarm of vermin",
+        "Book": "M:tA 200"
     }
 ]
 
@@ -980,6 +1028,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts or Science + Matter",
         "RoteDescrizione": "When the mundane devices a Guardian depends upon in his work don’t quite measure up to his needs, he can turn to this rote to improve their performance. Free Council willworkers often make use of this same rote to enhance equipment as needed.",
         "DescrizioneBreve": "grant Equipment bonus to mechanical tool",
+        "Book": "M:tA 201"
     },
     {
         "Titolo": "Annihilate Matter",
@@ -995,6 +1044,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult or Science + Matter",
         "RoteDescrizione": "On occasion, protecting lives involves breaking things. Sometimes an Arrow mage needs to get heavy debris off of someone quickly, or must break through a wall, annihilate a weapon, or destroy an animate pile of lifeless matter. Guardians of the Veil use the same rote in the course of their work as well.",
         "DescrizioneBreve": "inflict Structure damage to non-magical object",
+        "Book": "M:tA 201"
     },
     {
         "Titolo": "Chimerical Manifestation",
@@ -1007,6 +1057,7 @@ const matterFourData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "The mage must focus on a particular object in Astral Space; his sympathetic connection to the object modifies the casting roll. (Consider any object the mage has encountered in his own Oneiros — including objects brought from other realms of Astral Space — to be intimately connected to him.) When the object manifests, it appears identical to the astral object in every way.",
         "DescrizioneBreve": "apport a regular/magical item from Astral Space",
+        "Book": "AR 117"
     },
     {
         "Titolo": "Duplication",
@@ -1022,6 +1073,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "Occasionally, someone would notice the theft of a valuable artifact too quickly for the thief to escape and other times, even an ally may have an artifact worthy of careful study that she does not wish to part with. In these and other cases, the Mysterium employs this rote to allow the order to obtain a valuable item without depriving its owner of it.",
         "DescrizioneBreve": "form object from pattern out of similar components",
+        "Book": "Myst 198"
     },
     {
         "Titolo": "Fold Object",
@@ -1037,6 +1089,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Matter",
         "RoteDescrizione": "It’s said that this rote was created by an Arrow master who liked his apprentices to stow their gear as efficiently as possible. It’s not only a way to fit lots of gear in a small space, it enables Arrows who need to appear unarmed to pack a hidden weapon or two... just in case.",
         "DescrizioneBreve": "convert object to a two-dimensional image",
+        "Book": "AA 182"
     },
     {
         "Titolo": "Improve Quality",
@@ -1052,6 +1105,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Matter",
         "RoteDescrizione": "Seers of the Ministry use this rote to keep themselves in luxury, updating their possessions to this year’s fads and always having the latest designer gadget.",
         "DescrizioneBreve": "change appearance of object, but not efficiency",
+        "Book": "SotT 192"
     },
     {
         "Titolo": "Lesser Transmogrification",
@@ -1067,6 +1121,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "Mages of the Silver Ladder use this rote to remodel a rival’s sanctum, perhaps transforming furniture into oil and sturdy walls into paper, teaching others that nothing is safe from their Art.",
         "DescrizioneBreve": "change liquids to solids",
+        "Book": "M:tA 201"
     },
     {
         "Titolo": "Reconfigure Object",
@@ -1081,6 +1136,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Matter",
         "RoteDescrizione": "Silver Ladder mages can exert their will even over the shape of lifeless matter through use of this rote, reshaping such objects into more useful forms. Mages of all orders with sufficient training in the Matter Arcanum make use of this rote.",
         "DescrizioneBreve": "change form of object",
+        "Book": "M:tA 201"
     },
     {
         "Titolo": "Secret Compartment",
@@ -1096,6 +1152,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "Won-Il Hwang is famous in certain circles because of his willingness to travel around the globe in pursuit of sorcerers. He routinely smuggles weapons, chemicals, and explosives by creating hidden compartments wherever he goes. Hwang’s also created several caches in different locations — mostly around airports or famous landmarks. If pursued, he’ll fall back to one of these locations, resupply, and turn the tables on his enemies. Hwang drew on his professional experience as an engineer to develop the rote. He designs hidden chambers in his mind but needs Supernal power to create them.",
         "DescrizioneBreve": "create a hidden hollow area in solid matter",
+        "Book": "Ban 58"
     },
     {
         "Titolo": "Shape Air",
@@ -1148,6 +1205,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Matter",
         "RoteDescrizione": "With this rote, Adamantine Arrow mages literally blow down their enemies and are rendered effectively immune to the use of biochemical gaseous agents, as they prevent such gases from coming anywhere close by.",
         "DescrizioneBreve": "alter form of gaseous substances",
+        "Book": "M:tA 201"
     },
     {
         "Titolo": "Stone Servitor",
@@ -1163,6 +1221,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "Sometimes, you just can’t entrust your safety to another human being, no matter how well-meaning or loyal. Sometimes, you need a creature incapable of treachery or even the smallest forms of disobedience. For mages of the Silver Ladder, this is a rote for those sorts of times.",
         "DescrizioneBreve": "animate sentient golem",
+        "Book": "TotM 32"
     },
     {
         "Titolo": "The Golem",
@@ -1178,6 +1237,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "The traditional Kabbalistic rote for the creation of a golem is a long and arduous ceremony, lasting as long as several days. First, the mage prepares and ritually cleanses an altar, which is draped with a brown cloth (representing Malkhut) and on which the Golem's form is laid out. The mage need not sculpt the Golem himself, if he so chooses. Once the Golem is in place, two black candles (for Binah) are lit at the head and foot of the Golem, and the mage begins to carve sacred runes into the body of the inert statue (both to represent Hod and to provide the additional duration from Atlantean runes). The mage then chants in the accented High Speech favored by Kabbalists for thirty minutes before beginning the invocation proper, which involves readings from scripture and invocations to the archangels of the sephiroth. The traditional target number aimed for by Kabbalists is nine: five applied to the spell's Potency and four to its Duration (allowing the Golem to exist for two days, or indefinitely if the caster is a Master, counting the Atlantean rune bonus), but the caster is free to set his own desired target number. Often, the rote concludes with the mage writing the Hebrew word Emet (“Life”) on the Golem's forehead and setting the conditional duration to specify that the Golem will be destroyed if the first letter is erased, rendering the word Meit (“Death”).",
         "DescrizioneBreve": "animate statue servitor",
+        "Book": "MT 41"
     },
     {
         "Titolo": "Transmute Air",
@@ -1193,6 +1253,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "The mages of the Mysterium are known for crawling into ancient tombs sealed for ages. This rote allows them to conjure fresh air into such dusty places.",
         "DescrizioneBreve": "alter composition of gaseous substance	",
+        "Book": "M:tA 202"
     },
     {
         "Titolo": "Transmute Gold",
@@ -1208,6 +1269,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Matter",
         "RoteDescrizione": "Guardian mages use this rote to punish those who think they can buy their way out of everything, rendering riches into dead leaves or clay.",
         "DescrizioneBreve": "alter substance to precious metals	",
+        "Book": "M:tA 202"
     },
     {
         "Titolo": "Transubstantiation of Content",
@@ -1223,6 +1285,7 @@ const matterFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Craft + Matter",
         "RoteDescrizione": "For every young Mysterium scholar looking to upgrade inherited texts to more technologically-driven and user-friendly forms, an older or more traditional member labors to distill useful knowledge from meaningless technobabble and superfluous gadgetry. In short, this rote facilitates cooperation between colleagues who might not otherwise have a frame of reference to understand each other’s efforts.",
         "DescrizioneBreve": "convert medium of information",
+        "Book": "Myst 199"
     }
 ]
 
@@ -1241,6 +1304,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Matter",
         "RoteDescrizione": "By expanding or compressing the amount of space between the atoms in an object, a Free Council mage can increase or decrease the subject’s size without altering any of its material qualities. Adamantine Arrow mages sometimes use this rote to hide secret weapons or other supplies on their persons.",
         "DescrizioneBreve": "increase or decrease Size of object",
+        "Book": "M:tA 203"
     },
     {
         "Titolo": "Annihilate Extraordinary Matter",
@@ -1256,6 +1320,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult or Science + Matter",
         "RoteDescrizione": "Even the most resilient of materials is not safe from an Arrow mage wielding this rote. Thaumium and other such substances can be destroyed by a willworker, stripping opponents of even the most powerful forms of protection or most puissant weapons.",
         "DescrizioneBreve": "inflict Structure damage to any object",
+        "Book": "M:tA 203"
     },
     {
         "Titolo": "Chimerical Conjuration",
@@ -1268,6 +1333,7 @@ const matterFiveData = [
         "Cost": "1 Mana",
         "DescrizioneMiddle": "This spell functions similarly to “Chimerical Manifestation,” but the effect is permanent.<p>The spell’s target number is equal to the chimerical item’s imbued item or Artifact rating (minimum 3). Casting this spell is an act of hubris, requiring a mage with a Wisdom higher than four dots to make a degeneration roll.</p>",
         "DescrizioneBreve": "tear an object from Astral Space",
+        "Book": "AR 118"
     },
     {
         "Titolo": "Construct Homunculus Form",
@@ -1445,6 +1511,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Matter",
         "RoteDescrizione": "Members of the Mysterium are by far the most promiscuous builders of homunculi. Some Mysterium mages manufacture bodies for sale or barter to others, never seeing life breathed into their creations.",
         "DescrizioneBreve": "accumulate components of homonculus",
+        "Book": "TotM 149"
     },
     {
         "Titolo": "Forge Thaumium",
@@ -1495,6 +1562,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Occult + Matter",
         "RoteDescrizione": "Named for the smith of the gods, this rote enables Silver Ladder mages to create thaumium, perhaps the most perfect of all substances. With this material, hostile magics can be deflected and grievous wounds can be inflicted upon foes. Adamantine Arrow mages who have attained mastery of this Arcanum are also known to make use of this rote.",
         "DescrizioneBreve": "item crafting, alloy",
+        "Book": "M:tA 203"
     },
     {
         "Titolo": "Greater Transmogrification",
@@ -1509,6 +1577,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Science + Matter",
         "RoteDescrizione": "The Free Council mages use this rote to do nearly anything imaginable with matter. Guardians of the Veil use the same rote in their work, erasing evidence of the paranormal through material transformation.",
         "DescrizioneBreve": "change liquids to solids to gasses",
+        "Book": "M:tA 204"
     },
     {
         "Titolo": "Petrification",
@@ -1524,6 +1593,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Crafts + Matter",
         "RoteDescrizione": "Man was once earth, and earth man will become: it’s one of the great secrets of the world. The user of this rote can call forth the earth from within someone, transforming her to elemental stone.",
         "DescrizioneBreve": "turn target to stone",
+        "Book": "L:tA 61"
     },
     {
         "Titolo": "Raw Creation",
@@ -1539,6 +1609,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Science + Matter",
         "RoteDescrizione": "The power to create materials out of thin air can be seen in some ways as godlike. Unsurprising, then, that the Silver Ladder devised this rote for just such a purpose. Any real material can be created and acted upon, either by mundane artifice or through other applications of this Arcanum. Free Council mages use a similar rote (Intelligence + Science + Matter), making use of “ambient energy,” “Dark Matter” or any number of other sources.",
         "DescrizioneBreve": "create substance",
+        "Book": "M:tA 204"
     },
     {
         "Titolo": "Self-Repairing Machine",
@@ -1554,6 +1625,7 @@ const matterFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Composure + Crafts + Matter",
         "RoteDescrizione": "Even if it is utterly destroyed, an object treated with this Mysterium rote can mend itself, reconstituting out of nothing more than powder and minuscule fragments if need be. Silver Ladder mages take a different approach (Presence + Crafts + Matter) to accomplish similar ends.",
         "DescrizioneBreve": "grant object ability to regenerate Structure",
+        "Book": "M:tA 204"
     }
 ]
 

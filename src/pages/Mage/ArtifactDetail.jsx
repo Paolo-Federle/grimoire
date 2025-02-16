@@ -4,8 +4,6 @@ import { useLocation } from 'react-router-dom';
 export default function ArtifactDetail(props) {
     const location = useLocation();
     const matchedArtifact = props.artifact
-    console.log(matchedArtifact)
-
 
     return (
         <div className='longTextContainer'>

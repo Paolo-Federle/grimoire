@@ -12,7 +12,8 @@ const primeOneData = [
         "RoteName": "Adamantine Arrow Rote: Artifact Hunt",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "No weapon is truly useful until its wielder comprehends its nature. Members of the Adamantine Arrow use this magic to learn the capabilities of enchanted items with which they come into contact, and to see if there are any strings attached to the use of such items. Given that a misunderstood Artifact is a dangerous Artifact, all orders make use of this rote.",
-        "DescrizioneBreve": "learn properties of Imbued, Enhanced or Artifact items"
+        "DescrizioneBreve": "learn properties of Imbued, Enhanced or Artifact items",
+        "Book": "M:tA 219"
     },
     {
         "Titolo": "Chronicle Resonance",
@@ -58,7 +59,8 @@ const primeOneData = [
         "RoteName": "Guardians of the Veil Rote: Piercing the Shroud of Days",
         "RoteDice": "<b>Dice Pool:</b> Wits + Investigation + Prime",
         "RoteDescrizione": "Not even the passage of time enables a fugitive to evade the scrutiny of a dedicated and capable Guardian. This rote helps such mages to piece together the trails of Resonance that might otherwise go cold and allow their quarries to escape justice.",
-        "DescrizioneBreve": "determine past magical events"
+        "DescrizioneBreve": "determine past magical events",
+        "Book": "TotM 20"
     },
     {
         "Titolo": "Copy Grimoire",
@@ -71,7 +73,8 @@ const primeOneData = [
         "RoteName": "Mysterium Rote: Illuminated Hand",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "Mystagogues copy grimoires such as the Corpus Mysteriorum to pass on its knowledge and demonstrate their devotion to knowledge. This rote is partly responsible for the order’s great storehouse of magical knowledge, but this rote can also be used to copy cursed books, spreading a corrupt tome throughout the Awakened community. Some cursed grimoires include an enchantment that compels readers to learn and use this rote to copy the monstrous knowledge within them.",
-        "DescrizioneBreve": "copy Grimoire, even if not understood"
+        "DescrizioneBreve": "copy Grimoire, even if not understood",
+        "Book": "Myst 48"
     },
     {
         "Titolo": "Counterspell",
@@ -83,7 +86,8 @@ const primeOneData = [
         "Aspect": "Covert",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
-        "DescrizioneBreve": "counter Prime spells"
+        "DescrizioneBreve": "counter Prime spells",
+        "Book": "M:tA 123"
     },
     {
         "Titolo": "Detect Banisher",
@@ -98,7 +102,8 @@ const primeOneData = [
         "RoteName": "Banisher Rote: Friendly Faces",
         "RoteDice": "<b>Dice Pool:</b> Wits + Composure + Prime",
         "RoteDescrizione": "More than one Banisher over the years has developed this rote, and in larger cults, it’s not too unlikely that someone winds up learning or creating it. Strength in numbers, after all.",
-        "DescrizioneBreve": "identify Banisher signatures"
+        "DescrizioneBreve": "identify Banisher signatures",
+        "Book": "Ban 62"
     },
     {
         "Titolo": "Discern Phantasm",
@@ -113,7 +118,8 @@ const primeOneData = [
         "RoteName": "Free Council Rote: Identifying the Unreal",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "No one appreciates being fooled, and Free Council willworkers use this rote to ascertain the unreality of Prime Arcanum phantasms. Silver Ladder mages make use of a similar rote, so that they might be aware of when they address the puppet and not its master.",
-        "DescrizioneBreve": "identify unreal objects	"
+        "DescrizioneBreve": "identify unreal objects	",
+        "Book": "M:tA 220"
     },
     {
         "Titolo": "Dispel Magic",
@@ -128,7 +134,8 @@ const primeOneData = [
         "RoteName": "Guardians of the Veil Rote: Unweaving the Flaw",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime vs. target spell’s Potency",
         "RoteDescrizione": "Attacking the magics of others is sometimes the most direct and practical means of protecting the secrecy of the hidden world. Guardians are not the only ones to use such magic, however. This useful rote is practiced by any mage with any degree of skill in the Prime Arcanum.",
-        "DescrizioneBreve": "unweave existing spells"
+        "DescrizioneBreve": "unweave existing spells",
+        "Book": "M:tA 220"
     },
     {
         "Titolo": "Ephemeral Postcognition",
@@ -143,7 +150,8 @@ const primeOneData = [
         "RoteName": "Mysterium Rote: Whence It Came",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Time",
         "RoteDescrizione": "Information moves not just forward, but also backward, in time for those with the skill necessary to obtain it. Some mystagogues summon strange spirits from the other worlds, simply to analyze their places of origin by way of this magic, thus advancing the state of Awakened knowledge.",
-        "DescrizioneBreve": "view recent past of Ephemeral entity"
+        "DescrizioneBreve": "view recent past of Ephemeral entity",
+        "Book": "Summ 210"
     },
     {
         "Titolo": "Gauge Essence",
@@ -158,7 +166,8 @@ const primeOneData = [
         "RoteName": "Silver Ladder Rote: Know Thy Enemy",
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Prime",
         "RoteDescrizione": "This spell is of old account among summoners, many of whom regard it as simple good business. Certain théarchs claim the spell actually predates the Fall, and it certainly would make sense were such the case. Some of the oldest texts from the Atlantean Diaspora speak of similar magics, causing certain summoners within the Ladder to point with pride to the venerable pedigree of their craft.",
-        "DescrizioneBreve": "determine quality and quantity of Essence held in a creature, place or object"
+        "DescrizioneBreve": "determine quality and quantity of Essence held in a creature, place or object",
+        "Book": "Summ 210"
     },
     {
         "Titolo": "Inscribe Grimoire",
@@ -173,7 +182,8 @@ const primeOneData = [
         "RoteName": "Silver Ladder Rote: Inscribing the Ineffable Words",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Expression + Prime",
         "RoteDescrizione": "Great leaders often record their wisdom for later generations, and willworkers of the Silver Ladder are no exception. By creating grimoires, teachers can pass on knowledge to their students, and some Ladder mages use the very grimoires they have penned to facilitate their own subsequent castings. Mages of all orders make use of this magic, thereby preserving their arts for the future.",
-        "DescrizioneBreve": "create Grimoire from known Rote"
+        "DescrizioneBreve": "create Grimoire from known Rote",
+        "Book": "M:tA 220"
     },
     {
         "Titolo": "Supernal Vision",
@@ -239,8 +249,9 @@ const primeOneData = [
         "RoteName": "Mysterium Rote: Eye of the Magus",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "Uncovering the hidden knowledge of the Awakened involves far more than the five mundane senses. Willworkers of the Mysterium use this magic to attune themselves to virtually any sort of paranormal phenomenon, detecting the presence of mystic artifacts and unseen spells. The mages of the Silver Ladder use this rote to discern the intricacies of nearby magical phenomena. After all, a diplomat from another Consilium carrying a small item heavily enchanted with potent Death magics may, in fact, be an assassin.",
-        "DescrizioneBreve": "Mage Sight, identify nature of aura"
-    }
+        "DescrizioneBreve": "Mage Sight, identify nature of aura",
+        "Book": "M:tA 221"
+    },
 ]
 
 const primeTwoData = [
@@ -257,7 +268,8 @@ const primeTwoData = [
         "RoteName": "Mysterium Rote: Claiming the Ancient Heritage",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Prime",
         "RoteDescrizione": "It happens on occasion that old words of power are lost and ancient lineages die out. Mysterium mages developed this rote as a means to make use of Artifacts for which no normal trigger can be deciphered or is possible.",
-        "DescrizioneBreve": "trigger Imbued Item at distance"
+        "DescrizioneBreve": "trigger Imbued Item at distance",
+        "Book": "M:tA 221"
     },
     {
         "Titolo": "Cleanse Aura",
@@ -272,7 +284,8 @@ const primeTwoData = [
         "RoteName": "Guardians of the Veil Rote: Scour Auric Verdigris",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Prime",
         "RoteDescrizione": "The Guardians well know the value of a clean aura, one that does not display any hint of where they might have been or what activities they might have been up to. Although this spell cannot hide their own personal mind or nature from others, Scour Auric Verdigris can cleanse any marks left by the spirits or places the Guardians occasionally have to deal with.",
-        "DescrizioneBreve": "remove outside influence from aura"
+        "DescrizioneBreve": "remove outside influence from aura",
+        "Book": "IEwtA 189"
     },
     {
         "Titolo": "Counterspell Prime",
@@ -287,7 +300,8 @@ const primeTwoData = [
         "RoteName": "Guardians of the Veil Rote: Rend the Weave",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "This rote enables a Guardian to stop magics before they can take effect, preserving the secrecy of the Awakened world with preemptive action. Silver Ladder willworkers have their own variant on this rote (Resolve + Occult + Prime) that wills offending sorceries out of existence.",
-        "DescrizioneBreve": "unweave spell being cast"
+        "DescrizioneBreve": "unweave spell being cast",
+        "Book": "M:tA 222"
     },
     {
         "Titolo": "Ephemeral Image",
@@ -302,7 +316,8 @@ const primeTwoData = [
         "RoteName": "Silver Ladder Rote: Ethereal Disguise",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Expression + Prime",
         "RoteDescrizione": "Whether they wish to ensure they are wearing the height of fashion or are attempting to impersonate someone by using an ID with the person’s name and their picture, this spell can be an invaluable tool for mages engaged in any form of intrigue.",
-        "DescrizioneBreve": "create two-dimensional illusion over flat surface"
+        "DescrizioneBreve": "create two-dimensional illusion over flat surface",
+        "Book": "SL 200"
     },
     {
         "Titolo": "Locate Node",
@@ -317,7 +332,8 @@ const primeTwoData = [
         "RoteName": "Hoodoo Rote: Find Crossroads",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "This rote must employ a wand created specifically for this purpose, though it can be used over and over so long as it remains dedicated to finding crossroads. The wand must be made from a tree made by the natural joining of two saplings of different types. It must lie beneath a full moon for three consecutive nights in three consecutive months. When looking for the crossroads, the mage must speak the name of whichever crossroads deity or saint she holds dearest, followed by “show me the way of power” three times before starting out.",
-        "DescrizioneBreve": "determine if a Node is in the area"
+        "DescrizioneBreve": "determine if a Node is in the area",
+        "Book": "MT 124"
     },
     {
         "Titolo": "Magic Shield",
@@ -332,7 +348,8 @@ const primeTwoData = [
         "RoteName": "Silver Ladder Rote: Aegis Magicus",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "Ladder willworkers often have to contend with hostile magics of one sort or another, so the order developed this rote to defend against such unwanted influences. All Awakened who are capable of doing so can enjoy the protection of this rote; only fools go without its protection when expecting trouble.",
-        "DescrizioneBreve": "gain Armor against Supernal magic"
+        "DescrizioneBreve": "gain Armor against Supernal magic",
+        "Book": "M:tA 222"
     },
     {
         "Titolo": "Manipulate Contingent Trigger",
@@ -347,7 +364,8 @@ const primeTwoData = [
         "RoteName": "Seers of the Throne Rote: Exchange the Secret Key",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "While it is true that every advantage counts in a conflict, so too does every enemy advantage that a willworker can counter. Thus, Seers of the Throne who pursue the secrets of the Prime and Fate Arcana learn to rob their foes of access to the spells concealed within certain objects of power.",
-        "DescrizioneBreve": "alter the trigger of an Imbued Item"
+        "DescrizioneBreve": "alter the trigger of an Imbued Item",
+        "Book": "SotT 194"
     },
     {
         "Titolo": "Paths of Power",
@@ -361,7 +379,8 @@ const primeTwoData = [
         "DescrizioneMiddle": "With a single success on the casting roll, the character sees ley lines as streams of bright greenish-blue power flowing through the earth. If no ley line is within the immediate line of sight of the mage, he can sense the direction of the nearest as a reflexive action.",
         "RoteName": "Tablets of U’mat Rote",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
-        "DescrizioneBreve": "see Ley Lines, or sense nearest"
+        "DescrizioneBreve": "see Ley Lines, or sense nearest",
+        "Book": "GoG 139"
     },
     {
         "Titolo": "Primal Flow",
@@ -376,7 +395,8 @@ const primeTwoData = [
         "RoteName": "Guardians of the Veil Rote: Mass Hallucination",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Prime",
         "RoteDescrizione": "There are times when it is beneficial to extend one’s mystic perceptions to another. Perhaps a single person can be shown too much and then marginalized as a potentially dangerous crackpot when he tries to convince others of what he has seen. At other times, allowing multiple Sleepers to perceive the same phenomenon can, with a measure of diligent effort, ultimately serve to convince them that nothing supernatural took place, that everything is normal.",
-        "DescrizioneBreve": "grant Mage Sight"
+        "DescrizioneBreve": "grant Mage Sight",
+        "Book": "M:tA 222"
     },
     {
         "Titolo": "Shadow Chess",
@@ -388,7 +408,8 @@ const primeTwoData = [
         "Aspect": "Covert (in the Shadow Realm) or vulgar (in the Material Realm)",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "Duelists within the “Shadow Chess” dueling circle prepare a dueling sword and shield, just as if they were fighting the standard Duel Arcane (see <b>Mage: The Awakening</b>, p. 286). Unlike a duel fought using “Squaring the Circle,” participants fight using spirit proxies called Dueling Pawns. The Pawns attack each other and the enemy mage.<p>Each success a mage scores with her dueling sword does not (and cannot) inflict damage to her enemy’s Willpower. Instead, each success temporarily generates a spirit out of the mage’s raw, emotionally charged magical power. This spirit accumulates traits just as if it had been created using the spell “Goetic Evocation” (see <b>Mage: The Awakening</b>, p. 325). The spirit resembles a cross between the mage’s sword, a spirit common to the local Shadow and the mage herself.</p><p>A Dueling Pawn serves the mage that created it faithfully. It cannot survive outside of a dueling circle, and dissipates the moment that the spell ceases. Dueling Pawns created with the Spirit 3 version of the spell are insubstantial to everyone but the duelists. There is, however, a Spirit 5 version of the spell where the Pawns are substantial to everyone inside the dueling circle.</p><p>Each turn, a dueling mage may use her sword to stack additional successes upon an existing Dueling Pawn, create a new Pawn or order her Pawns to attack or defend any other entity within the dueling circle. A mage can direct any number of Dueling Pawns by mental command as an instant action, but cannot create or enhance more Pawns or cast a spell in the same turn.</p><p>Pawns inflict damage on non-spirits using their own dice pools, but to Willpower first, then Health. They may injure other spirits normally. Any Numina they might acquire that would allow them to inflict direct Health damage conforms to the above rule, instead. A shield Arcanum subtracts dice from attacking Pawns’ dice pools as if it was Armor, but unlike a standard duel, mages may move about the local Shadow to “physically” evade attacks, and gain the benefits of Defense where applicable.</p><p>As they are inextricably linked to the sorcerer’s will, Dueling Pawns can provide energy to stave off psychic defeat. As a reflexive action, a mage can divert Willpower damage that he suffered to the Resistance of a Pawn. If this knocks a Pawn’s Resistance to zero, the mage suffers any excess damage and the Pawn is destroyed. Mages cannot sacrifice Pawns to stave off Health injuries however, so deadly Shadow duels often end in a quick, lethal “checkmate.”</p><p>There are “Sanguine” versions of this spell that allow Dueling Pawns to inflict lethal or aggravated damage. These require Prime 3 (to let Pawns inflict lethal damage) and Prime 5 (to let them inflict aggravated damage).</p>",
-        "DescrizioneBreve": "manifest Spirits for Duel Arcane"
+        "DescrizioneBreve": "manifest Spirits for Duel Arcane",
+        "Book": "TotM 124"
     },
     {
         "Titolo": "Sigilization",
@@ -434,14 +455,16 @@ const primeTwoData = [
         "RoteName": "Mysterium Rote: Seal of Authority",
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Prime",
         "RoteDescrizione": "Of all the orders, the Mysterium is perhaps the most obsessed with cataloguing things, including personal property. The Mysterium’s members use this rote to mystically mark things as theirs. Like other orders, they also use this rote in official communiqués, to prove that a letter or item comes from them.",
-        "DescrizioneBreve": "imprint Aura onto object"
+        "DescrizioneBreve": "imprint Aura onto object",
+        "Book": "S&S 37"
     },
     {
         "Titolo": "Spell Cloaks",
         "Arcana": "Prime ••• + Conjunctional Arcanum",
         "Cost": "1 Mana",
         "DescrizioneAlta": "A mage with Prime 2 can add a cloaking effect to his spells when he casts them, making them invisible to a mage’s Unseen Senses and making it harder for those with Mage Sight to notice the spell. He spends one Mana upon casting (in addition to any other Mana required for the spell).<p>Those with Mage Sight can make reflexive Wits + Occult rolls to notice the spell; otherwise, it remains undetected. Targets suffer a –1 dice penalty to this roll per point of Potency of the cloaked spell. If they have some reason to believe there is a cloaked spell nearby, or are scouring the area for supernatural clues anyway, they can see through the spell cloak by exceeding twice its Potency with their scrutiny successes.</p>",
-        "DescrizioneBreve": "makes spells invisible to a mage’s Unseen Senses and makes it harder for Mage Sight to reveal the spell"
+        "DescrizioneBreve": "makes spells invisible to a mage’s Unseen Senses and makes it harder for Mage Sight to reveal the spell",
+        "Book": "TotM 70"
     },
     {
         "Titolo": "Squaring the Circle",
@@ -455,7 +478,8 @@ const primeTwoData = [
         "RoteName": "Guardians of the Veil Rote: Squaring the Circle",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "It sometimes happens that the surest path to protecting the Mysteries involves allowing two willworkers to settle their dispute in a duel. Guardians of the Veil use this rote to give such irreconcilable mages the opportunity to settle their accounts in the ancient way. Silver Ladder mages also use this very rote for keeping peace within a Consilium or cabal.",
-        "DescrizioneBreve": "form grounds for Duel Arcane"
+        "DescrizioneBreve": "form grounds for Duel Arcane",
+        "Book": "Myst 202"
     },
     {
         "Titolo": "Supernal Script",
@@ -470,7 +494,8 @@ const primeTwoData = [
         "RoteName": "Mysterium Rote: The Enlightened Quill",
         "RoteDice": "<b>Dice Pool:</b> Wits + Expression + Prime",
         "RoteDescrizione": "As the preeminent scholars of the Awakened, members of the Mysterium have regular need of bottomless inkwells, especially inkwells that help keep their secrets and mysteries out of sight of meddling Sleepers. The practical uses of this utilitarian spell are nearly limitless, from hiding a grimoire inside a mundane book to leaving mage-only graffiti as a subtle warning.",
-        "DescrizioneBreve": "write text only the Sighted can detect"
+        "DescrizioneBreve": "write text only the Sighted can detect",
+        "Book": "Myst 202"
     },
     {
         "Titolo": "Transform Aura",
@@ -485,7 +510,8 @@ const primeTwoData = [
         "RoteName": "Guardians of the Veil Rote: Wolf in the Fold",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Guardians must be able to vanish into the ranks of the mundane when their work calls for anonymity. This rote enables such mages to do just that.",
-        "DescrizioneBreve": "falsify nature of aura"
+        "DescrizioneBreve": "falsify nature of aura",
+        "Book": "M:tA 223"
     },
     {
         "Titolo": "Unseen Spy",
@@ -500,7 +526,8 @@ const primeTwoData = [
         "RoteName": "Free Council Rote: Innocuous Presence",
         "RoteDice": "<b>Dice Pool:</b> Composure + Subterfuge + Prime",
         "RoteDescrizione": "Free Council mages have always liked to study the spells of the Atlantean orders, but those societies usually don’t like upstarts meddling in their business. Hence, councilors resort to this spell to hide their surreptitious observations or even manipulations. Other orders also find use for this spell, such as the Guardians of the Veil in their ongoing efforts to police the practice of magic.",
-        "DescrizioneBreve": "scrutinize spells without detection"
+        "DescrizioneBreve": "scrutinize spells without detection",
+        "Book": "M:tA 223"
     }
 ]
 
@@ -518,7 +545,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil Rote: Shield the Fragile Link",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "Some of the most vicious and terrible among the Awakened are known to interpose themselves between Guardians of the Veil and their appointed objectives, and many of these intruders have no compunction about tearing out a soul or two. Guardians use this rote to defend themselves against such awful magics. Adamantine Arrow willworkers have their own version of this rote (Resolve + Occult + Prime) that they use to protect their own souls, even as they defend their allies from harm.",
-        "DescrizioneBreve": "gain Armor against soul manipulation"
+        "DescrizioneBreve": "gain Armor against soul manipulation",
+        "Book": "M:tA 223"
     },
     {
         "Titolo": "Astral Tass Conversion",
@@ -533,7 +561,8 @@ const primeThreeData = [
         "RoteName": "Silver Ladder Rote: Shining Reserves",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Never go anywhere without some extra resources to help you pull through the fight. Silver Ladder mages use this rote to ensure that they have plenty of Mana to see them through their astral trips.",
-        "DescrizioneBreve": "reserve Tass for Astral travels"
+        "DescrizioneBreve": "reserve Tass for Astral travels",
+        "Book": "AR 28"
     },
     {
         "Titolo": "Celestial Fire",
@@ -548,7 +577,8 @@ const primeThreeData = [
         "RoteName": "Adamantine Arrow Rote: Bolt of Heaven",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Occult + Prime",
         "RoteDescrizione": "A brutal and straightforward assault, this rote is used by Arrow mages to strike down their enemies, corporeal or otherwise, to destroy arms and armor, or to breach defenses. Perhaps one of the most efficient weapons in the Awakened arsenal, this rote sees use by members of all orders.",
-        "DescrizioneBreve": "inflict Bashing/Lethal damage"
+        "DescrizioneBreve": "inflict Bashing/Lethal damage",
+        "Book": "M:tA 224"
     },
     {
         "Titolo": "Channel Mana",
@@ -563,7 +593,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Feedback",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "Free Council mages often see use of this rote as nothing more than returning the energy bound up in physical form into the Tapestry, and some point to Einsteinian physics to explain the process. Silver Ladder willworkers view use of this magic (Manipulation + Occult + Prime) as their rightful due, the bounty owed a leader.",
-        "DescrizioneBreve": "draw Mana from Tass or Hallow"
+        "DescrizioneBreve": "draw Mana from Tass or Hallow",
+        "Book": "M:tA 224"
     },
     {
         "Titolo": "Controlled Dispellation",
@@ -578,7 +609,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Slipping the Bonds",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "Mysterium mages might find ancient spells guarding old temples. Rather than dispel them and risk the activation of some arcane trap, they can exempt themselves and others from the effects.",
-        "DescrizioneBreve": "exempt targets from existing spell"
+        "DescrizioneBreve": "exempt targets from existing spell",
+        "Book": "M:tA 224"
     },
     {
         "Titolo": "Create Tass",
@@ -593,7 +625,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Celestial Sediment",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Craft or Occult + Prime",
         "RoteDescrizione": "Just as matter and energy are different ends on the same spectrum, so too are raw Mana and manifested tass.",
-        "DescrizioneBreve": "form Mana into a solid shape"
+        "DescrizioneBreve": "form Mana into a solid shape",
+        "Book": "M:tA 224"
     },
     {
         "Titolo": "Disguise Resonance",
@@ -608,7 +641,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Mask of the Spirits",
         "RoteDice": "<b>Dice Pool:</b> Composure + Subterfuge + Prime",
         "RoteDescrizione": "An ounce of misdirection can be far more effective at times than a dozen trained guardsmen. When a Mysterium mage skilled in the Prime Arcanum wishes to protect a site, she can use this rote to alter its seeming resonance.",
-        "DescrizioneBreve": "falsify Resonance of an area"
+        "DescrizioneBreve": "falsify Resonance of an area",
+        "Book": "M:tA 225"
     },
     {
         "Titolo": "Disguise Spell",
@@ -623,7 +657,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil Rote: J’Accuse",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Investigation + Prime",
         "RoteDescrizione": "The Guardians use this spell to plant “evidence” of another willworker’s misdeeds, making their spells seem to have been cast by him — especially when they affect inappropriate targets or places, such as those declared off-limits by the Consilium. The Guardians are the first to call for immediate reprisal against the lawbreaking spellcaster.",
-        "DescrizioneBreve": "falsify aspects of a spell	"
+        "DescrizioneBreve": "falsify aspects of a spell	",
+        "Book": "TotM 68"
     },
     {
         "Titolo": "Dissolve Tass",
@@ -638,7 +673,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil Rote: Unstitch",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "Just as a skilled tailor can unravel a garment by pulling out relatively few threads, a Guardian can pick apart the weave of a source of tass and unmake it, releasing its energy back into the Tapestry. Adamantine Arrow mages also use this rote to dissolve the tass of enemy willworkers, robbing them of a precious resource.",
-        "DescrizioneBreve": "destroy Tass"
+        "DescrizioneBreve": "destroy Tass",
+        "Book": "M:tA 225"
     },
     {
         "Titolo": "Energetic Tass",
@@ -675,7 +711,8 @@ const primeThreeData = [
         ],
         "RoteName": "Free Council Rote: Light of Creation",
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Prime",
-        "DescrizioneBreve": "form Mana into a Forces pattern"
+        "DescrizioneBreve": "form Mana into a Forces pattern",
+        "Book": "TotM 69"
     },
     {
         "Titolo": "Ephemeral Enchantment",
@@ -690,7 +727,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Ghost Stick",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "Not all threats faced by a Mysterium mage walk in flesh, and so this rote enables such a willworker to defend herself against hostile incorporeal entities.",
-        "DescrizioneBreve": "allow physical object to affect Twilight and Shadow"
+        "DescrizioneBreve": "allow physical object to affect Twilight and Shadow",
+        "Book": "M:tA 225"
     },
     {
         "Titolo": "False Signature",
@@ -705,7 +743,8 @@ const primeThreeData = [
         "RoteName": "Adamantine Arrow Rote: Feint",
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Prime",
         "RoteDescrizione": "Many mages have been wrong-footed by an Arrow through the use of this spell. Some mages, anticipating a direct attack, see what they expect to see and are surprised when a Forces spell has a more subtle effect. Use of this rote can also conceal order-specific mystical secrets. It’s hard to copy a rote when a mage can’t be sure about the Arcanum involved.",
-        "DescrizioneBreve": "disguise Arcana used in combined spell"
+        "DescrizioneBreve": "disguise Arcana used in combined spell",
+        "Book": "AA 184"
     },
     {
         "Titolo": "Fortify Phantasmal Item",
@@ -720,7 +759,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Phantasmal Fortification",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "By means of this rote, a mystagogue can enhance the efficiency of his phantasmal tools, so as to craft better equipment than that available to even the wealthiest and most well-connected of Sleepers.",
-        "DescrizioneBreve": "grant weak Phantasm an Equipment Bonus"
+        "DescrizioneBreve": "grant weak Phantasm an Equipment Bonus",
+        "Book": "TotM 27"
     },
     {
         "Titolo": "Girding the Champion's Faith",
@@ -734,7 +774,8 @@ const primeThreeData = [
         "DescrizioneMiddle": "The Templar gains two points of armor for the duration of the rote. Additionally, the Templar, illuminated by the light of God, can withstand even the most heinous perils that his foes would inflict on him: While under the aegis of this spell, the Templar downgrades any aggravated damage he suffers to lethal damage. (This does not affect the upgrade of lethal damage to aggravated if the Templar has already suffered his full Health points in lethal damage, however. See p. 175 of the <b>World of Darkness Rulebook</b> for more information on this.)<p>The foci for this spell are the Baphomet and a cipher. First, the Templar encodes his own name in a cipher of his choosing, thus protecting his identity with the cipher just as he seeks to protect his body with the spell. The Templar also traces the sign of the Baphomet in the air before him as he casts the spell.</p>",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "The journals of the Templars indicate that this spell was most commonly used in preparation for a physical conflict with otherworldly enemies, when the knights would face hostile “angels” or entities from beyond most realms of perception. Tales of knights in shining armor, whether among actual military accounts, or even folkloric legends such as Beowulf or the Volsung Saga might have involved kennings related to this spell’s function, even though those sources clearly predate the Templar order.<p>While it works fine as a standard armor spell, most mages would likely eschew it as such, since it’s not as effective as the armor rotes of many other Arcana (o vulgar. On the other hand, the protection it offers from aggravated supernatural damage is certainly a boon.</p>",
-        "DescrizioneBreve": "gain +2 Armor, downgrade Agg to Lethal"
+        "DescrizioneBreve": "gain +2 Armor, downgrade Agg to Lethal",
+        "Book": "MT 88"
     },
     {
         "Titolo": "Hallow Bond",
@@ -749,7 +790,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Marrying the Land",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "Of all the orders, the Mysterium most commonly maintains this ancient practice from a time when people lived more closely with the land.",
-        "DescrizioneBreve": "prevent others from using Hallow"
+        "DescrizioneBreve": "prevent others from using Hallow",
+        "Book": "S&S 94"
     },
     {
         "Titolo": "Imbue Animal",
@@ -764,7 +806,8 @@ const primeThreeData = [
         "RoteName": "Banisher Rote: Genesis 1:26",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Animal Ken + Prime",
         "RoteDescrizione": "“And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.” The Banisher who created this rote quoted this passage whenever imbuing an animal with a spell. Though he is long dead, he inscribed the rote on numerous grimoires, marked with sigils intended to prevent anyone but Banishers from reading them.",
-        "DescrizioneBreve": "create Imbued Animals; sin against Wisdom 5"
+        "DescrizioneBreve": "create Imbued Animals; sin against Wisdom 5",
+        "Book": "Ban 62"
     },
     {
         "Titolo": "Imbue Item",
@@ -778,7 +821,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Forge of Power",
         "RoteDice": "<b>Dice Pool:</b> Composure + Crafts + Prime",
         "RoteDescrizione": "Just as Mysterium mages seek out relics long lost, they create new objects of power, applying ancient arts to modern artifice. Silver Ladder willworkers use the rote as well in the crafting of their own enchanted items.",
-        "DescrizioneBreve": "create Imbued Item"
+        "DescrizioneBreve": "create Imbued Item",
+        "Book": "M:tA 225"
     },
     {
         "Titolo": "Imbue Mana",
@@ -793,7 +837,8 @@ const primeThreeData = [
         "RoteName": "Adamantine Arrow Rote: Succor",
         "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Prime",
         "RoteDescrizione": "Just like tossing a new clip of ammunition to a buddy who’s run out, Adamantine Arrow mages use this rote to make sure that everyone has sufficient resources to remain in a fight.",
-        "DescrizioneBreve": "transfer Mana to others"
+        "DescrizioneBreve": "transfer Mana to others",
+        "Book": "M:tA 226"
     },
     {
         "Titolo": "Instill Exclusiveness",
@@ -808,7 +853,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil Rote: Rights of Property",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Mind",
         "RoteDescrizione": "Guardians rankle at the thought of grubby outsider hands making profitable use of their precious Enchanted Items.",
-        "DescrizioneBreve": "	item crafting, defense"
+        "DescrizioneBreve": "	item crafting, defense",
+        "Book": "TotM 142"
     },
     {
         "Titolo": "Item Failsafe",
@@ -823,7 +869,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil Rote: The Loyal Object",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "Though less punitive than other protective enchantments, Guardians prefer the simplicity inherent in simply forbidding interlopers to make use of their Imbued Items.",
-        "DescrizioneBreve": "item crafting, defense"
+        "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 141"
     },
     {
         "Titolo": "Last Testament",
@@ -838,7 +885,8 @@ const primeThreeData = [
         "RoteName": "Silver Ladder Rote: Orderly Succession",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "Certain items belong to Silver Ladder hierarchy itself, as a perquisite of particular offices. The Orderly Succession rote guarantees that these items are passed to the new holders of these positions, and are not subsumed into officers’ estates.",
-        "DescrizioneBreve": "item crafting, defense"
+        "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 143"
     },
     {
         "Titolo": "Ley Lines",
@@ -853,7 +901,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Atlantean Generator",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult or Science + Prime",
         "RoteDescrizione": "While the Free Council as a whole seeks to advance the practice of magic, the old ways are still sometimes best. Using ancient techniques based on geography, sacred mathematics and other such disciplines, the willworker employs this rote to provide an essentially limitless source of free energy. Mysterium mages use similar magics to power sanctums and esoteric devices.",
-        "DescrizioneBreve": "create Node from Ley Line juncture to produce power"
+        "DescrizioneBreve": "create Node from Ley Line juncture to produce power",
+        "Book": "M:tA 226"
     },
     {
         "Titolo": "Ley Shift",
@@ -868,7 +917,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Urban Renewal",
         "RoteDice": "<b>Dice Pool:</b> Strength + Occult + Prime",
         "RoteDescrizione": "The Free Council uses this spell in their urban renewal projects, redirecting lines to flow through the buildings, parks or roads they think can best benefit from the line’s resonance. Alternatively, they redirect the line to remove its influence on a place, such as when its resonance is ill-aspected.",
-        "DescrizioneBreve": "alter direction of Ley Line"
+        "DescrizioneBreve": "alter direction of Ley Line",
+        "Book": "S&S 97"
     },
     {
         "Titolo": "Magic Wall",
@@ -883,7 +933,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil Rote: Invisible Boon",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Prime",
         "RoteDescrizione": "Guardians sometimes cast this rote on Sleepers to keep them safe from spells that might otherwise alert mundane folk to the working of magic.",
-        "DescrizioneBreve": "grant other Armor against Supernal magic	"
+        "DescrizioneBreve": "grant other Armor against Supernal magic	",
+        "Book": "M:tA 227"
     },
     {
         "Titolo": "Mana Leech",
@@ -898,7 +949,8 @@ const primeThreeData = [
         "RoteName": "Guardians of the Veil: Inescapable Taxation",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "Guardians of the Veil punish overly flamboyant magicians with gifts that make their magic harder to work.",
-        "DescrizioneBreve": "item crafting, curse"
+        "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 139"
     },
     {
         "Titolo": "Marked Power",
@@ -913,7 +965,8 @@ const primeThreeData = [
         "RoteName": "Banisher Rote: Tag",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "A cabal in Philadelphia brought a strange story to the notice of the local Consilium, shortly before the disappearance of the entire cabal. The mages had noticed an unusual quality about the Mana stored in their Patterns. Further investigation by the Consilium eventually uncovered evidence that the cabal had been attacked by a cell of Banishers calling themselves Children of Liberty.<p>When one of the Children of Liberty was apprehended, magically reinforced questioning revealed the Banishers had used this spell (in conjunction with more mundane forms of intelligence-gathering) to spy on the cabal and track the members’ movements. Appalled by this information, the Hierarch of Philadelphia ordered a full-scale seek-and-destroy attack on the remaining Children of Liberty.</p><p>To date, however, no further Banishers have been found in the city.</p>",
-        "DescrizioneBreve": "implant signature into Hallow's tass, creating sympathy to users"
+        "DescrizioneBreve": "implant signature into Hallow's tass, creating sympathy to users",
+        "Book": "Ban 62"
     },
     {
         "Titolo": "Mystic Shackle",
@@ -928,7 +981,8 @@ const primeThreeData = [
         "RoteName": "Silver Ladder Rote: The Weighty Anchor",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Prime",
         "RoteDescrizione": "Followers of the Silver Ladder who commit offenses against their leaders are sometimes, as a punishment short of expulsion or death, fitted temporarily with Weighty Anchors. Few who undergo this indignity are foolish enough to repeat their transgressions.",
-        "DescrizioneBreve": "item crafting, curse"
+        "DescrizioneBreve": "item crafting, curse",
+        "Book": "TotM 139"
     },
     {
         "Titolo": "Path in the Skin",
@@ -943,7 +997,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Tribal Art",
         "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Prime",
         "RoteDescrizione": "Free Council mages value magic centered in Fallen culture. They use this rote to proclaim this by choosing traditional tribal body art to hone their magical wills. Some Libertines use body art from the “new tribes” of alternative subcultures and even plastic surgery. All orders have equivalents that emphasize imbuing a body with distinctly Atlantean symbols, though what is purely Atlantean is, of course, a matter of debate.",
-        "DescrizioneBreve": "create Tool tattoo"
+        "DescrizioneBreve": "create Tool tattoo",
+        "Book": "TotM 69"
     },
     {
         "Titolo": "Payment in Power",
@@ -958,7 +1013,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Conservation of the Will",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Free Council doctrine teaches that it’s better to spend power, which is rare but recoverable, than to carve off a bleeding chunk of your selfhood just to create an item.",
-        "DescrizioneBreve": "item crafting, alternate cost relinquishment - spend mana"
+        "DescrizioneBreve": "item crafting, alternate cost relinquishment - spend mana",
+        "Book": "TotM 129"
     },
     {
         "Titolo": "Phantasm",
@@ -973,7 +1029,8 @@ const primeThreeData = [
         "RoteName": "Silver Ladder Rote: Loom of the Gods",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Craft + Prime",
         "RoteDescrizione": "When a Ladder mage wishes to impress others with a collection of rare antiques or artwork behind glass, she can craft them from the Prima Materia itself.",
-        "DescrizioneBreve": "create small unreal object"
+        "DescrizioneBreve": "create small unreal object",
+        "Book": "M:tA 227"
     },
     {
         "Titolo": "Price of Hubris",
@@ -988,7 +1045,8 @@ const primeThreeData = [
         "RoteName": "Banisher Rote: Simple Simon’s Glee",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "A Banisher by the name of Simon Barnes concocted this rote to turn the powers of the “demons” he fought back on them. Known as “Simple” Simon to the media, who thought him a serial killer, Simon was eventually shot and killed by city police. Shortly after his death, Simon’s body disappeared from the morgue and his notes, a sheaf of loose-leaf mad scribblings, vanished from the police evidence room.",
-        "DescrizioneBreve": "as Counterspell, but if successful, redirect attack to caster"
+        "DescrizioneBreve": "as Counterspell, but if successful, redirect attack to caster",
+        "Book": "Ban 63"
     },
     {
         "Titolo": "Reset Platonic Exemplar",
@@ -1003,7 +1061,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Retune the Ineffable Essence",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Though Platonic exemplars arouse cupiditen the most ascetic of mages, none covet these items with a hotter fever than the members of the Mysterium. Many learn this rote in the mere anticipation of one day acquiring such a treasure.",
-        "DescrizioneBreve": "unweave all spells in a Platonic Exemplar"
+        "DescrizioneBreve": "unweave all spells in a Platonic Exemplar",
+        "Book": "TotM 133"
     },
     {
         "Titolo": "Subvert Ownership",
@@ -1018,7 +1077,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: Changing Hands",
         "RoteDice": "<b>Dice Pool:</b> Wits + Subterfuge + Prime",
         "RoteDescrizione": "The Mysterium’s shadier members are loath to allow mere technicalities of ownership stand in the way of a prestigious acquisition.",
-        "DescrizioneBreve": "choose new authorized user of item"
+        "DescrizioneBreve": "choose new authorized user of item",
+        "Book": "TotM 145"
     },
     {
         "Titolo": "Summon Supernal Being",
@@ -1029,7 +1089,8 @@ const primeThreeData = [
         "Aspect": "Covert",
         "Cost": "10 Mana",
         "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
-        "DescrizioneBreve": "(Obrimos only) call a Cherub from the Aether, with difficulty"
+        "DescrizioneBreve": "(Obrimos only) call a Cherub from the Aether, with difficulty",
+        "Book": "Summ 73"
     },
     {
         "Titolo": "Target Interloper",
@@ -1044,7 +1105,8 @@ const primeThreeData = [
         "RoteName": "Silver Ladder Rote: The Artful Tripwire",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Silver Ladder mages appreciate the opportunities this spell provides to showcase both one’s mystical ingenuity, and one’s commitment to property rights.",
-        "DescrizioneBreve": "item crafting, defense"
+        "DescrizioneBreve": "item crafting, defense",
+        "Book": "TotM 140"
     },
     {
         "Titolo": "Temporal Phantasm",
@@ -1059,7 +1121,8 @@ const primeThreeData = [
         "RoteName": "Mysterium Rote: What Was Lost",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Time",
         "RoteDescrizione": "For an order dedicated to the pursuit of knowledge and the unveiling of mysteries, the usefulness of this rote requires no further explanation.",
-        "DescrizioneBreve": "create Phantasm from past template"
+        "DescrizioneBreve": "create Phantasm from past template",
+        "Book": "Myst 202"
     },
     {
         "Titolo": "Transform Other Aura",
@@ -1074,7 +1137,8 @@ const primeThreeData = [
         "RoteName": "Free Council Rote: Running with the Pack",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescription": "A Free Council mage who intends to masquerade as a Sleeper — or even a vampire or werewolf — might want others of his “kind” nearby to back him up in case of trouble. With this rote, he can make his entire cabal look to be something its members are not, at least to the eyes of those who can read auras.",
-        "DescrizioneBreve": "falsify others aura nature"
+        "DescrizioneBreve": "falsify others aura nature",
+        "Book": "M:tA 227"
     },
     {
         "Titolo": "Tribute of Iron",
@@ -1087,7 +1151,8 @@ const primeThreeData = [
         "Cost": "None",
         "Dice Pool": "Strength + Occult + Prime",
         "RoteDescription": "Modern santeros are loath to use this spell often, because it requires another human being to die by metal (though it does not require the caster to kill the victim himself). The santero must taste the blood of the dead or dying. If the spell is successful, the mage can gain ashé (Mana) as if he had performed a blood sacrifice (see p. 78 of <b>Mage: The Awakening</b>). Casting this spell by itself doesn’t cause degeneration, though killing someone to facilitate it certainly does.<p>The casting mage must carry or wear a piece of metal, but no Oggún would ever be without such a focus anyway. Many mages using this spell dip a blade in the victim’s blood and lick it off while casting, but this isn’t necessary.</p>",
-        "DescrizioneBreve": "gain Mana from death as if sacrifice"
+        "DescrizioneBreve": "gain Mana from death as if sacrifice",
+        "Book": "MT 76"
     }
 ]
 
@@ -1105,7 +1170,8 @@ const primeFourData = [
         "RoteName": "Banisher Rote: Oblivion",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "The infamous Banisher known only as “Brown” perfected this rote, and used it to great effect against the mages of the Pacific Northwest. His cult, consisting only of Sleepers and Sleepwalkers, would wait until he removed the shields and other protective spells from their targets, and then the cult members would open fire.",
-        "DescrizioneBreve": "counter all hung and Prolonged spells on target with touch"
+        "DescrizioneBreve": "counter all hung and Prolonged spells on target with touch",
+        "Book": "Ban 62"
     },
     {
         "Titolo": "Awaken Hallow",
@@ -1120,7 +1186,8 @@ const primeFourData = [
         "RoteName": "Mysterium Rote: Aligning the Stars",
         "RoteDice": "<b>Dice Pool:</b> Composure + Survival + Prime",
         "RoteDescrizione": "On occasion, secrets lay dormant within the quieted flow of a Hallow. Mysterium mages that return such a flow to life have been witness to wondrous secrets. Of course, some would argue that having an active Hallow at one’s disposal is reward enough. Mages of all orders with access to it make use of this rote, as there are few who would pass up the chance to tap into the power of a Hallow.",
-        "DescrizioneBreve": "waken a dormant Hallow"
+        "DescrizioneBreve": "waken a dormant Hallow",
+        "Book": "M:tA 228"
     },
     {
         "Titolo": "Bodyguard's Blessing",
@@ -1135,7 +1202,8 @@ const primeFourData = [
         "RoteName": "Adamantine Arrow Rote: Lightning Rod",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "The tactical implications of this spell were not lost on the Arrows. Although they sometimes act in the capacity of bodyguards, the Arrows saw an opportunity to steal Shielding and healing spells from enemy mages. Timing, as well as a working knowledge of their opponent, is essential when applying the rote in this fashion. The Arrow must be able to predict how much damage their opponent is willing to take before resorting to a hasty healing or Shielding spell with a low enough Potency to be redirected.",
-        "DescrizioneBreve": "redirect next spell target casts to yourself	"
+        "DescrizioneBreve": "redirect next spell target casts to yourself	",
+        "Book": "AA 184"
     },
     {
         "Titolo": "Channel Paradox",
@@ -1150,7 +1218,8 @@ const primeFourData = [
         "RoteName": "Guardians of the Veil Rote: Taming the Void",
         "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Prime",
         "RoteDescrizione": "Reaching out with this magic, the Guardian seizes hold of the power of the Abyss and, through personal suffering, defies and negates it. Guardians who make use of this spell often look to it as a real, quantifiable means of striking back at the Void.",
-        "DescrizioneBreve": "redirect Paradox from others to self"
+        "DescrizioneBreve": "redirect Paradox from others to self",
+        "Book": "GoG 47"
     },
     {
         "Titolo": "Curse of the Fallen World",
@@ -1165,7 +1234,8 @@ const primeFourData = [
         "RoteName": "Banisher Rote: Force Paradox",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "Order mages who have studied literature of more organized and educated Banishers have found citations of Paradox as support for their theories that magic is unnatural. They insist that if mages were meant to wield mystical powers, counterforces such as Paradox wouldn’t exist. Banishers claim this rote was first developed in Atlantis by the Timori, but such claims are dubious at best, and near impossible to prove.",
-        "DescrizioneBreve": "all of target's spells are Vulgar, uncloak Nimbus and give +1 to Paradox rolls"
+        "DescrizioneBreve": "all of target's spells are Vulgar, uncloak Nimbus and give +1 to Paradox rolls",
+        "Book": "Ban 64"
     },
     {
         "Titolo": "Delusions of Grandeur",
@@ -1180,7 +1250,8 @@ const primeFourData = [
         "RoteName": "Banisher Rote: Mana Leak",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime – Resistance",
         "RoteDescrizione": "Abuse of power by mages is a common element in the poorly produced Banisher pamphlets used to indoctrinate their followers. No power is as absolute as magic, they say, and so it follows that all mages must be corrupted by their power eventually. The Banishers point to the success of this particular rote against order mages as proof of this claim.",
-        "DescrizioneBreve": "target may spend one additional mana per turn, but all Mana expenditures are doubled"
+        "DescrizioneBreve": "target may spend one additional mana per turn, but all Mana expenditures are doubled",
+        "Book": "Ban 64"
     },
     {
         "Titolo": "Disenchant Item",
@@ -1195,7 +1266,8 @@ const primeFourData = [
         "RoteName": "Guardians of the Veil Rote: Righteous Pyre",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Entire cadres of Guardians devote themselves to cleaning up the trail of Enchanted Items left behind by careless willworkers. They protect unworthy eyes from esoteric secrets by disassembling the evidence, one object at a time.",
-        "DescrizioneBreve": "unweave spells in enchanted item"
+        "DescrizioneBreve": "unweave spells in enchanted item",
+        "Book": "TotM 144"
     },
     {
         "Titolo": "Eyes of the Awakened",
@@ -1209,7 +1281,8 @@ const primeFourData = [
         "RoteName": "Silver Ladder Rote: Fitful Sleep",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Prime",
         "RoteDescrizione": "One of the greatest powers is that of controlling knowledge. Ladder mages use this rote to bestow some small glimpse of the truth upon those who would otherwise remain forever blind. Sometimes they do so to win the loyalty of Sleepers, and sometimes their fear, but given the risks inherent to such an act, they rarely do so without good reason.",
-        "DescrizioneBreve": "Sleeper does not suffer Disbelief"
+        "DescrizioneBreve": "Sleeper does not suffer Disbelief",
+        "Book": "M:tA 228"
     },
     {
         "Titolo": "Ley Flow",
@@ -1224,7 +1297,8 @@ const primeFourData = [
         "RoteName": "Silver Ladder Rote: Governing the Tides",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "The Silver Ladder learned early about the relationship between a ley line’s current and resonance. The order also discovered the subtle effectiveness that altering a rival sanctum’s nodal resonance has on the sanctum’s power. This spell is the primary reason why cabals patrol miles upstream to safeguard their holdings.",
-        "DescrizioneBreve": "alter strength of Ley Line"
+        "DescrizioneBreve": "alter strength of Ley Line",
+        "Book": "S&S 98"
     },
     {
         "Titolo": "Marionette",
@@ -1239,7 +1313,8 @@ const primeFourData = [
         "RoteName": "Silver Ladder Rote: Unreal Servitor",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Prime",
         "RoteDescrizione": "When Ladder mages need capable and obedient servants quickly, many turn to this rote. Such a phantasm can serve as a laborer, a bodyguard, an attack dog — virtually anything the willworker can conceive of and mentally direct. Free Council mages interested in the nature of material existence sometimes experiment with a similar rote.",
-        "DescrizioneBreve": "create lifelike animal/human phantasm"
+        "DescrizioneBreve": "create lifelike animal/human phantasm",
+        "Book": "M:tA 228"
     },
     {
         "Titolo": "Phantasmal Weapon",
@@ -1254,7 +1329,8 @@ const primeFourData = [
         "RoteName": "Adamantine Arrow Rote: Forge of the Gods",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Craft + Prime",
         "RoteDescrizione": "Adamantine Arrow willworkers use this rote to fabricate arms and armor from thin air.",
-        "DescrizioneBreve": "create solid armor/weapon phantasm"
+        "DescrizioneBreve": "create solid armor/weapon phantasm",
+        "Book": "M:tA 228"
     },
     {
         "Titolo": "Pierce Magical Shield",
@@ -1269,7 +1345,8 @@ const primeFourData = [
         "RoteName": "Banisher Rote: Eye and Hand of David",
         "RoteDice": "<b>Dice Pool:</b> Composure + Athletics + Prime",
         "RoteDescrizione": "Simplicius was a theologian, not a warrior, but in one desperate moment he had to defend himself from a seemingly unstoppable gang of mages. They shrugged off his son’s bullets before they killed the boy. They chased Simplicius to an old quarry. That’s when he prayed that God would forgive him for dabbling in the occult. He gave his magic up to God, and in seeming response, a stone dropped right into his open hand, jostled from above by a witch crawling down to ambush him.<p>With perfect faith he looked up, threw the stone and knocked the formerly bulletproof enemy unconscious. Simplicius managed to frighten off the rest with a few handfuls of rocks, got away and shared his revelation with other Banishers.</p>",
-        "DescrizioneBreve": "Armor Piercing (Shielding spells only), 1 / Potency"
+        "DescrizioneBreve": "Armor Piercing (Shielding spells only), 1 / Potency",
+        "Book": "Ban 64"
     },
     {
         "Titolo": "Poison Mana",
@@ -1284,7 +1361,8 @@ const primeFourData = [
         "RoteName": "Banisher Rote: The Wages of Sin",
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Prime",
         "RoteDescrizione": "Famous “cult awareness researcher” Isaiah Pickens conducts regular sermons at places he says are hotbeds of cult activity. He does the same thing for fellow Banishers when they bring him objects that stink of excess Mana. The theme of every sermon is that Satan has no real power and his promises and payments are always empty.<p>He says, “That rush you feel, exploring witchcraft and playing with the dark side can never profit you — Satan has nothing to give! Even when he looks like he’s giving you the power he has to take something away to keep the balance of his gifts — a balance of zero. Those are the wages of sin, my friends.” And, for mages who draw from Hallows and items he’s preached around, that turns out to be true.</p>",
-        "DescrizioneBreve": "taint points of Mana in a Hallow to cause Lethal damage when used"
+        "DescrizioneBreve": "taint points of Mana in a Hallow to cause Lethal damage when used",
+        "Book": "Ban 65"
     },
     {
         "Titolo": "Primal Transfer",
@@ -1299,7 +1377,8 @@ const primeFourData = [
         "RoteName": "Free Council Rote: Blood Quenching",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Empathy + Prime",
         "RoteDescrizione": "Forge Masters sometimes demand that a client literally pay in blood. As part of this rote, the Powersmith bids his client to pierce her own flesh and let her blood drip onto the hot metal during the tempering process. With the blood and the taps of his hammer (actually the mudras of the rote), the Forge Master draws power from the client’s soul and forces it into the enchanted metal.",
-        "DescrizioneBreve": "item crafting; alternate relinquishment; let other pay willpower dot"
+        "DescrizioneBreve": "item crafting; alternate relinquishment; let other pay willpower dot",
+        "Book": "L:tA 78"
     },
     {
         "Titolo": "Scour Other's Pattern",
@@ -1314,7 +1393,8 @@ const primeFourData = [
         "RoteName": "Silver Ladder Rote: Lash of the Aether",
         "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Prime – Stamina",
         "RoteDescrizione": "Sometimes a Sleeper needs to learn that mages aren’t to be trifled with, and sometimes a mage needs to learn his place. The mages of the Silver Ladder don’t relish using this spell — it’s painful and the wounds take days to heal. But that is sometimes exactly what a hubristic spellcaster needs to realize that magic cannot solve all his problems.",
-        "DescrizioneBreve": "transfer Mana from others"
+        "DescrizioneBreve": "transfer Mana from others",
+        "Book": "TotM 70"
     },
     {
         "Titolo": "Siphon Essence",
@@ -1329,7 +1409,8 @@ const primeFourData = [
         "RoteName": "Adamantine Arrow Rote: Ehrlik’s Due",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime – Resistance",
         "RoteDescrizione": "Most Adamantine Arrow mages who make use of this rote see it as a simple case of requisitioning needed resources. Sometimes this spell is used offensively, stripping power from enemy spirits before it can be used against a mage and her allies. Guardians of the Veil apply the same rote to drain Essence from spirits, robbing them of their ability to cause mischief or harm, and potentially endanger the anonymity of the occult world and its denizens.",
-        "DescrizioneBreve": "transfer Mana from Spirit"
+        "DescrizioneBreve": "transfer Mana from Spirit",
+        "Book": "M:tA 229"
     },
     {
         "Titolo": "Siphon Integrity",
@@ -1344,7 +1425,8 @@ const primeFourData = [
         "RoteName": "Mysterium Rote: Hidden Stores",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescrizione": "For a Mysterium mage skilled in the Prime Arcanum, stores of Mana are hidden in plain sight throughout the Tapestry. Providing a much-needed boost on short notice, this rote draws on the willworker’s immediate environment to replenish his power. Members of the Adamantine Arrow use similar magics (Strength + Occult + Prime) to simultaneously strip their opponents of needed items or protections while recouping their own stores of Mana.",
-        "DescrizioneBreve": "transfer Mana from object"
+        "DescrizioneBreve": "transfer Mana from object",
+        "Book": "M:tA 229"
     },
     {
         "Titolo": "Supernal Augumentation",
@@ -1359,7 +1441,8 @@ const primeFourData = [
         "RoteName": "Adamantine Arrow Rote: Sword of Ruin",
         "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Prime",
         "RoteDescrizione": "Grim necessities give rise to terrible weapons. The Arrow recognizes this unfortunate reality, and this rote is seen by many as more of a burden to bear than a resource to be cherished.",
-        "DescrizioneBreve": "spend Mana before you roll to make unarmed/armed attacks Aggravated during the scene"
+        "DescrizioneBreve": "spend Mana before you roll to make unarmed/armed attacks Aggravated during the scene",
+        "Book": "AA 185"
     },
     {
         "Titolo": "Supernal Dispellation",
@@ -1374,7 +1457,8 @@ const primeFourData = [
         "RoteName": "Free Council Rote: Undo the Art",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime vs. target spell’s Potency",
         "RoteDescrizione": "Free Council mages use this rote to dissipate the magics of enemies, rivals, and sometimes people who need a lesson in humility. Guardians of the Veil use this magic in the execution of their duties, destroying all blatant manifestations of wizardry before they can be witnessed by the uninitiated.",
-        "DescrizioneBreve": "unweave any existing spell"
+        "DescrizioneBreve": "unweave any existing spell",
+        "Book": "M:tA 229"
     },
     {
         "Titolo": "Suppress Enchantment",
@@ -1389,7 +1473,8 @@ const primeFourData = [
         "RoteName": "Mysterium Rote: Restraining the Power",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "Some enchanted items are sufficiently dangerous that they are difficult to examine safely. Whether attempting to avoid the affects of a dangerous, millennia-old Artifact protecting an ancient tomb or trying to study an eccentric and deadly imbued item created by a half-mad mage, members of the Mysterium often find themselves in need of a way to temporarily suppress dangerous magics that have been placed on an item.",
-        "DescrizioneBreve": "deactivate power of Imbued Item/Artifact"
+        "DescrizioneBreve": "deactivate power of Imbued Item/Artifact",
+        "Book": "Myst 203"
     },
     {
         "Titolo": "Suppress Hallow",
@@ -1404,7 +1489,8 @@ const primeFourData = [
         "RoteName": "Guardians of the Veil Rote: Shutting the Gate",
         "RoteDice": "<b>Dice Pool:</b> Presence + Survival + Prime",
         "RoteDescription": "Given the strange activity that often manifests around an active Hallow, Guardians are occasionally called upon to temporarily suppress such sources of power.",
-        "DescrizioneBreve": "reduce Mana generation of Hallow"
+        "DescrizioneBreve": "reduce Mana generation of Hallow",
+        "Book": "M:tA 229"
     },
     {
         "Titolo": "Tainted Source",
@@ -1454,7 +1540,8 @@ const primeFourData = [
         "RoteName": "Banisher Rote: Poisoned Well",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
         "RoteDescription": "For Banishers without the ability to completely shut down a functioning Hallow, this spell acts as a fair deterrent to mages seeking to refresh their Mana from an unclaimed Hallow. Use of the spell against a claimed Hallow is much more challenging, but can still be used as a sort of preliminary attack against a cabal. This rote is commonly used by the Shepherds (see p. 120) when they begin their citywide attacks against mages.",
-        "DescrizioneBreve": "taint points of Mana in a Hallow to cause users to only spend 1/turn while any remains in their pool"
+        "DescrizioneBreve": "taint points of Mana in a Hallow to cause users to only spend 1/turn while any remains in their pool",
+        "Book": "Ban 65"
     }
 ]
 
@@ -1472,7 +1559,8 @@ const primeFiveData = [
         "RoteName": "Mysterium Rote: Vigilant Safeguard",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Survival + Prime",
         "RoteDescrizione": "The Mysterium uses this rote to make precious and rare locations or objects 'disappear' from the sight of Sleepers or even other mages. The number of successes on the dice roll indicates how well concealed the object or place is.",
-        "DescrizioneBreve": "hide a ley line, permanently"
+        "DescrizioneBreve": "hide a ley line, permanently",
+        "Book": "GoG 103"
     },
     {
         "Titolo": "Create Complex Phantasm",
@@ -1487,7 +1575,8 @@ const primeFiveData = [
         "RoteName": "Adamantine Arrow Rote: Tin Soldier",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts (for objects) or Medicine (for people) + Prime",
         "RoteDescrizione": "When there isn’t time enough to call in backup (or someone is needed to walk into an untenably dangerous situation), some Adamantine Arrow mages make use of this powerful rote. The phantasm acts as directed, heedless of reason or its own personal wellbeing, making it an ideal decoy or suicide soldier. Mysterium mages on the trail of old Artifacts or forgotten lore and who are uncertain of what lies ahead sometimes create such simulacra by means of the same rote.",
-        "DescrizioneBreve": "create solid complex phantasm"
+        "DescrizioneBreve": "create solid complex phantasm",
+        "Book": "M:tA 230"
     },
     {
         "Titolo": "Create Hallow",
@@ -1533,7 +1622,8 @@ const primeFiveData = [
         "RoteName": "Mysterium Rote: Sanctum Flow",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "When there are no uncontrolled Hallows nearby, the master of Prime creates one of his own. Mysterium mages in need of a source of Mana use this rote to provide themselves with the necessary power without having to return to a familiar Hallow or wrest free an unfamiliar one. Silver Ladder mages interested in forming sanctums of their own sometimes use similar magics to demonstrate the benefits of service to other willworkers.",
-        "DescrizioneBreve": "create Hallow (with prolonged duration)"
+        "DescrizioneBreve": "create Hallow (with prolonged duration)",
+        "Book": "M:tA 230"
     },
     {
         "Titolo": "Dead Zone",
@@ -1578,7 +1668,8 @@ const primeFiveData = [
         "RoteName": "Guardians of the Veil Rote: Banishing",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "By disrupting the local flow of Mana, a Guardian can sometimes stop conspicuous paranormal activity in an area.",
-        "DescrizioneBreve": "remove ambient Mana from area"
+        "DescrizioneBreve": "remove ambient Mana from area",
+        "Book": "M:tA 230"
     },
     {
         "Titolo": "Dessicate",
@@ -1592,7 +1683,8 @@ const primeFiveData = [
         "RoteName": "Banisher Rote: Weaken the Alien",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "The Translator version of this spell, used by Morris, is intended to keep any aliens or suspected aliens (or even alien sympathizers) from operating at their full capacity and posing a threat to the Banishers during questioning and up to the time of 'translation.'",
-        "DescrizioneBreve": "drain target of Physical Attributes, Mana or Health"
+        "DescrizioneBreve": "drain target of Physical Attributes, Mana or Health",
+        "Book": "Ban 65"
     },
     {
         "Titolo": "Forge Tulpa",
@@ -1607,7 +1699,8 @@ const primeFiveData = [
         "RoteName": "Free Council Rote: Dream Warrior",
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Prime",
         "RoteDescrizione": "This Free Council magic forms a sentient being of pure Mana, invested with at least minimal social skills and reason. Those mages who cannot afford to give indefinite existence to such a creation do not use this rote lightly, as it is often cruel to craft an essentially living being with so brief an existence. Silver Ladder mages sometimes use their own rote (Presence + Occult + Prime) to create perfect servants, entrusting their personal care to no being they themselves have not fabricated.",
-        "DescrizioneBreve": "create lifelike sentient phantasm"
+        "DescrizioneBreve": "create lifelike sentient phantasm",
+        "Book": "M:tA 231"
     },
     {
         "Titolo": "Halt the Flow",
@@ -1622,7 +1715,8 @@ const primeFiveData = [
         "RoteName": "Banisher Rote: Destroy Hallow",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "Banishers adept at this level of Prime are a rare commodity amongst what passes for a Banisher community. Still, those practitioners capable of wielding this power have been known to keep in contact with each other and form ad hoc cabals for the sole purpose of destroying a particularly powerful Hallow.",
-        "DescrizioneBreve": "destroy a Hallow"
+        "DescrizioneBreve": "destroy a Hallow",
+        "Book": "Ban 66"
     },
     {
         "Titolo": "Scorched Earth",
@@ -1668,7 +1762,8 @@ const primeFiveData = [
         "RoteName": "Banisher Rote: Safe House",
         "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Prime",
         "RoteDescrizione": "Banishers create “Safe Houses,” the ultimate expression of their fear and hatred of magic, whenever possible. Banisher allies of the Sleeper variety frequently use such places as headquarters for their cults and sometimes as refuges from the terrors of the Fallen World.<p>This rote was first developed by the notorious Banisher named Elizabeth Reedy. Elizabeth worked as a web designer before her Awakening and has used her technical skills to spread instruction of how to cast this rote across the Internet. The information is disguised in the form of the eccentric ramblings of fantasy fansites and in mass email spamming.</p>",
-        "DescrizioneBreve": "increase a Dead Zone to severely hinder spellcasting permanently"
+        "DescrizioneBreve": "increase a Dead Zone to severely hinder spellcasting permanently",
+        "Book": "Ban 66"
     },
     {
         "Titolo": "Siphon Mana",
@@ -1682,7 +1777,8 @@ const primeFiveData = [
         "RoteName": "Silver Ladder Rote: Press Gang",
         "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Prime – Stamina",
         "RoteDescrizione": "Just as kings of old demanded tithes from their vassals, some mages of the Silver Ladder exact tribute from willing allies, unwilling rivals, and outright enemies. Guardians of the Veil use a variant rote (Composure + Intimidation + Prime) to mitigate the threat posed by a hostile willworker.",
-        "DescrizioneBreve": "transfer Mana from unwilling Mages"
+        "DescrizioneBreve": "transfer Mana from unwilling Mages",
+        "Book": "M:tA 231"
     },
     {
         "Titolo": "Supernal Sense",
@@ -1697,7 +1793,8 @@ const primeFiveData = [
         "RoteName": "Guardians of the Veil Rote: Supernal Radar",
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Prime",
         "RoteDescrizione": "The Guardians of the Veil take it upon themselves to police the Awakened — a usually unwilling and unappreciative populace. This rote serves the Guardians well. Using it to sense any active magic, a Guardian can locate and investigate any potential breaches of the Veil, or she can track fleeing mages who don’t realize that their personal shielding spells might give them away.",
-        "DescrizioneBreve": "become aware of all magic in area"
+        "DescrizioneBreve": "become aware of all magic in area",
+        "Book": "TotM 71"
     },
     {
         "Titolo": "Universal Bane",
@@ -1711,7 +1808,8 @@ const primeFiveData = [
         "RoteName": "Banisher Rote: Vajra Dagger",
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Prime",
         "RoteDescrizione": "Dorjee talked about demons all the time because they plagued his dreams. After a near-death experience, he was trapped in a bardo or psychic “gap,” constantly confronting the Wrathful Deities that monks told him about when he was young. For years now, those same monks came to him, sharing their alms in exchange for his insights about spiritual realms.<p>Every night, Dorjee screamed in his dreams, but every dream taught him something new. So when the demon came disguised as a newly arrived monk Dorjee knew what to do. He stole a vajra — a knife that represented the “thunderbolt” of enlightenment — and stabbed the monster, calling on the absolute reality of the dharmakaya to dismiss its incarnation.</p>",
-        "DescrizioneBreve": "enchant weapon or ammunition to inflict Aggravated; object is destroyed at end of spell"
+        "DescrizioneBreve": "enchant weapon or ammunition to inflict Aggravated; object is destroyed at end of spell",
+        "Book": "Ban 67"
     }
 ]
 
