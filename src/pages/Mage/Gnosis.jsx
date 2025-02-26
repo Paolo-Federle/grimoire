@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
 import { GnosisData, ArcanaMasteryData } from '../../Data/Mage/GnosisData';
+import SpellFactorTable from './SpellFactor';
 
 export default function Path() {
 
@@ -13,6 +14,10 @@ export default function Path() {
                 possesses.<br></br>Two of his first three Arcana must be from his Path’s Ruling Arcana</div>
             <SimpleTable table={ArcanaMasteryData} />
             <p>* Six or more dots represent archmastery of an Arcanum.</p>
+            <h1 >
+                Fattori incantesimi
+            </h1>
+            <SpellFactorTable />
         </div>
     );
 }
