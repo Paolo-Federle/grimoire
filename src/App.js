@@ -105,10 +105,12 @@ import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
 import DynamicDetail from './components/Disuso/DynamicDetail';
 import TokensDetail from './pages/Changeling/TokensDetail';
 import TokenRules from './pages/Changeling/TokenRules';
+import useGoogleAnalytics from './track';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
   const location = useLocation();
+  useGoogleAnalytics();
 
   // Pagine colorate per le razze
   // useEffect(() => {
