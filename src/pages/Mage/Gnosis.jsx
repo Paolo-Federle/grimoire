@@ -18,6 +18,7 @@ export default function Path() {
                 Fattori incantesimi
             </h1>
             <SpellFactorTable />
+            <p>If the wizard has at least one more point in the main Arcana required to cast the spell, he can use the Advanced Spell Factors</p>
         </div>
     );
 }
