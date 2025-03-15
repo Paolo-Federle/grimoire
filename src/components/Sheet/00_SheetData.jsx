@@ -53,8 +53,8 @@ export const sheetData = {
                 "judge": ""
             },
             "promethean": {
-                "lineage": { "selected": "", "choices": ["Frankenstein", "Galatea", "Osiris", "Tammuz", "Ulgan", "Unfleshed", "Zeka", "Hollow", "Aes", "Argentum", "Aurum", "Centimani", "Cobalus", "Cuprum", "Ferrum", "Mercurius", "Plumbum", "Stannum", "Carcinomas", "Dust Devils", "Gremlins", "Ishtari", "Renders", "Sebek", "The Silent", "Torch-Born" ] },
-                "refinement": "",
+                "lineage": { "selected": "", "choices": ["Frankenstein", "Galatea", "Osiris", "Tammuz", "Ulgan", "Unfleshed", "Zeka", "Hollow" ] },
+                "refinement": { "selected": "", "choices": ["Aes", "Argentum", "Aurum", "Centimani", "Cobalus", "Cuprum", "Ferrum", "Mercurius", "Plumbum", "Stannum"] },
                 "athanor": ""
             }
         }
