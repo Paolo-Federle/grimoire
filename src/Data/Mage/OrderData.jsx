@@ -56,3 +56,5 @@ const OrderData = [
 ]
 
 export default OrderData;
+
+export const Orders = OrderData.map(item => item["Order"]);

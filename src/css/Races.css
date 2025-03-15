@@ -16,3 +16,7 @@
     margin: 0;
     margin-bottom: 20px;
 }
+
+a {
+    @apply text-blue-500 hover:underline;
+  }

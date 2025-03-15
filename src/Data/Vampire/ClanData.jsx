@@ -1,6 +1,6 @@
 const clanData = [
     {
-        "Basic": "Daeva",
+        "Name": "Daeva",
         "Nickname": "Succubi",
         "Disciplines": "Celerity, Majesty, Vigor",
         "Bonus Trait": "Dexterity or Manipulation",
@@ -9,7 +9,7 @@ const clanData = [
         "Book": "VTR p104"
     },
     {
-        "Basic": "Gangrel",
+        "Name": "Gangrel",
         "Nickname": "Savages",
         "Disciplines": "Animalism, Protean, Resilience",
         "Bonus Trait": "Composure or Stamina",
@@ -18,7 +18,7 @@ const clanData = [
         "Book": "VTR p106"
     },
     {
-        "Basic": "Mekhet",
+        "Name": "Mekhet",
         "Nickname": "Shadows",
         "Disciplines": "Auspex, Celerity, Obfuscate",
         "Bonus Trait": "Intelligence or Wits",
@@ -27,7 +27,7 @@ const clanData = [
         "Book": "VTR p108"
     },
     {
-        "Basic": "Nosferatu",
+        "Name": "Nosferatu",
         "Nickname": "Haunts",
         "Disciplines": "Nightmare, Obfuscate, Vigor",
         "Bonus Trait": "Composure or Strength",
@@ -36,7 +36,7 @@ const clanData = [
         "Book": "VTR p110"
     },
     {
-        "Basic": "Ventrue",
+        "Name": "Ventrue",
         "Nickname": "Lords",
         "Disciplines": "Animalism, Dominate, Resilience",
         "Bonus Trait": "Presence or Resolve",
@@ -45,7 +45,7 @@ const clanData = [
         "Book": "VTR p112"
     },
     {
-        "Basic": "Restricted",
+        "Name": "Restricted",
         "Nickname": "N/A",
         "Disciplines": "N/A",
         "Bonus Trait": "N/A",
@@ -54,7 +54,7 @@ const clanData = [
         "Book": "N/A"
     },
     {
-        "Basic": "Akhud",
+        "Name": "Akhud",
         "Nickname": "",
         "Disciplines": "Celerity, Praestantia, Obfuscate",
         "Bonus Trait": "Strength or Wits",
@@ -63,7 +63,7 @@ const clanData = [
         "Book": "VII p32"
     },
     {
-        "Basic": "House Petrovnavich",
+        "Name": "House Petrovnavich",
         "Nickname": "",
         "Disciplines": "Auspex, Dominate, Vigor",
         "Bonus Trait": "Intelligence or Wits",
@@ -72,7 +72,7 @@ const clanData = [
         "Book": "VII p86"
     },
     {
-        "Basic": "House Semeonovic",
+        "Name": "House Semeonovic",
         "Nickname": "",
         "Disciplines": "Auspex, Majesty, Resilience",
         "Bonus Trait": "Presence or Resolve",
@@ -81,7 +81,7 @@ const clanData = [
         "Book": "VII p89"
     },
     {
-        "Basic": "House Alexander",
+        "Name": "House Alexander",
         "Nickname": "",
         "Disciplines": "Nightmare, Protean, Vigor",
         "Bonus Trait": "Manipulation or Stamina",
@@ -90,7 +90,7 @@ const clanData = [
         "Book": "VII p92"
     },
     {
-        "Basic": "House Grigorovich",
+        "Name": "House Grigorovich",
         "Nickname": "",
         "Disciplines": "Celerity, Obfuscate, Protean",
         "Bonus Trait": "Composure or Wits",
@@ -99,7 +99,7 @@ const clanData = [
         "Book": "VII p95"
     },
     {
-        "Basic": "House Irinavici",
+        "Name": "House Irinavici",
         "Nickname": "",
         "Disciplines": "Auspex, Majesty, Nightmare",
         "Bonus Trait": "Intelligence or Manipulation",
@@ -108,7 +108,7 @@ const clanData = [
         "Book": "VII p98"
     },
     {
-        "Basic": "House Marisovich",
+        "Name": "House Marisovich",
         "Nickname": "",
         "Disciplines": "Auspex, Dominate, Obfuscate",
         "Bonus Trait": "Composure or Resolve",
@@ -117,7 +117,7 @@ const clanData = [
         "Book": "VII p101"
     },
     {
-        "Basic": "Historical",
+        "Name": "Historical",
         "Nickname": "N/A",
         "Disciplines": "N/A",
         "Bonus Trait": "N/A",
@@ -126,7 +126,7 @@ const clanData = [
         "Book": "N/A"
     },
     {
-        "Basic": "Julii",
+        "Name": "Julii",
         "Nickname": "Founders",
         "Disciplines": "Animalism, Dominate, Resilience",
         "Bonus Trait": "Presence or Resolve",
@@ -137,3 +137,7 @@ const clanData = [
 ]
 
 export { clanData };
+
+export const Clans = clanData
+    .filter(item => item["Nickname"] !== "N/A")
+    .map(item => item["Name"]);

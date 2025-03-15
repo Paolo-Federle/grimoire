@@ -47,3 +47,5 @@ const PathData = [
 ]
 
 export default PathData;
+
+export const Paths = PathData.map(item => item["Path name"]);

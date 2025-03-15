@@ -5,9 +5,9 @@ import { clanData } from '../../Data/Vampire/ClanData';
 export default function Clan() {
 
 
-    const headers = ['Basic', 'Nickname', 'Bonus Trait', 'Clan Disciplines', 'Weakness', 'Book']
+    const headers = ['Name', 'Nickname', 'Bonus Trait', 'Clan Disciplines', 'Weakness', 'Book']
     const headerCheckFields = ['Nickname']
-    const disciplineData = ['Basic']
+    const disciplineData = ['Name']
 
     return (
         <div className='grid-container'>

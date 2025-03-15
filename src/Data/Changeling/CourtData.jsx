@@ -178,3 +178,7 @@ const courtData = [
 ]
 
 export { courtData }
+
+export const Courts = courtData
+    .filter(item => item["Page Number"] !== "N/A")
+    .map(item => item["Court Name"]);

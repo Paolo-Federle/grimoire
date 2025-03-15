@@ -18,12 +18,8 @@
   border: none !important;
 }
 
-.table-cell a,
-.table-cell a:link,
-.table-cell a:visited,
-.table-cell:active,
-a:hover {
-  text-decoration: none;
+a {
+  @apply text-blue-500 hover:underline;
 }
 
 .flex-row {

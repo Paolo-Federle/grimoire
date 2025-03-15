@@ -5,9 +5,9 @@ import { covenantData } from '../../Data/Vampire/CovenantData';
 export default function Covenant() {
 
 
-    const headers = ['Common', 'Description', 'Advantage', 'Book']
+    const headers = ['Name', 'Description', 'Advantage', 'Book']
     const headerCheckFields = ['Description']
-    const disciplineData = ['Common']
+    const disciplineData = ['Name']
 
     return (
         <div className='grid-container'>

@@ -14,7 +14,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <Link to="/books" title="Books">List of Books</Link>
+                                    <Link to="/books" title="Books" >List of Books</Link>
                                     &nbsp;•&nbsp;
                                     <Link to="/resources" title="Resources">External Resources</Link>
                                 </td>

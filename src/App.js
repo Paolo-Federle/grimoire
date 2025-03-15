@@ -105,6 +105,9 @@ import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
 import DynamicDetail from './components/Disuso/DynamicDetail';
 import TokensDetail from './pages/Changeling/TokensDetail';
 import TokenRules from './pages/Changeling/TokenRules';
+import SheetTest from './pages/Generale/SheetTest';
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./css/muiTheme"; 
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -198,10 +201,13 @@ function App() {
 
   return (
     <>
+      <ThemeProvider theme={theme}>
+
       <Navbar />
       <div className={`page-container ${categoryStyle}`}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/sheet" element={<SheetTest />} />
           <Route path="/books" element={<Books />} />
           <Route path="/size" element={<Size />} />
           <Route path="/merits/location" element={<Location />} />
@@ -387,6 +393,7 @@ function App() {
 
         </Routes>
       </div>
+      </ThemeProvider>
     </>
   );
 }

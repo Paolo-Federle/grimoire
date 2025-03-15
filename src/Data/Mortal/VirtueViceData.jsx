@@ -42,3 +42,6 @@ export const VirtueViceData = [
         "Vice action": "Lash out when conflict is unnecessary"
     }
 ]
+
+export const Virtues = VirtueViceData.map(item => item.Virtue);
+export const Vices = VirtueViceData.map(item => item.Vice);

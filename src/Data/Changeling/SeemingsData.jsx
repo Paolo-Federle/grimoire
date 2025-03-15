@@ -50,3 +50,5 @@ const SeemingsData = [
 ]
 
 export { SeemingsData }
+
+export const Seemings = SeemingsData.map(item => item["Seeming"]);
