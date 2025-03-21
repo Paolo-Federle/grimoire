@@ -32,11 +32,20 @@ export const RaceEnergyTracker = () => {
 
     const setEnergyLevel = (index) => {
         setEnergyPool(prev => {
-            const newEnergyPool = prev.map((_, i) => i <= index);
+            let newEnergyPool;
+    
+            // Toggle off the only filled dot
+            if (index === 0 && prev.filter(dot => dot).length === 1 && prev[0]) {
+                newEnergyPool = prev.map(() => false);
+            } else {
+                newEnergyPool = prev.map((_, i) => i <= index);
+            }
+    
             sheetData.race_traits.energy_pool.current = newEnergyPool.filter(dot => dot).length;
             return newEnergyPool;
         });
     };
+    
 
     return (
         <div className={`w-full ${energyPoolName ? "visible" : "invisible"}`}>

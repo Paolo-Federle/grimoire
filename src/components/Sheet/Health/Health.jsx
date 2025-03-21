@@ -24,14 +24,39 @@ export const HealthTracker = () => {
         sheetData.derived_stats.health_mod = healthMod;
     }, [maxHealth, healthMod]);
 
+    const DAMAGE_ORDER = ["none", "bashing", "lethal", "aggravated"];
+
     const cycleDamage = (index) => {
         setDamage(prev => {
             const newDamage = [...prev];
-            newDamage[index] = newDamage[index] === "none" ? "bashing" : newDamage[index] === "bashing" ? "lethal" : newDamage[index] === "lethal" ? "aggravated" : "none";
+            const currentLevelIndex = DAMAGE_ORDER.indexOf(prev[index]);
+            const nextLevelIndex = (currentLevelIndex + 1) % DAMAGE_ORDER.length;
+            const nextLevel = DAMAGE_ORDER[nextLevelIndex];
+
+            // Update the clicked box
+            newDamage[index] = nextLevel;
+
+            // Cascade to the left: upgrade if lower
+            for (let i = 0; i < index; i++) {
+                const level = DAMAGE_ORDER.indexOf(newDamage[i]);
+                if (level < nextLevelIndex) {
+                    newDamage[i] = nextLevel;
+                }
+            }
+
+            // Constrain to the right: downgrade if higher
+            for (let i = index + 1; i < newDamage.length; i++) {
+                const level = DAMAGE_ORDER.indexOf(newDamage[i]);
+                if (level > nextLevelIndex) {
+                    newDamage[i] = nextLevel;
+                }
+            }
+
             sheetData.derived_stats.damage = newDamage;
             return newDamage;
         });
     };
+
 
     const toggleResistantDamage = (index) => {
         setResistantDamage(prev => {

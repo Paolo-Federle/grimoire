@@ -3,9 +3,9 @@ import { sheetData } from "../00_SheetData";
 import { ModifierControl } from "../Common/40_ModifierControl";
 
 const getMaxWillpower = () => {
-    return sheetData.attributes.mental.resolve.base + sheetData.attributes.mental.resolve.modifier + 
-           sheetData.attributes.social.composure.base + sheetData.attributes.social.composure.modifier + 
-           sheetData.derived_stats.willpower_mod;
+    return sheetData.attributes.mental.resolve.base + sheetData.attributes.mental.resolve.modifier +
+        sheetData.attributes.social.composure.base + sheetData.attributes.social.composure.modifier +
+        sheetData.derived_stats.willpower_mod;
 };
 
 const initializeArray = (arr, length, defaultValue) => {
@@ -23,18 +23,41 @@ export const WillpowerTracker = () => {
         sheetData.derived_stats.willpower_mod = willpowerMod;
     }, [maxWillpower, willpowerMod]);
 
+    const WILLPOWER_ORDER = ["filled", "empty", "crossed"];
+
     const cycleWillpower = (index, reverse = false) => {
         setWillpower(prev => {
             const newWillpower = [...prev];
-            if (reverse) {
-                newWillpower[index] = newWillpower[index] === "empty" ? "crossed" : newWillpower[index] === "crossed" ? "filled" : "empty";
-            } else {
-                newWillpower[index] = newWillpower[index] === "filled" ? "empty" : newWillpower[index] === "empty" ? "crossed" : "filled";
+
+            const currentLevel = WILLPOWER_ORDER.indexOf(prev[index]);
+            const nextLevel = reverse
+                ? (currentLevel - 1 + WILLPOWER_ORDER.length) % WILLPOWER_ORDER.length
+                : (currentLevel + 1) % WILLPOWER_ORDER.length;
+
+            const newValue = WILLPOWER_ORDER[nextLevel];
+            newWillpower[index] = newValue;
+
+            // Rightward: upgrade if necessary
+            for (let i = index + 1; i < newWillpower.length; i++) {
+                const level = WILLPOWER_ORDER.indexOf(newWillpower[i]);
+                if (level < nextLevel) {
+                    newWillpower[i] = newValue;
+                }
             }
+
+            // Leftward: downgrade if necessary
+            for (let i = 0; i < index; i++) {
+                const level = WILLPOWER_ORDER.indexOf(newWillpower[i]);
+                if (level > nextLevel) {
+                    newWillpower[i] = newValue;
+                }
+            }
+
             sheetData.derived_stats.willpower = newWillpower;
             return newWillpower;
         });
     };
+
 
     const handleWillpowerModChange = (value) => {
         setWillpowerMod(prev => prev + value);
@@ -47,8 +70,8 @@ export const WillpowerTracker = () => {
                 <div className="grid grid-cols-5 gap-2">
                     {Array.from({ length: maxWillpower }).map((_, i) => (
                         <div key={i} className="relative flex items-center">
-                            <div 
-                                className={`willpower-box relative flex h-[22px] w-[24px] cursor-pointer items-center justify-center rounded-full border-2 transition-all duration-300 ${i >= maxWillpower - willpowerMod ? 'border-green-400' : 'border-blue-500'}`} 
+                            <div
+                                className={`willpower-box relative flex h-[22px] w-[24px] cursor-pointer items-center justify-center rounded-full border-2 transition-all duration-300 ${i >= maxWillpower - willpowerMod ? 'border-green-400' : 'border-blue-500'}`}
                                 onMouseDown={(e) => {
                                     e.preventDefault();
                                     if (e.button === 2) cycleWillpower(i, true);
