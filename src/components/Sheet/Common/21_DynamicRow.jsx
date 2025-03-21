@@ -1,7 +1,7 @@
 import { DynamicInput } from "./32_DynamicInput.jsx";
 import { RemoveButton } from "./32_RemoveButton.jsx";
 
-export const DynamicRow = ({ item, index, onChange, onRemove, isHeader = false, fieldConfig }) => {
+export const DynamicRow = ({ item, index, onChange, onRemove, isHeader = false, fieldConfig, totalItems }) => {
   if (isHeader) {
     return (
       <thead>
@@ -25,16 +25,21 @@ export const DynamicRow = ({ item, index, onChange, onRemove, isHeader = false, 
             value={item[field]}
             onChange={(value) => onChange(index, field, value)}
             field={field}
-            type={fieldConfig[field]?.type || "auto"} // Define input type dynamically
-            label={fieldConfig[field]?.label ?? null} // Pass the label (use default if not set)
+            type={fieldConfig[field]?.type || "auto"}
+            label={fieldConfig[field]?.label ?? null}
           />
         </td>
       ))}
 
-      {/* Remove button */}
+      {/* Hide RemoveButton if only one row exists */}
       <td className="w-10 text-center py-2">
-        <RemoveButton onClick={() => onRemove(index)} />
+        <RemoveButton
+          onClick={() => onRemove(index)}
+          className={totalItems > 1 ? "" : "invisible"}
+        />
       </td>
+
+
     </tr>
   );
 };

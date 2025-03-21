@@ -1,6 +1,6 @@
 import { TextField } from "@mui/material";
 
-export const NumberInput = ({ value, label = "", onChange }) => {
+export const NumberInput = ({ value, label = "", onChange, onBlur, style = {} }) => {
   return (
     <TextField
       type="number"
@@ -17,6 +17,7 @@ export const NumberInput = ({ value, label = "", onChange }) => {
           onChange(Math.max(0, parseInt(newValue, 10)));
         }
       }}
+      onBlur={onBlur}
       onWheel={(e) => e.preventDefault()}
       onKeyDown={(e) => {
         if (["ArrowUp", "ArrowDown", "e", "E", "+", "-"].includes(e.key)) e.preventDefault();
@@ -25,16 +26,14 @@ export const NumberInput = ({ value, label = "", onChange }) => {
       sx={{
         "& .MuiOutlinedInput-root": {
           padding: "4px 8px",
-        },
-        "& .MuiInputLabel-rootMuiInputLabel-root-root": {
-          fontSize: "0.875rem",
-          top: "0px",
+          height: style.height || "36px", // Apply height dynamically
         },
         input: {
           fontSize: "0.875rem",
           padding: "4px 8px",
         },
       }}
+      style={{ maxWidth: style.maxWidth || "100%" }}
     />
   );
 };

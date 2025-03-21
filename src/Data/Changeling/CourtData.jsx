@@ -8,7 +8,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The Spring Court",
+        "Court Name": "Spring Court",
         "Page Number": "CtL 47, LoS 28",
         "Court Emotion": "Desire",
         "Mantle Effects": "•+ +1 Socialization•••+ Allies and Contacts cost 1/2.••••• Can reroll dice pool when meeting someone for the first time.",
@@ -16,7 +16,7 @@ const courtData = [
         "Blessing Effect": "Crown spends a willpower point, grants ability to self or other to add Mantle on Glamour harvest roll. Usage per session = Mantle dots."
     },
     {
-        "Court Name": "The Summer Court",
+        "Court Name": "Summer Court",
         "Page Number": "CtL 50, LoS 47",
         "Court Emotion": "Wrath",
         "Mantle Effects": "• Spending Willpower on strength roll grants 4 dice instead of 3.••• +1 Armor••••• +1 Health",
@@ -24,7 +24,7 @@ const courtData = [
         "Blessing Effect": "When Crown is fighting 1 vs. 1, spend Glamour to increase Initiative by Mantle. Immune to surprised by ambushes or trickery. More then one combantant and Initiative drops to +1. Usage per session = Mantle Dots, once per foe."
     },
     {
-        "Court Name": "The Autumn Court",
+        "Court Name": "Autumn Court",
         "Page Number": "CtL 54, LoS 66",
         "Court Emotion": "Fear",
         "Mantle Effects": "• +2 on Contracts that use Occult.••• +1 Empathy and Investigation vs. Gentry or Arcadia.••••• Can reroll Occult that deals with magic (Not Contracts or Pledges.)",
@@ -32,7 +32,7 @@ const courtData = [
         "Blessing Effect": "Once per session, Crown discusses new news that he learned with ST. He's awarded with 2 special Glamour per revelation that can only be used for specific actions. Can store more of this glamour then Wyrd allows, but it attracts attention. These glamour fade at the end of the session."
     },
     {
-        "Court Name": "The Winter Court",
+        "Court Name": "Winter Court",
         "Page Number": "CtL 58, LoS 86",
         "Court Emotion": "Sorrow",
         "Mantle Effects": "• -1 Wits + Composure/Skill when not specifically looking for character.••• +1 to Subterfuge.••••• As •, but -3 penalty.",
@@ -40,7 +40,7 @@ const courtData = [
         "Blessing Effect": "Once per session, Crown converts Glamour to Willpower = Mantle. Willpower can be more then maximum, but is lost at the end of the session. For the rest of the scene, add Mantle to willpower rating."
     },
     {
-        "Court Name": "The Faraway CourtsSeasonal Variants",
+        "Court Name": "Faraway CourtsSeasonal Variants",
         "Page Number": "N/A",
         "Court Emotion": "N/A",
         "Mantle Effects": "N/A",
@@ -48,7 +48,7 @@ const courtData = [
         "Blessing Effect": "N/A"
     },
     {
-        "Court Name": "The Growing Season",
+        "Court Name": "Growing Season",
         "Page Number": "WM 120",
         "Court Emotion": "Lust",
         "Mantle Effects": "See Spring Court",
@@ -56,7 +56,7 @@ const courtData = [
         "Blessing Effect": "See Spring Court"
     },
     {
-        "Court Name": "The Tornado Season",
+        "Court Name": "Tornado Season",
         "Page Number": "WM 120",
         "Court Emotion": "Madness",
         "Mantle Effects": "See Spring Court",
@@ -64,7 +64,7 @@ const courtData = [
         "Blessing Effect": "See Spring Court"
     },
     {
-        "Court Name": "The Dry Season",
+        "Court Name": "Dry Season",
         "Page Number": "WM 120",
         "Court Emotion": "Rage",
         "Mantle Effects": "See Summer Court",
@@ -72,7 +72,7 @@ const courtData = [
         "Blessing Effect": "See Summer Court"
     },
     {
-        "Court Name": "The Monsoon Season",
+        "Court Name": "Monsoon Season",
         "Page Number": "WM 120",
         "Court Emotion": "Sanguine",
         "Mantle Effects": "See Summer Court",
@@ -80,7 +80,7 @@ const courtData = [
         "Blessing Effect": "See Summer Court"
     },
     {
-        "Court Name": "The Dead Season",
+        "Court Name": "Dead Season",
         "Page Number": "WM 120",
         "Court Emotion": "Despair",
         "Mantle Effects": "See Winter Court",
@@ -88,7 +88,7 @@ const courtData = [
         "Blessing Effect": "See Winter Court"
     },
     {
-        "Court Name": "The Directional Courts of Asia",
+        "Court Name": "Directional Courts of Asia",
         "Page Number": "N/A",
         "Court Emotion": "N/A",
         "Mantle Effects": "N/A",
@@ -96,7 +96,7 @@ const courtData = [
         "Blessing Effect": "N/A"
     },
     {
-        "Court Name": "The North Court",
+        "Court Name": "North Court",
         "Page Number": "WM 122",
         "Court Emotion": "Suffering",
         "Mantle Effects": "• Ignore penalties from fatigue and deprivation (Death is still possible)••• Ignore 1 from wound penalties••••• Once per scene use Resolve as armor score. Does not stack.",
@@ -104,7 +104,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The East Court",
+        "Court Name": "East Court",
         "Page Number": "WM 125",
         "Court Emotion": "Envy",
         "Mantle Effects": "•+ +1 to all social rolls•••+ +1 on Subterfuge when sparking envy or making a deal.••••• Once per day, add dots in Resources to any social roll.",
@@ -112,7 +112,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The South Court",
+        "Court Name": "South Court",
         "Page Number": "WM 129",
         "Court Emotion": "Ecstasy",
         "Mantle Effects": "•+ Free specialty in Empathy•••+ Increasing Empathy and Expression costs half.••••• Free Inspiring or •••• dot Striking Looks Merits. If already possessed, +3 to use Inspiring.",
@@ -120,7 +120,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The West Court",
+        "Court Name": "West Court",
         "Page Number": "WM 131",
         "Court Emotion": "Honor",
         "Mantle Effects": "•+ Weapon carried gains +1 durability.•••+ +1 Initiative.••••• Choose higher of Wits or Dexterity for determining Defense. Can defend against multiple attacks.",
@@ -128,7 +128,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The Diurnal Courts of Eastern Europe",
+        "Court Name": "Diurnal Courts of Eastern Europe",
         "Page Number": "N/A",
         "Court Emotion": "N/A",
         "Mantle Effects": "N/A",
@@ -136,7 +136,7 @@ const courtData = [
         "Blessing Effect": "N/A"
     },
     {
-        "Court Name": "The Sun Court",
+        "Court Name": "Sun Court",
         "Page Number": "WM 137",
         "Court Emotion": "Shame",
         "Mantle Effects": "• +1 to Perception rolls••• +1 to Defense••••• +1 to Degeneration and Derangement Rolls",
@@ -144,7 +144,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The Moon Court",
+        "Court Name": "Moon Court",
         "Page Number": "WM 140",
         "Court Emotion": "Disgust",
         "Mantle Effects": "• Larceny involving manual theft gains +2••• Spending willpower grants 4 extra dice instead of 3 for Intimation rolls.••••• Gain 2 Willpower when indulging Vice.",
@@ -152,7 +152,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The Auroral Courts",
+        "Court Name": "Auroral Courts",
         "Page Number": "N/A",
         "Court Emotion": "N/A",
         "Mantle Effects": "N/A",
@@ -160,7 +160,7 @@ const courtData = [
         "Blessing Effect": "N/A"
     },
     {
-        "Court Name": "The Dawn Court",
+        "Court Name": "Dawn Court",
         "Page Number": "SaD 133",
         "Court Emotion": "Hope",
         "Mantle Effects": "•+ Inspiring Merit for free. If already owned, can be used twice a day.•••+ When focusing, add +3 to instant action with your STs okay.••••• Regain all Glamour when creating significant changes.",
@@ -168,7 +168,7 @@ const courtData = [
         "Blessing Effect": ""
     },
     {
-        "Court Name": "The Dusk Court",
+        "Court Name": "Dusk Court",
         "Page Number": "DitD 136",
         "Court Emotion": "Futility",
         "Mantle Effects": "•+ +1 bonus die when making Heroic Efforts•••+ Iron Stamina, Iron Stomach, Natural Immunity, Quick Healer and Toxin Resistance cost half XP.••••• 1/day, reroll a failed Resolve, Composure or Stamina-based test. Must keep the second result.",

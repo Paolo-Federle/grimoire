@@ -35,12 +35,12 @@ export const sheetData = {
             "werewolf": {
                 "auspice": { "selected": "", "choices": ["Rahu", "Cahalith", "Elodoth", "Ithaeur", "Irraka"] },
                 "tribe": { "selected": "", "choices": ["Blood Talons", "Bone Shadows", "Hunters in Darkness", "Iron Masters", "Storm Lords", "Ghost Wolves", "Fire-Touched", "Ivory Claws", "Predator Kings", "Bale Hounds", "Doirons", "Pickerings", "Rios", "Rosewood Clan", "Village of Fountainhill", "Baal-Hadad", "Balam-Colop", "Brineborn", "Colony", "Distant Ones", "Unclean"] },
-                "conspiracy": ""
+                "lodge": ""
             },
             "hunter": {
                 "profession": "",
                 "compact": "",
-                "compact": ""
+                "conspiracy": ""
             },
             "geist": {
                 "archetype": { "selected": "", "choices": ["Advocate", "Bonepicker", "Celebrant", "Gatekeeper", "Mourner", "Necromancer", "Pilgrim", "Reaper"] },
@@ -168,12 +168,12 @@ export const sheetData = {
     },
     "race_traits": {
         "energy_pool": {
-            "current": 0,
-            "max": 0,
-            "per_turn": 0
+            "current": 10,
+            "max": 10,
+            "per_turn": 1
         },
         "energy_strength": {
-            "value": 0
+            "value": 1
         },
         "race_specific_names": {
             "mage": {
@@ -229,19 +229,26 @@ export const sheetData = {
         "promethean": "humanity"
     },
     "derived_stats": {
-        "health_max": 0,
-        "health_current": 0,
+        "health": 0,
         "health_mod": 0,
+        "damage": ["none"],
+        "resistant_damage": [],
         "willpower_max": 0,
         "willpower_current": 0,
         "willpower_mod": 0,
         "armor": {},
-        "speed": 0,
-        "defense": 0,
+        "speed": {
+            "base": 0,
+            "modifier": 0
+        },
+        "defense": {
+            "base": 1,
+            "modifier": 0
+        },
         "initiative": 0,
-        "size": 0
+        "size": 5
     },
-    "races_details": {
+    "race_details": {
         "mage": {
             "active_spells": [{
                 "name": "",
@@ -288,23 +295,20 @@ export const sheetData = {
     "experience": {
         "total": 0,
         "extra_total": 0,
-        "spent": 0,
-        "extra_spent": 0,
-        "unspent": 0,
+        "spent_total": 0,
+        "unspent_total": 0,
         "extra_unspent": 0,
         "gained": [{
             "quantity": 0,
             "extra_quantity": 0,
-            "description": 0
+            "description": ""
         }],
         "spent": [{
             "quantity": 0,
             "extra_quantity": 0,
-            "description": 0
+            "description": "",
         }],
 
     },
     "notes": ""
 }
-
-

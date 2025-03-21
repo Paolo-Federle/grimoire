@@ -1,27 +1,25 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { sheetData } from "../00_SheetData";
-import { CustomDrawer } from "../Common/40_CustomDrawer";
 import TitleDots from "../Common/35_TitleDots";
+import { ModifierControl } from "../Common/40_ModifierControl";
 
 export const AttributeRow = ({ name, category, max, min }) => {
   const [value, setValue] = useState(sheetData.attributes[category][name].base);
   const [modifier, setModifier] = useState(sheetData.attributes[category][name].modifier);
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const rowRef = useRef(null);
-
 
   const handleChange = (newValue) => {
     sheetData.attributes[category][name].base = newValue;
     setValue(newValue);
   };
 
-  const handleModifierChange = (newModifier) => {
+  const handleModifierChange = (delta) => {
+    const newModifier = modifier + delta;
     sheetData.attributes[category][name].modifier = newModifier;
     setModifier(newModifier);
   };
 
   return (
-    <div ref={rowRef} className="relative flex items-center justify-between w-full">
+    <div className="flex items-center gap-3">
       <TitleDots
         name={name}
         min={min}
@@ -29,17 +27,8 @@ export const AttributeRow = ({ name, category, max, min }) => {
         value={value}
         modifier={modifier}
         onChange={handleChange}
-        onOpenDrawer={() => setDrawerOpen(true)}
       />
-      <CustomDrawer isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} rowRef={rowRef}>
-        <span className="text-sm font-bold">Mod:</span>
-        <input
-          type="number"
-          value={modifier}
-          onChange={(e) => handleModifierChange(parseInt(e.target.value, 10) || 0)}
-          className="w-16 p-1 border rounded text-center"
-        />
-      </CustomDrawer>
+      <ModifierControl modifier={modifier} onChange={handleModifierChange} />
     </div>
   );
 };
