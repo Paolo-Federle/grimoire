@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useSheetData } from "../05_SheetDataContext";
 
-export const DynamicListManager = ({ dataKey, sheetData, RowComponent }) => {
+export const DynamicListManager = ({ dataKey, RowComponent }) => {
+  const { sheetData, setSheetData } = useSheetData();
   const [items, setItems] = useState(sheetData[dataKey] || []);
 
   const getDefaultItem = () => {
@@ -11,16 +13,23 @@ export const DynamicListManager = ({ dataKey, sheetData, RowComponent }) => {
     return Object.fromEntries(
       Object.entries(sheetData[dataKey][0]).map(([key, value]) => {
         if (typeof value === "boolean") return [key, false];
-        if (typeof value === "number") return [key, 0]; 
-        return [key, ""]; 
+        if (typeof value === "number") return [key, 0];
+        return [key, ""];
       })
     );
   };
 
-
   const handleChange = (index, field, value) => {
-    sheetData[dataKey][index][field] = value;
-    setItems([...sheetData[dataKey]]);
+    const updatedItems = [...sheetData[dataKey]];
+    updatedItems[index][field] = value;
+
+    setSheetData(prev => {
+      const updated = { ...prev };
+      updated[dataKey] = updatedItems;
+      return updated;
+    });
+
+    setItems(updatedItems);
   };
 
   const addItem = () => {
@@ -30,14 +39,29 @@ export const DynamicListManager = ({ dataKey, sheetData, RowComponent }) => {
       return;
     }
 
-    sheetData[dataKey].push(newItem);
-    setItems([...sheetData[dataKey]]);
+    const updatedItems = [...sheetData[dataKey], newItem];
+
+    setSheetData(prev => {
+      const updated = { ...prev };
+      updated[dataKey] = updatedItems;
+      return updated;
+    });
+
+    setItems(updatedItems);
   };
 
   const removeItem = (index) => {
-    if (items.length > 1) { // Prevent removal if it's the only row
-      sheetData[dataKey].splice(index, 1);
-      setItems([...sheetData[dataKey]]);
+    if (items.length > 1) {
+      const updatedItems = [...sheetData[dataKey]];
+      updatedItems.splice(index, 1);
+
+      setSheetData(prev => {
+        const updated = { ...prev };
+        updated[dataKey] = updatedItems;
+        return updated;
+      });
+
+      setItems(updatedItems);
     }
   };
 
@@ -48,13 +72,13 @@ export const DynamicListManager = ({ dataKey, sheetData, RowComponent }) => {
 
         <tbody>
           {items.map((item, index) => (
-            <RowComponent 
+            <RowComponent
               key={index}
               index={index}
               item={item}
               onChange={handleChange}
               onRemove={removeItem}
-              totalItems={items.length}  // Pass totalItems to DynamicRow
+              totalItems={items.length}
             />
           ))}
         </tbody>

@@ -28,8 +28,8 @@ export const sheetData = {
                 "bloodline": "",
             },
             "changeling": {
-                "court": { "selected": "", "choices": Courts },
                 "seeming": { "selected": "", "choices": Seemings },
+                "court": { "selected": "", "choices": Courts },
                 "kith": ""
             },
             "werewolf": {

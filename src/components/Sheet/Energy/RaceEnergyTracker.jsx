@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { sheetData } from "../00_SheetData";
+import { useSheetData } from "../05_SheetDataContext";
 
 const initializeDots = (length, filledCount) => {
     return Array.from({ length }, (_, i) => i < filledCount);
@@ -19,6 +19,7 @@ const getEnergyColor = (race) => {
 };
 
 export const RaceEnergyTracker = () => {
+    const { sheetData, setSheetData } = useSheetData();
     const selectedRace = sheetData.character.race.selected;
     const energyPoolName = sheetData.race_traits.race_specific_names[selectedRace]?.energy_pool;
     const maxEnergy = sheetData.race_traits.energy_pool.max;
@@ -27,25 +28,32 @@ export const RaceEnergyTracker = () => {
 
     useEffect(() => {
         setEnergyPool(initializeDots(maxEnergy, sheetData.race_traits.energy_pool.current));
-        sheetData.race_traits.energy_pool.current = energyPool.filter(dot => dot).length;
+        setSheetData(prev => {
+            const updated = { ...prev };
+            updated.race_traits.energy_pool.current = energyPool.filter(dot => dot).length;
+            return updated;
+        });
     }, [maxEnergy]);
 
     const setEnergyLevel = (index) => {
         setEnergyPool(prev => {
             let newEnergyPool;
-    
-            // Toggle off the only filled dot
+
             if (index === 0 && prev.filter(dot => dot).length === 1 && prev[0]) {
                 newEnergyPool = prev.map(() => false);
             } else {
                 newEnergyPool = prev.map((_, i) => i <= index);
             }
-    
-            sheetData.race_traits.energy_pool.current = newEnergyPool.filter(dot => dot).length;
+
+            setSheetData(prev => {
+                const updated = { ...prev };
+                updated.race_traits.energy_pool.current = newEnergyPool.filter(dot => dot).length;
+                return updated;
+            });
+
             return newEnergyPool;
         });
     };
-    
 
     return (
         <div className={`w-full ${energyPoolName ? "visible" : "invisible"}`}>

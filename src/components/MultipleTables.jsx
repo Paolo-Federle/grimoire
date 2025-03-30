@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -18,11 +19,12 @@ export default function MultipleTables(props) {
     return (
         <>
             <div className='grid-container'>
-                <h1>{props.title}</h1>
-                {!props.hideButton && ( // Check for the hideButton prop
-                    <button onClick={toggleTableVisibility}>
+                <h1 className="text-xl">{props.title}</h1>
+                {!props.hideButton && (
+
+                    <Button onClick={toggleTableVisibility} variant="contained">
                         {isTableVisible ? 'Hide' : 'Show'}
-                    </button>
+                    </Button>
                 )}
                 {isTableVisible && (
                     <div className='table-container'>

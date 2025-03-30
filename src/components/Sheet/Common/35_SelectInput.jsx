@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { sheetData } from "../00_SheetData";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
+import { useSheetData } from "../05_SheetDataContext";
 
 export const SelectInput = ({ field, options = null, path = null, label = "Select an option", onChange = null }) => {
+    const { sheetData, setSheetData } = useSheetData();
     const isUsingSheetData = !!field;
     const availableOptions = options || (isUsingSheetData ? field.choices : []);
 
-    // Get the initial selected value from sheetData or path
     const getSelectedValue = () => {
         if (isUsingSheetData) return field.selected;
         if (path) {
@@ -24,17 +24,25 @@ export const SelectInput = ({ field, options = null, path = null, label = "Selec
         const newValue = event.target.value;
 
         if (onChange) {
-            onChange(newValue); // Use passed onChange if available
+            onChange(newValue);
         } else if (isUsingSheetData) {
-            field.selected = newValue; // Update sheetData directly
+            field.selected = newValue;
+            setSheetData((prev) => {
+                const updated = { ...prev };
+                return updated;
+            });
         } else if (path) {
-            let ref = sheetData;
-            const keys = path.split(".");
-            keys.slice(0, -1).forEach((key) => (ref = ref[key])); // Navigate to correct object
-            ref[keys[keys.length - 1]] = newValue; // Set the value
+            setSheetData((prev) => {
+                const updated = { ...prev };
+                let ref = updated;
+                const keys = path.split(".");
+                keys.slice(0, -1).forEach((key) => (ref = ref[key]));
+                ref[keys[keys.length - 1]] = newValue;
+                return updated;
+            });
         }
 
-        setSelected(newValue); // Trigger re-render
+        setSelected(newValue);
     };
 
     return (

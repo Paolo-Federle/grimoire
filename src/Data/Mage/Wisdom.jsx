@@ -31,7 +31,7 @@ const WisdomData = [
     },
     {
         'Value': '4',
-        'Sin': "Using magic to harm somone. Draining another's Mana agianst his will. Creating a Soul Stone.",
+        'Sin': "Using magic to harm someone. Draining another's Mana against his will. Creating a Soul Stone.",
         'Dice Rolled': '2'
     },
     {

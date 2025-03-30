@@ -1,26 +1,35 @@
 import React, { useState, useEffect } from "react";
-import { sheetData } from "../00_SheetData";
 import { ModifierControl } from "../Common/40_ModifierControl";
-
-const getMaxWillpower = () => {
-    return sheetData.attributes.mental.resolve.base + sheetData.attributes.mental.resolve.modifier +
-        sheetData.attributes.social.composure.base + sheetData.attributes.social.composure.modifier +
-        sheetData.derived_stats.willpower_mod;
-};
+import { useSheetData } from "../05_SheetDataContext";
 
 const initializeArray = (arr, length, defaultValue) => {
     return arr.slice(0, length).concat(Array(Math.max(0, length - arr.length)).fill(defaultValue));
 };
 
 export const WillpowerTracker = () => {
+    const { sheetData, setSheetData } = useSheetData();
+
+    const getMaxWillpower = () => {
+        return sheetData.attributes.mental.resolve.base +
+            sheetData.attributes.mental.resolve.modifier +
+            sheetData.attributes.social.composure.base +
+            sheetData.attributes.social.composure.modifier +
+            sheetData.derived_stats.willpower_mod;
+    };
+
     const [willpowerMod, setWillpowerMod] = useState(sheetData.derived_stats.willpower_mod || 0);
     const maxWillpower = getMaxWillpower();
     const [willpower, setWillpower] = useState(initializeArray(sheetData.derived_stats.willpower || [], maxWillpower, "filled"));
 
     useEffect(() => {
         setWillpower(prev => initializeArray(prev, maxWillpower, "filled"));
-        sheetData.derived_stats.willpower = willpower;
-        sheetData.derived_stats.willpower_mod = willpowerMod;
+
+        setSheetData(prev => {
+            const updated = { ...prev };
+            updated.derived_stats.willpower = willpower;
+            updated.derived_stats.willpower_mod = willpowerMod;
+            return updated;
+        });
     }, [maxWillpower, willpowerMod]);
 
     const WILLPOWER_ORDER = ["filled", "empty", "crossed"];
@@ -37,7 +46,6 @@ export const WillpowerTracker = () => {
             const newValue = WILLPOWER_ORDER[nextLevel];
             newWillpower[index] = newValue;
 
-            // Rightward: upgrade if necessary
             for (let i = index + 1; i < newWillpower.length; i++) {
                 const level = WILLPOWER_ORDER.indexOf(newWillpower[i]);
                 if (level < nextLevel) {
@@ -45,7 +53,6 @@ export const WillpowerTracker = () => {
                 }
             }
 
-            // Leftward: downgrade if necessary
             for (let i = 0; i < index; i++) {
                 const level = WILLPOWER_ORDER.indexOf(newWillpower[i]);
                 if (level > nextLevel) {
@@ -53,11 +60,15 @@ export const WillpowerTracker = () => {
                 }
             }
 
-            sheetData.derived_stats.willpower = newWillpower;
+            setSheetData(prev => {
+                const updated = { ...prev };
+                updated.derived_stats.willpower = newWillpower;
+                return updated;
+            });
+
             return newWillpower;
         });
     };
-
 
     const handleWillpowerModChange = (value) => {
         setWillpowerMod(prev => prev + value);

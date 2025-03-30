@@ -33,7 +33,7 @@ export default function ManyHeadersTable(props) {
   return (
     <>
       <div>
-        <h1 onClick={handleSectionToggle} style={{ cursor: 'pointer' }}>
+        <h1 onClick={handleSectionToggle} style={{ cursor: 'pointer' }} className="text-xl">
           {props.title} {isSectionActive ? '∧' : '∨'}
         </h1>
         {isSectionActive && (

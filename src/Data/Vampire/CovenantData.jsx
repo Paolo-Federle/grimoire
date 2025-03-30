@@ -42,19 +42,19 @@ const covenantData = [
         "Book": "VTR 70, BB"
     },
     {
-        "Name": "VII",
+        "Name": "VII, The Princes of the Fallen City",
         "Description": "Clan Akhud, bound by blood to their clanmates and to a demon in their blood calling for the destruction of the Kindred.",
         "Advantage": "Ahranite Sorcery",
         "Book": "VII 26-67"
     },
     {
-        "Name": "VII",
+        "Name": "VII, the Betrayed",
         "Description": "Haunted descendants of a Slavic ghoul-king, burning for vengeance upon the Kindred.",
         "Advantage": "Specters",
         "Book": "VII 70-117"
     },
     {
-        "Name": "VII",
+        "Name": "VII, the Sleepers",
         "Description": "Puppets of a self-propagating sleeper organization, subverted by psychic surgery to cleanse the Damned.",
         "Advantage": "Psychogenics",
         "Book": "VII 120-165"

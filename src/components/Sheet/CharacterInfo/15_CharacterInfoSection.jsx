@@ -1,68 +1,48 @@
 import { useState, useEffect } from "react";
 import CategoryContainer from "../Common/17_CategoryContainer";
-import { sheetData } from "../00_SheetData";
 import { SelectInput } from "../Common/35_SelectInput";
 import { TextInput } from "../Common/35_TextInput";
 import { NumberInput } from "../Common/35_NumberInput";
+import { useSheetData } from "../05_SheetDataContext";
 
 export default function CharacterInfoSection() {
-  // State for the entire character object
+  const { sheetData, setSheetData } = useSheetData();
   const [character, setCharacter] = useState(sheetData.character);
   const [selectedRace, setSelectedRace] = useState(character.race.selected || "");
 
-  // Sync state with sheetData
   useEffect(() => {
-    sheetData.character = character;
-    console.log('firstField', character?.details?.[selectedRace]?.[firstField]?.choices)
-    
+    setSheetData((prev) => ({ ...prev, character }));
   }, [character]);
 
-  // Handler to update any character property
   const handleChange = (key, value) => {
-    setCharacter((prev) => {
-      const updated = { ...prev, [key]: value };
-      sheetData.character = updated;
-      return updated;
-    });
+    setCharacter((prev) => ({ ...prev, [key]: value }));
   };
 
-  // Updates the selected race and resets race-specific details
   const handleRaceChange = (value) => {
-    setCharacter((prev) => {
-      const updated = {
-        ...prev,
-        race: { ...prev.race, selected: value },
-      };
-      sheetData.character = updated;
-      return updated;
-    });
-
-    // Ensure UI updates with the correct race details
+    setCharacter((prev) => ({
+      ...prev,
+      race: { ...prev.race, selected: value },
+    }));
     setSelectedRace(value);
   };
 
-  // Handler for updating race-specific attributes
   const handleRaceDetailChange = (key, value) => {
-    setCharacter((prev) => {
-      const updated = {
-        ...prev,
-        details: {
-          ...prev.details,
-          [selectedRace]: {
-            ...prev.details[selectedRace],
-            [key]: value,
-          },
+    setCharacter((prev) => ({
+      ...prev,
+      details: {
+        ...prev.details,
+        [selectedRace]: {
+          ...prev.details[selectedRace],
+          [key]: value,
         },
-      };
-      sheetData.character = updated;
-      return updated;
-    });
+      },
+    }));
   };
 
+  const raceDetails = character.details[selectedRace] || {};
+  const [firstField, secondField, thirdField] = Object.keys(raceDetails).slice(0, 3);
 
-  // Get the three race-specific keys dynamically from sheetData
-  const raceDetails = sheetData.character.details[selectedRace] || {};
-  const [firstField, secondField, thirdField] = Object.keys(raceDetails).slice(0, 3); // Always gets the first three fields
+  console.log('sheetData', sheetData)
 
   return (
     <div className="w-full">
@@ -79,31 +59,23 @@ export default function CharacterInfoSection() {
           <SelectInput field={character.virtue} label="Virtue" />
         </div>
 
-        {/* Explicit Race-Specific Details */}
         {selectedRace && firstField && (
           <div className="w-1/3 space-y-4">
-            {firstField && (
-              <SelectInput
-                label={firstField?.charAt(0).toUpperCase() + firstField?.slice(1)}
-                field={character?.details?.[selectedRace]?.[firstField] || ""}
-              />
-            )}
-            {secondField && (
-              <SelectInput
-                label={secondField?.charAt(0).toUpperCase() + secondField?.slice(1)}
-                field={character?.details?.[selectedRace]?.[secondField] || ""}
-              />
-            )}
-            {thirdField && (
+            <SelectInput
+              label={firstField?.charAt(0).toUpperCase() + firstField?.slice(1)}
+              field={character.details[selectedRace][firstField]}
+            />
+            <SelectInput
+              label={secondField?.charAt(0).toUpperCase() + secondField?.slice(1)}
+              field={character.details[selectedRace][secondField]}
+            />
             <TextInput
               label={thirdField?.charAt(0).toUpperCase() + thirdField?.slice(1)}
-              value={character?.details?.[selectedRace]?.[thirdField] || ""}
+              value={character.details[selectedRace][thirdField]}
               onChange={(val) => handleRaceDetailChange(thirdField, val)}
             />
-          )}
           </div>
         )}
-
       </CategoryContainer>
     </div>
   );

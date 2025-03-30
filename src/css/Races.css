@@ -18,5 +18,11 @@
 }
 
 a {
-    @apply text-blue-500 hover:underline;
+    color: #1a0dab; /* standard blue */
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #551a8b; /* standard visited-link purple */
+    text-decoration: underline;
   }
