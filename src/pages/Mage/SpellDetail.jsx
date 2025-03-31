@@ -9,33 +9,33 @@ export default function SpellDetail(props) {
         if (!Array.isArray(data) || data.length === 0) {
             return '';
         }
-
+    
         const headers = data[0];
         const rows = data.slice(1);
-
-        let tableHTML = '<table border="1">';
-        tableHTML += '<tr>';
-
+    
+        let tableHTML = '<table class="table-auto border-collapse border border-gray-300 w-full text-sm text-left">';
+        tableHTML += '<thead><tr class="bg-gray-100">';
+    
         for (const header of headers) {
-            tableHTML += `<th style="padding: 5px;">${header}</th>`;
+            tableHTML += `<th class="border border-gray-300 px-4 py-2 font-medium text-gray-700">${header}</th>`;
         }
-
-        tableHTML += '</tr>';
-
+    
+        tableHTML += '</tr></thead><tbody>';
+    
         for (const row of rows) {
             tableHTML += '<tr>';
-
+    
             for (const cell of row) {
-                tableHTML += `<td style="padding: 5px;">${cell}</td>`;
+                tableHTML += `<td class="border border-gray-300 px-4 py-2">${cell}</td>`;
             }
-
+    
             tableHTML += '</tr>';
         }
-
-        tableHTML += '</table>';
-
+    
+        tableHTML += '</tbody></table>';
+    
         return tableHTML;
-    }
+    }    
 
     function replacePlaceholders(text) {
         const tablePlaceholders = ['[TABLE1]', '[TABLE2]', '[TABLE3]', '[TABLE4]']; // Add more if needed

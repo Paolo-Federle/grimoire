@@ -19,7 +19,7 @@ export default function SimpleTable(props) {
         <>
             <div>
                 {props.title && (
-                    <h1 onClick={handleToggleSection} style={{ cursor: 'pointer' }}>
+                    <h1 onClick={handleToggleSection} style={{ cursor: 'pointer' }} className="text-xl">
                         {props.title} {isSectionActive ? '∧' : '∨'}
                     </h1>
                 )}
