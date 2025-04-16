@@ -1190,7 +1190,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> None",
             "<b>Problems and Hooks:</b><ul><li>Truly desperate spirits may hide in a Barren. This is a losing decision in the long run, as the spirit cannot regain Essence while in the Barren, but if the spirit is on the run from more powerful entities, such a wasteland may be the spirit’s only alternative.</li><li>A human who has somehow crossed over into Shadow may inadvertently find that a Barren is one of the few safe places around — as few spirits enter the area, and those that do so have a hard time harming the human.</li></ul>"
         ],
-        "Description": ""
+        "Description": "spiritually dead zone; no Essence; hinders supernatural powers"
     },
     {
         "Name": "Catalyst",
@@ -1207,7 +1207,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> As appropriate to the catalyst",
             "<b>Problems and Hooks:</b> In addition to the complications listed above, a catalyst site may also affect humans who spend a lot of time nearby. Humans with Willpower scores below 5 begin to take on personality traits associated with the catalyst site — near a “fire” site they become pyromaniacal, while near a “breeding” site they become more amorous."
         ],
-        "Description": ""
+        "Description": "alters spirit nature via resonance; thin Gauntlet; affects humans over time"
     },
     {
         "Name": "Glade",
@@ -1222,7 +1222,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> Peace, healing, rest",
             "<b>Problems and Hooks:</b> A wounded and desperate pack of rival Uratha makes camp in a glade ‘belonging’ to the characters’ pack without permission or notification. Does the pack honor the nature of the glade, or defend its territory?"
         ],
-        "Description": ""
+        "Description": "peaceful Essence site; resists violence; boosts defense, hinders attack"
     },
     {
         "Name": "Locus",
@@ -1237,7 +1237,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> As appropriate to the locus",
             "<b>Problems and Hooks:</b> Loci are central points in the lives of the Uratha. Spirits congregate near loci, Uratha rely on loci to accumulate Essence, the Gauntlet is thin near them and loci can even alter the local landscape and mood through their resonance. Azlu, in particular, like to hunt near loci. By a locus’ very nature, a locus is sure to be the focus of many stories over the course of a chronicle."
         ],
-        "Description": ""
+        "Description": "source of Essence; thin Gauntlet; vital to Uratha and spirit activity"
     },
     {
         "Name": "Shoal",
@@ -1252,7 +1252,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> Depression, sloth, introspection, paralysis",
             "<b>Problems and Hooks:</b> <ul><li>A packmate or mentor goes missing; she was last seen wounded near an area known to be a shoal. The pack must find her before anything else does.</li><li>Some spirits are rumored to be immune to the taint of the shoal. These predators wait for passersby to become overwhelmed by listlessness, and then attack. The trapped person or werewolf can defend himself, but cannot flee.</li></ul>"
         ],
-        "Description": ""
+        "Description": "zone of apathy; traps with despair; blocks escape without effort"
     },
     {
         "Name": "Verge",
@@ -1267,7 +1267,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> None innate",
             "<b>Problems and Hooks:</b> A verge tends to provide far more problems than benefits to a werewolf pack. While a verge remains open, humans become lost in the Shadow where they have little chance of survival, and spirits move freely into the physical world to pursue their own ambitions. The night a verge opens in a pack’s territory is sure to be a busy one for the pack."
         ],
-        "Description": ""
+        "Description": "temporary Gauntlet breach; allows free crossing; rare and unpredictable"
     },
     {
         "Name": "Window",
@@ -1283,7 +1283,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> Perception, madness",
             "<b>Problems and Hooks:</b> Spirit windows can trigger strange reactions in humans, from an unhealthy fascination with the supernatural to near-madness. Spirits find it easier to monitor the physical world for potential opportunities, and those that might not have been tempted to cross the Gauntlet on their own might feel that urge once they see the lures of the physical through a window."
         ],
-        "Description": ""
+        "Description": "view across Gauntlet; no passage; may trigger Lunacy or spirit interest"
     },
     {
         "Name": "Wound",
@@ -1298,7 +1298,7 @@ const supernaturalTerritoryData = [
             "<b>Resonance:</b> Cruelty, slaughter, pain, despair, fear — almost any negative emotion ",
             "<b>Problems and Hooks:</b> The existence of a Wound within a pack’s territory is a major problem and is likely to drive the core of the chronicle’s storyline."
         ],
-        "Description": ""
+        "Description": "source of corrupt Essence; strengthens violence; degrades Harmony and control"
     }
 ]
 
@@ -1379,7 +1379,7 @@ const descriptorsTerritoryData = [
             "<b>Resonance:</b> Death",
             "<b>Problems and Hooks:</b> Some ghosts are openly hostile, and even those who aren’t may make life difficult for the werewolves nearby. A haunted area may also gain a measure of notoriety (see below)."
         ],
-        "Description": ""
+        "Description": "infested by ghosts; unnerves humans; may offer hidden knowledge"
     },
     {
         "Name": "Notorious",
@@ -1501,7 +1501,7 @@ const descriptorsTerritoryData = [
             "<b>Resonance:</b> Hunger, thirst, death",
             "<b>Problems and Hooks:</b> <ul><li>A feud between local vampires spreads to include the pack, as one of the vampires offers local werewolves a bounty on members of a vampire gang known as the “Dragons.” Even if the players’ pack ignores the offer, other local packs may get involved on opposite sides of the feud.</li><li>A packmember’s teenage child is attacked by what appear to be vampires, leaving bloody wounds on the teen’s neck. If there is a “treaty” of sorts between the Uratha and vampires, surely this shatters it. But which vampires attacked her?</li></ul>"
         ],
-        "Description": ""
+        "Description": "vampire hunting ground; attracts nightlife; may offer contacts or conflict"
     },
     {
         "Name": "Virgin",

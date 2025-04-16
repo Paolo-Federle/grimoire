@@ -5,3 +5,5 @@ completare Lista NPCs https://docs.google.com/spreadsheets/d/1n3TviHt7TZUBlDEIlo
 Schede per png non editabili
 
 Schede editabili con salvataggio dei dati
+
+Completare descrizione breve dei numina

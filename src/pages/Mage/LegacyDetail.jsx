@@ -40,7 +40,7 @@ export default function LegacyDetail(props) {
                                 {matchedLegacy.characterCreation && <p><b>Character Creation:</b> <span dangerouslySetInnerHTML={{ __html: matchedLegacy.characterCreation }} /></p>}
                                 {matchedLegacy.organizzation && <p><b>Organizzation:</b> <span dangerouslySetInnerHTML={{ __html: matchedLegacy.organizzation }} /></p>}
                                 {matchedLegacy.suggestedOblations && <p><b>Suggested Oblations:</b> <span dangerouslySetInnerHTML={{ __html: matchedLegacy.suggestedOblations }} /></p>}
-                                {matchedLegacy.concepts && <p><b>Concepts:</b><span dangerouslySetInnerHTML={{ __html: matchedLegacy.concepts }} /> </p>}
+                                {matchedLegacy.concepts && <p><b>Concepts: </b><span dangerouslySetInnerHTML={{ __html: matchedLegacy.concepts }} /> </p>}
                                 {matchedLegacy.historySocietyCulture && <p><span dangerouslySetInnerHTML={{ __html: matchedLegacy.historySocietyCulture }} /></p>}
                                 {matchedLegacy.magic && <p><span dangerouslySetInnerHTML={{ __html: matchedLegacy.magic }} /></p>}
                             </div>
