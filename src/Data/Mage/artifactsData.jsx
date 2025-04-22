@@ -1367,14 +1367,14 @@ const artifactData = [
     'Structure': 6,
     'Mana Capacity': 11,
     'Description': [
-      'XXXXXX',
+      'A set of four pillars that can be arranged to create a region; within this space, all Prime magic has indefinite duration, and any mages within can cast Create Tulpa at will.',
     ],
     'Descrizione': [
       "This ancient and strange Artifact is a series of four identical and complexly engraved black stone pillars. Using this persistent item creates an environment in which objects and creatures created using Prime magics, specifically those created using the Prime 5 spells “Create Complex Phantasm” or “Create Tulpa,” can endure indefinitely for as long as they remain within the boundary of the space created by the pillars.",
       "Each pillar is a cylinder six inches wide and six inches high. To use this item, the pillars must be placed in a rough square or rectangle that is no more than 16 yards long on any of its four sides. As soon as any items or being created using Prime magics enter this area, the Duration of the magic creating them is no longer relevant, and the creation endures for as long as the pillars remain active. The pillars only cease to be active if one or more of them is moved more than 16 yards from all of the others — if this happens, or if the object or creature leaves the space enclosed by the pillars, the creation’s Duration continues from the time when it first entered the area bounded by the pillars. If a tulpa created with a Duration of two hours enters this area after an hour of this time had elapsed, even if the tulpa remained inside this area for three years, if the tulpa ever left, it would have another hour of existence remaining. Also, if the tulpa remained outside the area enclosed by the pillars for another 40 minutes and then re-entered this area, the tulpa could leave at any time and still have 20 minutes of existence left.",
       "This item also contains one other property that has caused it to be coveted by many mages who are not experts in Mind and Prime magics. Anyone who meditates within the space enclosed by these pillars can use the spell “Create Tulpa” to create any being he wishes. However, beings created (rather than simple preserved by) this Artifact vanish forever if they ever leave this space or if the pillars are ever moved too far apart. Before this item came into the hands of the Mysterium, it was the cause of several murders, as desperate tulpas wished to obtain it in order to survive, and lonely and inexperienced mages attempted to gain control of it in order to recreate the semblance of a lost loved one."
     ],
-    "Book": "A set of four pillars that can be arranged to create a region; within this space, all Prime magic has indefinite duration, and any mages within can cast Create Tulpa at will."
+    "Book": "Mysterium 207"
   },
   ,
   {
