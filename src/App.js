@@ -54,6 +54,7 @@ import Hunter from './pages/Hunter/Hunter';
 import Endowments from './pages/Hunter/Endowments';
 import Tactics from './pages/Hunter/Tactics';
 import HunterMerits from './pages/Hunter/HunterMerits';
+import DreadPowers from './pages/Hunter/DreadPowers';
 import Geist from './pages/Geist/Geist';
 import KeysAndHaunts from './pages/Geist/KeysAndHaunts';
 import Ceremonies from './pages/Geist/Ceremonies';
@@ -366,6 +367,8 @@ function App() {
           <Route path="/hunter/endowments" element={<Endowments />} />
           <Route path="/hunter/tactics" element={<Tactics />} />
           <Route path="/hunter/merits" element={<HunterMerits />} />
+          <Route path="/hunter/dread_powers" element={<DreadPowers />} />
+
 
           {/* GEIST */}
           <Route path="/geist" element={<Geist />} />
