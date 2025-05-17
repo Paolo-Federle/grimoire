@@ -17,15 +17,6 @@ console.log('matchedDreadPower', matchedDreadPower)
                         {matchedDreadPower.Action && (<div><b>Action:</b> {matchedDreadPower.Action}</div>)}
                         {matchedDreadPower.DicePool && (<div><b>Dice Pool:</b> {matchedDreadPower.DicePool}</div>)}
 
-                        {/* {matchedDreadPower.Effect && (
-                            <div style={{paddingBottom: "20px"}}>
-                                {matchedDreadPower.Effect.map((effect, index) => (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: effect }} />
-                                    </p>
-                                ))}
-                            </div>
-                        )} */}
                         <div style={{ paddingBottom: "20px" }}>
                                                     {matchedDreadPower.Effect.map((item, index) => {
                         
