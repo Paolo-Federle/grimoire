@@ -1308,7 +1308,7 @@ const lifeFourData = [
         "Practice": "Perfecting",
         "Action": "Instant",
         "Duration": "Prolonged (one scene)",
-        "Aspect": "Covert",
+        "Aspect": "Vulgar",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "As per the Life 3 “Honing the Form” spell, p. 186, but the mage can now divide his successes between his Physical Attributes in any combination he prefers. The total that each Attribute can be boosted is still limited by the mage’s total Life dots.",
         "RoteName": "Silver Ladder Rote: Fulfillment",

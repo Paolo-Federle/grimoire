@@ -55,6 +55,8 @@ import Endowments from './pages/Hunter/Endowments';
 import Tactics from './pages/Hunter/Tactics';
 import HunterMerits from './pages/Hunter/HunterMerits';
 import DreadPowers from './pages/Hunter/DreadPowers';
+import { dreadPowersData } from './Data/Hunter/DreadPowerData';
+import DreadPowerDetail from './pages/Hunter/DreadPowersDetail';
 import Geist from './pages/Geist/Geist';
 import KeysAndHaunts from './pages/Geist/KeysAndHaunts';
 import Ceremonies from './pages/Geist/Ceremonies';
@@ -368,6 +370,13 @@ function App() {
           <Route path="/hunter/tactics" element={<Tactics />} />
           <Route path="/hunter/merits" element={<HunterMerits />} />
           <Route path="/hunter/dread_powers" element={<DreadPowers />} />
+          {dreadPowersData.map((dreadpowers, index) => (
+            <Route
+              key={index}
+              path={`/hunter/dread_powers/${removeSpaceForLinks(dreadpowers.Name)}`}
+              element={<DreadPowerDetail dreadPowers={dreadpowers} />}
+            />
+          ))}
 
 
           {/* GEIST */}
