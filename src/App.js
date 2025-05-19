@@ -4,6 +4,8 @@ import Skills from './pages/Generale/Skills'
 import UniversalMerits from './pages/Generale/UniversalMerits'
 import Vampire from './pages/Vampire/Vampire'
 import Disciplines from './pages/Vampire/Disciplines'
+import DisciplinesDetail from './pages/Vampire/DisciplinesDetail';
+import { allDiscipline } from './Data/Vampire/DisciplineData';
 import VampireMerits from './pages/Vampire/VampireMerits'
 import Devotion from './pages/Vampire/Devotion';
 import Werewolf from './pages/Werewolf/Werewolf'
@@ -250,6 +252,13 @@ function App() {
           {/* VAMPIRI */}
           <Route path="/vampire" element={<Vampire />} />
           <Route path="/vampire/disciplines" element={<Disciplines />} />
+          {allDiscipline.map((discipline, index) => (
+            <Route
+              key={index}
+              path={`/vampire/disciplines/${removeSpaceForLinks(discipline.Name)}`}
+              element={<DisciplinesDetail discipline={discipline} />}
+            />
+          ))}
           <Route path="/vampire/merits" element={<VampireMerits />} />
           <Route path="/vampire/devotions" element={<Devotion />} />
           <Route path="/vampire/clans" element={<Clan />} />
