@@ -8,6 +8,8 @@ import DisciplinesDetail from './pages/Vampire/DisciplinesDetail';
 import { allDiscipline } from './Data/Vampire/DisciplineData';
 import VampireMerits from './pages/Vampire/VampireMerits'
 import Devotion from './pages/Vampire/Devotion';
+import DevotionsDetail from './pages/Vampire/DevotionsDetail ';
+import DevotionData from './Data/Vampire/DevotionData';
 import Werewolf from './pages/Werewolf/Werewolf'
 import Gifts from './pages/Werewolf/Gifts'
 import Rites from './pages/Werewolf/Rites'
@@ -261,6 +263,13 @@ function App() {
           ))}
           <Route path="/vampire/merits" element={<VampireMerits />} />
           <Route path="/vampire/devotions" element={<Devotion />} />
+          {DevotionData.map((devotion, index) => (
+            <Route
+              key={index}
+              path={`/vampire/devotions/${removeSpaceForLinks(devotion.Name)}`}
+              element={<DevotionsDetail devotion={devotion} />}
+            />
+          ))}
           <Route path="/vampire/clans" element={<Clan />} />
           <Route path="/vampire/covenants" element={<Covenant />} />
           <Route path="/vampire/bloodline" element={<Bloodline />} />

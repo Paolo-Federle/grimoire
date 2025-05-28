@@ -386,7 +386,7 @@ export const UniversalDisciplineData = [
         "Book": "VTR p119"
     },
     {
-        "Name": "Celerity",
+        "Name": "Celerity ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -1212,7 +1212,7 @@ export const UniversalDisciplineData = [
         "Book": "VTR p138"
     },
     {
-        "Name": "Resilience",
+        "Name": "Resilience ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -1252,7 +1252,7 @@ export const UniversalDisciplineData = [
         "Book": "VTR p140"
     },
     {
-        "Name": "Vigor",
+        "Name": "Vigor ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -3797,7 +3797,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 23",
     },
     {
-        "Name": "Bhumisparsa",
+        "Name": "Bhumisparsa ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -4650,7 +4650,7 @@ export const BloodlineDisciplineData = [
         "Book": "BB p126",
     },
     {
-        "Name": "Constance",
+        "Name": "Constance ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -5973,7 +5973,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 154",
     },
     {
-        "Name": "Gifts of the Alu",
+        "Name": "Addiction Immunity",
         "Rank": "",
         "Cost": "",
         "fullCost": "",
@@ -5992,7 +5992,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 154",
     },
     {
-        "Name": "Gifts of the Alu",
+        "Name": "Transcend Amaranth",
         "Rank": "",
         "Cost": "",
         "fullCost": "",
@@ -6011,7 +6011,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 154",
     },
     {
-        "Name": "Gifts of the Alu",
+        "Name": "Build Brood",
         "Rank": "",
         "Cost": "",
         "fullCost": "",
@@ -6031,7 +6031,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 154",
     },
     {
-        "Name": "Gifts of the Alu",
+        "Name": "Blood of the En",
         "Rank": "",
         "Cost": "",
         "fullCost": "",
@@ -6050,7 +6050,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 154",
     },
     {
-        "Name": "Gifts of the Alu",
+        "Name": "Loose Alu",
         "Rank": "",
         "Cost": "",
         "fullCost": "",
@@ -6075,7 +6075,7 @@ export const BloodlineDisciplineData = [
         "Book": "AB 154",
     },
     {
-        "Name": "Gifts of the Alu",
+        "Name": "Reshape Soul",
         "Rank": "",
         "Cost": "",
         "fullCost": "",
@@ -10423,7 +10423,7 @@ export const BloodlineDisciplineData = [
         "Book": "Hidden p54",
     },
     {
-        "Name": "Sublunario",
+        "Name": "Sublunario ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -10756,7 +10756,7 @@ export const BloodlineDisciplineData = [
         "Book": "Hidden p43",
     },
     {
-        "Name": "Taurobolium",
+        "Name": "Taurobolium ",
         "Rank": "N/A",
         "Cost": "",
         "fullCost": "",
@@ -12547,7 +12547,7 @@ export const otherDisciplineData = [
         "Book": "Mekh 103"
     },
     {
-        "Name": "Praestantia",
+        "Name": "Praestantia ",
         "Rank": "N/A",
         "Cost": "",
         "Dice Pool": "",
@@ -12738,7 +12738,7 @@ export const otherDisciplineData = [
         "Book": "VII 153"
     },
     {
-        "Name": "Spoiling",
+        "Name": "Spoiling ",
         "Rank": "N/A",
         "Cost": "",
         "Dice Pool": "",
@@ -12947,5 +12947,3 @@ export const allDiscipline = [
     ...BloodlineDisciplineData,
     ...otherDisciplineData
 ]
-
-console.log('allDiscipline', allDiscipline)
