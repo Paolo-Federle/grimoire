@@ -14,6 +14,7 @@ export default function SimpleTable(props) {
     const handleToggleSection = () => {
         setIsSectionActive(!isSectionActive);
     };
+    console.log('props', props)
 
     return (
         <>

@@ -96,6 +96,8 @@ import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
 import Advantage from './pages/Generale/Advantage';
 import Traits from './pages/Generale/Traits';
 import Derangements from './pages/Generale/Derangements';
+import DerangementsDetail from './pages/Generale/DerangementsDetail';
+import { derangementData } from './Data/DerangementsData';
 import Lexycon from './pages/Generale/Lexycon';
 import Clan from './pages/Vampire/Clan';
 import Covenant from './pages/Vampire/Covenant';
@@ -231,6 +233,13 @@ function App() {
           <Route path="/advantages" element={<Advantage />} />
           <Route path="/traits" element={<Traits />} />
           <Route path="/derangements" element={<Derangements />} />
+          {derangementData.map((derangement, index) => (
+            <Route
+              key={index}
+              path={`/derangements/${removeSpaceForLinks(derangement.Name)}`}
+              element={<DerangementsDetail derangement={derangement} />}
+            />
+          ))}
           <Route path="/lexycon" element={<Lexycon />} />
           {allUniMeritsData.map((merits, index) => (
             <Route
