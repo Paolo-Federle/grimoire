@@ -333,13 +333,14 @@ function App() {
               Component: SpellDetail,
               propKey: "spell"
             })}
-            {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
-              <Route
-                key={index}
-                path={`/mage/${arcana}`}
-                element={<Arcana arcana={arcana} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/mage",
+              data: ['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'],
+              Component: Arcana,
+              propKey: "arcana",
+              getSlug: (item) => item
+            })}
+
             <Route path="/mage/artifacts" element={<Artifacts />} />
             {ArtifactsData.map((artifact, index) => (
               <Route
