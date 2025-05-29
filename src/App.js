@@ -284,22 +284,21 @@ function App() {
               propKey: "discipline"
             })}
 
-            {/* {allDiscipline.map((discipline, index) => (
-            <Route
-              key={index}
-              path={`/vampire/disciplines/${removeSpaceForLinks(discipline.Name)}`}
-              element={<DisciplinesDetail discipline={discipline} />}
-            />
-          ))} */}
             <Route path="/vampire/merits" element={<VampireMerits />} />
             <Route path="/vampire/devotions" element={<Devotion />} />
-            {DevotionData.map((devotion, index) => (
+            {/* {DevotionData.map((devotion, index) => (
               <Route
                 key={index}
                 path={`/vampire/devotions/${removeSpaceForLinks(devotion.Name)}`}
                 element={<DevotionsDetail devotion={devotion} />}
               />
-            ))}
+            ))} */}
+            {generateRoutes({
+              basePath: "/vampire/devotions",
+              data: DevotionData,
+              Component: DevotionsDetail,
+              propKey: "devotion"
+            })}
             <Route path="/vampire/clans" element={<Clan />} />
             <Route path="/vampire/covenants" element={<Covenant />} />
             <Route path="/vampire/bloodline" element={<Bloodline />} />
