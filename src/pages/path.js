@@ -1,20 +1,19 @@
 // paths.js
-
-import { allDiscipline } from '@/Data/Vampire/DisciplineData';
-import { DevotionData } from '@/Data/Vampire/DevotionData';
-import { spiritNuminaData } from '@/Data/Spirit/SpiritNuminaData';
-import { derangementData } from '@/Data/DerangementsData';
-import { allLocation } from '@/Data/LocationMeritData';
-import { allUniMeritsData } from '@/Data/universalMeritsData';
-import { allMageMeritsData } from '@/Data/Mage/mageMeritsData';
-import { LegacyData } from '@/Data/Mage/LegacyData';
-import { SpellsData } from '@/Data/Mage/Arcana/allArcana';
-import { ArtifactsData } from '@/Data/Mage/artifactsData';
-import { imbuedItemsData } from '@/Data/Mage/imbuedItemsData';
-import { allContracts } from '@/Data/Changeling/ContractData';
-import { allChangelingMeritsData } from '@/Data/Changeling/changelingMeritsData';
-import { allToken } from '@/Data/Changeling/TokenData';
-import { dreadPowersData } from '@/Data/Hunter/DreadPowerData';
+import { allDiscipline } from '../Data/Vampire/DisciplineData';
+import DevotionData from '../Data/Vampire/DevotionData';
+import { spiritNuminaData } from '../Data/Spirit/SpiritNuminaData';
+import { derangementData } from '../Data/DerangementsData';
+import { allLocation } from '../Data/LocationMeritData';
+import { allUniMeritsData } from '../Data/universalMeritsData';
+import { allMageMeritsData } from '../Data/Mage/mageMeritsData';
+import { LegacyData } from '../Data/Mage/LegacyData';
+import { SpellsData } from '../Data/Mage/Arcana/allArcana';
+import { artifactData } from '../Data/Mage/artifactsData';
+import { imbuedItemsData } from '../Data/Mage/imbuedItemsData';
+import { allContracts } from '../Data/Changeling/ContractData';
+import { allChangelingMeritsData } from '../Data/Changeling/changelingMeritsData';
+import { allToken } from '../Data/Changeling/TokenData';
+import { dreadPowersData } from '../Data/Hunter/DreadPowerData';
 
 const slug = (str) => str.replace(/\s+/g, '_');
 
@@ -27,7 +26,7 @@ const UNIVERSAL_MERIT_DETAILS = allUniMeritsData.map(m => ({ slug: slug(m.Title)
 const MAGE_MERIT_DETAILS = allMageMeritsData.map(m => ({ slug: slug(m.Title), path: `/mage/merits/${slug(m.Title)}`, data: m }));
 const MAGE_LEGACY_DETAILS = LegacyData.map(l => ({ slug: slug(l.Nome), path: `/mage/legacy/${slug(l.Nome)}`, data: l }));
 const MAGE_SPELL_DETAILS = SpellsData.map(s => ({ slug: slug(s.Titolo), path: `/mage/spells/${slug(s.Titolo)}`, data: s }));
-const MAGE_ARTIFACT_DETAILS = ArtifactsData.map(a => ({ slug: slug(a.Nome), path: `/mage/artifacts/${slug(a.Nome)}`, data: a }));
+const MAGE_ARTIFACT_DETAILS = artifactData.map(a => ({ slug: slug(a.Nome), path: `/mage/artifacts/${slug(a.Nome)}`, data: a }));
 const MAGE_IMBUED_ITEM_DETAILS = imbuedItemsData.map(i => ({ slug: slug(i.Nome), path: `/mage/imbued_items/${slug(i.Nome)}`, data: i }));
 const CHANGELING_CONTRACT_DETAILS = allContracts.map(c => ({ slug: slug(c.Name), path: `/changeling/contracts/${slug(c.Name)}`, data: c }));
 const CHANGELING_MERIT_DETAILS = allChangelingMeritsData.map(m => ({ slug: slug(m.Name), path: `/changeling/merits/${slug(m.Name)}`, data: m }));

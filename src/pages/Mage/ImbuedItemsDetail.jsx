@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-export default function ArtifactDetail(props) {
+export default function ImbueItemDetail(props) {
     const location = useLocation();
     const matchedImbuedItem = props.imbuedItem
 

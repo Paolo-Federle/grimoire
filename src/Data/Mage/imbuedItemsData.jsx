@@ -1,4 +1,4 @@
-const imbuedItemsData = [
+export const imbuedItemsData = [
     {
         'Nome': 'Blood Ring',
         'Item Level': 0,
@@ -2139,5 +2139,3 @@ const imbuedItemsData = [
         "Book": "Banishers 74"
     }
 ]
-
-export default imbuedItemsData;

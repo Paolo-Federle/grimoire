@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
-import imbuedItemsData from '../../Data/Mage/imbuedItemsData'
+import { imbuedItemsData } from '../../Data/Mage/imbuedItemsData';
 
 
 export default function ImbuedItems() {

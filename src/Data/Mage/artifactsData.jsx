@@ -1,4 +1,4 @@
-const artifactData = [
+export const artifactData = [
   {
     'Nome': 'The Mark of Qazalak',
     'Artifact Level': 3,
@@ -1740,5 +1740,3 @@ const artifactData = [
     "Book": "Adamantine Arrow 197"
   } 
 ]
-
-export default artifactData;

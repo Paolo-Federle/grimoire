@@ -1,7 +1,6 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
-import artifactsData from '../../Data/Mage/artifactsData'
-
+import { artifactData } from '../../Data/Mage/artifactsData';
 
 export default function Artifacts() {
 
@@ -28,7 +27,7 @@ export default function Artifacts() {
         });
     }
 
-    const artifactReducedData = rimuoviCampi(artifactsData, ['Descrizione']);
+    const artifactReducedData = rimuoviCampi(artifactData, ['Descrizione']);
 
 
     return (

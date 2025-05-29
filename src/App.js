@@ -29,7 +29,7 @@ import LegacyDetail from './pages/Mage/LegacyDetail';
 import SpellDetail from './pages/Mage/SpellDetail';
 import Gnosis from './pages/Mage/Gnosis'
 import Wisdom from './pages/Mage/Wisdom';
-import LegacyData from './Data/Mage/LegacyData';
+import { LegacyData } from './Data/Mage/LegacyData';
 import { SpellsData } from './Data/Mage/Arcana/allArcana'
 import Artifacts from './pages/Mage/Artifact'
 import ArtifactsData from './Data/Mage/artifactsData';

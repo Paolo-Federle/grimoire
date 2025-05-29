@@ -1,4 +1,4 @@
-const LegacyData = [
+export const LegacyData = [
 
     {
         "Nome": "Walkers in Mists",
@@ -3480,7 +3480,4 @@ const LegacyData = [
     }
     
 ]
-
-export default LegacyData;
-
 

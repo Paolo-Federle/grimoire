@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
-import LegacyData from '../../Data/Mage/LegacyData';
+import { LegacyData } from '../../Data/Mage/LegacyData';
 
 
 export default function Legacy() {
