@@ -93,7 +93,6 @@ import { useLocation } from 'react-router-dom';
 import './css/App.css';
 import './css/Races-Style.css'
 import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
-import Advantage from './pages/Generale/Advantage';
 import Traits from './pages/Generale/Traits';
 import Derangements from './pages/Generale/Derangements';
 import DerangementsDetail from './pages/Generale/DerangementsDetail';
@@ -208,6 +207,17 @@ function App() {
     return title.replace(/ /g, '_');
   };
 
+  function generateRoutes(dataList, basePath, Component, getKey, getPathName) {
+    return dataList.map((item, index) => (
+      <Route
+        key={getKey(item, index)}
+        path={`${basePath}/${removeSpaceForLinks(getPathName(item))}`}
+        element={<Component {...{ [basePath.split('/').pop()]: item }} />}
+      />
+    ));
+  }
+  
+
   return (
     <>
       <ThemeProvider theme={theme}>
@@ -230,7 +240,6 @@ function App() {
           <Route path="/items" element={<Items />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/universal_merits" element={<UniversalMerits />} />
-          <Route path="/advantages" element={<Advantage />} />
           <Route path="/traits" element={<Traits />} />
           <Route path="/derangements" element={<Derangements />} />
           {derangementData.map((derangement, index) => (
@@ -263,13 +272,8 @@ function App() {
           {/* VAMPIRI */}
           <Route path="/vampire" element={<Vampire />} />
           <Route path="/vampire/disciplines" element={<Disciplines />} />
-          {allDiscipline.map((discipline, index) => (
-            <Route
-              key={index}
-              path={`/vampire/disciplines/${removeSpaceForLinks(discipline.Name)}`}
-              element={<DisciplinesDetail discipline={discipline} />}
-            />
-          ))}
+          {generateRoutes(allDiscipline, "/vampire/disciplines", DisciplinesDetail, (_, i) => i, d => d.Name)}
+
           <Route path="/vampire/merits" element={<VampireMerits />} />
           <Route path="/vampire/devotions" element={<Devotion />} />
           {DevotionData.map((devotion, index) => (

@@ -4,7 +4,7 @@ import { goblinFruitData } from '../../Data/Changeling/GoblinFruitData';
 
 export default function GoblinFruits() {
 
-    const headers = ['Name', 'Description', 'Effect', 'Book']
+    const headers = ['Name', 'Description', 'Effect', 'Type', 'Book']
     const headerCheckFields = ['Description']
     const disciplineData = ['Name']
 
