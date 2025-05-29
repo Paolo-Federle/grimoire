@@ -235,33 +235,30 @@ function App() {
             <Route path="/books" element={<Books />} />
             <Route path="/size" element={<Size />} />
             <Route path="/merits/location" element={<Location />} />
-            {allLocation.map((location, index) => (
-              <Route
-                key={index}
-                path={`/merits/locations/${removeSpaceForLinks(location.Name)}`}
-                element={<LocationDetail location={location} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/merits/locations",
+              data: allLocation,
+              Component: LocationDetail,
+              propKey: "location"
+            })}
             <Route path="/items" element={<Items />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/universal_merits" element={<UniversalMerits />} />
             <Route path="/traits" element={<Traits />} />
             <Route path="/derangements" element={<Derangements />} />
-            {derangementData.map((derangement, index) => (
-              <Route
-                key={index}
-                path={`/derangements/${removeSpaceForLinks(derangement.Name)}`}
-                element={<DerangementsDetail derangement={derangement} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/derangements",
+              data: derangementData,
+              Component: DerangementsDetail,
+              propKey: "derangement"
+            })}
             <Route path="/lexycon" element={<Lexycon />} />
-            {allUniMeritsData.map((merits, index) => (
-              <Route
-                key={index}
-                path={`/universal_merits/${removeSpaceForLinks(merits.Title)}`}
-                element={<UniversalMeritsDetail merits={merits} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/universal_merit",
+              data: allUniMeritsData,
+              Component: UniversalMeritsDetail,
+              propKey: "merits"
+            })}
 
             {/* Mortals */}
             <Route path="/mortal" element={<Mortal />} />
@@ -286,13 +283,6 @@ function App() {
 
             <Route path="/vampire/merits" element={<VampireMerits />} />
             <Route path="/vampire/devotions" element={<Devotion />} />
-            {/* {DevotionData.map((devotion, index) => (
-              <Route
-                key={index}
-                path={`/vampire/devotions/${removeSpaceForLinks(devotion.Name)}`}
-                element={<DevotionsDetail devotion={devotion} />}
-              />
-            ))} */}
             {generateRoutes({
               basePath: "/vampire/devotions",
               data: DevotionData,
@@ -324,28 +314,25 @@ function App() {
             <Route path="/mage/legacy" element={<Legacy />} />
             <Route path="/mage/merits" element={<MageMerits />} />
             <Route path="/mage/grimoires" element={<Grimoire />} />
-            {allMageMeritsData.map((merits, index) => (
-              <Route
-                key={index}
-                path={`/mage/merits/${removeSpaceForLinks(merits.Title)}`}
-                element={<MageMeritsDetail merits={merits} />}
-              />
-            ))}
-            {LegacyData.map((legacy, index) => (
-              <Route
-                key={index}
-                path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
-                element={<LegacyDetail legacy={legacy} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/mage/merits",
+              data: allMageMeritsData,
+              Component: MageMeritsDetail,
+              propKey: "merits"
+            })}
+            {generateRoutes({
+              basePath: "/mage/legacy",
+              data: LegacyData,
+              Component: LegacyDetail,
+              propKey: "legacy"
+            })}
             <Route path="/mage/spells" element={<Spells />} />
-            {SpellsData.map((spell, index) => (
-              <Route
-                key={index}
-                path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
-                element={<SpellDetail spell={spell} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/mage/spells",
+              data: SpellsData,
+              Component: SpellDetail,
+              propKey: "spell"
+            })}
             {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
               <Route
                 key={index}

@@ -14,7 +14,7 @@ export default function DevotionsDetail(props) {
                 <>
                     <h1>
                         {matchedDevotion.Name}
-                        {matchedDevotion.Prerequisites && ` (${matchedDevotion?.Prerequisites}`}
+                        {matchedDevotion.Prerequisites && ` (${matchedDevotion?.Prerequisites})`}
                     </h1>
 
                     
