@@ -115,7 +115,7 @@ import TokensDetail from './pages/Changeling/TokensDetail';
 import TokenRules from './pages/Changeling/TokenRules';
 import SheetTest from './pages/Generale/SheetTest';
 import { ThemeProvider } from "@mui/material/styles";
-import theme from "./css/muiTheme"; 
+import theme from "./css/muiTheme";
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -207,242 +207,252 @@ function App() {
     return title.replace(/ /g, '_');
   };
 
-  function generateRoutes(dataList, basePath, Component, getKey, getPathName) {
-    return dataList.map((item, index) => (
-      <Route
-        key={getKey(item, index)}
-        path={`${basePath}/${removeSpaceForLinks(getPathName(item))}`}
-        element={<Component {...{ [basePath.split('/').pop()]: item }} />}
-      />
-    ));
+  function generateRoutes({ basePath, data, Component, propKey, getSlug, keyFn }) {
+    return data.map((item, index) => {
+      const slug = (getSlug ? getSlug(item) : item.Name || item.Title).replace(/\s+/g, '_');
+      const key = keyFn ? keyFn(item, index) : index;
+
+      return (
+        <Route
+          key={key}
+          path={`${basePath}/${slug}`}
+          element={<Component {...{ [propKey]: item }} />}
+        />
+      );
+    });
   }
-  
+
 
   return (
     <>
       <ThemeProvider theme={theme}>
 
-      <Navbar />
-      <div className={`page-container ${categoryStyle}`}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sheet" element={<SheetTest />} />
-          <Route path="/books" element={<Books />} />
-          <Route path="/size" element={<Size />} />
-          <Route path="/merits/location" element={<Location />} />
-          {allLocation.map((location, index) => (
-            <Route
-              key={index}
-              path={`/merits/locations/${removeSpaceForLinks(location.Name)}`}
-              element={<LocationDetail location={location} />}
-            />
-          ))}
-          <Route path="/items" element={<Items />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/universal_merits" element={<UniversalMerits />} />
-          <Route path="/traits" element={<Traits />} />
-          <Route path="/derangements" element={<Derangements />} />
-          {derangementData.map((derangement, index) => (
-            <Route
-              key={index}
-              path={`/derangements/${removeSpaceForLinks(derangement.Name)}`}
-              element={<DerangementsDetail derangement={derangement} />}
-            />
-          ))}
-          <Route path="/lexycon" element={<Lexycon />} />
-          {allUniMeritsData.map((merits, index) => (
-            <Route
-              key={index}
-              path={`/universal_merits/${removeSpaceForLinks(merits.Title)}`}
-              element={<UniversalMeritsDetail merits={merits} />}
-            />
-          ))}
+        <Navbar />
+        <div className={`page-container ${categoryStyle}`}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/sheet" element={<SheetTest />} />
+            <Route path="/books" element={<Books />} />
+            <Route path="/size" element={<Size />} />
+            <Route path="/merits/location" element={<Location />} />
+            {allLocation.map((location, index) => (
+              <Route
+                key={index}
+                path={`/merits/locations/${removeSpaceForLinks(location.Name)}`}
+                element={<LocationDetail location={location} />}
+              />
+            ))}
+            <Route path="/items" element={<Items />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/universal_merits" element={<UniversalMerits />} />
+            <Route path="/traits" element={<Traits />} />
+            <Route path="/derangements" element={<Derangements />} />
+            {derangementData.map((derangement, index) => (
+              <Route
+                key={index}
+                path={`/derangements/${removeSpaceForLinks(derangement.Name)}`}
+                element={<DerangementsDetail derangement={derangement} />}
+              />
+            ))}
+            <Route path="/lexycon" element={<Lexycon />} />
+            {allUniMeritsData.map((merits, index) => (
+              <Route
+                key={index}
+                path={`/universal_merits/${removeSpaceForLinks(merits.Title)}`}
+                element={<UniversalMeritsDetail merits={merits} />}
+              />
+            ))}
 
-          {/* Mortals */}
-          <Route path="/mortal" element={<Mortal />} />
-          <Route path="/mortal/morality" element={<Morality />} />
-          <Route path="/mortal/virtue_vice" element={<VirtueVice />} />
-          <Route path="/mortal/merits" element={<MortalMerits />} />
-          <Route path="/mortal/armor" element={<Armor />} />
-          <Route path="/mortal/reliquary" element={<Reliquary />} />
-          <Route path="/mortal/tools" element={<Tools />} />
-          <Route path="/mortal/vehicles" element={<Vehicle />} />
-          <Route path="/mortal/weapons" element={<Weapon />} />
+            {/* Mortals */}
+            <Route path="/mortal" element={<Mortal />} />
+            <Route path="/mortal/morality" element={<Morality />} />
+            <Route path="/mortal/virtue_vice" element={<VirtueVice />} />
+            <Route path="/mortal/merits" element={<MortalMerits />} />
+            <Route path="/mortal/armor" element={<Armor />} />
+            <Route path="/mortal/reliquary" element={<Reliquary />} />
+            <Route path="/mortal/tools" element={<Tools />} />
+            <Route path="/mortal/vehicles" element={<Vehicle />} />
+            <Route path="/mortal/weapons" element={<Weapon />} />
 
-          {/* VAMPIRI */}
-          <Route path="/vampire" element={<Vampire />} />
-          <Route path="/vampire/disciplines" element={<Disciplines />} />
-          {/* {generateRoutes(allDiscipline, "/vampire/disciplines", DisciplinesDetail, (_, i) => i, d => d.Name)} */}
+            {/* VAMPIRI */}
+            <Route path="/vampire" element={<Vampire />} />
+            <Route path="/vampire/disciplines" element={<Disciplines />} />
+            {generateRoutes({
+              basePath: "/vampire/disciplines",
+              data: allDiscipline,
+              Component: DisciplinesDetail,
+              propKey: "discipline"
+            })}
 
-          {allDiscipline.map((discipline, index) => (
+            {/* {allDiscipline.map((discipline, index) => (
             <Route
               key={index}
               path={`/vampire/disciplines/${removeSpaceForLinks(discipline.Name)}`}
               element={<DisciplinesDetail discipline={discipline} />}
             />
-          ))}
-          <Route path="/vampire/merits" element={<VampireMerits />} />
-          <Route path="/vampire/devotions" element={<Devotion />} />
-          {DevotionData.map((devotion, index) => (
-            <Route
-              key={index}
-              path={`/vampire/devotions/${removeSpaceForLinks(devotion.Name)}`}
-              element={<DevotionsDetail devotion={devotion} />}
-            />
-          ))}
-          <Route path="/vampire/clans" element={<Clan />} />
-          <Route path="/vampire/covenants" element={<Covenant />} />
-          <Route path="/vampire/bloodline" element={<Bloodline />} />
-          <Route path="/vampire/blood_potency" element={<BloodPotency />} />
-          <Route path="/vampire/ghoul_families" element={<GhoulFamilies />} />
-          <Route path="/vampire/merits" element={<VampireMerits />} />
-          <Route path="/vampire/humanity" element={<Humanity />} />
+          ))} */}
+            <Route path="/vampire/merits" element={<VampireMerits />} />
+            <Route path="/vampire/devotions" element={<Devotion />} />
+            {DevotionData.map((devotion, index) => (
+              <Route
+                key={index}
+                path={`/vampire/devotions/${removeSpaceForLinks(devotion.Name)}`}
+                element={<DevotionsDetail devotion={devotion} />}
+              />
+            ))}
+            <Route path="/vampire/clans" element={<Clan />} />
+            <Route path="/vampire/covenants" element={<Covenant />} />
+            <Route path="/vampire/bloodline" element={<Bloodline />} />
+            <Route path="/vampire/blood_potency" element={<BloodPotency />} />
+            <Route path="/vampire/ghoul_families" element={<GhoulFamilies />} />
+            <Route path="/vampire/merits" element={<VampireMerits />} />
+            <Route path="/vampire/humanity" element={<Humanity />} />
 
-          {/* WEREWOLF */}
-          <Route path="/werewolf" element={<Werewolf />} />
-          <Route path="/werewolf/gifts" element={<Gifts />} />
-          <Route path="/werewolf/rites" element={<Rites />} />
-          <Route path="/werewolf/merits" element={<WerewolfMerits />} />
-          <Route path="/werewolf/fetishes" element={<Fetish />} />
-          <Route path="/werewolf/talens" element={<Talen />} />
+            {/* WEREWOLF */}
+            <Route path="/werewolf" element={<Werewolf />} />
+            <Route path="/werewolf/gifts" element={<Gifts />} />
+            <Route path="/werewolf/rites" element={<Rites />} />
+            <Route path="/werewolf/merits" element={<WerewolfMerits />} />
+            <Route path="/werewolf/fetishes" element={<Fetish />} />
+            <Route path="/werewolf/talens" element={<Talen />} />
 
-          {/* MAGE */}
-          <Route path="/mage" element={<Mage />} />
-          <Route path="/mage/path" element={<Path />} />
-          <Route path="/mage/order" element={<Order />} />
-          <Route path="/mage/gnosis" element={<Gnosis />} />
-          <Route path="/mage/wisdom" element={<Wisdom />} />
-          <Route path="/mage/legacy" element={<Legacy />} />
-          <Route path="/mage/merits" element={<MageMerits />} />
-          <Route path="/mage/grimoires" element={<Grimoire />} />
-          {allMageMeritsData.map((merits, index) => (
-            <Route
-              key={index}
-              path={`/mage/merits/${removeSpaceForLinks(merits.Title)}`}
-              element={<MageMeritsDetail merits={merits} />}
-            />
-          ))}
-          {LegacyData.map((legacy, index) => (
-            <Route
-              key={index}
-              path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
-              element={<LegacyDetail legacy={legacy} />}
-            />
-          ))}
-          <Route path="/mage/spells" element={<Spells />} />
-          {SpellsData.map((spell, index) => (
-            <Route
-              key={index}
-              path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
-              element={<SpellDetail spell={spell} />}
-            />
-          ))}
-          {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
-            <Route
-              key={index}
-              path={`/mage/${arcana}`}
-              element={<Arcana arcana={arcana} />}
-            />
-          ))}
-          <Route path="/mage/artifacts" element={<Artifacts />} />
-          {ArtifactsData.map((artifact, index) => (
-            <Route
-              key={index}
-              path={`/mage/artifacts/${removeSpaceForLinks(artifact.Nome)}`}
-              element={<ArtifactDetail artifact={artifact} />}
-            />
-          ))}
-          <Route path="/mage/imbued_items" element={<ImbuedItems />} />
-          {imbuedItemsData.map((imbuedItem, index) => (
-            <Route
-              key={index}
-              path={`/mage/imbued_items/${removeSpaceForLinks(imbuedItem.Nome)}`}
-              element={<ImbuedItemsDetail imbuedItem={imbuedItem} />}
-            />
-          ))}
-
-
-          {/* PROMETEANI */}
-          <Route path="/promethean" element={<Promethean />} />
-          <Route path="/promethean/transmutations" element={<Transmutations />} />
-          <Route path="/promethean/merits" element={<PrometheanMerits />} />
-
-          {/* CHANGELING */}
-          <Route path="/changeling" element={<Changeling />} />
-          <Route path="/changeling/kiths" element={<Kith />} />
-          <Route path="/changeling/court" element={<Court />} />
-          <Route path="/changeling/entitlement" element={<Entitlements />} />
-          <Route path="/changeling/wyrd" element={<Wyrd />} />
-          <Route path="/changeling/contracts" element={<Contracts />} />
-          {allContracts.map((contracts, index) => (
-            <Route
-              key={index}
-              path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
-              element={<ContractsDetail contracts={contracts} />}
-            />
-          ))}
-          {allChangelingMeritsData.map((merits, index) => (
-            <Route
-              key={index}
-              path={`/changeling/merits/${removeSpaceForLinks(merits.Name)}`}
-              element={<ChangelingMeritsDetail merits={merits} />}
-            />
-          ))}
-          <Route path="/changeling/oaths" element={<Oaths />} />
-          <Route path="/changeling/merits" element={<ChangelingMerits />} />
-          <Route path="/changeling/clarity" element={<Clarity />} />
-          <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
-          <Route path="/changeling/tokens" element={<Token />} />
-          <Route path="/changeling/token_rules" element={<TokenRules />} />
-          {allToken.map((tokens, index) => (
-            <Route
-              key={index}
-              path={`/changeling/tokens/${removeSpaceForLinks(tokens.Name)}`}
-              element={<TokensDetail tokens={tokens} />}
-            />
-          ))}
-
-          {/* HUNTER */}
-          <Route path="/hunter" element={<Hunter />} />
-          <Route path="/hunter/endowments" element={<Endowments />} />
-          <Route path="/hunter/tactics" element={<Tactics />} />
-          <Route path="/hunter/merits" element={<HunterMerits />} />
-          <Route path="/hunter/dread_powers" element={<DreadPowers />} />
-          {dreadPowersData.map((dreadpowers, index) => (
-            <Route
-              key={index}
-              path={`/hunter/dread_powers/${removeSpaceForLinks(dreadpowers.Name)}`}
-              element={<DreadPowerDetail dreadPowers={dreadpowers} />}
-            />
-          ))}
+            {/* MAGE */}
+            <Route path="/mage" element={<Mage />} />
+            <Route path="/mage/path" element={<Path />} />
+            <Route path="/mage/order" element={<Order />} />
+            <Route path="/mage/gnosis" element={<Gnosis />} />
+            <Route path="/mage/wisdom" element={<Wisdom />} />
+            <Route path="/mage/legacy" element={<Legacy />} />
+            <Route path="/mage/merits" element={<MageMerits />} />
+            <Route path="/mage/grimoires" element={<Grimoire />} />
+            {allMageMeritsData.map((merits, index) => (
+              <Route
+                key={index}
+                path={`/mage/merits/${removeSpaceForLinks(merits.Title)}`}
+                element={<MageMeritsDetail merits={merits} />}
+              />
+            ))}
+            {LegacyData.map((legacy, index) => (
+              <Route
+                key={index}
+                path={`/mage/legacy/${removeSpaceForLinks(legacy.Nome)}`}
+                element={<LegacyDetail legacy={legacy} />}
+              />
+            ))}
+            <Route path="/mage/spells" element={<Spells />} />
+            {SpellsData.map((spell, index) => (
+              <Route
+                key={index}
+                path={`/mage/spells/${removeSpaceForLinks(spell.Titolo)}`}
+                element={<SpellDetail spell={spell} />}
+              />
+            ))}
+            {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
+              <Route
+                key={index}
+                path={`/mage/${arcana}`}
+                element={<Arcana arcana={arcana} />}
+              />
+            ))}
+            <Route path="/mage/artifacts" element={<Artifacts />} />
+            {ArtifactsData.map((artifact, index) => (
+              <Route
+                key={index}
+                path={`/mage/artifacts/${removeSpaceForLinks(artifact.Nome)}`}
+                element={<ArtifactDetail artifact={artifact} />}
+              />
+            ))}
+            <Route path="/mage/imbued_items" element={<ImbuedItems />} />
+            {imbuedItemsData.map((imbuedItem, index) => (
+              <Route
+                key={index}
+                path={`/mage/imbued_items/${removeSpaceForLinks(imbuedItem.Nome)}`}
+                element={<ImbuedItemsDetail imbuedItem={imbuedItem} />}
+              />
+            ))}
 
 
-          {/* GEIST */}
-          <Route path="/geist" element={<Geist />} />
-          <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
-          <Route path="/geist/ceremonies" element={<Ceremonies />} />
-          <Route path="/geist/merits" element={<GeistMerits />} />
-          <Route path="/geist/mementos" element={<GeistMerits />} />
+            {/* PROMETEANI */}
+            <Route path="/promethean" element={<Promethean />} />
+            <Route path="/promethean/transmutations" element={<Transmutations />} />
+            <Route path="/promethean/merits" element={<PrometheanMerits />} />
 
-          {/* MUMMY */}
-          <Route path="/mummy" element={<Mummy />} />
-          <Route path="/mummy/affinities" element={<Affinities />} />
-          <Route path="/mummy/utterances" element={<Utterances />} />
-          <Route path="/mummy/merits" element={<MummyMerits />} />
-          <Route path="/mummy/relics" element={<Relic />} />
+            {/* CHANGELING */}
+            <Route path="/changeling" element={<Changeling />} />
+            <Route path="/changeling/kiths" element={<Kith />} />
+            <Route path="/changeling/court" element={<Court />} />
+            <Route path="/changeling/entitlement" element={<Entitlements />} />
+            <Route path="/changeling/wyrd" element={<Wyrd />} />
+            <Route path="/changeling/contracts" element={<Contracts />} />
+            {allContracts.map((contracts, index) => (
+              <Route
+                key={index}
+                path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
+                element={<ContractsDetail contracts={contracts} />}
+              />
+            ))}
+            {allChangelingMeritsData.map((merits, index) => (
+              <Route
+                key={index}
+                path={`/changeling/merits/${removeSpaceForLinks(merits.Name)}`}
+                element={<ChangelingMeritsDetail merits={merits} />}
+              />
+            ))}
+            <Route path="/changeling/oaths" element={<Oaths />} />
+            <Route path="/changeling/merits" element={<ChangelingMerits />} />
+            <Route path="/changeling/clarity" element={<Clarity />} />
+            <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
+            <Route path="/changeling/tokens" element={<Token />} />
+            <Route path="/changeling/token_rules" element={<TokenRules />} />
+            {allToken.map((tokens, index) => (
+              <Route
+                key={index}
+                path={`/changeling/tokens/${removeSpaceForLinks(tokens.Name)}`}
+                element={<TokensDetail tokens={tokens} />}
+              />
+            ))}
 
-          {/* SPIRIT */}
-          <Route path="/spirit/numina" element={<Numina />} />
-          {spiritNuminaData.map((numina, index) => (
-            <Route
-              key={index}
-              path={`/spirit/numina/${removeSpaceForLinks(numina.Name)}`}
-              element={<NuminaDetail numina={numina} />}
-            />
-          ))}
+            {/* HUNTER */}
+            <Route path="/hunter" element={<Hunter />} />
+            <Route path="/hunter/endowments" element={<Endowments />} />
+            <Route path="/hunter/tactics" element={<Tactics />} />
+            <Route path="/hunter/merits" element={<HunterMerits />} />
+            <Route path="/hunter/dread_powers" element={<DreadPowers />} />
+            {dreadPowersData.map((dreadpowers, index) => (
+              <Route
+                key={index}
+                path={`/hunter/dread_powers/${removeSpaceForLinks(dreadpowers.Name)}`}
+                element={<DreadPowerDetail dreadPowers={dreadpowers} />}
+              />
+            ))}
 
-        </Routes>
-      </div>
+
+            {/* GEIST */}
+            <Route path="/geist" element={<Geist />} />
+            <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
+            <Route path="/geist/ceremonies" element={<Ceremonies />} />
+            <Route path="/geist/merits" element={<GeistMerits />} />
+            <Route path="/geist/mementos" element={<GeistMerits />} />
+
+            {/* MUMMY */}
+            <Route path="/mummy" element={<Mummy />} />
+            <Route path="/mummy/affinities" element={<Affinities />} />
+            <Route path="/mummy/utterances" element={<Utterances />} />
+            <Route path="/mummy/merits" element={<MummyMerits />} />
+            <Route path="/mummy/relics" element={<Relic />} />
+
+            {/* SPIRIT */}
+            <Route path="/spirit/numina" element={<Numina />} />
+            {spiritNuminaData.map((numina, index) => (
+              <Route
+                key={index}
+                path={`/spirit/numina/${removeSpaceForLinks(numina.Name)}`}
+                element={<NuminaDetail numina={numina} />}
+              />
+            ))}
+
+          </Routes>
+        </div>
       </ThemeProvider>
     </>
   );
