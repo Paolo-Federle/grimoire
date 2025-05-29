@@ -342,22 +342,20 @@ function App() {
             })}
 
             <Route path="/mage/artifacts" element={<Artifacts />} />
-            {ArtifactsData.map((artifact, index) => (
-              <Route
-                key={index}
-                path={`/mage/artifacts/${removeSpaceForLinks(artifact.Nome)}`}
-                element={<ArtifactDetail artifact={artifact} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/mage/artifacts",
+              data: ArtifactsData,
+              Component: ArtifactDetail,
+              propKey: "artifact"
+            })}
+            
             <Route path="/mage/imbued_items" element={<ImbuedItems />} />
-            {imbuedItemsData.map((imbuedItem, index) => (
-              <Route
-                key={index}
-                path={`/mage/imbued_items/${removeSpaceForLinks(imbuedItem.Nome)}`}
-                element={<ImbuedItemsDetail imbuedItem={imbuedItem} />}
-              />
-            ))}
-
+            {generateRoutes({
+              basePath: "/mage/imbued_items",
+              data: imbuedItemsData,
+              Component: ImbuedItemsDetail,
+              propKey: "imbuedItem"
+            })}
 
             {/* PROMETEANI */}
             <Route path="/promethean" element={<Promethean />} />
@@ -371,33 +369,30 @@ function App() {
             <Route path="/changeling/entitlement" element={<Entitlements />} />
             <Route path="/changeling/wyrd" element={<Wyrd />} />
             <Route path="/changeling/contracts" element={<Contracts />} />
-            {allContracts.map((contracts, index) => (
-              <Route
-                key={index}
-                path={`/changeling/contracts/${removeSpaceForLinks(contracts.Name)}`}
-                element={<ContractsDetail contracts={contracts} />}
-              />
-            ))}
-            {allChangelingMeritsData.map((merits, index) => (
-              <Route
-                key={index}
-                path={`/changeling/merits/${removeSpaceForLinks(merits.Name)}`}
-                element={<ChangelingMeritsDetail merits={merits} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/changeling/contracts",
+              data: allContracts,
+              Component: ContractsDetail,
+              propKey: "contracts"
+            })}
+            {generateRoutes({
+              basePath: "/changeling/merits",
+              data: allChangelingMeritsData,
+              Component: ChangelingMeritsDetail,
+              propKey: "merits"
+            })}
             <Route path="/changeling/oaths" element={<Oaths />} />
             <Route path="/changeling/merits" element={<ChangelingMerits />} />
             <Route path="/changeling/clarity" element={<Clarity />} />
             <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
             <Route path="/changeling/tokens" element={<Token />} />
             <Route path="/changeling/token_rules" element={<TokenRules />} />
-            {allToken.map((tokens, index) => (
-              <Route
-                key={index}
-                path={`/changeling/tokens/${removeSpaceForLinks(tokens.Name)}`}
-                element={<TokensDetail tokens={tokens} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/changeling/tokens",
+              data: allToken,
+              Component: TokensDetail,
+              propKey: "tokens"
+            })}
 
             {/* HUNTER */}
             <Route path="/hunter" element={<Hunter />} />
@@ -405,13 +400,12 @@ function App() {
             <Route path="/hunter/tactics" element={<Tactics />} />
             <Route path="/hunter/merits" element={<HunterMerits />} />
             <Route path="/hunter/dread_powers" element={<DreadPowers />} />
-            {dreadPowersData.map((dreadpowers, index) => (
-              <Route
-                key={index}
-                path={`/hunter/dread_powers/${removeSpaceForLinks(dreadpowers.Name)}`}
-                element={<DreadPowerDetail dreadPowers={dreadpowers} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/hunter/dread_powers",
+              data: dreadPowersData,
+              Component: DreadPowerDetail,
+              propKey: "dreadPowers"
+            })}
 
 
             {/* GEIST */}
@@ -430,13 +424,12 @@ function App() {
 
             {/* SPIRIT */}
             <Route path="/spirit/numina" element={<Numina />} />
-            {spiritNuminaData.map((numina, index) => (
-              <Route
-                key={index}
-                path={`/spirit/numina/${removeSpaceForLinks(numina.Name)}`}
-                element={<NuminaDetail numina={numina} />}
-              />
-            ))}
+            {generateRoutes({
+              basePath: "/spirit/numina",
+              data: spiritNuminaData,
+              Component: NuminaDetail,
+              propKey: "numina"
+            })}
 
           </Routes>
         </div>
