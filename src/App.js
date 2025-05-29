@@ -272,8 +272,15 @@ function App() {
           {/* VAMPIRI */}
           <Route path="/vampire" element={<Vampire />} />
           <Route path="/vampire/disciplines" element={<Disciplines />} />
-          {generateRoutes(allDiscipline, "/vampire/disciplines", DisciplinesDetail, (_, i) => i, d => d.Name)}
+          {/* {generateRoutes(allDiscipline, "/vampire/disciplines", DisciplinesDetail, (_, i) => i, d => d.Name)} */}
 
+          {allDiscipline.map((discipline, index) => (
+            <Route
+              key={index}
+              path={`/vampire/disciplines/${removeSpaceForLinks(discipline.Name)}`}
+              element={<DisciplinesDetail discipline={discipline} />}
+            />
+          ))}
           <Route path="/vampire/merits" element={<VampireMerits />} />
           <Route path="/vampire/devotions" element={<Devotion />} />
           {DevotionData.map((devotion, index) => (
