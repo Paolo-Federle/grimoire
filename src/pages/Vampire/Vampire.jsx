@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../css/Races.css';
 import { Link } from 'react-router-dom';
+import { PATHS } from '../path';
 
 export default function Vampire() {
     return (
@@ -15,20 +16,20 @@ export default function Vampire() {
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            Vampires are reborn as members of a <Link to='/vampire/clans'>Clan</Link>, and may further belong to or join a <Link to='/vampire/bloodline'>Bloodline</Link>.
-                            Vampires often join a <Link to='/vampire/covenants'>Covenant</Link> based on their philosophy toward the Long Night.
+                            Vampires are reborn as members of a <Link to={PATHS.VAMPIRE.CLANS}>Clan</Link>, and may further belong to or join a <Link to='/vampire/bloodline'>Bloodline</Link>.
+                            Vampires often join a <Link to={PATHS.VAMPIRE.COVENANTS}>Covenant</Link> based on their philosophy toward the Long Night.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            Kindred posses a unique Power Stat trait called <Link to='/vampire/blood_potency'>Blood Potency</Link>,
-                            and a Morality trait called <Link to='/vampire/humanity'>Humanity</Link>.
+                            Kindred posses a unique Power Stat trait called <Link to={PATHS.VAMPIRE.BLOOD_POTENCY}>Blood Potency</Link>,
+                            and a Morality trait called <Link to={PATHS.VAMPIRE.HUMANITY}>Humanity</Link>.
                         </p>
                     </div>
 
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            The Kindred practice <Link to='/vampire/disciplines'>Disciplines</Link> by manipulating their Vitae,
+                            The Kindred practice <Link to={PATHS.VAMPIRE.DISCIPLINES}>Disciplines</Link> by manipulating their Vitae,
                             and can combine them into advanced techniques called <Link to='/vampire/devotions'>Devotions</Link>.
                         </p>
                         <h2>Advantages</h2>

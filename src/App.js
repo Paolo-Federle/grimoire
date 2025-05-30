@@ -9,7 +9,7 @@ import { allDiscipline } from './Data/Vampire/DisciplineData';
 import VampireMerits from './pages/Vampire/VampireMerits'
 import Devotion from './pages/Vampire/Devotion';
 import DevotionsDetail from './pages/Vampire/DevotionsDetail ';
-import DevotionData from './Data/Vampire/DevotionData';
+import {DevotionData} from './Data/Vampire/DevotionData';
 import Werewolf from './pages/Werewolf/Werewolf'
 import Gifts from './pages/Werewolf/Gifts'
 import Rites from './pages/Werewolf/Rites'

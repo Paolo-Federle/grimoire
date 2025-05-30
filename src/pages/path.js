@@ -1,6 +1,6 @@
 // paths.js
 import { allDiscipline } from '../Data/Vampire/DisciplineData';
-import DevotionData from '../Data/Vampire/DevotionData';
+import { DevotionData } from '../Data/Vampire/DevotionData';
 import { spiritNuminaData } from '../Data/Spirit/SpiritNuminaData';
 import { derangementData } from '../Data/DerangementsData';
 import { allLocation } from '../Data/LocationMeritData';
@@ -15,25 +15,38 @@ import { allChangelingMeritsData } from '../Data/Changeling/changelingMeritsData
 import { allToken } from '../Data/Changeling/TokenData';
 import { dreadPowersData } from '../Data/Hunter/DreadPowerData';
 
-const slug = (str) => str.replace(/\s+/g, '_');
+const slug = (str) => {
+    if (typeof str !== 'string') return null;
+    return str
+      .toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // rimuove accenti
+      .replace(/\s+/g, '_')     // spazi → underscore
+      .replace(/[^\w]/g, '');   // rimuove tutto tranne lettere, numeri, underscore
+  };
+  
+  
+  console.log(artifactData)
 
-const VAMPIRE_DISCIPLINE_DETAILS = allDiscipline.map(d => ({ slug: slug(d.Name), path: `/vampire/disciplines/${slug(d.Name)}`, data: d }));
-const VAMPIRE_DEVOTION_DETAILS = DevotionData.map(d => ({ slug: slug(d.Name), path: `/vampire/devotions/${slug(d.Name)}`, data: d }));
-const SPIRIT_NUMINA_DETAILS = spiritNuminaData.map(n => ({ slug: slug(n.Name), path: `/spirit/numina/${slug(n.Name)}`, data: n }));
-const DERANGEMENT_DETAILS = derangementData.map(d => ({ slug: slug(d.Name), path: `/derangements/${slug(d.Name)}`, data: d }));
-const LOCATION_DETAILS = allLocation.map(l => ({ slug: slug(l.Name), path: `/merits/locations/${slug(l.Name)}`, data: l }));
-const UNIVERSAL_MERIT_DETAILS = allUniMeritsData.map(m => ({ slug: slug(m.Title), path: `/universal_merit/${slug(m.Title)}`, data: m }));
-const MAGE_MERIT_DETAILS = allMageMeritsData.map(m => ({ slug: slug(m.Title), path: `/mage/merits/${slug(m.Title)}`, data: m }));
-const MAGE_LEGACY_DETAILS = LegacyData.map(l => ({ slug: slug(l.Nome), path: `/mage/legacy/${slug(l.Nome)}`, data: l }));
-const MAGE_SPELL_DETAILS = SpellsData.map(s => ({ slug: slug(s.Titolo), path: `/mage/spells/${slug(s.Titolo)}`, data: s }));
-const MAGE_ARTIFACT_DETAILS = artifactData.map(a => ({ slug: slug(a.Nome), path: `/mage/artifacts/${slug(a.Nome)}`, data: a }));
-const MAGE_IMBUED_ITEM_DETAILS = imbuedItemsData.map(i => ({ slug: slug(i.Nome), path: `/mage/imbued_items/${slug(i.Nome)}`, data: i }));
-const CHANGELING_CONTRACT_DETAILS = allContracts.map(c => ({ slug: slug(c.Name), path: `/changeling/contracts/${slug(c.Name)}`, data: c }));
-const CHANGELING_MERIT_DETAILS = allChangelingMeritsData.map(m => ({ slug: slug(m.Name), path: `/changeling/merits/${slug(m.Name)}`, data: m }));
-const CHANGELING_TOKEN_DETAILS = allToken.map(t => ({ slug: slug(t.Name), path: `/changeling/tokens/${slug(t.Name)}`, data: t }));
-const HUNTER_DREAD_POWER_DETAILS = dreadPowersData.map(d => ({ slug: slug(d.Name), path: `/hunter/dread_powers/${slug(d.Name)}`, data: d }));
+const VAMPIRE_DISCIPLINE_DETAILS = Object.fromEntries(allDiscipline.map(d => [slug(d.Name), `/vampire/disciplines/${slug(d.Name)}`]));
+const VAMPIRE_DEVOTION_DETAILS = Object.fromEntries(DevotionData.map(d => [slug(d.Name), `/vampire/devotions/${slug(d.Name)}`]));
+const SPIRIT_NUMINA_DETAILS = Object.fromEntries(spiritNuminaData.map(n => [slug(n.Name), `/spirit/numina/${slug(n.Name)}`]));
+const DERANGEMENT_DETAILS = Object.fromEntries(derangementData.map(d => [slug(d.Name), `/derangements/${slug(d.Name)}`]));
+const LOCATION_DETAILS = Object.fromEntries(allLocation.map(l => [slug(l.Name), `/merits/locations/${slug(l.Name)}`]));
+const UNIVERSAL_MERIT_DETAILS = Object.fromEntries(allUniMeritsData.map(m => [slug(m.Title), `/universal_merit/${slug(m.Title)}`]));
+const MAGE_MERIT_DETAILS = Object.fromEntries(allMageMeritsData.map(m => [slug(m.Title), `/mage/merits/${slug(m.Title)}`]));
+const MAGE_LEGACY_DETAILS = Object.fromEntries(LegacyData.map(l => [slug(l.Nome), `/mage/legacy/${slug(l.Nome)}`]));
+const MAGE_SPELL_DETAILS = Object.fromEntries(SpellsData.map(s => [slug(s.Titolo), `/mage/spells/${slug(s.Titolo)}`]));
+// const MAGE_ARTIFACT_DETAILS = Object.fromEntries(artifactData.map(a => [slug(a.Nome), `/mage/artifacts/${slug(a.Nome)}`]));
+const MAGE_IMBUED_ITEM_DETAILS = Object.fromEntries(imbuedItemsData.map(i => [slug(i.Nome), `/mage/imbued_items/${slug(i.Nome)}`]));
+const CHANGELING_CONTRACT_DETAILS = Object.fromEntries(allContracts.map(c => [slug(c.Name), `/changeling/contracts/${slug(c.Name)}`]));
+const CHANGELING_MERIT_DETAILS = Object.fromEntries(allChangelingMeritsData.map(m => [slug(m.Name), `/changeling/merits/${slug(m.Name)}`]));
+const CHANGELING_TOKEN_DETAILS = Object.fromEntries(allToken.map(t => [slug(t.Name), `/changeling/tokens/${slug(t.Name)}`]));
+const HUNTER_DREAD_POWER_DETAILS = Object.fromEntries(dreadPowersData.map(d => [slug(d.Name), `/hunter/dread_powers/${slug(d.Name)}`]));
+const MAGE_ARCANA = Object.fromEntries(['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map(name => [slug(name), `/mage/${name}`]));
 
-const MAGE_ARCANA = ['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map(name => ({ slug: name, path: `/mage/${name}`, data: name }));
+
+console.log('VAMPIRE_DISCIPLINE_DETAILS', VAMPIRE_DISCIPLINE_DETAILS)
+// console.log('animalism',VAMPIRE_DISCIPLINE_DETAILS["animalism"]);
 
 export const PATHS = {
     HOME: '/',
@@ -81,7 +94,7 @@ export const PATHS = {
         MERITS: MAGE_MERIT_DETAILS,
         LEGACIES: MAGE_LEGACY_DETAILS,
         SPELLS: MAGE_SPELL_DETAILS,
-        ARTIFACTS: MAGE_ARTIFACT_DETAILS,
+        // ARTIFACTS: MAGE_ARTIFACT_DETAILS,
         IMBUED_ITEMS: MAGE_IMBUED_ITEM_DETAILS,
         PATH: '/mage/path',
         ORDER: '/mage/order',

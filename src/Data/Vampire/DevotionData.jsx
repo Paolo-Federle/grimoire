@@ -1,4 +1,4 @@
-const DevotionData = [
+export const DevotionData = [
     {
         "Name": "22 Solid",
         "Prerequisites": "Protean ••, Resilience ••",
@@ -3117,5 +3117,3 @@ const DevotionData = [
         "Book": "SoM 105"
     }
 ]
-
-export default DevotionData;
