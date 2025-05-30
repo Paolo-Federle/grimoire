@@ -57,7 +57,7 @@ export default function Home() {
                             </tr>
                             <tr>
                                 <td className='table-cell'>
-                                    <Link to={PATHS.MORTAL} title="Mortals and Lesser Templates">
+                                    <Link to={PATHS.MORTAL.BASE} title="Mortals and Lesser Templates">
                                         Mortals and Lesser Templates
                                     </Link>
                                 </td>
