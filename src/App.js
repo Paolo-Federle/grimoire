@@ -210,7 +210,7 @@ function App() {
   function generateRoutes({ data, basePath, Component, propKey, getKey, getPathName }) {
     return data.map((item, index) => {
       const key = getKey ? getKey(item, index) : index;
-      const slug = getPathName ? getPathName(item) : item.Name || item.Title || item.slug || 'unknown';
+      const slug = getPathName ? getPathName(item) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
       const path = `${basePath}/${removeSpaceForLinks(slug)}`;
   
       return (

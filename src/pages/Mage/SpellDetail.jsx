@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 export default function SpellDetail(props) {
     const location = useLocation();
     const matchedSpell = props.spell
+    console.log('spellDetail')
 
     function generateTable(data) {
         if (!Array.isArray(data) || data.length === 0) {
