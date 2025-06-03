@@ -17,7 +17,7 @@ export default function UniversalMerits() {
             });
 
             // Add link field
-            nuovoOggetto.link = `/universal_merits/${nuovoOggetto.Title.replace(/ /g, '_')}`;
+            nuovoOggetto.link = `/universal_merits/${nuovoOggetto.Name.replace(/ /g, '_')}`;
 
             return nuovoOggetto;
         });
@@ -25,11 +25,11 @@ export default function UniversalMerits() {
 
     function processMeritsData(data, newFieldName) {
         return data.map(item => {
-            const { Title, ...rest } = item;
+            const { Name, ...rest } = item;
             return {
-                [newFieldName]: Title,
+                [newFieldName]: Name,
                 ...rest,
-                link: `/universal_merits/${Title.replace(/ /g, '_')}`,
+                link: `/universal_merits/${Name.replace(/ /g, '_')}`,
             };
         });
     }

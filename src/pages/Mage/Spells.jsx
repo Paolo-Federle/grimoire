@@ -10,6 +10,7 @@ import { spaceOneData, spaceTwoData, spaceThreeData, spaceFourData, spaceFiveDat
 import { spiritOneData, spiritTwoData, spiritThreeData, spiritFourData, spiritFiveData } from '../../Data/Mage/Arcana/SpiritData';
 import { timeOneData, timeTwoData, timeThreeData, timeFourData, timeFiveData } from '../../Data/Mage/Arcana/TimeData';
 import MultipleTables from '../../components/MultipleTables';
+import { slugify } from '../../utils';
 
 
 export default function Spells() {
@@ -17,7 +18,7 @@ export default function Spells() {
     function addLinkToList(listOfLists) {
         return listOfLists.map(list => {
             return list.map(obj => {
-                obj.link = `/mage/spells/${obj.Titolo.replace(/ /g, '_')}`;
+                obj.link = `/mage/spells/${slugify(obj.Titolo)}`;
                 return obj;
             });
         });
@@ -58,6 +59,7 @@ export default function Spells() {
     // Define the headers that correspond to your data keys
     const tableFields = ['Titolo', 'DescrizioneBreve', 'Aspect', 'Cost', 'Arcana', "Book"];
 
+    console.log('MatterWithLink', MatterWithLink)
     const renderedArcanaTables = arcanaData.map((arcana, index) => (
         <MultipleTables
             key={index}

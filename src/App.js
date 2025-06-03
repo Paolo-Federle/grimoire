@@ -79,6 +79,8 @@ import Reliquary from './pages/MortalsAndOthers/Reliquary';
 import Vehicle from './pages/MortalsAndOthers/Vehicle';
 import Weapon from './pages/MortalsAndOthers/Weapon';
 import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
+import Thaumaturgy from './pages/MortalsAndOthers/Lesser templates/Thaumaturgy';
+import PsychicsPowers from './pages/MortalsAndOthers/Lesser templates/Psychics';
 import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
@@ -110,12 +112,13 @@ import GhoulFamilies from './pages/Vampire/Ghoul';
 import Morality from './pages/MortalsAndOthers/Morality';
 import Humanity from './pages/Vampire/Humanity';
 import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
-import DynamicDetail from './components/Disuso/DynamicDetail';
 import TokensDetail from './pages/Changeling/TokensDetail';
 import TokenRules from './pages/Changeling/TokenRules';
 import SheetTest from './pages/Generale/SheetTest';
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./css/muiTheme";
+
+import { slugify } from './utils';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -203,15 +206,12 @@ function App() {
 
   // }, [location]);
 
-  const removeSpaceForLinks = (title) => {
-    return title.replace(/ /g, '_');
-  };
 
   function generateRoutes({ data, basePath, Component, propKey, getKey, getPathName }) {
     return data.map((item, index) => {
       const key = getKey ? getKey(item, index) : index;
       const slug = getPathName ? getPathName(item) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
-      const path = `${basePath}/${removeSpaceForLinks(slug)}`;
+      const path = `${basePath}/${slugify(slug)}`;
   
       return (
         <Route
@@ -272,6 +272,8 @@ function App() {
             <Route path="/mortal/tools" element={<Tools />} />
             <Route path="/mortal/vehicles" element={<Vehicle />} />
             <Route path="/mortal/weapons" element={<Weapon />} />
+            <Route path="/mortal/thaumaturgy" element={<Thaumaturgy />} />
+            <Route path="/mortal/psychics_powers" element={<PsychicsPowers />} />
 
             {/* VAMPIRI */}
             <Route path="/vampire" element={<Vampire />} />

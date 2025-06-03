@@ -1,5 +1,12 @@
 export const giftData = [
     {
+        "Rank": "N/A",
+        "Name": "Agony",
+        "Description": "",
+        "Cost": "",
+        "Book": "XXXXXXXX"
+    },
+    {
         "Rank": "•",
         "Name": "Stoicism",
         "Description": "For the remainder of the scene, the character suffers no wound penalties.",
@@ -35,8 +42,8 @@ export const giftData = [
         "Book": "Pure 114"
     },
     {
-        "Rank": "Alpha",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Alpha",
         "Description": "",
         "Cost": "",
         "Book": "Storm Lords"
@@ -77,8 +84,8 @@ export const giftData = [
         "Book": "Rage 108"
     },
     {
-        "Rank": "Battle",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Battle",
         "Description": "",
         "Cost": "",
         "Book": "Blood Talons"
@@ -119,8 +126,8 @@ export const giftData = [
         "Book": "Rage 110"
     },
     {
-        "Rank": "Blending",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Blending",
         "Description": "",
         "Cost": "",
         "Book": "Iron Masters"
@@ -161,8 +168,8 @@ export const giftData = [
         "Book": "Rage 111"
     },
     {
-        "Rank": "Blood",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Blood",
         "Description": "",
         "Cost": "",
         "Book": "None"
@@ -203,8 +210,8 @@ export const giftData = [
         "Book": "Lore 117"
     },
     {
-        "Rank": "Bone",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Bone",
         "Description": "",
         "Cost": "",
         "Book": "None"
@@ -245,8 +252,8 @@ export const giftData = [
         "Book": "Lore 119"
     },
     {
-        "Rank": "City",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "City",
         "Description": "",
         "Cost": "",
         "Book": "None"
@@ -287,8 +294,8 @@ export const giftData = [
         "Book": "Lore 121"
     },
     {
-        "Rank": "Crescent Moon",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Crescent Moon",
         "Description": "",
         "Cost": "",
         "Book": "Ithaeur"
@@ -329,8 +336,8 @@ export const giftData = [
         "Book": "WtF 106"
     },
     {
-        "Rank": "Cunning",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Cunning",
         "Description": "",
         "Cost": "",
         "Book": "Irraka"
@@ -371,8 +378,8 @@ export const giftData = [
         "Book": "SotM 34"
     },
     {
-        "Rank": "Darkness",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Darkness",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -413,8 +420,8 @@ export const giftData = [
         "Book": "Rage 114"
     },
     {
-        "Rank": "Death",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Death",
         "Description": "",
         "Cost": "",
         "Book": "Bone Shadows"
@@ -455,8 +462,8 @@ export const giftData = [
         "Book": "WtF 109"
     },
     {
-        "Rank": "Disease",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Disease",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -497,8 +504,8 @@ export const giftData = [
         "Book": "Pure 116"
     },
     {
-        "Rank": "Dominance",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Dominance",
         "Description": "",
         "Cost": "",
         "Book": "Rahu, Storm Lords"
@@ -539,8 +546,8 @@ export const giftData = [
         "Book": "WtF 110"
     },
     {
-        "Rank": "Dreamer's Moon",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Dreamer's Moon",
         "Description": "",
         "Cost": "",
         "Book": "Cahalith"
@@ -581,8 +588,8 @@ export const giftData = [
         "Book": "Lore 85"
     },
     {
-        "Rank": "Eclipse",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Eclipse",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -623,8 +630,8 @@ export const giftData = [
         "Book": "Blas 138"
     },
     {
-        "Rank": "Elemental",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Elemental",
         "Description": "",
         "Cost": "",
         "Book": "Ithaeur, Hunters in Darkness"
@@ -665,8 +672,8 @@ export const giftData = [
         "Book": "WtF 112"
     },
     {
-        "Rank": "Ending",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Ending",
         "Description": "",
         "Cost": "",
         "Book": "Bone Shadows"
@@ -707,8 +714,8 @@ export const giftData = [
         "Book": "Rage 116"
     },
     {
-        "Rank": "Endurance",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Endurance",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -749,8 +756,8 @@ export const giftData = [
         "Book": "Rage 118"
     },
     {
-        "Rank": "Evasion",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Evasion",
         "Description": "",
         "Cost": "",
         "Book": "Irraka, Storm Lords"
@@ -791,8 +798,8 @@ export const giftData = [
         "Book": "WtF 114"
     },
     {
-        "Rank": "Father Wolf",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Father Wolf",
         "Description": "",
         "Cost": "",
         "Book": "Any"
@@ -833,8 +840,8 @@ export const giftData = [
         "Book": "WtF 115"
     },
     {
-        "Rank": "Fervor",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Fervor",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -875,8 +882,8 @@ export const giftData = [
         "Book": "Pure 117"
     },
     {
-        "Rank": "Fever",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Fervor",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -917,8 +924,8 @@ export const giftData = [
         "Book": "Blas 84"
     },
     {
-        "Rank": "Firestick",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Firestick",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -959,8 +966,8 @@ export const giftData = [
         "Book": "Splintered 60"
     },
     {
-        "Rank": "Full Moon",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Full Moon",
         "Description": "",
         "Cost": "",
         "Book": "Rahu"
@@ -1001,8 +1008,8 @@ export const giftData = [
         "Book": "WtF 117"
     },
     {
-        "Rank": "Gibbous Moon",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Gibbous Moon",
         "Description": "",
         "Cost": "",
         "Book": "Cahalith"
@@ -1043,8 +1050,8 @@ export const giftData = [
         "Book": "WtF 119"
     },
     {
-        "Rank": "Glory",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Glory",
         "Description": "",
         "Cost": "",
         "Book": "Cahalith"
@@ -1085,8 +1092,8 @@ export const giftData = [
         "Book": "SotM 143"
     },
     {
-        "Rank": "Grotto",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Grotto",
         "Description": "",
         "Cost": "",
         "Book": ""
@@ -1127,8 +1134,8 @@ export const giftData = [
         "Book": "Faithful 130"
     },
     {
-        "Rank": "Halcyon",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Halcyon",
         "Description": "",
         "Cost": "",
         "Book": "Storm Lords"
@@ -1169,8 +1176,8 @@ export const giftData = [
         "Book": "BotW 85"
     },
     {
-        "Rank": "Half Moon",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Half Moon",
         "Description": "",
         "Cost": "",
         "Book": "Elodoth"
@@ -1211,8 +1218,8 @@ export const giftData = [
         "Book": "WtF 121"
     },
     {
-        "Rank": "Honor",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Honor",
         "Description": "",
         "Cost": "",
         "Book": "Elodoth"
@@ -1253,1529 +1260,1582 @@ export const giftData = [
         "Book": "SotM 103"
     },
     {
-        "Rank": "Information",
-        "Name": "",
+        "Rank": "N/A",
+        "Name": "Information",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Sense the Flow",
         "Description": "Can perceive the flow of information in an area, and can single out one particular stream",
         "Cost": "-",
         "Book": "Rage 118"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Tongues",
         "Description": "Translate text and also deeper subtext and other subtleties concealed in the words",
         "Cost": "●",
         "Book": "Rage 119"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Babel Effect",
         "Description": "Render a group of people (up to 5) entirely unable to understand one another",
         "Cost": "●●●",
         "Book": "Rage 119"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Steganography",
         "Description": "Add a hidden information-spirit to her words, encoding a hidden message or meaning that only someone of her choosing will understand",
         "Cost": "●+",
         "Book": "Rage 120"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Twisted Words",
         "Description": "Convince the information-spirits of the speech to change depending on their audience, meaning that different people hear what he wants them to hear, rather than what was actually said",
         "Cost": "●●(○)",
         "Book": "Rage 120"
-    },
-    {
-        "Rank": "Insight",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Insight",
         "Description": "",
         "Cost": "",
         "Book": "Elodoth, Bone Shadows"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Sense Malice",
         "Description": "Sense negative emotions",
         "Cost": "-",
         "Book": "WtF 122"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Scent of Taint",
         "Description": "Sense supernatural creatures",
         "Cost": "-",
         "Book": "WtF 123"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Echo Dream",
         "Description": "Read spiritual resonance",
         "Cost": "●",
         "Book": "WtF 123"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Soul Read",
         "Description": "Read the subject's heart (1 secret, fear or weakness per success)",
         "Cost": "●",
         "Book": "WtF 124"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Omen gazing",
         "Description": "Prophetic trance",
         "Cost": "●",
         "Book": "WtF 124"
-    },
-    {
-        "Rank": "Inspiration",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Inspiration",
         "Description": "",
         "Cost": "",
         "Book": "Cahalith, Blood Talons"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "The Right Words",
         "Description": "Positively affect morale (+2 to Social rolls to encourage or mollify)",
         "Cost": "-",
         "Book": "WtF 125"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Camaraderie",
         "Description": "Help working together (+1 to resist Death Rage, +1 to Teamwork)",
         "Cost": "-",
         "Book": "WtF 125"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "True Leader",
         "Description": "Grant Willpower (1 point per success to all allies to be spent in the scene)",
         "Cost": "●",
         "Book": "WtF 125"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Spirit Skin",
         "Description": "Gain spiritual authority (dots of highest Renown are gained as modifier to Social rolls)",
         "Cost": "●",
         "Book": "WtF 125"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Victor's Song",
         "Description": "Grant Essence (1 point and +1 to all rolls for every allied)",
         "Cost": "●",
         "Book": "WtF 126"
-    },
-    {
-        "Rank": "Judge's Moon",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Judge's Moon",
         "Description": "",
         "Cost": "",
         "Book": "Elodoth"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "See the Spirit Brands",
         "Description": "See the spirit brands from renown from a target werewolf",
         "Cost": "-",
         "Book": "Lore 86"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Damning Tongue",
         "Description": "Repeat all word spoken by the target, at a distance for a scene",
         "Cost": "-",
         "Book": "Lore 86"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Pangs of Guilt",
         "Description": "Make the target suffer from his sins, suffering 1 bashing damage per success and a -1 penalty for the next turn",
         "Cost": "●",
         "Book": "Lore 87"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Anticipation",
         "Description": "Predict an opponent's future action (+4 Defense for next turn, or +2 if he warns a packmate)",
         "Cost": "●",
         "Book": "Lore 87"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Curse of Talion",
         "Description": "Curse a target according to his past sins",
         "Cost": "●●",
         "Book": "Lore 88"
-    },
-    {
-        "Rank": "Knowledge",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Knowledge",
         "Description": "",
         "Cost": "",
         "Book": "Cahalith, Iron Masters"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Know Name",
         "Description": "Learn anyone's name",
         "Cost": "-",
         "Book": "WtF 126"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Traveler's Blessing",
         "Description": "Learn anywhere language and way of life",
         "Cost": "○/s",
         "Book": "WtF 126"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Sagacity",
         "Description": "Learn skills (1 dot per success for 1 minute per success)",
         "Cost": "●",
         "Book": "WtF 127"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Know the Path",
         "Description": "Know the best path to his destination",
         "Cost": "●",
         "Book": "WtF 127"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Communion with the Land",
         "Description": "Gain knowledge of everything around him (+2 to Defense and Initiative)",
         "Cost": "●",
         "Book": "WtF 127"
-    },
-    {
-        "Rank": "Mother Luna",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Mother Luna",
         "Description": "",
         "Cost": "",
         "Book": "Any"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Partial Change",
         "Description": "Shapeshift only part of his body",
         "Cost": "(●)",
         "Book": "WtF 128"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Anybeast",
         "Description": "Change into any animal",
         "Cost": "●",
         "Book": "WtF 129"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Silver Jaws",
         "Description": "Claws and fangs become silver",
         "Cost": "●",
         "Book": "WtF 129"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Skin-Stealing",
         "Description": "Change into any human",
         "Cost": "●",
         "Book": "WtF 129"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Primal Form",
         "Description": "Shapeshift into a gigantic wolf form for 1 turn per success",
         "Cost": "●",
         "Book": "WtF 129"
-    },
-    {
-        "Rank": "Nature",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Nature",
         "Description": "",
         "Cost": "",
         "Book": "Hunters in Darkness"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Speak with Beasts",
         "Description": "Communicate with animals",
         "Cost": "-",
         "Book": "WtF 130"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Plant Growth",
         "Description": "Increase and direct plant growth",
         "Cost": "○",
         "Book": "WtF 130"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Forest Communion",
         "Description": "Gain information from natural landscape",
         "Cost": "●",
         "Book": "WtF 130"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Beast Ride",
         "Description": "Possess animals",
         "Cost": "●",
         "Book": "WtF 131"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Nature's Vengeance",
         "Description": "Vegetation attacks the target (-2 to Speed, -1 to all rolls, 1 - 3 points of bashing damage per turn)",
         "Cost": "●",
         "Book": "WtF 131"
-    },
-    {
-        "Rank": "New Moon",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "New Moon",
         "Description": "",
         "Cost": "",
         "Book": "Irraka"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Sense Weakness",
         "Description": "Learn target's weaknesses (Vice, derangements or Flaws)",
         "Cost": "-",
         "Book": "WtF 132"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Slip Away",
         "Description": "Escape any physical binding",
         "Cost": "○",
         "Book": "WtF 132"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Distractions",
         "Description": "Create a distracting hallucination (-2 to all rolls)",
         "Cost": "●",
         "Book": "WtF 132"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Blend In",
         "Description": "Disappear into crowds",
         "Cost": "●",
         "Book": "WtF 133"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Ghost Step",
         "Description": "Steps in Twilight (-5 to perception rolls to detect him. She cannot affect physical world)",
         "Cost": "●",
         "Book": "WtF 133"
-    },
-    {
-        "Rank": "Opening",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Opening",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Word of Opening",
         "Description": "Any barrier to information opens, provided it is not locked.",
         "Cost": "-",
         "Book": "Faithful 50"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Lurker’s Key",
         "Description": "Attempts to open a barrier, be it physical or digital, with a bonus.",
         "Cost": "●",
         "Book": "Faithful 50"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Create Opening",
         "Description": "Creates a small, clean opening in a physical object.",
         "Cost": "●○",
         "Book": "Faithful 51"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "The Open Mind",
         "Description": "Disorients a target with massive quantities of information, inflicting a penalty to all actions equal to the greater of activation successes or Primal Urge.",
         "Cost": "-",
         "Book": "Faithful 51"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Gauntlet Key",
         "Description": "Allows the user to cross back and forth across the Gauntlet; must be completely alone and unobserved to use, and it cannot be used for purposes of assassination or violence.",
         "Cost": "●●●",
         "Book": "Faithful 51"
-    },
-    {
-        "Rank": "Pack",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Pack",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Web of Scent",
         "Description": "Borrow any sense of a packmate within half of Primal Urge in miles, losing her own.",
         "Cost": "-",
         "Book": "Rage 121"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Warning Howl",
         "Description": "Howl for help. All packmates in pack's territory hear it and cannot be misinterpreted.",
         "Cost": "●",
         "Book": "Rage 121"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Brother’s Strength",
         "Description": "Can solve a problem that would normally only allow one werewolf to work on it as a pack, and makes them better at working together normally",
         "Cost": "○",
         "Book": "Rage 122"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Synergy",
         "Description": "Can transfer skills between pack members, even his own. The character can't be the beneficiary.",
         "Cost": "●●",
         "Book": "Rage 122"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Unity",
         "Description": "Any packmate can spend Willpower or Essence toward a roll of a mate. She can also take one Health point of damage for packmate.",
         "Cost": "●●●○",
         "Book": "Rage 123"
-    },
-    {
-        "Rank": "Predator",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Predator",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Bestial Fellowship",
         "Description": "Gain four extra dice on all Animal Ken rolls made to influence predators",
         "Cost": "●",
         "Book": "Rage 123"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Hunter’s Fortitude",
         "Description": "Can lie in wait or track prey for days on end without the common distractions of normal life",
         "Cost": "●",
         "Book": "Rage 123"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Savage Hunt",
         "Description": "All rolls to find or track her target have a +1 bonus. Bite and claw attacks deal aggravated damage against her chosen prey only.",
         "Cost": "●●●○",
         "Book": "Rage 124"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Harry",
         "Description": "Prey’s rolls suffer a –2 modifier for the duration of the confrontation.",
         "Cost": "●",
         "Book": "Rage 124"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Predator’s Kin",
         "Description": "Summon every predatory creature within the user’s Primal Urge in miles to attack the target as one",
         "Cost": "●●",
         "Book": "Rage 125"
-    },
-    {
-        "Rank": "Purity",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Purity",
         "Description": "",
         "Cost": "",
         "Book": "Rahu"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Moonlight",
         "Description": "Adds Purity to Social Rolls involving Spirits",
         "Cost": "●",
         "Book": "SotM 179"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Righteous Rage",
         "Description": "Can instinctively ignore pack in a Death Rage",
         "Cost": "●",
         "Book": "SotM 179"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "The Illuminated Battlefield",
         "Description": "Illuminates anyone using underhanded or sneaky tactics, including traitors to the pack",
         "Cost": "●",
         "Book": "SotM 179"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Harmony's Reward",
         "Description": "Add Harmony to any dice pool, but any call of Degeneration for the scene is at -1",
         "Cost": "○",
         "Book": "SotM 179"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Intractable Warrior",
         "Description": "Can auto track a target, and gain other bonuses once facing them",
         "Cost": "●",
         "Book": "SotM 180"
-    },
-    {
-        "Rank": "Rage",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Rage",
         "Description": "",
         "Cost": "",
         "Book": "Blood Talons"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Mask of Rage",
         "Description": "Increase Lunacy",
         "Cost": "●",
         "Book": "WtF 134"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Hone Rage",
         "Description": "Concentrate Gauru ability (the player may sacrifice Gauru duration for +1 to Strength or Dexterity per turn sacrificed)",
         "Cost": "●",
         "Book": "WtF 134"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Leech Rage",
         "Description": "Drain Gauru duration (1 turn per success)",
         "Cost": "●",
         "Book": "WtF 135"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Rekindled Rage",
         "Description": "Additional Gauru shapeshifting (normal duration -2)",
         "Cost": "○",
         "Book": "WtF 136"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Soured Rage",
         "Description": "Inflict Kuruth",
         "Cost": "●",
         "Book": "WtF 136"
-    },
-    {
-        "Rank": "Retribution",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Retribution",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Shrike’s Vengeance",
         "Description": "Makes a prayer to the Lodge of Wrath's totem spirit, who grants the ability to inflict lethal damage with any attack to a specific target for one scene.",
         "Cost": "-",
         "Book": "Faithful 115"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Sinful Thoughts",
         "Description": "Sends a spirit to attack a perceived sinner, sapping their willpower.",
         "Cost": "●",
         "Book": "Faithful 115"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Shrike’s Larder",
         "Description": "Curses a target, such that they cannot die until the end of the scene or the user of the gift allows them to do so. Only works if the victim's \"fatal\" damage was inflicted by the user or their pack-mates.",
         "Cost": "○",
         "Book": "Faithful 116"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Guilt’s Lure",
         "Description": "Inspires a target with a desire to return to a place they sinned.",
         "Cost": "●",
         "Book": "Faithful 116"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Shrike’s Feast",
         "Description": "Touch a target, and inflict lethal damage, while simultaneously draining Essence or Willpower.",
         "Cost": "●",
         "Book": "Faithful 116"
-    },
-    {
-        "Rank": "Savagery",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Savagery",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Predator’s Presence",
         "Description": "The werewolf’s Social penalties inflicted by her Primal Urge modifier are shared with any human who interacts with her",
         "Cost": "○",
         "Book": "Pure 118"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Unending Fury",
         "Description": "This Gift suppresses the hunter’s fight or flight instincts",
         "Cost": "●",
         "Book": "Pure 118"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Challenger’s Instinct",
         "Description": "The werewolf can tell how many turns his opponent can spend in the Gauru form",
         "Cost": "●",
         "Book": "Pure 118"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Embrace the Beast",
         "Description": "A werewolf has to roll to resist Death Rage every time she takes lethal damage and marks a health box",
         "Cost": "",
         "Book": "Pure 119"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Baresark",
         "Description": "Provoke Death Rage in humans and werewolves",
         "Cost": "●",
         "Book": "Pure 119"
-    },
-    {
-        "Rank": "Scheherazade's",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Scheherazade's",
         "Description": "",
         "Cost": "",
         "Book": "Cahalith"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "The Unending Story",
         "Description": "Tell a story that cannot be interrupted",
         "Cost": "None",
         "Book": "SotM 140"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "The Storyteller's Indulgence",
         "Description": "Tell a story that makes a small request of the listeners they are compelled to agree too",
         "Cost": "●",
         "Book": "SotM 140"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Perchance to Dream",
         "Description": "Can give target the Prophetic Dream Auspice Ability",
         "Cost": "●",
         "Book": "SotM 141"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Drawing the Curtain",
         "Description": "Tell a story that the next time the target spends willpower it automatically a dramatic failure",
         "Cost": "●",
         "Book": "SotM 141"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Magnum Opus",
         "Description": "Tell a story that the next time the target spends willpower it automatically adds 3 success instead of dice",
         "Cost": "●○",
         "Book": "SotM 141"
-    },
-    {
-        "Rank": "Shaping",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Shaping",
         "Description": "",
         "Cost": "",
         "Book": "Ithaeur, Iron Masters"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Straighten",
         "Description": "Repair object (recover half Structure points lost) or ruin it without damage, leaving it useless",
         "Cost": "●",
         "Book": "WtF 137"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Ruin",
         "Description": "Make an object unusable",
         "Cost": "●",
         "Book": "WtF 137"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Sculpt",
         "Description": "Shape matter, making an object malleable (then must roll Dexterity + Crafts to sculpture the object)",
         "Cost": "●+",
         "Book": "WtF 137"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Shatter",
         "Description": "Destroy an object (1 Structure point damage per success)",
         "Cost": "○",
         "Book": "WtF 138"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Condense or Expand",
         "Description": "Alter an object's size (gains or loses 1 Size point and loses or gains 2 points of Durability, respectively)",
         "Cost": "○",
         "Book": "WtF 139"
-    },
-    {
-        "Rank": "Scourging",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Scourging",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Sense the Impure",
         "Description": "Determine the purity of a subject’s werewolf blood by scent",
         "Cost": "",
         "Book": "Pure 119"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Relentless Focus",
         "Description": "For every two successes achieved on the roll, the Uratha regains a point of Willpower",
         "Cost": "○",
         "Book": "Pure 120"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Purify",
         "Description": "Purify substance",
         "Cost": "●",
         "Book": "Pure 120"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Expel",
         "Description": "This Gift pushes all parasitic or symbiotic life forms out of a living creature",
         "Cost": "○",
         "Book": "Pure 120"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Cast Out",
         "Description": "The spirit is driven from its host and takes one point of Corpus damage; the spirit suffers a one-die penalty due to pain for a day and a night afterwards",
         "Cost": "●",
         "Book": "Pure 121"
-    },
-    {
-        "Rank": "Silver Road",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Silver Road",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Luna’s Grace",
         "Description": "+2 Primal Urge for resisting magical deception or coercion purposes",
         "Cost": "●",
         "Book": "WAtP 144"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Lunar Martyr",
         "Description": "Suppress flight instinct when in Death Rage",
         "Cost": "○",
         "Book": "WAtP 145"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Leap the Moon",
         "Description": "Tunnel through the Shadow",
         "Cost": "●●○○",
         "Book": "WAtP 145"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Silverpelt",
         "Description": "Turn fur into silver",
         "Cost": "●",
         "Book": "WAtP 145"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Five Faces of Luna",
         "Description": "All werewolves count as being in their auspice moon phase in an area",
         "Cost": "●○",
         "Book": "WAtP 146"
-    },
-    {
-        "Rank": "Spirit’s Silence, The",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Spirit’s Silence, The",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
-        "Rank": "• - •••••",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "• - •••••",
         "Description": "Each level can make the sound of activating gifts of the same level completely silent",
         "Cost": "●",
         "Book": "Splintered 129"
-    },
-    {
-        "Rank": "Stalker's Moon",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Stalker's Moon",
         "Description": "",
         "Cost": "",
         "Book": "Irraka"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Soundless Strike",
         "Description": "Invoke a brief silence. An Irraka's turn happens in complete silence.",
         "Cost": "●",
         "Book": "Lore 88"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "See Heat",
         "Description": "Thermal vision for a scene",
         "Cost": "-",
         "Book": "Lore 88"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Liar's Brand",
         "Description": "Change renown brand for a scene",
         "Cost": "●",
         "Book": "Lore 88"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Stolen Scent",
         "Description": "Mimic a target's scent he is familiar with for 1 hour per success",
         "Cost": "●",
         "Book": "Lore 89"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Strike Blind",
         "Description": "Remove a target's sense of vision, audition or smell for 24 hours",
         "Cost": "●●",
         "Book": "Lore 89"
-    },
-    {
-        "Rank": "Stalking",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Stalking",
         "Description": "",
         "Cost": "",
         "Book": "Hunters in Darkness"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Night Sight",
         "Description": "Suffer no penalties for blindness in darkened or pitch-black areas",
         "Cost": "-",
         "Book": "Rage 125"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Heaven’s Guidance",
         "Description": "Pinpoint roughly where she is, giving her a perfect sense of direction and an eidetic recollection of the ways and distances she has traveled since sunset",
         "Cost": "○",
         "Book": "Rage 126"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Scent the Supernatural",
         "Description": "Can “smell” the presence of any supernatural creature or active supernatural effect within 30 feet",
         "Cost": "○",
         "Book": "Rage 126"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Shadow Strike",
         "Description": "For every success on the roll, the character may emerge from a patch of darkness up to 20 yards away",
         "Cost": "●",
         "Book": "Rage 126"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Shadow Pack",
         "Description": "Summon 1 Shadow wolf per essence spent for 1 turn per success. They have the same statistics that the character in Urhan.",
         "Cost": "●+",
         "Book": "Rage 126"
-    },
-    {
-        "Rank": "Stealth",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Stealth",
         "Description": "",
         "Cost": "",
         "Book": "Irraka, Hunters in Darkness"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Feet of Mist",
         "Description": "Leave no scent (-1 to tracking or -3 if 1 Willpower point is spent)",
         "Cost": "● (○)",
         "Book": "WtF 139"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Blending",
         "Description": "Hide in plain sight while motionless",
         "Cost": "-",
         "Book": "WtF 139"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Running Shadow",
         "Description": "Leave no sound (-3 to hearing the character)",
         "Cost": "●",
         "Book": "WtF 140"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Shadow Flesh",
         "Description": "Become a physical shadow (+3 to Stealth and Defense. Suffers a -2 to affect her surroundings)",
         "Cost": "●",
         "Book": "WtF 140"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Vanish",
         "Description": "Become invisible (-5 to detect the character. Rules of Fighting Blind apply)",
         "Cost": "●●",
         "Book": "WtF 140"
-    },
-    {
-        "Rank": "Strength",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Strength",
         "Description": "",
         "Cost": "",
         "Book": "Rahu, Blood Talons"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Crushing Blow",
         "Description": "Inflict Lethal damage with unarmed strike or melee weapon (instead of bashing damage)",
         "Cost": "○",
         "Book": "WtF 141"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Mighty Bound",
         "Description": "Make incredible jump (+6 to Jumping)",
         "Cost": "-",
         "Book": "WtF 141"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Iron Rending",
         "Description": "Damage objects (cancels 1 point of Durability or Armor per success)",
         "Cost": "●",
         "Book": "WtF 141"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Legendary Arm",
         "Description": "Throw to amazing distance (allows throwing an object with a size double her Strength without usual penalty due to object's size)",
         "Cost": "●",
         "Book": "WtF 141"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Savage Might",
         "Description": "Gain inhuman strength (+3 to Strength per Essence point spent)",
         "Cost": "●+",
         "Book": "WtF 142"
-    },
-    {
-        "Rank": "Tainted Moon",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Tainted Moon",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Blood Moon",
         "Description": "Suffer a –2 penalty on all rolls to avoid entering Death Rage. Gain an additional +1 to Strength, Dexterity and Stamina, above and beyond the normal bonuses associated with Gauru form",
         "Cost": "-",
         "Book": "Blas 138"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Gravid Moon",
         "Description": "Grants an extra die per success on all Social interactions for the remainder of the scene and drains Willpower from any ordinary humans within a radius equal to 10 yards per dot of the Bale Hound’s Primal Urge",
         "Cost": "●",
         "Book": "Blas 138"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Broken Moon",
         "Description": "The target automatically enters Death Rage, changes to Gauru form and attacks the first thing at hand",
         "Cost": "●",
         "Book": "Blas 139"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Sickle Moon",
         "Description": "The spirit suffers one point of damage per success on the Bale Hound’s attack",
         "Cost": "○",
         "Book": "Blas 139"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Dark Moon",
         "Description": "The target loses all sensory input, becoming blind, deaf and unable to smell or feel the world around him. Werewolves must immediately check for Death Rage",
         "Cost": "●○",
         "Book": "Blas 139"
-    },
-    {
-        "Rank": "Technology",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Technology",
         "Description": "",
         "Cost": "",
         "Book": "Iron Masters"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Left-Handed Spanner",
         "Description": "Disable a device for 1 turn per success",
         "Cost": "○",
         "Book": "WtF 142"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Nightfall",
         "Description": "Extinguish all artificial light in the vicinity",
         "Cost": "○",
         "Book": "WtF 143"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Iron Treachery",
         "Description": "Make a device turn against its user (reduces dice polls for using the object to a chance die for 1 turn per success)",
         "Cost": "●",
         "Book": "WtF 143"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Machinegeist",
         "Description": "Possess a machine (gains perception and information, but cannot control it)",
         "Cost": "●",
         "Book": "WtF 143"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Create Technology",
         "Description": "Craft a device",
         "Cost": "●○",
         "Book": "WtF 144"
-    },
-    {
-        "Rank": "Territory",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Territory",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Lay of the Land",
         "Description": "Learn the population of a Territory, as well as seeing the totem of the pack that claims it",
         "Cost": "-",
         "Book": "Territories 48"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Minor Sending",
         "Description": "Send a whispered message to a packmate while on your territory",
         "Cost": "●",
         "Book": "Territories 48"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Sense of the Territory",
         "Description": "Learn the location of all Loci, Werewolves and spirits Rank 3 or higher",
         "Cost": "●",
         "Book": "Territories 48"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Animate the Land",
         "Description": "A chosen skill either receives bonuses for packmates or penalties for enemies",
         "Cost": "●●",
         "Book": "Territories 49"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Disrupt Essence",
         "Description": "All powers cost twice as much essence for non-pack members",
         "Cost": "●●●",
         "Book": "Territories 50"
-    },
-    {
-        "Rank": "War",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "War",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Find Conflict",
         "Description": "Find the biggest and most fierce conflict in an area",
         "Cost": "-",
         "Book": "WAtP 46"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Notice Defeat",
         "Description": "Reflexively notice that a group of allies is in trouble",
         "Cost": "○",
         "Book": "WAtP 47"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Whispers on the Wind",
         "Description": "Send a message to any number of people in an area",
         "Cost": "●",
         "Book": "WAtP 47"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Echoes of Opposing Brilliance",
         "Description": "Learn the tactics of the opposing commander",
         "Cost": "●",
         "Book": "WAtP 47"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Shared Battle Mind",
         "Description": "Give soldiers a subtle instinctive push to act in according to the tactics the commander chooses",
         "Cost": "●●",
         "Book": "WAtP 48"
-    },
-    {
-        "Rank": "Warding",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Warding",
         "Description": "",
         "Cost": "",
         "Book": "Elodoth, Bone Shadows"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Ward Versus Predator",
         "Description": "Protect a territory against predatory animals (requires Resolve + Composure to enter the territory)",
         "Cost": "-",
         "Book": "WtF 144"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Ward Versus Humans",
         "Description": "Protect a territory against humans (requires Resolve + Composure to enter the territory)",
         "Cost": "○",
         "Book": "WtF 144"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Technology Ward",
         "Description": "Disable all devices in the vicinity (mechanical devices reduce all rolls to a chance roll)",
         "Cost": "●",
         "Book": "WtF 145"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Shadow Ward",
         "Description": "Strengthen the Gauntlet (-1 to crossing or seeing through the Gauntlet)",
         "Cost": "●",
         "Book": "WtF 145"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Ward of Spirit Slumber",
         "Description": "Put all spirits in the vicinity to sleep",
         "Cost": "●",
         "Book": "WtF 145"
-    },
-    {
-        "Rank": "Warrior's Moon",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Warrior's Moon",
         "Description": "",
         "Cost": "",
         "Book": "Rahu"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Warrior's Insight",
         "Description": "Unlimited use of the Warrior's Eye",
         "Cost": "●",
         "Book": "Lore 90"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Battle Mind",
         "Description": "Resist mental influence",
         "Cost": "●",
         "Book": "Lore 90"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Hobbling Gaze",
         "Description": "Slow a fleeing opponent",
         "Cost": "●",
         "Book": "Lore 91"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Bloodletting",
         "Description": "Inflict an hemoragy",
         "Cost": "●",
         "Book": "Lore 91"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Might of the Full Moon",
         "Description": "Wear gauru form as long as wished",
         "Cost": "●●",
         "Book": "Lore 91"
-    },
-    {
-        "Rank": "Weakness",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Weakness",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Reflection",
         "Description": "Change a Chance roll to one die",
         "Cost": "-",
         "Book": "Rage 127"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Shallow Heart",
         "Description": "Select a new Vice for the subject that replaces the old one for a scene",
         "Cost": "●",
         "Book": "Rage 128"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Coward’s Soul",
         "Description": "Inflicts feelings of guilt and depression in the victim. She cannot gain Willpower until she sleeps well.",
         "Cost": "●●●",
         "Book": "Rage 128"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Hidden Self",
         "Description": "Hide weakness from onlookers (Vice, low attribute, low harmony or derangement), making them effectively of average statistics for game mechanics.",
         "Cost": "○",
         "Book": "Rage 128"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Wrack",
         "Description": "Make target suffer severe depression and self-loathing for 2 turns per success. She may take actions only spending Willpower and her defense is 0. After recovering, she must do a degeneration roll.",
         "Cost": "●●○",
         "Book": "Rage 129"
-    },
-    {
-        "Rank": "Weather",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Weather",
         "Description": "",
         "Cost": "",
         "Book": "Storm Lords"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Call the Breeze",
         "Description": "Summon light wind (-1 to Perception rolls)",
         "Cost": "-",
         "Book": "WtF 146"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Silent Fog",
         "Description": "Summon a patch of fog (-2 to Perception rolls)",
         "Cost": "●",
         "Book": "WtF 146"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Deluge",
         "Description": "Summon a heavy rain (-2 to Perception and ranged combat rolls)",
         "Cost": "●",
         "Book": "WtF 146"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Killing frost",
         "Description": "Summon a hard frost wave (2 points of bashing damage, -2 to Strength and Dexterity rolls)",
         "Cost": "●",
         "Book": "WtF 147"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Thunderbolt",
         "Description": "Summon a thunderbolt upon his opponent (4 points + 1 per success of lethal damage)",
         "Cost": "●",
         "Book": "WtF 147"
-    },
-    {
-        "Rank": "Witch's Moon",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Witch's Moon",
         "Description": "",
         "Cost": "",
         "Book": "Ithaeur"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Shadow-Speaking",
         "Description": "Act as a vessel for spirits to speak",
         "Cost": "-",
         "Book": "Lore 91"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Shadow Discord",
         "Description": "Reduce spirits influence in a zone",
         "Cost": "●",
         "Book": "Lore 92"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Luck-Eating",
         "Description": "Transfer luck from target to the Ithaeur",
         "Cost": "●",
         "Book": "Lore 92"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Cage the Rider",
         "Description": "Emprison a spirit into the Ithaeur body",
         "Cost": "●+",
         "Book": "Lore 93"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Poisoned Essence",
         "Description": "Make essence expenditure to deal damage",
         "Cost": "●",
         "Book": "Lore 93"
-    },
-    {
-        "Rank": "Wisdom",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Wisdom",
         "Description": "",
         "Cost": "",
         "Book": "Ithaeur"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "The Heart of Things",
         "Description": "Add Wisdom to any Mental or Social roll to infer knowledge for a scene",
         "Cost": "●",
         "Book": "SotM 67"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Befuddle",
         "Description": "Target suffers penalty equal to Ithaeur Wisdom on mental rolls",
         "Cost": "●",
         "Book": "SotM 67"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "The Wisdom of Patience",
         "Description": "Skip a turn in combat to gain various benefits to next attack",
         "Cost": "none",
         "Book": "SotM 67"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Mothers Counsel",
         "Description": "Add Ithaeur's Wisdom as an equipment bonus to another's skill for 24 hours",
         "Cost": "●",
         "Book": "SotM 68"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Forbidden Knowledge",
         "Description": "Target does not make the next roll, instead automatically gets success equal to Ithaeur's Wisdom",
         "Cost": "●●●○",
         "Book": "SotM 68"
-    },
-    {
-        "Rank": "Wolfslayer",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Wolfslayer",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Form Lock",
         "Description": "Make it harder for a werewolf to shapeshift",
         "Cost": "●",
         "Book": "WAtP 48"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Patronless Pack",
         "Description": "Temporarily remove Totem benefits for a pack",
         "Cost": "●",
         "Book": "WAtP 49"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Return to Birth",
         "Description": "Force a werewolf into human form",
         "Cost": "●",
         "Book": "WAtP 49"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Human Health",
         "Description": "Remove werewolf regeneration",
         "Cost": "●",
         "Book": "WAtP 49"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Object of Piercing Clarity",
         "Description": "Witnesses view target as if they had +4 Willpower for purposes of Lunacy",
         "Cost": "●",
         "Book": "WAtP 50"
-    },
-    {
-        "Rank": "Wound",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Wound",
         "Description": "",
         "Cost": "",
         "Book": ""
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Wound-Born",
         "Description": "The Bale Hound becomes immune to the foul resonance emanating out from a Wound. He no longer suffers the penalties of entering and interacting within Wounds",
         "Cost": "-",
         "Book": "Blas 139"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Lord of the Wounds",
         "Description": "To Wound-born spirits, the Bale Hound now appears as one of the Maeltinet. Any Bale Hound with this Gift adds a +2 bonus on all rolls to bargain, bribe or command spirits",
         "Cost": "●",
         "Book": "Blas 140"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Blessing of Pain",
         "Description": "The target is suddenly wracked with sickness, and suffers all the penalties of entering a Wound. The effects last for one turn per success on the roll",
         "Cost": "●",
         "Book": "Blas 140"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Siphon Suffering",
         "Description": "The target is struck by powerful feelings of apathy and lethargy. The Bale Hound gains a point of Essence, and the human suffers a –1 to all dice rolls until she next sleeps and recovers with rest.",
         "Cost": "-",
         "Book": "Blas 140"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Communion With the Wounds",
         "Description": "The character immediately gains full knowledge of all Wounds within a 5-mile radius, their proximity to loci, the number of spirits around the areas, the name of the Maeltinet present within each (if any) and general terrain features. When in the area of one of the Wounds he has seen, the Bale Hound gains a +2 to Defense and Initiative",
         "Cost": "●",
         "Book": "Blas 140"
-    },
-    {
-        "Rank": "Urban",
-        "Name": "",
+      },
+      {
+        "Rank": "N/A",
+        "Name": "Urban",
         "Description": "",
         "Cost": "",
         "Book": "Iron Masters"
-    },
-    {
+      },
+      {
         "Rank": "•",
         "Name": "Concrete Bolt-Hole",
         "Description": "Secure a minor hiding place in the city, adding a +2 to Stealth rolls.",
         "Cost": "●",
         "Book": "BotW 62"
-    },
-    {
+      },
+      {
         "Rank": "••",
         "Name": "Foot In The Door",
         "Description": "Gain access over the phone to an expert or contact necessary for one's needs.",
         "Cost": "●",
         "Book": "BotW 62"
-    },
-    {
+      },
+      {
         "Rank": "•••",
         "Name": "Windfall",
         "Description": "Receive a bounty from the city that must be returned once its necessity is expired.",
         "Cost": "●○",
         "Book": "BotW 63"
-    },
-    {
+      },
+      {
         "Rank": "••••",
         "Name": "Urban Awareness",
         "Description": "Gain total awareness of what happens in an urban area.",
         "Cost": "●",
         "Book": "BotW 64"
-    },
-    {
+      },
+      {
         "Rank": "•••••",
         "Name": "Vermin Riot",
         "Description": "Call up the vermin of the city to attack a target (-2 to any Skill, -2 to Speed, 1 bashing damage per turn)",
         "Cost": "●",
         "Book": "BotW 65"
-    }
+      }
+]
+
+export const milestoneGifts = [
+        {
+            "Name": "Backstage Synchronicity",
+            "Prequisites": "",
+            "Book": "Tribes of the Moon 149"
+        },
+        {
+            "Name": "Destoyer’s Jaws, The",
+            "Prequisites": "",
+            "Book": "Tribes of the Moon 46"
+        },
+        {
+            "Name": "Eyes of Death Wolf",
+            "Prequisites": "",
+            "Book": "Tribes of the Moon 78"
+        },
+        {
+            "Name": "Hunter’s Bounty, The",
+            "Prequisites": "",
+            "Book": "Tribes of the Moon 112"
+        },
+        {
+            "Name": "Storm’s Whisper",
+            "Prequisites": "",
+            "Book": "Tribes of the Moon 183"
+        },
+        {
+            "Name": "Thief of Shadows",
+            "Prequisites": "Cunning 5",
+            "Book": "Signs of the Moon 34"
+        },
+        {
+            "Name": "Words of Power",
+            "Prequisites": "Wisdom 5, Harmony 7",
+            "Book": "Signs of the Moon 69"
+        },
+        {
+            "Name": "Absolute Authority",
+            "Prequisites": "Honor 5, Harmony 7",
+            "Book": "Signs of the Moon 104"
+        },
+        {
+            "Name": "Songs of Uplifting Glory",
+            "Prequisites": "Glory 5",
+            "Book": "Signs of the Moon 144"
+        },
+        {
+            "Name": "Luna's Gaze",
+            "Prequisites": "Purity 5, Harmony 7",
+            "Book": "Signs of the Moon 180"
+        }
 ]

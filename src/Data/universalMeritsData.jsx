@@ -1,6 +1,6 @@
 const uniMeritsMentalData = [
     {
-        "Title": "Architectural Attunement",
+        "Name": "Architectural Attunement",
         "Rating": "••••",
         "Prerequisites": "Wits ••, Academics ••, Occult •, Occult Specialty: Sacred Geometry or Mystic Architecture",
         "Description": "Perceive mystical resonance in a specific city",
@@ -13,7 +13,7 @@ const uniMeritsMentalData = [
         "Book": "CWork 36",
     },
     {
-        "Title": "Area of Expertise",
+        "Name": "Area of Expertise",
         "Rating": "••",
         "Prerequisites": "Resolve •• and a Specialty in the appropriate Mental Skill",
         "Description": "Increase a Mental Specialty to +2",
@@ -25,7 +25,7 @@ const uniMeritsMentalData = [
         "Book": "FC 131"
     },
     {
-        "Title": "Barrister",
+        "Name": "Barrister",
         "Rating": "••••",
         "Prerequisites": "Politics •••",
         "Description": "Can safely gauge how far Old Laws can be pushed	",
@@ -41,7 +41,7 @@ const uniMeritsMentalData = [
         "Book": "BotD 91"
     },
     {
-        "Title": "Combat Awareness",
+        "Name": "Combat Awareness",
         "Rating": "•",
         "Prerequisites": "Military training or combat background.",
         "Description": "+2 to any situational awareness roll",
@@ -51,7 +51,7 @@ const uniMeritsMentalData = [
         "Book": "DoW 109",
     },
     {
-        "Title": "Common Sense",
+        "Name": "Common Sense",
         "Rating": "••••",
         "Prerequisites": "",
         "Description": "Gives significant cautions or ideas",
@@ -63,7 +63,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 108",
     },
     {
-        "Title": "Crafter’s Sense",
+        "Name": "Crafter’s Sense",
         "Rating": "•••",
         "Prerequisites": "Craft ••• and a Specialty",
         "Description": "",
@@ -75,7 +75,7 @@ const uniMeritsMentalData = [
         "Book": "FC 131",
     },
     {
-        "Title": "Cultural Language",
+        "Name": "Cultural Language",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "A cant or argot variant of a language, which penalizes attempts by outsiders to interpret by -2.",
@@ -86,7 +86,7 @@ const uniMeritsMentalData = [
         "Book": "Imm 82",
     },
     {
-        "Title": "Danger Sense",
+        "Name": "Danger Sense",
         "Rating": "••",
         "Prerequisites": "",
         "Description": "+2 to detect ambush",
@@ -97,7 +97,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 108",
     },
     {
-        "Title": "Dead Reckoning",
+        "Name": "Dead Reckoning",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Gains 8-again when navigating in the Underworld; loses 10-again navigating above ground.",
@@ -108,7 +108,7 @@ const uniMeritsMentalData = [
         "Book": "BotD 91",
     },
     {
-        "Title": "Eidetic Memory",
+        "Name": "Eidetic Memory",
         "Rating": "••",
         "Prerequisites": "",
         "Description": "Remember with ease, gain +2 to Intelligence + Composure to remember facts from large swaths of data",
@@ -119,7 +119,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 108",
     },
     {
-        "Title": "Emotional Detachment",
+        "Name": "Emotional Detachment",
         "Rating": "•",
         "Prerequisites": "Resolve ••",
         "Description": "Ignores stress penalties equal to Resolve",
@@ -129,7 +129,7 @@ const uniMeritsMentalData = [
         "Book": "Asy 50",
     },
     {
-        "Title": "Encyclopedic Knowledge",
+        "Name": "Encyclopedic Knowledge",
         "Rating": "••••",
         "Prerequisites": "",
         "Description": "Know obscure facts choose a topic and can make Intelligence + Wits rolls to gain facts related to it at any time",
@@ -145,7 +145,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 109",
     },
     {
-        "Title": "EOD",
+        "Name": "EOD",
         "Rating": "••••",
         "Prerequisites": "Wits ••• or Dexterity •••, Crafts •••, Demolitions Specialty in Crafts",
         "Description": "Reduce penalty for disarming unfamiliar explosives",
@@ -155,7 +155,7 @@ const uniMeritsMentalData = [
         "Book": "Arm 208",
     },
     {
-        "Title": "Entheogenic Synesthesia",
+        "Name": "Entheogenic Synesthesia",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "+1 to Perception when using psychoactive drugs",
@@ -165,7 +165,7 @@ const uniMeritsMentalData = [
         "Book": "MT 137",
     },
     {
-        "Title": "Good Time Management",
+        "Name": "Good Time Management",
         "Rating": "••",
         "Prerequisites": "Academics, Medicine or Science ••",
         "Description": "Cut time for non-magical extended rolls by ¼",
@@ -177,7 +177,7 @@ const uniMeritsMentalData = [
         "Book": "Asy 50, Rel 84",
     },
     {
-        "Title": "Higher Calling",
+        "Name": "Higher Calling",
         "Rating": "••",
         "Prerequisites": "Resolve •••",
         "Description": "+1 on Resolve rolls to resist coercion",
@@ -188,7 +188,7 @@ const uniMeritsMentalData = [
         "Book": "TotW 125",
     },
     {
-        "Title": "Holistic Awareness",
+        "Name": "Holistic Awareness",
         "Rating": "•••",
         "Prerequisites": "",
         "Description": "Help others heal faster",
@@ -205,7 +205,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 109",
     },
     {
-        "Title": "Hypnotic Voice",
+        "Name": "Hypnotic Voice",
         "Rating": "••••",
         "Prerequisites": "Persuasion ••• or Science ••• (with a Specialty in Hypnotherapy or a related field)",
         "Description": "",
@@ -249,7 +249,7 @@ const uniMeritsMentalData = [
         "Book": "SS 66",
     },
     {
-        "Title": "Hypnosis Merit",
+        "Name": "Hypnosis Merit",
         "Rating": "•••",
         "Prerequisites": "Medicine • or Occult •",
         "Description": "Hypnotize subjects",
@@ -259,7 +259,7 @@ const uniMeritsMentalData = [
         "Book": "VII 149",
     },
     {
-        "Title": "Informative",
+        "Name": "Informative",
         "Rating": "•• or ••••",
         "Prerequisites": "Wits •• and •• in the appropriate Skill",
         "Description": "Use specified Skill in place of Expression",
@@ -270,7 +270,7 @@ const uniMeritsMentalData = [
         "Book": "FC 131",
     },
     {
-        "Title": "Interdisciplinary Specialty",
+        "Name": "Interdisciplinary Specialty",
         "Rating": "•",
         "Prerequisites": "••• in two Skills and a Specialty",
         "Description": "Share Specialty between two Skills",
@@ -282,7 +282,7 @@ const uniMeritsMentalData = [
         "Book": "FC 132",
     },
     {
-        "Title": "Language",
+        "Name": "Language",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Speak another language",
@@ -293,7 +293,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 109, errata",
     },
     {
-        "Title": "Lucid Dreamer",
+        "Name": "Lucid Dreamer",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Fight off intrusions into dreams",
@@ -304,7 +304,7 @@ const uniMeritsMentalData = [
         "Book": "SS 67",
     },
     {
-        "Title": "Lucid Dreaming",
+        "Name": "Lucid Dreaming",
         "Rating": "••",
         "Prerequisites": "Non-changeling, Resolve ••• or higher",
         "Description": "Control dream environment and engage intruders in dream combat",
@@ -315,7 +315,7 @@ const uniMeritsMentalData = [
         "Book": "CTL 195",
     },
     {
-        "Title": "Make Do",
+        "Name": "Make Do",
         "Rating": "• to •••",
         "Prerequisites": "Wits ••• and • in the appropriate Skill",
         "Description": "Remove -1/dot penalty for shoddy tools",
@@ -326,7 +326,7 @@ const uniMeritsMentalData = [
         "Book": "FC 132",
     },
     {
-        "Title": "Meditative Mind",
+        "Name": "Meditative Mind",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "No penalties to meditate",
@@ -336,7 +336,7 @@ const uniMeritsMentalData = [
         "Book": "WoD 109",
     },
     {
-        "Title": "Multi-Lingual",
+        "Name": "Multi-Lingual",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "2 languages per dot, conversationally",
@@ -348,7 +348,7 @@ const uniMeritsMentalData = [
         "Book": "Rel 85",
     },
     {
-        "Title": "Mythologist",
+        "Name": "Mythologist",
         "Rating": "•••",
         "Prerequisites": "Occult •• with a specialty in “Underworld Lore” or similar",
         "Description": "Gains some insight into some of the Underworld's enigmas",
@@ -359,7 +359,7 @@ const uniMeritsMentalData = [
         "Book": "BotD 91",
     },
     {
-        "Title": "Psychic Resistance",
+        "Name": "Psychic Resistance",
         "Rating": "• to •••",
         "Prerequisites": "",
         "Description": "Inhibit mental alteration by psychics",
@@ -370,7 +370,7 @@ const uniMeritsMentalData = [
         "Book": "SS 67",
     },
     {
-        "Title": "Rational Explanation",
+        "Name": "Rational Explanation",
         "Rating": "	••••",
         "Prerequisites": "Resolve •• and Science or Academics ••••",
         "Description": "Resist mental breakdown with Science or Academics",
@@ -382,7 +382,7 @@ const uniMeritsMentalData = [
         "Book": "FC 133",
     },
     {
-        "Title": "Scientist's Sense",
+        "Name": "Scientist's Sense",
         "Rating": "•••",
         "Prerequisites": "Science ••• and a Specialty",
         "Description": "Common Sense related to Science",
@@ -394,7 +394,7 @@ const uniMeritsMentalData = [
         "Book": "FC 133",
     },
     {
-        "Title": "Supernatural Lore",
+        "Name": "Supernatural Lore",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Know the ways of a particular type of supernatural being. May be purchased separately for multiple types.",
@@ -412,7 +412,7 @@ const uniMeritsMentalData = [
         "Book": "GotU 15",
     },
     {
-        "Title": "Technophile",
+        "Name": "Technophile",
         "Rating": "• or ••",
         "Prerequisites": "",
         "Description": "Encyclopedic Knowledge in one topic",
@@ -424,7 +424,7 @@ const uniMeritsMentalData = [
         "Book": "Arm 208",
     },
     {
-        "Title": "Trained Memory",
+        "Name": "Trained Memory",
         "Rating": "•",
         "Prerequisites": "Composure ••, Investigation • ",
         "Description": "Memorize information perfectly; roll to memorize for entire scene (i.e. everything a character could sense in a given moment) instead of specific information or sensory input",
@@ -435,7 +435,7 @@ const uniMeritsMentalData = [
         "Book": "GotV 46",
     },
     {
-        "Title": "Trained Observer",
+        "Name": "Trained Observer",
         "Rating": "• or •••",
         "Prerequisites": "Wits ••• or Composure •••",
         "Description": "Ignore penalties or gain Rote quality on Perception rolls",
@@ -446,7 +446,7 @@ const uniMeritsMentalData = [
         "Book": "DoW 38",
     },
     {
-        "Title": "Tunnel Rat",
+        "Name": "Tunnel Rat",
         "Rating": "• to •••",
         "Prerequisites": "",
         "Description": "Navigate the Chicago Undercity tunnels, ignoring penalties equal to dots in this Merit",
@@ -459,7 +459,7 @@ const uniMeritsMentalData = [
         "Book": "Chi 54",
     },
     {
-        "Title": "Vision",
+        "Name": "Vision",
         "Rating": "• to •••••",
         "Prerequisites": "Intelligence, Wits, Resolve or Composure ••••",
         "Description": "Use successes on Vision+Skill roll to aid an Extended Action",
@@ -473,7 +473,7 @@ const uniMeritsMentalData = [
         "Book": "FC 133",
     },
     {
-        "Title": "Well-Traveled",
+        "Name": "Well-Traveled",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "9-Again on Mental and Social rolls relating to foreign cultures	",
@@ -483,7 +483,7 @@ const uniMeritsMentalData = [
         "Book": "Rel 85",
     },
     {
-        "Title": "Whispers",
+        "Name": "Whispers",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Can purchase Dream and use it as Instant Action, at the cost of sanity	",
@@ -497,7 +497,7 @@ const uniMeritsMentalData = [
 
 const uniMeritsPhysicalData = [
     {
-        "Title": "Ambidextrous",
+        "Name": "Ambidextrous",
         "Rating": "•••",
         "Prerequisites": "",
         "Description": "Remove off-hand penalty",
@@ -508,7 +508,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 110",
     },
     {
-        "Title": "Armored Fighting",
+        "Name": "Armored Fighting",
         "Rating": "•• or ••••",
         "Prerequisites": "Strength •••, Stamina •••",
         "Description": "Reduce heavy armor penalties by 1 (••) or 2 (••••)",
@@ -519,7 +519,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 84",
     },
     {
-        "Title": "Athletics Dodge",
+        "Name": "Athletics Dodge",
         "Rating": "•",
         "Prerequisites": "Dexterity •• and Athletics •",
         "Description": "Add Athletics rather than doubling Defense on Dodge",
@@ -531,7 +531,7 @@ const uniMeritsPhysicalData = [
         "Book": "DoW 38",
     },
     {
-        "Title": "Brawling Dodge",
+        "Name": "Brawling Dodge",
         "Rating": "•",
         "Prerequisites": "Strength •• and Brawl •",
         "Description": "Add Brawl rather than doubling Defense on Dodge	WoD 110 Demolisher	• to ••	Strength or Intelligence •••",
@@ -543,7 +543,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 110",
     },
     {
-        "Title": "Demolisher",
+        "Name": "Demolisher",
         "Rating": "• to ••",
         "Prerequisites": "Strength ••• or Intelligence •••",
         "Description": "	Can ignore 1 (•) or 2 (••) points of Durability when attempting to damage objects",
@@ -554,7 +554,7 @@ const uniMeritsPhysicalData = [
     },
 
     {
-        "Title": "Disarm",
+        "Name": "Disarm",
         "Rating": "••",
         "Prerequisites": "Dexterity ••• and Weaponry ••",
         "Description": "Can disarm if damage exceeds Dexterity",
@@ -565,7 +565,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 110",
     },
     {
-        "Title": "Direction Sense",
+        "Name": "Direction Sense",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Unfailing orientation",
@@ -575,7 +575,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 110",
     },
     {
-        "Title": "Entering Strike",
+        "Name": "Entering Strike",
         "Rating": "••",
         "Prerequisites": "Dexterity ••, Brawl •••",
         "Description": "Successful, defenseless Brawl strike adds damage as bonus to subsequent grappling attack",
@@ -586,7 +586,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 72",
     },
     {
-        "Title": "Equipped Grappling",
+        "Name": "Equipped Grappling",
         "Rating": "••",
         "Prerequisites": "Dexterity •••, Brawl ••, Weaponry ••",
         "Description": "Add size of blunt weapon (3 or less) to overpowering maneuver dice pool",
@@ -597,7 +597,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 89",
     },
     {
-        "Title": "Fast Reflexes",
+        "Name": "Fast Reflexes",
         "Rating": "• or ••",
         "Prerequisites": "Dexterity •••",
         "Description": "+1/dot to Initiative",
@@ -608,7 +608,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 110",
     },
     {
-        "Title": "Fighting Finesse",
+        "Name": "Fighting Finesse",
         "Rating": "••",
         "Prerequisites": "Dexterity ••• and Weaponry ••",
         "Description": "Substitute Dexterity for Strength with chosen weapon",
@@ -619,7 +619,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 110",
     },
     {
-        "Title": "Firearms Retention",
+        "Name": "Firearms Retention",
         "Rating": "•",
         "Prerequisites": "Dexterity ••, Wits ••, Brawl ••, Firearms ••",
         "Description": "Subtract Brawl dots from attempts to disarm by overpowering",
@@ -630,7 +630,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 89",
     },
     {
-        "Title": "Fleet of Foot",
+        "Name": "Fleet of Foot",
         "Rating": "• to •••",
         "Prerequisites": "Strength ••",
         "Description": "+1/dot to Speed",
@@ -641,7 +641,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 112",
     },
     {
-        "Title": "Fresh Start",
+        "Name": "Fresh Start",
         "Rating": "•",
         "Prerequisites": "Fast Reflexes ••",
         "Description": "Delay action into next round",
@@ -652,7 +652,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 112",
     },
     {
-        "Title": "Giant",
+        "Name": "Giant",
         "Rating": "••••",
         "Prerequisites": "",
         "Description": "+1 Size",
@@ -664,7 +664,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 112",
     },
     {
-        "Title": "Ground and Pound",
+        "Name": "Ground and Pound",
         "Rating": "••",
         "Prerequisites": "Combination Blows Fighting Style Maneuver (Boxing or Aggressive Striking •••), Take-down/Throw Fighting Style Maneuver (Grappling ••)",
         "Description": "Perform Takedown/Throw, gain +2 to following unarmed strike",
@@ -674,7 +674,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 98",
     },
     {
-        "Title": "Gunslinger",
+        "Name": "Gunslinger",
         "Rating": "•••",
         "Prerequisites": "Dexterity ••• and Firearms •••",
         "Description": "Two gun attacks per round",
@@ -686,7 +686,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 112",
     },
     {
-        "Title": "Heavy Hands",
+        "Name": "Heavy Hands",
         "Rating": "•••",
         "Prerequisites": "Strength •••, Brawl ••",
         "Description": "+1 damage to unarmed strikes",
@@ -697,7 +697,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 98",
     },
     {
-        "Title": "Iron Stamina",
+        "Name": "Iron Stamina",
         "Rating": "• to •••",
         "Prerequisites": "Stamina ••• or Resolve •••",
         "Description": "Negate fatigue/injury penalties",
@@ -709,7 +709,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 112",
     },
     {
-        "Title": "Natural Immunity",
+        "Name": "Natural Immunity",
         "Rating": "•",
         "Prerequisites": "Stamina ••",
         "Description": "+2 on Stamina rolls to resist illness",
@@ -719,7 +719,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113",
     },
     {
-        "Title": "Outdoorsman",
+        "Name": "Outdoorsman",
         "Rating": "••",
         "Prerequisites": "Survival •••",
         "Description": "",
@@ -730,7 +730,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Perfect Stillness",
+        "Name": "Perfect Stillness",
         "Rating": "•",
         "Prerequisites": "Stealth •",
         "Description": "-2 to all rolls to visually detect character",
@@ -741,7 +741,7 @@ const uniMeritsPhysicalData = [
         "Book": "RoS 94"
     },
     {
-        "Title": "Quick Draw",
+        "Name": "Quick Draw",
         "Rating": "•",
         "Prerequisites": "Dexterity •••",
         "Description": "Draw weapon reflexively",
@@ -751,7 +751,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Quick Healer",
+        "Name": "Quick Healer",
         "Rating": "••••",
         "Prerequisites": "Stamina ••••",
         "Description": "Heal twice as fast",
@@ -762,7 +762,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Shield-Bearer",
+        "Name": "Shield-Bearer",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Only -1 to attack when using a shield instead of -2",
@@ -773,7 +773,7 @@ const uniMeritsPhysicalData = [
         "Book": "WAtP 89"
     },
     {
-        "Title": "Steady Driver",
+        "Name": "Steady Driver",
         "Rating": "•",
         "Prerequisites": "Drive ••",
         "Description": "Substitute Resolve for Dexterity on Drive rolls",
@@ -783,7 +783,7 @@ const uniMeritsPhysicalData = [
         "Book": "MR 59"
     },
     {
-        "Title": "Strong Back",
+        "Name": "Strong Back",
         "Rating": "•",
         "Prerequisites": "Strength ••",
         "Description": "+1 to lift or carry",
@@ -793,7 +793,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Strong Lungs",
+        "Name": "Strong Lungs",
         "Rating": "•••",
         "Prerequisites": "Athletics •••",
         "Description": "+2 on Stamina rolls to hold breath",
@@ -804,7 +804,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Student of the Blade",
+        "Name": "Student of the Blade",
         "Rating": "•",
         "Prerequisites": "Fighting Style: Fencing (Aggressive Light Sword) or Iaido (Defensive Light Sword) •",
         "Description": "May use Fighting Style with all Size 2 blades.",
@@ -814,7 +814,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 66"
     },
     {
-        "Title": "Stunt Driver",
+        "Name": "Stunt Driver",
         "Rating": "•••",
         "Prerequisites": "Dexterity •••",
         "Description": "Drive and carry out another action",
@@ -824,7 +824,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Stunt Rider",
+        "Name": "Stunt Rider",
         "Rating": "•••",
         "Prerequisites": "Dexterity •••",
         "Description": "Ride and carry out another action",
@@ -834,7 +834,7 @@ const uniMeritsPhysicalData = [
         "Book": "RfR 110"
     },
     {
-        "Title": "The Weapon at Hand",
+        "Name": "The Weapon at Hand",
         "Rating": "••",
         "Prerequisites": "Fighting Style: Krav Maga (Defensive Striking) ••",
         "Description": "Reflexive Wits + Weaponry roll for improvised weapon, instant action to wield, no penalty for being improvised",
@@ -846,7 +846,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 79"
     },
     {
-        "Title": "Tolerance for Biology",
+        "Name": "Tolerance for Biology",
         "Rating": "•",
         "Prerequisites": "Resolve, Stamina or Composure ••",
         "Description": "+2 to keep composed when shown scenes of violence or carnage",
@@ -858,7 +858,7 @@ const uniMeritsPhysicalData = [
         "Book": "Asy 51",
     },
     {
-        "Title": "Toxin Resistance",
+        "Name": "Toxin Resistance",
         "Rating": "••",
         "Prerequisites": "Stamina •••",
         "Description": "+2 on Stamina rolls to resist toxins",
@@ -869,7 +869,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 113"
     },
     {
-        "Title": "Weaponry Dodge",
+        "Name": "Weaponry Dodge",
         "Rating": "•",
         "Prerequisites": "Strength •• and Weaponry •",
         "Description": "Add Weaponry rather than doubling Defense on Dodge",
@@ -881,7 +881,7 @@ const uniMeritsPhysicalData = [
         "Book": "WoD 114"
     },
     {
-        "Title": "Weapons to Empty Hands",
+        "Name": "Weapons to Empty Hands",
         "Rating": "••",
         "Prerequisites": "Dexterity •••, Brawl •••,Weaponry •••, Fighting Style Merit •••• (and see description)",
         "Description": "Use Brawl instead of Weaponry for maneuver-related attacks.",
@@ -892,7 +892,7 @@ const uniMeritsPhysicalData = [
         "Book": "Reload 66"
     },
     {
-        "Title": "Wheelman",
+        "Name": "Wheelman",
         "Rating": "••",
         "Prerequisites": "Dexterity 2, Drive 2",
         "Description": "Gain 9-Again on Drive rolls",
@@ -907,7 +907,7 @@ const uniMeritsPhysicalData = [
 
 const uniMeritsSocialData = [
     {
-        "Title": "Allies",
+        "Name": "Allies",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "	Call upon favors from an individual, group or organization with influence and resources proportional to dots in this Merit",
@@ -923,7 +923,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 114"
     },
     {
-        "Title": "Alternate Identity",
+        "Name": "Alternate Identity",
         "Rating": "•, •• or ••••",
         "Prerequisites": "",
         "Description": "A false legal identity which can pass increasing levels of scrutiny, but degrades without maintenance.",
@@ -940,7 +940,7 @@ const uniMeritsSocialData = [
         "Book": "Imm 110"
     },
     {
-        "Title": "Animal Companion",
+        "Name": "Animal Companion",
         "Rating": "• to ••••",
         "Prerequisites": "",
         "Description": "Loyal animal partner with intelligence and capability proportional to dots in this Merit",
@@ -955,7 +955,7 @@ const uniMeritsSocialData = [
         "Book": "CB 95"
     },
     {
-        "Title": "Anonymity",
+        "Name": "Anonymity",
         "Rating": "•• to ••••",
         "Prerequisites": "Resolve •• and Larceny •• or Subterfuge ••",
         "Description": "-1/dot to attempts to investigate character",
@@ -968,7 +968,7 @@ const uniMeritsSocialData = [
         "Book": "BotW 46"
     },
     {
-        "Title": "Armory",
+        "Name": "Armory",
         "Rating": "• to •••••",
         "Prerequisites": "Resources •••",
         "Description": "Own an array of weapons and armor. May be shared among multiple characters",
@@ -984,7 +984,7 @@ const uniMeritsSocialData = [
         "Book": "Ban 51"
     },
     {
-        "Title": "Barfly",
+        "Name": "Barfly",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "Find ways into bars and clubs",
@@ -994,7 +994,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 114"
     },
     {
-        "Title": "Bureaucratic Navigator",
+        "Name": "Bureaucratic Navigator",
         "Rating": "••",
         "Prerequisites": "",
         "Description": "+2 to navigate a bureaucratic system",
@@ -1004,7 +1004,7 @@ const uniMeritsSocialData = [
         "Book": "Asy 51"
     },
     {
-        "Title": "Contacts",
+        "Name": "Contacts",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Access to information through a particular individual, group or organization. Depth of shared information is proportional to dots in this Merit",
@@ -1021,7 +1021,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 115"
     },
     {
-        "Title": "Decorated",
+        "Name": "Decorated",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Formal awards for meritorious conduct from the military or a comparable organization",
@@ -1035,7 +1035,7 @@ const uniMeritsSocialData = [
         "Book": "DoW 39"
     },
     {
-        "Title": "Deep Rapport",
+        "Name": "Deep Rapport",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Strong beneficial or harmful relationship with another character",
@@ -1047,7 +1047,7 @@ const uniMeritsSocialData = [
         "Book": "BbBB 9"
     },
     {
-        "Title": "Fame",
+        "Name": "Fame",
         "Rating": "• to •••",
         "Prerequisites": "",
         "Description": "Mortal acclaim, +1/dot to Socialize",
@@ -1059,7 +1059,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 115"
     },
     {
-        "Title": "Fence",
+        "Name": "Fence",
         "Rating": "• or •••",
         "Prerequisites": "Streetwise •••",
         "Description": "Always find a way to buy and sell stolen goods",
@@ -1070,7 +1070,7 @@ const uniMeritsSocialData = [
         "Book": "Ban 51"
     },
     {
-        "Title": "Friend",
+        "Name": "Friend",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "The aid of a friend, ally or peer. Distribute dots in this Merit between the Friend's Power (comparable to yours at •••) and level of Trust with you",
@@ -1081,7 +1081,7 @@ const uniMeritsSocialData = [
         "Book": "RCG 68"
     },
     {
-        "Title": "Ingratiating Wanderer",
+        "Name": "Ingratiating Wanderer",
         "Rating": "••",
         "Prerequisites": "Manipulation 3",
         "Description": "Gain bonus to locate authority figures in local power structures",
@@ -1092,7 +1092,7 @@ const uniMeritsSocialData = [
         "Book": "MR 58"
     },
     {
-        "Title": "Inspiring",
+        "Name": "Inspiring",
         "Rating": "••••",
         "Prerequisites": "Presence ••••",
         "Description": "Help others regain Willpower",
@@ -1103,7 +1103,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 115"
     },
     {
-        "Title": "Luxury",
+        "Name": "Luxury",
         "Rating": "•• or ••••",
         "Prerequisites": "",
         "Description": "Live a wealthy, comfortable lifestyle at the sufferance of a patron",
@@ -1116,7 +1116,7 @@ const uniMeritsSocialData = [
         "Book": "SotT 52"
     },
     {
-        "Title": "Mentor",
+        "Name": "Mentor",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Guidance and interference of an authority in a field, with capability and influence proportional to dots in this Merit",
@@ -1127,7 +1127,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 115"
     },
     {
-        "Title": "New Identity",
+        "Name": "New Identity",
         "Rating": "•, •• or ••••",
         "Prerequisites": "",
         "Description": "Establish a forged identity",
@@ -1139,7 +1139,7 @@ const uniMeritsSocialData = [
         "Book": "CTL 98"
     },
     {
-        "Title": "Resources",
+        "Name": "Resources",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Disposable monthly income ranging from $500 USD at • to $50,000 USD at •••••, with total assets ranging from several hundred GBP at • to millions of GBP at •••••.",
@@ -1151,7 +1151,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 115"
     },
     {
-        "Title": "Retainer",
+        "Name": "Retainer",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Loyal agent, employee or cohort with influence and capability proportional to dots in this Merit",
@@ -1165,7 +1165,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 116"
     },
     {
-        "Title": "Shadow Cult Initiation",
+        "Name": "Shadow Cult Initiation",
         "Rating": "• to •••••",
         "Prerequisites": "Mortals can only take one dot in this Merit. Ghouls can take up to two dots. Only Kindred can take the Merit at three or more dots.",
         "Description": "Membership in a cult, with unique benefits to each level of initiation",
@@ -1177,7 +1177,7 @@ const uniMeritsSocialData = [
         "Book": "Mekh 121"
     },
     {
-        "Title": "Small Unit Tactics",
+        "Name": "Small Unit Tactics",
         "Rating": "•••",
         "Prerequisites": "Manipulation ••• and Persuasion ••• with a Leadership Specialty",
         "Description": "When conducting a tactical maneuver with squad, leader can spend Willpower to benefit entire group",
@@ -1189,7 +1189,7 @@ const uniMeritsSocialData = [
         "Book": "DoW 39"
     },
     {
-        "Title": "Staff",
+        "Name": "Staff",
         "Rating": "• to •••••",
         "Prerequisites": "≤ Resources",
         "Description": "Employees or workers at a set venue, with manpower and expertise proportional to dots in this Merit",
@@ -1201,7 +1201,7 @@ const uniMeritsSocialData = [
         "Book": "Ghou 74"
     },
     {
-        "Title": "Status",
+        "Name": "Status",
         "Rating": "• to •••••",
         "Prerequisites": "Varies (see description)",
         "Description": "Authority and sway with a group or organization, to a depth proportional to dots in this Merit",
@@ -1225,7 +1225,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 116"
     },
     {
-        "Title": "Striking Looks",
+        "Name": "Striking Looks",
         "Rating": "•• or ••••",
         "Prerequisites": "",
         "Description": "Appearance adds +1/+2 to relevant Social rolls",
@@ -1238,7 +1238,7 @@ const uniMeritsSocialData = [
         "Book": "WoD 117"
     },
     {
-        "Title": "Support Network",
+        "Name": "Support Network",
         "Rating": "••",
         "Prerequisites": "Status •+ in the group",
         "Description": "A shared community complicit in dark deeds. While you remain in good standing, you may spend Willpower for bonus dice to resist gaining a derangement from the community's practices.",
@@ -1249,7 +1249,7 @@ const uniMeritsSocialData = [
         "Book": "Imm 82"
     },
     {
-        "Title": "Sworn Officer",
+        "Name": "Sworn Officer",
         "Rating": "• to ••••",
         "Prerequisites": "The character must meet the basic requirements to be an officer in the department she selects. See Tales from the 13th Precint p. 36 for the minimum requirements for an MPD officer.",
         "Description": "Empowerment as a law enforcement official, with scope of jurisdiction proportional to dots in this Merit",
@@ -1262,7 +1262,7 @@ const uniMeritsSocialData = [
         "Book": "13th 81"
     },
     {
-        "Title": "Trip Sitter",
+        "Name": "Trip Sitter",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "",
@@ -1272,7 +1272,7 @@ const uniMeritsSocialData = [
         "Book": ""
     },
     {
-        "Title": "Natural",
+        "Name": "Natural",
         "Rating": "•••",
         "Prerequisites": "Composure •••",
         "Description": "Help others resist side effects of drugs",
@@ -1282,7 +1282,7 @@ const uniMeritsSocialData = [
         "Book": "MT 137"
     },
     {
-        "Title": "Unobtrusive",
+        "Name": "Unobtrusive",
         "Rating": "•••",
         "Prerequisites": "Stealth ••",
         "Description": "+2 to escape notice while casing a target under cover of some mundane activity. +1 to Resolve to resist The Forgetful Mind (Dominate •••)",
@@ -1297,7 +1297,7 @@ const uniMeritsSocialData = [
 
 const uniMeritsSupernaturalData = [
     {
-        "Title": "Cursed Item",
+        "Name": "Cursed Item",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Possess a cursed item, which may be invoked for a benefit and a paired drawback",
@@ -1307,7 +1307,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 108"
     },
     {
-        "Title": "Difficult to Ride",
+        "Name": "Difficult to Ride",
         "Rating": "••••",
         "Prerequisites": "Composure and Resolve •••",
         "Description": "+2 to resist the control or influence of ghosts and spirits",
@@ -1318,7 +1318,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 108"
     },
     {
-        "Title": "Driver's Charm",
+        "Name": "Driver's Charm",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Grant a chosen vehicle bonuses for a scene per day",
@@ -1330,7 +1330,7 @@ const uniMeritsSupernaturalData = [
         "Book": "MR 56"
     },
     {
-        "Title": "Easy Ride",
+        "Name": "Easy Ride",
         "Rating": "••",
         "Prerequisites": "Wits •••",
         "Description": "You can welcome a possessing spirit in, remaining alert while ridden",
@@ -1342,7 +1342,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 108"
     },
     {
-        "Title": "Hollow Soul",
+        "Name": "Hollow Soul",
         "Rating": "••",
         "Prerequisites": "Easy Ride",
         "Description": "You can welcome even spirits without the Possession Numen",
@@ -1353,7 +1353,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 109"
     },
     {
-        "Title": "Locus-Drinker",
+        "Name": "Locus-Drinker",
         "Rating": "•••",
         "Prerequisites": "Mortal (non-supernatural)",
         "Description": "You can welcome even spirits without the Possession Numen",
@@ -1364,7 +1364,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 109"
     },
     {
-        "Title": "Pleasing Aura",
+        "Name": "Pleasing Aura",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "+1 to Persuasion and Socialize rolls against spirits, often surrounded by spirit activity",
@@ -1374,7 +1374,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 109"
     },
     {
-        "Title": "Relic",
+        "Name": "Relic",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Possess a mystic relic",
@@ -1390,7 +1390,7 @@ const uniMeritsSupernaturalData = [
         "Book": "Rel 85"
     },
     {
-        "Title": "Relic Analyst",
+        "Name": "Relic Analyst",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "+1 to determine how to use a relic, or whether it is cursed",
@@ -1400,7 +1400,7 @@ const uniMeritsSupernaturalData = [
         "Book": "Rel 86"
     },
     {
-        "Title": "Relic Creator",
+        "Name": "Relic Creator",
         "Rating": "••••",
         "Prerequisites": "Occult 2, Crafts 2",
         "Description": "Create limited-use relics with an extended Resolve + Occult ritual, following the crafting itself",
@@ -1417,7 +1417,7 @@ const uniMeritsSupernaturalData = [
         "Book": "Rel 85"
     },
     {
-        "Title": "Residual Spirit Energy",
+        "Name": "Residual Spirit Energy",
         "Rating": "••",
         "Prerequisites": "Mortal (non-supernatural)",
         "Description": "+1 to Intimidation, abjury and exorcism against spirits, but -1 to Expression, Persuasion and Socialize against them",
@@ -1428,7 +1428,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 110"
     },
     {
-        "Title": "Saintly",
+        "Name": "Saintly",
         "Rating": "•••",
         "Prerequisites": "",
         "Description": "+1 to Intimidation, abjury and exorcism against spirits, but -1 to Expression, Persuasion and Socialize against them",
@@ -1440,7 +1440,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 110"
     },
     {
-        "Title": "Shadow Contacts",
+        "Name": "Shadow Contacts",
         "Rating": "••• to •••••",
         "Prerequisites": "",
         "Description": "You know how and where to ask questions of a mysterious entity, but it extracts a price for answers",
@@ -1454,7 +1454,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 110"
     },
     {
-        "Title": "Shadowless Chambers",
+        "Name": "Shadowless Chambers",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Take refuge in a place where spirits have difficulty following",
@@ -1465,7 +1465,7 @@ const uniMeritsSupernaturalData = [
         "Book": "BoS 110"
     },
     {
-        "Title": "Spirit Ear",
+        "Name": "Spirit Ear",
         "Rating": "•• to ••••",
         "Prerequisites": "Wits ••• or Composure •••",
         "Description": "+1 to Empathy and Subterfuge rolls to understand spirits speaking human tongues, ignoring penalties, or with four dots, roll Wits + Empathy -3 to understand the tongue of spirits",

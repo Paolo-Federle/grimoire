@@ -26,7 +26,7 @@ export function addLink(data, keyName, baseLink) {
         const keyValue = item[keyName];
         return {
             ...item,
-            link: `${baseLink}${keyValue.replace(/ /g, '_')}`,
+            link: `${baseLink}${slugify(keyValue)}`,
         };
     });
 }
@@ -40,4 +40,11 @@ export function rimuoviCampi(lista, campiDaRimuovere) {
         });
         return nuovoOggetto;
     });
+}
+
+export function slugify(text) {
+    return text
+        .toLowerCase()                       // convert to lowercase
+        .replace(/[^\w\s]/g, '')             // remove punctuation (non-word, non-space chars)
+        .replace(/\s+/g, '_');               // replace spaces with underscores
 }
