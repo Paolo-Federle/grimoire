@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 export default function UniversalMeritsDetail(props) {
     const location = useLocation();
     const matchedMerit = props.merits
-
+console.log('props.merits', props.merits)
 
     return (
         <div className='longTextContainer'>

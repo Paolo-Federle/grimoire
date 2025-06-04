@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
 import { uniMeritsMentalData, uniMeritsPhysicalData, uniMeritsSocialData, uniMeritsSupernaturalData } from '../../Data/universalMeritsData';
+import { slugify } from '../../utils';
 
 export default function UniversalMerits() {
 
@@ -17,7 +18,7 @@ export default function UniversalMerits() {
             });
 
             // Add link field
-            nuovoOggetto.link = `/universal_merits/${nuovoOggetto.Name.replace(/ /g, '_')}`;
+            nuovoOggetto.link = `/universal_merits/${slugify(nuovoOggetto.Name)}`;
 
             return nuovoOggetto;
         });
@@ -29,7 +30,7 @@ export default function UniversalMerits() {
             return {
                 [newFieldName]: Name,
                 ...rest,
-                link: `/universal_merits/${Name.replace(/ /g, '_')}`,
+                link: `/universal_merits/${slugify(Name)}`,
             };
         });
     }
@@ -39,7 +40,7 @@ export default function UniversalMerits() {
     const uniMeritsSocialCorrectedData = processMeritsData(rimuoviCampi(uniMeritsSocialData, ['LongDescription']), "Social Merits");
     const uniMeritsSupernaturalCorrectedData = processMeritsData(rimuoviCampi(uniMeritsSupernaturalData, ['LongDescription']), "Supernatural Merits");
 
-
+console.log('uniMeritsMentalCorrectedData', uniMeritsMentalCorrectedData)
     return (
         <div className='grid-container'>
             <SimpleTable table={uniMeritsMentalCorrectedData} activeRowLink={true}/>

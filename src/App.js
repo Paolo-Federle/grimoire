@@ -117,7 +117,6 @@ import TokenRules from './pages/Changeling/TokenRules';
 import SheetTest from './pages/Generale/SheetTest';
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./css/muiTheme";
-
 import { slugify } from './utils';
 
 function App() {
@@ -246,6 +245,12 @@ function App() {
             <Route path="/items" element={<Items />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/universal_merits" element={<UniversalMerits />} />
+            {generateRoutes({
+              basePath: "/universal_merits",
+              data: allUniMeritsData,
+              Component: UniversalMeritsDetail,
+              propKey: "merits"
+            })}
             <Route path="/traits" element={<Traits />} />
             <Route path="/derangements" element={<Derangements />} />
             {generateRoutes({
@@ -255,12 +260,7 @@ function App() {
               propKey: "derangement"
             })}
             <Route path="/lexycon" element={<Lexycon />} />
-            {generateRoutes({
-              basePath: "/universal_merit",
-              data: allUniMeritsData,
-              Component: UniversalMeritsDetail,
-              propKey: "merits"
-            })}
+            
 
             {/* Mortals */}
             <Route path="/mortal" element={<Mortal />} />
