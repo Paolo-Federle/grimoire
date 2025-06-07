@@ -600,7 +600,7 @@ const mageMeritsData = [
     },
     {
         "Title": "Status (Seers of the Throne)",
-        "Rating": "•",
+        "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Standing within the Seers, also allows increasing of Dream Merit. Having Dream and at least Status (•) requires taking of Flaw: Mystery Commands",
         "LongDescription": [
