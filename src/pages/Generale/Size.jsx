@@ -6,7 +6,7 @@ export default function Books(props) {
 
     return (
         <div className='grid-container'>
-            <SimpleTable title={'Size'} table={sizeData} activeRowLink={true} />
+            <SimpleTable title={'Size'} table={sizeData} activeRowLink={false} />
         </div>
     )
 }

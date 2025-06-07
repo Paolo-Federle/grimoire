@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
 import { mageMeritsData, mageMeritsOrderData, mageMeritsLegacyData } from '../../Data/Mage/mageMeritsData';
+import { slugify } from '../../utils';
 
 export default function MageMerits() {
 
@@ -19,13 +20,14 @@ export default function MageMerits() {
             });
 
             // aggiunge campo link, rimuovendo gli spazi
-            nuovoOggetto.link = `/mage/merits/${nuovoOggetto.Title.replace(/ /g, '_')}`;
+            nuovoOggetto.link = `/mage/merits/${slugify(nuovoOggetto.Title)}`;
 
 
             return nuovoOggetto;
         });
     }
 
+    
     const reducedMageMeritsData = rimuoviCampi(mageMeritsData, ['LongDescription']);
     const reducedMageMeritsOrderData = rimuoviCampi(mageMeritsOrderData, ['LongDescription']);
     const reducedMageMeritsLegacyData = rimuoviCampi(mageMeritsLegacyData, ['LongDescription']);
