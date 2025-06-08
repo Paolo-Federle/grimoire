@@ -7794,7 +7794,7 @@ const unclassifiedGoblinContractData = [
         "FullCost": "2 Glamour + 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Empathy",
-        "Book": "GobM p25"
+        "Book": "GobM 25"
     },
     {
         "Name": "Hospitality's Hold",
@@ -7824,7 +7824,7 @@ const unclassifiedGoblinContractData = [
         "FullCost": "1 Glamour per level of Enforcement",
         "Cost": "● to ●●●●●",
         "Dice Pool": "Willpower + Wyrd",
-        "Book": "GotU p29"
+        "Book": "GotU 29"
     },
     {
         "Name": "Mirror Mirror",

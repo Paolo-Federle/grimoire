@@ -1,6 +1,7 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
 import { LegacyData } from '../../Data/Mage/LegacyData';
+import { slugify } from '../../utils';
 
 
 export default function Legacy() {
@@ -21,12 +22,13 @@ export default function Legacy() {
             });
 
             // aggiunge campo link, rimuovendo gli spazi
-            nuovoOggetto.link = `/mage/legacy/${nuovoOggetto.Nome.replace(/ /g, '_')}`;
+            nuovoOggetto.link = `/mage/legacy/${slugify(nuovoOggetto.Nome)}`;
 
 
             return nuovoOggetto;
         });
     }
+
 
     const LegacyReducedData = rimuoviCampi(LegacyData, ['leftHanded', 'descrizione',
         'alternateNickname', 'orders', 'appearance', 'background', 'organizzation', 'suggestedOblations', 'concepts',

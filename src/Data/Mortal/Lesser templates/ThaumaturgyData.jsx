@@ -3,19 +3,19 @@ export const ThaumaturgyMeritsData = [
         "Name": "Dream",
         "Prerequisites": "(• to •••••)",
         "Description": "Gain vague insights from dreams",
-        "Book": "SS p106"
+        "Book": "SS 106"
     },
     {
         "Name": "Library",
         "Prerequisites": "(• to •••)",
         "Description": "Possess library of information on obscure occult topics",
-        "Book": "SS p113"
+        "Book": "SS 113"
     },
     {
         "Name": "Magical Nexus",
         "Prerequisites": "(• or ••)",
         "Description": "Possess a magical location that facilitates other rituals",
-        "Book": "SS p115"
+        "Book": "SS 115"
     },
     {
         "Name": "Rituals",
@@ -27,157 +27,157 @@ export const ThaumaturgyMeritsData = [
         "Name": "Alchemy (External)",
         "Prerequisites": "(•• or ••••) *pre: Occult •• or Science ••",
         "Description": "Transmute substances",
-        "Book": "SS p102"
+        "Book": "SS 102"
     },
     {
         "Name": "Alchemy (Internal)",
         "Prerequisites": "(•• to ••••) *pre: Occult •• or Medicine •",
         "Description": "Temporarily boost attributes",
-        "Book": "SS p103"
+        "Book": "SS 103"
     },
     {
         "Name": "Communion",
         "Prerequisites": "(•• or ••••)",
         "Description": "Divination via consultation with a higher being",
-        "Book": "SS p104"
+        "Book": "SS 104"
     },
     {
         "Name": "Countermagic",
         "Prerequisites": "(•• or ••••) *pre: Wits ••",
         "Description": "Detect and counter thaumaturgy.",
-        "Book": "SS p105"
+        "Book": "SS 105"
     },
     {
         "Name": "Curse of Ill Fortune",
         "Prerequisites": "(•••) *pre: Luck Magic, Persuasion •",
         "Description": "Penalize a target's actions",
-        "Book": "SS p106"
+        "Book": "SS 106"
     },
     {
         "Name": "Divination",
         "Prerequisites": "(•••)",
         "Description": "Perform divination up to 24 hours in the future.",
-        "Book": "SS p106"
+        "Book": "SS 106"
     },
     {
         "Name": "Dream Travel",
         "Prerequisites": "(•••) *pre: Visionary Trances",
         "Description": "Enter a subject's dreams.",
-        "Book": "SS p107"
+        "Book": "SS 107"
     },
     {
         "Name": "Enchantment",
         "Prerequisites": "(•• or ••••)",
         "Description": "Instill an emotion in a subject",
-        "Book": "SS p107"
+        "Book": "SS 107"
     },
     {
         "Name": "Evocation",
         "Prerequisites": "(•• or ••••)",
         "Description": "Summon (and command with ••••) a ghost or spirit",
-        "Book": "SS p108"
+        "Book": "SS 108"
     },
     {
         "Name": "Familiar",
         "Prerequisites": "(••• or ••••) *pre: Visionary Trances, Communion, or Enchantment ••••",
         "Description": "Gain a companion spirit or animal companion",
-        "Book": "SS p109"
+        "Book": "SS 109"
     },
     {
         "Name": "Favorable Fortune",
         "Prerequisites": "(•••)",
         "Description": "Spontaneously produce small amounts of good fortune",
-        "Book": "SS p110"
+        "Book": "SS 110"
     },
     {
         "Name": "Geomancy",
         "Prerequisites": "(•••) *pre: Intelligence ••, Crafts •",
         "Description": "Design an area to grant 9-Again to one attribute or skill",
-        "Book": "SS p111"
+        "Book": "SS 111"
     },
     {
         "Name": "Healing",
         "Prerequisites": "(••••) *pre: Composure ••, Medicine •",
         "Description": "Accelerate the healing of mortals.",
-        "Book": "SS p111"
+        "Book": "SS 111"
     },
     {
         "Name": "Invocation",
         "Prerequisites": "(•• or ••••)",
         "Description": "Summon a chosen spirit to possess you",
-        "Book": "SS p112"
+        "Book": "SS 112"
     },
     {
         "Name": "Longevity",
         "Prerequisites": "(•••••) *pre: Medicine •••",
         "Description": "Create a potion which can delay aging for a short time.",
-        "Book": "SS p113"
+        "Book": "SS 113"
     },
     {
         "Name": "Luck Magic",
         "Prerequisites": "(•• or ••••)",
         "Description": "Gain 9-Again (8-Again with ••••) on a few chosen rolls",
-        "Book": "SS p114"
+        "Book": "SS 114"
     },
     {
         "Name": "Psychic Projection",
         "Prerequisites": "(••••)",
         "Description": "Project in to the Twilight.",
-        "Book": "SS p115"
+        "Book": "SS 115"
     },
     {
         "Name": "Sacrifice",
         "Prerequisites": "(•)",
         "Description": "Sacrifice to gain a bonus with ghosts or spirits",
-        "Book": "SS p115"
+        "Book": "SS 115"
     },
     {
         "Name": "Scrying",
         "Prerequisites": "(•••) *pre: Wits ••, Occult •",
         "Description": "Remotely view an area",
-        "Book": "SS p116"
+        "Book": "SS 116"
     },
     {
         "Name": "Second Sight",
         "Prerequisites": "(•••) *pre: Wits ••",
         "Description": "See into the Twilight",
-        "Book": "SS p116"
+        "Book": "SS 116"
     },
     {
         "Name": "See Auras",
         "Prerequisites": "(••) *pre: Empathy ••",
         "Description": "See auras, showing the mood and nature of others",
-        "Book": "SS p116"
+        "Book": "SS 116"
     },
     {
         "Name": "See Spirits",
         "Prerequisites": "(••) *pre: Visionary Trances",
         "Description": "See spirits in Twilight",
-        "Book": "SS p117"
+        "Book": "SS 117"
     },
     {
         "Name": "Soul Jar",
         "Prerequisites": "(•• or ••••) *pre: Second Sight",
         "Description": "Steal a subject's soul, rendering their body catatonic",
-        "Book": "SS p118"
+        "Book": "SS 118"
     },
     {
         "Name": "Visionary Trances",
         "Prerequisites": "(•• or ••••) *pre: Resolve ••",
         "Description": "See (or project with ••••) into the Shadow Realm",
-        "Book": "SS p119"
+        "Book": "SS 119"
     },
     {
         "Name": "Warding",
         "Prerequisites": "(•••) *pre: Resolve ••, Occult •",
         "Description": "Create a magic barrier to hedge out ghosts and spirits",
-        "Book": "SS p120"
+        "Book": "SS 120"
     },
     {
         "Name": "Weather Control",
         "Prerequisites": "(••••)",
         "Description": "Manipulate the weather, potentially dramatically.",
-        "Book": "SS p120"
+        "Book": "SS 120"
     }
 ]
 

@@ -17,7 +17,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Animalism",
-        "Book": "VTR p115",
+        "Book": "VTR 115",
     },
     {
         "Name": "Feral Whispers",
@@ -50,7 +50,7 @@ export const UniversalDisciplineData = [
         "Description": "Speak with animals",
         "Dice Pool": "Manipulation + Animal Ken + Animalism",
         "Discipline": "Animalism",
-        "Book": "VTR p115"
+        "Book": "VTR 115"
     },
     {
         "Name": "Obedience",
@@ -86,7 +86,7 @@ export const UniversalDisciplineData = [
         "Description": "Command animals",
         "Dice Pool": "Presence + Animal Ken + Animalism - Composure",
         "Discipline": "Animalism",
-        "Book": "VTR p115"
+        "Book": "VTR 115"
     },
     {
         "Name": "Call of the Wild",
@@ -111,7 +111,7 @@ export const UniversalDisciplineData = [
         "Description": "Summon animals",
         "Dice Pool": "Presence + Animal Ken + Animalism",
         "Discipline": "Animalism",
-        "Book": "VTR p115"
+        "Book": "VTR 115"
     },
     {
         "Name": "Subsume the Lesser Spirit",
@@ -147,7 +147,7 @@ export const UniversalDisciplineData = [
         "Description": "Possess an animal",
         "Dice Pool": "Manipulation + Animal Ken + Animalism vs Composure",
         "Discipline": "Animalism",
-        "Book": "VTR p115"
+        "Book": "VTR 115"
     },
     {
         "Name": "Leashing the Beast",
@@ -173,7 +173,7 @@ export const UniversalDisciplineData = [
         "Description": "Control self and other's Beast",
         "Dice Pool": "Manipulation + Empathy + Animalism (+ Blood Potency)",
         "Discipline": "Animalism",
-        "Book": "VTR p115"
+        "Book": "VTR 115"
     },
     {
         "Name": "Auspex",
@@ -192,7 +192,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Auspex",
-        "Book": "VTR p119",
+        "Book": "VTR 119",
     },
     {
         "Name": "Heightened Senses",
@@ -209,7 +209,7 @@ export const UniversalDisciplineData = [
         "Description": "increase sight, hearing, and oflactory",
         "Dice Pool": "N/A",
         "Discipline": "Auspex",
-        "Book": "VTR p119"
+        "Book": "VTR 119"
     },
     {
         "Name": "Aura Perception",
@@ -282,7 +282,7 @@ export const UniversalDisciplineData = [
         "Description": "sense emotions",
         "Dice Pool": "Intelligence + Empathy + Auspex - Composure",
         "Discipline": "Auspex",
-        "Book": "VTR p119"
+        "Book": "VTR 119"
     },
     {
         "Name": "The Spirit's Touch",
@@ -321,7 +321,7 @@ export const UniversalDisciplineData = [
         "Description": "See psychic residues of the past",
         "Dice Pool": "Wits + Occult + Auspex",
         "Discipline": "Auspex",
-        "Book": "VTR p119"
+        "Book": "VTR 119"
     },
     {
         "Name": "Telepathy",
@@ -354,7 +354,7 @@ export const UniversalDisciplineData = [
         "Description": "Communicate mind by mind and read surface thoughts",
         "Dice Pool": "Intelligence + Socialize + Auspex - Resolve",
         "Discipline": "Auspex",
-        "Book": "VTR p119"
+        "Book": "VTR 119"
     },
     {
         "Name": "Twilight Projection",
@@ -383,7 +383,7 @@ export const UniversalDisciplineData = [
         "Description": "Project own senses into twilight",
         "Dice Pool": "Intelligence + Occult + Auspex",
         "Discipline": "Auspex",
-        "Book": "VTR p119"
+        "Book": "VTR 119"
     },
     {
         "Name": "Celerity ",
@@ -400,7 +400,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Celerity",
-        "Book": "VTR p123",
+        "Book": "VTR 123",
     },
     {
         "Name": "Celerity",
@@ -425,7 +425,7 @@ export const UniversalDisciplineData = [
         "Description": "Bonus to Speed and Initiative and penalty to incoming attacks per dot",
         "Dice Pool": "N/A",
         "Discipline": "Celerity",
-        "Book": "VTR p123"
+        "Book": "VTR 123"
     },
     {
         "Name": "Dominate",
@@ -449,7 +449,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Dominate",
-        "Book": "VTR p124",
+        "Book": "VTR 124",
     },
     {
         "Name": "Command",
@@ -473,7 +473,7 @@ export const UniversalDisciplineData = [
         "Description": "issue single word verbal command to target",
         "Dice Pool": "Intelligence + Intimidation + Dominate vs. Resolve + Blood Potency",
         "Discipline": "Dominate",
-        "Book": "VTR p124"
+        "Book": "VTR 124"
     },
     {
         "Name": "Mesmerize",
@@ -503,7 +503,7 @@ export const UniversalDisciplineData = [
         "Description": "Issue long, hypnotic command",
         "Dice Pool": "Intelligence + Expression + Dominate vs. Resolve + Blood Potency",
         "Discipline": "Dominate",
-        "Book": "VTR p124"
+        "Book": "VTR 124"
     },
     {
         "Name": "The Forgetful Mind",
@@ -535,7 +535,7 @@ export const UniversalDisciplineData = [
         "Description": "Manipulate target's memory",
         "Dice Pool": "Wits + Persuasion + Dominate - Resolve",
         "Discipline": "Dominate",
-        "Book": "VTR p124"
+        "Book": "VTR 124"
     },
     {
         "Name": "Conditioning",
@@ -564,7 +564,7 @@ export const UniversalDisciplineData = [
         "Description": "Target brainwashing to make him a slave",
         "Dice Pool": "Wits + Subterfuge + Dominate vs. Resolve + Blood Potency",
         "Discipline": "Dominate",
-        "Book": "VTR p124"
+        "Book": "VTR 124"
     },
     {
         "Name": "Possession",
@@ -592,7 +592,7 @@ export const UniversalDisciplineData = [
         "Description": "Possess someone",
         "Dice Pool": "Intelligence + Intimidation + Dominate vs. Resolve",
         "Discipline": "Dominate",
-        "Book": "VTR p124"
+        "Book": "VTR 124"
     },
     {
         "Name": "Majesty",
@@ -613,7 +613,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Majesty",
-        "Book": "VTR p129",
+        "Book": "VTR 129",
     },
     {
         "Name": "Awe",
@@ -646,7 +646,7 @@ export const UniversalDisciplineData = [
         "Description": "Make a crowd listening to the user",
         "Dice Pool": "Presence + Expression + Majesty",
         "Discipline": "Majesty",
-        "Book": "VTR p129"
+        "Book": "VTR 129"
     },
     {
         "Name": "Revelation",
@@ -681,7 +681,7 @@ export const UniversalDisciplineData = [
         "Description": "convince target to reveal secrets",
         "Dice Pool": "Manipulation + Persuasion + Majesty vs. Composure + Blood Potency",
         "Discipline": "Majesty",
-        "Book": "VTR p129"
+        "Book": "VTR 129"
     },
     {
         "Name": "Entrancement",
@@ -710,7 +710,7 @@ export const UniversalDisciplineData = [
         "Description": "Make the target love/workship the user",
         "Dice Pool": "Manipulation + Empathy + Majesty vs. Composure + Blood Potency",
         "Discipline": "Majesty",
-        "Book": "VTR p129"
+        "Book": "VTR 129"
     },
     {
         "Name": "Summoning",
@@ -748,7 +748,7 @@ export const UniversalDisciplineData = [
         "Description": "mentally summon target to user",
         "Dice Pool": "Manipulation + Persuasion + Majesty vs. Composure + Blood Potency",
         "Discipline": "Majesty",
-        "Book": "VTR p129"
+        "Book": "VTR 129"
     },
     {
         "Name": "Sovereignty",
@@ -783,7 +783,7 @@ export const UniversalDisciplineData = [
         "Description": "No one can bring harm to the user",
         "Dice Pool": "Presence + Intimidation + Majesty vs. Composure + Blood Potency",
         "Discipline": "Majesty",
-        "Book": "VTR p129"
+        "Book": "VTR 129"
     },
     {
         "Name": "Nightmare",
@@ -803,7 +803,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Nightmare",
-        "Book": "VTR p133",
+        "Book": "VTR 133",
     },
     {
         "Name": "Monstrous Countenance",
@@ -824,7 +824,7 @@ export const UniversalDisciplineData = [
         "Description": "Make the target flee",
         "Dice Pool": "Presence + Intimidation + Nightmare vs. Composure + Blood Potency",
         "Discipline": "Nightmare",
-        "Book": "VTR p133"
+        "Book": "VTR 133"
     },
     {
         "Name": "Dread",
@@ -848,7 +848,7 @@ export const UniversalDisciplineData = [
         "Description": "A lingering fear affect everyone present",
         "Dice Pool": "Manipulation + Empathy + Nightmare vs. Composure + Blood Potency",
         "Discipline": "Nightmare",
-        "Book": "VTR p133"
+        "Book": "VTR 133"
     },
     {
         "Name": "Eye of the Beast",
@@ -870,7 +870,7 @@ export const UniversalDisciplineData = [
         "Description": "Deal catatonic fear (or Rothshreck on Vampire)",
         "Dice Pool": "Presence + Empathy + Nightmare vs. Composure + Blood Potency",
         "Discipline": "Nightmare",
-        "Book": "VTR p133"
+        "Book": "VTR 133"
     },
     {
         "Name": "Shatter the Mind",
@@ -893,7 +893,7 @@ export const UniversalDisciplineData = [
         "Description": "Deal a derangement from fear",
         "Dice Pool": "Manipulation + Empathy + Nightmare vs. Composure + Blood Potency",
         "Discipline": "Nightmare",
-        "Book": "VTR p133"
+        "Book": "VTR 133"
     },
     {
         "Name": "Mortal Fear",
@@ -915,7 +915,7 @@ export const UniversalDisciplineData = [
         "Description": "Deal damage by fear",
         "Dice Pool": "Presence + Intimidation + Nightmare - Composure",
         "Discipline": "Nightmare",
-        "Book": "VTR p133"
+        "Book": "VTR 133"
     },
     {
         "Name": "Obfuscate",
@@ -937,7 +937,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Obfuscate",
-        "Book": "VTR p135",
+        "Book": "VTR 135",
     },
     {
         "Name": "Touch of Shadow",
@@ -976,7 +976,7 @@ export const UniversalDisciplineData = [
         "Description": "hide an object",
         "Dice Pool": "Wits + Larceny + Obfuscate",
         "Discipline": "Obfuscate",
-        "Book": "VTR p135"
+        "Book": "VTR 135"
     },
     {
         "Name": "Mask of Tranquility",
@@ -994,7 +994,7 @@ export const UniversalDisciplineData = [
         "Description": "disable Predator's Taint",
         "Dice Pool": "N/A",
         "Discipline": "Obfuscate",
-        "Book": "VTR p135"
+        "Book": "VTR 135"
     },
     {
         "Name": "Cloak of Night",
@@ -1025,7 +1025,7 @@ export const UniversalDisciplineData = [
         "Description": "become invisible",
         "Dice Pool": "Intelligence + Stealth + Obfuscate",
         "Discipline": "Obfuscate",
-        "Book": "VTR p135"
+        "Book": "VTR 135"
     },
     {
         "Name": "The Familiar Stranger",
@@ -1058,7 +1058,7 @@ export const UniversalDisciplineData = [
         "Description": "become disguised as an acquaintance",
         "Dice Pool": "Wits + Subterfuge + Obfuscate vs Resolve + Blood Potency",
         "Discipline": "Obfuscate",
-        "Book": "VTR p135"
+        "Book": "VTR 135"
     },
     {
         "Name": "Cloak the Gathering",
@@ -1089,7 +1089,7 @@ export const UniversalDisciplineData = [
         "Description": "make a small group invisible",
         "Dice Pool": "Intelligence + Stealth + Obfuscate",
         "Discipline": "Obfuscate",
-        "Book": "VTR p135"
+        "Book": "VTR 135"
     },
     {
         "Name": "Protean",
@@ -1108,7 +1108,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Protean",
-        "Book": "VTR p123",
+        "Book": "VTR 123",
     },
     {
         "Name": "Aspect of the Predator",
@@ -1126,7 +1126,7 @@ export const UniversalDisciplineData = [
         "Description": "never run in fear from Predator's Taint",
         "Dice Pool": "N/A",
         "Discipline": "Protean",
-        "Book": "VTR p138"
+        "Book": "VTR 138"
     },
     {
         "Name": "Haven of Soil",
@@ -1147,7 +1147,7 @@ export const UniversalDisciplineData = [
         "Description": "dissolve into the ground",
         "Dice Pool": "N/A",
         "Discipline": "Protean",
-        "Book": "VTR p138"
+        "Book": "VTR 138"
     },
     {
         "Name": "Claws of the Wild",
@@ -1166,7 +1166,7 @@ export const UniversalDisciplineData = [
         "Description": "grow claws for combat and climbing",
         "Dice Pool": "N/A",
         "Discipline": "Protean",
-        "Book": "VTR p138"
+        "Book": "VTR 138"
     },
     {
         "Name": "Shape of the Beast",
@@ -1189,7 +1189,7 @@ export const UniversalDisciplineData = [
         "Description": "transform into an animal",
         "Dice Pool": "N/A",
         "Discipline": "Protean",
-        "Book": "VTR p138"
+        "Book": "VTR 138"
     },
     {
         "Name": "Body of Spirit",
@@ -1209,7 +1209,7 @@ export const UniversalDisciplineData = [
         "Description": "transform into mist",
         "Dice Pool": "N/A",
         "Discipline": "Protean",
-        "Book": "VTR p138"
+        "Book": "VTR 138"
     },
     {
         "Name": "Resilience ",
@@ -1226,7 +1226,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Resilience",
-        "Book": "VTR p123",
+        "Book": "VTR 123",
     },
     {
         "Name": "Resilience",
@@ -1249,7 +1249,7 @@ export const UniversalDisciplineData = [
         "Description": "downgrade damage, increased stamina pool",
         "Dice Pool": "N/A",
         "Discipline": "Resilience",
-        "Book": "VTR p140"
+        "Book": "VTR 140"
     },
     {
         "Name": "Vigor ",
@@ -1266,7 +1266,7 @@ export const UniversalDisciplineData = [
         ],
         "Description": "",
         "Discipline": "Vigor",
-        "Book": "VTR p123",
+        "Book": "VTR 123",
     },
     {
         "Name": "Vigor",
@@ -1286,7 +1286,7 @@ export const UniversalDisciplineData = [
         "Description": "increase strength pool",
         "Dice Pool": "N/A",
         "Discipline": "Vigor",
-        "Book": "VTR p141"
+        "Book": "VTR 141"
     }
 ]
 
@@ -1301,7 +1301,7 @@ export const CoilsOfTheDragonData = [
             "New dots of the Coils of the Dragon are purchased like a Discipline, with the number of tiers the character already commands serving as the current level and the “new level” being the next to be achieved. For example, a character knows five tiers of the Coils of the Dragon. For him to learn a sixth, his player has to spend 42 experience points (6 [the new level in the coil] times 7 [the experience-point multiplier for out-of-clan Disciplines]). Tiers must be learned in order in each coil, though a character need not advance one coil to completion before he can advance another. That is, a character with two tiers of Coil of Blood could learn the first tier of Coil of the Beast without learning the third tier of Coil of Blood. Because the Coils of the Dragon do not constitute a true Discipline, they are not limited by Blood Potency trait maximums. A character need not have a Blood Potency of 6 to learn six different tiers of coils, for example. Yet, increasingly more dots in a coil are always bought as if they’re out-of-clan Disciplines."
         ],
         "Description": "",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Coils of the Dragon"
     },
     {
@@ -1311,7 +1311,7 @@ export const CoilsOfTheDragonData = [
             "The two major banes of the Requiem are fire and sunlight. Any attempt to conquer the curse of vampirism must overcome these two obstacles. While no vampire has yet managed to truly surmount them, the Coil of Banes provides a place to start."
         ],
         "Description": "",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Banes"
     },
     {
@@ -1321,7 +1321,7 @@ export const CoilsOfTheDragonData = [
             "The character gains a +2 bonus to resist fear frenzy triggered by fire or sunlight. Fear frenzies triggered by other stimuli occur as normal."
         ],
         "Description": "better resist frenzy from fire and sunlight",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Banes"
     },
     {
@@ -1331,7 +1331,7 @@ export const CoilsOfTheDragonData = [
             "The player can spend a Willpower point for the character to remain awake for an entire day without penalty (though the character must still take precautions to remain out of the sunlight and “waking” the next night still costs a Vitae). Dice pools during the day are still limited by Humanity (see p. 184). If the character does sleep and is disturbed, add three dice to the player’s wake-up roll."
         ],
         "Description": "spend one Willpower to remain awake all day",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Banes"
     },
     {
@@ -1341,7 +1341,7 @@ export const CoilsOfTheDragonData = [
             "Sunlight at twilight and dawn causes only bashing damage to the Dragon, rather than aggravated. After the sun has fully risen, however, its rays cause aggravated damage as usual. At sea or on a mountaintop, the sun might fully rise within a mere five minutes and take some time to set (10 minutes). In a dense forest or deep in a city, the sun might rise slowly (10 minutes) and set quickly (five minutes)."
         ],
         "Description": "sunlight at twilight/dawn causes only Bashing",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Banes"
     },
     {
@@ -1351,7 +1351,7 @@ export const CoilsOfTheDragonData = [
             "Fire causes lethal, not aggravated, damage to the Dragon. Note that, for a Dragon with Resilience, this means that fire damage can no longer be downgraded by that Discipline. The character still suffers aggravated damage from sunlight."
         ],
         "Description": "fire damage is downgraded to Lethal",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Banes"
     },
     {
@@ -1361,7 +1361,7 @@ export const CoilsOfTheDragonData = [
             "Vampires must feed on living blood to survive, and only the weakest of the Kindred can draw sustenance from the blood of animals. The Coil of Blood seeks to lift this requirement, allowing the Kindred to feed on their own terms, rather than forever be slaves to their hunger."
         ],
         "Description": "",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Blood"
     },
     {
@@ -1371,7 +1371,7 @@ export const CoilsOfTheDragonData = [
             "The Dragon’s undead body doesn’t demand as much Vitae to animate itself as do those of other, less enlightened Kindred. The player need spend only one Vitae for his character to wake for a number of nights equal to the vampire’s Resolve. So, a Kindred with a Resolve of 2 loses a Vitae every other night for rising."
         ],
         "Description": "reduce the amount of blood needed to wake",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Blood"
     },
     {
@@ -1381,7 +1381,7 @@ export const CoilsOfTheDragonData = [
             "No matter what the vampire’s Blood Potency is, she can take sustenance from animals and humans."
         ],
         "Description": "always be able to drink from humans and animals",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Blood"
     },
     {
@@ -1391,7 +1391,7 @@ export const CoilsOfTheDragonData = [
             "The character gains three Vitae for every two Vitae she takes from a human, and receives double the Vitae consumed from Kindred or other supernatural vessels."
         ],
         "Description": "multiply received Vitae",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Blood"
     },
     {
@@ -1401,7 +1401,7 @@ export const CoilsOfTheDragonData = [
             "The Kindred becomes immune to the effects of blood ties. No vampire receives bonuses based on blood ties to affect the character with Disciplines, though she retains the bonus when affecting kin with her own powers. She can choose to have her blood “read” as related to any clan whose blood she has tasted, or no clan at all. The character can still discern the tastes of another’s blood, as usual."
         ],
         "Description": "immune to blood ties to kin",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Blood"
     },
     {
@@ -1411,7 +1411,7 @@ export const CoilsOfTheDragonData = [
             "The Beast seeks always to subsume the Man, which is probably the most serious impairment on the Coils of the Dragon. If legends are true, the order’s founder struggled with his Beast even before his Embrace, and so it only makes sense that he would have pioneered a means to control it."
         ],
         "Description": "",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Beast"
     },
     {
@@ -1421,7 +1421,7 @@ export const CoilsOfTheDragonData = [
             "The player spends a Willpower point for his character to resist a frenzy of any kind automatically. The player may choose to roll Resolve + Composure as usual for his character to resist frenzy, spending the Willpower only if the roll fails."
         ],
         "Description": "spend one Willpower to resist any Frenzy",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Beast"
     },
     {
@@ -1431,7 +1431,7 @@ export const CoilsOfTheDragonData = [
             "“Riding the wave” does not cost a Willpower point, and it requires a base of only three successes, not five. All other rules still apply (see p. 181)."
         ],
         "Description": "reduce cost, ease access to 'Riding the Wave'",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Beast"
     },
     {
@@ -1441,7 +1441,7 @@ export const CoilsOfTheDragonData = [
             "The character may spend an hour per night in frenzy (usually doing so under controlled conditions such as in a locked room or far from mortals). For the rest of the night, the character does not enter frenzy unless she wishes to do so, no matter how strong the trigger is."
         ],
         "Description": "undergo willing Frenzy to prevent in the future",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Beast"
     },
     {
@@ -1451,7 +1451,7 @@ export const CoilsOfTheDragonData = [
             "The character can “ride the wave” for a number of turns per night equal to her Resolve dots without rolling to activate the frenzy. These turns may be consecutive, or they can be scattered intermittently throughout the night in any way the character likes. Turns spent in frenzy this way do not contribute to the cumulative -1 penalties on subsequent attempts to ride the wave during that same night."
         ],
         "Description": "'Ride the Wave' at will",
-        "Book": "VTR p149, OD p175",
+        "Book": "VTR 149, OD p175",
         "Discipline": "Beast"
     },
     {
@@ -1461,7 +1461,7 @@ export const CoilsOfTheDragonData = [
             "A vampire’s body is unable to perform some of its most basic functions — breathing, blushing, sweating — without being coaxed with Vitae. The Coil of Flesh restores some of a Kindred’s control over her body, so that she may more easily disguise herself as mortal and, perhaps, reconnect with some internal remnant of the human she once was. By passing among the kine, the Kindred has an opportunity to study change and examine artifacts that would otherwise be unreachable."
         ],
         "Description": "",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Flesh"
     },
     {
@@ -1471,7 +1471,7 @@ export const CoilsOfTheDragonData = [
             "The character’s Blood Potency is considered to be two dots lower when calculating the length of torpor and determining the potency of Kindred Vitae necessary to revive her by force."
         ],
         "Description": "Blood Potency is counted as two lower for Torpor",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Flesh"
     },
     {
@@ -1481,7 +1481,7 @@ export const CoilsOfTheDragonData = [
             "The character can summon up the blush of life and the ability to eat food for one scene with a single Vitae. As long as the character has food in her stomach, she suffers no penalties to rolls to resist frenzy based on her hunger."
         ],
         "Description": "reduce cost to emulate the living",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Flesh"
     },
     {
@@ -1491,7 +1491,7 @@ export const CoilsOfTheDragonData = [
             "The character’s hair and nails can be made to grow each day with a single Vitae. This Vitae is in addition to that paid to wake each day. What’s more, the character can will her image to appear either clear or blurred in photographs, videos and other visual media with no Willpower expenditure necessary for the scene. Clear images persist for a number of months equal to 12 minus the Kindred’s Blood Potency. A Willpower dot must still be spent to make a clear image of the vampire permanent."
         ],
         "Description": "allow hair and nails to grow, appear in mirrors at will",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Flesh"
     },
     {
@@ -1501,7 +1501,7 @@ export const CoilsOfTheDragonData = [
             "The character’s flesh is able to heal bashing damage exactly as a mortal does: one point of bashing damage heals every 15 minutes. This quasi-natural healing cannot take place, however, if the character is currently has any Health box marked with an aggravated wound."
         ],
         "Description": "heal Bashing damage as if Mortal",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Flesh"
     },
     {
@@ -1511,7 +1511,7 @@ export const CoilsOfTheDragonData = [
             "The fourth Coil, the Coil of the Soul, isn’t widely practiced in the Ordo Dracul. The more tangible, physical aspects of the vampiric curse seem to be easier to alter — or more insufferable, in the minds of modern vampires — than the spiritual ones on which this Coil focuses. Plus, with sociological and psychological mores seeming to change so quickly in the modern night, finding effective teachers of this lesser-known Coil of the Soul has become difficult."
         ],
         "Description": "",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Soul"
     },
     {
@@ -1521,7 +1521,7 @@ export const CoilsOfTheDragonData = [
             "Humanity no longer acts as a cap for dice pools involving interactions with mortals. The Kindred has retrained her body to mimic the nonverbal cues of being alive, and it responds almost naturally to the cues of others. She must still expend Vitae to activate the “blush of life,” however."
         ],
         "Description": "Humanity does not cap Social pools with Mortals",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Soul"
     },
     {
@@ -1531,7 +1531,7 @@ export const CoilsOfTheDragonData = [
             "The player may spend a Willpower point to re-roll the Humanity roll to avoid a derangement after a failed degeneration roll (though the Storyteller may demand a suitable explanation for the expenditure and a description of what it represents for the character). The player may not spend a Willpower point in this way on the degeneration roll itself, however."
         ],
         "Description": "reroll after failing for Derangement",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Soul"
     },
     {
@@ -1541,7 +1541,7 @@ export const CoilsOfTheDragonData = [
             "The player may spend a Willpower point to ignore all derangements the character has gained since her Embrace. This temporary sanity lasts for one scene, and then her derangements come crashing back. If the character has derangements that were acquired before her Embrace, this tier does nothing to mitigate them."
         ],
         "Description": "spend a Willpower to ignore acquired Derangements",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Soul"
     },
     {
@@ -1551,7 +1551,7 @@ export const CoilsOfTheDragonData = [
             "The character can give her mind over to the Beast long enough to commit one heinous act. To do so, the character surrenders to frenzy by riding the wave. In exchange for this taste of freedom, the Beast protects the character from the memory of the event. The Kindred has no recollection of her actions during a frenzy of this sort, and not even the power of a Discipline can unearth a memory of it. No matter how vile the character’s actions during such a frenzy, she cannot be required to make a degeneration roll for actions she is unaware of. If the character later learns (or is shown) what her Beast did with its freedom, the character loses her moral protection and must immediately check for degeneration as normal."
         ],
         "Description": "commit vile acts under Frenzy without memory",
-        "Book": "OD p175",
+        "Book": "OD 175",
         "Discipline": "Soul"
     },
     {
@@ -1562,7 +1562,7 @@ export const CoilsOfTheDragonData = [
             "Torpor is the dreaded experience that few Kindred can hope to stave off. Even those Dragons who have mastered the Coil of Blood’s second tier (Blood of Beasts), who need not fear a dwindling supply of Vitae as they age, find cause to seek out the deep slumber. Others are simply forced into it through starvation or physical conflict. In any case, Dragons recognize the need to mitigate some of the dangers associated with actually being in torpor. This Coil addresses those concerns."
         ],
         "Description": "",
-        "Book": "AM p73",
+        "Book": "AM 73",
         "Discipline": "Slumber"
     },
     {
@@ -1572,7 +1572,7 @@ export const CoilsOfTheDragonData = [
             "Following the normal rules for premature awakening from torpor due to a disturbance or when attempting to wake up during a voluntary period of torpor (see p. 176 of Vampire: The Requiem), the vampire gains a bonus to the roll to awaken equal to his current Blood Potency."
         ],
         "Description": "add Blood Potency to rolls to awaken from Torpor",
-        "Book": "AM p73",
+        "Book": "AM 73",
         "Discipline": "Slumber"
     },
     {
@@ -1582,7 +1582,7 @@ export const CoilsOfTheDragonData = [
             "When voluntarily entering torpor, the vampire may set a predetermined event to automatically rouse himself from sleep. The vampire may call for his slumber to end when touched or shaken, in a number of months or years, or even after the weakening of the blood to a specific potency. During this time, the vampire is still subject to other stimuli and possible interruptions to his slumber."
         ],
         "Description": "may set trigger to automatically wake up from Torpor",
-        "Book": "AM p73",
+        "Book": "AM 73",
         "Discipline": "Slumber"
     },
     {
@@ -1592,7 +1592,7 @@ export const CoilsOfTheDragonData = [
             "One of the greatest dangers to a vampire in torpor is the depletion of his Vitae. Emerging from torpor, starving and on the edge of huger-induced frenzy, the vampire is vulnerable to nearly any threat — including his own actions. With the mastery of this tier, a vampire can emerge from torpor with just enough Vitae to avoid an incident spurred by starvation. During torpor — whether it is voluntary or forced — one point of Vitae is used nightly as a method of healing the body and preparing it for an extended slumber. With this tier, the vampire emerges from torpor with one Vitae per point of Blood Potency at the time of awakening. If the vampire entered torpor with less Vitae than this, this tier does not produce additional Vitae. Furthermore, this Vitae may still be drained normally if another Kindred feeds on the torpid Dragon."
         ],
         "Description": "gain Vitae when waking up from Torpor",
-        "Book": "AM p73",
+        "Book": "AM 73",
         "Discipline": "Slumber"
     },
     {
@@ -1646,7 +1646,7 @@ export const CoilsOfTheDragonData = [
             "To learn a rung of Anoushka’s Ladder, a character must have at least nine dots in other coils. To enjoy the benefits of any of these rungs, the character must have a Humanity of 8 or higher. Should a character’s Humanity fall below the threshold necessary for a rung she knows, she gains no benefit from that rung until her Humanity is raised again."
         ],
         "Description": "",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Anoushka's Ladder"
     },
     {
@@ -1656,7 +1656,7 @@ export const CoilsOfTheDragonData = [
             "As long as the character’s Humanity is 8 or higher, she spends just one Vitae to rise each week. If the character has also mastered the first tier of the Coil of Blood, this expenditure of Vitae enables her to stay awake for seven days plus her Resolve. The character suffers no penalty for actions undertaken during the daytime, though she is still burned by sunlight."
         ],
         "Description": "Humanity 8: wake with less Vitae expenditure",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Anoushka's Ladder"
     },
     {
@@ -1666,7 +1666,7 @@ export const CoilsOfTheDragonData = [
             "As long as the character’s Humanity is 9 or higher, she is not affected by her clan or bloodline weakness if she has gone at least one day and one night without using a Discipline, whether that Discipline is associated with her clan or not. As soon as the character uses one of her Discipline powers, the effects of her clan and bloodline weakness return."
         ],
         "Description": "Humanity 9: remove effects of Clan/Bloodline weakness as long as you do not use Disciplines",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Anoushka's Ladder"
     },
     {
@@ -1676,7 +1676,7 @@ export const CoilsOfTheDragonData = [
             "As long as the character’s Humanity is 10, she is not subject to the Beast. The character no longer experiences frenzy of any sort. She cannot “ride the wave” and is not subject to frenzy under any circumstances."
         ],
         "Description": "Humanity 10: never Frenzy",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Anoushka's Ladder"
     },
     {
@@ -1691,7 +1691,7 @@ export const CoilsOfTheDragonData = [
             "As long as the Locust has a captured human soul within herself, she gains the benefits of all the tiers she knows from the this coil."
         ],
         "Description": "",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Way of the Locust"
     },
     {
@@ -1701,7 +1701,7 @@ export const CoilsOfTheDragonData = [
             "The character’s aura becomes as vivid as a mortal’s and she casts a reflection. Specifically, she casts his own reflection — but seen with the corner of the eye, the reflection appears to be that of the person whose soul she has stolen. The character also appears in all visual media without any cost in Willpower, though only until she loses her captured soul. Finally, the character does not provoke, and is not subject to, the effects of the predator’s taint."
         ],
         "Description": "strengthen Aura to match victim's",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Way of the Locust"
     },
     {
@@ -1711,7 +1711,7 @@ export const CoilsOfTheDragonData = [
             "The character takes on an intangible but undeniable aspect of the victim. People who knew the imprisoned soul in its original, human body find the Kindred oddly familiar — though there is often a degree of unease in this familiarity. The character benefits from the “9 Again” rule (see the World of Darkness Rulebook, p. 134) on Social actions made against people the victim knew in life. A spouse might momentarily mistake the character for the victim, for example, while a friend might trust the character when he claims to be the victim’s brother."
         ],
         "Description": "gain 9-Again against relations of victim",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Way of the Locust"
     },
     {
@@ -1721,7 +1721,7 @@ export const CoilsOfTheDragonData = [
             "The character can access the factual knowledge possessed by the victim. This does not mean that she can analyze, understand or apply it as the victim could. A character who has diablerized a military officer, for example, is able to recite tactical axioms but is unable to duplicate the dead officer’s actual strategic ability. The character can recall information the victim knew in life, such as his passwords or his wife’s middle name, with a successful Intelligence + Composure roll, made as a reflexive action (see the World of Darkness Rulebook, p. 44 - 45)."
         ],
         "Description": "recall knowledge known by victim",
-        "Book": "OD p176",
+        "Book": "OD 176",
         "Discipline": "Way of the Locust"
     },
     {
@@ -1731,7 +1731,7 @@ export const CoilsOfTheDragonData = [
             "The Sakadagami see great strife and suffering grow from the attachments of the blood. Through centuries of trial and error, in an attempt to remove these terrifying bonds of the blood, some few Ordained have mastered the Treasure listed below."
         ],
         "Description": "",
-        "Book": "AB p128",
+        "Book": "AB 128",
         "Discipline": "Upadana"
     },
     {
@@ -1741,7 +1741,7 @@ export const CoilsOfTheDragonData = [
             "The Sakadagami is able to affect the blood addiction she causes, and her own vulnerability to it. By spending one Willpower point for an evening, the Sakadagami’s Vitae causes no blood addiction, and if she feeds from other Kindred, the roll to resist doing so again (see p. 158 of Vampire: The Requiem) receives a +2 modifier."
         ],
         "Description": "Spend WP to cause no blood addiction and get a bonus to resist feeding from a kindred more than once.",
-        "Book": "AB p128",
+        "Book": "AB 128",
         "Discipline": "Upadana"
     },
     {
@@ -1751,7 +1751,7 @@ export const CoilsOfTheDragonData = [
             "A monk has not mastered the addictive qualities in his blood, but is able to minimize the damage that the Vinculum can do. Kindred blood only causes Vinculi that last one month per step, and the Sakadagami loses one step of the bond per month, unlike normal Kindred."
         ],
         "Description": "Dramatically reduce the time both given and received Vinculums last.",
-        "Book": "AB p128",
+        "Book": "AB 128",
         "Discipline": "Upadana"
     },
     {
@@ -1761,7 +1761,7 @@ export const CoilsOfTheDragonData = [
             "Now, with almost complete understanding of the ties of blood, the Ordained can reduce the threat of blood borne attachment, even from those closest to him. The character’s blood cannot be identified as belonging to any clan, should someone attempt to do so using the Taste of Family (p. 163 of Vampire: The Requiem) or more rarified methods like Blut Alchemie (p. 83)."
         ],
         "Description": "Unidentifiable Blood.",
-        "Book": "AB p128",
+        "Book": "AB 128",
         "Discipline": "Upadana"
     }
 ]
@@ -2537,7 +2537,7 @@ export const CrùacData = [
             "The Kindred are largely immune to the dangers of temperature, pressure and other conditions that would kill or cripple mortals. A vampire can still be affected by the most extreme conditions, though, such as arctic cold. This minor ritual maintains a balance within a vampire’s Vitae, never allowing it to become too hot, cold, compressed or otherwise hampered by the external world. Under the ritual’s protection, the vampire suffers no dice-pool penalties due to climactic conditions or extremes. This benefit does not extend to conditions that would actually cause injury or damage, such as sunlight. Nor does it eliminate wound penalties. The ritual’s effects last until the next sunrise."
         ],
         "Description": "Renders the caster immune to dice penalties from environmental hazards for one night.",
-        "Book": "Nomads p93",
+        "Book": "Nomads 93",
         "Rank": "•",
         "Discipline": "Crúac"
     },
@@ -2550,7 +2550,7 @@ export const CrùacData = [
             "The observer’s perception is limited through the mystical connection, but not by physical barriers the character can see around. If a rug is laid down over the blood she leaves behind, she sees as if she stood on that rug. If a door is closed between her Vitae and another room, she doesn’t gain any power to see through it, but may hear sounds that come through it. Her powers of perception depend on her supernatural prowess. The number of successes on the Crúac roll becomes the number of successes she scores on all attempted actions to perceive the world through her arcane connection (such as Wits + Composure or Wits + a certain Skill; see p. 46 of the World of Darkness rulebook for details). The testimony of the blood witness is affected by environmental impediments like darkness and smoke just as ordinary vision is affected. No other Disciplines may be used through the blood connection, so a character may not employ Heightened Senses, for example.",
         ],
         "Description": "Requires the expenditure of extra Vitae, which must be smeared about an area; for one day per extra vitae spent, may remotely observe the area from the spilled blood.",
-        "Book": "Coteries p84",
+        "Book": "Coteries 84",
         "Rank": "•",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2622,7 +2622,7 @@ export const CrùacData = [
             "The sorcerer causes feelings of intense hunger in a subject, who must be within sight. The afflicted subject feels the desire to eat or feed. Activation involves a contested roll against the subject’s Composure + Blood Potency, and resistance is reflexive. If the performer gets the most successes, the victim avails himself of any sustenance available. A mortal even eats raw meat, though he doesn’t resort to such dire acts as cannibalism or drinking blood. Kindred might attack nearby vessels or even fellow vampires if their hunger is severe enough to make them frenzy. Even after he eats or feeds, a subject’s rapacity does not subside until the effects of the ritual pass. (Vampires affected by this ritual are considered “starving” for the purposes of resisting frenzy; see p. 179.)"
         ],
         "Description": "If successful at the activation roll (which is contested), subject is overcome with hunger and must feed, be they kindred, mortal, or other.",
-        "Book": "VtR p143",
+        "Book": "VtR 143",
         "Rank": "•",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2648,7 +2648,7 @@ export const CrùacData = [
             "The roll to activate this power is penalized by the subject’s Composure."
         ],
         "Description": "If successful at the activation roll (which is resisted), the victim (which must be a vampire) suffers a penalty equal to the successes on their next physical action.",
-        "Book": "VtR p143",
+        "Book": "VtR 143",
         "Rank": "•",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2710,7 +2710,7 @@ export const CrùacData = [
             "The Barrier of Blood lasts for 24 hours."
         ],
         "Description": "Blood must be applied to doors and other portals; for 24 hours, vampires with less blood potency than the caster cannot voluntarily cross the barrier without suffering damage.",
-        "Book": "Coteries p84",
+        "Book": "Coteries 84",
         "Rank": "••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2724,7 +2724,7 @@ export const CrùacData = [
             "The roll to activate this power is penalized by the subject’s Composure."
         ],
         "Description": "If successful at the activation roll (which is resisted), the victim's senses may be shared by the caster at will for one night per success.",
-        "Book": "VtR p143",
+        "Book": "VtR 143",
         "Rank": "••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2784,7 +2784,7 @@ export const CrùacData = [
             "Vitae altered by this ritual is poisonous only so long as it’s in the performer’s body (or until the next sunrise). If the Vitae leaves, it becomes as any other Vitae spilled from a Kindred’s body. Thus, it cannot be used to create poisoned weapons, and if one consumes the Vitae from a container after it leaves the body, it is simply normal, non-poisonous Vitae."
         ],
         "Description": "Transform's the caster's vitae into a poison, which inflicts lethal damage on mortals and vampires who attempt to consume it.",
-        "Book": "VtR p143",
+        "Book": "VtR 143",
         "Rank": "••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2917,7 +2917,7 @@ export const CrùacData = [
             "The performer invokes a mystic protection against attempts to impale her heart with a stake. If the ritual succeeds, any attempt to stake the vampire fails for the duration of the spell. Stakes used in this manner rot or disintegrate as wielders attempt to use them against the performer. An attempt to stake the Kindred in question must be made for this ritual to take effect. (It does not simply rot all stakes and would-be stakes in her presence.) This power cannot be invoked to protect others; it works only on the sorcerer herself. This ritual fades at sundown of the subsequent night, though it may be invoked again immediately thereafter."
         ],
         "Description": "Caster becomes immune to staking for one night",
-        "Book": "VtR p144",
+        "Book": "VtR 144",
         "Rank": "•••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -2946,7 +2946,7 @@ export const CrùacData = [
             "An Acolyte cannot raise a new Flower of Demeter until her current specimen has been fully deflowered or allowed to die. The plant suffers all the anathema of the Kindred, and is destroyed in seconds by fire or sunlight. Blossoms clipped from the plant lose all mystical properties at the next sunrise, when they flake away in sheets of ash like burnt paper."
         ],
         "Description": "May use this ritual to grow a flower fed by mortal blood; inspires all Kindred in its presence, granting a bonus to Craft and Expression. Swallowing the flower grants 24 hours of the blush of life.",
-        "Book": "Coteries p85",
+        "Book": "Coteries 85",
         "Rank": "•••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -3059,7 +3059,7 @@ export const CrùacData = [
             "The mark made by contact is physically manifest in accordance with its severity. A Touch of the Morrigan that inflicts one point of damage looks like a minor scar or livid bruise, while one that delivers five points of damage leaves the subject almost entirely blackened and charred looking. The visible injury fades as the damage is healed. This power affects only vampires, ghouls and other supernatural creatures. It seems that Kindred cannot inflict their viciousness on mortals in this manner."
         ],
         "Description": "Charges the caster's hand with lethal energies, can do a one-shot discharge with a touch, inflicting activation successes in lethal damage. Expires if not used within a few hours.",
-        "Book": "VtR p144",
+        "Book": "VtR 144",
         "Rank": "•••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -3219,7 +3219,7 @@ export const CrùacData = [
             "The performer makes herself immune to the Vinculum and blood addiction when another Kindred’s Vitae is consumed. After this ritual is performed, if another vampire’s blood is taken in the same night, no step is taken toward a Vinculum with the provider of the blood, and no addiction to blood forms for the character. Of course, the blood donor has no idea that the recipient is immune. The ritual cannot be performed on another vampire, only on the caster’s self. The ritual does not countermand or alleviate any existing Vinculum to which the caster is already subject."
         ],
         "Description": "Caster becomes immune to increased Viniculum or blood addiction for one night.",
-        "Book": "VtR p145",
+        "Book": "VtR 145",
         "Rank": "••••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -3271,7 +3271,7 @@ export const CrùacData = [
             "This potent ritual taints the blood of its target, whether mortal or vampire. Roll Manipulation + Occult + Crúac in a contested action against the target’s Stamina + Blood Potency (resistance is reflexive). If the roll for the caster gets the most successes, that number of successes is inflicted as lethal damage to a mortal target. A vampire target immediately loses the equivalent of Vitae in his system and could be subject to frenzy as a result. Indeed, a vampiric victim might be forced into torpor. The caster must be able to see the intended victim when the ritual is performed."
         ],
         "Description": "If successful at the activation roll (which is contested), the victim takes the activation successes in lethal damage (if mortal) or in lost vitae (if vampire)",
-        "Book": "VtR p145",
+        "Book": "VtR 145",
         "Rank": "•••••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -3306,7 +3306,7 @@ export const CrùacData = [
             "When the performer calls upon the power of the Crone herself (by whatever name is used), and a Vitae is spent, the vampire’s mouth transforms into a maw of wicked, gnashing teeth. The vampire need not perform a grapple attack in order to bite a victim; the attack is made directly. The number of successes achieved on the ritual’s activation roll is added as bonus dice to attack rolls, and aggravated damage is inflicted. Note that these teeth are so vicious that feeding cannot occur when they are borne; too much blood is wasted in the gory slaughter to get nourishment. Feeding the Crone remains in effect until another Vitae is spent to revoke the change, or until sunrise."
         ],
         "Description": "The caster's teeth begin to inflict aggravated damage, grappling is no longer necessary to bite, and activation successes are added to bite rolls. Feeding is impossible.",
-        "Book": "VtR p145",
+        "Book": "VtR 145",
         "Rank": "•••••",
         "Long description": "Crúac",
         "Discipline": "Crúac"
@@ -3519,7 +3519,7 @@ export const BloodlineDisciplineData = [
         "Description": "Crone p186",
         "Discipline": "Amphivena",
         "Bloodline": "Gorgons",
-        "Book": "Crone p186",
+        "Book": "Crone 186",
     },
     {
         "Name": "Serpentine Rapport",
@@ -3541,7 +3541,7 @@ export const BloodlineDisciplineData = [
         "Description": "Affinity with serpents. Empower serpent ghouls.",
         "Discipline": "Amphivena",
         "Bloodline": "Gorgons",
-        "Book": "Crone p186",
+        "Book": "Crone 186",
     },
     {
         "Name": "Serpentine Union",
@@ -3567,7 +3567,7 @@ export const BloodlineDisciplineData = [
         "Description": "Fusion with a snake",
         "Discipline": "Amphivena",
         "Bloodline": "Gorgons",
-        "Book": "Crone p186",
+        "Book": "Crone 186",
     },
     {
         "Name": "Arms of the Amphisbaena",
@@ -3590,7 +3590,7 @@ export const BloodlineDisciplineData = [
         "Description": "Transform hands into snake heads",
         "Discipline": "Amphivena",
         "Bloodline": "Gorgons",
-        "Book": "Crone p186",
+        "Book": "Crone 186",
     },
     {
         "Name": "Medusa's Venom",
@@ -3622,7 +3622,7 @@ export const BloodlineDisciplineData = [
         "Description": "Transmute own blood into venom",
         "Discipline": "Amphivena",
         "Bloodline": "Gorgons",
-        "Book": "Crone p186",
+        "Book": "Crone 186",
     },
     {
         "Name": "Body of the Gorgon",
@@ -3645,7 +3645,7 @@ export const BloodlineDisciplineData = [
         "Description": "Tranform self into monstruous snake",
         "Discipline": "Amphivena",
         "Bloodline": "Gorgons",
-        "Book": "Crone p186",
+        "Book": "Crone 186",
     },
     {
         "Name": "Asphyx",
@@ -4140,7 +4140,7 @@ export const BloodlineDisciplineData = [
         "Description": "VTR p249",
         "Discipline": "Cachexy",
         "Bloodline": "Morbus",
-        "Book": "VTR p249",
+        "Book": "VTR 249",
     },
     {
         "Name": "Diagnose",
@@ -4162,7 +4162,7 @@ export const BloodlineDisciplineData = [
         "Description": "sense who is diseased",
         "Discipline": "Cachexy",
         "Bloodline": "Morbus",
-        "Book": "VTR p249",
+        "Book": "VTR 249",
     },
     {
         "Name": "Contaminate",
@@ -4181,7 +4181,7 @@ export const BloodlineDisciplineData = [
         "Description": "infect an object or area",
         "Discipline": "Cachexy",
         "Bloodline": "Morbus",
-        "Book": "VTR p249",
+        "Book": "VTR 249",
     },
     {
         "Name": "Inflame",
@@ -4205,7 +4205,7 @@ export const BloodlineDisciplineData = [
         "Description": "debilitate the infirm",
         "Discipline": "Cachexy",
         "Bloodline": "Morbus",
-        "Book": "VTR p249",
+        "Book": "VTR 249",
     },
     {
         "Name": "Plague-Bearer",
@@ -4231,7 +4231,7 @@ export const BloodlineDisciplineData = [
         "Description": "infect mortals or vampire from range",
         "Discipline": "Cachexy",
         "Bloodline": "Morbus",
-        "Book": "VTR p249",
+        "Book": "VTR 249",
     },
     {
         "Name": "Accelerate Disease",
@@ -4253,7 +4253,7 @@ export const BloodlineDisciplineData = [
         "Description": "damage the infirm",
         "Discipline": "Cachexy",
         "Bloodline": "Morbus",
-        "Book": "VTR p249",
+        "Book": "VTR 249",
     },
     {
         "Name": "Carrefour",
@@ -4428,7 +4428,7 @@ export const BloodlineDisciplineData = [
         "Description": "Chosen p71",
         "Discipline": "Catteveria",
         "Bloodline": "Sangiovanni",
-        "Book": "Chosen p71",
+        "Book": "Chosen 71",
     },
     {
         "Name": "Mortician's Appraisal",
@@ -4453,7 +4453,7 @@ export const BloodlineDisciplineData = [
         "Description": "Detect corpses and gain information from them",
         "Discipline": "Catteveria",
         "Bloodline": "Sangiovanni",
-        "Book": "Chosen p71",
+        "Book": "Chosen 71",
     },
     {
         "Name": "Shuffling Porter",
@@ -4476,7 +4476,7 @@ export const BloodlineDisciplineData = [
         "Description": "Rise mindless zombies",
         "Discipline": "Catteveria",
         "Bloodline": "Sangiovanni",
-        "Book": "Chosen p71",
+        "Book": "Chosen 71",
     },
     {
         "Name": "Ectoplasmic Manifestation",
@@ -4498,7 +4498,7 @@ export const BloodlineDisciplineData = [
         "Description": "Heal undead",
         "Discipline": "Catteveria",
         "Bloodline": "Sangiovanni",
-        "Book": "Chosen p71",
+        "Book": "Chosen 71",
     },
     {
         "Name": "The Predator's Bequest",
@@ -4521,7 +4521,7 @@ export const BloodlineDisciplineData = [
         "Description": "Empower risen corpses",
         "Discipline": "Catteveria",
         "Bloodline": "Sangiovanni",
-        "Book": "Chosen p71",
+        "Book": "Chosen 71",
     },
     {
         "Name": "Ultimo Respiro",
@@ -4545,7 +4545,7 @@ export const BloodlineDisciplineData = [
         "Description": "Damage undead",
         "Discipline": "Catteveria",
         "Bloodline": "Sangiovanni",
-        "Book": "Chosen p71",
+        "Book": "Chosen 71",
     },
     {
         "Name": "Chorozon",
@@ -4567,7 +4567,7 @@ export const BloodlineDisciplineData = [
         "Description": "BB p126",
         "Discipline": "Chorozon",
         "Bloodline": "Therion",
-        "Book": "BB p126",
+        "Book": "BB 126",
     },
     {
         "Name": "Consolamentum",
@@ -4587,7 +4587,7 @@ export const BloodlineDisciplineData = [
         "Description": "Reduce chances of degeneration",
         "Discipline": "Chorozon",
         "Bloodline": "Therion",
-        "Book": "BB p126",
+        "Book": "BB 126",
     },
     {
         "Name": "Convenenza",
@@ -4607,7 +4607,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ease riding the wave",
         "Discipline": "Chorozon",
         "Bloodline": "Therion",
-        "Book": "BB p126",
+        "Book": "BB 126",
     },
     {
         "Name": "Endura",
@@ -4627,7 +4627,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase other's humanity for acting in daylight",
         "Discipline": "Chorozon",
         "Bloodline": "Therion",
-        "Book": "BB p126",
+        "Book": "BB 126",
     },
     {
         "Name": "Reconsolatio",
@@ -4647,7 +4647,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase other's humanity for torpor duration",
         "Discipline": "Chorozon",
         "Bloodline": "Therion",
-        "Book": "BB p126",
+        "Book": "BB 126",
     },
     {
         "Name": "Constance ",
@@ -4689,7 +4689,7 @@ export const BloodlineDisciplineData = [
         "Description": "increase Resolve pool",
         "Discipline": "Constance",
         "Bloodline": "Icarians",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Courtoisie",
@@ -4707,7 +4707,7 @@ export const BloodlineDisciplineData = [
         "Description": "Invictus p189",
         "Discipline": "Courtoisie",
         "Bloodline": "Spina",
-        "Book": "Invictus p189",
+        "Book": "Invictus 189",
     },
     {
         "Name": "Clarity of Intention",
@@ -4732,7 +4732,7 @@ export const BloodlineDisciplineData = [
         "Description": "Remove total minuses by announcing attack. -1 is negated per success.",
         "Discipline": "Courtoisie",
         "Bloodline": "Spina",
-        "Book": "Invictus p189",
+        "Book": "Invictus 189",
     },
     {
         "Name": "The Importance of Conversation",
@@ -4759,7 +4759,7 @@ export const BloodlineDisciplineData = [
         "Description": "substitute social attributes for physical, or get +1",
         "Discipline": "Courtoisie",
         "Bloodline": "Spina",
-        "Book": "Invictus p189",
+        "Book": "Invictus 189",
     },
     {
         "Name": "Fair Warning, Fairly Given",
@@ -4788,7 +4788,7 @@ export const BloodlineDisciplineData = [
         "Description": "increase defense",
         "Discipline": "Courtoisie",
         "Bloodline": "Spina",
-        "Book": "Invictus p189",
+        "Book": "Invictus 189",
     },
     {
         "Name": "Penalty of Discourtesy",
@@ -4814,7 +4814,7 @@ export const BloodlineDisciplineData = [
         "Description": "steal Willpower",
         "Discipline": "Courtoisie",
         "Bloodline": "Spina",
-        "Book": "Invictus p189",
+        "Book": "Invictus 189",
     },
     {
         "Name": "Barbed Words",
@@ -4845,7 +4845,7 @@ export const BloodlineDisciplineData = [
         "Description": "damage target with quips",
         "Discipline": "Courtoisie",
         "Bloodline": "Spina",
-        "Book": "Invictus p189",
+        "Book": "Invictus 189",
     },
     {
         "Name": "Crochan",
@@ -4866,7 +4866,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p18",
         "Discipline": "Crochan",
         "Bloodline": "Bron",
-        "Book": "Legendary p18",
+        "Book": "Legendary 18",
     },
     {
         "Name": "Swift Flow of the Blood",
@@ -4897,7 +4897,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase blood expenditure for healing",
         "Discipline": "Crochan",
         "Bloodline": "Bron",
-        "Book": "Legendary p18",
+        "Book": "Legendary 18",
     },
     {
         "Name": "Blight of the Fisher King",
@@ -4926,7 +4926,7 @@ export const BloodlineDisciplineData = [
         "Description": "Impede vampire's healing",
         "Discipline": "Crochan",
         "Bloodline": "Bron",
-        "Book": "Legendary p18",
+        "Book": "Legendary 18",
     },
     {
         "Name": "Bitter Humours",
@@ -4957,7 +4957,7 @@ export const BloodlineDisciplineData = [
         "Description": "Corrupt vampire's healing",
         "Discipline": "Crochan",
         "Bloodline": "Bron",
-        "Book": "Legendary p18",
+        "Book": "Legendary 18",
     },
     {
         "Name": "Restauration of the Maimed",
@@ -4988,7 +4988,7 @@ export const BloodlineDisciplineData = [
         "Description": "Regenerate limbs",
         "Discipline": "Crochan",
         "Bloodline": "Bron",
-        "Book": "Legendary p18",
+        "Book": "Legendary 18",
     },
     {
         "Name": "Stolen Blood, Stolen Life",
@@ -5020,7 +5020,7 @@ export const BloodlineDisciplineData = [
         "Description": "Steal blood at distance",
         "Discipline": "Crochan",
         "Bloodline": "Bron",
-        "Book": "Legendary p18",
+        "Book": "Legendary 18",
     },
     {
         "Name": "Despond",
@@ -5061,7 +5061,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p47",
         "Discipline": "Despond",
         "Bloodline": "Children of Judas",
-        "Book": "Legendary p47",
+        "Book": "Legendary 47",
     },
     {
         "Name": "Self Doubt",
@@ -5083,7 +5083,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict the target with feeling of failure",
         "Discipline": "Despond",
         "Bloodline": "Children of Judas",
-        "Book": "Legendary p47",
+        "Book": "Legendary 47",
     },
     {
         "Name": "Doomed to Fail",
@@ -5107,7 +5107,7 @@ export const BloodlineDisciplineData = [
         "Description": "Push the victim to failure",
         "Discipline": "Despond",
         "Bloodline": "Children of Judas",
-        "Book": "Legendary p47",
+        "Book": "Legendary 47",
     },
     {
         "Name": "Dark Night of the Soul",
@@ -5131,7 +5131,7 @@ export const BloodlineDisciplineData = [
         "Description": "Engage the victim into self-destruction",
         "Discipline": "Despond",
         "Bloodline": "Children of Judas",
-        "Book": "Legendary p47",
+        "Book": "Legendary 47",
     },
     {
         "Name": "Melancholy",
@@ -5155,7 +5155,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict victim with depressed derangement",
         "Discipline": "Despond",
         "Bloodline": "Children of Judas",
-        "Book": "Legendary p47",
+        "Book": "Legendary 47",
     },
     {
         "Name": "The Earth Rejects Thee",
@@ -5173,7 +5173,7 @@ export const BloodlineDisciplineData = [
         "Description": "Embrace of suicidees' corpse",
         "Discipline": "Despond",
         "Bloodline": "Children of Judas",
-        "Book": "Legendary p47",
+        "Book": "Legendary 47",
     },
     {
         "Name": "Domus",
@@ -5193,7 +5193,7 @@ export const BloodlineDisciplineData = [
         "Description": "Invictus p192",
         "Discipline": "Domus",
         "Bloodline": "Malocusians",
-        "Book": "Invictus p192",
+        "Book": "Invictus 192",
     },
     {
         "Name": "The Web Trembles",
@@ -5214,7 +5214,7 @@ export const BloodlineDisciplineData = [
         "Description": "sense intruders",
         "Discipline": "Domus",
         "Bloodline": "Malocusians",
-        "Book": "Invictus p192",
+        "Book": "Invictus 192",
     },
     {
         "Name": "The Web Speaks",
@@ -5232,7 +5232,7 @@ export const BloodlineDisciplineData = [
         "Description": "sense everything",
         "Discipline": "Domus",
         "Bloodline": "Malocusians",
-        "Book": "Invictus p192",
+        "Book": "Invictus 192",
     },
     {
         "Name": "Loyal Web",
@@ -5250,7 +5250,7 @@ export const BloodlineDisciplineData = [
         "Description": "bonus to Physical and Social rolls, penalize intruders",
         "Discipline": "Domus",
         "Bloodline": "Malocusians",
-        "Book": "Invictus p192",
+        "Book": "Invictus 192",
     },
     {
         "Name": "The Spider's Cocoon",
@@ -5274,7 +5274,7 @@ export const BloodlineDisciplineData = [
         "Description": "combine with the haven",
         "Discipline": "Domus",
         "Bloodline": "Malocusians",
-        "Book": "Invictus p192",
+        "Book": "Invictus 192",
     },
     {
         "Name": "The Living Web",
@@ -5301,7 +5301,7 @@ export const BloodlineDisciplineData = [
         "Description": "change haven to grant bonuses, store blood",
         "Discipline": "Domus",
         "Bloodline": "Malocusians",
-        "Book": "Invictus p192",
+        "Book": "Invictus 192",
     },
     {
         "Name": "Embrocation",
@@ -5320,7 +5320,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p112",
         "Discipline": "Embrocation",
         "Bloodline": "Qedeshah",
-        "Book": "Hidden p112",
+        "Book": "Hidden 112",
     },
     {
         "Name": "Masaha \"To Anoint\"",
@@ -5343,7 +5343,7 @@ export const BloodlineDisciplineData = [
         "Description": "Grant force of will",
         "Discipline": "Embrocation",
         "Bloodline": "Qedeshah",
-        "Book": "Hidden p112",
+        "Book": "Hidden 112",
     },
     {
         "Name": "Lebhonah \"White Incense\"",
@@ -5368,7 +5368,7 @@ export const BloodlineDisciplineData = [
         "Description": "Calm everyone in the vicinity",
         "Discipline": "Embrocation",
         "Bloodline": "Qedeshah",
-        "Book": "Hidden p112",
+        "Book": "Hidden 112",
     },
     {
         "Name": "Mashkeh \"To Drink\"",
@@ -5389,7 +5389,7 @@ export const BloodlineDisciplineData = [
         "Description": "Heal other's wounds",
         "Discipline": "Embrocation",
         "Bloodline": "Qedeshah",
-        "Book": "Hidden p112",
+        "Book": "Hidden 112",
     },
     {
         "Name": "Berith \"The Covenant\"",
@@ -5413,7 +5413,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create an empatic link by blood",
         "Discipline": "Embrocation",
         "Bloodline": "Qedeshah",
-        "Book": "Hidden p112",
+        "Book": "Hidden 112",
     },
     {
         "Name": "Taharah \"Ritual Purity\"",
@@ -5436,7 +5436,7 @@ export const BloodlineDisciplineData = [
         "Description": "Sanctify a place",
         "Discipline": "Embrocation",
         "Bloodline": "Qedeshah",
-        "Book": "Hidden p112",
+        "Book": "Hidden 112",
     },
     {
         "Name": "Essentiaphagia",
@@ -5457,7 +5457,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ordo p179",
         "Discipline": "Essentiaphagia",
         "Bloodline": "Dragolescu",
-        "Book": "Ordo p179",
+        "Book": "Ordo 179",
     },
     {
         "Name": "Hunger for Essentia",
@@ -5500,7 +5500,7 @@ export const BloodlineDisciplineData = [
         "Description": "See ghosts and haunts",
         "Discipline": "Essentiaphagia",
         "Bloodline": "Dragolescu",
-        "Book": "Ordo p179",
+        "Book": "Ordo 179",
     },
     {
         "Name": "Draw Ectoplasm",
@@ -5535,7 +5535,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain Vitae and Willpower from ectoplasm",
         "Discipline": "Essentiaphagia",
         "Bloodline": "Dragolescu",
-        "Book": "Ordo p179",
+        "Book": "Ordo 179",
     },
     {
         "Name": "Essentia Diffusion",
@@ -5566,7 +5566,7 @@ export const BloodlineDisciplineData = [
         "Description": "Mimic ghost's numina",
         "Discipline": "Essentiaphagia",
         "Bloodline": "Dragolescu",
-        "Book": "Ordo p179",
+        "Book": "Ordo 179",
     },
     {
         "Name": "Mnemophagia",
@@ -5602,7 +5602,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain skill known by ghost in life",
         "Discipline": "Essentiaphagia",
         "Bloodline": "Dragolescu",
-        "Book": "Ordo p179",
+        "Book": "Ordo 179",
     },
     {
         "Name": "Ghost Consumption",
@@ -5640,7 +5640,7 @@ export const BloodlineDisciplineData = [
         "Description": "Merge with a ghost",
         "Discipline": "Essentiaphagia",
         "Bloodline": "Dragolescu",
-        "Book": "Ordo p179",
+        "Book": "Ordo 179",
     },
     {
         "Name": "Eupraxia",
@@ -5660,7 +5660,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ordo p184",
         "Discipline": "Eupraxia",
         "Bloodline": "Tismanu",
-        "Book": "Ordo p184",
+        "Book": "Ordo 184",
     },
     {
         "Name": "Blessing of Eupraxia",
@@ -5679,7 +5679,7 @@ export const BloodlineDisciplineData = [
         "Description": "Grant additional willpower use to others",
         "Discipline": "Eupraxia",
         "Bloodline": "Tismanu",
-        "Book": "Ordo p184",
+        "Book": "Ordo 184",
     },
     {
         "Name": "Absolve the Man",
@@ -5718,7 +5718,7 @@ export const BloodlineDisciplineData = [
         "Description": "Temporary cure of derangements",
         "Discipline": "Eupraxia",
         "Bloodline": "Tismanu",
-        "Book": "Ordo p184",
+        "Book": "Ordo 184",
     },
     {
         "Name": "Grace of Eupraxia",
@@ -5741,7 +5741,7 @@ export const BloodlineDisciplineData = [
         "Description": "Protect others from supernatural powers",
         "Discipline": "Eupraxia",
         "Bloodline": "Tismanu",
-        "Book": "Ordo p184",
+        "Book": "Ordo 184",
     },
     {
         "Name": "Refuge of Forbidance",
@@ -5781,7 +5781,7 @@ export const BloodlineDisciplineData = [
         "Description": "Protect a place from intrusion",
         "Discipline": "Eupraxia",
         "Bloodline": "Tismanu",
-        "Book": "Ordo p184",
+        "Book": "Ordo 184",
     },
     {
         "Name": "Exorcise the Beast",
@@ -5815,7 +5815,7 @@ export const BloodlineDisciplineData = [
         "Description": "Soothe or rouse other's beast",
         "Discipline": "Eupraxia",
         "Bloodline": "Tismanu",
-        "Book": "Ordo p184",
+        "Book": "Ordo 184",
     },
     {
         "Name": "Getsumei",
@@ -5834,7 +5834,7 @@ export const BloodlineDisciplineData = [
         "Description": "VTR p250",
         "Discipline": "Getsumei",
         "Bloodline": "Burakumin",
-        "Book": "VTR p250",
+        "Book": "VTR 250",
     },
     {
         "Name": "Moonlit Preservation",
@@ -5857,7 +5857,7 @@ export const BloodlineDisciplineData = [
         "Description": "Preserve corpse from decay",
         "Discipline": "Getsumei",
         "Bloodline": "Burakumin",
-        "Book": "VTR p250",
+        "Book": "VTR 250",
     },
     {
         "Name": "Crow's Harvest",
@@ -5880,7 +5880,7 @@ export const BloodlineDisciplineData = [
         "Description": "Vision of the last thing a corpse has seen before his death",
         "Discipline": "Getsumei",
         "Bloodline": "Burakumin",
-        "Book": "VTR p250",
+        "Book": "VTR 250",
     },
     {
         "Name": "Corpse Skin",
@@ -5902,7 +5902,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain armor from dead flesh",
         "Discipline": "Getsumei",
         "Bloodline": "Burakumin",
-        "Book": "VTR p250",
+        "Book": "VTR 250",
     },
     {
         "Name": "Channel of Hasu-ko",
@@ -5925,7 +5925,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create tiny automaton from corpse pieces",
         "Discipline": "Getsumei",
         "Bloodline": "Burakumin",
-        "Book": "VTR p250",
+        "Book": "VTR 250",
     },
     {
         "Name": "Convocation of Hotoke",
@@ -5950,7 +5950,7 @@ export const BloodlineDisciplineData = [
         "Description": "Raise dead bodies",
         "Discipline": "Getsumei",
         "Bloodline": "Burakumin",
-        "Book": "VTR p250",
+        "Book": "VTR 250",
     },
     {
         "Name": "Gifts of the Alu",
@@ -6312,7 +6312,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p100",
         "Discipline": "Gustus",
         "Bloodline": "Macellarius",
-        "Book": "Legendary p100",
+        "Book": "Legendary 100",
     },
     {
         "Name": "Pound of Flesh",
@@ -6334,7 +6334,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain Vitae by eating flesh",
         "Discipline": "Gustus",
         "Bloodline": "Macellarius",
-        "Book": "Legendary p100",
+        "Book": "Legendary 100",
     },
     {
         "Name": "Gorge",
@@ -6353,7 +6353,7 @@ export const BloodlineDisciplineData = [
         "Description": "Store additional Vitae",
         "Discipline": "Gustus",
         "Bloodline": "Macellarius",
-        "Book": "Legendary p100",
+        "Book": "Legendary 100",
     },
     {
         "Name": "Befoul",
@@ -6379,7 +6379,7 @@ export const BloodlineDisciplineData = [
         "Description": "Poison food",
         "Discipline": "Gustus",
         "Bloodline": "Macellarius",
-        "Book": "Legendary p100",
+        "Book": "Legendary 100",
     },
     {
         "Name": "Disgorge",
@@ -6399,7 +6399,7 @@ export const BloodlineDisciplineData = [
         "Description": "Vomit acidic blood",
         "Discipline": "Gustus",
         "Bloodline": "Macellarius",
-        "Book": "Legendary p100",
+        "Book": "Legendary 100",
     },
     {
         "Name": "Puissance of Flesh",
@@ -6436,7 +6436,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain attributes and skills of the eaten victim",
         "Discipline": "Gustus",
         "Bloodline": "Macellarius",
-        "Book": "Legendary p100",
+        "Book": "Legendary 100",
     },
     {
         "Name": "Hypnagogia",
@@ -6625,7 +6625,7 @@ export const BloodlineDisciplineData = [
         "Description": "Carthians p184",
         "Discipline": "Impurity",
         "Bloodline": "Deucalion",
-        "Book": "Carthians p184",
+        "Book": "Carthians 184",
     },
     {
         "Name": "Feeble Shadow",
@@ -6648,7 +6648,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict Mekhet weakness",
         "Discipline": "Impurity",
         "Bloodline": "Deucalion",
-        "Book": "Carthians p184",
+        "Book": "Carthians 184",
     },
     {
         "Name": "Outcast Haunt",
@@ -6671,7 +6671,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict Nosferatu weakness",
         "Discipline": "Impurity",
         "Bloodline": "Deucalion",
-        "Book": "Carthians p184",
+        "Book": "Carthians 184",
     },
     {
         "Name": "Depraved Succubus",
@@ -6704,7 +6704,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict Daeva weakness",
         "Discipline": "Impurity",
         "Bloodline": "Deucalion",
-        "Book": "Carthians p184",
+        "Book": "Carthians 184",
     },
     {
         "Name": "Stupid Savage",
@@ -6727,7 +6727,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict Gangrel weakness",
         "Discipline": "Impurity",
         "Bloodline": "Deucalion",
-        "Book": "Carthians p184",
+        "Book": "Carthians 184",
     },
     {
         "Name": "Mad Lord",
@@ -6756,7 +6756,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict Ventrue weakness",
         "Discipline": "Impurity",
         "Bloodline": "Deucalion",
-        "Book": "Carthians p184",
+        "Book": "Carthians 184",
     },
     {
         "Name": "Insomnium",
@@ -6775,7 +6775,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p15",
         "Discipline": "Insomnium",
         "Bloodline": "Alucinor",
-        "Book": "Hidden p15",
+        "Book": "Hidden 15",
     },
     {
         "Name": "Dream of the Many",
@@ -6809,7 +6809,7 @@ export const BloodlineDisciplineData = [
         "Description": "Read distant dreams",
         "Discipline": "Insomnium",
         "Bloodline": "Alucinor",
-        "Book": "Hidden p15",
+        "Book": "Hidden 15",
     },
     {
         "Name": "Lucid Dreaming",
@@ -6842,7 +6842,7 @@ export const BloodlineDisciplineData = [
         "Description": "Enter and change other's dreams",
         "Discipline": "Insomnium",
         "Bloodline": "Alucinor",
-        "Book": "Hidden p15",
+        "Book": "Hidden 15",
     },
     {
         "Name": "Chain of the Enslumbered Mind",
@@ -6872,7 +6872,7 @@ export const BloodlineDisciplineData = [
         "Description": "Dazzle target as if just waking",
         "Discipline": "Insomnium",
         "Bloodline": "Alucinor",
-        "Book": "Hidden p15",
+        "Book": "Hidden 15",
     },
     {
         "Name": "Blissfull Sleep",
@@ -6902,7 +6902,7 @@ export const BloodlineDisciplineData = [
         "Description": "Force sleep",
         "Discipline": "Insomnium",
         "Bloodline": "Alucinor",
-        "Book": "Hidden p15",
+        "Book": "Hidden 15",
     },
     {
         "Name": "Travails of Morpheus",
@@ -6925,7 +6925,7 @@ export const BloodlineDisciplineData = [
         "Description": "Harm people through dreams",
         "Discipline": "Insomnium",
         "Bloodline": "Alucinor",
-        "Book": "Hidden p15",
+        "Book": "Hidden 15",
     },
     {
         "Name": "Institutionalize",
@@ -6949,7 +6949,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p73",
         "Discipline": "Institutionalize",
         "Bloodline": "Morotrophians",
-        "Book": "Hidden p73",
+        "Book": "Hidden 73",
     },
     {
         "Name": "Hall of Power",
@@ -6979,7 +6979,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain insight of social dynamics into the Institution",
         "Discipline": "Institutionalize",
         "Bloodline": "Morotrophians",
-        "Book": "Hidden p73",
+        "Book": "Hidden 73",
     },
     {
         "Name": "Social Censure",
@@ -7016,7 +7016,7 @@ export const BloodlineDisciplineData = [
         "Description": "Force others to follow the rules of the institution",
         "Discipline": "Institutionalize",
         "Bloodline": "Morotrophians",
-        "Book": "Hidden p73",
+        "Book": "Hidden 73",
     },
     {
         "Name": "Off Limits",
@@ -7051,7 +7051,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create wards into the Institution",
         "Discipline": "Institutionalize",
         "Bloodline": "Morotrophians",
-        "Book": "Hidden p73",
+        "Book": "Hidden 73",
     },
     {
         "Name": "Panopticon",
@@ -7086,7 +7086,7 @@ export const BloodlineDisciplineData = [
         "Description": "See everything into the Institution",
         "Discipline": "Institutionalize",
         "Bloodline": "Morotrophians",
-        "Book": "Hidden p73",
+        "Book": "Hidden 73",
     },
     {
         "Name": "Lord of the Manor",
@@ -7118,7 +7118,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain control of the building",
         "Discipline": "Institutionalize",
         "Bloodline": "Morotrophians",
-        "Book": "Hidden p73",
+        "Book": "Hidden 73",
     },
     {
         "Name": "Kamen",
@@ -7137,7 +7137,7 @@ export const BloodlineDisciplineData = [
         "Description": "Invictus p199",
         "Discipline": "Kamen",
         "Bloodline": "Sotoha",
-        "Book": "Invictus p199",
+        "Book": "Invictus 199",
     },
     {
         "Name": "Tatemae",
@@ -7163,7 +7163,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hide feelings",
         "Discipline": "Kamen",
         "Bloodline": "Sotoha",
-        "Book": "Invictus p199",
+        "Book": "Invictus 199",
     },
     {
         "Name": "The Fitting Time",
@@ -7194,7 +7194,7 @@ export const BloodlineDisciplineData = [
         "Description": "Delay frenzy",
         "Discipline": "Kamen",
         "Bloodline": "Sotoha",
-        "Book": "Invictus p199",
+        "Book": "Invictus 199",
     },
     {
         "Name": "The Wave is the Man",
@@ -7218,7 +7218,7 @@ export const BloodlineDisciplineData = [
         "Description": "Remain calm when Riding the Wave",
         "Discipline": "Kamen",
         "Bloodline": "Sotoha",
-        "Book": "Invictus p199",
+        "Book": "Invictus 199",
     },
     {
         "Name": "Face of the Moment",
@@ -7251,7 +7251,7 @@ export const BloodlineDisciplineData = [
         "Description": "Fit any social situation",
         "Discipline": "Kamen",
         "Bloodline": "Sotoha",
-        "Book": "Invictus p199",
+        "Book": "Invictus 199",
     },
     {
         "Name": "Masking the Beast",
@@ -7272,7 +7272,7 @@ export const BloodlineDisciplineData = [
         "Description": "Remain calm and in control during frenzy",
         "Discipline": "Kamen",
         "Bloodline": "Sotoha",
-        "Book": "Invictus p199",
+        "Book": "Invictus 199",
     },
     {
         "Name": "Kingjan",
@@ -7291,7 +7291,7 @@ export const BloodlineDisciplineData = [
         "Description": "Chosen p91",
         "Discipline": "Kingjan",
         "Bloodline": "California Xiao",
-        "Book": "Chosen p91",
+        "Book": "Chosen 91",
     },
     {
         "Name": "Degradation",
@@ -7313,7 +7313,7 @@ export const BloodlineDisciplineData = [
         "Description": "Break victim's confidence, unless the Xiao is present",
         "Discipline": "Kingjan",
         "Bloodline": "California Xiao",
-        "Book": "Chosen p91",
+        "Book": "Chosen 91",
     },
     {
         "Name": "Mortify",
@@ -7341,7 +7341,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ashame victim of his desire",
         "Discipline": "Kingjan",
         "Bloodline": "California Xiao",
-        "Book": "Chosen p91",
+        "Book": "Chosen 91",
     },
     {
         "Name": "Kiss of Oblivion",
@@ -7366,7 +7366,7 @@ export const BloodlineDisciplineData = [
         "Description": "Drain emotions",
         "Discipline": "Kingjan",
         "Bloodline": "California Xiao",
-        "Book": "Chosen p91",
+        "Book": "Chosen 91",
     },
     {
         "Name": "Wave of Apathy",
@@ -7390,7 +7390,7 @@ export const BloodlineDisciplineData = [
         "Description": "Deny the victim of his inner strength",
         "Discipline": "Kingjan",
         "Bloodline": "California Xiao",
-        "Book": "Chosen p91",
+        "Book": "Chosen 91",
     },
     {
         "Name": "Blessed Detachment",
@@ -7417,7 +7417,7 @@ export const BloodlineDisciplineData = [
         "Description": "Destroy emotions",
         "Discipline": "Kingjan",
         "Bloodline": "California Xiao",
-        "Book": "Chosen p91",
+        "Book": "Chosen 91",
     },
     {
         "Name": "Licencieux",
@@ -7435,7 +7435,7 @@ export const BloodlineDisciplineData = [
         "Description": "Chosen p42",
         "Discipline": "Licencieux",
         "Bloodline": "Duchagne",
-        "Book": "Chosen p42",
+        "Book": "Chosen 42",
     },
     {
         "Name": "Intime",
@@ -7457,7 +7457,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inspire past emotions",
         "Discipline": "Licencieux",
         "Bloodline": "Duchagne",
-        "Book": "Chosen p42",
+        "Book": "Chosen 42",
     },
     {
         "Name": "La Touche Illusoire",
@@ -7479,7 +7479,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create the illusion of a touch of hand",
         "Discipline": "Licencieux",
         "Bloodline": "Duchagne",
-        "Book": "Chosen p42",
+        "Book": "Chosen 42",
     },
     {
         "Name": "Douleur Agréable",
@@ -7502,7 +7502,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict pain or pleasure",
         "Discipline": "Licencieux",
         "Bloodline": "Duchagne",
-        "Book": "Chosen p42",
+        "Book": "Chosen 42",
     },
     {
         "Name": "Insensate",
@@ -7527,7 +7527,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict sensory deprivation",
         "Discipline": "Licencieux",
         "Bloodline": "Duchagne",
-        "Book": "Chosen p42",
+        "Book": "Chosen 42",
     },
     {
         "Name": "Jardin d'Agrément",
@@ -7558,7 +7558,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create an overwhelming illusion",
         "Discipline": "Licencieux",
         "Bloodline": "Duchagne",
-        "Book": "Chosen p42",
+        "Book": "Chosen 42",
     },
     {
         "Name": "Linagem",
@@ -7871,7 +7871,7 @@ export const BloodlineDisciplineData = [
         "Description": "LS p178",
         "Discipline": "Memento Mori",
         "Bloodline": "Osites",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Twilight Sight",
@@ -7892,7 +7892,7 @@ export const BloodlineDisciplineData = [
         "Description": "See ghosts",
         "Discipline": "Memento Mori",
         "Bloodline": "Osites",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Consult with the Dead",
@@ -7930,7 +7930,7 @@ export const BloodlineDisciplineData = [
         "Description": "Speak with corpses",
         "Discipline": "Memento Mori",
         "Bloodline": "Osites",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Brush of Death",
@@ -7950,7 +7950,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict aggravated damage with touch",
         "Discipline": "Memento Mori",
         "Bloodline": "Osites",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Blood from Bone",
@@ -7984,7 +7984,7 @@ export const BloodlineDisciplineData = [
         "Description": "Steal vitae or knowledge from corpses",
         "Discipline": "Memento Mori",
         "Bloodline": "Osites",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Necrosis",
@@ -8002,7 +8002,7 @@ export const BloodlineDisciplineData = [
         "Description": "Damage targets",
         "Discipline": "Memento Mori",
         "Bloodline": "Osites",
-        "Book": "LS p178",
+        "Book": "LS 178",
     },
     {
         "Name": "Meminisse",
@@ -8164,7 +8164,7 @@ export const BloodlineDisciplineData = [
         "Description": "Chosen p32",
         "Discipline": "Mimetismo",
         "Bloodline": "Baddacelli",
-        "Book": "Chosen p32",
+        "Book": "Chosen 32",
     },
     {
         "Name": "Certain Sounds",
@@ -8183,7 +8183,7 @@ export const BloodlineDisciplineData = [
         "Description": "Locate people and objects by sound",
         "Discipline": "Mimetismo",
         "Bloodline": "Baddacelli",
-        "Book": "Chosen p32",
+        "Book": "Chosen 32",
     },
     {
         "Name": "Impersonation",
@@ -8220,7 +8220,7 @@ export const BloodlineDisciplineData = [
         "Description": "Mimic any human voice",
         "Discipline": "Mimetismo",
         "Bloodline": "Baddacelli",
-        "Book": "Chosen p32",
+        "Book": "Chosen 32",
     },
     {
         "Name": "Cacophony",
@@ -8245,7 +8245,7 @@ export const BloodlineDisciplineData = [
         "Description": "Mimic any sound",
         "Discipline": "Mimetismo",
         "Bloodline": "Baddacelli",
-        "Book": "Chosen p32",
+        "Book": "Chosen 32",
     },
     {
         "Name": "Echolocation",
@@ -8276,7 +8276,7 @@ export const BloodlineDisciplineData = [
         "Description": "\"See\" by sound",
         "Discipline": "Mimetismo",
         "Bloodline": "Baddacelli",
-        "Book": "Chosen p32",
+        "Book": "Chosen 32",
     },
     {
         "Name": "Aural Assault",
@@ -8298,7 +8298,7 @@ export const BloodlineDisciplineData = [
         "Description": "Sound attack",
         "Discipline": "Mimetismo",
         "Bloodline": "Baddacelli",
-        "Book": "Chosen p32",
+        "Book": "Chosen 32",
     },
     {
         "Name": "Mortualia",
@@ -8320,7 +8320,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ordo p188",
         "Discipline": "Mortualia",
         "Bloodline": "Libitinarius",
-        "Book": "Ordo p188",
+        "Book": "Ordo 188",
     },
     {
         "Name": "Exsuscito",
@@ -8343,7 +8343,7 @@ export const BloodlineDisciplineData = [
         "Description": "Wake torpid vampires quickly",
         "Discipline": "Mortualia",
         "Bloodline": "Libitinarius",
-        "Book": "Ordo p188",
+        "Book": "Ordo 188",
     },
     {
         "Name": "Internuntio",
@@ -8375,7 +8375,7 @@ export const BloodlineDisciplineData = [
         "Description": "Telepathically communicate with torpid vampires",
         "Discipline": "Mortualia",
         "Bloodline": "Libitinarius",
-        "Book": "Ordo p188",
+        "Book": "Ordo 188",
     },
     {
         "Name": "Autum",
@@ -8411,7 +8411,7 @@ export const BloodlineDisciplineData = [
         "Description": "Allow torpid vampire to consume prepared blood",
         "Discipline": "Mortualia",
         "Bloodline": "Libitinarius",
-        "Book": "Ordo p188",
+        "Book": "Ordo 188",
     },
     {
         "Name": "Munimen",
@@ -8435,7 +8435,7 @@ export const BloodlineDisciplineData = [
         "Description": "Physically protect torpid vampire",
         "Discipline": "Mortualia",
         "Bloodline": "Libitinarius",
-        "Book": "Ordo p188",
+        "Book": "Ordo 188",
     },
     {
         "Name": "Reminiscor",
@@ -8463,7 +8463,7 @@ export const BloodlineDisciplineData = [
         "Description": "Allow torpid vampire to retain capacity above his blood potency",
         "Discipline": "Mortualia",
         "Bloodline": "Libitinarius",
-        "Book": "Ordo p188",
+        "Book": "Ordo 188",
     },
     {
         "Name": "Nahdad",
@@ -8485,7 +8485,7 @@ export const BloodlineDisciplineData = [
         "Description": "LS p182",
         "Discipline": "Nahdad",
         "Bloodline": "Nepheshim",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Wanderer's Sense",
@@ -8504,7 +8504,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase survival",
         "Discipline": "Nahdad",
         "Bloodline": "Nepheshim",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "One Thousand Havens",
@@ -8524,7 +8524,7 @@ export const BloodlineDisciplineData = [
         "Description": "Find suitable havens",
         "Discipline": "Nahdad",
         "Bloodline": "Nepheshim",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Stomach of the Starved",
@@ -8543,7 +8543,7 @@ export const BloodlineDisciplineData = [
         "Description": "Feed from animal blood",
         "Discipline": "Nahdad",
         "Bloodline": "Nepheshim",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Nburu",
@@ -8698,7 +8698,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p26",
         "Discipline": "Nepenthe",
         "Bloodline": "Anvari",
-        "Book": "Hidden p26",
+        "Book": "Hidden 26",
     },
     {
         "Name": "Fragrance of the Hal Gil",
@@ -8729,7 +8729,7 @@ export const BloodlineDisciplineData = [
         "Description": "Sense narcotics",
         "Discipline": "Nepenthe",
         "Bloodline": "Anvari",
-        "Book": "Hidden p26",
+        "Book": "Hidden 26",
     },
     {
         "Name": "Inflict the Empty Soul",
@@ -8757,7 +8757,7 @@ export const BloodlineDisciplineData = [
         "Description": "Stop drug effects",
         "Discipline": "Nepenthe",
         "Bloodline": "Anvari",
-        "Book": "Hidden p26",
+        "Book": "Hidden 26",
     },
     {
         "Name": "Crave the Caress",
@@ -8787,7 +8787,7 @@ export const BloodlineDisciplineData = [
         "Description": "Induce drug addiction",
         "Discipline": "Nepenthe",
         "Bloodline": "Anvari",
-        "Book": "Hidden p26",
+        "Book": "Hidden 26",
     },
     {
         "Name": "Kiss of the Hal Gil",
@@ -8826,7 +8826,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict drug effects",
         "Discipline": "Nepenthe",
         "Bloodline": "Anvari",
-        "Book": "Hidden p26",
+        "Book": "Hidden 26",
     },
     {
         "Name": "Blessed Drowning",
@@ -8866,7 +8866,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict overdose",
         "Discipline": "Nepenthe",
         "Bloodline": "Anvari",
-        "Book": "Hidden p26",
+        "Book": "Hidden 26",
     },
     {
         "Name": "Obtenebration",
@@ -8885,7 +8885,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p64",
         "Discipline": "Obtenebration",
         "Bloodline": "Khaibit",
-        "Book": "Hidden p64",
+        "Book": "Hidden 64",
     },
     {
         "Name": "Night Sight",
@@ -8905,7 +8905,7 @@ export const BloodlineDisciplineData = [
         "Description": "See through complete darkness and see twilight entities",
         "Discipline": "Obtenebration",
         "Bloodline": "Khaibit",
-        "Book": "Hidden p64",
+        "Book": "Hidden 64",
     },
     {
         "Name": "Shadow Play",
@@ -8934,7 +8934,7 @@ export const BloodlineDisciplineData = [
         "Description": "Manipulate shadows",
         "Discipline": "Obtenebration",
         "Bloodline": "Khaibit",
-        "Book": "Hidden p64",
+        "Book": "Hidden 64",
     },
     {
         "Name": "Shroud of Night",
@@ -8976,7 +8976,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase ambient darkness",
         "Discipline": "Obtenebration",
         "Bloodline": "Khaibit",
-        "Book": "Hidden p64",
+        "Book": "Hidden 64",
     },
     {
         "Name": "Perambulam in Tenebris",
@@ -9004,7 +9004,7 @@ export const BloodlineDisciplineData = [
         "Description": "Teleport from shadow to shadow",
         "Discipline": "Obtenebration",
         "Bloodline": "Khaibit",
-        "Book": "Hidden p64",
+        "Book": "Hidden 64",
     },
     {
         "Name": "Shadow Form",
@@ -9029,7 +9029,7 @@ export const BloodlineDisciplineData = [
         "Description": "Become a shadow",
         "Discipline": "Obtenebration",
         "Bloodline": "Khaibit",
-        "Book": "Hidden p64",
+        "Book": "Hidden 64",
     },
     {
         "Name": "Ortam",
@@ -9050,7 +9050,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p75",
         "Discipline": "Ortam",
         "Bloodline": "Gulikan",
-        "Book": "Legendary p75",
+        "Book": "Legendary 75",
     },
     {
         "Name": "Essence Vitae Absolute",
@@ -9084,7 +9084,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create Discipline-imbued perfume",
         "Discipline": "Ortam",
         "Bloodline": "Gulikan",
-        "Book": "Legendary p75",
+        "Book": "Legendary 75",
     },
     {
         "Name": "Perfidy",
@@ -9102,7 +9102,7 @@ export const BloodlineDisciplineData = [
         "Description": "Invictus p196",
         "Discipline": "Perfidy",
         "Bloodline": "",
-        "Book": "Invictus p196",
+        "Book": "Invictus 196",
     },
     {
         "Name": "Sweeten Sin",
@@ -9132,7 +9132,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inspire base actions in accordance with vice",
         "Discipline": "Perfidy",
         "Bloodline": "",
-        "Book": "Invictus p196",
+        "Book": "Invictus 196",
     },
     {
         "Name": "Indiscretion",
@@ -9162,7 +9162,7 @@ export const BloodlineDisciplineData = [
         "Description": "Target reveals all they know about another",
         "Discipline": "Perfidy",
         "Bloodline": "",
-        "Book": "Invictus p196",
+        "Book": "Invictus 196",
     },
     {
         "Name": "Familiarity Fear",
@@ -9192,7 +9192,7 @@ export const BloodlineDisciplineData = [
         "Description": "Induce fear of a specific associate",
         "Discipline": "Perfidy",
         "Bloodline": "",
-        "Book": "Invictus p196",
+        "Book": "Invictus 196",
     },
     {
         "Name": "Passion Fugue",
@@ -9226,7 +9226,7 @@ export const BloodlineDisciplineData = [
         "Description": "Subject loses emotional ties",
         "Discipline": "Perfidy",
         "Bloodline": "",
-        "Book": "Invictus p196",
+        "Book": "Invictus 196",
     },
     {
         "Name": "Animus",
@@ -9265,7 +9265,7 @@ export const BloodlineDisciplineData = [
         "Description": "Reverse subject's loyalties",
         "Discipline": "Perfidy",
         "Bloodline": "",
-        "Book": "Invictus p196",
+        "Book": "Invictus 196",
     },
     {
         "Name": "Phagia",
@@ -9306,7 +9306,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain vitae from flesh",
         "Discipline": "Phagia",
         "Bloodline": "Noctuku",
-        "Book": "Chosen p51",
+        "Book": "Chosen 51",
     },
     {
         "Name": "Rasping Flesh",
@@ -9326,7 +9326,7 @@ export const BloodlineDisciplineData = [
         "Description": "Drink blood by skin",
         "Discipline": "Phagia",
         "Bloodline": "Noctuku",
-        "Book": "Chosen p51",
+        "Book": "Chosen 51",
     },
     {
         "Name": "Bloody Cache",
@@ -9350,7 +9350,7 @@ export const BloodlineDisciplineData = [
         "Description": "Keep flesh fresh to eat later",
         "Discipline": "Phagia",
         "Bloodline": "Noctuku",
-        "Book": "Chosen p51",
+        "Book": "Chosen 51",
     },
     {
         "Name": "Mortal Balm",
@@ -9376,7 +9376,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create protective coat from his victim's skin",
         "Discipline": "Phagia",
         "Bloodline": "Noctuku",
-        "Book": "Chosen p51",
+        "Book": "Chosen 51",
     },
     {
         "Name": "Blood Compulsion",
@@ -9413,7 +9413,7 @@ export const BloodlineDisciplineData = [
         "Description": "Draw blood to the user",
         "Discipline": "Phagia",
         "Bloodline": "Noctuku",
-        "Book": "Chosen p51",
+        "Book": "Chosen 51",
     },
     {
         "Name": "Ralab",
@@ -9431,7 +9431,7 @@ export const BloodlineDisciplineData = [
         "Description": "Crone p189",
         "Discipline": "Ralab",
         "Bloodline": "Asnâm",
-        "Book": "Crone p189",
+        "Book": "Crone 189",
     },
     {
         "Name": "Pact of Allure",
@@ -9454,7 +9454,7 @@ export const BloodlineDisciplineData = [
         "Description": "Exchange Presence with a mortal",
         "Discipline": "Ralab",
         "Bloodline": "Asnâm",
-        "Book": "Crone p189",
+        "Book": "Crone 189",
     },
     {
         "Name": "Haven of Flesh",
@@ -9474,7 +9474,7 @@ export const BloodlineDisciplineData = [
         "Description": "Merge into own ghoul",
         "Discipline": "Ralab",
         "Bloodline": "Asnâm",
-        "Book": "Crone p189",
+        "Book": "Crone 189",
     },
     {
         "Name": "The Infinite Chalice",
@@ -9504,7 +9504,7 @@ export const BloodlineDisciplineData = [
         "Description": "Feed ghouls at long distance",
         "Discipline": "Ralab",
         "Bloodline": "Asnâm",
-        "Book": "Crone p189",
+        "Book": "Crone 189",
     },
     {
         "Name": "Of Will Undivided",
@@ -9531,7 +9531,7 @@ export const BloodlineDisciplineData = [
         "Description": "Grant or drain Willpower from a ghoul",
         "Discipline": "Ralab",
         "Bloodline": "Asnâm",
-        "Book": "Crone p189",
+        "Book": "Crone 189",
     },
     {
         "Name": "Unholy Avatar",
@@ -9560,7 +9560,7 @@ export const BloodlineDisciplineData = [
         "Description": "Reincarnate within a child when destroyed",
         "Discipline": "Ralab",
         "Bloodline": "Asnâm",
-        "Book": "Crone p189",
+        "Book": "Crone 189",
     },
     {
         "Name": "Sakti Pata",
@@ -9709,7 +9709,7 @@ export const BloodlineDisciplineData = [
         "Description": "LS p182",
         "Discipline": "Scourge",
         "Bloodline": "Mortifiers of the Flesh",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Penitence Through Pain",
@@ -9735,7 +9735,7 @@ export const BloodlineDisciplineData = [
         "Description": "Regain Willpower",
         "Discipline": "Scourge",
         "Bloodline": "Mortifiers of the Flesh",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Share Pain",
@@ -9768,7 +9768,7 @@ export const BloodlineDisciplineData = [
         "Description": "Shift wound penalties around",
         "Discipline": "Scourge",
         "Bloodline": "Mortifiers of the Flesh",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Endure Pain",
@@ -9788,7 +9788,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ignore wound penalties",
         "Discipline": "Scourge",
         "Bloodline": "Mortifiers of the Flesh",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Weakness of Flesh",
@@ -9811,7 +9811,7 @@ export const BloodlineDisciplineData = [
         "Description": "Expand wound penalty boxes on target",
         "Discipline": "Scourge",
         "Bloodline": "Mortifiers of the Flesh",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Know Pain",
@@ -9840,7 +9840,7 @@ export const BloodlineDisciplineData = [
         "Description": "Debilitate target",
         "Discipline": "Scourge",
         "Bloodline": "Mortifiers of the Flesh",
-        "Book": "LS p182",
+        "Book": "LS 182",
     },
     {
         "Name": "Serendipity",
@@ -9859,7 +9859,7 @@ export const BloodlineDisciplineData = [
         "Description": "Carthians p188",
         "Discipline": "Serendipity",
         "Bloodline": "Zelani",
-        "Book": "Carthians p188",
+        "Book": "Carthians 188",
     },
     {
         "Name": "Turn of Phrase",
@@ -9888,7 +9888,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain social inspiration",
         "Discipline": "Serendipity",
         "Bloodline": "Zelani",
-        "Book": "Carthians p188",
+        "Book": "Carthians 188",
     },
     {
         "Name": "Guided Steps",
@@ -9908,7 +9908,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase reaction time",
         "Discipline": "Serendipity",
         "Bloodline": "Zelani",
-        "Book": "Carthians p188",
+        "Book": "Carthians 188",
     },
     {
         "Name": "Perfect Timing",
@@ -9928,7 +9928,7 @@ export const BloodlineDisciplineData = [
         "Description": "Help temporizing actions",
         "Discipline": "Serendipity",
         "Bloodline": "Zelani",
-        "Book": "Carthians p188",
+        "Book": "Carthians 188",
     },
     {
         "Name": "Prescience",
@@ -9949,7 +9949,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain skill insight",
         "Discipline": "Serendipity",
         "Bloodline": "Zelani",
-        "Book": "Carthians p188",
+        "Book": "Carthians 188",
     },
     {
         "Name": "Stars in Alignment",
@@ -9971,7 +9971,7 @@ export const BloodlineDisciplineData = [
         "Description": "Motion harmony",
         "Discipline": "Serendipity",
         "Bloodline": "Zelani",
-        "Book": "Carthians p188",
+        "Book": "Carthians 188",
     },
     {
         "Name": "Shihai",
@@ -9990,7 +9990,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p87",
         "Discipline": "Shihai",
         "Bloodline": "Kuufukuji",
-        "Book": "Legendary p87",
+        "Book": "Legendary 87",
     },
     {
         "Name": "Roots of the Earth",
@@ -10009,7 +10009,7 @@ export const BloodlineDisciplineData = [
         "Description": "Meditate to resist Wassail",
         "Discipline": "Shihai",
         "Bloodline": "Kuufukuji",
-        "Book": "Legendary p87",
+        "Book": "Legendary 87",
     },
     {
         "Name": "Sate the Tiger's Hunger",
@@ -10027,7 +10027,7 @@ export const BloodlineDisciplineData = [
         "Description": "Resist Wassail by taking damages",
         "Discipline": "Shihai",
         "Bloodline": "Kuufukuji",
-        "Book": "Legendary p87",
+        "Book": "Legendary 87",
     },
     {
         "Name": "Trap the Tiger's Fury",
@@ -10045,7 +10045,7 @@ export const BloodlineDisciplineData = [
         "Description": "Resist Frenzy by taking damages",
         "Discipline": "Shihai",
         "Bloodline": "Kuufukuji",
-        "Book": "Legendary p87",
+        "Book": "Legendary 87",
     },
     {
         "Name": "The Outside Eye Within",
@@ -10072,7 +10072,7 @@ export const BloodlineDisciplineData = [
         "Description": "Learn target Vice and Virtue",
         "Discipline": "Shihai",
         "Bloodline": "Kuufukuji",
-        "Book": "Legendary p87",
+        "Book": "Legendary 87",
     },
     {
         "Name": "Calm the Stalking Tiger",
@@ -10092,7 +10092,7 @@ export const BloodlineDisciplineData = [
         "Description": "Resist other's Frenzy by taking damages",
         "Discipline": "Shihai",
         "Bloodline": "Kuufukuji",
-        "Book": "Legendary p87",
+        "Book": "Legendary 87",
     },
     {
         "Name": "Spiritus Sancti",
@@ -10111,7 +10111,7 @@ export const BloodlineDisciplineData = [
         "Description": "AB p132",
         "Discipline": "Spiritus Sancti",
         "Bloodline": "Mystikoi",
-        "Book": "AB p132",
+        "Book": "AB 132",
     },
     {
         "Name": "Embracing the Invisible Other",
@@ -10130,7 +10130,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ride the wave, even when it would not normally be possible to do so",
         "Discipline": "Spiritus Sancti",
         "Bloodline": "Mystikoi",
-        "Book": "AB p132",
+        "Book": "AB 132",
     },
     {
         "Name": "Eyes of the Inner Archon",
@@ -10161,7 +10161,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ride the wave, and be able to see into the Twilight",
         "Discipline": "Spiritus Sancti",
         "Bloodline": "Mystikoi",
-        "Book": "AB p132",
+        "Book": "AB 132",
     },
     {
         "Name": "In the Presence of the Holy Spirit",
@@ -10194,7 +10194,7 @@ export const BloodlineDisciplineData = [
         "Description": "Speak with Twilight entities, but lose the ability to speak physically for the duration",
         "Discipline": "Spiritus Sancti",
         "Bloodline": "Mystikoi",
-        "Book": "AB p132",
+        "Book": "AB 132",
     },
     {
         "Name": "Communion with the Higher Realms",
@@ -10228,7 +10228,7 @@ export const BloodlineDisciplineData = [
         "Description": "Go unconscious for a time, but awaken with prophetic visions",
         "Discipline": "Spiritus Sancti",
         "Bloodline": "Mystikoi",
-        "Book": "AB p132",
+        "Book": "AB 132",
     },
     {
         "Name": "Accepting the Mantle of the Divine",
@@ -10273,7 +10273,7 @@ export const BloodlineDisciplineData = [
         "Description": "Grant self a powerful blessing, but are frenzied for the duration.",
         "Discipline": "Spiritus Sancti",
         "Bloodline": "Mystikoi",
-        "Book": "AB p132",
+        "Book": "AB 132",
     },
     {
         "Name": "Stigmatica",
@@ -10313,7 +10313,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p54",
         "Discipline": "Stigmatica",
         "Bloodline": "Gethsemani",
-        "Book": "Hidden p54",
+        "Book": "Hidden 54",
     },
     {
         "Name": "The Scourging",
@@ -10334,7 +10334,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain stamina from the blood of a scourging stigmata",
         "Discipline": "Stigmatica",
         "Bloodline": "Gethsemani",
-        "Book": "Hidden p54",
+        "Book": "Hidden 54",
     },
     {
         "Name": "Palms of Blood",
@@ -10355,7 +10355,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain strength from the blood of a palm stigmata",
         "Discipline": "Stigmatica",
         "Bloodline": "Gethsemani",
-        "Book": "Hidden p54",
+        "Book": "Hidden 54",
     },
     {
         "Name": "The Dolorous Nail",
@@ -10376,7 +10376,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain dexterity from the blood of a feet stigmata",
         "Discipline": "Stigmatica",
         "Bloodline": "Gethsemani",
-        "Book": "Hidden p54",
+        "Book": "Hidden 54",
     },
     {
         "Name": "Crown of Thorns",
@@ -10397,7 +10397,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain composure from the blood of a head stigmata",
         "Discipline": "Stigmatica",
         "Bloodline": "Gethsemani",
-        "Book": "Hidden p54",
+        "Book": "Hidden 54",
     },
     {
         "Name": "Spear of Longinus",
@@ -10420,7 +10420,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain blood potency from the blood of a spear stigmata",
         "Discipline": "Stigmatica",
         "Bloodline": "Gethsemani",
-        "Book": "Hidden p54",
+        "Book": "Hidden 54",
     },
     {
         "Name": "Sublunario ",
@@ -10484,7 +10484,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ordo p192",
         "Discipline": "Suikast",
         "Bloodline": "Azerkatil",
-        "Book": "Ordo p192",
+        "Book": "Ordo 192",
     },
     {
         "Name": "Will against Wyrm",
@@ -10502,7 +10502,7 @@ export const BloodlineDisciplineData = [
         "Description": "Resist Rotschreck and Predator Taint frenzy",
         "Discipline": "Suikast",
         "Bloodline": "Azerkatil",
-        "Book": "Ordo p192",
+        "Book": "Ordo 192",
     },
     {
         "Name": "Serene Ferocity",
@@ -10528,7 +10528,7 @@ export const BloodlineDisciplineData = [
         "Description": "Help riding the wave",
         "Discipline": "Suikast",
         "Bloodline": "Azerkatil",
-        "Book": "Ordo p192",
+        "Book": "Ordo 192",
     },
     {
         "Name": "Taste of the Dragon",
@@ -10550,7 +10550,7 @@ export const BloodlineDisciplineData = [
         "Description": "Help track harmed vampires",
         "Discipline": "Suikast",
         "Bloodline": "Azerkatil",
-        "Book": "Ordo p192",
+        "Book": "Ordo 192",
     },
     {
         "Name": "The Dragon's Own Fire",
@@ -10574,7 +10574,7 @@ export const BloodlineDisciplineData = [
         "Description": "Transform own blood into potent acid",
         "Discipline": "Suikast",
         "Bloodline": "Azerkatil",
-        "Book": "Ordo p192",
+        "Book": "Ordo 192",
     },
     {
         "Name": "Burn the Dragon's Blood",
@@ -10596,7 +10596,7 @@ export const BloodlineDisciplineData = [
         "Description": "Inflict Vitae loss",
         "Discipline": "Suikast",
         "Bloodline": "Azerkatil",
-        "Book": "Ordo p192",
+        "Book": "Ordo 192",
     },
     {
         "Name": "Sunnikuse",
@@ -10634,7 +10634,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p43",
         "Discipline": "Sunnikuse",
         "Bloodline": "Bohagande",
-        "Book": "Hidden p43",
+        "Book": "Hidden 43",
     },
     {
         "Name": "Jinx",
@@ -10656,7 +10656,7 @@ export const BloodlineDisciplineData = [
         "Description": "Brief luck leeching",
         "Discipline": "Sunnikuse",
         "Bloodline": "Bohagande",
-        "Book": "Hidden p43",
+        "Book": "Hidden 43",
     },
     {
         "Name": "Evil Eye",
@@ -10678,7 +10678,7 @@ export const BloodlineDisciplineData = [
         "Description": "Curse target",
         "Discipline": "Sunnikuse",
         "Bloodline": "Bohagande",
-        "Book": "Hidden p43",
+        "Book": "Hidden 43",
     },
     {
         "Name": "Calamity",
@@ -10704,7 +10704,7 @@ export const BloodlineDisciplineData = [
         "Description": "Curse through personal possessions",
         "Discipline": "Sunnikuse",
         "Bloodline": "Bohagande",
-        "Book": "Hidden p43",
+        "Book": "Hidden 43",
     },
     {
         "Name": "Twist of Fate",
@@ -10728,7 +10728,7 @@ export const BloodlineDisciplineData = [
         "Description": "Alter degree of success",
         "Discipline": "Sunnikuse",
         "Bloodline": "Bohagande",
-        "Book": "Hidden p43",
+        "Book": "Hidden 43",
     },
     {
         "Name": "Gift of the Crow",
@@ -10753,7 +10753,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain great amount of luck",
         "Discipline": "Sunnikuse",
         "Bloodline": "Bohagande",
-        "Book": "Hidden p43",
+        "Book": "Hidden 43",
     },
     {
         "Name": "Taurobolium ",
@@ -10771,7 +10771,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p60",
         "Discipline": "Taurobolium",
         "Bloodline": "Galloi",
-        "Book": "Legendary p60",
+        "Book": "Legendary 60",
     },
     {
         "Name": "Taurobolium",
@@ -10807,7 +10807,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase Presence and Manipulation",
         "Discipline": "Taurobolium",
         "Bloodline": "Galloi",
-        "Book": "Legendary p60",
+        "Book": "Legendary 60",
     },
     {
         "Name": "Tenure",
@@ -10829,7 +10829,7 @@ export const BloodlineDisciplineData = [
         "Description": "Invictus p202",
         "Discipline": "Tenure",
         "Bloodline": "Annunaku",
-        "Book": "Invictus p202",
+        "Book": "Invictus 202",
     },
     {
         "Name": "Whispers of the Chamber",
@@ -10872,7 +10872,7 @@ export const BloodlineDisciplineData = [
         "Description": "Find target within the territory",
         "Discipline": "Tenure",
         "Bloodline": "Annunaku",
-        "Book": "Invictus p202",
+        "Book": "Invictus 202",
     },
     {
         "Name": "Home Ground",
@@ -10897,7 +10897,7 @@ export const BloodlineDisciplineData = [
         "Description": "Alter environment modifiers",
         "Discipline": "Tenure",
         "Bloodline": "Annunaku",
-        "Book": "Invictus p202",
+        "Book": "Invictus 202",
     },
     {
         "Name": "Voice of the Castle",
@@ -10941,7 +10941,7 @@ export const BloodlineDisciplineData = [
         "Description": "Precise awareness of the territory",
         "Discipline": "Tenure",
         "Bloodline": "Annunaku",
-        "Book": "Invictus p202",
+        "Book": "Invictus 202",
     },
     {
         "Name": "Watching the Bounds",
@@ -10975,7 +10975,7 @@ export const BloodlineDisciplineData = [
         "Description": "Detect use of supernatural powers within the territory",
         "Discipline": "Tenure",
         "Bloodline": "Annunaku",
-        "Book": "Invictus p202",
+        "Book": "Invictus 202",
     },
     {
         "Name": "Master of the Desmene",
@@ -11000,7 +11000,7 @@ export const BloodlineDisciplineData = [
         "Description": "Alter environment modifiers anywhere in the territory",
         "Discipline": "Tenure",
         "Bloodline": "Annunaku",
-        "Book": "Invictus p202",
+        "Book": "Invictus 202",
     },
     {
         "Name": "Tezcatl",
@@ -11021,7 +11021,7 @@ export const BloodlineDisciplineData = [
         "Description": "Hidden p85",
         "Discipline": "Tezcatl",
         "Bloodline": "Nahualli",
-        "Book": "Hidden p85",
+        "Book": "Hidden 85",
     },
     {
         "Name": "Conciliation",
@@ -11045,7 +11045,7 @@ export const BloodlineDisciplineData = [
         "Description": "Prevent effect of Predator Taint",
         "Discipline": "Tezcatl",
         "Bloodline": "Nahualli",
-        "Book": "Hidden p85",
+        "Book": "Hidden 85",
     },
     {
         "Name": "Life's Reflection",
@@ -11067,7 +11067,7 @@ export const BloodlineDisciplineData = [
         "Description": "Give the Blush of Life, and prevent social penalties from Humanity",
         "Discipline": "Tezcatl",
         "Bloodline": "Nahualli",
-        "Book": "Hidden p85",
+        "Book": "Hidden 85",
     },
     {
         "Name": "Focus the Aspect",
@@ -11092,7 +11092,7 @@ export const BloodlineDisciplineData = [
         "Description": "Intensify one subject's emotion",
         "Discipline": "Tezcatl",
         "Bloodline": "Nahualli",
-        "Book": "Hidden p85",
+        "Book": "Hidden 85",
     },
     {
         "Name": "The Smoking Mirror",
@@ -11126,7 +11126,7 @@ export const BloodlineDisciplineData = [
         "Description": "Enter controlled anger frenzy",
         "Discipline": "Tezcatl",
         "Bloodline": "Nahualli",
-        "Book": "Hidden p85",
+        "Book": "Hidden 85",
     },
     {
         "Name": "The Show",
@@ -11144,7 +11144,7 @@ export const BloodlineDisciplineData = [
         "Description": "Legendary p34",
         "Discipline": "The Show",
         "Bloodline": "The Carnival",
-        "Book": "Legendary p34",
+        "Book": "Legendary 34",
     },
     {
         "Name": "Geek Trick",
@@ -11162,7 +11162,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ignore pain",
         "Discipline": "The Show",
         "Bloodline": "The Carnival",
-        "Book": "Legendary p34",
+        "Book": "Legendary 34",
     },
     {
         "Name": "Contortion",
@@ -11190,7 +11190,7 @@ export const BloodlineDisciplineData = [
         "Description": "Flex body in impossible ways",
         "Discipline": "The Show",
         "Bloodline": "The Carnival",
-        "Book": "Legendary p34",
+        "Book": "Legendary 34",
     },
     {
         "Name": "Spider Crawl",
@@ -11212,7 +11212,7 @@ export const BloodlineDisciplineData = [
         "Description": "Wall Walking",
         "Discipline": "The Show",
         "Bloodline": "The Carnival",
-        "Book": "Legendary p34",
+        "Book": "Legendary 34",
     },
     {
         "Name": "Rubber Skin",
@@ -11239,7 +11239,7 @@ export const BloodlineDisciplineData = [
         "Description": "Squeeze or stretch body",
         "Discipline": "The Show",
         "Bloodline": "The Carnival",
-        "Book": "Legendary p34",
+        "Book": "Legendary 34",
     },
     {
         "Name": "Siamese Twin",
@@ -11265,7 +11265,7 @@ export const BloodlineDisciplineData = [
         "Description": "Fusion flesh with another vampire",
         "Discipline": "The Show",
         "Bloodline": "The Carnival",
-        "Book": "Legendary p34",
+        "Book": "Legendary 34",
     },
     {
         "Name": "Web",
@@ -11294,7 +11294,7 @@ export const BloodlineDisciplineData = [
         "Description": "Invictus p207",
         "Discipline": "Web",
         "Bloodline": "Lynx",
-        "Book": "Invictus p207",
+        "Book": "Invictus 207",
     },
     {
         "Name": "Scan",
@@ -11328,7 +11328,7 @@ export const BloodlineDisciplineData = [
         "Description": "Gain insight of the network's relationship",
         "Discipline": "Web",
         "Bloodline": "Lynx",
-        "Book": "Invictus p207",
+        "Book": "Invictus 207",
     },
     {
         "Name": "Link",
@@ -11361,7 +11361,7 @@ export const BloodlineDisciplineData = [
         "Description": "Increase a relationship as if a blood ties exist",
         "Discipline": "Web",
         "Bloodline": "Lynx",
-        "Book": "Invictus p207",
+        "Book": "Invictus 207",
     },
     {
         "Name": "Insert/Delete",
@@ -11387,7 +11387,7 @@ export const BloodlineDisciplineData = [
         "Description": "Add/remove a target into a network, creating formal relationship",
         "Discipline": "Web",
         "Bloodline": "Lynx",
-        "Book": "Invictus p207",
+        "Book": "Invictus 207",
     },
     {
         "Name": "Edit",
@@ -11419,7 +11419,7 @@ export const BloodlineDisciplineData = [
         "Description": "Color a relationship within a network",
         "Discipline": "Web",
         "Bloodline": "Lynx",
-        "Book": "Invictus p207",
+        "Book": "Invictus 207",
     },
     {
         "Name": "Extrapolate",
@@ -11438,7 +11438,7 @@ export const BloodlineDisciplineData = [
         "Description": "Use previous power through the network",
         "Discipline": "Web",
         "Bloodline": "Lynx",
-        "Book": "Invictus p207",
+        "Book": "Invictus 207",
     },
     {
         "Name": "Xinyao",
@@ -11458,7 +11458,7 @@ export const BloodlineDisciplineData = [
         "Description": "Chosen p101",
         "Discipline": "Xinyao",
         "Bloodline": "Tianpàn Xiao",
-        "Book": "Chosen p101",
+        "Book": "Chosen 101",
     },
     {
         "Name": "Clear the Path",
@@ -11480,7 +11480,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ease social relations with mortals",
         "Discipline": "Xinyao",
         "Bloodline": "Tianpàn Xiao",
-        "Book": "Chosen p101",
+        "Book": "Chosen 101",
     },
     {
         "Name": "Stoke the Flames",
@@ -11504,7 +11504,7 @@ export const BloodlineDisciplineData = [
         "Description": "Outburst passions in the victim",
         "Discipline": "Xinyao",
         "Bloodline": "Tianpàn Xiao",
-        "Book": "Chosen p101",
+        "Book": "Chosen 101",
     },
     {
         "Name": "Sympathetic Call",
@@ -11530,7 +11530,7 @@ export const BloodlineDisciplineData = [
         "Description": "Summon people who share the same emotional state as the Xiao",
         "Discipline": "Xinyao",
         "Bloodline": "Tianpàn Xiao",
-        "Book": "Chosen p101",
+        "Book": "Chosen 101",
     },
     {
         "Name": "Guiding the Conflagration",
@@ -11552,7 +11552,7 @@ export const BloodlineDisciplineData = [
         "Description": "Direct the passions of a crowd",
         "Discipline": "Xinyao",
         "Bloodline": "Tianpàn Xiao",
-        "Book": "Chosen p101",
+        "Book": "Chosen 101",
     },
     {
         "Name": "Shackle the Soul",
@@ -11577,7 +11577,7 @@ export const BloodlineDisciplineData = [
         "Description": "Redirect any emotional impulse to the victim",
         "Discipline": "Xinyao",
         "Bloodline": "Tianpàn Xiao",
-        "Book": "Chosen p101",
+        "Book": "Chosen 101",
     },
     {
         "Name": "Zagovny",
@@ -11597,7 +11597,7 @@ export const BloodlineDisciplineData = [
         "Description": "Ordo p195",
         "Discipline": "Zagovny",
         "Bloodline": "Vedma",
-        "Book": "Ordo p195",
+        "Book": "Ordo 195",
     },
     {
         "Name": "Eye of Blood",
@@ -11633,7 +11633,7 @@ export const BloodlineDisciplineData = [
         "Description": "See through the subject's eyes",
         "Discipline": "Zagovny",
         "Bloodline": "Vedma",
-        "Book": "Ordo p195",
+        "Book": "Ordo 195",
     },
     {
         "Name": "Witch Cloak",
@@ -11665,7 +11665,7 @@ export const BloodlineDisciplineData = [
         "Description": "Visually merge with the background",
         "Discipline": "Zagovny",
         "Bloodline": "Vedma",
-        "Book": "Ordo p195",
+        "Book": "Ordo 195",
     },
     {
         "Name": "Witch Gaze",
@@ -11690,7 +11690,7 @@ export const BloodlineDisciplineData = [
         "Description": "Curse subject",
         "Discipline": "Zagovny",
         "Bloodline": "Vedma",
-        "Book": "Ordo p195",
+        "Book": "Ordo 195",
     },
     {
         "Name": "Blood Minions",
@@ -11718,7 +11718,7 @@ export const BloodlineDisciplineData = [
         "Description": "Create animal minions from blood",
         "Discipline": "Zagovny",
         "Bloodline": "Vedma",
-        "Book": "Ordo p195",
+        "Book": "Ordo 195",
     },
     {
         "Name": "Flight of the Warlock",
@@ -11740,7 +11740,7 @@ export const BloodlineDisciplineData = [
         "Description": "Teleport to a Blood Minion's location",
         "Discipline": "Zagovny",
         "Bloodline": "Vedma",
-        "Book": "Ordo p195",
+        "Book": "Ordo 195",
     },
 ]
 

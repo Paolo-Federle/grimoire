@@ -2,7 +2,7 @@ const securedLocationData = [
     {
         "Name": "Bastion",
         "Dots": "(• to •••••) {Size, Amenities, Battlements} (SH)",
-        "Book": "SaD p108",
+        "Book": "SaD 108",
         "Prerequisites": "Must belong to a motley, Wits Specialty in Oneiromancy.",
         "LongDescription": [
             'A motley must have at least three members to construct a Bastion. Like a shared Hollow, a Bastion is created through experience point expenditure by the troupe as a whole rather than a single individual. The general shape and look of the Bastion can be decided by the motley as a whole, but the details depend on the changeling with the highest Wyrd rating. A Bastion is psychoactive in the same way as the Hedge and adapts itself to the highest Wyrd present. A changeling of the Autumn Court might cause the Bastion to decorate itself in gold, red and brown of fallen leaves, and the walls take on the look of burnt wood. Bastions are created by dreamscaping the shared dream of the motley (see Changeling: the Lost, p. 195). This creation process is an extended action instead of a contested action and is performed as a Teamwork action with a target number of 20. Each roll of the extended action represents one full night of work. Once constructed, the Bastion is a permanent addition to the dreams of the motley, even dreams they don’t share with each other. No matter what the dream is about, the Bastion will always appear in some way, either as a prominent feature or just a misty image in the distance.',
@@ -25,7 +25,7 @@ const securedLocationData = [
     {
         "Name": "Den",
         "Dots": "(•••)",
-        "Book": "Skin p21, ChB p96",
+        "Book": "Skin 21, ChB p96",
         "Prerequisites": "",
         "LongDescription": [
             "It’s hard, in today’s world, to find privacy. This Merit, however, reflects a hidden space where a feral can be himself. It might be a secluded meadow, rambling old farm or warehouse in the bad side of town. Wherever it is, your character can transform into his animal aspect without drawing undue attention, then run or fly away with some measure of freedom.",
@@ -37,7 +37,7 @@ const securedLocationData = [
     {
         "Name": "Haunt",
         "Dots": "(• to •••••) {Fluidity, Residue, Utility} (SH)",
-        "Book": "GtSE p87",
+        "Book": "GtSE 87",
         "Prerequisites": "",
         "LongDescription": [
             "Prominently figuring in the death-legends of many cultures are caves, tunnels, cisterns, and doorways that lead into the depths of the Great Below. Sin-Eaters know all too well that such places contain the residue of darkness, stillness, and cold that comes with exposure to death. The lingering remnants of ghostly passage, or the association with death and the dead, can give some places a very real connection to the Underworld in truth. The Mayan term for such a place is a cenote, which refers to an underground cavern with a black pool that leads to the Underworld beneath its frigid, accepting waters. Experienced Sin-Eaters know, however, that these passages to the Great Below can and do occur in all manner of silent places; in addition to the usual suspects, cenotes can form in closets, basements, underground storage chambers, crawlspaces, or even in the industrial depths of an abandoned factory floor with labyrinthine passages amid the sunken machinery. More generally, the Bound refer to these places as low places, Avernian Gates. Those that have been claimed by a krewe or a Sin-Eater, though, are called Haunts. Sin-Eaters who have special access to a Haunt can rely on the power of the place to fuel their plasmic needs while also using the cenote as a soft point to cross into the Underworld.",
@@ -58,7 +58,7 @@ const securedLocationData = [
     {
         "Name": "Haven",
         "Dots": "(• to •••••) {Location, Size, Security}",
-        "Book": "VtR p100",
+        "Book": "VtR 100",
         "Prerequisites": "",
         "LongDescription": [
             "A haven is a place where a vampire sleeps, protected from the sun during the deadly daylight hours. Legends tell of vampires in dark, twisted citadels on high mountain peaks, complete with labyrinthine catacombs, but the reality is far less grandiose. In truth, a haven can be as simple as a sewer or an abandoned warehouse or a crate in a forgotten storage closet, as long as it is undisturbed between dawn and dusk.",
@@ -91,7 +91,7 @@ const securedLocationData = [
     {
         "Name": "Hollow",
         "Dots": "(• to •••••) {Size, Amenities, Doors, Wards} (SH)",
-        "Book": "CtL p94",
+        "Book": "CtL 94",
         "Prerequisites": "",
         "LongDescription": [
             "A door under the old town bridge that opens up into a quiet forest grove. A broken-down old shack that contains a fabulous mansion for those who know the right secret knock. A town high in the mountains that can only be found by the outside world but once a century. All of these are examples of the pockets of reality that changelings call Hollows — places in the Hedge that have been cleared of thorns and shaped into a stable location for inhabitation. Some Hollows are little more than a clear patch of grass in the midst of the great Thorn maze, while others are dwellings quite elaborate and fantastical. Changelings actively create many of these locations through sweat and toil, while other Hollows are simply found and adopted in an almost fully formed state.",
@@ -135,7 +135,7 @@ const securedLocationData = [
     {
         "Name": "Lair",
         "Dots": "(• to •••) (SH)",
-        "Book": "PtC p96",
+        "Book": "PtC 96",
         "Prerequisites": "",
         "LongDescription": [
             "A lair is a place a Promethean can retreat to where he can hide or defend himself from others. It can be anywhere, but the Created usually choose places far from the madding crowd of mortals. If they do choose to live close to mortals, their lairs are nondescript and contain multiple means of escape. Since most lairs are only temporary, meant to serve for only a few months before the Promethean resumes his Pilgrimage, they cost relatively few dots to acquire. When the Promethean abandons his lair, however, he loses the dots. If he later returns to the area, the Storyteller might decide that the lair is still operable, although it loses one of its dots due to lack of maintenance, until the Promethean can put some effort into restoring it.",
@@ -269,7 +269,7 @@ const securedLocationData = [
     {
         "Name": "Temple",
         "Dots": "(• to •••••)",
-        "Book": "CoC p42",
+        "Book": "CoC 42",
         "Prerequisites": "",
         "LongDescription": [
             "An Acolyte temple is similar to a vampire’s haven. (This Merit may, in fact, replace the Haven Merit, if this is somewhere that the cultists reside as well. If not, then each must be bought separately.) Similar to the Haven Merit, a Circle temple is represented by three component Traits: Location, Size and Security. All three are bought separately, and provide the exact same functions and mechanics listed under the Haven Merit (see pp. 100-101, Vampire: The Requiem).",
@@ -284,7 +284,7 @@ const universalFixturesData = [
     {
         "Name": "Archive",
         "Dots": "(• to •••••)",
-        "Book": "RoS p87",
+        "Book": "RoS 87",
         "Prerequisites": "Hollow",
         "LongDescription": [
             "Your character maintains, within his Hollow, a personal collection of useful information that can help with natural and supernatural research. Whether it’s in the form of a musty collection of occult tomes, a talking skull with several lifetimes of information at hand or a Glamour-powered computer network, the archive includes reference materials that can help the changeling learn about the world around him. The archive also offers insight into supernatural and occult topics that mortals cannot comprehend. In both fields of knowledge — mundane research and occult lore — this collection relates to one or more fields of specialization.",
@@ -311,7 +311,7 @@ const universalFixturesData = [
     {
         "Name": "Portable",
         "Dots": "(•)",
-        "Book": "Myst p141",
+        "Book": "Myst 141",
         "Prerequisites": "",
         "LongDescription": [
             "Archaeomancers, Reclaimants and other mages who travel extensively have learned to adapt their ability to set up a sanctum to a form that can be erected and taken down as needed to suit their nomadic ways. While portable sanctums require effort to create and are limited in some fashions, they give traveling mages a measure of safety that they might otherwise find sorely lacking.",
@@ -327,7 +327,7 @@ const universalFixturesData = [
     {
         "Name": "Geomantic Nexus",
         "Dots": "(• to •••••) Size and (• to •••) +1 attribute per dot",
-        "Book": "Ordo p202",
+        "Book": "Ordo 202",
         "Prerequisites": "Occult ••• and Wits ••",
         "LongDescription": [
             "Many Dragons within the Order are fascinated with geomancy — the magic of locations and spatial arrangements. While the Order’s version of geomancy borrows heavily from traditional feng shui and the European study of ley lines, their long spans of study (and their undead patience) have taken it in some unique directions.",
@@ -398,7 +398,7 @@ const mageLocationData = [
     {
         "Name": "Alchemical Lab",
         "Dots (*pre: Sanctum)": "(• to •••••) (SH)",
-        "Book": "TotM p146",
+        "Book": "TotM 146",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "Your character maintains a laboratory suitable for both the spiritual experiments and the production of gross materials arising from the occult practice of alchemy. The lab is equipped with a mix of ancient and contemporary equipment. Forges, furnaces and cauldrons produced to medieval specifications may sit in a climate-controlled environment, monitored by thermostats and carefully vented to the outdoors according to modern industrial safety practices. Your lab may recall the dank basement of a Renaissance castle but is just as likely to resemble a whirring bank of antiseptic, automated machinery straight from the factory floor of Merck or Schering-Plough.",
@@ -493,7 +493,7 @@ const mageLocationData = [
     {
         "Name": "Scriptorium",
         "Dots (*pre: Sanctum)": "(•• to •••••) (SH)",
-        "Book": "Myst p67",
+        "Book": "Myst 67",
         "Prerequisites": "Sanctum •",
         "LongDescription": [
             "The Scriptorium’s name comes from the workspaces of monasteries and ancient scribe houses. The Mysterium uses this term to designate a facility where mages distill general magical knowledge into formal rotes. Scriptoria contain thaumatology texts, useful workspace and esoteric features such as mystic diagrams and geomantic layouts said to improve concentration.",
@@ -508,7 +508,7 @@ const mageLocationData = [
     {
         "Name": "Summoning Circle",
         "Dots (*pre: Sanctum)": "(• to •••)",
-        "Book": "Summ p185",
+        "Book": "Summ 185",
         "Prerequisites": "Sanctum (Size) • or more",
         "LongDescription": [
             "Throughout the ages, willworkers have used bounded spaces to set their summonings apart from the outside world. In part, they do this for safety’s sake, but also to cultivate within themselves a sense of the gravity of the act, to separate this powerful form of magic from distractions, whether internal or external. Over time, many of these ritual spaces have become enhanced with their own uncanny character, sliding partway out of this world and partway into others.",
@@ -523,7 +523,7 @@ const changelingLocationData = [
     {
         "Name": "Hob Kin",
         "Dots (*pre: Hollow)": "(••)",
-        "Book": "RoS p92",
+        "Book": "RoS 92",
         "Prerequisites": "Hollow •+",
         "LongDescription": [
             "The roughly humanoid hobgoblins known as hobs are relatively ubiquitous in the Hedge. While almost none have anything mortals or changelings would regard as friends, hobs treat their own kind somewhat less ruthlessly than they treat others. For some reason, hobs react to your character as they react to their own kind. The reason for this reaction could include everything from your character having performed a service that aided several important hobs to your character having something in her nature that makes hobs react to her as one of their own. Your character may have no idea why hobs react as they do.",
@@ -534,7 +534,7 @@ const changelingLocationData = [
     {
         "Name": "Ritual Doorway",
         "Dots (*pre: Hollow)": "(•••) *pre: Doors •••••",
-        "Book": "RoS p95",
+        "Book": "RoS 95",
         "Prerequisites": "Hollow Doors (•••••)",
         "LongDescription": [
             "In addition to its normal doors, a Hollow bearing this Merit can be entered anywhere in the mortal world, as long as a certain ritual is performed. Examples of such rituals include your character lighting three red candles in front of a mirror and saying a particular poem by Yeats or fully immersing herself in a bathtub, pond or other still body of water after anointing herself with special oils and cutting her finger and bleeding a drop of blood into the water. This ritual allows your character to enter her Hollow from any possible entrance to the Hedge where this ritual can be performed, no matter where in the mortal world this entrance is located.",
@@ -548,7 +548,7 @@ const changelingLocationData = [
     {
         "Name": "Workshop",
         "Dots (*pre: Hollow)": "(• to •••••) *pre: Size >= Workshop",
-        "Book": "RoS p97",
+        "Book": "RoS 97",
         "Prerequisites": "Hollow, Hollow Size equal to points in Workshop",
         "LongDescription": [
             "Your character maintains, within her Hollow, a variety of equipment and tools that can help with the creation of natural and supernatural items. Whether in the form of a forge with metallurgy tools, an artist’s loft, a laboratory filled with beakers and crucibles or an orchard outfitted with the best gardening tools, your character’s Hollow has been outfitted with precisely the right things she needs to have on hand to create.",
@@ -561,7 +561,7 @@ const changelingLocationData = [
     {
         "Name": "Mobile Hollow",
         "Dots (*pre: Hollow)": "(• to •••••)",
-        "Book": "SaD p92",
+        "Book": "SaD 92",
         "Prerequisites": "Hollow (Size) •+, Wyrd 3",
         "LongDescription": [
             "Some Lost are not contented with a secret hiding place tucked deep into the Hedge; they require that their Hollow be able to move, whether because they are nomads, as a security measure, or merely as insurance that it remains hidden. These changelings put great effort into constructing Hollows with wheels (a bizarre carnival carriage of briarwood planks and hedgespun curtains), sails (a decaying pirate vessel that slowly grinds through the earth as a ship plies the sea), or even legs (a small hut with a thatch roof crested by four arches that split at the center to twist down into thorn-crusted spider legs). Some Hollows don’t have any apparent mode of travel. By some quirk of fate they are one place at one moment, and another the next. The mobility of the Hollow depends on the number of dots purchased in this Merit.",
@@ -1582,7 +1582,7 @@ const baronyLocationData = [
     {
         "Name": "Cant Fluency",
         "Dots": "(·) *Pre: Politics · or Occult · or Streetwise ·",
-        "Book": "DC p200",
+        "Book": "DC 200",
         "Prerequisites": "Politics • or Occult • or Streetwise •",
         "LongDescription": [
             "Your character is fluent in one kind of Kindred marks. She may have learned this academically as part of a dryly rational attempt to prepare herself for contact with street vampires, or she may have picked this up through experience. However she learned it, she is now fluent both in reading and creating a style of underground graffiti. She can read marks left behind in the style and leave marks for those fluent in it.",
@@ -1593,7 +1593,7 @@ const baronyLocationData = [
     {
         "Name": "Cant Savvy",
         "Dots": "(··) Pre: Intelligence ·· and Politics · or Occult · or Streetwise ·",
-        "Book": "DC p200",
+        "Book": "DC 200",
         "Prerequisites": "Intelligence •• and Investigation • or Occult • or Streetwise •",
         "LongDescription": [
             "Your character is adept at puzzling out the meanings of occulted graffiti with which she has no fluency . With time, she can decrypt the symbols and numerology of gang tags, Kindred marks, and other secret society glyphs. This enables her to read warning signs, coded directions, and declarations of territory intended for someone else.",
@@ -1604,7 +1604,7 @@ const baronyLocationData = [
     {
         "Name": "Connections",
         "Dots": "(· to ·····) Pre: Presence ·· and Politics ·· or Streetwise ···",
-        "Book": "DC p200",
+        "Book": "DC 200",
         "Prerequisites": "Presence •• and Politics •• or Streetwise •••",
         "LongDescription": [
             "Your character knows who is connected to whom in the feudal hierarchy. He’s met others face to face throughout the social network. He knows names and faces. He knows the relationships between Kindred.",
@@ -1617,7 +1617,7 @@ const baronyLocationData = [
     {
         "Name": "Domain",
         "Dots": "(· to ·····) Pre: Fealty Flaw",
-        "Book": "DC p200",
+        "Book": "DC 200",
         "Prerequisites": "",
         "LongDescription": [
             "Your character is lord over a domain granted to him by an overlord.",
@@ -1651,7 +1651,7 @@ const baronyLocationData = [
     {
         "Name": "Feeding Ground",
         "Dots": "(· to ·····) Pre: Fealty Flaw (for ···· and ····· only)",
-        "Book": "DC p202",
+        "Book": "DC 202",
         "Prerequisites": "Fealty Flaw (for •••• or ••••• only)",
         "LongDescription": [
             "Your character has been granted one of a limited number of exclusive hunting grounds in the city. This hunting ground is like a private patch of land to farm, which is making your character at least a crofter in the feudal hierarchy. Even with a large or rich hunting ground (•••• or •••••, say), your character does not have any feudal rank without the City Status Merit or any real authority without the Domain Merit.",
@@ -1664,7 +1664,7 @@ const baronyLocationData = [
     {
         "Name": "Site",
         "Dots": "(· to ·····)",
-        "Book": "DC p202",
+        "Book": "DC 202",
         "Prerequisites": "",
         "LongDescription": [
             "Your character has a degree of access to a useful building in the city or a degree of influence over a mortal who can provide access to such a place. A Site grants bonus dice equal to the Merit’s rating to the dice pools of one Skill when used on the premises. You must define the Site and the relevant Skill when this Merit is purchased. Purchase this Merit multiple times to represent multiple Sites or Sites that grant bonuses to multiple Skills.",
@@ -1677,7 +1677,7 @@ const baronyLocationData = [
     {
         "Name": "Tenant",
         "Dots": "(· to ·····) Pre: Domain Size per merit, Fealty Flaw",
-        "Book": "DC p202",
+        "Book": "DC 202",
         "Prerequisites": "Domain Size • per Merit, Fealty Flaw",
         "LongDescription": [
             "Your character has one or more Kindred tenants in his Domain. This vampire makes her haven in your domain in exchange for providing your character with a corvée. Each dot in this Merit entitles your character to call in the corvée roughly every month. Like the Resources Merit, the Storyteller needs to regulate the frequency with which you can use this Merit in order to prevent it from outclassing other Merits.",
@@ -1690,7 +1690,7 @@ const baronyLocationData = [
     {
         "Name": "Vassal",
         "Dots": "(· to ·····) Pre: Domain Size per merit, Fealty Flaw",
-        "Book": "DC p203",
+        "Book": "DC 203",
         "Prerequisites": "Domain Size • per Merit, Fealty Flaw",
         "LongDescription": [
             "This Merit functions essentially the same as the Tenant Merit but with a separate drawback. Your character cannot have more Vassals and Tenants in any combination than he has dots in the Domain Size Merit.",

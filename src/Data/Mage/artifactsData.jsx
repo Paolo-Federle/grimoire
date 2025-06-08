@@ -316,7 +316,7 @@ export const artifactData = [
       "19 (Sulfur) — For the remainder of the scene, the character can see, hear and speak with ghosts in the Twilight, as per the Death 1 spell, Speak with the Dead (p. 135, Mage: The Awakening).",
       "20 (Fate) — The Storyteller makes two rolls of the die. The effects of both secondary rolls come into play. If both rolls are the same, the duration or intensity of this effect is doubled, at the Storyteller’s discretion.",
     ],
-    "Book": "Unbidden p121"
+    "Book": "Unbidden 121"
   },
   {
     'Nome': 'Dreamstone',
@@ -348,7 +348,7 @@ export const artifactData = [
     'Descrizione': [
       "This curved knife — more like a kukri — certainly predates Wechsler’s creator, but Wechsler thinks of it as being his old master’s knife first and foremost. This is a true Artifact. Wechsler knows that, since he isn’t a mage, the knife shouldn’t work for him, and he has no idea why it does. Konstantinov’s Knife (Artifact •••••) provides its bearer with the ability to cast Honing the Form (Life 3, Mage: The Awakening, p. 186). The Storyteller rolls five dice for this spell’s effect. Konstantinov’s Knife carries 11 points of Mana. In combat, it functions as an impossibly dangerous knife, with a damage bonus of 3L.",
     ],
-    "Book": "Unbidden p71"
+    "Book": "Unbidden 71"
   },
   {
     'Nome': 'Peacebringer',
@@ -532,7 +532,7 @@ export const artifactData = [
       "This single coin (Artifact ••••••) has an ancient Death resonance. By itself its powers are limited. A character who touches the face of a Coin of the Ferryman to the flesh of another character can inflict one level of aggravated damage. Using the Coin in this manner during combat is difficult, for the coin must touch flesh and not mere clothing. See “Touching an Opponent,” p. 157 of the World of Darkness Rulebook. An attacker takes a –3 modifier on his Brawl roll (in addition to the target’s Defense) to touch his target with the Coin, and on a dramatic failure drops it.",
       "The Coin of the Ferryman also repels ghosts at a distance of two yards, as per the Space ••• spell “Ban,” specifically targeting ghosts. It is rumored — and Wechsler believes — that there is a second Coin of the Ferryman, and if both coins are brought together they provide much greater power over Death magic. The Coin holds 12 points of Mana."
     ],
-    "Book": "Unbidden p71"
+    "Book": "Unbidden 71"
   },
   {
     'Nome': 'Dirala’s Talon',

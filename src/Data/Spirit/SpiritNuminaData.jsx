@@ -10,7 +10,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p138"
+        "Book": "BoS 138"
     },
     {
         "Origin": "Arcadian",
@@ -21,7 +21,7 @@ const spiritNuminaData = [
         ],
         "Pool": "-",
         "Cost": "5e",
-        "Page": "Summ p221"
+        "Book": "Summ 221"
     },
     {
         "Origin": "Pyros",
@@ -33,7 +33,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p76"
+        "Book": "PB 76"
     },
     {
         "Origin": "",
@@ -44,7 +44,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse-Resolve",
         "Cost": "1e/animal",
-        "Page": "WoD p210"
+        "Book": "WoD 210"
     },
     {
         "Origin": "",
@@ -55,7 +55,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p152"
+        "Book": "BotD 152"
     },
     {
         "Origin": "Astral, Pandemonium, Abyssal",
@@ -66,7 +66,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p221"
+        "Book": "Summ 221"
     },
     {
         "Origin": "Pyros",
@@ -77,7 +77,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p76"
+        "Book": "PB 76"
     },
     {
         "Origin": "Infernal",
@@ -88,7 +88,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p52"
+        "Book": "Inf 52"
     },
     {
         "Origin": "Spirit",
@@ -99,7 +99,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p138"
+        "Book": "BoS 138"
     },
     {
         "Origin": "Ghostly",
@@ -111,7 +111,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p233, BotD p120"
+        "Book": "GTS 233, BotD p120"
     },
     {
         "Origin": "Aether, Arcadian, Abyssal",
@@ -122,7 +122,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p221"
+        "Book": "Summ 221"
     },
     {
         "Origin": "",
@@ -134,7 +134,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse vs Resolve+Composure",
         "Cost": "",
-        "Page": "PM p21"
+        "Book": "PM 21"
     },
     {
         "Origin": "Any",
@@ -145,7 +145,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p138"
+        "Book": "BoS 138"
     },
     {
         "Origin": "Lilithim",
@@ -156,7 +156,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "",
@@ -167,7 +167,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse - Stamina",
         "Cost": "",
-        "Page": "Asy p114"
+        "Book": "Asy 114"
     },
     {
         "Origin": "Elpidos",
@@ -178,7 +178,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p78"
+        "Book": "PB 78"
     },
     {
         "Origin": "Naturae",
@@ -193,7 +193,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p146"
+        "Book": "WtF 146"
     },
     {
         "Origin": "Naturae",
@@ -209,7 +209,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p111"
+        "Book": "WtF 111"
     },
     {
         "Origin": "",
@@ -220,7 +220,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p138"
+        "Book": "BoS 138"
     },
     {
         "Origin": "Any",
@@ -231,7 +231,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p138"
+        "Book": "BoS 138"
     },
     {
         "Origin": "Elpidos",
@@ -242,7 +242,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p78"
+        "Book": "PB 78"
     },
     {
         "Origin": "",
@@ -253,7 +253,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse vs Stamina + Athletics",
         "Cost": "",
-        "Page": "PM p50"
+        "Book": "PM 50"
     },
     {
         "Origin": "Naturae",
@@ -264,7 +264,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p138"
+        "Book": "BoS 138"
     },
     {
         "Origin": "Naturae",
@@ -275,7 +275,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p139"
+        "Book": "BoS 139"
     },
     {
         "Origin": "",
@@ -289,7 +289,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse vs Resolve + Composure",
         "Cost": "3e",
-        "Page": "NH-WD p27"
+        "Book": "NH-WD p27"
     },
     {
         "Origin": "Ghost",
@@ -300,7 +300,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse - Resolve",
         "Cost": "1e",
-        "Page": "WoD p211"
+        "Book": "WoD 211"
     },
     {
         "Origin": "Any",
@@ -311,7 +311,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p139, Pred p65"
+        "Book": "BoS 139, Pred p65"
     },
     {
         "Origin": "Naturae",
@@ -327,7 +327,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p111"
+        "Book": "WtF 111"
     },
     {
         "Origin": "Pyros",
@@ -338,7 +338,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PtC p252, PB p80"
+        "Book": "PtC 252, PB p80"
     },
     {
         "Origin": "Any",
@@ -349,7 +349,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p139"
+        "Book": "BoS 139"
     },
     {
         "Origin": "",
@@ -360,7 +360,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse - Resolve",
         "Cost": "1e",
-        "Page": "Inno p207"
+        "Book": "Inno 207"
     },
     {
         "Origin": "Naturae",
@@ -378,7 +378,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p127"
+        "Book": "WtF 127"
     },
     {
         "Origin": "Any",
@@ -389,7 +389,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p211"
+        "Book": "WoD 211"
     },
     {
         "Origin": "",
@@ -400,7 +400,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p139, BotD p120"
+        "Book": "BoS 139, BotD p120"
     },
     {
         "Origin": "Ghostly",
@@ -411,7 +411,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p281, BotD p120"
+        "Book": "GTS 281, BotD p120"
     },
     {
         "Origin": "",
@@ -422,7 +422,7 @@ const spiritNuminaData = [
         ],
         "Pool": "none",
         "Cost": "none",
-        "Page": "MP p91"
+        "Book": "MP 91"
     },
     {
         "Origin": "",
@@ -433,7 +433,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p139"
+        "Book": "BoS 139"
     },
     {
         "Origin": "Astral",
@@ -444,7 +444,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse vs Spell Potency",
         "Cost": "1e",
-        "Page": "AR p100"
+        "Book": "AR 100"
     },
     {
         "Origin": "Abyssal",
@@ -455,7 +455,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p221"
+        "Book": "Summ 221"
     },
     {
         "Origin": "Infernal",
@@ -466,7 +466,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p52"
+        "Book": "Inf 52"
     },
     {
         "Origin": "Kerberos",
@@ -477,7 +477,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "GTS p253"
+        "Book": "GTS 253"
     },
     {
         "Origin": "",
@@ -489,7 +489,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p140"
+        "Book": "BoS 140"
     },
     {
         "Origin": "Revenant",
@@ -500,7 +500,7 @@ const spiritNuminaData = [
         ],
         "Pool": "None",
         "Cost": "2e",
-        "Page": "Ant p38"
+        "Book": "Ant 38"
     },
     {
         "Origin": "Revenant",
@@ -511,7 +511,7 @@ const spiritNuminaData = [
         ],
         "Pool": "None",
         "Cost": "1wp & 1e",
-        "Page": "Ant p38"
+        "Book": "Ant 38"
     },
     {
         "Origin": "Naturae",
@@ -531,7 +531,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p146"
+        "Book": "WtF 146"
     },
     {
         "Origin": "Ghostly",
@@ -551,7 +551,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GS p36, BotD p122, BOS 140"
+        "Book": "GS 36, BotD p122, BOS 140"
     },
     {
         "Origin": "Pandemonium, Abyssal",
@@ -562,7 +562,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p221"
+        "Book": "Summ 221"
     },
     {
         "Origin": "",
@@ -573,7 +573,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p140, Pred p65"
+        "Book": "BoS 140, Pred p65"
     },
     {
         "Origin": "",
@@ -584,7 +584,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p140"
+        "Book": "BoS 140"
     },
     {
         "Origin": "Ghost",
@@ -595,7 +595,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p234, BotD p122"
+        "Book": "GTS 234, BotD p122"
     },
     {
         "Origin": "Kerberos",
@@ -606,7 +606,7 @@ const spiritNuminaData = [
         ],
         "Pool": "None",
         "Cost": "None",
-        "Page": "GTS p252"
+        "Book": "GTS 252"
     },
     {
         "Origin": "",
@@ -617,7 +617,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p140, Pred p66, BotD p191"
+        "Book": "BoS 140, Pred p66, BotD p191"
     },
     {
         "Origin": "Kerberos",
@@ -628,7 +628,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p152"
+        "Book": "BotD 152"
     },
     {
         "Origin": "Naturae",
@@ -639,7 +639,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p140"
+        "Book": "BoS 140"
     },
     {
         "Origin": "",
@@ -650,7 +650,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS 140, Pred p66"
+        "Book": "BoS 140, Pred p66"
     },
     {
         "Origin": "Elpidos",
@@ -661,7 +661,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p78"
+        "Book": "PB 78"
     },
     {
         "Origin": "Kerberos",
@@ -673,7 +673,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse - Resolve +Supernatural Resistance",
         "Cost": "1e",
-        "Page": "GTS p252"
+        "Book": "GTS 252"
     },
     {
         "Origin": "",
@@ -689,7 +689,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p141"
+        "Book": "BoS 141"
     },
     {
         "Origin": "Greater Elpidos",
@@ -704,7 +704,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p79"
+        "Book": "PB 79"
     },
     {
         "Origin": "Aether, Abyssal",
@@ -719,7 +719,7 @@ const spiritNuminaData = [
         ],
         "Pool": "None",
         "Cost": "1e/mana",
-        "Page": "Summ p222"
+        "Book": "Summ 222"
     },
     {
         "Origin": "Astral",
@@ -734,7 +734,7 @@ const spiritNuminaData = [
         ],
         "Pool": "None",
         "Cost": "None",
-        "Page": "AR p98"
+        "Book": "AR 98"
     },
     {
         "Origin": "",
@@ -749,7 +749,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p141, Pred p66"
+        "Book": "BoS 141, Pred p66"
     },
     {
         "Origin": "",
@@ -764,7 +764,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "UtS p7"
+        "Book": "UtS 7"
     },
     {
         "Origin": "Spirit",
@@ -779,7 +779,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p141, Inno p207"
+        "Book": "BoS 141, Inno p207"
     },
     {
         "Origin": "Spirit",
@@ -794,7 +794,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "MO p142"
+        "Book": "MO 142"
     },
     {
         "Origin": "",
@@ -809,7 +809,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p141, Pred p66"
+        "Book": "BoS 141, Pred p66"
     },
     {
         "Origin": "",
@@ -824,7 +824,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p141"
+        "Book": "BoS 141"
     },
     {
         "Origin": "Naturae",
@@ -842,7 +842,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p130"
+        "Book": "WtF 130"
     },
     {
         "Origin": "Stygian",
@@ -853,7 +853,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e/suxx",
-        "Page": "Summ p222"
+        "Book": "Summ 222"
     },
     {
         "Origin": "",
@@ -868,7 +868,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p141"
+        "Book": "BoS 141"
     },
     {
         "Origin": "",
@@ -883,7 +883,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p145"
+        "Book": "BotD 145"
     },
     {
         "Origin": "Ghost",
@@ -898,7 +898,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "",
-        "Page": "Summ p160"
+        "Book": "Summ 160"
     },
     {
         "Origin": "Naturae",
@@ -913,7 +913,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142"
+        "Book": "BoS 142"
     },
     {
         "Origin": "Primal Wild",
@@ -928,7 +928,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p222"
+        "Book": "Summ 222"
     },
     {
         "Origin": "",
@@ -943,7 +943,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p185"
+        "Book": "BotD 185"
     },
     {
         "Origin": "Pyros",
@@ -958,7 +958,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p76"
+        "Book": "PB 76"
     },
     {
         "Origin": "Spirit",
@@ -973,7 +973,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142, BotD p120"
+        "Book": "BoS 142, BotD p120"
     },
     {
         "Origin": "Ghostly",
@@ -988,7 +988,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p211"
+        "Book": "WoD 211"
     },
     {
         "Origin": "Ghostly",
@@ -1003,7 +1003,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p211"
+        "Book": "WoD 211"
     },
     {
         "Origin": "Stygian, Underworld",
@@ -1018,7 +1018,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p222"
+        "Book": "Summ 222"
     },
     {
         "Origin": "",
@@ -1033,7 +1033,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "SoM p182"
+        "Book": "SoM 182"
     },
     {
         "Origin": "Astral",
@@ -1048,7 +1048,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p110"
+        "Book": "AR 110"
     },
     {
         "Origin": "Pyros",
@@ -1063,7 +1063,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PtC p252, PB p77"
+        "Book": "PtC 252, PB p77"
     },
     {
         "Origin": "Naturae",
@@ -1078,7 +1078,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142"
+        "Book": "BoS 142"
     },
     {
         "Origin": "",
@@ -1093,7 +1093,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "MR p81"
+        "Book": "MR 81"
     },
     {
         "Origin": "",
@@ -1108,7 +1108,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inno p208"
+        "Book": "Inno 208"
     },
     {
         "Origin": "",
@@ -1123,7 +1123,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142, BotD p120"
+        "Book": "BoS 142, BotD p120"
     },
     {
         "Origin": "",
@@ -1138,7 +1138,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142"
+        "Book": "BoS 142"
     },
     {
         "Origin": "",
@@ -1153,7 +1153,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142"
+        "Book": "BoS 142"
     },
     {
         "Origin": "Elpidos",
@@ -1168,7 +1168,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p78"
+        "Book": "PB 78"
     },
     {
         "Origin": "Infernal",
@@ -1183,7 +1183,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p52"
+        "Book": "Inf 52"
     },
     {
         "Origin": "Naturae",
@@ -1198,7 +1198,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142"
+        "Book": "BoS 142"
     },
     {
         "Origin": "",
@@ -1213,7 +1213,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Reload p36"
+        "Book": "Reload 36"
     },
     {
         "Origin": "",
@@ -1228,7 +1228,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Harvest p10"
+        "Book": "Harvest 10"
     },
     {
         "Origin": "",
@@ -1243,7 +1243,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142, Pred p66"
+        "Book": "BoS 142, Pred p66"
     },
     {
         "Origin": "",
@@ -1258,7 +1258,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "UtS p7"
+        "Book": "UtS 7"
     },
     {
         "Origin": "Pyros",
@@ -1273,7 +1273,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p77"
+        "Book": "PB 77"
     },
     {
         "Origin": "Pyros",
@@ -1288,7 +1288,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p77"
+        "Book": "PB 77"
     },
     {
         "Origin": "",
@@ -1303,7 +1303,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "DoW p33"
+        "Book": "DoW 33"
     },
     {
         "Origin": "Pyros",
@@ -1318,7 +1318,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p77"
+        "Book": "PB 77"
     },
     {
         "Origin": "Pyros",
@@ -1333,7 +1333,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p77"
+        "Book": "PB 77"
     },
     {
         "Origin": "",
@@ -1348,7 +1348,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Summ p31"
+        "Book": "Summ 31"
     },
     {
         "Origin": "",
@@ -1363,7 +1363,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "CoH"
+        "Book": "CoH"
     },
     {
         "Origin": "",
@@ -1378,7 +1378,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142"
+        "Book": "BoS 142"
     },
     {
         "Origin": "Abyssal",
@@ -1393,7 +1393,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "IEwtA p113"
+        "Book": "IEwtA 113"
     },
     {
         "Origin": "",
@@ -1408,7 +1408,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p153"
+        "Book": "BotD 153"
     },
     {
         "Origin": "Lilithim",
@@ -1423,7 +1423,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "Greater Lilithim",
@@ -1438,7 +1438,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "Naturae",
@@ -1457,7 +1457,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p111"
+        "Book": "WtF 111"
     },
     {
         "Origin": "Naturae",
@@ -1475,7 +1475,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p141"
+        "Book": "WtF 141"
     },
     {
         "Origin": "Naturae",
@@ -1496,7 +1496,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p127"
+        "Book": "WtF 127"
     },
     {
         "Origin": "",
@@ -1511,7 +1511,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p153"
+        "Book": "BotD 153"
     },
     {
         "Origin": "",
@@ -1526,7 +1526,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "DoW p33"
+        "Book": "DoW 33"
     },
     {
         "Origin": "",
@@ -1541,7 +1541,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p142, BotD p120"
+        "Book": "BoS 142, BotD p120"
     },
     {
         "Origin": "Infernal",
@@ -1556,7 +1556,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p52"
+        "Book": "Inf 52"
     },
     {
         "Origin": "",
@@ -1571,7 +1571,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "13th p121"
+        "Book": "13th 121"
     },
     {
         "Origin": "",
@@ -1586,7 +1586,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143, 13th p121"
+        "Book": "BoS 143, 13th p121"
     },
     {
         "Origin": "",
@@ -1601,7 +1601,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p235"
+        "Book": "GTS 235"
     },
     {
         "Origin": "",
@@ -1616,7 +1616,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p211"
+        "Book": "WoD 211"
     },
     {
         "Origin": "",
@@ -1631,7 +1631,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p281"
+        "Book": "GTS 281"
     },
     {
         "Origin": "",
@@ -1646,7 +1646,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "SoM o183"
+        "Book": "SoM o183"
     },
     {
         "Origin": "Naturae",
@@ -1664,7 +1664,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p111"
+        "Book": "WtF 111"
     },
     {
         "Origin": "Naturae, Ghostly",
@@ -1679,7 +1679,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143, BotD p127"
+        "Book": "BoS 143, BotD p127"
     },
     {
         "Origin": "Greater Elpidos",
@@ -1694,7 +1694,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p79"
+        "Book": "PB 79"
     },
     {
         "Origin": "",
@@ -1709,7 +1709,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143"
+        "Book": "BoS 143"
     },
     {
         "Origin": "Naturae",
@@ -1724,7 +1724,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143"
+        "Book": "BoS 143"
     },
     {
         "Origin": "",
@@ -1739,7 +1739,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143, Pred p66, GTS 235"
+        "Book": "BoS 143, Pred p66, GTS 235"
     },
     {
         "Origin": "",
@@ -1754,7 +1754,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Mekh p116"
+        "Book": "Mekh 116"
     },
     {
         "Origin": "",
@@ -1769,7 +1769,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Asy p114"
+        "Book": "Asy 114"
     },
     {
         "Origin": "Naturae",
@@ -1784,7 +1784,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143"
+        "Book": "BoS 143"
     },
     {
         "Origin": "Naturae",
@@ -1799,7 +1799,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p143"
+        "Book": "BoS 143"
     },
     {
         "Origin": "Lilithim",
@@ -1814,7 +1814,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "",
@@ -1832,7 +1832,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p143"
+        "Book": "WtF 143"
     },
     {
         "Origin": "",
@@ -1847,7 +1847,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "HtV p345"
+        "Book": "HtV 345"
     },
     {
         "Origin": "",
@@ -1862,7 +1862,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p124"
+        "Book": "WtF 124"
     },
     {
         "Origin": "",
@@ -1877,7 +1877,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p144"
+        "Book": "BoS 144"
     },
     {
         "Origin": "",
@@ -1892,7 +1892,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p235, BotD p124"
+        "Book": "GTS 235, BotD p124"
     },
     {
         "Origin": "Pyros",
@@ -1907,7 +1907,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p77"
+        "Book": "PB 77"
     },
     {
         "Origin": "",
@@ -1922,7 +1922,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p144, BotD p127"
+        "Book": "BoS 144, BotD p127"
     },
     {
         "Origin": "Infernal",
@@ -1937,7 +1937,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p53"
+        "Book": "Inf 53"
     },
     {
         "Origin": "",
@@ -1952,7 +1952,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p212"
+        "Book": "WoD 212"
     },
     {
         "Origin": "Greater Lilithim",
@@ -1967,7 +1967,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "Lilithim",
@@ -1982,7 +1982,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "Spirit",
@@ -2002,7 +2002,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p144"
+        "Book": "BoS 144"
     },
     {
         "Origin": "Naturae",
@@ -2019,7 +2019,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p130"
+        "Book": "WtF 130"
     },
     {
         "Origin": "",
@@ -2034,7 +2034,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p235"
+        "Book": "GTS 235"
     },
     {
         "Origin": "",
@@ -2049,7 +2049,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p212, BoS 145"
+        "Book": "WoD 212, BoS 145"
     },
     {
         "Origin": "Elpidos",
@@ -2064,7 +2064,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p78"
+        "Book": "PB 78"
     },
     {
         "Origin": "",
@@ -2079,7 +2079,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p144"
+        "Book": "BotD 144"
     },
     {
         "Origin": "",
@@ -2094,7 +2094,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GS p38"
+        "Book": "GS 38"
     },
     {
         "Origin": "Elpidos",
@@ -2109,7 +2109,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p79"
+        "Book": "PB 79"
     },
     {
         "Origin": "Pyros",
@@ -2124,7 +2124,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PtC p252, PB p77"
+        "Book": "PtC 252, PB p77"
     },
     {
         "Origin": "",
@@ -2139,7 +2139,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "CoH"
+        "Book": "CoH"
     },
     {
         "Origin": "",
@@ -2157,7 +2157,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p117"
+        "Book": "WtF 117"
     },
     {
         "Origin": "Lilithim",
@@ -2172,7 +2172,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "Lilithim",
@@ -2187,7 +2187,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p80"
+        "Book": "PB 80"
     },
     {
         "Origin": "",
@@ -2202,7 +2202,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p145"
+        "Book": "BoS 145"
     },
     {
         "Origin": "Naturae, Infernal",
@@ -2217,7 +2217,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p145, Inf p53"
+        "Book": "BoS 145, Inf p53"
     },
     {
         "Origin": "Naturae",
@@ -2232,7 +2232,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p146"
+        "Book": "BoS 146"
     },
     {
         "Origin": "Pyros",
@@ -2247,7 +2247,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p77"
+        "Book": "PB 77"
     },
     {
         "Origin": "",
@@ -2262,7 +2262,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p146"
+        "Book": "BoS 146"
     },
     {
         "Origin": "Revenant",
@@ -2277,7 +2277,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p146, Ant p38"
+        "Book": "BoS 146, Ant p38"
     },
     {
         "Origin": "Greater Elpidos",
@@ -2292,7 +2292,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p79"
+        "Book": "PB 79"
     },
     {
         "Origin": "Astral",
@@ -2307,7 +2307,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p147"
+        "Book": "AR 147"
     },
     {
         "Origin": "",
@@ -2322,7 +2322,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Pred p66"
+        "Book": "Pred 66"
     },
     {
         "Origin": "Greater Elpidos",
@@ -2337,7 +2337,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p79"
+        "Book": "PB 79"
     },
     {
         "Origin": "",
@@ -2352,7 +2352,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p146"
+        "Book": "BoS 146"
     },
     {
         "Origin": "",
@@ -2367,7 +2367,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p82"
+        "Book": "BoS 82"
     },
     {
         "Origin": "",
@@ -2382,7 +2382,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "MP p90"
+        "Book": "MP 90"
     },
     {
         "Origin": "",
@@ -2397,7 +2397,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p146, Pred p66"
+        "Book": "BoS 146, Pred p66"
     },
     {
         "Origin": "",
@@ -2412,7 +2412,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Mekh p115"
+        "Book": "Mekh 115"
     },
     {
         "Origin": "",
@@ -2427,7 +2427,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Ant p117"
+        "Book": "Ant 117"
     },
     {
         "Origin": "",
@@ -2442,7 +2442,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "IEwtA p117"
+        "Book": "IEwtA 117"
     },
     {
         "Origin": "Astral, Naturae",
@@ -2457,7 +2457,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p115, WtF p132"
+        "Book": "AR 115, WtF p132"
     },
     {
         "Origin": "Astral",
@@ -2472,7 +2472,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p148"
+        "Book": "AR 148"
     },
     {
         "Origin": "",
@@ -2487,7 +2487,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p148"
+        "Book": "AR 148"
     },
     {
         "Origin": "Naturae",
@@ -2505,7 +2505,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p146"
+        "Book": "WtF 146"
     },
     {
         "Origin": "",
@@ -2520,7 +2520,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p156"
+        "Book": "AR 156"
     },
     {
         "Origin": "",
@@ -2535,7 +2535,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p281, BotD p123"
+        "Book": "GTS 281, BotD p123"
     },
     {
         "Origin": "",
@@ -2550,7 +2550,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "GTS p255"
+        "Book": "GTS 255"
     },
     {
         "Origin": "Revenant",
@@ -2565,7 +2565,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Ant p38"
+        "Book": "Ant 38"
     },
     {
         "Origin": "",
@@ -2580,7 +2580,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p178"
+        "Book": "BotD 178"
     },
     {
         "Origin": "",
@@ -2595,7 +2595,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Mekh p116"
+        "Book": "Mekh 116"
     },
     {
         "Origin": "Elpidos",
@@ -2610,7 +2610,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p79"
+        "Book": "PB 79"
     },
     {
         "Origin": "",
@@ -2625,7 +2625,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p147"
+        "Book": "BoS 147"
     },
     {
         "Origin": "",
@@ -2640,7 +2640,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p147"
+        "Book": "BoS 147"
     },
     {
         "Origin": "",
@@ -2655,7 +2655,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p147, Pred p66"
+        "Book": "BoS 147, Pred p66"
     },
     {
         "Origin": "Primal Wild",
@@ -2670,7 +2670,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p222"
+        "Book": "Summ 222"
     },
     {
         "Origin": "Spirit",
@@ -2685,7 +2685,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p147"
+        "Book": "BoS 147"
     },
     {
         "Origin": "Revenant",
@@ -2700,7 +2700,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Ant p38"
+        "Book": "Ant 38"
     },
     {
         "Origin": "",
@@ -2715,7 +2715,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Bos p147, Pred p67"
+        "Book": "Bos 147, Pred p67"
     },
     {
         "Origin": "",
@@ -2730,7 +2730,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p147"
+        "Book": "BoS 147"
     },
     {
         "Origin": "",
@@ -2745,7 +2745,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p147"
+        "Book": "BoS 147"
     },
     {
         "Origin": "",
@@ -2760,7 +2760,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p185"
+        "Book": "BotD 185"
     },
     {
         "Origin": "Infernal",
@@ -2775,7 +2775,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p53"
+        "Book": "Inf 53"
     },
     {
         "Origin": "",
@@ -2790,7 +2790,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "UtS p7"
+        "Book": "UtS 7"
     },
     {
         "Origin": "",
@@ -2805,7 +2805,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p148"
+        "Book": "BoS 148"
     },
     {
         "Origin": "Astral",
@@ -2820,7 +2820,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p106"
+        "Book": "AR 106"
     },
     {
         "Origin": "Pyros",
@@ -2835,7 +2835,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "PB p78"
+        "Book": "PB 78"
     },
     {
         "Origin": "",
@@ -2850,7 +2850,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p212, SS p53, Pred p67"
+        "Book": "WoD 212, SS p53, Pred p67"
     },
     {
         "Origin": "",
@@ -2865,7 +2865,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p148, Inn p209"
+        "Book": "BoS 148, Inn p209"
     },
     {
         "Origin": "",
@@ -2880,7 +2880,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "IEwtA p117"
+        "Book": "IEwtA 117"
     },
     {
         "Origin": "",
@@ -2895,7 +2895,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WoD p212"
+        "Book": "WoD 212"
     },
     {
         "Origin": "",
@@ -2910,7 +2910,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "AR p187"
+        "Book": "AR 187"
     },
     {
         "Origin": "",
@@ -2925,7 +2925,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p148"
+        "Book": "BoS 148"
     },
     {
         "Origin": "",
@@ -2940,7 +2940,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p148"
+        "Book": "BoS 148"
     },
     {
         "Origin": "Naturae",
@@ -2959,7 +2959,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p147"
+        "Book": "WtF 147"
     },
     {
         "Origin": "",
@@ -2974,7 +2974,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "HtV p345"
+        "Book": "HtV 345"
     },
     {
         "Origin": "",
@@ -2989,7 +2989,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p148, GS p68"
+        "Book": "BoS 148, GS p68"
     },
     {
         "Origin": "Supernal",
@@ -3004,7 +3004,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p222"
+        "Book": "Summ 222"
     },
     {
         "Origin": "",
@@ -3019,7 +3019,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Summ p30"
+        "Book": "Summ 30"
     },
     {
         "Origin": "",
@@ -3034,7 +3034,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p152"
+        "Book": "BotD 152"
     },
     {
         "Origin": "",
@@ -3049,7 +3049,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "DoW p33"
+        "Book": "DoW 33"
     },
     {
         "Origin": "Stygian, Underworld",
@@ -3064,7 +3064,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
-        "Page": "Summ p223"
+        "Book": "Summ 223"
     },
     {
         "Origin": "",
@@ -3079,7 +3079,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p149"
+        "Book": "BoS 149"
     },
     {
         "Origin": "",
@@ -3094,7 +3094,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BotD p152"
+        "Book": "BotD 152"
     },
     {
         "Origin": "",
@@ -3116,7 +3116,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "WtF p118"
+        "Book": "WtF 118"
     },
     {
         "Origin": "Daimonic, Aether, Abyssal",
@@ -3131,7 +3131,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse vs Res+Gnosis",
         "Cost": "-",
-        "Page": "Summ p223"
+        "Book": "Summ 223"
     },
     {
         "Origin": "Infernal",
@@ -3146,7 +3146,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p54"
+        "Book": "Inf 54"
     },
     {
         "Origin": "Alien",
@@ -3161,7 +3161,7 @@ const spiritNuminaData = [
         ],
         "Pool": "-",
         "Cost": "-",
-        "Page": "Summ p223"
+        "Book": "Summ 223"
     },
     {
         "Origin": "Infernal",
@@ -3176,7 +3176,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Inf p54"
+        "Book": "Inf 54"
     },
     {
         "Origin": "",
@@ -3191,7 +3191,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Mekh p116"
+        "Book": "Mekh 116"
     },
     {
         "Origin": "Naturae",
@@ -3206,7 +3206,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "BoS p149"
+        "Book": "BoS 149"
     },
     {
         "Origin": "Revenant",
@@ -3221,7 +3221,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Page": "Ant p38"
+        "Book": "Ant 38"
     }
 ]
 

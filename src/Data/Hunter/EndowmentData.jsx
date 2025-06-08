@@ -563,7 +563,7 @@ const elixirData = [
         "Endowment": "A Glimpse of After",
         "Rating": "•••",
         "Description   Dice Pool = Stamina + Elixir": "Ignores wound penalties and only needs to roll for consciousness when rightmost Health is Lethal",
-        "Book": "HTV p174"
+        "Book": "HTV 174"
     },
     {
         "Endowment": "Agora Salve",
@@ -575,43 +575,43 @@ const elixirData = [
         "Endowment": "Amun's Water",
         "Rating": "••••",
         "Description   Dice Pool = Stamina + Elixir": "Become invisible",
-        "Book": "HTV p176"
+        "Book": "HTV 176"
     },
     {
         "Endowment": "Balm of Chronos",
         "Rating": "••••",
         "Description   Dice Pool = Stamina + Elixir": "Doubles Initiative modifier and Defense score. If used in a non-combat situation, gains a +3  to extended rolls.",
-        "Book": "SpSl p149"
+        "Book": "SpSl 149"
     },
     {
         "Endowment": "Bennu-Bird Feather",
         "Rating": "•••",
         "Description   Dice Pool = Stamina + Elixir": "Heal 2B or 1L per success with most severe healed first",
-        "Book": "HTV p174"
+        "Book": "HTV 174"
     },
     {
         "Endowment": "Blood of the Cobra",
         "Rating": "•••••",
         "Description   Dice Pool = Stamina + Elixir": "+1 Strength and Dexterity per success rolled and blood becomes poisonous.",
-        "Book": "HTV p178"
+        "Book": "HTV 178"
     },
     {
         "Endowment": "Breath of the Dragon",
         "Rating": "••••",
         "Description   Dice Pool = Stamina + Elixir": "Hunter breathes out a Toxicity 4 poison at close combat range",
-        "Book": "HTV p175"
+        "Book": "HTV 175"
     },
     {
         "Endowment": "Breath of Ma'at",
         "Rating": "••",
         "Description   Dice Pool = Stamina + Elixir": "Reroll a Morality check",
-        "Book": "HTV p173"
+        "Book": "HTV 173"
     },
     {
         "Endowment": "Crocodile Tears",
         "Rating": "•",
         "Description   Dice Pool = Stamina + Elixir": "Appear nearly dead",
-        "Book": "HTV p172"
+        "Book": "HTV 172"
     },
     {
         "Endowment": "Drop of Dreams",
@@ -623,67 +623,67 @@ const elixirData = [
         "Endowment": "Elixir of the Fiery Heart",
         "Rating": "••",
         "Description   Dice Pool = Stamina + Elixir": "Resist fear effects equal to Elixir",
-        "Book": "HTV p174"
+        "Book": "HTV 174"
     },
     {
         "Endowment": "Eye of Ra",
         "Rating": "•",
         "Description   Dice Pool = Stamina + Elixir": "Gain a bonus to Perception equal to Elixir",
-        "Book": "HTV p173"
+        "Book": "HTV 173"
     },
     {
         "Endowment": "Gentle Mind",
         "Rating": "••",
         "Description   Dice Pool = Stamina + Elixir": "Do not increase Disquet from Prometheans on ties, and can spend Willpower to reduce Stage 4 to Stage 3 in others.",
-        "Book": "HMR p29"
+        "Book": "HMR 29"
     },
     {
         "Endowment": "Hound Mark",
         "Rating": "• or •••",
         "Description   Dice Pool = Stamina + Elixir": "Perceive monsters within 5' (fae only with •, all monsters with •••)",
-        "Book": "HMR p53"
+        "Book": "HMR 53"
     },
     {
         "Endowment": "Hunting Sight of the Asp",
         "Rating": "•",
         "Description   Dice Pool = Stamina + Elixir": "See things in the thermal spectrum",
-        "Book": "NS p144"
+        "Book": "NS 144"
     },
     {
         "Endowment": "Incense of the Next World",
         "Rating": "••••",
         "Description   Dice Pool = Stamina + Elixir": "Astral project into Twilight",
-        "Book": "HTV p176"
+        "Book": "HTV 176"
     },
     {
         "Endowment": "Justice of Ma'at",
         "Rating": "••",
         "Description   Dice Pool = Stamina + Elixir": "Bonus to Investigation equal to Elixir and +1 to Degeneration rolls",
-        "Book": "Slash p163"
+        "Book": "Slash 163"
     },
     {
         "Endowment": "Liar Pills",
         "Rating": "•",
         "Description   Dice Pool = Stamina + Elixir": "Betray no emotion (and lie convincingly) for a scene",
-        "Book": "HMR p130"
+        "Book": "HMR 130"
     },
     {
         "Endowment": "Mesmeric Vapors",
         "Rating": "•••••",
         "Description   Dice Pool = Stamina + Elixir": "Breathe out a mind controlling smoke",
-        "Book": "HTV p178"
+        "Book": "HTV 178"
     },
     {
         "Endowment": "Mind-Talking Drug",
         "Rating": "•••",
         "Description   Dice Pool = Stamina + Elixir": "Mentally converse or scan the surface thoughts of another",
-        "Book": "HTV p175"
+        "Book": "HTV 175"
     },
     {
         "Endowment": "Nehebkau Tears",
         "Rating": "•••••",
         "Description   Dice Pool = Stamina + Elixir": "Temporarily become a Vampire",
-        "Book": "NS p145"
+        "Book": "NS 145"
     },
     {
         "Endowment": "Red Resin",
@@ -695,7 +695,7 @@ const elixirData = [
         "Endowment": "The Tallyman's Eyes",
         "Rating": "•••",
         "Description   Dice Pool = Stamina + Elixir": "Identify any magic user in sight",
-        "Book": "WF p127"
+        "Book": "WF 127"
     },
     {
         "Endowment": "Thoth’s Whisper",
@@ -707,7 +707,7 @@ const elixirData = [
         "Endowment": "Vapors of Mercury",
         "Rating": "••",
         "Description   Dice Pool = Stamina + Elixir": "The blood of the hunter transmutes into a silver substance that burns like acid if touched by a werewolf.",
-        "Book": "SpSl p149"
+        "Book": "SpSl 149"
     }
 ]
 

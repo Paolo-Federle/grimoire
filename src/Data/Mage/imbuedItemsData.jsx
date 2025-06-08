@@ -832,7 +832,7 @@ export const imbuedItemsData = [
         'Descrizione': [
             "This simple diamond earring (Imbued Item ••••) provides Wechsler both with magical defenses and Mana. It contains the spell “Counterspell Prime” (p. 222 of Mage: The Awakening). Roll five dice for this effect. Kupa’s Earring also holds 11 points of Mana.",
         ],
-        "Book": "Unbidden p71"
+        "Book": "Unbidden 71"
     },
     {
         'Nome': 'Light Eater',

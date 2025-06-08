@@ -4,7 +4,7 @@ export const giftData = [
         "Name": "Agony",
         "Description": "",
         "Cost": "",
-        "Book": "XXXXXXXX"
+        "Book": "Pure 133"
     },
     {
         "Rank": "•",

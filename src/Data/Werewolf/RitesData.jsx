@@ -459,7 +459,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Leave no mark and go unnoticed so long as stalking and observing.",
-        "Book": "GotU p18"
+        "Book": "GotU 18"
     },
     {
         "Name": "Sin-Eater, Rite of the",

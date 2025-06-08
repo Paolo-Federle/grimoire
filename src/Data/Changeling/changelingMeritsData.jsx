@@ -19,7 +19,7 @@ export const changelingMeritsData = [
             "Your character’s body was significantly changed by her time in Arcadia. Some combination of the transformations inflicted upon her by her Keeper and your character’s life in Arcadia altered one of her Attributes so that it can now be increased to an inhuman degree. The fifth dot in this Attribute costs only one of the dots you have at character creation, and your character can raise this Attribute to a maximum of six dots by spending experience points. Changelings can only purchase this Merit once. Available at character creation only. The basic form of a changeling’s body is set once the changeling comes back from Arcadia."
         ],
         "Description": "Bring an attribute to a maximum of +6 , 5th dot only costs one dot at character creation.",
-        "Book": "RoS p87",
+        "Book": "RoS 87",
     },
     {
         "Name": "Arcadian Metabolism",
@@ -30,7 +30,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Your character’s unusual metabolism is not an unqualified blessing. His body chemistry is subtly different from that of an ordinary mortals. Medicine rolls to help him all receive a –1 penalty. In addition, he can no longer survive without infusions of food touched by Arcadia. If your character does not eat at least one piece of goblin fruit every week, he suffers one point of bashing damage that cannot be healed except by eating goblin fruit. Your character suffers an addition point of bashing damage for every three additional days that he does not eat a piece of goblin fruit. However, eating a single goblin fruit cures this damage and has its normal affect upon the character. Characters with this Merit who are kept from goblin fruit for too long eventually sicken and die."
         ],
         "Description": "Greater healing when eating Goblin Fruits, but suffer malnutrition without one Fruit per week.",
-        "Book": "RoS p87"
+        "Book": "RoS 87"
     },
     {
         "Name": "Brownie's Boon",
@@ -40,7 +40,7 @@ export const changelingMeritsData = [
             "Similar to the legendary brownies or shoemaker’s elves, you possess the ability to complete mundane tasks in record time. For any long-term work project of mundane (not supernatural) nature, you may halve the required time to complete a task as long as you are not being watched by anyone. Thus, a character with this Merit could repair a car in half the time but could not shape the Hedge more quickly. In addition, you may spend a point of Glamour to halve the time again, to a maximum of three points of Glamour and 1/16th of the normal time for any particular task."
         ],
         "Description": "You complete mundane tasks in half the time that it would take others! Well, except you can't be watched while you do it. You can spend a glamour to half this time again. And again. And a gain. Though, this tops out at being able to finish something in 1/16th the time.",
-        "Book": "RoS p88"
+        "Book": "RoS 88"
     },
     {
         "Name": "Charmed Life",
@@ -50,7 +50,7 @@ export const changelingMeritsData = [
             "While in Arcadia, your character gained some minor measure of the enchantments that many of the True Fae use to protect themselves from harm. Once per scene, if your character suffers damage from an attack that would kill him or even just inflict one or more points of aggravated damage, your character has the option of spending one point of Willpower to cause the attacker to have to reroll this attack. The second roll is the one that affects the character. This Merit may function even if the character is unconscious, but does not function if the character has no more points of Willpower to spend. Also, this ability can only function once for any single attack roll."
         ],
         "Description": "Reroll when dealt aggravated damage or would otherwise be killed.",
-        "Book": "RoS p88"
+        "Book": "RoS 88"
     },
     {
         "Name": "Court Goodwill",
@@ -65,7 +65,7 @@ export const changelingMeritsData = [
             "It might seem a touch curious that changelings can retain any ties with their old Courts, but in truth most changelings are accustomed to such intrigues. Of course, if the shift is revealed to be true treachery of a more sinister sort, their Court Goodwill with their old friends will likely vanish in a hurry."
         ],
         "Description": "Develop favor with members of a Court. Ensorcelled mortals can take this merit.",
-        "Book": "CtL p93 AN p. 45"
+        "Book": "CtL 93, AN 45"
     },
     {
         "Name": "Devotee",
@@ -78,13 +78,13 @@ export const changelingMeritsData = [
             "Drawback: In addition to the drawback of the Retainer Merit, it’s important to note yet again that Devotees are damaged. Each suffers from at least one severe derangement. In addition, while a Devotee zealously throws himself into completing the changeling’s commands, sometimes they have... creative ways of interpreting instructions. A Lost asks one of his zealots, “While I’m busy across town going through Bethany’s closets, I need you to occupy her for the next few hours so she doesn’t come home.” The cultist does as demanded, but interprets “occupy her” as meaning “put her in the hospital.” Technically, it worked. But that might not be what the Lost wanted, precisely."
         ],
         "Description": "You have a group of loyal, but broken followers.",
-        "Book": "ER p14"
+        "Book": "ER 14"
     },
     {
         "Name": "Disenchanting Kiss",
         "Cost": "••••",
         "Prerequisites": "Wyrd ••••• Clarity 9+",
-        "Book": "SaD p92",
+        "Book": "SaD 92",
         "LongDescription": [
             "Effect: Your character is a saint among the Lost. Her perceptive senses are otherworldly, easily sheering the false from the true. Furthermore, she has been chosen by fate for her kindness and sanity in an insane world to act as a balm for the orphaned survivors of Faerie. With but a kiss, an expenditure of a point of Willpower and four points of Glamour, and a successful Wyrd roll, she may immediately end any lingering effects from a power that controlled the character’s emotions or mind. This is an instant action.",
             "Drawback: The character must maintain a high Clarity to benefit from this Merit. If her Clarity ever falls below 9, she permanently loses the Merit. She may buy it again later if she raises her Clarity again above 9."
@@ -99,7 +99,7 @@ export const changelingMeritsData = [
             "Your character benefits from the blessings of two different kiths. Upon taking this Merit, you may select an additional kith, subject to any restrictions set by the Storyteller. You gain the benefit of both kiths’ blessings, and your appearance may reflect both aspects."
         ],
         "Description": "Your character possesses two or more kiths, and by proxy the blessing that comes with it.",
-        "Book": "WM p98",
+        "Book": "WM 98",
     },
     {
         "Name": "Dual Kith (ROS)",
@@ -111,7 +111,7 @@ export const changelingMeritsData = [
             "<b>Note:</b> An alternate approach to blending or evolving kiths appears in Winter Masques."
         ],
         "Description": "Your character possesses two or more kiths, and by proxy the blessing that comes with it.",
-        "Book": "RoS p88",
+        "Book": "RoS 88",
     },
     {
         "Name": "Enchanting Performance",
@@ -121,7 +121,7 @@ export const changelingMeritsData = [
             "Your character’s fae nature causes her to be an especially magnetic and compelling performer. She reduces all situational penalties to any Expression or Persuasion rolls used as part of a performance by a number of points equal to her Wyrd, to a minimum of zero. In addition, by spending a point of Glamour, your character can cause her performance to be particularly moving. Spending this Glamour causes her performance roll to gain the rote quality; if the performance roll is successful, it stirs a single emotion appropriate to the subject matter in the audience. This emotion can be as simple as joy and as complex as the anger of being betrayed by someone especially close. This emotion is not overpowering and does not compel anyone to perform any action, but everyone who pays attention to the performance feels it."
         ],
         "Description": "Reduce negative situation modifiers to Expression or Persuasion equal to your wyrd. Spending a point of Glamour the performance becomes rote, and if successful, it inspires an emotion appropriate to performance.",
-        "Book": "RoS p88"
+        "Book": "RoS 88"
     },
     {
         "Name": "Fae Mount",
@@ -135,7 +135,7 @@ export const changelingMeritsData = [
             "While manifested, the Fae Mount is visible to human eyes (albeit as a mundane mount closest to its nature; a walking hut may look like a pickup truck with a large sleeper add-on, for instance). The Fae Mount may remain in the physical world for a scene before the Fae Mount must find its way back into the Hedge, there to rest for a day and a night before the steed may leave the Hedge again. The steed may open a portal to the Hedge if its rider feeds the steed a Glamour, but the steed has no control over where the portal may lead."
         ],
         "Description": "You own a Hobgoblin/Token/Otherwise magical mount. • = Appearing when called. •• = As • , but with single magical ability ••• = As ••, but with another magical ability ••••• = As •••, but capable of leaving the Hedge for a scene, complete with mask. Must return to the Hedge for 24 hours afterwards.",
-        "Book": "RoS p89"
+        "Book": "RoS 89"
     },
     {
         "Name": "Faerie Favor",
@@ -147,7 +147,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Most changelings who find out about this favor assume (sometimes correctly) that your character is a loyalist or a privateer."
         ],
         "Description": "You possess a token, which, when broken, will summon your Keeper, who owes you a single favor.",
-        "Book": "RoS p90",
+        "Book": "RoS 90",
     },
     {
         "Name": "Faerie Healing",
@@ -157,7 +157,7 @@ export const changelingMeritsData = [
             "Your character can heal others with goblin fruit as effectively as she can heal herself, including mortals and normal animals. The exact manner in which this healing occurs depends upon the particular character. Some characters must feed the fruit to their patient, others eat or touch the fruit and then must touch their patient and some characters must extract the juice from the fruit and combine the juice with some commonly available ingredients such as ginger or honey. You may select the particular method, but once it is selected, you cannot change this method. All characters with Faerie Healing have one specific method in which they use goblin fruit to heal others, and various methods have distinct advantages and disadvantages. For example, making a specially blended juice out of the goblin fruit allows your character to carry an innocuous thermos of fruit juice wherever she goes, while laying hands on the patient’s bare skin does not require the person to consent to some unusual action such as eating a strange-looking fruit. Regardless of the method used, the patient regains a single point of lethal damage or two points of bashing damage per fruit consumed, as if the patient were a changeling eating goblin fruit. Your character cannot use goblin fruit to heal the dead, including humans who have died of their wounds, ghosts or vampires."
         ],
         "Description": "Capable of using Goblin Fruits to restore health to others. Does not apply to the dead (Ghosts, Vampires)",
-        "Book": "RoS p90",
+        "Book": "RoS 90",
     },
     {
         "Name": "Fighting Style Dream Combat",
@@ -173,7 +173,7 @@ export const changelingMeritsData = [
             "<b>Coup de Grace (•••••):</b> Even as your character’s opponent fades from the dream-arena, he is capable of delivering a final blow. At any time that an opponent in a dream-combat is beginning to waken (i.e., has dropped to or below 0 Willpower), he may deliver one final dream-attack (environmental or personal) against her as she wakes. She may not use her Defenses or armor against this attack."
         ],
         "Description": "Abilities for fighting while in a dream. Look under the Styles Merits page for more information.",
-        "Book": "RoS p90",
+        "Book": "RoS 90",
     },
     {
         "Name": "Fighting Style Hedge Duelist",
@@ -191,7 +191,7 @@ export const changelingMeritsData = [
             "<b>Hedge Wrath (•••••):</b> The Hedge is not a nice place. The fact that it seems to cooperate more freely with changelings who come into its fickle environ for the purposes of harming each other is just one example of its cruel nature. For those who are able to harness this cruelty, however, the Thorns are an incredible weapon. With Hedge Wrath, your character is able to sacrifice her own Willpower to fan the Hedge’s lethal potential even higher. She may spend a Willpower point to enhance any Hedge Duel attack in which she is reshaping the Hedge to strike at her enemy; the usual benefits apply. In addition, if that attack is an exceptional success, all damage the attack does is aggravated, rather than lethal."
         ],
         "Description": "Abilities to use in a formal duel while in the Hedge. Look under the Styles Merits page for more information.",
-        "Book": "RoS p91",
+        "Book": "RoS 91",
     },
     {
         "Name": "Gentrified Bearing",
@@ -202,7 +202,7 @@ export const changelingMeritsData = [
             "The True Fae have a chance to be fooled only if they see your character at a distance or only find evidence of her previous presence in a location. Closer contact, such as touching her, hearing your character speak or being able to smell her scent will dispel the illusion. Still, it may buy a few moments’ precious respite if the Other would rather avoid any entanglements with rivals at the time."
         ],
         "Description": "You look a bit like the True Fae, and can fool Hobgoblins and Gentry at a distance.",
-        "Book": "RoS p92",
+        "Book": "RoS 92",
     },
     {
         "Name": "Goblin Merchant",
@@ -239,7 +239,7 @@ export const changelingMeritsData = [
             "<b>Weather:</b> Hurricanes, Moonless Nights, Monsoons, Blizzards"
         ],
         "Description": "Can make pledges with one Wyrd-purview/dot; no sanction and boon and task must be related to purview",
-        "Book": "RoS p38"
+        "Book": "RoS 38"
     },
     {
         "Name": "Harvest",
@@ -251,7 +251,7 @@ export const changelingMeritsData = [
             "This Merit may be purchased multiple times, but only once per type of Glamour gathering. Note that the changelings receiving Glamour from pledges with mortals are still limited to the maximum number of vows determined by their Wyrd rating (see p. 176)."
         ],
         "Description": "A list of your consistent sources of Glamour. Examples include: Emotion, Dreaming, Oaths, Hedge Fruit",
-        "Book": "CtL p94",
+        "Book": "CtL 94",
     },
     {
         "Name": "Hedge Gate Sense",
@@ -261,7 +261,7 @@ export const changelingMeritsData = [
             "While the Lost can enter the Hedge by creating a gateway almost anywhere, there are times when it’s safer to find an established way into the Hedge. Even more so, however, there are times when it’s important to be able to find an established way out of the Hedge. This Merit represents an increased sensitivity to the presence of gateways into and out of the Hedge. When attempting to find one’s way out of the Hedge, a character with this Merit can cut the time required to find an active gateway in half. As well, changelings with this Merit may make a reflexive Wits + Wyrd roll to notice an active gateway into the Hedge — a doorway that has been used as a gateway will glimmer with an ethereal light, or the stones that form an active gateway arch might seem to pulse slightly when the changeling nears."
         ],
         "Description": "Sensitivity to established Hedge Gates, lower time spent finding such a gate cut by half, granted a reflexive roll when near one.",
-        "Book": "RoS p92",
+        "Book": "RoS 92",
     },
     {
         "Name": "Hedgebeast Companion",
@@ -281,7 +281,7 @@ export const changelingMeritsData = [
             "Changelings and companions can enter into pledge bonds that will strengthen and define their relationship. This is not implied by the Merit; any pledge bonds can be formed in the usual fashion."
         ],
         "Description": "Intelligent Hobgoblin familiars who act as animal retainers. The more dots you have, the stronger the Hobgoblin is.",
-        "Book": "AN p132",
+        "Book": "AN 132",
     },
     {
         "Name": "Hidden Life",
@@ -293,7 +293,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> If your character is ever noticed by the media or otherwise gains any significant degree of fame, she temporarily loses the Hidden Life Merit until her fame or notoriety fades. Fortunately, given the nature of this Merit, this occurs more swiftly than normal. However, changelings who are public figures, such as TV personalities, actors or politicians, cannot have this Merit, since they make themselves far too obvious for people to forget them."
         ],
         "Description": "Seeking information about your character takes a penalty, including remembering contact or physical details.",
-        "Book": "RoS p92",
+        "Book": "RoS 92",
     },
     {
         "Name": "Hob Kin",
@@ -304,7 +304,7 @@ export const changelingMeritsData = [
             "This reaction does not alleviate the need for your character to do favors for hobs. Hobs never do anything for free; doing so would violate every precept of their nature. However, among their own kind, hobs have a quid pro quo arrangement, where a service is paid for by a favor of roughly equal magnitude. Instead of having to pay vast amounts for a simple but vital service, your character generally only needs to pay a hob what the service is worth. As a result, your character is free to have one or more hobs guard her Hollow in return for allowing them to live in it when they desire or to give her warning about the approach of the Gentry and other dangerous residents of the Hedge, if your character is willing to aid these same hobs against similar dangers."
         ],
         "Description": "Feel like family to Hobs, making it easier to make fair deals with them.",
-        "Book": "RoS p92",
+        "Book": "RoS 92",
     },
     {
         "Name": "Hobgoblin Trainer",
@@ -320,7 +320,7 @@ export const changelingMeritsData = [
             "Such training holds for only one day per a character’s Wyrd score. The exception to this is if the player spends the changeling’s experience points on the Retainer Merit, with the hobgoblin now representing a changeling’s Retainer. (This Retainer is only in the Hedge, and still necessitates a regular relationship between changeling and creature — she can’t just “program” the beast to do as it’s told forever. It must be rewarded or punished, and dealt with like any animal or slave.)"
         ],
         "Description": "Ability (and rules) for temporarily training Hobgoblins.",
-        "Book": "RoS p93",
+        "Book": "RoS 93",
     },
     {
         "Name": "Hollow",
@@ -364,7 +364,7 @@ export const changelingMeritsData = [
             "In this example, the character shares a Hollow Merit dedicated to the motley’s communal refuge. He contributes two dots to the relationship, and the group has a total of four dots that are made available to each member. The character also has his own private Hollow Merit rated •••, which he maintains by himself. And, the character has Ally rated •• that is also his own Merit."
         ],
         "Description": "House for changelings that is between the hedge and the real world.",
-        "Book": "CtL p94",
+        "Book": "CtL 94",
     },
     {
         "Name": "Lethal Mien",
@@ -375,7 +375,7 @@ export const changelingMeritsData = [
             "The changeling is able to handle objects without harming them; claws are perhaps retractable, or perhaps precise enough that the changeling is able to still manipulate items."
         ],
         "Description": "A part of the body becomes a weapon, and granted a damage bonus. This can stack with Blessings.",
-        "Book": "RoS p94",
+        "Book": "RoS 94",
     },
     {
         "Name": "Long of Days",
@@ -385,7 +385,7 @@ export const changelingMeritsData = [
             "Your character shares some of the ageless nature of the True Fae. Your character gains the longevity and infirmity bonuses of a changeling with a Wyrd four points higher than hers actually is. If your changeling had a Wyrd of 2, she has the longevity and infirmity bonuses of a changeling with a Wyrd of 6. The only limit on this Merit is that the maximum bonus remains that associated with Wyrd 10, +130 years with a +4 infirmity bonus. Characters who possess this Merit and a Wyrd of 6 or more all have the same maximum longevity and infirmity bonus."
         ],
         "Description": "When determining maximum age, the Changeling is treated as if her Wyrd is +4. For information on aging, see CtL p. 174 - 175.",
-        "Book": "RoS p94",
+        "Book": "RoS 94",
     },
     {
         "Name": "Mantle",
@@ -403,7 +403,7 @@ export const changelingMeritsData = [
             "<b>Feast of Ashes (Winter):</b> Once per session, a changeling wearing the crown of the Winter Court may devote himself to the Feast of Ashes, converting one point of Glamour to one point of Willpower, up to a maximum number of points equal to the character’s Mantle rating. He may even exceed his normal limit of Willpower points in this fashion, though any excess points are lost at the end of the session. In addition, for the remainder of the scene in which this ability is activated, the changeling’s Willpower rating is effectively increased by a number equal to his Mantle rating, making it extremely hard for others to undermine his confidence in his ability to survive."
         ],
         "Description": "Membership in a court, benefits in the form of bonuses to social interaction, Contracts and Blessing. The first dot for free.",
-        "Book": "CtL p97"
+        "Book": "CtL 97"
 
     },
     {
@@ -414,7 +414,7 @@ export const changelingMeritsData = [
             "For most, the Mask is a set thing — some innate reflection of one’s humanness or an unconscious costume of mortal skin and features. Some changelings learn how to project a whole new Mask, while others learn how to keep a mental and mystical closet of several Masks one can wear. For each dot purchased in this Merit, assume that the character has another Mask. This Mask is of the player’s design, and is very likely formed consciously on the part of the changeling (though some changelings, especially those with multiple personalities, may forge them unawares). Each Mask must be of the same gender and same Size (a 90 lb. wisp of a girl must have all of her Masks be reflective of a 90 lb. wisp of a girl), but otherwise, all other cosmetic features are up for grabs. One might be buff and mustachioed, another might be a pale slip who looks more like a chemo patient than a circus strongman. To slip into another Mask, the changeling merely needs to spend a point of Glamour as an instant action, and can do this as many times in a chapter (game session) as her Wyrd score."
         ],
         "Description": "The Changeling possesses multiple masks (One per dot) and can change them. The masks do not change your size and gender.",
-        "Book": "ER p14"
+        "Book": "ER 14"
     },
     {
         "Name": "Market Familiarity",
@@ -437,7 +437,7 @@ export const changelingMeritsData = [
             "The Goblin Markets are notorious for trading in anything, and while keeping track of currency exchange rates in the mundane world can be difficult enough, trying to translate how many enamored sighs a knife that glows in the presence of child molesters is worth is a Herculean task. While value is a relative term, those with the Market Sense Merit can generally tell whether a certain transaction is roughly equal or not. It doesn’t force a fair deal, and a changeling who dares to tell a hob that he’s being cheated on the basis of a “hunch” may well have social ramifications to deal with. Characters with this Merit receive a +3 bonus to any rolls made to see through cheating in a trade or to resist any powers that would occlude the character’s perception of a deal’s fairness."
         ],
         "Description": "+3 bonus to determine if being cheated in deals.",
-        "Book": "RoS p94 or Goblin Markets p33",
+        "Book": "RoS 94 or Goblin Markets p33",
     },
     {
         "Name": "Market Stall",
@@ -461,7 +461,7 @@ export const changelingMeritsData = [
             "This Merit may be purchased multiple times at multiple ratings, each time representing a different identity, and an identity may also be upgraded later with the appropriate in-game explanation and experience expenditure. In the case of certain Merits such as Resources or Status, it might also be worth noting which identity these Merits are tied to, since a character may not easily be able to access or maintain them if that identity is compromised."
         ],
         "Description": "The quality of legal (Or illegal) documentation supporting your new identity. This merit can be taken by mortals or other supernaturals as well.",
-        "Book": "CtL p98 AN p45"
+        "Book": "CtL 98 AN p45"
     },
     {
         "Name": "Perfect Stillness",
@@ -471,7 +471,7 @@ export const changelingMeritsData = [
             "Your character has learned how to avoid the notice of her Keeper by remaining utterly motionless for hours at a time. Whenever she wishes, she can remain perfectly still for an entire scene. Except for breathing softly and silently, your character can stand without moving a muscle for an entire scene, even if the position she is in would be exceedingly uncomfortable for others. In addition to various other uses of this Merit, if your character remains stationary while hiding, all rolls to notice or locate her are made at a –2 penalty. This Merit is common among Fairest Muses, some of whom spent much of their time in Arcadia as living statues."
         ],
         "Description": "The Changeling is capable of standing absolutely still, and all rolls to notice or locate take -2.",
-        "Book": "RoS p94",
+        "Book": "RoS 94",
     },
     {
         "Name": "Pledgesmith",
@@ -481,7 +481,7 @@ export const changelingMeritsData = [
             "Pledges are a vital part of changeling society, and those who craft them well can gain significant prestige among their fellows. Your character is noted for having an adept way with words, a skill that affords her a small measure of respect from other Lost, and others may seek her out for advice on crafting pledges. This Merit adds one die per level of the Merit to all social interactions involving pledges, either on topics related to them or in the actual crafting thereof (including manipulating a hesitant party into a pledge or creating a pledge that contains loopholes or hidden meanings.)"
         ],
         "Description": "Your character is known for having a way with words. Gain +1 for every merit dot when discussing Pledges.",
-        "Book": "RoS p94",
+        "Book": "RoS 94",
     },
     {
         "Name": "Prophet Circle",
@@ -498,7 +498,7 @@ export const changelingMeritsData = [
             "The information conveyed is hidden behind allegory, symbols and archetypes. The dreams rarely answer questions directly, typically relying on symbolism and imagery to convey information. A changeling seeking a specific person’s location wouldn’t see his address, but landmarks nearby could lead the way: a river, a tower or even the face of a man walking by at dusk. The answer has the potential to resolve the problem. It’s a tool for the Storyteller to help drive events of the story."
         ],
         "Description": "Grants ensorcelled mortals to receive Prophetic dreams. Costs 1 glamour and a Wits + Occult roll.",
-        "Book": "RoS p94",
+        "Book": "RoS 94",
     },
     {
         "Name": "Rigid Mask",
@@ -508,7 +508,7 @@ export const changelingMeritsData = [
             "Your character is not merely a good liar; he has learned to completely hide his emotions from others. While he may have learned this skill from dealing with a particularly horrific Keeper, your character can use it equally well back in the mortal world. While this ability does not increase his skill at lying, anyone attempting to see through his lies or figure out what your character’s real emotions are suffers a –2 to all rolls to do so. In addition, all attempts to use devices such as lie detectors or voice-stress analyzers on your character are made at a –4 penalty, because your character can mimic emotions with great skill and has learned to suppress almost all of the physiological cues that would normally reveal his emotions."
         ],
         "Description": "Hide your emotions very well, even from lie detectors and such.",
-        "Book": "RoS p95",
+        "Book": "RoS 95",
     },
     {
         "Name": "Second-Hand Skills",
@@ -529,7 +529,7 @@ export const changelingMeritsData = [
             "With the approval of the Storyteller, the player can also purchase a special one-dot Merit only available to such functional multiple personalities. This Merit, called Shared Sleep, means the character needs only four hours of sleep a night to feel fully rested, as long as she spends at least six hours a day in each of her two personalities. In effect, one personality sleeps while the other is awake, significantly reducing the amount of sleep the character’s body requires. This Merit should only be available to characters that are played such that each personality is a recognizable individual."
         ],
         "Description": "Need only 4 hours sleep as long as you spends 6 hours in each of your personalities.",
-        "Book": "CtL p44"
+        "Book": "CtL 44"
     },
     {
         "Name": "Siren Song",
@@ -540,7 +540,7 @@ export const changelingMeritsData = [
             "While listeners may not actually move closer, their attention is pulled to her in an obvious manner. This Merit does not influence them to obey her or even to like her, but they will be hard-pressed to ignore her when she speaks. This can be useful for attracting a waiter’s attention, distracting an enemy shooter or having one’s side of an argument heard. It can, however, prove unfortunate when speaking to a cab driver en route, trying to carry on a private conversation in a crowded room or speaking within earshot of allies while in a fight. This Merit is always on and affects everyone (friend and foe alike) within earshot. The Siren Song does not carry through radio, electronic or recorded media, however — it must be heard live and unamplified."
         ],
         "Description": "While speaking, everyone within earshot takes a -2 penalty to all actions.",
-        "Book": "RoS p96"
+        "Book": "RoS 96"
     },
     {
         "Name": "Slave",
@@ -564,7 +564,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Your character also feels when her fetch is in pain and suffers an injury penalty equal to half of the fetch’s (round up). If her fetch is incapacitated due to injuries, your character suffers a –2 penalty to all rolls. If your character’s fetch is killed, your character takes a number of points of bashing damage equal to her Wyrd and must make a Stamina + Composure roll to not fall unconscious for several minutes."
         ],
         "Description": "Always know the direction and distance to your Fetch, its moods and emotions, and a +2 to social rolls when interacting. Take penalties when it is injured or killed.",
-        "Book": "RoS p96",
+        "Book": "RoS 96",
     },
     {
         "Name": "Sublime",
@@ -575,7 +575,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> She also draws the attention of the Gen- try. The Fae want her to come “home” to Faerie, and will do whatever they must to push her in that direction. That means her friends and family are subject to possible torment or death by the Fae, who think she must have her “fetters” to the mundane world removed. In addition, changelings don’t often trust her; why would they, when the Gentry seem so fond of her?"
         ],
         "Description": "The Changeling's mein becomes transcendental, and mortals become bewitched, limiting their actions. Changelings must roll Resolve + Composure or be bewitched.",
-        "Book": "ER p14",
+        "Book": "ER 14",
     },
     {
         "Name": "Narrative Master",
@@ -585,7 +585,7 @@ export const changelingMeritsData = [
             "Talecrafting comes naturally to the character;  she has an implicit feel for the weave and weft of the tale bound up in fate’s loom. As a result, on any Talecrafting rolls, the character can spend Glamour to gain bonuses on her Talecrafting rolls. This is in addition to the Glamour she must spend as part of the roll already. Each Glamour spent in this way gives her +1 to the roll. She can only spend a number of points of Glamour per turn as dictated on the Wyrd chart (p. 84, Changeling: The Lost). The initial point of Glamour spent on the Talecrafting roll counts toward this limit."
         ],
         "Description": "Spend Glamour to increase Talecrafting rolls.",
-        "Book": "SaD p78",
+        "Book": "SaD 78",
     },
     {
         "Name": "Token",
@@ -597,7 +597,7 @@ export const changelingMeritsData = [
             "For more on tokens, see Chapter Three (pp. 201–210)."
         ],
         "Description": "Own a once mundane charm turned magical from its time in the Hedge or Arcadia. You may not use this merit to obtain Legendary Tokens (••••• or more). See the list here]].",
-        "Book": "CtL p98"
+        "Book": "CtL 98"
     },
     {
         "Name": "Token Maker",
@@ -612,7 +612,7 @@ export const changelingMeritsData = [
             "<b>Drawbacks:</b> Token drawbacks are not within the control of their creator. They are a result of the cagey nature of Glamour, and cannot be guided by the token’s maker’s hand or will. As tokens are forged in part out of the maker’s own Glamour, however, the drawback often reflects a connection to the maker in some way. One Darkling craftsman’s token might cause temporary blindness after being used, while another item by the same artisan might attract spiders to the user’s home. For already published tokens, such as those found on pp. 202–209 of Changeling: The Lost or in Chapter Four of this book, Storytellers have the option of using the listed drawback or creating one that more closely ties the token to its creator’s nature."
         ],
         "Description": "Through extended actions and spending Glamour a Changeling may create a Token at 25 successes per level.",
-        "Book": "RoS p150"
+        "Book": "RoS 150"
     },
     {
         "Name": "Tokenmaster",
@@ -623,7 +623,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> ...and that’s not always a good thing. First, she has no control over what the objects become—she cannot say, “I wish that this hand-me-down wallet from my deceased father magically makes money appear” and have that happen. The Wyrd does what it wants. Second, tokens can be dangerous, especially if they get into the hands of her enemies or into the hands of foolish humans who trigger dangerous catches."
         ],
         "Description": "Being in constant touch with objects turns them into Tokens. See the list here]].",
-        "Book": "ER p14"
+        "Book": "ER 14"
     },
     {
         "Name": "Unseen Sense, Talecrafting",
@@ -633,7 +633,7 @@ export const changelingMeritsData = [
             "As per the Unseen Sense Merit on pp. 109–110 of the World of Darkness Rulebook, the changeling has a “sixth sense,” but in this case it’s not related to ghosts or spirits or anything like that, but actually triggers when she comes across an opportunity for Talecrafting. Any time a potential pattern lies in wait, ready to be manipulated with a tweak and twist of fate, the changeling’s hairs raise, she gets goosebumps, she feels her heart race, or she feels some other physical effect. No roll is necessary. It doesn’t tell her what kind of pattern awaits, only that a Hook is ready to be set."
         ],
         "Description": "Sense when the an opportunity to set up a Hook comes up.",
-        "Book": "SaD p78"
+        "Book": "SaD 78"
     },
     {
         "Name": "Visionary Dreams",
@@ -657,7 +657,7 @@ export const changelingMeritsData = [
             },
         ],
         "Description": "Your character receives Prophetic Dreams. Costs 1 Willpower point and a Intelligence + Wits roll.",
-        "Book": "RoS p97",
+        "Book": "RoS 97",
     },
     {
         "Name": "Wholesale Wares",
@@ -683,7 +683,7 @@ export const changelingMeritsData = [
             "<b>Exceptional Success:</b> Your character’s dreams are exceptionally vivid and useful. If a Language is selected, he gains two dots in the Language until he sleeps again."
         ],
         "Description": "A successful Wits + Composure leads to borrowing a skill specialty or language for one day from a known mortals dreams",
-        "Book": "RoS p97"
+        "Book": "RoS 97"
     },
     {
         "Name": "Wyrdskill",
@@ -694,7 +694,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Upon finding that a Skill is bound to her mien and seeming, a character begins to rely on it too much, driven both by its potency and by the Wyrd itself. Other Skills may falter slightly: the experience costs to buy Skill dots or Specialties in other Skills in the same area as her Wyrdskill (Mental, Physical or Social) increase slightly. New Skill dots in the same area are now new dots x 4, and Specialties purchased for Skills in that same area now cost 4 experience points. (So, if her Wyrdskill is Subterfuge, it would cost more to buy new Social Skills or Social Specialties, but not Physical or Mental ones.)"
         ],
         "Description": "Gain a free skill specialty in one field every time you grow in Wyrd. Developing other skills may cost more.",
-        "Book": "ER p15"
+        "Book": "ER 15"
     }
 ]
 
@@ -708,7 +708,7 @@ export const kithRestrictedMeritsData = [
             "If your Wyrd is high enough that you can use Sap the Vital Spark more than once per scene, you can store up multiple points of healing and distribute them as you like with a touch. If you do not use the healing by the end of the scene, the vital energy dissipates."
         ],
         "Description": "The Leechfinger can store stolen health and use it to heal himself or others.",
-        "Book": "SaD p24"
+        "Book": "SaD 24"
     },
     {
         "Name": "Subtle Liquer",
@@ -718,7 +718,7 @@ export const kithRestrictedMeritsData = [
             "When your use your Inebriating Elixir blessing to ferment a non-alcoholic beverage, the drink’s taste is not altered in any way; imbibers cannot tell that what they’re drinking is alcoholic, much less preternaturally so."
         ],
         "Description": "When the Brewer uses his blessing, the merit makes the fermented drink unrecognizable as alcoholic.",
-        "Book": "SaD p29"
+        "Book": "SaD 29"
     },
 ]
 
@@ -736,7 +736,7 @@ export const entitlementRestrictedMeritsData = [
             "<b>Exceptional Success:</b> The spirit in the fetish looks favorably on the character. The next attempt to activate it receives a +1 bonus."
         ],
         "Description": "Begin play with a talen or fetish. Must be instructed on the usage by a Werewolf. List of Talens and Fetishs.",
-        "Book": "LoS p150"
+        "Book": "LoS 150"
     }
 ]
 
@@ -823,7 +823,7 @@ export const fateMeritsData = [
             "<b>Example:</b><i> Old Lady Mudfingers out in the Hedge offers to show Kayla, a Bean Buyer, a secret trod that leads to an opulent Hollow left abandoned by the former Autumn King... for a price. Kayla, thrilled at the opportunity, ponies up a rare oddment for the old Wizened, who takes her deep into the Hedge before promptly vanishing. Now alone, Kayla begins to despair. Her player evokes this Merit and spends one point of Glamour. The Storyteller takes a short break to do some quick thinking.</i>",
             "<i>As Kayla tries to find her way home she discovers a Thorncompass, a minor token that aids in navigating the Hedge. Unfortunately for her, it does so by directing her towards the nearest changeling. This time it just happens to be her old nemesis Cold John.</i>"
         ],
-        "Book": "SaD p89",
+        "Book": "SaD 89",
     },
     {
         "Name": "Cloistered Spinne",
@@ -835,7 +835,7 @@ export const fateMeritsData = [
             "<b>Drawback:</b> Unfortunately, every time a character uses this ability, fate ensures that she loses some-thing important to her of equivalent value to the item constructed (though not necessarily in monetary terms). It may be a favored weapon or a family heirloom, but it can just as easily be a firstborn child or close friend.",
             "<b>Example:</b> <i>Casper, a Cloistered Spinner, finds himself jailed in a moldering basement by the dominant Summer Court. Glancing around, he notices the space is filled with dust and cobwebs. Casper’s player spends one point of Glamour and rolls Dexterity + Crafts, garnering 2 successes. Gathering the dross, Casper twines it together into a surprisingly strong rope (with an equipment bonus of 3). He uses the rope to escape through the nearby window. When the Summer Knights find that Casper has escaped, they become infuriated. They know he has a sister he cares for, so they hunt her down, throwing her into the same cell her brother lately inhabited. His sister’s freedom has been traded for his.</i>"
         ],
-        "Book": "SaD p90",
+        "Book": "SaD 90",
     },
     {
         "Name": "Cowherd and Weaver",
@@ -846,7 +846,7 @@ export const fateMeritsData = [
             "<b>Effect:</b> The character has a lover from whom the world conspires to keep him separated. Only fate protects the union. Once per story, the character may spend a point of Glamour when forcibly separated from his love. Fate conspires with the character to reunite him with his lover, regardless of circumstance. He gains some bit of knowledge or insight into the whereabouts of his lover, and his lover finds some method to escape her own circumstances. This Merit does not automatically deliver the characters into one another’s arms; it simply paves the way with a hint and a minor twist of good fortune.",
             "<b>Drawback:</b> The world conspires against the lovers out of jealousy for their relationship. Both characters lose the 10-again rule on all social dice pools when together, partly due to their absorption with one another and partly due to the annoyance it inspires in others."
         ],
-        "Book": "SaD p90",
+        "Book": "SaD 90",
     },
     {
         "Name": "Evil Stepsister",
@@ -857,7 +857,7 @@ export const fateMeritsData = [
             "<b>Effect:</b> The character has authority over an individual (possibly but not necessarily represented by the Retainer Merit), and, like Cinderella’s vicious stepsiblings, she abuses it. This abuse is not without purpose, however. Once per chapter, the character may spend one point of Glamour while being cruel to the individual she has authority over to ensure that he has some ability or item that will prove useful in overcoming the character’s obstacles. This may be as simple as possessing a skill the character lacks or as esoteric as knowing an ancient nursery rhyme that provides the clue to opening an even older vault.",
             "<b>Drawback:</b> Alas, the Evil Stepsister never prospers. Once per story (usually near the climax) the wrongs levied against the underling come back to harm the character. These abuses come back to haunt the character at the same time... usually the worst possible time. The wrongs may come in the form of an accident or may come at the hand of one of the character’s enemies."
         ],
-        "Book": "SaD p90",
+        "Book": "SaD 90",
     },
     {
         "Name": "Fair Prince",
@@ -869,7 +869,7 @@ export const fateMeritsData = [
             "<b>Drawback:</b> The Fair Prince is the very symbol of his Court. Unfortunately, that makes him the antithesis of another Court. Members of this other Court loathe the character, hinder him whenever possible, and may make plans to dispatch him (if they can do so without getting caught for murdering a popular figure). The character does not benefit from the above social bonuses with members of that Court, and may never gain the Court Goodwill Merit with that Court. Use of that Court’s Contracts by the hated character may inspire members of the offended Court to violence.",
             "The offended Court is determined by the character’s Court. Spring opposes Autumn, Summer opposes Winter, and Dawn opposes Dusk (and vice versa in all cases)."
         ],
-        "Book": "SaD p91",
+        "Book": "SaD 91",
     },
     {
         "Name": "Fisher King",
@@ -887,7 +887,7 @@ export const fateMeritsData = [
                 ]
             },
         ],
-        "Book": "SaD p91",
+        "Book": "SaD 91",
     },
     {
         "Name": "Mobled Queen",
@@ -898,7 +898,7 @@ export const fateMeritsData = [
             "<b>Effect:</b> The Mobled Queen is wrapped in the magic of her Court, shrouded in its potent emotions as if they were vestments sewn from desire, anger, fear or sorrow. She knows those emotions like none other, her very blood inundated with their energy. The Mobled Queen gains a bonus of 4 dice to all activation rolls for Contracts that are affinity to her Court. Furthermore, she gains an additional +1 when harvesting Glamour that resonates with her Court’s representative emotion.",
             "<b>Drawback:</b> The Mobled Queen’s pain drives her magic, but it also limits her, burning her mind with unearthly passions. She suffers a –1 penalty when rolling to resist garnering a Derangement after having lost Clarity. Furthermore, each time she benefits from this Merit in a given scene, she suffers a cumulative –1 penalty to all other actions (to a maximum of –5) from emotional distress. This penalty does not apply to Contract activation rolls or resistance rolls. The Mobled Queen may not choose not to benefit from this Merit, though she can certainly choose not to use her Court Contracts."
         ],
-        "Book": "SaD p91",
+        "Book": "SaD 91",
     },
     {
         "Name": "Monkey Heart",
@@ -909,7 +909,7 @@ export const fateMeritsData = [
             "<b>Effect:</b> The clever monkey is no simple ass; while the donkey can be convinced to meet the lion a second time, the monkey refuses to walk knowingly back into danger. The character has a portion of the monkey’s wiles. He gains a +5 bonus on rolls to notice traps or avoid being surprised by an adversary who has attempted (successfully or not) to trap or ambush him in the past.",
             "<b>Drawback:</b> Of course, the monkey’s cleverness comes from experience. The character suffers a –2 penalty on all rolls to notice traps or avoid being surprised the first time a given adversary attempts to trap or ambush him."
         ],
-        "Book": "SaD p91",
+        "Book": "SaD 91",
     },
     {
         "Name": "Mortal Enemy",
@@ -921,7 +921,7 @@ export const fateMeritsData = [
             "When you actually face your enemy, fate guards you and empowers you. You barely duck fatal blows and your own swings strike with legendary precision. You gain +1 Defense from your enemy’s attacks and +2 to all attack rolls against her.",
             "<b>Drawback:</b> Just as you are bound to your enemy, so is he bound to you. He gains the exact same advantages as you do, but his are directed towards killing you, making him quite the enemy indeed. If you ever kill your enemy, you regain any spent Willpower. You lose the Merit, however."
         ],
-        "Book": "SaD p92",
+        "Book": "SaD 92",
     },
     {
         "Name": "Star-Crossed Lover",
@@ -932,7 +932,7 @@ export const fateMeritsData = [
             "<b>Effect:</b> The Wyrd also binds fates of lovers together, but tests that love constantly with every imaginable hardship. Your character has a true love — she need not be a changeling or love the character in return but must be something capable of sharing the love — and his need for her is so desperate that it has been imprinted on fate. When working to protect or save his love, the character gains a single automatic success when spending Willpower on a roll rather than the usual three dice bonus. Furthermore he regains one spent point of Willpower in any scene in which he directly protects her from danger.",
             "<b>Drawback:</b> Unfortunately, the character’s true love gets the bad end of the deal. She is often in danger, regularly targeted by the denizens of the World of Darkness, perhaps because the character cares about her, perhaps for some other ineffable reason. When the love is in trouble, the character suffers a –2 distraction penalty to all actions that don’t directly relate to saving her. If the love ever dies, the character loses the Merit."
         ],
-        "Book": "SaD p92",
+        "Book": "SaD 92",
     }
 ]
 

@@ -7,7 +7,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 1Larceny 2Science 2Survival 1",
         "Dice Rolls": "Primary: Wits + Larceny. Secondary: Intelligence + Larceny.",
         "XP": "1613 for Union11 for TFV",
-        "Book": "NS p123"
+        "Book": "NS 123"
     },
     {
         "Name": "Bait and Switch",
@@ -17,7 +17,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 3Manipulation 2Subterfuge 2",
         "Dice Rolls": "Primary: Dexterity + Stealth. Secondary: Manipulation + Expression.",
         "XP": "1714 for Union12 for TFV",
-        "Book": "SpSl p125"
+        "Book": "SpSl 125"
     },
     {
         "Name": "Battle Hardening",
@@ -27,7 +27,7 @@ export const TactictsData = [
         "Secondary Requires": "Stamina 3Athletics 2Expression 2",
         "Dice Rolls": "Primary: Stamina + Athletics;Secondary: Stamina + Expression.",
         "XP": "1411 for Abbey9 for Ascending",
-        "Book": "NS p124"
+        "Book": "NS 124"
     },
     {
         "Name": "Beat Down, Good Old-Fashioned",
@@ -37,7 +37,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Brawl or Weaponry 2",
         "Dice Rolls": "Primary: Strength + Brawl or Weaponry. Secondary: Strength + Brawl or Weaponry.",
         "XP": "1411 for Union9 for TFV",
-        "Book": "Slash p131"
+        "Book": "Slash 131"
     },
     {
         "Name": "Behavioral Science",
@@ -47,7 +47,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 3Investigation 2",
         "Dice Rolls": "Primary: Wits + Empathy.Secondary: Wits + Investigation.",
         "XP": "1512 for Loyalists10 for VASCU",
-        "Book": "Slash p132"
+        "Book": "Slash 132"
     },
     {
         "Name": "Bloody Improv",
@@ -57,7 +57,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Crafts 2",
         "Dice Rolls": "Primary: Strength + Weaponry. Secondary: Intelligence + Crafts.",
         "XP": "1411 for Net 09 for TFV",
-        "Book": "Slash p135"
+        "Book": "Slash 135"
     },
     {
         "Name": "Cannibalism",
@@ -67,7 +67,7 @@ export const TactictsData = [
         "Secondary Requires": "Stamina 3",
         "Dice Rolls": "Primary: Stamina + Occult. Secondary: Strength + Brawl.",
         "XP": "13",
-        "Book": "Slash p138"
+        "Book": "Slash 138"
     },
     {
         "Name": "Cauterize",
@@ -77,7 +77,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Medicine 1Brawl 2",
         "Dice Rolls": "Primary: Intelligence + Weaponry. Secondary: Strength + Brawl (grapple)",
         "XP": "1512 for Long Night10 for Lucifuge",
-        "Book": "NS p125"
+        "Book": "NS 125"
     },
     {
         "Name": "Confuse the Scent",
@@ -87,7 +87,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Stamina 2Survival 2",
         "Dice Rolls": "Primary: Wits + Survival.Secondary: Stamina + Survival.",
         "XP": "1613 for Null11 for Aegis",
-        "Book": "SpSl p126"
+        "Book": "SpSl 126"
     },
     {
         "Name": "Controlled Immolation",
@@ -97,7 +97,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Stamina 2Survival 1(3)Weaponry 2",
         "Dice Rolls": "Primary: Dexterity + Firearms or Athletics(immolation); Wits + Composure (control).Secondary: Wits+ Weaponry (immolation); Wits + Survival (control).",
         "XP": "1512 for Long Night10 for Ascending",
-        "Book": "HtV p218"
+        "Book": "HtV 218"
     },
     {
         "Name": "Corral",
@@ -107,7 +107,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Intimidation 2",
         "Dice Rolls": "Primary: Presence + Intimidation. Secondary: Strength or Presence + Intimidation.",
         "XP": "1411 for Union9 for TFV",
-        "Book": "HtV p218"
+        "Book": "HtV 218"
     },
     {
         "Name": "Corruption",
@@ -117,7 +117,7 @@ export const TactictsData = [
         "Secondary Requires": "Manipulation 2Occult 1Partial (1)Empathy 2",
         "Dice Rolls": "Primary: Manipulation + Expression.Secondary: Wits + Empathy or Investigation.",
         "XP": "1310 for Long Night8 for Aegis",
-        "Book": "WF p117"
+        "Book": "WF 117"
     },
     {
         "Name": "Cover Your Heart",
@@ -127,7 +127,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Dexterity 2Partial (1)Athletics 2Brawl 3 or Weaponry 3",
         "Dice Rolls": "Primary: Wits + Athletics or Wits + Brawl.Secondary: Dexterity + Brawl or Dexterity + Weaponry.",
         "XP": "1411 for Union9 for KSG",
-        "Book": "Spearfinger p8"
+        "Book": "Spearfinger 8"
     },
     {
         "Name": "Cripple Claws",
@@ -137,7 +137,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Athletics 2Brawl 1",
         "Dice Rolls": "Primary: Strength + Weaponry or Dexterity +Firearms. Secondary: Dexterity + Athletics.",
         "XP": "1512 for Thule10 for Aegis",
-        "Book": "HtV p219"
+        "Book": "HtV 219"
     },
     {
         "Name": "Cross-Examine",
@@ -147,7 +147,7 @@ export const TactictsData = [
         "Secondary Requires": "Manipulation 2Investigation 1Partial (1)Enigmas 2 or Occult 2Partial (1)Subterfuge 2",
         "Dice Rolls": "Primary: Manipulation + Intimidation.Secondary: Presence + Investigation, Manipulation + Subterfuge or Occult",
         "XP": "1310 for KSG8 for Malleus",
-        "Book": "DE p387"
+        "Book": "DE 387"
     },
     {
         "Name": "Damsel in Distress",
@@ -167,7 +167,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Wits 2Science or Occult 2Partial (2)Investigation 2",
         "Dice Rolls": "Primary: Intelligence + Science or Intelligence + Occult.Secondary: Wits + Investigation.",
         "XP": "1613 for Long Night11 for Lucifuge",
-        "Book": "SpSl p127"
+        "Book": "SpSl 127"
     },
     {
         "Name": "Dentistry",
@@ -177,7 +177,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Brawl 1Weaponry 1(1) Brawl 2 or Grapple",
         "Dice Rolls": "Primary: Strength + Weaponry. Secondary:Strength + Brawl.",
         "XP": "1411 for Null9 for Aegis",
-        "Book": "HtV p220"
+        "Book": "HtV 220"
     },
     {
         "Name": "Deprogramming",
@@ -187,7 +187,7 @@ export const TactictsData = [
         "Secondary Requires": "Intellilgence 2Empathy 1 OR Psychology",
         "Dice Rolls": "Primary: Manipulation + Persuasion. Secondary: Presence + Empathy (secondary actors).",
         "XP": "1310 for any tier-28 for any tier-3",
-        "Book": "HtV p219"
+        "Book": "HtV 219"
     },
     {
         "Name": "Disappear",
@@ -197,7 +197,7 @@ export const TactictsData = [
         "Secondary Requires": "(1) Composure 2Stealth 2Expression 2",
         "Dice Rolls": "Primary: Dexterity + Stealth.Secondary: Presence + Expression.",
         "XP": "1411 for Net 09 for Ascending",
-        "Book": "HtV p221"
+        "Book": "HtV 221"
     },
     {
         "Name": "Disarm",
@@ -207,7 +207,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Wits 2Occult 2",
         "Dice Rolls": "Primary: Varies (see below).Secondary: Intelligence + Occult.",
         "XP": "1613 for Null11 for Aegis",
-        "Book": "SpSl p128"
+        "Book": "SpSl 128"
     },
     {
         "Name": "Distraction",
@@ -217,7 +217,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Brawl 1Partial (1)Expression 2",
         "Dice Rolls": "Primary: Dexterity + Stealth.Secondary: Presence + Expression",
         "XP": "1310 for Union8 for KSG",
-        "Book": "WF p118"
+        "Book": "WF 118"
     },
     {
         "Name": "Divide and Conquer",
@@ -227,7 +227,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Manipulation 2Partial (3)Stealth 2",
         "Dice Rolls": "Primary: Manipulation + Expression.Secondary: Dexterity + Stealth",
         "XP": "1411 for Ashwood9 for Lucifuge",
-        "Book": "SpSl p130"
+        "Book": "SpSl 130"
     },
     {
         "Name": "Domesticate",
@@ -237,7 +237,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Intimidation 1 or specialty in Psychology",
         "Dice Rolls": "Presence + Animal Ken (beast), Manipulation + Persuasion (man).Secondary: Wits + Expression (beast), Presence + Empathy (man).",
         "XP": "1310 for Long Night8 for Ascending",
-        "Book": "SpSl p130"
+        "Book": "SpSl 130"
     },
     {
         "Name": "Draw and Quarter",
@@ -247,7 +247,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 3Brawl 1",
         "Dice Rolls": "Primary: Intelligence + Medicine. Secondary: Strength + Brawl.",
         "XP": "1411 for Ashwood9 for Aegis",
-        "Book": "Slash p138"
+        "Book": "Slash 138"
     },
     {
         "Name": "Effigy",
@@ -257,7 +257,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Presence 2Occult or Science 2",
         "Dice Rolls": "Primary: Presence + Expression.Secondary: Intelligence + Occult or Intelligence + Science.",
         "XP": "1613 for Null11 for Aegis",
-        "Book": "SpSl p132"
+        "Book": "SpSl 132"
     },
     {
         "Name": "Eviscerate",
@@ -267,7 +267,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Dex 2Brawl 2",
         "Dice Rolls": "Primary: Dexterity + Weaponry. Secondary: Dexterity + Subterfuge.",
         "XP": "1613 for Thule11 for Ascending",
-        "Book": "NS p126"
+        "Book": "NS 126"
     },
     {
         "Name": "Excision",
@@ -277,7 +277,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Medicine 2Partial (1)Intelligence 3Medicine 5 orMedicine 4 with specialty in Brain Surgery",
         "Dice Rolls": "Dexterity + Medicine.Secondary:Wits + Medicine or Intelligence + Medicine (secondary actor with Medicine 5)",
         "XP": "1411 for Ashwood9 for Cherion",
-        "Book": "WF p119"
+        "Book": "WF 119"
     },
     {
         "Name": "Exorcism",
@@ -287,7 +287,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Composure 2Occult 2",
         "Dice Rolls": "Primary: Resolve + Composure.Secondary: Stamina + Expression.",
         "XP": "1613 for Long Night11 for Malleus",
-        "Book": "HtV p222"
+        "Book": "HtV 222"
     },
     {
         "Name": "Exploit Tell",
@@ -297,7 +297,7 @@ export const TactictsData = [
         "Secondary Requires": "Manipulation 2Empathy 2Partial (1)Wits 2",
         "Dice Rolls": "Primary: Manipulation + Empathy. Secondary: Wits + Empathy.",
         "XP": "1411 for Thule9 for VASCU",
-        "Book": "Slash p139"
+        "Book": "Slash 139"
     },
     {
         "Name": "False Pretenses",
@@ -307,7 +307,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Subterfuge 3",
         "Dice Rolls": "Primary: Manipulation + Socialize. Secondary: Composure + Subterfuge.",
         "XP": "1512 for Union10 for Malleus",
-        "Book": "Slash p141"
+        "Book": "Slash 141"
     },
     {
         "Name": "Flintlock Reload",
@@ -317,7 +317,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Firearms 2Partial (1)Crafts 2",
         "Dice Rolls": "Primary: Dexterity + Firearms.Secondary: Wits + Firearms or Crafts",
         "XP": "1410 for Les Voyageurs",
-        "Book": "DE p387"
+        "Book": "DE 387"
     },
     {
         "Name": "Going to Groups",
@@ -337,7 +337,7 @@ export const TactictsData = [
         "Secondary Requires": "Presence 2Expression 1Partial (1)Crafts 1",
         "Dice Rolls": "Primary: Presence + Intimidation.Secondary: Intelligence + Crafts.",
         "XP": "1310 for Long Night8 for Net 0",
-        "Book": "Slash p142"
+        "Book": "Slash 142"
     },
     {
         "Name": "Hamstring",
@@ -347,7 +347,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Athletics 2Brawl 1",
         "Dice Rolls": "Primary: Strength + Weaponry.Secondary:Presence + Athletics.",
         "XP": "1512 for Union10 for Lucifuge",
-        "Book": "HtV p223"
+        "Book": "HtV 223"
     },
     {
         "Name": "Harvest",
@@ -357,7 +357,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Composure 2Occult 2(1) Occult 4 or3 + monster type",
         "Dice Rolls": "Primary: Composure + Medicine. Secondary: Wits + Occult (one secondary actor); Strength + Brawl (all other secondary actors).",
         "XP": "1613 for Ashwood11 for Cheiron",
-        "Book": "HtV p223"
+        "Book": "HtV 223"
     },
     {
         "Name": "Headshot",
@@ -367,7 +367,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Brawl 2Partial (1)Medicine 2",
         "Dice Rolls": "Primary: Dexterity + Brawl - target’s Stamina.Secondary: Strength + Brawl; Wits + Medicine (secondary actor with Medicine 2).",
         "XP": "1411 for Null9 for TFV",
-        "Book": "WF p121"
+        "Book": "WF 121"
     },
     {
         "Name": "Helter Skelter",
@@ -377,7 +377,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve or Composure 2Stealth 1Intimidation 1",
         "Dice Rolls": "Primary: Strength + Brawl or Weaponry. Secondary: Dexterity + Expression.",
         "XP": "1411 for Long Night9 for Ascending",
-        "Book": "NS p127"
+        "Book": "NS 127"
     },
     {
         "Name": "Identification",
@@ -387,7 +387,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Occult 1Empathy 1Investigation 1(1) Empathy 3",
         "Dice Rolls": "Primary: Intelligence + Empathy or Occult.Secondary: Wits + Investigation.",
         "XP": "1512 for any tier-210 for any tier-3",
-        "Book": "HtV p224"
+        "Book": "HtV 224"
     },
     {
         "Name": "Impale",
@@ -397,7 +397,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Athletics 2Brawl 1",
         "Dice Rolls": "Primary: Strength + Athletics or Strength + Firearms or Strength + Weaponry.Secondary: Dexterity + Athletics.",
         "XP": "1411 for Ashwood9 for Aegis",
-        "Book": "Slash p144"
+        "Book": "Slash 144"
     },
     {
         "Name": "I Need a Hero",
@@ -417,7 +417,7 @@ export const TactictsData = [
         "Secondary Requires": "Manipulation 2Subterfuge 2Intimidation 1Partial (1)Academics or Computer 2Partial (1)Intimidation 2",
         "Dice Rolls": "Primary: Manipulation + Intimidation.Secondary: Presence + Intimidation, Intelligence + Academics or Computer.",
         "XP": "1310 for Thule8 for Malleus",
-        "Book": "WF p121"
+        "Book": "WF 121"
     },
     {
         "Name": "Invisible Fence",
@@ -427,7 +427,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Composure 2Investigation 2",
         "Dice Rolls": "Primary: Wits + Composure (or other as described below)Secondary: Wits + Investigation.",
         "XP": "1613 for Null11 for TFV",
-        "Book": "NS p128"
+        "Book": "NS 128"
     },
     {
         "Name": "Keep 'Em Awake",
@@ -437,7 +437,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Medicine 1",
         "Dice Rolls": "Primary: Intelligence + Medicine.Secondary: Dexterity +Medicine.",
         "XP": "1310 for Null8 for TFV",
-        "Book": "Slash p144"
+        "Book": "Slash 144"
     },
     {
         "Name": "Lobby",
@@ -447,7 +447,7 @@ export const TactictsData = [
         "Secondary Requires": "Manipulation 2Politics 1Expression 1Persuasion 2Socialize 2",
         "Dice Rolls": "Primary: Manipulation + Politics.Secondary: Charisma + Persuasion.",
         "XP": "1613 for Union11 for Malleus",
-        "Book": "NS p129"
+        "Book": "NS 129"
     },
     {
         "Name": "Lobotomize",
@@ -457,7 +457,7 @@ export const TactictsData = [
         "Secondary Requires": "Medicine 2 or Medicine 1 with specialty in SurgeryBrawl 2",
         "Dice Rolls": "Primary: Dexterity + Medicine.Secondary: Strength + Brawl",
         "XP": "1411 for Null9 for Cheiron",
-        "Book": "Slash p145"
+        "Book": "Slash 145"
     },
     {
         "Name": "Man Can Lick Too",
@@ -467,7 +467,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Stealth 3Partial (1)Presence 2Subterfuge 2",
         "Dice Rolls": "Primary: Dexterity + Stealth.Secondary: Wits + Stealth.",
         "XP": "1512 for Net 010 for VASCU",
-        "Book": "Slash p146"
+        "Book": "Slash 146"
     },
     {
         "Name": "Measurements",
@@ -477,7 +477,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Academics or Computer 2",
         "Dice Rolls": "Primary: Intelligence + Science. Secondary: Wits + Stealth.",
         "XP": "1411 for Null9 for Cheiron",
-        "Book": "HtV p225"
+        "Book": "HtV 225"
     },
     {
         "Name": "Moral Support",
@@ -487,7 +487,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Empathy 1",
         "Dice Rolls": "Primary: Manipulation or Presence + Empathy. Secondary: Wits + Expression.",
         "XP": "1310 for any tier-28 for any tier-3",
-        "Book": "HtV p226"
+        "Book": "HtV 226"
     },
     {
         "Name": "My Brother's Keeper",
@@ -497,7 +497,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Brawl or Weaponry 2Partial (2)Athletics 2",
         "Dice Rolls": "Primary: Wits + Expression.Secondary: Strength + Brawl or Strength + Weaponry.",
         "XP": "1613 for Union10 for Malleus",
-        "Book": "SpSl p134"
+        "Book": "SpSl 134"
     },
     {
         "Name": "Net",
@@ -507,7 +507,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Athletics 2Brawl 1(1) Athletics 3 or2+Whips, Throwing, Roping",
         "Dice Rolls": "Dexterity + Survival.Secondary: Strength + Athletics (one secondary actor); Strength + Brawl (all other secondary actors).",
         "XP": "1512 for Thule10 for Lucifuge",
-        "Book": "HtV p226"
+        "Book": "HtV 226"
     },
     {
         "Name": "No Escape",
@@ -517,7 +517,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Crafts 2",
         "Dice Rolls": "Primary: Intelligence + Crafts.Secondary: Strength + Crafts.",
         "XP": "1411 for Null9 for Lucifuge",
-        "Book": "Slash p147"
+        "Book": "Slash 147"
     },
     {
         "Name": "Pack of Bloodhounds",
@@ -527,7 +527,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 3Survival 2",
         "Dice Rolls": "Primary: Wits or Intelligence + Survival.Secondary: Wits + Survival.",
         "XP": "1512 for Ashwood10 for TFV",
-        "Book": "Slash p148"
+        "Book": "Slash 148"
     },
     {
         "Name": "Profiling",
@@ -537,7 +537,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Investigation 1Stealth 1(1)Computer 2",
         "Dice Rolls": "Primary: Intelligence + Investigation.Secondary: Wits + Investigation.",
         "XP": "1411 for Net 09 for TFV",
-        "Book": "HtV p227"
+        "Book": "HtV 227"
     },
     {
         "Name": "Resonance",
@@ -547,7 +547,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Science 2",
         "Dice Rolls": "Primary: Intelligence + Science.Secondary: Resolve + Composure.",
         "XP": "1411 for Null9 for TFV",
-        "Book": "SpSl p135"
+        "Book": "SpSl 135"
     },
     {
         "Name": "Revel in the Kill",
@@ -557,7 +557,7 @@ export const TactictsData = [
         "Secondary Requires": "Morality 3 or less",
         "Dice Rolls": "Primary: Resolve + Composure. Secondary: Manipulation + Socialize.",
         "XP": "1512 for Hunt Club10 for TFV",
-        "Book": "Slash p150"
+        "Book": "Slash 150"
     },
     {
         "Name": "Roadkill",
@@ -567,7 +567,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Dexterity 2",
         "Dice Rolls": "Primary: Dexterity + Drive.Secondary: Manipulation + Dexterity.",
         "XP": "1411 for Long Night9 for TFV",
-        "Book": "SpSl p136"
+        "Book": "SpSl 136"
     },
     {
         "Name": "Ruination",
@@ -577,7 +577,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Partial (3)Brawl or Weaponry 2or Brawl 2 with a natural weapon",
         "Dice Rolls": "Primary: Presence + Expression or Strength + Weaponry.Secondary: Strength + Brawl or Strength + Weaponry.",
         "XP": "1210 for Ashwood8 for Ascending",
-        "Book": "Slash p151"
+        "Book": "Slash 151"
     },
     {
         "Name": "Shadowing",
@@ -587,7 +587,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Stealth 1Investigation 1Partial (2)Stealth 2",
         "Dice Rolls": "Primary: Intelligence + Investigation.Secondary: Wits + Investigation or Stealth",
         "XP": "1411 for TFV9 for KSG",
-        "Book": "WF p123"
+        "Book": "WF 123"
     },
     {
         "Name": "Silver Bullet",
@@ -597,7 +597,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity or Strength 2Firearms or Weaponry 1",
         "Dice Rolls": "Primary: Dexterity + Firearms or Strength + Weaponry.Secondary: Dexterity + Firearms or Strength + Weaponry.",
         "XP": "1310 for Thule8 for Malleus",
-        "Book": "SpSl p138"
+        "Book": "SpSl 138"
     },
     {
         "Name": "Staking",
@@ -607,7 +607,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Brawl 2(1)Medicine 1",
         "Dice Rolls": "Primary: Strength + Weaponry.Secondary: Strength + Brawl; Wits + Medicine (secondary actor with Medicine 1).",
         "XP": "1411 for Ashwood9 for Malleus",
-        "Book": "HtV p228"
+        "Book": "HtV 228"
     },
     {
         "Name": "Stalking Horse",
@@ -637,7 +637,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Athletics 2Brawl 1",
         "Dice Rolls": "Primary: Dexterity + Firearms.Secondary: Presence + Athletics.",
         "XP": "1512 for Null10 for Lucifuge",
-        "Book": "WF p124"
+        "Book": "WF 124"
     },
     {
         "Name": "Tar & Feather",
@@ -647,7 +647,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Dexterity 2(2) Athletics 2",
         "Dice Rolls": "Primary: Dexterity + Crafts,Secondary: Dexterity + Athletics.",
         "XP": "129 for Net 07 for Cheiron",
-        "Book": "NS p133"
+        "Book": "NS 133"
     },
     {
         "Name": "Territorial Recon",
@@ -657,7 +657,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Academics 3or Academics 2 with specialty in ResearchPartial (1)Socialize 2Streetwise 2",
         "Dice Rolls": "Primary: Intelligence + Academics.Secondary: Manipulation + Socialize or Manipulation + Streetwise",
         "XP": "",
-        "Book": "BbBB p7"
+        "Book": "BbBB 7"
     },
     {
         "Name": "The Procedure",
@@ -677,6 +677,6 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Subterfuge 2Weaponry 1Partial (1)Expression 2",
         "Dice Rolls": "Primary: Strength + Weaponry (or another appropriate attack roll).Secondary: Manipulation + Subterfuge.",
         "XP": "1512 for Net 010 for Cheiron",
-        "Book": "SpSl p138"
+        "Book": "SpSl 138"
     }
 ]

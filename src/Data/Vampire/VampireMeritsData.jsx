@@ -15,7 +15,7 @@ export const vampireMeritsData = [
         "Name": "Close Family",
         "Cost": "(• to •••)",
         "Description": "You have a close vampiric lineage. Once per session, take +3 to roll Manipulation + Persuasion or Empathy concerning a vampire at one level of remove per dot in this Merit.",
-        "Book": "Daeva p117"
+        "Book": "Daeva 117"
     },
     {
         "Name": "Distant Sympathy",
@@ -63,13 +63,13 @@ export const vampireMeritsData = [
         "Name": "Herd",
         "Cost": "(• to •••••)",
         "Description": "Possession of a faithful group of kine upon which one can easily feed - each week, gain a number of Vitae equal to twice this merit's rating. This requires no rolls, only a quick interlude.",
-        "Book": "VtR p101"
+        "Book": "VtR 101"
     },
     {
         "Name": "Inherited Ghoul",
         "Cost": "(••) *pre: Ghoul (CO only)",
         "Description": "Reflects a ghoul who has worked with previous masters, and may possess vital information relating to them.",
-        "Book": "Ghou p71"
+        "Book": "Ghou 71"
     },
     {
         "Name": "Inherited Resistance",
@@ -87,7 +87,7 @@ export const vampireMeritsData = [
         "Name": "Kindred Medium",
         "Cost": "(•• or ••••) *pre: Wits ••",
         "Description": "Gains a special connection with a spirit, and the ability to see and interact with it, along with the ability to feel the presence of other spirits. Two dots if bought at character creation, four dots otherwise.",
-        "Book": "NOrl p93"
+        "Book": "NOrl 93"
     },
     {
         "Name": "Lordly Palette",
@@ -117,7 +117,7 @@ export const vampireMeritsData = [
         "Name": "Regnant",
         "Cost": "(• to •••••) *pre: Ghoul",
         "Description": "Reflects a healthy relationship with one's keeper.",
-        "Book": "Ghou p71"
+        "Book": "Ghou 71"
     },
     {
         "Name": "Remnant of Clarity",
@@ -153,7 +153,7 @@ export const vampireMeritsData = [
         "Name": "Social Chameleon",
         "Cost": "(• to •••) *pre: Fame <= •",
         "Description": "Gains a bonus to all social rolls within a specified subculture.",
-        "Book": "Daeva p115"
+        "Book": "Daeva 115"
     },
     {
         "Name": "Swarm Mind",
@@ -219,7 +219,7 @@ export const vampireMeritsData = [
         "Name": "Voyeur",
         "Cost": "(••• or •••••) *pre: Daeva",
         "Description": "Once per session, regain Willpower as someone else indulges their vice. Three dots requires the Daeva to act as a tempter, with five dots simply observation will suffice.",
-        "Book": "Daeva p117"
+        "Book": "Daeva 117"
     },
     {
         "Name": "Zeal",

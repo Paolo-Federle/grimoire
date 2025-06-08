@@ -7,7 +7,7 @@ const mageMeritsData = [
         "LongDescription": [
             "Just as Odin had Hugin and Munin and Sleipnir, some Thyrsus mages are able to have multiple familiars. The mage may continue to buy additional familiars after character creation. The mage’s player must buy them all separately with experience points, but there’s no limit to the number of familiars a mage with this Merit may acquire. Though many familiars would slow the mage’s growth in other areas, a mage could theoretically surround herself with a veritable brood of familiars in this way.",
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Ancient Lands Awakening",
@@ -20,7 +20,7 @@ const mageMeritsData = [
             "Additionally, the grimoire-manuscripts often find their way to those who have experienced Ancient Lands Awakenings. Generally speaking, the destiny of the books will arrange for them to come into the hands of those who were Awakened by one of them when they gain an additional dot of Gnosis. Once play begins, Storytellers are encouraged to arrange for other manuscripts to coincidentally come into the hands of characters with this Merit every time such characters increase their Gnosis by 1 dot. Characters with this Merit pay 1 less Experience point to learn rotes from The Ancient Lands Pentalogy grimoire-manuscripts.",
             "Finally, because all who are Awakened by these books seem to possess the same generosity and desire to help others that characterize both Lenore and the protagonist Soter, any mage who underwent an Ancient Lands Awakening who fulfills his Virtue by helping Sleepers using his magic also gains a point of Mana in addition to recovering all his Willpower."
         ],
-        "Book": "GoG p23",
+        "Book": "GoG 23",
     },
     {
         "Title": "Artifact",
@@ -59,7 +59,7 @@ const mageMeritsData = [
             "Each Composure + Wits roll made as part of the extended meditation action to enter Astral Space takes only 15 minutes for your character, instead of the usual 30 minutes. In addition, your character can try to enter Astral Space from Hallows rated less than 5; for each dot below 5 the Hallow is rated, add four successes to the meditation roll’s target number.",
             "A character with this Merit still cannot enter Astral Space outside a Demesne or Hallow."
         ],
-        "Book": "SotRT p111",
+        "Book": "SotRT 111",
     },
     {
         "Title": "Cartomancer",
@@ -79,7 +79,7 @@ const mageMeritsData = [
             "<b>Exceptional Success:</b> The spell is exactly appropriate for the circumstance. The player receives a 9-again bonus on the casting roll.",
             "<b>••• Instinctive Draw:</b> The character can now use the Interpretative Draw ability as a reflexive action, meaning that she can draw, interpret, and cast in the same turn. Alternately, the character can draw, interpret, and then chant in High Speech, thus gaining the High Speech Merit along with the bonus from this Merit (if any) on the following turn. Although the mage does not have to cast the spell if the draw isn’t favorable, she can only make one draw per spell, even if the draw is a reflexive action."
         ],
-        "Book": "KST p13, Tarot",
+        "Book": "KST 13, Tarot",
     },
     {
         "Title": "Daimon",
@@ -90,7 +90,7 @@ const mageMeritsData = [
             "“Daimon” is the original Greek word from which the modern English “demon” is derived. The Greeks regarded the daimon as an intermediary between the gods and man, distinct from the free-roaming malevolent spirit of Mesopotamia. Comparable to other Paths’ guardian angel, faerie kin, power animal or ancestral protector, the daimon shares an intimate personal link with the bearer of this Merit, but also partakes of the Supernal Realm that is the daimon’s birthplace. A mage’s daimon is far older than the mage, at least in an ontological sense, and has access to knowledge, wisdom and modes of thought or being that are beyond mortal ken. Mages of any Path can purchase this Merit.",
             "This Merit acts similar to the Dream Merit (p. 82 in Mage: The Awakening). The mage with this Merit, however does not need to spend an hour in sleep or trance to receive a clue from his daimon. He merely spends one turn in meditative concentration, and the Storyteller rolls his Wits + Composure in secret, with the same results as described for the Dream Merit, except that success provides only one clue. This clue comes from the daimon, and similar to dream clues, is cloaked in allegory and metaphor."
         ],
-        "Book": "TotW p66",
+        "Book": "TotW 66",
     },
     {
         "Title": "Destiny",
@@ -152,7 +152,7 @@ const mageMeritsData = [
             "Example: Mako acquires an Enchanted jumpsuit, intended to serve as a suit of armor. Her player purchases the item as a five-dot Enhanced Item, with four dots assigned to armor (for 2/2 armor) and one dot assigned to Durability (for +2 Durability). She could also buy the suit as a three-dot Enhanced Item — for 1/1 armor and +2 Durability — but she cannot buy more dots of armor for the item than she assigns bonus Durability to it. In other words, the item cannot be 1/1 or 2/2 armor with no added Durability.",
             "Because points of armor are not a “+1 (or greater) dice modifier” (per the Enhanced Item entry on p. 82 of Mage: The Awakening), this is the quality used to augment a regular suit of armor with the Enhanced Item Merit. Thus, a mage could have a 2/1 set of reinforced clothing if her player desired, or even a 5/6 suit of riot gear. Note, however, that the rule for increasing Durability still stands for enhancing a suit of armor."
         ],
-        "Book": "AA p201",
+        "Book": "AA 201",
     },
     {
         "Title": "Enhanced Item: Bulletproof",
@@ -162,7 +162,7 @@ const mageMeritsData = [
         "LongDescription": [
             "By assigning two points of the Enhanced Item Merit to an article of clothing not normally possessed of such, a player can bestow the “bulletproof” quality upon it (see the World of Darkness Rulebook, p. 166). This quality does not invoke Paradox, but might result in Disbelief if the shot sustained should clearly have been fatal, or even particularly grievous.",
         ],
-        "Book": "AA p202",
+        "Book": "AA 202",
     },
     {
         "Title": "Enhanced Item: Decreased Size",
@@ -172,7 +172,7 @@ const mageMeritsData = [
         "LongDescription": [
             "Some mages may wish to compress an item, while having it still retain its normal properties. Decreasing the Size of an Enhanced Item costs one Merit dot per –2 Size."
         ],
-        "Book": "GotV p204",
+        "Book": "GotV 204",
     },
     {
         "Title": "Extemporaneous Affinity",
@@ -184,7 +184,7 @@ const mageMeritsData = [
             "At one dot in the Merit, the character gains a +1 die bonus to improvised spellcasting; at three dots, the character gains a +2 dice bonus, and at five dots, the character gains a +3 dice bonus. Only improvised spells gain the benefit of bonus dice.",
             "This Merit is intended to represent a character who has been using magic for a decent length of time without much in the way of formal magical education. Banishers who prefer to burn books rather than read them are also likely candidates for this Merit."
         ],
-        "Book": "Ban p41",
+        "Book": "Ban 41",
     },
     {
         "Title": "Familiar",
@@ -243,7 +243,7 @@ const mageMeritsData = [
         "LongDescription": [
             "There’s something bestial and untamed about the mage, as though she’s been living with a pack of wolves or swimming with sharks. She has a pronounced animalist tendency in the way she moves, or in certain mannerisms she possesses. Her voice may have a lot of growl or purr in it, or the way she moves might be lithe like a cat or subtly predatory on an unconscious level. Whatever the specifi cs, the player gains three additional dice on all Intimidation and Seduction rolls. Many mages with this Merit also have the Friend of Beasts Merit (below).",
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Friend of Beasts",
@@ -253,7 +253,7 @@ const mageMeritsData = [
         "LongDescription": [
             "The mage has less of the human world about him and sees the world more as an animal thanks to the mage’s journey to the Primal Wild. Animals sense this, whether by scent or some other awareness, and they accept him as one of their own. When rolling Animal Ken, the character’s player adds three extra dice to the dice pool being rolled. A mage taking the single dot version of this Merit is unable to hide his bestial nature around others and loses two dice from all Socialize rolls.",
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Geomancer",
@@ -283,7 +283,7 @@ const mageMeritsData = [
             "In addition, the mage can pass on the rotes she knows using one of the alternate gesture forms she has studied instead of the form she learned it in.",
             "<b>Drawback:</b> This is only effective for rotes the mage knows, and only for personal castings of these rotes. Furthermore, no matter how many gesture sets she knows, a mage can only pass on one of them while teaching a given rote."
         ],
-        "Book": "TotM p94",
+        "Book": "TotM 94",
     },
     {
         "Title": "Ghost Familiar",
@@ -297,7 +297,7 @@ const mageMeritsData = [
             "A ghost familiar spends and receives Essence in the same manner as a fetch, though the ghost familiar can only gain Essence from its bonded willworker or through proximity to a place resonant with death. The empathic connection conveyed by a normal familiar bond exists between a mage and her ghost familiar. Likewise, the ghost familiar constitutes a Sensory sympathetic tie for its bound mage, and the willworker can spend the shade’s Essence as points of Mana.",
             "Ghost familiars are built as fetches, with the following exceptions:<ul><li>A ghost familiar retains its Virtue and Vice, and benefits from them, as normal. (Note, however, that the ghost familiar’s Morality score, and any derangements associated with degeneration, are lost when the familiar bond takes hold; the ghost no longer needs its Morality trait to function normally.)</li><li>A ghost familiar has no Influence or Ban.</li><li>A ghost familiar has two ghost Numina (The World of Darkness, pp. 210–2), rather than one spirit Numen.</li><li>As above, ghost familiars attempting to manifest do so according to the rules that govern ghosts, rather than those for normal fetches.</li></ul>"
         ],
-        "Book": "Summ p39",
+        "Book": "Summ 39",
     },
     {
         "Title": "Glyph Lore",
@@ -310,7 +310,7 @@ const mageMeritsData = [
             "In addition, the mage can use runes to extend duration and inscribe the rotes she knows using any form she has selected for this Merit instead of the form she learned it in.",
             "Drawback: This is only effective for rotes the mage knows, and only for personal castings of these rotes. Furthermore, no matter how many types of High Speech she knows, a mage can only pass on one of them while recording a given rote."
         ],
-        "Book": "TotM p97",
+        "Book": "TotM 97",
     },
     {
         "Title": "Goetic Familiar",
@@ -328,7 +328,7 @@ const mageMeritsData = [
             "Note that changes to a spirit’s Attributes may alter other characteristics, such as Health or Speed, and adjust those traits accordingly. Goetic familiars may not have their Influences increased.",
             "A mage who already has a familiar (Twilight or embodied) may still acquire a goetic familiar of either sort, but may only ever have one goetic familiar, regardless of type."
         ],
-        "Book": "GoG p96"
+        "Book": "GoG 96"
     },
     {
         "Title": "Guise of Death",
@@ -340,7 +340,7 @@ const mageMeritsData = [
             "In practice, this requires the character to inflict five points of lethal damage on himself to produce the quantity of blood required to negate the cost of human sacrifice. The blood is drizzled all around the ritual area, including soaking the soul stone. A soul stone withers and decays each time it is used to negate the cost of human sacrifice. Each use decreases the Structure of the soul stone by one and the damage caused may not be repaired in any manner (magical or mundane).",
             "Use of another mage’s soul stone to replace ritual human sacrifice is an act of hubris for mages of Wisdom four or higher (roll three dice)."
         ],
-        "Book": "Summ p184"
+        "Book": "Summ 184"
     },
     {
         "Title": "High Speech",
@@ -362,7 +362,7 @@ const mageMeritsData = [
         "LongDescription": [
             "One of the perils of taking on another shape is the risk of becoming so lost in the new shape that the mage forgets her true identity. This Merit grants the mage an unerring knowledge of who she is that goes right down to the core of her being. The fl esh may take this form and that form, but the mage always knows who she is and how to get back to her native form, whether the magic that made her assume the new shape is her own or a spell cast on her by another.",
         ],
-        "Book": "TotW p153",
+        "Book": "TotW 153",
     },
     {
         "Title": "Imbued Item",
@@ -403,7 +403,7 @@ const mageMeritsData = [
             "A target’s defense is considered separately for both rolls. First, the mundane dice roll is affected by any condition that would normally affect such an action — the target’s Defense against melee attacks, any modifiers for cover or concealment, range penalties, etc. Second, the spellcasting roll is affected by any defense the target is normally allowed (a contested roll, or subtracting a Resistance Attribute from the casting dice pool).",
             "An Embodied casting might not be as effective as a normal casting if the caster’s mundane dice pool isn’t very good, but since a mundane action is accomplished at the same time, it can prove worthwhile for certain spells — especially those that require the caster to touch the target (so long as the rote Skill used is Athletics, Brawl or Weaponry). "
         ],
-        "Book": "TotM p77",
+        "Book": "TotM 77",
     },
     {
         "Title": "Long Shifting",
@@ -414,7 +414,7 @@ const mageMeritsData = [
             "The mage is particularly comfortable in the animal forms he assumes, and his magic lasts longer than other mages who lack his mastery of shapeshifting. A mage with this Merit can worry less about awkwardly timed transformations back to human form (while the mage is fl ying as an eagle, for example), and he need not worry about the strain of repeated casting under circumstances where recasting a spell might be diffi cult.",
             "For purposes of determining how long the mage can remain in a magically assumed form, count the mage’s understanding of the Life Arcanum as two higher than it actually is. This explicitly gives the mage access to Advanced Prolongation (see Mage: The Awakening, p. 120) for all spells that shift his own flesh."
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Manifestation Machine	",
@@ -427,7 +427,7 @@ const mageMeritsData = [
             "You must work together with the Storyteller to determine what this object is. In general, assume a Manifestation Machine object has Durability and Size equal to its dots and Structure equal to twice its dots.",
             "Outside of the Free Council, these kind of “spiritual receivers” are also known as Twilight buoys, spirit flags, fetch channels and myriad other names, any of with are suitable substitute names for this Merit as well."
         ],
-        "Book": "FC p131",
+        "Book": "FC 131",
     },
     {
         "Title": "Master Exorcist",
@@ -437,7 +437,7 @@ const mageMeritsData = [
         "LongDescription": [
             "Due to the mage’s deep understanding of the Spirit Arcanum, the mage has an innate understanding of the techniques spirits use to invade material bodies, allowing him to more easily break those bonds. Any time a mage with this Merit performs an exorcism, his player adds three additional dice to the pool. This Merit also grants the mage three additional dice to resist being possessed himself.",
         ],
-        "Book": "TotW p153",
+        "Book": "TotW 153",
     },
     {
         "Title": "Myrmidon Oath Tongue",
@@ -448,7 +448,7 @@ const mageMeritsData = [
             "The oath the first Myrmidons took to the General applies to their entire dynasty, and is the reason the Praetorians trust the secretive Proximi more than they even trust one another. The Myrmidon Oath-Tongue is a special codelanguage learned by Praetorian Mages that incorporates elements of the High Speech and the First Tongue of Spirits.",
             "A Myrmidon must obey all orders given in the Oath-Tongue, even to the point of his own death, unless the order is impossible to accomplish."
         ],
-        "Book": "SotT p218",
+        "Book": "SotT 218",
     },
     {
         "Title": "Occultation",
@@ -475,7 +475,7 @@ const mageMeritsData = [
             "A mage with this Merit gains two extra dice for all rolls to sense events in the Realm Invisible, but at the cost of two dice from all perception dice pools pertaining to anything in the material realm. This otherworldly awareness can be used in any scene, but once invoked, this Merit cannot be dismissed for the rest of the scene.",
             "This is a common Merit (some might say affliction) for those mages of the Dreamspeaker Legacy."
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Otherworldly Lore",
@@ -486,7 +486,7 @@ const mageMeritsData = [
             "Through a combination of extended study and practical experience, some mages learn certain tricks for dealing with particular types of otherworldly entities. When purchasing this Merit, Otherworldly Lore must be assigned to a certain type of ephemeral being (ghosts, Shadow Realm spirits, goetic demons, entities from a given Supernal Realm, Gulmoth, Underworld creatures, etc.).",
             "When dealing with creatures of the specific type encompassed by her Otherworldly Lore Merit, a mage benefits from the 9-again rule with respect to all rolls — whether magical or mundane; combatrelated, social, investigative, or whatever — made upon or against a being of that type. A character may only have one instance of this Merit, representing a resolute dedication to dealing with a given “species” of entity, until she attains her sixth dot of Gnosis, whereupon she may purchase the Merit a second time. At 10 dots of Gnosis, she may purchase a third instance of Otherworldly Lore."
         ],
-        "Book": "Summ p184",
+        "Book": "Summ 184",
     },
     {
         "Title": "Potent Familiar",
@@ -497,7 +497,7 @@ const mageMeritsData = [
             "Owing to the mage’s (or perhaps his mentor’s) facility with the Spirit Arcanum, or perhaps some especially diffi cult vision quest the mage completed in the Realms Invisible, the Shaman’s familiar is more powerful than most beginning familiars. This may be just the advantage a mage needs to survive the diffi cult early days after his Awakening.",
             "This Merit provides the mage with 15 extra “experience points” that he can use only to upgrade his familiar. This Merit may be purchased multiple times, but may only be purchased at character creation. After that, the mage must raise his familiar’s stats by spending experience points accrued during play."
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Predator’s Innocence",
@@ -509,7 +509,7 @@ const mageMeritsData = [
             "Note that just because the mage’s Wisdom doesn’t suffer doesn’t make killing right or acceptable by society’s standards, and a mage who makes a habit of killing will have other consequences to worry about.",
             "If the Storyteller judges that the player is just using this Merit as an excuse to have his character kill wantonly, the Storyteller is free to take this Merit away."
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Rote Specialty",
@@ -520,7 +520,7 @@ const mageMeritsData = [
             "Each dot in this Merit confers one Skill-based Rote Specialty. This Specialty adds a die to the pool for rotes that use the listed Skill.",
             "<b>Drawback:</b> Fully initiated members of an order effectively possess the maximum number of dots in this Merit and can’t take it again. Some order apprentices might have only one or two-dot Rote Specialties. If they leave order training early, they might forge a unique path, picking up their own rote skills."
         ],
-        "Book": "Ban p42",
+        "Book": "Ban 42",
     },
     {
         "Title": "Ritual Synergy",
@@ -548,7 +548,7 @@ const mageMeritsData = [
             "Training a slayer takes upwards of a year, during which time the character learns a large amount of summoning lore, allowing him to identify weaknesses in the things he will fight. When confronted with an alien threat, if the character spends one turn observing the entity he can attempt to determine where the thing came from and how best to fight it by rolling Intelligence + Occult.",
             "Each success reduces the entity’s Defense by one for any attacks made or directed by the character. With an exceptional success, the character remembers exactly what kinds of weapons are best used to combat the entity, as well."
         ],
-        "Book": "Summ p185",
+        "Book": "Summ 185",
     },
     {
         "Title": "Sleepwalker Retainer",
@@ -571,7 +571,7 @@ const mageMeritsData = [
             "As masters of spirit lore and ambassadors to the spirit courts, Shamans often have additional clout they can bring to bear when performing magic that controls spirits. Whether the mage is the beneficiary of some old pact he or a mentor made or due to some item he possesses, the mage has standing in the spirit courts far beyond what most mortals can aspire to.",
             "Every two points of this Merit negates one –1 modifier from the Spiritual Hierarchy table (see Mage: The Awakening, p. 317) when casting magic that affects spirits. With fi ve dots, this Merit negates up to three dice worth of penalties."
         ],
-        "Book": "TotW p154",
+        "Book": "TotW 154",
     },
     {
         "Title": "Status (Consilium or Order)",
@@ -615,7 +615,7 @@ const mageMeritsData = [
             "Ignoring a Mystery Command is dangerous. The Exarchs may send another mage who has this Flaw to punish the offender, or may send false messages through the Dream Merit. Fortunately, using the Dream Merit to investigate a Mystery Command can uncover clues that may help her reach the ordered objective.",
             "Like all Flaws, the player earns an additional experience point whenever a Mystery Command causes a significant problem for her character."
         ],
-        "Book": "SotT p43",
+        "Book": "SotT 43",
     },
     {
         "Title": "Summoner's Soul",
@@ -628,7 +628,7 @@ const mageMeritsData = [
             "When dealing with entities from his favored realm, all of the willworker’s Social Skill rolls receive two bonus dice as a result of this special bond.",
             "<i>But this may only be selected at character creation or with Storyteller approval.</i>"
         ],
-        "Book": "Summ p186",
+        "Book": "Summ 186",
     },
     {
         "Title": "Supernal Anchor",
@@ -641,7 +641,7 @@ const mageMeritsData = [
             "The spirit becomes imprisoned in this new form (and within the Fallen World), acting as a soul stone belonging to the mage for all intents and purposes, save that he cannot be held in thrall by losing the stone, as it is not actually a piece of his own soul.",
             "Crafting a Supernal Anchor is a dire act of hubris, requiring a mage with Wisdom 1 or greater to roll against degeneration (two dice)."
         ],
-        "Book": "Summ p186",
+        "Book": "Summ 186",
     },
     {
         "Title": "Supernal Companion",
@@ -654,7 +654,7 @@ const mageMeritsData = [
             "Supernal Companions are created using the guidelines shown in Mage: The Awakening on p. 83 for Twilight familiars. A Supernal Companion spends most of its time in Twilight but can manifest at its master’s side by spending a point of Essence (this ability is separate from the single Numen allowed to familiars at creation). In addition to the other benefits  gained by a mage for owning a familiar, she can drain up to two Essence from the Supernal Companion for an equal amount of Mana once each day.",
             "Note that the process of binding a Supernal entity to oneself in such a manner permits the being to survive indefinitely away from its realm of origin. Forcibly subjecting an unwilling Supernal spirit to the familiar bond (and many of them are, indeed, unwilling to be confined to the material realm), however, is an act of hubris, requiring any mage with a Wisdom of 3 or greater to roll two dice to resist degeneration."
         ],
-        "Book": "Summ p186",
+        "Book": "Summ 186",
     },
     {
         "Title": "Thrall",
@@ -680,7 +680,7 @@ const mageMeritsData = [
             "Void-Scourged willworkers receive a two-dice bonus to all rolls to summon or socially interact with Acamoth and Gulmoth (whether to negotiate a deal or to intimidate such a being into complying with the mage’s wishes). Furthermore, whenever a VoidScourged mage comes within 10 yards per dot of Gnosis of an Abyssal entity, the Storyteller reflexively rolls Wits + Composure for her, with bonus dice equal to the spirit’s Rank. On a success, the character is aware of the presence of an Abyssal being, though she cannot pinpoint its location, or determine its nature or power without the use of other abilities.",
             "This Merit costs two dots at character creation and four if purchased later."
         ],
-        "Book": "Summ p187",
+        "Book": "Summ 187",
     }
 
 ]
@@ -695,7 +695,7 @@ const mageMeritsOrderData = [
             "Your character knows how the Guardians of the Veil implanted certain symbols and tokens of authority throughout history. These symbols still have power today, so the Guardian can use them to claim authority in secret societies that use such symbols. Make a Wits + Occult roll; each success adds one die to social dice pools used to interact with any secret society that uses Guardian symbols. This aids the character’s attempts to convince the society that she is a member or pretend to hold higher status than she currently possesses. In the modern day, a vast number of organizations that do not necessarily even have an ongoing Guardian infl uence still use signs and tokens designed by Guardian Cultors.",
             "<b>Drawback:</b> If the deception is discovered or the Wits + Occult roll fails, no other Guardian can use this Merit on the secret society the character has attempted to cheat. Its members either now consider the old signs to be unreliable or have abandoned them before your character tried to use them."
         ],
-        "Book": "GotV p58",
+        "Book": "GotV 58",
     },
     {
         "Title": "Athenaeum",
@@ -708,7 +708,7 @@ const mageMeritsOrderData = [
             "Athenaeum materials and facilities also require space to be properly organized: at least one dot of Sanctum Size per two dots of Athenaeum (not component Merits).",
             "<b>Special:</b> It’s possible for members of a close-knit group (typically, a Mysterium caucus) to share this Merit. Members each contribute one or more dots and are considered to have common access to the Athenaeum."
         ],
-        "Book": "Myst p66",
+        "Book": "Myst 66",
     },
     {
         "Title": "Graduate of Otranto",
@@ -721,7 +721,7 @@ const mageMeritsOrderData = [
             "<b>Drawback: If the mage uses this Merit’s benefit, she takes a bit of the target’s doom onto herself. The mage gains an extra Paradox die, even if the spell was covert and appeared plausible.",
             "<b>Special:</b> This Merit is an example of the type of Merits available to students of academy Athenaea. Storytellers should invent others to reflect the unique experience of studying at a particular academy."
         ],
-        "Book": "Myst p72",
+        "Book": "Myst 72",
     },
     {
         "Title": "Masque",
@@ -733,7 +733,7 @@ const mageMeritsOrderData = [
             "You may purchase this Merit multiple times. Each purchase represents training in a different Greater Masque or a different identity within the same Greater Masque (with each one favoring different Skills).",
             "<b>Drawback:</b> Whenever you are capable of using this Merit’s benefits, your character is so immersed in the Masque that she also acquires the Masque’s Drawback. See the Masque Drawback entry for each Greater Masque. The Masque’s benefit and its drawback dice modifiers do not apply to magical or other supernatural tasks."
         ],
-        "Book": "GotV p69",
+        "Book": "GotV 69",
     },
     {
         "Title": "Mystery Initiation",
@@ -744,7 +744,7 @@ const mageMeritsOrderData = [
             "All mages of the Mysterium go through the stages of initiation in the Atlantean Mystery that is the secret core of the order. Not all of them truly internalize the process, however. To some, it is simply an acknowledgement of the respect they are accorded, and an acceptance of further responsibility in the order. To others, however, undergoing the initiations into the Mystery unlocks some new understanding. Each initiation comes with a Mystery Revelation, some mechanical benefit that reflects the enlightenment that comes to those magi who deeply understand and connect with the Mystery communicated through the initiatory rites.",
             ""
         ],
-        "Book": "Myst p102",
+        "Book": "Myst 102",
     },
     {
         "Title": "Oathbound",
@@ -763,7 +763,7 @@ const mageMeritsOrderData = [
             "• Violating a bound oath can have devastating effects. The Arrow immediately loses a point of Willpower and suffers a point of resistant lethal damage. This happens every 24 hours until the mage has lost Willpower points and suffered lethal damage equal to the oath’s binding point total +1. The mage looks weak and sick. Violating an oath is also a tremendous dishonor. The order lives and dies on its word. If a mage makes that meaningless, she endangers her comrades.",
             "The other effects of oaths are detailed on Adamantine Arrow, page 63."
         ],
-        "Book": "AA p63",
+        "Book": "AA 63",
     },
     
 ]
