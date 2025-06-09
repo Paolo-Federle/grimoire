@@ -1,7 +1,7 @@
 export const artifactData = [
   {
     'Nome': 'The Mark of Qazalak',
-    'Artifact Level': 3,
+    'Artifact_Level': 3,
     'Durability': 2,
     'Size': 1,
     'Structure': 3,
@@ -18,7 +18,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Ring of the Dethroned Queen',
-    'Artifact Level': 3,
+    'Artifact_Level': 3,
     'Durability': 6,
     'Size': 1,
     'Structure': 7,
@@ -48,7 +48,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Spotted Stone',
-    'Artifact Level': 3,
+    'Artifact_Level': 3,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -63,7 +63,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Astral Crystal',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -80,7 +80,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Coin of the Jester King',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 6,
     'Size': 1,
     'Structure': 7,
@@ -97,7 +97,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Count Amaury’s Spectacles',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -112,7 +112,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Crystal Dream Bracelet',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -129,7 +129,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Dionysian Key',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 3,
     'Size': 2,
     'Structure': 5,
@@ -148,7 +148,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Ferryman’s Flask',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -165,7 +165,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Hound’s Manacle',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -184,7 +184,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Judge’s Eye',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -200,7 +200,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Seal of Nar-Khedai',
-    'Artifact Level': 4,
+    'Artifact_Level': 4,
     'Durability': 5,
     'Size': "negligible",
     'Structure': 5,
@@ -215,7 +215,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Amulet of Sekhmet',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 4,
     'Size': 0,
     'Structure': 5,
@@ -231,7 +231,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Book of Safe Journeys',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 2,
     'Size': 1,
     'Structure': 3,
@@ -247,7 +247,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Crystalline Skull',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 4,
     'Size': 2,
     'Structure': 6,
@@ -265,7 +265,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Cyclopean Stone',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -282,7 +282,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Die of Destiny',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 8,
     'Size': 1,
     'Structure': 9,
@@ -320,7 +320,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Dreamstone',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 6,
     'Size': 1,
     'Structure': 6,
@@ -337,7 +337,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Konstantinov’s Knife',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': null,
     'Size': null,
     'Structure': null,
@@ -352,7 +352,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Peacebringer',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -368,7 +368,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Permit',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 2,
     'Size': 0,
     'Structure': 2,
@@ -384,7 +384,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Profane Ephod',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 3,
     'Size': 4,
     'Structure': 7,
@@ -404,7 +404,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Queen Sorra’s Jewelry',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -422,7 +422,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Red Ring',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': null,
     'Size': null,
     'Structure': null,
@@ -436,7 +436,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Rings of Astral Unity',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 4,
     'Size': 2,
     'Structure': 5,
@@ -452,7 +452,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Subtle Mirror',
-    'Artifact Level': 5,
+    'Artifact_Level': 5,
     'Durability': 4,
     'Size': 8,
     'Structure': 12,
@@ -468,7 +468,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Adamant Banner',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 7,
     'Size': 5,
     'Structure': 12,
@@ -485,7 +485,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Aegis',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 5,
     'Size': 3,
     'Structure': 8,
@@ -501,7 +501,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Astral Bubble',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': null,
     'Size': null,
     'Structure': null,
@@ -520,7 +520,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Coin of the Ferryman',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': null,
     'Size': null,
     'Structure': null,
@@ -536,7 +536,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Dirala’s Talon',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -552,7 +552,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Dragon Chained',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 6,
     'Size': 1,
     'Structure': 7,
@@ -569,7 +569,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Ley Markers',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 5,
     'Size': 2,
     'Structure': 7,
@@ -589,7 +589,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Pearl of Obscurity',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -606,7 +606,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Perpetual Motion Machine',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -623,7 +623,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Seat of Kings',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 4,
     'Size': 5,
     'Structure': 9,
@@ -641,7 +641,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'Shard of the Sun',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 6,
     'Size': 2,
     'Structure': 8,
@@ -658,7 +658,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Tanshien’s Thorn',
-    'Artifact Level': 6,
+    'Artifact_Level': 6,
     'Durability': 6,
     'Size': 2,
     'Structure': 8,
@@ -674,7 +674,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Bane of the Hoard',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -692,7 +692,7 @@ export const artifactData = [
   },
   {
     'Nome': 'BijDava',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 4,
     'Structure': 7,
@@ -709,7 +709,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Black Beauty',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 7,
     'Structure': 11,
@@ -727,7 +727,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Bottled Aether',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -745,7 +745,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'The Codex of Lost Pages',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -764,7 +764,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Coin of Lead and Gold',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 0,
     'Structure': 4,
@@ -781,7 +781,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Crown of Kings',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 2,
     'Structure': 6,
@@ -797,7 +797,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Dragon’s Eye',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 0,
     'Structure': 5,
@@ -814,7 +814,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Gabriel’s Horn',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -831,7 +831,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Gravity Well',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -849,7 +849,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'Karnacki’s Coffin',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 6,
     'Structure': 10,
@@ -867,7 +867,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Librarian’s Rod',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 2,
     'Structure': 7,
@@ -883,7 +883,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Lord of Storms',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 4,
     'Structure': 9,
@@ -899,7 +899,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Mask of Aztlán',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -915,7 +915,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Orb of Amnesia',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -931,7 +931,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Profane Urim',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 4,
     'Structure': 7,
@@ -952,7 +952,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'Quicksilver Spear',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 4,
     'Structure': 9,
@@ -970,7 +970,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Rays of Dawn',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 4,
     'Structure': 7,
@@ -986,7 +986,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Robe of the Dethroned Queen',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 5,
     'Structure': 10,
@@ -1007,7 +1007,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Scepter of the Dethroned Queen',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 4,
     'Size': 2,
     'Structure': 6,
@@ -1029,7 +1029,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Shard of the Mountain',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 4,
     'Structure': 9,
@@ -1046,7 +1046,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Soma',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': null,
     'Size': null,
     'Structure': null,
@@ -1065,7 +1065,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'Soul Hammer',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 5,
     'Size': 2,
     'Structure': 7,
@@ -1081,7 +1081,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Taroa’s Book',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 3,
     'Size': 2,
     'Structure': 5,
@@ -1097,7 +1097,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Temenotic Obelisk',
-    'Artifact Level': 7,
+    'Artifact_Level': 7,
     'Durability': 7,
     'Size': 10,
     'Structure': 17,
@@ -1115,7 +1115,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Celestial Urn',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 5,
     'Size': 3,
     'Structure': 8,
@@ -1131,7 +1131,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Coin of Hiding',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -1148,7 +1148,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Creeping Mirror Doll',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -1168,7 +1168,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'The Crown',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 2,
     'Structure': 6,
@@ -1187,7 +1187,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Cup of Life',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 3,
     'Size': 1,
     'Structure': 4,
@@ -1204,7 +1204,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Doorway Beyond',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 5,
     'Structure': 9,
@@ -1222,7 +1222,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Grim Sanctum',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 2,
     'Structure': 6,
@@ -1239,7 +1239,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Imadrillan, Ancestral Axe of the Léon Family',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 7,
     'Size': 3,
     'Structure': 10,
@@ -1256,7 +1256,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Kingly Regalia',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -1273,7 +1273,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'Liar’s Mask',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -1289,7 +1289,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Mestorian Bracers',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -1306,7 +1306,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Mirror of Revelation',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 2,
     'Structure': 6,
@@ -1324,7 +1324,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Null Bomb',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 5,
     'Size': 4,
     'Structure': 10,
@@ -1343,7 +1343,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Opal of Styx',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 6,
     'Size': 1,
     'Structure': 7,
@@ -1361,7 +1361,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Pillars of Enduring Creations',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 3,
     'Size': 2,
     'Structure': 6,
@@ -1379,7 +1379,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'Profane Thummim',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 3,
     'Size': 4,
     'Structure': 7,
@@ -1399,7 +1399,7 @@ export const artifactData = [
   },
   {
     'Nome': "The Rabbi's Cane",
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': null,
     'Size': null,
     'Structure': null,
@@ -1415,7 +1415,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Shadow and Silence',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 5,
     'Size': 0,
     'Structure': 5,
@@ -1432,7 +1432,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Soulgate Tome',
-    'Artifact Level': 8,
+    'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -1450,7 +1450,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Altar of Hallows',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 5,
     'Size': 8,
     'Structure': 13,
@@ -1469,7 +1469,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Clockwork Heart',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -1488,7 +1488,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'The Flying Saucer',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 5,
     'Size': 22,
     'Structure': 27,
@@ -1508,7 +1508,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Opener of Ways',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 6,
     'Size': 2,
     'Structure': 8,
@@ -1524,7 +1524,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Shadow and Light',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 5,
     'Size': 4,
     'Structure': 9,
@@ -1541,7 +1541,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Unmaker',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 5,
     'Size': 2,
     'Structure': 7,
@@ -1558,7 +1558,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Vimana Engine',
-    'Artifact Level': 9,
+    'Artifact_Level': 9,
     'Durability': 5,
     'Size': 3,
     'Structure': 6,
@@ -1582,7 +1582,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Grimoire of the Exarchs',
-    'Artifact Level': 10,
+    'Artifact_Level': 10,
     'Durability': 3,
     'Size': 2,
     'Structure': 5,
@@ -1602,7 +1602,7 @@ export const artifactData = [
   ,
   {
     'Nome': 'The Mask of Eyes',
-    'Artifact Level': 10,
+    'Artifact_Level': 10,
     'Durability': 5,
     'Size': 1,
     'Structure': 6,
@@ -1621,7 +1621,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Ring of the Unvoiced Herald',
-    'Artifact Level': 10,
+    'Artifact_Level': 10,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -1637,7 +1637,7 @@ export const artifactData = [
   },
   {
     'Nome': 'St. Peter’s Key',
-    'Artifact Level': 10,
+    'Artifact_Level': 10,
     'Durability': 4,
     'Size': 1,
     'Structure': 5,
@@ -1656,7 +1656,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Teraphim',
-    'Artifact Level': 11,
+    'Artifact_Level': 11,
     'Durability': 7,
     'Size': 2,
     'Structure': 9,
@@ -1674,7 +1674,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Eye of Ahriman',
-    'Artifact Level': 12,
+    'Artifact_Level': 12,
     'Durability': 10,
     'Size': 0,
     'Structure': 10,
@@ -1696,7 +1696,7 @@ export const artifactData = [
   },
   {
     'Nome': 'Metachronal Clock',
-    'Artifact Level': 12,
+    'Artifact_Level': 12,
     'Durability': 12,
     'Size': "1/unkown",
     'Structure': "Unknown",
@@ -1715,7 +1715,7 @@ export const artifactData = [
   },
   {
     'Nome': 'The Star of Athichi',
-    'Artifact Level': 14,
+    'Artifact_Level': 14,
     'Durability': 9,
     'Size': 1,
     'Structure': 10,

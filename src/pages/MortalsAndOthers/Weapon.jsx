@@ -9,20 +9,9 @@ import {
     bulletsData, shotgunSpecificsData, standardExplosivesData, explosiveData, grenadesData, grenadeLauncherData,
     grenadeAmmunitionData, artilleryShellData, rocketMissileData, militaryVehicleArmamentData, landMinesData, toxinsData
 } from '../../Data/Mortal/WeaponData';
+import { rimuoviCampi } from '../../utils';
 
 export default function Weapon() {
-
-    function rimuoviCampi(lista, campiDaRimuovere) {
-        return lista.map(obj => {
-            // rimuove campi che non servono in questa fase
-            const nuovoOggetto = { ...obj };
-            campiDaRimuovere.forEach(campo => {
-                delete nuovoOggetto[campo];
-            });
-            return nuovoOggetto;
-        });
-    }
-
     const weaponData = [
         { data: bluntWeaponData, title: 'Blunt weapon' },
         { data: kniveWeaponData, title: 'Knive weapon' },
@@ -80,6 +69,7 @@ export default function Weapon() {
                 a real-world item when giving it traits in the Storytelling System, as well as a rough idea
                 of just how many items of Cost •• a character with Resources 3 can afford in a single month,
                 should you wish to deal with item acquisition on such an in-depth level.</div>
+
             <h3>A note on Size</h3>
             <div>The weapon’s Size, per the World of Darkness Rulebook (see p. 135). As Size categories are fairly
                 broad, an additional notation after the Size of each item with Size 1 or 2 indicates the amount of

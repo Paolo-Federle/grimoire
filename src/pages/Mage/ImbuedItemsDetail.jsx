@@ -10,7 +10,7 @@ export default function ImbueItemDetail(props) {
         <div className='longTextContainer'>
             {matchedImbuedItem && (
                 <>
-                        <h1>{matchedImbuedItem.Nome} (Artifact Rank {matchedImbuedItem["Artifact Level"]})</h1>
+                        <h1>{matchedImbuedItem.Nome} (Rank {matchedImbuedItem["Item_Level"]})</h1>
 
                         {matchedImbuedItem.Durability && (<div><b>Durability:</b> {matchedImbuedItem.Durability}</div>)}
                         {matchedImbuedItem.Size && (<div><b>Size:</b> {matchedImbuedItem.Size}</div>)}

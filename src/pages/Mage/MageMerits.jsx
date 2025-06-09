@@ -1,42 +1,35 @@
 import React from 'react';
-import SimpleTable from '../../components/SimpleTable'
+import SimpleTable from '../../components/SimpleTable';
 import { mageMeritsData, mageMeritsOrderData, mageMeritsLegacyData } from '../../Data/Mage/mageMeritsData';
-import { slugify } from '../../utils';
+import { removeFieldsAndAddLink } from '../../utils';
 
 export default function MageMerits() {
+    const config = {
+        fieldsToRemove: ['LongDescription'],
+        urlPrefix: '/mage/merits/',
+        keyToUseForLinks: 'Title'
+    };
 
-    function rimuoviCampi(lista, campiDaRimuovere) {
-        return lista.map(obj => {
-            // rimuove campi che non servono in questa fase
-            const nuovoOggetto = { ...obj };
-            campiDaRimuovere.forEach(campo => {
-                delete nuovoOggetto[campo];
-            });
-            // rimuove liste e aggiunge virgole
-            Object.keys(nuovoOggetto).forEach(campo => {
-                if (Array.isArray(nuovoOggetto[campo]) && nuovoOggetto[campo].length > 1) {
-                    nuovoOggetto[campo] = nuovoOggetto[campo].join(', ');
-                }
-            });
+    const reducedMageMeritsData = removeFieldsAndAddLink({
+        data: mageMeritsData,
+        ...config
+    });
 
-            // aggiunge campo link, rimuovendo gli spazi
-            nuovoOggetto.link = `/mage/merits/${slugify(nuovoOggetto.Title)}`;
+    const reducedMageMeritsOrderData = removeFieldsAndAddLink({
+        data: mageMeritsOrderData,
+        ...config
+    });
 
-
-            return nuovoOggetto;
-        });
-    }
-
-    
-    const reducedMageMeritsData = rimuoviCampi(mageMeritsData, ['LongDescription']);
-    const reducedMageMeritsOrderData = rimuoviCampi(mageMeritsOrderData, ['LongDescription']);
-    const reducedMageMeritsLegacyData = rimuoviCampi(mageMeritsLegacyData, ['LongDescription']);
+    const reducedMageMeritsLegacyData = removeFieldsAndAddLink({
+        data: mageMeritsLegacyData,
+        ...config
+    });
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={reducedMageMeritsData} title={'Mage Merits'} activeRowLink={true}/>
-            <SimpleTable table={reducedMageMeritsOrderData} title={'Order Merits'} activeRowLink={true}/>
-            <SimpleTable table={reducedMageMeritsLegacyData} title={'Legacy Merits'} activeRowLink={true}/>
+            <SimpleTable table={reducedMageMeritsData} title='Mage Merits' activeRowLink={true} />
+            <SimpleTable table={reducedMageMeritsOrderData} title='Order Merits' activeRowLink={true} />
+            <SimpleTable table={reducedMageMeritsLegacyData} title='Legacy Merits' activeRowLink={true} />
         </div>
     );
 }

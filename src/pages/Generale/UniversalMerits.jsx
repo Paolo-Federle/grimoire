@@ -1,52 +1,61 @@
 import React from 'react';
-import SimpleTable from '../../components/SimpleTable'
-import { uniMeritsMentalData, uniMeritsPhysicalData, uniMeritsSocialData, uniMeritsSupernaturalData } from '../../Data/universalMeritsData';
-import { slugify } from '../../utils';
+import SimpleTable from '../../components/SimpleTable';
+import {
+    uniMeritsMentalData,
+    uniMeritsPhysicalData,
+    uniMeritsSocialData,
+    uniMeritsSupernaturalData
+} from '../../Data/universalMeritsData';
+import { removeFieldsAndAddLink } from '../../utils';
+
+function labelAndTransform(data, labelFieldName) {
+    return data.map(item => {
+        const { Name, ...rest } = item;
+        return {
+            [labelFieldName]: Name,
+            ...rest
+        };
+    });
+}
 
 export default function UniversalMerits() {
+    const baseConfig = {
+        fieldsToRemove: ['LongDescription'],
+        urlPrefix: '/universal_merits/',
+        keyToUseForLinks: 'Name'
+    };
 
-    function rimuoviCampi(lista, campiDaRimuovere) {
-        return lista.map(obj => {
-            const nuovoOggetto = { ...obj };
-            campiDaRimuovere.forEach(campo => delete nuovoOggetto[campo]);
+    const mental = removeFieldsAndAddLink({
+        ...baseConfig,
+        data: uniMeritsMentalData
+    });
 
-            // Process other fields
-            Object.keys(nuovoOggetto).forEach(campo => {
-                if (Array.isArray(nuovoOggetto[campo]) && nuovoOggetto[campo].length > 1) {
-                    nuovoOggetto[campo] = nuovoOggetto[campo].join(', ');
-                }
-            });
+    const physical = removeFieldsAndAddLink({
+        ...baseConfig,
+        data: uniMeritsPhysicalData
+    });
 
-            // Add link field
-            nuovoOggetto.link = `/universal_merits/${slugify(nuovoOggetto.Name)}`;
+    const social = removeFieldsAndAddLink({
+        ...baseConfig,
+        data: uniMeritsSocialData
+    });
 
-            return nuovoOggetto;
-        });
-    }
+    const supernatural = removeFieldsAndAddLink({
+        ...baseConfig,
+        data: uniMeritsSupernaturalData
+    });
 
-    function processMeritsData(data, newFieldName) {
-        return data.map(item => {
-            const { Name, ...rest } = item;
-            return {
-                [newFieldName]: Name,
-                ...rest,
-                link: `/universal_merits/${slugify(Name)}`,
-            };
-        });
-    }
+    const uniMeritsMentalCorrectedData = labelAndTransform(mental, "Mental Merits");
+    const uniMeritsPhysicalCorrectedData = labelAndTransform(physical, "Physical Merits");
+    const uniMeritsSocialCorrectedData = labelAndTransform(social, "Social Merits");
+    const uniMeritsSupernaturalCorrectedData = labelAndTransform(supernatural, "Supernatural Merits");
 
-    const uniMeritsMentalCorrectedData = processMeritsData(rimuoviCampi(uniMeritsMentalData, ['LongDescription']), "Mental Merits");
-    const uniMeritsPhysicalCorrectedData = processMeritsData(rimuoviCampi(uniMeritsPhysicalData, ['LongDescription']), "Physical Merits");
-    const uniMeritsSocialCorrectedData = processMeritsData(rimuoviCampi(uniMeritsSocialData, ['LongDescription']), "Social Merits");
-    const uniMeritsSupernaturalCorrectedData = processMeritsData(rimuoviCampi(uniMeritsSupernaturalData, ['LongDescription']), "Supernatural Merits");
-
-console.log('uniMeritsMentalCorrectedData', uniMeritsMentalCorrectedData)
     return (
         <div className='grid-container'>
-            <SimpleTable table={uniMeritsMentalCorrectedData} activeRowLink={true}/>
-            <SimpleTable table={uniMeritsPhysicalCorrectedData} activeRowLink={true}/>
-            <SimpleTable table={uniMeritsSocialCorrectedData} activeRowLink={true}/>
-            <SimpleTable table={uniMeritsSupernaturalCorrectedData} activeRowLink={true}/>
+            <SimpleTable table={uniMeritsMentalCorrectedData} activeRowLink={true} />
+            <SimpleTable table={uniMeritsPhysicalCorrectedData} activeRowLink={true} />
+            <SimpleTable table={uniMeritsSocialCorrectedData} activeRowLink={true} />
+            <SimpleTable table={uniMeritsSupernaturalCorrectedData} activeRowLink={true} />
         </div>
     );
 }

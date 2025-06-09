@@ -1,7 +1,7 @@
 export const imbuedItemsData = [
     {
         'Nome': 'Blood Ring',
-        'Item Level': 0,
+        'Item_Level': 0,
         'Durability': 3,
         'Size': 0,
         'Structure': 3,
@@ -19,7 +19,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Acquisitionist’s Torch',
-        'Item Level': 1,
+        'Item_Level': 1,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -35,7 +35,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Astrally Stabilized Items',
-        'Item Level': 1,
+        'Item_Level': 1,
         'Durability': "varies",
         'Size': "varies",
         'Structure': "varies",
@@ -53,7 +53,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': '“Toy” Gun',
-        'Item Level': 1,
+        'Item_Level': 1,
         'Durability': 3,
         'Size': 0,
         'Structure': 3,
@@ -69,7 +69,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Cracked Mirror •• To ••••••',
-        'Item Level': 2,
+        'Item_Level': 2,
         'Durability': 1,
         'Size': "2, 3 or 4",
         'Structure': "3, 4 or 5",
@@ -87,7 +87,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Invisible Rifle',
-        'Item Level': 2,
+        'Item_Level': 2,
         'Durability': 4,
         'Size': 3,
         'Structure': 7,
@@ -104,7 +104,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Necradio',
-        'Item Level': 2,
+        'Item_Level': 2,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -120,7 +120,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Night Eyes',
-        'Item Level': 2,
+        'Item_Level': 2,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -135,7 +135,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Sharpshooter’S Scope •• Or ••••',
-        'Item Level': "2 or 4",
+        'Item_Level': "2 or 4",
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -150,7 +150,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Whispering Glove',
-        'Item Level': 2,
+        'Item_Level': 2,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -166,7 +166,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Aether Goggles',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -181,7 +181,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Band Of Armored Thoughts',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 2,
         'Size': 0,
         'Structure': 2,
@@ -196,7 +196,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Camera Non-Obscura',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -212,7 +212,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Chalice Of Consuming Vigor ••• Or ••••',
-        'Item Level': "3 or 4",
+        'Item_Level': "3 or 4",
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -230,7 +230,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'The Chime Of Grief',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -246,7 +246,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Destiny’S Quill',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -263,7 +263,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Enigma Sigil',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 3,
         'Size': 0,
         'Structure': 3,
@@ -279,7 +279,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'First Scribe’s Censer',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 5,
         'Size': 0,
         'Structure': 5,
@@ -295,7 +295,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Mind Protectors',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -311,7 +311,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Mulligan’s Widget',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 2,
         'Size': 0,
         'Structure': 2,
@@ -326,7 +326,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Network Card',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -341,7 +341,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Neverender Batteries',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -356,7 +356,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Nightmask',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -371,7 +371,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Oath Writer',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 0,
         'Structure': 1,
@@ -386,7 +386,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Omniscope',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -401,7 +401,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Pirate Map',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 0,
         'Size': 1,
         'Structure': 1,
@@ -418,7 +418,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Portable Thermostat',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 0,
         'Structure': 1,
@@ -433,7 +433,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Portable Window',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -449,7 +449,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Private Curtain',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': "varies",
         'Size': "varies",
         'Structure': "varies",
@@ -467,7 +467,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Scourge',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 2,
         'Structure': 3,
@@ -484,7 +484,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Suppressive Thetan Energy Auditing Device',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -504,7 +504,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Talisman Of Timely Research ••• Or •••••',
-        'Item Level': "3 or 5",
+        'Item_Level': "3 or 5",
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -521,7 +521,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Thought Worm',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': 1,
         'Size': 0,
         'Structure': 1,
@@ -539,7 +539,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Universal Keycard',
-        'Item Level': 3,
+        'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -555,7 +555,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'All Access Pass',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -571,7 +571,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Atroxi Crystals',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 4,
         'Size': 1,
         'Structure': 5,
@@ -587,7 +587,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Camera Tempora •••• Or ••••••',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -603,7 +603,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Beast Mantle',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 4,
         'Structure': 5,
@@ -618,7 +618,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Bullet-Proof Cotton',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 3,
         'Structure': 4,
@@ -634,7 +634,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Canopic Jar',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
         'Structure': 3,
@@ -649,7 +649,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Cash Dagger',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "n/a",
         'Size': 1,
         'Structure': "n/a",
@@ -665,7 +665,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Cloak Of Isolation',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 5,
         'Structure': 6,
@@ -681,7 +681,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Cloak Of Many Colors',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "varies",
         'Size': "1-3",
         'Structure': "varies",
@@ -696,7 +696,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Daredevil’S Keychain',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 3,
         'Size': 0,
         'Structure': 3,
@@ -711,7 +711,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Endless Clip',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -726,7 +726,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Excavator',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -741,7 +741,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Flawless Barrel',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 2,
         'Structure': 4,
@@ -756,7 +756,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Ghost-Catcher',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -773,7 +773,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Implement Of Understanding',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -789,7 +789,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Improved Grip',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "varies",
         'Size': 1,
         'Structure': "varies",
@@ -805,7 +805,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Interfector’s Mask',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 2,
         'Structure': 3,
@@ -821,7 +821,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': "Kupa's Earring",
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -836,7 +836,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Light Eater',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': "varies",
         'Size': "varies",
         'Structure': "varies",
@@ -852,7 +852,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Lucky Boots',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 3,
         'Structure': 6,
@@ -867,7 +867,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Mask Of Ages, The',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -883,7 +883,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Phantasmal Prism',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -900,7 +900,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Plausible Deniability',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 0,
         'Structure': 2,
@@ -915,7 +915,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Sleep/wake Watch',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 0,
         'Structure': 2,
@@ -930,7 +930,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Spatial Binoculars',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -945,7 +945,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Spirit Candles',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -963,7 +963,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Spirit Whistle',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 0,
         'Structure': 1,
@@ -978,7 +978,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Subtle Ring',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -993,7 +993,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Supernal Server',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 3,
         'Size': 2,
         'Structure': 5,
@@ -1012,7 +1012,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Tin Whistle',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1027,7 +1027,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Token Of The Great Take',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 3,
         'Size': 0,
         'Structure': 3,
@@ -1045,7 +1045,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Unfriendly Knife',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1061,7 +1061,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Universal Key',
-        'Item Level': "4+",
+        'Item_Level': "4+",
         'Durability': 2,
         'Size': 0,
         'Structure': 2,
@@ -1080,7 +1080,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Universal Toolkit',
-        'Item Level': 4,
+        'Item_Level': 4,
         'Durability': 3,
         'Size': 2,
         'Structure': 5,
@@ -1095,7 +1095,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Abyssal Scope',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 0,
         'Structure': 3,
@@ -1111,7 +1111,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Adamantine Taser',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1127,7 +1127,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'All-Gas Grenade',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1142,7 +1142,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'All-Terrain Mobile Energy Source',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 3,
         'Structure': 6,
@@ -1157,7 +1157,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Amulet Of Passage',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 3,
@@ -1174,7 +1174,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Amulet Of The Enduring Body',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1190,7 +1190,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Archetype Altar',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 2,
         'Structure': 3,
@@ -1208,7 +1208,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Atlantean Fire Crystal',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1224,7 +1224,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Back Box',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 2,
         'Structure': 5,
@@ -1239,7 +1239,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Black Ribbon',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1256,7 +1256,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Bottomless Bag',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -1272,7 +1272,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Clarity Room, The',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -1287,7 +1287,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Clouded Crown',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1302,7 +1302,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Death Pointer',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1320,7 +1320,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Familiar Strangler',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1337,7 +1337,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Freeman’s Collar',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1352,7 +1352,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Ghost Shirt',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "varies",
         'Size': "3-5",
         'Structure': "varies",
@@ -1367,7 +1367,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Goetic Mirror',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 2,
         'Structure': 3,
@@ -1384,7 +1384,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Golem, The',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 5,
         'Structure': 10,
@@ -1399,7 +1399,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Hidden Sword',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 2,
         'Structure': 5,
@@ -1414,7 +1414,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Infinite Flash Drive',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -1430,7 +1430,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Insult To Injury',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1445,7 +1445,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Magical Silencer',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1460,7 +1460,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Mana Bowl',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 4,
         'Structure': 5,
@@ -1476,7 +1476,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Phantasmic Lantern',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 5,
         'Size': 2,
         'Structure': 7,
@@ -1491,7 +1491,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Portable Armory',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 2,
         'Structure': 5,
@@ -1506,7 +1506,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Restorer’s Brush',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 3,
@@ -1522,7 +1522,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Scriber Of Ownership',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1537,7 +1537,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Sentinel’s Shield',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1552,7 +1552,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Shivering Blade',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1569,7 +1569,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Sigil-Mark ••••• Or ••••••',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -1588,7 +1588,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Soma',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
         'Structure': "n/a",
@@ -1607,7 +1607,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Sown Salt',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1623,7 +1623,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Spectacles Of Discernment',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1638,7 +1638,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Spirit Blade',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 4,
@@ -1653,7 +1653,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Supernal Wardrobe',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 1,
         'Size': 3,
         'Structure': 4,
@@ -1668,7 +1668,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Talisman Of Unnoticed Intrusion',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1683,7 +1683,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Universal Outfit •••••, •••••• Or •••••••',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': "1-2",
         'Size': "1-2",
         'Structure': 3,
@@ -1701,7 +1701,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Vault Gauntlets',
-        'Item Level': 5,
+        'Item_Level': 5,
         'Durability': 5,
         'Size': 1,
         'Structure': 6,
@@ -1718,7 +1718,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Alien Cuffs',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1735,7 +1735,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Band Of Safety',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
         'Structure': 3,
@@ -1751,7 +1751,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Bonebreaker',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 2,
         'Size': 4,
         'Structure': 6,
@@ -1767,7 +1767,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Collector’s Pocket',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1784,7 +1784,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Jaw Locker',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': "1, 2 or 3",
         'Size': 1,
         'Structure': "2, 3 or 4",
@@ -1804,7 +1804,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Junk Drawer Pockets',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 1,
         'Size': 0,
         'Structure': 1,
@@ -1820,7 +1820,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Puppet Gum',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 1,
         'Size': 0,
         'Structure': 1,
@@ -1838,7 +1838,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Raiment Of Return',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 3,
         'Size': 4,
         'Structure': 7,
@@ -1854,7 +1854,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Ring Of New Faces',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1872,7 +1872,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Rune Of Witnessing',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1889,7 +1889,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Talisman Of Universal Safety',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -1905,7 +1905,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Tk Gloves',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1921,7 +1921,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Universal Id',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 1,
         'Size': 1,
         'Structure': 2,
@@ -1937,7 +1937,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Wand Of Duplication',
-        'Item Level': 6,
+        'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
         'Structure': 3,
@@ -1954,7 +1954,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Band Of Timelessness',
-        'Item Level': 7,
+        'Item_Level': 7,
         'Durability': 2,
         'Size': 2,
         'Structure': 4,
@@ -1972,7 +1972,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Remote Searcher',
-        'Item Level': 7,
+        'Item_Level': 7,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -1988,7 +1988,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Safety Box',
-        'Item Level': 7,
+        'Item_Level': 7,
         'Durability': 5,
         'Size': "1-2",
         'Structure': "6-7",
@@ -2004,7 +2004,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Truck, The',
-        'Item Level': 7,
+        'Item_Level': 7,
         'Durability': 3,
         'Size': 15,
         'Structure': 18,
@@ -2031,7 +2031,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Area Wards',
-        'Item Level': 8,
+        'Item_Level': 8,
         'Durability': 3,
         'Size': 1,
         'Structure': 4,
@@ -2047,7 +2047,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Crystal Heart',
-        'Item Level': 8,
+        'Item_Level': 8,
         'Durability': 7,
         'Size': 1,
         'Structure': 8,
@@ -2062,7 +2062,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Durandal',
-        'Item Level': 8,
+        'Item_Level': 8,
         'Durability': 'Special',
         'Size': 2,
         'Structure': null,
@@ -2085,7 +2085,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Supernal Scourge',
-        'Item Level': 8,
+        'Item_Level': 8,
         'Durability': "Varies",
         'Size': "Varies",
         'Structure': "Varies",
@@ -2106,7 +2106,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Puppet’s Bauble',
-        'Item Level': 9,
+        'Item_Level': 9,
         'Durability': 2,
         'Size': 1,
         'Structure': 3,
@@ -2122,7 +2122,7 @@ export const imbuedItemsData = [
     },
     {
         'Nome': 'Translator Chamber',
-        'Item Level': 13,
+        'Item_Level': 13,
         'Durability': 3,
         'Size': 5,
         'Structure': 8,

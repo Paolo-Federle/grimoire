@@ -48,3 +48,20 @@ export function slugify(text) {
         .replace(/[^\w\s]/g, '')             // remove punctuation (non-word, non-space chars)
         .replace(/\s+/g, '_');               // replace spaces with underscores
 }
+
+export function removeFieldsAndAddLink({ data, fieldsToRemove, urlPrefix, keyToUseForLinks }) {
+
+    const cleaned = rimuoviCampi(data, fieldsToRemove);
+
+    const flattened = cleaned.map(obj => {
+        const newObj = { ...obj };
+        Object.keys(newObj).forEach(key => {
+            if (Array.isArray(newObj[key]) && newObj[key].length > 1) {
+                newObj[key] = newObj[key].join(', ');
+            }
+        });
+        return newObj;
+    });
+
+    return addLink(flattened, keyToUseForLinks, urlPrefix);
+}
