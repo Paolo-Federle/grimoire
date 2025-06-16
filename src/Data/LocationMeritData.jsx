@@ -25,7 +25,7 @@ const securedLocationData = [
     {
         "Name": "Den",
         "Dots": "(•••)",
-        "Book": "Skin 21, ChB p96",
+        "Book": "Skin 21, ChB 96",
         "Prerequisites": "",
         "LongDescription": [
             "It’s hard, in today’s world, to find privacy. This Merit, however, reflects a hidden space where a feral can be himself. It might be a secluded meadow, rambling old farm or warehouse in the bad side of town. Wherever it is, your character can transform into his animal aspect without drawing undue attention, then run or fly away with some measure of freedom.",
@@ -165,7 +165,7 @@ const securedLocationData = [
     {
         "Name": "Safehouse",
         "Dots": "(• to •••••) {Cache, Secrecy, Size, Traps}",
-        "Book": "H:tV p71",
+        "Book": "H:tV 71",
         "Prerequisites": "",
         "LongDescription": [
             "The hunter has a place of his own where monsters cannot find him. A safehouse might be the headquarters for a cell, or it might be a personal hideaway for an individual. Hunters often rig a safehouse with traps, hidden weapons, security systems and escape routes, because as impregnable as it might be, monsters are persistent and clever. They’ll probably find the way in, and the best a hunter can do is make it hard on them.",
@@ -237,7 +237,7 @@ const securedLocationData = [
     {
         "Name": "Sanctum",
         "Dots": "(• to •••••) {Security, Size} (SH)",
-        "Book": "M:tA p86",
+        "Book": "M:tA 86",
         "Prerequisites": "",
         "LongDescription": [
             "A sanctum is a mage’s stronghold, a place where he can practice his Art away from the eyes of Sleepers and spies. Legends tell of wizard’s towers, witch’s huts and sorcerer’s caves, but the reality is usually more prosaic: a penthouse apartment, an old estate or even a nondescript suburban tract house.",
@@ -300,7 +300,7 @@ const universalFixturesData = [
     {
         "Name": "Sanctum Materials",
         "Dots": "(• to •••••)",
-        "Book": "S&S p86",
+        "Book": "S&S 86",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "Materials dots are used to enhance various sanctum features, described in “Elements of a Sanctum,” p. 83-84, such as increasing the thickness of interior walls (Security dots determine the thickness of the outer walls), adding doors and windows and even strengthen- ing these structures. The costs per dot are listed with the various features, above.",
@@ -327,7 +327,7 @@ const universalFixturesData = [
     {
         "Name": "Geomantic Nexus",
         "Dots": "(• to •••••) Size and (• to •••) +1 attribute per dot",
-        "Book": "Ordo 202",
+        "Book": "OD 202",
         "Prerequisites": "Occult ••• and Wits ••",
         "LongDescription": [
             "Many Dragons within the Order are fascinated with geomancy — the magic of locations and spatial arrangements. While the Order’s version of geomancy borrows heavily from traditional feng shui and the European study of ley lines, their long spans of study (and their undead patience) have taken it in some unique directions.",
@@ -354,7 +354,7 @@ const universalFixturesData = [
     {
         "Name": "Guardian Retainer",
         "Dots": "(• to •••••) (mult)",
-        "Book": "S&S p85",
+        "Book": "S&S 85",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "This Merit is exactly like the Sleepwalker Retainer Merit (see p. 116 of the World of Darkness Rulebook), in that it gives the mage a Sleepwalker servant, but this one is trained mainly for combat. Usually a minimum of two dots is needed to make a guardian of any value. (One dot might provide a good lookout but does not represent a worthy fighter.) The guardians can be sentries, soldiers, undercover agents, black suits or watchmen — whatever role is needed to defend the sanctum. They take their orders from anyone who is a legitimate owner of the sanctum (i.e., anyone who has contributed Merit dots toward the sanctum’s Size or Security).",
@@ -366,7 +366,7 @@ const universalFixturesData = [
     {
         "Name": "Library",
         "Dots": "(• to •••••) (SH)",
-        "Book": "M:tA p85",
+        "Book": "M:tA 85",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "Your character maintains within his sanctum a personal collection of useful information, which can help with both natural and supernatural research. Whether it’s in the form of musty occult tomes, encrypted computer files, sacred scrolls, visual art or stranger media, this library includes reference works that can help the mage understand the realm surrounding him. The library also offers insight into supernatural and occult topics that mortals cannot comprehend. In both fields of knowledge — mundane research and occult lore — this collection relates to one or more fields of  specialization.",
@@ -383,7 +383,7 @@ const universalFixturesData = [
     {
         "Name": "Occultation",
         "Dots (*pre: Haven)": "(• to •••••) *pre: Haven Size ••• or less",
-        "Book": "Mehket 119",
+        "Book": "Mekh 119",
         "Prerequisites": "Haven Size ••• or less",
         "LongDescription": [
             "Some Vampires become so linked to the places they inhabit that they somehow imbue these places with something of their own being. The Shadows are particularly good at this: consider the boarded-up house that everyone walks past, but no-one ever looks at, or the basement room that everyone forgets, or the attic that Frances used to inhabit, with the trapdoor that no one ever looked at.",
@@ -410,7 +410,7 @@ const mageLocationData = [
     {
         "Name": "Guardian Ghost",
         "Dots (*pre: Sanctum)": "(•• to •••••) (mult)",
-        "Book": "S&S p85",
+        "Book": "S&S 85",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "A wise mage fears what he doesn’t see as much as what he does see. While an empty corridor in a sanctum may look like an easy opportunity for a quick raid, it’s entirely possible that spiritual forces are guarding it, hiding in Twilight.",
@@ -433,7 +433,7 @@ const mageLocationData = [
     {
         "Name": "Guardian Spirit",
         "Dots (*pre: Sanctum)": "(•• to •••••) (mult)",
-        "Book": "S&S p86",
+        "Book": "S&S 86",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "A Twilight spirit has been fettered to an object or room within the material sanctum and commanded to guard the entire sanctum against intruders. The spirit will only heed the commands of its masters (i.e., anyone who has contributed Merit dots toward the purchase of this Merit); the spirit will treat all others as hostile unless commanded by its master to exempt a person from its ire.",
@@ -456,7 +456,7 @@ const mageLocationData = [
     {
         "Name": "Hallow",
         "Dots (*pre: Sanctum)": "(• to •••••) (SH)",
-        "Book": "M:tA p83",
+        "Book": "M:tA 83",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "A Hallow is a nexus of magical energy, a place that generates Mana each day. Such locations are vital to mages. Your character has one within his sanctum’s premises. The sanctum’s security determines how well it is guarded from access by uninvited mages.",
@@ -473,7 +473,7 @@ const mageLocationData = [
     {
         "Name": "Sanctum Gauntlet",
         "Dots (*pre: Sanctum)": "(• to ••)",
-        "Book": "S&S p86",
+        "Book": "S&S 86",
         "Prerequisites": "Sanctum",
         "LongDescription": [
             "A sanctum is more than brick and mortar, flesh and blood. The Shadow Realm surrounds it, enabling creatures unseen to lurk in spaces outside the world we know. Unless these spirits have the strength to Materialize across the Gauntlet inside the sanctum or the ability to peer at its inhabitants, the Shadow Realm is of little consequence to mages unconcerned with shamanic magic.",

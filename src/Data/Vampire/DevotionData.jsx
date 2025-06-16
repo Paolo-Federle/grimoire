@@ -131,7 +131,7 @@ export const DevotionData = [
             "When vampires live a subterranean life, it is likely they’ll come across other, simpler subterranean creatures at any given moment. Rats, moles, worms, even the occasional pet alligator of urban legend, is likely to cross their path. To the Telamones, these creatures are as common as the stone they crawl through, and this Devotion is as old as the Camarilla, so it is said. A Nosferatu’s weakness, normally, extends to even the animals he meets. With this Devotion, the Nosferatu weakness no longer applies to Animal Ken rolls and the Discipline of Animalism. So far, it is known only by the Telamones, who keep it a tight secret. It is with this Devotion that many Telamones, living in the tunnels, often keep cats, rats and other small animals by their sides to pass the time and somehow keep the loneliness of the Nosferatu condition at bay. This Devotion costs 10 points to learn.",
             "Like Obfuscate 2, this power is on all night as long as the Vitae is spent to power it. Animal Ken rolls are no longer subject to the Nosferatu weakness. However, since Animalism 5, Leashing the Beast, depends upon Empathy, this Devotion does not extend to that Discipline."
         ],
-        "Book": "Sinners 95"
+        "Book": "NH-IS 95"
     },
     {
         "Name": "Behind the Throne",
@@ -207,7 +207,7 @@ export const DevotionData = [
             "While the Mabry sleeps, she needn’t spend a Vitae to awaken: The blood that exists is enough to reconstitute itself within the Gangrel. She can only do this once in a given 100 yard by 100 yard area, however, unless fresh blood has been spilled at that spot within the last week. If that’s true, she can actually do this three times in the same spot before having to move on.",
             "This Devotion costs 15 experience points to learn. (20 for non-Grangrel)."
         ],
-        "Book": "Gang 110"
+        "Book": "Gan 110"
     },
     {
         "Name": "Blink",
@@ -386,7 +386,7 @@ export const DevotionData = [
             "Every success on the roll incurs a -2 penalty to any Perception rolls (Wits + Composure or Wits + Investigation) made to spot the Gangrel. If it’s particularly dark or in wild territory, the Devotion roll might gain +1 to +3 depending on the severity of the shadows and the wilderness. The opposite holds true, as well: a -1 to -3 penalty might apply depending on the intensity of ambient light or the closeness of urban living (people, vehicles, noise, motion).",
             "This Devotion costs 12 experience points to learn. (16 for non-Grangrel)."
         ],
-        "Book": "Gang 112"
+        "Book": "Gan 112"
     },
     {
         "Name": "Child of the Night",
@@ -1412,7 +1412,7 @@ export const DevotionData = [
             "Only vampires are affected by Love Like Blood. Mortals, ghouls and other beings are unaffected. Love Like Blood applies to only Dominate actions made upon a vampire in the immediate vicinity, and who can see or smell the character’s wounds.",
             "This power costs 10 experience points to learn."
         ],
-        "Book": "Nomads 96"
+        "Book": "Noma 96"
     },
     {
         "Name": "Makeover",
@@ -1501,7 +1501,7 @@ export const DevotionData = [
             "Mask of the Beast lasts for one scene. Its effect ends if any other Obfuscate power is used or if the character does anything that her disguise could not, such as fire a gun or speak. If someone witnesses such a belying action, he can point out the disguise to others. A Wits + Composure roll is made for each such person, and successes achieved must exceed those acquired in the Manipulation + Animal Ken + Obfuscate roll made for the Devotion user. If an onlooker’s successes aren’t high enough, he still doesn’t perceive the vampire as anything other than an animal.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Nomads 96"
+        "Book": "Noma 96"
     },
     {
         "Name": "Masked Blood",
@@ -2073,7 +2073,7 @@ export const DevotionData = [
             "A successful use of Aura Perception on a vessel affected by this power reveals a muted aura similar to an individual under the effects of Dominate.",
             "This Devotion costs 18 experience points to learn."
         ],
-        "Book": "Nomads 96"
+        "Book": "Noma 96"
     },
     {
         "Name": "Preemptive Reflex",
@@ -2123,7 +2123,7 @@ export const DevotionData = [
             "The radius of Predatory Growl is equal to 10 yards per success. Furthermore, its effects seem to “echo” — animals that weren’t around when it was used are leery of the vampire and hesitant to approach him. This secondary effect lasts a number of hours equal to the successes rolled.",
             "This power costs seven experience points to learn."
         ],
-        "Book": "Nomads 97"
+        "Book": "Noma 97"
     },
     {
         "Name": "Quicken Sight",
@@ -2365,7 +2365,7 @@ export const DevotionData = [
             "The effects of the power lapse upon the next sunset, or until the sleeping vampire is unearthed, whichever comes first. The power ceases to function even if the vampire remains sleeping beyond one day.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Nomads 98"
+        "Book": "Noma 98"
     },
     {
         "Name": "Sanguine Stance",
@@ -2441,7 +2441,7 @@ export const DevotionData = [
             "Because Scent of the Beast involves tapping into one’s Beast, it carries a certain danger. The Beast rides close to the surface and the character’s control over it is diminished. Whenever this Devotion is used, the character suffers a -1 penalty on all rolls to resist frenzy for the duration of the scene.",
             "This power costs 20 experience points to learn."
         ],
-        "Book": "Nomads 98"
+        "Book": "Noma 98"
     },
     {
         "Name": "Searing Wind",
@@ -2700,7 +2700,7 @@ export const DevotionData = [
             "If the servant already has dots in Resilience and activates that Discipline, he gains the benefit of the higher rating rather than combining the two. If he has 2 Resilience and has gained four Health from Stalwart Servant, he gains no more than four additional Health. He does gain his own two-dot increase in Stamina, and the ability to downgrade aggravated damage, however. The character using Stalwart Servant can invoke her own Resilience as normal, but it calls for a separate use of the power and requires its own Vitae expenditure.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Nomads 99"
+        "Book": "Noma 99"
     },
     {
         "Name": "Sting",
@@ -2939,7 +2939,7 @@ export const DevotionData = [
             "The familiar needn’t feed on blood like a vampire, but the Savage creator must nourish the animal with a point of his own Vitae once per night. Failure to do so causes the creature to start to decay, suffering one point of lethal damage per night that passes without consuming its master’s precious fluids.",
             "This power costs 18 experience points to learn for all Savages except those with Status in the Circle of the Crone. In the Circle, Savages find this devotion to be more common, and thus the cost is reduced to 15 experience points. (24 for non-Grangrel)."
         ],
-        "Book": "Gang 115"
+        "Book": "Gan 115"
     },
     {
         "Name": "Unflinching Eye",
@@ -2972,7 +2972,7 @@ export const DevotionData = [
             "Note that Size reduction is artificial, not the literal shrinking of the body. Bones may pop out of shape and allow the Gangrel to scrunch up or rearrange his “natural” form, but he doesn’t actually lose mass. In this way, the Gangrel does not change any stats based on the Size score, such as Health.",
             "This power costs 15 experience points to learn. (20 for non-Grangrel)."
         ],
-        "Book": "Gang 116"
+        "Book": "Gan 116"
     },
     {
         "Name": "Unseen Master",

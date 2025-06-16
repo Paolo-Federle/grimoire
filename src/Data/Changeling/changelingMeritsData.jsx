@@ -9,7 +9,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Not only does the character still one day die (he’ll eventually be a baby and will continue to age backward until his frail infant body cannot support his life outside a womb), but in addition, the character does not find his life expectancy grown any more (according to Wyrd) once he purchases this Merit."
         ],
         "Description": "Your Changeling begins to age backwards.",
-        "Book": "NH:GF p84"
+        "Book": "NH:GF 84"
     },
     {
         "Name": "Arcadian Body",
@@ -213,7 +213,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Selling wares at the Goblin Market is hardly a respectable profession. In most freeholds, this results in a loss of face among the other changelings. Goblin merchants find that the Court Goodwill Merit is limited to ••• for them. At the Storyteller’s discretion other social merits, such as Status and Allies, may be subject to similar restrictions when purchased to reflect ties to freehold society. Changelings find it difficult to hide their association with the Market; aspects of the Market always seem to seep into their mien."
         ],
         "Description": "Sell at Goblin Market without being price-gouged and while protected by Market Law",
-        "Book": "Goblin Markets p34"
+        "Book": "Goblin Markets 34"
     },
     {
         "Name": "Goblin Vow",
@@ -427,7 +427,7 @@ export const changelingMeritsData = [
             "Non-changelings may not purchase this Merit."
         ],
         "Description": "Locate and attend Goblin Markets.",
-        "Book": "Goblin Markets p14"
+        "Book": "Goblin Markets 14"
     },
     {
         "Name": "Market Sense",
@@ -437,7 +437,7 @@ export const changelingMeritsData = [
             "The Goblin Markets are notorious for trading in anything, and while keeping track of currency exchange rates in the mundane world can be difficult enough, trying to translate how many enamored sighs a knife that glows in the presence of child molesters is worth is a Herculean task. While value is a relative term, those with the Market Sense Merit can generally tell whether a certain transaction is roughly equal or not. It doesn’t force a fair deal, and a changeling who dares to tell a hob that he’s being cheated on the basis of a “hunch” may well have social ramifications to deal with. Characters with this Merit receive a +3 bonus to any rolls made to see through cheating in a trade or to resist any powers that would occlude the character’s perception of a deal’s fairness."
         ],
         "Description": "+3 bonus to determine if being cheated in deals.",
-        "Book": "RoS 94 or Goblin Markets p33",
+        "Book": "RoS 94 or Goblin Markets 33",
     },
     {
         "Name": "Market Stall",
@@ -448,7 +448,7 @@ export const changelingMeritsData = [
             "Furthermore, owning a stall allows a vendor to take advantage of another magical property of the Market: he can buy and sell abstractions as if they were physical property. This means he can extract an abstraction (such as a memory, a Skill, or even experience points) from a permitting character and store it, use it himself, or sell it to someone else. For more on abstractions, see pp. 28-29."
         ],
         "Description": "Own a stall where you can store goods and be able to extract and store abstractions.",
-        "Book": "Goblin Markets p34",
+        "Book": "Goblin Markets 34",
 
     },
     {
@@ -461,7 +461,7 @@ export const changelingMeritsData = [
             "This Merit may be purchased multiple times at multiple ratings, each time representing a different identity, and an identity may also be upgraded later with the appropriate in-game explanation and experience expenditure. In the case of certain Merits such as Resources or Status, it might also be worth noting which identity these Merits are tied to, since a character may not easily be able to access or maintain them if that identity is compromised."
         ],
         "Description": "The quality of legal (Or illegal) documentation supporting your new identity. This merit can be taken by mortals or other supernaturals as well.",
-        "Book": "CtL 98 AN p45"
+        "Book": "CtL 98 AN 45"
     },
     {
         "Name": "Perfect Stillness",
@@ -519,7 +519,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> The Storyteller should deter- mine the details of the fate’s original owner at the time of purchase and explain it to the player (and can add depth to the Market bargain-ing process). When benefiting from this Merit, characters often adopt some of the manner- isms or ideas of the fate’s original owner. While this is mostly a roleplaying consideration, such behavior can cause penalties to rolls in certain situations at the Storyteller’s discretion. (These should never be more encumbering than a Flaw.)"
         ],
         "Description": "Gain bonus equal to dots to three skills once per Chapter.",
-        "Book": "Goblin Markets p26",
+        "Book": "Goblin Markets 26",
     },
     {
         "Name": "Shared Sleep",
@@ -553,7 +553,7 @@ export const changelingMeritsData = [
             "<b>Special:</b> Slaves at the Goblin Market come in two varieties: trained and untrained. The latter are most common and tend to come cheap, and have a value (see p. 28) equal to half the Merit’s rating. The character purchasing such a slave must also pay the usual experience cost of the Merit in order to “break in” the new slave. Trained slaves serve obediently from the moment of purchase (requiring no expenditure of experience), but cost an exorbitant amount. These have a value equal to the Merit’s rating."
         ],
         "Description": "Supernatural servant purchased at Market.",
-        "Book": "Goblin Markets p23"
+        "Book": "Goblin Markets 23"
     },
     {
         "Name": "Soul Sense",
@@ -668,7 +668,7 @@ export const changelingMeritsData = [
             "<b>Drawback:</b> Goblin merchants typically make these backroom deals to get items out of the Marketand into the populace. A merchant who uses an item she obtains through this Merit herself defeats this purpose, typically appearing weak in the eyes of the other vendors. She loses access to this Merit for the remainder of the story, as the other vendors charge her full cost for wares, no matter what she intends to do with them."
         ],
         "Description": "Once per chapter, reduce the cost of an item by dots in the Merit so long as intent is to resell.",
-        "Book": "Goblin Markets p35"
+        "Book": "Goblin Markets 35"
     },
     {
         "Name": "Wisdom of Dreams",

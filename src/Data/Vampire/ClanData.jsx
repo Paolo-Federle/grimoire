@@ -6,7 +6,7 @@ const clanData = [
         "Bonus Trait": "Dexterity or Manipulation",
         "Clan Disciplines": "Celerity, Majesty, Vigor",
         "Weakness": "Lose 2 Willpower points when passing up a chance to indulge Vice.",
-        "Book": "VTR 104"
+        "Book": "VtR 104"
     },
     {
         "Name": "Gangrel",
@@ -15,7 +15,7 @@ const clanData = [
         "Bonus Trait": "Composure or Stamina",
         "Clan Disciplines": "Animalism, Protean, Resilience",
         "Weakness": "No 10-again and 1s penalize on Intelligence or Wits rolls",
-        "Book": "VTR 106"
+        "Book": "VtR 106"
     },
     {
         "Name": "Mekhet",
@@ -24,7 +24,7 @@ const clanData = [
         "Bonus Trait": "Intelligence or Wits",
         "Clan Disciplines": "Auspex, Celerity, Obfuscate",
         "Weakness": "+1 damage from sunlight and fire",
-        "Book": "VTR 108"
+        "Book": "VtR 108"
     },
     {
         "Name": "Nosferatu",
@@ -33,7 +33,7 @@ const clanData = [
         "Bonus Trait": "Composure or Strength",
         "Clan Disciplines": "Nightmare, Obfuscate, Vigor",
         "Weakness": "No 10-again and 1s penalize on Presence or Manipulation rolls",
-        "Book": "VTR 110"
+        "Book": "VtR 110"
     },
     {
         "Name": "Ventrue",
@@ -42,7 +42,7 @@ const clanData = [
         "Bonus Trait": "Presence or Resolve",
         "Clan Disciplines": "Animalism, Dominate, Resilience",
         "Weakness": "–2 on rolls to avoid gaining a Derangement after Degeneration",
-        "Book": "VTR 112"
+        "Book": "VtR 112"
     },
     {
         "Name": "Restricted",

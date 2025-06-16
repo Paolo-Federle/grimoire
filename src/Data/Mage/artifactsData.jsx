@@ -14,7 +14,7 @@ export const artifactData = [
       "The Mark is a strange, barbed spiral with a hint of a face about the size of a silver dollar, although attempts to pinpoint the exact features of the face always seem to fail. It is believed to come from the Supernal Realm of Pandemonium.",
       "The wearer of the Mark can activate it (a successful Gnosis + Life roll) to gain a contingent power that mimics the Life 1 “Cleanse the Body” spell (p. 180), helping him to fend off drugs, poisons and toxins."
     ],
-    "Book": "Awakening 335"
+    "Book": "M:tA 335"
   },
   {
     'Nome': 'The Ring of the Dethroned Queen',
@@ -44,7 +44,7 @@ export const artifactData = [
       "Or so it seems. The power attributed to the Exarchs by the Ring may in fact be some other Supernal power, the magic of the Seers of the Throne being recast in some way, or it might be an elaborate magical hallucination manipulated at the will of the Exarchs. There is no reliable means to verify the assertion of the Exarchs’ power. What a mage sees with the Ring Sight is clear — what it means is not.",
       "Peering through the fabric of the world to the Supernal stitches underneath is an act of hubris. Mages with Wisdom 7 or higher must make a degeneration roll when this power is used."
     ],
-    "Book": "Reign of The Exarchs 23"
+    "Book": "RotE 23"
   },
   {
     'Nome': 'The Spotted Stone',
@@ -59,7 +59,7 @@ export const artifactData = [
     'Descrizione': [
       "This stone talisman appears to be of ancient Olmec craftsmanship, for it bears the image of the “were-jaguar” known in many examples of Olmec art. The stone itself, however, originated in the Primal Wild, and it actually bears color and markings as if it were a jaguar’s hide turned to stone. A leather thong allows it to be tied around a user’s neck. The wearer can activate its power by touching the stone and offering a prayer to the jaguar spirit. Gnosis + Forces is rolled and a success activates a power that mimics the Forces 1 “Nightsight” spell (p. 163), with a Duration of one scene.",
     ],
-    "Book": "Awakening 336"
+    "Book": "M:tA 336"
   },
   {
     'Nome': 'Astral Crystal',
@@ -76,7 +76,7 @@ export const artifactData = [
       "A mage can use an Astral Crystal to scry into the astral realm just as if she were scrying any other location. This process is identical to performing the Space 2 “Scrying” spell, except that the mage need not know the Space Arca- num and the location scryed upon is always in Astral Space. If the mage is attempting to scry an astral version of a person or location, then the people or locations in the Fallen World count as a sympathetic connection to their astral counterparts.",
       "Mages can also easily use this item to view Astral Spaces the mages have previously visited. In addition, if a mage places one of these items in physical contact with someone who is traveling in Astral Space, the crystal automatically displays the sights and sounds that the astral traveler is experiencing, allowing individuals who are not traveling astrally to see and hear what the traveler does. In all cases, this device projects its images sights and sounds that can be seen and heard by everyone nearby.",
     ],
-    "Book": "Astral Realms 119"
+    "Book": "AR 119"
   },
   {
     'Nome': 'Coin of the Jester King',
@@ -93,7 +93,7 @@ export const artifactData = [
       "Instead of a crown, however, he wears a medieval jester’s hat. On the flip side is the image of crossed wands with a flame between them. Many believe this coin originated in Arcadia, although none can say for sure whether it’s merely its silver material that came from there or the actual, minted coin. ",
       "Whoever bears the coin on his person gains the benefits of the Fate 1 “Quantum Flux” spell (p. 148), allowing him to spend time “aiming” any action to offset any dice penalties (up to three dice worth, maximum)."
     ],
-    "Book": "Awakening 335"
+    "Book": "M:tA 335"
   },
   {
     'Nome': 'Count Amaury’s Spectacles',
@@ -108,7 +108,7 @@ export const artifactData = [
     'Descrizione': [
       "This pair of antique glasses has two lenses made from clear crystals that originated in the Supernal Realm of the Aether. They allow the spectacles’ user to see quite far, for they hold a contingent power that simulates a Space 2 “Scrying” spell (p. 235). The user merely taps on the lenses to activate the power, and Gnosis + Space is rolled, modified by the mage’s sympathetic connection to the person or place he wishes to view. Duration is concentration. Once the mage ceases concentration, the effect lasts for one more turn and then expires (unless additional Duration factors are added during activation).",
     ],
-    "Book": "Awakening 335"
+    "Book": "M:tA 335"
   },
   {
     'Nome': 'Crystal Dream Bracelet',
@@ -125,7 +125,7 @@ export const artifactData = [
       "When a mage is casting a spell on a person or place, being in the presence of the person’s astral body counts as a Sensory connection to the target. Similarly, being in the presence of an astral version of the person or place (such as a dream of a particular famous statue) counts as a Known connection to the target in the same way that a live video feed would. This rare item can sometimes be found in unusual shops or exotic ruins in the Temenos or can be acquired as a gift or payment from an astral being of Rank 5 or higher.",
       "This item cannot be brought into the waking world. However, by spending a point of Willpower (symbolized by spilling blood in the object) and a point of Mana, the owner can store this item in her Oneiros, where she can automatically retrieve the item anytime she passes through her Oneiros. However, the item can be stolen by someone sufficiently skilled at invading dreams and anyone who takes this item and spends Willpower and Mana on the item controls it."
     ],
-    "Book": "Astral Realms 120se"
+    "Book": "AR 120"
   },
   {
     'Nome': 'Dionysian Key',
@@ -144,7 +144,7 @@ export const artifactData = [
       "Oinomanteia omits a few details about the Dionysian Key. The relatively small amphora holds up to four gallons of wine, or 16 uses of the Key, since a person must drink at least a quart of the wine to sleepwalk into the temple. Six quarts are already used. Any liquid tass placed in the amphora becomes more wine, so the amphora can be used indefinitely. On the other hand, the wine loses its power within minutes of leaving the amphora, though, so the Key’s owner cannot multiply the mystic vintage indefinitely. The amphora also loses its enchantment if it’s ever empty of the sorcerous wine, and becomes an ordinary (10,000-year-old) wine-jar. Even though the wine is made from tass, the Key does not possess a reserve of free Mana for its owner to call upon.",
       "Strobelius incidentally claims (without giving his reasons) that Dionysian Key vintages can spontaneously appear if wine is made from tass grapes grown on the Hallow that powers an Atlantean site. The connection from the Hallow to the site passes into the grapes, and from thence to the wine. An imbiber may sleepwalk into an extra-dimensional portion of the site, just as with the Atlantean vintage, or the magical wine may provide some other way to bypass wards or guardians. For instance, the wine might impress the words needed to bypass a guardian onto the imbiber’s befuddled brain. In this case, the vineyard itself is the Artifact, though casks or bottles of the wine seldom become Dionysian Keys, and the vintage cannot be regenerated as with the Atlantean amphora.",
     ],
-    "Book": "Secrets of the Ruined Temple 105"
+    "Book": "SotRT 105"
   },
   {
     'Nome': 'Ferryman’s Flask',
@@ -161,7 +161,7 @@ export const artifactData = [
       "When filled with fragrant oil of a type suitable for anointing a holy person — or the sacred dead — the Flask’s owner can pour out some of the oil on his hands to benefit from a contingent Death 2 “Touch of the Grave” effect, enabling him to interact with objects in Twilight.",
       "One Arrow is said to have scaled a spectral ladder to safety through the use of the Ferryman’s Flask, while another used it to draw a knife out of the ghostly realm with which to defend herself from a Tremere lich intent on harvesting her soul. As to the current whereabouts of the Flask, few can speak with certainty, though rumor places it somewhere in the general area of Louisiana, or perhaps in New England."
     ],
-    "Book": "Adamantine Arrow 194"
+    "Book": "AA 194"
   },
   {
     'Nome': 'The Hound’s Manacle',
@@ -180,7 +180,7 @@ export const artifactData = [
       "When activated by spending one Mana, the Artifact rises from its owner’s hand and floats in mid-air, spinning at a high rate of speed. Once active, the Artifact reproduces a modified version of the Time 4 spell “Temporal Pocket” (see p. 265 of Mage: The Awakening). Each success on a Gnosis + Time roll equals one turn in the Pocket for the single turn that passes outside the Pocket (maximum of five turns). For example, with four successes on the Gnosis + Time roll, the user spends four turns inside the Pocket for the one turn that passes outside the Pocket.",
       "While the user is under the effect of the spell, the sphere seems to spin very slowly, picking up speed as the Duration of the spell nears its end.",
     ],
-    "Book": "Adamantine Arrow 195"
+    "Book": "AA 195"
   },
   {
     'Nome': 'The Judge’s Eye',
@@ -196,7 +196,7 @@ export const artifactData = [
       "The Judge’s Eye is a loupe, such as a watchmaker or jeweler might use. Its casing is a rich-colored wood, worn smooth with years of use. The loupe’s lenses appear to be a little discolored from age, and a quick look through them confirms that: colors that shouldn’t be there refract through the lenses, especially when pointed at people.",
       "In truth, the Judge’s Eye reveals any spirits possessing the people observed through it. At first, a character using the artifact sees only faint, smudged colors. It takes several rounds of consistent scrutiny for the artifact to separate out the target’s aura from any spiritual parasites. After looking through the loupe at a specific person for three rounds, the colors either disappear (if the person has no spiritual rider) or resolve into an image of the spirit riding the subject. This power is persistent and benefits anyone who looks through the Judge’s Eye.",
     ],
-    "Book": "Book of Spirits 123"
+    "Book": "BoS 123"
   },
   {
     'Nome': 'The Seal of Nar-Khedai',
@@ -211,7 +211,7 @@ export const artifactData = [
     'Descrizione': [
       "This ivory pendant is elegantly carved into the stylized image of a grinning hyena’s head, and is considered by some scholars to have once been the personal seal of the Atlantean exile Nar- Khedai, a powerful Mastigos. A small loop at the back of the Artifact allows it to be threaded on a thin cord of some sort. (Currently, it is worn on a slim leather thong). The seal is believed to have originated in Pandemonium, and allows its bearer to manipulate others’ initial impressions of him — a contingent Mind 2 “First Impressions” effect (see Mage: The Awakening, p. 208) that is activated by touching the pendant lightly, whether directly or through clothing.",
     ],
-    "Book": "Boston Unveiled 51"
+    "Book": "BU 51"
   },
   {
     'Nome': 'Amulet of Sekhmet',
@@ -227,7 +227,7 @@ export const artifactData = [
       "This delicate golden pendant is formed in the shape of a lioness’s head, with tiny emerald stones for the eyes. A horizontal hole in the pendant’s upper edge allows the pendant to be worn on a chain as a necklace. Whoever wears the amulet receives three levels of armor, as if under the benefit of the spell “Organic Resilience” for as long as the item is worn. In order to work, the pendant must be making skin contact with the wearer.",
       "Similar, but non-magical, pieces have been found in many early Egyptian burial locations, predominantly worn as a supplication for the protection of Sekhmet, a lion-headed goddess of hearth, home and magic. It is believed that the amulet originated in the realm of the Primal Wild, although whether it is the materials (gold and gems) or the entire pendant that came from there is a matter of debate."
     ],
-    "Book": "Mysterium 205"
+    "Book": "Myst 205"
   },
   {
     'Nome': 'The Book of Safe Journeys',
@@ -243,7 +243,7 @@ export const artifactData = [
       "An old legend tells how when God drove Adam and Eve from the Garden of Eden, one of the angels took pity on them and placed into their hands a scroll that contained the knowledge necessary for these first humans to survive in an unfriendly and unfamiliar world. As the years passed, the scroll changed form until it became the leather-bound volume that arrived in Tennessee in the early 1700s.",
       "The possessor of this book gains the benefit of all the shield spells, including Death 2 “Entropic Guard” (see Mage: the Awakening, p. 136), Fate 2 “Fortune’s Protection” (p. 152), Forces 2 “Unseen Shield” (p. 167), Life 3 “Organic Resilience” (p. 183), Matter 2 “Unseen Aegis” (p. 197), Mind 2 “Mental Shield” (p. 208), Prime 2 “Magic Shield” (p. 222), Space 2 “Untouchable” (p. 235), Spirit 2 “Ephemeral Shield” (p. 246) and Time 2 “Temporal Dodge” (p. 261). In addition, any spell contained in the book, when cast exactly as written, has no chance of failing (always has one success). The book itself is impervious to the effects of physical decay and cannot be destroyed by non-magical forces. In the hands of a seventh son or daughter, the book reveals the true form of anyone who come within 30 feet of it."
     ],
-    "Book": "Magical Traditions 126"
+    "Book": "MT 126"
   },
   {
     'Nome': 'Crystalline Skull',
@@ -261,7 +261,7 @@ export const artifactData = [
       "The Skull is certainly a beautifully made sculpture, and its light does have an eerie quality, but what was it for? Some archaeomancers speculate the Crystalline Skull was a ritual object. Others think the Skull was part of something else — a larger Artifact, long since lost or destroyed, or a key to some unknown Atlantean site. Now, however, the Skull has little practical use. The light it sheds is barely enough to make it useful as anything other than a paperweight-cum-desk lamp.",
       "As a result, the Crystalline Skull is at once priceless and worthless (except to a collector of peculiar objets-d’art). Even when an Atlantean relic proves itself less than a revelation, own- ing one still carries great prestige — and what if some cleverer (or luckier) mage discovers the Crystal Skull’s true purpose? A cabal that owns the Crystalline Skull may find the cabal’s mages beset by other mages eager to possess the Skull. A few waggish mages observe that Artifacts such as the Crystalline Skull are most useful as bargaining chips to buy favors from other mages — who don’t know that their new Artifact, while undoubtedly Atlantean, doesn’t actually do anything.",
     ],
-    "Book": "Secrets of the Ruined Temple 105"
+    "Book": "SotRT 105"
   },
   {
     'Nome': 'The Cyclopean Stone',
@@ -278,7 +278,7 @@ export const artifactData = [
       "The eye — called the Cyclopean Stone by its conjurer — resembles a fist-sized sphere of stone that glitters slightly in the dark. A black spot in the center is the eye’s “pupil,” and its power (equivalent to the Fate 2 spell “Evil Eye”) is triggered merely by pointing the pupil toward a victim and concentrating. Roll Gnosis + Fate and spend one Mana to determine the results.",
       "Carrying the Cyclopean Stone has drawbacks. A person who bears the Artifact must contend with the hatred and jealousy of the eyeless god, and can be tracked unerringly through Astral Space. Theoreti- cally, the Cyclopean Stone would also act as a fetter if the eyeless god ever manifested in the Fallen World. Characters with the Dream Merit suffer even worse — a character who fails the Wits + Composure roll to use Dream receives dreams and visions from the eyeless astral god instead. A dramatic failure causes the character’s astral body to be drawn into the realm of the eyeless god until the dream ends, placing her at the mercy of a vengeful monster."
     ],
-    "Book": "Astral Realms 121"
+    "Book": "AR 121"
   },
   {
     'Nome': 'The Die of Destiny',
@@ -316,7 +316,7 @@ export const artifactData = [
       "19 (Sulfur) — For the remainder of the scene, the character can see, hear and speak with ghosts in the Twilight, as per the Death 1 spell, Speak with the Dead (p. 135, Mage: The Awakening).",
       "20 (Fate) — The Storyteller makes two rolls of the die. The effects of both secondary rolls come into play. If both rolls are the same, the duration or intensity of this effect is doubled, at the Storyteller’s discretion.",
     ],
-    "Book": "Unbidden 121"
+    "Book": "NH-TU 121"
   },
   {
     'Nome': 'Dreamstone',
@@ -333,7 +333,7 @@ export const artifactData = [
       "A Dreamstone can attune itself to the Oneiros of a particular individual, either through meditation (and a single success on a Meditation roll) or simply by being in close contact with that person for a day or so, most commonly in a pocket or placed under the pillow or mattress before sleeping. A Dreamstone remains attuned to that person until it is attuned to someone else; meaning its owner must take precautions not to let the stone linger in contact with another person too long. Usually Dreamstones are “insulated” by wrappings of silk or kept in closed and silk-lined boxes when not in use.",
       "An Awakened holder of a Dreamstone can use it to enter the Oneiros of the person to whom the stone is attuned similar to a use of the “DreamTraveler” spell (see Mage: The Awakening, p. 214), roll Resolve + Composure + 5 (the Artifact’s rating) versus the subject’s Composure + Gnosis."
     ],
-    "Book": "Free Council 114"
+    "Book": "FC 114"
   },
   {
     'Nome': 'Konstantinov’s Knife',
@@ -348,7 +348,7 @@ export const artifactData = [
     'Descrizione': [
       "This curved knife — more like a kukri — certainly predates Wechsler’s creator, but Wechsler thinks of it as being his old master’s knife first and foremost. This is a true Artifact. Wechsler knows that, since he isn’t a mage, the knife shouldn’t work for him, and he has no idea why it does. Konstantinov’s Knife (Artifact •••••) provides its bearer with the ability to cast Honing the Form (Life 3, Mage: The Awakening, p. 186). The Storyteller rolls five dice for this spell’s effect. Konstantinov’s Knife carries 11 points of Mana. In combat, it functions as an impossibly dangerous knife, with a damage bonus of 3L.",
     ],
-    "Book": "Unbidden 71"
+    "Book": "NH-TU 71"
   },
   {
     'Nome': 'Peacebringer',
@@ -364,7 +364,7 @@ export const artifactData = [
       "This artifact is an old-style Colt revolver — the classic “Peacemaker” of the Old West. The revolver looks no more special than any other gun from that era, meaning that any collector or historian would covet it as a museum piece. The remarkable thing is that it still works flawlessly. Its gunmetal sheen may be dull and its ivory handle no longer bright, but it still fires as smoothly and as accurately as it ever did in the old days.",
       "As an artifact and a weapon, the Peacebringer is designed to bring peaceful rest to anyone possessed by a spirit or ghost. Failing that, it’s still a gun and can give the host another sort of peace. The activation for this effect, which is much like the Spirit 3 “Exorcism” spell, requires someone to load the gun with proper ammunition and fire it at the unfortunate, possessed mortal. Roll an attack as normal. A character attempting to do as little damage as possible should aim for a leg or an arm. If the activation roll (which is concurrent with the Firearms roll and reflexive) is successful, the possessing spirit or ghost is ejected from the subject’s body."
     ],
-    "Book": "Book of Spirits 123"
+    "Book": "BoS 123"
   },
   {
     'Nome': 'Permit',
@@ -380,7 +380,7 @@ export const artifactData = [
       "Modern society has a number of checks and limits on who can do what, who has access to whom and who can purchase certain items or substances. Unfortunately for Banishers, these objects and privileges are often out of their purview. This Artifact, which takes the form of a plain piece of paper about four inches by six inches, carries with it the power to sway the minds of those who see the paper and grant the Banisher permission.",
       "The Permit functions much as the Mind 3 spell “Imposter” (p. 211 of Mage: The Awakening), except that the witness sees the Permit itself as something important, rather than seeing the mage as a different person. The Permit might ap- pear to be a federal agent’s credentials, a medical examiner’s ID, a gun collector’s license or any other official document that grants the character entry, access or privilege. This power is contingent upon the character showing a target or a group of targets the Permit in a confident manner."
     ],
-    "Book": "Banishers 71"
+    "Book": "Ban 71"
   },
   {
     'Nome': 'Profane Ephod',
@@ -400,7 +400,7 @@ export const artifactData = [
       "Variants include versions of the common three that can grant their powers to multiple Seers at a time, ones granted by the Psychopomp that can control Ghosts or the Nemesis to control Spirits (each plus one dot) and the Shrouds of Observation used by the Panoptic Ministry to create Grigori (discussed in Chapter Four, page 215).",
       "The Vestments are named “Profane” as they deal with the control of the Fallen world’s inhabitants. Seer legend holds that the Exarchs themselves wear similar robes, referred to as the Sacred Vestments, which allow the puppeteering of the Awakened (see Reign of the Exarchs for an example of such an Artifact) and that the Profane Vestments are mortal reflections of these. Other Seers note that the Gate could create Vestment Artifacts just as well as his fellows, and wonder what powers such a thing would have."
     ],
-    "Book": "Seers of the Throne 197"
+    "Book": "SotT 197"
   },
   {
     'Nome': 'Queen Sorra’s Jewelry',
@@ -418,7 +418,7 @@ export const artifactData = [
       "Example: Three Jewelry-owning cabal members are fighting multiple enemies in a small room. One of the cabal mages casts the spell “Control Gravity” (see p. 176 of Mage: The Awakening) and gains four successes on his casting roll. Normally, anyone caught within a eight-yard radius would be subject to the effects of the spell, but since all the mages present are wearing pieces of Queen Sorra’s Jewelry, none of the mage’s friends are affected, only his enemies.",
       "The benefits for an Adamantine Arrow strike team wearing pieces of Queen Sorra’s Jewelry are obvious. The mages needn’t worry about harming their fellow Arrows with area effect spells, granting the team a wider variety of options."
     ],
-    "Book": "Adamantine Arrow 195"
+    "Book": "AA 195"
   },
   {
     'Nome': 'The Red Ring',
@@ -432,7 +432,7 @@ export const artifactData = [
     ],
     'Descrizione': [
       "The Red Ring that Provost Decurion wears is a simple silver ring with a hollow channel that runs the center length of it. In this channel is a very thin glass tube that encircles the ring, and contained within this glass are a few drops of blood.This ring, once belonging to a powerful Mastigos named Livos (who was the mentor of Decurion’s own mentor, Echron), is said to have been blessed by an ancient spirit drawn from the far corners of the Supernal. Some speculate that such a story is fabricated, but that doesn’t stop the fact that the ring is in wholly unique, bringing the wearer additional Status.The Life 2 effect is Organic Resilience, and it is persistent. It strengthens the wearer’s Life pattern, granting him a constant 2 armor."    ],
-    "Book": "Shadows of the UK 182"
+    "Book": "SotUK 182"
   },
   {
     'Nome': 'The Rings of Astral Unity',
@@ -448,7 +448,7 @@ export const artifactData = [
       "This item consists of a collection of a dozen silver rings in a velvet-lined silver box. More than a dozen versions of this item exist, and the details of decora tion on the box and rings are all different, but they are otherwise identical. These items are always found  in the Fallen World, but some mages believe that the rings originally came from the astral realm. Each of these rings is designed to be worn by one person; wearing more than one ring has no effect. Also, the rings are more effective when worn by multiple individuals. When only one person wears a ring, it provides nothing besides a point of Mana from its Mana storage for the transition into the astral realm. The rings provide two additional benefits when multiple people attempting to enter Astral Space together all wear them.",
       "Any group of people wearing these rings automatically enters Astral Space together. Instead of having to find each other at some destination, they travel together and always have a general sense of each other’s location while in Astral Space. This sense serves as the equivalent of an Intimate sympathetic connection for purposes of using Space spells to observe or travel to one another while in Astral Space. In addition, the ring wearers can use the Teamwork rules (see the World of Darkness Rulebook, p. 134) for the meditation rolls needed to enter the various levels of Astral Space. As a result, moderate-sized groups wearing these rings have a far easier time entering Astral Space and making their way to the Temenos or the Dreamtime."
     ],
-    "Book": "Astral Realms 125"
+    "Book": "AR 125"
   },
   {
     'Nome': 'Subtle Mirror',
@@ -464,7 +464,7 @@ export const artifactData = [
       "The Subtle Mirror is a simple, wall-sized, silver-backed mirror. It lacks ornate adornment, but Mage Sight allows a mage to view the Atlantean characters scrawled transparently on the mirror’s surface. The words form a new koan each time a person looks at the mirror. If given the proper spoken com- mand, the lettering on the Subtle Mirror fades and the mirror reflects more clearly than ever. The mage who possesses it can see the auras of everyone caught in its reflection, including herself. She sees their true natures and mental states (as with the Mind 1 “Aura Perception” and Prime 1 “Supernal Vision” spells), despite any efforts to conceal them.",
       "Traditionally, when the Subtle Mirror has seen use, it has been placed in a location where the reflection can capture many people, allowing it to be a more effective tool for examining the unwary. Legend states that its original owner set it near Atlantis’ busiest port and watched those new to the island."
     ],
-    "Book": "Guardians of the Veil 203"
+    "Book": "GotV 203"
   },
   {
     'Nome': 'The Adamant Banner',
@@ -481,7 +481,7 @@ export const artifactData = [
       "When raised on high, atop a banner pole, to a height of no less than 15 feet (necessitating the full carrying capacity of any save the strongest mage), the Adamant Banner provides the following benefits to all those willingly under the command of a righteous Arrow: Life 3 “Honing the Form” for Stamina and Mind 2 “Emotional Urging,” creating feelings of confidence, heroism and the rightfulness of one’s cause. Of course, what constitutes a “righteous Arrow” (by the estimation of the Adamant Banner’s creators, anyway) is uncertain, and treatises have been written within the order upon the subject. During some battles at which the Banner was unveiled by hated generals fighting for unpopular causes, its magics spurred those under the Adamantine Arrow’s command to victory, while well-loved commanders in the pursuit of what all involved believe to be a just cause occasionally found that its magics could not be invoked.",
       "Several legends surround the Adamant Banner and its future role in the order, as well as in the wider destiny of the Awakened as a whole. Some Arrows believe that the Banner will serve as the rallying point for the heirs to Atlantis during some apocalyptic battle, while others maintain that the Banner will show the way back to the Supernal, and still others cleave to different tales of the ultimate fate of the Banner and those who march under it."
     ],
-    "Book": "Adamantine Arrow 191"
+    "Book": "AA 191"
   },
   {
     'Nome': 'The Aegis',
@@ -497,7 +497,7 @@ export const artifactData = [
       "Crafted in a concave circular shape, of what appears to be a pearlescent silver-white metal of unknown nature and rimmed in glyphs of a lost dialect of the High Speech, the so-called Aegis is a shield of presumably Atlantean origin. The inner straps of the shield are of a thick black substance that looks like leather and feels like rough silk. No scratch mars the Artifact’s surface, despite millennia of use. As last anyone knew, the Aegis was held in a Consilium politically dominated by the Adamantine Arrow, somewhere in Macedonia, though no word of the Aegis has been heard in over a century.",
       "When taken in hand by a mage and held in a manner proper for a shield (in this case, a shield strikingly similar in design to the aspis of the Greek hoplites), the Aegis grants the contingent Prime 4 effect “Supernal Dispellation,” activated by hostile incoming magic. The spell in question must, in whole or in part, directly target the shield’s wielder: a mystic psychic compulsion for the wielder to drop her weapons in the heat of battle counts, as does a burst of flame that will engulf the wielder and three other people, but a boulder created out of thin air over the wielder’s head will not be dispelled."
     ],
-    "Book": "Adamantine Arrow 192"
+    "Book": "AA 192"
   },
   {
     'Nome': 'Astral Bubble',
@@ -516,7 +516,7 @@ export const artifactData = [
       "The only ways to remove this bubble and leave Astral Space are for the target to obtain the aid of an archetype of Rank 5 or higher. Such beings can easily remove the bubble, and may be convinced to give it to subject. Alternately, the subject can convince the bubble’s owner to remove it. In both cases, doing so requires that the archetype or owner touch the subject and roll a single success on a Composure + Wits (or Power + Finesse) roll. If this roll succeeds, the bubble appears in the being’s hand, and the subject is free to leave Astral Space normally.",
       "Although Astral Bubbles exist only in Astral Space, unless in use, they automatically return to the owner’s Oneiros, where the owner can automatically retrieve the bubble if she travels through her Oneiros on the way to the deeper portions of Astral Space. If the owner travels into an Astral Space without first going through her Oneiros, she can call the Astral Bubble into her hand by making an extended meditation roll with a target number equal to the difference between the meditation target number for her Oneiros (12) and the target number of the plane of dreams she currently occupies. The owner can make one roll per turn on this task. Becoming the owner of one of these items involves first acquiring it, and then making a successful meditation roll and spending a point of Mana and a point of Willpower. If someone wrests an Astral Bubble from the grip of the bubble’s owner, the new owner can gain control of it by making a contested meditation roll and spending a point of Willpower and a point of Mana. The owner must also make this roll but need not spend either Willpower or Mana. If the prospective thief succeeds, he is the Astral Bubble’s new owner. If he fails, he is automatically affected by the bubble, without the need for the current owner to spend a point of Mana."
     ],
-    "Book": "Astral Realms 118"
+    "Book": "AR 118"
   },
   {
     'Nome': 'Coin of the Ferryman',
@@ -532,7 +532,7 @@ export const artifactData = [
       "This single coin (Artifact ••••••) has an ancient Death resonance. By itself its powers are limited. A character who touches the face of a Coin of the Ferryman to the flesh of another character can inflict one level of aggravated damage. Using the Coin in this manner during combat is difficult, for the coin must touch flesh and not mere clothing. See “Touching an Opponent,” p. 157 of the World of Darkness Rulebook. An attacker takes a –3 modifier on his Brawl roll (in addition to the target’s Defense) to touch his target with the Coin, and on a dramatic failure drops it.",
       "The Coin of the Ferryman also repels ghosts at a distance of two yards, as per the Space ••• spell “Ban,” specifically targeting ghosts. It is rumored — and Wechsler believes — that there is a second Coin of the Ferryman, and if both coins are brought together they provide much greater power over Death magic. The Coin holds 12 points of Mana."
     ],
-    "Book": "Unbidden 71"
+    "Book": "NH-TU 71"
   },
   {
     'Nome': 'Dirala’s Talon',
@@ -548,7 +548,7 @@ export const artifactData = [
       "Lilitu’s teacher gave her this dagger, as he had received it from his own tutor. He also passed on the story that the dagger first belonged to the powerful willworker, Dirala, in the days just after the fall of Atlantis, and that it once tasted the blood of an acamoth (or at least what passed for its blood). The weapon is 18 inches long, a foot of that consisting of a slender, narrow blade made of some mirrored black metal. The blade curves outward into a very slight leaf shape at the tip. The small cross-guard and egg-shaped pommel are of a slick-looking red metal or stone, and the grip is the color of ivory, with the consistency of worn sharkskin.",
       "The wielder of Dirala’s Talon can expend Mana (her own or that held within the Artifact) to make attacks using the Space 3 “Ranged Blow” spell (see Mage: The Awakening, p. 238). Sometimes, when seen out of the corner of the eye, the blade seems wet with blood, and Lilitu finds the dagger appearing in her dreams more often than might be considered normal."
     ],
-    "Book": "Legacies The Sublime 147"
+    "Book": "L:tS 147"
   },
   {
     'Nome': 'The Dragon Chained',
@@ -565,7 +565,7 @@ export const artifactData = [
       "Even the simplest spells fail. Order mages theorize that the manacles contain the essence of the part of Stygia in which all things eventually end, but have been unable to conduct a thorough investigation of the Artifact.",
       "To the dismay of the Banishers, the power of The Dragon Chained has proved impossible to duplicate with modern magic. Banisher scholars and artificers haven’t completely forsaken the idea of reproducing the Artifact and continue to study it."
     ],
-    "Book": "Banishers 69"
+    "Book": "Ban 69"
   },
   {
     'Nome': 'Ley Markers',
@@ -585,7 +585,7 @@ export const artifactData = [
       "When a Marker is removed, the lines it controlled snap back into their natural shapes, a phenomenon that will rarely go unnoticed by those with active Mage Sight. Lines that have been marked for a very long time, however, are said to remain in their marked configuration.",
       "Relocating a mage’s Ley Marker is a guaranteed way to court trouble. A sanctum that depends upon a node could find its energy disrupted if the ley lines its cabal carefully manipulated to cross suddenly snap back to their natural configurations."
     ],
-    "Book": "Sanctum & Sigil 98"
+    "Book": "S&S 98"
   },
   {
     'Nome': 'Pearl of Obscurity',
@@ -602,7 +602,7 @@ export const artifactData = [
       "The Pearl of Obscurity has remained in the possession of the Guardians for most of its long history, although it occasionally disappears from mage lore for long periods, only to return to circulation in a different age, in a different setting, wielded by a different cabal.",
       "Some mages allege that the Guardians have misused their mandate to police the Awakened to keep the Pearl in their possession, but when asked about the Artifact, the response is usually “The Pearl of what? Never heard of it.”"
     ],
-    "Book": "Guardians of the Veil 202"
+    "Book": "GotV 202"
   },
   {
     'Nome': 'Perpetual Motion Machine',
@@ -619,7 +619,7 @@ export const artifactData = [
       "When activated by spending one Mana, the Artifact rises from its owner’s hand and floats in mid-air, spinning at a high rate of speed. Once active, the Artifact reproduces a modified version of the Time 4 spell “Temporal Pocket” (see p. 265 of Mage: The Awakening). Each success on a Gnosis + Time roll equals one turn in the Pocket for the single turn that passes outside the Pocket (maximum of five turns). For example, with four successes on the Gnosis + Time roll, the user spends four turns inside the Pocket for the one turn that passes outside the Pocket.",
       "While the user is under the effect of the spell, the sphere seems to spin very slowly, picking up speed as the Duration of the spell nears its end."
     ],
-    "Book": "Adamantine Arrow 195"
+    "Book": "AA 195"
   },
   {
     'Nome': 'Seat of Kings',
@@ -636,7 +636,7 @@ export const artifactData = [
       "The Artifact takes the form of a rather large, though plain, throne, carved out of what appears to be a single piece of an unidentifiable silver-white wood and engraved with elaborate sigils in the High Speech unknown to modern Awakened. Presently, this precious — and dangerous — object is believed to be part of a private collection of antiquities held in trust by a small consortium of théarchs in or around Vancouver, British Columbia, Canada.",
       "When a willworker sits in the Seat of Kings, the Artifact bolsters her Presence and Manipulation, as per the Mind 4 “Supreme Augmentation” spell. This contingent effect lasts only so long as the mage remains seated. Further, it automatically nullifies any other effects bolstering the character’s Presence and/ or Manipulation Attributes, and such effects may not be activated for so long as the mage sits upon the Seat of Kings."
     ],
-    "Book": "Silver Ladder 204"
+    "Book": "SL 204"
   },
   ,
   {
@@ -654,7 +654,7 @@ export const artifactData = [
       "A mage may activate this artifact by spending one point of Mana, cutting herself and letting some drops of blood wet the katana’s edge. She must be outside, and being higher than her surroundings (on a hill or on the roof of a building) adds one die to the roll. If she is successful, the gem in the hilt shines brightly, lighting the area. Within minutes, a spirit appears to her in a burst of fire and light. The spirit is vaguely humanoid in form, with dark embers for eyes within its shining, burning face, and it is difficult to look at directly. If the mage gives orders, the spirit obeys them to the fullest extent possible, returns to announce completion and departs. Otherwise, the spirit leaves after a minute of silently staring at its would-be master.",
       "There is no limit to the number of spirits a mage may summon and command at one time beyond her capacity for spending her Mana and her blood. The spirits are far from temperate or subtle, and their unrestricted use is sure to earn a great deal of attention. A character may command a spirit to practice stealth as a means to a goal, but the spirit is unlikely to do well following that route."
     ],
-    "Book": "Book of Spirits 123"
+    "Book": "BoS 123"
   },
   {
     'Nome': 'Tanshien’s Thorn',
@@ -670,7 +670,7 @@ export const artifactData = [
       "This sword is a long, single-edged weapon with a very slight curve along the blade, which, along with the guard and pommel, appears to be of mirrored white gold, set with glyphs of a pearl-like substance, unknown even to the most erudite scholars of Atlantean lore. The hilt is wrapped in metallic wire of a very pale gray-blue hue.",
       "The Artifact originated in Arcadia, and provides extraordinary good fortune to any stroke of the sword (a persistent Fate 3 “Superlative Luck” effect; see Mage: The Awakening, p. 156)."
     ],
-    "Book": "Boston Unveiled 39"
+    "Book": "BU 39"
   },
   {
     'Nome': 'Bane of the Hoard',
@@ -688,7 +688,7 @@ export const artifactData = [
       "Although the Guardians have mimicked this item with imbued items many times throughout history, the original Artifact is both the most powerful and the template from which all imitations are derived. This item also symbolizes the core ideology of the Guardians of the Veil. Although using this Artifact requires vulgar magic and thus poses a risk, it can eliminate dangerous enchanted items that have fallen into the hands of Seers or Banishers — or any mage whom the Guardians don’t think should be allowed to possess them. Certain Guardians sometimes keep special libraries of minute fragments and photographs of powerful items and important books for just this purpose. Although they always attempt to actually recover such items first, if doing so proves impossible, they consult their library and destroy it from a distance.",
       "When the Guardians discover that someone has taken videos or photographs of vulgar magic or possesses a piece of some magical residue, like the horn of a unicorn that wandered out of a Verge — anything that might be used to prove the existence of magic — they immediately attempt to gain some sort of sympathetic link to the evidence. Such links often include photographic negatives scrounged from garbage cans, a few hairs from the unicorn’s mane that were plucked off the owner’s sweater or similar traces. Then, a Guardian risks using vulgar magic with this artifact to destroy the offensive original.",
     ],
-    "Book": "Guardians of the Veil 200"
+    "Book": "GotV 200"
   },
   {
     'Nome': 'BijDava',
@@ -705,7 +705,7 @@ export const artifactData = [
       "The device has to be about three feet away from the patient, and has to be directed by the mage who has activated the device for as long as the patient’s wound take to heal.",
       "One point of Mana from the BijDava’s reserve heals three bashing or one lethal wound. Healing one aggravated wound costs two Mana. If the patient suffered different kinds of Wound levels — for example, he’s suffered two aggravated wounds, one lethal wound and four bashing wounds — the device heals the Health levels on the right first, and expends Mana separately for each wound. In this example, the BijDava would expend seven points of Mana (one for the first three bashing wounds, one for the remaining bashing wound, one for the lethal wound and two each for the two aggravated wounds). Each Wound level takes one turn to heal, no matter how serious the wound is. The BijDava doesn’t heal Resistant Damage. During the High Atlantean Age, mages apparently never suffered from this kind of damage; the makers of the BijDava had no conception that such a thing could exist."
     ],
-    "Book": "Secrets of the Ruined Temple 104"
+    "Book": "SotRT 104"
   },
   {
     'Nome': 'Black Beauty',
@@ -723,7 +723,7 @@ export const artifactData = [
       "While sitting on the bike, the rider can choose to activate Spirit 1 “Spirit Tongue,” allowing communication with any spirit in sensory range. Secondly, bike and rider are protected by a persistent “Numinous Shield” (Spirit 3). Finally, Black Beauty is imbued with the “Road Master” spell (Spirit 4), allowing the cycle and its rider to cross the Gauntlet and enter the Shadow Realm (spend 1 Mana, roll Gnosis + Spirit 3, modified by the local Gauntlet strength).",
       "Black Beauty was reportedly first ridden by an Arrow mage in North Africa in 1931, allowing him to escape pursuit by a trio of Scelesti and then return with spiritual allies. Other stories describe how the Beauty helped mages pursue enemies into the Shadow Realm, acquire and deliver critical knowledge provided by spirits or undertake epic quests across the Gauntlet. Such tales always being with the bike appearing unbidden to a mage in need, and end with the rider going on one last journey from which he never returns."
     ],
-    "Book": "Adamantine Arrow 192"
+    "Book": "AA 192"
   },
   {
     'Nome': 'Bottled Aether',
@@ -740,7 +740,7 @@ export const artifactData = [
       "Bottled Aether is activated by spending one Mana and opening the bottle. With a successful Gnosis + Forces roll by the user, the Artifact reproduces the Forces 4 spell “Change Weather” (see p. 172 of Mage: The Awakening) to call forth a thunderstorm. During the storm, the mage may activate the second power of the Artifact by holding it aloft and rolling Gnosis + Forces to simulate the Forces 3 spell “Call Lightning” (see p. 168 of Mage: The Awakening). The owner of Bottled Aether may also use the “Call Lightning” power of the Artifact during a normal thunderstorm, but must spend one Mana to do so.",
       "The Adamantine Arrow likes to use Artifacts such as Bottled Aether when they need to make a statement. Sometimes just defeating an enemy isn’t enough. Showcasing the power of the order reminds the Awakened community it isn’t a good idea to cross the Arrows."
     ],
-    "Book": "Adamantine Arrow 193"
+    "Book": "AA 193"
   },
   ,
   {
@@ -760,7 +760,7 @@ export const artifactData = [
       "In order to locate and read a lost page preserved within the Codex, a person must focus on the page’s (presumed) contents and flip the tome open. Gnosis + Mind is rolled, one Mana is spent and an effect combining Mind 4, Space 2 and Time 2 effects is triggered. The roll is modified based on the reader’s sympathetic connection to the book containing the lost page.",
       "Some speculation holds that a similar Artifact exists in digital form, archiving missing websites and dead links. So far, there have been no reliable references to such an Artifact appearing as a chimerical item."
     ],
-    "Book": "Astral Realms 120"
+    "Book": "AR 120"
   },
   {
     'Nome': 'Coin of Lead and Gold',
@@ -777,7 +777,7 @@ export const artifactData = [
       "The coin is a metal disk approximately the size of a US Silver Dollar, one face made of gold and bearing part of the Seal of the Chancellor, the other made of lead and bearing part of the Seal of the Ruin. The coin has two properties, called the “Transactions” by the Mammon pylon that holds it. One power works on material objects, the other on living beings. Both are object lessons in the reality the Chancellor and the Ruin preach; in any transaction, there is a winner and a loser.",
       "When the coin is held out between two material objects, the mage holding it may cast a combined spell of “Improve Quality” (see page 192) and “Degrade Object”, the former targeting the item on the golden side and the latter on the leaden. When used between two living beings, the combined spell is of “Bestow Exceptional Luck” on the golden side and “Evil Eye” on the leaden. The mage wielding the coin can be one party in the transaction, and it is often used in this manner — gold side to the skin of the holder — as a means of stealing others’ luck."
     ],
-    "Book": "Seers of the Throne 196"
+    "Book": "SotT 196"
   },
   {
     'Nome': 'Crown of Kings',
@@ -793,7 +793,7 @@ export const artifactData = [
       "The Crown of Kings has an infamous history down through the ages. Despots and madmen have worn it, using it to fulfill their darkest desires. The only reason that the Guardians have not destroyed it is that it occasionally becomes useful, though its use is strictly monitored by a powerful cabal of Guardians of the Veil.",
       "The Crown is a plain gold headband, but it gives the wearer the ability to cast the Mind 5 spell “Psychic Domination” as a contingent power. To activate the power, the user (which can be a Sleeper) must speak the name (real or shadow) of the person he wishes to control."
     ],
-    "Book": "Guardians of the Veil 201"
+    "Book": "GotV 201"
   },
   {
     'Nome': 'The Dragon’s Eye',
@@ -810,7 +810,7 @@ export const artifactData = [
       "The host of the Dragon’s Eye benefits from a persistent “Sharpshooter’s Eye” effect (both the Life and Matter variants), for as long as the stone is grafted within the mage’s eye socket. The willworker can “lock on” to just about anything within his field of vision, though he remains blind in one eye (the Dragon’s Eye, to be precise) to any phenomenon governed by the Arcanum of Forces. Effectively, he can perceive the way in which those energies interact with the organic and inorganic patterns around him, but must look through his other, natural, eye in order to actually see them.",
       "The Dragon’s Eye may or may not be owned at present by an Arrow operating out of Tokyo. Some suspect that the stone he possesses is a fraud, however, and that the Artifact is instead currently the property of a Seer of the Throne elsewhere in the world."
     ],
-    "Book": "Adamantine Arrow 193"
+    "Book": "AA 193"
   },
   {
     'Nome': 'Gabriel’s Horn',
@@ -827,7 +827,7 @@ export const artifactData = [
       "Until then, each sounding of the Horn activates its imbued “Quicken Corpse” spell (Death 3). One success on a roll of Gnosis + Death 3 allows a single corpse to be animated; the user may apply extra success to strengthen his control over the zombie, or spend them to raise the creature’s Physical traits on a one-for-one basis. For an Arrow in desperate need of foot soldiers or cannon fodder, this ability makes the Horn useful enough. However, loremasters of the order know that the Horn has another feature.",
       "Playing the proper sequence of notes will activate the Death 5 spell “Summon the Dead,” allowing the user to call forth a ghost from the Underworld. The musical sequence required is a closely held secret among the Arrows, who prefer to reserve for themselves the capability of consulting with their most renowned long-dead warriors and heroes."
     ],
-    "Book": "Adamantine Arrow 194"
+    "Book": "AA 194"
   },
   {
     'Nome': 'Gravity Well',
@@ -844,7 +844,7 @@ export const artifactData = [
       "The Gravity Well simulates a localized, reverse version of the Forces 5 spell “Control Gravity” (see p. 176 of Mage: The Awakening). To activate the Artifact, the user must hold it, point at a target and spend one Mana. For one turn, the indicated target becomes the new source of gravity for anything within a two-yard radius for each success on a Gnosis + Forces roll. Objects (or people) can damage the target by “falling” on it (see p. 138 of the World of Darkness Rulebook).",
       "Cautious users of Gravity Well will make sure to place themselves and their friends out of potential range. Adamantine Arrow owners of this Artifact have delighted in using this power against enemies who attempt to hide in places such as auto repair shops, or conceal themselves behind heavy, but mobile, objects."
     ],
-    "Book": "Adamantine Arrow 194"
+    "Book": "AA 194"
   },
   ,
   {
@@ -863,7 +863,7 @@ export const artifactData = [
       "Mere confinement, however, is the least of the Artifact’s purposes. When activated, Karnacki’s Coffin subjects whoever’s inside to the Space 5 “Oubliette” spell. The victim of the spell is tormented by horrific hallucinations and distortions in space and time. The mage who utilizes the coffin must spend one Mana and roll Gnosis + Space 5 to activate it, and then makes repeated rolls against the victim’s contested Composure + Gnosis rolls. Each successful roll by the tormentor reduces the victim’s Willpower by one point; at zero Willpower the victim becomes a traumatized wreck (see the spell description for details). If the victim successfully contests any of the rolls, he’ll endure the ordeal with his faculties intact (the tormenter will have to activate the Coffin again for another attempt).",
       "As with the spell the Artifact mimics, use of Karnacki’s Coffin is likely to degrade a mage’s standing on the path of Wisdom. But the Artifact holds another danger. Any mage who activates the Coffin becomes subject to a geas, per the Fate 5 “Chains of Fate” spell. The terms are simple: the mage must enter the coffin and subject himself to its terrors, or suffer the consequences. The mage can resist the imposition of the geas with a reflexive Resolve + Gnosis roll versus the coffin’s roll of Gnosis + Space 5 (using the activating mage’s own Gnosis). Should the Coffin win, the mage will be affected by a geas of indefinite duration that begins to exert its effects as soon as the Coffin’s current victim is removed. What makes this phenomenon all the more difficult is that, should the mage willingly place himself in the Coffin, he himself cannot activate it. He’ll need to recruit another mage to help him fulfill the geas — which in turn exposes that mage to the risk of the Artifact’s curse. The fact each use of the Coffin could entangle a chain of willworkers in this manner, rather than the moral implications of the use of torture, is likely the biggest reason that the Guardians are loathe to use it."
     ],
-    "Book": "Guardians of the Veil 201"
+    "Book": "GotV 201"
   },
   {
     'Nome': 'The Librarian’s Rod',
@@ -879,7 +879,7 @@ export const artifactData = [
       "The Librarian’s rod of jet and orichalcum projects a Spirit 3 “Harm Spirit” effects (see Mage: The Awakening, p. 249) in its Spirit 4 version, which inflicts aggravated damage on spirits. The Rod’s attack pool is the wielder’s Gnosis +7 (or the Librarian’s Power +7); successes can be allocated to damage, area or other factors. Each use of this contingent effect costs one Gnosis.",
       "Unfortunately, the Rod is not a material Artifact brought into Twilight; the Rod is an ephemeral object that never existed in the Material Realm — and never can exist there. The Rod won’t pass through Spirit Roads or the like (though the Rod can be moved into the Shadow Realm). From the material plane, the Rod requires Spirit 2 “Gossamer Touch” (see Mage: The Awakening, p. 247) to operate."
     ],
-    "Book": "Secrets of the Ruined Temple 81"
+    "Book": "SotRT 81"
   },
   {
     'Nome': 'The Lord of Storms',
@@ -895,7 +895,7 @@ export const artifactData = [
       "The Guardians took ownership of this Artifact spear from an 18th-century mage who used it to summon a fierce set of storms that wracked the Spanish coastline. In the years since then, a group of mages believed to be Seers of the Throne took it from the Guardians. Rumors abound that the Seers also lost the Artifact in the late 20th century, and the spear has since been seen in various places around the world, always associated with horrific storms.",
       "The spear adds five dice of lethal damage to its wielder’s Strength + Weaponry roll, and requires a Strength of 5 to use without penalty. The head of the spear is made of Atlantean steel, and carved with High Speech runes concerning both storms and royalty. The weapon has a five-foot shaft of magically preserved wood, wrapped with a white leather. The wielder can also use a contingent Forces 5 spell “Control Weather.” The spell is activated by the wielder holding the spear and speaking the following phrase in High Speech, “Let mine enemies feel the wrath of the Lord of Storms.” It is believed that there may be other spells locked in the Artifact, activated by other phrases."
     ],
-    "Book": "Guardians of the Veil 202"
+    "Book": "GotV 202"
   },
   {
     'Nome': 'Mask of Aztlán',
@@ -911,7 +911,7 @@ export const artifactData = [
       "In the early 1930s, a Mysterium archaeomancer discovered this Mask in one of the pyramids of Chichén Itzá. She dis- covered the Mask in an extra-dimensional chamber that hid a variety of Atlantean relics, as well as a grimoire of Awakened magic written on gold plates in Atlantean and Nahuatl. The heavy, thickly-carved golden mask depicts a face surrounded by a fringe of feathers. The archaeomancer named the Mask for the legendary ancestral homeland of the Aztecs that some Awakened believe is a memory of Atlantis.",
       "The Mask grants its bearer the ability to interact with the spirit world and spirits in Twilight, as though she were under the effects of the Spirit 3 “Reaching” and the Spirit 2 “Peer Across the Gauntlet” spells (see Mage: The Awakening, pp. 250 and 247). Both of these effects are contingent effects, activated by donning the mask."
     ],
-    "Book": "Secrets of the Ruined Temple 106"
+    "Book": "SotRT 106"
   },
   {
     'Nome': 'Orb of Amnesia',
@@ -927,7 +927,7 @@ export const artifactData = [
       "This Artifact is a sphere the size of a large orange made of some unknown pale-colored stone. This orb glows with an opalescent light as bright as a 100-watt incandescent light bulb. Although the carvings cannot be clearly seen because of its brightness, anyone touching the orb can feel that it is covered in complex, narrow carvings around half an inch deep. Anyone who can see either the orb or its light, or who has the light from the orb fall on any portion of his bare skin is affected by the Mind 3 spell “Eternal Now,” which removes his ability to form new memories while he is within the orb’s light. Only individuals who are also touching the orb are immune to this effect. A pair of people who each kept one hand on the orb at all times could yell at the top of their lungs and violently shove their way through a crowd, and the people in the crowd would forget about this pair the moment they were out of sight. Also, no one who is not touching the orb ever remembers anything about seeing it. Placing the orb in a light-tight bag or box instantly cancels its effect.",
       "Stories of this orb go back as far as Mysterium’s oldest records. However, there are also long gaps in the orb’s unusual history because many who have seen it do not remember doing so. One of the most persistent stories about the Orb of Amnesia is that the loss of ability to remember is not its primary purpose or perhaps not even related to its actual purpose. Instead, some stories about this Artifact claim that it is only one part of a larger, more complex and far powerful Ar- tifact that was disassembled into various parts millennia ago. No one knows what this original item did or where the other pieces are, but the deep carvings on the orb suggest that it might have been able to fit into a holder in some larger object."
     ],
-    "Book": "Mysterium 206"
+    "Book": "Myst 206"
   },
   {
     'Nome': 'Profane Urim',
@@ -947,7 +947,7 @@ export const artifactData = [
       "Variants include versions of the common three that can grant their powers to multiple Seers at a time, ones granted by the Psychopomp that can control Ghosts or the Nemesis to control Spirits (each plus one dot) and the Shrouds of Observation used by the Panoptic Ministry to create Grigori (discussed in Chapter Four, page 215).",
       "The Vestments are named “Profane” as they deal with the control of the Fallen world’s inhabitants. Seer legend holds that the Exarchs themselves wear similar robes, referred to as the Sacred Vestments, which allow the puppeteering of the Awakened (see Reign of the Exarchs for an example of such an Artifact) and that the Profane Vestments are mortal reflections of these. Other Seers note that the Gate could create Vestment Artifacts just as well as his fellows, and wonder what powers such a thing would have."
     ],
-    "Book": "Seers of the Throne 197"
+    "Book": "SotT 197"
   },
   ,
   {
@@ -966,7 +966,7 @@ export const artifactData = [
       "Rumors about the Spear whisper that if it is ever used in an act of treachery, a thorn vanishes from the Artifact, imbedding itself in its wielder’s flesh. The wound caused by the thorn never heals, and the unworthy owner soon sickens and suffers a slow death by blood loss.",
       "The Quicksilver Spear is an Artifact kept by the Adamantine Arrow, and is loaned out to the order’s bravest and most loyal members. Many oaths have been sworn on the haft of the Spear, and it is a matter of pride to the order that more thorns have appeared than have vanished while the Spear has been in their possession."
     ],
-    "Book": "Adamantine Arrow 196"
+    "Book": "AA 196"
   },
   {
     'Nome': 'Rays of Dawn',
@@ -982,7 +982,7 @@ export const artifactData = [
       "Wrought of dozens of thin layers of ivory-white wood and gray-black horn, and carved with whirling patterns of surpassing complexity and beauty, Rays of Dawn is a large recurve longbow. It has been strung and restrung over the years, though the bow itself, and not its string, is what is of value to the Adamantine Arrow. The Artifact was stolen only recently from its owner, an Arrow in California, and her entire cabal murdered by what was believed to be Scelesti and their demonic servants. The current whereabouts of Rays of Dawn is unknown.",
       "When drawn, the bow automatically expends a point of Mana in the creation of a shaft of solid sunlight (decidedly a vulgar spell effect). When loosed, this beam of light inflicts aggravated damage on anything successfully struck by it (requiring a Dexterity + Firearms or Athletics roll, as normal). The bow has an equipment bonus of +4 and ranges of 50/100/200."
     ],
-    "Book": "Adamantine Arrow 196"
+    "Book": "AA 196"
   },
   {
     'Nome': 'The Robe of the Dethroned Queen',
@@ -1003,7 +1003,7 @@ export const artifactData = [
       "Simply using the Robe’s powers is an act of hubris for mages of Wisdom 6 or higher. (Learning a spell from the Robe is an additional act of hubris at the same level of sin.) The Robe defies the cosmic station of a Fallen World being’s position beneath and in sight of the Supernal world — it was never meant to be worn on Earth and used against the Exarchs.",
       "Some Pentacle mages posit that the Robe’s powers are, in fact, an elaborate ruse on behalf of the Exarchs and their minions. In fact, the Robe merely reveals its wearer to be trying to hide from the Exarchs. Minions play along to take advantage of the wearer’s overconfidence, then follow her back to her people or a more cunning strike. These cautious Pentacle mages may even be right. Is it worth dabbling with the tools of the Exarchs if there’s any chance that doing so plays into their hands?"
     ],
-    "Book": "Reign of The Exarchs 60"
+    "Book": "RotE 60"
   },
   {
     'Nome': 'The Scepter of the Dethroned Queen',
@@ -1025,7 +1025,7 @@ export const artifactData = [
       "<b>Dice Pool:</b> Composure + Occult + Arcanum",
       "The fear of many Pentacle mages will be that the anti-magic powers of the Scepter are, in fact, dulling the Mana and magic of the Fallen World. Is it just a tool for Supernal jailors?"
     ],
-    "Book": "Reign Of The Exarchs 89"
+    "Book": "RotE 89"
   },
   {
     'Nome': 'Shard of the Mountain',
@@ -1042,7 +1042,7 @@ export const artifactData = [
       "The Shard of the Mountain has but a single known power, though that in and of itself is incredibly potent. By intoning the name of one’s enemy (real name, shadow name or any other moniker by which the individual identifies herself) when swinging the axe at her, its wielder can activate a contingent Fate 5 “Forge Doom” effect, naming the Shard of the Mountain as her doom. Each such attack requires the expenditure of a point of Mana.",
       "It is worth noting that no one who ever possessed this Artifact died of natural causes, and almost all perished within a few years of acquiring it. While indisputably a magnificent weapon, the use of the Shard of the Mountain obviously attracts all the wrong sort of attention from the foes of the Adamantine Arrow, and there are those older Arrows who wonder if it might not be better were the stories to be lies, and the Artifact be well and truly lost."
     ],
-    "Book": "Adamantine Arrow 197"
+    "Book": "AA 197"
   },
   {
     'Nome': 'Soma',
@@ -1060,7 +1060,7 @@ export const artifactData = [
       "The immortality posited by this drink is not so simply a measure of man’s length of life, but instead refers to the nature of divinity. Divinity is everlasting, even if the body is not. This drink allows the imbiber to reach one of the general goals of the entheogen cults, which is a kind of evolution.",
       "Upon taking the drink, the Soma is permanently bound to the blood and soul. The mage may, once having consumed the Soma, choose a single legendary or mythical shape (see both Life ••••• spells Fantasia and Greater Shapechanging for ideas) for herself. This shape, once chosen, is coded into her blood, written upon her soul with the raw fire of godliness. Once per day, she can change into this shape for a single scene. This is persistent and does not end, providing a permanent benefit to the mage until the end of her life. She has, in some way, transcended her humanity and become something akin to the immortal gods who delivered Soma."
     ],
-    "Book": "Magical Traditions 140"
+    "Book": "MT 140"
   },
   ,
   {
@@ -1077,7 +1077,7 @@ export const artifactData = [
       "Soul Hammer is a war hammer made of an unknown cobalt blue metal alloy, slightly lighter than one would expect. Traces of the Realm of the Celestial Spheres can be found in the Soul Hammer’s enchantment. Soul Hammer shares the statistics of mundane maces (see p. 170 of the World of Darkness Rulebook) but seems specifically designed to combat mages. Whenever the Artifact deals two or more levels of damage to an Awakened opponent, Soul Hammer flashes with arcs of power that boil the Mana contained in the mage’s Pattern. For each strike that deals the required damage, remove a dot of Mana from the mage and roll an additional five dice of lethal damage against the target. Damage caused in this way may not be mitigated by armor or Defense.",
       "It is no secret why the Banishers covet this weapon. An Artifact designed specifically to kill mages is nothing short of a godsend to Banishers. Although rumors of Banishers using Soul Hammer are whispered across five continents, no order mage has ever given an eyewitness account of the Artifact’s power. The simplest explanation for this is that no mage has survived such an encounter."
     ],
-    "Book": "Banishers 71"
+    "Book": "Ban 71"
   },
   {
     'Nome': 'Taroa’s Book',
@@ -1093,7 +1093,7 @@ export const artifactData = [
       "Taroa’s Book is a heavy tome of old, thick paper bound in dark leather. The wood in the book’s covers has warped over time, bending the book into a somewhat convex shape. Although the book’s paper has remained remarkably whole, it remains that not a single word is printed within. Only the name “Taroa” is embossed on the cover.",
       "A mage may activate the book by opening it to a random page, writing the name of a spirit in the book and spending a point of Mana. Within seconds, the book completely absorbs the ink, which disappears from the page. For rest of the scene, the spirit so named may materialize through the book, per the Spirit 5 spell “Materialize Spirit.” If in the Shadow Realm, the spirit senses that the energies of Taroa’s Book are there to let it materialize. The book rises from the ground and becomes a part of the materializing spirit, becoming incorporated somehow into the spirit’s appearance. After one day, the spirit dematerializes, and the book drops to the ground."
     ],
-    "Book": "Book of Spirits 124"
+    "Book": "BoS 124"
   },
   {
     'Nome': 'Temenotic Obelisk',
@@ -1111,7 +1111,7 @@ export const artifactData = [
       "The Obelisk is a crude but potent means of exerting low-level mental influence over a human population. It appears to be a ten-feet high stone obelisk, capped with a steel pyramid and carved with faintly glowing runes in the High Speech that, translated by the Seers, prove to be partial instructions along with a dedicative phrase offering glory to the Kings of Atlantis. It weighs several tons, though in the dream-logic environment of the Astral Realms there are ways to move such an object.",
       "When brought to the Astral representation of a community or place, the Obelisk can be commanded to take root by casting a modified “Telepathy” spell conjoined with the Matter Arcanum on it and mentally ordering it to activate. The Obelisk then casts a spell based on “Dimensional Axis” to merge that Temenos realm with another of the user’s choice, the activation roll being modified by the user’s sympathy to the target realm. Once the Axis has formed, the spell uses Mind and Prime magic to merge the resonance of the two areas, resulting in the community realm being flooded with foreign emotions and concepts. Back in the material world, everyone within the purview of the realm being warped is affected as though a spirit with a Power + Finesse dice pool of 8 were using the Strengthen Influence to instill the required emotion, including the contested roll. The effect is Prolonged, lasting a week until the Obelisk shuts off. After experiments with using the Obelisk to link a prison with a Temenos realm of peace, and linking the Temenos ideaform of a particular village in France with a Temenos realm dedicated to the concept of betrayal, the Seers are preparing to move it again and are searching for a viable target."
     ],
-    "Book": "Seers of the Throne 196"
+    "Book": "SotT 196"
   },
   {
     'Nome': 'Celestial Urn',
@@ -1127,7 +1127,7 @@ export const artifactData = [
       "When the théarchs of Marrakech seized this Artifact from a cabal of Scelesti in the early 1950s, they had no idea what to make of it. The largely nondescript urn (three-and-a-half feet tall, narrow, and of a neutral beige material akin to ceramic) was traded between mages of the Ladder for several years until, finally, a member of the order in New York City managed, by luck, a bit of Fate and Mind magic, and some favors owed him by the local Mysterium, to translate the tiny glyphs etched around its base. This mage, a Shaman known by the Shadow Name of Slander, figured out how to activate the urn’s amazing power in the late 1980s. Sadly, he was killed shortly thereafter, and the Artifact was moved out of Slander’s Consilium by the Silver Ladder out of fear that the Thyrsus’ assassination was part of a plan to acquire the Celestial Urn. Its present whereabouts are unknown.",
       "After depositing a handful of human ashes (whether fresh, old or even ancient), nine pomegranate seeds, a teaspoon or so of any fermented alcoholic beverage (the glyphs, according to Slander, specifically called for wine or beer, though similarly prepared potable liquids also work), and a single drop of the willworker’s own blood into the Artifact, the mage may use the Spirit 5 spell “Create Spirit,” crafting a Shadow Realm entity to her exact specifications. This spirit is a persistent creation, lasting for as long as the willworker is the owner of the urn. (In other words, until it is lost, stolen, given away or destroyed.) Whatever spirit the mage creates, however, she’s stuck with it until she is no longer the owner of the Celestial Urn; whereupon, the spirit simply ceases to be. Interestingly, the items placed into the urn are not in any way consumed by the Artifact’s power when used and must be removed from it by other means."
     ],
-    "Book": "Silver Ladder 202"
+    "Book": "SL 202"
   },
   {
     'Nome': 'Coin of Hiding',
@@ -1144,7 +1144,7 @@ export const artifactData = [
       "To use this persistent Artifact, the user must place it on a wall that completely surrounds a location — the Artifact can be placed on the inner or outer surface of the wall. The Artifact can be used to affect an entire house, office building, shopping mall or even an entire manor house and the large wooded estate that are all surrounded by a high brick wall. This artifact protects everything within these walls with a version of the Space 5 spell “Hide Space” with a Potency of 5. This magic affects everyone coming within 20 yards of the area who does not speak a certain password or trace a specific sign in the air.",
       "The mage who affixes the item to the wall must spend a point of Mana to do so; at this point, he can choose what phrase or sign (or combination of both) that he wishes to use to allow individuals to enter the protected space without being affected by this magic. Removing this item immediately cancels the spell, but the coin need not be placed in any easily visible or accessible location and its location can be (and usually is) concealed with magic."
     ],
-    "Book": "Mysterium 206"
+    "Book": "Myst 206"
   },
   {
     'Nome': 'Creeping Mirror Doll',
@@ -1163,7 +1163,7 @@ export const artifactData = [
       "The enchantment lasts for an hour, after which the Doll returns to its normal form and can do nothing but seek out the nearest mirror or clear reflective surface and return to its master. The Doll cannot be set on the same person more than once; if it does not kill a target, it can never again threaten that person.",
       "Example: The Creeping Mirror Doll is set upon Chiron, a tranquil and medically focused Mysterium mage. Upon traversing the mirrors, the Doll takes on Chiron’s aspect and Physical Attributes (Strength 1, Dexterity 4, Stamina 2) but has five dots (and Skill Specialties) in the Skills necessary to kill Chiron silently. If the creature fails to find or kill Chiron within an hour, the Doll returns to its normal form and must find a reflecting surface to flee back to its master. Chiron would henceforth be safe from the Creeping Mirror Doll."
     ],
-    "Book": "Guardians of the Veil 203"
+    "Book": "GotV 203"
   },
   ,
   {
@@ -1183,7 +1183,7 @@ export const artifactData = [
       "The use of the Crown’s powers (including learning spells from it) is an act of hubris demanding a degeneration roll for any mage of Wisdom 4 or higher.",
       "Pentacle mages who have studied the myths of the Dethroned Queen question whether there is really any difference between a willworker who uses the powers of the Crown and a Seer in service of the Exarchs. Is making use of the Seers’ cold chains of control over its minions truly any less immoral than clamping on those Supernal shackles in the first place? Can’t the Crown just be seen as a means of making any wearer into a slaver, just like the Exarchs and their cronies?"
     ],
-    "Book": "Reign of The Exarchs 110"
+    "Book": "RotE 110"
   },
   {
     'Nome': 'The Cup of Life',
@@ -1200,7 +1200,7 @@ export const artifactData = [
       "The Cup of Life has two effects, either of which can be triggered when a person drinks from it. The first effect simulates a combined Life 3 “Banish Plague,” Life 3 “Healing Heart” and Life 5 “Regeneration” spell, effectively curing any physical ailments that plague the drinker. Roll Gnosis + Life, and spend one Mana. The cup also possesses an apparently unique ability to restore a person’s soul. A person whose soul has been lost or destroyed may drink from the cup; Gnosis + Spirit is rolled, and regardless of success, the cup vanishes into the Temenos, never to be seen again by its beneficiary.",
       "So long as at least one success is achieved, however, the subject’s soul is restored, and a dot of Wisdom or Willpower lost due to soulless- ness is restored with each additional success. If the subject’s soul still exists in some form elsewhere, the soul instantly disappears."
     ],
-    "Book": "Astral Realms 120"
+    "Book": "AR 120"
   },
   {
     'Nome': 'The Doorway Beyond',
@@ -1218,7 +1218,7 @@ export const artifactData = [
       "When the gateway is used to enter the astral realm, the owner activates the item and everyone who wishes to use this gateway must make a single successful meditation roll while in the same room as and within 10 feet of this Artifact. Then, all mages who succeed in making the meditation roll can send their astral bodies through the gateway and into Astral Space. Sleepers who are nearby can also enter Astral Space if they succeed on their meditation rolls. Returning from Astral Space is handled normally. This item allows characters to physically enter the Underworld, Twilight and the Shadow Realm, but allows characters to send only their astral bodies into Astral Space.",
       "In addition to allowing characters to enter any of these realms, The Doorway Beyond also allows the owner to choose where the doorway leads. The owner can open the gateway anywhere in any of these realms by casting versions of “Ghost Gate” and “Spirit Road” as sympathetic spells and by using the Space 2 spell “Scrying” to search Astral Space for where the owner wishes to open the doorway. When attempting to open a gateway to a distant location in one of these realms, the user must subtract any penalty for the degree of sympathetic connection from the Gnosis + 4 roll."
     ],
-    "Book": "Astral Realms 115"
+    "Book": "AR 115"
   },
   {
     'Nome': 'Grim Sanctum',
@@ -1235,7 +1235,7 @@ export const artifactData = [
       "Since users can also carry anything on their person into the Underworld, when found, this mansion typically includes a variety of the possessions of the previous owner. In at least one case, it contained the previous owner’s dead body. Other than those additions, all the fittings and other accoutrements in the mansion are appropriate for the Underworld and have a somewhat funereal appearance.",
       "As long as the user wears the pendant, he can also command ghosts, using the Death 3 spell “Control Ghost.” In addition, unless the wearer orders them to do so, ghosts cannot enter the mansion, but the mage can easily leave and re-enter it. The user can also leave the Underworld using this Artifact, but the mansion remains behind in the Underworld, secure from ghostly invasion and containing all the objects previous owners have created, acquired in the Underworld or brought from the mortal world. If desired, the wearer can transport others into or out of the Underworld simply by touching them and spending 1 additional point of Mana for each individual he wishes to bring along."
     ],
-    "Book": "Silver Ladder 202"
+    "Book": "SL 202"
   },
   {
     'Nome': 'Imadrillan, Ancestral Axe of the Léon Family',
@@ -1252,7 +1252,7 @@ export const artifactData = [
       "Numa almost never brings the weapon out, save for ceremonial occasions. He has not actually used it in combat in more than 15 years. The perfectly mirrored metal has a fluid, almost organic appearance, and is completely un- marred by any chipping or scratches.",
       "The ax does 3 lethal damage and as the 9 again property."
     ],
-    "Book": "Boston Unveiled 74"
+    "Book": "BU 74"
   },
   {
     'Nome': 'Kingly Regalia',
@@ -1268,7 +1268,7 @@ export const artifactData = [
       "This Artifact is a golden torc fashioned in Celtic knotwork with stylized human figures on the ends. When studied closely, the “mazes” formed by the knotwork seem to have no end and call to mind the mythical paths said to lead to the Supernal Realm of Arcadia. When the Artifact is placed around the neck, the owner of the Artifact activates it by spending one Mana and establishing eye contact with his target. Kingly Regalia then reproduces the spell “Psychic Reprogramming” (see Mage: The Awakening, p. 218) with a successful Gnosis + Mind roll. Once the Artifact is active, the owner begins the extended and contested Composure + Gnosis rolls to reprogram his target. This version of Psychic Reprogramming differs slightly from the original and is considered lasting whether the target is a Sleeper or not.",
       "A large cult of Banishers in Paris used this Artifact to convert solitary mages to the Banishers’ ideals. The cult discovered that Kingly Regalia wasn’t as useful when employed against a cabal so instead used the Artifact on Sleeper friends and allies of order mages, forcing the Sleepers to act as spies."
     ],
-    "Book": "Banishers 70"
+    "Book": "Ban 70"
   },
   ,
   {
@@ -1285,7 +1285,7 @@ export const artifactData = [
       "Every ruler must, at some point, be a liar; though some lies are less harmful than others, a rare few lies harm no one at all, and do only good. Certainly, several of the théarchs who have, at one point or another, held this Artifact feel its power is a lie of the latter sort. The Liar’s Mask covers the entire face (though it need not be worn thus to be used), and its serene, androgynous expression is rendered in some manner of mirrored metal, shot through with thin veins of a deep, matte crimson.",
       "When a willworker whispers his real name over or into the Liar’s Mask, the Artifact creates an almost exact duplicate of him (as a Prime 5 “Complex Phantasm” spell) as a contingent effect. This replica is directly controlled by the mage’s will, but doing so requires full concentration — the duplicate collapses, inert, otherwise. The mage may mentally command the phantasm to leave his presence and he remains attuned to its senses by way of a sympathetic link. This replica can be used to do most anything the willworker himself would do, though most Ladder mages who have held the Liar’s Mask in the past used it as a body double for dangerous (or even potentially dangerous) situations. The Artifact’s present whereabouts are, unfortunately, unknown."
     ],
-    "Book": "Silver Ladder 203"
+    "Book": "SL 203"
   },
   {
     'Nome': 'Mestorian Bracers',
@@ -1302,7 +1302,7 @@ export const artifactData = [
       "Once donned, the Bracers become potent weapons for controlling and drawing upon the powers of lightning and electricity. The wearer can generate a blast of lightning, similar to the Forces 4 “Thunderbolt” spell (see Mage: The Awakening, p. 173). This contingent effect is activated by touching the Bracer on one arm to the other, then pointing. Each blast consumes one Mana, with an attack dice pool of 12. Each success inflicts one Health wound of lethal damage (not aggravated, despite the Mana expended).",
       "More subtly, however, the wearer of the Bracers can use the Forces 3 “Control Electricity” spell (see Mage: The Awaken- ing, p. 168), allowing him to redirect electricity already extant in the area by hand gestures as a contingent effect. This does not cost Mana. Again, the dice pool is 12."
     ],
-    "Book": "Secrets of the Ruined Temple 106"
+    "Book": "SotRT 106"
   },
   {
     'Nome': 'Mirror of Revelation',
@@ -1320,7 +1320,7 @@ export const artifactData = [
       "These properties make the mirror both valuable and useful, but the reason for its almost legendary importance is that it sometimes acts on its own accord. Even when the mirror is not in use, it constantly displays images, typically consisting of a series of seemingly random locations and scenes. Sometimes, a mage will glance in the mirror without considering a target and will see something related to her life or desires within the mirror. This scene can be an image of her past, of a distant place known to her, the location of the object of her keenest desire or possibly just a random image whose meaning she may never learn, but in most cases, it turns out to be scene of great importance to the mage.",
       "Mages often try to cause such images to appear by touching the mirror and not specifying a scene to be viewed. Usually, the mirror simply displays a random scene from the mage’s life; sometimes the mirror reveals an image of what the mage unconsciously hoped or feared to see. However, occasionally, the mirror reveals some scene of great import to the mage. Scholars and archeologists of the Mysterium often request the use of this mirror in the hope that the mirror will reveal the location of what they are seeking, even if they have absolutely no clue of where to find it and lack any connection to the target. On rare occasions, the mirror reveals a vital clue that the mage would have now way of learning or looking for, thus ensuring that the mirror remains one of the Mysterium’s most valuable artifacts."
     ],
-    "Book": "Mysterium 207"
+    "Book": "Myst 207"
   },
   {
     'Nome': 'The Null Bomb',
@@ -1339,7 +1339,7 @@ export const artifactData = [
       "At least one Null Bomb is supposedly kept in a Libertine Lorehouse... somewhere. Two others were reportedly destroyed by the Guardians of the Veil in 1986 after being recovered by mages of the Adamantine Arrow. This leaves, by popular accounts, one Null bomb unaccounted for.",
       "In game terms, the Null Bomb has one of two effects. Under the first option, it is a truly devastating object capable of rendering a wide area (probably no more than 10 square miles — still a serious threat) into a “magic dead zone” (per the “Dead Zone” spell, see Mage: The Awakening, p. 230), and so should only be brought into play as the goal or consequence of a story or chronicle. Alternately, the Null Bomb is a Mana-destroying weapon (again, as the “Dead Zone” spell) that does not prohibit spellcasting but does eliminate Mana from Hallows and mages alike. Roll the Artifact’s rating (eight dice); each success robs every mage in the blast radius of one point of Mana. Beyond that, the bomb creates a dead zone at least one square mile in area."
     ],
-    "Book": "Free Council 114"
+    "Book": "FC 114"
   },
   {
     'Nome': 'The Opal of Styx',
@@ -1357,7 +1357,7 @@ export const artifactData = [
       "During activation, three Mana must be spent for the user, either from the Artifact’s reserves or from his own pool. The effect lasts for one scene, but the user can increase its Duration by suffering dice penalties on the activation roll. See “Duration,” pp. 118-119.",
       "Note that this item’s Merit cost is well beyond the affordability of beginning characters (12 dots); it is listed merely as an example."
     ],
-    "Book": "Awakening 336"
+    "Book": "M:tA 336"
   },
   {
     'Nome': 'Pillars of Enduring Creations',
@@ -1374,7 +1374,7 @@ export const artifactData = [
       "Each pillar is a cylinder six inches wide and six inches high. To use this item, the pillars must be placed in a rough square or rectangle that is no more than 16 yards long on any of its four sides. As soon as any items or being created using Prime magics enter this area, the Duration of the magic creating them is no longer relevant, and the creation endures for as long as the pillars remain active. The pillars only cease to be active if one or more of them is moved more than 16 yards from all of the others — if this happens, or if the object or creature leaves the space enclosed by the pillars, the creation’s Duration continues from the time when it first entered the area bounded by the pillars. If a tulpa created with a Duration of two hours enters this area after an hour of this time had elapsed, even if the tulpa remained inside this area for three years, if the tulpa ever left, it would have another hour of existence remaining. Also, if the tulpa remained outside the area enclosed by the pillars for another 40 minutes and then re-entered this area, the tulpa could leave at any time and still have 20 minutes of existence left.",
       "This item also contains one other property that has caused it to be coveted by many mages who are not experts in Mind and Prime magics. Anyone who meditates within the space enclosed by these pillars can use the spell “Create Tulpa” to create any being he wishes. However, beings created (rather than simple preserved by) this Artifact vanish forever if they ever leave this space or if the pillars are ever moved too far apart. Before this item came into the hands of the Mysterium, it was the cause of several murders, as desperate tulpas wished to obtain it in order to survive, and lonely and inexperienced mages attempted to gain control of it in order to recreate the semblance of a lost loved one."
     ],
-    "Book": "Mysterium 207"
+    "Book": "Myst 207"
   },
   ,
   {
@@ -1395,7 +1395,7 @@ export const artifactData = [
       "Variants include versions of the common three that can grant their powers to multiple Seers at a time, ones granted by the Psychopomp that can control Ghosts or the Nemesis to control Spirits (each plus one dot) and the Shrouds of Observation used by the Panoptic Ministry to create Grigori (discussed in Chapter Four, page 215).",
       "The Vestments are named “Profane” as they deal with the control of the Fallen world’s inhabitants. Seer legend holds that the Exarchs themselves wear similar robes, referred to as the Sacred Vestments, which allow the puppeteering of the Awakened (see Reign of the Exarchs for an example of such an Artifact) and that the Profane Vestments are mortal reflections of these. Other Seers note that the Gate could create Vestment Artifacts just as well as his fellows, and wonder what powers such a thing would have."
     ],
-    "Book": "Seers of the Throne 197"
+    "Book": "SotT 197"
   },
   {
     'Nome': "The Rabbi's Cane",
@@ -1411,7 +1411,7 @@ export const artifactData = [
       "According to legend, the Maharal of Prague, the legendary Rabbi Judah Loew, possessed a marvelous walking stick which he could use to summon the shades of the dead. These restless ghosts would often testify at criminal proceedings, providing evidence to exonerate persecuted Jews. Some say the story is a myth, others say that the cane was an artifact or the Rabbi's personal dedicated tool. In either form, the cane is a simple walking stick of black-lacquered wood, with an unadorned handgrip well-worn from use. When the light catches the lacquer just right, the observant eye can make out Atlantean runes carved into the wood below.",
       "The artifact form of the Rabbi's cane came into Loew's possession from a mysterious source during his stay in Moravia. The cane has the power to invoke the Death 5 “Summon the Dead” spell, drawing the shades of the dead up from the Underworld. It further incorporates the Death 3 “Control Ghost” spell so that the owner can compel summoned ghosts to speak truly. Both effects last for one scene."
     ],
-    "Book": "Magical Traditions 44"
+    "Book": "MT 44"
   },
   {
     'Nome': 'Shadow and Silence',
@@ -1428,7 +1428,7 @@ export const artifactData = [
       "The ring traded hands (via Duels Arcane, mostly) for years, until the cabal finally broke up and its members scattered to different Consilii. Still, challenges would occasionally be made from distant shores and accepted, and the ring would pass from one Ladder mage to another, a feud handed down to most of the apprentices of the original discoverers of Shadow and Silence. The “tradition” likely continues to this day, making the ring’s whereabouts a matter of anyone’s guess.",
       "Shadow and Silence’s wielder may, at will, gesture with the hand upon which the Artifact is worn to use the Death 5 spell “Quell the Spark” as a contingent effect (either for an individual or an area), with a Fate 2 target exemption, if so desired."
     ],
-    "Book": "Silver Ladder 204"
+    "Book": "SL 204"
   },
   {
     'Nome': 'Soulgate Tome',
@@ -1446,7 +1446,7 @@ export const artifactData = [
       "The artifact also provides readers with instant transport within the Shadow Realm per the Space 4 “Teleportation” spell (see Mage: The Awakening, p. 241), the Mana for which is paid by the book itself. Readers trigger a jump by writing a narrative description of the intended destination on any surface (or even tracing the words in the ephemeral air with a fingertip, where they linger as luminous calligraphy until the mage finishes and the magic resolves). As Artifacts, Soulgate Tomes are unique and wondrous, with each focused on a particular location within the Shadow Realm. Readers always arrive at that emphasized destination.",
       "It is said that a more sinister variation of this Artifact exists that does not take the reader until the Shadow Realm, but instead conveys his mind into the nightmarish darkness of the Abyss. There, the new arrival draws the attention of the acamoth, who swarm like locusts to tempt and corrupt him with the offer of investments, likely severing his silver cord to force him into negotiation. For obvious reasons, the mages of the Mysterium do their best to keep these cursed texts out of circulation, but the books have a tendency to appear in the strangest of places, using their embedded Space magic to self-teleport to random libraries. Among the most notorious of these tomes are the Manual of the Empty Page and the Tautological Codex of Thule."
     ],
-    "Book": "Mysterium 208"
+    "Book": "Myst 208"
   },
   {
     'Nome': 'Altar of Hallows',
@@ -1465,7 +1465,7 @@ export const artifactData = [
       "Moreover, the Altar may be used to tap the Hallow upon which the Altar sits, in an effect similar to the Prime 3 “Channel Mana” spell. All such Mana harvested is not gained by the mage, however — it likewise is stored within the Altar. To use the stored Mana, one must fill the bowl with pure water, then dip out the water and pour it over a person’s head. This acts similar to the Prime 3 “Imbue Mana” spell, save that the Mana comes from the Altar’s store instead of the mage who performs the baptismal rite. Each baptism from the Altar of Hallows transfers one point of Mana.",
       "The Altar of Hallows incidentally disguises the Hallow on which the Altar sits, as the Prime 3 “Disguise Resonance” spell. The disguise has a Potency of 5."
     ],
-    "Book": "Secrets of the Ruined Temple 104"
+    "Book": "SotRT 104"
   },
   {
     'Nome': 'Clockwork Heart',
@@ -1483,7 +1483,7 @@ export const artifactData = [
       "So long as the Heart remains installed in its host, he cannot truly age or die, due to supplementary Master-level Death Arcanum magics: the body can “perish,” only to get back up again when the ongoing process of regeneration first restores a single box of Health.",
       "Two downsides, one obvious and one less so, accompany the Heart. The first, and more apparent of the two, is that the recipient of the Heart cannot die while it remains within him. No matter what kind of suffering he might endure, he will “die,” only to get back up — quite possibly in time for further torment, unless someone thinks to (or wishes to) remove the Artifact from his body. Secondly, the great heroes that the Adamantine Arrow has saved from death with this Artifact tend to fall into ignominy and even disgrace after receiving this new lease on life. Fate Arcanum perceptions reveal no particular “curse” on the Artifact, but the fact remains that records are sparse regarding any Arrows who go on to do anything worthwhile after being restored to life by this strange device, and presumably, these diminished paragons find a way to end their meandering existences, or else have them ended by circumstance. Presently, the location of the Clockwork Heart is unknown, though it was last believed to be in France during the Second World War."
     ],
-    "Book": "Adamantine Arrow 193"
+    "Book": "AA 193"
   },
   ,
   {
@@ -1504,7 +1504,7 @@ export const artifactData = [
       "Despite the occupants’ non-physical state in Astral Space, Twilight and the Shadow Realm, the saucer allows the owner to physically travel anywhere in the Fallen World, by flying through Twilight and then briefly appearing in the Fallen World. However, one of the problems with this vessel is keeping it, since it cannot be stored in the mortal world, and if left unguarded in the Astral or Shadow Realms, the saucer is likely to be stolen by a mage, spirit or some other being. To prevent this, mages usually either pay or command a spirit or astral denizen to guard the saucer, or protect it with spells such as the Space 4 spell “Pocket Realm,” the Space 5 spell “Hide Space” or the Spirit 5 spell “Spirit Manse.” As a result, only the most powerful mages are likely to be able to retain possession of one of these exotic wonders.",
       "durability 10, size 20, structure 25, occupants 1+6"
     ],
-    "Book": "Astral Realms 121"
+    "Book": "AR 121"
   },
   {
     'Nome': 'Opener of Ways',
@@ -1520,7 +1520,7 @@ export const artifactData = [
       "This wondrous and terrifying Artifact has been utilized only sparingly by the Silver Ladder for centuries, as its incautious use easily leads mages astray from the path of Wisdom. Once a generation, it is moved between Consilii under heavy guard — by way of mundane transportation and utterly without fanfare (often in the hands of a cabal whose members have no idea what it is, exactly, they’re carrying) — and entrusted to one or more local théarchs with the resources necessary to keep it safe against the order’s enemies. Interestingly, the Opener of Ways isn’t much to look at: a rod of what appears to be rough and rusted iron (but of a substance that, when held, is clearly of an unnatural hardness and density), hexagonal and approximately 30 inches in length, flaring out very slightly at one end, and blossoming out and opening up at the other end into what appears to be something like a small razorwire cage.",
       "When a Mastigos soul stone is placed within the “cage” at the end of the Opener of Ways (which constricts to hold the stone fast and relaxes to release it), its powers become active. The Artifact may be used to teleport anywhere the mage wishes as a contingent effect — even into (or from) Twilight or Shadow — without Paradox. The soul stone fitted into the Opener of Ways acts something like a Demesne, protecting its wielder from the ravages of any Paradox that would normally result from the Artifact’s powers. If the soul stone is removed, the Opener of Ways again becomes inert. It may also be used to teleport others, with or without their consent, to anywhere in the material world, Twilight or Shadow. If wielded as a weapon (with or without soul stone), the Artifact has a damage rating of 3L. Needless to say, the careless use of this item may easily lead to hubris and degeneration under the best of circumstances."
     ],
-    "Book": "Silver Ladder 203"
+    "Book": "SL 203"
   },
   {
     'Nome': 'Shadow and Light',
@@ -1537,7 +1537,7 @@ export const artifactData = [
       "In appearance, Shadow and Light is a long, slender-bladed sword of an unknown whitish-gold metal. It reflects everything with a perfect metallic sheen, though those who look deeply into their reflections note that the eyes of the mirrored images appear dead and soulless. Shadow and Light’s blade curves lightly, to a delicate point, and its hilt is wrapped in matte black wire, while the pommel is small and spherical and of the same substance as the blade. There is no guard.",
       "Upon successfully striking a subject, Shadow and Light automatically activates a contingent effect similar to Devouring the Living, though it works on spirits and ghosts, as well as living things. In the case of ephemeral beings, each level of damage inflicted by the Artifact’s effect destroys a point of the entity’s Essence in addition to inflicting further damage to its Corpus. Shadow and Light inflicts aggravated damage and conveys an equipment bonus of +5. The wielder of the weapon decides whether to draw Willpower or Mana with each strike. Note that the use of Shadow and Light can easily constitute a sin against the tenets of Wisdom. When the weapon’s powers are successfully used, a cacophony of unearthly screams emanates from the Artifact."
     ],
-    "Book": "Adamantine Arrow 196"
+    "Book": "AA 196"
   },
   {
     'Nome': 'The Unmaker',
@@ -1554,7 +1554,7 @@ export const artifactData = [
       "This Artifact has passed from Guardian to Guardian from time immemorial, wielded by mages with the Destiny Merit. Those who are chosen to wield it are highly favored, not just among the Guardians, but in the entire willworking society. Of course, those who bear the Unmaker do not live long lives. The sword was made to hunt down the foulest mages, and Guardians frown on its use for any other purpose.",
       "The sword possesses the following contingent powers, activated by specific movements of the blade whenever it is held by someone with the Destiny Merit (those without the Merit cannot activate its powers): Prime 2 “Counterspell Prime” and “Magic Shield,” Prime 3 “Channel Mana” and Prime 4 “Supernal Dispellation.”"
     ],
-    "Book": "Guardians of the Veil 203"
+    "Book": "GotV 203"
   },
   {
     'Nome': 'Vimana Engine',
@@ -1578,7 +1578,7 @@ export const artifactData = [
       "Other people near the pilot can see his skin blackening and shriveling, and can try to tell the pilot what’s going on; the pilot still has to roll Wits + Stamina to disengage. It takes two turns to bring a fast-moving Vimana to a safe, slow landing. It might take more if the Vimana flies above terrain where it’s unwise to land (for example, a glowing 1968 Chevy Malibu flying above open sea is going to sink if the pilot turns off the mystical engine). A Vimana with a dead, unconscious or disengaged pilot simply drops out of the sky. If there’s another mage in the machine, though, she can try to reactivate the Engine and bring the machine down.",
       "Disbelief can unravel the magic of a Vimana. A Sleeper who sees the glowing, flying Vimana in action rolls Resolve + Composure (see Mage: The Awakening, p. 274). If the cumulative successes from the Sleeper’s rolls exceeds nine (using the Artifact’s dot rating as the Potency of its magic), the Vimana stops working. Even before then, however, the Vimana has to spend an extra Mana each round after a Sleeper rolled successes, on top of the Mana already spent to operate the device, to counteract the effect of Disbelief and keep flying. A mage can probably flee a single Sleeper witness; a crowd will deactivate the magical vehicle in short order. For what it’s worth, UFO enthusiasts may count as Sleepwalkers in this case, at the Storyteller’s option."
     ],
-    "Book": "Secrets of the Ruined Temple 106"
+    "Book": "SotRT 106"
   },
   {
     'Nome': 'Grimoire of the Exarchs',
@@ -1597,7 +1597,7 @@ export const artifactData = [
       "Exactly what the Grimoire of the Exarchs knows, or wants to know, is left for the Storyteller to decide. The Artifact is likely to know all the spells presented in Mage: The Awakening as well as most of the spells found in other Mage sourcebooks. This item is intended to be a Storytelling device, so feel free to broaden or limit the knowledge of the Grimoire as you see fit. There is no reason the Artifact can’t ask for favors beyond those of pure knowledge, either. Perhaps the Grimoire wishes to recover the long-buried remains of its body, or maybe the Grimoire would like to be put to rest. This item provides a source of multiple story hooks and ideas.",
       "Why a Banisher would own, or seek, the Grimoire varies in accordance with how that particular Banisher operates. Many Banishers would no doubt destroy the Artifact without a second thought. However, there are Banishers who would keep the Grimoire to provide them with insight to Atlantean times with an eye toward learning the secrets of the Timori."
     ],
-    "Book": "Banishers 70"
+    "Book": "Ban 70"
   },
   ,
   {
@@ -1617,7 +1617,7 @@ export const artifactData = [
       "Rather than just being an Imbued Item of “Scrying,” the Mask seems to arrive by its powers through a more complex route that does not obey the known laws of sympathy. The Mask counts as having a “known” sympathetic connection to any image of the human eye, anywhere in the material world, Shadow Realm or Astral Realms; this is the level of sympathy used in its activation roll. Furthermore, it cannot be blocked by spatial wards with a Potency less than 8, “Quell the Spark” or “Dead Zone”. If it creates a Scrying window, it has not been successfully detected — assume that attempts to see the window using “Spatial Awareness” fail. It does trigger the Unseen Senses of anyone in the vicinity of the image being seen out of, and under Mage Sight (4 successes needed on the Intelligence + Occult roll) the eye being watched out of changes and appears to be the eye of the Seer using the Mask.",
       "The Seers that have studied the Mask believe it to have been somehow tied into the symbolic language of the Fallen World in lieu of a normal sympathetic web — clearly the product of archmastery or Supernal construction. That it allows the tetrarch that possesses it to handily spy on any Sanctum of Panopticon, thanks to the prevalence of images of the Fourfold Watcher found in such places, is a large part of that Seers’ personal power. The Mask is loved and feared in equal measure. It could make (and has) a Seer of Panopticon a great leader, but if it were to fall into the hands of their enemies it would be a disaster."
     ],
-    "Book": "Seers of the Throne 198"
+    "Book": "SotT 198"
   },
   {
     'Nome': 'Ring of the Unvoiced Herald',
@@ -1633,7 +1633,7 @@ export const artifactData = [
       "The origin of this Artifact is unknown. It was found nearly a century ago in the ruins of an ancient mountain temple first mentioned in a passage in the mysterious Book of Transformation (detailed in Grimoire of Grimoires). The Artifact is a ring made of a silvery green metal large and carved with images of unknown plants and animals. The metal is an alloy of titanium and some exotic green element. In the ring is set a faintly glowing greenish golden sphere the size of a child’s marble. This stone glows with light sufficient for the wearer to see to a range of 5 meters even in complete darkness. In addition, almost no one can attack the wearer. The ring provides the wearer a persistent and improved version of the “Diplomat’s Protection” spell (p. 200).",
       "There are only two ways someone can attack the wearer. If the attacker has a higher Gnosis or other similarly functioning Trait (such as Blood Potency or Primal Urge) than that of the ring’s wearer, she can attack the wearer. In addition, if the wearer attacks someone (either physically or magically), the victim of the attack can attack the wearer. However, the victim’s friends and allies cannot attack the wearer unless they are also attacked by the wearer. In addition, the stone makes all attacks on the wearer more difficult than usual, as attackers must struggle to overcome their awe and reluctance to attack. The wearer gains the benefit of 3 points of Armor against all attacks by beings that are not wholly mindless. However, attacks by ordinary automatic machines and mindless creatures are unaffected by this Artifact."
     ],
-    "Book": "Silver Ladder 204"
+    "Book": "SL 204"
   },
   {
     'Nome': 'St. Peter’s Key',
@@ -1652,7 +1652,7 @@ export const artifactData = [
       "In addition to the above uses, Obrimos mages may dedicate the Key to use as a magical tool.",
       "St. Peter’s Key was last seen in the possession of the Banisher known as Simple Simon. Simon believed the Key was a gift from God, and when he spoke High Speech to activate the Artifact’s powers, he perceived himself to be speaking in tongues. After Simon was killed by Sleeper police, his body vanished from the morgue. It is assumed that whoever has his body also has St. Peter’s Key."
     ],
-    "Book": "Banishers 71"
+    "Book": "Ban 71"
   },
   {
     'Nome': 'The Teraphim',
@@ -1670,7 +1670,7 @@ export const artifactData = [
       "When certain that the Father’s names are spoken, the Teraphim casts “Create Hallow” on its present location, Mana rushing into the Fallen World from the Father’s palace in Supernal Aether as the connection opens. The Teraphim begins to whisper in sibilant sounds that are perceptible as the native language of any persons listening. While the temporary Hallow lasts, anyone present gains the effects of “Prophecy” with five follow-on questions as the Exarch whispers his plans for the world. This is not without cost, however; all present react bodily as though in an ochema’s presence, and the Father’s plans are not requests — anyone using the Teraphim ends the encounter under the effect of a “Swearing an Oath” spell cast with a potency of 10 forcing them to perform the actions outlined in the “Prophecy” spell.",
       "The Teraphim can also be used as the centerpiece of a ritual to summon an ochema of the Father (Rank 5), which takes 15 successes on an extended Intelligence + Occult action. The ritual is not magical, being the means by which this contingent effect of the Teraphim is activated, so it could theoretically be bypassed using “Activate Enchanted Item” but the likely reaction from the ochema summoned means that to date no one has dared. The ochema first delivers direct messages from the Exarch in the form of overwhelming phantasmal visions of Aether filled with religious imagery and is then empowered to answer appropriately servile questions. At all times, it demands the utmost respect from those present. Its patience for beings of the Fallen World — including willworkers — is short."
     ],
-    "Book": "Seers of the Throne 198"
+    "Book": "SotT 198"
   },
   {
     'Nome': 'Eye of Ahriman',
@@ -1692,7 +1692,7 @@ export const artifactData = [
       "The Mysterium discovered the Eye of Ahriman long before figuring out how to use it. The item remained forgotten in storage until a Scelestus wielding a sister Artifact attempted to steal the Eye and inadvertently tipped off its keepers to the means of activating its power. Ever since, it has served as one of the most powerful weapons in the order’s arsenal, bestowed on a suitably auspicious willworker after each bearer dies in the line of duty.",
       "Storytellers who wish to allow a new character to begin play as the Eye’s wielder may lower the Artifact’s rating by removing access to powers and recalculating the item’s cost. Characters may then spend arcane or normal experience points to “raise” the merit’s rating and thereby access new powers until the character unlocks everything it can do. For a more vicious twist, the Storyteller may also allow players to cannibalize dots from approved traits to apply the experience required to purchase the forfeited dots toward mastering the Eye. Any checks to avoid derangements following voluntary loss of Wisdom automatically fail."
     ],
-    "Book": "Mysterium 208"
+    "Book": "Myst 208"
   },
   {
     'Nome': 'Metachronal Clock',
@@ -1711,7 +1711,7 @@ export const artifactData = [
       "The dots assigned to the Metachronal Clock’s rating assume the machine “only” provides its library, a virtually impregnable sanctum and an extremely powerful teleportation effect. However, the structure’s interior contains many other wondrous enchantments and subartifacts that modern mages barely understand enough to guess their function, let alone operate (such as the fact that the entire structure seems to be alive according to “Life Sense” spells). The clock’s rating should be considerably higher if a Storyteller makes any of these deliberately unspecified functions available as anything more reliable than a plot device.",
       "Within the Mysterium, the Metachronal Clock is viewed with reverence and awe befitting the Artifact’s power and significance as a functional vestige of Atlantis. Only the most high-ranking and trusted members of the order ever get to see the clock, let alone enter it. However, despite its obvious (and not so obvious) dangers, its keepers dare not leave it alone, since every time anyone has attempted to hide it away without exploring it, the clock subsequently translocated itself where a sufficiently curious mage could find it. Whether this behavior is a programmed feature or a sign that the structure has some sense of self-awareness remains undetermined, just as so much else about the machine. Storytellers should certainly feel free to assign whatever motives to the clock serve the story, since the Artifact’s primary purpose within the setting is to facilitate stories about exploring the infinite mysteries of the cosmos. The machine is a game-defining plot point and does not pretend to be anything less, unless of course that’s exactly what it’s doing."
     ],
-    "Book": "Mysterium 209"
+    "Book": "Myst 209"
   },
   {
     'Nome': 'The Star of Athichi',
@@ -1737,6 +1737,6 @@ export const artifactData = [
       "Once a soul has been stored in the Star, the Artifact may consume that soul to provide necromantic energy for a variety of effects. Each time the Star eats a soul, it shines with a sickly black light and radiates a feeling of indescribable loss. Consuming a soul is considered an instant action for the Star (not the owner), and the Star retains energy generated from devoured souls for a scene. The knowledge of most of the uses for energy generated by consumed souls has been lost, but the known uses are as follows. The Star may use the energy of a devoured soul to replenish five Mana to either its owner or to itself, heal its owner of five points of bashing damage, three points of lethal damage or one point of aggravated Health damage or add +3 dice bonus to any Death rote cast by its owner. Any of the above effects may be performed as a reflexive action, and effects are allowed to stack (a mage with, say, the energy from four souls in the Star could heal three aggravated wounds and restore five Mana to his pool).",
       "Study of the Star may lead to discovery of additional abilities, but there is a price to be paid for such knowledge. The Artifact, though powerful, is an inanimate thing that never devours a soul unless instructed to. Souls stored in the Star may, in fact, be released to return to their bodies. Instructing the Artifact to consume a soul is an act of hubris that requires a degeneration roll. Such callous use of a human soul will eventually drive all but the most evil individuals insane."
     ],
-    "Book": "Adamantine Arrow 197"
+    "Book": "AA 197"
   } 
 ]

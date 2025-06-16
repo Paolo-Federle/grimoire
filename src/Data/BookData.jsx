@@ -465,7 +465,7 @@ const VampireBookData = [
     },
 
     {
-        'Code Name': 'Lancea',
+        'Code Name': 'LS',
         'Type': 'Covenant',
         'Title': 'Lancea Sanctum',
         "Description": "It uncovers much of the mystery surrounding the Lancea Sanctum and the pious Kindred that populate the covenant.",
@@ -584,7 +584,7 @@ const VampireBookData = [
     },
 
     {
-        'Code Name': 'VTR',
+        'Code Name': 'VtR',
         'Type': 'Core',
         'Title': 'Vampire: The Requiem',
         "Description": "The core rulebook for the Vampire: The Requiem game line.",

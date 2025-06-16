@@ -68,7 +68,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Hoarding spirits",
         "Description": "May spend essence into the cup, and draw it later as if at a Locus.",
-        "Book": "Book of Spirits 120",
+        "Book": "BoS 120",
         "Tribe/Auspice": ""
     },
     {
@@ -113,7 +113,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Gluttony or Necessity",
         "Description": "Fills with bland and lukewarm porridge.",
-        "Book": "Shadows of the UK 96",
+        "Book": "SotUK 96",
         "Tribe/Auspice": ""
     },
     {
@@ -167,7 +167,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Deception or Lies",
         "Description": "Convinces all mortal onlookers that the wolf they see is actually a domestic dog.",
-        "Book": "Shadows of the UK 96",
+        "Book": "SotUK 96",
         "Tribe/Auspice": ""
     },
     {
@@ -176,7 +176,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Lune",
         "Description": "If sleeps with it under their pillow 4 nights a week, and gives back to werewolf during the day, that werewolf can track the target at +3",
-        "Book": "Shadows of the UK 96",
+        "Book": "SotUK 96",
         "Tribe/Auspice": ""
     },
     {
@@ -194,7 +194,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Hope or Joy",
         "Description": "Guarantees conception between two partners capable of having children",
-        "Book": "Shadows of the UK 96",
+        "Book": "SotUK 96",
         "Tribe/Auspice": ""
     },
     {
@@ -239,7 +239,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Night, Shadow, Darkness",
         "Description": "+1 to all rolls involving stealth. Cannot be used during the day.",
-        "Book": "Shadows of the UK 97",
+        "Book": "SotUK 97",
         "Tribe/Auspice": ""
     },
     {
@@ -383,7 +383,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "5 Charms, uses one up each time activated. +1 luck bonus to all rolls in a scene",
-        "Book": "Shadows of the UK 97",
+        "Book": "SotUK 97",
         "Tribe/Auspice": ""
     },
     {
@@ -446,7 +446,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Badger",
         "Description": "Ordinary human approaching with ill intent toward those named on the fetish must pass a Resolve+Composure or flee. Anything short of Exceptional Success gives a -2 penalty to all rolls while within sight of the building the fetish guards.",
-        "Book": "Shadows of the UK 97",
+        "Book": "SotUK 97",
         "Tribe/Auspice": ""
     },
     {
@@ -563,7 +563,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Neglect or Security",
         "Description": "Make an offering toward a target. Spirits unconciously avoid that target, must make a successful Finesse roll to interact with target",
-        "Book": "Book of Spirits 120",
+        "Book": "BoS 120",
         "Tribe/Auspice": ""
     },
     {
@@ -671,7 +671,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Cat",
         "Description": "+2 Speed, +2 to Jumping, for 3 turns per Primal Urge. Activated Once per Scene.",
-        "Book": "Shadows of the UK 97",
+        "Book": "SotUK 97",
         "Tribe/Auspice": ""
     },
     {
@@ -743,7 +743,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Fear",
         "Description": "6 hour burning candle, can be remade. All spirits within 25 feet suffer -2 on all Influences and Numina use.",
-        "Book": "Shadows of the UK 97",
+        "Book": "SotUK 97",
         "Tribe/Auspice": ""
     },
     {
@@ -761,7 +761,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Lies, Deception, or Trickery",
         "Description": "Able to detect whenever a spirit is lying to the wearer.",
-        "Book": "Shadows of the UK 98",
+        "Book": "SotUK 98",
         "Tribe/Auspice": ""
     },
     {
@@ -806,7 +806,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Raven",
         "Description": "-1 to all mental and social rolls for the rest of the scene to the user's enemies",
-        "Book": "Shadows of the UK 98",
+        "Book": "SotUK 98",
         "Tribe/Auspice": ""
     },
     {
@@ -896,7 +896,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+3 to all melee rolls",
-        "Book": "Shadows of the UK 98",
+        "Book": "SotUK 98",
         "Tribe/Auspice": ""
     },
     {
@@ -977,7 +977,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "When activated, person carrying is more attractive to spirits. Remains functioning for a week.",
-        "Book": "Book of Spirits 121",
+        "Book": "BoS 121",
         "Tribe/Auspice": ""
     },
     {
@@ -1022,7 +1022,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Storm or Thunder",
         "Description": "Any attacking enemies suffer -2 to Initiative and all pools involving Dex or Wits for 6 turns. Once per Scene",
-        "Book": "Shadows of the UK 98",
+        "Book": "SotUK 98",
         "Tribe/Auspice": ""
     },
     {
@@ -1058,7 +1058,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Stag",
         "Description": "+2 to Strength rolls, causing one lethal damage",
-        "Book": "Shadows of the UK 98",
+        "Book": "SotUK 98",
         "Tribe/Auspice": ""
     },
     {
@@ -1148,7 +1148,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Pack animal",
         "Description": "Call 5 wolf like war spirits to their aid, with Power, Finesse, Resistance of 3. Once per Moon Phase.",
-        "Book": "Shadows of the Uk 99",
+        "Book": "SotUK 99",
         "Tribe/Auspice": ""
     },
     {
@@ -1211,7 +1211,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Bull",
         "Description": "Attack as normal, with a +4 bonus if used as a tool. Ignores durability. Used against living creatures does normal damage + 5 feet per damage dealt",
-        "Book": "Shadows of the UK 99",
+        "Book": "SotUK 99",
         "Tribe/Auspice": ""
     },
     {
@@ -1274,7 +1274,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Salmon",
         "Description": "Increase wits by 2, and allows users to use Strength 2 - Might Bound.",
-        "Book": "Shadows of the UK 99",
+        "Book": "SotUK 99",
         "Tribe/Auspice": ""
     },
     {

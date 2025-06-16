@@ -93,3 +93,7 @@ export function getFlipHtmlPageUrlsFromSource(source, allBooks) {
     });
   }
   
+
+// search and substitute to delete "p" in book valor
+// search: ("Book": "[^"]*?)\sp(?=\d+)
+// substitute $1 

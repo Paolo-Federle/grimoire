@@ -81,7 +81,7 @@ export const vampireMeritsData = [
         "Name": "Inhuman Resistance",
         "Cost": "(•••)",
         "Description": "Gains a bonus to resist Dominate and Majesty, but a weakness to powers from the Animalism Discipline.",
-        "Book": "Gang 113"
+        "Book": "Gan 113"
     },
     {
         "Name": "Kindred Medium",
@@ -111,7 +111,7 @@ export const vampireMeritsData = [
         "Name": "Of Rose and Thorn",
         "Cost": "(••••) *pre: Blood Potency ••, Animalism ••",
         "Description": "Gain the ability to use Animalism powers on plants",
-        "Book": "Gang 113"
+        "Book": "Gan 113"
     },
     {
         "Name": "Regnant",
@@ -129,7 +129,7 @@ export const vampireMeritsData = [
         "Name": "Pack Blooded",
         "Cost": "(••)",
         "Description": "Gain significant combat bonuses when nearby other coterie mates who share this merit, but experience a penalty to degeneration in their presence as well.",
-        "Book": "Gang 114"
+        "Book": "Gan 114"
     },
     {
         "Name": "Requiem Diary",
@@ -147,7 +147,7 @@ export const vampireMeritsData = [
         "Name": "Savage Kenning",
         "Cost": "(•••) *pre: Gangrel, Animalism • or Animal Ken • (CO only)",
         "Description": "Gain a bonus to interactions with a specific type of animals.",
-        "Book": "Gang 114"
+        "Book": "Gan 114"
     },
     {
         "Name": "Social Chameleon",
@@ -159,7 +159,7 @@ export const vampireMeritsData = [
         "Name": "Swarm Mind",
         "Cost": "(••) *pre: Protean ••••",
         "Description": "Transform into a swarm of small animals, but suffer mental derangement for a time after reforming.",
-        "Book": "Gang 114"
+        "Book": "Gan 114"
     },
     {
         "Name": "Taste of the Strange",
@@ -189,7 +189,7 @@ export const vampireMeritsData = [
         "Name": "Undead Menses",
         "Cost": "(•••) *pre: Female",
         "Description": "Experience menstruation, which grants a variety of special powers.",
-        "Book": "Gang 115"
+        "Book": "Gan 115"
     },
     {
         "Name": "Unliving Anchor",
@@ -351,36 +351,36 @@ export const vampireMeritsData = [
         "Name": "Crucible Ritual",
         "Cost": "(•••) *pre: Resolve •• and Coils •",
         "Description": "Can make use of a 'crucible', a beneficial type of Wyrm's Nest. Can gain a discount to learn a coil or other benefits.",
-        "Book": "Ordo 202"
+        "Book": "OD 202"
     },
     {
         "Name": "Fontal Ritual",
         "Cost": "(••) *pre: Academics • and Occult ••",
         "Description": "Can make use of Wyrm's Nests known as \"wellheads\" or \"fontal nests\"; can learn fontal rituals and gains bonuses to find fontal nests.",
-        "Book": "Ordo 202"
+        "Book": "OD 202"
     },
     {
         "Name": "Geomantic Nexus",
         "Cost": "(• to ••••• and • to •••; special) *pre: Occult ••• and Wits ••",
         "Description": "Has a specially prepared area which provides bonuses to specific actions within; similar to and can overlap with the Haven merit.",
-        "Book": "Ordo 202"
+        "Book": "OD 202"
     },
     {
         "Name": "Mind of the Devouring Worm",
         "Cost": "(•••) *pre: Intelligence •••, Kindred Only",
         "Description": "As Eidetic Memory, but can be purchased after character creation.",
-        "Book": "Ordo 203"
+        "Book": "OD 203"
     },
     {
         "Name": "Mind of the Unblinking Serpent",
         "Cost": "(••) *pre: Mind of the Devouring Worm",
         "Description": "Can determine when Obsfucate or Dominate have been used on the character.",
-        "Book": "Ordo 203"
+        "Book": "OD 203"
     },
     {
         "Name": "Mind of the Inscrutable Hydra",
         "Cost": "(••) *pre: Mind of the Unblinking Serpent",
         "Description": "Character can switch their mind to a state that grants a penalty to Intelligence tests, but all effects that attempt to read their mind are resisted or contested as if a Willpower point had been spent.",
-        "Book": "Ordo 203"
+        "Book": "OD 203"
     }
 ]

@@ -3,31 +3,31 @@ const covenantData = [
         "Name": "Carthian Movement",
         "Description": "The Carthian Movement applies mortal solutions to immortal problems with modern and experimental government.",
         "Advantage": "Merit discount",
-        "Book": "VTR 46-48"
+        "Book": "VtR 46-48"
     },
     {
         "Name": "Circle of the Crone",
         "Description": "The Circle of the Crone venerates female divinity, painful change, and the old ways remixed for the modern world.",
         "Advantage": "Crúac",
-        "Book": "VTR 49-52"
+        "Book": "VtR 49-52"
     },
     {
         "Name": "Invictus",
         "Description": "The Invictus safeguards the Masquerade with hierarchy and tradition.",
         "Advantage": "Merit discount",
-        "Book": "VTR 53-56"
+        "Book": "VtR 53-56"
     },
     {
         "Name": "Lancea et Sanctum",
         "Description": "The Lancea et Sanctum preaches a dark faith as both wolves and shepherds.",
         "Advantage": "Theban Sorcery",
-        "Book": "VTR 57-61"
+        "Book": "VtR 57-61"
     },
     {
         "Name": "Ordo Dracul",
         "Description": "The Ordo Dracul struggles to transcend the Curse through eldritch alchemies and rites.",
         "Advantage": "Coils of the Dragon",
-        "Book": "VTR 62-66"
+        "Book": "VtR 62-66"
     },
     {
         "Name": "Antagonistic",
@@ -39,7 +39,7 @@ const covenantData = [
         "Name": "Belial's Brood",
         "Description": "Belial's Brood identify with the Beast and feed its will with bloody crimes.",
         "Advantage": "Investments",
-        "Book": "VTR 70, BB"
+        "Book": "VtR 70, BB"
     },
     {
         "Name": "VII, The Princes of the Fallen City",

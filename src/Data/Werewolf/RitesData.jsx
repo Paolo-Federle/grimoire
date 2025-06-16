@@ -18,7 +18,7 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "○●",
         "Description": "Creates ogham rune that warns (only) Uratha and wolf-bloods that territory is claimed.",
-        "Book": "Shadows of the UK 99"
+        "Book": "SotUK 99"
     },
     {
         "Name": "Blood’s Revelation, Rite of",
@@ -81,7 +81,7 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "●",
         "Description": "Ritualist howls and is able to transmit his location, a message and emotional undercurrent to all that hear. Used only in dire circumstances.",
-        "Book": "Shadows of the UK 99"
+        "Book": "SotUK 99"
     },
     {
         "Name": "First Blood, Rite of",
@@ -242,7 +242,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Cahalith ritemaster entreats Luna for prophetic dreams.",
-        "Book": "Shadows of the UK 100"
+        "Book": "SotUK 100"
     },
     {
         "Name": "Blademaster, Rite of the",
@@ -263,7 +263,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "●",
         "Description": "Beseeches a memory spirit to remember the deeds of the departed Uratha forever.",
-        "Book": "Shadows of the UK 100"
+        "Book": "SotUK 100"
     },
     {
         "Name": "Call Gaffling",
@@ -438,7 +438,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Creates short lived spirit to carry a message for up to 1 mile per success.",
-        "Book": "Shadows of the UK 101"
+        "Book": "SotUK 101"
     },
     {
         "Name": "Sekhmet’s Jar",
@@ -515,7 +515,7 @@ export const RitesData = [
         "Rank": "3",
         "Cost": "",
         "Description": "Cast upon a mortal, the target is ignored by spirits for one lunar month. High rank spirits get to roll to resist.",
-        "Book": "Book of Spirits 121"
+        "Book": "BoS 121"
     },
     {
         "Name": "Bind Human",
@@ -830,7 +830,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "●●",
         "Description": "Stains hands blood red to the wrist for one night but can be ended prematurely if the werewtdtdolf desires. All claw attacks inflict +1 aggravated damage.",
-        "Book": "Shadows of the UK 101"
+        "Book": "SotUK 101"
     },
     {
         "Name": "Bone-Fires of Summer",
@@ -893,7 +893,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "",
         "Description": "",
-        "Book": "Shadows of the UK 82"
+        "Book": "SotUK 82"
     },
     {
         "Name": "Fetish Rite",
@@ -1096,14 +1096,14 @@ export const RitesData = [
         "Rank": "5",
         "Cost": "●●●●● +1(A)",
         "Description": "Creates a temporary verge, although otherworldly forces or events may conspire to make the verge permanent.",
-        "Book": "Book of Spirits 122"
+        "Book": "BoS 122"
     },
     {
         "Name": "Risen the Wardens, Close the Gates",
         "Rank": "5",
         "Cost": "●+",
         "Description": "Spirits of Rank 5 or less may not leave the Hisil. The area affected is a 1 mile radius per Essence spent and lasts for one lunar month.",
-        "Book": "Book of Spirits 122"
+        "Book": "BoS 122"
     },
     {
         "Name": "Silver Scar, Rite of the",

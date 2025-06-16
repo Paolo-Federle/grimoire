@@ -116,7 +116,7 @@ export const PsychicMeritsData = [
     {
         "Name": "Gateseeker",
         "Cost": "(•••) *pre: Death Sight",
-        "Book": "Ebon Gate p5",
+        "Book": "Ebon Gate 5",
         "Description": "Dowsing for Avernian Gates"
     },
     {

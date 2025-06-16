@@ -157,7 +157,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Wits 2Stealth 1",
         "Dice Rolls": "Primary: Composure + Subterfuge.Secondary: Dexterity + Stealth.",
         "XP": "",
-        "Book": "T&N  p24"
+        "Book": "T&N  24"
     },
     {
         "Name": "Defile",
@@ -327,7 +327,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 3Empathy 1",
         "Dice Rolls": "Primary: Resolve + Composure.Secondary:Manipulation + Empathy.",
         "XP": "",
-        "Book": "T&N p23"
+        "Book": "T&N 23"
     },
     {
         "Name": "Grisly Scene",
@@ -407,7 +407,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Athletics 2",
         "Dice Rolls": "Primary: Presence + Persuasion.Secondary: Dexterity + Athletics.",
         "XP": "",
-        "Book": "T&N p24"
+        "Book": "T&N 24"
     },
     {
         "Name": "Interrogation",
@@ -667,7 +667,7 @@ export const TactictsData = [
         "Secondary Requires": "Crafts 1Intelligence 2Science 1Medicine 1",
         "Dice Rolls": "Primary: Wits + Composure .Secondary: Intelligence + Science.",
         "XP": "",
-        "Book": "T&N p24"
+        "Book": "T&N 24"
     },
     {
         "Name": "Thin the Herd",

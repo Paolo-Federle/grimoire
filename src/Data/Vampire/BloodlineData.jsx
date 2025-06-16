@@ -45,7 +45,7 @@ const bloodlineData = [
         "Description": "Drug addicts who view such substances as a path to spiritual awakening, who can experience them only through consuming the blood of high mortals.",
         "Disciplines": "Celerity, Majesty, Nepenthe, Vigor",
         "Additional Weakness": "Gains only half the Vitae when feeding from victims who are not currently intoxicated.",
-        "Book": "Hidden 20"
+        "Book": "BtH 20"
     },
     {
         "Name": "Asnâm, The",
@@ -61,7 +61,7 @@ const bloodlineData = [
         "Description": "The Xiao steal not only the blood but the emotions of their victims, desperately needing to feel again. The bulk of this bloodline are members of a cult in California, but a few rogues have gotten wise and fled.",
         "Disciplines": "Celerity, Kingjan, Majesty, Vigor",
         "Additional Weakness": "Sociopaths, they suffer a penalty to all Empathy, Expression, and Socialize checks. Being required to express compassion or remorse may trigger rage frenzy.",
-        "Book": "Chosen 85"
+        "Book": "BtC 85"
     },
     {
         "Name": "Carnival, The",
@@ -69,7 +69,7 @@ const bloodlineData = [
         "Description": "A band of twisted and mutated Kindred, they spurn life amongst their fellows, instead choosing to parade before and horrify the public with their shows.",
         "Disciplines": "Celerity, Majesty, The Show, Vigor",
         "Additional Weakness": "Gains a choice of either the Nosferatu clan weakness, or having Speed reduced to one quarter of its standard value.",
-        "Book": "Legendary 23"
+        "Book": "BtL 23"
     },
     {
         "Name": "Children of Judas",
@@ -77,7 +77,7 @@ const bloodlineData = [
         "Description": "A sinister clan which greatly enjoys encouraging despair, self-destruction and suicide in Kindred and mortals alike.",
         "Disciplines": "Auspex, Despond, Majesty, Resilience",
         "Additional Weakness": "Loses a willpower point if they fail to explore the emotional pain of another being, though gains a willpower point if they do so.",
-        "Book": "Legendary 38"
+        "Book": "BtL 38"
     },
     {
         "Name": "Duchagne",
@@ -85,7 +85,7 @@ const bloodlineData = [
         "Description": "Descendants of fickle and hedonistic nobility, who possess the ability to manipulate the emotions of others.",
         "Disciplines": "Celerity, Licencieux, Majesty, Vigor",
         "Additional Weakness": "Cannot engage in activities for extended periods of time without suffering penalties from disinterest.",
-        "Book": "Chosen 36"
+        "Book": "BtC 36"
     },
     {
         "Name": "En",
@@ -109,7 +109,7 @@ const bloodlineData = [
         "Description": "Professed leaders at the top of the Invictus, living easy lives while distracting others from the crimes of other elders.",
         "Disciplines": "Celerity, Dominate, Majesty, Nightmare",
         "Additional Weakness": "Cannot seal a wound with a lick; bears the permanent wound from their Embrace that their sire could not seal",
-        "Book": "Sinners 55"
+        "Book": "NH-IS 55"
     },
     {
         "Name": "Gulikan",
@@ -117,7 +117,7 @@ const bloodlineData = [
         "Description": "An odd bloodline which is obsessed with all things olfactory; their sense of smell is beyond compare, and they seek to indulge it all times.",
         "Disciplines": "Celerity, Majesty, Ortam, Vigor",
         "Additional Weakness": "Obsessed with the scent of one particular kind of mortal, once it is detected the Gulikan suffers a penalty to all rolls to do anything but consume it, and must spend willpower to eat anything else.",
-        "Book": "Legendary 64"
+        "Book": "BtL 64"
     },
     {
         "Name": "Kallisti",
@@ -125,7 +125,7 @@ const bloodlineData = [
         "Description": "Destroyers of friendships and delighters in the ending of alliances, this scorned bloodline has spite for all social constructs.",
         "Disciplines": "Celerity, Dominate, Majesty, Perfidy",
         "Additional Weakness": "Narcissism Derangement at Humanity 6+, which increases to Megalomania at Humanity 5-; their blood cannot form Vinculum.",
-        "Book": "Invictus 162"
+        "Book": "Inv 162"
     },
     {
         "Name": "Kinnaree",
@@ -181,7 +181,7 @@ const bloodlineData = [
         "Description": "Legendary for their heinous appetite, that is none the less equally renowned for their cautious and manipulative feeding methods.",
         "Disciplines": "Celerity, Majesty, Nightmare, Vigor",
         "Additional Weakness": "Require an amount of Vitae equal to BP to rise every night, rather than the standard one (this amount is staggered over time if they possess Blood Seeps Slowly). The bloodline is not tolerated in most domains.",
-        "Book": "Hidden 88"
+        "Book": "BtH 88"
     },
     {
         "Name": "Platina",
@@ -205,7 +205,7 @@ const bloodlineData = [
         "Description": "Sharing membership with a sacred order, this bloodline is famous for its courtesy, politeness, and courage. They frequently take part in inquisitions to destroy any who seriously harm their members.",
         "Disciplines": "Celerity, Courtoisie, Majesty, Vigor",
         "Additional Weakness": "Suffer a penalty to resist anger frenzy triggered by insulting or rude behavior; gain a permanent Obsession derangement, for proving that courtesy is the saving grace of the Damned; must spend a Willpower point to act discourteously in any manner.",
-        "Book": "Invictus 173"
+        "Book": "Inv 173"
     },
     {
         "Name": "Tianpàn Xiao",
@@ -213,7 +213,7 @@ const bloodlineData = [
         "Description": "Manipulators of emotions, this bloodline is wildly passionate, and seeks to use the passions of others against them.",
         "Disciplines": "Celerity, Majesty, Vigor, Xinyao",
         "Additional Weakness": "On reflexive composure resistance rolls, 10 again does not apply and 1s subtract successes. Particularly vulnerable to Manic Depression, Phobia, and Hysteria degeneration.",
-        "Book": "Chosen 95"
+        "Book": "BtC 95"
     },
     {
         "Name": "Toreador",
@@ -221,7 +221,7 @@ const bloodlineData = [
         "Description": "Lovers and creators of art, descended from a legendary and proud Spanish nobleman.",
         "Disciplines": "Celerity, Dominate, Majesty, Vigor",
         "Additional Weakness": "When exposed to a particular style of art they become enraptured, able to turn attention elsewhere only with a Resolve roll or the expenditure of Willpower.",
-        "Book": "VTR 246"
+        "Book": "VtR 246"
     },
     {
         "Name": "Zelani",
@@ -229,7 +229,7 @@ const bloodlineData = [
         "Description": "A bloodline that aspires to lead the Carthian movement, they have strange powers over fate and destiny.",
         "Disciplines": "Celerity, Majesty, Serendipity, Vigor",
         "Additional Weakness": "Cannot enter a dwelling uninvited without taking aggravated damage.",
-        "Book": "Carthians 166"
+        "Book": "Cart 166"
     },
     {
         "Name": "Gangrel",
@@ -261,7 +261,7 @@ const bloodlineData = [
         "Description": "Ritualists from India",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 107"
+        "Book": "VtR 107"
     },
     {
         "Name": "Annunaku",
@@ -269,7 +269,7 @@ const bloodlineData = [
         "Description": "This bloodline espouses supreme authority over their territory, often as benevolent dictators.",
         "Disciplines": "Animalism, Protean, Resilience, Tenure",
         "Additional Weakness": "Suffer penalties to all rolls whenever outside of their controlled dominion; these penalties can be partially alleviated by being in familiar places or with familiar people.",
-        "Book": "Invictus 159"
+        "Book": "Inv 159"
     },
     {
         "Name": "Anubi",
@@ -277,7 +277,7 @@ const bloodlineData = [
         "Description": "Egyptian cultists that maintain a dire feud with the Lancea Sanctum",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 107"
+        "Book": "VtR 107"
     },
     {
         "Name": "Barjot",
@@ -285,7 +285,7 @@ const bloodlineData = [
         "Description": "A band of wandering hippies, for all intents and purposes.",
         "Disciplines": "Animalism, Celerity, Protean, Resilience",
         "Additional Weakness": "Suffer penalties from being out of contact with \"family\", and obsessively seeks to return.",
-        "Book": "Carthians 156"
+        "Book": "Cart 156"
     },
     {
         "Name": "Bohagande",
@@ -293,7 +293,7 @@ const bloodlineData = [
         "Description": "Infamous harbingers of bad luck and misfortune, the Bohagande are unwelcome wherever they go.",
         "Disciplines": "Animalism, Protean, Resilience, Sunnikuse",
         "Additional Weakness": "Aura stained dark black, like that of a serial diablerist.",
-        "Book": "Hidden 38"
+        "Book": "BtH 38"
     },
     {
         "Name": "Bruja",
@@ -301,7 +301,7 @@ const bloodlineData = [
         "Description": "Bikers, gangers, and other thuggish and impulsive troublemakers",
         "Disciplines": "Animalism, Protean, Resilience, Vigor",
         "Additional Weakness": "Significant penalty to resist hunger frenzy",
-        "Book": "VTR 235"
+        "Book": "VtR 235"
     },
     {
         "Name": "Bucolicos, Los",
@@ -349,7 +349,7 @@ const bloodlineData = [
         "Description": "Daughters and zealots of an infamous and murderous sorceress of the Circle.",
         "Disciplines": "Auspex, Obfuscate, Protean, Resilience",
         "Additional Weakness": "Upon activating the bloodline, must exchange all dots in Animalism for Auspex; animals attempt to flee, or else fight the Daughter",
-        "Book": "Sinners 127"
+        "Book": "NH-IS 127"
     },
     {
         "Name": "Hounds of Actaeon, The",
@@ -357,7 +357,7 @@ const bloodlineData = [
         "Description": "A bloodline which ritually hunts human prey, using all the modern tools of the trade.",
         "Disciplines": "Animalism, Obfuscate, Protean, Resilience",
         "Additional Weakness": "Severe penalty to resist hunger frenzy.",
-        "Book": "Gangrel 111"
+        "Book": "Ganrel 111"
     },
     {
         "Name": "Larvae",
@@ -381,7 +381,7 @@ const bloodlineData = [
         "Description": "A bloodline which prefers its prey come to them, they are establishers of bars and inns in remote places, preying on travelers who happen in to the wrong place.",
         "Disciplines": "Animalism, Protean, Resilience, Vigor",
         "Additional Weakness": "When separated from others of the bloodline, suffers a penalty to all rolls, and a more severe one to Disciplines",
-        "Book": "Gangrel 110"
+        "Book": "Ganrel 110"
     },
     {
         "Name": "Mara, The",
@@ -397,7 +397,7 @@ const bloodlineData = [
         "Description": "Warriors descended from an ancient Hun warlord.",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 107"
+        "Book": "VtR 107"
     },
     {
         "Name": "Moroi*",
@@ -405,7 +405,7 @@ const bloodlineData = [
         "Description": "Legendary night stalkers and murderers that are fierce servants of the Ordo Dracul.",
         "Disciplines": "Animalism, Obfuscate, Resilience, Vigor",
         "Additional Weakness": "Gangrel and Nosferatu gain the weakness of the other clan",
-        "Book": "Ordo 159"
+        "Book": "OD 159"
     },
     {
         "Name": "Mystikoi",
@@ -429,7 +429,7 @@ const bloodlineData = [
         "Description": "Masters of rural areas, descendants of a mortal family cruelly embraced by a Gangrel long ago.",
         "Disciplines": "Animalism, Dominate, Protean, Resilience",
         "Additional Weakness": "Age normally, despite Embrace; take permanent penalties to Physical Attributes past a certain age.",
-        "Book": "Hidden 96"
+        "Book": "BtH 96"
     },
     {
         "Name": "Shepherds",
@@ -445,7 +445,7 @@ const bloodlineData = [
         "Description": "Refined and sophisticated Gangrel from Islamic North Africa, who prize art, scholarship, and culture.",
         "Disciplines": "Animalism, Majesty, Protean, Resilience",
         "Additional Weakness": "When not in the company of other vampires, suffer a penalty to all actions.",
-        "Book": "Chosen 75"
+        "Book": "BtC 75"
     },
     {
         "Name": "Tanner",
@@ -461,7 +461,7 @@ const bloodlineData = [
         "Description": "Sorcerous and reclusive witches whose lineage dates back beyond memory.",
         "Disciplines": "Animalism, Protean, Resilience, Zagovny",
         "Additional Weakness": "Social penalty for all who knew the vampire before joining the bloodline; can never have more than two dots in Status or Resources; must have recently consumed animal blood to use Zagovny discipline.",
-        "Book": "Ordo 169"
+        "Book": "OD 169"
     },
     {
         "Name": "Mekhet",
@@ -477,7 +477,7 @@ const bloodlineData = [
         "Description": "Scholars and historians, all experts on the lore of torpor and how to resist it's muddling of memory and dreams.",
         "Disciplines": "Auspex, Celerity, Dominate, Obfuscate",
         "Additional Weakness": "Humanity treated as one lower for determining torpor duration. After experiencing tragic or emotionally trying situations, must roll to resist compulsion to retreat to safety and enter torpor.",
-        "Book": "Chosen 16"
+        "Book": "BtC 16"
     },
     {
         "Name": "Alucinor",
@@ -485,7 +485,7 @@ const bloodlineData = [
         "Description": "A curious discipline which possesses the ability to dreamwalk, they are vulnerable to the twisted nightmares of other, but possess potentially prophetic wisdom.",
         "Disciplines": "Auspex, Celerity, Insomnium, Obfuscate",
         "Additional Weakness": "Does not regain willpower from rest; once per chapter, may experience a delusion that did not actually take place, which inflicts a penalty to all rolls for the rest of the scene. Occasionally also experiences bits of local dreams in waking life.",
-        "Book": "Hidden 12"
+        "Book": "BtH 12"
     },
     {
         "Name": "Ananta Naga",
@@ -525,7 +525,7 @@ const bloodlineData = [
         "Description": "A bloodline confined to a scant few members in Hungary, they possess magical control over their dominions.",
         "Disciplines": "Auspex, Celerity, Lithopedia, Obfuscate",
         "Additional Weakness": "If forced to rest outside their haven, they suffer penalties the following night as if they'd been roused during the day.",
-        "Book": "Sinners 118"
+        "Book": "NH-IS 118"
     },
     {
         "Name": "Cuiatl",
@@ -565,7 +565,7 @@ const bloodlineData = [
         "Description": "Originally skilled spies and assassins for a Cult of Set in ancient Egypt, with the demise of that civilization this bloodline has struggled for meaning, uncertain of who to serve.",
         "Disciplines": "Auspex, Celerity, Obtenebration, Vigor",
         "Additional Weakness": "Suffers a penalty to avoid fear frenzy when confronted with light.",
-        "Book": "Hidden 58"
+        "Book": "BtH 58"
     },
     {
         "Name": "Kuufukuji",
@@ -573,7 +573,7 @@ const bloodlineData = [
         "Description": "Monastic hermits who seek mastery over the Beast and the need for blood.",
         "Disciplines": "Auspex, Celerity, Obfuscate, Shihai",
         "Additional Weakness": "The vampire may never be entirely fulfilled or they become weak. If the vampire ever has at least (Max Vitae - Blood Potency) Vitae, they may not use any Discipline.",
-        "Book": "Legendary 78"
+        "Book": "BtL 78"
     },
     {
         "Name": "Libitinarius",
@@ -581,7 +581,7 @@ const bloodlineData = [
         "Description": "Born out of an mortal death cult experimenting with dark magic, this bloodline possess significant power over their torpid fellows.",
         "Disciplines": "Auspex, Dominate, Mortualia, Resilience",
         "Additional Weakness": "Penalty to all Humanity rolls during the day; Mortualia can actually be bought without the bloodline.",
-        "Book": "Ordo 155"
+        "Book": "OD 155"
     },
     {
         "Name": "Lynx",
@@ -589,7 +589,7 @@ const bloodlineData = [
         "Description": "Obsessed with 'networks' of all sorts, be they social connections or digital, this bloodline is renowned amongst the Invictus as purveyors of information.",
         "Disciplines": "Auspex, Celerity, Obfuscate, Web",
         "Additional Weakness": "Must choose a 'network' upon adopting this bloodline, attempts to seperate the Link from this network may induce fear or anger frenzy; relatives get an increased bonus to affect the Link through blood ties.",
-        "Book": "Invictus 165"
+        "Book": "Inv 165"
     },
     {
         "Name": "Mnemosyne",
@@ -597,7 +597,7 @@ const bloodlineData = [
         "Description": "A bloodline with power over memory, they possess knowledge that is the envy of all Kindred -- knowledge which drives many Mnemosyne elders mad.",
         "Disciplines": "Auspex, Celerity, Meminisse, Obfuscate",
         "Additional Weakness": "Suffer a penalty to resist Blood Addiction; prone to mental derangements",
-        "Book": "Mekhet 82"
+        "Book": "Mekh 82"
     },
     {
         "Name": "Morbus",
@@ -605,7 +605,7 @@ const bloodlineData = [
         "Description": "An ancient and infamous bloodline which can only feed on the sick and dying, a condition which they themselves may inflict with impunity.",
         "Disciplines": "Auspex, Cachexy, Celerity, Obfuscate",
         "Additional Weakness": "Cannot feed from victims who aren't ill; virtually impossible to gain Status outside of other Morbus.",
-        "Book": "VTR 244; RfRome p233"
+        "Book": "VtR 244; RfRome p233"
     },
     {
         "Name": "Norvegi",
@@ -613,7 +613,7 @@ const bloodlineData = [
         "Description": "A scorned bloodline that lacks fangs, they none the less have the power to manipulate flesh, bone, and Vitae, warping it to their command.",
         "Disciplines": "Auspex, Bloodworking, Obfuscate, Vigor",
         "Additional Weakness": "No fangs; must feed without the Kiss; may never gain more than two dots in Status within a covenant",
-        "Book": "Mekhet 84"
+        "Book": "Mekh 84"
     },
     {
         "Name": "Osites",
@@ -629,7 +629,7 @@ const bloodlineData = [
         "Description": "Vampires who seek to be beautiful and untroubled like those in popular media, they are amongst the most reviled beings in the World of Darkness.",
         "Disciplines": "Auspex, Celerity, Majesty, Obfuscate",
         "Additional Weakness": "Increased chance of dramatic failure when using mental influence Disciplines; when a dramatic failure occurs, the intended victim can never be influenced via Discipline by the Player again.",
-        "Book": "Legendary 116"
+        "Book": "BtL 116"
     },
     {
         "Name": "Qedeshah",
@@ -637,7 +637,7 @@ const bloodlineData = [
         "Description": "An all-female bloodline, which views itself as sacred mothers of the Damned, who often seek to reproduce even against the will of the Prince.",
         "Disciplines": "Auspex, Celerity, Embrocation, Obfuscate",
         "Additional Weakness": "Do not receive benefit of the Kiss; attempts to Embrace men end in agony.",
-        "Book": "Hidden 106"
+        "Book": "BtH 106"
     },
     {
         "Name": "Sangiovanni",
@@ -645,7 +645,7 @@ const bloodlineData = [
         "Description": "Members of the Sangiovanni family, which practices the reviled art of necromancy.",
         "Disciplines": "Auspex, Cattiveria, Celerity, Obfuscate",
         "Additional Weakness": "Humanity cap on social interactions with humans lowered by 2; begin to experience fascination with corpses that borders on the sexual.",
-        "Book": "Chosen 65"
+        "Book": "BtC 65"
     },
     {
         "Name": "Sons of Khalil",
@@ -661,7 +661,7 @@ const bloodlineData = [
         "Description": "Pious and contemplative, this bloodline is older than Dracula but faithful to the Ordo, offering its Eastern Orthodox beliefs and courtesy to their fellows.",
         "Disciplines": "Auspex, Celerity, Eupraxia, Majesty",
         "Additional Weakness": "Must have dots in personal haven at least equal to blood potency; sleeping outside this haven causes a cumulative and severe penalty to all rolls.",
-        "Book": "Ordo 164"
+        "Book": "OD 164"
     },
     {
         "Name": "Yoal",
@@ -685,7 +685,7 @@ const bloodlineData = [
         "Description": "-",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 111"
+        "Book": "VtR 111"
     },
     {
         "Name": "Adroanzi",
@@ -701,7 +701,7 @@ const bloodlineData = [
         "Description": "Militant vampires created by blood sorcery, originally for the purpose of destroying Dracula, which has since gone astray.",
         "Disciplines": "Nightmare, Obfuscate, Suikast, Vigor",
         "Additional Weakness": "Humanity restricts social pools with vampires in addition to mortals; must burn two dots of willpower to sire a childe.",
-        "Book": "Ordo 145"
+        "Book": "OD 145"
     },
     {
         "Name": "Baddacelli",
@@ -709,7 +709,7 @@ const bloodlineData = [
         "Description": "Blind predators who chiefly live underground, this bloodline has incredible control over their other senses, and their ability to manipulate sound.",
         "Disciplines": "Mimetismo, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Permanently blinded upon bloodline activation.",
-        "Book": "Chosen 26"
+        "Book": "BtC 26"
     },
     {
         "Name": "Burakumin",
@@ -717,7 +717,7 @@ const bloodlineData = [
         "Description": "A bloodline of Japanese origin, the Burakumin consist largely of former laborers and other traditionally oppressed folk, who have found power in the distant West.",
         "Disciplines": "Getsumei, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Cannot spend Vitae to mimic life; double cost to purchase any Status merit.",
-        "Book": "VTR 238"
+        "Book": "VtR 238"
     },
     {
         "Name": "Calacas",
@@ -757,7 +757,7 @@ const bloodlineData = [
         "Description": "Bathers in their own blood who have overcome the inherent ugliness of their parent clan, they may remain beautiful so long as they continue the practice.",
         "Disciplines": "Majesty, Nightmare, Obfuscate, Taurobolium",
         "Additional Weakness": "Must bathe in blood regularly; otherwise, their unnatural beauty withers, and they resemble a walking corpse uglier than even the Nosferatu.",
-        "Book": "Legendary 51"
+        "Book": "BtL 51"
     },
     {
         "Name": "Gethsemani",
@@ -765,7 +765,7 @@ const bloodlineData = [
         "Description": "This bloodline possesses numerous powers which seem to be truly divine in origin, but in modern times is finding increasing numbers of its members doubting their faith.",
         "Disciplines": "Nightmare, Obfuscate, Stigmatica, Vigor",
         "Additional Weakness": "Upon rising, a roll must be made to avoid self-inflicted loss of Vitae; they also suffer from general masochism.",
-        "Book": "Hidden 48"
+        "Book": "BtH 48"
     },
     {
         "Name": "Heróinomana",
@@ -813,7 +813,7 @@ const bloodlineData = [
         "Description": "Legendary night stalkers and murderers that are fierce servants of the Ordo Dracul.",
         "Disciplines": "Animalism, Obfuscate, Resilience, Vigor",
         "Additional Weakness": "Gangrel and Nosferatu gain the weakness of the other clan",
-        "Book": "Ordo 159"
+        "Book": "OD 159"
     },
     {
         "Name": "Morotrophians",
@@ -821,7 +821,7 @@ const bloodlineData = [
         "Description": "Haunters of closed facilities such as asylums or prisoners, this cruel bloodline preys on the trapped, weak, and helpless.",
         "Disciplines": "Institutionalize, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Take penalties to all rolls outside of their \"comfort zone\" of physically and socially confined places.",
-        "Book": "Hidden 68"
+        "Book": "BtH 68"
     },
     {
         "Name": "Noctuku",
@@ -829,7 +829,7 @@ const bloodlineData = [
         "Description": "Cannibals and devourers of Kindred flesh, feared as urban legends throughout Kindred society.",
         "Disciplines": "Nightmare, Obfuscate, Phagia, Vigor",
         "Additional Weakness": "If they do not regularly consume flesh, the suffer mounting penalties on Mental and Social rolls and have difficulty resisting hunger frenzies.",
-        "Book": "Chosen 46"
+        "Book": "BtC 46"
     },
     {
         "Name": "Nri-chaksha",
@@ -861,7 +861,7 @@ const bloodlineData = [
         "Description": "An ancient Indian bloodline of warrior merchants, they are well reputed for their furious temper and vast connections.",
         "Disciplines": "Nightmare, Obfuscate, Protean, Vigor",
         "Additional Weakness": "10 Again does not apply, and 1s remove successes from all hunger and anger frenzy rolls.",
-        "Book": "Hidden 116"
+        "Book": "BtH 116"
     },
     {
         "Name": "Telamones",
@@ -869,7 +869,7 @@ const bloodlineData = [
         "Description": "Builders of tunnels and underground labyrinths, this bloodline is believed to be the descendants of Roman Camarilla slaves.",
         "Disciplines": "Animalism, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "In well lit areas, lose the 10 Again rule on Stealth checks, including Obfuscate.",
-        "Book": "Sinners 94"
+        "Book": "NH-IS 94"
     },
     {
         "Name": "Usiri",
@@ -885,7 +885,7 @@ const bloodlineData = [
         "Description": "Proud and powerful Nosferatu, with great knowledge of social graces, who are descended of Russian nobility.",
         "Disciplines": "Dominate, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Cannot Embrace without aid of a special ritual.",
-        "Book": "Chosen 105"
+        "Book": "BtC 105"
     },
     {
         "Name": "Ventrue",
@@ -925,7 +925,7 @@ const bloodlineData = [
         "Description": "Sorcerers who see the path to power is through controlling cityscapes, this bloodline has a unique bloodline capable of manipulating the landscape.",
         "Disciplines": "Auspex, Dominate, Gilded Cage, Resilience",
         "Additional Weakness": "Suffer from the Narcissism derangement; the first severe derangement gained is always Megalomania. Both derangement do not apply only to the Mason themself, but also glorify the line founder.",
-        "Book": "Hidden 30"
+        "Book": "BtH 30"
     },
     {
         "Name": "Beni Murrahim",
@@ -933,7 +933,7 @@ const bloodlineData = [
         "Description": "-",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 113"
+        "Book": "VtR 113"
     },
     {
         "Name": "Bron",
@@ -941,7 +941,7 @@ const bloodlineData = [
         "Description": "A fallen bloodline, who feels destined to rule but are cursed to be unable to do so, they continually seek out new territories in the hope of one day finding that will accept them.",
         "Disciplines": "Animalism, Crochan, Dominate, Resilience",
         "Additional Weakness": "Whenever taking action reflecting \"ownership\" or control of a domain, loses 10 again and 1s subtract successes to all rolls.",
-        "Book": "Legendary 10"
+        "Book": "BtL 10"
     },
     {
         "Name": "Canda Bhanu",
@@ -957,7 +957,7 @@ const bloodlineData = [
         "Description": "Descendants of Cassius",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 113"
+        "Book": "VtR 113"
     },
     {
         "Name": "Corajoso",
@@ -973,7 +973,7 @@ const bloodlineData = [
         "Description": "Arrogant to the extreme, the Deucalion believe they are perfect beings who can do no wrong, and they look down with contempt at Kindred and mortals alike for their failings -- an area they possess great power over.",
         "Disciplines": "Animalism, Dominate, Impurity, Resilience",
         "Additional Weakness": "Cannot admit to wrongdoing; lose Willpower in circumstances where they have clearly done wrong.",
-        "Book": "Carthians 160"
+        "Book": "Cart 160"
     },
     {
         "Name": "Dragolescu",
@@ -981,7 +981,7 @@ const bloodlineData = [
         "Description": "A pariah bloodline with a particular interest in spirits and the soul.",
         "Disciplines": "Animalism, Dominate, Essentiaphagia, Resilience",
         "Additional Weakness": "Can only regain willpower through exercise of vice or virtue",
-        "Book": "Ordo 150"
+        "Book": "OD 150"
     },
     {
         "Name": "Geheim",
@@ -1021,7 +1021,7 @@ const bloodlineData = [
         "Description": "-",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 113"
+        "Book": "VtR 113"
     },
     {
         "Name": "Macellarius",
@@ -1029,7 +1029,7 @@ const bloodlineData = [
         "Description": "An ill-reputed bloodline, known chiefly for its morbid obesity, they are believed to consume blood in great quantities, sometimes even devouring bodies to get their fill. They are none the less often as socially charming as their Ventrue brethren.",
         "Disciplines": "Animalism, Dominate, Gustus, Resilience",
         "Additional Weakness": "Gains large quantities of weight, getting more obese over time. On all dexterity rolls they lose 10 again and 1s subtract successes, and Speed is forever penalized.",
-        "Book": "Legendary 90"
+        "Book": "BtL 90"
     },
     {
         "Name": "Malkovians",
@@ -1037,7 +1037,7 @@ const bloodlineData = [
         "Description": "A Russian-descended bloodline that inflicts insightful madness on its bearers, feared and reviled by other Ventrue.",
         "Disciplines": "Auspex, Dominate, Obfuscate, Resilience",
         "Additional Weakness": "Gain a permanent Derangement, potentially worsened through the use of Dominate.",
-        "Book": "VTR 241"
+        "Book": "VtR 241"
     },
     {
         "Name": "Malocusians",
@@ -1045,7 +1045,7 @@ const bloodlineData = [
         "Description": "Spiders are a bloodline intimately bound to their havens, gaining significant power inside of them via their Domus discipline.",
         "Disciplines": "Animalism, Domus, Majesty, Resilience",
         "Additional Weakness": "Must spend a Willpower point to leave their haven, and every few hours thereafter. Failure to pay these Willpower points results in penalties to Mental and Social rolls.",
-        "Book": "Invictus 168"
+        "Book": "Inv 168"
     },
     {
         "Name": "Melissidae",
@@ -1053,7 +1053,7 @@ const bloodlineData = [
         "Description": "A bloodline which is largely quiet, after a late 19th century massacre. They are leaders over mortals who seek to create utopian societies, with themselves at the top.",
         "Disciplines": "Animalism (modified), Auspex, Dominate, Resilience",
         "Additional Weakness": "Suffers a mounting penalty whenever they are separated for any length of time from those they control, or at least other Melissid.",
-        "Book": "Legendary 103"
+        "Book": "BtL 103"
     },
     {
         "Name": "Nahualli",
@@ -1061,7 +1061,7 @@ const bloodlineData = [
         "Description": "A relatively modern bloodline which believes in synergy with the Beast, infamous for committing ritual murders (even on fellow Kindred) for this cause.",
         "Disciplines": "Auspex, Dominate, Resilience, Tezcatl",
         "Additional Weakness": "10 Again does not apply and 1s subtract successes to rolls to resist fear and hunger frenzy, as well as ride the wave. Cannot spend willpower to augment frenzy rolls.",
-        "Book": "Hidden 78"
+        "Book": "BtH 78"
     },
     {
         "Name": "Rötgrafen",
@@ -1069,7 +1069,7 @@ const bloodlineData = [
         "Description": "Descendants of Nordic pirate raiders, who have not completely forgotten their roots.",
         "Disciplines": "Animalism, Dominate, Protean, Resilience",
         "Additional Weakness": "Take extra damage from fire, and when resisting fear frenzy caused by fire 10 again does not apply and 1s subtract successes.",
-        "Book": "Chosen 56"
+        "Book": "BtC 56"
     },
     {
         "Name": "Sons of Cade",
@@ -1077,7 +1077,7 @@ const bloodlineData = [
         "Description": "Descendants of an infamous and bloodthirsty Ventrue, who follow his might-makes-right philosophy.",
         "Disciplines": "Animalism, Dominate, Resilience, Vigor",
         "Additional Weakness": "Suffer a significant penalty to avoid anger frenzy.",
-        "Book": "Sinners 49"
+        "Book": "NH-IS 49"
     },
     {
         "Name": "Sotoha",
@@ -1085,7 +1085,7 @@ const bloodlineData = [
         "Description": "A bloodline dedicated to the principles of the Samuri, chiefly loyalty. They swear allegiance to a master whom they serve faithfully and dutifully.",
         "Disciplines": "Animalism, Dominate, Kamen, Resilience",
         "Additional Weakness": "Frenzies do not naturally end early, lasting instead possibly several minutes; may not spend Willpower to end a frenzy without a successful Resolve+Composure roll",
-        "Book": "Invictus 170"
+        "Book": "Inv 170"
     },
     {
         "Name": "Veracruz",
@@ -1125,7 +1125,7 @@ const bloodlineData = [
         "Description": "Scholars and students of occult lore, whose memory is unaffected by the dreams of torpor and who can foresee the future.",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "VTR 74"
+        "Book": "VtR 74"
     }
 ]
 

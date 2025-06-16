@@ -780,7 +780,7 @@ const mageMeritsLegacyData = [
             "The Thrice-Great does not gain the bonus for outright attacks on the spirit (including use of the third Attainment). Given time, power and successful negotiations with highranking spirits, a mage could parlay a Celestial Name into actual Status in the planetary court. This would confer greater authority over lower-ranking spirits but also mean obligations toward higher-ranking spirits, so Thrice-Great are cautious about pursuing this route. A Celestial Name is pure privilege.",
             "Status in multiple spirit courts also tends to cause conflicts of interest, while the point of Celestial Names is to collect them from all seven planetary courts."
         ],
-        "Book": "L:tA p114",
+        "Book": "L:tA 114",
     },
     {
         "Title": "Dreamland",
@@ -793,7 +793,7 @@ const mageMeritsLegacyData = [
             "Each Dreamland contains one dot of the Library background (see Mage: The Awakening, pp. 85–86). This usually doesn’t represent Astral books and scrolls, but visions of wise ancestors and Dreamborn who are willing to share their knowledge. This lore can often reveal histories — both mundane and supernatural — of the region that are otherwise unrecorded in any book or living memory.",
             "<b>Drawbacks:</b> Dreamlands are at least 20 miles apart from one another. Each Dreamland’s physical location also has one essential feature that, if destroyed or changed (by construction or landscaping, for example), cuts off access to the Dreamland until the problem is repaired."
         ],
-        "Book": "L:tA p21",
+        "Book": "L:tA 21",
     },
     {
         "Title": "Image of Perfection",
@@ -804,7 +804,7 @@ const mageMeritsLegacyData = [
             "The Echo Walker has developed a goal for herself, an image of her own soul merged with the glory and might of the Ones Before. This image is her muse, her daimon and her constant guide, beckoning her on through any moments of doubt or uncertainty. She becomes unable to consider that any action taken in pursuit of this goal is immoral or harmful, no matter how others might be affected. Such Echo Walkers often have constructed reasons or excuses as to why this is the case, usually with some variation on the “greater good” or the “ends justifying the means.”",
             "What it boils down to, however, is that the mage’s lust for power outweighs her morality. This doesn’t prevent the mage from losing Wisdom, of course, but does help in avoiding the insanity that comes with Wisdom loss. After gaining this Merit, whenever the Echo Walker loses a dot of Wisdom due to an act of Hubris, the player can spend a Willpower point to change the dice pool to avoid gaining a derangement to the character’s Resolve + Composure rather than her new Wisdom rating. The character’s Image of Perfection keeps her focused and, if not exactly sane, than at least functional. This serves to make Echo Walkers very dangerous, however, as they become true sociopaths given enough time."
         ],
-        "Book": "L:tA p125",
+        "Book": "L:tA 125",
     },
     {
         "Title": "Skald Cant",
@@ -817,7 +817,7 @@ const mageMeritsLegacyData = [
             "After that, when calm, the character may recall those events perfectly without any dice roll, and the player may ask the Storyteller to fill in details he might have forgotten. This Merit gives no aid during stressful situations, like combat; trying to remember details then requires an Intelligence + Composure roll, just as normal.",
             "Additionally, this language is somewhat pleasing to spirits, whether because of its rhythm or its origins. At the Storyteller’s discretion, using Skald Cant to deal with spirits can offer a +1 dice bonus when applying Social Skills to spirits, including rotes that use those Skills."
         ],
-        "Book": "L:tA p86",
+        "Book": "L:tA 86",
     }
 ]
 

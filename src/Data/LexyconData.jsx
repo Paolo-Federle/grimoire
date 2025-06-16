@@ -1732,409 +1732,409 @@ const vampireLexyconData = [
     "Name": "Acolytes",
     "Description": "A common nickname for members of the Circle of the Crone.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Ancilla (an • SILL • uh)",
     "Description": "Kindred too old to be considered neonates, but not yet elders, whose Requiem has lasted roughly 50 to 150 years. (The plural term is ancillae (an • SILL • ae).)",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "ancient",
     "Description": "The rare vampire who has existed for over a millennium.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Avus (AY • vuss)",
     "Description": "A character’s “grandfather” or patron in a bloodline from which she is not truly descended. (See p. 256.)",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Barrens",
     "Description": "Portions of the city unfit even for hunting. Beast",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Belial’s Brood",
     "Description": "A raucous, reckless covenant of vampiric Satanists.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "blood hunt",
     "Description": "A citywide hunt for a particular Kindred fugitive, in which most if not all local Kindred are expected to participate.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "bloodline",
     "Description": "A group of vampires that splits off from a parent clan to form a distinct lineage of its own. Some bloodlines do not differ from the parent clan in significant ways, while others claim different powers or weaknesses.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Carthian (KAR • thee • enn)",
     "Description": "A vampiric idealist, one who believes in reconciling the Requiem with the politics and society of modern mortals.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "childe (CHILD)",
     "Description": "Kindred “offspring”; also used to refer to particularly young neonates, or as a minor insult (akin to calling someone a “child” in mortal circles). The plural is childer (CHILL • der).",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "clan",
     "Description": "One of five families of Kindred whose lineage links back to times beyond Kindred memory.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Circle of the Crone",
     "Description": "A covenant of ritualistic Kindred that reveres pagan gods, spirits, pantheons and/or progenitors.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Coils of the Dragon",
     "Description": "A mystic way of learning that allows vampires to ignore certain aspects of their curse, as practiced by the Ordo Dracul.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "coterie",
     "Description": "A group of allied Kindred.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "covenant",
     "Description": "A faction of Kindred who share certain political and theological beliefs. The covenants exist worldwide, though details often differ from domain to domain.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Crúac (KREW • ack)",
     "Description": "The bloody, witchcraft-like magic practiced by the Circle of the Crone.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Daeva (DAY • vuh)",
     "Description": "A clan of vampires known for being emotional, sensual and desirable.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Damned, the",
     "Description": "The race of Kindred; vampires.Danse Macabre",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "diablerie (dee • AHB • ler • ee)",
     "Description": "Kindred “cannibalism”; draining another vampire of not only his blood but his soul.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Disciplines",
     "Description": "The preternatural abilities and edges the Kindred possess, allowing them to vanish, turn into bats and perform myriad other inhuman feats.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "domain",
     "Description": "A region ruled (ostensibly) by a single Kindred authority. The largest domains correspond to cities and often contain smaller domains within them.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Dragons",
     "Description": "A common nickname for members of the Ordo Dracul. elder",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Elysium (ell • ISS • ee • um)",
     "Description": "A location used for Kindred gatherings and declared a neutral, “no violence” sanctuary by the Prince.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Embrace",
     "Description": "The act of turning a mortal into a vampire. Final Death",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "First Estate",
     "Description": "A common nickname for the Invictus.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "frenzy",
     "Description": "A berserk state in which the Beast takes total control over a vampire. Rage, fear and hunger can induce frenzies; when precision is needed, the term is qualified by cause (rage frenzy, fear frenzy or hunger frenzy) or by a special term (Rötschreck or Wassail). Unqualified, the term generally indicates rage frenzy.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Gangrel (GANG • grell)",
     "Description": "A clan of vampires known for being primal, hardy and savage.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "ghoul",
     "Description": "A mortal fed Kindred Vitae and possessed of various supernatural abilities, though far weaker than most vampires.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Harpy",
     "Description": "A Kindred in a position prominent or estimable enough to raise up or put down others in vampire society.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "haven",
     "Description": "A vampire’s residence; where one finds sanctuary from the sun.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Herald",
     "Description": "A spokesman for the Prince.herd",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Hound",
     "Description": "A personal agent of the Prince; assassin, leg-breaker, capo.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Invictus (in • VICK • tuss)",
     "Description": "One of the largest of the Kindred covenants, which believes in rule by a vampiric “elite” made up mostly of elders.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Kindred",
     "Description": "The modern (and most frequent) term by which vampires refer to themselves and their race.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "kine",
     "Description": "A term for mortals; the phrase “Kindred and kine” refers to everyone.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Kiss",
     "Description": "Both the act of biting and taking blood from a mortal, as well as the pleasure it provides both participants.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Lancea Sanctum (LAN • kay • uh SANK • toom)",
     "Description": "A covenant of vampires, made up of vampiric religious zealots who honor the Roman centurion Longinus, whom they have adopted as a form of “patron saint” for the act of testing Christ’s divinity.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Lupine",
     "Description": "A werewolf.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Man, the",
     "Description": "The humanity a vampire maintains (or tries to); the spark of mortality that distinguishes him from the Beast.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Masquerade",
     "Description": "The efforts and system of laws required by the Tradition of Secrecy to hide Kindred existence from the mortal world.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Master of Elysium",
     "Description": "The Kindred responsible for places of Elysium, who also makes sure that everything is prepared, that nobody fights and that word gets out about events.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Mekhet (MEK • et)",
     "Description": "A clan of vampires known for being quick, discreet and wise.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "neonate (NEE • oh • nate)",
     "Description": "A young vampire, engaged in his Requiem for less than 50 years.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Nosferatu (noss • fur • AH • too)",
     "Description": "A vampire clan known for being stealthy, strong and terrifying.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Ordo Dracul (OR • dough drah • KOOL)",
     "Description": "A covenant of vampires known for its mystic studies and desire to transcend the vampiric condition.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "poacher",
     "Description": "One who feeds in another Kindred’s domain without permission.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Primogen (PRIM • oh • jen)",
     "Description": "An elder who advises the Prince of a domain (also plural).",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Prince",
     "Description": "The ruler of, or most powerful Kindred in, a domain. Priscus (PRISS • kuss)",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Rack",
     "Description": "The best parts of the city in which to feed, including nightclubs and other loud, crowded areas.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "regnant",
     "Description": "The Kindred who holds regency over a thrall; the dominant member of a Vinculum. Also “domitor.”",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Requiem",
     "Description": "The Kindred condition; the whole miserable, cursed song of a vampire’s unlife, whether singularly or metaphorically.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "revenant",
     "Description": "A vampire who has lost all Humanity and exists in perpetual frenzy.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Sanctified",
     "Description": "A common nickname for members of the Lancea Sanctum, singular and plural.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Seneschal",
     "Description": "The Prince’s right hand and assistant.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Seven",
     "Description": "A clan, covenant or other group of vampires that detests the Kindred race and seeks to destroy it, its own members excepted.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Sheriff",
     "Description": "The Kindred responsible for enforcing the Prince’s laws and dictates.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "sire",
     "Description": "A vampiric “parent,” one who has Embraced a childe; alternatively, a verb, meaning “to Embrace.”",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Theban (THEE • ben) Sorcery",
     "Description": "A mysterious form of blood magic practiced primarily by members of the Lancea Sanctum.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "thrall",
     "Description": "One who is bound to a regnant; the enslaved member of a Vinculum.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "torpor",
     "Description": "A death-like sleep into which Kindred fall if they are injured severely or starved for too long. Kindred can also enter torpor willingly to escape the world for a time.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Traditions",
     "Description": "The three primary Kindred laws, passed down through the ages and observed inviolate due to the Kindred condition.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "unbound",
     "Description": "A vampire who refuses to accept the local rule of a Prince or other governing Kindred body. Also known as an unaligned or independent Kindred.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Ventrue (VENN • true)",
     "Description": "A clan of vampires known for being regal, commanding and aristocratic.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "vessel",
     "Description": "Any source of blood for the Kindred to feed on; usually but not always used to refer to a mortal.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Vitae (VIE • tay)",
     "Description": "Blood, particularly the blood of a vampire.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Vinculum (VIN • cue • lum)",
     "Description": "The artificial love and loyalty spawned by feeding from the same vampire three times. Also known less formally as a blood bond.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Whip",
     "Description": "One who keeps his clanmates in line in order that they be taken seriously.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "witch-hunter",
     "Description": "A mortal who seeks out Kindred and destroys them.",
     "Long Description": [],
-    "Book": "VTR"
+    "Book": "VtR"
   },
   {
     "Name": "Adversary, the",
@@ -2728,199 +2728,199 @@ const vampireLexyconData = [
     "Name": "Academy",
     "Description": "All the members of the Ordo Dracul in a local geographical area. Dragons congregate in “Academies” the way that birds gather in a flock or battleships travel in a fleet. Also, a chapter (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Blood Coven",
     "Description": "A coterie of Dragons.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Caucus",
     "Description": "A monthly meeting of all the Dragons the city or area. It is traditionally held on the night of the new moon.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "challenger",
     "Description": "In a combat trial governed by the Code Duello (q.v.), the challenger is the person who initiates the duel by claiming injury against the minuend (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "chapter",
     "Description": "The local covenant membership. A chapter may meet in a chapter house. Some domains may be divided into more than one chapter. Also, an Academy (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "chrysalis",
     "Description": "A mentally, physically and spiritually indeterminate or liminal state in which a Dragon can transform herself through a new mastery of a Coil of the Dragon. Also, the moment of the change itself.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Code Duello",
     "Description": "Rules, similar to the Irish dueling code of 1777, which govern trials-by-combat within or involving the Sworn of the Axe.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Convener",
     "Description": "The highest-ranked unsworn Dragon in an Academy (q.v.) is given the title of Convener and is responsible for arranging the monthly Caucus (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "defendant",
     "Description": "Someone who has been accused and is on trial before a Dragon Jury (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "disputant",
     "Description": "Kindred who issues a challenge to decide a dispute via Mystery Debate (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Dragon Jury",
     "Description": "A jury of three members of the Ordo Dracul, convened to issue a ruling on a personal or legal issue. Also known as a Juris Draconis, this legal body needs at least one Oathbound of the Dying Light in order to be legitimate.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Fate Card",
     "Description": "One of 49 Tarot-based archetypes arrived at via the Paths of Fate (q.v.). Proponents of the Paths believe a Fate Card indicates an individual’s true nature and personality.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "fontal",
     "Description": "A category of Wyrm’s Nest that produces intangible but appreciable energy of a specific type or “resonance” and often recharges itself over time. E.g., “That site is a fontal nest, so I doubt those mages have truly depleted it.” Also, a wellhead.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "haunted",
     "Description": "A category of Wyrm’s Nest inhabited by one or more ghosts. E.g., “That old school is a haunted nest, and we’d best keep away.”",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Hungarian Marriage",
     "Description": "When two Dragons with the third tier of the Coil of Blood enter into a cycle of mutual feeding. The laws of the Ordo Dracul forbid it in most domains.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "interlocutor",
     "Description": "The challenged party in a Mystery Debate (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Judge of Division",
     "Description": "The primary authority of a Dragon Jury (q.v.), selected by the other two judges.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Juris Draconis",
     "Description": "See Dragon Jury.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "mediator",
     "Description": "The judge at an Axe-Sworn trial by combat. The mediator’s task is to determine when a damaging hit has occurred. When it does, it ends a pass (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Minor Judge",
     "Description": "One of three judges on a Dragon Jury (q.v.), he is supposed to be of lower status than both parties in the dispute, if that’s possible.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "minuend",
     "Description": "The person to whom a combat challenge has been issued, following the rules set down by the Sworn of the Axe.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Mystery Debate",
     "Description": "An intellectual challenge whereby disputes can be settled between members of the Sworn of the Mysteries.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Parliament",
     "Description": "A local collective of the Sworn of the Mysteries. The deliberative body that passes laws for an Academy (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "pass",
     "Description": "In a duel, one of three attempts to draw blood.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Paths of Fate",
     "Description": "A Tarot-based system used to predict behavior and to show students which natural inclinations give them spiritual strength.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "perilous",
     "Description": "A category of Wyrm’s Nest that is dangerous to visitors, or especially Kindred of the Ordo Dracul. E.g. “Don’t go there. It’s a perilous nest.”",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "plaintiff",
     "Description": "The person who calls for an inquiry by Dragon Jury (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "proctor",
     "Description": "The Kindred who oversees, adjudicates and (often as not) benefits from a Test of the Dying Light (q.v.).",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "second",
     "Description": "When following the Axe-Sworn’s rules for trial by arms, seconds are allies of the combatants who try to keep the fight fair and clean.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Superior Judge",
     "Description": "One of three judges on a Dragon Jury (q.v.), she is supposed to be of higher status than both parties in the dispute, if that’s possible.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "Test of the Dying Light",
     "Description": "A formal means for settling differences practiced by the Sworn of the Dying Light. A proctor (q.v.) sets a task for two quarreling Kindred and judges in favor of the one who completes it first. The tasks range from the petty to the epic.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "tutor",
     "Description": "A member of the Ordo Dracul who has been formally recognized as an instructor for another member in one or more of the Coils of the Dragon.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "wellhead",
     "Description": "A Wyrm’s Nest that channels or emits spiritual or magical power at a steady or nearly steady rate. Such power is typically of a particular type or “resonance.” Also, a fontal nest.",
     "Long Description": [],
-    "Book": "Ordo"
+    "Book": "OD"
   },
   {
     "Name": "angel",
