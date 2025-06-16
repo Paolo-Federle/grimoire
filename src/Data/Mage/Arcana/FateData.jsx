@@ -212,7 +212,7 @@ const fateOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Streetwise + Fate",
         "RoteDescrizione": "When heading into an unknown situation, the willworker seeks out the nearest facility with a Lost and Found department, and lays claim to the oddest and most unusual item left behind there. This item will then prove instrumental in overcoming a crucial obstacle in the trial ahead.",
         "DescrizioneBreve": "gain clues from random events",
-        "Book": "TotM"
+        "Book": "TotM 60"
     },
     {
         "Titolo": "The Sybil's Sight",
@@ -1362,7 +1362,7 @@ const fateFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult or Science + Fate",
         "RoteDescrizione": "This rote drives to the heart of the new philosophies on magic espoused by the Free Council. It unleashes chaotic happenings upon a world that most people would rather be ordered and safe, but opens people to the possibility that the universe isn’t always as it seems, causing even the dimmest of Sleepers to wonder what other mysteries are still out there. Also, as some members of the order are quick to point out, it makes one hell of a smokescreen when attempting a hasty getaway.",
         "DescrizioneBreve": "summon a swarm of pests, humans dont add paradox on this spell",
-        "Book": "M:tA"
+        "Book": "M:tA 161"
     },
     {
         "Titolo": "True Love",
@@ -1377,7 +1377,7 @@ const fateFiveData = [
         "RoteName": "Orpheus’ Last Riddle Rote",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Fate",
         "DescrizioneBreve": "lovers gain joined resistance, Willpower use",
-        "Book": "GoG"
+        "Book": "GoG 132"
     }
 ]
 

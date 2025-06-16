@@ -591,7 +591,7 @@ const forceTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Forces",
         "RoteDescrizione": "Sometimes magic makes a more effective supplement to mundane skills; an Awakened hacker with a willingness to “cheat” can be a terror, as others discovered when the Free Council adopted the digital revolution as part of their own. The Atlantean orders have since learned to ward their computer systems, but Sleepers remain as blissfully unaware as ever.",
         "DescrizioneBreve": "gain access to active computer function",
-        "Book": "Fc 109"
+        "Book": "FC 109"
     },
     {
         "Titolo": "Kinetic Blow",
@@ -991,7 +991,7 @@ const forceThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Presence + Expression + Forces",
         "RoteDescrizione": "Hellson designed this rote to strike down sorcerers who would dare attack him. He visualizes his voice coalescing into a serpent-shaped coil of energy, lying in wait against magical assault.",
         "DescrizioneBreve": "protect self against spells and lash out at attacker",
-        "Book": "Gog 55"
+        "Book": "GoG 55"
     },
     {
         "Titolo": "Sound Mastery",
@@ -1729,7 +1729,7 @@ const forceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Brawl + Forces vs. Composure + Gnosis",
         "RoteDescrizione": "The Adamantine Arrow often uses this rote to freeze enemies in place, or to lift them high and then drop them (see “Falling,” p. 179 of the <b>World of Darkness Rulebook</b>). It lacks honor, but so do many Arrow enemies.",
         "DescrizioneBreve": "kinetically lift a creature",
-        "Book": "M:tA "
+        "Book": "M:tA 174"
     }
 ]
 
@@ -1924,7 +1924,7 @@ const forceFiveData = [
         "RoteDice": "<b>Dice Pool:</b> Resolve + Athletics + Forces",
         "RoteDescrizione": "The earth itself can be used as a weapon by a mage of the Adamantine Arrow. With this rote, not even the ground that enemies stand on is safe. Guardians of the Veil occasionally make use of this magic (Manipulation + Athletics + Forces), using tremors to cover up stranger happenings, or to demolish a site before inquiring eyes spy things they were not meant to see.",
         "DescrizioneBreve": "shift tectonics in the area",
-        "Book": "M:ta 176"
+        "Book": "M:tA 176"
     },
     {
         "Titolo": "Electromagnetic Pulse",

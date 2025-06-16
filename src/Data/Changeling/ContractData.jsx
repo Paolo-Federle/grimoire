@@ -598,8 +598,8 @@ const universalContractData = [
         ],
         "Roll Results": [
             '<b>Dramatic Failure:</b> The character loses control over the dilating time; she may find upon her return that far more or far less time has passed than she had hoped.',
-            '<b>Success:</b> The character can change the rate that time passes for her and her companions while they are in the Hedge. She must use this clause when she enters the Hedge, and the altered time rate affects her and any companions who enter the Hedge with her. She can cause time to pass either faster or slower in the Hedge, with the degree of difference based on how many successes she rolls.',
             '<b>Failure:</b> The clause fails, and time for the character passes the same in the Hedge as in the mortal world.',
+            '<b>Success:</b> The character can change the rate that time passes for her and her companions while they are in the Hedge. She must use this clause when she enters the Hedge, and the altered time rate affects her and any companions who enter the Hedge with her. She can cause time to pass either faster or slower in the Hedge, with the degree of difference based on how many successes she rolls.',
             {
                 'Time table': [
                     { Successes: "1 success", 'Time Differential': "x2" },

@@ -46,7 +46,7 @@ const mageMeritsData = [
             "<b>Paradox:</b> Artifact powers can invoke Paradoxes just like the spells they mimic, and vulgar effects that are witnessed by Sleepers invoke Disbelief (see p. 274).",
             "<i>Example:</i> The Cave Lord’s Talisman is an Artifact in the form of a medallion that allows its wearer to grow bear claws upon activation (a contingent power). This mimics the Life 3 “Transform Self” spell, p. 187. It would be rated at five Merit dots (2 + 3rd-dot Arcanum = 5). Remember, though, that the fifth dot costs two dots, so the total cost would be six Merit dots. Acquiring an Artifact once play begins does not cost Merit dots; characters must gain them through roleplaying actions. If an Artifact is ever lost, stolen or destroyed, the player loses the Merit and the points he spent to gain it."
         ],
-        "Book": "M:tA p80",
+        "Book": "M:tA 80",
     },
     {
         "Title": "Atlantean Hesychia",
@@ -104,7 +104,7 @@ const mageMeritsData = [
             "<b>Drawback:</b> Your character’s blessing has a price: her bane. There is one type of person or situation that can bring her down. This bane can be summed up in one sentence, generally describing what her downfall will be. The Storyteller must either declare or approve this bane during the course of the game. For instance, a hero may have been told to “Beware the Queen of Hearts” (perhaps a reference to the woman who will seduce and destroy him), while another may be warned, “Wolves will devour your soul.” The reference may be literal or figurative, but it should never mention a specific time or place.",
             "Whenever the bane comes into play, the character’s dice pools are penalized by one die per Destiny dot he possesses. This applies only to dice pools for directly dealing with the bane or for resisting its attacks, spells or even Social rolls to intimidate or persuade the character. For example, if the character’s bane mentions wolves, anytime he encounters a “wolf” (whether that’s an actual werewolf or a “wolf in sheep’s clothing,” depending on how the Storyteller interprets the bane), dice pools are penalized."
         ],
-        "Book": "M:tA p81",
+        "Book": "M:tA 81",
     },
     {
         "Title": "Dream",
@@ -121,7 +121,7 @@ const mageMeritsData = [
             "<b>Exceptional success:</b> One or more clues (one per Dream dot), and a suggestion about their interpretation provided by the Storyteller.",
             "The information conveyed is hidden behind allegory, symbols and archetypes. Dreams rarely answer questions directly, typically relying on symbolism and imagery to convey information. A mage seeking a specific person’s location wouldn’t see his address, but landmarks nearby could lead the way: a river, a tower or even the face of a man walking by at dusk. The answer has the potential to resolve the problem. It’s a tool for the Storyteller to help drive events of the story."
         ],
-        "Book": "M:tA p82",
+        "Book": "M:tA 82",
     },
     {
         "Title": "Enhanced Item",
@@ -140,7 +140,7 @@ const mageMeritsData = [
             "An item can be both enhanced and imbued. See “Imbued Item,” below. Simply add the cost of all enhancements and imbuements together to determine the item’s total Merit cost.",
             "Acquiring an enhanced item once play begins does not cost Merit dots; characters must gain such items through roleplaying actions. If the item is ever lost, stolen or destroyed, the player loses the Merit and the points he spent to gain it."
         ],
-        "Book": "M:tA p82",
+        "Book": "M:tA 82",
     },
     {
         "Title": "Enhanced Item: Armor",
@@ -233,7 +233,7 @@ const mageMeritsData = [
             "Embodied familiars live in the material world in a physical body, although it might be a rather strange body. They are often clever and loyal animals, the black cat or cunning rat of sorcerous legend.",
             "All embodied familiars have the Innocuous Numen (see pp. 321-322). It is very good at not being noticed by others. Anyone but its bonded mage suffers a –2 penalty on perception rolls to notice the familiar, unless it does something to draw attention to itself."
         ],
-        "Book": "M:tA p82",
+        "Book": "M:tA 82",
     },
     {
         "Title": "Feral Mien",
@@ -352,7 +352,7 @@ const mageMeritsData = [
             "If your mage begins play as a member of an order, he learns this Merit at no cost. If he is not a member of an order, he must purchase this Merit using his initial Merit dots or with experience points (assuming there is someone who can teach it to him).",
             "High Speech can be spoken and comprehended only by the Awakened. Sleepers’ minds cannot process it. They might hear an Atlantean phrase as a series of nonsense words, or even silence (the speaker’s mouth moves but no sound comes out). Particularly willful Sleepers might catch bits of it, but even then it might sound like a tape played too slow with the bass turned way up."
         ],
-        "Book": "M:tA p84"
+        "Book": "M:tA 84"
     },
     {
         "Title": "Identity Anchor",
@@ -387,7 +387,7 @@ const mageMeritsData = [
             "An item can be both imbued and enhanced. See “Enhanced Item,” above. Simply add the cost of all imbuements and enhancements together to determine the item’s total cost.",
             "Acquiring an imbued item once play begins does not cost Merit dots; characters must gain these items through roleplaying actions. If an item is ever lost, stolen or destroyed, the character loses the Merit and the points he spent to gain it."
         ],
-        "Book": "M:tA p84",
+        "Book": "M:tA 84",
     },
     {
         "Title": "Law of Embodiment",
@@ -463,7 +463,7 @@ const mageMeritsData = [
             "Occulted mages tend to live on the fringes of mundane reality, as though they are an anomaly or aberration. Sleepers have trouble keeping track of their identities and activities. Records regarding an arcane mage tend to get lost, and the authorities are challenged to investigate his activities. Since most Sleepers find it hard to gather information about the mage, they won’t know many details about him. This also makes it harder for mages to research information about the mage through mundane sources. Whenever someone makes a roll to gather information about your character, your Occultation dots are subtracted from the researcher’s dice pool.",
             "<b>Drawback:</b> If your character ever becomes well known to the public (such as getting caught on camera and being shown on television night after night), he loses his Occultation until the public at large forgets him (which could take many years, depending on how famous or notorious the mage became). Likewise, if he maintains a public persona at all among Sleepers, even to the degree of having many Sleeper friends, he cannot maintain his Occultation. The mage must constantly cultivate this Merit, working to remain away from the attention of Sleeper society. It does not affect his standing in Awakened society."
         ],
-        "Book": "M:tA p86",
+        "Book": "M:tA 86",
     },
     {
         "Title": "Otherworldly Eyes",
@@ -560,7 +560,7 @@ const mageMeritsData = [
             "This Merit works the same as the “Retainer” Merit (p. 116 in the World of Darkness Rulebook), except that the mage’s retainer is a Sleepwalker.",
             "For details on Sleepwalkers, see Mage the Awakening p. 334."
         ],
-        "Book": "M:tA p88",
+        "Book": "M:tA 88",
     },
     {
         "Title": "Spirit Status",
@@ -596,7 +596,7 @@ const mageMeritsData = [
             "A character with dots of Order Status in multiple orders does indeed gain access to those groups’ special benefits. Orders expect certain things of their members, however, and if other mages find out that the character plays multiple sides against the middle, he might see that Status vanish in a single day when he’s called upon to account for his treacheries.",
             "Such is also the reason that cumulative Order Status is limited to three dots. By the time a character gains a certain degree of Status in a single order, he sticks out like a sore thumb if he turns up among another order’s members. (An exception to this might occur if the character is truly some sort of deep-cover agent or other mole, but that circumstance is best handled at the Storyteller’s discretion.)"
         ],
-        "Book": "M:tA p88",
+        "Book": "M:tA 88",
     },
     {
         "Title": "Status (Seers of the Throne)",
@@ -668,7 +668,7 @@ const mageMeritsData = [
             "After the three favors are completed, your character is expected to return the soul stone to the rightful owner, freeing the thrall. If he does not free his thrall after the three favors are completed, he can be punished freely by any other mage, even a mage not of his order or the Consilium.",
             "Some mages set daunting favors, ensuring that their thralls will almost certainly never complete the requirements for freedom. Doing so is considered bad form. The thrall can take his case to the Consilium, but most officers hesitate to intervene unless the thrall’s master endangers their interests or challenges their authority through his flaunting of custom. More often, mistreated thralls must rely on their own cunning to turn the master-thrall relationship."
         ],
-        "Book": "M:tA p89",
+        "Book": "M:tA 89",
     },
     {
         "Title": "Void Scourged",

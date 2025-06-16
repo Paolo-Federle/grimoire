@@ -19,13 +19,15 @@ export default function Books(props) {
     ];
 
     // Define the headers that correspond to your data keys
-    const tableFields = ['Code Name', 'Type', 'Title', 'ReleaseDate'];
+    const tableFields = ['Code Name', 'Type', 'Title', 'Release Date'];
+
 
     const renderedBookTables = bookData.map((book, index) => (
         <SimpleTable
             title={bookSets[index]}
             table={bookData[index]}
             activeRowLink={false}
+            headers={tableFields}
         />
     ));
 

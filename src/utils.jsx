@@ -1,4 +1,5 @@
 import BaseTable from "./components/BaseTable";
+import { allBooks } from "./Data/BookData";
 
 export function sortByKey(list, key) {
     return list.sort((a, b) => {
@@ -65,3 +66,30 @@ export function removeFieldsAndAddLink({ data, fieldsToRemove, urlPrefix, keyToU
 
     return addLink(flattened, keyToUseForLinks, urlPrefix);
 }
+
+
+export function getFlipHtmlPageUrlsFromSource(source, allBooks) {
+    if (typeof source !== 'string') return [];
+  
+    return source.split(',').map(part => {
+      const trimmed = part.trim();
+      const match = trimmed.match(/^([^\s]+)\s+(\d+)$/);
+      if (!match) return { text: trimmed, url: null };
+  
+      const codeName = match[1];
+      const sourcePage = parseInt(match[2], 10);
+      if (isNaN(sourcePage)) return { text: trimmed, url: null };
+  
+      const book = allBooks.find(b => b['Code Name'] === codeName);
+      if (!book || !book.LinkTo || book.PagesOffset === '') return { text: trimmed, url: null };
+  
+      const offset = parseInt(book.PagesOffset, 10);
+      if (isNaN(offset)) return { text: trimmed, url: null };
+  
+      const pdfPage = sourcePage + offset;
+      const spreadPage = pdfPage % 2 === 0 ? pdfPage : pdfPage - 1;
+  
+      return { text: trimmed, url: `${book.LinkTo}${spreadPage}` };
+    });
+  }
+  
