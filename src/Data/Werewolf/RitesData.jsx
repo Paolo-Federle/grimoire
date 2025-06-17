@@ -4,7 +4,7 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "",
         "Description": "Target becomes official supporter of war and gains benefits of war totem's blessing.",
-        "Book": "War Against the Pure 51"
+        "Book": "WAtP 51"
     },
     {
         "Name": "Banish Human",
@@ -32,14 +32,14 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "●",
         "Description": "Target gains one point of Essence per dot of the ritemaster’s Wisdom. Ritemaster gains a +2 bonus on Gifts, rites, and Social rolls against target.",
-        "Book": "Signs of Moon 70"
+        "Book": "SotM of Moon 70"
     },
     {
         "Name": "Condemnation, Rite of",
         "Rank": "1",
         "Cost": "",
         "Description": "Target loses benefit of war totem's blessing, and -1 penalty to social rolls among rites audience for 1 month.",
-        "Book": "War Against the Pure 51"
+        "Book": "WAtP 51"
     },
     {
         "Name": "Contrition, Rite of",
@@ -165,7 +165,7 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "",
         "Description": "Allows ritemaster to track fallen Uratha worthy of the Funeral Rite up to 1 mile per point of Primal Urge.",
-        "Book": "Blasphemies 102"
+        "Book": "Blas 102"
     },
     {
         "Name": "Shared Scent",
@@ -179,7 +179,7 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "",
         "Description": "Target is judged by Luna for Crusade. If accepted the supplicant may learn Silver Road gifts and rites and immediately gain their new Auspice abilities.",
-        "Book": "War Against the Pure 143"
+        "Book": "WAtP 143"
     },
     {
         "Name": "Sorrow Marks – Mirrayindri",
@@ -214,14 +214,14 @@ export const RitesData = [
         "Rank": "1",
         "Cost": "",
         "Description": "Ritemaster howls and alerts all werewolves within 20 miles per dot of Primal Urge that he is in dire trouble. All who hear know who is in trouble and where, but not what the cause is.",
-        "Book": "Blood of the Wolf 98"
+        "Book": "BotW 98"
     },
     {
         "Name": "Anticipated Forgiveness, Rite of",
         "Rank": "2",
         "Cost": "",
         "Description": "Target gains 1 die to degeneration rolls made for killing Werewolves for the next hour, but must be genuinely repentant.",
-        "Book": "War Against the Pure 52"
+        "Book": "WAtP 52"
     },
     {
         "Name": "Banish Spirit",
@@ -235,7 +235,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Target cannot become pregnant due to intercourse with human for one lunar month.",
-        "Book": "Blood of the Wolf 28"
+        "Book": "BotW 28"
     },
     {
         "Name": "Beseech the Mother",
@@ -396,7 +396,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Participants of an oath must abide by the agreement or risk Harmony (level 7) loss and the appearance of a glyph denoting shame being added to their spirit brands.",
-        "Book": "Blasphemies 99"
+        "Book": "Blas 99"
     },
     {
         "Name": "Mark of Change",
@@ -452,7 +452,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Hides a Bale Hounds allegiance to Maeljin Incarna from Luna and the Foresaken.",
-        "Book": "Blasphemies 140"
+        "Book": "Blas 140"
     },
     {
         "Name": "Silent Hunt",
@@ -466,7 +466,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "●●+2(L)",
         "Description": "Bale Hound gives Chiminage to Soulless Wolf. For next lunar month ritemaster gains +2 dice to Harmony rolls for rites and stepping sideways. May spend extra essence to increase Dicepool.",
-        "Book": "Blasphemies 142"
+        "Book": "Blas 142"
     },
     {
         "Name": "Speak with the Guardian",
@@ -494,7 +494,7 @@ export const RitesData = [
         "Rank": "2",
         "Cost": "",
         "Description": "Target is immune to natural cold for 1 hour per dot of ritemaster's Primal Urge.",
-        "Book": "Blood of the Wolf 98"
+        "Book": "BotW 98"
     },
     {
         "Name": "Ajogun, Rite of",
@@ -662,7 +662,7 @@ export const RitesData = [
         "Rank": "3",
         "Cost": "",
         "Description": "",
-        "Book": "Blasphemies 79"
+        "Book": "Blas 79"
     },
     {
         "Name": "Mark of the Black Wolf",
@@ -704,7 +704,7 @@ export const RitesData = [
         "Rank": "3",
         "Cost": "",
         "Description": "",
-        "Book": "War Against the Pure 143"
+        "Book": "WAtP 143"
     },
     {
         "Name": "Purity, Rite of",
@@ -746,7 +746,7 @@ export const RitesData = [
         "Rank": "3",
         "Cost": "",
         "Description": "Bale Hound creates glyph that marks Iduth-Su to help other Bale Hounds find Flayed Ones. Glyph repels werewolves with high harmony.",
-        "Book": "Blasphemies 142"
+        "Book": "Blas 142"
     },
     {
         "Name": "Sleeping Seer, Rite of the",
@@ -760,7 +760,7 @@ export const RitesData = [
         "Rank": "3",
         "Cost": "●+",
         "Description": "No need to eat or drink for number of days equal to essence spent during ritual.",
-        "Book": "Blood of the Wolf 99"
+        "Book": "BotW 99"
     },
     {
         "Name": "To The Cannon’s Mouth",
@@ -781,7 +781,7 @@ export const RitesData = [
         "Rank": "3",
         "Cost": "○●",
         "Description": "",
-        "Book": "Blasphemies 103"
+        "Book": "Blas 103"
     },
     {
         "Name": "Waters of Songkran",
@@ -872,7 +872,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "",
         "Description": "Transforms a Lune into an Iduth-Su.",
-        "Book": "Blasphemies 143"
+        "Book": "Blas 143"
     },
     {
         "Name": "Desert Rain",
@@ -907,7 +907,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "",
         "Description": "",
-        "Book": "War Against the Pure 144"
+        "Book": "WAtP 144"
     },
     {
         "Name": "Forging Arms",
@@ -921,7 +921,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "",
         "Description": "",
-        "Book": "Blasphemies 99"
+        "Book": "Blas 99"
     },
     {
         "Name": "Hikaon’s Trail, Rite of",
@@ -977,7 +977,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "○●",
         "Description": "",
-        "Book": "War Against the Pure 81"
+        "Book": "WAtP 81"
     },
     {
         "Name": "Scorched Earth, Rite of",
@@ -991,7 +991,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "●+",
         "Description": "Can replay years of a locations history in minutes. Five years per success at a cost of 1 essence per success.",
-        "Book": "Blood of the Wolf 67"
+        "Book": "BotW 67"
     },
     {
         "Name": "Shadowed Hunt",
@@ -1019,7 +1019,7 @@ export const RitesData = [
         "Rank": "4",
         "Cost": "",
         "Description": "",
-        "Book": "War Against the Pure 52"
+        "Book": "WAtP 52"
     },
     {
         "Name": "••••• Rites",

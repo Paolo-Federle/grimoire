@@ -5,7 +5,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+2 to all sight-related tracking rolls for 1 hour, once per day",
-        "Book": "Rage, 197",
+        "Book": "Rage 197",
         "Tribe/Auspice": ""
     },
     {
@@ -14,7 +14,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "Know the wearers emotional state as long as they wear it. Wits + Empathy On exception success gain +1 against all social rolls used on the wearer for the following day.",
-        "Book": "Lodges, Splintered 120",
+        "Book": "LodgS 120",
         "Tribe/Auspice": "Songkran Lodge"
     },
     {
@@ -23,7 +23,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Wolf-cub",
         "Description": "+2 to all Physical Attribute rolls for a singe Turn, -2 to all physical next turn",
-        "Book": "WtF Core, 205",
+        "Book": "WtF 205",
         "Tribe/Auspice": ""
     },
     {
@@ -41,7 +41,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+3 to resist contracting illnesses of supernatural origin.",
-        "Book": "Lodges, Faithful 138",
+        "Book": "LodgF 138",
         "Tribe/Auspice": "Lodge of the Savior"
     },
     {
@@ -59,7 +59,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Wolves or Weak Ancestor",
         "Description": "+2 to next Resolve or Composure, once per scene.",
-        "Book": "Lodges, Faitfhul 122",
+        "Book": "LodgF 122",
         "Tribe/Auspice": "Cult of Bones"
     },
     {
@@ -77,7 +77,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Int+Occult detect Faith within the area.",
-        "Book": "Lodges, Splintered 53",
+        "Book": "LodgS 53",
         "Tribe/Auspice": "Lodge of the Fallen Idol"
     },
     {
@@ -86,7 +86,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "When focusing on the larger portion, can see the area around the smaller side",
-        "Book": "Signs 106",
+        "Book": "SotM 106",
         "Tribe/Auspice": "Elodoth"
     },
     {
@@ -158,7 +158,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Tool Choir",
         "Description": "See through one foot of material for 2 turns (6 seconds)",
-        "Book": "WtF Core, 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -203,7 +203,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "Knows the location and health of all packmates",
-        "Book": "Lodges Faithful, 99",
+        "Book": "LodgF, 99",
         "Tribe/Auspice": "lodge of Swords"
     },
     {
@@ -230,7 +230,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Dex+Expression, success give bonus to Expression, Persuasion, or Intimidation",
-        "Book": "Lodges, Faithful 101",
+        "Book": "LodgF 101",
         "Tribe/Auspice": "Lodge of Thunder"
     },
     {
@@ -248,7 +248,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Rabbit, cats, loons",
         "Description": "When a WB is truly afraid for her safety will shriek and drive spirits away (Contested, Resistance vs Activation) - werewolves within miles of success have a chance to hear it and follow",
-        "Book": "Blood of the Wolf 127",
+        "Book": "BotW 127",
         "Tribe/Auspice": "Wolfblooded"
     },
     {
@@ -266,7 +266,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Openings",
         "Description": "Opens any Mechanical Lock",
-        "Book": "Signs, 31",
+        "Book": "SotM, 31",
         "Tribe/Auspice": "Irraka"
     },
     {
@@ -275,7 +275,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Mockingbird",
         "Description": "Can mimic the sound of one animal convincingly",
-        "Book": "Rage, 135",
+        "Book": "Rage 135",
         "Tribe/Auspice": ""
     },
     {
@@ -293,7 +293,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Any",
         "Description": "+2 to all friendly Social rolls towards spirits",
-        "Book": "WtF Core, 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -302,7 +302,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Bird",
         "Description": "Fall up to 10 feet without a sound, or float 10 feet in a straight lines, 6 inches off the ground.",
-        "Book": "WtF Core, 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -320,7 +320,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+3 to resist Knockdown, Knockout, or Stun.",
-        "Book": "Lodges, Splintered 28",
+        "Book": "LodgS 28",
         "Tribe/Auspice": "Kshatriyas Lodge"
     },
     {
@@ -329,7 +329,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Air Elemental",
         "Description": "Name a single spirit in the region of the map, and can be seen i.",
-        "Book": "Lodges, Splintered 15",
+        "Book": "LodgS 15",
         "Tribe/Auspice": "Armee Sauvage Lodge"
     },
     {
@@ -347,7 +347,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Greed",
         "Description": "+2 against the holder by Numina or Influence",
-        "Book": "Lodges, Faithful 134",
+        "Book": "LodgF 134",
         "Tribe/Auspice": "Lodge of Mammon"
     },
     {
@@ -356,7 +356,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Honor or Nobility",
         "Description": "Gain a pool of points equal to Honor, may spend them for +1 to Empathy, Persuasion, and Socialize rolls when dealing with humans. Once per Day",
-        "Book": "Signs 106",
+        "Book": "SotM 106",
         "Tribe/Auspice": "Elodoth"
     },
     {
@@ -365,7 +365,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+2 to all Physical Attribute rolls for a singe Turn, -2 to all physical next turn",
-        "Book": "Manitou Springs, 14",
+        "Book": "Manitou Springs 14",
         "Tribe/Auspice": "None"
     },
     {
@@ -392,7 +392,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Allows you to fly in the Shadow",
-        "Book": "Lodges Splintered 124",
+        "Book": "LodgS 124",
         "Tribe/Auspice": "Lodge of the Storm's Eye"
     },
     {
@@ -401,7 +401,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Points in the direction of the nearest human, wolf, or werewolf corpse within 100 yards.",
-        "Book": "Lodges, Faithful 122",
+        "Book": "LodgF 122",
         "Tribe/Auspice": "Cult of Bones"
     },
     {
@@ -428,7 +428,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Fire",
         "Description": "Dex+Composure from target, fail causes them to be blinded, using Fighting Blind. Must reflect natural firelight before it can be used",
-        "Book": "WtF Core, 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -437,7 +437,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Insects",
         "Description": "A swarm of bust attacks the target, -1 to all rolls, -1 Defense",
-        "Book": "Rage, 135",
+        "Book": "Rage 135",
         "Tribe/Auspice": ""
     },
     {
@@ -464,7 +464,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "For the rest of the scene or until the wearer initiates violence, attackers must spend 1 WP per attack to attack wearer",
-        "Book": "Rage, 197",
+        "Book": "Rage 197",
         "Tribe/Auspice": ""
     },
     {
@@ -473,7 +473,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Predatory or Parasitic",
         "Description": "Pierce flesh with the fetish. Success on activation act as a negative modifier to mystically detect the wolf-blood as anything other than a normal human.",
-        "Book": "Blood of the Wolf 128",
+        "Book": "BotW 128",
         "Tribe/Auspice": "Wolfblooded"
     },
     {
@@ -482,7 +482,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "May forgo sleep for a number of nights equal to activation successes.",
-        "Book": "Lodges, Faithful 58",
+        "Book": "LodgF 58",
         "Tribe/Auspice": "Lodge of Harbringers"
     },
     {
@@ -500,7 +500,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Lightning",
         "Description": "temporarily knocks out electrical devices",
-        "Book": "Lodges, Faithful 64",
+        "Book": "LodgF 64",
         "Tribe/Auspice": "Lodge of Lightning"
     },
     {
@@ -518,7 +518,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Toad",
         "Description": "Spend 1 point of essence, and advert Death Rage entirely. Can only be used twice",
-        "Book": "WtF Core, 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -536,7 +536,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "Attune this fetish to any target, whenever the werewolf hurts the fetish, the target suffers -2 to all rolls and defense.",
-        "Book": "Lodges Faithful",
+        "Book": "LodgF",
         "Tribe/Auspice": "Lodge of Death"
     },
     {
@@ -554,7 +554,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Harmony vrs Resistance to Banish a spirit",
-        "Book": "Lodges Splintered 46",
+        "Book": "LodgS 46",
         "Tribe/Auspice": "Lodge of the Endless Moon"
     },
     {
@@ -572,7 +572,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "All within 30 yards must roll Comp+Primal Urge- success on activation and suffers -1 to resolve rolls, may inspire Lunacy",
-        "Book": "Lodges, Faithful 101",
+        "Book": "LodgF 101",
         "Tribe/Auspice": "Lodge of Thunder Fetishes"
     },
     {
@@ -581,7 +581,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Drink, and gains 1 essence, but is at -1 to all finesse based rolls (Dex, Int, Manipulation). If ordinary human, -3",
-        "Book": "Lodges, Splintered 105",
+        "Book": "LodgS 105",
         "Tribe/Auspice": "Lodge of the Red Sands"
     },
     {
@@ -617,7 +617,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Deceit or Trickery anemials",
         "Description": "Causes a number of identical false trails (With scents, tracks, broken twigs, ect) equal to activation successes",
-        "Book": "Signs 38",
+        "Book": "SotM 38",
         "Tribe/Auspice": "Irraka"
     },
     {
@@ -626,7 +626,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Rage",
         "Description": "+1 defense in hand to hand, opponents can resist with Composure+Primal Urge",
-        "Book": "Lodges, Faithful 55",
+        "Book": "LodgF 55",
         "Tribe/Auspice": "Lodge of Garm"
     },
     {
@@ -635,7 +635,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "A deliberately spoken lie will cause this fetish to dissolve into a dozen spiders and bite the liar.",
-        "Book": "Lodges, Faithful 142",
+        "Book": "LodgF 142",
         "Tribe/Auspice": "Lodge of Unity"
     },
     {
@@ -644,7 +644,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "Send a message to a specific point, and receive it from the same point.",
-        "Book": "Lodges, Splintered 15",
+        "Book": "LodgS 15",
         "Tribe/Auspice": "Armee Sauvage Lodge"
     },
     {
@@ -689,7 +689,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Willows",
         "Description": "+3 to any targeted attack towards the heart of the victim.",
-        "Book": "Lodges Splintered 142",
+        "Book": "LodgS 142",
         "Tribe/Auspice": "Lodge of the Willow Branch"
     },
     {
@@ -698,7 +698,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Dog",
         "Description": "Change Urhan form into a domestic dog breed of the same mass, lasts for scene even through shapeshifts, but each time Urhan is assumed it may be a different breed",
-        "Book": "Blood of the Wolf, 65",
+        "Book": "BotW 65",
         "Tribe/Auspice": ""
     },
     {
@@ -707,7 +707,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Dog or Coyote",
         "Description": "+2 speed and +2 to jump tests in Hishu or Dalu for the scene",
-        "Book": "Blood of the Wolf, 65",
+        "Book": "BotW 65",
         "Tribe/Auspice": ""
     },
     {
@@ -716,7 +716,7 @@ export const fetishData = [
         "Action": "Extended",
         "Spirit": "Bee",
         "Description": "Repairs a damaged Gauntlet to its natural rating.",
-        "Book": "WtF Core, 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -725,7 +725,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Boar",
         "Description": "Once a week, can make all wounds close and stop bleeding, for one scene. No actual healing.",
-        "Book": "WtF Core, 207",
+        "Book": "WtF 207",
         "Tribe/Auspice": ""
     },
     {
@@ -734,7 +734,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Glass, Serpents, Spiders",
         "Description": "Has Armor Piercing 3, for both Armor and Durability. It is a",
-        "Book": "WtF Core, 207",
+        "Book": "WtF 207",
         "Tribe/Auspice": ""
     },
     {
@@ -752,7 +752,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "Requires no bullets, may make a single Dex+Firearms+3 attack. Does lethal, ignores armor, and requires Wits+Composure-5 to hear.",
-        "Book": "Lodges Splintered 15",
+        "Book": "LodgS 15",
         "Tribe/Auspice": "Armee Sauvage Lodge"
     },
     {
@@ -797,7 +797,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "City",
         "Description": "Points towards where the City spirit is paying attention",
-        "Book": "Lodges, Faithful 95",
+        "Book": "LodgF 95",
         "Tribe/Auspice": "Lodge of Stones"
     },
     {
@@ -824,7 +824,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Cruelty or Bloodlust",
         "Description": "Can be activated to fill the chambers with bullets, reducing damage by 1. Can be used to do Full Burst",
-        "Book": "Tribes of the Moon 45",
+        "Book": "SotM 45",
         "Tribe/Auspice": "Blood Talons"
     },
     {
@@ -833,7 +833,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Allows wearer to breath under water for one minute per success.",
-        "Book": "Lodge, Faithful 68",
+        "Book": "LodgF 68",
         "Tribe/Auspice": "Lodge of Maelstrom"
     },
     {
@@ -842,7 +842,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Blend into crowd of 5 or more, -2 to be tracked or shadowed for the rest of the scene or until spending 5 minutes away from crowds of 5 or more",
-        "Book": "Blood of the Wolf, 65",
+        "Book": "BotW 65",
         "Tribe/Auspice": ""
     },
     {
@@ -932,7 +932,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Shows the location of other packs within the lodge, grants hint to their status",
-        "Book": "Lodges, Splintered 40",
+        "Book": "LodgS 40",
         "Tribe/Auspice": "Lodge of the Black woods"
     },
     {
@@ -941,7 +941,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "Downgrade lethal to bashing or ignore bashing from a number attacks from a single foe equal to Primal Urge, usable once per session",
-        "Book": "Rage, 197",
+        "Book": "Rage 197",
         "Tribe/Auspice": ""
     },
     {
@@ -950,7 +950,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Records everything seen for 3 minutes, Attuned it can show back the scene. Can grant a +2 against foes studied through it",
-        "Book": "WtF Core, 207",
+        "Book": "WtF 207",
         "Tribe/Auspice": ""
     },
     {
@@ -959,7 +959,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Balance or Edges",
         "Description": "Take a point of lethal, cannot be healed while active. Name one group (Power, Finesse, Resistance) traits, and all rolls gain+3, while all others gain -1.",
-        "Book": "Signs 109",
+        "Book": "SotM 109",
         "Tribe/Auspice": "Elodoth"
     },
     {
@@ -967,8 +967,8 @@ export const fetishData = [
         "Rank": "3",
         "Action": "Reflexive",
         "Spirit": "Ralunium",
-        "Description": "Adds +2 to resist Death Rage, effective renown when 'meeting for the first time' is 1 higher.",
-        "Book": "Lodges, Splintered 28",
+        "Description": "Adds +2 to resist Death Rage effective renown when 'meeting for the first time' is 1 higher.",
+        "Book": "LodgS 28",
         "Tribe/Auspice": "Kshatriyas Lodge"
     },
     {
@@ -986,7 +986,7 @@ export const fetishData = [
         "Action": "Instant, Reflexive",
         "Spirit": "Owl",
         "Description": "Can fly in the shadow realm for 3 hours. -4 while flying.",
-        "Book": "WtF Core, 208",
+        "Book": "WtF 208",
         "Tribe/Auspice": ""
     },
     {
@@ -1013,7 +1013,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Peaceful Days",
         "Description": "Can create a calm spot around the user, ignoring penalties",
-        "Book": "Lodges, Faithful 64",
+        "Book": "LodgF 64",
         "Tribe/Auspice": "Lodge of Lightning"
     },
     {
@@ -1049,7 +1049,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Eagle",
         "Description": "Can move visual perceptions at walking speed up to 3 yards x Primal Urge from body. Looses Defense, has a speed of 1.",
-        "Book": "Signs 38",
+        "Book": "SotM 38",
         "Tribe/Auspice": "Irraka"
     },
     {
@@ -1067,7 +1067,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "When killing a werewolfd, blooded, wolf or lupine spirit, may store a point of essence",
-        "Book": "Lodges, Faihtful, 122",
+        "Book": "LodgF 122",
         "Tribe/Auspice": "Cult of Bones"
     },
     {
@@ -1076,7 +1076,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "Allows brawl attacks in Dalu, Gauru, and Urshul to hit ghosts, with +1 to any attack rolls. -1 to all physical rolls involving fine manipulation",
-        "Book": "Lodges, Faithful 39",
+        "Book": "LodgF 39",
         "Tribe/Auspice": "Lodge of Cerberus"
     },
     {
@@ -1094,7 +1094,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Aggressive",
         "Description": "+2 to all out attack (+4 total) and does Agg (Silver weapon. Degeneration roll to even carry.",
-        "Book": "Blasphemies 144",
+        "Book": "Blas 144",
         "Tribe/Auspice": "Balehounds"
     },
     {
@@ -1103,7 +1103,7 @@ export const fetishData = [
         "Action": "Extended",
         "Spirit": "",
         "Description": "+4 to Effective Harmony to determine what would trigger a death rage. If above 10, he cannot be provoked to Death Rage.",
-        "Book": "Signs 107",
+        "Book": "SotM 107",
         "Tribe/Auspice": "Elodoth"
     },
     {
@@ -1130,7 +1130,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Any spirit or ghost within 20 feet to become visible. Resisted with Resistance vrs Fetish Activation",
-        "Book": "WtF Core, 208",
+        "Book": "WtF 208",
         "Tribe/Auspice": ""
     },
     {
@@ -1139,7 +1139,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "May subtract a number of defense and add it to their all out attacks.",
-        "Book": "Tribes of the Moon 45",
+        "Book": "SotM 45",
         "Tribe/Auspice": "Blood Talons"
     },
     {
@@ -1202,7 +1202,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Death",
         "Description": "+3L, and does +1 against the walking dead. +2 to appropriate Medicine Rolls.",
-        "Book": "Lodges Splintered 105",
+        "Book": "LodgS 105",
         "Tribe/Auspice": "Lodge of the Red Sands"
     },
     {
@@ -1229,7 +1229,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "quick moving",
         "Description": "Grants damage resistance (7 Bashing, 5 lethal, or 3 agg) against a single attack. Auto activates on the first attack.",
-        "Book": "WtF Core, 208",
+        "Book": "WtF 208",
         "Tribe/Auspice": ""
     },
     {
@@ -1238,7 +1238,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "Can only target objects of Size 5 or less. for 4 turns, +2 against items, ignores durability.",
-        "Book": "WtF Core 208",
+        "Book": "WtF 208",
         "Tribe/Auspice": ""
     },
     {
@@ -1283,7 +1283,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+1 Str when on deck of a ship, can use the weapon underwater with no penalties",
-        "Book": "Lodge, Faithful 68",
+        "Book": "LodgF 68",
         "Tribe/Auspice": "Lodge of the Maelstrom"
     },
     {
@@ -1301,7 +1301,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "Silence, Secrecy, Murder",
         "Description": "Target rolls Resolve vs Activation. Failure means he cannot use any form of communication, from howling to email or telepathy.",
-        "Book": "Signs 38",
+        "Book": "SotM 38",
         "Tribe/Auspice": "Irraka"
     },
     {
@@ -1346,7 +1346,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Can command all other werewolves within eyesight, provided he has the highest total Renown. Can be resisted with a Resolve+Primal Urge vrs success on activation",
-        "Book": "WtF Core 209",
+        "Book": "WtF 209",
         "Tribe/Auspice": ""
     },
     {
@@ -1364,7 +1364,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Spider",
         "Description": "Spirit world grows distant in radius twice the users Harmony. Loci seal up, gifts and rites require +2 essence to use. Cannot regain essence, and spirits in twilight must spend essence every minute.",
-        "Book": "Signs 107",
+        "Book": "SotM 107",
         "Tribe/Auspice": "Elodoth"
     },
     {
@@ -1382,7 +1382,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "",
         "Description": "Must spend points of Essence equal to twice the local gauntlet rating penalty for stepping sideways., then may step sideways.",
-        "Book": "Signs 39",
+        "Book": "SotM 39",
         "Tribe/Auspice": "Irraka"
     },
     {
@@ -1391,7 +1391,7 @@ export const fetishData = [
         "Action": "Reflexive.",
         "Spirit": "",
         "Description": "+1 and 9 again against any American Born enemy",
-        "Book": "Blasphemies 88",
+        "Book": "Blas 88",
         "Tribe/Auspice": "Lodge of Crossroads"
     },
     {
@@ -1409,7 +1409,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "Agg to Males, regardless of species. No man can lift it, only a woman can.",
-        "Book": "WtF Core, 209",
+        "Book": "WtF 209",
         "Tribe/Auspice": ""
     },
     {
@@ -1463,7 +1463,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "May spend 1 essence with successful strike and add 1 lethal to the damage.",
-        "Book": "Lodges, Faithful, 101",
+        "Book": "LodgF 101",
         "Tribe/Auspice": "Lodge of Thunder"
     },
     {
@@ -1508,7 +1508,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "",
         "Description": "Increases the cost of any fetish by 1 dot, turning it into a scar or tattoo",
-        "Book": "WtF Core 206",
+        "Book": "WtF 206",
         "Tribe/Auspice": ""
     },
     {
@@ -1517,7 +1517,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Ancestor",
         "Description": "Allies regain 1 willpower for each success on activation.",
-        "Book": "Lodges, Faithful 55",
+        "Book": "LodgF 55",
         "Tribe/Auspice": "Lodge of Garm"
     },
     {
@@ -1526,7 +1526,7 @@ export const fetishData = [
         "Action": "Reflexive",
         "Spirit": "",
         "Description": "+2 str for non combat situations.",
-        "Book": "Lodges, Faithful 71",
+        "Book": "LodgF 71",
         "Tribe/Auspice": "Lodge of Metal"
     },
     {
@@ -1561,7 +1561,7 @@ export const fetishData = [
         "Rank": "2 / 3",
         "Action": "Instant",
         "Spirit": "",
-        "Description": "Adds rating to resist Death Rage, 3 point triggers automatically if entering Kuruth on ability to regain control.",
+        "Description": "Adds rating to resist Death Rage 3 point triggers automatically if entering Kuruth on ability to regain control.",
         "Book": "Tribes 182",
         "Tribe/Auspice": "Storm Lords"
     },
@@ -1580,7 +1580,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Transportation (specific types)",
         "Description": "Enter into the type of public transportation the key is attuned to, state destination or direction and emerge from any other within 5 miles per dot of the fetish, closest to the destination, usable a number of times equal to dot rating per month",
-        "Book": "Blood of the WOlf, 65",
+        "Book": "BotW, 65",
         "Tribe/Auspice": ""
     },
     {
@@ -1598,7 +1598,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Ralunim, Air Elemental",
         "Description": "Followers of the user gain +2 to imitate his actions. Gives one level of Concealment for each turn spent in combat (up to -3). As long as 3 points of damage are dealt, they must roll for knockdown at -5. If fail knockback 10+Users Str-Targets size in yards",
-        "Book": "War against the Pure, 146",
+        "Book": "WAtP, 146",
         "Tribe/Auspice": ""
     },
     {
@@ -1607,7 +1607,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Ithalunim.",
         "Description": "+3 to Intimidate any spirit that recognizes the weapon. May freely strike a spirits or ghost on either side of the gauntlet, each level of damage removes a number of essence and speed from target. Undead are Stunned by attacks.",
-        "Book": "War Against the pure, 147",
+        "Book": "WAtP, 147",
         "Tribe/Auspice": ""
     },
     {
@@ -1616,7 +1616,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Elunim, Fire Elemental",
         "Description": "+2 to resist Death Rage. The Klaive can use tthe Elemental Gifts Command Fire and Summon water (with a pool of 10) and adds +3 to attack supernatural creatures associated with Fire or Water",
-        "Book": "War Against the Pure, 147",
+        "Book": "WAtP, 147",
         "Tribe/Auspice": ""
     },
     {
@@ -1625,7 +1625,7 @@ export const fetishData = [
         "Action": "",
         "Spirit": "Cahalunim, and a conceptual of Hope",
         "Description": "Those with Vice of Pride, Wrath, and Sloth must make resolve rolls each week or gain a derangement. +2 to all expression rolls and Cahalith affinity gifts. May expend X essence to regain X willpower, once per day. Targets with vice of Pride, Wrath, and Sloth are at -2 Defense",
-        "Book": "War Against the Pure, 147",
+        "Book": "WAtP, 147",
         "Tribe/Auspice": ""
     },
     {
@@ -1634,7 +1634,7 @@ export const fetishData = [
         "Action": "Instant",
         "Spirit": "Lunar Hare and a Diamond spirit",
         "Description": "-1 To Weaponry when the Klaive is activated (Specialty can offset it). Lowers defense of targets by 1. +5 to any Jump check, and +5speed. AP2 and +1 damage.",
-        "Book": "War Against the Pure, 148",
+        "Book": "WAtP, 148",
         "Tribe/Auspice": ""
     }
 ]

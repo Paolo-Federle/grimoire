@@ -1301,7 +1301,7 @@ export const CoilsOfTheDragonData = [
             "New dots of the Coils of the Dragon are purchased like a Discipline, with the number of tiers the character already commands serving as the current level and the “new level” being the next to be achieved. For example, a character knows five tiers of the Coils of the Dragon. For him to learn a sixth, his player has to spend 42 experience points (6 [the new level in the coil] times 7 [the experience-point multiplier for out-of-clan Disciplines]). Tiers must be learned in order in each coil, though a character need not advance one coil to completion before he can advance another. That is, a character with two tiers of Coil of Blood could learn the first tier of Coil of the Beast without learning the third tier of Coil of Blood. Because the Coils of the Dragon do not constitute a true Discipline, they are not limited by Blood Potency trait maximums. A character need not have a Blood Potency of 6 to learn six different tiers of coils, for example. Yet, increasingly more dots in a coil are always bought as if they’re out-of-clan Disciplines."
         ],
         "Description": "",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Coils of the Dragon"
     },
     {
@@ -1311,7 +1311,7 @@ export const CoilsOfTheDragonData = [
             "The two major banes of the Requiem are fire and sunlight. Any attempt to conquer the curse of vampirism must overcome these two obstacles. While no vampire has yet managed to truly surmount them, the Coil of Banes provides a place to start."
         ],
         "Description": "",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Banes"
     },
     {
@@ -1321,7 +1321,7 @@ export const CoilsOfTheDragonData = [
             "The character gains a +2 bonus to resist fear frenzy triggered by fire or sunlight. Fear frenzies triggered by other stimuli occur as normal."
         ],
         "Description": "better resist frenzy from fire and sunlight",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Banes"
     },
     {
@@ -1331,7 +1331,7 @@ export const CoilsOfTheDragonData = [
             "The player can spend a Willpower point for the character to remain awake for an entire day without penalty (though the character must still take precautions to remain out of the sunlight and “waking” the next night still costs a Vitae). Dice pools during the day are still limited by Humanity (see p. 184). If the character does sleep and is disturbed, add three dice to the player’s wake-up roll."
         ],
         "Description": "spend one Willpower to remain awake all day",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Banes"
     },
     {
@@ -1341,7 +1341,7 @@ export const CoilsOfTheDragonData = [
             "Sunlight at twilight and dawn causes only bashing damage to the Dragon, rather than aggravated. After the sun has fully risen, however, its rays cause aggravated damage as usual. At sea or on a mountaintop, the sun might fully rise within a mere five minutes and take some time to set (10 minutes). In a dense forest or deep in a city, the sun might rise slowly (10 minutes) and set quickly (five minutes)."
         ],
         "Description": "sunlight at twilight/dawn causes only Bashing",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Banes"
     },
     {
@@ -1351,7 +1351,7 @@ export const CoilsOfTheDragonData = [
             "Fire causes lethal, not aggravated, damage to the Dragon. Note that, for a Dragon with Resilience, this means that fire damage can no longer be downgraded by that Discipline. The character still suffers aggravated damage from sunlight."
         ],
         "Description": "fire damage is downgraded to Lethal",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Banes"
     },
     {
@@ -1361,7 +1361,7 @@ export const CoilsOfTheDragonData = [
             "Vampires must feed on living blood to survive, and only the weakest of the Kindred can draw sustenance from the blood of animals. The Coil of Blood seeks to lift this requirement, allowing the Kindred to feed on their own terms, rather than forever be slaves to their hunger."
         ],
         "Description": "",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Blood"
     },
     {
@@ -1371,7 +1371,7 @@ export const CoilsOfTheDragonData = [
             "The Dragon’s undead body doesn’t demand as much Vitae to animate itself as do those of other, less enlightened Kindred. The player need spend only one Vitae for his character to wake for a number of nights equal to the vampire’s Resolve. So, a Kindred with a Resolve of 2 loses a Vitae every other night for rising."
         ],
         "Description": "reduce the amount of blood needed to wake",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Blood"
     },
     {
@@ -1381,7 +1381,7 @@ export const CoilsOfTheDragonData = [
             "No matter what the vampire’s Blood Potency is, she can take sustenance from animals and humans."
         ],
         "Description": "always be able to drink from humans and animals",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Blood"
     },
     {
@@ -1391,7 +1391,7 @@ export const CoilsOfTheDragonData = [
             "The character gains three Vitae for every two Vitae she takes from a human, and receives double the Vitae consumed from Kindred or other supernatural vessels."
         ],
         "Description": "multiply received Vitae",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Blood"
     },
     {
@@ -1401,7 +1401,7 @@ export const CoilsOfTheDragonData = [
             "The Kindred becomes immune to the effects of blood ties. No vampire receives bonuses based on blood ties to affect the character with Disciplines, though she retains the bonus when affecting kin with her own powers. She can choose to have her blood “read” as related to any clan whose blood she has tasted, or no clan at all. The character can still discern the tastes of another’s blood, as usual."
         ],
         "Description": "immune to blood ties to kin",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Blood"
     },
     {
@@ -1411,7 +1411,7 @@ export const CoilsOfTheDragonData = [
             "The Beast seeks always to subsume the Man, which is probably the most serious impairment on the Coils of the Dragon. If legends are true, the order’s founder struggled with his Beast even before his Embrace, and so it only makes sense that he would have pioneered a means to control it."
         ],
         "Description": "",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Beast"
     },
     {
@@ -1421,7 +1421,7 @@ export const CoilsOfTheDragonData = [
             "The player spends a Willpower point for his character to resist a frenzy of any kind automatically. The player may choose to roll Resolve + Composure as usual for his character to resist frenzy, spending the Willpower only if the roll fails."
         ],
         "Description": "spend one Willpower to resist any Frenzy",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Beast"
     },
     {
@@ -1431,7 +1431,7 @@ export const CoilsOfTheDragonData = [
             "“Riding the wave” does not cost a Willpower point, and it requires a base of only three successes, not five. All other rules still apply (see p. 181)."
         ],
         "Description": "reduce cost, ease access to 'Riding the Wave'",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Beast"
     },
     {
@@ -1441,7 +1441,7 @@ export const CoilsOfTheDragonData = [
             "The character may spend an hour per night in frenzy (usually doing so under controlled conditions such as in a locked room or far from mortals). For the rest of the night, the character does not enter frenzy unless she wishes to do so, no matter how strong the trigger is."
         ],
         "Description": "undergo willing Frenzy to prevent in the future",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Beast"
     },
     {
@@ -1451,7 +1451,7 @@ export const CoilsOfTheDragonData = [
             "The character can “ride the wave” for a number of turns per night equal to her Resolve dots without rolling to activate the frenzy. These turns may be consecutive, or they can be scattered intermittently throughout the night in any way the character likes. Turns spent in frenzy this way do not contribute to the cumulative -1 penalties on subsequent attempts to ride the wave during that same night."
         ],
         "Description": "'Ride the Wave' at will",
-        "Book": "VtR 149, OD p175",
+        "Book": "VtR 149, OD 175",
         "Discipline": "Beast"
     },
     {
@@ -1602,7 +1602,7 @@ export const CoilsOfTheDragonData = [
             ""
         ],
         "Description": "",
-        "Book": "NH-IS p87",
+        "Book": "NH-IS 87",
         "Discipline": "Slumber NH-IS"
     },
     {
@@ -1612,7 +1612,7 @@ export const CoilsOfTheDragonData = [
             "First, the vampire learning the Coil learns to focus his sleeping mind so the weight of his sins are not so heavy and dreams are easier to shrug off. The character’s Humanity rating counts as if it were 2 higher for the purpose of determining torpor duration."
         ],
         "Description": "Humanity counts as 2 higher for Torpor duration",
-        "Book": "NH-IS p87",
+        "Book": "NH-IS 87",
         "Discipline": "Slumber NH-IS"
     },
     {
@@ -1622,7 +1622,7 @@ export const CoilsOfTheDragonData = [
             "At this Tier of understanding, the character has learned to fight for wakefulness even when gripped in torpor. The character acts as though all torpor were voluntary, so may make a Resolve + Composure roll to attempt to wake up once per torpor period. A character in voluntary torpor may roll twice per base period."
         ],
         "Description": "all Torpor counts as voluntary",
-        "Book": "NH-IS p87",
+        "Book": "NH-IS 87",
         "Discipline": "Slumber NH-IS"
     },
     {
@@ -1633,7 +1633,7 @@ export const CoilsOfTheDragonData = [
             "Skinner is now working on the Fourth Tier, which he hopes will mitigate the Fog of Eternity. He expects to chrysalis into this new power sometime in the next decade."
         ],
         "Description": "Blood Potency is halved for Torpor Duration",
-        "Book": "NH-IS p87",
+        "Book": "NH-IS 87",
         "Discipline": "Slumber NH-IS"
     },
     {

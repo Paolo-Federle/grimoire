@@ -1,54 +1,54 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from "react-router-dom";
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import BaseTable from './BaseTable';
 
-export default function SimpleTable(props) {
+export default function SimpleTable({ title, upperText, maxWidth, table, headers, activeRowLink }) {
     const [isSectionActive, setIsSectionActive] = useState(true);
-    const tableHeaders = props.headers || Object.keys(props.table[0]).filter(header => header !== 'link');
     const navigate = useNavigate();
 
-    const goRouteId = (row) => {
-        navigate(`${row.link}`);
-    };
+    const tableHeaders = headers || Object.keys(table?.[0] || {}).filter(header => header !== 'link');
 
-    const handleToggleSection = () => {
-        setIsSectionActive(!isSectionActive);
+    const handleToggleSection = () => setIsSectionActive(prev => !prev);
+
+    const handleRowClick = row => {
+        if (row.link) navigate(row.link);
     };
-    console.log('props', props)
 
     return (
-        <>
-            <div>
-                {props.title && (
-                    <h1 onClick={handleToggleSection} style={{ cursor: 'pointer' }} className="text-xl">
-                        {props.title} {isSectionActive ? '∧' : '∨'}
-                    </h1>
-                )}
-                {props.upperText && isSectionActive && (
-                    <div style={{ paddingBottom: "20px", maxWidth: props.maxWidth }}>
-                        {props.upperText.map((desc, index) => (
-                            <p key={index}>
-                                {typeof desc === 'string' ? (
-                                    <span dangerouslySetInnerHTML={{ __html: desc }} />
-                                ) : (
-                                    <Link to={desc.link}>
-                                        {desc.text}
-                                    </Link>
-                                )}
-                            </p>
-                        ))}
-                    </div>
-                )}
-                {isSectionActive && (
-                    <div className='table-container'>
-                        <BaseTable
-                            headers={tableHeaders}
-                            data={props.table}
-                            onRowClick={props.activeRowLink ? goRouteId : null}
-                        />
-                    </div>
-                )}
-            </div>
-        </>
+        <div>
+            {title && (
+                <h1
+                    onClick={handleToggleSection}
+                    style={{ cursor: 'pointer' }}
+                    className="text-xl flex items-center gap-1"
+                >
+                    {title} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                </h1>
+            )}
+            {upperText && isSectionActive && (
+                <div style={{ paddingBottom: 20, maxWidth }}>
+                    {upperText.map((desc, index) => (
+                        <p key={index}>
+                            {typeof desc === 'string' ? (
+                                <span dangerouslySetInnerHTML={{ __html: desc }} />
+                            ) : (
+                                <Link to={desc.link}>{desc.text}</Link>
+                            )}
+                        </p>
+                    ))}
+                </div>
+            )}
+            {isSectionActive && (
+                <div className='table-container'>
+                    <BaseTable
+                        headers={tableHeaders}
+                        data={table}
+                        onRowClick={activeRowLink ? handleRowClick : null}
+                    />
+                </div>
+            )}
+        </div>
     );
 }

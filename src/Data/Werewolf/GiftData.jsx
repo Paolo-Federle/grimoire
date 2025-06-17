@@ -2816,26 +2816,26 @@ export const milestoneGifts = [
         {
             "Name": "Thief of Shadows",
             "Prequisites": "Cunning 5",
-            "Book": "Signs of the Moon 34"
+            "Book": "SotM of the Moon 34"
         },
         {
             "Name": "Words of Power",
             "Prequisites": "Wisdom 5, Harmony 7",
-            "Book": "Signs of the Moon 69"
+            "Book": "SotM of the Moon 69"
         },
         {
             "Name": "Absolute Authority",
             "Prequisites": "Honor 5, Harmony 7",
-            "Book": "Signs of the Moon 104"
+            "Book": "SotM of the Moon 104"
         },
         {
             "Name": "Songs of Uplifting Glory",
             "Prequisites": "Glory 5",
-            "Book": "Signs of the Moon 144"
+            "Book": "SotM of the Moon 144"
         },
         {
             "Name": "Luna's Gaze",
             "Prequisites": "Purity 5, Harmony 7",
-            "Book": "Signs of the Moon 180"
+            "Book": "SotM of the Moon 180"
         }
 ]

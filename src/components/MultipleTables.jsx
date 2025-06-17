@@ -1,60 +1,64 @@
-import { Button } from '@mui/material';
 import React, { useState } from 'react';
+import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { BookLink } from './BookLink'; // Assicurati che il path sia corretto
+import { BookLink } from './BookLink';
 
-export default function MultipleTables(props) {
+export default function MultipleTables({
+    title,
+    hideButton,
+    listOfRows,
+    displayHeaders,
+    tableFields,
+    activeRowLink
+}) {
     const [isTableVisible, setIsTableVisible] = useState(true);
-    const toggleTableVisibility = () => {
-        setIsTableVisible(!isTableVisible);
-    };
-
     const navigate = useNavigate();
-    const goRouteId = (id) => {
-        navigate(`${id}`);
+
+    const handleToggle = () => setIsTableVisible(prev => !prev);
+    const handleRowClick = (link, event) => {
+        event.preventDefault();
+        navigate(link);
     };
 
     return (
-        <div className='grid-container'>
-            <h1 className="text-xl">{props.title}</h1>
-            {!props.hideButton && (
-                <Button onClick={toggleTableVisibility} variant="contained">
+        <div className="grid-container">
+            <h1 className="text-xl">{title}</h1>
+
+            {!hideButton && (
+                <Button onClick={handleToggle} variant="contained">
                     {isTableVisible ? 'Hide' : 'Show'}
                 </Button>
             )}
+
             {isTableVisible && (
-                <div className='table-container'>
-                    <table className='spacing-table'>
+                <div className="table-container">
+                    <table className="spacing-table">
                         <tbody>
-                            {props.listOfRows.map((rows, index) => (
-                                <React.Fragment key={index}>
-                                    <tr className='table-row'>
-                                        {props.displayHeaders[index].map((header) => (
+                            {listOfRows.map((rows, tableIndex) => (
+                                <React.Fragment key={tableIndex}>
+                                    <tr className="table-row">
+                                        {displayHeaders[tableIndex].map(header => (
                                             <th key={header}>{header}</th>
                                         ))}
                                     </tr>
-                                    {rows.map((data, dataIndex) => (
-                                        <tr key={dataIndex} className="alternating-row">
-                                            {props.tableFields.map((header, i) => {
-                                                const value = data[header];
+                                    {rows.map((data, rowIndex) => (
+                                        <tr key={rowIndex} className="alternating-row">
+                                            {tableFields.map((field, fieldIndex) => {
+                                                const value = data[field];
 
-                                                if (header === 'Book') {
-                                                    return <td key={header}>{BookLink(value)}</td>;
+                                                if (field === 'Book') {
+                                                    return <td key={field}>{BookLink(value)}</td>;
                                                 }
 
-                                                if (
-                                                    i === 0 &&
-                                                    props.activeRowLink &&
-                                                    data.link
-                                                ) {
+                                                const isFirstColWithLink = 
+                                                    fieldIndex === 0 && activeRowLink && data.link;
+
+                                                if (isFirstColWithLink) {
                                                     return (
-                                                        <td key={header}>
+                                                        <td key={field}>
                                                             <a
                                                                 href={data.link}
-                                                                onClick={(e) => {
-                                                                    e.preventDefault();
-                                                                    goRouteId(data.link);
-                                                                }}
+                                                                onClick={e => handleRowClick(data.link, e)}
                                                                 style={{ textDecoration: 'underline' }}
                                                             >
                                                                 {value}
@@ -63,7 +67,7 @@ export default function MultipleTables(props) {
                                                     );
                                                 }
 
-                                                return <td key={header}>{value}</td>;
+                                                return <td key={field}>{value}</td>;
                                             })}
                                         </tr>
                                     ))}

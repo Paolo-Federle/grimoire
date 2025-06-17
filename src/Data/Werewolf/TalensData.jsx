@@ -7,7 +7,7 @@ export const TalensData = [
     {
         "Name": "Blast Pod",
         "Description": "Lights a target on fire.",
-        "Book": "War Against the Pure 53"
+        "Book": "WAtP 53"
     },
     {
         "Name": "Blindwolf Cloth",
@@ -82,7 +82,7 @@ export const TalensData = [
     {
         "Name": "Gift of Madness",
         "Description": "When blown in the face of a victim, she must make a Resolve + Primal Urge roll versus the spirit’s Power (5–7 dice) or be affected by a Phobia (wolves) for the scene",
-        "Book": "Blasphemies 80"
+        "Book": "Blas 80"
     },
     {
         "Name": "Ghost Salt",
@@ -102,7 +102,7 @@ export const TalensData = [
     {
         "Name": "Heritage Tooth",
         "Description": "Arrow head +3 to american born or changed supernatural.",
-        "Book": "Blasphemies 88"
+        "Book": "Blas 88"
     },
     {
         "Name": "Hide Paper",
@@ -112,7 +112,7 @@ export const TalensData = [
     {
         "Name": "Keep-Your-Distance",
         "Description": "With a brawl attack knock the target back 3 yards per success. Make a roll for the target to keep standing.",
-        "Book": "War Against the Pure 53"
+        "Book": "WAtP 53"
     },
     {
         "Name": "Moon’s Allure",
@@ -132,7 +132,7 @@ export const TalensData = [
     {
         "Name": "Running Rabbit",
         "Description": "Break the object to send a spirit to go get help from the werewolf protector.",
-        "Book": "Blood of the Wolf 127"
+        "Book": "BotW 127"
     },
     {
         "Name": "Sallow Bark Tea",
@@ -157,12 +157,12 @@ export const TalensData = [
     {
         "Name": "Silver Dust",
         "Description": "Silvers a weapon for 3 turns.",
-        "Book": "War Against the Pure 53"
+        "Book": "WAtP 53"
     },
     {
         "Name": "Skinner Mask",
         "Description": "Wear the living persons skin to look like them.",
-        "Book": "Blasphemies 144"
+        "Book": "Blas 144"
     },
     {
         "Name": "Soundthrower",
@@ -187,7 +187,7 @@ export const TalensData = [
     {
         "Name": "Tell-Tale",
         "Description": "Spirit bird carries a 5 word message to your target.",
-        "Book": "War Against the Pure 53"
+        "Book": "WAtP 53"
     },
     {
         "Name": "Tooth Soap",
@@ -217,7 +217,7 @@ export const TalensData = [
     {
         "Name": "Wolf’s Nose",
         "Description": "+2 to sense of smell.",
-        "Book": "Blood of the Wolf 127"
+        "Book": "BotW 127"
     },
     {
         "Name": "Wolfsbane",
@@ -227,6 +227,6 @@ export const TalensData = [
     {
         "Name": "Wound-Binders",
         "Description": "Temporarily heal 1 lethal for the scene. These come back at the end of the scene.",
-        "Book": "War Against the Pure 53"
+        "Book": "WAtP 53"
     }
 ]
