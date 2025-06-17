@@ -157,7 +157,7 @@ const bloodlineData = [
         "Description": "Tormented by the belief that the Curse is a divine punishment, each member of this unique bloodline (anyone of BP 4+ may join regardless of clan) inflicts horrific wounds upon themselves in atonement.",
         "Disciplines": "Clan Disciplines, Scourge]]",
         "Additional Weakness": "After feeding, must self-flagellate before Willpower may be spent. Failing a degeneration roll grants a penalty to all rolls until penance is paid.",
-        "Book": "Lancea 170"
+        "Book": "LS 170"
     },
     {
         "Name": "Murales",
@@ -173,7 +173,7 @@ const bloodlineData = [
         "Description": "Worshipers of beauty, they can be a great blessing to those they admire, but are dangerous to disappoint.",
         "Disciplines": "Auspex, Celerity, Majesty, Vigor",
         "Additional Weakness": "Must be bonded to another vampire of great beauty or power; when not bonded, suffers a significant penalty to Physical and Social rolls.",
-        "Book": "WW downloads]"
+        "Book": "??"
     },
     {
         "Name": "Nelapsi",
@@ -357,7 +357,7 @@ const bloodlineData = [
         "Description": "A bloodline which ritually hunts human prey, using all the modern tools of the trade.",
         "Disciplines": "Animalism, Obfuscate, Protean, Resilience",
         "Additional Weakness": "Severe penalty to resist hunger frenzy.",
-        "Book": "Ganrel 111"
+        "Book": "Gan 111"
     },
     {
         "Name": "Larvae",
@@ -365,7 +365,7 @@ const bloodlineData = [
         "Description": "Criminal family that operates at the fringes of Rome, providing illegal services to those willing to pay for them.",
         "Disciplines": "Animalism, Celerity, Protean, Resilience",
         "Additional Weakness": "Once battle has begun, even if only a friendly spar, suffers a penalty to resist anger frenzy.",
-        "Book": "RfRome 228"
+        "Book": "RfR 228"
     },
     {
         "Name": "Gens Libres, Les",
@@ -381,7 +381,7 @@ const bloodlineData = [
         "Description": "A bloodline which prefers its prey come to them, they are establishers of bars and inns in remote places, preying on travelers who happen in to the wrong place.",
         "Disciplines": "Animalism, Protean, Resilience, Vigor",
         "Additional Weakness": "When separated from others of the bloodline, suffers a penalty to all rolls, and a more severe one to Disciplines",
-        "Book": "Ganrel 110"
+        "Book": "Gan 110"
     },
     {
         "Name": "Mara, The",
@@ -421,7 +421,7 @@ const bloodlineData = [
         "Description": "Wanderers and pilgrims, this bloodline reflects a subset of the Nepheshim faction of the Lancea Sanctum, and seeks to share their beliefs with all Kindred who will hear it.",
         "Disciplines": "Auspex, Nahdad, Protean, Resilience",
         "Additional Weakness": "Taking dots in City Status, Haven, Herd, Resources, or Retainer causes the loss of all Nahdad dots. Each night they awaken in a new territory, they must spend a willpower point.",
-        "Book": "Lancea 160"
+        "Book": "LS 160"
     },
     {
         "Name": "Oberlochs",
@@ -453,7 +453,7 @@ const bloodlineData = [
         "Description": "A bloodline with a great appreciation for the Chav lifestyle.",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "SoUK 17"
+        "Book": "SotUK 17"
     },
     {
         "Name": "Vedma",
@@ -501,7 +501,7 @@ const bloodlineData = [
         "Description": "A bloodline founded by a former ghoul who is now Embraced, they maintain close ties with his ghoul family which shares the name.",
         "Disciplines": "Auspex, Celerity, Majesty, Obfuscate",
         "Additional Weakness": "Half vitae from any who are neither Mehket or Roma. Cannot embrace non-Roma.",
-        "Book": "Ghouls 96"
+        "Book": "Ghou 96"
     },
     {
         "Name": "Bak-Ra",
@@ -605,7 +605,7 @@ const bloodlineData = [
         "Description": "An ancient and infamous bloodline which can only feed on the sick and dying, a condition which they themselves may inflict with impunity.",
         "Disciplines": "Auspex, Cachexy, Celerity, Obfuscate",
         "Additional Weakness": "Cannot feed from victims who aren't ill; virtually impossible to gain Status outside of other Morbus.",
-        "Book": "VtR 244; RfRome p233"
+        "Book": "VtR 244, RfR 233"
     },
     {
         "Name": "Norvegi",
@@ -621,7 +621,7 @@ const bloodlineData = [
         "Description": "A small and nearly extinct bloodline, they are fascinated by death, thinking it holds the key to enlightenment.",
         "Disciplines": "Auspex, Celerity, Memento Mori, Obfuscate",
         "Additional Weakness": "Must spend one Vitae to flow blood before blood healing can be used in a scene, and healing is less efficient. Two Vitae are required to wake each night,",
-        "Book": "Lancea 173"
+        "Book": "LS 173"
     },
     {
         "Name": "Players",
@@ -653,7 +653,7 @@ const bloodlineData = [
         "Description": "Rare bloodline that operates as mysterious councilors and wise men for all Kindred.",
         "Disciplines": "Mention Only",
         "Additional Weakness": "-",
-        "Book": "CotD:N.Orleans p51"
+        "Book": "NOrl 51"
     },
     {
         "Name": "Tismanu",
@@ -733,7 +733,7 @@ const bloodlineData = [
         "Description": "Predators who stalked icy trenches during the great wars, vanishing prey as they pleased.",
         "Disciplines": "Celerity, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Suffuses the vicinity with great cold; cannot spend Vitae to mimic life; penalty to Obsfucate to hide their nature",
-        "Book": "AB pg18"
+        "Book": "AB 18"
     },
     {
         "Name": "Cimitière",
@@ -741,7 +741,7 @@ const bloodlineData = [
         "Description": "Unusual religious zealots of Nosferatu descent.",
         "Disciplines": "Auspex, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Must spend two points of willpower to act against personal religious beliefs; must spend one point of willpower to not pursue an opportunity to do good works by the faith.",
-        "Book": "CoTD: N. Orleans p59"
+        "Book": "NOrl 59"
     },
     {
         "Name": "Cockscomb Society, The",
@@ -749,7 +749,7 @@ const bloodlineData = [
         "Description": "Nosferatu who refuse to allow their vampirism to kill their humanity, humanity being things they equate with high society rather than spiritual qualities.",
         "Disciplines": "Majesty, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "May not regain Willpower from Virtue Fulfillment",
-        "Book": "Nosferatu 106"
+        "Book": "Nos 106"
     },
     {
         "Name": "Galloi",
@@ -781,7 +781,7 @@ const bloodlineData = [
         "Description": "A primarily Julii bloodline, known for its infirmity and weakness, who are outcasts from that clan due to their sordid and pathetic reputation.",
         "Disciplines": "Animalism, Dominate, Nightmare, Vigor",
         "Additional Weakness": "Gains the weaknesses of both clans Julii and Nosferatu.",
-        "Book": "RfRome 231"
+        "Book": "RfR 231"
     },
     {
         "Name": "Lygos",
@@ -789,7 +789,7 @@ const bloodlineData = [
         "Description": "Obsessed with the darkness that hides their features, the Lygos worship the absence of light as if it were a divinity.",
         "Disciplines": "Auspex, Nightmare, Obfuscate, Vigor",
         "Additional Weakness": "Takes penalties in bright light.",
-        "Book": "Nosferatu 107"
+        "Book": "Nos 107"
     },
     {
         "Name": "Mayarap",
@@ -901,7 +901,7 @@ const bloodlineData = [
         "Description": "A bloodline obsessed with conquest and rule, even more so than other Kindred, they feel compelled to do so as the only way they feel alive.",
         "Disciplines": "Animalism, Dominate, Protean, Resilience",
         "Additional Weakness": "All Disciplines that normally require Willpower expenditures instead require an equal amount of Vitae.",
-        "Book": "Ventrue 104"
+        "Book": "Vent 104"
     },
     {
         "Name": "Apollinaire",
@@ -1005,7 +1005,7 @@ const bloodlineData = [
         "Description": "Followers of a legendary murdered archbishop, the Icarians see themselves as pious and noble lords who believe they are natural rulers over all.",
         "Disciplines": "Animalism, Constance, Dominate, Resilience",
         "Additional Weakness": "Gains only half max Willpower from exercising Virtue, and each night's rest recovers none at all.",
-        "Book": "Lancea 167"
+        "Book": "LS 167"
     },
     {
         "Name": "Cocas, Las",
@@ -1109,7 +1109,7 @@ const bloodlineData = [
         "Description": "A primarily Julii bloodline, known for its infirmity and weakness, who are outcasts from that clan due to their sordid and pathetic reputation.",
         "Disciplines": "Animalism, Dominate, Nightmare, Vigor",
         "Additional Weakness": "Gains the weaknesses of both clans Julii and Nosferatu.",
-        "Book": "RfRome 231"
+        "Book": "RfR 231"
     },
     {
         "Name": "Unknown",
