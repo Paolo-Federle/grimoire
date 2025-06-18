@@ -118,6 +118,9 @@ import SheetTest from './pages/Generale/SheetTest';
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./css/muiTheme";
 import { slugify } from './utils';
+import MageExperiencePoints from './pages/Mage/MageExperiencePoints';
+import ChangelingExperiencePoints from './pages/Changeling/ChangelingExperiencePoints';
+import VampireExperiencePoints from './pages/Vampire/VampireExperiencePoints';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -293,6 +296,7 @@ function App() {
               Component: DevotionsDetail,
               propKey: "devotion"
             })}
+            <Route path="/vampire/experience_point" element={<VampireExperiencePoints />} />
             <Route path="/vampire/clans" element={<Clan />} />
             <Route path="/vampire/covenants" element={<Covenant />} />
             <Route path="/vampire/bloodline" element={<Bloodline />} />
@@ -318,6 +322,7 @@ function App() {
             <Route path="/mage/legacy" element={<Legacy />} />
             <Route path="/mage/merits" element={<MageMerits />} />
             <Route path="/mage/grimoires" element={<Grimoire />} />
+            <Route path="/mage/experience_point" element={<MageExperiencePoints />} />
             {generateRoutes({
               basePath: "/mage/merits",
               data: allMageMeritsData,
@@ -373,6 +378,7 @@ function App() {
             <Route path="/changeling/entitlement" element={<Entitlements />} />
             <Route path="/changeling/wyrd" element={<Wyrd />} />
             <Route path="/changeling/contracts" element={<Contracts />} />
+            <Route path="/changeling/experience_point" element={<ChangelingExperiencePoints />} />
             {generateRoutes({
               basePath: "/changeling/contracts",
               data: allContracts,

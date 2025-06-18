@@ -22,7 +22,8 @@ export default function Vampire() {
                         <h2>Technicalities</h2>
                         <p>
                             Kindred posses a unique Power Stat trait called <Link to={PATHS.VAMPIRE.BLOOD_POTENCY}>Blood Potency</Link>,
-                            and a Morality trait called <Link to={PATHS.VAMPIRE.HUMANITY}>Humanity</Link>.
+                            and a Morality trait called <Link to={PATHS.VAMPIRE.HUMANITY}>Humanity</Link>.  As Changelings grow and face challenges, they
+                                                        accumulate <Link to={PATHS.VAMPIRE.EXPERIENCE_POINTS}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
 

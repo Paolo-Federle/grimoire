@@ -25,7 +25,8 @@ export default function Changeling() {
                         <h2>Technicalities</h2>
                         <p>
                             The Lost posses a unique Power Stat trait called <Link to='/changeling/wyrd'>Wyrd</Link>, and
-                            a Morality trait called <Link to='/changeling/clarity'>Clarity</Link>.
+                            a Morality trait called <Link to='/changeling/clarity'>Clarity</Link>. As Changelings grow and face challenges, they
+                            accumulate <Link to='/changeling/experience_point'>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
 

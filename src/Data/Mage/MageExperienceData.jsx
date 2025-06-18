@@ -1,4 +1,4 @@
-const MageExperienceData = [
+export const MageExperienceData = [
     {
         'Trait': 'Attribute',
         'Experience point Cost': 'New Dots x5'
@@ -34,5 +34,3 @@ const MageExperienceData = [
         'Experience point Cost': '8'
     }
 ]
-
-export default MageExperienceData;

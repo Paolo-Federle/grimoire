@@ -71,6 +71,7 @@ export const PATHS = {
         DEVOTIONS: '/vampire/devotions',
         DEVOTION_DETAIL: (slug) => `/vampire/devotions/${slug}`,
         DEVOTION_DETAILS: VAMPIRE_DEVOTION_DETAILS,
+        EXPERIENCE_POINTS: '/vampire/experience_point',
         MERITS: '/vampire/merits',
         CLANS: '/vampire/clans',
         COVENANTS: '/vampire/covenants',

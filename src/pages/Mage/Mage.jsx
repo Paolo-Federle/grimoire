@@ -22,7 +22,8 @@ export default function Mage() {
                         <h2>Technicalities</h2>
                         <p>
                             The Wise possess a unique Power Stat trait called <Link to='/mage/gnosis'>Gnosis</Link>,
-                            and a Morality trait called <Link to='/mage/wisdom'>Wisdom</Link>.
+                            and a Morality trait called <Link to='/mage/wisdom'>Wisdom</Link>.  As Mages grow and face challenges, they
+                            accumulate <Link to='/mage/experience_point'>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
                     <div>
