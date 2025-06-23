@@ -1,16 +1,17 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable';
 import { goblinFruitData } from '../../Data/Changeling/GoblinFruitData';
+import SimpleTable from '../../components/SimpleTable';
+import { rimuoviCampi, addLink } from '../../utils';
 
 export default function GoblinFruits() {
 
-    const headers = ['Name', 'Description', 'Effect', 'Type', 'Book']
-    const headerCheckFields = ['Description']
-    const disciplineData = ['Name']
-
-    return (
-        <div className='grid-container'>
-            <ManyHeadersTable table={goblinFruitData} title={'Goblin Fruits'} headers={headers} headerCheckFields={headerCheckFields} alternateData={disciplineData}/>
-        </div>
-    );
-}
+      const campiDaRimuovere = ['LongDescription'];
+  
+      return (
+          <div className='grid-container'>
+              <SimpleTable table={rimuoviCampi(addLink(goblinFruitData, 'Name', '/changeling/goblin_fruits/'), campiDaRimuovere)}
+                  title={'Goblin Fruits'}
+                  activeRowLink={true} />
+          </div>
+      );
+  }

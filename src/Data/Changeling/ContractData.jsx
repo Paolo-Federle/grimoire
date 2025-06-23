@@ -227,7 +227,7 @@ const universalContractData = [
             }
         ],
         "Description": "Intuit features in the local Hedge",
-        "Book": "CTL 124"
+        "Book": "CtL 124"
     },
     {
         "Name": "Forging the Dream",
@@ -259,7 +259,7 @@ const universalContractData = [
             }
         ],
         "Description": "Control the contents of a sleeper's dream",
-        "Book": "CTL 125"
+        "Book": "CtL 125"
     },
     {
         "Name": "Phantasmal Bastion",
@@ -279,7 +279,7 @@ const universalContractData = [
             'Invoking this clause involves no roll, but the changeling must choose which type of fortification she wishes to invoke. If she chooses a defensive augmentation, she gains a number of phantom points of Willpower for the purposes of determining how much damage in the dreamscape she may suffer before falling to exhaustion. These phantom Willpower points are lost first during the oneiromachy. If she chooses an offensive augmentation, she may double her Wyrd for the purposes of seeing how effective her attacks in the dreamscape are. A changeling may invoke this power for both offensive and defensive augmentation, at a cost of one Glamour each, but she may not “stack” multiple offensive or defensive augmentations. '
         ],
         "Description": "Gain Wyrd as a bonus to oneiromachic attack or defense",
-        "Book": "CTL 126"
+        "Book": "CtL 126"
     },
     {
         "Name": "Cobblethought",
@@ -312,7 +312,7 @@ const universalContractData = [
             }
         ],
         "Description": "Draw a single item or phenomenon out of a dream briefly",
-        "Book": "CTL 126"
+        "Book": "CtL 126"
     },
     {
         "Name": "Dreamsteps",
@@ -342,7 +342,7 @@ const universalContractData = [
             }
         ],
         "Description": "Enter a sleeper's dreams to exit through another's elsewhere",
-        "Book": "CTL 127"
+        "Book": "CtL 127"
     },
     {
         "Name": "Contracts of Hearth",
@@ -387,7 +387,7 @@ const universalContractData = [
             '<b>Ban:</b> The character invoking Fickle Fate may not use it to affect the same subject more than once an hour. If he does, the Fickle Fate visits him on his next attempted action instead of his intended victim.'
         ],
         "Description": "Curse an action for -2",
-        "Book": "CTL 128"
+        "Book": "CtL 128"
     },
     {
         "Name": "Favored Fate",
@@ -408,7 +408,7 @@ const universalContractData = [
             '<b>Ban:</b> If Favored Fate is used to augment the same specific type of action — shooting at an enemy, climbing a balcony, chasing prey — before the sun has risen or set since the last attempt it affected, the powers that be frown on the abuse of their attentions. Each time this occurs, one action, decided upon by the Storyteller for dramatic effect, automatically fails, with no dice roll involved. This is just a standard failure and will not yield a dramatic failure result, so it’s best used on actions that would normally not depend upon a chance die.'
         ],
         "Description": "Bless an action for +4",
-        "Book": "CTL 128"
+        "Book": "CtL 128"
     },
     {
         "Name": "Beneficent Fate",
@@ -429,7 +429,7 @@ const universalContractData = [
             '<b>Ban:</b> A subject may benefit from the favors of Beneficent Fate only once per day. If the Contract is invoked on a sigle character more than once in a single day, the subject’s next actively attempted instant action is instead resolved with a chance die, regardless of what dice pool or modifiers actually apply to the roll.'
         ],
         "Description": "Bless an action with guaranteed minimal success",
-        "Book": "CTL 128"
+        "Book": "CtL 128"
     },
     {
         "Name": "Fortuna’s Cornucopia",
@@ -450,7 +450,7 @@ const universalContractData = [
             '<b>Ban:</b> If Fortuna’s Cornucopia is visited upon an individual more than once in a single day, the Contract fails to grace the subject in its standard manner. If this blessing is invoked more frequently for the character, one action, decided upon by the Storyteller for dramatic effect, automatically results in a dramatic failure, with no dice roll involved. The fates treat these as general dramatic failures, not to be automatically construed as catastrophic failures or fatal failures. For example, a character may accidentally reveal his identity when he’s trying to masquerade as someone else (as opposed to simply failing to convince his mark that he’s another person).'
         ],
         "Description": "Bless an action with 8-Again",
-        "Book": "CTL 129"
+        "Book": "CtL 129"
     },
     {
         "Name": "Triumphal Fate",
@@ -472,7 +472,7 @@ const universalContractData = [
             '<b>Ban:</b> Triumphal Fates come only rarely, and those who would supplant the Muses with whatever inscrutable powers that inspire this Contract’s successes are in for an ugly surprise. If any character is set to be the beneficiary of a Triumphal Fate more than once within a period of a year and a day, the action designated for the Triumphal Fate is doomed to be a dramatic failure instead of an exceptional success. The architects of Fate aren’t stupid, though, and a changeling who attempts to deliberately set up a failure in this method is going to find himself the recipient of disaster, instead. In fact, trying to wrangle this Contract in that manner probably generates a result beyond what mere rules can suggest. But believe us, if there were such a thing as a “horrendous failure, and malignant aftermath” on a die roll, changelings who try to contrive a situation like this would earn it.'
         ],
         "Description": "Bless an action with guaranteed exceptional success",
-        "Book": "CTL 129"
+        "Book": "CtL 129"
     },
     {
         "Name": "Contracts of Hours",
@@ -864,7 +864,7 @@ const universalContractData = [
             }
         ],
         "Description": "Take the appearance of another seeming or kith,",
-        "Book": "CTL 129"
+        "Book": "CtL 129"
     },
     {
         "Name": "Skinmask",
@@ -894,7 +894,7 @@ const universalContractData = [
             }
         ],
         "Description": "Disguise one bodily feature as that of another.",
-        "Book": "CTL 130"
+        "Book": "CtL 130"
     },
     {
         "Name": "Transfigure the Flesh",
@@ -917,7 +917,7 @@ const universalContractData = [
             '<b>Exceptional Success:</b> As with a normal success (as extra successes increase the versatility of the power), only the character’s Health remains at her regular score if she chooses to shrink herself.'
         ],
         "Description": "Change Size.",
-        "Book": "CTL 131"
+        "Book": "CtL 131"
     },
     {
         "Name": "Oddbody",
@@ -942,7 +942,7 @@ const universalContractData = [
             '<b>Exceptional Success:</b> As with a standard success, only the Contract is so effective, the Oddbody effect confers the benefits of two features as described above.'
         ],
         "Description": "Manifest an unnatural bodily feature, which may provide a bonus or act as a natural weapon or armor.",
-        "Book": "CTL 131"
+        "Book": "CtL 131"
     },
     {
         "Name": "Chrysalis",
@@ -968,7 +968,7 @@ const universalContractData = [
             '<b>Exceptional Success:</b> The character may change from one object to another while the Contract’s power lasts as an instant action.'
         ],
         "Description": "Transform into a mechanically simple inanimate object.",
-        "Book": "CTL 131"
+        "Book": "CtL 131"
     },
     {
         "Name": "Contracts of the Moon",
@@ -1352,7 +1352,7 @@ const universalContractData = [
             'No roll is necessary. When The Wrong Foot takes effect, evidence of the changeling’s passing change to resemble something other than the visitation of a humanlike entity. This may be tracks similar to a bird’s three-toed foot, a bloody mist, drips of lavender extract — whatever the character chooses. Note that this Contract always creates the same result, so the character should think about how he wants this to manifest before the first time he uses it, and should clear it with the Storyteller before it comes into play. This substance or mark supersedes all other evidence of passage, so footprints will vanish but the slime-spray will take its place in every case, whether or not the ground was soft enough to hold a footprint. The Wrong Foot does not change the appearance of previously made marks, however. Therefore, this limits the practical application of the Contract in numerous situations, so many changelings have come to rely on The Wrong Foot to leave a sort of “calling card,” whether or not they wish to obfuscate pursuit. Once activated, this Contract functions for the duration of the scene.'
         ],
         "Description": "Leave some other mark of your presence instead of human traces.",
-        "Book": "CTL 132"
+        "Book": "CtL 132"
     },
     {
         "Name": "Nevertread",
@@ -1382,7 +1382,7 @@ const universalContractData = [
             }
         ],
         "Description": "Pass without trace.",
-        "Book": "CTL 132"
+        "Book": "CtL 132"
     },
     {
         "Name": "Shadowpatch",
@@ -1411,7 +1411,7 @@ const universalContractData = [
             }
         ],
         "Description": "Conjure dampening shadows for +3 Stealth.",
-        "Book": "CTL 133"
+        "Book": "CtL 133"
     },
     {
         "Name": "Murkblur",
@@ -1441,7 +1441,7 @@ const universalContractData = [
             }
         ],
         "Description": "Temporarily blind a subject.",
-        "Book": "CTL 133"
+        "Book": "CtL 133"
     },
     {
         "Name": "Smoke-Stepping",
@@ -1501,7 +1501,7 @@ const universalContractData = [
             }
         ],
         "Description": "Brief invisibility.",
-        "Book": "CTL 133"
+        "Book": "CtL 133"
     },
     {
         "Name": "Contracts of Thorns and Brambles",
@@ -1907,7 +1907,7 @@ const beastlyContractsData = [
             }
         ],
         "Description": "Speak with animals of your chosen breeds.",
-        "Book": "CTL 142"
+        "Book": "CtL 142"
     },
     {
         "Name": "Beast’s Keen Senses",
@@ -1937,7 +1937,7 @@ const beastlyContractsData = [
             }
         ],
         "Description": "+2 perception bonus and either a sense characteristic to the chosen animal or an additional +2.",
-        "Book": "CTL 142"
+        "Book": "CtL 142"
     },
     {
         "Name": "Pipes of the Beastcaller",
@@ -1966,7 +1966,7 @@ const beastlyContractsData = [
             }
         ],
         "Description": "Command animals of the chosen breeds.",
-        "Book": "CTL 143"
+        "Book": "CtL 143"
     },
     {
         "Name": "Tread of the Swift Hooves",
@@ -1995,7 +1995,7 @@ const beastlyContractsData = [
             }
         ],
         "Description": "Move like the chosen animal for a scene.",
-        "Book": "CTL 143"
+        "Book": "CtL 143"
     },
     {
         "Name": "Cloak of the Bear’s Massive Form",
@@ -2025,7 +2025,7 @@ const beastlyContractsData = [
             }
         ],
         "Description": "Take the form of the chosen animal, with all associated benefits.",
-        "Book": "CTL 143"
+        "Book": "CtL 143"
     },
     {
         "Name": "Contracts of the Wild",
@@ -2260,7 +2260,7 @@ const darklingContractsData = [
             }
         ],
         "Description": "Render one or multiple targets susceptible to fear or intimidation.",
-        "Book": "CTL 136"
+        "Book": "CtL 136"
     },
     {
         "Name": "Night’s Subtle Distractions",
@@ -2289,7 +2289,7 @@ const darklingContractsData = [
             }
         ],
         "Description": "Double environmental penalties to perception.",
-        "Book": "CTL 136"
+        "Book": "CtL 136"
     },
     {
         "Name": "Balm of Unwakeable Slumber",
@@ -2318,7 +2318,7 @@ const darklingContractsData = [
             }
         ],
         "Description": "Prevent a sleeping target from being woken by disturbances.",
-        "Book": "CTL 137"
+        "Book": "CtL 137"
     },
     {
         "Name": "Boon of the Scuttling Spider",
@@ -2348,7 +2348,7 @@ const darklingContractsData = [
             }
         ],
         "Description": "Move across solid surfaces in defiance of gravity.",
-        "Book": "CTL 137"
+        "Book": "CtL 137"
     },
     {
         "Name": "Touch of Paralyzing Shudder",
@@ -2377,7 +2377,7 @@ const darklingContractsData = [
             }
         ],
         "Description": "Inflict spasms of fear that half motor control traits and pools.",
-        "Book": "CTL 138"
+        "Book": "CtL 138"
     },
     {
         "Name": "Contracts of Shade and Spirit",
@@ -2731,7 +2731,7 @@ const elementalContractsData = [
             ''
         ],
         "Description": "Protection from passive harm by the chosen element for a scene. Reduce elemental damage by your Wyrd, except when fashioned into a weapon.",
-        "Book": "CTL 138"
+        "Book": "CtL 138"
     },
     {
         "Name": "Armor of the Element’s Fury",
@@ -2761,7 +2761,7 @@ const elementalContractsData = [
             }
         ],
         "Description": "Conjure an elemental aura for a scene. Confers 1 Armor and half Wyrd in lethal contact damage.",
-        "Book": "CTL 139"
+        "Book": "CtL 139"
     },
     {
         "Name": "Control Elements",
@@ -2803,7 +2803,7 @@ const elementalContractsData = [
             }
         ],
         "Description": "Reshape or manipulate an amount of the chosen element around you.",
-        "Book": "CTL 139"
+        "Book": "CtL 139"
     },
     {
         "Name": "Calling the Element",
@@ -2832,7 +2832,7 @@ const elementalContractsData = [
             }
         ],
         "Description": "Summon or beckon manifestations of the element for a scene.",
-        "Book": "CTL 140"
+        "Book": "CtL 140"
     },
     {
         "Name": "Become the Primal Foundation",
@@ -2864,7 +2864,7 @@ const elementalContractsData = [
             }
         ],
         "Description": "Transform into the chosen element, either hardy and solid or swift and malleable.",
-        "Book": "CTL 140"
+        "Book": "CtL 140"
     },
     {
         "Name": "Contracts of the Wild",
@@ -3450,7 +3450,7 @@ const fairestContractsData = [
             }
         ],
         "Description": "Appear to be a figure of authority or fame for a scene.",
-        "Book": "CTL 146"
+        "Book": "CtL 146"
     },
     {
         "Name": "Songs of Distant Arcadia",
@@ -3479,7 +3479,7 @@ const fairestContractsData = [
             }
         ],
         "Description": "Add Wyrd as bonus dice to Expression and Persuasion for a scene.",
-        "Book": "CTL 147"
+        "Book": "CtL 147"
     },
     {
         "Name": "Splendor of the Envoy’s Protection",
@@ -3510,7 +3510,7 @@ const fairestContractsData = [
             }
         ],
         "Description": "Safely lower the Mask for a scene, gaining a +2 Striking Looks bonus. So long as you make no shows of aggression, characters must be supernatural beings and roll Resolve + Composure to assault you. In Victorian society, replace one bonus die with two temporary dots of Status.",
-        "Book": "CTL 147, VL 23"
+        "Book": "CtL 147, VL 23"
     },
     {
         "Name": "Mantle of Terrible Beauty",
@@ -3540,7 +3540,7 @@ const fairestContractsData = [
             }
         ],
         "Description": "Safely lower the Mask for a scene. Failed contestants flee or cower and cannot invest effort with Willpower, and those who succeed suffer -2 to attack you.",
-        "Book": "CTL 147"
+        "Book": "CtL 147"
     },
     {
         "Name": "Words of Memories Never Lived",
@@ -3571,7 +3571,7 @@ const fairestContractsData = [
             }
         ],
         "Description": "Illustrate an emotionally charged story to introduce it to the audience as false memories in which they were involved.",
-        "Book": "CTL 148"
+        "Book": "CtL 148"
     }
 ]
 
@@ -3758,7 +3758,7 @@ const ogreishContractsData = [
             }
         ],
         "Description": "Temporarily boost Strength.",
-        "Book": "CTL 144"
+        "Book": "CtL 144"
     },
     {
         "Name": "Ogre’s Rending Grasp",
@@ -3787,7 +3787,7 @@ const ogreishContractsData = [
             }
         ],
         "Description": "Sap an object's Durability.",
-        "Book": "CTL 144"
+        "Book": "CtL 144"
     },
     {
         "Name": "Display Grandiose Might",
@@ -3816,7 +3816,7 @@ const ogreishContractsData = [
             }
         ],
         "Description": "Boost Strength for a scene while refraining from combat.",
-        "Book": "CTL 145"
+        "Book": "CtL 145"
     },
     {
         "Name": "Gluttonous Feast of Health",
@@ -3846,7 +3846,7 @@ const ogreishContractsData = [
             }
         ],
         "Description": "Reduce lethal damage to bashing or aggravated to lethal by gorging yourself for an hour.",
-        "Book": "CTL 145"
+        "Book": "CtL 145"
     },
     {
         "Name": "Red Rage of Terrible Vengeance",
@@ -3875,7 +3875,7 @@ const ogreishContractsData = [
             }
         ],
         "Description": "Enter a bold battle-rage which boosts Strength, Stamina, Initiative, and Armor for the duration.",
-        "Book": "CTL 146"
+        "Book": "CtL 146"
     }
 ]
 
@@ -4096,7 +4096,7 @@ const wizenedContractsData = [
             }
         ],
         "Description": "Repair a device for a day, using minute scraps, in half the normal time.",
-        "Book": "CTL 134"
+        "Book": "CtL 134"
     },
     {
         "Name": "Touch of the Workman’s Wrath",
@@ -4126,7 +4126,7 @@ const wizenedContractsData = [
             }
         ],
         "Description": "Hex a device by touch, making it require constant maintenance.",
-        "Book": "CTL 134"
+        "Book": "CtL 134"
     },
     {
         "Name": "Blessing of Perfection",
@@ -4156,7 +4156,7 @@ const wizenedContractsData = [
             }
         ],
         "Description": "Tinker to smooth operations, adding Wyrd as an equipment bonus to a device or tinkering task for a scene.",
-        "Book": "CTL 135"
+        "Book": "CtL 135"
     },
     {
         "Name": "Unmaker’s Destructive Gaze",
@@ -4185,7 +4185,7 @@ const wizenedContractsData = [
             }
         ],
         "Description": "Jam, halt, or incapacitate a device with a glare.",
-        "Book": "CTL 135"
+        "Book": "CtL 135"
     },
     {
         "Name": "Tatterdemalion’s Workshop",
@@ -4219,7 +4219,7 @@ const wizenedContractsData = [
             }
         ],
         "Description": "Craft sophisticated works by jury-rigging inappropriate components, which fall apart after a scene, or with Willpower, until sunrise. In the Victorian era, may produce anachronistic wonders.",
-        "Book": "CTL 135, VL 23"
+        "Book": "CtL 135, VL 23"
     },
     {
         "Name": "Contracts of the Forge",
@@ -4770,7 +4770,7 @@ const springCourtContractsData = [
         "Court Goodwill Requirement if not a member": "Court Goodwill (Spring)",
         "FullCost": "",
         "Cost": "N/A",
-        "Dice Pool": "Lords of Summer 39"
+        "Dice Pool": "LoS 39"
     },
     {
         "Rank": "•",
@@ -5244,7 +5244,7 @@ const summerCourtContractsData = [
         "Court Goodwill Requirement if not a member": "Court Goodwill (Summer)",
         "FullCost": "",
         "Cost": "N/A",
-        "Dice Pool": "Lords of Summer 59"
+        "Dice Pool": "LoS 59"
     },
     {
         "Rank": "•",
@@ -5734,7 +5734,7 @@ const autumnCourtContractsData = [
         "Court Goodwill Requirement if not a member": "Court Goodwill (Autumn)",
         "FullCost": "",
         "Cost": "N/A",
-        "Dice Pool": "Lords of Summer 79"
+        "Dice Pool": "LoS 79"
     },
     {
         "Rank": "•",
@@ -6204,7 +6204,7 @@ const winterCourtContractsData = [
         "Court Goodwill Requirement if not a member": "Court Goodwill (Winter)",
         "FullCost": "",
         "Cost": "N/A",
-        "Dice Pool": "Lords of Summer 99"
+        "Dice Pool": "LoS 99"
     },
     {
         "Rank": "•",
@@ -6844,7 +6844,7 @@ const goblinContractData = [
         "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
-        "Book": "Rites of Spring 117"
+        "Book": "RoS 117"
     },
     {
         "Rank": "•",
@@ -7015,7 +7015,7 @@ const goblinContractData = [
         "FullCost": "",
         "Cost": "N/A",
         "Dice Pool": "N/A",
-        "Book": "Rites of Spring 120"
+        "Book": "RoS 120"
     },
     {
         "Rank": "•",
@@ -7226,7 +7226,7 @@ const goblinContractData = [
         "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Occult",
-        "Book": "DiD 65"
+        "Book": "DitD 65"
     },
     {
         "Rank": "••",
@@ -7251,7 +7251,7 @@ const goblinContractData = [
         "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Presence - Composure",
-        "Book": "DiD 66"
+        "Book": "DitD 66"
     },
     {
         "Rank": "•••",
@@ -7279,7 +7279,7 @@ const goblinContractData = [
         "FullCost": "",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Occult",
-        "Book": "DiD 66"
+        "Book": "DitD 66"
     },
     {
         "Rank": "••••",
@@ -7303,7 +7303,7 @@ const goblinContractData = [
         "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Occult",
-        "Book": "DiD 67"
+        "Book": "DitD 67"
     },
     {
         "Rank": "•••••",
@@ -7326,7 +7326,7 @@ const goblinContractData = [
         "FullCost": "2 Glamour and 1 Willpower",
         "Cost": "●●○",
         "Dice Pool": "Wyrd + Occult - Subject's Wyrd",
-        "Book": "DiD 68"
+        "Book": "DitD 68"
     }
 ]
 
@@ -7491,7 +7491,7 @@ const unclassifiedGoblinContractData = [
         "FullCost": "2 Glamour",
         "Cost": "●●",
         "Dice Pool": "Wyrd + Dexterity",
-        "Book": "Rites of Spring 114"
+        "Book": "RoS 114"
     },
     {
         "Name": "Dream Rendering",

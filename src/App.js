@@ -121,6 +121,8 @@ import { slugify } from './utils';
 import MageExperiencePoints from './pages/Mage/MageExperiencePoints';
 import ChangelingExperiencePoints from './pages/Changeling/ChangelingExperiencePoints';
 import VampireExperiencePoints from './pages/Vampire/VampireExperiencePoints';
+import { goblinFruitData } from './Data/Changeling/GoblinFruitData';
+import GoblinFruitsDetail from './pages/Changeling/GoblinFruitsDetail';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -395,6 +397,12 @@ function App() {
             <Route path="/changeling/merits" element={<ChangelingMerits />} />
             <Route path="/changeling/clarity" element={<Clarity />} />
             <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
+            {generateRoutes({
+              basePath: "/changeling/goblin_fruits",
+              data: goblinFruitData,
+              Component: GoblinFruitsDetail,
+              propKey: "goblinFruit"
+            })}
             <Route path="/changeling/tokens" element={<Token />} />
             <Route path="/changeling/token_rules" element={<TokenRules />} />
             {generateRoutes({

@@ -1163,7 +1163,7 @@ const ChangelingBookData = [
     },
 
     {
-        'Code Name': 'CTL',
+        'Code Name': 'CtL',
         'Type': 'Core',
         'Title': 'Changeling: The Lost',
         "Description": "The core rulebook for the Changeling: The Lost",
@@ -1518,8 +1518,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "05/09",
         "Game Line": "HTV Night Stalkers",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/qmsqd/hpnj/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1527,8 +1527,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "06/07",
         "Game Line": "Vampire: The Requiem",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/qmsqd/bbvm/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "CWork",
@@ -1536,17 +1536,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "01/07",
         "Game Line": "WoD Chicago",
-        'LinkTo': '',
-        'PagesOffset': ''
-    },
-    {
-        "Code Name": "",
-        "Title": "City in the Sand",
-        "Description": "",
-        "Date": "07/09",
-        "Game Line": "MET: Requiem",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/qmsqd/zzol/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1554,8 +1545,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "09/10",
         "Game Line": "Werewolf: The Forsaken",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/qmsqd/zgnz/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1563,8 +1554,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "01/08",
         "Game Line": "Vampire: The Requiem",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/qmsqd/snut/#p=',
+        'PagesOffset': '0'
     },
     {
         "Code Name": "",
@@ -1572,8 +1563,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "08/09",
         "Game Line": "Geist: The Sin-Eaters",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/dymxg/ykhe/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1581,8 +1572,8 @@ export const ModulesBooksData = [
         "Description": "free html",
         "Date": "10/09",
         "Game Line": "World of Darkness",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/dymxg/mggt/#p=',
+        'PagesOffset': '0'
     },
     {
         "Code Name": "",
@@ -1599,17 +1590,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "07/10",
         "Game Line": "WoD Inferno",
-        'LinkTo': '',
-        'PagesOffset': ''
-    },
-    {
-        "Code Name": "",
-        "Title": "Falling Scales Chapter One Chapter Two",
-        "Description": "-  pdf pdf",
-        "Date": "-  02/12 08/12",
-        "Game Line": "",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/dymxg/qund/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1617,8 +1599,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "08/07",
         "Game Line": "Changeling: The Lost",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/dymxg/egyy/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1626,8 +1608,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "07/09",
         "Game Line": "World of Darkness",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/dymxg/amyv/#p=2',
+        'PagesOffset': '0'
     },
     {
         "Code Name": "",
@@ -1635,8 +1617,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "02/08",
         "Game Line": "WoD Midnight Roads",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/rjrdg/datc/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1644,8 +1626,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "08/09",
         "Game Line": "Geist: The Sin-Eaters",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/rjrdg/lhjr/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1653,8 +1635,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "08/10",
         "Game Line": "Vampire: The Requiem",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/rjrdg/nsoh/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "",
@@ -1662,8 +1644,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "05/11",
         "Game Line": "Vampire: The Requiem",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/rjrdg/araq/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "LoP",
@@ -1671,8 +1653,8 @@ export const ModulesBooksData = [
         "Description": "",
         "Date": "03/08",
         "Game Line": "Mage: The Awakening",
-        'LinkTo': '',
-        'PagesOffset': ''
+        'LinkTo': 'https://online.fliphtml5.com/rjrdg/mxii/#p=',
+        'PagesOffset': '2'
     },
     {
         "Code Name": "MWO",

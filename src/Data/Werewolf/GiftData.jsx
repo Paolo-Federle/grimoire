@@ -935,35 +935,35 @@ export const giftData = [
         "Name": "Yimidhirr’s Musket",
         "Description": "Set flammable material on fire by pointing at it with a lit firestick.",
         "Cost": "●",
-        "Book": "Splintered 59"
+        "Book": "LodgS 59"
     },
     {
         "Rank": "••",
         "Name": "Adder Smoke",
         "Description": "Smoke fills immediate area, dealing 1 bashing damage per turn and -1 finesse rolls to non-pack members.",
         "Cost": "●",
-        "Book": "Splintered 59"
+        "Book": "LodgS 59"
     },
     {
         "Rank": "•••",
         "Name": "Smokestep",
         "Description": "Walk on smoke or clouds.",
         "Cost": "●",
-        "Book": "Splintered 60"
+        "Book": "LodgS 60"
     },
     {
         "Rank": "••••",
         "Name": "Paths of the Ancestors",
         "Description": "Smoke points towards a specified locus.",
         "Cost": "●",
-        "Book": "Splintered 60"
+        "Book": "LodgS 60"
     },
     {
         "Rank": "•••••",
         "Name": "Wombat’s Curse",
         "Description": "Curse target to remain in whatever form they currently occupy.",
         "Cost": "●●●●●",
-        "Book": "Splintered 60"
+        "Book": "LodgS 60"
     },
     {
         "Rank": "N/A",
@@ -1103,35 +1103,35 @@ export const giftData = [
         "Name": "Ratsquirm",
         "Description": "Renders the user's bones flexible, so they may move through tight spaces.",
         "Cost": "-",
-        "Book": "Faithful 129"
+        "Book": "LodgF 129"
     },
     {
         "Rank": "••",
         "Name": "Knocktale",
         "Description": "Send an encoded message through pipes or stones, which may be understood by anyone who has this gift.",
         "Cost": "-",
-        "Book": "Faithful 130"
+        "Book": "LodgF 130"
     },
     {
         "Rank": "•••",
         "Name": "Tunnelscent",
         "Description": "Significantly enhances non-sight senses for the purposes of navigating underground.",
         "Cost": "-",
-        "Book": "Faithful 130"
+        "Book": "LodgF 130"
     },
     {
         "Rank": "••••",
         "Name": "Stoneburrow",
         "Description": "Grows long mole-like claws that can shred through stone or concrete, but is of only limited combat use.",
         "Cost": "●",
-        "Book": "Faithful 130"
+        "Book": "LodgF 130"
     },
     {
         "Rank": "•••••",
         "Name": "Tunnelwrath",
         "Description": "Triggers a tunnel to strike out at a target, causing significant damage.",
         "Cost": "●●",
-        "Book": "Faithful 130"
+        "Book": "LodgF 130"
     },
     {
         "Rank": "N/A",
@@ -1607,35 +1607,35 @@ export const giftData = [
         "Name": "Word of Opening",
         "Description": "Any barrier to information opens, provided it is not locked.",
         "Cost": "-",
-        "Book": "Faithful 50"
+        "Book": "LodgF 50"
       },
       {
         "Rank": "••",
         "Name": "Lurker’s Key",
         "Description": "Attempts to open a barrier, be it physical or digital, with a bonus.",
         "Cost": "●",
-        "Book": "Faithful 50"
+        "Book": "LodgF 50"
       },
       {
         "Rank": "•••",
         "Name": "Create Opening",
         "Description": "Creates a small, clean opening in a physical object.",
         "Cost": "●○",
-        "Book": "Faithful 51"
+        "Book": "LodgF 51"
       },
       {
         "Rank": "••••",
         "Name": "The Open Mind",
         "Description": "Disorients a target with massive quantities of information, inflicting a penalty to all actions equal to the greater of activation successes or Primal Urge.",
         "Cost": "-",
-        "Book": "Faithful 51"
+        "Book": "LodgF 51"
       },
       {
         "Rank": "•••••",
         "Name": "Gauntlet Key",
         "Description": "Allows the user to cross back and forth across the Gauntlet; must be completely alone and unobserved to use, and it cannot be used for purposes of assassination or violence.",
         "Cost": "●●●",
-        "Book": "Faithful 51"
+        "Book": "LodgF 51"
       },
       {
         "Rank": "N/A",
@@ -1817,35 +1817,35 @@ export const giftData = [
         "Name": "Shrike’s Vengeance",
         "Description": "Makes a prayer to the Lodge of Wrath's totem spirit, who grants the ability to inflict lethal damage with any attack to a specific target for one scene.",
         "Cost": "-",
-        "Book": "Faithful 115"
+        "Book": "LodgF 115"
       },
       {
         "Rank": "••",
         "Name": "Sinful Thoughts",
         "Description": "Sends a spirit to attack a perceived sinner, sapping their willpower.",
         "Cost": "●",
-        "Book": "Faithful 115"
+        "Book": "LodgF 115"
       },
       {
         "Rank": "•••",
         "Name": "Shrike’s Larder",
         "Description": "Curses a target, such that they cannot die until the end of the scene or the user of the gift allows them to do so. Only works if the victim's \"fatal\" damage was inflicted by the user or their pack-mates.",
         "Cost": "○",
-        "Book": "Faithful 116"
+        "Book": "LodgF 116"
       },
       {
         "Rank": "••••",
         "Name": "Guilt’s Lure",
         "Description": "Inspires a target with a desire to return to a place they sinned.",
         "Cost": "●",
-        "Book": "Faithful 116"
+        "Book": "LodgF 116"
       },
       {
         "Rank": "•••••",
         "Name": "Shrike’s Feast",
         "Description": "Touch a target, and inflict lethal damage, while simultaneously draining Essence or Willpower.",
         "Cost": "●",
-        "Book": "Faithful 116"
+        "Book": "LodgF 116"
       },
       {
         "Rank": "N/A",
@@ -2069,7 +2069,7 @@ export const giftData = [
         "Name": "• - •••••",
         "Description": "Each level can make the sound of activating gifts of the same level completely silent",
         "Cost": "●",
-        "Book": "Splintered 129"
+        "Book": "LodgS 129"
       },
       {
         "Rank": "N/A",
@@ -2335,35 +2335,35 @@ export const giftData = [
         "Name": "Lay of the Land",
         "Description": "Learn the population of a Territory, as well as seeing the totem of the pack that claims it",
         "Cost": "-",
-        "Book": "Territories 48"
+        "Book": "Terr 48"
       },
       {
         "Rank": "••",
         "Name": "Minor Sending",
         "Description": "Send a whispered message to a packmate while on your territory",
         "Cost": "●",
-        "Book": "Territories 48"
+        "Book": "Terr 48"
       },
       {
         "Rank": "•••",
         "Name": "Sense of the Territory",
         "Description": "Learn the location of all Loci, Werewolves and spirits Rank 3 or higher",
         "Cost": "●",
-        "Book": "Territories 48"
+        "Book": "Terr 48"
       },
       {
         "Rank": "••••",
         "Name": "Animate the Land",
         "Description": "A chosen skill either receives bonuses for packmates or penalties for enemies",
         "Cost": "●●",
-        "Book": "Territories 49"
+        "Book": "Terr 49"
       },
       {
         "Rank": "•••••",
         "Name": "Disrupt Essence",
         "Description": "All powers cost twice as much essence for non-pack members",
         "Cost": "●●●",
-        "Book": "Territories 50"
+        "Book": "Terr 50"
       },
       {
         "Rank": "N/A",
@@ -2791,51 +2791,51 @@ export const milestoneGifts = [
         {
             "Name": "Backstage Synchronicity",
             "Prequisites": "",
-            "Book": "Tribes of the Moon 149"
+            "Book": "Tribes 149"
         },
         {
             "Name": "Destoyer’s Jaws, The",
             "Prequisites": "",
-            "Book": "Tribes of the Moon 46"
+            "Book": "Tribes 46"
         },
         {
             "Name": "Eyes of Death Wolf",
             "Prequisites": "",
-            "Book": "Tribes of the Moon 78"
+            "Book": "Tribes 78"
         },
         {
             "Name": "Hunter’s Bounty, The",
             "Prequisites": "",
-            "Book": "Tribes of the Moon 112"
+            "Book": "Tribes 112"
         },
         {
             "Name": "Storm’s Whisper",
             "Prequisites": "",
-            "Book": "Tribes of the Moon 183"
+            "Book": "Tribes 183"
         },
         {
             "Name": "Thief of Shadows",
             "Prequisites": "Cunning 5",
-            "Book": "SotM of the Moon 34"
+            "Book": "SotM 34"
         },
         {
             "Name": "Words of Power",
             "Prequisites": "Wisdom 5, Harmony 7",
-            "Book": "SotM of the Moon 69"
+            "Book": "SotM 69"
         },
         {
             "Name": "Absolute Authority",
             "Prequisites": "Honor 5, Harmony 7",
-            "Book": "SotM of the Moon 104"
+            "Book": "SotM 104"
         },
         {
             "Name": "Songs of Uplifting Glory",
             "Prequisites": "Glory 5",
-            "Book": "SotM of the Moon 144"
+            "Book": "SotM 144"
         },
         {
             "Name": "Luna's Gaze",
             "Prequisites": "Purity 5, Harmony 7",
-            "Book": "SotM of the Moon 180"
+            "Book": "SotM 180"
         }
 ]
