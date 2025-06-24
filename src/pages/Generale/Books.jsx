@@ -19,7 +19,7 @@ export default function Books(props) {
     ];
 
     // Define the headers that correspond to your data keys
-    const tableFields = ['Code Name', 'Type', 'Title', 'Release Date'];
+    const tableFields = ['Code Name', 'Type', 'Title', 'Description', 'Release Date'];
 
 
     const renderedBookTables = bookData.map((book, index) => (
