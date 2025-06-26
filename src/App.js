@@ -45,7 +45,7 @@ import Changeling from './pages/Changeling/Changeling';
 import Contracts from './pages/Changeling/Contracts';
 import { allContracts } from './Data/Changeling/ContractData';
 import ContractsDetail from './pages/Changeling/ContractsDetail';
-import Oaths from './pages/Changeling/Oaths';
+import Pledges from './pages/Changeling/Pledges';
 import ChangelingMerits from './pages/Changeling/ChangelingMerits';
 import ChangelingMeritsDetail from './pages/Changeling/ChangelingMeritsDetail';
 import GoblinFruits from './pages/Changeling/GoblinFruits';
@@ -393,7 +393,7 @@ function App() {
               Component: ChangelingMeritsDetail,
               propKey: "merits"
             })}
-            <Route path="/changeling/oaths" element={<Oaths />} />
+            <Route path="/changeling/pledges" element={<Pledges />} />
             <Route path="/changeling/merits" element={<ChangelingMerits />} />
             <Route path="/changeling/clarity" element={<Clarity />} />
             <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />

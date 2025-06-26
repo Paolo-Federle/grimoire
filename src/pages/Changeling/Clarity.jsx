@@ -13,8 +13,6 @@ export default function Clarity() {
             <p><b>Bonuses / Drawbacks:</b></p>
             <p><i>Clarity 6:</i> May use the Kenning ability.</p>
 
-            <h2 className="mt-4">Clarity Breaking Points</h2>
-
             {clarityBreakingPointsData.map((entry, index) => {
                 const title = `Clarity ${entry["Clarity Level"]} Breaking Points`;
                 const sourceLinks = getFlipHtmlPageUrlsFromSource(entry.Book, allBooks);

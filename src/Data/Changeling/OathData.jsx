@@ -1,8 +1,8 @@
-const oathData = [
+export const pledgeData = [
     {
         "Title": "The Ancient Pact",
         "Description": "Makes a Changeling and a mortal lifelong allies, ensorcells a mortal and obligates the Changeling to protect his dreams from Fey incursion. The mortal then recieves a 3 or 4 point merit (Or +2 to an existing one), and the Changeling gets the same, as well as one easy point of Glamour a day.",
-        "Book": "Lost 187"
+        "Book": "CtL 187"
     },
     {
         "Title": "Brotherhood in Arms",
@@ -17,12 +17,12 @@ const oathData = [
     {
         "Title": "The Dove’s Promise",
         "Description": "The oath for joining the Doves, a mercenary group of Fey hunting assassins and ambushers.",
-        "Book": "AN28"
+        "Book": "AN 28"
     },
     {
         "Title": "Forgiveness of the Imp",
         "Description": "The Changeling sincerely apologizes in return for a small favor and a promise of peace.",
-        "Book": "WM118"
+        "Book": "WM 118"
     },
     {
         "Title": "Fostering Oath",
@@ -37,27 +37,27 @@ const oathData = [
     {
         "Title": "Good Neighbors Pact",
         "Description": "Both parties agree to stop squabbling for one year and a day.",
-        "Book": "Lost 188"
+        "Book": "CtL 188"
     },
     {
         "Title": "The Heart’s Oath",
         "Description": "Changeling wedding.",
-        "Book": "Lost 190"
+        "Book": "CtL 190"
     },
     {
         "Title": "The Knight’s Oath",
         "Description": "Like Commendation, but for hardcores. Lasts longer, and with more willingness to die (But not necessarily be a soldier). The Liege pays the Knight some Glamour every month, the Knight gets a combat skill, while the Liege gets a sweet one dot merit (Or +1 to an existing merit).",
-        "Book": "Lost 189"
+        "Book": "CtL 189"
     },
     {
         "Title": "The Motley Pledge",
         "Description": "Finalizes the existence of a Motley in the eyes of the Wyrd for a year and a day. The Changelings must help each other as though they were family. Everyone get a free skill point, plus 2 dots in a merit (or +2 to an existing merit). The merit and skill must be the same for all pledgers.",
-        "Book": "Lost 188"
+        "Book": "CtL 188"
     },
     {
         "Title": "Oath of the Rose and Thorn",
         "Description": "Ensorcells a mortal for a month, opening his eyes to the fae, but forcing him to keep quiet about it.  Grants the Changeling the right to ask for a single favor from the mortal.",
-        "Book": "Lost 186"
+        "Book": "CtL 186"
     },
     {
         "Title": "Penitent’s Pledge",
@@ -67,12 +67,12 @@ const oathData = [
     {
         "Title": "Pledge of Horn and Bone",
         "Description": "The basic dream insurance package.  The Changeling goes in every night, keeps things running smoothly and Fae free, and comes out with a point of Glamour. In return, the Changeling must keep the dream a secret.",
-        "Book": "Lost 187"
+        "Book": "CtL 187"
     },
     {
         "Title": "The Reaper’s Pledge",
         "Description": "The Changeling does chores for a week in exchange for some Glamour and a daily token of thanks.",
-        "Book": "Lost 185"
+        "Book": "CtL 185"
     },
     {
         "Title": "Secrets of the Dead River, The",
@@ -87,13 +87,11 @@ const oathData = [
     {
         "Title": "Freehold's Defender",
         "Description": "Oath sworn on the Knight's title to defend the freehold, granting a number of combat bonuses to the defenders present.",
-        "Book": "SD 148"
-    },
-    {
-        "Title": "Pledge Curses",
-        "Description": "Description",
-        "Book": "Book"
-    },
+        "Book": "SaD 148"
+    }
+]
+
+export const pledgeCurses = [
     {
         "Title": "Oath of Ceaseless Striving",
         "Description": "\"I will not rest until this is done!\"  Whenever the victim stops working at his task, even if it's so much as setting down his pencil or going to sleep, he will be cursed with a year of bad luck.",
@@ -135,5 +133,3 @@ const oathData = [
         "Book": "DitD 47"
     }
 ]
-
-export { oathData }
