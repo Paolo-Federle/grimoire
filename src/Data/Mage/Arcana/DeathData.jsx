@@ -434,6 +434,22 @@ const deathThreeData = [
         "Book": "TotM 134"
     },
     {
+        "Titolo": "Call Shadow Person",
+        "Arcana": "Death ••• + Mind ••• + Spirit •••",
+        "DescrizioneAlta": "“Shadow People,” as they are known by the Sleeper occult community, are, allegedly, entities from another layer of reality. It is uncertain whether they are demons, ghosts, spirits, astral beings or something else. Often connected to the sites of particularly potent hauntings (not necessarily ghostly in origin), these beings are usually accompanied by feelings of dread and are sometimes reported as chasing or even harming people.",
+        "Practice": "Weaving",
+        "Action": "Instant",
+        "Duration": "Prolonged (1 scene)",
+        "Aspect": "Vulgar",
+        "Cost": "None",
+        "DescrizioneMiddle": "Shadow People, apparently, will always consent to be summoned into a place rife with what they consider a pleasing resonance, and are often known to linger long after the Duration of the spell elapses, as though somehow feeding on the darker ambient energies of the Fallen World. As Shadow People are not normally present anywhere in this reality, no Space component is necessary to call them to the caster’s present location; they simply arrive when called, though the willworker enjoys no particular protection from the entity’s attentions, unless she has taken such preparations in advance. Otherwise, this spell is in every way similar to the “Lesser Spirit Summons” and “Greater Spirit Summons” spells of the Spirit Arcanum (Mage: The Awakening, pp. 247 and 249).",
+        "RoteName": "Rote: Call to Darkness",
+        "RoteDice": "<b>Dice Pool:</b> Intelligence + Intimidation + Death",
+        "RoteDescrizione": "Some believe the Shadow People are dark powers called up by hurtful magic and sent to afflict one’s enemies with fear and suffering. By way of this spell, a willworker can do just that, sending a hateful darkness to torment her foes, or those who otherwise offend against her.",
+        "DescrizioneBreve": "summon a nasty spirit creature",
+        "Book": "GoG 78"
+    },
+    {
         "Titolo": "Control Ghost",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage can force a ghost to perform an action. A single, simple command (“Attack!” “Flee!” “Stand there!”) can be issued per success.",

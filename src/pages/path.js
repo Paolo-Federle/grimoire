@@ -59,8 +59,8 @@ export const PATHS = {
     TRAITS: '/traits',
     LEXYCON: '/lexycon',
     SETTINGS: '/settings',
-    UNIVERSAL_MERITS_BASE: '/universal_merits',
-    DERANGEMENTS_BASE: '/derangements',
+    UNIVERSAL_MERITS: '/universal_merits',
+    DERANGEMENTS: '/derangements',
     LOCATIONS_BASE: '/merits/location',
 
     VAMPIRE: {
@@ -71,7 +71,6 @@ export const PATHS = {
         DEVOTIONS: '/vampire/devotions',
         DEVOTION_DETAIL: (slug) => `/vampire/devotions/${slug}`,
         DEVOTION_DETAILS: VAMPIRE_DEVOTION_DETAILS,
-        EXPERIENCE_POINTS: '/vampire/experience_point',
         MERITS: '/vampire/merits',
         CLANS: '/vampire/clans',
         COVENANTS: '/vampire/covenants',
@@ -79,6 +78,7 @@ export const PATHS = {
         BLOOD_POTENCY: '/vampire/blood_potency',
         GHOUL_FAMILIES: '/vampire/ghoul_families',
         HUMANITY: '/vampire/humanity',
+        EXPERIENCE: '/vampire/experience_point'
     },
 
     SPIRIT: {
@@ -86,46 +86,59 @@ export const PATHS = {
         NUMINA_DETAIL: (slug) => `/spirit/numina/${slug}`,
         NUMINA_DETAILS: SPIRIT_NUMINA_DETAILS,
     },
-    DERANGEMENTS: DERANGEMENT_DETAILS,
-    LOCATIONS: LOCATION_DETAILS,
-    UNIVERSAL_MERITS: UNIVERSAL_MERIT_DETAILS,
 
     MAGE: {
         BASE: '/mage',
-        MERITS: MAGE_MERIT_DETAILS,
+        MERITS: '/mage/merits',
         LEGACIES: MAGE_LEGACY_DETAILS,
-        SPELLS: MAGE_SPELL_DETAILS,
-        // ARTIFACTS: MAGE_ARTIFACT_DETAILS,
-        IMBUED_ITEMS: MAGE_IMBUED_ITEM_DETAILS,
+        LEGACY: '/mage/legacy',
+        SPELLS: '/mage/spells',
+        ARTIFACTS: '/mage/artifacts',
+        IMBUED_ITEMS: '/mage/imbued_items',
         PATH: '/mage/path',
         ORDER: '/mage/order',
         GNOSIS: '/mage/gnosis',
         WISDOM: '/mage/wisdom',
         GRIMOIRES: '/mage/grimoires',
         ARCANA: MAGE_ARCANA,
+        EXPERIENCE: '/mage/experience_point'
     },
     WEREWOLF: {
-        BASE: 'werewolf',
+        BASE: '/werewolf',
+        GIFTS: '/werewolf/gifts',
+        RITES: '/werewolf/rites',
+        MERITS: '/werewolf/merits',
+        FETISHES: '/werewolf/fetishes',
+        TALENS: '/werewolf/talens',
+        AUSPICES: '/werewolf/auspices',
+        TRIBES: '/werewolf/tribes',
+        LODGES: '/werewolf/lodges',
+        PRIMAL_URGE: '/werewolf/primal_urge',
+        HARMONY: '/werewolf/harmony',
     },
 
     CHANGELING: {
         BASE: '/changeling',
-        CONTRACTS: CHANGELING_CONTRACT_DETAILS,
-        MERITS: CHANGELING_MERIT_DETAILS,
-        TOKENS: CHANGELING_TOKEN_DETAILS,
+        CONTRACTS: '/changeling/contracts',
+        MERITS: '/changeling/merits',
+        TOKENS: '/changeling/tokens',
         KITHS: '/changeling/kiths',
+        SEEMINGS: '/changeling/seemings',
         COURT: '/changeling/court',
         ENTITLEMENTS: '/changeling/entitlement',
         WYRD: '/changeling/wyrd',
-        OATHS: '/changeling/oaths',
+        PLEDGES: '/changeling/pledges',
         CLARITY: '/changeling/clarity',
         GOBLIN_FRUITS: '/changeling/goblin_fruits',
         TOKEN_RULES: '/changeling/token_rules',
+        EXPERIENCE: '/changeling/experience_point'
     },
 
     HUNTER: {
         BASE: '/hunter',
-        DREAD_POWERS: HUNTER_DREAD_POWER_DETAILS,
+        COMPACT_CONSPIRANCY: '/hunter/compacts_conspiracies',
+        PROFESSION: '/hunter/profession',
+        DREAD_POWERS: '/hunter/dread_powers',
         ENDOWMENTS: '/hunter/endowments',
         TACTICS: '/hunter/tactics',
         MERITS: '/hunter/merits',
@@ -141,16 +154,31 @@ export const PATHS = {
         TOOLS: '/mortal/tools',
         VEHICLES: '/mortal/vehicles',
         WEAPONS: '/mortal/weapons',
+        THAUMATURGY: '/mortal/thaumaturgy',
+        PSYCHIC_POWERS: 'mortal/psychics_powers'
     },
 
     PROMETHEAN: {
         BASE: '/promethean',
+        LINEAGE: '/promethean/lineage',
+        REFINEMENTS: '/promethean/refinements',
+        ATHANOR: '/promethean/athanor',
+        AZOTH: '/promethean/azoth',
+        HUMANITY: '/promethean/humanity',
         TRANSMUTATIONS: '/promethean/transmutations',
+        BESTOWMENTS: '/promethean/bestowment',
         MERITS: '/promethean/merits',
     },
 
     GEIST: {
         BASE: '/geist',
+        THRESHOLDS:'/geist/thresholds',
+        ARCHETYPES: '/geist/archetypes',
+        KREWE_TRAITS:'/geist/krewe_traits',
+        PSYCHE: '/geist/psyche',
+        SYNERGY: '/geist/synergy',
+        MANIFESTATION: '/geist/manifestations',
+        
         KEYS_AND_HAUNTS: '/geist/keys_and_haunts',
         CEREMONIES: '/geist/ceremonies',
         MERITS: '/geist/merits',
@@ -159,10 +187,18 @@ export const PATHS = {
 
     MUMMY: {
         BASE: '/mummy',
+        GUILD: '/mummy/guild',
+        DECREE: '/mummy/decree',
+        JUDGE: '/mummy/judge',
+        SEKHEM: '/mummy/sekhem',
+        MEMORY: '/mummy/memory',
         AFFINITIES: '/mummy/affinities',
         UTTERANCES: '/mummy/utterances',
         MERITS: '/mummy/merits',
         RELICS: '/mummy/relics',
     },
+    OTHERS: {
+        ASPECTS_FAVORRS: '/aspects_favors'
+    }
 };
 

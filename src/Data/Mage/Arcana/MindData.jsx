@@ -1058,6 +1058,22 @@ const mindThreeData = [
         "Book": "TotM 25"
     },
     {
+        "Titolo": "Goetic Inversion",
+        "Arcana": "Mind •••",
+        "DescrizioneAlta": "The goeticist can separate her Virtue from the core of her consciousness, compelling her to resist her better nature, or else find her inmost",
+        "Practice": "Ruling",
+        "Action": "Instant (contested when cast upon another: resistance is reflexive; roll Resolve + Gnosis)",
+        "Duration": "Prolonged (one hour)",
+        "Aspect": "Covert",
+        "Cost": "None",
+        "DescrizioneMiddle": "This spell calls up an inner demon, tainted by an inherent connection the Abyss, and bonds it to the mage’s consciousness. Thereafter, whenever the mage’s Virtue is called into question, he must resist and deny that Virtue, or else risk losing some measure of his self-confidence and resolve (in the form of Willpower). To defy the “demon of virtue,” the willworker makes a reflexive and contested roll of his Gnosis + Mind versus his Resolve + Composure. If the Gnosis + Mind roll succeeds, the mage may act according to his Virtue, but regains no Willpower for doing so. If he fails, he must act directly counter to his Virtue, as well as losing a point of Willpower. Whether or not the mage succeeds in contesting the demon, however, it remains for the full duration of the spell, unless consciously banished.<p>Note that a willworker may cast this spell upon a willing subject with Mind 4, and upon an unwilling one with Mind 5.</p><p><i>Example: Logos, a Master of the Mind Arcanum, successfully casts Goetic Inversion upon Nero, another willworker. Nero is a Thyrsus, with no dots in Mind, and a Virtue of Fortitude. While he is still under the influence of Goetic Inversion, Nero’s Sleepwalker little sister becomes trapped inside a burning building. Normally, he would charge in, heedless of the danger or any harm to himself to rescue her, but the demon bound to Nero attempts to compel him to deny his Fortitude. Nero’s player rolls three dice (Nero’s Gnosis) versus six dice (the sum of his Resolve and Composure); the Resolve + Composure roll wins out and not only does Nero lose a point of Willpower, but he also flees the scene, abandoning his beloved sibling to her fate.</i></p><p>When the spell’s Duration expires, the demon seems to depart completely, leaving no trace that can be followed, whether magically or otherwise. In reality, it leaves the mind and spirit of its host, fleeing into Twilight, where it recuperates from the strain of passage and gathers its strength before finding an appropriate place from which to propagate its Influence. Casting this spell is an act of hubris, requiring a degeneration roll from any mage with a Wisdom higher than 2.</p>",
+        "RoteName": "Abyssal Rote: Virtue’s End",
+        "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Mind",
+        "RoteDescrizione": "By studying Eli BenMenechem’s grimoire, a willworker can learn this terrible rote, enabling her to divide herself against her Virtue, or to inflict such a fate upon another. <p>The spell, however, only forms the first half of the Abyssal intrusion. While it erodes Virtue and facilitates the spread of wickedness in the world, thereby altering the Fallen World’s metaphysical climate to one friendlier to Abyssal entities, the “demons of virtue” that the spell calls up are the true intruders, beings capable of infecting human souls with the corruption of the void.</p>",
+        "DescrizioneBreve": "resist Virtue with Abyssal side effects",
+        "Book": "IEwtA 107"
+    },
+    {
         "Titolo": "Goetic Struggle",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Most treatises on goetic magic begin by teaching an initiate to master his own Vice.",

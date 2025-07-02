@@ -186,6 +186,22 @@ const primeOneData = [
         "Book": "M:tA 220"
     },
     {
+        "Titolo": "Abyssal Perception",
+        "Arcana": "Prime • + Death • + Prime • + Space • + Spirit •",
+        "DescrizioneAlta": "This spell enables a mage to perceive the presence of Abyssal phenomena, though it is not properly a Mage Sight. Rather, this sense manifests as a powerful awareness of the pressing “wrongness” of the Abyss as the willworker closes on it (or, conversely, as it closes on the willworker...).",
+        "Practice": "Knowing",
+        "Action": "Instant",
+        "Duration": "Prolonged (1 scene)",
+        "Aspect": "Covert",
+        "Cost": "None",
+        "DescrizioneMiddle": "After casting this spell, the mage becomes attuned to the alien emanations of the Abyss, detecting them through feelings and images of fear, pain, horror and otherwise skewed awareness of the world around him. Ordinary scenes and occurrences take on a malevolent cast, as inhuman whispers circulate through the crowd at a train station, deformed faces leer from shadowed corners (and vanish the instant the character looks back), moans of suffering and ecstasy well up from manhole covers and other images of the gruesome and nightmarish transpire just at the edge of perception. Characters unprepared for the experience (think of the title character’s glimpses of the bizarre and the terrifying in the 1990 film Jacob’s Ladder for an idea of just how this sense manifests) are likely to develop 1 or more derangements. <p>Even when Abyssal phenomena are not at hand, light seems a little cold and thin through the lens of this magic; everything looks a little more rundown, the eyes of living things are flat and unreflective, wind seems a bit too still, while normal noises sound muffled and whispers are a bit too loud. Any mage who uses this spell on too regular a basis will almost certainly find that all sense of reality begins to wear thin, as an expectation of Abyssal intrusion takes hold of her. Eventually, she might become afraid not to have this magic active — who knows when the Abyss will come calling, after all?</p>",
+        "RoteName": "Gazing into the Abyss",
+        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Prime",
+        "RoteDescrizione": "Pain and fear such as the human mind cannot ken await those who look long into the Abyss. Still, to some Awakened, the power to know the presence of that which must not be is worth the cost, or, at least, so they believe.",
+        "DescrizioneBreve": "perceive presence of Abyssal phenomena",
+        "Book": "GoG 77"
+    },
+    {
         "Titolo": "Supernal Vision",
         "Arcana": "Prime •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). This is the most potent of the resonance-detecting senses and the Storyteller should be lavish with its details, explaining intricacies of any given source of resonance that would likely be invisible to one using another Arcanum. Some details, however, are best analyzed with other Arcana (in the way that Matter is best suited to “thick” or “ponderous” resonances), or better still in conjunction with Prime. Many mages describe this sense as sight, though some claim to “smell” or “taste” lingering sorcery on a person or place.<p>Others simply speak of a sixth sense or other esoteric perception that defies ordinary categorization.</p>",

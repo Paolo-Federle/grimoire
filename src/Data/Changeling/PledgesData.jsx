@@ -133,3 +133,21 @@ export const pledgeCurses = [
         "Book": "DitD 47"
     }
 ]
+
+export const MorpheanBargainsData = [
+    {
+        "Title": "The Boon of the White Twins",
+        "Description": "Granted by the Pale Brother after succeeding in a quest. Pick a person. You can bring him back to life when he dies, but afterwards your destinies will be intertwined, and both of you will die at the same moment.",
+        "Book": "DitD 45"
+    },
+    {
+        "Title": "The Dark Huntress Pact",
+        "Description": "Accept a quest from The Rogue Sister. For destroying one of the Moirae, you can remove one of your Pledges.",
+        "Book": "DitD 46"
+    },
+    {
+        "Title": "The Vow of All Consuming Fire",
+        "Description": "The Ruinous Prince doesn't require a quest. This pledge will make you powerful and successful, before it all comes crashing down on you.",
+        "Book": "DitD 47"
+    },
+]

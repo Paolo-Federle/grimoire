@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../css/Navbar.css';
+import { PATHS } from '../pages/path';
 
 export default function Navbar() {
     const [isMobileNavVisible, setMobileNavVisible] = useState(false);
@@ -14,13 +15,22 @@ export default function Navbar() {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 770);
         };
-
         window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    const navItems = [
+        { label: 'Home', to: PATHS.HOME },
+        { label: 'Mortals', to: PATHS.MORTAL.BASE },
+        { label: 'Vampire', to: PATHS.VAMPIRE.BASE },
+        { label: 'Werewolf', to: PATHS.WEREWOLF.BASE },
+        { label: 'Mage', to: PATHS.MAGE.BASE },
+        { label: 'Promethean', to: PATHS.PROMETHEAN.BASE },
+        { label: 'Changeling', to: PATHS.CHANGELING.BASE },
+        { label: 'Hunter', to: PATHS.HUNTER.BASE },
+        { label: 'Geist', to: PATHS.GEIST.BASE },
+        { label: 'Mummy', to: PATHS.MUMMY.BASE },
+    ];
 
     return (
         <>
@@ -29,31 +39,25 @@ export default function Navbar() {
                     &#9776;
                 </span>
             )}
-            <div className={`sidenav ${isMobileNavVisible && isMobile ? 'show' : ''}`}>
-                <a href="javascript:void(0)" className="closebtn" onClick={toggleMobileNav}>&times;</a>
-                <NavLink exact to="/" onClick={toggleMobileNav}>Home</NavLink>
-                <NavLink exact to="/mortal" onClick={toggleMobileNav}>Mortals</NavLink>
-                <NavLink exact to="/vampire" onClick={toggleMobileNav}>Vampire</NavLink>
-                <NavLink exact to="/werewolf" onClick={toggleMobileNav}>Werewolf</NavLink>
-                <NavLink exact to="/mage" onClick={toggleMobileNav}>Mage</NavLink>
-                <NavLink exact to="/promethean" onClick={toggleMobileNav}>Promethean</NavLink>
-                <NavLink exact to="/changeling" onClick={toggleMobileNav}>Changeling</NavLink>
-                <NavLink exact to="/hunter" onClick={toggleMobileNav}>Hunter</NavLink>
-                <NavLink exact to="/geist" onClick={toggleMobileNav}>Geist</NavLink>
-                <NavLink exact to="/mummy" onClick={toggleMobileNav}>Mummy</NavLink>
-            </div>
-            {!isMobile && (
+
+            {isMobile ? (
+                <div className={`sidenav ${isMobileNavVisible ? 'show' : ''}`}>
+                    <a href="javascript:void(0)" className="closebtn" onClick={toggleMobileNav}>
+                        &times;
+                    </a>
+                    {navItems.map(({ label, to }) => (
+                        <NavLink key={to} exact to={to} onClick={toggleMobileNav}>
+                            {label}
+                        </NavLink>
+                    ))}
+                </div>
+            ) : (
                 <div className="navbar">
-                    <NavLink exact to="/">Home</NavLink>
-                    <NavLink exact to="/mortal">Mortals</NavLink>
-                    <NavLink exact to="/vampire">Vampire</NavLink>
-                    <NavLink exact to="/werewolf">Werewolf</NavLink>
-                    <NavLink exact to="/mage">Mage</NavLink>
-                    <NavLink exact to="/promethean">Promethean</NavLink>
-                    <NavLink exact to="/changeling">Changeling</NavLink>
-                    <NavLink exact to="/hunter">Hunter</NavLink>
-                    <NavLink exact to="/geist">Geist</NavLink>
-                    <NavLink exact to="/mummy">Mummy</NavLink>
+                    {navItems.map(({ label, to }) => (
+                        <NavLink key={to} exact to={to}>
+                            {label}
+                        </NavLink>
+                    ))}
                 </div>
             )}
         </>

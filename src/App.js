@@ -72,15 +72,15 @@ import MummyMerits from './pages/Mummy/MummyMerits';
 import Relic from './pages/Mummy/Relic';
 import Numina from './pages/Spirit/Numina';
 import NuminaDetail from './pages/Spirit/NuminaDetail';
-import Mortal from './pages/MortalsAndOthers/Mortal';
-import Armor from './pages/MortalsAndOthers/Armor';
-import Tools from './pages/MortalsAndOthers/Tools';
-import Reliquary from './pages/MortalsAndOthers/Reliquary';
-import Vehicle from './pages/MortalsAndOthers/Vehicle';
-import Weapon from './pages/MortalsAndOthers/Weapon';
-import MortalMerits from './pages/MortalsAndOthers/MortalMerits';
-import Thaumaturgy from './pages/MortalsAndOthers/Lesser templates/Thaumaturgy';
-import PsychicsPowers from './pages/MortalsAndOthers/Lesser templates/Psychics';
+import Mortal from './pages/MortalsAndTemplates/Mortal';
+import Armor from './pages/MortalsAndTemplates/Armor';
+import Tools from './pages/MortalsAndTemplates/Tools';
+import Reliquary from './pages/MortalsAndTemplates/Reliquary';
+import Vehicle from './pages/MortalsAndTemplates/Vehicle';
+import Weapon from './pages/MortalsAndTemplates/Weapon';
+import MortalMerits from './pages/MortalsAndTemplates/MortalMerits';
+import Thaumaturgy from './pages/MortalsAndTemplates/Lesser templates/Thaumaturgy';
+import PsychicsPowers from './pages/MortalsAndTemplates/Lesser templates/Psychics';
 import { allUniMeritsData } from './Data/universalMeritsData'
 import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
 import Books from './pages/Generale/Books';
@@ -109,9 +109,9 @@ import Wyrd from './pages/Changeling/Wyrd';
 import Bloodline from './pages/Vampire/Bloodline';
 import BloodPotency from './pages/Vampire/BloodPotency';
 import GhoulFamilies from './pages/Vampire/Ghoul';
-import Morality from './pages/MortalsAndOthers/Morality';
+import Morality from './pages/MortalsAndTemplates/Morality';
 import Humanity from './pages/Vampire/Humanity';
-import VirtueVice from './pages/MortalsAndOthers/VirtueVice';
+import VirtueVice from './pages/MortalsAndTemplates/VirtueVice';
 import TokensDetail from './pages/Changeling/TokensDetail';
 import TokenRules from './pages/Changeling/TokenRules';
 import SheetTest from './pages/Generale/SheetTest';
@@ -123,6 +123,21 @@ import ChangelingExperiencePoints from './pages/Changeling/ChangelingExperienceP
 import VampireExperiencePoints from './pages/Vampire/VampireExperiencePoints';
 import { goblinFruitData } from './Data/Changeling/GoblinFruitData';
 import GoblinFruitsDetail from './pages/Changeling/GoblinFruitsDetail';
+import { PATHS } from './pages/path';
+import Archetypes from './pages/Geist/Archetypes';
+import Decrees from './pages/Mummy/Decrees';
+import Synergy from './pages/Geist/Synergy';
+import Guilds from './pages/Mummy/Guilds';
+import Memory from './pages/Mummy/Memory';
+import Professions from './pages/Hunter/Professions';
+import KreweTraits from './pages/Geist/KreweTraits';
+import Thresholds from './pages/Geist/Thresholds';
+import AspectsAndFavors from './pages/Others/AspectsAndFavors';
+import Auspices from './pages/Werewolf/Auspices';
+import Harmony from './pages/Werewolf/Harmony';
+import Lodges from './pages/Werewolf/Lodges';
+import PrimalUrge from './pages/Werewolf/PrimalUrge';
+import Tribes from './pages/Werewolf/Tribes';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -236,110 +251,114 @@ function App() {
         <Navbar />
         <div className={`page-container ${categoryStyle}`}>
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/sheet" element={<SheetTest />} />
-            <Route path="/books" element={<Books />} />
-            <Route path="/size" element={<Size />} />
-            <Route path="/merits/location" element={<Location />} />
+            <Route path={PATHS.HOME} element={<Home />} />
+            <Route path={PATHS.SHEET} element={<SheetTest />} />
+            <Route path={PATHS.BOOKS} element={<Books />} />
+            <Route path={PATHS.SIZE} element={<Size />} />
+            <Route path={PATHS.LOCATIONS_BASE} element={<Location />} />
+            <Route path={PATHS.ITEMS} element={<Items />} />
+            <Route path={PATHS.SKILLS} element={<Skills />} />
             {generateRoutes({
-              basePath: "/merits/locations",
+              basePath: PATHS.LOCATIONS_BASE,
               data: allLocation,
               Component: LocationDetail,
               propKey: "location"
             })}
-            <Route path="/items" element={<Items />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/universal_merits" element={<UniversalMerits />} />
+            <Route path={PATHS.UNIVERSAL_MERITS} element={<UniversalMerits />} />
             {generateRoutes({
-              basePath: "/universal_merits",
+              basePath: PATHS.UNIVERSAL_MERITS,
               data: allUniMeritsData,
               Component: UniversalMeritsDetail,
               propKey: "merits"
             })}
-            <Route path="/traits" element={<Traits />} />
-            <Route path="/derangements" element={<Derangements />} />
+            <Route path={PATHS.TRAITS} element={<Traits />} />
+            <Route path={PATHS.DERANGEMENTS} element={<Derangements />} />
             {generateRoutes({
-              basePath: "/derangements",
+              basePath: PATHS.DERANGEMENTS,
               data: derangementData,
               Component: DerangementsDetail,
               propKey: "derangement"
             })}
-            <Route path="/lexycon" element={<Lexycon />} />
+            <Route path={PATHS.LEXYCON} element={<Lexycon />} />
             
 
             {/* Mortals */}
-            <Route path="/mortal" element={<Mortal />} />
-            <Route path="/mortal/morality" element={<Morality />} />
-            <Route path="/mortal/virtue_vice" element={<VirtueVice />} />
-            <Route path="/mortal/merits" element={<MortalMerits />} />
-            <Route path="/mortal/armor" element={<Armor />} />
-            <Route path="/mortal/reliquary" element={<Reliquary />} />
-            <Route path="/mortal/tools" element={<Tools />} />
-            <Route path="/mortal/vehicles" element={<Vehicle />} />
-            <Route path="/mortal/weapons" element={<Weapon />} />
-            <Route path="/mortal/thaumaturgy" element={<Thaumaturgy />} />
-            <Route path="/mortal/psychics_powers" element={<PsychicsPowers />} />
+            <Route path={PATHS.MORTAL.BASE} element={<Mortal />} />
+            <Route path={PATHS.MORTAL.MORALITY} element={<Morality />} />
+            <Route path={PATHS.MORTAL.VIRTUE_VICE} element={<VirtueVice />} />
+            <Route path={PATHS.MORTAL.MERITS} element={<MortalMerits />} />
+            <Route path={PATHS.MORTAL.ARMOR} element={<Armor />} />
+            <Route path={PATHS.MORTAL.RELIQUARY} element={<Reliquary />} />
+            <Route path={PATHS.MORTAL.TOOLS} element={<Tools />} />
+            <Route path={PATHS.MORTAL.VEHICLES} element={<Vehicle />} />
+            <Route path={PATHS.MORTAL.WEAPONS} element={<Weapon />} />
+            <Route path={PATHS.MORTAL.THAUMATURGY} element={<Thaumaturgy />} />
+            <Route path={PATHS.MORTAL.PSYCHIC_POWERS} element={<PsychicsPowers />} />
 
             {/* VAMPIRI */}
-            <Route path="/vampire" element={<Vampire />} />
-            <Route path="/vampire/disciplines" element={<Disciplines />} />
+            <Route path={PATHS.VAMPIRE.BASE} element={<Vampire />} />
+            <Route path={PATHS.VAMPIRE.DISCIPLINES} element={<Disciplines />} />
             {generateRoutes({
-              basePath: "/vampire/disciplines",
+              basePath: PATHS.VAMPIRE.DISCIPLINES,
               data: allDiscipline,
               Component: DisciplinesDetail,
               propKey: "discipline"
             })}
 
-            <Route path="/vampire/merits" element={<VampireMerits />} />
-            <Route path="/vampire/devotions" element={<Devotion />} />
+            <Route path={PATHS.VAMPIRE.DEVOTIONS} element={<Devotion />} />
             {generateRoutes({
-              basePath: "/vampire/devotions",
+              basePath: PATHS.VAMPIRE.DEVOTIONS,
               data: DevotionData,
               Component: DevotionsDetail,
               propKey: "devotion"
             })}
-            <Route path="/vampire/experience_point" element={<VampireExperiencePoints />} />
-            <Route path="/vampire/clans" element={<Clan />} />
-            <Route path="/vampire/covenants" element={<Covenant />} />
-            <Route path="/vampire/bloodline" element={<Bloodline />} />
-            <Route path="/vampire/blood_potency" element={<BloodPotency />} />
-            <Route path="/vampire/ghoul_families" element={<GhoulFamilies />} />
-            <Route path="/vampire/merits" element={<VampireMerits />} />
-            <Route path="/vampire/humanity" element={<Humanity />} />
+            <Route path={PATHS.VAMPIRE.EXPERIENCE} element={<VampireExperiencePoints />} />
+            <Route path={PATHS.VAMPIRE.CLANS} element={<Clan />} />
+            <Route path={PATHS.VAMPIRE.COVENANTS} element={<Covenant />} />
+            <Route path={PATHS.VAMPIRE.BLOODLINE} element={<Bloodline />} />
+            <Route path={PATHS.VAMPIRE.BLOOD_POTENCY} element={<BloodPotency />} />
+            <Route path={PATHS.VAMPIRE.GHOUL_FAMILIES} element={<GhoulFamilies />} />
+            <Route path={PATHS.VAMPIRE.MERITS} element={<VampireMerits />} />
+            <Route path={PATHS.VAMPIRE.HUMANITY} element={<Humanity />} />
 
             {/* WEREWOLF */}
-            <Route path="/werewolf" element={<Werewolf />} />
-            <Route path="/werewolf/gifts" element={<Gifts />} />
-            <Route path="/werewolf/rites" element={<Rites />} />
-            <Route path="/werewolf/merits" element={<WerewolfMerits />} />
-            <Route path="/werewolf/fetishes" element={<Fetish />} />
-            <Route path="/werewolf/talens" element={<Talen />} />
+            <Route path={PATHS.WEREWOLF.BASE} element={<Werewolf />} />
+            <Route path={PATHS.WEREWOLF.GIFTS} element={<Gifts />} />
+            <Route path={PATHS.WEREWOLF.RITES} element={<Rites />} />
+            <Route path={PATHS.WEREWOLF.MERITS} element={<WerewolfMerits />} />
+            <Route path={PATHS.WEREWOLF.FETISHES} element={<Fetish />} />
+            <Route path={PATHS.WEREWOLF.TALENS} element={<Talen />} />
+            <Route path={PATHS.WEREWOLF.AUSPICES} element={<Auspices />} />
+            <Route path={PATHS.WEREWOLF.HARMONY} element={<Harmony />} />
+            <Route path={PATHS.WEREWOLF.LODGES} element={<Lodges />} />
+            <Route path={PATHS.WEREWOLF.PRIMAL_URGE} element={<PrimalUrge />} />
+            <Route path={PATHS.WEREWOLF.TRIBES} element={<Tribes />} />
 
             {/* MAGE */}
-            <Route path="/mage" element={<Mage />} />
-            <Route path="/mage/path" element={<Path />} />
-            <Route path="/mage/order" element={<Order />} />
-            <Route path="/mage/gnosis" element={<Gnosis />} />
-            <Route path="/mage/wisdom" element={<Wisdom />} />
-            <Route path="/mage/legacy" element={<Legacy />} />
-            <Route path="/mage/merits" element={<MageMerits />} />
-            <Route path="/mage/grimoires" element={<Grimoire />} />
-            <Route path="/mage/experience_point" element={<MageExperiencePoints />} />
+            <Route path={PATHS.MAGE.BASE} element={<Mage />} />
+            <Route path={PATHS.MAGE.PATH} element={<Path />} />
+            <Route path={PATHS.MAGE.ORDER} element={<Order />} />
+            <Route path={PATHS.MAGE.GNOSIS} element={<Gnosis />} />
+            <Route path={PATHS.MAGE.WISDOM} element={<Wisdom />} />
+            <Route path={PATHS.MAGE.LEGACY} element={<Legacy />} />
+            <Route path={PATHS.MAGE.MERITS} element={<MageMerits />} />
+            <Route path={PATHS.MAGE.GRIMOIRES} element={<Grimoire />} />
+            <Route path={PATHS.MAGE.EXPERIENCE} element={<MageExperiencePoints />} />
             {generateRoutes({
-              basePath: "/mage/merits",
+              basePath: PATHS.MAGE.MERITS,
               data: allMageMeritsData,
               Component: MageMeritsDetail,
               propKey: "merits"
             })}
             {generateRoutes({
-              basePath: "/mage/legacy",
+              basePath: PATHS.MAGE.LEGACY,
               data: LegacyData,
               Component: LegacyDetail,
               propKey: "legacy"
             })}
-            <Route path="/mage/spells" element={<Spells />} />
+            <Route path={PATHS.MAGE.SPELLS} element={<Spells />} />
             {generateRoutes({
-              basePath: "/mage/spells",
+              basePath: PATHS.MAGE.SPELLS,
               data: SpellsData,
               Component: SpellDetail,
               propKey: "spell"
@@ -352,74 +371,75 @@ function App() {
             />
           ))}
 
-            <Route path="/mage/artifacts" element={<Artifacts />} />
+            <Route path={PATHS.MAGE.ARTIFACTS} element={<Artifacts />} />
             {generateRoutes({
-              basePath: "/mage/artifacts",
+              basePath: PATHS.MAGE.ARTIFACTS,
               data: artifactData,
               Component: ArtifactDetail,
               propKey: "artifact"
             })}
             
-            <Route path="/mage/imbued_items" element={<ImbuedItems />} />
+            <Route path={PATHS.MAGE.IMBUED_ITEMS} element={<ImbuedItems />} />
             {generateRoutes({
-              basePath: "/mage/imbued_items",
+              basePath: PATHS.MAGE.IMBUED_ITEMS,
               data: imbuedItemsData,
               Component: ImbuedItemsDetail,
               propKey: "imbuedItem"
             })}
 
             {/* PROMETEANI */}
-            <Route path="/promethean" element={<Promethean />} />
-            <Route path="/promethean/transmutations" element={<Transmutations />} />
-            <Route path="/promethean/merits" element={<PrometheanMerits />} />
+            <Route path={PATHS.PROMETHEAN.BASE} element={<Promethean />} />
+            <Route path={PATHS.PROMETHEAN.TRANSMUTATIONS} element={<Transmutations />} />
+            <Route path={PATHS.PROMETHEAN.MERITS} element={<PrometheanMerits />} />
 
             {/* CHANGELING */}
-            <Route path="/changeling" element={<Changeling />} />
-            <Route path="/changeling/kiths" element={<Kith />} />
-            <Route path="/changeling/court" element={<Court />} />
-            <Route path="/changeling/entitlement" element={<Entitlements />} />
-            <Route path="/changeling/wyrd" element={<Wyrd />} />
-            <Route path="/changeling/contracts" element={<Contracts />} />
-            <Route path="/changeling/experience_point" element={<ChangelingExperiencePoints />} />
+            <Route path={PATHS.CHANGELING.BASE} element={<Changeling />} />
+            <Route path={PATHS.CHANGELING.KITHS} element={<Kith />} />
+            <Route path={PATHS.CHANGELING.COURT} element={<Court />} />
+            <Route path={PATHS.CHANGELING.ENTITLEMENTS} element={<Entitlements />} />
+            <Route path={PATHS.CHANGELING.WYRD} element={<Wyrd />} />
+            <Route path={PATHS.CHANGELING.CONTRACTS} element={<Contracts />} />
+            <Route path={PATHS.CHANGELING.EXPERIENCE} element={<ChangelingExperiencePoints />} />
             {generateRoutes({
-              basePath: "/changeling/contracts",
+              basePath: PATHS.CHANGELING.CONTRACTS,
               data: allContracts,
               Component: ContractsDetail,
               propKey: "contracts"
             })}
             {generateRoutes({
-              basePath: "/changeling/merits",
+              basePath: PATHS.CHANGELING.MERITS,
               data: allChangelingMeritsData,
               Component: ChangelingMeritsDetail,
               propKey: "merits"
             })}
-            <Route path="/changeling/pledges" element={<Pledges />} />
-            <Route path="/changeling/merits" element={<ChangelingMerits />} />
-            <Route path="/changeling/clarity" element={<Clarity />} />
-            <Route path="/changeling/goblin_fruits" element={<GoblinFruits />} />
+            <Route path={PATHS.CHANGELING.PLEDGES} element={<Pledges />} />
+            <Route path={PATHS.CHANGELING.MERITS} element={<ChangelingMerits />} />
+            <Route path={PATHS.CHANGELING.CLARITY} element={<Clarity />} />
+            <Route path={PATHS.CHANGELING.GOBLIN_FRUITS} element={<GoblinFruits />} />
             {generateRoutes({
-              basePath: "/changeling/goblin_fruits",
+              basePath: PATHS.CHANGELING.GOBLIN_FRUITS,
               data: goblinFruitData,
               Component: GoblinFruitsDetail,
               propKey: "goblinFruit"
             })}
-            <Route path="/changeling/tokens" element={<Token />} />
-            <Route path="/changeling/token_rules" element={<TokenRules />} />
+            <Route path={PATHS.CHANGELING.TOKENS} element={<Token />} />
+            <Route path={PATHS.CHANGELING.TOKEN_RULES} element={<TokenRules />} />
             {generateRoutes({
-              basePath: "/changeling/tokens",
+              basePath: PATHS.CHANGELING.TOKENS,
               data: allToken,
               Component: TokensDetail,
               propKey: "tokens"
             })}
 
             {/* HUNTER */}
-            <Route path="/hunter" element={<Hunter />} />
-            <Route path="/hunter/endowments" element={<Endowments />} />
-            <Route path="/hunter/tactics" element={<Tactics />} />
-            <Route path="/hunter/merits" element={<HunterMerits />} />
-            <Route path="/hunter/dread_powers" element={<DreadPowers />} />
+            <Route path={PATHS.HUNTER.BASE} element={<Hunter />} />
+            <Route path={PATHS.HUNTER.ENDOWMENTS} element={<Endowments />} />
+            <Route path={PATHS.HUNTER.TACTICS} element={<Tactics />} />
+            <Route path={PATHS.HUNTER.MERITS} element={<HunterMerits />} />
+            <Route path={PATHS.HUNTER.PROFESSION} element={<Professions />} />
+            <Route path={PATHS.HUNTER.DREAD_POWERS} element={<DreadPowers />} />
             {generateRoutes({
-              basePath: "/hunter/dread_powers",
+              basePath: PATHS.HUNTER.DREAD_POWERS,
               data: dreadPowersData,
               Component: DreadPowerDetail,
               propKey: "dreadPowers"
@@ -427,27 +447,35 @@ function App() {
 
 
             {/* GEIST */}
-            <Route path="/geist" element={<Geist />} />
-            <Route path="/geist/keys_and_haunts" element={<KeysAndHaunts />} />
-            <Route path="/geist/ceremonies" element={<Ceremonies />} />
-            <Route path="/geist/merits" element={<GeistMerits />} />
-            <Route path="/geist/mementos" element={<GeistMerits />} />
+            <Route path={PATHS.GEIST.BASE} element={<Geist />} />
+            <Route path={PATHS.GEIST.KEYS_AND_HAUNTS} element={<KeysAndHaunts />} />
+            <Route path={PATHS.GEIST.CEREMONIES} element={<Ceremonies />} />
+            <Route path={PATHS.GEIST.MERITS} element={<GeistMerits />} />
+            <Route path={PATHS.GEIST.MEMENTOS} element={<GeistMerits />} />
+            <Route path={PATHS.GEIST.ARCHETYPES} element={<Archetypes />} />
+            <Route path={PATHS.GEIST.SYNERGY} element={<Synergy />} />
+            <Route path={PATHS.GEIST.KREWE_TRAITS} element={<KreweTraits />} />
+            <Route path={PATHS.GEIST.THRESHOLDS} element={<Thresholds />} />
 
             {/* MUMMY */}
-            <Route path="/mummy" element={<Mummy />} />
-            <Route path="/mummy/affinities" element={<Affinities />} />
-            <Route path="/mummy/utterances" element={<Utterances />} />
-            <Route path="/mummy/merits" element={<MummyMerits />} />
-            <Route path="/mummy/relics" element={<Relic />} />
+            <Route path={PATHS.MUMMY.BASE} element={<Mummy />} />
+            <Route path={PATHS.MUMMY.AFFINITIES} element={<Affinities />} />
+            <Route path={PATHS.MUMMY.UTTERANCES} element={<Utterances />} />
+            <Route path={PATHS.MUMMY.MERITS} element={<MummyMerits />} />
+            <Route path={PATHS.MUMMY.RELICS} element={<Relic />} />
+            <Route path={PATHS.MUMMY.DECREE} element={<Decrees />} />
+            <Route path={PATHS.MUMMY.GUILD} element={<Guilds />} />
+            <Route path={PATHS.MUMMY.MEMORY} element={<Memory />} />
 
             {/* SPIRIT */}
-            <Route path="/spirit/numina" element={<Numina />} />
+            <Route path={PATHS.SPIRIT.NUMINA} element={<Numina />} />
             {generateRoutes({
-              basePath: "/spirit/numina",
+              basePath: PATHS.SPIRIT.NUMINA,
               data: spiritNuminaData,
               Component: NuminaDetail,
               propKey: "numina"
             })}
+            <Route path={PATHS.OTHERS.ASPECTS_FAVORRS} element={<AspectsAndFavors />} />
 
           </Routes>
         </div>
