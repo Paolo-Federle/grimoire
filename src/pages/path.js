@@ -45,12 +45,10 @@ const HUNTER_DREAD_POWER_DETAILS = Object.fromEntries(dreadPowersData.map(d => [
 const MAGE_ARCANA = Object.fromEntries(['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map(name => [slug(name), `/mage/${name}`]));
 
 
-console.log('VAMPIRE_DISCIPLINE_DETAILS', VAMPIRE_DISCIPLINE_DETAILS)
 // console.log('animalism',VAMPIRE_DISCIPLINE_DETAILS["animalism"]);
 
 export const PATHS = {
     HOME: '/',
-    SHEET: '/sheet',
     BOOKS: '/books',
     SIZE: '/size',
     ITEMS: '/items',
@@ -66,11 +64,7 @@ export const PATHS = {
     VAMPIRE: {
         BASE: '/vampire',
         DISCIPLINES: '/vampire/disciplines',
-        DISCIPLINE_DETAIL: (slug) => `/vampire/disciplines/${slug}`,
-        DISCIPLINE_DETAILS: VAMPIRE_DISCIPLINE_DETAILS,
         DEVOTIONS: '/vampire/devotions',
-        DEVOTION_DETAIL: (slug) => `/vampire/devotions/${slug}`,
-        DEVOTION_DETAILS: VAMPIRE_DEVOTION_DETAILS,
         MERITS: '/vampire/merits',
         CLANS: '/vampire/clans',
         COVENANTS: '/vampire/covenants',
@@ -83,14 +77,11 @@ export const PATHS = {
 
     SPIRIT: {
         NUMINA: '/spirit/numina',
-        NUMINA_DETAIL: (slug) => `/spirit/numina/${slug}`,
-        NUMINA_DETAILS: SPIRIT_NUMINA_DETAILS,
     },
 
     MAGE: {
         BASE: '/mage',
         MERITS: '/mage/merits',
-        LEGACIES: MAGE_LEGACY_DETAILS,
         LEGACY: '/mage/legacy',
         SPELLS: '/mage/spells',
         ARTIFACTS: '/mage/artifacts',
@@ -100,7 +91,6 @@ export const PATHS = {
         GNOSIS: '/mage/gnosis',
         WISDOM: '/mage/wisdom',
         GRIMOIRES: '/mage/grimoires',
-        ARCANA: MAGE_ARCANA,
         EXPERIENCE: '/mage/experience_point'
     },
     WEREWOLF: {
@@ -162,6 +152,7 @@ export const PATHS = {
         BASE: '/promethean',
         LINEAGE: '/promethean/lineage',
         REFINEMENTS: '/promethean/refinements',
+        MOCKERIES: '/promethean/mockeries',
         ATHANOR: '/promethean/athanor',
         AZOTH: '/promethean/azoth',
         HUMANITY: '/promethean/humanity',

@@ -138,93 +138,14 @@ import Harmony from './pages/Werewolf/Harmony';
 import Lodges from './pages/Werewolf/Lodges';
 import PrimalUrge from './pages/Werewolf/PrimalUrge';
 import Tribes from './pages/Werewolf/Tribes';
+import CompactConsipracies from './pages/Hunter/CompactConsipracies';
+import Lineages from './pages/Promethean/Lineages';
+import Mockeries from './pages/Promethean/Mockeries';
+import Refinements from './pages/Promethean/Refinements';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
   const location = useLocation();
-
-  // Pagine colorate per le razze
-  // useEffect(() => {
-  //   const getCategoryFromPath = (path) => {
-  //     const categories = [
-  //       'mortal',
-  //       'vampire',
-  //       'werewolf',
-  //       'mage',
-  //       'promethean',
-  //       'changeling',
-  //       'hunter',
-  //       'geist',
-  //       'mummy',
-  //       'others'
-  //     ];
-
-  //     const pathSegments = path.split('/'); 
-  //     const categoryIndex = pathSegments.findIndex(segment =>
-  //       categories.includes(segment)
-  //     );
-  //     if (categoryIndex !== -1) {
-  //       return pathSegments[categoryIndex]; 
-  //     }
-
-  //     return 'others'; 
-  //   };
-
-  //   const handlePageChange = () => {
-  //     const currentCategory = getCategoryFromPath(window.location.href);
-  //     let newCategoryStyle = '';
-
-  //     switch (currentCategory) {
-  //       case 'mage':
-  //         newCategoryStyle = 'mage-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'vampire':
-  //         newCategoryStyle = 'vampire-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'mortal':
-  //         newCategoryStyle = 'mortals-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'werewolf':
-  //         newCategoryStyle = 'werewolf-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'promethean':
-  //         newCategoryStyle = 'promethean-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'changeling':
-  //         newCategoryStyle = 'changeling-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'hunter':
-  //         newCategoryStyle = 'hunter-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'geist':
-  //         newCategoryStyle = 'geist-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       case 'mummy':
-  //         newCategoryStyle = 'mummy-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //       default:
-  //         newCategoryStyle = 'default-style';
-  //         document.body.className = newCategoryStyle
-  //         break;
-  //     }
-
-  //     setCategoryStyle(newCategoryStyle);
-  //   };
-
-  //   // Initial update based on current URL
-  //   handlePageChange();
-
-  // }, [location]);
-
 
   function generateRoutes({ data, basePath, Component, propKey, getKey, getPathName }) {
     return data.map((item, index) => {
@@ -391,6 +312,9 @@ function App() {
             <Route path={PATHS.PROMETHEAN.BASE} element={<Promethean />} />
             <Route path={PATHS.PROMETHEAN.TRANSMUTATIONS} element={<Transmutations />} />
             <Route path={PATHS.PROMETHEAN.MERITS} element={<PrometheanMerits />} />
+            <Route path={PATHS.PROMETHEAN.REFINEMENTS} element={<Refinements />} />
+            <Route path={PATHS.PROMETHEAN.MOCKERIES} element={<Mockeries />} />
+            <Route path={PATHS.PROMETHEAN.LINEAGE} element={<Lineages />} />
 
             {/* CHANGELING */}
             <Route path={PATHS.CHANGELING.BASE} element={<Changeling />} />
@@ -437,6 +361,7 @@ function App() {
             <Route path={PATHS.HUNTER.TACTICS} element={<Tactics />} />
             <Route path={PATHS.HUNTER.MERITS} element={<HunterMerits />} />
             <Route path={PATHS.HUNTER.PROFESSION} element={<Professions />} />
+            <Route path={PATHS.HUNTER.COMPACT_CONSPIRANCY} element={<CompactConsipracies />} />
             <Route path={PATHS.HUNTER.DREAD_POWERS} element={<DreadPowers />} />
             {generateRoutes({
               basePath: PATHS.HUNTER.DREAD_POWERS,

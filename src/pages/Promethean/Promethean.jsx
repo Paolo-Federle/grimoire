@@ -17,6 +17,7 @@ export default function Promethean() {
                         <p>
                             Each Created has a <Link to={PATHS.PROMETHEAN.LINEAGE}>Lineage</Link> that shapes their form,
                             and their path takes them through many <Link to={PATHS.PROMETHEAN.REFINEMENTS}>Refinements</Link> over the long years.
+                         Some fall from the Pilgrimage, creating <Link to={PATHS.PROMETHEAN.MOCKERIES}>Mockeries</Link>, twisted Lineages shaped by failure or corruption.
                         </p>
                         <p>
                             Prometheans may also cultivate an <Link to={PATHS.PROMETHEAN.ATHANOR}>Athanor</Link> out of their developing understanding.

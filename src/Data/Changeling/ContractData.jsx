@@ -7558,7 +7558,7 @@ const unclassifiedGoblinContractData = [
         "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Wits",
-        "Book": "Lost 165"
+        "Book": "CtL 165"
     },
     {
         "Name": "Fair Entrance",
@@ -7588,7 +7588,7 @@ const unclassifiedGoblinContractData = [
         "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Larceny",
-        "Book": "Lost 165"
+        "Book": "CtL 165"
     },
     {
         "Name": "Fool’s Gold",
@@ -7623,7 +7623,7 @@ const unclassifiedGoblinContractData = [
         "FullCost": "1 Glamour",
         "Cost": "●",
         "Dice Pool": "Wyrd + Manipulation",
-        "Book": "Lost 166"
+        "Book": "CtL 166"
     },
     {
         "Name": "Sandman's Bargain",

@@ -1246,6 +1246,22 @@ export const DevotionData = [
         "Book": "B:tH 105"
     },
     {
+        "Name": "Infallible Aim",
+        "Prerequisites": "Auspex •, Celerity ••",
+        "XP": "10",
+        "Cost": "●",
+        "Description": "Improve ranged weapon aim",
+        "DiceRoll": "",
+        "FullCost": "1 Vitae",
+        "Action": "Reflexive",
+        "FullDescription": [
+            "With this Devotion, Maxwell can combine Auspex’s capability to perceive with Celerity’s ability to react. Infallible Aim essentially creates a pause in which Maxwell can aim while using a ranged weapon — a pause that seems generous to him but is imperceptible to those around him. While this Devotion can’t be used for more than one shot (no matter how fast he’s moving, the gun barrel still quivers and jerks after firing), this Devotion does make him incredibly accurate.",
+            "When used, Maxwell can add his Celerity dots to his attack pool for any ranged weapon, up to a maximum +3 dice pool bonus. Essentially, he gets a free chance to aim each turn. As with normal aiming, however (see the World of Darkness Rulebook, p. 162), Maxwell loses his mundane Defense for the turn. Likewise, the dice pool bonus he gains from aiming subtracts from the bonus Celerity grants to his Defense in the turn. Therefore, if Maxwell were to gain a +2 dice pool bonus to his attack, he would lose his mundane Defense, and his Celerity-derived Defense bonus would be just 1: Celerity 3 minus the +2 dice pool bonus.",
+            "This Devotion costs 10 experience points to learn."
+        ],
+        "Book": "Chi 82"
+    },
+    {
         "Name": "Instant Adoration",
         "Prerequisites": "Majesty •••, Celerity •",
         "XP": "12",
