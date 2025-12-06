@@ -81,7 +81,7 @@ export default function Navbar() {
                                 [
                                     "block transition-colors",
                                     isActive
-                                        ? "font-bold underline text-white"
+                                        ? "!underline font-bold text-white"
                                         : "text-gray-200"
                                 ].join(" ")
                             }
