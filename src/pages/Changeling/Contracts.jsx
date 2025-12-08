@@ -1,5 +1,5 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable'
+import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
 import {
     universalContractData, beastlyContractsData, darklingContractsData, elementalContractsData,
     fairestContractsData, ogreishContractsData, wizenedContractsData, springCourtContractsData,

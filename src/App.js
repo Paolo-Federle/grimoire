@@ -142,6 +142,7 @@ import CompactConsipracies from './pages/Hunter/CompactConsipracies';
 import Lineages from './pages/Promethean/Lineages';
 import Mockeries from './pages/Promethean/Mockeries';
 import Refinements from './pages/Promethean/Refinements';
+import Breadcrumbs from './components/Breadcrumbs'
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -170,7 +171,9 @@ function App() {
       <ThemeProvider theme={theme}>
 
         <Navbar />
+        <Breadcrumbs />
         <div className={`page-container ${categoryStyle}`}>
+          
         <Routes>
             <Route path={PATHS.HOME} element={<Home />} />
             <Route path={PATHS.SHEET} element={<SheetTest />} />

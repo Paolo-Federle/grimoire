@@ -1,5 +1,5 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable'
+import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
 import { UniversalDisciplineData, CoilsOfTheDragonData, ThebanSorceryData, CrùacData, BloodlineDisciplineData, otherDisciplineData } from '../../Data/Vampire/DisciplineData';
 import { addLink } from '../../utils';
 

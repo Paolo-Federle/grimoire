@@ -14,7 +14,7 @@ export function BookLink(value) {
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: '#1a0dab', textDecoration: 'underline', marginRight: '6px' }}
+            className="text-blue-600 underline hover:text-blue-800 transition-colors"
           >
             {item.text}
           </a>

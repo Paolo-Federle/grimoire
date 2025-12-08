@@ -1,5 +1,5 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable'
+import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
 import { kithData } from '../../Data/Changeling/KithData';
 
 export default function Kith() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { PsychicMeritsData } from '../../../Data/Mortal/Lesser templates/PsychicMeritsData';
-import ManyHeadersTable from '../../../components/ManyHeadersTable';
+import ManyHeadersTable from '../../../components/ManyHeadersTable/ManyHeadersTable';
 
 
 export default function PsychicsPowers() {

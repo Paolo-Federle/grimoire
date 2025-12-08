@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
-import ManyHeadersTable from '../../components/ManyHeadersTable';
+import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable';
 import { giftData } from '../../Data/Werewolf/GiftData';
 import { milestoneGifts } from '../../Data/Werewolf/GiftData';
 

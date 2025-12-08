@@ -1,7 +1,7 @@
 import React from 'react';
 import SimpleTable from '../../../components/SimpleTable';
 import { ThaumaturgyMeritsData, ThaumaturgyTraditionsData } from '../../../Data/Mortal/Lesser templates/ThaumaturgyData';
-import ManyHeadersTable from '../../../components/ManyHeadersTable';
+import ManyHeadersTable from '../../../components/ManyHeadersTable/ManyHeadersTable';
 
 
 export default function Thaumaturgy() {
