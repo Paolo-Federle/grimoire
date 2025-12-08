@@ -17,7 +17,7 @@ export default function Home() {
                                 <td className='table-cell'>
                                     <Link to={PATHS.BOOKS} title="Books" >List of Books</Link>
                                     &nbsp;•&nbsp;
-                                    <Link to="/resources" title="Resources">External Resources</Link>
+                                    <Link to={PATHS.EXTERNAL_RESOURCES} title="Resources">External Resources</Link>
                                     &nbsp;•&nbsp;
                                     <Link to={PATHS.SHEET} title="Sheet">Sheet</Link>
                                 </td>

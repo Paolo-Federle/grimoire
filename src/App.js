@@ -96,6 +96,7 @@ import './css/App.css';
 import './css/Races-Style.css'
 import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
 import Traits from './pages/Generale/Traits';
+import ExternalResources from './pages/Generale/ExternalResources';
 import Derangements from './pages/Generale/Derangements';
 import DerangementsDetail from './pages/Generale/DerangementsDetail';
 import { derangementData } from './Data/DerangementsData';
@@ -196,6 +197,7 @@ function App() {
               propKey: "merits"
             })}
             <Route path={PATHS.TRAITS} element={<Traits />} />
+            <Route path={PATHS.EXTERNAL_RESOURCES} element={<ExternalResources />} />
             <Route path={PATHS.DERANGEMENTS} element={<Derangements />} />
             {generateRoutes({
               basePath: PATHS.DERANGEMENTS,

@@ -139,8 +139,8 @@ export default function MultipleTables({
                             {listOfRows.map((rows, tableIndex) => (
                                 <div key={tableIndex} className="space-y-4">
                                     <h2 className="font-bold text-lg">
-    {displayHeaders[tableIndex][0]}
-</h2>
+                                        {displayHeaders[tableIndex][0]}
+                                    </h2>
 
 
                                     {rows.map((data, rowIndex) => (

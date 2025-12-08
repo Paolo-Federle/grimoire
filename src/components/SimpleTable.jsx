@@ -15,10 +15,6 @@ export default function SimpleTable({
     activeRowLink
 }) {
     const [isSectionActive, setIsSectionActive] = useState(true);
-
-    // -----------------------------
-    // 🔥 MOBILE DETECTOR interno
-    // -----------------------------
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
     useEffect(() => {
@@ -27,7 +23,6 @@ export default function SimpleTable({
         return () => window.removeEventListener("resize", handler);
     }, []);
 
-    // -----------------------------
     const tableHeaders =
         headers || Object.keys(table?.[0] || {}).filter((h) => h !== "link");
 

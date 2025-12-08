@@ -55,6 +55,7 @@ export const PATHS = {
     SKILLS: '/skills',
     SHEET: '/sheet',
     TRAITS: '/traits',
+    EXTERNAL_RESOURCES: '/external_resources',
     LEXYCON: '/lexycon',
     SETTINGS: '/settings',
     UNIVERSAL_MERITS: '/universal_merits',
