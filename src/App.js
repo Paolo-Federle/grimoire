@@ -144,6 +144,7 @@ import Lineages from './pages/Promethean/Lineages';
 import Mockeries from './pages/Promethean/Mockeries';
 import Refinements from './pages/Promethean/Refinements';
 import Breadcrumbs from './components/Breadcrumbs'
+import FuturisticItems from './pages/MortalsAndTemplates/FuturisticItems';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -218,6 +219,7 @@ function App() {
             <Route path={PATHS.MORTAL.TOOLS} element={<Tools />} />
             <Route path={PATHS.MORTAL.VEHICLES} element={<Vehicle />} />
             <Route path={PATHS.MORTAL.WEAPONS} element={<Weapon />} />
+            <Route path={PATHS.MORTAL.FUTURISTIC_ITEMS} element={<FuturisticItems />} />
             <Route path={PATHS.MORTAL.THAUMATURGY} element={<Thaumaturgy />} />
             <Route path={PATHS.MORTAL.PSYCHIC_POWERS} element={<PsychicsPowers />} />
 

@@ -146,7 +146,8 @@ export const PATHS = {
         VEHICLES: '/mortal/vehicles',
         WEAPONS: '/mortal/weapons',
         THAUMATURGY: '/mortal/thaumaturgy',
-        PSYCHIC_POWERS: 'mortal/psychics_powers'
+        PSYCHIC_POWERS: '/mortal/psychics_powers',
+        FUTURISTIC_ITEMS: '/mortal/futuristic_items',
     },
 
     PROMETHEAN: {

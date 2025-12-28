@@ -42,7 +42,6 @@ export default function CharacterInfoSection() {
   const raceDetails = character.details[selectedRace] || {};
   const [firstField, secondField, thirdField] = Object.keys(raceDetails).slice(0, 3);
 
-  console.log('sheetData', sheetData)
 
   return (
     <div className="w-full">

@@ -6,7 +6,6 @@ export default function DisciplinesDetail(props) {
     const location = useLocation();
     const matchedDiscipline = props.discipline
 
-    console.log('test discipline', matchedDiscipline)
 
     return (
         <div className='longTextContainer'>

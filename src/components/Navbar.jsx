@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
-import "../css/Navbar.css";
 import { PATHS } from "../pages/path";
 
 export default function Navbar() {
@@ -34,25 +33,13 @@ export default function Navbar() {
 
     return (
         <>
-            {/* BARRA MOBILE — sempre visibile */}
+            {/* MOBILE BAR */}
             {isMobile && (
                 <header
-                    className="
-                        fixed top-0 left-0 right-0
-                        h-14
-                        bg-neutral-900 text-white
-                        flex items-center
-                        px-4
-                        border-b border-neutral-700
-                        shadow-sm
-                        z-[9999]
-                    "
+                    className="fixed top-0 left-0 right-0 h-14 bg-neutral-900 text-white
+                               flex items-center px-4 border-b border-neutral-700 shadow-sm z-[9999]"
                 >
-                    <IconButton
-                        onClick={toggle}
-                        aria-label="open menu"
-                        sx={{ color: "white" }}
-                    >
+                    <IconButton onClick={toggle} aria-label="open menu" sx={{ color: "white" }}>
                         <MenuIcon fontSize="medium" />
                     </IconButton>
 
@@ -62,34 +49,33 @@ export default function Navbar() {
                 </header>
             )}
 
-            {/* Spazio per evitare che il contenuto venga coperto */}
-            {isMobile && <div style={{ height: "3.5rem" }} />}
+            {/* Spacing under mobile header */}
+            {isMobile && <div className="h-14" />}
 
-            {/* SIDENAV MOBILE */}
+            {/* MOBILE SIDENAV */}
             {isMobile && (
                 <div
-                    className={`sidenav ${open ? "show" : ""}`}
+                    className={`
+                        fixed top-0 left-0 h-full bg-neutral-800 text-white
+                        overflow-x-hidden transition-all duration-300 z-[1000]
+                        ${open ? "w-64" : "w-0"}
+                    `}
                     onClick={toggle}
                 >
-                    <div className="mt-8 flex flex-col">
+                    <div className="mt-16 flex flex-col px-6 space-y-3">
                         {navItems.map(({ label, to }) => (
-                           <NavLink
-                            key={to}
-                            exact="true"
-                            to={to}
-                            className={({ isActive }) =>
-                                [
-                                    "block transition-colors",
+                            <NavLink
+                                key={to}
+                                exact="true"
+                                to={to}
+                                className={({ isActive }) =>
                                     isActive
-                                        ? "!underline font-bold text-white"
-                                        : "text-gray-200"
-                                ].join(" ")
-                            }
-                        >
-                            {label}
-                        </NavLink>
-
-
+                                        ? "!text-white font-bold underline !hover:text-gray-300 !:text-gray-300"
+                                        : "text-gray-300 hover:text-white transition-colors"
+                                }
+                            >
+                                {label}
+                            </NavLink>
                         ))}
                     </div>
                 </div>
@@ -97,15 +83,24 @@ export default function Navbar() {
 
             {/* DESKTOP NAVBAR */}
             {!isMobile && (
-                <nav className="navbar">
+                <nav
+                    className="
+                        w-full bg-neutral-900 text-white
+                        flex justify-center items-center gap-6 py-3
+                        sticky top-0 z-[1000]
+                    "
+                >
                     {navItems.map(({ label, to }) => (
                         <NavLink
                             key={to}
                             exact="true"
                             to={to}
                             className={({ isActive }) =>
-                                isActive ? "active-nav-item" : undefined
+                                isActive
+                                    ? "font-bold underline decoration-2 text-white"
+                                    : "text-gray-300 hover:text-white transition-colors no-underline"
                             }
+
                         >
                             {label}
                         </NavLink>

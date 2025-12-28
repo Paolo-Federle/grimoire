@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,17 +14,13 @@
     text-decoration: none;
     color: white !important;
     margin: 0 10px;
-    font-weight: normal !important;
+    font-weight: normal
 }
 
 .navbar a:hover {
     color: #d6d6d6 !important;
 }
 
-a.active {
-    font-weight: bold !important;
-    text-decoration: underline !important;
-}
 
 .mobile-nav-toggle {
     display: none;
@@ -97,4 +93,4 @@ a.active {
     .mobile-nav-toggle {
         display: block;
     }
-}
+} */

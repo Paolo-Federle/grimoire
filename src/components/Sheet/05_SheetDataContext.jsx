@@ -6,7 +6,6 @@ const SheetDataContext = createContext();
 export const SheetDataProvider = ({ children }) => {
   const [sheetData, setSheetData] = useState(initialSheetData);
 
-  console.log('sheetData', sheetData)
   return (
     <SheetDataContext.Provider value={{ sheetData, setSheetData }}>
       {children}
