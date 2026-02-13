@@ -75,30 +75,33 @@ export default function FavoritesPage() {
   };
 
   return (
-    <div style={{ padding: 16 }}>
+  <div className="grid-container">
+    {snapshot.length > 0 && (
       <div style={{ marginBottom: 12 }}>
         <Button variant="contained" color="error" onClick={handleClearAll}>
           Clear all favorites
         </Button>
       </div>
+    )}
 
-      {!snapshot.length ? (
-        <div>No favorites saved.</div>
-      ) : (
-        groups.map((g, idx) => {
-          const tableRows = g.items.map(favoriteToRow);
+    {!snapshot.length ? (
+      <div>No favorites saved.</div>
+    ) : (
+      groups.map((g, idx) => {
+        const tableRows = g.items.map(favoriteToRow);
 
-          return (
-            <SimpleTable
-              key={`${g.from}-${idx}`}
-              title={`Favorites from: ${g.from}`}
-              table={tableRows}
-              headers={g.headers}
-              activeRowLink={g.hasAnyLink}
-            />
-          );
-        })
-      )}
-    </div>
-  );
+        return (
+          <SimpleTable
+            key={`${g.from}-${idx}`}
+            title={`Favorites from: ${g.from}`}
+            table={tableRows}
+            headers={g.headers}
+            activeRowLink={g.hasAnyLink}
+          />
+        );
+      })
+    )}
+  </div>
+);
+
 }
