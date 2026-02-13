@@ -145,6 +145,7 @@ import Mockeries from './pages/Promethean/Mockeries';
 import Refinements from './pages/Promethean/Refinements';
 import Breadcrumbs from './components/Breadcrumbs'
 import FuturisticItems from './pages/MortalsAndTemplates/FuturisticItems';
+import FavoritesPage from './pages/favorites';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -178,6 +179,7 @@ function App() {
           
         <Routes>
             <Route path={PATHS.HOME} element={<Home />} />
+            <Route path={PATHS.FAVORITES} element={<FavoritesPage />} />
             <Route path={PATHS.SHEET} element={<SheetTest />} />
             <Route path={PATHS.BOOKS} element={<Books />} />
             <Route path={PATHS.SIZE} element={<Size />} />

@@ -71,5 +71,7 @@ export default function Spells() {
         />
     ));
 
-    return <div className='grid-container'>{renderedArcanaTables}</div>;
+    return <div className='grid-container'>
+        {renderedArcanaTables}
+    </div>;
 }

@@ -49,6 +49,7 @@ const MAGE_ARCANA = Object.fromEntries(['death', 'fate', 'force', 'life', 'matte
 
 export const PATHS = {
     HOME: '/',
+    FAVORITES: '/favorites',
     BOOKS: '/books',
     SIZE: '/size',
     ITEMS: '/items',

@@ -181,3 +181,127 @@ export function getFlipHtmlPageUrlsFromSource(source, allBooks) {
   //   handlePageChange();
 
   // }, [location]);
+
+
+//   ---------- FAVORITI
+
+const FAVORITES_STORAGE_KEY = "grimoire_favorites_v1";
+
+export function getCurrentRoutePath() {
+  const hash = window.location.hash || ""; // es: "#/vampire/devotions"
+  if (hash.startsWith("#/")) return hash.slice(1); // "/vampire/devotions"
+  if (hash.startsWith("#")) return hash.slice(1);
+  return window.location.pathname || "/";
+}
+
+function readStore() {
+  try {
+    const raw = localStorage.getItem(FAVORITES_STORAGE_KEY);
+    if (!raw) return { v: 1, items: [] };
+
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object") return { v: 1, items: [] };
+    if (!Array.isArray(parsed.items)) return { v: 1, items: [] };
+
+    return { v: 1, items: parsed.items };
+  } catch {
+    return { v: 1, items: [] };
+  }
+}
+
+function writeStore(store) {
+  localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(store));
+  window.dispatchEvent(new CustomEvent("favorites:changed"));
+}
+
+
+/**
+ * Chiave univoca:
+ * - se row.link esiste -> usa quella
+ * - fallback: "<from>#<slug(titolo)>"
+ */
+
+export function getFavoriteKey(row, columns, from = getCurrentRoutePath()) {
+if (row?.__favKey && typeof row.__favKey === "string") return row.__favKey;
+
+  if (row?.link && typeof row.link === "string") return row.link;
+
+  const cols = (columns || []).filter((c) => c && c !== "link");
+  const firstCol = cols.length ? cols[0] : null;
+  const title = firstCol && row?.[firstCol] ? String(row[firstCol]) : "unknown";
+
+  return `${from}#${slugify(title)}`;
+}
+
+/**
+ * Salva SOLO:
+ * - key (univoco)
+ * - link (se c’è)
+ * - from (pagina origine)
+ * - data: { colonna: valore }
+ * - savedAt
+ */
+export function buildFavoriteItem(row, columns, from = getCurrentRoutePath(), titleIsLink = false) {
+  const cols = (columns || []).filter((c) => c && c !== "link");
+
+  const data = {};
+  for (const col of cols) {
+    const v = row?.[col];
+    data[col] = Array.isArray(v) ? v.join(", ") : v;
+  }
+
+  const link = typeof row?.link === "string" ? row.link : null;
+
+  return {
+    key: getFavoriteKey(row, cols, from),
+    from,
+    data,
+    savedAt: Date.now(),
+
+    // ✅ titolo cliccabile SOLO se la tabella lo rende cliccabile
+    titleIsLink: !!titleIsLink,
+    linkUrl: titleIsLink ? link : null,
+  };
+}
+
+
+
+export function isFavorite(row, columns, from = getCurrentRoutePath()) {
+  const store = readStore();
+  const key = getFavoriteKey(row, columns, from);
+  return store.items.some((it) => it?.key === key);
+}
+
+export function toggleFavorite(row, columns, from = getCurrentRoutePath(), titleIsLink = false) {
+  const store = readStore();
+  const key = getFavoriteKey(row, columns, from);
+
+  const idx = store.items.findIndex((it) => it?.key === key);
+
+  if (idx !== -1) {
+    store.items.splice(idx, 1);
+    writeStore(store);
+    return { isFavorite: false, key };
+  }
+
+  const item = buildFavoriteItem(row, columns, from, titleIsLink);
+  store.items.unshift(item);
+  writeStore(store);
+  return { isFavorite: true, key, item };
+}
+
+
+export function listFavorites() {
+  const store = readStore();
+  return [...store.items].sort((a, b) => (b?.savedAt || 0) - (a?.savedAt || 0));
+}
+
+export function clearFavorites() {
+  writeStore({ v: 1, items: [] });
+}
+
+
+export function getFavoritesCount() {
+  const store = readStore();
+  return Array.isArray(store.items) ? store.items.length : 0;
+}

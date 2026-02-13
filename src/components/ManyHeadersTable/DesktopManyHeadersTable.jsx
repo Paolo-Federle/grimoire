@@ -1,28 +1,35 @@
 import React from "react";
 import { BookLink } from "../BookLink";
+import FavoriteToggle from "../FavoriteToggle";
 
 export default function DesktopManyHeadersTable({
   table,
   tableHeaders,
+  columnsToSave,
+  sourcePath,
   isHeaderRow,
   getHeaderRowData,
   activeRowLink,
   prereqForLink,
   handleLinkClick,
-  alternateData
+  alternateData,
 }) {
+  const canTitleLink = (row, linkValue) =>
+    !!(
+      activeRowLink &&
+      linkValue &&
+      (prereqForLink === undefined || row?.[prereqForLink] !== "")
+    );
+
   const renderCell = (header, rowData, row, cellIndex) => {
     const value = rowData[header];
 
-    const shouldLink =
-      cellIndex === 0 &&
-      activeRowLink &&
-      rowData.link &&
-      (prereqForLink === undefined || row[prereqForLink] !== "");
-
     if (header === "Book") return BookLink(value);
 
-    if (shouldLink) {
+    const isFirstCell = cellIndex === 0;
+    const titleIsLink = isFirstCell && canTitleLink(row, rowData.link);
+
+    if (titleIsLink) {
       return (
         <a
           href={rowData.link}
@@ -57,21 +64,48 @@ export default function DesktopManyHeadersTable({
                 className={headerRow ? "table-row" : "alternating-row"}
               >
                 {tableHeaders.map((header, cellIndex) => {
+                  const isFirstCell = cellIndex === 0;
+
+                  // contenuto della cella
                   const content = headerRow
                     ? row[alternateData[cellIndex]] || ""
                     : renderCell(header, rowData, row, cellIndex);
 
+                  // --- HEADER ROW (riga-sezione) ---
                   if (headerRow) {
-                    const shouldLink =
-                      cellIndex === 0 &&
-                      activeRowLink &&
-                      row.link &&
-                      (prereqForLink === undefined ||
-                        row[prereqForLink] !== "");
+                    const titleIsLink =
+                      isFirstCell && canTitleLink(row, row.link);
 
                     return (
                       <th key={header}>
-                        {shouldLink ? (
+                        {isFirstCell ? (
+                          <span
+                            style={{
+                              display: "inline-flex",
+                              alignItems: "center",
+                              gap: 6,
+                            }}
+                          >
+                            <FavoriteToggle
+                              row={row}
+                              columns={columnsToSave}
+                              sourcePath={sourcePath}
+                              titleIsLink={titleIsLink}
+                            />
+
+                            {titleIsLink ? (
+                              <a
+                                href={row.link}
+                                onClick={(e) => handleLinkClick(e, row.link)}
+                                className="underline text-white"
+                              >
+                                {content}
+                              </a>
+                            ) : (
+                              content
+                            )}
+                          </span>
+                        ) : titleIsLink ? (
                           <a
                             href={row.link}
                             onClick={(e) => handleLinkClick(e, row.link)}
@@ -83,6 +117,31 @@ export default function DesktopManyHeadersTable({
                           content
                         )}
                       </th>
+                    );
+                  }
+
+                  // --- NORMAL ROW ---
+                  if (isFirstCell) {
+                    const titleIsLink = canTitleLink(row, rowData.link);
+
+                    return (
+                      <td key={header}>
+                        <span
+                          style={{
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: 6,
+                          }}
+                        >
+                          <FavoriteToggle
+                            row={rowData}
+                            columns={columnsToSave}
+                            sourcePath={sourcePath}
+                            titleIsLink={titleIsLink}
+                          />
+                          {content}
+                        </span>
+                      </td>
                     );
                   }
 
