@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 import SimpleTable from "../components/SimpleTable"; // ADATTA PATH
 import { listFavorites, clearFavorites } from "../utils"; // ADATTA PATH
@@ -49,6 +50,20 @@ function favoriteToRow(fav) {
   return row;
 }
 
+// Estrae l'ultimo segmento della route "/vampire/disciplines" -> "disciplines"
+function getTitleLabelFromFromPath(fromPath) {
+  if (!fromPath) return "Favorites";
+  const clean = String(fromPath).split("?")[0].split("#")[0];
+  const parts = clean.split("/").filter(Boolean);
+  const last = parts[parts.length - 1] || clean;
+  const label = last.replace(/_/g, " ");
+return label ? label[0].toUpperCase() + label.slice(1) : label;
+}
+
+function getTitleLinkFromFromPath(fromPath) {
+  return fromPath || "/";
+}
+
 export default function FavoritesPage() {
   const [snapshot, setSnapshot] = useState([]);
 
@@ -70,38 +85,40 @@ export default function FavoritesPage() {
   const groups = useMemo(() => groupFavorites(snapshot), [snapshot]);
 
   const handleClearAll = () => {
-      clearFavorites();
-
+    clearFavorites();
   };
 
   return (
-  <div className="grid-container">
-    {snapshot.length > 0 && (
-      <div style={{ marginBottom: 12 }}>
-        <Button variant="contained" color="error" onClick={handleClearAll}>
-          Clear all favorites
-        </Button>
-      </div>
-    )}
+    <div className="grid-container">
+      {snapshot.length > 0 && (
+        <div style={{ marginBottom: 12 }}>
+          <Button variant="contained" color="error" onClick={handleClearAll}>
+            Clear all favorites
+          </Button>
+        </div>
+      )}
 
-    {!snapshot.length ? (
-      <div>No favorites saved.</div>
-    ) : (
-      groups.map((g, idx) => {
-        const tableRows = g.items.map(favoriteToRow);
+      {!snapshot.length ? (
+        <div>No favorites saved.</div>
+      ) : (
+        groups.map((g, idx) => {
+          const tableRows = g.items.map(favoriteToRow);
 
-        return (
-          <SimpleTable
-            key={`${g.from}-${idx}`}
-            title={`Favorites from: ${g.from}`}
-            table={tableRows}
-            headers={g.headers}
-            activeRowLink={g.hasAnyLink}
-          />
-        );
-      })
-    )}
-  </div>
-);
-
+          return (
+            <SimpleTable
+              key={`${g.from}-${idx}`}
+              title={
+                <Link to={getTitleLinkFromFromPath(g.from)} className="underline">
+                  {getTitleLabelFromFromPath(g.from)}
+                </Link>
+              }
+              table={tableRows}
+              headers={g.headers}
+              activeRowLink={g.hasAnyLink}
+            />
+          );
+        })
+      )}
+    </div>
+  );
 }
