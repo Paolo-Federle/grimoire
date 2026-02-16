@@ -157,6 +157,8 @@ function App() {
       const slug = getPathName ? getPathName(item) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
       const path = `${basePath}/${slugify(slug)}`;
   
+      // console.log('path', path)
+      // console.log('key', key)
       return (
         <Route
           key={key}
@@ -167,7 +169,8 @@ function App() {
     });
   }
   
-
+console.log('allUniMeritsData', allUniMeritsData)
+console.log('allLocation', allLocation)
 
   return (
     <>
@@ -183,9 +186,9 @@ function App() {
             <Route path={PATHS.SHEET} element={<SheetTest />} />
             <Route path={PATHS.BOOKS} element={<Books />} />
             <Route path={PATHS.SIZE} element={<Size />} />
-            <Route path={PATHS.LOCATIONS_BASE} element={<Location />} />
             <Route path={PATHS.ITEMS} element={<Items />} />
             <Route path={PATHS.SKILLS} element={<Skills />} />
+            <Route path={PATHS.LOCATIONS_BASE} element={<Location />} />
             {generateRoutes({
               basePath: PATHS.LOCATIONS_BASE,
               data: allLocation,

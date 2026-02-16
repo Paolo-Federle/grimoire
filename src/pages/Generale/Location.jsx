@@ -29,7 +29,7 @@ export default function Location() {
 
     const renderTable = ({ data, title, upperText = null }) => (
         <SimpleTable
-            table={rimuoviCampi(addLink(data, 'Name', '/merits/locations/'), campiDaRimuovere)}
+            table={rimuoviCampi(addLink(data, 'Name', '/merits/location/'), campiDaRimuovere)}
             title={title}
             activeRowLink={true}
             upperText={upperText ? upperText : null}
