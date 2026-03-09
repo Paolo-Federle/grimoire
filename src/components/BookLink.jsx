@@ -7,21 +7,23 @@ export function BookLink(value) {
 
   return (
     <>
-      {links.map((item, index) =>
-        item.url ? (
-          <a
-            key={index}
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 underline hover:text-blue-800 transition-colors"
-          >
-            {item.text}
-          </a>
-        ) : (
-          <span key={index} style={{ marginRight: '6px' }}>{item.text}</span>
-        )
-      )}
+      {links.map((item, index) => (
+        <React.Fragment key={index}>
+          {item.url ? (
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 underline hover:text-blue-800 transition-colors"
+            >
+              {item.text}
+            </a>
+          ) : (
+            <span>{item.text}</span>
+          )}
+          {index < links.length - 1 && <span>, </span>}
+        </React.Fragment>
+      ))}
     </>
   );
 }
