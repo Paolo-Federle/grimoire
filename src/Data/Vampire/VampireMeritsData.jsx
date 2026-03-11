@@ -27,7 +27,7 @@ export const vampireMeritsData = [
         "Name": "Doll Face",
         "Cost": "(•)",
         "Description": "Awaken from sleep each night automatically groomed.",
-        "Book": "Meh 118"
+        "Book": "Mekh 118"
     },
     {
         "Name": "Dream Visions",
@@ -135,7 +135,7 @@ export const vampireMeritsData = [
         "Name": "Requiem Diary",
         "Cost": "(• to •••••)",
         "Description": "Represents a written record of unlife, allowing 9-again on rolls to research one's own past.",
-        "Book": "AM 66-67"
+        "Book": "AM 66"
     },
     {
         "Name": "Patron",
@@ -225,7 +225,7 @@ export const vampireMeritsData = [
         "Name": "Zeal",
         "Cost": "(••) *Pre: Resolve •••",
         "Description": "Gain a +1 bonus to all social rolls where one's cause might prove helpful. Substitute Resolve for a lower attribute once per chapter.",
-        "Book": "AM 68-69"
+        "Book": "AM 68"
     },
     {
         "Name": "Carthian Merits",

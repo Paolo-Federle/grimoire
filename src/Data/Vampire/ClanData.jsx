@@ -132,7 +132,7 @@ const clanData = [
         "Bonus Trait": "Presence or Resolve",
         "Clan Disciplines": "",
         "Weakness": "–2 on Degeneration rolls",
-        "Book": "RfRome 92"
+        "Book": "RfR 92"
     }
 ]
 

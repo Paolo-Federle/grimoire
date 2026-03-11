@@ -111,7 +111,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "GTS 233, BotD p120"
+        "Book": "GTS 233, BotD 120"
     },
     {
         "Name": "Binding Vow",
@@ -289,7 +289,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse vs Resolve + Composure",
         "Cost": "3e",
-        "Book": "NH-WD p27"
+        "Book": "NH-WD 27"
     },
     {
         "Name": "Clairvoyance",
@@ -311,7 +311,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 139, Pred p65"
+        "Book": "BoS 139, Pred 65"
     },
     {
         "Name": "Command Fire",
@@ -338,7 +338,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "PtC 252, PB p80"
+        "Book": "PTC 252, PB 80"
     },
     {
         "Name": "Commune",
@@ -360,7 +360,7 @@ const spiritNuminaData = [
         ],
         "Pool": "Power+Finesse - Resolve",
         "Cost": "1e",
-        "Book": "Inno 207"
+        "Book": "Inn 207"
     },
     {
         "Name": "Communion with the Land",
@@ -400,7 +400,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 139, BotD p120"
+        "Book": "BoS 139, BotD 120"
     },
     {
         "Name": "Consume Offering",
@@ -411,7 +411,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "GTS 281, BotD p120"
+        "Book": "GTS 281, BotD 120"
     },
     {
         "Name": "Consumption",
@@ -551,7 +551,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "GS 36, BotD p122, BOS 140"
+        "Book": "GS 36, BotD 122, BoS 140"
     },
     {
         "Name": "Derange",
@@ -573,7 +573,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 140, Pred p65"
+        "Book": "BoS 140, Pred 65"
     },
     {
         "Name": "Discorporation",
@@ -595,7 +595,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "GTS 234, BotD p122"
+        "Book": "GTS 234, BotD 122"
     },
     {
         "Name": "Dominion Sense",
@@ -617,7 +617,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 140, Pred p66, BotD p191"
+        "Book": "BoS 140, Pred 66, BotD 191"
     },
     {
         "Name": "Drawn to Sin",
@@ -650,7 +650,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 140, Pred p66"
+        "Book": "BoS 140, Pred 66"
     },
     {
         "Name": "End Disease",
@@ -681,10 +681,7 @@ const spiritNuminaData = [
         "Description": "Cast an tangling attack",
         "Long Description": [
             "The spirit possesses an entangling attack, be it mystic webbing, gobbets of intestine, wire mesh or glue-like spittle. To hit its target, the spirit makes a Finesse roll – the target’s Defense (armor does not add to Defense in this instance. Subjects struck by the attack are automatically grappled (see the World of Darkness Rulebook, p. 157). Each turn the victim may roll Strength + Athletics – the spirit’s Power to escape; otherwise she is immobilized. After a number of turns equal to the spirit’s Resistance, begin reducing the effective Power of the snare by two each turn. This attack costs one point of Essence. Additional Essence may be spent to add to the snare.",
-            "",
-            "",
-            "",
-            "",
+            ,
             ""
         ],
         "Pool": "",
@@ -712,10 +709,7 @@ const spiritNuminaData = [
         "Description": "transfer Essence to a mage's Mana pool",
         "Long Description": [
             "Typically, only Supernal spirits of the Aether and Abyssal entities possess this Numen. The spirit may, at will, spend points of its Essence as an instant action to add, on a one-for-one basis, to the Mana pool of a willworker, out to the maximum allowed by his Gnosis. Aetherial spirits sometimes use this Numen as a gift or to aid a Theurgist in time of hardship, while Acamoth and Gulmoth almost invariably use it as a bargaining chip in their negotiations. It is possible that other types of spirits know versions of this Numen that enable them to create the different sorts of mysterious energies required by other supernatural beings.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "None",
         "Cost": "1e/mana",
@@ -727,10 +721,7 @@ const spiritNuminaData = [
         "Description": "The target gains the urge to plan vengence then next time the target sleeps. This lasts for a full day.",
         "Long Description": [
             "This Numen plants an unconscious need in the target to seek vengeance on someone who has wronged him. It takes effect the next time the target sleeps, presumably outside Astral Space. For each success by which the demon wins the contest, plotting vengeance consumes the target’s life for one full day. People subjected to this Numen multiple times tend to pick up the threads of a vengeance planned before and dropped when the Numen’s effect ends.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "None",
         "Cost": "None",
@@ -742,14 +733,11 @@ const spiritNuminaData = [
         "Description": "Paralyse someone with fear.",
         "Long Description": [
             "This Numen allows a spirit to cause an opponent to become paralyzed by fear. The spirit spends a point of Essence and then rolls Power + Finesse; the targeted opponent contests the roll with Presence + Composure + Supernatural Tolerance. Success renders the victim unable to move or speak (or even scream) for one turn. Exceptional success indicates that the victim freezes in place for three turns.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 141, Pred p66"
+        "Book": "BoS 141, Pred 66"
     },
     {
         "Name": "Festering Touch",
@@ -757,10 +745,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Wastes of Civilization must make physical contact (using its own or Sarah’s body) with the item it wishes to affect with Corrosive Touch, spend two Essence and roll Resistance + Power. Success causes metal to rust, clothes to become threadbare and skin to rash or age. If successes equal or exceed an item’s structure, that item is destroyed or otherwise rendered unusable. In contact with skin, the target takes half the successes rounded down in lethal damage.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -779,7 +764,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 141, Inno p207"
+        "Book": "BoS 141, Inn 207"
     },
     {
         "Name": "Fiery Bite",
@@ -787,10 +772,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The dog’s bite inflicts fire damage instead of simple lethal damage. To most targets, the only difference this makes is cosmetic (the damage is accompanied by blistering and searing rather than just punctures and torn flesh), but to Prometheans, it means the dog inflicts aggravated damage with its bite.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -802,14 +784,11 @@ const spiritNuminaData = [
         "Description": "Make an immediate attack before finally discorporating.",
         "Long Description": [
             "This Numen allows a spirit on the verge of discorporation to make one last attack against its opponent. The spirit spends a point of Essence and makes an immediate attack against its foe as a reflexive action. This Numen is only usable when a spirit has fallen to 4 Corpus or below.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 141, Pred p66"
+        "Book": "BoS 141, Pred 66"
     },
     {
         "Name": "Firestarter",
@@ -817,10 +796,7 @@ const spiritNuminaData = [
         "Description": "Can make a small fire.",
         "Long Description": [
             "The spirit can create a number of small fires. The spirit spends one Essence and rolls Power + Finesse. Each success causes a small fire to break out within its Power in yards, the number of fires is limited to the Rank of the spirit. This Numen is dependant upon having fuel to feed the flames — the spirit cannot cause nonflammable material to burn. The size and intensity of the fires generated is equal to the flames of a torch — though the fires may grow or decrease in size and intensity naturally once started. Use the Blast Numen to emulate a spirit that can burn living targets.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -861,10 +837,7 @@ const spiritNuminaData = [
         "Description": "Steal the heat from something.",
         "Long Description": [
             "The spirit can rob the heat from a radius equal to it Finesse in yards. The spirit spends one Essence and rolls Power + Finesse; this is contested by a reflexive Stamina + Resolve + Supernatural Tolerance roll. If the spirit scores more successes than its victims, they take that number as levels of bashing damage. Armor and insulating clothes can provide some protection for a limited period of time. Armor automatically blocks damage equal to its rating for a number of rounds equal to its rating.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -876,10 +849,7 @@ const spiritNuminaData = [
         "Description": "Attacked targets half their defense. Also ass +1 for each damage taken to Corpus",
         "Long Description": [
             "Dominus gleefully abandons itself to the whirl of battle, disdaining personal defense in preference of tearing opponents limb-from-limb. Spend two points of Essence. For the remainder of the scene, Dominus gains a +1 bonus to attacks for each point of damage suffered to its Corpus. In addition, when Dominus makes an all-out attack while this Numen is active it may apply half its Defense rating (round down) as bonus dice to its attack pool in addition to the usual +2 bonus (Defense is reduced to zero as normal). ",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -891,10 +861,7 @@ const spiritNuminaData = [
         "Description": "Can transmit short repeated voice message over radio or television band.",
         "Long Description": [
             "Similar to Ghost Sign, the ghost can broadcast its voice over a radio or television band. Spend one Essence and roll Power + Finesse. If the roll fails, nothing happens. If the roll succeeds, the ghost can repeat a message (no longer than five minutes in length) over that frequency for up to a single day (24 hours). The message is never perfect, and is usually hampered by bouts of static and other radio interruptions.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "Power+Finesse",
         "Cost": "",
@@ -906,10 +873,7 @@ const spiritNuminaData = [
         "Description": "Force the spirit through the Gauntlet into the Twilight.",
         "Long Description": [
             "This Numen allows a spirit to force itself through the Gauntlet. This isn’t a natural or easy thing for a fleshless entity, but it’s the most reliable way to enter the physical world. Indeed, unless the spirit fetters itself (using that Numen), the spirit can remain in the material world for only a matter of hours. Spend three points of Essence and roll Power + Finesse to force the spirit through the Gauntlet. Every hour that the spirit spends unfettered or in Twilight in the material world costs the spirit one point of Essence per Rank, as its ephemera is gradually consumed. When the spirit runs out of Essence, it discorporates, re-forming in the Shadow as normal. The spirit can, however, choose to return through the Gauntlet freely at any time. ",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -921,10 +885,7 @@ const spiritNuminaData = [
         "Description": "raise or lower Gauntlet by one/suxx",
         "Long Description": [
             "This Numen is unique to certain Supernal spirits hailing from the Primal Wild, though rumors exist of its possession by a handful of alien spirits from the unknown realms outside of the Tapestry. The spirit spends a point of Essence and rolls Power + Finesse as an instant action, with each success enabling the spirit to raise or lower the local Gauntlet strength by one, to a maximum of five or a minimum of zero. Note that a Gauntlet reduced to zero automatically creates a Verge (see Mage: The Awakening, p. 282). In the event that a spirit’s use of this Numen is contested (by another spirit with the same power, for example, or by a mage capable of influencing the Gauntlet), the party scoring fewer successes subtracts them from those of the party with more successes, and the Gauntlet strength adjusts by that many points in the winner’s desired direction, to the maximum amount allowed by the power used by the winner.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
@@ -936,10 +897,7 @@ const spiritNuminaData = [
         "Description": "Can alter the geography of an area the entity is completely bound to.",
         "Long Description": [
             "Polydegmon is intimately tied to his Dominion. He is able to see and interact with any part of it. By rolling Power + Finesse, Polydegmon may shape the very fundament of the Dominion: shortening or lengthening the path, raising or lowering the temperature, shaping the landscape with a whim. This power beyond any other gives pilgrims the evidence and pause that they are in the company of a mythical deathlord.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -951,10 +909,7 @@ const spiritNuminaData = [
         "Description": "The entity inhabits a corpse, but the corpse reverts to only being a few days dead. The entity may also inhabit several corpses at once with this.",
         "Long Description": [
             "The qashmal can inhabit a corpse, working the body like a puppet. This Numen is sometimes used to complete a task that the corpse’s original owner left unfinished. For example, a group of Elpidos once inhabited the bodies of a crew of dead men on a becalmed sailing vessel, in order to bring the ship (and its sole survivor, an ancient mariner) safely back to port, before leaving the men’s bodies behind. Spend a point of Pyros and roll Power + Finesse. The body uses the qashmal’s Attributes, and the qashmal’s presence mostly reverses the body’s decay — it’s apparent that the body is dead, but even if the corpse has been dead for years, it looks as if he or she died only a few days ago. A qashmal inhabiting a corpse in this way does not lose Pyros over time. The qashmal must leave the body when the task is completed. When the qashmal departs, the body reverts to a state of decay reflecting the amount of time the corpse has been dead.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -966,14 +921,11 @@ const spiritNuminaData = [
         "Description": "Consume Ghosts as if they were spirits",
         "Long Description": [
             "The spirit with this Numen is able to steal Essence from or consume ghosts as if they were spirits. The spirit spends one point of Essence to activate this Numen and attune its “digestion.” The effects last for the rest of the scene. Naturally, the spirits must still be able to affect the ghost in other ways; this usually requires the spirit to be in the physical world and in Twilight.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 142, BotD p120"
+        "Book": "BoS 142, BotD 120"
     },
     {
         "Name": "Ghost Sign",
@@ -981,10 +933,7 @@ const spiritNuminaData = [
         "Description": "Create an image on a malleable media.",
         "Long Description": [
             "The ghost is capable of creating messages or images in malleable forms of media. Spend one Essence point and roll Power + Finesse. If the roll fails, nothing happens. If the roll succeeds, the ghost can create a single message or image. A sentence can be written in the steam condensed on a mirror. A ghostly statement can be heard amid the static of an audio tape. Or an image can be superimposed on a frame of camera film or videotape.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -996,10 +945,7 @@ const spiritNuminaData = [
         "Description": "Can speak when manifested.",
         "Long Description": [
             "The ghost is capable of speaking directly to mortals when it manifests. Spend one Essence point and roll Power + Finesse. If the roll succeeds, the ghost can utter a single sentence.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1026,10 +972,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This  desperate  ghost can draw the moisture out of any living mortal it can “touch”  while  manifested.  To  do  so,  the  ghost  pits its Power + Finesse against the subject’s Strength + Stamina in a contested action. If the ghost succeeds, it  draws water out  of the  subject’s body  in the  form of sweat, tears or even a clear, vomited spray (in the event of an exceptional success). This causes the victim one point of bashing damage per success. Once an individual subject has suffered an amount of damage equal to his Health, he is dehydrated and the ghost gives up on him and resumes his search for water. This leaves the subject deprived of water as if he had gone days or weeks without drinking (see “Deprivation,” p. 175-176 of the World of Darkness Rulebook). The ghost tries to lick the sweat from a subject’s  skin. He tries to suck it from the dirt at his feet. He kisses subjects and dries away their spit. But none of it helps him — it’s too late.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1056,14 +999,11 @@ const spiritNuminaData = [
         "Description": "The entity grants a sleeping or waking vision to the target.",
         "Long Description": [
             "Elpidos can invade the dreams of humans and Prometheans alike, granting vivid revelations in which they can impart valuable information, reveal truths or show apocalyptic visions of things that might come to pass. The Elpidos’ player spends one Pyros and makes a roll of Power + Finesse, contested against the victim’s Resolve + Composure. A qashmal with this Numen can impart visions to people who are wide awake, at a -2 dice pool penalty. If the victim is under the influence of drugs, particularly hallucinogenic drugs, the qashmal gains a +2 bonus to its dice pool.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "PtC 252, PB p77"
+        "Book": "PTC 252, PB 77"
     },
     {
         "Name": "Greater Influence",
@@ -1071,10 +1011,7 @@ const spiritNuminaData = [
         "Description": "Each time taken, can increase Influence by 1.",
         "Long Description": [
             "Spirits possessed of multiple Influences are not necessarily weaker than their more narrowly focused kin. Each time this Numen is taken, a spirit may increase one of its Influences by one dot. Rank 1 spirits may not take Greater Influence. No spirit may have a single Influence greater than its Rank, or more different kinds of Influences than its Rank. Example: By taking this Numen twice, Ember Man, a Rank 2 spirit of murderous arson, could have both Fire •• and Pain •• as its Influences (at the expense of having two other Numina).",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1101,14 +1038,11 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This Numen temporarily disables a specific technological object, such as a cell phone, computer or an automobile engine. The malfunction has no apparent external cause. The spirit expends a point of Essence and touches the object to disable it. The object ceases to work for a number of turns equal to the successes rolled. If the object is carried by another who seeks to avoid the spirit’s touch, a roll is required to make contact (see Targeting an Object, p. 132). Valid pieces of technology that can be overcome include anything manufactured by industrial means, with at least three separate parts; a gun is valid, but a hinge or syringe is not. The object cannot be larger than the spirit, but a discernible part of a complex machine may also be targeted. A man-sized spirit can affect the engine of a car, but not the entire automobile.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "Inno 208"
+        "Book": "Inn 208"
     },
     {
         "Name": "Hallucinations",
@@ -1116,14 +1050,11 @@ const spiritNuminaData = [
         "Description": "Create an illusion in the mind of the target.",
         "Long Description": [
             "This Numen allows a spirit to create an illusion. The spirit spends a point of Essence and pictures the illusion the spirit wants to create in its mind. This may be a sight, sound or even a person meant to interact with the target. The spirit makes a contested Power + Finesse versus the subject’s Wits + Composure + Supernatural Advantage roll. For each success the spirit rolls in excess of the target, the illusion affects one of the subject’s senses. The illusion is utterly compelling, but if the vision does something notably unusual the Storyteller may allow the target a Resolve + Composure roll to realize that his senses are lying to him.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 142, BotD p120"
+        "Book": "BoS 142, BotD 120"
     },
     {
         "Name": "Harrow",
@@ -1131,10 +1062,7 @@ const spiritNuminaData = [
         "Description": "Overwhelm the person with a specific emotion.",
         "Long Description": [
             "This Numen is typically associated with spirits of negative emotions, such as fear or wrath. The spirit can focus its negative resonance to create a crippling attack of its associated emotional state in an enemy. Spend a point of Essence and roll the spirit’s Power + Finesse, contested by the victim’s Resolve + Composure + Supernatural Tolerance. If the spirit wins the contest, the target is overwhelmed by the relevant emotional state for a number of turns equal to the number of successes the spirit gained.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1146,10 +1074,7 @@ const spiritNuminaData = [
         "Description": "Heal damage equal to successes, or fight off disease.",
         "Long Description": [
             "The spirit can heal others’ wounds, typically for a hefty price. The spirit expends a point of Essence and rolls Power + Finesse. Bashing damage is healed before lethal, and all lethal damage must be healed before aggravated damage. Each success heals a level of bashing damage, while two successes can heal a point of lethal damage. The lethal damage healed can be used to mend aggravated damage, but each point of aggravated damage cured costs one additional point of Essence. (Healing two aggravated wounds calls for four successes and three points of Essence.) This Numen may also be used to help a character fight off disease or the effects of poison — each success adding to the character’s resistance rolls on a one-to-one basis.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1161,10 +1086,7 @@ const spiritNuminaData = [
         "Description": "The quashmal can lessen the effect of Wasteland",
         "Long Description": [
             "The qashmal can lessen the Wasteland effect around a Promethean. Spend three points of Pyros, and roll Power + Finesse. If the roll is successful, the qashmal lessens the Wasteland effect caused by one Promethean by one stage per success.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1191,10 +1113,7 @@ const spiritNuminaData = [
         "Description": "Sleep for a designated amount of time and stop hemorrhaging Essence",
         "Long Description": [
             "The spirit can enter a voluntary state of slumber in the Shadow to preserve its Essence. Spirits might choose to do this if the Essence flow in a particular area is seasonal. For every point of Essence spent to Hibernate, the spirit may slumber for up to one month. During this time, the spirit does not have to spend Essence every day to survive, though the spirit always awakes from its slumber famished. For an additional expenditure of Essence, the spirit can create an additional condition that will cause the spirit to awaken (other than the passage of time). This condition must be relevant to its Influences. A tree-spirit might choose to awaken if the trees in its wood are harmed, or a frog-spirit might choose to reawaken when it rains.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1206,10 +1125,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The Hognose has survived decades of use in a surprisingly pristine condition. The secret of its longevity is the ghosts that hide within its shell. Even while alive, Rattler and Python fed on human pain and misery. In death they’ve found ways to put those emotions to work for them. Mortal crews fear piloting the copter for good reasons. The whispering and cajoling of Rattler and Python to kill infects the crew with unease and the compulsion to kill becomes overwhelming. The ghosts seek to cause despair in the humans that pilot the Hognose, to taint the crew’s moral compass. Each time a crewman onboard the Hognose fails a Morality degeneration roll, Rattler and Python funnel the power of that anguish into the machine. Ten points of Structural damage is instantly repaired each time a pilot or gunner loses Morality while in the Hognose.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1236,14 +1152,11 @@ const spiritNuminaData = [
         "Description": "Cause a howl that makes other flee their presence.",
         "Long Description": [
             "This Numen enables a spirit to let out a blood-curdling howl that causes an opponent to panic and run. The spirit spends a point of Essence and then rolls Power + Finesse – the opponent’s Composure. If the spirit wins the contest, the victim must flee the spirit’s presence for a number of turns equal to the number of successes achieved.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 142, Pred p66"
+        "Book": "BoS 142, Pred 66"
     },
     {
         "Name": "Ill Wind",
@@ -1251,10 +1164,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "By spending 3 Essence and rolling Finesse + Power, Wastes of Civilization breathes out a noxious fume which causes all within its area of effect double over wracked with pain (unless they resist with a reflexive Resolve + Composure roll), taking bashing damage equal to the amount of successes rolled in the form of retching and vomiting.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1266,10 +1176,7 @@ const spiritNuminaData = [
         "Description": "The Quashmal can take the appearance of any human it has met.",
         "Long Description": [
             "A Materialized qashmal with this Numen can take on the semblance of a human the qashmal has met. Spend one point of Pyros and roll Power + Finesse. Those who know the imitated person might see through the deception. Players of such characters make contested Wits + Empathy rolls. The number of successes is compared to the roll for this Numen. If the qashmal wins, the deception holds. If not, the viewer realizes that something is wrong with his acquaintance, though he probably won’t be able to put his finger on what.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1281,10 +1188,7 @@ const spiritNuminaData = [
         "Description": "The quashmals hands burst into flame, dealing Aggravated damage.",
         "Long Description": [
             "The qashmal’s hands (or claws, or mouth, or tentacles or wings) can, in an instant, be wreathed in cold Transforming Fire, which sears flesh and boils blood. Spend three points of Pyros. All of the qashmal’s Brawl attacks cause aggravated damage for the rest of the scene.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1296,10 +1200,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Firearms are ineffective against it. Even a direct hit from an RPG will only stop its advance for one turn.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1311,10 +1212,7 @@ const spiritNuminaData = [
         "Description": "The target mortal can be infused with Pyros, and is granted one of the quashmal's numina.",
         "Long Description": [
             "The qashmal can infuse a mortal’s being with the Pyros and grant the mortal the use of one of the qashmal’s Numina. Roll Power + Finesse. If the mortal is unwilling, or doesn’t know what’s happening, he can resist with Resolve + Stamina. If the qashmal succeeds, it burns itself out and returns to the Pyros, effectively ceasing to exist, while the mortal now gains the use of whatever Numen the qashmal wanted to pass on. The human’s dice pool when using the Numen is composed of appropriate Attributes. For example, if the qashmal bestows a human with the Awe Numen, that human’s player rolls Presence + Manipulation to use the Numen (the Power Attribute + the Finesse Attribute). If the Numen requires Pyros to be activated, the mortal’s player must spend Willpower instead, on a one-for-one basis. Any qashmal with the Impart Numen has almost always been sent to Earth for the purpose of using that Numen. The Numen only works for the mortal until such time as the qashmal’s purpose in granting it has been fulfilled, and it’s quite likely the qashmal will tell its mortal beneficiary exactly what this circumstance is (“you shall bear the cold flame in your hands, until such time as the creature under the bridge is dead,” for example). This power does not work on supernatural beings, including mages (whose Awakened souls will not allow the interference of the Pyros) and ghouls (whom the Vitae keeps in a state of spiritual stasis that the qashmal cannot alter). This power does work on mortals with supernatural qualities, such as the wolf-blooded and Sleepwalkers, however.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1326,10 +1224,7 @@ const spiritNuminaData = [
         "Description": "The quashmal can make someone believe something that is not true, demonstration of the untruth ends the effect.",
         "Long Description": [
             "The qashmal can make someone believe something that isn’t true, or implant a false memory in a subject. Spend two Pyros and roll Power + Finesse, contested by the subject’s Composure + Azoth. If the roll is successful, the subject believes whatever the qashmal has just told him to believe. If this belief is something that can easily be proven false (for instance, “lead turns to gold when anointed with this oil”), demonstration of the delusion’s untruth ends the Numen’s effects. Qashmallim usually implant delusions of a spiritual and therefore unassailable nature, however.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1341,10 +1236,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The gray spends a point of Essence to temporarily craft a piece of impossible machinery: devices for telepathic communication, the generation of anti-gravity fields, and the like. These devices last for a scene before breaking down into components that register as inconclusive to modern scientific tests. By spending one point of Essence per item, a graycan sustain its impossible technologies from scene to scene.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1356,10 +1248,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Priest can loosen the lips of potential targets by serving them alcohol and reflexively using this power. Roll Priest’s Power + Finesse - the target’s Resolve. Successes on this roll subtract from the Composure + Subterfuge roll that the target makes to resist telling Priest a secret later. This Numen can only used once per scene per target, and only if the target orders a drink from Priest.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1371,10 +1260,7 @@ const spiritNuminaData = [
         "Description": "-2 penalty to being noticed.",
         "Long Description": [
             "The spirit is very good at being overlooked. Onlookers suffer a –2 dice penalty on Perception rolls to notice the spirit, unless it does something to draw attention to itself.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1401,10 +1287,7 @@ const spiritNuminaData = [
         "Description": "Known only to Kerberos Yama, creates a Judge.",
         "Long Description": [
             "This Numen is known only to Yama and it is with this power that the Kerberos creates Judges and scribes to serve it, and deputizes those from the living world that offer service as payment. Used to target a ghost, the Numen has two effects. The first, lesser effect is to create a scribe. This investiture gives a ghost a slight boost to its mental capacities, which allows it to better serve Yama without altering the core personality of the ghost. The second effect is more intrusive. Each time Yama creates a Judge, it exhausts all of its available Essence, pouring it into the wraith. In return, the Kerberos absorbs some of the ghost’s Essence, making Yama an anchor of sorts for the new Judge. This process allows Judges freedom from the Underworld and reshapes the ghost’s Corpus to the familiar form worn by all Judges. Used to deputize a visitor from the living world, Yama invests a single point of Essence into the character. This breath of Yama acts as a sort of monitor of the deputy’s behavior and only returns to the Kerberos upon completion of a successful mission or if the deputy reneges on the deal.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1416,10 +1299,7 @@ const spiritNuminaData = [
         "Description": "The quashmal can increase the disquiet of an individual",
         "Long Description": [
             "The qashmal’s words can worsen Disquiet in an individual. Spend one Pyros and roll Power + Finesse, contested by the subject’s Resolve + Composure. If the qashmal succeeds, the subject suffers the first stage of Disquiet, directed at a Promethean of the qashmal’s choice. If the subject is already suffering from Disquiet, the qashmal causes it to increase in severity by one stage.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1431,10 +1311,7 @@ const spiritNuminaData = [
         "Description": "The quashmal can summon some of the strongest Firestorms.",
         "Long Description": [
             "Some of the most potent of the Lilithim can bring Firestorms into being. The qashmal spends seven points of Pyros, and rolls Power + Resistance. If the qashmal succeeds, a Firestorm brews up in the space of about an hour. Each success the qashmal gains is equal to one success on an Azoth roll, as if a Centimanus or Sublimatus had called the Firestorm into being (see Promethean: The Created, p. 254). This Firestorm’s trigger is Potniae (see Chapter Three for more information).",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1504,10 +1381,7 @@ const spiritNuminaData = [
         "Description": "The user gains a single insight to the targets soul, being vice, virtue, loves, sins, location.",
         "Long Description": [
             "The Sibitti use this Numen to know the weight of a soul they’re hunting: vices, sins, loves, location (or at least the direction in which to start), etc. With a Power + Finesse roll, Erra gains one insight into her target per success. This comes in the form of intuitions and won’t provide specific names or detailed litanies of sin, only feelings. Whether this sense can be wrong is something the Sibitti have never considered.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1519,10 +1393,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The creature spends 1 Essence and howls a lament which causes everyone within earshot (100 yards) to drop their weapons and cover their ears. Victims roll Resolve + Composure to stop fleeing the area in fear. The effect lasts for one minute.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1541,7 +1412,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 142, BotD p120"
+        "Book": "BoS 142, BotD 120"
     },
     {
         "Name": "Legion",
@@ -1549,10 +1420,7 @@ const spiritNuminaData = [
         "Description": "The demon divides into various smaller demons",
         "Long Description": [
             "The demon can divide into several lesser forms. Spend 1 Willpower point and 3 Essence. Divide the demon’s Infernal Rank any way you would like to determine the number of forms and their basic power. Divide its Attribute dots between each form, but do not divide Essence or Willpower. All component demons use the original’s point total, drawing from the common pool. Each form possesses just one of the demon’s Numina (and that Numina cannot be Legion) and the same Malapraxis.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1564,10 +1432,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "In certain specific situations, Pan can regain Essence at an accelerated rate when in the presence of someone who has died. There are two conditions. First, the person must have committed suicide out of shame or humiliation. Second, the person must have a Morality rating of 6 or higher. If the two conditions are met, then Pan will regain Essence equal to the sum of the victim’s Health points and Willpower. The Essence gained cannot exceed Pan’s maximum Essence pool, which is 20.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1579,14 +1444,11 @@ const spiritNuminaData = [
         "Description": "Bind self to a person as Fetter (does not control that person)",
         "Long Description": [
             "This variation on Fetter allows the spirit to fetter itself in a living being rather than an inanimate object. The same rules and restrictions as Fetter apply, save that the spirit must first succeed at a Power + Finesse roll contested by the target’s Resolve + Composure + Supernatural Tolerance. A successful use of this Numen creates one of the Ridden, specifically a Spirit-Urged (see p. 166). The spirit essentially uses the living being as a fetter and its Influence to impel its “host.” The most reliable way to break the bond between a spirit using the Living Fetter Numina and its host is to force the host into contact with the spirit’s ban.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 143, 13th p121"
+        "Book": "BoS 143, 13th 121"
     },
     {
         "Name": "Looking Glass",
@@ -1609,10 +1471,7 @@ const spiritNuminaData = [
         "Description": "Disrupt electronic equipment for a short time.",
         "Long Description": [
             "The ghost’s manifestation causes electronic equipment to malfunction due to an intense magnetic distortion. No roll is required. If the ghost manifests successfully it disrupts electronics within a number of yards equal to its Power trait. Radios, TVs and telephones emit static. Appliances stop working. Lights go out. Videotapes and camera film is erased/ exposed, ruining any captured images.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1624,10 +1483,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The ghost is able to enslave another shade and force it to perform whatever acts the lording ghost so desires. A specter can only use shades when its Power score is higher than the target’s Power score. If this is the case, spend one point of Essence and roll Power + Finesse in a contested roll versus the target ghost’s Power + Resistance. Success indicates that the ghost is able to enslave the victim shade, seizing control of the target. The ghost can force the victim to perform any command, however menial, contradictory, or dangerous. The ghost can enslave a number of ghosts equal to its Finesse score. The ghost must reattempt this Numen once per year if it aims to continue enslavement. This Numen isn’t necessarily restricted to use only within the Underworld, but that is where its effects are most commonly felt.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1646,7 +1502,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "SoM o183"
+        "Book": "SoM 183"
     },
     {
         "Name": "Manipulate Earth",
@@ -1672,14 +1528,11 @@ const spiritNuminaData = [
         "Description": "Shape and move designated Element.",
         "Long Description": [
             "The creature can move, morph and shape the element under its purview. The element should have a fairly narrow definition (soil, concrete, steel, stone, plastic, glass, wood, etc.) The spirit can roughly shape a surface area of about 100 square feet or a volume of roughly 40 cubic feet. The Manipulate Earth Numen, for example, is ideal for creating a quick foxhole, a crude wall or small escape tunnel. The Numen cannot be used as a direct attack (use Blast). Elements unable to hold their shape (air, water) should not be chosen. The effects are permanent, though they are not magically held in shape. Using the example above, a tunnel may naturally collapse soon after it is formed. This Numen costs one point of Essence.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 143, BotD p127"
+        "Book": "BoS 143, BotD 127"
     },
     {
         "Name": "Manipulate Time",
@@ -1687,10 +1540,7 @@ const spiritNuminaData = [
         "Description": "The quashmal reverses time for the target as far as it desires.",
         "Long Description": [
             "The qashmal can rewind time a few seconds, so that an event never happened to an individual. Spend 10 points of Pyros and rolls Power + Finesse. If the roll succeeds, the subject of the Numen feels time rewind and everything that happened to her — even injuries — reverse. Although the subject remembers what happened, no one else realizes, as the Elpidos fractures time and remakes it.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1702,10 +1552,7 @@ const spiritNuminaData = [
         "Description": "Make ephemeral form material. Functions as in Twilight but can physically interact.",
         "Long Description": [
             "This Numen allows a spirit to change its form from ephemera to matter, dropping it abruptly through the Gauntlet into the material world. The spirit’s physical form appears in the material world just as it did in the Shadow, and all its Numina and Influences function as normal. All rules for spirit traits in the spirit world apply equally to a Materialized spirit. Spend three points of Essence and roll the spirit’s Power + Finesse to allow the spirit to reshape itself into matter. The number of successes indicates the number of hours that the spirit can remain in the material world before reverting to ephemera. The spirit must then choose between remaining in the material world (and either anchoring itself or losing a point of Essence every hour) or slipping immediately back through the Gauntlet.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1717,10 +1564,7 @@ const spiritNuminaData = [
         "Description": "Can look through the Gauntlet to see the material world from the Shadow",
         "Long Description": [
             "A spirit with this Numen can briefly look through the Gauntlet into the material world. Roll the spirit’s Power + Finesse. The number of successes indicates the number of minutes the spirit can spend watching through the Gauntlet.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1732,14 +1576,11 @@ const spiritNuminaData = [
         "Description": "Can control a machine from the Twilight",
         "Long Description": [
             "This Numen allows the Manifested spirit to take control of a machine or vehicle that it has made into a fetter. By spending one Essence point, the spirit may operate the machine for the duration of a scene — the spirit can turn the machine off or on and control any moving parts, though the spirit cannot alter electrical flow. A spirit using this Numen to operate a car, for instance, would have to physically manipulate the radio knob to switch stations or turn the ignition switch to start the car. The spirit may make Finesse rolls in lieu of Drive in order to operate a moving vehicle, including all driving, control and crash rolls.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 143, Pred p66, GTS 235"
+        "Book": "BoS 143, Pred 66, GTS 235"
     },
     {
         "Name": "Memory Flashes",
@@ -1747,10 +1588,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This Numen allows the Reflection to use the terrible, painful, gory memories of its vampire as a weapon. It projects them into its target’s mind, forcing her to re-live every horrific experience the vampire has been through. The target becomes overwhelmed by these flashes of memory and has to fight to focus on other thoughts or feelings. The Storyteller spends a point of Essence and rolls Power + Finesse – the target’s Composure + Blood Potency. The target suffers a -1 penalty to all actions for every success rolled for the rest of the scene. The Reflection can’t use this power on someone who has already been affected by it until the original effects have worn off. The Reflection can use this Numen on its own vampire.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1762,10 +1600,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Similar to Phantasm (see p. 212 of the World of Darkness Rulebook), but much more specific, this Numen allows the ghost to take the form of specific people. Thus far, the ghost can only take the form of people who appear in the surface thoughts of the living, but if the ghost grows more powerful it might gain the ability to choose who it mimics. The ghost must first manifest to use this power, but it can activate Mimic in the same turn that the ghost manifests (see p. 210 of the World of Darkness Rulebook for rules on Manifestation). Spend one Essence and roll Power + Finesse. If the roll succeeds, the ghost takes on the physical appearance of whomever the people who witness it are expecting to see. This doesn’t give the ghost any insight as to who it appears to be, but the ghost usually doesn’t care.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1777,10 +1612,7 @@ const spiritNuminaData = [
         "Description": "Can change shape, not to disguise, but to move fluidly",
         "Long Description": [
             "The spirit is able to change its shape, not to disguise its true form, but to allow itself to elude its attackers by squirming through a sewer grate, or give it some edge based on environment. Spirits already possess the ability to increase their Attributes, and therefore make themselves stronger, faster or more slippery. This Numen allows a spirit to change its shape, structure or means of locomotion in a wide fashion, sprouting wings or fins or even making itself larger or smaller. These changes last for a number of hours equal to the successes on a Power + Finesse roll. Changing a point of Size costs one point of Essence, and adding a new form of movement costs three points of Essence; cosmetic changes (color, skin texture, etc.) cost one point of Essence. It is possible that a spirit might be able to grant itself other abilities, but think twice about allowing it to duplicate other Numen. The Storyteller might grant extra dice toward certain rolls for adopting new appendages, but boosting an Attribute, again, is already an ability a spirit possesses. Depending on its sphere of influence, a spirit (perhaps an elemental of metal) might be able to make itself nonflammable or bulletproof — such changes should cost four Essence.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1792,10 +1624,7 @@ const spiritNuminaData = [
         "Description": "Materializes in physical world, but looks human.",
         "Long Description": [
             "The spirit is able to transport itself across the Gauntlet, but, unlike the Materialize Numen, the spirit appears human. This human “costume” is somewhat imperfect, and the spirit does not choose the guise in which it appears; the mortal form is as generic as possible. Spend four points of Essence and roll the spirit’s Power + Finesse. The number of successes indicates the number of hours the spirit may exist in the material world, appearing human. The human costume offers a number of tiny flaws that are not easily noticeable without concerted investigation; perhaps the spirits smiles all the time or makes small but unusual gestures. Normal witnesses may make a Wits + Composure roll minus a number of dice equal to the spirit’s Finesse. Success indicates that the person notices something “off” about the spirit. Mortals with the Unseen Sense (Spirits) Merit do not suffer the penalty and make the Wits + Composure roll as normal. Supernaturals do not suffer this penalty.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1807,10 +1636,7 @@ const spiritNuminaData = [
         "Description": "The quashmal attacks a target, giving it either the pandoran transmutation Tentacles, or Hundred Hands.",
         "Long Description": [
             "With a searing blast of cold Transforming Fire, the qashmal can cause a Promethean, Pandoran, mortal or animal to suffer a mutation of some kind. Spend two Pyros and roll Power + Finesse, contested by the subject’s Resolve + Stamina + Azoth. On a success, the subject mutates. For a scene, the qashmal’s victim gets either the two-dot Pandoran Transmutation “Tentacles” (Promethean: The Created, p. 241) or the three-dot Pandoran Transmutation “Hundred Hands” (Promethean: The Created, p. 244). The victim can’t hide the mutation and suffers a –1 to all dice pools for the rest of the scene as she struggles to control the way that her body has changed. If she is a Promethean, her disfigurements also become visible to all.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1840,14 +1666,11 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Orbs sometimes impart messages to humans regarding other supernatural beings. Roll Power + Finesse; with one or more successes, the target experiences a brief hallucination in which some string of nearby text — a street sign, a newspaper headline — is rearranged to form a message. If no text is available, the target will hear the message as a disembodied voice. The message will relate to a supernatural that’s nearby: IT WAITS BELOW; BEWARE THE ONE IN RED; THE DEAD WALK, etc. If no such monster is near, the message will concern to the mental state of the target or some nearby person: SHE LACKS CONVICTION; YOUR CONCERN BLINDS YOU.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "HtV 345"
+        "Book": "HTV 345"
     },
     {
         "Name": "Omen Gazing",
@@ -1855,10 +1678,7 @@ const spiritNuminaData = [
         "Description": "Whilst in a trance, the spirit receives visions of the future.",
         "Long Description": [
             "With this Gift, the werewolf has developed an inner sight so powerful that it can actually catch glimpses of the future. The character enters a meditative trance, clearing her mind of everything but darkness in order to welcome the visions. She might receive warning of an impending attack, foretell the arrival of a potential ally or even watch a betrayal unfold before it happens. Viewing the future accurately is impossible, though. No vision is guaranteed to come true. Worse, visions gained are more often signs of ominous events than they are promises of good fortune. Whether this is because the Gift’s “eyesight” is through a dark lens, or simply a cold reflection of the hard truths of a werewolf’s existence, none can say.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1892,7 +1712,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "GTS 235, BotD p124"
+        "Book": "GTS 235, BotD 124"
     },
     {
         "Name": "Parthenogenesis",
@@ -1900,10 +1720,7 @@ const spiritNuminaData = [
         "Description": "The quashmal creates a miraculous pregnancy, even when it is normally impossible (although the conception might not come to term without further numina)",
         "Long Description": [
             "The qashmal has the power to conceive a child with a human woman without any sexual contact ever having taken place. Spend a point of Pyros, and roll Power + Finesse. If the roll succeeds, the woman enters into normal pregnancy. The woman can be of any age, and does not have to be physically able to bear a child —– she can be too young or too old to bear a child, or be without the necessary generative organs (because of disease, for example). If the pregnancy is carried to term, the child who is born probably has some high expectations upon her. Perhaps the child grows up to have supernatural powers, but she doesn’t need to. The weight of expectations can be enough to make the child of such a miraculous pregnancy remarkable in many ways.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1922,7 +1739,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 144, BotD p127"
+        "Book": "BoS 144, BotD 127"
     },
     {
         "Name": "Perfect Lie",
@@ -1930,10 +1747,7 @@ const spiritNuminaData = [
         "Description": "The target believes anything the demon says, as long as it isnt pure fantasy, or dosnt contradict something the person already knows.",
         "Long Description": [
             "When a demon uses this Numen successfully, its victim will believe anything it says, no matter how unlikely, as long as it isn’t utter fantasy (“You ride a unicorn to work”) or contradicted by anything the target knows to be true, such as telling someone he shot his wife, when he knows he didn’t. Spend 1 Essence and roll Power + Finesse + Infernal Rank – the target’s Composure (and a supernatural power trait such as Blood Potency, Primal Urge or Gnosis, if it applies). If the demon succeeds, the victim believes the lie for the scene.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1945,10 +1759,7 @@ const spiritNuminaData = [
         "Description": "Create an illusion to all senses.",
         "Long Description": [
             "The ghost has the power to create illusory images. Spend one Essence point and roll Power + Finesse. A negative modifier may be applied to the roll depending on the size and complexity of the illusion. Mimicking a person’s voice alone or creating a distinctive smell (like perfume) doesn’t incur any negative modifiers, but creating the illusion of a person might be subject to a -1 penalty. Creating the illusion of a specific person (down to patterns of speech and mannerisms) that a witness knows might call for a -2 penalty. Creating a complex illusion that seems to have physical substance (the witness is convinced that he can “touch” the illusion and it feels solid) incurs a -3 or more severe penalty. Small, subtle illusions are generally much more effective than large, overt ones. This power can work on only one victim at a time. Other mortals in the subject’s vicinity do not see what he does. When a subject witnesses an illusion, roll Wits + Composure (or the Storyteller may allow Composure to be replaced by Occult if your character is aware of ghostly activity). If the roll generates as many or more successes than were achieved in the phantasm roll, the victim recognizes that the image can’t be real. If the phantasm roll wins, the subject believes the illusion is genuine, but another Wits + Composure (or Occult) roll is made for him in each successive turn to attempt to see through the power. A ghost can maintain only one illusion at a time, and each illusion remains for the duration of the scene unless dispelled.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -1975,10 +1786,7 @@ const spiritNuminaData = [
         "Description": "The quashmal inflicts a disease upon the target.",
         "Long Description": [
             "Disease is the Lilithim’s plaything. A qashmal with this Numen can inflict disease upon an unwitting mortal (including mages) with a touch, a kiss or sometimes just a breath. Spend three Pyros and roll Power + Finesse, opposed by the victim’s Resolve + Stamina. On a success, the victim suffers from a potentially fatal disease. What the disease is, and whether it’s infectious is up to the Storyteller, but it’s always potentially fatal (see the World of Darkness Rulebook, p. 176). If the disease is not terminal and incurable, it should take at least 20 successes on an extended Stamina + Resolve roll to beat, with one roll allowed per week.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2042,10 +1850,7 @@ const spiritNuminaData = [
         "Description": "Extended control of a person, for a whole scene",
         "Long Description": [
             "The spirit can attempt to possess a living human being and control his or her body for a short time. Spend one Essence point and roll Power + Finesse in a contested roll versus the victim’s Resolve + Composure + Supernatural Tolerance. If the spirit wins, it gains control of the victim’s body for the duration of a single scene. Use the victim’s available traits (except Willpower points, which are equal to the spirit’s current Willpower points) and dice pools for any action the spirit wishes to take. If the mortal wins or ties the roll, the spirit fails its possession attempt. As long as the spirit has Essence points remaining, it can continue to make possession attempts against a target. If a possessed body is killed or knocked unconscious, the spirit is forced out and must possess another victim if the spirit still wishes to act. This is the Numen used by the Spirit-Thieves (p. 174). The most reliable way to break the bond between a spirit using the Possession Numina and its host is to force the host into contact with the spirit’s ban.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2057,10 +1862,7 @@ const spiritNuminaData = [
         "Description": "Rain comes, and is a pleasant temperature and intensity for humans.",
         "Long Description": [
             "Rain comes, cool and refreshing, brought by the qashmal. Spend three points of Pyros and roll Power + Finesse. If the roll is successful, it begins to rain in an area of about a half-mile radius around the qashmal, no matter how improbable that might be. The rain is at a comfortable temperature for humans, no matter how hot or cold the surrounding area.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2072,10 +1874,7 @@ const spiritNuminaData = [
         "Description": "The ghosts defence does not reduce with more attackers",
         "Long Description": [
             "Clockwork is always in complete control of its body and bases its decisions on complex calculations that give its actions an eerie semblance of prescience. Spend two points of Essence. For the remainder of the scene, Clockwork’s Defense is never reduced by multiple attackers and it may apply half its Defense (round down) against ranged attacks.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2102,10 +1901,7 @@ const spiritNuminaData = [
         "Description": "The quashmal splits into several figures and sings a message. they disappear at the end of the message.",
         "Long Description": [
             "Occasionally, the qashmallim must make their information openly available and difficult to ignore. With this Numen, a single Elpidos can appear to divide into several figures, all of whom sing in unison. Spend three points of Pyros and roll Power + Finesse. If the roll is successful, the qashmal appears to be literally dozens of individuals, who sing or speak in unison at tremendous volume. When the qashmal’s message is over, the extra figures vanish.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2117,14 +1913,11 @@ const spiritNuminaData = [
         "Description": "The quashmal can steal pyros from a target.",
         "Long Description": [
             "Many qashmallim of both Choirs and both Orders have access to this Numen, which allows them to steal Pyros from any being that has it. Roll Power + Finesse in a contested roll against the victim’s Resolve + Composure. If the qashmal wins, it steals one Pyros point per success, which the qashmal can use to fuel its powers.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "PtC 252, PB p77"
+        "Book": "PTC 252, PB 77"
     },
     {
         "Name": "Radioactive Blast",
@@ -2132,10 +1925,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The ghost spends a point of Willpower and rolls Power + Finesse minus the target’s Stamina. Each success inflicts one point of bashing damage. On an exceptional success, the damage is lethal.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2180,10 +1970,7 @@ const spiritNuminaData = [
         "Description": "The flux rating of the area raises by 1.",
         "Long Description": [
             "With this Numen, a Lilith can infect the surrounding area with Flux. Spend five Pyros and roll Power + Finesse. On a success, the Flux Rating in the immediate area rises by 1.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2195,10 +1982,7 @@ const spiritNuminaData = [
         "Description": "Flood person with pleasurable visions and sensations",
         "Long Description": [
             "Many spirits favor subtle controls over their fleshy pawns, but some use this vile short-term method for greater control. With this Numen, the spirit can tap into the pleasure centers of a willing creature’s mind and soul, granting the creature’s ecstatic visions, immense pleasure and a sense of communion with the otherworld. In fact, this Numen is a low-level possession, a melding of ephemera and soul carefully steered by the spirit to elicit primal responses from the target. For one turn, the victim is completely incapacitated — perhaps babbling in the Spirit Tongue, dancing or even growling. For a number of hours after this effect (8 – Stamina), the victim feels charged and sure of her devotion to the spirit’s cause, receiving +2 on any roll when acting in accord with her ravisher’s desires. All other dice pools are at –2. Unfortunately, such intimate contact with an alien mind can cause damage to the target’s psyche. If the target fails a Resolve + Supernatural Tolerance roll, she gains a temporary derangement for a number of days equal to the spirit’s Power, or until she is no longer under the effect of this Numen, whichever is longer. The derangements that result are almost always ones that further bind the victim to spirit’s desires (fixations, compulsions, and so on.) Alternately, and depending upon circumstance, the Storyteller may rule that this act is effectively a Level 4 Sin. Furthermore, victims begin to build up a tolerance to the Numen, dropping the duration of the effect (halving the time for each rapture experienced in the same month). Each exposure to this Numen lowers the resistance to any of the spirit’s other powers, a cumulative –1, maximum –5; these penalties fade at a rate of one per day. This Numen costs two points of Essence and may only be used if the spirit is on this side of the Gauntlet and touching the target or with the Reaching Numen. ",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2210,14 +1994,11 @@ const spiritNuminaData = [
         "Description": "Can use certain Numina to effect the material world in conjunction with this.",
         "Long Description": [
             "This Numen allows a spirit to use its other Numina through the Gauntlet. Roll Power + Finesse, modified by the strength of the Gauntlet (p. 46) to successfully create a resonant conduit through the Gauntlet for the spirit to use its next Numen. Reaching lasts for the duration of the next scene and moves with the spirit. This conduit exists in Twilight in our reality, and though it cannot be directly targeted, creatures with the ability to perceive objects in Twilight may be able to spot it, though it is difficult (–4). Reaching costs one Essence.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 145, Inf p53"
+        "Book": "BoS 145, Inf 53"
     },
     {
         "Name": "Rebirth",
@@ -2225,10 +2006,7 @@ const spiritNuminaData = [
         "Description": "While Riding a living target, kill and consume 3 targets over a week. The Third target then inhabits the body, which ages back to 18 years. The other two souls are then released.",
         "Long Description": [
             "This Numen is possessed only by conceptual spirits of choirs associated with reincarnation, or karma. Rebirth represents a process that, once begun, must be completed within one week (seven days), or else the benefits are lost. The spirit must first Claim a human body, either mortal or Awakened (a mage). The spirit must then kill and devour two more people within the next seven days. (If the Claimed victim was a mage, the other victims must also be a mage.) During this time, the spirit stores the souls of those it kills. Once it kills its third victim, it then restores one of those victims to life with renewed youth in a transformed version of the Claimed body: the body is biologically 18 years old, although it ages normally from then on. The other souls are then released, to go to their proper fates. If the spirit cannot complete its task of killing two more mages within a week after the first death, none of its victims are reborn. This Numen can only be used once upon a particular soul to rebirth its material body. Once this Numen has played out, the spirit is involuntarily subject to the effects of the Discorporation Numen. Roll Power + Resistance; if successful, the spirit discorporates and reforms elsewhere in the Shadow Realm (probably at a locus it is familiar with).",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2240,10 +2018,7 @@ const spiritNuminaData = [
         "Description": "The quashmal can convert electricity into pyros.",
         "Long Description": [
             "The qashmal, when Materialized, can recharge its Pyros from electricity. The Dominion attaches itself to a source of electrical power. Spend one point of Pyros, and roll Power + Resistance. On a success, the qashmal gets the point of Pyros back, and gets another point of Pyros for every success rolled. However, every success also reduces the Structure of the electrical outlet or cable the qashmal has connected itself to by one. If the object’s Structure is reduced to zero or less, the qashmal is destroyed.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2255,10 +2030,7 @@ const spiritNuminaData = [
         "Description": "Can spend Essence to gain Corpus/ Health",
         "Long Description": [
             "The spirit can use Essence to regenerate Corpus. There is no dice pool for this Numen. Once activated, the spirit automatically regenerates one level of damage per turn. It regenerates bashing damage first, then lethal. This Numen costs one Essence per turn. Aggravated damage must be healed normally.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2270,14 +2042,11 @@ const spiritNuminaData = [
         "Description": "Can spend Essence to gain Corpus/ Health",
         "Long Description": [
             "The Flesh Intruder can heal wounds to its host body by spending one Essence to heal two points of bashing damage or one point of lethal or aggravated damage. Whenever the Intruder does so, obscene holes open in its flesh, oozing healing pus.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 146, Ant p38"
+        "Book": "BoS 146, Ant 38"
     },
     {
         "Name": "Resurrection",
@@ -2285,10 +2054,7 @@ const spiritNuminaData = [
         "Description": "The quashmal can raise a person from the dead, as long as they didn't die of old age. Supernaturals are rendered mortal by the process (albeit with the most logical minor template), save for Vampires and Prometheans. Prometheans remain Prometheans, and Vampires cannot be raised.",
         "Long Description": [
             "The qashmal can raise the dead. The Dominion stands by the corpse and commands the subject to awaken. Spend 10 Pyros and roll Power + Finesse, with a –1 penalty to the dice pool for every full day the subject has been dead. On a dramatic failure, the body animates, but it is a murderous, undead creature, possessed by an unclean spirit from a place that even the qashmallim fear to tread. On a success, the dead person lives again. All wounds and diseases are fully healed, and the subject is free to live out the span of her life. The qashmal can raise werewolves and mages from the dead as well, but they lose their supernatural powers, becoming ordinary humans, albeit wolf-blooded or Sleepwalkers, respectively. The qashmallim cannot raise vampires from the dead, because, even if their bodies are not piles of dust, they have died twice, an obstacle even a Greater qashmal cannot surmount. No qashmal can raise a person who has died from natural causes. They have lived out their destined lives, and in their case, the rule of Destiny cannot be gainsaid.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2300,10 +2066,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Spend two Essence and roll Power + Finesse contested by the target’s Resolve + Composure. For each success achieved by the Diagnostician, the target suffers a penalty of one die on future contested rolls against creatures from Alkahest. The target’s flaws are literally written onto her skin to await correction — words such as “narcissistic,” “debtor” or “poor genetics” appear on her forehead, arms and palms. The words can be washed off with ordinary water, but have a tendency to reappear during moments of self-doubt.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2315,10 +2078,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This Numen allows a spirit to use information as a weapon, forcibly projecting it into the mind of its target. The target is overwhelmed by the information flooding his mind, and must fight to focus on other thoughts for the duration of the Numen’s effect. Spend a point of Essence and roll Power + Finesse, contested by the victim’s Resolve + Composure. If the spirit wins, the target suffers a penalty to all Mental dice pools (including further Resolve + Composure tests) equal to the number of successes by which the spirit won the contest. The effects last for the scene, and are not cumulative.If multiple spirits attempt to target a victim with this Numen, the victim will be affected only by the greatest effect; if one spirit induces a –1 penalty and another induces a -3 penalty, the victim is at -3 to Mental dice pools, not –4.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2330,10 +2090,7 @@ const spiritNuminaData = [
         "Description": "The quashmal creates sunlight over an area equal to a city block.",
         "Long Description": [
             "The qashmal can create light that is equivalent in every way to sunlight rise over an area the size of a city block. Spend 10 Pyros and roll Power + Finesse. On a success, the area is bathed in daylight. Creatures adversely affected by sunlight suffer effects as if the sun really had risen. This lasts for a scene.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2345,10 +2102,7 @@ const spiritNuminaData = [
         "Description": "Add 3 to the dice pool of an already possessed Numina",
         "Long Description": [
             "This spirit is particularly skilled in the use of another Numen. Savant may be purchased for any other Numen that requires a roll, adding three dice to that pool. This Numen may be purchased more than once, but only for another Numen.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2375,10 +2129,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "For every point of Essence spent (1-3 Essence), Driala can contribute up to two dice to its host’s Seduction dice pool.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2390,14 +2141,11 @@ const spiritNuminaData = [
         "Description": "Can sense something related to the Spirit's purview",
         "Long Description": [
             "The spirit can svense an event or thing directly related to its sphere(s) of influence. For example, a spirit of death can sense a dying person and even gauge how long before the end, while a tree-spirit of the dogwood descant can home in on the nearest grove. Said spirits would not sense a skeleton or an apple orchard, however, because those things are not technically in their purview. The spirit rolls Finesse. Success gives the spirit a general impression of direction and distance to the target. Functional distance is approximately a radius of two miles; by spending an Essence point, the spirit may extend the radius by a factor of 10. If there is more than one influence in the radius, the spirit will understand that there is a plurality (though not the exact number) but will be drawn toward the closest.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 146, Pred p66"
+        "Book": "BoS 146, Pred 66"
     },
     {
         "Name": "Selective Manifestation",
@@ -2405,10 +2153,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The Reflection can choose who sees it when it manifests. It manifests in a mirror, screen or picture as normal, but only the people the Reflection wishes to perceive it can do so without effort. Anyone else trying to find it (perhaps trying to catch a glimpse of what frightened another person in the room so much) must make a Wits + Composure roll with a -2 penalty. The Reflection can never hide from its vampire, who can always see it without needing to make a roll.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2420,10 +2165,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The Beast of Bethlehem has complete awareness of its territory and can sense any encroachment upon it. When the Beast first materializes, it must walk the periphery of its intended territory and define the boundaries. After this moment, the Beast immediately sense any living creature that crosses the boundary. This means, however, that the Beast does not automatically sense the presence of the undead, giving, vampires and zombies a slight advantage. In order to sense an undead presence within its territory, the Beast requires, success on a roll of Resolve + Wits. A vampire using Cloak of Night (obfuscate 3) is invisible to the Beast.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2435,10 +2177,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The Flesh Intruder has a goal, and this usually involves a person, place or thing. The Intruder can track this target from any distance through a form of sympathetic magnetism. Roll Wits + Investigation for the Intruder to know exactly where the target is as long as the Intruder continues to concentrate. If it eases its concentration, the Intruder loses track of the target until the Intruder takes an action to roll again. While using this Numen, the Intruder is exposed — its flesh opens up in various spots over its body so that fleshy nodules can extrude and “sniff” out its prey. Nobody watching this display could mistake it for a normal human or animal.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2450,14 +2189,11 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "One of the clearest indicators of a person’s ingenuity is his ability to use his enemies’ weaknesses to his advantage. The Irralunim respect such efforts, and they offer this Gift to their chosen werewolves to make those efforts a little easier.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "AR 115, WtF p132"
+        "Book": "AR 115, WtF 132"
     },
     {
         "Name": "Sever Virtue or Vice",
@@ -2465,10 +2201,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This Numen allows a Disconnector to cut a person off from essential aspects of herself, along with the emotional resources those aspects provide. Roll Power + Finesse and spend two Essence, contested by the target’s Resolve + Composure. If the Disconnector succeeds, it prevents the target from regaining Willpower by fulfilling either her Virtue or Vice (Disconnector’s choice) in the future. The effect lasts for one week per success.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2480,10 +2213,7 @@ const spiritNuminaData = [
         "Description": "Remove hour’s worth of sleep to victim",
         "Long Description": [
             "This insidious Numen allows a spirit to rob hours of sleep of its victims. Spend one point of Essence and roll Power + Finesse – the target’s Stamina + Supernatural Tolerance. Each success represents an hour’s worth of sleep lost. These can only be recovered through normal sleep. After the spirit eats six hours of the target’s sleep, the target begins suffering the effects of fatigue (see the World of Darkness Rulebook, p. 179) as if he had not slept in 24 hours. Each six successes beyond this means the target loses another day’s sleep, and he suffers a cumulative –1 die penalty to all dice pools and must make Stamina + Resolve rolls or fall asleep. A person may only lose a number of days worth of sleep equal to the lowest of his Stamina or Resolve before passing out.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2513,10 +2243,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "At the cost of one Essence, the Fear speaks inside its target’s mind for one turn per success. No person beside the target senses the Fear’s words. It uses this power to communicate without drawing down the other fears’ wraths, directing astral travelers from hiding to safe places within the massive cathedral. Unwilling targets contest with Composure + Gnosis.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2528,14 +2255,11 @@ const spiritNuminaData = [
         "Description": "The ghost can choose to regain essence instead of willpower from fulfilling its vice.",
         "Long Description": [
             "When the ghost engages in its Vice, it may choose to not regain Willpower. Roll Power + Finesse, instead. Each success translates to one point of regained Essence instead of Willpower. The ghost may only perform this Numen once per 24-hour period.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "GTS 281, BotD p123"
+        "Book": "GTS 281, BotD 123"
     },
     {
         "Name": "Sinuous Chains",
@@ -2543,10 +2267,7 @@ const spiritNuminaData = [
         "Description": "May attack two foes at once without penalty",
         "Long Description": [
             "The Triptych’s chains allow it to strike at two foes at once, without any penalty. The chains can grapple using the Kerberos’ Power. Due to their tangling and insubstantial nature, the chains cannot be overpowered (see the World of Darkness Rulebook p. 157 for more information).",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2558,10 +2279,7 @@ const spiritNuminaData = [
         "Description": "Spend 1 Willpower to steal Willpower or Health, gaining Essence",
         "Long Description": [
             "All intruders begin with this Numina, but human revenants are able to develop it. The revenant must touch the victim to activate the power. Spend one of the revenant’s Willpower points, and roll her Intelligence + Presence in a conteste roll against the target’s Resolve + Composure. If the intruder wins, every success converts one of the target’s Willpower into two Essence for the revenant. If the target runs out of temporary Willpower, the revenant then siphons Health (this damage is considered lethal). Vampires and other undead creature can lose Willpower to revenant with Siphon, but not Health. If a revenant targets a creature with an Essence trait (such as another revenant), Siphon drains Essence directly rather than Willpower. If the target runs out of Essence, the revenant drains Willpower and finally Health.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2573,10 +2291,7 @@ const spiritNuminaData = [
         "Description": "The ghost grapples the target, and for every success on this numina, the target loses a willpower.",
         "Long Description": [
             "Narasimha can strangle or crush mortal foes easily enough but strangling a ghost doesn’t do a whole lot of good. Smother allows Narasimha and Razil to sap the will of their victim and thus take a lot of the fight out of targets who aren’t so easily disposed of. He must first grapple the target and then roll Power + Finesse minus the target’s combined Resolve + Composure. The target loses a point of Willpower for every success. Once the target is sapped of Willpower, continued successes sap Corpus or Health in the form of bashing damage (and ultimately lethal as he persists)",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2588,10 +2303,7 @@ const spiritNuminaData = [
         "Description": "Pull a target into a mirror, TV or picture",
         "Long Description": [
             "The Reflection reaches out from the mirror, TV screen or picture it has just manifested in and drags someone inside. The Storyteller spends three Essence and rolls the Reflection’s Power + Finesse – the target’s Resolve + Blood Potency. For every success the Storyteller rolls, the victim becomes trapped within the reflection (banging his fists noiselessly against the glass) or image (stuck in an attitude of terror) for one hour for every success rolled. The Reflection can communicate with an imprisoned victim (and in lieu of any other power to communicate, might use this as a way to talk), or choose to attack. The Reflection can use this power on its vampire. Should a mortal be killed within the mirror, their remains simply vanish; thus, Reflections cannot use this method to feed.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2603,10 +2315,7 @@ const spiritNuminaData = [
         "Description": "The quashmal lessens the effect of Disquiet.",
         "Long Description": [
             "The qashmal can lessen the level of Disquiet in an individual. Spend a point of Pyros, and roll Power + Finesse, reflexively contested against the subject’s Resolve + Composure. If the roll is successful, the level of Disquiet the subject feels toward one Promethean is reduced by one stage. This Numen doesn’t stop the human suffering from Disquiet again, should he spend more time in the presence of the Promethean.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2618,10 +2327,7 @@ const spiritNuminaData = [
         "Description": "Take the Soul of a target, gaining practically all knowledge of them, and disallowing them from regaining willpower. This version also works on supernaturals that possess a soul, and the super requires the soul holder's consent before using a supernatural power.",
         "Long Description": [
             "This Numen is a more powerful version of Soul Snatch that also functions against supernaturals who possess a soul. As with that Numen, Soul Harvest functions just as the Claim Numen except that success on the spirit’s part means it grasps the victim’s soul instead of Riding its body. The victim must succeed upon a Stamina roll or fall unconscious. Even if conscious, the victim may not spend points of Willpower, expend points of a supernatural power trait or use any supernatural ability without the consent of the Harvester spirit. The victim cannot regain Willpower if its soul has been harvested. The spirit has full knowledge of its victim’s thoughts and actions, no matter its location. If the supernatural has an Essence trait, the being may use these points of Essence as its own. It may also choose to feed upon the victim’s soul at its leisure. Each hour the spirit does so, it gains two points of Essence per dot consumed — feeding first on its prey’s Willpower then its dots of Supernatural Advantage. Each hour that the spirit is feeding, the victim must again succeed upon a Stamina roll or fall unconscious due to the pain. When the spirit is finished feeding, the creature’s soul is destroyed.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2633,10 +2339,7 @@ const spiritNuminaData = [
         "Description": "Take the Soul of a target, gaining practically all knowledge of them, and disallowing them from regaining willpower.",
         "Long Description": [
             "This is a rare but terrifying Numen, allowing the spirit to steal the soul of a mortal. This acts just as the Claim Numen except that success on the spirit’s part means it grasps the victim’s soul instead of Riding its body. The spirit can then do with the soul what it will. Most spirits that have this Numen slowly devour the soul, gaining Essence equal to twice the victim’s Willpower dots. Certain highranking spirits have been known to have a version of this Numen that allows them to snatch the soul of a supernatural (if it possesses one).",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2648,14 +2351,11 @@ const spiritNuminaData = [
         "Description": "Speed is doubled for the scene, and can be tripled for an additional 2 Essence.",
         "Long Description": [
             "This Numen confers uncanny swiftness upon the spirit, allowing it to move at a much more rapid pace than usual. The spirit may spend two points of Essence to move at twice its normal Speed for the duration of the scene. If the spirit spends an additional two points of Essence (for a total of four), the spirit’s Speed triples for the duration of the scene. This Numen may affect the physical form of a Materialized spirit, but not a physical fetter.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 147, Pred p66"
+        "Book": "BoS 147, Pred 66"
     },
     {
         "Name": "Spirit Crown",
@@ -2663,10 +2363,7 @@ const spiritNuminaData = [
         "Description": "control another Spirit for a Scene",
         "Long Description": [
             "This powerful Numen is possessed only by a rare few spirits native to the Primal Wild. By spending a point of Essence and successfully rolling Power + Finesse as an instant action against another spirit (which reflexively contests with Resistance), the Primal entity may exert control over that spirit for the remainder of the scene, dictating its actions as the controlling spirit wishes. Other Supernal spirits not native to the Primal Wild are immune to the use of this Numen, as are certain alien entities from outside of the Tapestry, but even Acamoth and Gulmoth can be bound through its use.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
@@ -2678,10 +2375,7 @@ const spiritNuminaData = [
         "Description": "Numerous lesser spirits will defend and obey every whim of the spirit",
         "Long Description": [
             "The spirit has made compacts with minor spirits for aid in times of need — bonds much stronger than court or brood. These underling spirits will unfailingly come to help defend their master, though they will normally flee when their Corpus or Essence reaches one quarter of their maximum. Spirits with this Numen can only command the service of spirits substantially weaker than themselves. The number of spirits in service is directly related to their number of ranks below their leader. A spirit may have the fealty of one spirit that is one rank below them, but two spirits that are two ranks below them, and so on. These servitors cost time, and Essence to maintain; this is reflected by effectively lowering the maximums for the master spirit. Each spirit kept in fealty lowers the Willpower by one and lowers the maximum Essence of the commanding spirit by the total ranks of the spirits in its service. If a major war-spirit (Rank 4) spirit kept two lesser war-spirits (Rank 2) in fealty, the commanding spirit’s maximum Willpower would be reduced by 2 and maximum Essence by 4. Activating this Numen costs one point of Essence for each spirit summoned. The spirit makes a Finesse roll and subtracts the result from 5. This is the number of rounds until their servitors arrive, minimum of one. Servants always appear in the Shadow, though their master may call them from the material realm.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2693,10 +2387,7 @@ const spiritNuminaData = [
         "Description": "Spend Essence to increase physical attributes for the scene on a 1-1 basis (cap of 5)",
         "Long Description": [
             "Up to five Essence points can be spent to increase the revenant’s Strength, Dexterity and/or Stamina on a one-for-one basis. The additional dots last for the scene, and may be raise an Attribute above 5. No more than five Essence points can be spent using Spirit Prowess during a scene, through the points may be reallocated during the scene by spending one point of Willpower.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2708,14 +2399,11 @@ const spiritNuminaData = [
         "Description": "cause a spiritually sourced poison, as well as corrupting a spiritual power source.",
         "Long Description": [
             "This Numen allows the spirit to inject its opponent with a form of spiritual venom after a successful blow or bite, causing damage and befouling its enemy’s own reserve of spiritual energy. After a successful strike in hand-to-hand combat, the spirit may spend one to three points of Essence to inject a supernatural venom into its foe. The venom inflicts an additional point of damage for every point of Essence spent. In addition, the victim must succeed at a Stamina roll, or lose one point of Essence for each point of Essence the spirit spent. This corrupting effect also works on other forms of supernatural energy, though to lesser extent. A target that doesn’t use Essence will lose only one point of his reservoir to the spirit-venom, no matter how much Essence the spirit spent.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "Bos 147, Pred p67"
+        "Book": "BoS 147, Pred 67"
     },
     {
         "Name": "Spiritual Vision",
@@ -2723,10 +2411,6 @@ const spiritNuminaData = [
         "Description": "See into the material realm (Similar to Material Vision)",
         "Long Description": [
             "This Gift allows a spirit in the physical world, whether fettered or in Twilight, to peer into the spirit world for a short period of time. Roll the spirit’s Power + Finesse – Gauntlet modifier. The number of successes indicates the number of minutes the spirit can activate this ability. This Numen is particular to spirits that have spent a great deal of time in the physical world.",
-            "",
-            "",
-            "",
-            ""
         ],
         "Pool": "",
         "Cost": "",
@@ -2738,10 +2422,7 @@ const spiritNuminaData = [
         "Description": "The entities defense is based on the resistance of the entity",
         "Long Description": [
             "The spirit’s concept is bound up with defense and determination, making it difficult to damage. Perhaps the spirit’s very nature encompasses the concepts of protection, resistance or guardianship. Nonetheless, its Defense trait is not based upon raw muscle or nimbleness; the spirit’s Defense is equal to its Resistance. This may be reflected by a thick hide or even armor.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2753,10 +2434,7 @@ const spiritNuminaData = [
         "Description": "The entity can summon the soul of the dead, who start with little memory of before by slowly gain it back.",
         "Long Description": [
             "By rolling Power + Finesse, Polydegmon can call forth the soul of the deceased. This includes souls that have been dead for years but recently lost their anchor, were destroyed in the afterlife many years ago, or never stopped between death and the Autochthonous Depths. These souls have no memory at first but as time passes they will recall their previous life and return to their own habits and routines as best they’re able. Whether these souls are the genuine article or a simulacrum Polydegmon has the ability to create is up for debate. The returning memories could come from absorbed impressions of their loved ones until finally becoming a sort of idealized version of the person.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2768,10 +2446,7 @@ const spiritNuminaData = [
         "Description": "The demon and target become as one, and are one of the Possessed. This only works on mortals.",
         "Long Description": [
             "A demon with the Numen can join with an ordinary human being (that is, one without a supernatural template) to become one of the Possessed. See Chapter Three for systems. Supreme Possession alters both the demon and its victim, so there is no need to translate the demon’s current abilities. Instead, the victim’s soul (and the player’s choices) defines the demon from that point onward.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2783,10 +2458,7 @@ const spiritNuminaData = [
         "Description": "Verminous swarm grants possessed host +3 defense and hampers enemy actions",
         "Long Description": [
             "Wastes of Civilization is accompanied by a swarm of rats, mice, cockroaches, lice and other pests and vermin (in both the physical and spiritual realm). These creatures swarm around their spirit master, granting +3 to the defense of the possessed target. While the swarm doesn’t attack outright, once per turn the swarm may target a member of the cell or their allies in an attempt to hamper her efforts. Roll four dice, and successes translate to minuses to any action performed by the target for that turn. Attacking the swarm directly may cause it to dissipate for a turn (thus removing the defense bonus or hampering penalty) but will do no damage or remove them from the fight.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2798,10 +2470,7 @@ const spiritNuminaData = [
         "Description": "The entity breaks up into many many smaller entries with a swarm mind.",
         "Long Description": [
             "This Numen allows a spirit to break up its body into thousands of tiny parts — it might appear as a mass of whirling razor blades, a flock of starlings, school of piranha or a swarm of beetles. Treat the spirit’s Power as 1 for feats of Strength. The spirit’s Defense also drops to 0. The spirit’s speed is halved, but it may gain flight or be able to squeeze through small openings in this form. The spirit becomes immune to most melee and missile attacks, such as baseball bats and Uzis. Only weapons such as torches, flamethrowers or area effect attacks cause the creature damage in this form. The spirit damages other creatures by enveloping them. A creature caught within the swarm at the beginning of its turn takes damage automatically. Damage is determined by the intensity of the swarm. The swarm begins with a radius in yards equal to the Size of the spirit and does one bashing damage. Each time the radius halves (a standard action), the damage increases by one. Full-body armor provides half protection, less than full body affords no protection as the small creatures find their mark. This Numen costs two points of Essence and lasts for a scene. Swarm creatures can choose to do lethal damage, by sacrificing their constituent parts. All creatures caught within a swarm suffer –2 to Mental checks.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2850,7 +2519,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "WoD 212, SS p53, Pred p67"
+        "Book": "WoD 212, SS 53, Pred 67"
     },
     {
         "Name": "Telepathy",
@@ -2858,14 +2527,11 @@ const spiritNuminaData = [
         "Description": "The entity can send thoughts into someone's mind, as well as receive thoughts directed at them.",
         "Long Description": [
             "All spirits speak the Spirit Tongue, and with effort, can often manage to communicate with others, however imperfectly. Spirits with this Numen can reach out and link their minds with others, allowing instantaneous and reliable communication. The spirit rolls Power + Finesse. If resisted, subtract the target’s Resolve + Supernatural Advantage. This experience is never pleasant for a mortal — being that intimate with an alien mind is profoundly disturbing. For the next 24 hours, any rolls to avoid a derangement are made at –1 for each scene spent in contact with a spirit’s mind.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 148, Inn p209"
+        "Book": "BoS 148, Inn 209"
     },
     {
         "Name": "Tendrils",
@@ -2873,10 +2539,7 @@ const spiritNuminaData = [
         "Description": "Extrude one tentacle per dot of Willpower possessed; each can attack separately or passively improve Defense by 1.",
         "Long Description": [
             "By spending one Essence, the Flesh Intruder can sprout fleshy tendrils from its torso, each terminating in a flat surface studded with many tiny, sharp teeth and a poison sac. These tendrils retract back into the torso at the end of the scene. The Intruder can sprout one tendril per dot of Willpower, and each can perform a separate attack per turn. Alternatively, instead of attacking, a tendril can be used to aid the Flesh Intruder’s defense, providing one point of armor against Brawl and Weaponry attacks (not Firearms) per tendril used in this manner.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2888,10 +2551,7 @@ const spiritNuminaData = [
         "Description": "The manifestation of the entity becomes supernaturally terrifying.",
         "Long Description": [
             "The ghost has the power to strike terror in the hearts of mortals who witness its manifestation. Roll Power + Finesse in a contested roll against the Resolve + Composure of each mortal who witnesses the ghost’s manifestation firsthand. (If a crowd witnesses it, roll the highest Resolve + Composure in the crowd for the whole group.) If the ghost loses or ties, mortals in the area are unaffected and are immune to uses of this power for the remainder of the scene. Perhaps their subconscious minds won’t allow them to recognize the spirit, or they mistake the intended frightening image for something else such as a hallucination or trick of the light. Mortals who lose flee from the spirit and will not return to the haunted area for at least one day.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2903,10 +2563,7 @@ const spiritNuminaData = [
         "Description": "Bestow one or more major Derangements for a day.",
         "Long Description": [
             "The Lurker can look into an Awakened soul and seed doubt within, making the mage unable to cope with how far she’s left humanity behind. Spend two Essence and roll Power + Finesse contested by the target’s Resolve + Composure. For each success, the Lurker can bestow one severe derangement upon the target (with a maximum number equal to the target’s Gnosis). The derangements last for one day per success.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2918,10 +2575,7 @@ const spiritNuminaData = [
         "Description": "Take a physical, non-living object across the Gauntlet with the spirit.",
         "Long Description": [
             "Similar to the Abduct Numen (above), but in this case the spirit may take physical, non-living objects across the Gauntlet. The spirit must first either dwell on the material side of the Gauntlet (using Materialize or Gauntlet Breach) or at least have a conduit beyond the Shadow (using the reaching Numen). If this is established, the spirit can pull a small object through the Gauntlet and into the Shadow. The object may not have Size greater than the spirit’s own Power. Spend a single Essence and roll the spirit’s Power + Finesse – Gauntlet modifier. If the roll is successful, the object crosses over and becomes part of the Shadow temporarily. The object can last in the Shadow for a number of minutes equal to the spirit’s Finesse. After that, the item crosses back over the Gauntlet at the appropriate corresponding pin in the physical world (if the spirit drags the item 20 feet away, it appears 20 feet away in the material realm). The spirit can keep the object in the Shadow by spending another Essence point to extend its duration, by a minute. No roll is necessary to do this.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2933,10 +2587,7 @@ const spiritNuminaData = [
         "Description": "The spirit creates a temporary portal through the Gauntlet.",
         "Long Description": [
             "This exceedingly rare Numen allows the spirit to create a temporary gateway through the Gauntlet. It is very difficult and costly Numen; normally, only greater spirits (Rank 3+) can muster the power to craft Thresholds of much utility. The portal’s look varies by the nature of the spirit; it might appear as a bank of fog, a door that did not exist a moment before or merely a dark garden path. Sometimes folk who walk widdershins around the old moss oak on nights of the full moon are unlucky enough to end up in the Shadow. Characters with Unseen Sense (Spirits) or other magical senses keyed to the Shadow should have an opportunity to recognize its true nature. The portal’s size is equal to the Size of the spirit, but this can be expanded by spending Essence on a one-to-one basis. This Numen costs a number of Essence equal to the strength of the Gauntlet. Expend the Essence roll Power + Finesse – Gauntlet Modifier. The entrance only lasts for a number of rounds equal to the successes generated, but while open, beings can pass freely through the portal. Portals are one-sided (two-dimensional) phenomena. If approached from the wrong side, those looking at them or even moving through the space they occupy cannot see or interact with them. Portals are doors, but not windows — you cannot accurately see where you are going until it is too late.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -2967,14 +2618,11 @@ const spiritNuminaData = [
         "Description": "Target must roll Int + Resolve to express coherent thoughts.",
         "Long Description": [
             "Rods can inhibit a human’s ability to read, write or speak. Roll Power + Finesse against the target’s Resolve + Composure. Success indicates that for the rest of the scene, a successful Intelligence + Resolve roll is required for the target character to perform any action that involves speaking, writing or reading (one category only). Should that roll fail, the character can make repeated attempts, but each subsequent attempt takes one minute of torturous mental struggle. Should the Rod’s initial roll achieve an exceptional success, the effect of the Numen lasts for one day, while dramatic failure by the Rod leaves the target immune to this Numen for one day. Recipients of this effect describe feeling overwhelmed by a powerful concept they can’t articulate, so much so that it’s hard to focus on anything else. In one case documented by Network Zero, a Philadelphia man spent years trying to express the thoughts the Rods left in his brain by creating lettered tiles describing “the dead resurrected on Jupiter,” which he set directly into the asphalt of various Philly streets.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "HtV 345"
+        "Book": "HTV 345"
     },
     {
         "Name": "Transmogrify Victim",
@@ -2989,7 +2637,7 @@ const spiritNuminaData = [
         ],
         "Pool": "",
         "Cost": "",
-        "Book": "BoS 148, GS p68"
+        "Book": "BoS 148, GS 68"
     },
     {
         "Name": "Trial",
@@ -3012,10 +2660,7 @@ const spiritNuminaData = [
         "Description": "Paralyze animals",
         "Long Description": [
             "The chupacabra spends a point of Essence when closing in on any one creature defined as a median life form (Mage: The Awakening, p. 180). The creature contests the chupacabra with Resolve. If the chupacabra accrues more successes than the animal, then the animal remains placid and motionless until the chupacabra pounces; effectively, the cryptid gains the benefit of surprise on the first turn of its attack.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3027,10 +2672,7 @@ const spiritNuminaData = [
         "Description": "These chains cannot be broken save by damaging the users Corpus, slipping their bonds is at a -3, and all attempts to use supernatural powers whilst bound are at -5.",
         "Long Description": [
             "The manacles and chains used by Judges to bind lawbreakers are ephemeral objects that only become “real” in either the Underworld or in Twilight. In effect, the chains are part of the Corpus of the Judge and will only break if it does, though characters skilled in slipping bonds may still attempt to do so at a -3 penalty. The chains carried by Judges also contain some of the essence of Lowgate Prison, which imposes a -5 penalty on any attempt to use magic (or magical type effects like Manifestations, Disciplines, etc.) while bound.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3042,10 +2684,7 @@ const spiritNuminaData = [
         "Description": "Characters face a -1 penalty to all rolls at 30 yards, -2 at at 20 and -3 at 10 or less",
         "Long Description": [
             "Characters face dice pool penalties on all actions of –1 at thirty yards, -2 at twenty yards and –3 at ten yards due to its blinding radiance.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3057,10 +2696,7 @@ const spiritNuminaData = [
         "Description": "open a door to the Underworld for a Scene",
         "Long Description": [
             "This Numen is used only by some Supernal spirits of Stygia and those native to the Underworld, and potentially by a scant few Abyssal entities. The spirit spends a point of Essence and rolls Power + Finesse as an instant action, with success opening a doorway into the Underworld for the remainder of the scene. By spending an additional five points of Essence a day, however, the spirit may keep the Underworld Gate open for considerably longer. The Underworld Gate must be opened at the location of a doorway or other portal (the mouth of a cave, the shaft of a well, or a free-standing arch, for example) and may be freely used by any being on either side of the gate for as long as it remains open.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "Power+Finesse",
         "Cost": "1e",
@@ -3072,10 +2708,7 @@ const spiritNuminaData = [
         "Description": "The spirit can unbind itself from a fetter or moor.",
         "Long Description": [
             "This Numen allows a moored or fettered spirit to unbind itself from its physical counterpart for a time. Spend a point of Essence and roll the spirit’s Finesse. The number of successes is the number of hours the spirit may stray from its mooring; if the spirit is not within its normal range of the mooring after that time, it discorporates.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3087,10 +2720,7 @@ const spiritNuminaData = [
         "Description": "May pass beyond Avernian Gates and regenerate Essence without a formal anchor",
         "Long Description": [
             "To enforce the Old Laws of the Underworld, Judges are granted more freedom of movement than other ghosts. A Judge may pass beyond the Avernian Gates and regenerate Essence at the rate of one per day even without a formal anchor.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3124,10 +2754,7 @@ const spiritNuminaData = [
         "Description": "when anyone in range would gain Willpower through Vice, if successful, gain a point of Essence instead",
         "Long Description": [
             "Certain Daimonic Supernal spirits possess this Numen, as well as a handful from the Aether, and a number of spirits native to the Abyss. A handful of especially potent goetic demons also know this Numen, as do some Fallen World spirits aligned to disparate vices (or the concept of vice as a whole). Whenever a character within sensory range of the spirit would regain Willpower through the indulgence of her Vice, the spirit may reflexively roll Power + Finesse, reflexively contested by the target’s Resolve + Gnosis. If the spirit succeeds, the character does not recover a point of Willpower (though she is treated as though she did, meaning that subsequent actions that resonate with her Vice will not yield a point of Willpower); instead, the spirit gains a point of Essence.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "Power+Finesse vs Res+Gnosis",
         "Cost": "-",
@@ -3139,10 +2766,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This Numen gives a demon the power to destroy any nearby target whose Morality drops to 1. When this happens, make a contested roll between the demon’s roll, Power + Resistance + Infernal Rank versus the target’s Resolve + Composure, + a supernatural power trait such as Blood Potency, Primal Urge or Gnosis, if it applies. If the demon succeeds, the target dies instantly. He falls to the ground, rots away in a matter of seconds, or the demon drags him through a short-lived door to the Inferno. This costs no Essence, but the demon must immediately return to Hell.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3154,10 +2778,7 @@ const spiritNuminaData = [
         "Description": "spend Corpus, Essence and Willpower interchangeably",
         "Long Description": [
             "Certain rare spirits from various alien realms possess this bizarre Numen, which enables them to spend points of Corpus, Essence, and Willpower interchangeably. It is possible that a handful of spirits from elsewhere (perhaps associated with adaptability, evolution, or other such concepts) might possess this Numen, as well, or a slightly more limited form of it (only enabling direct conversion between two of the three traits, for instance).",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "-",
         "Cost": "-",
@@ -3169,10 +2790,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The demon can use a Vestment, just like one of the Possessed, provided it is within its Malapraxis’ Vice. A demon can acquire only Vestments with dots equal to its Infernal Rank.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3184,10 +2802,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The Reflection can project its voice through a TV, telephone or radio, or on answering machine. The phone rings; the radio crackles and goes quiet; the answerphone suddenly shows up that it has a message without the telephone having made any sound. The Reflection starts to speak. The Storyteller spends one Essence and rolls Power + Finesse; each success allows one brief statement before the line goes silent or the radio program resumes.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3199,10 +2814,7 @@ const spiritNuminaData = [
         "Description": "the spirit can automatically sense where other spirits are in its immediate vicinity.",
         "Long Description": [
             "Spirits can automatically attempt to sense where other spirits and locations are in their immediate vicinity. If they want to find loci or track down spirits miles distant, however, they must use this Numen, which allows them to sense the small resonant traces left by a spirit’s passage or emitted by a far-distant locus. Roll the spirit’s Finesse + Resistance, with more successes giving more accurate information. One success suggests a vague sense of direction, while five successes would give accurate directions, an idea of travel time and warnings of hazards en route.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",
@@ -3214,10 +2826,7 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "By spending three Essence points and a Willpower point, the revenant can touch a corpse and create a zombie. The new undead have the Short-Lived Weakness (see p.28). Other traits should be assigned according to the abilities of the revenant.",
-            "",
-            "",
-            "",
-            ""
+            
         ],
         "Pool": "",
         "Cost": "",

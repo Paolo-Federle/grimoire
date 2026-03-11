@@ -471,7 +471,7 @@ const castigationData = [
         "Cost": "○",
         "Dice Pool": "Dexterity + Composure",
         "Description": "Be released from any physical bonds.",
-        "Book": "CoH16 5"
+        "Book": "CoH 165"
     }
 ]
 
@@ -1598,7 +1598,7 @@ const otherEndowmentData = [
         "Endowment": "The Prayer (• to •••••)",
         "Description": "If you prayed before going to sleep you get Prayer Points equal to your dots in the Endowment that can be spent to recover Willpower, transfer willpower points to others, ignore wound penalties for a turn, or resist mental domination for a turn",
         "Compact or Conspiracy": "The Long Nights",
-        "Book": "C&C p19"
+        "Book": "C&C 19"
     },
     {
         "Endowment": "Rite of Hecate (• to •••••)",

@@ -690,7 +690,7 @@ const fateThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Fate",
         "RoteDescrizione": "Although many mages sever ties with Sleeper society upon Awakening (as best they can), some willworkers attempt to have a family as well as perform their duties to the Wise. The soldiers of the Adamantine Arrow use their rote to keep their loved ones safe in times of danger. The Silver Ladder sometimes uses this rote to keep those they have earmarked for eventual Awakening safe as well.",
         "DescrizioneBreve": "survive a named fatality",
-        "Book": "TotM"
+        "Book": "TotM 61"
     },
     {
         "Titolo": "Cursed Object",

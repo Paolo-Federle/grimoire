@@ -1347,6 +1347,15 @@ const HunterBookData = [
         'PagesOffset': '0'
     },
     {
+        'Code Name': 'BbBB',
+        'Type': '',
+        'Title': '	Block by Bloody Block',
+        "Description": "",
+        'Release Date': '12/08',
+        'LinkTo': 'https://online.fliphtml5.com/qmsqd/yemc/#p=',
+        'PagesOffset': '1'
+    },
+    {
         'Code Name': '',
         'Type': 'Alternate Setting',
         'Title': 'Dark Eras: Doubting Souls',

@@ -3,126 +3,126 @@ export const PrometheanMeritsData = [
         "Name": "Acid Stomach",
         "Cost": "•",
         "Prerequisites": "",
-        "Book": "SA p55",
-        "Description": "digest any ingested substance, instead of purely organic"
+        "Description": "digest any ingested substance, instead of purely organic",
+        "Book": "SA 55"
     },
     {
         "Name": "Azothic Object",
         "Cost": "• to •••••",
         "Prerequisites": "",
-        "Book": "SA p55",
-        "Description": "own a Pyros-infused object"
+        "Description": "own a Pyros-infused object",
+        "Book": "SA 55"
     },
     {
         "Name": "Companion",
         "Cost": "••• or ••••",
         "Prerequisites": "Ephemeral Flesh bestowment",
-        "Book": "SA p55",
-        "Description": "Spirit companion follows and aids you"
+        "Description": "Spirit companion follows and aids you",
+        "Book": "SA 55"
     },
     {
         "Name": "Device",
         "Cost": "•• to •••••",
         "Prerequisites": "Unfleshed",
-        "Book": "SN p59",
-        "Description": "internal mechanism"
+        "Description": "internal mechanism",
+        "Book": "SN 59"
     },
     {
         "Name": "Elpis",
         "Cost": "• to •••••",
         "Prerequisites": "",
-        "Book": "PtC p95",
-        "Description": "gain insight into Milestones"
+        "Description": "gain insight into Milestones",
+        "Book": "PTC 95"
     },
     {
         "Name": "Famous Face",
         "Cost": "• to •••",
         "Prerequisites": "",
-        "Book": "SA p56",
-        "Description": "influence those your corpse used to know"
+        "Description": "influence those your corpse used to know",
+        "Book": "SA 56"
     },
     {
         "Name": "Fresh Corpse",
         "Cost": "•• (CO)",
         "Prerequisites": "",
-        "Book": "SA p58",
-        "Description": "ignore untrained physical penalties"
+        "Description": "ignore untrained physical penalties",
+        "Book": "SA 58"
     },
     {
         "Name": "Good Brain",
         "Cost": "••• (CO)",
         "Prerequisites": "",
-        "Book": "SA p58",
-        "Description": "ignore untrained mental penalties"
+        "Description": "ignore untrained mental penalties",
+        "Book": "SA 58"
     },
     {
         "Name": "Hideous Anyway",
         "Cost": "••",
         "Prerequisites": "",
-        "Book": "SA p58",
-        "Description": "improves intimidation, but damages other social rolls"
+        "Description": "improves intimidation, but damages other social rolls",
+        "Book": "SA 58"
     },
     {
         "Name": "Incorruptible",
         "Cost": "••••",
         "Prerequisites": "Composure •••",
-        "Book": "PB p49",
-        "Description": "bonus on humanity rolls when activating Pandoran transmutations"
+        "Description": "bonus on humanity rolls when activating Pandoran transmutations",
+        "Book": "PB 49"
     },
     {
         "Name": "Pilgrim",
         "Cost": "••",
         "Prerequisites": "experienced the Revelation",
-        "Book": "MO p53",
-        "Description": "when telling the story of your Pilgrimage, gain Willpower"
+        "Description": "when telling the story of your Pilgrimage, gain Willpower",
+        "Book": "MO 53"
     },
     {
         "Name": "Pilgrim",
         "Cost": "••••",
         "Prerequisites": "Elpis ••, Humanity 6",
-        "Book": "SA p58",
-        "Description": "Gain more Vitriol from Milestones"
+        "Description": "Gain more Vitriol from Milestones",
+        "Book": "SA 58"
     },
     {
         "Name": "Repute",
         "Cost": "• to •••",
         "Prerequisites": "",
-        "Book": "PtC p97",
-        "Description": "Status amongst Prometheans"
+        "Description": "Status amongst Prometheans",
+        "Book": "PTC 97"
     },
     {
         "Name": "Residual Memory",
         "Cost": "• to •••••",
         "Prerequisites": "",
-        "Book": "PtC p97",
-        "Description": "have clearer memories of your past life"
+        "Description": "have clearer memories of your past life",
+        "Book": "PTC 97"
     },
     {
         "Name": "Shabti",
         "Cost": "•••",
         "Prerequisites": "Revivification bestowment",
-        "Book": "SA p58",
-        "Description": "Pyros-infused statue companion"
+        "Description": "Pyros-infused statue companion",
+        "Book": "SA 58"
     },
     {
         "Name": "Shepherd",
         "Cost": "••••",
         "Prerequisites": "Elpis •, Repute ••, Humanity 6",
-        "Book": "SA p59",
-        "Description": "Help others gain Vitriol from Milestones"
+        "Description": "Help others gain Vitriol from Milestones",
+        "Book": "SA 59"
     },
     {
         "Name": "Unpalatable Aura",
         "Cost": "••",
         "Prerequisites": "",
-        "Book": "PtC p98",
-        "Description": "Pandorans attack other Prometheans for food first"
+        "Description": "Pandorans attack other Prometheans for food first",
+        "Book": "PTC 98"
     },
     {
         "Name": "Weatherproof",
         "Cost": "• (CO)",
         "Prerequisites": "",
-        "Book": "SA p59",
-        "Description": "never be affected by environmental conditions"
+        "Description": "never be affected by environmental conditions",
+        "Book": "SA 59"
     }
 ]

@@ -25,7 +25,7 @@ const securedLocationData = [
     {
         "Name": "Den",
         "Dots": "(•••)",
-        "Book": "Skin 21, ChB 96",
+        "Book": "Skin 21, CB 96",
         "Prerequisites": "",
         "LongDescription": [
             "It’s hard, in today’s world, to find privacy. This Merit, however, reflects a hidden space where a feral can be himself. It might be a secluded meadow, rambling old farm or warehouse in the bad side of town. Wherever it is, your character can transform into his animal aspect without drawing undue attention, then run or fly away with some measure of freedom.",
@@ -37,7 +37,7 @@ const securedLocationData = [
     {
         "Name": "Haunt",
         "Dots": "(• to •••••) {Fluidity, Residue, Utility} (SH)",
-        "Book": "GtSE 87",
+        "Book": "GTS 87",
         "Prerequisites": "",
         "LongDescription": [
             "Prominently figuring in the death-legends of many cultures are caves, tunnels, cisterns, and doorways that lead into the depths of the Great Below. Sin-Eaters know all too well that such places contain the residue of darkness, stillness, and cold that comes with exposure to death. The lingering remnants of ghostly passage, or the association with death and the dead, can give some places a very real connection to the Underworld in truth. The Mayan term for such a place is a cenote, which refers to an underground cavern with a black pool that leads to the Underworld beneath its frigid, accepting waters. Experienced Sin-Eaters know, however, that these passages to the Great Below can and do occur in all manner of silent places; in addition to the usual suspects, cenotes can form in closets, basements, underground storage chambers, crawlspaces, or even in the industrial depths of an abandoned factory floor with labyrinthine passages amid the sunken machinery. More generally, the Bound refer to these places as low places, Avernian Gates. Those that have been claimed by a krewe or a Sin-Eater, though, are called Haunts. Sin-Eaters who have special access to a Haunt can rely on the power of the place to fuel their plasmic needs while also using the cenote as a soft point to cross into the Underworld.",
@@ -135,7 +135,7 @@ const securedLocationData = [
     {
         "Name": "Lair",
         "Dots": "(• to •••) (SH)",
-        "Book": "PtC 96",
+        "Book": "PTC 96",
         "Prerequisites": "",
         "LongDescription": [
             "A lair is a place a Promethean can retreat to where he can hide or defend himself from others. It can be anywhere, but the Created usually choose places far from the madding crowd of mortals. If they do choose to live close to mortals, their lairs are nondescript and contain multiple means of escape. Since most lairs are only temporary, meant to serve for only a few months before the Promethean resumes his Pilgrimage, they cost relatively few dots to acquire. When the Promethean abandons his lair, however, he loses the dots. If he later returns to the area, the Storyteller might decide that the lair is still operable, although it loses one of its dots due to lack of maintenance, until the Promethean can put some effort into restoring it.",
@@ -165,7 +165,7 @@ const securedLocationData = [
     {
         "Name": "Safehouse",
         "Dots": "(• to •••••) {Cache, Secrecy, Size, Traps}",
-        "Book": "H:tV 71",
+        "Book": "HTV 71",
         "Prerequisites": "",
         "LongDescription": [
             "The hunter has a place of his own where monsters cannot find him. A safehouse might be the headquarters for a cell, or it might be a personal hideaway for an individual. Hunters often rig a safehouse with traps, hidden weapons, security systems and escape routes, because as impregnable as it might be, monsters are persistent and clever. They’ll probably find the way in, and the best a hunter can do is make it hard on them.",
@@ -269,7 +269,7 @@ const securedLocationData = [
     {
         "Name": "Temple",
         "Dots": "(• to •••••)",
-        "Book": "CoC 42",
+        "Book": "Crone 42",
         "Prerequisites": "",
         "LongDescription": [
             "An Acolyte temple is similar to a vampire’s haven. (This Merit may, in fact, replace the Haven Merit, if this is somewhere that the cultists reside as well. If not, then each must be bought separately.) Similar to the Haven Merit, a Circle temple is represented by three component Traits: Location, Size and Security. All three are bought separately, and provide the exact same functions and mechanics listed under the Haven Merit (see pp. 100-101, Vampire: The Requiem).",
@@ -585,7 +585,7 @@ const ruralTerritoryData = [
     {
         "Name": "Caverns/Tunnels",
         "Dots": "(•)",
-        "Book": "Territories 19",
+        "Book": "Terr 19",
         "Prerequisites": "",
         "LongDescription": [
             "Certain parts of the country are riddled with underground passages of all shapes and sizes. Some are ordinary limestone caverns, while others are leftover mines or other, stranger things. This feature expressly refers to tunnels large enough for a human (or, at least, an Urhan-form werewolf) to pass through. This feature can exist in urban settings as well, but, in that case, cavern/tunnel refers to subway tunnels, broad sewer tunnels or gigantic 1950s-era fallout shelters.",
@@ -600,7 +600,7 @@ const ruralTerritoryData = [
     {
         "Name": "Cliff/Ridge",
         "Dots": "(•)",
-        "Book": "Territories 19",
+        "Book": "Terr 19",
         "Prerequisites": "",
         "LongDescription": [
             "A high point where the ground falls away steeply to one or both sides, a ridge is a very defensible point that provides good visibility; it may be long or relatively narrow.",
@@ -614,7 +614,7 @@ const ruralTerritoryData = [
     {
         "Name": "Desert",
         "Dots": "(•)",
-        "Book": "Territories 19",
+        "Book": "Terr 19",
         "Prerequisites": "",
         "LongDescription": [
             "A desert isn’t defined by its heat, but rather by its aridity. Deserts are nearly bereft of water. They do carry life — it’s just that the life in a desert is especially well-adapted to the desert. Desert areas that have other features (beyond barren wasteland) should be represented by those features and the “Arid” descriptor (see below).",
@@ -630,7 +630,7 @@ const ruralTerritoryData = [
     {
         "Name": "Fallow Prairie",
         "Dots": "(•)",
-        "Book": "Territories 21",
+        "Book": "Terr 21",
         "Prerequisites": "",
         "LongDescription": [
             "In human-inhabited areas, almost all land that can be farmed is being farmed or has been farmed. This territory feature refers specifically to treeless land that is no longer being farmed or, much more rarely, treeless land that has never been farmed.",
@@ -645,7 +645,7 @@ const ruralTerritoryData = [
     {
         "Name": "Factory Farm",
         "Dots": "-",
-        "Book": "Territories 21",
+        "Book": "Terr 21",
         "Prerequisites": "",
         "LongDescription": [
             "A factory farm is a large farm containing scores if not hundreds of animals of a small number of species. The animals are kept in relatively confined spaces and are either grown to a certain size and then slaughtered, or kept around for their breeding or (egg or milk) production capabilities.",
@@ -661,7 +661,7 @@ const ruralTerritoryData = [
     {
         "Name": "Farm",
         "Dots": "(• or ••)",
-        "Book": "Territories 21",
+        "Book": "Terr 21",
         "Prerequisites": "",
         "LongDescription": [
             "This sort of feature refers to relatively small family farms, rather than the factory farms described above. A farm in a pack’s territory can provide relatively safe land to roam on or otherwise use. Farms don’t typically attract wilderness-spirits, and the plant-type spirits that the farms attract are unusually docile, as these spirits are the reflections of heavily subjugated plant life.",
@@ -676,7 +676,7 @@ const ruralTerritoryData = [
     {
         "Name": "Glacier/IcePack/Tundra",
         "Dots": "•",
-        "Book": "Territories 22",
+        "Book": "Terr 22",
         "Prerequisites": "",
         "LongDescription": [
             "This territory element is an area that is always (or nearly always) cold, with deep snow and/or glacial ice covering the ground for most of the year.",
@@ -692,7 +692,7 @@ const ruralTerritoryData = [
     {
         "Name": "Landfill or Garbage Dump",
         "Dots": "(••)",
-        "Book": "Territories 22",
+        "Book": "Terr 22",
         "Prerequisites": "",
         "LongDescription": [
             "The average American generates around four pounds of trash per day. That’s paper, plastic, glass, metal and inedible foodstuffs, just for starters. In a large city, humans generate 15,000 tons of trash per week, or more. That stuff has to go somewhere.",
@@ -711,7 +711,7 @@ const ruralTerritoryData = [
     {
         "Name": "Mountain",
         "Dots": "(••)",
-        "Book": "Territories 22",
+        "Book": "Terr 22",
         "Prerequisites": "",
         "LongDescription": [
             "Mountains are pinnacles of the local terrain — a “proper” mountain peak is more than 2,000 feet above sea level. Mountains are rarely useful for agriculture. Their steep sides prevent local humans from doing anything useful on the surface, but humans dig into mountains to extract their mineral wealth.",
@@ -726,7 +726,7 @@ const ruralTerritoryData = [
     {
         "Name": "Ocean/Sea/Great Lake",
         "Dots": "(•)",
-        "Book": "Territories 23",
+        "Book": "Terr 23",
         "Prerequisites": "",
         "LongDescription": [
             "This territory element really refers to the shallows near the coast, as well as some lands immediately bordering the sea. No werewolf pack would bother to claim all of a large body of water as the pack’s territory — the packmembers couldn’t possibly patrol the entire thing, and many large bodies of water serve as home to powerful and alien spirits. Werewolves stick to territory that suits them better.",
@@ -744,7 +744,7 @@ const ruralTerritoryData = [
     {
         "Name": "Pond/Lake/Lakefront",
         "Dots": "(•)",
-        "Book": "Territories 24",
+        "Book": "Terr 24",
         "Prerequisites": "",
         "LongDescription": [
             "A pond, lake or lakefront is a standing body of water, fed by streams, rivers and/or springs. No pack will have a truly huge lake to itself (such as the freshwater seas that are the American Great Lakes), but may claim a share of lakefront and the lake out to a certain distance.",
@@ -759,7 +759,7 @@ const ruralTerritoryData = [
     {
         "Name": "River/Riverside",
         "Dots": "(•)",
-        "Book": "Territories 24",
+        "Book": "Terr 24",
         "Prerequisites": "",
         "LongDescription": [
             "A river is a navigable waterway — a stream large enough for boats to float down it.",
@@ -774,7 +774,7 @@ const ruralTerritoryData = [
     {
         "Name": "Spring",
         "Dots": "(••)",
-        "Book": "Territories 24",
+        "Book": "Terr 24",
         "Prerequisites": "",
         "LongDescription": [
             "Springs have great mythical power: they represent spontaneous creation, the eruption of life from sterility.",
@@ -789,7 +789,7 @@ const ruralTerritoryData = [
     {
         "Name": "Stream",
         "Dots": "(•)",
-        "Book": "Territories 25",
+        "Book": "Terr 25",
         "Prerequisites": "",
         "LongDescription": [
             "A stream is a small stretch of running water, usually wet year-round. It is shallow enough to wade through and rarely more than a few yards across.",
@@ -804,7 +804,7 @@ const ruralTerritoryData = [
     {
         "Name": "Swamp/Marsh/Wetland",
         "Dots": "(••)",
-        "Book": "Territories 25",
+        "Book": "Terr 25",
         "Prerequisites": "",
         "LongDescription": [
             "A marsh is an area with an unusually large ability to retain water. This makes the land very fertile, and allows it to support many animal species not seen elsewhere. Additionally, wetlands tend to serve as a buffer for excess water. In times of drought, wetlands keep the water table high, while in times of heavy rain, wetlands absorb water that might otherwise cause damage.",
@@ -819,7 +819,7 @@ const ruralTerritoryData = [
     {
         "Name": "Woods/Forest",
         "Dots": "(••)",
-        "Book": "Territories 26",
+        "Book": "Terr 26",
         "Prerequisites": "",
         "LongDescription": [
             "This feature refers to wild forest, rather than “tree farms” (tree farms are more like ‘farms,’ above). A wild forest doesn’t necessarily have to be an old-growth forest; any large patch of woods that has been left to grow under its own auspices for many years can qualify.",
@@ -839,7 +839,7 @@ const urbanTerritoryData = [
     {
         "Name": "Apartment Building",
         "Dots": "(•)",
-        "Book": "Territories 27",
+        "Book": "Terr 27",
         "Prerequisites": "",
         "LongDescription": [
             "This aspect may refer to housing projects of the sort that have yet to fall out of favor in the World of Darkness. It might refer to ordinary working-class apartment buildings, or to wealthy high-rise slivers in a city’s rich core.",
@@ -854,7 +854,7 @@ const urbanTerritoryData = [
     {
         "Name": "Big Box Store",
         "Dots": "(•)",
-        "Book": "Territories 27",
+        "Book": "Terr 27",
         "Prerequisites": "",
         "LongDescription": [
             "These stores are large hardware or electronics and technology stores. They are typically stand-alone buildings and occupy thousands of square feet of suburbia.",
@@ -869,7 +869,7 @@ const urbanTerritoryData = [
     {
         "Name": "Club or Bar",
         "Dots": "(••)",
-        "Book": "Territories 28",
+        "Book": "Terr 28",
         "Prerequisites": "",
         "LongDescription": [
             "A bar or nightclub is a location serving alcohol and playing live or canned music. Some bars serve a full menu of food; others have nothing more than bar snacks, or no food at all. Most jurisdictions keep children under the legal drinking age (21 in the United States, 19 in Canada) from entering bars at all.",
@@ -884,7 +884,7 @@ const urbanTerritoryData = [
     {
         "Name": "Factory",
         "Dots": "(•)",
-        "Book": "Territories 29",
+        "Book": "Terr 29",
         "Prerequisites": "",
         "LongDescription": [
             "A factory feature represents a manufacturing facility of some kind. It may make ordinary widgets, cars, specialty equipment, chemicals or just about anything else. Generally speaking, the larger the factory’s output, the larger the facility must be (many automakers’ facilities fill dozens of acres). Factories employ dozens or hundreds of people.",
@@ -899,7 +899,7 @@ const urbanTerritoryData = [
     {
         "Name": "Houses/Housing",
         "Dots": "(•)",
-        "Book": "Territories 29",
+        "Book": "Terr 29",
         "Prerequisites": "",
         "LongDescription": [
             "Humans own houses all over the world. Certain territories might contain no houses at all — downtown commercial districts, for instance, or deep wilderness. This aspect generally refers to tracts of housing, be they suburban neighborhoods, city enclaves or housing developments; not every territory with a house within its borders would qualify as having “housing” as a feature.",
@@ -914,7 +914,7 @@ const urbanTerritoryData = [
     {
         "Name": "Mall/Strip Mall",
         "Dots": "(•)",
-        "Book": "Territories 29",
+        "Book": "Terr 29",
         "Prerequisites": "",
         "LongDescription": [
             "A mall is a collection of stores and restaurants all sharing a common structure. They may all be indoors, under a common roof or they may just be one long building subdivided into individual shops, with a large common parking lot. A strip mall may be as small as just four shops; the largest indoor shopping malls have more than 100 stores, and even contain small amusement parks inside.",
@@ -929,7 +929,7 @@ const urbanTerritoryData = [
     {
         "Name": "Museum/Library",
         "Dots": "(•)",
-        "Book": "Territories 30",
+        "Book": "Terr 30",
         "Prerequisites": "",
         "LongDescription": [
             "These buildings are local centers of knowledge and learning.",
@@ -944,7 +944,7 @@ const urbanTerritoryData = [
     {
         "Name": "Office Building/Skyscraper",
         "Dots": "(•)",
-        "Book": "Territories 30",
+        "Book": "Terr 30",
         "Prerequisites": "",
         "LongDescription": [
             "Small office buildings may be just one story, or they may be “office park” type buildings with up to five stories. Larger buildings than that are rarely found outside of downtown commercial districts — but, in even a medium-sized city, those buildings can reach 30 stories or more. Small office buildings may house just one company’s operations; large buildings can house dozens or hundreds of companies.",
@@ -959,7 +959,7 @@ const urbanTerritoryData = [
     {
         "Name": "Park",
         "Dots": "(•)",
-        "Book": "Territories 30",
+        "Book": "Terr 30",
         "Prerequisites": "",
         "LongDescription": [
             "A “park” is a pretty broad designation, as it could in theory refer to a national park like Yellowstone just as easily as the playground on the corner. A large national or state park is better represented by a number of rural features (above); this feature refers to a park that can be thought of as a single entity. A park is a natural recreation area and may include hiking trails, picnic areas and playground equipment.",
@@ -974,7 +974,7 @@ const urbanTerritoryData = [
     {
         "Name": "School",
         "Dots": "(•)",
-        "Book": "Territories 31",
+        "Book": "Terr 31",
         "Prerequisites": "",
         "LongDescription": [
             "Schooling varies throughout the world; in the United States, students remain in school until graduation at age 18. A school may either be open for free to the general public or a private school requiring tuition payments.",
@@ -989,7 +989,7 @@ const urbanTerritoryData = [
     {
         "Name": "Shop or Restaurant",
         "Dots": "(•)",
-        "Book": "Territories 31",
+        "Book": "Terr 31",
         "Prerequisites": "",
         "LongDescription": [
             "This feature can represent any kind of small shop — from a small restaurant or coffee shop to a pet store or clothing store. A shop might sit as part of a shopping center, or may be part of a downtown shopping district in a small town or large city.",
@@ -1004,7 +1004,7 @@ const urbanTerritoryData = [
     {
         "Name": "Stadium or Arena",
         "Dots": "(•)",
-        "Book": "Territories 31",
+        "Book": "Terr 31",
         "Prerequisites": "",
         "LongDescription": [
             "A small local baseball stadium may hold just 1,500 people. The Rose Bowl in Pasadena, California, holds almost 100,000. People throng to these facilities to cheer for sports teams or watch concerts.",
@@ -1020,7 +1020,7 @@ const urbanTerritoryData = [
     {
         "Name": "Theater/Opera House",
         "Dots": "(•)",
-        "Book": "Territories 32",
+        "Book": "Terr 32",
         "Prerequisites": "",
         "LongDescription": [
             "Theaters show plays, musical theater, opera, symphonic concerts and even rock shows. Theaters typically seat from 100 to 2,000 patrons.",
@@ -1038,7 +1038,7 @@ const generalTerritoryData = [
     {
         "Name": "Cemetary",
         "Dots": "(•)",
-        "Book": "Territories 33",
+        "Book": "Terr 33",
         "Prerequisites": "",
         "LongDescription": [
             "A cemetery is an area where the dead are buried. This may be a traditional graveyard, with rows of headstones side by side every eight feet, or it could be unusual — such as the crypts of New Orleans. Cemeteries are often, though not always, associated with churches. Certainly, vandalism in a cemetery will have the local religious population up in arms.",
@@ -1053,7 +1053,7 @@ const generalTerritoryData = [
     {
         "Name": "Church",
         "Dots": "(•)",
-        "Book": "Territories 33",
+        "Book": "Terr 33",
         "Prerequisites": "",
         "LongDescription": [
             "A church might well be an old granite-and-stained glass Catholic cathedral, a converted-storefront evangelical Protestant church, a Jewish synagogue or Muslim mosque. Rare indeed — in the World of Darkness — is the simple, quiet Protestant church. A church in a pack’s territory has stature and meaning.",
@@ -1069,7 +1069,7 @@ const generalTerritoryData = [
     {
         "Name": "Criminal District",
         "Dots": "(•)",
-        "Book": "Territories 34",
+        "Book": "Terr 34",
         "Prerequisites": "",
         "LongDescription": [
             "This feature represents a part of a pack’s territory that is well-known as being a haven for criminals and criminal activity. This district may be an entire neighborhood, a single block or alley, a housing complex or anything else the players and Storyteller find appropriate.",
@@ -1084,7 +1084,7 @@ const generalTerritoryData = [
     {
         "Name": "Empty Building",
         "Dots": "(•)",
-        "Book": "Territories 34",
+        "Book": "Terr 34",
         "Prerequisites": "",
         "LongDescription": [
             "Empty warehouses, sports arenas, shopping malls and the like all arise after the businesses that previously occupied the buildings vanish.",
@@ -1099,7 +1099,7 @@ const generalTerritoryData = [
     {
         "Name": "Highway",
         "Dots": "(•)",
-        "Book": "Territories 34",
+        "Book": "Terr 34",
         "Prerequisites": "",
         "LongDescription": [
             "A highway is a high-speed road for motor vehicles with few or no crossing roads. Highways can spell disaster both for motorists and for wildlife, as “road kill” numbers increase every autumn.",
@@ -1114,7 +1114,7 @@ const generalTerritoryData = [
     {
         "Name": "Hospital",
         "Dots": "(•••)",
-        "Book": "Territories 35",
+        "Book": "Terr 35",
         "Prerequisites": "",
         "LongDescription": [
             "A hospital feature is any major medical center containing facilities for scores of doctors and support personnel, as well as rooms for short, medium and long-term recuperation. Some hospitals have helipads for use by emergency medical helicopters; nearly all hospitals have emergency rooms and facilities for ambulances.",
@@ -1130,7 +1130,7 @@ const generalTerritoryData = [
     {
         "Name": "Military Base",
         "Dots": "(•••)",
-        "Book": "Territories 35",
+        "Book": "Terr 35",
         "Prerequisites": "",
         "LongDescription": [
             "Military bases are large, complex entities. Their nature and contents depend on the arm of the military that they are associated with (in the United States, that means that a given base may be part of the Army, the Navy, the Marine Corps, the Air Force or various arms of the National Guard or Reserves). Almost every city has a National Guard presence of some kind, and most major cities have one or more military bases; however, military bases can also be found far from large cities. Navy bases are only found on the coast of an ocean or the Great Lakes.",
@@ -1146,7 +1146,7 @@ const generalTerritoryData = [
     {
         "Name": "University or Postsecondary School",
         "Dots": "(••)",
-        "Book": "Territories 36",
+        "Book": "Terr 36",
         "Prerequisites": "",
         "LongDescription": [
             "A university is a large, accredited institution of higher learning that provides bachelor’s degrees (or higher-level degrees) to its students. A university typically consists of many buildings and a campus several square miles in extent. A postsecondary school is usually a much smaller place, perhaps occupying just one building or a few floors of a large building. Postsecondary schools are mostly specialized, and provide associates’ degrees in their fields of specialty.",
@@ -1162,7 +1162,7 @@ const generalTerritoryData = [
     {
         "Name": "Utilities",
         "Dots": "(•)",
-        "Book": "Territories 36",
+        "Book": "Terr 36",
         "Prerequisites": "",
         "LongDescription": [
             "Utilities represent the nervous and circulatory systems of human communities. Utilities bring water, power, communications and heat to various buildings, and take away waste. Players and Storytellers don’t have to represent ordinary power or gas lines through the “utilities” feature — instead, elements of this type represent noteworthy facilities: a water treatment plant, water tower, power plant, telecommunications switching statement, major sewer juncture, gas depot and so on.",
@@ -1180,7 +1180,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Barren",
         "Dots": "-",
-        "Book": "Territories 37",
+        "Book": "Terr 37",
         "Prerequisites": "",
         "LongDescription": [
             "A Barren is a spiritually empty site. A Barren has no Essence or resonance to speak of.",
@@ -1195,7 +1195,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Catalyst",
         "Dots": "(•)",
-        "Book": "Territories 37",
+        "Book": "Terr 37",
         "Prerequisites": "",
         "LongDescription": [
             "A spirit catalyst site enables (and speeds) the transformation of one spirit type into another. This site does nothing for the power of those spirits; a Gaffling will not be infused with enough power to become a Jaggling on the virtue of the site alone. Radical changes are unusual, and few catalyst sites cause them. These transformations are based on resonance.",
@@ -1212,7 +1212,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Glade",
         "Dots": "(•••)",
-        "Book": "Territories 38",
+        "Book": "Terr 38",
         "Prerequisites": "",
         "LongDescription": [
             "A glade is a fountain of positive emotion and peaceful energy. Glades are havens within the Shadow, and are extremely rare in the modern day.",
@@ -1227,7 +1227,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Locus",
         "Dots": "(• to •••••)",
-        "Book": "Territories 38",
+        "Book": "Terr 38",
         "Prerequisites": "",
         "LongDescription": [
             "A locus is a center and fountain of spiritual energy (or “Essence”). Loci also represent “crossing points” between the spirit world and physical world. For more detail on loci, see pp. 260-264 of Werewolf: The Forsaken.",
@@ -1242,7 +1242,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Shoal",
         "Dots": "-",
-        "Book": "Territories 38",
+        "Book": "Terr 38",
         "Prerequisites": "",
         "LongDescription": [
             "A shoal, as described on p. 258 of Werewolf: The Forsaken, is a pool of negative emotions and nihilism. Uratha who enter a shoal find themselves too overwhelmed by ennui to stand up and leave the area, even in the face of hunger or other stimuli.",
@@ -1257,7 +1257,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Verge",
         "Dots": "-",
-        "Book": "Territories 39",
+        "Book": "Terr 39",
         "Prerequisites": "",
         "LongDescription": [
             "Verges are fleeting places where there is no Gauntlet at all — the barrier between worlds has worn so thin that a person or spirit can cross from one world to the other freely. On certain nights, a person might walk down the wrong alley and find himself between the twisting buildings of the Shadow. A verge is not a constant feature; most seem to manifest only once a year, or even less frequently. Verges do not generate Essence — they are simply portals across the Gauntlet of temporary nature.",
@@ -1272,7 +1272,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Window",
         "Dots": "(•)",
-        "Book": "Territories 39",
+        "Book": "Terr 39",
         "Prerequisites": "",
         "LongDescription": [
             "Occasionally a window between worlds opens, allowing viewers on either side of the Gauntlet a clear view of what lies on the other side. A spirit window doesn’t remain “open” at all times, mostly remaining present but opaque. Between the hours of midnight and 12:03, a computer screen shows flashes of the other world; a sole remaining pane of glass in a derelict building displays strange images when the wind comes from the northwest. The sights it offers may induce Lunacy in humans; only a few are able to look on the Shadow for what it is, whether they understand it or not.",
@@ -1288,7 +1288,7 @@ const supernaturalTerritoryData = [
     {
         "Name": "Wound",
         "Dots": "-",
-        "Book": "Territories 39",
+        "Book": "Terr 39",
         "Prerequisites": "",
         "LongDescription": [
             "To an observer in the spirit world, a Wound seems like a street corner in Hell. A Wound vomits forth extremely negative Essence; a Wound is a site where the spirit wilds themselves are damaged. Wounds are full of violent, diseased, corrupt spirits that gnaw on the vile Essence belched forth from the site, and then fight among themselves or assault travelers.",
@@ -1306,7 +1306,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Ambush Site",
         "Dots": "(•)",
-        "Book": "Territories 40",
+        "Book": "Terr 40",
         "Prerequisites": "",
         "LongDescription": [
             "This descriptor represents a location within the pack’s territory where all of the Uratha of the pack know that they can get the drop on enemies wandering through. It is up to players to define and describe why a given location is a good ambush site. It may be a blind alley, a “killing field” empty lot with no cover anywhere or a twisted junkyard maze.",
@@ -1321,7 +1321,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Arcane",
         "Dots": "(+•)",
-        "Book": "Territories 40",
+        "Book": "Terr 40",
         "Prerequisites": "",
         "LongDescription": [
             "An arcane area sees traffic from one or more sorcerers, witches or other magic-using humans. The pack may see them as potential allies or deadly enemies, but usually the two groups settle into a loose rivalry where supernatural features of the area are concerned.",
@@ -1336,7 +1336,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Contested",
         "Dots": "(-•)",
-        "Book": "Territories 41",
+        "Book": "Terr 41",
         "Prerequisites": "",
         "LongDescription": [
             "A contested element is one that is directly and actively fought over by the players’ pack and another pack of Uratha. Werewolves must use caution in any conflict, for their Rage may get the best of them, and yet the People may not slay the People without grievous repercussions.",
@@ -1351,7 +1351,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Essence Current/Ley Line",
         "Dots": "(+•)",
-        "Book": "Territories 41",
+        "Book": "Terr 41",
         "Prerequisites": "",
         "LongDescription": [
             "Essence doesn’t just pool in place or slowly ebb from one location to another. Essence also races from one place to another at high speed. An Essence flow generally runs from one locus to another. These loci may have nearly identical resonance, or they may have opposed resonances. Essence flows swiftly through the line, at speeds of hundreds of miles per hour. If the current connectstwo loci of identical resonance, the ley line serves to keep the two loci roughly balanced (in terms of the amount of Essence each holds). If the current connects two opposing loci, the ley line keeps each locus strong by funneling Essence toward the appropriate locus. Ley lines sometimes spontaneously emerge between loci that are dozens of miles apart — or even farther.",
@@ -1368,7 +1368,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Haunted",
         "Dots": "(+•)",
-        "Book": "Territories 42",
+        "Book": "Terr 42",
         "Prerequisites": "",
         "LongDescription": [
             "The area in question is infested with one or more ghosts. For the most part, ghosts in the World of Darkness are the emotional impression left over by particularly violent deaths or by those who died while still leaving something important in their lives unresolved. Some ghosts are self-aware — they realize that they are ghosts. Others are mostly self-aware, but do not realize that they are ghosts. Still others are simple whorls of rage, or mindless automatons, endlessly repeating the actions immediately preceding their demise.",
@@ -1384,7 +1384,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Notorious",
         "Dots": "-",
-        "Book": "Territories 42",
+        "Book": "Terr 42",
         "Prerequisites": "",
         "LongDescription": [
             "This chunk of the pack’s territory is sufficiently weird that a few unusual humans are attracted to it. Humans tend to be curious monkeys; while most humans will avoid overtly dangerous areas, this particular place isn’t so much dangerous as it is interesting to mortals. The humans in question may be just a lone hunter, a small group of “monster-hunters” or an arm of an organization such as the Catholic Church. The mortals probably have no idea what a werewolf is, beyond what they’ve seen in movies — and they may well have no idea that the pack is in fact a group of werewolves. The humans only know that weird shit is going on, and they are curious enough to stick around and try to learn what.",
@@ -1400,7 +1400,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Media Center",
         "Dots": "(+•)",
-        "Book": "Territories 42",
+        "Book": "Terr 42",
         "Prerequisites": "",
         "LongDescription": [
             "This feature gets a lot of attention from the local media. A media center may be a hub of local politics or sports, or be frequented by celebrities. Events that transpire in such an area are much more likely to get attention from local media — for better or worse.",
@@ -1415,7 +1415,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Neutral Ground",
         "Dots": "-",
-        "Book": "Territories 43",
+        "Book": "Terr 43",
         "Prerequisites": "",
         "LongDescription": [
             "Neutral ground is territory that no pack claims, and which all local packs agree is free for all. The local Pure Ones may even participate in such an agreement, though this is unlikely. Neutral ground typically borders on the territories of several packs. However, a piece of territory cannot be both neutral and contested (see above), as an area is either accepted as neutral or is contested by two or more packs. By definition, this descriptor can’t be added to a territory feature that a pack controls, but is included for purposes of thoroughness. When designing a pack’s territory and the larger area of a chronicle, figuring out where the neutral ground is in relation to the pack’s own turf is important.",
@@ -1430,7 +1430,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Occluded",
         "Dots": "(+•)",
-        "Book": "Territories 44",
+        "Book": "Terr 44",
         "Prerequisites": "",
         "LongDescription": [
             "An occluded area is one through which it is exceptionally difficult to track prey. There are numerous strange smells, sounds and frequent piles of debris that serve to hide prey and make it more difficult for a predator to keep tabs on his quarry. This could represent anything from a stretch of wilderness with many small streams that break up scent trails to the mess, stink and noise of a stockyard.",
@@ -1445,7 +1445,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Poor",
         "Dots": "(+•)",
-        "Book": "Territories 44",
+        "Book": "Terr 44",
         "Prerequisites": "",
         "LongDescription": [
             "In game terms, a poor area is one where the average member of the population has a lower-than-average Resources. Most people in a poor area have no more than one dot in Resources; many have zero dots of Resources and lead truly desperate lives.",
@@ -1460,7 +1460,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Pure",
         "Dots": "(-••)",
-        "Book": "Territories 44",
+        "Book": "Terr 44",
         "Prerequisites": "",
         "LongDescription": [
             "Related to contested areas, “Pure” areas are those for which the pack must vie with the Pure Tribes for control. These areas are specifically sacred to the Pure Tribes; for some reason, any pack of the Pure that knows of this space is likely to come after the pack and challenge the pack’s control of the space. Pure areas are more dangerous to the Forsaken than Border areas are; struggles for dominance between “cousins” are common and rarely end in death, but a battle between a pack of the Forsaken and one of the Pure may well end in death. Additionally, the Pure have the same expansionist and territorial imperatives that the Forsaken have. If the Pure contest for the financial district today, they may well be coming after the city’s nearby waterfront next.",
@@ -1475,7 +1475,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Rich",
         "Dots": "(+•)",
-        "Book": "Territories 45",
+        "Book": "Terr 45",
         "Prerequisites": "",
         "LongDescription": [
             "A rich area in the pack’s territory is one where the average Resources is higher than normal. When applied to a given feature in the territory, 'rich' simply means that feature is especially ‘ritzy.’ A rich shop might be a highclass clothing store or expensive restaurant. A rich apartment building might be a secure, downtown high-rise.",
@@ -1490,7 +1490,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Sanguine",
         "Dots": "(+•)",
-        "Book": "Territories 45",
+        "Book": "Terr 45",
         "Prerequisites": "",
         "LongDescription": [
             "A “sanguine” area is one frequented by vampires. As hunters of human blood, vampires prefer to prowl areas where a lone human might be caught and drained of blood without alerting the authorities. These areas may be college campuses, nightclub districts, slums or nearly anywhere else. Most vampires prefer city living — more victims per acre — but some can be found in the wilderness.",
@@ -1506,7 +1506,7 @@ const descriptorsTerritoryData = [
     {
         "Name": "Virgin",
         "Dots": "(+••)",
-        "Book": "Territories 45",
+        "Book": "Terr 45",
         "Prerequisites": "",
         "LongDescription": [
             "Virgin territory is land that humans have never set foot in — or, at least, land that humans have left no mark on.",
@@ -1524,7 +1524,7 @@ const wideDescriptorsTerritoryData = [
     {
         "Name": "Artic",
         "Dots": "-",
-        "Book": "Territories 46",
+        "Book": "Terr 46",
         "Prerequisites": "",
         "LongDescription": [
             "This descriptor applies to regions north of the Arctic Circle or south of the Antarctic Circle (more than 66 degrees from the equator) — though, as with “tropical,” if the group generally agrees that a given area is effectively arctic, regardless of its actual latitude, this descriptor can apply. These are cold regions — deadly in deep winter and only mild in the summer. True arctic regions (beyond 66 degrees latitude) experience “midnight sun” in summer, as the sun stays above the horizon for six months, and “noon moon” in winter, as the sun stays below the horizon for six months.",
@@ -1535,7 +1535,7 @@ const wideDescriptorsTerritoryData = [
     {
         "Name": "Dry",
         "Dots": "-",
-        "Book": "Territories 46",
+        "Book": "Terr 46",
         "Prerequisites": "",
         "LongDescription": [
             "This descriptor applies to any region that generally experiences low rainfall. The area doesn’t have to be a desert — the plains of western North America can be quite dry without being a desert.",
@@ -1546,7 +1546,7 @@ const wideDescriptorsTerritoryData = [
     {
         "Name": "High",
         "Dots": "-",
-        "Book": "Territories 46",
+        "Book": "Terr 46",
         "Prerequisites": "",
         "LongDescription": [
             "This descriptor refers to any region that is above 5,000 feet in altitude. The air is thin here; nights are colder and days hotter than lands lower down.",
@@ -1557,7 +1557,7 @@ const wideDescriptorsTerritoryData = [
     {
         "Name": "Tropical",
         "Dots": "-",
-        "Book": "Territories 46",
+        "Book": "Terr 46",
         "Prerequisites": "",
         "LongDescription": [
             "This applies to tropical or subtropical regions — technically, tropical areas are within 23 degrees of the equator, but the group is welcome to define certain parts of the United States (for instance) as being effectively tropical. These are hot regions — sometimes deadly in the summer and only mild in the winter.",
@@ -1568,7 +1568,7 @@ const wideDescriptorsTerritoryData = [
     {
         "Name": "Wet",
         "Dots": "-",
-        "Book": "Territories 46",
+        "Book": "Terr 46",
         "Prerequisites": "",
         "LongDescription": [
             "This descriptor refers to any region that experiences regular heavy rainfall, such as coastal tropical areas or ocean islands. The region may suffer a monsoon season, or may simply be generally rainy.",

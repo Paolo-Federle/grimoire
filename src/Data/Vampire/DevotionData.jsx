@@ -13,7 +13,7 @@ export const DevotionData = [
             "When 22 Solid is activated, it downgrades a number of lethal damage points into bashing. The damage reduced is equal to the user’s Resilience. Twenty-Two Solid can be used while standard Resilience is active, but 22 Solid lasts only for a single turn per use. This Devotion does not affect damage already taken, but only new damage inflicted while the Devotion is active. If the character has Armor, apply the Armor first before downgrading damage. If the Armor applies only to bashing damage, the Armor does not protect against damage that used to be lethal before it was changed into bashing by this Devotion.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Carth 195"
+        "Book": "Cart 195"
     },
     {
         "Name": "Abdo Cordis",
@@ -68,7 +68,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> It is possible to have more than one Appalling Lure active at once. This power does not affect mortals. If the lure is not activated by the next sunrise, its power fades.",
             "This power costs 21 experience points to learn."
         ],
-        "Book": "B:tC 54"
+        "Book": "BtC 54"
     },
     {
         "Name": "Army of One",
@@ -85,7 +85,7 @@ export const DevotionData = [
             "The phantoms can interact with the targets, but not with the physical environment (though objects held by the targets will appear to interact with the phantoms, to the targets’ minds). The targets will take bashing damage if they believe the phantoms have hit them, but after taking damage a target ceases to be affected by the power. Any target who sees a phantom fail to interact with a physical object, such as by being unable to pick up an object, also ceases to be affected. Those who break out of the power suddenly see things as they are, the phantoms vanishing utterly from their perceptions. This causes them disorientation for one turn, levying a – 1 penalty to all actions for that turn.",
             "This power costs 30 experience points to learn."
         ],
-        "Book": "Carth 199"
+        "Book": "Cart 199"
     },
     {
         "Name": "Aversion Curse",
@@ -116,7 +116,7 @@ export const DevotionData = [
             },
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Carth 196"
+        "Book": "Cart 196"
     },
     {
         "Name": "Beast's Own",
@@ -148,7 +148,7 @@ export const DevotionData = [
             "If the person being enhanced is also using Awe, the successes rolled with Behind the Throne are added to the receiver’s Awe successes for the purposes of overcoming the Composure of the audience. If used in this fashion, the person at the center of attention does not need to succeed at his use of Awe to gain the perks of Behind the Throne. If he gets a dramatic failure on his roll, however, Behind the Throne has no effect.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Carth 196"
+        "Book": "Cart 196"
     },
     {
         "Name": "Beloved Pet",
@@ -173,7 +173,7 @@ export const DevotionData = [
             "An Oberloch can maintain a number of undead pets equal to her Animalism dots at one time.",
             "This power costs 25 experience points to learn."
         ],
-        "Book": "B:tH 104"
+        "Book": "BtH 104"
     },
     {
         "Name": "Blessing of the Captive Eye",
@@ -189,7 +189,7 @@ export const DevotionData = [
             "The effects of this power last for a number of nights equal to the Galloi’s Blood Potency score. The Pretty may end this power prematurely by spending a Willpower point.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "B:tL 62"
+        "Book": "BtL 62"
     },
     {
         "Name": "Blood from the Boards",
@@ -223,7 +223,7 @@ export const DevotionData = [
             "The victim’s body reacts to the spoken Command (see Vampire: The Requiem, p. 124) regardless of her will, nerve responses triggered mystically by the Devotion. The one word command can simply be a body part, in which case that part will spasm un- controllably for one turn.",
             "This power costs five experience points to learn."
         ],
-        "Book": "Carth 200"
+        "Book": "Cart 200"
     },
     {
         "Name": "Blood Shield",
@@ -260,7 +260,7 @@ export const DevotionData = [
             "This power costs five experience points to learn.",
             "Note that if the Kindred also activates Claws of the Wild, she gains its +2 bonus to her climbing pool in addition to the benefits of Bobcat Climbing."
         ],
-        "Book": "Nomad 95"
+        "Book": "Noma 95"
     },
     {
         "Name": "Body Colony",
@@ -281,7 +281,7 @@ export const DevotionData = [
             "Storytellers, this is some cruel, nasty stuff, so mind the degeneration checks for characters of suitably high Humanity who use this power.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "B:tL 113"
+        "Book": "BtL 113"
     },
     {
         "Name": "Body of Will",
@@ -330,7 +330,7 @@ export const DevotionData = [
             "Characters who successfully activate Brute Cannot Betray before using Subsume the Lesser Spirit conceal their influence over a possessed animal from occult detection. This doesn’t prevent people from noticing an animal behaving oddly, but Auspex, divination powers and the paranormal abilities of mages, shapechangers and other supernatural creatures have zero chance of identifying the creature as vampire-controlled.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Carth 195"
+        "Book": "Cart 195"
     },
     {
         "Name": "Butcher's Hook",
@@ -349,7 +349,7 @@ export const DevotionData = [
             "If both rolls are successful, the vampire using this power can identify the vampire underneath the blur, providing that he has met the vampire before. Of course, this power doesn’t work on Hollow Mekhet, since they don’t appear on recorded media at all.",
             "This technique costs six experience points to learn."
         ],
-        "Book": "Mek 108"
+        "Book": "Mekh 108"
     },
     {
         "Name": "Call of Courage",
@@ -370,7 +370,7 @@ export const DevotionData = [
             "The dread oozing out of the Acolyte is more of an emotional or spiritual fear, as opposed to the trembling terror inflicted by other uses of Nightmare. Thus, no dice pool bonuses or penalties affect mortals who stay or go. Nonetheless, the most common outcome of Call of Courage is to bring the bravest mortal nearby into direct conflict, alone.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "CoC 192"
+        "Book": "Crone 192"
     },
     {
         "Name": "Camoflauge",
@@ -426,7 +426,7 @@ export const DevotionData = [
             "According to legend, Churchtower Gaze can be reflected if a subject (or someone in a group) raises a silvered mirror to his eyes. Doing so requires the intended victim to have the mirror in hand, and to delay his action in a turn until the Nelapsi uses this Devotion. If the subject manages to best the Nelapsi in the contested roll made for this power (the roll made for the subject gets a +3 bonus), then the Nelapsi suffers a –3 penalty to all actions for the remainder of the scene as he recoils from the horror inflicted upon himself.",
             "This power costs 10 experience points to learn."
         ],
-        "Book": "B:tH 93"
+        "Book": "BtH 91"
     },
     {
         "Name": "Claws of Amphisbaena",
@@ -442,7 +442,7 @@ export const DevotionData = [
             "When a vampire with this power activates both Claws of the Wild and Arms of Amphisbaena, she gains both the enhanced blood-drinking capability of Amphisbaena ●●● and the aggravated damage capability bestowed by Protean ●●●. ",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "CoC 192"
+        "Book": "Crone 192"
     },
     {
         "Name": "Cleansing Impression",
@@ -463,7 +463,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> As a standard success. The extra successes are their own reward, as they extend the radius.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Carth 192"
+        "Book": "Cart 192"
     },
     {
         "Name": "Compel Spirit",
@@ -500,7 +500,7 @@ export const DevotionData = [
             "Note that this Devotion is required only for the first drink that creates the ghoul (that is, the one coupled with an expenditure of Willpower). After that, the Galloi may keep up the ghoul’s persistent condition via the normal taste of Vitae without this Devotion.",
             "This power costs nine experience points to learn."
         ],
-        "Book": "B:tL 61"
+        "Book": "BtL 61"
     },
     {
         "Name": "Cutting of the Strings",
@@ -521,7 +521,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> As for success, but the character instinctively knows when someone else is trying to perform a divination that concerns him in some way.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Mek 109"
+        "Book": "Mekh 109"
     },
     {
         "Name": "Dauntless Spirit",
@@ -538,7 +538,7 @@ export const DevotionData = [
             "Dauntless Spirit protects against contested rolls as well as uncontested rolls.",
             "This power costs eight experience points to learn."
         ],
-        "Book": "Carth 193"
+        "Book": "Cart 193"
     },
     {
         "Name": "Defiant Child",
@@ -553,7 +553,7 @@ export const DevotionData = [
             "This Devotion charges an adherent with vitality and sexual potency—a male vampire with this Devotion can sire children, and a female vampire can bear the children of a mortal. Once this Devotion is learned, this capacity can be activated for a whole night by expending an additional Vitae when waking.",
             "This Devotion costs 18 experience points to learn."
         ],
-        "Book": "NH:TWD 155"
+        "Book": "NH-WD 155"
     },
     {
         "Name": "Destructive Might",
@@ -632,7 +632,7 @@ export const DevotionData = [
             "Example: An elder with Crafts 7, Medicine 6 and Politics 7 decides to slip into torpor, asking an Agoniste to use Dodona on her. The Agoniste achieves two successes, and chooses to maintain the Agoniste’s Crafts and Politics ratings. When the elder wakes up, her Blood Potency has dropped to 3, and her Crafts, Medicine and Politics ratings are now 5, their maximum level for her Blood Potency. Over time the elder’s Blood Potency rises to 6 again. When it rises from 5 to 6, her Crafts and Politics ratings rise to 6 as well. The same occurs when her Blood Potency rises to 7. This does not cost the elder experience points. Her Medicine trait remains at 5, however, and must be raised again through experience.",
             "This power costs 24 experience points to learn."
         ],
-        "Book": "B:tC 25"
+        "Book": "BtC 25"
     },
     {
         "Name": "Draught of Revelation",
@@ -706,7 +706,7 @@ export const DevotionData = [
             "The first vampire who feeds from the ghoul remembers the information encoded into the Vitae as if it were his own experience – if the player succeeds in a reflexive roll of Wits + Composure + Blood Potency. If he fails, he can try again, by feeding a little more. Only one vampire can drink memories encoded in a ghoul’s Vitae. Once they’ve been sucked out of the ghoul’s blood, they’re gone.",
             "The version of this power using Auspex and Obfuscate costs 15 experience points to learn, while the version using Auspex and Meminisse costs 12 points to learn."
         ],
-        "Book": "Mek 109"
+        "Book": "Mekh 109"
     },
     {
         "Name": "Enliven the Flesh",
@@ -725,7 +725,7 @@ export const DevotionData = [
             "The effects of this power last for a number of nights equal to the Galloi’s Blood Potency score. The Pretty may end this power prematurely by spending a Willpower point.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "B:tL 52"
+        "Book": "BtL 52"
     },
     {
         "Name": "Exegesis",
@@ -744,7 +744,7 @@ export const DevotionData = [
             "Once the necessary number of successes is accumulated, the subject is free to slip into a voluntary torpor empowered by the Exegesis, and will enjoy the benefits of the Devotion. Kindred not of the line (and not seeking membership) will not experience the enlightening sensation of the ritual, instead just enjoying a dreamless sleep.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "B:tC 24"
+        "Book": "BtC 24"
     },
     {
         "Name": "Eye's Blood",
@@ -778,7 +778,7 @@ export const DevotionData = [
             "Once the character activates this Discipline, he adds his Auspex rating to his Initiative rating. (If he activates Celerity as well, he adds both Disciplines.) Also, the character’s Defense does not diminish from being attacked by multiple opponents in the same turn (see p. 155 of The World of Darkness Rulebook).",
             "This Devotion costs 6 experience points to learn."
         ],
-        "Book": "NH:TWD 95"
+        "Book": "NH-WD 95"
     },
     {
         "Name": "Eyes of the Dragon",
@@ -846,7 +846,7 @@ export const DevotionData = [
             },
             "Each version of Faking It costs 15 experience points to learn."
         ],
-        "Book": "B:tL 127"
+        "Book": "BtL 127"
     },
     {
         "Name": "Flesh of Iron",
@@ -864,7 +864,7 @@ export const DevotionData = [
             "A character may choose not to invoke the full measure of his Resilience in armor. For example, a character with this Devotion and Resilience •••• may choose to invoke only two points of armor from Flesh of Iron. A character doing this suffers the Initiative and Speed penalties for only the amount of armor he uses; so, the character in the example would suffer only a -2 penalty to Initiative and Speed in this case.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Nomad 95"
+        "Book": "Noma 95"
     },
     {
         "Name": "Fooling the Sleeping Beast",
@@ -896,7 +896,7 @@ export const DevotionData = [
             "Using this Devotion, the vampire can run at the full speed allowed by her Celerity for the entire duration. Each activation of this power lasts a number of hours equal to the vampire’s Resilience. Activating this Devotion costs 1 Vitae for every two dots of Celerity the vampire possesses, rounded up. Purchasing this Devotion costs 1 Vitae, activating the Devotion with Celerity ••• or •••• costs 2 Vitae and activating costs 3 Vitae with Celerity •••••.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Carth 197"
+        "Book": "Cart 197"
     },
     {
         "Name": "Free Your Blood",
@@ -946,7 +946,7 @@ export const DevotionData = [
             "This power does not rob those subjected to it of free will, as Conditioning does; instead, Gimme 50 makes them jumpy. The penalty from this power also applies to any rolls the subjects make to resist frenzy or Wassail. On the upside, the bonus applies to attempts to resist Rötschreck, since the drill instructor may even seem scarier than fire.",
             "This power costs 20 experience points to learn."
         ],
-        "Book": "Carth 198"
+        "Book": "Cart 198"
     },
     {
         "Name": "Glimpse of the Abyss",
@@ -965,7 +965,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> As a success, except the first three points of damage caused during this power’s effect are lethal.",
             "This power costs 27 experience points to learn."
         ],
-        "Book": "AM 75-76"
+        "Book": "AM 75"
     },
     {
         "Name": "Glory of Ra, The",
@@ -1006,7 +1006,7 @@ export const DevotionData = [
             "After an activation of this power has prevented a surprise or won an initiative contest, the power is used up, and, to prevent any more surprises, Vitae must be spent again. Only one Vitae may be spent at a time; the power is either active or it isn’t. The effects of this Devotion are the matter of an instant’s reaction. If additional combatants enter after the power has been used to win initiative, this Devotion does not cause the user to go faster than the newcomers should they happen to roll higher than the user placed with this power.",
             "This power costs 10 experience points to learn."
         ],
-        "Book": "Carth 197"
+        "Book": "Cart 197"
     },
     {
         "Name": "Hair Trigger",
@@ -1022,7 +1022,7 @@ export const DevotionData = [
             "For the turn when Hair Trigger is active, this Devotion adds a bonus to the user’s Dexterity attribute equal to his Celerity. This bonus can cause the attribute to exceed the normal limits Blood Potency places on attribute maximums. Thus, a vampire with Celerity •• and Dexterity •••• would have Dexterity ••••• • while this Devotion is active.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Carth 198"
+        "Book": "Cart 198"
     },
     {
         "Name": "Hekau",
@@ -1040,7 +1040,7 @@ export const DevotionData = [
             "This Devotion has a radius around the vampire equal to twice her Wits dots in yards. A single roll is enough to listen in on virtually any space, provided the vampire has toured the area. Once the vampire has defined her search area by “painting” it with her area of affect, she makes the Instant action to activate the power. The Storyteller is the final judge of how long it takes the user to define the search area — a small room might be completely within the radius of her power, while a large club might require 20 minutes of scouting in preparation for the power’s use.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "CoC 193"
+        "Book": "Crone 193"
     },
     {
         "Name": "Hidden Agenda",
@@ -1091,7 +1091,7 @@ export const DevotionData = [
             "This power can only be used if the ship is constructed of a natural material (usually wood) that the vampire can meld with, per Haven of Soil.",
             "This power costs 21 experience points to learn."
         ],
-        "Book": "B:tC 64"
+        "Book": "BtC 64"
     },
     {
         "Name": "Hive Induction",
@@ -1115,7 +1115,7 @@ export const DevotionData = [
             "A Melissid can maintain a hive with a number of drones equal to the square of her Blood Potency, plus 1. For example, a Queen Bee with Blood Potency 2 can maintain a hive with five drones. If she had Blood Potency 5, she could maintain a hive of 26 drones. Hives of above five or six members become very difficult to hide.",
             "Only mortals and ghouls are subject to Hive Induction. This Devotion will not work on other Kindred at all. This power costs 21 experience points."
         ],
-        "Book": "B:tL 113"
+        "Book": "BtL 113"
     },
     {
         "Name": "Hive Nexus Gestalt",
@@ -1137,7 +1137,7 @@ export const DevotionData = [
             "If there is a tie, in which half the Hive wants an action and half does not, the owner of the body that would take the action decides. Furthermore, any member of the group can break out of the Hive at any time by spending a Willpower point out of the collective pool. So Hives that need to send a member to certain death should make sure their Willpower is completely gone first — though if a Hive is considering such a sacrifice, it’s usually because all other options have already failed.",
             "This power costs 24 experience points to learn."
         ],
-        "Book": "Carth 194"
+        "Book": "Cart 194"
     },
     {
         "Name": "Honeycomb Heart",
@@ -1154,7 +1154,7 @@ export const DevotionData = [
             "A Melissid with a swarm inside her cannot counterfeit life using Vitae and cannot eat food, as long as the insects remain within her body. When she dismisses the insects, the Melissid regains these abilities.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "B:tL 113"
+        "Book": "BtL 113"
     },
     {
         "Name": "Hounds of Blood",
@@ -1174,7 +1174,7 @@ export const DevotionData = [
             "Unless the Storyteller has a dramatic reason to resolve a use of this power through actual play (perhaps the hound is unexpectedly captured by a rival Lord or vampire-hunter?), the Hound of Blood is presumed to deliver its bounty to the user’s haven, where it may be consumed before the vampire sleeps for the day.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Ventrue 110"
+        "Book": "Vent 110"
     },
     {
         "Name": "Husk",
@@ -1191,7 +1191,7 @@ export const DevotionData = [
             "If a vampire is drawing three or more Vitae per turn, the act leaves a wound that’s too wide to simply lick closed, and if she leaves the victim alive, he needs to make a Resolve + Stamina roll every 10 minutes until he gets first aid. Failing the roll means he suffers another point of lethal damage to blood loss.",
             "This power costs six experience points to learn."
         ],
-        "Book": "Carth 191"
+        "Book": "Cart 191"
     },
     {
         "Name": "Ignore",
@@ -1206,7 +1206,7 @@ export const DevotionData = [
             "Instead of the normal +2 resistance bonus for a Willpower expenditure, this power adds 2 + Resilience to the appropriate resistance Attribute when activated. It can be activated in response to any effect that would be resisted with Resolve or Composure, including mundane social rolls.",
             "This power costs nine experience points to learn."
         ],
-        "Book": "Carth 200"
+        "Book": "Cart 200"
     },
     {
         "Name": "Immutable Mind",
@@ -1223,7 +1223,7 @@ export const DevotionData = [
             "<i>Example: Travis has Dominate •• and has activated Immutable Mind. When a rival for Carthian office attempts to Mesmerize him, the contested pool is the rival’s Intelligence + Expression + Dominate. Usually, Travis would resist with Resolve + Blood Potency, but Immutable Mind allows him to roll Resolve + Blood Potency + Dominate.</i>",
             "This power costs eight experience points to learn."
         ],
-        "Book": "Carth 192"
+        "Book": "Cart 192"
     },
     {
         "Name": "Indomitable Aura",
@@ -1243,7 +1243,7 @@ export const DevotionData = [
             "The Devotion user may terminate this effect prematurely, and it ends if he is sent into torpor or destroyed.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "B:tH 105"
+        "Book": "BtH 104"
     },
     {
         "Name": "Infallible Aim",
@@ -1275,7 +1275,7 @@ export const DevotionData = [
             "The use of Entrancement (see Vampire: The Requiem, p. 130) becomes a reflexive action if the cost of Instant Adoration is paid. The Kindred need not even speak with the target; a trill of laughter or a single glance will do. She could also speak her victim’s name, or caress his arm or some other gesture that would not take away from the rhythm of conversation, or action. This accelerated Entrancement can be used in combat, so long as the target hasn’t been attacked or harmed by the vampire using Instant Adoration.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Carth 201"
+        "Book": "Cart 201"
     },
     {
         "Name": "Instantaneous Transformation",
@@ -1308,7 +1308,7 @@ export const DevotionData = [
             "Vigor may not be active at the same time as Iron Muscles. Resilience must be active to use Iron Muscles. This power adds the user’s Vigor to his Resilience for the scene, including the increase to Stamina and the additional levels of aggravated damage that may be downgraded.",
             "This power costs eight experience points to learn."
         ],
-        "Book": "Carth 201"
+        "Book": "Cart 201"
     },
     {
         "Name": "Iron Facade",
@@ -1411,7 +1411,7 @@ export const DevotionData = [
             "The Nosferatu’s appearance remains altered for the rest of the scene. The Nosferatu’s form reflects the fears of a single victim, and only that character is penalized. However, all characters in the scene are affected by the illusion, and see the vampire as person feared by the victim.",
             "This Devotion costs 21 experience points to learn."
         ],
-        "Book": "Nosferatu 207"
+        "Book": "Nos 207"
     },
     {
         "Name": "Love Like Blood",
@@ -1444,7 +1444,7 @@ export const DevotionData = [
             "If the roll succeeds, other people react to the character as if he had Striking Looks •• (see the World of Darkness Rulebook, p. 117). If the character already has this Social Merit, he seems to have the four-dot version instead. The Devotion has no effect on a character who already has Striking Looks ••••; such a character is already as attractive as a person can be. Unlike The Familiar Stranger, the character cannot impersonate other people, and people who know the character well can still recognize him. Alas, the Makeover has no effect on camera images (even if the vampire spends the Willpower to overcome the Tradition of Masquerade): the character’s improved appearance is all in people’s heads. The effect lasts a full scene.",
             "(Players sometimes refer to The Familiar Stranger as an “Extreme Makeover,” because it can change a vampire’s appearance so completely.)"
         ],
-        "Book": "B:tL 129"
+        "Book": "BtL 129"
     },
     {
         "Name": "Man to Beast",
@@ -1465,7 +1465,7 @@ export const DevotionData = [
             "A victim of this power can be subject to only one application of it at a time. The target must also be within direct earshot of the user. Trying to use the power over the telephone has no effect.",
             "This power costs 21 experience points to learn."
         ],
-        "Book": "B:tH 105"
+        "Book": "BtH 104"
     },
     {
         "Name": "Manteia",
@@ -1496,7 +1496,7 @@ export const DevotionData = [
             "<b>Suggested Modifiers:</b> Character using power on self (-1), character has blood-tie with target (+2), target is under Vinculum to vampire (+3), character is under Vinculum to target (-3), augury is based upon a condition (“Should the Prince find himself alone under the full moon, the Children of the Wolf shall sate their wrath upon him”) (+2), augury is very specific (“You shall find the Book of Unwritten Names tonight”) (-1), augury is very general (“All of your joys shall turn to ash in your mouth; all of your enterprises shall fail”) (-4).",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Mek 110"
+        "Book": "Mekh 110"
     },
     {
         "Name": "Mask of the Beast",
@@ -1549,7 +1549,7 @@ export const DevotionData = [
             "If the roll is successful, the Gorgon grows scales over the course of her turn. They rise up and break free of her flesh like a peeling burn, hardened and crusted with blood. These scales grant the Gorgon armor (Rating: 3, Defense: –1) against all physical attacks except fire. Each success of fire damage destroys one point of the armor’s Rating in addition to damaging the Gorgon as usual (the armor is a part of her, after all).",
             "This power can only be activated once per scene. It costs 15 experience points to learn."
         ],
-        "Book": "CoC 193"
+        "Book": "Crone 193"
     },
     {
         "Name": "Memory Theft",
@@ -1626,7 +1626,7 @@ export const DevotionData = [
             "Simply put, this power reveals whether or not the subject messenger has delivered his lord’s genuine message in full. For the purposes of any other Kindred power that reveal, provoke, or discern truth – whether through mystical telemetry like Aura Perception or coercion like Majesty – the master’s message “reads” as authentic. To be clear, this does not reveal whether or not the master has sent along an intentionally deceptive message – this reveals whether or not the messenger has delivered the whole message his master did intend to send.",
             "This power costs ten experience points to learn."
         ],
-        "Book": "Ventrue 109"
+        "Book": "Vent 109"
     },
     {
         "Name": "Message in a Bottle",
@@ -1642,7 +1642,7 @@ export const DevotionData = [
             "There are many applications for this Devotion. Securing messages (at least, secure from people without mid-range Auspex) is the most obvious. Planting evidence with false impressions for a rival whom you know can read impressions is more devious. Or, for the paranoid, it’s always safe to cleanse important objects so that more meaningful data can’t be mined from them.",
             "The message lasts for two years per success rolled. This Devotion requires 15 experience points to learn."
         ],
-        "Book": "Carth 191"
+        "Book": "Cart 191"
     },
     {
         "Name": "Messenger's Blessing",
@@ -1660,7 +1660,7 @@ export const DevotionData = [
             "This power can only contest a number of attempted attacks equal to the user’s Resilience dots, after which the power is exhausted and the subject is vulnerable as normal. The power’s effect, unless exhausted by attempted strikes, persists until the messenger speaks, until the messenger attacks anything human (or once human), or until the messenger dies, whichever comes first.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Ventrue 109"
+        "Book": "Vent 109"
     },
     {
         "Name": "Methusaleh Effect, The",
@@ -1676,7 +1676,7 @@ export const DevotionData = [
             "This power has only one use: the character who learns it does not suffer from the Fog of Ages while in Torpor.",
             "Drawback: The character stays in torpor as if his Humanity were one dot lower than it actually is. When he awakes, he forgets this devotion and must learn it again. If his Blood Potency falls below five dots, he must still spend experience points to re-gain higher-level Traits when his Blood Potency rises again."
         ],
-        "Book": "Mek 110"
+        "Book": "Mekh 110"
     },
     {
         "Name": "Mock Mind",
@@ -1694,7 +1694,7 @@ export const DevotionData = [
             "This false personality can, once installed, be activated or de-activated with a telepathic cue from the drone’s queen or from another Melissid with this power attached to the hive (such as one of the queen’s childer). When activated, the drone’s Social and Mental Attributes and Skills return to the levels they held before his induction into the hive-mind.",
             "The mask personality fools mortals, but has no aura; attempts at telepathic scanning using Auspex or similar powers find that beneath the surface, there is literally nothing."
         ],
-        "Book": "B:tL 115"
+        "Book": "BtL 115"
     },
     {
         "Name": "Monster's Call",
@@ -1720,7 +1720,7 @@ export const DevotionData = [
                 ]
             },
         ],
-        "Book": "NH:TWD 95"
+        "Book": "NH-WD 95"
     },
     {
         "Name": "Night Life",
@@ -1739,7 +1739,7 @@ export const DevotionData = [
             "A detailed medical examination or encounter with a particularly observant mortal may detect that something’s wrong, but won’t provide any evidence that the vampire is a walking corpse. In addition, the constant, low-level effects of Vigor give the vampire positive sensations as well. Night Life isn’t as pleasant as the Blush of Life, and it’s a long way from the blessings of true mortality, but it’s an efficient and reasonably comfortable way to stay out all night under close observation without arousing suspicion.",
             "This power costs 10 experience points to learn."
         ],
-        "Book": "Dae 118"
+        "Book": "Daeva 118"
     },
     {
         "Name": "Oath of Blood Alliance",
@@ -1983,7 +1983,7 @@ export const DevotionData = [
             "The vampire must first use Occulted Spirit and then attempt Twilight Projection. If the roll to project fails, the Willpower dot used for Occulted Spirit is wasted (though the dot may be purchased again with experience points as normal). Occulted Spirit lasts until the vampire stops using Twilight Projection.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Carth 194"
+        "Book": "Cart 194"
     },
     {
         "Name": "Palinode",
@@ -2000,7 +2000,7 @@ export const DevotionData = [
             "An Agoniste knows if the attempt has failed, and can try again.",
             "This power costs 21 experience points to learn."
         ],
-        "Book": "B:tC 24"
+        "Book": "BtC 24"
     },
     {
         "Name": "Partial Transformation",
@@ -2038,7 +2038,7 @@ export const DevotionData = [
             "No vampire may be affected by an image in which she appears, since it is not possible for a character to invoke Awe on themselves. Characters present when the picture was taken, but who were not targets of the initial Awe effect, are unaffected by the image. The image may be altered and retain its effect, so long as it remains recognizably the vampire or someone who closely resembles her. Sufficient alterations may create an effectively new image and allow the Picture Perfect effect to occur again, at the Storyteller’s discretion.",
             "This power costs 33 experience points to learn."
         ],
-        "Book": "Dae 118"
+        "Book": "Daeva 118"
     },
     {
         "Name": "Playing the Part",
@@ -2055,7 +2055,7 @@ export const DevotionData = [
             "That said, despite their hopes, this does not do anything to suppress the Nosferatu’s actual weakness. The Haunt still suffers from that no matter what he does to cover it up. The Nosferatu still betrays his identity in some way, shape or form: a freakish titter, an oddly lissome movement, an inability to blink.",
             "This Devotion costs 15 experience points to learn."
         ],
-        "Book": "Nosferatu 107"
+        "Book": "Nos 107"
     },
     {
         "Name": "Poisoned Chalice",
@@ -2122,7 +2122,7 @@ export const DevotionData = [
             "Upon successful activation, the character is indistinguishable from a normal, living person for a number of turns equal to the successes rolled. This Devotion does not affect how the vampire appears in mirrors and other reflective media, however.",
             "This Devotion costs 9 experience points to learn, though the benefits of Predator’s Camouflage for a non-draugr are limited. Then again, if the vampire’s Humanity has fallen far enough, it might be a true blessing to be able to pass unnoticed among the living."
         ],
-        "Book": "NH:TWD 95"
+        "Book": "NH-WD 95"
     },
     {
         "Name": "Predatory Growl",
@@ -2178,7 +2178,7 @@ export const DevotionData = [
             "According to legend, Churchtower Gaze can be reflected if a subject (or someone in a group) raises a silvered mirror to his eyes. Doing so requires the intended victim to have the mirror in hand, and to delay his action in a turn until the Nelapsi uses this Devotion. If the subject manages to best the Nelapsi in the contested roll made for this power (the roll made for the subject gets a +3 bonus), then the Nelapsi suffers a –3 penalty to all actions for the remainder of the scene as he recoils from the horror inflicted upon himself.",
             "This power costs 10 experience points to learn."
         ],
-        "Book": "B:tH 94"
+        "Book": "BtH 94"
     },
     {
         "Name": "Regeneration",
@@ -2194,7 +2194,7 @@ export const DevotionData = [
             "This power takes as long to activate as it takes the character to spend the requisite Vitae. Each activation of this power heals a point of aggravated damage.",
             "This power costs 24 experience points to learn."
         ],
-        "Book": "Carth 198"
+        "Book": "Cart 198"
     },
     {
         "Name": "Rejected Malady, The",
@@ -2246,7 +2246,7 @@ export const DevotionData = [
             "Suggested Modifiers: The vampire is reversing the effects of his own power (+2), the vampire is reversing the effects of a dramatic failure (-2), the character is using the power on himself (-1), character has blood-tie with target (+2), target is under Vinculum to vampire (+3), character is under Vinculum to target (-3).",
             "This power costs 21 experience points to learn."
         ],
-        "Book": "Mek 110"
+        "Book": "Mekh 110"
     },
     {
         "Name": "Rhino's Hide",
@@ -2262,7 +2262,7 @@ export const DevotionData = [
             "Rhino’s Hide grants Armor against all attacks (except fire and sunlight) equal to the successes gained on the activation roll. This Armor rating cannot exceed the character’s Resilience rating.",
             "This power costs 20 experience points to learn."
         ],
-        "Book": "Carth 197"
+        "Book": "Cart 197"
     },
     {
         "Name": "Rime of Salt",
@@ -2281,7 +2281,7 @@ export const DevotionData = [
             "The power has no additional effect on Kindred.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "B:tC 63"
+        "Book": "BtC 63"
     },
     {
         "Name": "Ritual of Nourishment, The",
@@ -2304,7 +2304,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> As for success, except that the Reflection gains its full Essence pool.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Mek 111"
+        "Book": "Mekh 111"
     },
     {
         "Name": "Repulsive Vapor",
@@ -2343,7 +2343,7 @@ export const DevotionData = [
             "Exceptional success makes the Melissid’s blood so potent that not only is it addictive but that a single draught counts as two drinks for the purposes of creating a Vinculum. Dramatic failure makes the Vitae taste foul, like the smell of burning insects, and excuses the drinker from having to make an addiction roll at all. This Vitae may be used as normal — it simply tastes foul.",
             "Learning this power costs five experience points."
         ],
-        "Book": "B:tL 112"
+        "Book": "BtL 112"
     },
     {
         "Name": "Sample the Earth",
@@ -2494,7 +2494,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> The insight of this power is gained with just a glance; the action is reflexive instead of instant.",
             "This power costs 12 experience points to learn."
         ],
-        "Book": "Carth 200"
+        "Book": "Cart 200"
     },
     {
         "Name": "Seek the Brahmin",
@@ -2530,7 +2530,7 @@ export const DevotionData = [
             "If the vampire is taken by surprise or doesn’t foresee an impaling attack, this power cannot be used in the first turn of combat. It can be used thereafter.",
             "This power costs 14 experience points to learn."
         ],
-        "Book": "B;tH 94"
+        "Book": "BtH 94"
     },
     {
         "Name": "Shadow's Revelation, The",
@@ -2578,7 +2578,7 @@ export const DevotionData = [
             "This power allows Command (see Vampire: The Requiem, p. 124) and Mesmerize (see Vampire: The Requiem, p. 125) to be used as reflexive actions, at the cost of 1 Vitae per activation. Any instructions must be bellowed loudly, or the power fails. Eye contact is not necessary when using Shout, but the target’s name must be mentioned if eye contact is not established.",
             "This power costs 10 experience points to learn."
         ],
-        "Book": "Carth 200"
+        "Book": "Cart 200"
     },
     {
         "Name": "Sleepwalker",
@@ -2595,7 +2595,7 @@ export const DevotionData = [
             "If the power is applied to a vampire with whom the user has a blood tie, a +2 bonus is gained on the activation roll.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "B:tH 19"
+        "Book": "BtH 17"
     },
     {
         "Name": "Small Witness",
@@ -2612,7 +2612,7 @@ export const DevotionData = [
             "Dramatic failure causes the insect to die in the Melissid’s stomach, causing her to vomit it up, along with a second point of Vitae. Exceptional success allows the Melissid to hear, as well as see, through the insect.",
             "This power costs six experience points to learn."
         ],
-        "Book": "B:tL 112"
+        "Book": "BtL 112"
     },
     {
         "Name": "Soma",
@@ -2628,7 +2628,7 @@ export const DevotionData = [
             "A successful use of this power alters the rate of change in the target vampire’s Blood Potency, thinning it out more quickly or holding onto its power longer. Each success allows the base time for a drop in Blood Potency (normally 25 years) to be adjusted by five years, up to a maximum of 50 and a minimum of 5.",
             "This power costs 24 experience points to learn."
         ],
-        "Book": "B:tC 25"
+        "Book": "BtC 25"
     },
     {
         "Name": "Song of Bonded Blood",
@@ -2664,7 +2664,7 @@ export const DevotionData = [
             "Sudden movements, loud noises or the Baddacelli ceasing to sing will all immediately break the spell. Any damage suffered by the victim will immediately cancel the effect as well, and she applies her full Defense against any incoming attack.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "B:tC 35"
+        "Book": "BtC 35"
     },
     {
         "Name": "Spirit Sight",
@@ -2680,7 +2680,7 @@ export const DevotionData = [
             "This devotion does not give Kindred the ability to see or interact with the spiritual world of werewolves, simply the unquiet dead. If the area is highly populated by spirits, the resulting clamor can overwhelm the vampire unless the player succeeds on a Resolve roll. Failure disorients the character, making him effectively unaware of his surroundings until the end of the following turn.",
             "This power costs five experience points to learn."
         ],
-        "Book": "Mek 111"
+        "Book": "Mekh 111"
     },
     {
         "Name": "Stalwart Heart",
@@ -2697,7 +2697,7 @@ export const DevotionData = [
             "Stalwart Heart protects even when there’s no active roll. With Awe, for example, the user’s Presence + Expression + Majesty roll needs to get more successes than the target’s Composure. If the target is protected by Stalwart Heart, the persuader needs to exceed Composure + Majesty.",
             "This power costs eight experience points to learn."
         ],
-        "Book": "Carth 192"
+        "Book": "Cart 192"
     },
     {
         "Name": "Stalwart Servent",
@@ -2733,7 +2733,7 @@ export const DevotionData = [
             "Successful activation of the power causes the victim to be unable to take any action, even to speak or scream, for a number of rounds equal to the number of successes the Queen Bee gathers.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "B:tL 112"
+        "Book": "BtL 112"
     },
     {
         "Name": "Strength from Pain",
@@ -2766,7 +2766,7 @@ export const DevotionData = [
             "Celerity may not be activated in the same turn as Sudden Strength. Vigor must be active to use Sudden Strength. This power adds the user’s Celerity dots to her Strength dots for the turn.",
             "This power costs six experience points to learn."
         ],
-        "Book": "Carth 201"
+        "Book": "Cart 201"
     },
     {
         "Name": "Swarm Control",
@@ -2787,7 +2787,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> Considerable successes are added to the total. No special effect for exceptional success.",
             "This Devotion costs 15 experience points to purchase."
         ],
-        "Book": "NH:TWD 107"
+        "Book": "NH-WD 107"
     },
     {
         "Name": "Syncope",
@@ -2804,7 +2804,7 @@ export const DevotionData = [
             "Observant Kindred who are affected by this power notice that they experience a brief flash of nightmarish imagery, exactly like the type that spools and repeats throughout torpor. Some Agonistes use this power as a means to demonstrate the sleep that awaits an elder who does not employ their assistance.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "B:tC 24"
+        "Book": "BtC 24"
     },
     {
         "Name": "Timed Message",
@@ -2825,7 +2825,7 @@ export const DevotionData = [
             "<b>Suggested Modifiers:</b> Target has no dots in Initiation (Moirai) Merit (-2), target is a ghoul (+1), target is under Vinculum to vampire (+3).",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Mek 111"
+        "Book": "Mekh 111"
     },
     {
         "Name": "This Awful Grip",
@@ -2843,7 +2843,7 @@ export const DevotionData = [
             "This Devotion only works on attacks made using the Nosferatu’s bare hands. It doesn’t affect grappling rolls.",
             "This Devotion costs nine experience points to learn."
         ],
-        "Book": "Nosferatu 111"
+        "Book": "Nos 111"
     },
     {
         "Name": "Torpid Awareness",
@@ -2860,7 +2860,7 @@ export const DevotionData = [
             "After purchasing the initial version of this power, an advanced version is also available at Auspex •••••. This version allows the vampire to project his astral form whenever he slumbers, with no need for a roll. Even when the vampire enters torpor, he retains awareness of his immediate surroundings, though his spirit cannot travel.",
             "This power costs nine experience points to learn the basic version and 30 experience points to learn the advanced version."
         ],
-        "Book": "Carth 199"
+        "Book": "Cart 199"
     },
     {
         "Name": "Touch of Deprivation",
@@ -2914,7 +2914,7 @@ export const DevotionData = [
             "The gender shift grants the subject a reasonable facsimile of the physiology of the new gender. For all intents and purposes, the individual is of the changed gender. The only limitation is reproductive capability. The subject has zero reproductive capability — men may not impregnate women, and women may not become pregnant. Legend suggests that some Galloi of particularly potent blood have figured a way around this, but few, if any, are aware of precisely how.",
             "This power costs 33 experience points to learn."
         ],
-        "Book": "B:tL 63"
+        "Book": "BtL 63"
     },
     {
         "Name": "Undiminished Rage",
@@ -2934,7 +2934,7 @@ export const DevotionData = [
             "<b>Exceptional Success:</b> Not only does the vampire enter a rage frenzy instead of fleeing uncontrollably, but he is already considered to be Riding the Wave, and need not spend another Willpower point to impose limits on his frenzy.",
             "This power costs 18 experience points to learn."
         ],
-        "Book": "B:tC 64"
+        "Book": "BtC 64"
     },
     {
         "Name": "Undying Familiar",
@@ -2971,7 +2971,7 @@ export const DevotionData = [
             "When using Heightened Senses, the vampire is no longer in danger of being disoriented by sudden, loud or intense stimuli as described on p. 119 of Vampire: The Requiem. But Heightened Senses shields her only when she’s using the first level of Auspex. She may still be forced to make a Resolve roll if she uses Aura Perception, The Spirit’s Touch or Telepathy if something startles her, even while protected by Unflinching Eye.",
             "This power costs five experience points to learn."
         ],
-        "Book": "Carth 193"
+        "Book": "Cart 193"
     },
     {
         "Name": "Unnatural Contortion",
@@ -3004,7 +3004,7 @@ export const DevotionData = [
             "Characters who succeed at activating Unseen Master before using Possession cannot be detected as possessors using occult means. That is, no supernatural initiate (be he Kindred, mortal sorcerer or something else) can look at the possessed person, apply a mystic ability and know that the person is possessed. Unseen Master can cloak only the person being personally possessed: a character cannot use Unseen Master on a mortal being remotely controlled by his coterie-mate, for example.",
             "This power costs 15 experience points to learn."
         ],
-        "Book": "Carth 195"
+        "Book": "Cart 195"
     },
     {
         "Name": "Vitae Bloat",
@@ -3023,7 +3023,7 @@ export const DevotionData = [
             "<i>Example: Rosalita, with Blood Potency 1 and Protean 2, can usually carry no more than 10 Vitae. Preparing for a long journey across the Mojave Desert (don’t ask), she begins with five Vitae in her system when she catches an unfortunate hitchhiker. His first five points of Vitae fill her up, and then she activates Vitae Bloat to take the last two. She takes one point of bashing damage, and is even uglier than you’d expect a casual murderess to be.</i>",
             "This power costs nine experience points to learn."
         ],
-        "Book": "Carth 193"
+        "Book": "Cart 193"
     },
     {
         "Name": "Verdical Tongue",
@@ -3062,7 +3062,7 @@ export const DevotionData = [
             "The penalty imposed by The Warding Flesh is not cumulative with that of Dread — if one is in use, victims will not feel more frightened by the other.",
             "This power costs 21 experience points to learn."
         ],
-        "Book": "B:tC 55"
+        "Book": "BtC 55"
     },
     {
         "Name": "Wicked Grasp",
@@ -3078,7 +3078,7 @@ export const DevotionData = [
             "The Nosferatu may attempt to use this Devotion when grappling. If both the grapple and the Devotion roll are successful, Serpent’s Grip has two effects. First, the victim goes to the end of the Initiative order. Second, when attempting to break the Haunt’s hold, the victim not only subtracts the Nosferatu’s Strength, but also his dots in Nightmare, as well.",
             "This Devotion costs nine experience points to learn."
         ],
-        "Book": "Nosferatu 111"
+        "Book": "Nos 111"
     },
     {
         "Name": "Will to Endure",
@@ -3113,7 +3113,7 @@ export const DevotionData = [
             "Manifestations persist for the remainder of the scene, unless the Nelapsi decides to dispense with them, he can no longer see the area of effect, he is rendered unconscious or torpid, or he is destroyed. A Glutton can maintain one application of this power at a time, but it doesn’t require any active concentration beyond continued observation. The center of Witch Light activity can move at a Speed of 3, as directed reflexively by the creator. Phenomena do not cause damage and cannot make objects invisible or alter items’ appearance. They can, however, be a distraction to the creator’s own activities.",
             "This power costs nine experience points to learn."
         ],
-        "Book": "B:tH 95"
+        "Book": "BtH 93"
     },
     {
         "Name": "Wolf Man",

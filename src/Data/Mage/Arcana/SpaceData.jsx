@@ -964,7 +964,7 @@ const spaceFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Space",
         "RoteDescrizione": "In extremis, Guardians use Shadow Maze to cover an escape, because the rote can hinder pursuit most effectively. The rote is cast upon an area occupied by the pursuers, and they are then subject to the area’s shifting space and orientations. Mages of all orders have developed similar rotes, though in many cases, they have only been used as a meditation aid or to demonstrate some obscure facet of Space magic.",
         "DescrizioneBreve": "divide area into fractured spatial cells",
-        "Book": "TotM"
+        "Book": "TotM 72"
     },
     {
         "Titolo": "Suspension",

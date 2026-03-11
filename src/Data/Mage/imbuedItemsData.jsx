@@ -49,7 +49,7 @@ export const imbuedItemsData = [
             "These items can be purchased from other mages, or a character can create them herself. Creating such an item is a relatively simple manner. The character must take the item to a Hallow, inscribe the rune for dreams on it in High Speech and then use the Prime 3 spell “Imbue Mana” to place one point of Mana in the item. Because of the special power of the rune and the Hallow, this spell can place this Mana in an item. However, the caster can only place a single point of Mana in the item, and the Mana is absorbed by the item, reinforcing its astral existence. As a result, the mage cannot use Prime 3 spell “Channel Mana” to recover this Mana for later use.",
             "The mage can enchant any item up to size 20 in this fashion. Larger objects cannot be brought into Astral Space. Also, only the astral image of the item is taken into Astral Space. Destroying the astral version of an item has no affect on the actual item, and pictures taken with an astral camera and astral film have no reality in the Fallen World. Items destroyed in Astral Space not only remain intact in the Fallen World, but their astral versions are whole and undamaged the next time the owner enters Astral Space. If the mage wishes to give this item to someone else, the new owner must take the item to a Hallow and spend a one of Mana while touching the dream rune scribed on the object."
         ],
-        "Book": "Astral Realms 114"
+        "Book": "AR 114"
     },
     {
         'Nome': '“Toy” Gun',
@@ -242,7 +242,7 @@ export const imbuedItemsData = [
             "A simple chimerical object conjured from the Oneiros of a mage too powerful for his own good, the Chime of Grief is a small silver bell that represented all its creator’s miseries. In an attempt to free himself from his sadness, the mage tore the symbol of his grief out of his psyche and into the Fallen World. The spell worked, but it cost the mage his Wisdom and a part of his soul. The bell became a prize for any goetic sorcerer who needed proof of how chimerical items could be conjured.",
             "When the bell rings, it activates a Mind 2 “Emotional Urging” spell that can only be used to induce misery and sadness. Spend one Mana and roll Gnosis + Mind to determine the degree of success."
         ],
-        "Book": "Astral Realms 120"
+        "Book": "AR 120"
     },
     {
         'Nome': 'Destiny’S Quill',
@@ -879,7 +879,7 @@ export const imbuedItemsData = [
             "An inspired chimerical item of little power and great historical importance, the Mask of Ages was the creation of a mortal sculptor. Already known for the primitive motifs used in her artwork, the sculptor one night began dreaming of an ancient culture and its great creations. She saw empty cities, deserted paths and unused workshops every night, and — although she never did find any evidence that her ancient muses had ever existed in the real world — became determined to bring what she saw to life.",
             "Mages who have attempted to catalog the sculptor’s creations have found dozens of intriguing pieces, but only one (so far) has been established as magical. The Mask of Ages is an unpainted clay ritual mask that fits over the eyes and forehead, marked with unusual patterns and geometric shapes. Anyone wearing the mask is affected by a Time 2 spell that forces the wearer to see the world as it was countless ages ago — covered by wilderness, inhabited only by the faintest traces of what would one day become human civilization — as well as the Spirit 1 “Spirit Tongue” spell; in effect, the wearer sees into the world’s past and simultaneously into Twilight in the present."
         ],
-        "Book": "Astral Realms 124"
+        "Book": "AR 124"
     },
     {
         'Nome': 'Phantasmal Prism',
@@ -1204,7 +1204,7 @@ export const imbuedItemsData = [
             "In addition to summoning this archetype, the mage can use the altar to charge items that allow the archetype to possess individuals. To do this, the mage must roll to summon the archetype, after placing a necklace, bracelet, ring or some other ornament designed to encircle a portion of the wearer’s body in the center of the altar. Once she has successfully summoned the archetype, the mage spends one point of Mana to temporarily empower the piece of jewelry. The number of successes on the summoning roll indicates the length of time that the item remains charged. Use the advanced prolongation table for determining this Duration. Most mages inscribe the piece of jewelry with Atlantean runes to further increase this duration.",
             "Anytime during this Duration that someone puts on this piece of jewelry, the archetype may attempt to possess this person, and wearing the item adds +3 to any attempts by this archetype to possess this individual. This item does not force the archetype to attempt to possess this individual; the item merely gives the archetype a chance to do so. However, archetypes always refuse to possess individuals who are not in some way suitable to their archetypes’ nature. Characters who wish to make certain that the archetype possesses a specific individual must first make a deal with the archetype. However, many archetypes are eager to possess any suitable individual in the Fallen World and so require little or no persuasion to do so. "
         ],
-        "Book": "Astral Realms 114"
+        "Book": "AR 114"
     },
     {
         'Nome': 'Atlantean Fire Crystal',
@@ -1283,7 +1283,7 @@ export const imbuedItemsData = [
         'Descrizione': [
             "This room, built into the council chambers 30 years ago by Mr. Smith, has the Mind 5 spell “Psychic Reprogramming” built into the angles of the walls, the position of the window, the shade of paint and the shape of the door. All Mr. Evans (or either of his colleagues) has to do to activate the room’s spell is to say the words, “So I understand that you have a few problems,” and then to talk about how the Seer would like the recipient of the spell to reform his behavior. The spell costs one of the room’s Mana points, each time the spell is cast.",
         ],
-        "Book": "Reign of The Exarchs 61"
+        "Book": "RotE 61"
     },
     {
         'Nome': 'Clouded Crown',
@@ -1380,7 +1380,7 @@ export const imbuedItemsData = [
             "To use the Goetic Mirror, a person must stand before it and focus on the image reflected within. If all goes well, the mirror then becomes a portal to whatever realm is most closely linked to the scene reflected. When the mirror reflects a human, its portal typically opens into that person’s Oneiros. When the mirror reflects an astral entity, the mirror’s portal opens into that entity’s home realm. When the mirror reflects an object, the mirror’s portal opens into whatever realm is linked to the object.",
             "To determine whether the portal opens successfully, roll Gnosis + Space and spend one Mana; the effect is an astral version of the Space 3 “Portal” spell. Once the portal is open, it remains in place for about a minute, during which time any number of creatures can climb through the mirror. When the portal disappears, its far end also closes — travel through the Goetic Mirror is a one-way trip."
         ],
-        "Book": "Astral Realms 123"
+        "Book": "AR 123"
     },
     {
         'Nome': 'Golem, The',

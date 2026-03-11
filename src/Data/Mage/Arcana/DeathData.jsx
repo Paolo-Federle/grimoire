@@ -137,7 +137,7 @@ const deathOneData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
         "RoteDescrizione": "Long have the Awakened known that the dead keep secrets. Mages of the Mysterium use this magic to learn such lost lore. More pragmatically, willworkers of the Adamantine Arrow have sometimes been known to use this rote to ask questions of allies or enemies recently slain.",
         "DescrizioneBreve": "see, hear, and speak with ghosts in Twilight",
-        "Book": "M:tA"
+        "Book": "M:tA 135"
     }
 ]
 

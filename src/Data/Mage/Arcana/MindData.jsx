@@ -367,7 +367,7 @@ const mindTwoData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Science + Mind",
         "RoteDescrizione": "Telephones are as much a means of control as they are a means of communication. The Seers know that. As long as you have a telephone, you’re never out of reach, no matter how secure the line.",
         "DescrizioneBreve": "learn a telephone number from a phone you can see",
-        "Book": "RoTE 53"
+        "Book": "RotE 53"
     },
     {
         "Titolo": "Don Spirit Mask",
@@ -1266,7 +1266,7 @@ const mindThreeData = [
         "RoteDice": "<b>Dice Pool:</b> Wits + Empathy + Mind",
         "RoteDescrizione": "The Guardians claim to have been the first to develop the process of mental self-examination, and are believed to be the first to have codified it into a rote, though the Silver Ladder and the Mysterium are known to have similar rotes.",
         "DescrizioneBreve": "determine if own memory was altered",
-        "Book": "gotV 194"
+        "Book": "GotV 194"
     },
     {
         "Titolo": "Lift the Astral Barrier",
@@ -1843,7 +1843,7 @@ const mindFourData = [
         "RoteDice": "<b>Dice Pool:</b> Intelligence + Drive + Mind",
         "RoteDescrizione": "The Adamantine Arrow recognizes that not all battles take place in ideal circumstances, and trying to split your attention between rush-hour traffic on the freeway and the gun-toting Banishers coming up in the left lane can be a fatal distraction. Arrow mages use this rote to devote their full attention to any potential threats and leave the driving to the autopilot.",
         "DescrizioneBreve": "give vehicle limited sentience",
-        "Book": "TotM"
+        "Book": "TotM 67"
     },
     {
         "Titolo": "Befuddle",

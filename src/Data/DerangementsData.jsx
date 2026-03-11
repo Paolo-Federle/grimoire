@@ -23,7 +23,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "Vampires",
-        "Book": "Ancient Mysteries 69"
+        "Book": "AM 69"
     },
     {
         "Name": "Animalistic Dependency",
@@ -38,7 +38,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "-",
-        "Book": "Ventrue 107"
+        "Book": "Vent 107"
     },
     {
         "Name": "Anxiety",
@@ -65,7 +65,7 @@ export const derangementData = [
         "ProgressesFrom": "Vocalization",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "The Blood 108"
+        "Book": "Blood 108"
     },
     {
         "Name": "Avoidance",
@@ -91,7 +91,7 @@ export const derangementData = [
         "ProgressesFrom": "I’m No Animal",
         "ProgressesTo": "",
         "Specific To": "Shapeshifters",
-        "Book": "Changing Breeds 104"
+        "Book": "CB 104"
     },
     {
         "Name": "Beast Fears",
@@ -104,7 +104,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Obsessive Humanity",
         "Specific To": "Shapeshifters",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Blood Fascination",
@@ -116,7 +116,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "Ghouls",
-        "Book": "Ghouls 87"
+        "Book": "Ghou 87"
     },
     {
         "Name": "Bulimia",
@@ -143,7 +143,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Feral Frenzy",
         "Specific To": "",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Cataplexy",
@@ -156,7 +156,7 @@ export const derangementData = [
         "ProgressesFrom": "Insomnia",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Asylum 49, Ghouls 87"
+        "Book": "Asy 49, Ghou 87"
     },
     {
         "Name": "Compulsive-Aggressive Disorder",
@@ -183,7 +183,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Intruders 203"
+        "Book": "IEwtA 203"
     },
     {
         "Name": "Delusional Mania",
@@ -197,7 +197,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "-",
-        "Book": "Ventrue 108"
+        "Book": "Vent 108"
     },
     {
         "Name": "Delusional Obsession",
@@ -234,7 +234,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Asylum 50"
+        "Book": "Asy 50"
     },
     {
         "Name": "Dependent-Personality Disorder",
@@ -247,7 +247,7 @@ export const derangementData = [
         "ProgressesFrom": "Irrationality",
         "ProgressesTo": "",
         "Specific To": "Blood-Bound",
-        "Book": "VtR pg 189"
+        "Book": "VtR 189"
     },
     {
         "Name": "Depersonalization",
@@ -273,7 +273,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Intruders 203"
+        "Book": "IEwtA 203"
     },
     {
         "Name": "Diogenes Syndrome",
@@ -287,7 +287,7 @@ export const derangementData = [
         "ProgressesFrom": "Inferiority Complex",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "The Blood 107"
+        "Book": "Blood 107"
     },
     {
         "Name": "Dissociation",
@@ -326,7 +326,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Ghouls 87"
+        "Book": "Ghou 87"
     },
     {
         "Name": "Dehumanization",
@@ -366,7 +366,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "Vampires",
-        "Book": "The Blood 108"
+        "Book": "Blood 108"
     },
     {
         "Name": "Feral Antics",
@@ -378,7 +378,7 @@ export const derangementData = [
         "ProgressesFrom": "Neoprimitivism",
         "ProgressesTo": "",
         "Specific To": "Changing Breeds",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Feral Frenzy",
@@ -391,7 +391,7 @@ export const derangementData = [
         "ProgressesFrom": "Cage Shock",
         "ProgressesTo": "",
         "Specific To": "Changing Breeds",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Fetishism",
@@ -404,7 +404,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Masochism",
         "Specific To": "",
-        "Book": "Asylum 49, Ghouls 86"
+        "Book": "Asy 49, Ghou 86"
     },
     {
         "Name": "Filthy Brutes!",
@@ -417,7 +417,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Hunter King",
         "Specific To": "",
-        "Book": "Changing Breeds 104"
+        "Book": "CB 104"
     },
     {
         "Name": "Fixation",
@@ -457,7 +457,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "PtC 185"
+        "Book": "PTC 185"
     },
     {
         "Name": "Goetic Fracture",
@@ -497,7 +497,7 @@ export const derangementData = [
         "ProgressesFrom": "One with the Bears",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Hedge-Calling",
@@ -521,7 +521,7 @@ export const derangementData = [
         "ProgressesFrom": "Blood Fascination",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Ghouls 87"
+        "Book": "Ghou 87"
     },
     {
         "Name": "Hunter King",
@@ -534,7 +534,7 @@ export const derangementData = [
         "ProgressesFrom": "Filthy Beasts!",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Changing Breeds 104"
+        "Book": "CB 104"
     },
     {
         "Name": "Hypnagogic Hallucination",
@@ -573,7 +573,7 @@ export const derangementData = [
         "ProgressesFrom": "Degenerative Fixation",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Ghouls 87"
+        "Book": "Ghou 87"
     },
     {
         "Name": "I’m No Animal",
@@ -586,7 +586,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Banish the Beast",
         "Specific To": "",
-        "Book": "Changing Breeds 104"
+        "Book": "CB 104"
     },
     {
         "Name": "Inferiority Complex",
@@ -611,7 +611,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Cataplexy",
         "Specific To": "",
-        "Book": "Asylum 49, Ghouls 87"
+        "Book": "Asy 49, Ghou 87"
     },
     {
         "Name": "Intermetamorphosis",
@@ -626,7 +626,7 @@ export const derangementData = [
         "ProgressesFrom": "Irrationality",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "The Blood 109"
+        "Book": "Blood 109"
     },
     {
         "Name": "Irrational Defiance",
@@ -639,7 +639,7 @@ export const derangementData = [
         "ProgressesFrom": "Irrationality",
         "ProgressesTo": "",
         "Specific To": "-",
-        "Book": "Ventrue 108"
+        "Book": "Vent 108"
     },
     {
         "Name": "Irrationality",
@@ -706,7 +706,7 @@ export const derangementData = [
         "ProgressesFrom": "Fetishism",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Asylum 49, Ghouls 87"
+        "Book": "Asy 49, Ghou 87"
     },
     {
         "Name": "Melancholia",
@@ -747,7 +747,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Ventrue 109"
+        "Book": "Vent 109"
     },
     {
         "Name": "Multiple Personality Disorder",
@@ -801,7 +801,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Feral Antics",
         "Specific To": "",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Obsessive Compulsion",
@@ -831,7 +831,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "The Pure 78"
+        "Book": "Pure 78"
     },
     {
         "Name": "Obsessive Humanity",
@@ -844,7 +844,7 @@ export const derangementData = [
         "ProgressesFrom": "Beast Fears",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Changing Breeds 104"
+        "Book": "CB 104"
     },
     {
         "Name": "Occult Fugue",
@@ -870,7 +870,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Hate of Man",
         "Specific To": "",
-        "Book": "Changing Breeds 103"
+        "Book": "CB 103"
     },
     {
         "Name": "Paranoia (WoD)",
@@ -913,7 +913,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Ancient Mysteries 69"
+        "Book": "AM 69"
     },
     {
         "Name": "Power Fetish Obsession",
@@ -941,7 +941,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "Vampires",
-        "Book": "Ventrue 109"
+        "Book": "Vent 109"
     },
     {
         "Name": "Pyromania",
@@ -954,7 +954,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "Pyrophillia",
         "Specific To": "",
-        "Book": "Inferno 102"
+        "Book": "Inf 102"
     },
     {
         "Name": "Pyrophillia",
@@ -966,7 +966,7 @@ export const derangementData = [
         "ProgressesFrom": "Pyromania",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Inferno 102"
+        "Book": "Inf 102"
     },
     {
         "Name": "Repression",
@@ -978,7 +978,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Asylum 49"
+        "Book": "Asy 49"
     },
     {
         "Name": "Rote-Action Repetition",
@@ -991,7 +991,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "Prometheans",
-        "Book": "PtC 184"
+        "Book": "PTC 184"
     },
     {
         "Name": "Sanguinary Animism",
@@ -1063,7 +1063,7 @@ export const derangementData = [
         "ProgressesFrom": "Inferiority Compex, Rote-Action Repetition",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "PtC 184"
+        "Book": "PTC 184"
     },
     {
         "Name": "Supernatural Fascination",
@@ -1075,7 +1075,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Asylum 50"
+        "Book": "Asy 50"
     },
     {
         "Name": "Suspicion",
@@ -1102,7 +1102,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "PtC 185"
+        "Book": "PTC 185"
     },
     {
         "Name": "Tongue of the Beast",
@@ -1116,7 +1116,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Belial’s Brood 51"
+        "Book": "BB 51"
     },
     {
         "Name": "Unbridled Confidence",
@@ -1159,7 +1159,7 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Ancient Mysteries 69"
+        "Book": "AM 69"
     },
     {
         "Name": "Wanderlust",
@@ -1187,7 +1187,7 @@ export const derangementData = [
         "ProgressesFrom": "Irrationality",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "The Blood 108"
+        "Book": "Blood 108"
     },
     {
         "Name": "Zealotry",
@@ -1199,6 +1199,6 @@ export const derangementData = [
         "ProgressesFrom": "",
         "ProgressesTo": "",
         "Specific To": "",
-        "Book": "Asylum 50"
+        "Book": "Asy 50"
     }
 ]

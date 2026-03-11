@@ -5,8 +5,8 @@ import { courtData } from '../../Data/Changeling/CourtData';
 export default function Court() {
 
 
-    const headers = ['Court Name', 'Page Number', 'Court Emotion', 'Mantle Effects', 'Crown Blessing', 'Blessing Effect']
-    const headerCheckFields = ['Page Number']
+    const headers = ['Court Name', 'Court Emotion', 'Mantle Effects', 'Crown Blessing', 'Blessing Effect', 'Book']
+    const headerCheckFields = ['Book']
     const disciplineData = ['Court Name']
 
     return (

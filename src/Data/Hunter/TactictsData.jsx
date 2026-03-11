@@ -97,7 +97,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Stamina 2Survival 1(3)Weaponry 2",
         "Dice Rolls": "Primary: Dexterity + Firearms or Athletics(immolation); Wits + Composure (control).Secondary: Wits+ Weaponry (immolation); Wits + Survival (control).",
         "XP": "1512 for Long Night10 for Ascending",
-        "Book": "HtV 218"
+        "Book": "HTV 218"
     },
     {
         "Name": "Corral",
@@ -107,7 +107,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Intimidation 2",
         "Dice Rolls": "Primary: Presence + Intimidation. Secondary: Strength or Presence + Intimidation.",
         "XP": "1411 for Union9 for TFV",
-        "Book": "HtV 218"
+        "Book": "HTV 218"
     },
     {
         "Name": "Corruption",
@@ -137,7 +137,7 @@ export const TactictsData = [
         "Secondary Requires": "Composure 2Athletics 2Brawl 1",
         "Dice Rolls": "Primary: Strength + Weaponry or Dexterity +Firearms. Secondary: Dexterity + Athletics.",
         "XP": "1512 for Thule10 for Aegis",
-        "Book": "HtV 219"
+        "Book": "HTV 219"
     },
     {
         "Name": "Cross-Examine",
@@ -177,7 +177,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Brawl 1Weaponry 1(1) Brawl 2 or Grapple",
         "Dice Rolls": "Primary: Strength + Weaponry. Secondary:Strength + Brawl.",
         "XP": "1411 for Null9 for Aegis",
-        "Book": "HtV 220"
+        "Book": "HTV 220"
     },
     {
         "Name": "Deprogramming",
@@ -187,7 +187,7 @@ export const TactictsData = [
         "Secondary Requires": "Intellilgence 2Empathy 1 OR Psychology",
         "Dice Rolls": "Primary: Manipulation + Persuasion. Secondary: Presence + Empathy (secondary actors).",
         "XP": "1310 for any tier-28 for any tier-3",
-        "Book": "HtV 219"
+        "Book": "HTV 219"
     },
     {
         "Name": "Disappear",
@@ -197,7 +197,7 @@ export const TactictsData = [
         "Secondary Requires": "(1) Composure 2Stealth 2Expression 2",
         "Dice Rolls": "Primary: Dexterity + Stealth.Secondary: Presence + Expression.",
         "XP": "1411 for Net 09 for Ascending",
-        "Book": "HtV 221"
+        "Book": "HTV 221"
     },
     {
         "Name": "Disarm",
@@ -287,7 +287,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Composure 2Occult 2",
         "Dice Rolls": "Primary: Resolve + Composure.Secondary: Stamina + Expression.",
         "XP": "1613 for Long Night11 for Malleus",
-        "Book": "HtV 222"
+        "Book": "HTV 222"
     },
     {
         "Name": "Exploit Tell",
@@ -347,7 +347,7 @@ export const TactictsData = [
         "Secondary Requires": "Dexterity 2Athletics 2Brawl 1",
         "Dice Rolls": "Primary: Strength + Weaponry.Secondary:Presence + Athletics.",
         "XP": "1512 for Union10 for Lucifuge",
-        "Book": "HtV 223"
+        "Book": "HTV 223"
     },
     {
         "Name": "Harvest",
@@ -357,7 +357,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Composure 2Occult 2(1) Occult 4 or3 + monster type",
         "Dice Rolls": "Primary: Composure + Medicine. Secondary: Wits + Occult (one secondary actor); Strength + Brawl (all other secondary actors).",
         "XP": "1613 for Ashwood11 for Cheiron",
-        "Book": "HtV 223"
+        "Book": "HTV 223"
     },
     {
         "Name": "Headshot",
@@ -387,7 +387,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Occult 1Empathy 1Investigation 1(1) Empathy 3",
         "Dice Rolls": "Primary: Intelligence + Empathy or Occult.Secondary: Wits + Investigation.",
         "XP": "1512 for any tier-210 for any tier-3",
-        "Book": "HtV 224"
+        "Book": "HTV 224"
     },
     {
         "Name": "Impale",
@@ -477,7 +477,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Academics or Computer 2",
         "Dice Rolls": "Primary: Intelligence + Science. Secondary: Wits + Stealth.",
         "XP": "1411 for Null9 for Cheiron",
-        "Book": "HtV 225"
+        "Book": "HTV 225"
     },
     {
         "Name": "Moral Support",
@@ -487,7 +487,7 @@ export const TactictsData = [
         "Secondary Requires": "Resolve 2Empathy 1",
         "Dice Rolls": "Primary: Manipulation or Presence + Empathy. Secondary: Wits + Expression.",
         "XP": "1310 for any tier-28 for any tier-3",
-        "Book": "HtV 226"
+        "Book": "HTV 226"
     },
     {
         "Name": "My Brother's Keeper",
@@ -507,7 +507,7 @@ export const TactictsData = [
         "Secondary Requires": "Wits 2Athletics 2Brawl 1(1) Athletics 3 or2+Whips, Throwing, Roping",
         "Dice Rolls": "Dexterity + Survival.Secondary: Strength + Athletics (one secondary actor); Strength + Brawl (all other secondary actors).",
         "XP": "1512 for Thule10 for Lucifuge",
-        "Book": "HtV 226"
+        "Book": "HTV 226"
     },
     {
         "Name": "No Escape",
@@ -537,7 +537,7 @@ export const TactictsData = [
         "Secondary Requires": "Intelligence 2Investigation 1Stealth 1(1)Computer 2",
         "Dice Rolls": "Primary: Intelligence + Investigation.Secondary: Wits + Investigation.",
         "XP": "1411 for Net 09 for TFV",
-        "Book": "HtV 227"
+        "Book": "HTV 227"
     },
     {
         "Name": "Resonance",
@@ -607,7 +607,7 @@ export const TactictsData = [
         "Secondary Requires": "Strength 2Brawl 2(1)Medicine 1",
         "Dice Rolls": "Primary: Strength + Weaponry.Secondary: Strength + Brawl; Wits + Medicine (secondary actor with Medicine 1).",
         "XP": "1411 for Ashwood9 for Malleus",
-        "Book": "HtV 228"
+        "Book": "HTV 228"
     },
     {
         "Name": "Stalking Horse",
@@ -658,16 +658,6 @@ export const TactictsData = [
         "Dice Rolls": "Primary: Intelligence + Academics.Secondary: Manipulation + Socialize or Manipulation + Streetwise",
         "XP": "",
         "Book": "BbBB 7"
-    },
-    {
-        "Name": "The Procedure",
-        "Description": "the primary actor enter the primordial dream, The secondary participants support",
-        "Required hunters": "3",
-        "Primary Requires": "Crafts 1Intelligence 2Science 1Medicine 1Wits 3Composure 2Expression 2",
-        "Secondary Requires": "Crafts 1Intelligence 2Science 1Medicine 1",
-        "Dice Rolls": "Primary: Wits + Composure .Secondary: Intelligence + Science.",
-        "XP": "",
-        "Book": "T&N 24"
     },
     {
         "Name": "Thin the Herd",

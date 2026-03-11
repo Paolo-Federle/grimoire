@@ -312,7 +312,7 @@ const uniMeritsMentalData = [
             "Your character has the ability to control his own dreams, subtly shaping them according to his wishes. For all intents and purposes, your character is considered to have the ability to dream ride (as above), but only in his own dreams. He is also capable of engaging in oneiromachy, or dream-combat, with oneiropomps who enter his dreams.",
             "Lucid dreamers cannot use any of the special actions associated with dream riding (such as Scour the Integrity, Analyze the Dream and the like); their changes are limited to simple environmental changes. However, the changes a lucid dreamer makes to his dreams have no chance of disrupting the dream, either, granting lucid dreamers unprecedented control over their own dreams even if they can’t perform quite the same feats that true oneiromancers can.",
         ],
-        "Book": "CTL 195",
+        "Book": "CtL 195",
     },
     {
         "Name": "Make Do",
@@ -1136,7 +1136,7 @@ const uniMeritsSocialData = [
             "The number of dots spent on this Merit determines how convincing and in depth the documentation surrounding this new life actually is. New Identity (•) represents an identity that passes casual inspection, but not much else — a character can go shopping and get around in most daily situations, but any kind of trained scrutiny such as from a police officer or bureaucrat immediately identifies her identity as a fake. New Identity (••) imparts an identity that will pass most forms of relatively cursory professional inspection, but cannot stand up to a sustained investigation — a police officer who has pulled the character over will not automatically pick up anything unusual if he runs the character’s license plates or calls up her name in a database, but should the character be arrested and the police begin a formal investigation, her identity will quickly unravel. New Identity (••••) represents an identity that is essentially as real as any identity can be — it would take a truly dedicated, competent and time-consuming search by trained professionals to uncover any hint that the changeling isn’t exactly whom she claims to be, at least as far as her documentation is concerned.",
             "This Merit may be purchased multiple times at multiple ratings, each time representing a different identity, and an identity may also be upgraded later with the appropriate in-game explanation and experience expenditure. In the case of certain Merits such as Resources or Status, it might also be worth noting which identity these Merits are tied to, since a character may not easily be able to access or maintain them if that identity is compromised."
         ],
-        "Book": "CTL 98"
+        "Book": "CtL 98"
     },
     {
         "Name": "Resources",
