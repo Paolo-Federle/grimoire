@@ -40,6 +40,7 @@ import ImbuedItemsDetail from './pages/Mage/ImbuedItemsDetail';
 import Grimoire from './pages/Mage/Grimoire';
 import Promethean from './pages/Promethean/Promethean'
 import Transmutations from './pages/Promethean/Transmutations'
+
 import PrometheanMerits from './pages/Promethean/PrometheanMerits'
 import Changeling from './pages/Changeling/Changeling';
 import Contracts from './pages/Changeling/Contracts';
@@ -104,6 +105,7 @@ import Lexycon from './pages/Generale/Lexycon';
 import Clan from './pages/Vampire/Clan';
 import Covenant from './pages/Vampire/Covenant';
 import Kith from './pages/Changeling/Kith';
+import Seeming from './pages/Changeling/Seeming'
 import Court from './pages/Changeling/Court';
 import Entitlements from './pages/Changeling/Entitlement';
 import Wyrd from './pages/Changeling/Wyrd';
@@ -146,6 +148,9 @@ import Refinements from './pages/Promethean/Refinements';
 import Breadcrumbs from './components/Breadcrumbs'
 import FuturisticItems from './pages/MortalsAndTemplates/FuturisticItems';
 import FavoritesPage from './pages/favorites';
+import Bestowments from './pages/Promethean/Bestowments';
+import Azoth from './pages/Promethean/Azoth';
+import Psyche from './pages/Geist/Psyche';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -322,7 +327,9 @@ console.log('allLocation', allLocation)
 
             {/* PROMETEANI */}
             <Route path={PATHS.PROMETHEAN.BASE} element={<Promethean />} />
+            <Route path={PATHS.PROMETHEAN.AZOTH} element={<Azoth />} />
             <Route path={PATHS.PROMETHEAN.TRANSMUTATIONS} element={<Transmutations />} />
+            <Route path={PATHS.PROMETHEAN.BESTOWMENTS} element={<Bestowments />} />
             <Route path={PATHS.PROMETHEAN.MERITS} element={<PrometheanMerits />} />
             <Route path={PATHS.PROMETHEAN.REFINEMENTS} element={<Refinements />} />
             <Route path={PATHS.PROMETHEAN.MOCKERIES} element={<Mockeries />} />
@@ -330,6 +337,7 @@ console.log('allLocation', allLocation)
 
             {/* CHANGELING */}
             <Route path={PATHS.CHANGELING.BASE} element={<Changeling />} />
+            <Route path={PATHS.CHANGELING.SEEMINGS} element={<Seeming />} />
             <Route path={PATHS.CHANGELING.KITHS} element={<Kith />} />
             <Route path={PATHS.CHANGELING.COURT} element={<Court />} />
             <Route path={PATHS.CHANGELING.ENTITLEMENTS} element={<Entitlements />} />
@@ -385,6 +393,7 @@ console.log('allLocation', allLocation)
 
             {/* GEIST */}
             <Route path={PATHS.GEIST.BASE} element={<Geist />} />
+            <Route path={PATHS.GEIST.PSYCHE} element={<Psyche />} />
             <Route path={PATHS.GEIST.KEYS_AND_HAUNTS} element={<KeysAndHaunts />} />
             <Route path={PATHS.GEIST.CEREMONIES} element={<Ceremonies />} />
             <Route path={PATHS.GEIST.MERITS} element={<GeistMerits />} />

@@ -220,7 +220,7 @@ const kniveWeaponData = [
         "Durability": "1",
         "Cost": "•",
         "Description": "Improvised Weapon; Max damage 2",
-        "Book": "HtV 249"
+        "Book": "HTV 249"
     },
     {
         "Type": "Knives",
@@ -708,7 +708,7 @@ const miscellaneousWeaponData = [
         "Durability": "",
         "Cost": "",
         "Description": "",
-        "Book": "HtV 249"
+        "Book": "HTV 249"
     },
     {
         "Type": "Miscellaneous melee",
@@ -975,7 +975,7 @@ const autoloadersWeaponData = [
         "Size": "1",
         "Cost": "••",
         "Description": "",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     },
     {
         "Type": "Autoloaders",
@@ -987,7 +987,7 @@ const autoloadersWeaponData = [
         "Size": "1",
         "Cost": "••",
         "Description": "",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     },
     {
         "Type": "Autoloaders",
@@ -1047,7 +1047,7 @@ const autoloadersWeaponData = [
         "Size": "1L",
         "Cost": "••••",
         "Description": "",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     }
 ]
 
@@ -1146,7 +1146,7 @@ const rifleData = [
         "Size": "3",
         "Cost": "••••",
         "Description": "",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     },
     {
         "Type": "Rifles",
@@ -1158,7 +1158,7 @@ const rifleData = [
         "Size": "3",
         "Cost": "•••",
         "Description": "9-Again",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     },
     {
         "Type": "Rifles",
@@ -1170,7 +1170,7 @@ const rifleData = [
         "Size": "3",
         "Cost": "••••",
         "Description": "9-Again",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     }
 ]
 
@@ -1359,7 +1359,7 @@ const shotgunsData = [
         "Size": "2",
         "Cost": "••",
         "Description": "9-Again",
-        "Book": "HtV 247"
+        "Book": "HTV 247"
     }
 ]
 

@@ -5,7 +5,7 @@ export const GhoulFamiliesData = [
         "Description": "\"Wild\" ghouls with ancient ties to the Lancea Sanctum, who have no masters and typically get their Vitae from hunting and consuming Kindred.",
         "Strength": "Gain a bonus to avoid notice in urban environments; starting members may take two discipline dots from any discipline.",
         "Weakness": "Not allowed access to many merits; start with lower Morality, but may raise it with merit dots.",
-        "Book": "Ghouls 92"
+        "Book": "Ghou 92"
     },
     {
         "Name": "Angustri",
@@ -13,7 +13,7 @@ export const GhoulFamiliesData = [
         "Description": "Ghouls of Roma descent.",
         "Strength": "May take one of their starting two discipline dots in a Mehket discipline, regardless of their master's clan; never fail to conceive.",
         "Weakness": "More susceptible to the Viniculum",
-        "Book": "Ghouls 95"
+        "Book": "Ghou 95"
     },
     {
         "Name": "Asmundarson",
@@ -29,7 +29,7 @@ export const GhoulFamiliesData = [
         "Description": "Cultists who worship the Kindred",
         "Strength": "May purchase the first dot of Status in the Circle of the Crone, allowing them to learn Cruac.",
         "Weakness": "Whenever Morality is lost, a derangement is gained automatically",
-        "Book": "Ghouls 104"
+        "Book": "Ghou 104"
     },
     {
         "Name": "Crassus",
@@ -37,7 +37,7 @@ export const GhoulFamiliesData = [
         "Description": "Amoral and accomplished family that eagerly offers its services to Kindred in exchange for power.",
         "Strength": "Half XP cost on many merits; may gain two free dots in skills or four dots in discounted merits.",
         "Weakness": "Subject to either the Daeva or Ventrue clan weakness.",
-        "Book": "Ghouls 98"
+        "Book": "Ghou 98"
     },
     {
         "Name": "Doulosi",
@@ -53,7 +53,7 @@ export const GhoulFamiliesData = [
         "Description": "Barbaric and reclusive family living in a remote area, the pet project of a single Kindred.",
         "Strength": "May sense all supernatural phenoma",
         "Weakness": "Choice of taking bashing damage from sunlight as a vampire would aggravated, severe social penalties, or a severe derangement.",
-        "Book": "Ghouls 101"
+        "Book": "Ghou 101"
     },
     {
         "Name": "Bellsmeade",
@@ -69,7 +69,7 @@ export const GhoulFamiliesData = [
         "Description": "",
         "Strength": "9-again on perception. Begins with two dots in composure. Dots in composure are new dots x 4.",
         "Weakness": "Begins with zero dots in presence. Dots in presence are new dots x 6. Cannot speak without spending a willpower.",
-        "Book": "Invictus 154"
+        "Book": "Inv 154"
     },
     {
         "Name": "Bulls",
@@ -77,6 +77,6 @@ export const GhoulFamiliesData = [
         "Description": "",
         "Strength": "Giant Merit Free. If 2+ strength, Strong Back free. Called shots to heart, neck, ears, eyes or mouth suffer -2 penalty. Free specialty in brawl. Can choose resilience or vigor as first discipline.",
         "Weakness": "Lame Flaw. Cannot gain a dot in celerity unless a dot in vigor and resilience are possessed. Dexterity cannot exceed strength or stamina",
-        "Book": "Invictus 156"
+        "Book": "Inv 156"
     }
 ]

@@ -6,7 +6,7 @@ const genericToolsData = [
         Structure: "6 or 8",
         Cost: "2 or 3",
         Description: "Knocks down doors",
-        Book: "HtV 229"
+        Book: "HTV 229"
     },
     {
         Name: "Body Bag",
@@ -15,7 +15,7 @@ const genericToolsData = [
         Structure: "7",
         Cost: "2",
         Description: "Carries bodies, and is waterproof and airtight",
-        Book: "HtV 229"
+        Book: "HTV 229"
     },
     {
         Name: "Cell Phone",
@@ -24,7 +24,7 @@ const genericToolsData = [
         Structure: "1",
         Cost: "1",
         Description: "Basic cell phone",
-        Book: "HtV 237"
+        Book: "HTV 237"
     },
     {
         Name: "Crime-Scene Kit",
@@ -33,7 +33,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "2-3",
         Description: "Investigative equipment",
-        Book: "HtV 239"
+        Book: "HTV 239"
     },
     {
         Name: "Cryptography",
@@ -42,7 +42,7 @@ const genericToolsData = [
         Structure: "",
         Cost: "2-5",
         Description: "Computer code writing programs",
-        Book: "HtV 239"
+        Book: "HTV 239"
     },
     {
         Name: "Desktop Computers",
@@ -51,7 +51,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "2-4",
         Description: "Home computer",
-        Book: "HtV 237"
+        Book: "HTV 237"
     },
     {
         Name: "Digital Recorder",
@@ -60,7 +60,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1 to 2",
         Description: "Records sounds with no moving parts",
-        Book: "HtV 229"
+        Book: "HTV 229"
     },
     {
         Name: "Divination Tools",
@@ -69,7 +69,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1 to 3",
         Description: "Quality occult tools",
-        Book: "HtV 240"
+        Book: "HTV 240"
     },
     {
         Name: "Duct Tape",
@@ -78,7 +78,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Make repairs, or restrain a prisoner",
-        Book: "HtV 229"
+        Book: "HTV 229"
     },
     {
         Name: "Earplugs",
@@ -87,7 +87,7 @@ const genericToolsData = [
         Structure: "1",
         Cost: "1",
         Description: "Defense against audio compulsion and Domination",
-        Book: "HtV 230"
+        Book: "HTV 230"
     },
     {
         Name: "Electromagnetic Field Detector",
@@ -96,7 +96,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Detects electromagnetic fields",
-        Book: "HtV 230"
+        Book: "HTV 230"
     },
     {
         Name: "Electronic Sound Amplifier",
@@ -105,7 +105,7 @@ const genericToolsData = [
         Structure: "3",
         Cost: "2",
         Description: "Noise amplifying microphone, 50 ft range",
-        Book: "HtV 230"
+        Book: "HTV 230"
     },
     {
         Name: "EMT Shears",
@@ -114,7 +114,7 @@ const genericToolsData = [
         Structure: "4",
         Cost: "1",
         Description: "Ignore 1st durability point of object being cut",
-        Book: "HtV 231"
+        Book: "HTV 231"
     },
     {
         Name: "Energy Meters",
@@ -123,7 +123,7 @@ const genericToolsData = [
         Structure: "1",
         Cost: "2",
         Description: "Measures energy output",
-        Book: "HtV 240"
+        Book: "HTV 240"
     },
     {
         Name: "Fangbuster",
@@ -132,7 +132,7 @@ const genericToolsData = [
         Structure: "Defense 0",
         Cost: "1-3",
         Description: "Protective collar",
-        Book: "HtV 231"
+        Book: "HTV 231"
     },
     {
         Name: "Flash Paper",
@@ -141,7 +141,7 @@ const genericToolsData = [
         Structure: "1",
         Cost: "1",
         Description: "Highly combustible paper",
-        Book: "HtV 231"
+        Book: "HTV 231"
     },
     {
         Name: "Flashlight Baton",
@@ -150,7 +150,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Flashlight and 2(B) weapon",
-        Book: "HtV 231"
+        Book: "HTV 231"
     },
     {
         Name: "Dirtbag",
@@ -159,7 +159,7 @@ const genericToolsData = [
         Structure: "5",
         Cost: "3",
         Description: "Reduces manifestation modifier by 1 for ghosts",
-        Book: "HtV 231"
+        Book: "HTV 231"
     },
     {
         Name: "Glowsticks",
@@ -168,7 +168,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Chemical illumination",
-        Book: "HtV 232"
+        Book: "HTV 232"
     },
     {
         Name: "Headset Communication System",
@@ -177,7 +177,7 @@ const genericToolsData = [
         Structure: "3",
         Cost: "2-3",
         Description: "Voice activated Walkie-Talkies",
-        Book: "HtV 232"
+        Book: "HTV 232"
     },
     {
         Name: "Inspection Mirror Kit",
@@ -186,7 +186,7 @@ const genericToolsData = [
         Structure: "2-3",
         Cost: "1",
         Description: "Helps look around corners",
-        Book: "HtV 233"
+        Book: "HTV 233"
     },
     {
         Name: "Kirlian Camera",
@@ -195,7 +195,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "2",
         Description: "Photographs auras",
-        Book: "HtV 240"
+        Book: "HTV 240"
     },
     {
         Name: "Ladder, Caving",
@@ -204,7 +204,7 @@ const genericToolsData = [
         Structure: "10",
         Cost: "1",
         Description: "Cable and aluminum rope ladder",
-        Book: "HtV 233"
+        Book: "HTV 233"
     },
     {
         Name: "Ladder, Multi-",
@@ -213,7 +213,7 @@ const genericToolsData = [
         Structure: "8",
         Cost: "2",
         Description: "Multi-jointed ladder",
-        Book: "	HtV p233"
+        Book: "HTV 233"
     },
     {
         Name: "Luminol",
@@ -222,7 +222,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Reacts with blood, glowing to show presence",
-        Book: "HtV 229"
+        Book: "HTV 229"
     },
     {
         Name: "Motion Detector",
@@ -231,7 +231,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "	1 to 3",
         Description: "Detects motion within range",
-        Book: "HtV 233"
+        Book: "HTV 233"
     },
     {
         Name: "Motion Detector",
@@ -240,7 +240,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1 to 3",
         Description: "Detects motion within range",
-        Book: "	HtV p233"
+        Book: "	HTV 233"
     },
     {
         Name: "Multi-tool",
@@ -249,7 +249,7 @@ const genericToolsData = [
         Structure: "3-4",
         Cost: "1",
         Description: "Pocket knife with multiple attachments",
-        Book: "HtV 233"
+        Book: "HTV 233"
     },
     {
         Name: "Portable Computers",
@@ -258,7 +258,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "2-4",
         Description: "Laptop computers",
-        Book: "HtV 237"
+        Book: "HTV 237"
     },
     {
         Name: "Rear-View Glasses",
@@ -267,7 +267,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Glasses with mirrors to look behind you",
-        Book: "HtV 233"
+        Book: "HTV 233"
     },
     {
         Name: "Rescue Whistle",
@@ -276,7 +276,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Loud signal whistle",
-        Book: "HtV 234"
+        Book: "HTV 234"
     },
     {
         Name: "Slick",
@@ -285,7 +285,7 @@ const genericToolsData = [
         Structure: "n/a",
         Cost: "2",
         Description: "Creates frictionless surface 36 sq. ft",
-        Book: "HtV 234"
+        Book: "HTV 234"
     },
     {
         Name: "Smartphone",
@@ -294,7 +294,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "2",
         Description: "Cell phone with internet",
-        Book: "HtV 237"
+        Book: "HTV 237"
     },
     {
         Name: "Stink Tag",
@@ -303,7 +303,7 @@ const genericToolsData = [
         Structure: "n/a",
         Cost: "3",
         Description: "Noxious liquid used to track enemies",
-        Book: "HtV 234"
+        Book: "HTV 234"
     },
     {
         Name: "Thermal Imaging Camera",
@@ -312,7 +312,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "3",
         Description: "Thermographic camcorder",
-        Book: "HtV 235"
+        Book: "HTV 235"
     },
     {
         Name: "Thermal Scanner",
@@ -321,7 +321,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "2",
         Description: "Non-recording thermographic camera",
-        Book: "HtV 235"
+        Book: "HTV 235"
     },
     {
         Name: "Talcum Powder",
@@ -330,7 +330,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Tracks footprints of invisible creatures",
-        Book: "HtV 235"
+        Book: "HTV 235"
     },
     {
         Name: "Ultraviolet Ink and Portable UV Lamp",
@@ -339,7 +339,7 @@ const genericToolsData = [
         Structure: "2",
         Cost: "1",
         Description: "Create and read hidden messages",
-        Book: "HtV 235"
+        Book: "HTV 235"
     },
     {
         Name: "Weatherproof Matches",
@@ -348,7 +348,7 @@ const genericToolsData = [
         Structure: "1",
         Cost: "1",
         Description: "Wind and waterproof matches",
-        Book: "HtV 235"
+        Book: "HTV 235"
     },
     {
         Name: "Wheel Immobilizer",
@@ -357,7 +357,7 @@ const genericToolsData = [
         Structure: "6",
         Cost: "2",
         Description: "Tire boot to immobilize a vehicle",
-        Book: "HtV 235"
+        Book: "HTV 235"
     },
     {
         Name: "White Noise Generator",
@@ -366,7 +366,7 @@ const genericToolsData = [
         Structure: "2-3",
         Cost: "1 to 2",
         Description: "Makes it hard to eavesdrop",
-        Book: "HtV 236"
+        Book: "HTV 236"
     },
     {
         Name: "Window Punch",
@@ -375,7 +375,7 @@ const genericToolsData = [
         Structure: "3",
         Cost: "1",
         Description: "Ignores 1 point of glass durability",
-        Book: "	HtV p236"
+        Book: "	HTV 236"
     }    
 ]
 
@@ -507,7 +507,7 @@ const animalTrainingEquipData = [
         Structure: "2",
         Cost: "1",
         Description: "Auditory training aid",
-        Book: "HtV 241"
+        Book: "HTV 241"
     },
     {
         Name: "Leash",
@@ -516,7 +516,7 @@ const animalTrainingEquipData = [
         Structure: "3",
         Cost: "1",
         Description: "Its a leash...",
-        Book: "HtV 241"
+        Book: "HTV 241"
     },
     {
         Name: "Harness",
@@ -525,7 +525,7 @@ const animalTrainingEquipData = [
         Structure: "4",
         Cost: "2",
         Description: "Straps around animals torso",
-        Book: "HtV 241"
+        Book: "HTV 241"
     },
     {
         Name: "Reinforcement",
@@ -534,7 +534,7 @@ const animalTrainingEquipData = [
         Structure: "",
         Cost: "1",
         Description: "Treats",
-        Book: "HtV 241"
+        Book: "HTV 241"
     },
     {
         Name: "Whip",
@@ -555,7 +555,7 @@ const fakeBadegesAndIdsData = [
         Structure: "",
         Cost: "1",
         Description: "Fake ID",
-        Book: "HtV 242"
+        Book: "HTV 242"
     },
     {
         Name: "Civilian Identification",
@@ -564,7 +564,7 @@ const fakeBadegesAndIdsData = [
         Structure: "",
         Cost: "2",
         Description: "Civil Authority ID",
-        Book: "HtV 242"
+        Book: "HTV 242"
     },
     {
         Name: "Press Pass",
@@ -573,7 +573,7 @@ const fakeBadegesAndIdsData = [
         Structure: "",
         Cost: "3",
         Description: "Press ID",
-        Book: "HtV 242"
+        Book: "HTV 242"
     },
     {
         Name: "Police Badge",
@@ -582,7 +582,7 @@ const fakeBadegesAndIdsData = [
         Structure: "",
         Cost: "3",
         Description: "Fake (or real) Badge",
-        Book: "HtV 242"
+        Book: "HTV 242"
     }
     
 ]
@@ -595,7 +595,7 @@ const drugsData = [
         Structure: "",
         Cost: "2",
         Description: "Makes subject more suggestible",
-        Book: "HtV 243"
+        Book: "HTV 243"
     },
     {
         Name: "Street Narcotics",
@@ -604,7 +604,7 @@ const drugsData = [
         Structure: "",
         Cost: "1 to 2",
         Description: "Drugs",
-        Book: "HtV 243"
+        Book: "HTV 243"
     },
     
 ]
@@ -617,7 +617,7 @@ const polygraphAndLieDetectData = [
         Structure: "",
         Cost: "1",
         Description: "Measures voice modulation on the phone",
-        Book: "HtV 243"
+        Book: "HTV 243"
     },
     {
         Name: "Analog Polygraph",
@@ -626,7 +626,7 @@ const polygraphAndLieDetectData = [
         Structure: "4",
         Cost: "3",
         Description: "Needle and paper lie detector",
-        Book: "HtV 244"
+        Book: "HTV 244"
     },
     {
         Name: "Digital Polygraph",
@@ -635,7 +635,7 @@ const polygraphAndLieDetectData = [
         Structure: "4",
         Cost: "2",
         Description: "	Digital lie detector",
-        Book: "HtV 244"
+        Book: "HTV 244"
     },
     {
         Name: "Functional MRI",
@@ -644,7 +644,7 @@ const polygraphAndLieDetectData = [
         Structure: "12",
         Cost: "5",
         Description: "MRI machine that takes video instead of pictures",
-        Book: "HtV 244"
+        Book: "HTV 244"
     }
 ]
 
@@ -656,7 +656,7 @@ const disguisesData = [
         Structure: "3",
         Cost: "3",
         Description: "Box with items for a specific disguise",
-        Book: "HtV 246"
+        Book: "HTV 246"
     },
     {
         Name: "Professional Makeup Kit",
@@ -665,7 +665,7 @@ const disguisesData = [
         Structure: "3",
         Cost: "3",
         Description: "SFX disguise kit",
-        Book: "HtV 246"
+        Book: "HTV 246"
     }
 ]
 

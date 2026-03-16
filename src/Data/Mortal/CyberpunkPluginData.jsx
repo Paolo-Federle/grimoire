@@ -14,7 +14,7 @@ export const CyberpunkPluginData = [
         "Example Compromise": [
             "An image in a character’s environment matches the trigger memory for the Happy Place. The Memetic Filter is manipulated into screening out important information.",
         ],
-        "Book": "MirlBE 15"
+        "Book": "MirBE 15"
     },
     {
         "Name": "Majordomo or Interlay",
@@ -31,7 +31,7 @@ export const CyberpunkPluginData = [
         "Example Compromise": [
             "Majordomo distracts the character at a critical moment. A buffer overflow attack on the Interlay induces physical pain.",
         ],
-        "Book": "MirlBE 15"
+        "Book": "MirBE 15"
     },
     {
         "Name": "Pep Pads",
@@ -47,7 +47,7 @@ export const CyberpunkPluginData = [
         "Example Compromise": [
             "The Pep Pad administers an electric shock when not needed, inducing fibrillation.",
         ],
-        "Book": "MirlBE 16"
+        "Book": "MirBE 16"
     },
     {
         "Name": "SQUID",
@@ -62,6 +62,6 @@ export const CyberpunkPluginData = [
         "Example Compromise": [
             "An enemy hacker or SQUID alters friendly systems so that they attract attacks by the character’s SQUID.",
         ],
-        "Book": "MirlBE 15"
+        "Book": "MirBE 15"
     }
 ]

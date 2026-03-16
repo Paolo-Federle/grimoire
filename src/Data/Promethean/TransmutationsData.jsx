@@ -1,15 +1,7 @@
-export const TransmutationsData = [
+export const AlchemicusTransmutationsData = [
     {
-        "Transmutation": "Alchemicus",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Forging the Master’s Tools",
+        "Name": "Forging the Master’s Tools",
+        "Class": "Alchemicus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -18,7 +10,8 @@ export const TransmutationsData = [
         "Book": "PTC 119"
     },
     {
-        "Transmutation": "Identification",
+        "Name": "Identification",
+        "Class": "Alchemicus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -27,7 +20,8 @@ export const TransmutationsData = [
         "Book": "PTC 119"
     },
     {
-        "Transmutation": "Degradation",
+        "Name": "Degradation",
+        "Class": "Alchemicus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "● to ●●●",
@@ -36,7 +30,8 @@ export const TransmutationsData = [
         "Book": "PTC 120"
     },
     {
-        "Transmutation": "Fortification",
+        "Name": "Fortification",
+        "Class": "Alchemicus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "● to ●●●",
@@ -45,7 +40,8 @@ export const TransmutationsData = [
         "Book": "PTC 120"
     },
     {
-        "Transmutation": "Temperature Modification",
+        "Name": "Temperature Modification",
+        "Class": "Alchemicus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●/10°C",
@@ -54,7 +50,8 @@ export const TransmutationsData = [
         "Book": "SA 85"
     },
     {
-        "Transmutation": "Dissolve",
+        "Name": "Dissolve",
+        "Class": "Alchemicus",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -63,7 +60,8 @@ export const TransmutationsData = [
         "Book": "PTC 120"
     },
     {
-        "Transmutation": "Transformation",
+        "Name": "Transformation",
+        "Class": "Alchemicus",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●/Size",
@@ -72,7 +70,8 @@ export const TransmutationsData = [
         "Book": "PTC 120"
     },
     {
-        "Transmutation": "Alteration",
+        "Name": "Alteration",
+        "Class": "Alchemicus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●/Size",
@@ -81,7 +80,8 @@ export const TransmutationsData = [
         "Book": "PTC 120"
     },
     {
-        "Transmutation": "Persistant Change",
+        "Name": "Persistant Change",
+        "Class": "Alchemicus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "● or Azoth",
@@ -90,7 +90,8 @@ export const TransmutationsData = [
         "Book": "PTC 121"
     },
     {
-        "Transmutation": "Resize",
+        "Name": "Resize",
+        "Class": "Alchemicus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●/Size",
@@ -99,7 +100,8 @@ export const TransmutationsData = [
         "Book": "SA 86"
     },
     {
-        "Transmutation": "Flesh to Stone",
+        "Name": "Flesh to Stone",
+        "Class": "Alchemicus",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -108,7 +110,8 @@ export const TransmutationsData = [
         "Book": "PTC 121"
     },
     {
-        "Transmutation": "Spark of Life",
+        "Name": "Spark of Life",
+        "Class": "Alchemicus",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -116,17 +119,12 @@ export const TransmutationsData = [
         "Description": "Animate corpses",
         "Book": "PTC 122"
     },
+]
+
+export const BeneficeTransmutationsData = [
     {
-        "Transmutation": "Benefice",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Helping Hand",
+        "Name": "Helping Hand",
+        "Class": "Benefice",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -135,7 +133,8 @@ export const TransmutationsData = [
         "Book": "MO 81"
     },
     {
-        "Transmutation": "Many Hands Make Light Work",
+        "Name": "Many Hands Make Light Work",
+        "Class": "Benefice",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -144,7 +143,8 @@ export const TransmutationsData = [
         "Book": "MO 82"
     },
     {
-        "Transmutation": "Apportion Harm",
+        "Name": "Apportion Harm",
+        "Class": "Benefice",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -153,7 +153,8 @@ export const TransmutationsData = [
         "Book": "MO 82"
     },
     {
-        "Transmutation": "Share Pyros",
+        "Name": "Share Pyros",
+        "Class": "Benefice",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -162,7 +163,8 @@ export const TransmutationsData = [
         "Book": "MO 82"
     },
     {
-        "Transmutation": "Able Worker",
+        "Name": "Able Worker",
+        "Class": "Benefice",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -171,7 +173,8 @@ export const TransmutationsData = [
         "Book": "MO 82"
     },
     {
-        "Transmutation": "Common Perception",
+        "Name": "Common Perception",
+        "Class": "Benefice",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -180,7 +183,8 @@ export const TransmutationsData = [
         "Book": "MO 82"
     },
     {
-        "Transmutation": "The Community of Power",
+        "Name": "The Community of Power",
+        "Class": "Benefice",
         "Rank": "••••",
         "Prerequisites": "Many Hands Make Light Work, Helping Hand",
         "Cost": "●",
@@ -189,7 +193,8 @@ export const TransmutationsData = [
         "Book": "MO 82"
     },
     {
-        "Transmutation": "Protective Boon",
+        "Name": "Protective Boon",
+        "Class": "Benefice",
         "Rank": "••••",
         "Prerequisites": "Share Pyros",
         "Cost": "●●/+1",
@@ -198,7 +203,8 @@ export const TransmutationsData = [
         "Book": "MO 83"
     },
     {
-        "Transmutation": "The Fortified Compact",
+        "Name": "The Fortified Compact",
+        "Class": "Benefice",
         "Rank": "•••••",
         "Prerequisites": "Many Hands Make Light Work",
         "Cost": "●●●●",
@@ -207,25 +213,21 @@ export const TransmutationsData = [
         "Book": "MO 83"
     },
     {
-        "Transmutation": "Inviolable Unity",
+        "Name": "Inviolable Unity",
+        "Class": "Benefice",
         "Rank": "•••••",
         "Prerequisites": "Common Perception",
         "Cost": "●",
         "Dice Pool": "Presence + Stamina",
         "Description": "Confer throng Armor",
         "Book": "MO 83"
-    },
+    }
+]
+
+export const ConsortiumTransmutationsData = [
     {
-        "Transmutation": "Consortium",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Never Too Far",
+        "Name": "Never Too Far",
+        "Class": "Consortium",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -234,7 +236,8 @@ export const TransmutationsData = [
         "Book": "SA 96"
     },
     {
-        "Transmutation": "My Brother’s Burden",
+        "Name": "My Brother’s Burden",
+        "Class": "Consortium",
         "Rank": "••",
         "Prerequisites": "Never Too Far",
         "Cost": "",
@@ -243,7 +246,8 @@ export const TransmutationsData = [
         "Book": "SA 96"
     },
     {
-        "Transmutation": "We Are One",
+        "Name": "We Are One",
+        "Class": "Consortium",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "",
@@ -252,7 +256,8 @@ export const TransmutationsData = [
         "Book": "SA 96"
     },
     {
-        "Transmutation": "Unspoken Words",
+        "Name": "Unspoken Words",
+        "Class": "Consortium",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -261,25 +266,22 @@ export const TransmutationsData = [
         "Book": "SA 97"
     },
     {
-        "Transmutation": "What’s Mine is Yours",
+        "Name": "What’s Mine is Yours",
+        "Class": "Consortium",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
         "Dice Pool": "Wits + Azoth",
         "Description": "Share a Bestowment or Transmutation with a throngmate",
         "Book": "SA 97"
-    },
+    }
+]
+
+export const ContaminationTransmutationsData = [
+
     {
-        "Transmutation": "Contamination",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Detect Impurity",
+        "Name": "Detect Impurity",
+        "Class": "Contamination",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -288,7 +290,8 @@ export const TransmutationsData = [
         "Book": "MO 84"
     },
     {
-        "Transmutation": "Stress Cracks",
+        "Name": "Stress Cracks",
+        "Class": "Contamination",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -297,7 +300,8 @@ export const TransmutationsData = [
         "Book": "MO 84"
     },
     {
-        "Transmutation": "Confession",
+        "Name": "Confession",
+        "Class": "Contamination",
         "Rank": "••",
         "Prerequisites": "Detect Impurity",
         "Cost": "●",
@@ -306,7 +310,8 @@ export const TransmutationsData = [
         "Book": "MO 84"
     },
     {
-        "Transmutation": "Drain Emotions",
+        "Name": "Drain Emotions",
+        "Class": "Contamination",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -315,7 +320,8 @@ export const TransmutationsData = [
         "Book": "MO 85"
     },
     {
-        "Transmutation": "Fever Dreams",
+        "Name": "Fever Dreams",
+        "Class": "Contamination",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -324,7 +330,8 @@ export const TransmutationsData = [
         "Book": "MO 85"
     },
     {
-        "Transmutation": "Guilt Trip",
+        "Name": "Guilt Trip",
+        "Class": "Contamination",
         "Rank": "•••",
         "Prerequisites": "Confession",
         "Cost": "●",
@@ -333,7 +340,8 @@ export const TransmutationsData = [
         "Book": "MO 85"
     },
     {
-        "Transmutation": "Remove Inhibitions",
+        "Name": "Remove Inhibitions",
+        "Class": "Contamination",
         "Rank": "•••",
         "Prerequisites": "Stress Cracks",
         "Cost": "●",
@@ -342,7 +350,8 @@ export const TransmutationsData = [
         "Book": "MO 86"
     },
     {
-        "Transmutation": "Eyes of Madness",
+        "Name": "Eyes of Madness",
+        "Class": "Contamination",
         "Rank": "••••",
         "Prerequisites": "Fever Dreams",
         "Cost": "●",
@@ -351,7 +360,8 @@ export const TransmutationsData = [
         "Book": "MO 86"
     },
     {
-        "Transmutation": "Transfer Torment",
+        "Name": "Transfer Torment",
+        "Class": "Contamination",
         "Rank": "••••",
         "Prerequisites": "Remove Inhibitions",
         "Cost": "●",
@@ -360,7 +370,8 @@ export const TransmutationsData = [
         "Book": "MO 86"
     },
     {
-        "Transmutation": "Plague of Desire",
+        "Name": "Plague of Desire",
+        "Class": "Contamination",
         "Rank": "•••••",
         "Prerequisites": "Remove Inhibitions",
         "Cost": "●",
@@ -369,25 +380,21 @@ export const TransmutationsData = [
         "Book": "MO 86"
     },
     {
-        "Transmutation": "Quell Torment",
+        "Name": "Quell Torment",
+        "Class": "Contamination",
         "Rank": "•••••",
         "Prerequisites": "Transfer Torment",
         "Cost": "●●●",
         "Dice Pool": "None",
         "Description": "Avert Torment",
         "Book": "MO 87"
-    },
+    }
+]
+
+export const CorporeumTransmutationsData = [
     {
-        "Transmutation": "Corporeum",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Autonomic Control",
+        "Name": "Autonomic Control",
+        "Class": "Corporeum",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -396,7 +403,8 @@ export const TransmutationsData = [
         "Book": "PTC 122"
     },
     {
-        "Transmutation": "Swift Feet",
+        "Name": "Swift Feet",
+        "Class": "Corporeum",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -405,7 +413,8 @@ export const TransmutationsData = [
         "Book": "PTC 122"
     },
     {
-        "Transmutation": "Ingrained Reflexes",
+        "Name": "Ingrained Reflexes",
+        "Class": "Corporeum",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -414,7 +423,8 @@ export const TransmutationsData = [
         "Book": "SA 77"
     },
     {
-        "Transmutation": "Regeneration",
+        "Name": "Regeneration",
+        "Class": "Corporeum",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●/●●",
@@ -423,7 +433,8 @@ export const TransmutationsData = [
         "Book": "PTC 123"
     },
     {
-        "Transmutation": "Uncanny Dexterity",
+        "Name": "Uncanny Dexterity",
+        "Class": "Corporeum",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -432,7 +443,8 @@ export const TransmutationsData = [
         "Book": "PTC 123"
     },
     {
-        "Transmutation": "Athletic Grace",
+        "Name": "Athletic Grace",
+        "Class": "Corporeum",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -441,7 +453,8 @@ export const TransmutationsData = [
         "Book": "PTC 123"
     },
     {
-        "Transmutation": "Human Flesh",
+        "Name": "Human Flesh",
+        "Class": "Corporeum",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -450,7 +463,8 @@ export const TransmutationsData = [
         "Book": "PTC 123"
     },
     {
-        "Transmutation": "Perfected Reflexes",
+        "Name": "Perfected Reflexes",
+        "Class": "Corporeum",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -459,7 +473,8 @@ export const TransmutationsData = [
         "Book": "PTC 123"
     },
     {
-        "Transmutation": "Rejuvenation",
+        "Name": "Rejuvenation",
+        "Class": "Corporeum",
         "Rank": "••••",
         "Prerequisites": "Share Pyros, Regeneration",
         "Cost": "●/●●",
@@ -468,7 +483,8 @@ export const TransmutationsData = [
         "Book": "PTC 123"
     },
     {
-        "Transmutation": "Serpent Strike",
+        "Name": "Serpent Strike",
+        "Class": "Corporeum",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -477,7 +493,8 @@ export const TransmutationsData = [
         "Book": "PTC 124"
     },
     {
-        "Transmutation": "Hard Body",
+        "Name": "Hard Body",
+        "Class": "Corporeum",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -486,25 +503,21 @@ export const TransmutationsData = [
         "Book": "PTC 124"
     },
     {
-        "Transmutation": "Rarefied Grace",
+        "Name": "Rarefied Grace",
+        "Class": "Corporeum",
         "Rank": "•••••",
         "Prerequisites": "Athletic Grace",
         "Cost": "●",
         "Dice Pool": "None",
         "Description": "Greater Dexterity increase",
         "Book": "PTC 124"
-    },
+    }
+]
+
+export const DeceptionTransmutationsData = [
     {
-        "Transmutation": "Deception",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Chameleon Skin",
+        "Name": "Chameleon Skin",
+        "Class": "Deception",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -513,7 +526,8 @@ export const TransmutationsData = [
         "Book": "PTC 124"
     },
     {
-        "Transmutation": "Color of Man",
+        "Name": "Color of Man",
+        "Class": "Deception",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -522,7 +536,8 @@ export const TransmutationsData = [
         "Book": "PTC 124"
     },
     {
-        "Transmutation": "Mimic’s Voice",
+        "Name": "Mimic’s Voice",
+        "Class": "Deception",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -531,7 +546,8 @@ export const TransmutationsData = [
         "Book": "SA 66"
     },
     {
-        "Transmutation": "Incognito",
+        "Name": "Incognito",
+        "Class": "Deception",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -540,7 +556,8 @@ export const TransmutationsData = [
         "Book": "PTC 125"
     },
     {
-        "Transmutation": "Leave No Trace",
+        "Name": "Leave No Trace",
+        "Class": "Deception",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -549,7 +566,8 @@ export const TransmutationsData = [
         "Book": "PTC 125"
     },
     {
-        "Transmutation": "Body Double",
+        "Name": "Body Double",
+        "Class": "Deception",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -558,7 +576,8 @@ export const TransmutationsData = [
         "Book": "PTC 125"
     },
     {
-        "Transmutation": "Silent Steps",
+        "Name": "Silent Steps",
+        "Class": "Deception",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -567,7 +586,8 @@ export const TransmutationsData = [
         "Book": "PTC 125"
     },
     {
-        "Transmutation": "False Tracks",
+        "Name": "False Tracks",
+        "Class": "Deception",
         "Rank": "••••",
         "Prerequisites": "Leave No Trace",
         "Cost": "●",
@@ -576,7 +596,8 @@ export const TransmutationsData = [
         "Book": "PTC 126"
     },
     {
-        "Transmutation": "Mask",
+        "Name": "Mask",
+        "Class": "Deception",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -585,7 +606,8 @@ export const TransmutationsData = [
         "Book": "PTC 126"
     },
     {
-        "Transmutation": "Deep Cover",
+        "Name": "Deep Cover",
+        "Class": "Deception",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -594,25 +616,21 @@ export const TransmutationsData = [
         "Book": "PTC 126"
     },
     {
-        "Transmutation": "Vitreous Humor",
+        "Name": "Vitreous Humor",
+        "Class": "Deception",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
         "Dice Pool": "None",
         "Description": "Become transparent",
         "Book": "PTC 127"
-    },
+    }
+]
+
+export const DisquietismTransmutationsData = [
     {
-        "Transmutation": "Disquietism",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Alembic",
+        "Name": "Alembic",
+        "Class": "Disquietism",
         "Rank": "• to •••••",
         "Prerequisites": "",
         "Cost": "",
@@ -621,7 +639,8 @@ export const TransmutationsData = [
         "Book": "PTC 127"
     },
     {
-        "Transmutation": "Scapegoat",
+        "Name": "Scapegoat",
+        "Class": "Disquietism",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -630,7 +649,8 @@ export const TransmutationsData = [
         "Book": "PTC 128"
     },
     {
-        "Transmutation": "Soothe Disquiet",
+        "Name": "Soothe Disquiet",
+        "Class": "Disquietism",
         "Rank": "•, ••• or •••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -639,7 +659,8 @@ export const TransmutationsData = [
         "Book": "PTC 128"
     },
     {
-        "Transmutation": "Rabid Rage",
+        "Name": "Rabid Rage",
+        "Class": "Disquietism",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -648,7 +669,8 @@ export const TransmutationsData = [
         "Book": "PTC 128"
     },
     {
-        "Transmutation": "Tension in the Air",
+        "Name": "Tension in the Air",
+        "Class": "Disquietism",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -657,7 +679,8 @@ export const TransmutationsData = [
         "Book": "PTC 129"
     },
     {
-        "Transmutation": "Iago’s Whisper",
+        "Name": "Iago’s Whisper",
+        "Class": "Disquietism",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -666,7 +689,8 @@ export const TransmutationsData = [
         "Book": "PTC 129"
     },
     {
-        "Transmutation": "Progenitor’s Curse",
+        "Name": "Progenitor’s Curse",
+        "Class": "Disquietism",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●/die",
@@ -675,7 +699,8 @@ export const TransmutationsData = [
         "Book": "PTC 129"
     },
     {
-        "Transmutation": "Mass Hysteria",
+        "Name": "Mass Hysteria",
+        "Class": "Disquietism",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●●",
@@ -684,7 +709,8 @@ export const TransmutationsData = [
         "Book": "SA 94"
     },
     {
-        "Transmutation": "Nameless Dread",
+        "Name": "Nameless Dread",
+        "Class": "Disquietism",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -693,7 +719,8 @@ export const TransmutationsData = [
         "Book": "PTC 130"
     },
     {
-        "Transmutation": "Safe Sojourn",
+        "Name": "Safe Sojourn",
+        "Class": "Disquietism",
         "Rank": "••••",
         "Prerequisites": "Soothe Disquiet •",
         "Cost": "●",
@@ -702,7 +729,8 @@ export const TransmutationsData = [
         "Book": "PTC 130"
     },
     {
-        "Transmutation": "Shape Disquiet",
+        "Name": "Shape Disquiet",
+        "Class": "Disquietism",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●● (●)",
@@ -711,25 +739,22 @@ export const TransmutationsData = [
         "Book": "PTC 130"
     },
     {
-        "Transmutation": "Quell Disquiet",
+        "Name": "Quell Disquiet",
+        "Class": "Disquietism",
         "Rank": "•••••",
         "Prerequisites": "Soothe Disquiet •",
         "Cost": "●/●●",
         "Dice Pool": "Socialize + Azoth",
         "Description": "Suppress Disquiet among up to (Presence or Manipulation) humans at once for one Pyros, or twice that with two",
         "Book": "PTC 131"
-    },
+    }
+]
+
+export const ElectrificationTransmutationsData = [
+
     {
-        "Transmutation": "Electrification",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Feel the Spark",
+        "Name": "Feel the Spark",
+        "Class": "Electrification",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -738,7 +763,8 @@ export const TransmutationsData = [
         "Book": "PTC 131"
     },
     {
-        "Transmutation": "Jolt",
+        "Name": "Jolt",
+        "Class": "Electrification",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "(●/●●)",
@@ -747,7 +773,8 @@ export const TransmutationsData = [
         "Book": "PTC 131"
     },
     {
-        "Transmutation": "Insulator",
+        "Name": "Insulator",
+        "Class": "Electrification",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -756,7 +783,8 @@ export const TransmutationsData = [
         "Book": "PTC 132"
     },
     {
-        "Transmutation": "Shock",
+        "Name": "Shock",
+        "Class": "Electrification",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -765,7 +793,8 @@ export const TransmutationsData = [
         "Book": "PTC 132"
     },
     {
-        "Transmutation": "Arc",
+        "Name": "Arc",
+        "Class": "Electrification",
         "Rank": "•••",
         "Prerequisites": "Shock",
         "Cost": "●",
@@ -774,7 +803,8 @@ export const TransmutationsData = [
         "Book": "PTC 133"
     },
     {
-        "Transmutation": "Generator",
+        "Name": "Generator",
+        "Class": "Electrification",
         "Rank": "•••",
         "Prerequisites": "Jolt",
         "Cost": "●/●●",
@@ -783,7 +813,8 @@ export const TransmutationsData = [
         "Book": "PTC 133"
     },
     {
-        "Transmutation": "Power Sink",
+        "Name": "Power Sink",
+        "Class": "Electrification",
         "Rank": "•••",
         "Prerequisites": "Insulator",
         "Cost": "",
@@ -792,7 +823,8 @@ export const TransmutationsData = [
         "Book": "SA 94"
     },
     {
-        "Transmutation": "Blackout",
+        "Name": "Blackout",
+        "Class": "Electrification",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -801,7 +833,8 @@ export const TransmutationsData = [
         "Book": "PTC 133"
     },
     {
-        "Transmutation": "Regulator",
+        "Name": "Regulator",
+        "Class": "Electrification",
         "Rank": "••••",
         "Prerequisites": "Generator",
         "Cost": "●",
@@ -810,7 +843,8 @@ export const TransmutationsData = [
         "Book": "PTC 133"
     },
     {
-        "Transmutation": "Divine Lightning",
+        "Name": "Divine Lightning",
+        "Class": "Electrification",
         "Rank": "•••••",
         "Prerequisites": "Arc",
         "Cost": "● (●/●●)",
@@ -819,25 +853,22 @@ export const TransmutationsData = [
         "Book": "PTC 134"
     },
     {
-        "Transmutation": "Lightning Therapy",
+        "Name": "Lightning Therapy",
+        "Class": "Electrification",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●+",
         "Dice Pool": "None",
         "Description": "Heal a fellow Promethean via electrocution",
         "Book": "PTC 134"
-    },
+    }
+]
+
+export const IrradiationTransmutationsData = [
+
     {
-        "Transmutation": "Irradiation",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Flashburn",
+        "Name": "Flashburn",
+        "Class": "Irradiation",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -846,7 +877,8 @@ export const TransmutationsData = [
         "Book": "SN 88"
     },
     {
-        "Transmutation": "Conceal Radiation",
+        "Name": "Conceal Radiation",
+        "Class": "Irradiation",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -855,7 +887,8 @@ export const TransmutationsData = [
         "Book": "SN 88"
     },
     {
-        "Transmutation": "Reduce Radiation",
+        "Name": "Reduce Radiation",
+        "Class": "Irradiation",
         "Rank": "• to •••",
         "Prerequisites": "",
         "Cost": "●",
@@ -864,7 +897,8 @@ export const TransmutationsData = [
         "Book": "SN 88"
     },
     {
-        "Transmutation": "Blast",
+        "Name": "Blast",
+        "Class": "Irradiation",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -873,7 +907,8 @@ export const TransmutationsData = [
         "Book": "SN 88"
     },
     {
-        "Transmutation": "Blue Flash",
+        "Name": "Blue Flash",
+        "Class": "Irradiation",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -882,7 +917,8 @@ export const TransmutationsData = [
         "Book": "SN 89"
     },
     {
-        "Transmutation": "Irradiate",
+        "Name": "Irradiate",
+        "Class": "Irradiation",
         "Rank": "•• to •••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -891,7 +927,8 @@ export const TransmutationsData = [
         "Book": "SN 89"
     },
     {
-        "Transmutation": "Fallout",
+        "Name": "Fallout",
+        "Class": "Irradiation",
         "Rank": "•••",
         "Prerequisites": "Blast",
         "Cost": "●",
@@ -900,7 +937,8 @@ export const TransmutationsData = [
         "Book": "SN 90"
     },
     {
-        "Transmutation": "Lord of the Roaches",
+        "Name": "Lord of the Roaches",
+        "Class": "Irradiation",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "",
@@ -909,7 +947,8 @@ export const TransmutationsData = [
         "Book": "SN 90"
     },
     {
-        "Transmutation": "Sicken",
+        "Name": "Sicken",
+        "Class": "Irradiation",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -918,7 +957,8 @@ export const TransmutationsData = [
         "Book": "SN 90"
     },
     {
-        "Transmutation": "Elevate Bugs",
+        "Name": "Elevate Bugs",
+        "Class": "Irradiation",
         "Rank": "••••",
         "Prerequisites": "Lord of the Roaches",
         "Cost": "●●●",
@@ -927,7 +967,8 @@ export const TransmutationsData = [
         "Book": "SN 91"
     },
     {
-        "Transmutation": "Homunculus",
+        "Name": "Homunculus",
+        "Class": "Irradiation",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "● (●/●●)",
@@ -936,7 +977,8 @@ export const TransmutationsData = [
         "Book": "SN 91"
     },
     {
-        "Transmutation": "Swift Malignancy",
+        "Name": "Swift Malignancy",
+        "Class": "Irradiation",
         "Rank": "••••",
         "Prerequisites": "Sicken",
         "Cost": "●●",
@@ -945,7 +987,8 @@ export const TransmutationsData = [
         "Book": "SN 90"
     },
     {
-        "Transmutation": "Talking Tumor",
+        "Name": "Talking Tumor",
+        "Class": "Irradiation",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -954,7 +997,8 @@ export const TransmutationsData = [
         "Book": "SN 91"
     },
     {
-        "Transmutation": "Azothic Bomb",
+        "Name": "Azothic Bomb",
+        "Class": "Irradiation",
         "Rank": "•••••",
         "Prerequisites": "Fallout, Irradiate",
         "Cost": "●●●●●",
@@ -963,25 +1007,22 @@ export const TransmutationsData = [
         "Book": "SN 92"
     },
     {
-        "Transmutation": "Brain Blight",
+        "Name": "Brain Blight",
+        "Class": "Irradiation",
         "Rank": "•••••",
         "Prerequisites": "Talking Tumor",
         "Cost": "●",
         "Dice Pool": "Manipulation + Science vs. Resolve + Tolerance",
         "Description": "Enslave a target with a temporary \"secondary brain\" growth",
         "Book": "SN 91"
-    },
+    }
+]
+
+export const MesmerismTransmutationsData = [
+
     {
-        "Transmutation": "Mesmerism",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Fixed Stare",
+        "Name": "Fixed Stare",
+        "Class": "Mesmerism",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -990,7 +1031,8 @@ export const TransmutationsData = [
         "Book": "PTC 134"
     },
     {
-        "Transmutation": "Flight Instinct",
+        "Name": "Flight Instinct",
+        "Class": "Mesmerism",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -999,7 +1041,8 @@ export const TransmutationsData = [
         "Book": "PTC 135"
     },
     {
-        "Transmutation": "Firebringer",
+        "Name": "Firebringer",
+        "Class": "Mesmerism",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -1008,7 +1051,8 @@ export const TransmutationsData = [
         "Book": "PTC 135"
     },
     {
-        "Transmutation": "Lullaby",
+        "Name": "Lullaby",
+        "Class": "Mesmerism",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1017,7 +1061,8 @@ export const TransmutationsData = [
         "Book": "SA 66"
     },
     {
-        "Transmutation": "Suggestion",
+        "Name": "Suggestion",
+        "Class": "Mesmerism",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -1026,7 +1071,8 @@ export const TransmutationsData = [
         "Book": "PTC 135"
     },
     {
-        "Transmutation": "Atavistic Instincts",
+        "Name": "Atavistic Instincts",
+        "Class": "Mesmerism",
         "Rank": "•••",
         "Prerequisites": "Flight Instinct",
         "Cost": "●",
@@ -1035,7 +1081,8 @@ export const TransmutationsData = [
         "Book": "PTC 136"
     },
     {
-        "Transmutation": "In Vino Veritas",
+        "Name": "In Vino Veritas",
+        "Class": "Mesmerism",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "",
@@ -1044,7 +1091,8 @@ export const TransmutationsData = [
         "Book": "PTC 137"
     },
     {
-        "Transmutation": "Logos",
+        "Name": "Logos",
+        "Class": "Mesmerism",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1053,7 +1101,8 @@ export const TransmutationsData = [
         "Book": "PTC 137"
     },
     {
-        "Transmutation": "Waters of Lethe",
+        "Name": "Waters of Lethe",
+        "Class": "Mesmerism",
         "Rank": "••••",
         "Prerequisites": "Fixed Stare",
         "Cost": "●",
@@ -1062,7 +1111,8 @@ export const TransmutationsData = [
         "Book": "PTC 137"
     },
     {
-        "Transmutation": "Imaginal Friend",
+        "Name": "Imaginal Friend",
+        "Class": "Mesmerism",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1071,25 +1121,22 @@ export const TransmutationsData = [
         "Book": "PTC 138"
     },
     {
-        "Transmutation": "Pygmalion’s Caress",
+        "Name": "Pygmalion’s Caress",
+        "Class": "Mesmerism",
         "Rank": "•••••",
         "Prerequisites": "Waters of Lethe",
         "Cost": "●●",
         "Dice Pool": "Intelligence + Presence + Subterfuge vs. Composure + Tolerance",
         "Description": "Rewrites a victim's personality entirely",
         "Book": "PTC 138"
-    },
+    }
+]
+
+export const MetamorphosisTransmutationsData = [
+
     {
-        "Transmutation": "Metamorphosis",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Mask of Medusa",
+        "Name": "Mask of Medusa",
+        "Class": "Metamorphosis",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1098,7 +1145,8 @@ export const TransmutationsData = [
         "Book": "PTC 140"
     },
     {
-        "Transmutation": "Natural Weaponry",
+        "Name": "Natural Weaponry",
+        "Class": "Metamorphosis",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -1107,7 +1155,8 @@ export const TransmutationsData = [
         "Book": "PTC 140"
     },
     {
-        "Transmutation": "Blessing of Tethys",
+        "Name": "Blessing of Tethys",
+        "Class": "Metamorphosis",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1116,7 +1165,8 @@ export const TransmutationsData = [
         "Book": "PTC 140"
     },
     {
-        "Transmutation": "Redundant Organ",
+        "Name": "Redundant Organ",
+        "Class": "Metamorphosis",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1125,7 +1175,8 @@ export const TransmutationsData = [
         "Book": "PTC 140"
     },
     {
-        "Transmutation": "Clayflesh",
+        "Name": "Clayflesh",
+        "Class": "Metamorphosis",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1134,7 +1185,8 @@ export const TransmutationsData = [
         "Book": "SA 72"
     },
     {
-        "Transmutation": "Procrustean Shape",
+        "Name": "Procrustean Shape",
+        "Class": "Metamorphosis",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "",
@@ -1143,7 +1195,8 @@ export const TransmutationsData = [
         "Book": "PTC 141"
     },
     {
-        "Transmutation": "Shape of the Barghest",
+        "Name": "Shape of the Barghest",
+        "Class": "Metamorphosis",
         "Rank": "•••",
         "Prerequisites": "Natural Weaponry",
         "Cost": "●",
@@ -1152,7 +1205,8 @@ export const TransmutationsData = [
         "Book": "PTC 142"
     },
     {
-        "Transmutation": "Guise of Proteus",
+        "Name": "Guise of Proteus",
+        "Class": "Metamorphosis",
         "Rank": "••••",
         "Prerequisites": "Procrustean Shape",
         "Cost": "●",
@@ -1161,7 +1215,8 @@ export const TransmutationsData = [
         "Book": "PTC 142"
     },
     {
-        "Transmutation": "Homunculus",
+        "Name": "Homunculus",
+        "Class": "Metamorphosis",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "● (●/●●)",
@@ -1170,7 +1225,8 @@ export const TransmutationsData = [
         "Book": "PTC 143"
     },
     {
-        "Transmutation": "Chimera",
+        "Name": "Chimera",
+        "Class": "Metamorphosis",
         "Rank": "•••••",
         "Prerequisites": "Procrustean Shape",
         "Cost": "●",
@@ -1179,7 +1235,8 @@ export const TransmutationsData = [
         "Book": "PTC 144"
     },
     {
-        "Transmutation": "Unassailable Fortress",
+        "Name": "Unassailable Fortress",
+        "Class": "Metamorphosis",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1187,17 +1244,12 @@ export const TransmutationsData = [
         "Description": "Manifest disfiguring Armor",
         "Book": "PTC 145"
     },
+]
+
+export const SaturninusTransmutationsData = [
     {
-        "Transmutation": "Saturninus",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Azothic Awareness",
+        "Name": "Azothic Awareness",
+        "Class": "Saturninus",
         "Rank": "• to •••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1206,7 +1258,8 @@ export const TransmutationsData = [
         "Book": "MO 87"
     },
     {
-        "Transmutation": "Cleansing Ritual",
+        "Name": "Cleansing Ritual",
+        "Class": "Saturninus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -1215,7 +1268,8 @@ export const TransmutationsData = [
         "Book": "MO 87"
     },
     {
-        "Transmutation": "Subtle Dampening",
+        "Name": "Subtle Dampening",
+        "Class": "Saturninus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -1224,7 +1278,8 @@ export const TransmutationsData = [
         "Book": "MO 88"
     },
     {
-        "Transmutation": "Refined Masquerade",
+        "Name": "Refined Masquerade",
+        "Class": "Saturninus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "○",
@@ -1233,7 +1288,8 @@ export const TransmutationsData = [
         "Book": "MO 88"
     },
     {
-        "Transmutation": "Slow Awakening",
+        "Name": "Slow Awakening",
+        "Class": "Saturninus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -1242,7 +1298,8 @@ export const TransmutationsData = [
         "Book": "MO 88"
     },
     {
-        "Transmutation": "Fire-Reader",
+        "Name": "Fire-Reader",
+        "Class": "Saturninus",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1251,7 +1308,8 @@ export const TransmutationsData = [
         "Book": "MO 89"
     },
     {
-        "Transmutation": "Humour Attunement",
+        "Name": "Humour Attunement",
+        "Class": "Saturninus",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "○/○○",
@@ -1260,7 +1318,8 @@ export const TransmutationsData = [
         "Book": "MO 89"
     },
     {
-        "Transmutation": "Magnified Potential",
+        "Name": "Magnified Potential",
+        "Class": "Saturninus",
         "Rank": "••• or •••••",
         "Prerequisites": "",
         "Cost": "○",
@@ -1269,7 +1328,8 @@ export const TransmutationsData = [
         "Book": "MO 89"
     },
     {
-        "Transmutation": "Efficient Grounding",
+        "Name": "Efficient Grounding",
+        "Class": "Saturninus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1278,7 +1338,8 @@ export const TransmutationsData = [
         "Book": "MO 89"
     },
     {
-        "Transmutation": "Pyros Refinement",
+        "Name": "Pyros Refinement",
+        "Class": "Saturninus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1287,7 +1348,8 @@ export const TransmutationsData = [
         "Book": "MO 90"
     },
     {
-        "Transmutation": "Refine Bestowment",
+        "Name": "Refine Bestowment",
+        "Class": "Saturninus",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1295,17 +1357,12 @@ export const TransmutationsData = [
         "Description": "Magnify the effects of a Bestowment",
         "Book": "MO 90"
     },
+]
+
+export const SensoriumTransmutationsData = [
     {
-        "Transmutation": "Sensorium",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Bloodhound’s Nose",
+        "Name": "Bloodhound’s Nose",
+        "Class": "Sensorium",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1314,7 +1371,8 @@ export const TransmutationsData = [
         "Book": "PTC 145"
     },
     {
-        "Transmutation": "Discriminating Tongue",
+        "Name": "Discriminating Tongue",
+        "Class": "Sensorium",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1323,7 +1381,8 @@ export const TransmutationsData = [
         "Book": "PTC 145"
     },
     {
-        "Transmutation": "Sensitive Ears",
+        "Name": "Sensitive Ears",
+        "Class": "Sensorium",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "(●)",
@@ -1332,7 +1391,8 @@ export const TransmutationsData = [
         "Book": "PTC 146"
     },
     {
-        "Transmutation": "Translator’s Eye",
+        "Name": "Translator’s Eye",
+        "Class": "Sensorium",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1341,7 +1401,8 @@ export const TransmutationsData = [
         "Book": "PTC 146"
     },
     {
-        "Transmutation": "Aura Sight",
+        "Name": "Aura Sight",
+        "Class": "Sensorium",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -1350,7 +1411,8 @@ export const TransmutationsData = [
         "Book": "PTC 146"
     },
     {
-        "Transmutation": "Nightsight",
+        "Name": "Nightsight",
+        "Class": "Sensorium",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1359,7 +1421,8 @@ export const TransmutationsData = [
         "Book": "PTC 147"
     },
     {
-        "Transmutation": "Ephemeral Gaze",
+        "Name": "Ephemeral Gaze",
+        "Class": "Sensorium",
         "Rank": "•••",
         "Prerequisites": "Aura Sight",
         "Cost": "●",
@@ -1368,7 +1431,8 @@ export const TransmutationsData = [
         "Book": "PTC 147"
     },
     {
-        "Transmutation": "Firesight",
+        "Name": "Firesight",
+        "Class": "Sensorium",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1377,7 +1441,8 @@ export const TransmutationsData = [
         "Book": "PTC 147"
     },
     {
-        "Transmutation": "Circle of Eyes",
+        "Name": "Circle of Eyes",
+        "Class": "Sensorium",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1386,7 +1451,8 @@ export const TransmutationsData = [
         "Book": "PTC 148"
     },
     {
-        "Transmutation": "Hearing the Inner Voice",
+        "Name": "Hearing the Inner Voice",
+        "Class": "Sensorium",
         "Rank": "••••",
         "Prerequisites": "Aura Sight",
         "Cost": "●",
@@ -1395,7 +1461,8 @@ export const TransmutationsData = [
         "Book": "SA 72"
     },
     {
-        "Transmutation": "Rarefied Senses",
+        "Name": "Rarefied Senses",
+        "Class": "Sensorium",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1404,7 +1471,8 @@ export const TransmutationsData = [
         "Book": "PTC 148"
     },
     {
-        "Transmutation": "Clairvoyant Senses",
+        "Name": "Clairvoyant Senses",
+        "Class": "Sensorium",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1413,7 +1481,8 @@ export const TransmutationsData = [
         "Book": "PTC 148"
     },
     {
-        "Transmutation": "Piercing Sight",
+        "Name": "Piercing Sight",
+        "Class": "Sensorium",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1421,17 +1490,12 @@ export const TransmutationsData = [
         "Description": "See through solid objects, except lead",
         "Book": "PTC 149"
     },
+]
+
+export const SpiritusTransmutationsData = [
     {
-        "Transmutation": "Spiritus",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Essence of (Material)",
+        "Name": "Essence of (Material)",
+        "Class": "Spiritus",
         "Rank": "• to •••",
         "Prerequisites": "Targeted by powers",
         "Cost": "",
@@ -1440,7 +1504,8 @@ export const TransmutationsData = [
         "Book": "MO 91"
     },
     {
-        "Transmutation": "Mask of (Type)",
+        "Name": "Mask of (Type)",
+        "Class": "Spiritus",
         "Rank": "•",
         "Prerequisites": "Hour's experience",
         "Cost": "●",
@@ -1449,7 +1514,8 @@ export const TransmutationsData = [
         "Book": "MO 92"
     },
     {
-        "Transmutation": "Tainted Azoth",
+        "Name": "Tainted Azoth",
+        "Class": "Spiritus",
         "Rank": "•",
         "Prerequisites": "Interact with being",
         "Cost": "●",
@@ -1458,7 +1524,8 @@ export const TransmutationsData = [
         "Book": "MO 91"
     },
     {
-        "Transmutation": "Bane of Ephemera",
+        "Name": "Bane of Ephemera",
+        "Class": "Spiritus",
         "Rank": "••",
         "Prerequisites": "Ephemeral Flesh",
         "Cost": "●",
@@ -1467,7 +1534,8 @@ export const TransmutationsData = [
         "Book": "MO 93"
     },
     {
-        "Transmutation": "Cloak of (Type)",
+        "Name": "Cloak of (Type)",
+        "Class": "Spiritus",
         "Rank": "••",
         "Prerequisites": "Mask of (Type)",
         "Cost": "",
@@ -1476,7 +1544,8 @@ export const TransmutationsData = [
         "Book": "MO 92"
     },
     {
-        "Transmutation": "Ephemeral Infusion",
+        "Name": "Ephemeral Infusion",
+        "Class": "Spiritus",
         "Rank": "•• to •••••",
         "Prerequisites": "Ephemeral Flesh",
         "Cost": "●",
@@ -1485,7 +1554,8 @@ export const TransmutationsData = [
         "Book": "MO 92"
     },
     {
-        "Transmutation": "(Material) Shield",
+        "Name": "(Material) Shield",
+        "Class": "Spiritus",
         "Rank": "•••",
         "Prerequisites": "Essence of (Material) ••",
         "Cost": "●● (○)",
@@ -1494,7 +1564,8 @@ export const TransmutationsData = [
         "Book": "MO 94"
     },
     {
-        "Transmutation": "Sense of (Type)",
+        "Name": "Sense of (Type)",
+        "Class": "Spiritus",
         "Rank": "•••",
         "Prerequisites": "Cloak of (Type)",
         "Cost": "(●)",
@@ -1503,7 +1574,8 @@ export const TransmutationsData = [
         "Book": "MO 94"
     },
     {
-        "Transmutation": "Glimpse of Mortal Memory",
+        "Name": "Glimpse of Mortal Memory",
+        "Class": "Spiritus",
         "Rank": "••••",
         "Prerequisites": "Tainted Azoth",
         "Cost": "○",
@@ -1512,7 +1584,8 @@ export const TransmutationsData = [
         "Book": "MO 94"
     },
     {
-        "Transmutation": "(Material) Warding",
+        "Name": "(Material) Warding",
+        "Class": "Spiritus",
         "Rank": "••••",
         "Prerequisites": "Essence of (Material) ••",
         "Cost": "●/10 feet (○)",
@@ -1521,7 +1594,8 @@ export const TransmutationsData = [
         "Book": "MO 95"
     },
     {
-        "Transmutation": "Shadow Alchemy",
+        "Name": "Shadow Alchemy",
+        "Class": "Spiritus",
         "Rank": "•••••",
         "Prerequisites": "Essence of (Material) •••",
         "Cost": "●●",
@@ -1530,25 +1604,21 @@ export const TransmutationsData = [
         "Book": "MO 96"
     },
     {
-        "Transmutation": "Twilight Summons",
+        "Name": "Twilight Summons",
+        "Class": "Spiritus",
         "Rank": "•••••",
         "Prerequisites": "Ephemeral Flesh",
         "Cost": "●● (○)",
         "Dice Pool": "Presence + Occult + Azoth - (Rank or half Resistance)",
         "Description": "Bind a ghost or spirit in Twilight to a place, and obligate it to honor agreements",
         "Book": "MO 97"
-    },
+    }
+]
+
+export const VitalityTransmutationsData = [
     {
-        "Transmutation": "Vitality",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Fist of Talos",
+        "Name": "Fist of Talos",
+        "Class": "Vitality",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -1557,7 +1627,8 @@ export const TransmutationsData = [
         "Book": "PTC 149"
     },
     {
-        "Transmutation": "Might",
+        "Name": "Might",
+        "Class": "Vitality",
         "Rank": "• to •••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1566,7 +1637,8 @@ export const TransmutationsData = [
         "Book": "PTC 149"
     },
     {
-        "Transmutation": "Shoulders of Atlas",
+        "Name": "Shoulders of Atlas",
+        "Class": "Vitality",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -1575,7 +1647,8 @@ export const TransmutationsData = [
         "Book": "PTC 150"
     },
     {
-        "Transmutation": "Battering Ram",
+        "Name": "Battering Ram",
+        "Class": "Vitality",
         "Rank": "••",
         "Prerequisites": "First of Talos",
         "Cost": "●",
@@ -1584,7 +1657,8 @@ export const TransmutationsData = [
         "Book": "PTC 150"
     },
     {
-        "Transmutation": "Bludgeon",
+        "Name": "Bludgeon",
+        "Class": "Vitality",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1593,7 +1667,8 @@ export const TransmutationsData = [
         "Book": "PTC 151"
     },
     {
-        "Transmutation": "Titan’s Fist",
+        "Name": "Titan’s Fist",
+        "Class": "Vitality",
         "Rank": "•• to ••••",
         "Prerequisites": "Might •",
         "Cost": "●",
@@ -1602,7 +1677,8 @@ export const TransmutationsData = [
         "Book": "SA 78"
     },
     {
-        "Transmutation": "Vault",
+        "Name": "Vault",
+        "Class": "Vitality",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1611,7 +1687,8 @@ export const TransmutationsData = [
         "Book": "PTC 151"
     },
     {
-        "Transmutation": "Defenestrating Blow",
+        "Name": "Defenestrating Blow",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "Might ••",
         "Cost": "●",
@@ -1620,7 +1697,8 @@ export const TransmutationsData = [
         "Book": "PTC 152"
     },
     {
-        "Transmutation": "Hyperion’s Flight",
+        "Name": "Hyperion’s Flight",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "Vault",
         "Cost": "●",
@@ -1629,7 +1707,8 @@ export const TransmutationsData = [
         "Book": "PTC 151"
     },
     {
-        "Transmutation": "Rampage",
+        "Name": "Rampage",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "Battering Ram",
         "Cost": "●",
@@ -1638,7 +1717,8 @@ export const TransmutationsData = [
         "Book": "PTC 152"
     },
     {
-        "Transmutation": "Striking the Gates of Tartarus",
+        "Name": "Striking the Gates of Tartarus",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1647,7 +1727,8 @@ export const TransmutationsData = [
         "Book": "PTC 152"
     },
     {
-        "Transmutation": "Titan’s Throw",
+        "Name": "Titan’s Throw",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "Shoulders of Atlas",
         "Cost": "",
@@ -1656,7 +1737,8 @@ export const TransmutationsData = [
         "Book": "PTC 151"
     },
     {
-        "Transmutation": "Titanic Vigor",
+        "Name": "Titanic Vigor",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "Shoulders of Atlas",
         "Cost": "●",
@@ -1665,7 +1747,8 @@ export const TransmutationsData = [
         "Book": "PTC 152"
     },
     {
-        "Transmutation": "Thunderclap Blow",
+        "Name": "Thunderclap Blow",
+        "Class": "Vitality",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1674,7 +1757,8 @@ export const TransmutationsData = [
         "Book": "PTC 151"
     },
     {
-        "Transmutation": "Cyclopean Rage",
+        "Name": "Cyclopean Rage",
+        "Class": "Vitality",
         "Rank": "••••",
         "Prerequisites": "Striking the Gates of Tartarus",
         "Cost": "●●",
@@ -1683,7 +1767,8 @@ export const TransmutationsData = [
         "Book": "PTC 153"
     },
     {
-        "Transmutation": "Stupefying Blow",
+        "Name": "Stupefying Blow",
+        "Class": "Vitality",
         "Rank": "••••",
         "Prerequisites": "Defenstrating Blow",
         "Cost": "●",
@@ -1692,7 +1777,8 @@ export const TransmutationsData = [
         "Book": "PTC 153"
     },
     {
-        "Transmutation": "Pulverizing Blow",
+        "Name": "Pulverizing Blow",
+        "Class": "Vitality",
         "Rank": "•••••",
         "Prerequisites": "Might •••, Stupefying Blow",
         "Cost": "",
@@ -1701,7 +1787,8 @@ export const TransmutationsData = [
         "Book": "PTC 153"
     },
     {
-        "Transmutation": "Weapon of the Gods",
+        "Name": "Weapon of the Gods",
+        "Class": "Vitality",
         "Rank": "•••••",
         "Prerequisites": "Titanic Vigor",
         "Cost": "",
@@ -1710,7 +1797,8 @@ export const TransmutationsData = [
         "Book": "PTC 153"
     },
     {
-        "Transmutation": "The Wrath of the Hecatonchire",
+        "Name": "The Wrath of the Hecatonchire",
+        "Class": "Vitality",
         "Rank": "•••••",
         "Prerequisites": "Might ••••, Cyclopean Rage",
         "Cost": "●●●",
@@ -1718,17 +1806,12 @@ export const TransmutationsData = [
         "Description": "As Cyclopean Rage, but inflicts massive damage over a vast area",
         "Book": "PTC 153"
     },
+]
+
+export const VulcanusTransmutationsData = [
     {
-        "Transmutation": "Vulcanus",
-        "Rank": "",
-        "Prerequisites": "",
-        "Cost": "",
-        "Dice Pool": "",
-        "Description": "",
-        "Book": ""
-    },
-    {
-        "Transmutation": "Firebrand",
+        "Name": "Firebrand",
+        "Class": "Vulcanus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "●",
@@ -1737,7 +1820,8 @@ export const TransmutationsData = [
         "Book": "PTC 154"
     },
     {
-        "Transmutation": "Sense Flux",
+        "Name": "Sense Flux",
+        "Class": "Vulcanus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1746,7 +1830,8 @@ export const TransmutationsData = [
         "Book": "PTC 154"
     },
     {
-        "Transmutation": "Sense Pyros",
+        "Name": "Sense Pyros",
+        "Class": "Vulcanus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1755,7 +1840,8 @@ export const TransmutationsData = [
         "Book": "PTC 155"
     },
     {
-        "Transmutation": "Sense Refinement",
+        "Name": "Sense Refinement",
+        "Class": "Vulcanus",
         "Rank": "•",
         "Prerequisites": "",
         "Cost": "",
@@ -1764,7 +1850,8 @@ export const TransmutationsData = [
         "Book": "SA 86"
     },
     {
-        "Transmutation": "Electroshock Recharge",
+        "Name": "Electroshock Recharge",
+        "Class": "Vulcanus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -1773,7 +1860,8 @@ export const TransmutationsData = [
         "Book": "PTC 155"
     },
     {
-        "Transmutation": "Share Pyros",
+        "Name": "Share Pyros",
+        "Class": "Vulcanus",
         "Rank": "••",
         "Prerequisites": "",
         "Cost": "",
@@ -1782,7 +1870,8 @@ export const TransmutationsData = [
         "Book": "PTC 155"
     },
     {
-        "Transmutation": "Sigils on the Wind",
+        "Name": "Sigils on the Wind",
+        "Class": "Vulcanus",
         "Rank": "••",
         "Prerequisites": "Firebrand",
         "Cost": "●",
@@ -1791,7 +1880,8 @@ export const TransmutationsData = [
         "Book": "SA 86"
     },
     {
-        "Transmutation": "Animate Firetouched",
+        "Name": "Animate Firetouched",
+        "Class": "Vulcanus",
         "Rank": "•••",
         "Prerequisites": "Firebrand",
         "Cost": "● (●+)",
@@ -1800,7 +1890,8 @@ export const TransmutationsData = [
         "Book": "PTC 156"
     },
     {
-        "Transmutation": "Firegrasp",
+        "Name": "Firegrasp",
+        "Class": "Vulcanus",
         "Rank": "•••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1809,7 +1900,8 @@ export const TransmutationsData = [
         "Book": "PTC 156"
     },
     {
-        "Transmutation": "Crucible of the Will",
+        "Name": "Crucible of the Will",
+        "Class": "Vulcanus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●●/point",
@@ -1818,7 +1910,8 @@ export const TransmutationsData = [
         "Book": "PTC 157"
     },
     {
-        "Transmutation": "Pyros Imp",
+        "Name": "Pyros Imp",
+        "Class": "Vulcanus",
         "Rank": "••••",
         "Prerequisites": "Animate Firetouched",
         "Cost": "●●",
@@ -1827,7 +1920,8 @@ export const TransmutationsData = [
         "Book": "SA 87"
     },
     {
-        "Transmutation": "Steal Pyros",
+        "Name": "Steal Pyros",
+        "Class": "Vulcanus",
         "Rank": "••••",
         "Prerequisites": "",
         "Cost": "●",
@@ -1836,7 +1930,8 @@ export const TransmutationsData = [
         "Book": "PTC 157"
     },
     {
-        "Transmutation": "Drain Pyros",
+        "Name": "Drain Pyros",
+        "Class": "Vulcanus",
         "Rank": "•••••",
         "Prerequisites": "Steal Pyros",
         "Cost": "●",
@@ -1845,7 +1940,8 @@ export const TransmutationsData = [
         "Book": "PTC 157"
     },
     {
-        "Transmutation": "The Greater Need",
+        "Name": "The Greater Need",
+        "Class": "Vulcanus",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●●",
@@ -1854,7 +1950,8 @@ export const TransmutationsData = [
         "Book": "SA 88"
     },
     {
-        "Transmutation": "Sublimate Phlogiston",
+        "Name": "Sublimate Phlogiston",
+        "Class": "Vulcanus",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "",
@@ -1863,7 +1960,8 @@ export const TransmutationsData = [
         "Book": "PTC 157"
     },
     {
-        "Transmutation": "Trigger Firestorm",
+        "Name": "Trigger Firestorm",
+        "Class": "Vulcanus",
         "Rank": "•••••",
         "Prerequisites": "",
         "Cost": "●●●●●",
@@ -1872,3 +1970,4 @@ export const TransmutationsData = [
         "Book": "SA 88"
     }
 ]
+

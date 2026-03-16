@@ -12,7 +12,7 @@ const passengerCarData = [
         Occupants: "1+3",
         Cost: "●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -27,7 +27,7 @@ const passengerCarData = [
         Occupants: "1+4",
         Cost: "●●●",
         Notes: "Polycarbinate partition, Radio",
-        Book: "	HtV 251"
+        Book: "HTV  251"
     },
     {
         Type: "Passenger Cars",
@@ -57,7 +57,7 @@ const passengerCarData = [
         Occupants: "1+3",
         Cost: "●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -87,7 +87,7 @@ const passengerCarData = [
         Occupants: "1+3",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -102,7 +102,7 @@ const passengerCarData = [
         Occupants: "1+3",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -132,7 +132,7 @@ const passengerCarData = [
         Occupants: "1+4",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -147,7 +147,7 @@ const passengerCarData = [
         Occupants: "1+11",
         Cost: "●●●●",
         Notes: "● to rent for a single night",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -162,7 +162,7 @@ const passengerCarData = [
         Occupants: "1+3",
         Cost: "●●●",
         Notes: "Many special notes",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Passenger Cars",
@@ -177,7 +177,7 @@ const passengerCarData = [
         Occupants: "1+3",
         Cost: "●●●",
         Notes: "Many special notes",
-        Book: "	HtV 251"
+        Book: "	HTV  251"
     }    
 ]
 
@@ -210,7 +210,7 @@ const sportCarData = [
         Occupants: "1+1",
         Cost: "●●●●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Sports Cars",
@@ -225,7 +225,7 @@ const sportCarData = [
         Occupants: "1+3",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Sports Cars",
@@ -240,7 +240,7 @@ const sportCarData = [
         Occupants: "1+3",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 135"
+        Book: "Arm 135"
     },
     {
         Type: "Sports Cars",
@@ -255,7 +255,7 @@ const sportCarData = [
         Occupants: "1+1",
         Cost: "●●●●●",
         Notes: "Penalty to offroading",
-        Book: "Armory 135"
+        Book: "Arm 135"
     }
 ]
 
@@ -273,7 +273,7 @@ const lightTruckData = [
         Occupants: "1+2",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Light Trucks",
@@ -288,7 +288,7 @@ const lightTruckData = [
         Occupants: "1+2",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Light Trucks",
@@ -303,7 +303,7 @@ const lightTruckData = [
         Occupants: "1+3",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Light Trucks",
@@ -318,7 +318,7 @@ const lightTruckData = [
         Occupants: "1+4",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Light Trucks",
@@ -333,7 +333,7 @@ const lightTruckData = [
         Occupants: "1+3",
         Cost: "n/a",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Light Trucks",
@@ -366,7 +366,7 @@ const vansData = [
         Occupants: "1+1",
         Cost: "●●●",
         Notes: "Has Cage",
-        Book: "HtV 251"
+        Book: "HTV  251"
     },
     {
         Type: "Vans",
@@ -381,7 +381,7 @@ const vansData = [
         Occupants: "1+12",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Vans",
@@ -396,7 +396,7 @@ const vansData = [
         Occupants: "1+7",
         Cost: "●●",
         Notes: "",
-        Book: "	Armory 138"
+        Book: "	Arm 138"
     },
     {
         Type: "Vans",
@@ -411,7 +411,7 @@ const vansData = [
         Occupants: "1+1",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Vans",
@@ -426,7 +426,7 @@ const vansData = [
         Occupants: "1+6",
         Cost: "●●●",
         Notes: "With Resources ●●●● may serve as residence",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
 ]
 
@@ -444,7 +444,7 @@ const suvData = [
         Occupants: "1+6",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "SUVs",
@@ -459,7 +459,7 @@ const suvData = [
         Occupants: "1+4",
         Cost: "●●●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "SUVs",
@@ -474,7 +474,7 @@ const suvData = [
         Occupants: "1+17",
         Cost: "●●●●",
         Notes: "●● to rent for a single night",
-        Book: "Armory 138"
+        Book: "Arm 138"
     }
 ]
 
@@ -507,7 +507,7 @@ const motorcycleData = [
         Occupants: "1+1",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Motorcycles",
@@ -522,7 +522,7 @@ const motorcycleData = [
         Occupants: "1+1",
         Cost: "●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Motorcycles",
@@ -537,7 +537,7 @@ const motorcycleData = [
         Occupants: "1+1",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Motorcycles",
@@ -552,7 +552,7 @@ const motorcycleData = [
         Occupants: "1+2",
         Cost: "●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Motorcycles",
@@ -567,7 +567,7 @@ const motorcycleData = [
         Occupants: "1+1",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Motorcycles",
@@ -582,7 +582,7 @@ const motorcycleData = [
         Occupants: "1+2",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     }
 ]
 
@@ -600,7 +600,7 @@ const personalVehicleData = [
         Occupants: "1",
         Cost: "●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Personal Vehicles",
@@ -615,7 +615,7 @@ const personalVehicleData = [
         Occupants: "1",
         Cost: "●",
         Notes: "",
-        Book: "Armory 138"
+        Book: "Arm 138"
     },
     {
         Type: "Personal Vehicles",
@@ -630,7 +630,7 @@ const personalVehicleData = [
         Occupants: "1",
         Cost: "●",
         Notes: "Can handle 50 pounds of extra cargo",
-        Book: "HtV 251"
+        Book: "HTV  251"
     },
     {
         Type: "Personal Vehicles",
@@ -645,7 +645,7 @@ const personalVehicleData = [
         Occupants: "1",
         Cost: "●",
         Notes: "Long rides are exhausting",
-        Book: "Armory 138"
+        Book: "Arm 138"
     }
 ]
 
@@ -693,7 +693,7 @@ const commercialVehicleData = [
         Occupants: "1+2",
         Cost: "●●●",
         Notes: "",
-        Book: "	Armory 140"
+        Book: "Arm 140"
     },
     {
         Type: "Commercial Vehicles",
@@ -708,7 +708,7 @@ const commercialVehicleData = [
         Occupants: "1+4",
         Cost: "●●●●",
         Notes: "Has gun ports",
-        Book: "Armory 140"
+        Book: "Arm 140"
     },
     {
         Type: "Commercial Vehicles",
@@ -723,7 +723,7 @@ const commercialVehicleData = [
         Occupants: "1+2",
         Cost: "●●●●",
         Notes: "",
-        Book: "	Armory 140"
+        Book: "Arm 140"
     },
     {
         Type: "Commercial Vehicles",
@@ -738,7 +738,7 @@ const commercialVehicleData = [
         Occupants: "-",
         Cost: "●●",
         Notes: "Must be attached to a semi tractor",
-        Book: "Armory 140"
+        Book: "Arm 140"
     },
     {
         Type: "Commercial Vehicles",
@@ -753,7 +753,7 @@ const commercialVehicleData = [
         Occupants: "*",
         Cost: "*",
         Notes: "Semi-Tractor with Semitrailer attached",
-        Book: "Armory 140"
+        Book: "Arm 140"
     },
     {
         Type: "Commercial Vehicles",
@@ -768,7 +768,7 @@ const commercialVehicleData = [
         Occupants: "1+45",
         Cost: "●●●",
         Notes: "",
-        Book: "Armory 140"
+        Book: "Arm 140"
     },
     {
         Type: "Commercial Vehicles",
@@ -783,7 +783,7 @@ const commercialVehicleData = [
         Occupants: "1+56",
         Cost: "●●●●",
         Notes: "With Resources ●●●●● may serve as residence",
-        Book: "Armory 140"
+        Book: "Arm 140"
     }
 ]
 
@@ -801,7 +801,7 @@ const constructionVehicleData = [
         "Occupants": "1",
         "Cost": "●●●●●",
         "Notes": "Arm can be used as a weapon",
-        Book: "Armory 144"
+        Book: "Arm 144"
     },
     {
         Type: "Construction Vehicles",
@@ -816,7 +816,7 @@ const constructionVehicleData = [
         "Occupants": "1",
         "Cost": "●●●●●",
         "Notes": "Knocks down subjects hit by it",
-        Book: "Armory 144"
+        Book: "Arm 144"
     },
     {
         Type: "Construction Vehicles",
@@ -831,7 +831,7 @@ const constructionVehicleData = [
         "Occupants": "1",
         "Cost": "●●●●",
         "Notes": "Knocks down subjects hit by it (ow...)",
-        Book: "Armory 144"
+        Book: "Arm 144"
     },
     {
         Type: "Construction Vehicles",
@@ -846,7 +846,7 @@ const constructionVehicleData = [
         "Occupants": "1",
         "Cost": "●●",
         "Notes": "Forks can be used as a weapon",
-        Book: "Armory 144"
+        Book: "Arm 144"
     }
 
 ]
@@ -865,7 +865,7 @@ const armoredVehicleData = [
         "Occupants": "2+11",
         "Cost": "N/A",
         "Notes": "",
-        Book: "Armory 144"
+        Book: "Arm 144"
     },
     {
         Type: "Armored Vehicles",
@@ -880,7 +880,7 @@ const armoredVehicleData = [
         "Occupants": "3+6",
         "Cost": "N/A",
         "Notes": "Armed",
-        Book: "Armory 144"
+        Book: "Arm 144"
     },
     {
         Type: "Armored Vehicles",
@@ -895,7 +895,7 @@ const armoredVehicleData = [
         "Occupants": "4",
         "Cost": "N/A",
         "Notes": "Heavily armed",
-        Book: "Armory 144"
+        Book: "Arm 144"
     }
 ]
 
@@ -913,7 +913,7 @@ const smallBoatsData = [
         "Occupants": "3",
         "Cost": "●",
         "Notes": "Extended use is exhausting",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Small Boats",
@@ -928,7 +928,7 @@ const smallBoatsData = [
         "Occupants": "1",
         "Cost": "●",
         "Notes": "Extended use is exhausting",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Small Boats",
@@ -943,7 +943,7 @@ const smallBoatsData = [
         "Occupants": "1+1",
         "Cost": "●",
         "Notes": "",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Small Boats",
@@ -958,7 +958,7 @@ const smallBoatsData = [
         "Occupants": "1+7",
         "Cost": "●",
         "Notes": "",
-        Book: "Armory 146"
+        Book: "Arm 146"
     }
 ]
 
@@ -976,7 +976,7 @@ const motorboatsData = [
         "Occupants": "1+3",
         "Cost": "●",
         "Notes": "",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Motorboats",
@@ -991,7 +991,7 @@ const motorboatsData = [
         "Occupants": "1+5",
         "Cost": "●●●",
         "Notes": "",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Motorboats",
@@ -1006,7 +1006,7 @@ const motorboatsData = [
         "Occupants": "3+2",
         "Cost": "●●●●",
         "Notes": "",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Motorboats",
@@ -1021,7 +1021,7 @@ const motorboatsData = [
         "Occupants": "1+7",
         "Cost": "●●●",
         "Notes": "With Resources ●●● may serve as a residence",
-        Book: "Armory 146"
+        Book: "Arm 146"
     }
 ]
 
@@ -1039,7 +1039,7 @@ const sailboatsData = [
         "Occupants": "1+2",
         "Cost": "●",
         "Notes": "",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Sailboats",
@@ -1054,7 +1054,7 @@ const sailboatsData = [
         "Occupants": "1+5",
         "Cost": "●●●●",
         "Notes": "With Resources ●●●● may serve as a residence",
-        Book: "Armory 146"
+        Book: "Arm 146"
     },
     {
         Type: "Sailboats",
@@ -1069,7 +1069,7 @@ const sailboatsData = [
         "Occupants": "6+6",
         "Cost": "●●●●●",
         "Notes": "With Resources ●●●●● may serve as a residence",
-        Book: "Armory 146"
+        Book: "Arm 146"
     }
 ]
 
@@ -1087,7 +1087,7 @@ const lightAircraftData = [
         "Occupants": "1+3",
         "Cost": "●●●",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     },
     {
         Type: "Light Aircraft",
@@ -1102,7 +1102,7 @@ const lightAircraftData = [
         "Occupants": "2+14",
         "Cost": "●●●●",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     },
     {
         Type: "Light Aircraft",
@@ -1117,7 +1117,7 @@ const lightAircraftData = [
         "Occupants": "1+1",
         "Cost": "●●●",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     },
     {
         Type: "Light Aircraft",
@@ -1132,7 +1132,7 @@ const lightAircraftData = [
         "Occupants": "1+1",
         "Cost": "●●●",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     }
 ]
 
@@ -1150,7 +1150,7 @@ const commercialAircraftData = [
         "Occupants": "2+10",
         "Cost": "●●●●●",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     },
     {
         Type: "Commercial Aircraft",
@@ -1165,7 +1165,7 @@ const commercialAircraftData = [
         "Occupants": "3+180",
         "Cost": "N/A",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     },
     {
         Type: "Commercial Aircraft",
@@ -1180,7 +1180,7 @@ const commercialAircraftData = [
         "Occupants": "2+6",
         "Cost": "●●●●●",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     },
     {
         Type: "Commercial Aircraft",
@@ -1195,7 +1195,7 @@ const commercialAircraftData = [
         "Occupants": "3+9",
         "Cost": "N/A",
         "Notes": "",
-        Book: "Armory 148"
+        Book: "Arm 148"
     }
 ]
 
@@ -1213,7 +1213,7 @@ const combatAircraftData = [
         "Occupants": "1",
         "Cost": "N/A",
         "Notes": "Heavily armed",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Combat Airplanes",
@@ -1228,7 +1228,7 @@ const combatAircraftData = [
         "Occupants": "2",
         "Cost": "N/A",
         "Notes": "Heavily armed",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Combat Airplanes",
@@ -1243,7 +1243,7 @@ const combatAircraftData = [
         "Occupants": "1",
         "Cost": "N/A",
         "Notes": "Heavily armed",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Combat Airplanes",
@@ -1258,7 +1258,7 @@ const combatAircraftData = [
         "Occupants": "2",
         "Cost": "●●●●●",
         "Notes": "",
-        Book: "Armory 151"
+        Book: "Arm 151"
     }
 ]
 
@@ -1276,7 +1276,7 @@ const helicopterData = [
         "Occupants": "2",
         "Cost": "●●●●",
         "Notes": "",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Helicopters",
@@ -1291,7 +1291,7 @@ const helicopterData = [
         "Occupants": "2+8",
         "Cost": "●●●●●",
         "Notes": "",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Helicopters",
@@ -1306,7 +1306,7 @@ const helicopterData = [
         "Occupants": "2+2",
         "Cost": "●●●●●",
         "Notes": "",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Helicopters",
@@ -1321,7 +1321,7 @@ const helicopterData = [
         "Occupants": "2",
         "Cost": "N/A",
         "Notes": "Heavily armed",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Helicopters",
@@ -1336,7 +1336,7 @@ const helicopterData = [
         "Occupants": "2+7",
         "Cost": "N/A",
         "Notes": "Heavily armed",
-        Book: "Armory 151"
+        Book: "Arm 151"
     },
     {
         Type: "Helicopters",

@@ -5,7 +5,7 @@ const trifleData = [
         "fullDescription": [
             "Bilefruit is a greasy, oblong fruit that hangs in the Hedge close to the ground. Past the bilefruit’s tough, waxy skin one finds a bitter meat. Eating the entire fruit allows the changeling to hide her seeming, including her Shadow, for eight hours. Her fae mien remains completely concealed, and for all intents and purposes, the character looks wholly human. Once the bilefruit is consumed, she cannot turn off this effect."
         ],
-        "Book": "CTL 209"
+        "Book": "CtL 209"
     },
     {
         "Name": "Bottlevoice",
@@ -47,7 +47,7 @@ const trifleData = [
         "fullDescription": [
             "This section of braided hair — bravely stolen from a True Fae or simply thieved from a figure (living or dead) in the Hedge — casts a powerful, though temporary, illusion upon the holder of the braid. To activate the glimmerbraid, the changeling merely needs to hold the braid in one hand and tug on it with the other. For the rest of the scene, whoever has the braid upon his person gains the benefits and drawbacks of the Fame Merit at three dots. Humans see the wielder as whatever public personality (celebrity, politician, athlete) that they most want to see at that moment. A changeling might use this herself to gain a measure of adoration and favor, or she may sneak it into some other fool’s pocket and let that person wonder why he’s suddenly mobbed in front of the club with screaming “fans.” The braid’s power works for one scene, after which is dissolves into a tangle of burnt hair (it stinks like burnt hair, too). Changelings are not affected by this, and see through the illusion without effort."
         ],
-        "Book": "CTL 209"
+        "Book": "CtL 209"
     },
     {
         "Name": "Gravenails",
@@ -87,7 +87,7 @@ const trifleData = [
         "fullDescription": [
             "This small seed, dug up out of the Hedge, allows a single bullet to do additional damage when the seed is nestled into the lead tip (usually via a hollow point reservoir, though a changeling can easily dig out a hole in the lead). When put into the bullet, the seed must be watered — only a single drop of water, or even a bit of spit, does the trick. The bullet must be used in the subsequent scene for the trifle’s effects to work. Those harmed by a stingseed bullet suffer a -1 die penalty until half of the lethal bullet damage (round down) is healed. Small plants grow from the bullet wounds, thus causing a low level of constant pain (hence the penalty). If more than one stingseed is used, the penalties stack to a maximum of -3 dice."
         ],
-        "Book": "CTL 209"
+        "Book": "CtL 209"
     },
     {
         "Name": "Sweetblood",
@@ -95,7 +95,7 @@ const trifleData = [
         "fullDescription": [
             "The blood of any dream creature fuels this trifle. The blood on its own is unpleasant to drink and provides no benefit. If, however, just before quaffing a changeling sprinkles one teaspoon of sugar upon it and then drinks it, the trifle’s powers come into effect. For the following scene, the character gains the 9 again rule on all Socialize rolls. She finds her tongue loose, and others find her manner pleasing. If she already benefits from this rule (such as from a Contract or blessing), she gains an extra die to such rolls."
         ],
-        "Book": "CTL 209"
+        "Book": "CtL 209"
     },
     {
         "Name": "Thimbleblack",
@@ -103,7 +103,7 @@ const trifleData = [
         "fullDescription": [
             "It’s said that the True Fae can, when wearing a thimble, craft vast artifice spun from lies and myth. This pewter thimble, painted black, demands that a single drop of the user’s blood be drizzled into its well. It doesn’t grant the user the full measure of the Fae’s power, but grants her a small portion of it. She doesn’t wear it upon a finger, however. Once the blood is in the thimble, the user places the trifle beneath her tongue. Upon activation, the thimble allows the character to add her Subterfuge score to any Crafts or Computer rolls she makes during the following scene (without speaking, she is effectively “lying” to the devices to make them comply with her wishes). After the scene is up, the thimble turns to metallic dust that tastes of moldy pennies."
         ],
-        "Book": "CTL 209"
+        "Book": "CtL 209"
     },
     {
         "Name": "Torchfly",
@@ -119,7 +119,7 @@ const trifleData = [
         "fullDescription": [
             "The True Fae collect strange baubles made of glass — delicate things made of odd spheres and discordant colors. A changeling can take one of these things and activate the trifle’s power by breaking it beneath his foot. During the next scene, the character gets one free “fall” that causes no damage at all, up to 100 yards (if more than 100 yards are fallen, the character incurs full terminal velocity damage). The character doesn’t land on her feet, and may require a Stamina roll to be able to act immediately after."
         ],
-        "Book": "CTL 210"
+        "Book": "CtL 210"
     },
     {
         "Name": "Twistring",
@@ -135,7 +135,7 @@ const trifleData = [
         "fullDescription": [
             "A single scratch from this hooked Hedge thorn (requiring a successful “touch” attack) causes no damage to the victim, but it steals his voice for a single scene. He can only communicate in breathy whispers barely heard. Upon a successful attack, the thorn disintegrates into an oily cellulose paste."
         ],
-        "Book": "CTL 210"
+        "Book": "CtL 210"
     },
     {
         "Name": "Waspshot",
@@ -151,7 +151,7 @@ const trifleData = [
         "fullDescription": [
             "This dead branch or brittle twist of vine helps a changeling achieve a significant boost when making a jump. The trifle must be taken from somewhere higher up in the Hedge or in Faerie — at least 50 yards up (perhaps cresting the top of the tangled Thorns or some tree that clings to an old, decrepit Fae tower). When the welkinstick is snapped in half, the distance achieved is doubled in the changeling’s next jump roll (which must be made within three turns of breaking the stick). In a vertical jump, the changeling gains two feet per success, and in a broad standing jump, she crosses four feet per success. In a running jump, the character can cross a number of feet equal to twice her Size per success rolled. All other jumping rules apply (see “Jumping,” p. 66, the World of Darkness Rulebook)."
         ],
-        "Book": "CTL 210"
+        "Book": "CtL 210"
     }
 ]
 
@@ -175,7 +175,7 @@ const tokenData = [
         "fullDescription": [
             "This token appears to be a playing card, usually an Ace or a Queen. When taped over the interior lock of a closed door and activated, this token makes it difficult to pick any of the locks attached to that door (even if the card is taped over the knob lock, the deadbolt lock above it gains the advantage as well). Attempts to pick the lock of that door are made at a -2 dice modifier, and the presence of this token also removes the 10 again rule from any lockpicking attempt rolls. This token doesn’t work on security systems, only physical locks (though rumors of a higher-dot token exist that do confer the penalty against attempts to crack security systems). The protection lasts until the user or any other character opens the door."
         ],
-        "Book": "CTL 202"
+        "Book": "CtL 202"
     },
     {
         "Name": "The Bone Comb",
@@ -244,7 +244,7 @@ const tokenData = [
         "fullDescription": [
             "When staring into this dingy mirror whose glass is cracked and flecked with red rust, a changeling is able to see the face of his fetch and communicate briefly with him. Upon a successful activation, the fetch’s face appears, and the two can have a conversation capable of lasting a num- ber of turns equal to the user’s Willpower score. (The fetch becomes immediately aware that his changeling “twin” is looking upon him.) Spending Willpower extends this by one minute per point spent."
         ],
-        "Book": "CTL 202"
+        "Book": "CtL 202"
     },
     {
         "Name": "The Cursing Box",
@@ -289,7 +289,7 @@ const tokenData = [
             "This token is an icon representing a game of chance or skill, stolen from Faerie. The changeling must place this token somewhere inside her car. The token might appear to normal eyes as a pair of ratty pink dice dangling from the rearview, a scuffed-up eight-ball topping the gearshift or an old air freshener shaped like a playing card.",
             "When used, Driver’s Little Helper grants the changeling (who must be driving) a number of small bonuses. First, the token allows the car to run without expending gasoline or any other fuel. Second, the token confers a small bonus to the changeling’s Drive rolls (+1). And third, the token allows the changeling to cut his driving time by about a third (so, a journey that might take 30 minutes now takes 20, instead). Driving time isn’t cut by supernaturally speeding up — but it just seems that the changeling always makes propitious turns, finds sudden short- cuts and discovers that she’s “lucky enough” to hit all the green lights. This lasts for one hour."
         ],
-        "Book": "CTL 203"
+        "Book": "CtL 203"
     },
     {
         "Name": "Heavenly Stem",
@@ -336,7 +336,7 @@ const tokenData = [
             "The two-dot version is the equivalent of a Kevlar vest, and the three-dot version is the equivalent of a flak jacket (see the World of Darkness Rulebook, p. 170). Though the armor appears as elaborate leather, wood, metal, ice or other armor in its true mien, the Mask disguises the armor as more modern-seeming protective clothing (a soldier’s flak jacket, hockey pads or like). Hedgespun armor cannot be mistaken for ordinary clothes.",
             "Hedgespun clothes can also be crafted by the Lost, not simply discovered. This requires an appropriate Crafts roll, and must be performed in the Hedge. The changeling must make a small donation of her own energy to “finish” the garment (represented by the experience cost.)"
         ],
-        "Book": "CTL 203"
+        "Book": "CtL 203"
     },
     {
         "Name": "The Jackdaw Trinket",
@@ -401,7 +401,7 @@ const tokenData = [
         "fullDescription": [
             "Some Murmuring Coins are taken from Faerie — the strange ducats that the True Fae use as money make for easy pocketing if one has fast hands. Others are pennies, dimes, quarters or other coins taken from the pockets of dead men or changeling corpses found in the Hedge. The Coin, in the real world, looks grungy and feels greasy, but otherwise appears as any normal coin. The changeling must keep the Murmuring Coin touching her skin somewhere to use it — some keep it in a shoe, under the tongue or in a pocket so it can be held tightly in one’s palm. At the time of purchasing something with money, the changeling activates the token. She can, for this single transaction, buy the item as if she had one more Resources dot than usual. (For instance, if the user possesses Resources 1, but is attempting to buy a light revolver at Resources 2, she can now do so.) The magic of the token is expressed in various ways: the merchant suddenly drops the price “for a friend,” or maybe he’s willing to barter down to “clear out inventory.”"
         ],
-        "Book": "CTL 204"
+        "Book": "CtL 204"
     },
     {
         "Name": "Visage of Glory",
@@ -467,7 +467,7 @@ const tokenData = [
         "fullDescription": [
             "It appears as nothing more than a simple sewing needle tucked away in a tiny velvet envelope. For those who know its power, Homespinner’s Needle can bring great advantage. To use it, a character simply conceals the token beneath something in a room — beneath a rug, under a couch cushion, even beneath the heel of her boot. When activated, the Needle gives the room a homely, warm glow — a faintly perceived sense of comfort. Even the dankest prison cell can be made to feel restful and serene for a short time. The advantage is that any who enter the room have +1 to any Presence or Manipulation rolls made while within the needle-affected room (they feel cordial, hospitable, even gregarious). The changeling who activated the token gains +2 to her Presence and Manipulation rolls. The Needle’s effects last for one scene."
         ],
-        "Book": "CTL 204"
+        "Book": "CtL 204"
     },
     {
         "Name": "Hollow Heart",
@@ -533,7 +533,7 @@ const tokenData = [
         "fullDescription": [
             "This handheld Lantern has neither candle nor bulb within. In the spot where the light source normally sits is a small jar, and within this jar are two reagents: a handful (about a half-dozen) of crushed-up fireflies and seven hairs plucked from the user’s own head. (Some say those hairs carry the echoes of memory, necessary for the attunement process.) The user attunes this Lantern by spending one Willpower point and concentrating for a single turn on an individual she has met in the past. Now, when activated, the Lantern will glow and buzz when that individual is within a half-mile radius, providing ample warning to the changeling (though some use this token to verify their accuracy in a tracking attempt — if it glows, then she knows they’re at least getting close to their prey). Activation lasts for a number of hours equal to the user’s Willpower score. The Lantern of Ill Omen can be re-attuned once per day to a new target, but each time this costs another Willpower point (and a turn to concentrate). The Lantern can be attuned to a True Fae, though it can only be attuned toward a Fae that the user has met previously, and this costs two Willpower points instead of one. Alternately, if the user tunes the Lantern to her fetch, no Willpower expenditure is necessary. Note that the Lantern must be within 10 feet of the character to work."
         ],
-        "Book": "CTL 204"
+        "Book": "CtL 204"
     },
     {
         "Name": "Periwig of Orators",
@@ -576,7 +576,7 @@ const tokenData = [
         "fullDescription": [
             "This token is a ribbon taken from a human’s loved one — a ribbon from a little girl’s pigtails, from a gift given to a boy, clipped from a wife’s negligee, or so on. When tied around the barrel of a fire-arm and activated, the Ribbon of Nevermiss provides the shooter with a bit of luck and keen insight. The shooter’s next shot can effectively double the ranges associated with that particular weapon. If its ranges were, for instance, 20/40/80, they are now 40/80/160 for the purposes of that shot."
         ],
-        "Book": "CTL 205"
+        "Book": "CtL 205"
     },
     {
         "Name": "Ashlight",
@@ -619,7 +619,7 @@ const tokenData = [
         "fullDescription": [
             "This old porcelain doll in her ratty red dress has one good eye, and one eye that is a cat’s eye marble. Upon activation, a character can put this doll anywhere, and for the following 12 hours, is able to see through the token’s eyes as if they were her own. She must close her own eyes to see through the doll’s. The doll’s eyes literally move left and right, up and down, as the changeling scans the token’s field of vision. Whatever the doll is capable of seeing, the character can see when concentrating. Once the 12 hours are up, the doll cannot be reactivated until two full days (48 hours) have passed. (A changeling cannot end the doll’s perceptive power prematurely.)"
         ],
-        "Book": "CTL 205"
+        "Book": "CtL 205"
     },
     {
         "Name": "Dead Man’s Boots",
@@ -640,7 +640,7 @@ const tokenData = [
         "fullDescription": [
             "These shoes, taken from the feet of a corpse found in the Hedge, allow a changeling to double her Stealth score when wearing them. This effect lasts as long as the user has Willpower (see the item’s drawback) or until she chooses to end it. The shoes feel ill fitting when worn, and appear dirty or scuffed."
         ],
-        "Book": "CTL 205"
+        "Book": "CtL 205"
     },
     {
         "Name": "Deadman's Mask",
@@ -706,7 +706,7 @@ const tokenData = [
         "fullDescription": [
             "This item may appear as a battered wardrobe, steamer trunk or other well-used receptacle for clothing. The Wardrobe always possesses a lock, and its key hangs from a chain attached to the object. The key will not turn in the lock, however, unless the token is activated. Its owner may command it to produce a new Hedgespun outfit (p. 203) once per day. The garments provided roughly suit the changeling’s demands (“a courtly Winter gown,” “something in dark leather”), but the Wardrobe cannot create protective garments sturdy enough to count as armor."
         ],
-        "Book": "CTL 206"
+        "Book": "CtL 206"
     },
     {
         "Name": "Hoarfrost Spine",
@@ -727,7 +727,7 @@ const tokenData = [
         "fullDescription": [
             "This thorn, broken off from somewhere in the Hedge where the briar is glazed with frost or encased in ice, can help a changeling succeed in hand-to-hand combat. The spiny thorn must be worn on a piece of jewelry or held somewhere on the changeling’s body. When the token is activated, for the remainder of the scene the changeling becomes surprisingly slippery to those who want to harm him. He gains +1 to his persistent Defense against all in- coming Brawl attacks. Moreover, his Defense doubles when any grapple attacks are made against him. If a grapple at- tack is successful against him in this scene, the changeling’s “break free” roll does not subtract the attacker’s Strength from it. To activate this token, the changeling must grip the thorn in her hand for a full turn and feel the cold crawl through her veins (it feels like a chilled saline injection)."
         ],
-        "Book": "CTL 206"
+        "Book": "CtL 206"
     },
     {
         "Name": "Minister Viburnum’s Clepsydra",
@@ -771,7 +771,7 @@ const tokenData = [
         "fullDescription": [
             "When inactive, it looks like some kind of misshapen grotesque monster carved out of a fist-sized hunk of coal. The idol is an ill-fitting amalgamation of monster or animal parts. Each one is different. Curling ram horns might sit on the side of a toad’s squat face, all perched upon a round belly overlooking a priapic lower torso. When active, the small coal statue animates into a grotesque hobgoblin. The hobgoblin has one function, and that function is to bite. The token’s bite, however, causes potent hallucinations, per a strong psychoactive drug. Those bitten with by the hobgoblin suffer a three-dice penalty to all Traits including Defense and Initiative. The victim suffers confusing hallucinations both auditory and visual, giddying and terrifying. Effects cannot be resisted, but a victim can attempt success on a Wits + Empathy roll (with the -3 dice in place) to recognize that he is indeed on a drug trip, and that the people on the street aren’t all monsters or that the parking meters aren’t laughing at him and trying to steal his blood (or whatever other hallucinations assail him). The effects of this “trip” persist for (8 minus the victim’s Stamina) hours. The hobgoblin can only remain animated for a number of turns equal to the user’s Clarity (or equivalent Humanity, Morality or Harmony) score. The hobgoblin has only one direction it will accept, which is to bite a particular person (who must be somewhere in the user’s range of sight). Some changelings possess such creatures so that they themselves can experience the psychoactive bite. Stats for the hobgoblin can be found below in the sidebar following."
         ],
-        "Book": "CTL 206"
+        "Book": "CtL 206"
     },
     {
         "Name": "Bleakmoor Black Pony",
@@ -839,7 +839,7 @@ const tokenData = [
         "fullDescription": [
             "This token needn’t be an actual cudgel — any blunt instrument is appropriate, from a length of rust-encrusted pipe to a wooden Louisville slugger. The changeling activates it upon receiving a successful hit that confers damage to the target. At the moment of activation, nothing happens beyond the normal bashing damage. However, one hour later, the area that received the hit begins to bruise and swell suddenly. It turns mottled red and purple, and causes terrible pain. The bump because to rupture within minutes, spilling out several insects or bugs — a small cloud of black flies, a dozen spiders or maybe a passel of centipedes. This causes such intense pain that, while no actual wounds occur (in addition to those received from the bashing hit), the victim suffers a dice penalty equal to the token user’s Wyrd score (maximum -5). (If a non-changeling uses the token, assume that the penalty is equal to that user’s Resolve score, again with a maximum penalty of -5.) The target suffers this penalty for a number of hours equal to the token user’s Willpower score. The Bug Cudgel’s power can be used on a victim only once per day, although it can still be used for straightforward damage, of course."
         ],
-        "Book": "CTL 207"
+        "Book": "CtL 207"
     },
     {
         "Name": "The Curious Paw",
@@ -860,7 +860,7 @@ const tokenData = [
         "fullDescription": [
             "This talisman, which may hang from an expensive chain or from a ratty piece of fraying rope, always comes from some kind of freak-of-nature animal found in the Hedge or within Faerie. The animal may have been diseased. It might’ve been some kind of mutant. Or maybe it was an oddly exceptional creature (or even an animal forged of dying dreams). The Curious Paw doesn’t always have to be a paw, either, any part of the aberrant animal will do. Examples include the whole carcass of a three-legged frog, a deer’s hoof mottled with shriveled red cysts or several feathers plucked from an abnormally intelligent and talkative magpie. Activation requires the user to stroke the amulet three times. If activation is successful, the talisman grants the changeling and his motley an additional measure of luck for the remainder of the scene, allowing them access to the 9 again rule on all rolls except Glamour-based rolls or Contract rolls. Those motley members hoping to gain the bonus must be within the user’s eyesight to receive this advantage."
         ],
-        "Book": "CTL 207"
+        "Book": "CtL 207"
     },
     {
         "Name": "Promise Stone",
@@ -904,7 +904,7 @@ const tokenData = [
         "fullDescription": [
             "This short, swallow-tailed banner seems to be nothing more than a swatch of burlap or sackcloth marked with an ugly swipe of red paint. When unfurled and waved about (which takes one full turn and may be done in the changeling’s hand or at the end of a long pole), the Blood Pennon grants the changeling and his motley powerful battle prowess throughout the remainder of the scene. For the rest of the scene, all members of the changeling’s motley — no matter where they are — gain a number of combat bonuses. They each find that their Defense is doubled, they have +4 to their Initiative modifiers and they can ignore any wound penalties. Moreover, any all-out attacks become more effective, providing each of the changelings with an additional two bonus dice on such attacks (in using an all-out attack, the changeling still forfeits his Defense, however)."
         ],
-        "Book": "CTL 208"
+        "Book": "CtL 208"
     },
     {
         "Name": "Dawnspear",
@@ -996,7 +996,7 @@ const tokenData = [
         "fullDescription": [
             "In Faerie, the True Fae consider it lucky to place a knife beneath the cradle of a sleeping infant (one abducted from the human world). This knife blesses their new servant, assuring that the child will have the good health and fortitude necessary to endure the many tortures and strange labors the slave will suffer as though adolescence and adulthood (until the creature is spent, of course). From time to time, a changeling may abscond with one of these knives, bringing it back to the world. In this world, it appears as nothing more than a dull knife with a wooden handle, its blade nicked. However, when activated, the weapon provides a key benefit that remains active for the remainder of the scene. Every time the weapon causes lethal damage, the victim cries out, and the token’s wielder can choose to heal one lethal point of damage or three bashing damage (this token will not heal aggravated wounds). If for some reason the victim is somehow stopped from crying out (he’s mute, his mouth is taped shut, he’s unconscious), the power does not work. An exceptional success on an attack roll increases the healing to two points of lethal damage or five bashing."
         ],
-        "Book": "CTL 208"
+        "Book": "CtL 208"
     }
 ]
 
@@ -1204,7 +1204,7 @@ const privileTokenData = [
         "fullDescription": [
             "The Aspersorium is a small, fist-sized container, appearing usually as a small pail or cup. Most such cups feature ornate filigree or scrollwork, and are generally made of metal (silver, brass, pewter), though a few are glass and are instead rimmed with metal ornamentation. The changeling puts any kind of water inside of the cup and whispers a few prayers offered to the weave and weft of Fate itself, asking for a moment of lucidity and perspective. The water, now “blessed,” can be flicked onto or sprinkled upon another character’s brow. Upon activation, the blessed water helps restore that person to some measure of sanity. If that person possesses any mild derangements, those derangements disappear for a single scene. If that person possesses any severe derangements, then those derangements downgrade to their mild counterparts (i.e., Paranoia becomes Suspicion) for the scene. The Aspersorium also grants the affected person +1 bonus to any Perception rolls he makes during the rest of the day (until he sleeps)."
         ],
-        "Book": "CTL 292"
+        "Book": "CtL 292"
     },
     {
         "Name": "Black Apple Pendant",
@@ -1273,7 +1273,7 @@ const privileTokenData = [
         "fullDescription": [
             "The violet — that small, purple flower with the sweet smell — is sometimes considered a symbol of one’s humility and trustworthiness. That is, at least, how the Magistrates hope it will be perceived, and this token goes a good way toward ensuring that. This small flower, preserved in a thin coating of wax, is a token that one pins to his clothing (or skin if he’s willing to suffer a pinch and a few beads of blood). When activated, the Violet gives off a pleasing aroma that seems to linger around the Magistrate. Those who are within 50 yards must succeed on a Resolve + Composure roll, and must achieve successes that equal or surpass the Magistrate’s Wyrd score. Failure to do so indicates that the Magistrate appears — as the flower suggests — humble, and ultimately trustworthy. He gains +3 Social dice against those affected. The effects of this token last for the remainder of the scene."
         ],
-        "Book": "CTL 302"
+        "Book": "CtL 302"
     },
     {
         "Name": "Bugbear’s Mask",
@@ -1295,7 +1295,7 @@ const privileTokenData = [
         "fullDescription": [
             "This token appears to be like any rubbery Halloween mask that one could buy for $10 down at the Wal-Mart or corner store. Whether the mask is the visage of a bandage-swaddled mummy or the angry face of a Frankenstein monster, the resultant supernatural effect is still the same. When the mask is worn, the changeling chooses a single target and meets the victim’s eyes. The victim gains the Phobia derangement (mild), with the mask-wearer as the focus of the derangement’s dread (see the World of Darkness Rulebook, p. 97, for the effects of this derangement). The victim literally sees the mask as real flesh and actual bone, its grisly countenance appearing as wretched as the human’s imagination can make it (often manifesting as something the person was already afraid of, whether that be a face of crawling spiders or the countenance of a violent alcoholic father). The derangement lasts for the rest of the scene. This token can only be used once per day."
         ],
-        "Book": "CTL 316"
+        "Book": "CtL 316"
     },
     {
         "Name": "Courier's Winged Sash",
@@ -1339,7 +1339,7 @@ const privileTokenData = [
         "fullDescription": [
             "Every diviner within the College of Worms is expected to possess a divining tool suited only to her. She chooses the nature of the tool: a pouch of runes, a cup of pigeon bones, a hand-drawn Tarot deck, a scrying mirror made from an old Maybelline compact. Upon joining the order, the pledge to become a diviner connects this instrument to the strands of fate, if only with a few perfunctory threads, enough to grant the token a small and relatively safe measure of power (anything greater would wreak havoc upon the poor changeling who carried it). The token’s power is passive. The changeling uses the device (tossing the bones, reading the cards or whatever mechanical action one normally performs to “use” the diving tool), and upon activation receives no insights at the time of use. The insight comes later. When about to make a roll, the player determines that the insight is finally revealed to the character and helps grant her feelings (be they instincts or an odd déjà vu sensation), which translate to bonuses on that roll. The character can take a number of dice equal to the character’s Wyrd score and add them to that roll. However, this must be done within a number of hours equal to the changeling’s Clarity score. If she goes beyond that time limit, she cannot access the hidden insight provided by her divining tools, for they are lost. The Diviner’s Instrument is a fickle thing, much as fate itself, and can only be used once per game session."
         ],
-        "Book": "CTL 296"
+        "Book": "CtL 296"
     },
     {
         "Name": "The False Face of Truth",
@@ -1361,7 +1361,7 @@ const privileTokenData = [
         "fullDescription": [
             "This token always comes in the shape of a small badge or pin, around two inches in diameter, made in the shape of a disturbingly inhuman-looking doll face that appears to be made from painted porcelain. The face’s mouth is slightly open. If the changeling touches a drop of blood or a strand of hair to the face, the changeling using it instantly knows if this person is a fetch, a changeling, or a mortal. This token is one of the very few ways to tell a fetch from an ordinary mortal."
         ],
-        "Book": "LoS 124."
+        "Book": "LoS 124"
     },
     {
         "Name": "Gildwheel",

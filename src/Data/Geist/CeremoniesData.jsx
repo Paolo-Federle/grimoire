@@ -1,0 +1,331 @@
+export const CeremoniesData = [
+    {
+        "Name": "Call upon Huginn",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Intelligence",
+        "Summary": "Send a raven as a messenger to another Sin-Eater",
+        "Book": "DA 170"
+    },
+    {
+        "Name": "Cigarette Dawn",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Ask questions of the Living about the Dead",
+        "Book": "BotD 70"
+    },
+    {
+        "Name": "Final Vision",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "Allow to see the last turn (6 seconds) of life of a corpse by looking in his eyes.",
+        "Book": "GTS 151"
+    },
+    {
+        "Name": "Finding",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Locate a person or a corpse with a piece of their body.",
+        "Book": "GTS 151"
+    },
+    {
+        "Name": "Krewe Binding",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Form a crew or introduce a new member to a crew.",
+        "Book": "GTS 152"
+    },
+    {
+        "Name": "One Last Song",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Composure",
+        "Summary": "Help a companion live the last moments of it's life to the fullest",
+        "Book": "BotD 71"
+    },
+    {
+        "Name": "Pass On",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Release a willing ghost to it's final rest after it's Anchors have been resolved (Must be done in the Underworld)",
+        "Book": "GTS 152"
+    },
+    {
+        "Name": "Reverse Bargain",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Create a Sin-eater by forcing a Geist to enter the corpse of a human. The newly created Sin-eater have 1 point of synergy, 3 dots of manifestation and 3 keys.",
+        "Book": "GTS 243"
+    },
+    {
+        "Name": "Speaker of the Dead",
+        "Rank": "•",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "By holding the hand of a ghost, the sin-eater let that ghost speak by his mouth.",
+        "Book": "GTS 153"
+    },
+    {
+        "Name": "Coll upon Muninn",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Intelligence",
+        "Summary": "Look through recent memories of a raven",
+        "Book": "DA 171"
+    },
+    {
+        "Name": "Distant Vision",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "By looking in a mirror, the sin-eater can see the location of a person or a ghost.",
+        "Book": "GTS 153"
+    },
+    {
+        "Name": "Distant Voices",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Allow to send a message of 12 words and receive an answer of 12 words to someone, living or dead.",
+        "Book": "GTS 154"
+    },
+    {
+        "Name": "Faces in Smoke",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Reveal the image of the dead in Cigarette Smoke",
+        "Book": "BotD 71"
+    },
+    {
+        "Name": "Lifting the Scales",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Allow a mortal to perceive Twilight and ghosts with Ghost sight and giving them the power of Death Stains.",
+        "Book": "GTS 154"
+    },
+    {
+        "Name": "Listening to the Spectral Howl",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "Allow a sin-eater to find a particular type of ghost with a map. The type of ghost may be, by example, a ghost in need of vengeance, in need of protection, etc.",
+        "Book": "GTS 155"
+    },
+    {
+        "Name": "Message from Beyond",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Passes on Messages from a Ghost to intended Target",
+        "Book": "BotD 72"
+    },
+    {
+        "Name": "Mortis Mask",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Dexterity",
+        "Summary": "Falsify the cause of death of a corpse (A drowned corpse may look like he's been shot by a gun instead)",
+        "Book": "GTS 155"
+    },
+    {
+        "Name": "Plasmic Manifestation",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Create a plasm \"thing\" that take the look of the ghost and allow it to communicate with the livings.",
+        "Book": "GTS 156"
+    },
+    {
+        "Name": "Spectral Photography",
+        "Rank": "••",
+        "Pool (plus Psyche)": "Dexterity",
+        "Summary": "Capture pictures of ghosts on a place suspected of hauntings",
+        "Book": "GTS 157"
+    },
+    {
+        "Name": "Dead Voices on Air",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "Capture a ghost, even one in the twilight, on still or moving film.",
+        "Book": "GTS 157"
+    },
+    {
+        "Name": "Dedicate Charm",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Associate an appropriate Key with the Threshold of an un-Dedicated Charm (Memento 1)",
+        "Book": "GTS 158"
+    },
+    {
+        "Name": "The Devil's Bargen",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "Transfer time from one person to another, with horrific side effects.",
+        "Book": "The House Always Wins 4"
+    },
+    {
+        "Name": "Ease the Path",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Heal a subject of disease, toxins and give perfect health for one month, then subject dies",
+        "Book": "GotU 39"
+    },
+    {
+        "Name": "Finding the Crossroads",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "Divine a nearby location at which someone will soon die.",
+        "Book": "GTS 159"
+    },
+    {
+        "Name": "Funerary Tools",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Create an item to use in Twilight, with possibility of taking it to the Depths",
+        "Book": "BotD 73"
+    },
+    {
+        "Name": "Lemure’s Lure",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Make a location highly attractive to ghosts, likely causing a temporary haunting of the area.",
+        "Book": "GTS 159"
+    },
+    {
+        "Name": "Loosen the Coil",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Temporarily allow a mortal to project as a ghost.",
+        "Book": "GTS 160"
+    },
+    {
+        "Name": "Moment of Absolution",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Wits",
+        "Summary": "Receive explanation of why an Anchor is an Anchor.",
+        "Book": "BotD 73"
+    },
+    {
+        "Name": "Plumbing the Depths",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Intelligence",
+        "Summary": "See memories of bonded Geist; must continually roll to avoid gaining derangement while searching.",
+        "Book": "GTS 161"
+    },
+    {
+        "Name": "Quicken the Dead",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Bind a ghost to a body, creating a zombie.",
+        "Book": "GTS 161"
+    },
+    {
+        "Name": "Reading the Echoes",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Can get impressions from the past history of an object.",
+        "Book": "GTS 163"
+    },
+    {
+        "Name": "Warding Circle",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Enchant a circle to be impervious to ghosts, and potentially other supernatural creatures as well.",
+        "Book": "GTS 163"
+    },
+    {
+        "Name": "Witness the End",
+        "Rank": "•••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "See a significant death that will happen within a month",
+        "Book": "DA 171"
+    },
+    {
+        "Name": "Bind Anchor",
+        "Rank": "••••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Create an Anchor for a ghost, even one currently in the Underworld",
+        "Book": "GTS 164"
+    },
+    {
+        "Name": "Danse Macabre",
+        "Rank": "••••",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Reminds participants of their own morality. Could create Ghosts in the Underworld without anchors",
+        "Book": "BotD 74"
+    },
+    {
+        "Name": "Ghost Drinker",
+        "Rank": "••••",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Drink either the Ghost's knowledge or it's power. Gain truthful yes/no answers or a bump to Physical Traits",
+        "Book": "BotD 75"
+    },
+    {
+        "Name": "Ghostly Guardian",
+        "Rank": "••••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Bind a ghost to one of it's Anchors as a protector",
+        "Book": "GTS 164"
+    },
+    {
+        "Name": "Mending the Mortal Coil",
+        "Rank": "••••",
+        "Pool (plus Psyche)": "Intelligence",
+        "Summary": "Heal a target of wounds at the cost of plasm.",
+        "Book": "GTS 165"
+    },
+    {
+        "Name": "Warding the Household",
+        "Rank": "••••",
+        "Pool (plus Psyche)": "Dexterity",
+        "Summary": "As Warding Circle, but potentially for an entire building.",
+        "Book": "GTS 165"
+    },
+    {
+        "Name": "Crash the Gates",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Stamina",
+        "Summary": "Transform body into an open Avernian Gate connected to a random point in the Depths.",
+        "Book": "BotD 76"
+    },
+    {
+        "Name": "Create Deathly Passage",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Open or reopen an Avernian Gate",
+        "Book": "GTS 166"
+    },
+    {
+        "Name": "Dumb Supper",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Makes the Twilight and material worlds one and the same for all ghosts in a given room, for a short time, allowing conventional interaction.",
+        "Book": "GTS 166"
+    },
+    {
+        "Name": "Fetter’s Binding",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Resolve",
+        "Summary": "Bind a ghost to it's last Anchor as a Fetter with one of it's Numia (Memento 3)",
+        "Book": "GTS 167"
+    },
+    {
+        "Name": "Sepulchral Gateway",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Intelligence",
+        "Summary": "Allows entry from one Avernian Gate and exit through another, without passage through the Underworld.",
+        "Book": "GTS 167"
+    },
+    {
+        "Name": "Spectral Captivity",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Presence",
+        "Summary": "Binds a ghost inside a room or container, from which it has no power to escape.",
+        "Book": "GTS 168"
+    },
+    {
+        "Name": "UnBinding",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Intelligence",
+        "Summary": "Sever a geist from a Sin-Eater, ending the bargain; causes significant discord.",
+        "Book": "GTS 244"
+    },
+    {
+        "Name": "Wings of the Moth",
+        "Rank": "•••••",
+        "Pool (plus Psyche)": "Manipulation",
+        "Summary": "Binds a ghost to a body, effectively returning them to mortality, for one week; at the end of this time, the new body is killed again, and one of their anchors is destroyed.",
+        "Book": "GTS 169"
+    }
+]

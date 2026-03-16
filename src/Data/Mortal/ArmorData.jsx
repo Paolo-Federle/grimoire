@@ -8,7 +8,7 @@ const armorData = [
         Speed: -3,
         Cost: "•••••",
         Description: "Once explosion is absorbed, drops to 2/3",
-        Book: "Armory 175"
+        Book: "Arm 175"
     },
     {
         Armor: "Bulletproof Vest",
@@ -19,7 +19,7 @@ const armorData = [
         Speed: 0,
         Cost: "•••",
         Description: "Bulletproof",
-        Book: "Armory 175"
+        Book: "Arm 175"
     },
     {
         Armor: "Bulletproof Vest Accessories",
@@ -30,7 +30,7 @@ const armorData = [
         Speed: 0,
         Cost: "••",
         Description: "Covers a spot not armored by Vest; only applies against called shots against covered area",
-        Book: "Armory 175"
+        Book: "Arm 175"
     },
     {
         Armor: "Chainmail",
@@ -52,7 +52,7 @@ const armorData = [
         Speed: -1,
         Cost: "••",
         Description: "",
-        Book: "Armory 176"
+        Book: "Arm 176"
     },
     {
         Armor: "Flak Jacket",
@@ -74,7 +74,7 @@ const armorData = [
         Speed: 0,
         Cost: "•",
         Description: "Quasi-bulletproof",
-        Book: "Armory 177"
+        Book: "Arm 177"
     },
     {
         Armor: "Full Riot Gear",
@@ -96,7 +96,7 @@ const armorData = [
         Speed: -1,
         Cost: "••••",
         Description: "Bulletproof; immune to Armor Piercing",
-        Book: "Armory 177"
+        Book: "Arm 177"
     },
     {
         Armor: "Kevlar Jacket (Thin)",
@@ -140,7 +140,7 @@ const armorData = [
         Speed: 0,
         Cost: "",
         Description: "",
-        Book: "Armory 177"
+        Book: "Arm 177"
     },
     {
         Armor: "Lorica Segmentata",
@@ -151,7 +151,7 @@ const armorData = [
         Speed: -2,
         Cost: "••••",
         Description: "",
-        Book: "Armory 177"
+        Book: "Arm 177"
     },
     {
         Armor: "Plate Armor",
@@ -184,7 +184,7 @@ const armorData = [
         Speed: -1,
         Cost: "•",
         Description: "",
-        Book: "Armory 177"
+        Book: "Arm 177"
     }
 ]
 
@@ -195,7 +195,7 @@ const shieldData = [
         Strength: "-",
         Cost: "••••",
         Description: "Cover (Durability 5, Size 7, Structure 12)",
-        Book: "Armory 179"
+        Book: "Arm 179"
     },
     {
         Shield: "Ballistic Shield",
@@ -203,7 +203,7 @@ const shieldData = [
         Strength: "3",
         Cost: "•••",
         Description: "Adds significant penalty to hit with ranged weapons; armor-piercing ranged weapons penetrate without problem",
-        Book: "Armory 178"
+        Book: "Arm 178"
     },
     {
         Shield: "Improvised Shield",
@@ -211,7 +211,7 @@ const shieldData = [
         Strength: "Variable",
         Cost: "Variable",
         Description: "",
-        Book: "Armory 179"
+        Book: "Arm 179"
     },
     {
         Shield: "Medieval Shield",
@@ -219,7 +219,7 @@ const shieldData = [
         Strength: "3",
         Cost: "••",
         Description: "",
-        Book: "Armory 179"
+        Book: "Arm 179"
     },
     {
         Shield: "Riot Shield",
@@ -227,7 +227,7 @@ const shieldData = [
         Strength: "2",
         Cost: "••",
         Description: "Add full defense against thrown attacks",
-        Book: "Armory 179"
+        Book: "Arm 179"
     },
     {
         Shield: "Riot Shield (electrified)",
@@ -235,7 +235,7 @@ const shieldData = [
         Strength: "2",
         Cost: "•••",
         Description: "	Add full defense against ranged attacks; stun anyone touched by the shield",
-        Book: "Armory 179"
+        Book: "Arm 179"
     },
     
 ]

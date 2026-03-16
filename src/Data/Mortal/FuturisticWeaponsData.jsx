@@ -9,7 +9,7 @@ export const futuristicWeaponsData = [
         "Clip": "n/a",
         "Cost": "••",
         "Special": "Vibrates through particles; ignores Durability",
-        "Book": "MirlM 11"
+        "Book": "MirIM 11"
     },
     {
         "Type": "Autoloaders",
@@ -21,7 +21,7 @@ export const futuristicWeaponsData = [
         "Clip": "17+1",
         "Cost": "•••",
         "Special": "",
-        "Book": "MirlM 11"
+        "Book": "MirIM 11"
     },
     {
         "Type": "Melee weapon",
@@ -33,7 +33,7 @@ export const futuristicWeaponsData = [
         "Clip": "n/a",
         "Cost": "••",
         "Special": "Grants the wielder a +2 Strength when worn",
-        "Book": "MirlM 11"
+        "Book": "MirIM 11"
     },
     {
         "Type": "Ranged Weapon",
@@ -45,7 +45,7 @@ export const futuristicWeaponsData = [
         "Clip": "5",
         "Cost": "••••",
         "Special": "In addition to damage also causes bacterial infection (one lethal point per hour, Sta + Resolve only allowed with antibiotic injection",
-        "Book": "MirlM 11"
+        "Book": "MirIM 11"
     },
     {
         "Type": "Ranged Weapon",
@@ -57,7 +57,7 @@ export const futuristicWeaponsData = [
         "Clip": "3",
         "Cost": "•••",
         "Special": "Fires energy pulse; any time it does damage, it also siphons one Willpower point",
-        "Book": "MirlM 11"
+        "Book": "MirIM 11"
     },
     {
         "Type": "Explosive",
@@ -69,6 +69,6 @@ export const futuristicWeaponsData = [
         "Clip": "n/a",
         "Cost": "••",
         "Special": "BlastArea 2/ Throwing Mod +1, does no damage but shorts-out electrical systems and weapons for a number of turns equal to five + successes on roll",
-        "Book": "MirlM 11"
+        "Book": "MirIM 11"
     },
 ]
