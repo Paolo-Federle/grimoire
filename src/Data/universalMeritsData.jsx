@@ -1263,16 +1263,6 @@ const uniMeritsSocialData = [
     },
     {
         "Name": "Trip Sitter",
-        "Rating": "•",
-        "Prerequisites": "",
-        "Description": "",
-        "LongDescription": [
-            "",
-        ],
-        "Book": ""
-    },
-    {
-        "Name": "Natural",
         "Rating": "•••",
         "Prerequisites": "Composure •••",
         "Description": "Help others resist side effects of drugs",
@@ -1470,7 +1460,8 @@ const uniMeritsSupernaturalData = [
         "Prerequisites": "Wits ••• or Composure •••",
         "Description": "+1 to Empathy and Subterfuge rolls to understand spirits speaking human tongues, ignoring penalties, or with four dots, roll Wits + Empathy -3 to understand the tongue of spirits",
         "LongDescription": [
-            ""
+            "Your character has a knack for understanding spirits. Perhaps one whispered to his mother as she was pregnant or sang him to sleep (and nightmares) as an infant. Today, even though their alien minds speak human tongues only poorly, the character always understands exactly what the spirit meant to say. This is by no means a conscious process of translation, and the character has no means of more effectively communicating to spirits, just understanding their words. On a mechanical level, the character gains +1 die bonus to use the Empathy Skill on spirits and to use the Subterfuge Skill to detect their lies. The character also ignores penalties based on poor understanding of the spirit’s words. This is the two-dot version of the Merit, and only available at character creation.",
+            "The four-dot version of the Merit does not grant the above. Instead, that version of the Merit makes it possible for the character to piece together and infer meaning from the glossolalia that spirits speak naturally when not forced to communicate with humans. The character may attempt to assemble a rough idea of what a spirit is saying in that tongue with a Wits + Empathy roll at a –3 dice penalty. Other penalties may apply, especially if the speech is hard to hear or the spirit is deliberately being vague or opaque. For characters who possess the two-dot version of Spirit Ear, the four-dot version costs only three dots. Other characters must purchase it at four dots."
         ],
         "Book": "BoS 111"
     }

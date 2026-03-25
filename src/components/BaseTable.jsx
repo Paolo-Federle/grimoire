@@ -73,7 +73,7 @@ export default function BaseTable({ headers, data, onRowClick, title }) {
                   );
                 }
 
-                return <td key={i}>{value}</td>;
+                return <td key={i}>{Array.isArray(value) ? value.join(", ") : value}</td>;
               })}
             </tr>
           ))}

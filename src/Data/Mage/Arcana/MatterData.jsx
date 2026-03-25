@@ -1589,6 +1589,37 @@ const matterFiveData = [
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
         "DescrizioneMiddle": "<p>The mage must first grab hold of the target, with a roll of Strength or Dexterity + Brawl – the target’s Defense. If the mage is successful, he can cast this spell as a reflexive action. If the casting succeeds, the subject’s body and any possessions he is wearing become hard stone. As long as the spell lasts — determined by the spellcasting successes (see below) — the subject is literally made of solid, insensate stone, with his life functions suspended harmlessly. When the spell duration ends, the subject has no memory of being stone. </p>[TABLE1]<p>The victim becomes extremely hard, gaining Durability 3 as if he were an object; this Durability must be exceeded by any attack before his Health can be damaged. He’s impervious to fire and electricity while made of stone, and inert (and so immune to acid).</p>",
+        "Tables": [
+            {
+                "Placeholder": "[TABLE1]",
+                "Data": [
+                    [
+                        "Success",
+                        "Duration"
+                    ],
+                    [
+                        "One success",
+                        "One turns"
+                    ],
+                    [
+                        "Two successes",
+                        "Two turns"
+                    ],
+                    [
+                        "Three successes",
+                        "Three turns"
+                    ],
+                    [
+                        "Four successes",
+                        "Five turns"
+                    ],
+                    [
+                        "Five successes",
+                        "10 turns"
+                    ]
+                ]
+            }
+        ],
         "RoteName": "Mysterium Rote: Earth to Earth",
         "RoteDice": "<b>Dice Pool:</b> Manipulation + Crafts + Matter",
         "RoteDescrizione": "Man was once earth, and earth man will become: it’s one of the great secrets of the world. The user of this rote can call forth the earth from within someone, transforming her to elemental stone.",

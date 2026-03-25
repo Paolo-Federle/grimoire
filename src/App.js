@@ -151,6 +151,7 @@ import FavoritesPage from './pages/favorites';
 import Bestowments from './pages/Promethean/Bestowments';
 import Azoth from './pages/Promethean/Azoth';
 import Psyche from './pages/Geist/Psyche';
+import Manifestation from './pages/Promethean/Manifestation';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -402,6 +403,7 @@ console.log('allLocation', allLocation)
             <Route path={PATHS.GEIST.SYNERGY} element={<Synergy />} />
             <Route path={PATHS.GEIST.KREWE_TRAITS} element={<KreweTraits />} />
             <Route path={PATHS.GEIST.THRESHOLDS} element={<Thresholds />} />
+            <Route path={PATHS.GEIST.MANIFESTATION} element={<Manifestation />} />
 
             {/* MUMMY */}
             <Route path={PATHS.MUMMY.BASE} element={<Mummy />} />

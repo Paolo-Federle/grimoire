@@ -39,7 +39,7 @@ export default function SpellDetail(props) {
     }    
 
     function replacePlaceholders(text) {
-        const tablePlaceholders = ['[TABLE1]', '[TABLE2]', '[TABLE3]', '[TABLE4]']; // Add more if needed
+        const tablePlaceholders = ['[TABLE1]', '[TABLE2]', '[TABLE3]', '[TABLE4]']; 
 
         for (const placeholder of tablePlaceholders) {
             if (text.includes(placeholder)) {

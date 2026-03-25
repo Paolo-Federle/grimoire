@@ -1107,8 +1107,9 @@ const PrometheanBookData = [
     },
     {
         'Code Name': 'PB',
-        'Type': 'This book focuses on the antagonists of the Prometheans, including the Centimani and the Pandorans, details on the mysterious qashmallim, and more information on the properties as Pyros.',
+        'Type': '',
         'Title': "Pandora's Book",
+        'Description': 'This book focuses on the antagonists of the Prometheans, including the Centimani and the Pandorans, details on the mysterious qashmallim, and more information on the properties as Pyros.',
         'Release Date': '10/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/wqxc/#p=',
         'PagesOffset': '1'

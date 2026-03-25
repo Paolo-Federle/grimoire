@@ -6509,8 +6509,8 @@ const minorCourtContractData = [
         "Dice Pool": ""
     },
     {
-        "Rank": "Contracts of Potential (Dawn)",
-        "Name": "N/A",
+        "Rank": "N/A",
+        "Name": "Contracts of Potential (Dawn)",
         "Action": "",
         "FullDescription": [
             'Entropy is an active force in the world, attempting to break down all aspects of reality. Left unguided and unsupported, all manner of things will deteriorate, whether they be objects falling to decay, politics tangling to disorder or ideals tarnishing into apathy. To combat this force and bring about positive change, active effort must be made. Determining where and when to bring about change is a heavy responsibility, but to ignore it is to concede the Lost existence to destruction, and that is an unacceptable fate to allow.',
