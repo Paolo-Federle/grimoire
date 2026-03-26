@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import FavoriteToggle from "./FavoriteToggle";
 import { getCurrentRoutePath } from "../utils";
 import { BookLink } from "./BookLink";
+import FormControl from "@mui/material/FormControl";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import Select from "@mui/material/Select";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 function dots(value) {
   if (value === null || value === undefined) return "";
@@ -46,7 +51,125 @@ function buildFavoriteRankRow(selectedCombination, rank, sourcePath) {
   };
 }
 
-export default function ManifestationWikiBrowser({
+function MobileSelect({
+  id,
+  label,
+  value,
+  onChange,
+  disabled = false,
+  options = [],
+  helperText,
+}) {
+  return (
+    <div>
+      <FormControl fullWidth size="small" disabled={disabled}>
+        <InputLabel
+          id={`${id}-label`}
+          sx={{
+            color: "#161616",
+            fontWeight: 600,
+          }}
+        >
+          {label}
+        </InputLabel>
+
+        <Select
+          labelId={`${id}-label`}
+          id={id}
+          value={value}
+          label={label}
+          onChange={onChange}
+          IconComponent={KeyboardArrowDownIcon}
+          sx={{
+            backgroundColor: "#fff",
+            "& .MuiSelect-icon": {
+              fontSize: 28,
+              color: "#555555",
+              right: 10,
+            },
+            "& .MuiOutlinedInput-notchedOutline": {
+              borderColor: "#bdbdbd",
+            },
+            "&:hover .MuiOutlinedInput-notchedOutline": {
+              borderColor: "#bdbdbd",
+            },
+            "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+              borderColor: "#bdbdbd",
+            },
+          }}
+        >
+          {options.length ? (
+            options.map((item, index) => (
+              <MenuItem key={`${item.value}-${index}`} value={item.value}>
+                {item.label}
+              </MenuItem>
+            ))
+          ) : (
+            <MenuItem value="">No options available</MenuItem>
+          )}
+        </Select>
+      </FormControl>
+
+      {helperText ? (
+        <div className="mt-2 text-sm leading-5 text-[#666666]">{helperText}</div>
+      ) : null}
+    </div>
+  );
+}
+
+function DesktopListColumn({
+  title,
+  items,
+  selectedValue,
+  onSelect,
+  renderMeta,
+  emptyText = "",
+  showEmpty = false,
+}) {
+  return (
+    <div className="flex min-h-0 w-[320px] min-w-[320px] max-w-[320px] flex-col overflow-hidden border-r border-[#c7c7c7] bg-[#ececec]">
+      <div className="shrink-0 bg-[#2f2f2f] px-4 py-[10px] text-[14px] font-bold text-white">
+        {title}
+      </div>
+
+      <div
+        className="min-h-0 flex-1 overflow-y-auto"
+        style={{ scrollbarGutter: "stable" }}
+      >
+        {showEmpty && emptyText ? (
+          <div className="p-4 text-sm text-[#5f5f5f]">{emptyText}</div>
+        ) : null}
+
+        {!showEmpty &&
+          items.map((item, index) => {
+            const isActive =
+              normalizeName(item.Name) === normalizeName(selectedValue);
+
+            return (
+              <button
+                key={`${item.Name}-${index}`}
+                type="button"
+                onClick={() => onSelect(item.Name)}
+                className={`block w-full overflow-hidden border-0 border-b border-[#c7c7c7] px-4 py-[14px] text-left transition-colors ${
+                  isActive
+                    ? "bg-[#d5d5d5]"
+                    : "bg-[#ececec] hover:bg-[#e3e3e3]"
+                }`}
+              >
+                <div className="truncate font-semibold text-[#161616]">
+                  {item.Name}
+                </div>
+
+                {renderMeta?.(item)}
+              </button>
+            );
+          })}
+      </div>
+    </div>
+  );
+}
+
+export default function ManifestationCombination({
   manifestations = [],
   keysData = [],
   manifestationKeys = [],
@@ -144,25 +267,25 @@ export default function ManifestationWikiBrowser({
               {selectedCombination.Manifestation} — {selectedCombination.Key}
             </h2>
 
-            <div className="mt-2 text-[13px] text-[#5f5f5f]">
+            <div className="mt-2 text-sm text-[#5f5f5f]">
               {selectedManifestation?.Attribute || "-"} +{" "}
               {selectedCombination.Skill || renderSimpleValue(selectedKey?.Skills)}
             </div>
 
-            {selectedCombination?.Summary && (
-              <p className="mt-2 text-[14px] leading-6 text-[#161616]">
+            {selectedCombination?.Summary ? (
+              <p className="mt-2 leading-6 text-[#161616]">
                 {selectedCombination.Summary}
               </p>
-            )}
+            ) : null}
 
-            {selectedCombination?.Book && (
-              <div className="mt-2 text-[14px] leading-6 text-[#161616]">
+            {selectedCombination?.Book ? (
+              <div className="mt-2 leading-6 text-[#161616]">
                 {BookLink(selectedCombination.Book)}
               </div>
-            )}
+            ) : null}
           </>
         ) : (
-          <div className="text-[13px] text-[#5f5f5f]">
+          <div className="text-sm text-[#5f5f5f]">
             Select a Manifestation and a Key
           </div>
         )}
@@ -199,7 +322,7 @@ export default function ManifestationWikiBrowser({
                     />
                   </div>
 
-                  <div className="px-4 py-3 text-[13px] leading-7 text-[#161616]">
+                  <div className="px-4 py-3 leading-7 text-[#161616]">
                     {rank.summary}
                   </div>
                 </div>
@@ -207,7 +330,7 @@ export default function ManifestationWikiBrowser({
             })}
           </div>
         ) : (
-          <div className="text-[13px] text-[#5f5f5f]">No rank data</div>
+          <div className="text-sm text-[#5f5f5f]">No rank data</div>
         )}
       </div>
     </div>
@@ -216,172 +339,84 @@ export default function ManifestationWikiBrowser({
   return (
     <div className="w-full">
       <div className="mx-auto w-full max-w-full xl:w-[1600px]">
-        {title && (
+        {title ? (
           <h1 className="mb-4 font-serif text-[28px] font-bold text-[#161616] sm:text-[32px]">
             {title}
           </h1>
-        )}
+        ) : null}
 
         <div className="overflow-hidden border border-[#c7c7c7] bg-[#efefef]">
-          {/* Mobile / tablet */}
           <div className="block xl:hidden">
             <div className="border-b border-[#c7c7c7] bg-[#ececec] p-4">
               <div className="grid gap-4">
-                <div>
-                  <label
-                    htmlFor="manifestation-select"
-                    className="mb-2 block text-[13px] font-semibold text-[#161616]"
-                  >
-                    Manifestation
-                  </label>
-                  <select
-                    id="manifestation-select"
-                    value={selectedManifestationName}
-                    onChange={(e) => setSelectedManifestationName(e.target.value)}
-                    className="w-full rounded-[4px] border border-[#bdbdbd] bg-white px-3 py-2 text-[14px] text-[#161616] outline-none"
-                  >
-                    {manifestationOptions.map((item, index) => (
-                      <option key={`${item.Name}-${index}`} value={item.Name}>
-                        {item.Name}
-                      </option>
-                    ))}
-                  </select>
+                <MobileSelect
+                  id="manifestation-select"
+                  label="Manifestation"
+                  value={selectedManifestationName}
+                  onChange={(e) => setSelectedManifestationName(e.target.value)}
+                  options={manifestationOptions.map((item) => ({
+                    value: item.Name,
+                    label: item.Name,
+                  }))}
+                  helperText={selectedManifestation?.Summary}
+                />
 
-                  {selectedManifestation?.Summary && (
-                    <div className="mt-2 text-[12px] leading-5 text-[#666666]">
-                      {selectedManifestation.Summary}
-                    </div>
-                  )}
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="key-select"
-                    className="mb-2 block text-[13px] font-semibold text-[#161616]"
-                  >
-                    Key
-                  </label>
-                  <select
-                    id="key-select"
-                    value={selectedKeyName}
-                    onChange={(e) => setSelectedKeyName(e.target.value)}
-                    className="w-full rounded-[4px] border border-[#bdbdbd] bg-white px-3 py-2 text-[14px] text-[#161616] outline-none"
-                    disabled={!keysForSelectedManifestation.length}
-                  >
-                    {!keysForSelectedManifestation.length ? (
-                      <option value="">No keys available</option>
-                    ) : (
-                      keysForSelectedManifestation.map((item, index) => (
-                        <option key={`${item.Name}-${index}`} value={item.Name}>
-                          {item.Name}
-                        </option>
-                      ))
-                    )}
-                  </select>
-
-                  {selectedKey?.Summary && (
-                    <div className="mt-2 text-[12px] leading-5 text-[#666666]">
-                      {selectedKey.Summary}
-                    </div>
-                  )}
-                </div>
+                <MobileSelect
+                  id="key-select"
+                  label="Key"
+                  value={selectedKeyName}
+                  onChange={(e) => setSelectedKeyName(e.target.value)}
+                  disabled={!keysForSelectedManifestation.length}
+                  options={keysForSelectedManifestation.map((item) => ({
+                    value: item.Name,
+                    label: item.Name,
+                  }))}
+                  helperText={selectedKey?.Summary}
+                />
               </div>
             </div>
 
             {renderDetailPanel()}
           </div>
 
-          {/* Desktop */}
           <div className="hidden xl:grid xl:h-[700px] xl:grid-cols-[320px_320px_minmax(0,1fr)] xl:items-stretch">
-            <div className="flex min-h-0 w-[320px] min-w-[320px] max-w-[320px] flex-col overflow-hidden border-r border-[#c7c7c7] bg-[#ececec]">
-              <div className="shrink-0 bg-[#2f2f2f] px-4 py-[10px] text-[14px] font-bold text-white">
-                Manifestations
-              </div>
-
-              <div
-                className="min-h-0 flex-1 overflow-y-auto"
-                style={{ scrollbarGutter: "stable" }}
-              >
-                {manifestationOptions.map((item, index) => {
-                  const isActive =
-                    normalizeName(item.Name) ===
-                    normalizeName(selectedManifestationName);
-
-                  return (
-                    <button
-                      key={`${item.Name}-${index}`}
-                      type="button"
-                      onClick={() => setSelectedManifestationName(item.Name)}
-                      className={`block w-full overflow-hidden border-0 border-b border-[#c7c7c7] px-4 py-[14px] text-left transition-colors ${
-                        isActive
-                          ? "bg-[#d5d5d5]"
-                          : "bg-[#ececec] hover:bg-[#e3e3e3]"
-                      }`}
-                    >
-                      <div className="truncate font-semibold text-[#161616]">
-                        {item.Name}
-                      </div>
-
-                      <div className="mt-1 truncate text-[12px] text-[#5f5f5f]">
-                        {item.Attribute}
-                      </div>
-
-                      <div className="mt-1 overflow-hidden text-[12px] leading-5 text-[#777777] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3]">
-                        {item.Summary}
-                      </div>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="flex min-h-0 w-[320px] min-w-[320px] max-w-[320px] flex-col overflow-hidden border-r border-[#c7c7c7] bg-[#ececec]">
-              <div className="shrink-0 bg-[#2f2f2f] px-4 py-[10px] text-[14px] font-bold text-white">
-                Keys
-              </div>
-
-              <div
-                className="min-h-0 flex-1 overflow-y-auto"
-                style={{ scrollbarGutter: "stable" }}
-              >
-                {!selectedManifestation && (
-                  <div className="p-4 text-[13px] text-[#5f5f5f]">
-                    Select a Manifestation
+            <DesktopListColumn
+              title="Manifestations"
+              items={manifestationOptions}
+              selectedValue={selectedManifestationName}
+              onSelect={setSelectedManifestationName}
+              renderMeta={(item) => (
+                <>
+                  <div className="mt-1 truncate text-sm text-[#5f5f5f]">
+                    {item.Attribute}
                   </div>
-                )}
 
-                {selectedManifestation &&
-                  keysForSelectedManifestation.map((item, index) => {
-                    const isActive =
-                      normalizeName(item.Name) === normalizeName(selectedKeyName);
+                  <div className="mt-1 overflow-hidden text-sm leading-5 text-[#777777] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3]">
+                    {item.Summary}
+                  </div>
+                </>
+              )}
+            />
 
-                    return (
-                      <button
-                        key={`${item.Name}-${index}`}
-                        type="button"
-                        onClick={() => setSelectedKeyName(item.Name)}
-                        className={`block w-full overflow-hidden border-0 border-b border-[#c7c7c7] px-4 py-[14px] text-left transition-colors ${
-                          isActive
-                            ? "bg-[#d5d5d5]"
-                            : "bg-[#ececec] hover:bg-[#e3e3e3]"
-                        }`}
-                      >
-                        <div className="truncate font-semibold text-[#161616]">
-                          {item.Name}
-                        </div>
+            <DesktopListColumn
+              title="Keys"
+              items={keysForSelectedManifestation}
+              selectedValue={selectedKeyName}
+              onSelect={setSelectedKeyName}
+              showEmpty={!selectedManifestation}
+              emptyText="Select a Manifestation"
+              renderMeta={(item) => (
+                <>
+                  <div className="mt-1 truncate text-sm text-[#5f5f5f]">
+                    {renderSimpleValue(item.Skills)}
+                  </div>
 
-                        <div className="mt-1 truncate text-[12px] text-[#5f5f5f]">
-                          {renderSimpleValue(item.Skills)}
-                        </div>
-
-                        <div className="mt-1 overflow-hidden text-[12px] leading-5 text-[#777777] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3]">
-                          {item.Summary}
-                        </div>
-                      </button>
-                    );
-                  })}
-              </div>
-            </div>
+                  <div className="mt-1 overflow-hidden text-sm leading-5 text-[#777777] [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3]">
+                    {item.Summary}
+                  </div>
+                </>
+              )}
+            />
 
             {renderDetailPanel()}
           </div>
