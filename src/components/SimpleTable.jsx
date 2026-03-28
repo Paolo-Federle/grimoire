@@ -12,7 +12,8 @@ export default function SimpleTable({
     maxWidth,
     table,
     headers,
-    activeRowLink
+    activeRowLink,
+    mergeHeaders
 }) {
     const [isSectionActive, setIsSectionActive] = useState(true);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -64,6 +65,7 @@ export default function SimpleTable({
                             headers={tableHeaders}
                             data={table}
                             activeRowLink={activeRowLink}
+                            mergeHeaders={mergeHeaders}
                         />
                     )}
                 </>

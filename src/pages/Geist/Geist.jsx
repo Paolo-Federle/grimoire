@@ -25,7 +25,8 @@ export default function Geist() {
                         <h2>Technicalities</h2>
                         <p>
                             The twice-living possess a unique power trait called <Link to={PATHS.GEIST.PSYCHE}>Psyche</Link>, and a Morality
-                            trait called <Link to={PATHS.GEIST.SYNERGY}>Synergy</Link>.
+                            trait called <Link to={PATHS.GEIST.SYNERGY}>Synergy</Link>. As Geist grow and face challenges, they
+                            accumulate <Link to={PATHS.GEIST.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
 
@@ -33,7 +34,8 @@ export default function Geist() {
                         <h2>Abilities</h2>
                         <p>
                             Sin-Eaters can unlock <Link to={PATHS.GEIST.MANIFESTATION}>Manifestations</Link> through the Keys of the Underworld to
-                            conjure ghostly phenomena. They can also learn and teach deathly <Link to={PATHS.GEIST.CEREMONIES}>Ceremonies</Link>.                        </p>
+                            conjure ghostly phenomena. They can also learn and teach deathly <Link to={PATHS.GEIST.CEREMONIES}>Ceremonies</Link>.
+                            </p>
                         <p>
                             Many Sin-Eaters carry <Link to={PATHS.GEIST.MEMENTOS}>Mementos</Link> touched by significant deaths.
                         </p>

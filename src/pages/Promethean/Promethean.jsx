@@ -25,7 +25,8 @@ export default function Promethean() {
                         <h2>Technicalities</h2>
                         <p>
                             The Created posses a unique Power Stat trait called <Link to={PATHS.PROMETHEAN.AZOTH}>Azoth</Link>, and
-                            a Morality trait called <Link to={PATHS.PROMETHEAN.HUMANITY}>Humanity</Link>.
+                            a Morality trait called <Link to={PATHS.PROMETHEAN.HUMANITY}>Humanity</Link>. As Prometheans grow and face challenges, they
+                            accumulate <Link to={PATHS.PROMETHEAN.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
 

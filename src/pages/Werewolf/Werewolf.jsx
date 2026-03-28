@@ -24,7 +24,8 @@ export default function Werewolf() {
                         <h2>Technicalities</h2>
                         <p>
                             Werewolves have a unique Power Stat called <Link to={PATHS.WEREWOLF.PRIMAL_URGE}>Primal Urge</Link>, and
-                            a unique Morality trait called <Link to={PATHS.WEREWOLF.HARMONY}>Harmony</Link>.
+                            a unique Morality trait called <Link to={PATHS.WEREWOLF.HARMONY}>Harmony</Link>. As Werewolves grow and face challenges, they
+                            accumulate <Link to={PATHS.WEREWOLF.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
 
@@ -41,7 +42,7 @@ export default function Werewolf() {
                         <h2>Advantages</h2>
                         <p>
                             The Forsaken have access to several unique <Link to={PATHS.WEREWOLF.MERITS}>Merits</Link> beyond mortal scope, including
-                            specific <Link to='/merits/location'>Locations</Link> and <Link to='/werewolf/combat_styles'>Combat Styles</Link>.
+                            specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and <Link to='/werewolf/combat_styles'>Combat Styles</Link>.
                         </p>
                     </div>
                 </section>

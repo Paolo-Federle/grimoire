@@ -1,0 +1,313 @@
+export const JudgesData = [
+    {
+        "Name": "Arem-Abfu",
+        "Sobriquet": "The Final Judge",
+        "Summary": "Judge of those who commit crimes against reality.",
+        "Affinities": "Ancient Horror Unveiling, Guardian Wrath, Living In Now, Soulsight, Words Summoned Forth",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Usekh-Nemtet",
+        "Sobriquet": "The First Judge",
+        "Summary": "Judge of immortals.",
+        "Affinities": "Dauntless Explorer, Deathsight, Godsight, Sight Beyond Eyes, Soulsight",
+        "Book": "MTC 61"
+    }
+]
+
+export const JudgesAbData = [
+{
+        "Name": "Akhi",
+        "Sobriquet": "The Roar",
+        "Summary": "Judge of those who give in to their rage.",
+        "Affinities": "Voice of Conscience, Beast Companion, Beast Soul Fury, Guardian Wrath, Words Summoned Forth",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Hepet-Khet",
+        "Sobriquet": "Embraced of Flame",
+        "Summary": "Judge of violent thieves.",
+        "Affinities": "Glorious Mein, Dominating Might, Familiar Face, Grip of Death, Running Like Flight",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Neb-Heru",
+        "Sobriquet": "The Lord Above",
+        "Summary": "Judge of those who act in haste.",
+        "Affinities": "Epic Heart, Charmed Lives, Fearsome Soul, Living Monolith, Wisdom of the Ancients",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Nekeb-Ka",
+        "Sobriquet": "The One Who Unifies",
+        "Summary": "Judge of the arrogant.",
+        "Affinities": "Divine Countenance, Beast Soul Fury, Dominating Might, Enlightened Senses, Nihilist Awakening",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Qerrti",
+        "Sobriquet": "The Double-Nile Source",
+        "Summary": "Judge of those who engage in impure sex.",
+        "Affinities": "Miraculous Benefactor, Anointed Prowess, Radiant Lifeforce, Soul Infusion, Voice of Temptation",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Ruruti",
+        "Sobriquet": "The Double-Lion Judge",
+        "Summary": "Judge of those who defile sacred places.",
+        "Affinities": "Blessed Soul, Beast Soul Fury, Blessed Panoply, Guardian Wrath, Running Like Flight",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Ser-Tiku",
+        "Sobriquet": "The Disposer of Wrath",
+        "Summary": "Judge of those who exude aimless wrath.",
+        "Affinities": "Healing Counsel, Deathsight, Radiant Lifeforce, Retributive Curse, Sight Beyond Eyes",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Tutuutef",
+        "Sobriquet": "The Giver of Wickedness",
+        "Summary": "Judge of those who indulge their appetites reactively in anger.",
+        "Affinities": "Pharaoh Reigns Anew, Anointed Prowess, Beast Companion, Charmed Lives, Voice of Temptation",
+        "Book": "MTC 60"
+    },
+]
+
+export const JudgesBaData = [
+{
+        "Name": "An-Afkh",
+        "Sobriquet": "Bringer of His Arms",
+        "Summary": "Judge of those who destroy purity.",
+        "Affinities": "Auspicious Mastery, Blessed Panoply, Deathsight, Miraculous Benefactor, Radiant Lifeforce",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Heraf-Het",
+        "Sobriquet": "Whose Face Is Behind",
+        "Summary": "Presides only over complicated situations.",
+        "Affinities": "Nihilist Awakening, Ancient Horror Unveiling, Enduring Flesh, Familiar Face, Voice of Conscience",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Neb-Abitu",
+        "Sobriquet": "The Lord of Horns",
+        "Summary": "Judge of gossipers.",
+        "Affinities": "Sight Beyond Eyes, Night Creature, Shrouding Aura, Voice of Conscience, Words Summoned Forth",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Nefer-Tem",
+        "Sobriquet": "The Eternal Lotus",
+        "Summary": "Presides over morally ambiguous situations.",
+        "Affinities": "Soul Infusion, Anointed Prowess, Deathsight, Eternal Legend, Soulsight",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Neheb-Nefert",
+        "Sobriquet": "The Beautiful One",
+        "Summary": "Judge of those who disrupt their community.",
+        "Affinities": "Living In Now, Ancient Horrors Unveiling, Anointed Prowess, Divine Countenance, Familiar Face",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Ser-Kheru",
+        "Sobriquet": "The Disposer of Speech",
+        "Summary": "Judge of those who cause strife amongst their own people.",
+        "Affinities": "Running Like Flight, Charmed Lives, Dauntless Explorer, Grip of Death, Voice of Conscience",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Sket-Kheru",
+        "Sobriquet": "The Orderer of Speech",
+        "Summary": "Those who allow their vice to overcome their virtue.",
+        "Affinities": "Wisdom of the Ancients, Godsight, Guardian Wrath, Pharaoh Reigns Anew, Voice of Temptation",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Utu-Nesert",
+        "Sobriquet": "The Vigorous Fire",
+        "Summary": "Judge of those who invoke literal or metaphoric curses on others.",
+        "Affinities": "Falcon Soul Aloft, Blessed Soul, Dauntless Explorer, Radiant Lifeforce, Rouse the Khaibit",
+        "Book": "MTC 59"
+    },
+]
+
+export const JudgesKaData = [
+{
+        "Name": "An-Hotep",
+        "Sobriquet": "Bringer of Sacrifice",
+        "Summary": "Judge of those who commit violence in the course of oppression or slavery.",
+        "Affinities": "Enduring Flesh, Charmed Lives, Healing Counsel, Night Creature, Running Like Flight",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Fentu",
+        "Sobriquet": "The Snout",
+        "Summary": "Judge of thieves that have attempted to hide their tracks.",
+        "Affinities": "Anointed Prowess, Beast Companion, Beast Soul Fury, Enlightened Senses, Epic Heart",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Hetch-Abu",
+        "Sobriquet": "Shining Teeth",
+        "Summary": "Judge of those who attack humans or sacred animals.",
+        "Affinities": "Paragon Shames the Weak, Shining Soul Aloft, Godsight, Pharaoh Reigns Anew, Rouse the Khaibit",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Maa-Nantuuf",
+        "Sobriquet": "Seer of What is Brought Forth",
+        "Summary": "Judge of those that pollute their body or soul.",
+        "Affinities": "Living Monolith, Enlightened Senses, Glorious Mien, Sight Beyond Eyes, Voice of Temptation",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Neka-Hatu",
+        "Sobriquet": "The Stinking Body",
+        "Summary": "Judge of deny basic needs to others.",
+        "Affinities": "Retributive Curse, Blessed Panoply, Glorious Mien, Grip of Death, Running Like Flight",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Set-Qesu",
+        "Sobriquet": "The Crusher of Bones",
+        "Summary": "Judge of those who steal out of necessity.",
+        "Affinities": "Dominating Might, Charmed Lives, Glorious Mien, Grip of Death, Nihilist Awakening",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Ta-Retinku",
+        "Sobriquet": "The Fiery Foot",
+        "Summary": "Judge over those who commit violence for information.",
+        "Affinities": "Guardian Wrath, Divine Countenance, Fearsome Soul, Running Like Flight, Words Summoned Forth",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Uamenti",
+        "Sobriquet": "The Seed Entwined",
+        "Summary": "Judge of those who debauch others.",
+        "Affinities": "Shrouding Aura, Epic Heart, Familiar Face, Grip of Death, Soul Infusion",
+        "Book": "MTC 60"
+    },
+]
+
+export const JudgesRenData = [
+
+    {
+        "Name": "Bastu",
+        "Sobriquet": "The Stare",
+        "Summary": "Judge of those that try to cheat justice.",
+        "Affinities": "Enlightened Senses, Anointed Prowess, By Steps Unseen, Sight Beyond Eyes, Soulsight",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Kenemti",
+        "Sobriquet": "The Penitent",
+        "Summary": "Judge of blasphemers.",
+        "Affinities": "Gift of Truth, Retributive Curse, Soul Infusion, Soulsight, Voice of Temptation",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Khen-Inku",
+        "Sobriquet": "The Overthrower",
+        "Summary": "Judge of those who use the law to harm others.",
+        "Affinities": "Radiant Lifeforce, Auspicious Mastery, Deathsight, Guardian Wrath, Voice of Conscience",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Neb-Imkhu",
+        "Sobriquet": "The Lord Imkhu",
+        "Summary": "Judge of eavesdroppers.",
+        "Affinities": "Familiar Face, By Steps Unseen, Epic Heart, Living In Now, Shrouding Aura",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Sekhiru",
+        "Sobriquet": "The Balanced Scale",
+        "Summary": "Judge of meddlers.",
+        "Affinities": "Blessed Panoply, Living In Now, Night Creature, Retributive Curse, Soulsight",
+        "Book": "MTC 59"
+    },
+    {
+        "Name": "Tem-Sepu",
+        "Sobriquet": "The Source of Command",
+        "Summary": "Judge of those who use magic to defy authority.",
+        "Affinities": "Charmed Lives, Auspicious Mastery, Dominating Might, Fearsome Soul, Pharaoh Reigns Anew",
+        "Book": "MTC 60"
+    },
+    {
+        "Name": "Uatch-Rekhet",
+        "Sobriquet": "The Rectifier",
+        "Summary": "Judge of those who curse the divine or the cosmos.",
+        "Affinities": "Godsight, Ancient Horror Unveiling, Divine Countenance, Nihilist Awakening, Retributive Curse",
+        "Book": "MTC 60"
+    },
+    {
+        "Name": "Unem-Besek",
+        "Sobriquet": "The Eater of Entrails",
+        "Summary": "Judge of those who steal or sieze territory.",
+        "Affinities": "Eternal Legend, Beast Companion, Beast Soul Fury, Dominating Might, Glorious Mien",
+        "Book": "MTC 60"
+    },
+]
+
+export const JudgesSheutData = [
+    {
+        "Name": "Am-Khaibit",
+        "Sobriquet": "Eater of Shadows",
+        "Summary": "Judge of those who commit crimes against humanity.",
+        "Affinities": "Night Creature, Eternal Legend, Glorious Mein, Nihilist Awakening, Shrouding Aura",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Artem-Khet",
+        "Sobriquet": "The Crocodile's Tears",
+        "Summary": "Judge to those who lie to commit blasphemy.",
+        "Affinities": "Voice of Temptation, Auspicious Mastery, Blessed Soul, Gift of Truth, Retributive Curse",
+        "Book": "MTC 56"
+    },
+    {
+        "Name": "Her-Uru",
+        "Sobriquet": "The Face of Dread",
+        "Summary": "Judge of those who enjoy inflicting terror.",
+        "Affinities": "Fearsome Soul, Auspicious Mastery, Divine Countenance, Familiar Face, Shrouding Aura",
+        "Book": "MTC 57"
+    },
+    {
+        "Name": "Nebha",
+        "Sobriquet": "The Flame",
+        "Summary": "Judge of compulsive liars.",
+        "Affinities": "Rouse the Khaibit, Blessed Soul, Dauntless Explorer, Falcon Soul Aloft, Gift of Truth",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Nekkenhu",
+        "Sobriquet": "The Innocent",
+        "Summary": "Judge of those who hide from the truth.",
+        "Affinities": "Deathsight, Enduring Flesh, Godsight, Healing Counsel, Soul Infusion",
+        "Book": "MTC 58"
+    },
+    {
+        "Name": "Tcheser-Tep",
+        "Sobriquet": "The Exalted Hand",
+        "Summary": "Judge of those who disrespect the dead.",
+        "Affinities": "By Steps Unseen, Godsight, Guardian Wrath, Nihilist Awakening, Voice of Conscience",
+        "Book": "MTC 60"
+    },
+    {
+        "Name": "Tenemku",
+        "Sobriquet": "The Retreater",
+        "Summary": "Judge of false witnesses.",
+        "Affinities": "Beast Soul Fury, Enlightened Senses, Running Like Flight, Shrouding Aura, Soulsight",
+        "Book": "MTC 60"
+    },
+    {
+        "Name": "Unem-Sef",
+        "Sobriquet": "The Eater of Blood",
+        "Summary": "Judge of those who delight in corrupting others.",
+        "Affinities": "Grip of Death, Enduring Flesh, Gift of Truth, Running Like Flight, Soulsight",
+        "Book": "MTC 60"
+    }
+]
+

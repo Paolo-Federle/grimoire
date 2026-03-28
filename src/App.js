@@ -152,6 +152,14 @@ import Bestowments from './pages/Promethean/Bestowments';
 import Azoth from './pages/Promethean/Azoth';
 import Psyche from './pages/Geist/Psyche';
 import Manifestation from './pages/Promethean/Manifestation';
+import Memento from './pages/Geist/Memento';
+import Judges from './pages/Mummy/Judges';
+import Sekhem from './pages/Mummy/Sekhem';
+import WerewolfExperiencePoints from './pages/Werewolf/WerewolfExperiencePoints';
+import GeistExperiencePoints from './pages/Geist/GeistExperiencePoints';
+import PrometheanExperiencePoints from './pages/Promethean/PrometheanExperiencePoints';
+import MummyExperiencePoints from './pages/Mummy/MummyExperiencePoints';
+import Settings from './pages/Generale/Settings';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -195,6 +203,7 @@ console.log('allLocation', allLocation)
             <Route path={PATHS.ITEMS} element={<Items />} />
             <Route path={PATHS.SKILLS} element={<Skills />} />
             <Route path={PATHS.LOCATIONS_BASE} element={<Location />} />
+            <Route path={PATHS.SETTINGS} element={<Settings />} />
             {generateRoutes({
               basePath: PATHS.LOCATIONS_BASE,
               data: allLocation,
@@ -272,6 +281,7 @@ console.log('allLocation', allLocation)
             <Route path={PATHS.WEREWOLF.LODGES} element={<Lodges />} />
             <Route path={PATHS.WEREWOLF.PRIMAL_URGE} element={<PrimalUrge />} />
             <Route path={PATHS.WEREWOLF.TRIBES} element={<Tribes />} />
+            <Route path={PATHS.WEREWOLF.EXPERIENCE} element={<WerewolfExperiencePoints />} />
 
             {/* MAGE */}
             <Route path={PATHS.MAGE.BASE} element={<Mage />} />
@@ -335,6 +345,7 @@ console.log('allLocation', allLocation)
             <Route path={PATHS.PROMETHEAN.REFINEMENTS} element={<Refinements />} />
             <Route path={PATHS.PROMETHEAN.MOCKERIES} element={<Mockeries />} />
             <Route path={PATHS.PROMETHEAN.LINEAGE} element={<Lineages />} />
+            <Route path={PATHS.PROMETHEAN.EXPERIENCE} element={<PrometheanExperiencePoints />} />
 
             {/* CHANGELING */}
             <Route path={PATHS.CHANGELING.BASE} element={<Changeling />} />
@@ -398,22 +409,27 @@ console.log('allLocation', allLocation)
             <Route path={PATHS.GEIST.KEYS_AND_HAUNTS} element={<KeysAndHaunts />} />
             <Route path={PATHS.GEIST.CEREMONIES} element={<Ceremonies />} />
             <Route path={PATHS.GEIST.MERITS} element={<GeistMerits />} />
-            <Route path={PATHS.GEIST.MEMENTOS} element={<GeistMerits />} />
+            <Route path={PATHS.GEIST.MEMENTOS} element={<Memento />} />
             <Route path={PATHS.GEIST.ARCHETYPES} element={<Archetypes />} />
             <Route path={PATHS.GEIST.SYNERGY} element={<Synergy />} />
             <Route path={PATHS.GEIST.KREWE_TRAITS} element={<KreweTraits />} />
             <Route path={PATHS.GEIST.THRESHOLDS} element={<Thresholds />} />
             <Route path={PATHS.GEIST.MANIFESTATION} element={<Manifestation />} />
+            <Route path={PATHS.GEIST.EXPERIENCE} element={<GeistExperiencePoints />} />
 
             {/* MUMMY */}
             <Route path={PATHS.MUMMY.BASE} element={<Mummy />} />
             <Route path={PATHS.MUMMY.AFFINITIES} element={<Affinities />} />
             <Route path={PATHS.MUMMY.UTTERANCES} element={<Utterances />} />
+            <Route path={PATHS.MUMMY.JUDGE} element={<Judges />} />
+            <Route path={PATHS.MUMMY.SEKHEM} element={<Sekhem />} />
+            <Route path={PATHS.MUMMY.AFFINITIES} element={<Affinities />} />
             <Route path={PATHS.MUMMY.MERITS} element={<MummyMerits />} />
             <Route path={PATHS.MUMMY.RELICS} element={<Relic />} />
             <Route path={PATHS.MUMMY.DECREE} element={<Decrees />} />
             <Route path={PATHS.MUMMY.GUILD} element={<Guilds />} />
             <Route path={PATHS.MUMMY.MEMORY} element={<Memory />} />
+             <Route path={PATHS.MUMMY.EXPERIENCE} element={<MummyExperiencePoints />} />
 
             {/* SPIRIT */}
             <Route path={PATHS.SPIRIT.NUMINA} element={<Numina />} />

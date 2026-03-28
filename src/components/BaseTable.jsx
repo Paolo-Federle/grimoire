@@ -1,11 +1,48 @@
 import React from "react";
 import { BookLink } from "./BookLink";
 import { useNavigate } from "react-router-dom";
-
 import FavoriteToggle from "./FavoriteToggle";
 import { getCurrentRoutePath } from "../utils";
 
-export default function BaseTable({ headers, data, onRowClick, title }) {
+function getRowSpans(data, headers, mergeHeaders = []) {
+  const spans = {};
+
+  mergeHeaders.forEach((header) => {
+    spans[header] = new Array(data.length).fill(0);
+
+    let start = 0;
+
+    while (start < data.length) {
+      const currentValue = data[start]?.[header];
+      let count = 1;
+
+      while (
+        start + count < data.length &&
+        data[start + count]?.[header] === currentValue
+      ) {
+        count++;
+      }
+
+      spans[header][start] = count;
+
+      for (let i = start + 1; i < start + count; i++) {
+        spans[header][i] = 0;
+      }
+
+      start += count;
+    }
+  });
+
+  return spans;
+}
+
+export default function BaseTable({
+  headers,
+  data,
+  onRowClick,
+  title,
+  mergeHeaders = [],
+}) {
   const navigate = useNavigate();
   const sourcePath = getCurrentRoutePath();
 
@@ -13,8 +50,8 @@ export default function BaseTable({ headers, data, onRowClick, title }) {
     navigate(`${id}`);
   };
 
-  // Campi salvati nei preferiti: quelli visibili in tabella (escludo link tecnico)
   const columnsToSave = (headers || []).filter((h) => h !== "link");
+  const rowSpans = getRowSpans(data, headers, mergeHeaders);
 
   return (
     <div style={{ marginBottom: "20px" }}>
@@ -35,8 +72,19 @@ export default function BaseTable({ headers, data, onRowClick, title }) {
               {headers.map((header, i) => {
                 const value = row[header];
 
+                if (mergeHeaders.includes(header) && rowSpans[header][idx] === 0) {
+                  return null;
+                }
+
+                const rowSpan =
+                  mergeHeaders.includes(header) ? rowSpans[header][idx] : 1;
+
                 if (header === "Book") {
-                  return <td key={i}>{BookLink(value)}</td>;
+                  return (
+                    <td key={i} rowSpan={rowSpan}>
+                      {BookLink(value)}
+                    </td>
+                  );
                 }
 
                 const isFirstCell = i === 0;
@@ -59,21 +107,31 @@ export default function BaseTable({ headers, data, onRowClick, title }) {
                     );
 
                   return (
-                    <td key={i}>
-                      <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+                    <td key={i} rowSpan={rowSpan}>
+                      <span
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: 6,
+                        }}
+                      >
                         <FavoriteToggle
-  row={row}
-  columns={columnsToSave}
-  sourcePath={sourcePath}
-  titleIsLink={!!(onRowClick && row.link)}
-/>
+                          row={row}
+                          columns={columnsToSave}
+                          sourcePath={sourcePath}
+                          titleIsLink={!!(onRowClick && row.link)}
+                        />
                         {textNode}
                       </span>
                     </td>
                   );
                 }
 
-                return <td key={i}>{Array.isArray(value) ? value.join(", ") : value}</td>;
+                return (
+                  <td key={i} rowSpan={rowSpan}>
+                    {Array.isArray(value) ? value.join(", ") : value}
+                  </td>
+                );
               })}
             </tr>
           ))}

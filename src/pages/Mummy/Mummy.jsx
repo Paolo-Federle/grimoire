@@ -23,7 +23,8 @@ export default function Mummy() {
                         <h2>Technicalities</h2>
                         <p>
                             The Deathless possess a unique Power Stat trait called <Link to={PATHS.MUMMY.SEKHEM}>Sekhem</Link>, and a
-                            Morality trait called <Link to={PATHS.MUMMY.MEMORY}>Memory</Link>.
+                            Morality trait called <Link to={PATHS.MUMMY.MEMORY}>Memory</Link>. As Mummies grow and face challenges, they
+                            accumulate <Link to={PATHS.MUMMY.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
 

@@ -13,7 +13,8 @@ export default function ImbuedItems() {
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={imbuedItemsReducedData} title="Imbued Items" activeRowLink={true} />
+            <SimpleTable table={imbuedItemsReducedData} title="Imbued Items" activeRowLink={true}
+/>
         </div>
     );
 }
