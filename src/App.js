@@ -9,7 +9,7 @@ import { allDiscipline } from './Data/Vampire/DisciplineData';
 import VampireMerits from './pages/Vampire/VampireMerits'
 import Devotion from './pages/Vampire/Devotion';
 import DevotionsDetail from './pages/Vampire/DevotionsDetail ';
-import {DevotionData} from './Data/Vampire/DevotionData';
+import { DevotionData } from './Data/Vampire/DevotionData';
 import Werewolf from './pages/Werewolf/Werewolf'
 import Gifts from './pages/Werewolf/Gifts'
 import Rites from './pages/Werewolf/Rites'
@@ -29,7 +29,7 @@ import LegacyDetail from './pages/Mage/LegacyDetail';
 import SpellDetail from './pages/Mage/SpellDetail';
 import Gnosis from './pages/Mage/Gnosis'
 import Wisdom from './pages/Mage/Wisdom';
-import {LegacyData} from './Data/Mage/LegacyData';
+import { LegacyData } from './Data/Mage/LegacyData';
 import { SpellsData } from './Data/Mage/Arcana/allArcana'
 import Artifacts from './pages/Mage/Artifact'
 import { artifactData } from './Data/Mage/artifactsData';
@@ -160,6 +160,7 @@ import GeistExperiencePoints from './pages/Geist/GeistExperiencePoints';
 import PrometheanExperiencePoints from './pages/Promethean/PrometheanExperiencePoints';
 import MummyExperiencePoints from './pages/Mummy/MummyExperiencePoints';
 import Settings from './pages/Generale/Settings';
+import AbominableTraits from './pages/Others/AbominableTraits';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -170,7 +171,7 @@ function App() {
       const key = getKey ? getKey(item, index) : index;
       const slug = getPathName ? getPathName(item) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
       const path = `${basePath}/${slugify(slug)}`;
-  
+
       // console.log('path', path)
       // console.log('key', key)
       return (
@@ -182,9 +183,9 @@ function App() {
       );
     });
   }
-  
-console.log('allUniMeritsData', allUniMeritsData)
-console.log('allLocation', allLocation)
+
+  console.log('allUniMeritsData', allUniMeritsData)
+  console.log('allLocation', allLocation)
 
   return (
     <>
@@ -193,8 +194,8 @@ console.log('allLocation', allLocation)
         <Navbar />
         <Breadcrumbs />
         <div className={`page-container ${categoryStyle}`}>
-          
-        <Routes>
+
+          <Routes>
             <Route path={PATHS.HOME} element={<Home />} />
             <Route path={PATHS.FAVORITES} element={<FavoritesPage />} />
             <Route path={PATHS.SHEET} element={<SheetTest />} />
@@ -227,7 +228,7 @@ console.log('allLocation', allLocation)
               propKey: "derangement"
             })}
             <Route path={PATHS.LEXYCON} element={<Lexycon />} />
-            
+
 
             {/* Mortals */}
             <Route path={PATHS.MORTAL.BASE} element={<Mortal />} />
@@ -313,12 +314,12 @@ console.log('allLocation', allLocation)
               propKey: "spell"
             })}
             {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
-            <Route
-              key={index}
-              path={`/mage/${arcana}`}
-              element={<Arcana arcana={arcana} />}
-            />
-          ))}
+              <Route
+                key={index}
+                path={`/mage/${arcana}`}
+                element={<Arcana arcana={arcana} />}
+              />
+            ))}
 
             <Route path={PATHS.MAGE.ARTIFACTS} element={<Artifacts />} />
             {generateRoutes({
@@ -327,7 +328,7 @@ console.log('allLocation', allLocation)
               Component: ArtifactDetail,
               propKey: "artifact"
             })}
-            
+
             <Route path={PATHS.MAGE.IMBUED_ITEMS} element={<ImbuedItems />} />
             {generateRoutes({
               basePath: PATHS.MAGE.IMBUED_ITEMS,
@@ -429,7 +430,7 @@ console.log('allLocation', allLocation)
             <Route path={PATHS.MUMMY.DECREE} element={<Decrees />} />
             <Route path={PATHS.MUMMY.GUILD} element={<Guilds />} />
             <Route path={PATHS.MUMMY.MEMORY} element={<Memory />} />
-             <Route path={PATHS.MUMMY.EXPERIENCE} element={<MummyExperiencePoints />} />
+            <Route path={PATHS.MUMMY.EXPERIENCE} element={<MummyExperiencePoints />} />
 
             {/* SPIRIT */}
             <Route path={PATHS.SPIRIT.NUMINA} element={<Numina />} />
@@ -439,8 +440,9 @@ console.log('allLocation', allLocation)
               Component: NuminaDetail,
               propKey: "numina"
             })}
+            {/* OTHERS */}
             <Route path={PATHS.OTHERS.ASPECTS_FAVORRS} element={<AspectsAndFavors />} />
-
+            <Route path={PATHS.OTHERS.ABOMINABLE} element={<AbominableTraits />} />
           </Routes>
         </div>
       </ThemeProvider>

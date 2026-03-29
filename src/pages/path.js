@@ -59,6 +59,7 @@ export const PATHS = {
     LEXYCON: '/lexycon',
     SETTINGS: '/settings',
     UNIVERSAL_MERITS: '/universal_merits',
+
     DERANGEMENTS: '/derangements',
     LOCATIONS_BASE: '/merits/location',
 
@@ -207,7 +208,8 @@ export const PATHS = {
         EXPERIENCE: '/mummy/experience_point'
     },
     OTHERS: {
-        ASPECTS_FAVORRS: '/aspects_favors'
+        ASPECTS_FAVORRS: '/aspects_favors',
+        ABOMINABLE: '/abominable_traits'
     }
 };
 

@@ -780,15 +780,6 @@ const WerewolfBookData = [
     {
         'Code Name': 'FCG:TI',
         'Type': '',
-        'Title': "Forsaken Chronicler's Guide IV - To Rip Asunder",
-        "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
-        'Release Date': '06/11',
-        'LinkTo': 'https://online.fliphtml5.com/dymxg/untp/#p=',
-        'PagesOffset': '0'
-    },
-    {
-        'Code Name': 'FCG:TI',
-        'Type': '',
         'Title': "Forsaken Chronicler's Guide I - To Isolate",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',

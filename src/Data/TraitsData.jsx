@@ -2,6 +2,12 @@ import { PATHS } from "../pages/path"
 
 export const TraitsData = [
     {
+        "Name": "Abominable traits",
+        "Specific to": "",
+        "Description": "Inhuman and inexplicable powers granted to cultists and supplicants of otherworldly entities",
+        "link": PATHS.OTHERS.ABOMINABLE
+    },
+    {
         "Name": "Aspects and Favors",
         "Specific to": "Changing Breed ",
         "Description": "",
