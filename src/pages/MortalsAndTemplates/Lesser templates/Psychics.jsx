@@ -5,8 +5,8 @@ import ManyHeadersTable from '../../../components/ManyHeadersTable/ManyHeadersTa
 
 export default function PsychicsPowers() {
 
-    const headers = ['Name', 'Cost', 'Description', 'Book']
-    const datoSostituibile = ['Cost']
+    const headers = ['Name', 'Rank', 'Prerequisite', 'Description', 'Book']
+    const datoSostituibile = ['Rank']
     const datoSostituto = ['Name']
 
     return (

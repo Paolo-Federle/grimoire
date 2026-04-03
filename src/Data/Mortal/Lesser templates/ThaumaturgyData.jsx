@@ -2,180 +2,210 @@ export const ThaumaturgyMeritsData = [
     {
         "Name": "Dream",
         "Rank": "• to •••••",
+        "Prerequisite": "",
         "Description": "Gain vague insights from dreams",
         "Book": "SS 106"
     },
     {
         "Name": "Library",
         "Rank": "• to •••",
+        "Prerequisite": "",
         "Description": "Possess library of information on obscure occult topics",
         "Book": "SS 113"
     },
     {
         "Name": "Magical Nexus",
         "Rank": "• or ••",
+        "Prerequisite": "",
         "Description": "Possess a magical location that facilitates other rituals",
         "Book": "SS 115"
     },
     {
         "Name": "Rituals",
         "Rank": "N/A",
+        "Prerequisite": "",
         "Description": "N/A",
         "Book": "N/A"
     },
     {
         "Name": "Alchemy (External)",
-        "Rank": "•• or •••• *pre: Occult •• or Science ••",
+        "Rank": "•• or ••••",
+        "Prerequisite": "Occult •• or Science ••",
         "Description": "Transmute substances",
         "Book": "SS 102"
     },
     {
         "Name": "Alchemy (Internal)",
-        "Rank": "•• to •••• *pre: Occult •• or Medicine •",
+        "Rank": "•• to ••••",
+        "Prerequisite": "Occult •• or Medicine •",
         "Description": "Temporarily boost attributes",
         "Book": "SS 103"
     },
     {
         "Name": "Communion",
         "Rank": "•• or ••••",
+        "Prerequisite": "",
         "Description": "Divination via consultation with a higher being",
         "Book": "SS 104"
     },
     {
         "Name": "Countermagic",
-        "Rank": "•• or •••• *pre: Wits ••",
+        "Rank": "•• or ••••",
+        "Prerequisite": "Wits ••",
         "Description": "Detect and counter thaumaturgy.",
         "Book": "SS 105"
     },
     {
         "Name": "Curse of Ill Fortune",
-        "Rank": "••• *pre: Luck Magic, Persuasion •",
+        "Rank": "•••",
+        "Prerequisite": "Luck Magic, Persuasion •",
         "Description": "Penalize a target's actions",
         "Book": "SS 106"
     },
     {
         "Name": "Divination",
         "Rank": "•••",
+        "Prerequisite": "",
         "Description": "Perform divination up to 24 hours in the future.",
         "Book": "SS 106"
     },
     {
         "Name": "Dream Travel",
-        "Rank": "••• *pre: Visionary Trances",
+        "Rank": "•••",
+        "Prerequisite": "Visionary Trances",
         "Description": "Enter a subject's dreams.",
         "Book": "SS 107"
     },
     {
         "Name": "Enchantment",
         "Rank": "•• or ••••",
+        "Prerequisite": "",
         "Description": "Instill an emotion in a subject",
         "Book": "SS 107"
     },
     {
         "Name": "Evocation",
         "Rank": "•• or ••••",
+        "Prerequisite": "",
         "Description": "Summon (and command with •••• a ghost or spirit",
         "Book": "SS 108"
     },
     {
         "Name": "Familiar",
-        "Rank": "••• or •••• *pre: Visionary Trances, Communion, or Enchantment ••••",
+        "Rank": "••• or ••••",
+        "Prerequisite": "Visionary Trances, Communion, or Enchantment ••••",
         "Description": "Gain a companion spirit or animal companion",
         "Book": "SS 109"
     },
     {
         "Name": "Favorable Fortune",
         "Rank": "•••",
+        "Prerequisite": "",
         "Description": "Spontaneously produce small amounts of good fortune",
         "Book": "SS 110"
     },
     {
         "Name": "Geomancy",
-        "Rank": "••• *pre: Intelligence ••, Crafts •",
+        "Rank": "•••",
+        "Prerequisite": "Intelligence ••, Crafts •",
         "Description": "Design an area to grant 9-Again to one attribute or skill",
         "Book": "SS 111"
     },
     {
         "Name": "Healing",
-        "Rank": "•••• *pre: Composure ••, Medicine •",
+        "Rank": "••••",
+        "Prerequisite": "Composure ••, Medicine •",
         "Description": "Accelerate the healing of mortals.",
         "Book": "SS 111"
     },
     {
         "Name": "Invocation",
         "Rank": "•• or ••••",
+        "Prerequisite": "",
         "Description": "Summon a chosen spirit to possess you",
         "Book": "SS 112"
     },
     {
         "Name": "Longevity",
-        "Rank": "••••• *pre: Medicine •••",
+        "Rank": "•••••",
+        "Prerequisite": "Medicine •••",
         "Description": "Create a potion which can delay aging for a short time.",
         "Book": "SS 113"
     },
     {
         "Name": "Luck Magic",
         "Rank": "•• or ••••",
+        "Prerequisite": "",
         "Description": "Gain 9-Again (8-Again with •••• on a few chosen rolls",
         "Book": "SS 114"
     },
     {
         "Name": "Psychic Projection",
         "Rank": "••••",
+        "Prerequisite": "",
         "Description": "Project in to the Twilight.",
         "Book": "SS 115"
     },
     {
         "Name": "Sacrifice",
         "Rank": "•",
+        "Prerequisite": "",
         "Description": "Sacrifice to gain a bonus with ghosts or spirits",
         "Book": "SS 115"
     },
     {
         "Name": "Scrying",
-        "Rank": "••• *pre: Wits ••, Occult •",
+        "Rank": "•••",
+        "Prerequisite": "Wits ••, Occult •",
         "Description": "Remotely view an area",
         "Book": "SS 116"
     },
     {
         "Name": "Second Sight",
-        "Rank": "••• *pre: Wits ••",
+        "Rank": "•••",
+        "Prerequisite": "Wits ••",
         "Description": "See into the Twilight",
         "Book": "SS 116"
     },
     {
         "Name": "See Auras",
-        "Rank": "•• *pre: Empathy ••",
+        "Rank": "••",
+        "Prerequisite": "Empathy ••",
         "Description": "See auras, showing the mood and nature of others",
         "Book": "SS 116"
     },
     {
         "Name": "See Spirits",
-        "Rank": "•• *pre: Visionary Trances",
+        "Rank": "••",
+        "Prerequisite": "Visionary Trances",
         "Description": "See spirits in Twilight",
         "Book": "SS 117"
     },
     {
         "Name": "Soul Jar",
-        "Rank": "•• or •••• *pre: Second Sight",
+        "Rank": "•• or ••••",
+        "Prerequisite": "Second Sight",
         "Description": "Steal a subject's soul, rendering their body catatonic",
         "Book": "SS 118"
     },
     {
         "Name": "Visionary Trances",
-        "Rank": "•• or •••• *pre: Resolve ••",
+        "Rank": "•• or ••••",
+        "Prerequisite": "Resolve ••",
         "Description": "See (or project with •••• into the Shadow Realm",
         "Book": "SS 119"
     },
     {
         "Name": "Warding",
-        "Rank": "••• *pre: Resolve ••, Occult •",
+        "Rank": "•••",
+        "Prerequisite": "Resolve ••, Occult •",
         "Description": "Create a magic barrier to hedge out ghosts and spirits",
         "Book": "SS 120"
     },
     {
         "Name": "Weather Control",
         "Rank": "••••",
+        "Prerequisite": "",
         "Description": "Manipulate the weather, potentially dramatically.",
         "Book": "SS 120"
     }
