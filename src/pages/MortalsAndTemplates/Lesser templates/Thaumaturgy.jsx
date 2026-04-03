@@ -6,7 +6,7 @@ import ManyHeadersTable from '../../../components/ManyHeadersTable/ManyHeadersTa
 
 export default function Thaumaturgy() {
 
-    const headers = ['Name', 'Rank', 'Description', 'Book']
+    const headers = ['Name', 'Rank', 'Prerequisite', 'Description', 'Book']
     const datoSostituibile = ['Description']
     const datoSostituto = ['Name']
 
