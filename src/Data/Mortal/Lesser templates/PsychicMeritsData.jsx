@@ -1,283 +1,330 @@
 export const PsychicMeritsData = [
     {
         "Name": "Anti-Psi",
-        "Cost": "(•••••) *pre: no other Psychic powers",
+        "Rank": "•••••",
+        "Prerequisite": "no other Psychic powers",
         "Book": "SS 64",
         "Description": "Nulifies Psychic powers in area"
     },
     {
         "Name": "Believers",
-        "Cost": "(• to •••••) *pre: any Psychic power",
+        "Rank": "• to •••••",
+        "Prerequisite": "any Psychic power",
         "Book": "SS 64",
         "Description": "Group that aides in power use"
     },
     {
         "Name": "Doubting Tomas",
-        "Cost": "(•) *pre: no other Psychic powers",
+        "Rank": "•",
+        "Prerequisite": "no other Psychic powers",
         "Book": "SS 65",
         "Description": "Limites Psychic powers"
     },
     {
         "Name": "Ghost Ally",
-        "Cost": "(••• to •••••)",
+        "Rank": "••• to •••••",
+        "Prerequisite": "",
         "Book": "SS 65",
         "Description": "Ghost that follows pc around an helps out"
     },
     {
         "Name": "Hypnotic Voice",
-        "Cost": "(••••) *pre: Persuasion ••• or Science ••• (With speciality on hypnotherapy or related)",
+        "Rank": "••••",
+        "Prerequisite": "Persuasion ••• or Science ••• (With speciality on hypnotherapy or related)",
         "Book": "SS 66",
         "Description": "Can hypnotize sending targe onto trance, and find represed memories."
     },
     {
         "Name": "Lucid Dreamer",
-        "Cost": "(•)",
+        "Rank": "•",
+        "Prerequisite": "",
         "Book": "SS 67",
         "Description": "Able to attack invading psychics with Dream Travel merit"
     },
     {
         "Name": "Psychich Resistance",
-        "Cost": "(•)",
+        "Rank": "•",
+        "Prerequisite": "",
         "Book": "SS 67",
         "Description": "Extra protection agaisnt mind altering psychich powers"
     },
     {
         "Name": "Extrasensory Perception",
-        "Cost": "N/A",
+        "Rank": "N/A",
+        "Prerequisite": "",
         "Book": "N/A",
         "Description": "N/A"
     },
     {
         "Name": "Astral Projection",
-        "Cost": "(•••) *pre: Clairvoyance",
+        "Rank": "•••",
+        "Prerequisite": "Clairvoyance",
         "Book": "SS 36",
         "Description": "Soul travel by leaving body"
     },
     {
         "Name": "Clairvoyance",
-        "Cost": "(•••)",
+        "Rank": "•••",
+        "Prerequisite": "",
         "Book": "SS 37",
         "Description": "Remote viewing"
     },
     {
         "Name": "Dowsing",
-        "Cost": "(•) *pre: Clairvoyance, Cayce Channeling or Spirit Channeling",
+        "Rank": "•",
+        "Prerequisite": "Clairvoyance, Cayce Channeling or Spirit Channeling",
         "Book": "SS 38",
         "Description": "Ability to find hidden things"
     },
     {
         "Name": "Dream Travel",
-        "Cost": "(• to •••••) *pre: Astral Projection, Mind Reading, Thought Projection",
+        "Rank": "• to •••••",
+        "Prerequisite": "Astral Projection, Mind Reading, Thought Projection",
         "Book": "SS 38",
         "Description": "Visit other's dreams"
     },
     {
         "Name": "Postcognition",
-        "Cost": "(• or •••) *pre: Precognition/none",
+        "Rank": "• or •••",
+        "Prerequisite": "Precognition/none",
         "Book": "SS 40",
         "Description": "View the past events of a location"
     },
     {
         "Name": "Precognition",
-        "Cost": "(••••)",
+        "Rank": "••••",
+        "Prerequisite": "",
         "Book": "SS 41",
         "Description": "View/Predict the future"
     },
     {
         "Name": "Psychometry",
-        "Cost": "(••• or ••••)",
+        "Rank": "••• or ••••",
+        "Prerequisite": "",
         "Book": "SS 42",
         "Description": "Sense the history of objects"
     },
     {
         "Name": "Mediumist",
-        "Cost": "N/A",
+        "Rank": "N/A",
+        "Prerequisite": "",
         "Book": "N/A",
         "Description": "N/A"
     },
     {
         "Name": "Automatic Writing",
-        "Cost": "(••)",
+        "Rank": "••",
+        "Prerequisite": "",
         "Book": "SS 43",
         "Description": "Trance state confers symbolic answers"
     },
     {
         "Name": "Channeling",
-        "Cost": "(•••) *pre: Ghost Calling (for Spirit Channeling)",
+        "Rank": "•••",
+        "Prerequisite": "Ghost Calling (for Spirit Channeling)",
         "Book": "SS 44",
         "Description": "Gain skills from unconscious, past lives, or ghosts"
     },
     {
         "Name": "Death Sight",
-        "Cost": "(••••)",
+        "Rank": "••••",
+        "Prerequisite": "",
         "Book": "SS 45",
         "Description": "See and interact with ghosts"
     },
     {
         "Name": "Gateseeker",
-        "Cost": "(•••) *pre: Death Sight",
+        "Rank": "•••",
+        "Prerequisite": "Death Sight",
         "Book": "Ebon Gate 5",
         "Description": "Dowsing for Avernian Gates"
     },
     {
         "Name": "Ghost Calling",
-        "Cost": "(•••)",
+        "Rank": "•••",
+        "Prerequisite": "",
         "Book": "SS 46",
         "Description": "Summon ghosts to materialize"
     },
     {
         "Name": "Psychokinetic",
-        "Cost": "N/A",
+        "Rank": "N/A",
+        "Prerequisite": "",
         "Book": "N/A",
         "Description": "N/A"
     },
     {
         "Name": "Biokinesis",
-        "Cost": "(• to •••••)",
+        "Rank": "• to •••••",
+        "Prerequisite": "",
         "Book": "SS 46",
         "Description": "Acquire temporary merits with short durations"
     },
     {
         "Name": "Cryokinesis",
-        "Cost": "(• to •••••) *pre: Resolve & Stamina >= Cryokenesis",
+        "Rank": "• to •••••",
+        "Prerequisite": "Resolve & Stamina >= Cryokenesis",
         "Book": "SS 47",
         "Description": "Allows PC's to make areas colder"
     },
     {
         "Name": "Plant Empathy",
-        "Cost": "(•) *pre: Biokenesis",
+        "Rank": "•",
+        "Prerequisite": "Biokenesis",
         "Book": "SS 49",
         "Description": "Lets PC's speed the growth of plants"
     },
     {
         "Name": "Psychic Healing",
-        "Cost": "(••• or •••••) *pre: Biokenesis ••• or •••••",
+        "Rank": "••• or •••••",
+        "Prerequisite": "Biokenesis ••• or •••••",
         "Book": "SS 49",
         "Description": "Ability to heal self or others"
     },
     {
         "Name": "Psychic Vampirism",
-        "Cost": "(•••• or •••••) *pre: Biokenesis •••• or •••••",
+        "Rank": "•••• or •••••",
+        "Prerequisite": "Biokenesis •••• or •••••",
         "Book": "SS 49",
         "Description": "Ability to drain others of their willpower"
     },
     {
         "Name": "Pyrokinesis",
-        "Cost": "(•••••)",
+        "Rank": "•••••",
+        "Prerequisite": "",
         "Book": "SS 50",
         "Description": "Ability to make things spontaneously combust"
     },
     {
         "Name": "Pyrokinetic Immunity",
-        "Cost": "(•• or ••••) *pre: Pyrokenesis",
+        "Rank": "•• or ••••",
+        "Prerequisite": "Pyrokenesis",
         "Book": "SS 52",
         "Description": "Makes PC highly resistant or immune to fire damage"
     },
     {
         "Name": "Pyrokinetic Shaping",
-        "Cost": "(•••••) *pre: Pyrokenetic Immunity ••••",
+        "Rank": "•••••",
+        "Prerequisite": "Pyrokenetic Immunity ••••",
         "Book": "SS 52",
         "Description": "Can manipulate the growth and direction of existing fires"
     },
     {
         "Name": "Telekinesis",
-        "Cost": "(• to •••••) *pre: Resolve >= Telekinesis",
+        "Rank": "• to •••••",
+        "Prerequisite": "Resolve >= Telekinesis",
         "Book": "SS 52",
         "Description": "Ability to move bjects by the power of the mind alone"
     },
     {
         "Name": "Thermokinesis",
-        "Cost": "(• to •••••) *pre: Resolve & Stamina >= Thermokinesis",
+        "Rank": "• to •••••",
+        "Prerequisite": "Resolve & Stamina >= Thermokinesis",
         "Book": "SS 54",
         "Description": "Ability to raise ambient temperature in an area"
     },
     {
         "Name": "Telepathy",
-        "Cost": "N/A",
+        "Rank": "N/A",
+        "Prerequisite": "",
         "Book": "N/A",
         "Description": "N/A"
     },
     {
         "Name": "Animal Empathy",
-        "Cost": "(•• or ••••)",
+        "Rank": "•• or ••••",
+        "Prerequisite": "",
         "Book": "SS 55",
         "Description": "Intuit animal thoughts and moods"
     },
     {
         "Name": "Animal Possession",
-        "Cost": "(••••) *pre: Animal Empathy",
+        "Rank": "••••",
+        "Prerequisite": "Animal Empathy",
         "Book": "SS 56",
         "Description": "Control animal's body"
     },
     {
         "Name": "Animal Rapport",
-        "Cost": "(••• to •••••) *pre: Animal Ken ••",
+        "Rank": "••• to •••••",
+        "Prerequisite": "Animal Ken ••",
         "Book": "SS 57",
         "Description": "Mental bond with single animal"
     },
     {
         "Name": "Aura Reading",
-        "Cost": "(•• or •••••)",
+        "Rank": "•• or •••••",
+        "Prerequisite": "",
         "Book": "SS 57",
         "Description": "See auras"
     },
     {
         "Name": "Mental Blast",
-        "Cost": "(•••••) *pre: Thought Projection ••••",
+        "Rank": "•••••",
+        "Prerequisite": "Thought Projection ••••",
         "Book": "SS 58",
         "Description": "Telepathic mental attack"
     },
     {
         "Name": "Mind Breaker",
-        "Cost": "(•••••) *pre: Thought Projection ••••",
+        "Rank": "•••••Thought ",
+        "Prerequisite": "Projection ••••",
         "Book": "SS 58",
         "Description": "Inflict derangements"
     },
     {
         "Name": "Mind Control",
-        "Cost": "(•••••)",
+        "Rank": "•••••",
+        "Prerequisite": "",
         "Book": "SS 59",
         "Description": "Issue commands"
     },
     {
         "Name": "Mind Reading",
-        "Cost": "(••• to •••••)",
+        "Rank": "••• to •••••",
+        "Prerequisite": "",
         "Book": "SS 60",
         "Description": "Hear and understand other's thoughts"
     },
     {
         "Name": "Psychic Empathy",
-        "Cost": "(•••• or •••••) *pre: Aura Reading, Thought Projection",
+        "Rank": "•••• or •••••",
+        "Prerequisite": "Aura Reading, Thought Projection",
         "Book": "SS 60",
         "Description": "Adjust other's moods and auras"
     },
     {
         "Name": "Psychic Illusions",
-        "Cost": "(•••••) *pre: Mind Control, Thought Projection",
+        "Rank": "•••••",
+        "Prerequisite": "Mind Control, Thought Projection",
         "Book": "SS 61",
         "Description": "Create illusions for others"
     },
     {
         "Name": "Psychic Invisibility",
-        "Cost": "(•••••) *pre: Mind Control, Thought Projection",
+        "Rank": "•••••",
+        "Prerequisite": "Mind Control, Thought Projection",
         "Book": "SS 62",
         "Description": "Mask yourself from sight, not electronics"
     },
     {
         "Name": "Telepathic Communication",
-        "Cost": "(••••) *pre: Thought Projection ••••",
+        "Rank": "••••",
+        "Prerequisite": "Thought Projection ••••",
         "Book": "SS 63",
         "Description": "Initiate two-way telepathic conversation"
     },
     {
         "Name": "Telepathic Rapport",
-        "Cost": "(•••) *pre: Telepathic Communication",
+        "Rank": "•••",
+        "Prerequisite": "Telepathic Communication",
         "Book": "SS 63",
         "Description": "Permanent telepathic communication link"
     },
     {
         "Name": "Thought Projection",
-        "Cost": "(••• or ••••) *pre: Mind Reading •••••",
+        "Rank": "••• or ••••",
+        "Prerequisite": "Mind Reading •••••",
         "Book": "SS 64",
         "Description": "Send one-way thoughts to another"
     }
