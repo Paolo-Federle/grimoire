@@ -4,7 +4,9 @@ const { test, expect } = require('@playwright/test');
 
 // npx playwright test tests/table-detail-pages.spec.js --project=chromium --workers=1 --headed
 
-const BASE_URL = 'http://localhost:3000/grimoire';
+const BASE_URL =
+  process.env.PLAYWRIGHT_APP_BASE || 'http://127.0.0.1:3000/grimoire';
+const APP_ORIGIN = new URL(BASE_URL).origin;
 
 const TABLE_PAGES = [
   { name: 'Locations', path: '#' + PATHS.LOCATIONS_BASE },
@@ -62,7 +64,7 @@ function buildTargetUrl(href) {
 
   if (href.startsWith('http')) return href;
   if (href.startsWith('#/')) return `${BASE_URL}${href}`;
-  if (href.startsWith('/#/')) return `http://localhost:3000${href}`;
+  if (href.startsWith('/#/')) return `${APP_ORIGIN}${href}`;
   if (href.startsWith('/')) return `${BASE_URL}#${href}`;
   return `${BASE_URL}#/${href.replace(/^#?\/?/, '')}`;
 }

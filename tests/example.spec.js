@@ -1,19 +1,34 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
+import { PATHS } from '../src/pages/path';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+const APP_BASE_URL =
+  process.env.PLAYWRIGHT_APP_BASE || 'http://127.0.0.1:3000/grimoire';
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+function buildAppUrl(path = PATHS.HOME) {
+  const hashPath = path === PATHS.HOME ? '#/' : `#${path}`;
+  return new URL(hashPath, APP_BASE_URL).toString();
+}
+
+test('home page exposes the main entry points', async ({ page }) => {
+  await page.goto(buildAppUrl());
+
+  await expect(page.getByRole('link', { name: 'List of Books' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Sheet' })).toBeVisible();
+  await expect(
+    page.getByRole('link', { name: 'Mortals and Lesser Templates' })
+  ).toBeVisible();
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('sheet page renders the main trackers without runtime errors', async ({ page }) => {
+  const pageErrors = [];
+  page.on('pageerror', (error) => pageErrors.push(error.message));
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.goto(buildAppUrl(PATHS.SHEET));
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await expect(page.getByText('CHARACTER INFO')).toBeVisible();
+  await expect(page.getByText('HEALTH')).toBeVisible();
+  await expect(page.getByText('WILLPOWER')).toBeVisible();
+
+  expect(pageErrors).toEqual([]);
 });

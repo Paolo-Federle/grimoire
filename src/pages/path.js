@@ -1,19 +1,19 @@
 // paths.js
-import { allDiscipline } from '../Data/Vampire/DisciplineData';
-import { DevotionData } from '../Data/Vampire/DevotionData';
-import { spiritNuminaData } from '../Data/Spirit/SpiritNuminaData';
-import { derangementData } from '../Data/DerangementsData';
-import { allLocation } from '../Data/LocationMeritData';
-import { allUniMeritsData } from '../Data/universalMeritsData';
-import { allMageMeritsData } from '../Data/Mage/mageMeritsData';
-import { LegacyData } from '../Data/Mage/LegacyData';
-import { SpellsData } from '../Data/Mage/Arcana/allArcana';
-import { artifactData } from '../Data/Mage/artifactsData';
-import { imbuedItemsData } from '../Data/Mage/imbuedItemsData';
-import { allContracts } from '../Data/Changeling/ContractData';
-import { allChangelingMeritsData } from '../Data/Changeling/changelingMeritsData';
-import { allToken } from '../Data/Changeling/TokenData';
-import { dreadPowersData } from '../Data/Hunter/DreadPowerData';
+// import { allDiscipline } from '../Data/Vampire/DisciplineData';
+// import { DevotionData } from '../Data/Vampire/DevotionData';
+// import { spiritNuminaData } from '../Data/Spirit/SpiritNuminaData';
+// import { derangementData } from '../Data/DerangementsData';
+// import { allLocation } from '../Data/LocationMeritData';
+// import { allUniMeritsData } from '../Data/universalMeritsData';
+// import { allMageMeritsData } from '../Data/Mage/mageMeritsData';
+// import { LegacyData } from '../Data/Mage/LegacyData';
+// import { SpellsData } from '../Data/Mage/Arcana/allArcana';
+// import { artifactData } from '../Data/Mage/artifactsData';
+// import { imbuedItemsData } from '../Data/Mage/imbuedItemsData';
+// import { allContracts } from '../Data/Changeling/ContractData';
+// import { allChangelingMeritsData } from '../Data/Changeling/changelingMeritsData';
+// import { allToken } from '../Data/Changeling/TokenData';
+// import { dreadPowersData } from '../Data/Hunter/DreadPowerData';
 
 const slug = (str) => {
     if (typeof str !== 'string') return null;
@@ -52,6 +52,7 @@ export const PATHS = {
     BOOKS: '/books',
     SIZE: '/size',
     ITEMS: '/items',
+    NPC: 'npc',
     SKILLS: '/skills',
     SHEET: '/sheet',
     TRAITS: '/traits',
@@ -209,7 +210,8 @@ export const PATHS = {
     },
     OTHERS: {
         ASPECTS_FAVORRS: '/aspects_favors',
-        ABOMINABLE: '/abominable_traits'
+        ABOMINABLE: '/abominable_traits',
+        PARANORMAL_OBJECTS: '/external/paranormal_objects'
     }
 };
 

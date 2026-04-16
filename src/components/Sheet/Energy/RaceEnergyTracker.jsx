@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSheetData } from "../05_SheetDataContext";
+import { updateValueAtPath } from "../sheetStateUtils";
 
 const initializeDots = (length, filledCount) => {
     return Array.from({ length }, (_, i) => i < filledCount);
@@ -23,17 +24,20 @@ export const RaceEnergyTracker = () => {
     const selectedRace = sheetData.character.race.selected;
     const energyPoolName = sheetData.race_traits.race_specific_names[selectedRace]?.energy_pool;
     const maxEnergy = sheetData.race_traits.energy_pool.max;
-    const [energyPool, setEnergyPool] = useState(initializeDots(maxEnergy, sheetData.race_traits.energy_pool.current));
+    const currentEnergy = sheetData.race_traits.energy_pool.current;
+    const [energyPool, setEnergyPool] = useState(() => initializeDots(maxEnergy, currentEnergy));
     const energyColor = getEnergyColor(selectedRace);
 
     useEffect(() => {
-        setEnergyPool(initializeDots(maxEnergy, sheetData.race_traits.energy_pool.current));
-        setSheetData(prev => {
-            const updated = { ...prev };
-            updated.race_traits.energy_pool.current = energyPool.filter(dot => dot).length;
-            return updated;
-        });
-    }, [maxEnergy]);
+        setEnergyPool(initializeDots(maxEnergy, currentEnergy));
+    }, [currentEnergy, maxEnergy]);
+
+    useEffect(() => {
+        const filledDots = energyPool.filter(Boolean).length;
+        setSheetData((prev) =>
+            updateValueAtPath(prev, ["race_traits", "energy_pool", "current"], filledDots)
+        );
+    }, [energyPool, setSheetData]);
 
     const setEnergyLevel = (index) => {
         setEnergyPool(prev => {
@@ -44,12 +48,6 @@ export const RaceEnergyTracker = () => {
             } else {
                 newEnergyPool = prev.map((_, i) => i <= index);
             }
-
-            setSheetData(prev => {
-                const updated = { ...prev };
-                updated.race_traits.energy_pool.current = newEnergyPool.filter(dot => dot).length;
-                return updated;
-            });
 
             return newEnergyPool;
         });

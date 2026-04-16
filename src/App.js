@@ -161,6 +161,7 @@ import PrometheanExperiencePoints from './pages/Promethean/PrometheanExperienceP
 import MummyExperiencePoints from './pages/Mummy/MummyExperiencePoints';
 import Settings from './pages/Generale/Settings';
 import AbominableTraits from './pages/Others/AbominableTraits';
+import ParanormalObjectsPage from './pages/Generale/OggettiOcculti';
 
 function App() {
   const [categoryStyle, setCategoryStyle] = useState('');
@@ -183,9 +184,6 @@ function App() {
       );
     });
   }
-
-  console.log('allUniMeritsData', allUniMeritsData)
-  console.log('allLocation', allLocation)
 
   return (
     <>
@@ -443,6 +441,8 @@ function App() {
             {/* OTHERS */}
             <Route path={PATHS.OTHERS.ASPECTS_FAVORRS} element={<AspectsAndFavors />} />
             <Route path={PATHS.OTHERS.ABOMINABLE} element={<AbominableTraits />} />
+            <Route path={PATHS.OTHERS.PARANORMAL_OBJECTS} element={<ParanormalObjectsPage />} />
+
           </Routes>
         </div>
       </ThemeProvider>

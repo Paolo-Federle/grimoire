@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import TitleDots from "../Common/35_TitleDots";
 import { ModifierControl } from "../Common/40_ModifierControl";
 import { useSheetData } from "../05_SheetDataContext";
+import { updateValueAtPath } from "../sheetStateUtils";
 
 export const SkillsRow = ({ name, category, max, min }) => {
   const { sheetData, setSheetData } = useSheetData();
@@ -9,20 +10,16 @@ export const SkillsRow = ({ name, category, max, min }) => {
   const [modifier, setModifier] = useState(sheetData.skills[category][name].modifier);
 
   useEffect(() => {
-    setSheetData((prev) => {
-      const updated = { ...prev };
-      updated.skills[category][name].base = value;
-      return updated;
-    });
-  }, [value]);
+    setSheetData((prev) =>
+      updateValueAtPath(prev, ["skills", category, name, "base"], value)
+    );
+  }, [category, name, setSheetData, value]);
 
   useEffect(() => {
-    setSheetData((prev) => {
-      const updated = { ...prev };
-      updated.skills[category][name].modifier = modifier;
-      return updated;
-    });
-  }, [modifier]);
+    setSheetData((prev) =>
+      updateValueAtPath(prev, ["skills", category, name, "modifier"], modifier)
+    );
+  }, [category, modifier, name, setSheetData]);
 
   const handleChange = (newValue) => {
     setValue(newValue);

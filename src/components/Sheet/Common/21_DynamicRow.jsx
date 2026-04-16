@@ -11,7 +11,7 @@ export const DynamicRow = ({ item, index, onChange, onRemove, isHeader = false, 
               {field.charAt(0).toUpperCase() + field.slice(1)}
             </th>
           ))}
-          <th className="w-10"></th> {/* Space for remove button alignment */}
+          <th className="w-10" aria-hidden="true"></th>
         </tr>
       </thead>
     );
@@ -38,8 +38,6 @@ export const DynamicRow = ({ item, index, onChange, onRemove, isHeader = false, 
           className={totalItems > 1 ? "" : "invisible"}
         />
       </td>
-
-
     </tr>
   );
 };

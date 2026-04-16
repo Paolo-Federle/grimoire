@@ -39,7 +39,7 @@ export default function Home() {
                                 &nbsp;•&nbsp;
                                     <Link to={PATHS.ITEMS} title="Category:Items">Items</Link>
                                     &nbsp;•&nbsp;
-                                    <Link to="/wiki/Category:NPCs" title="Category:NPCs">NPCs</Link>
+                                    <Link to={PATHS.NPC} title="Category:NPCs">NPCs</Link>
                                     &nbsp;•&nbsp;
                                     <Link to={PATHS.SETTINGS} title="Category:Settings">Settings</Link>
                                     &nbsp;•&nbsp;

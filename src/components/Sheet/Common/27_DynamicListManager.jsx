@@ -1,17 +1,16 @@
-import { useState } from "react";
 import { useSheetData } from "../05_SheetDataContext";
 
 export const DynamicListManager = ({ dataKey, RowComponent }) => {
   const { sheetData, setSheetData } = useSheetData();
-  const [items, setItems] = useState(sheetData[dataKey] || []);
+  const items = sheetData[dataKey] || [];
 
   const getDefaultItem = () => {
-    if (!sheetData[dataKey] || sheetData[dataKey].length === 0 || typeof sheetData[dataKey][0] !== "object") {
+    if (!items.length || typeof items[0] !== "object") {
       return {};
     }
 
     return Object.fromEntries(
-      Object.entries(sheetData[dataKey][0]).map(([key, value]) => {
+      Object.entries(items[0]).map(([key, value]) => {
         if (typeof value === "boolean") return [key, false];
         if (typeof value === "number") return [key, 0];
         return [key, ""];
@@ -20,16 +19,11 @@ export const DynamicListManager = ({ dataKey, RowComponent }) => {
   };
 
   const handleChange = (index, field, value) => {
-    const updatedItems = [...sheetData[dataKey]];
-    updatedItems[index][field] = value;
+    const updatedItems = items.map((item, itemIndex) =>
+      itemIndex === index ? { ...item, [field]: value } : item
+    );
 
-    setSheetData(prev => {
-      const updated = { ...prev };
-      updated[dataKey] = updatedItems;
-      return updated;
-    });
-
-    setItems(updatedItems);
+    setSheetData((prev) => ({ ...prev, [dataKey]: updatedItems }));
   };
 
   const addItem = () => {
@@ -39,29 +33,15 @@ export const DynamicListManager = ({ dataKey, RowComponent }) => {
       return;
     }
 
-    const updatedItems = [...sheetData[dataKey], newItem];
-
-    setSheetData(prev => {
-      const updated = { ...prev };
-      updated[dataKey] = updatedItems;
-      return updated;
-    });
-
-    setItems(updatedItems);
+    setSheetData((prev) => ({ ...prev, [dataKey]: [...items, newItem] }));
   };
 
   const removeItem = (index) => {
     if (items.length > 1) {
-      const updatedItems = [...sheetData[dataKey]];
-      updatedItems.splice(index, 1);
-
-      setSheetData(prev => {
-        const updated = { ...prev };
-        updated[dataKey] = updatedItems;
-        return updated;
-      });
-
-      setItems(updatedItems);
+      setSheetData((prev) => ({
+        ...prev,
+        [dataKey]: items.filter((_, itemIndex) => itemIndex !== index),
+      }));
     }
   };
 

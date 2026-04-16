@@ -1,45 +1,32 @@
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
 import { useSheetData } from "../05_SheetDataContext";
+import { getValueAtPath, updateValueAtPath } from "../sheetStateUtils";
 
 export const SelectInput = ({ field, options = null, path = null, label = "Select an option", onChange = null }) => {
-    const { sheetData, setSheetData } = useSheetData();
-    const isUsingSheetData = !!field;
-    const availableOptions = options || (isUsingSheetData ? field.choices : []);
+  const { sheetData, setSheetData } = useSheetData();
+    const isUsingField = !!field;
+    const availableOptions = options || (isUsingField ? field.choices || [] : []);
 
-    const getSelectedValue = () => {
-        if (isUsingSheetData) return field.selected;
-        if (path) {
-            let ref = sheetData;
-            const keys = path.split(".");
-            keys.forEach((key) => (ref = ref[key]));
-            return ref;
-        }
+    const resolvedSelectedValue = useMemo(() => {
+        if (isUsingField) return field.selected ?? "";
+        if (path) return getValueAtPath(sheetData, path) ?? "";
         return "";
-    };
+    }, [field, isUsingField, path, sheetData]);
 
-    const [selected, setSelected] = useState(getSelectedValue());
+    const [selected, setSelected] = useState(resolvedSelectedValue);
+
+    useEffect(() => {
+        setSelected(resolvedSelectedValue);
+    }, [resolvedSelectedValue]);
 
     const handleChange = (event) => {
         const newValue = event.target.value;
 
         if (onChange) {
             onChange(newValue);
-        } else if (isUsingSheetData) {
-            field.selected = newValue;
-            setSheetData((prev) => {
-                const updated = { ...prev };
-                return updated;
-            });
         } else if (path) {
-            setSheetData((prev) => {
-                const updated = { ...prev };
-                let ref = updated;
-                const keys = path.split(".");
-                keys.slice(0, -1).forEach((key) => (ref = ref[key]));
-                ref[keys[keys.length - 1]] = newValue;
-                return updated;
-            });
+            setSheetData((prev) => updateValueAtPath(prev, path, newValue));
         }
 
         setSelected(newValue);

@@ -3,19 +3,19 @@ export const lesserTemplatesData = [
         "Type": "Changing Breeds",
         "Association": "",
         "Advantages": "Aspects and Favors, Changing Breed Merits",
-        "Book": ""
+        "Book": "CB 56"
     },
     {
         "Type": "Children",
         "Association": "",
         "Advantages": "Innocents Merits",
-        "Book": ""
+        "Book": "Inn 25"
     },
     {
         "Type": "Ghouls",
         "Association": "Vampire",
         "Advantages": "Disciplines, Ghoul Merits, Ghoul Families",
-        "Book": ""
+        "Book": "VtR 166"
     },
     {
         "Type": "Dhampir",
@@ -39,19 +39,19 @@ export const lesserTemplatesData = [
         "Type": "Immortals",
         "Association": "Mummy",
         "Advantages": "Immortal Merits, Siddhi (Purified only)",
-        "Book": ""
+        "Book": "Imm 32, Imm 57, Imm 96"
     },
     {
         "Type": "Slashers",
         "Association": "Hunter",
         "Advantages": "Undertakings, Dread Powers",
-        "Book": ""
+        "Book": "Slash 89"
     },
     {
         "Type": "Proximi",
         "Association": "Mage",
         "Advantages": "Spells, Proximi Families",
-        "Book": ""
+        "Book": "SL 63"
     },
     {
         "Type": "Possessed",
@@ -63,7 +63,7 @@ export const lesserTemplatesData = [
         "Type": "Psychics",
         "Association": "",
         "Advantages": "Psychic Merits",
-        "Book": ""
+        "Book": "SS 29"
     },
     {
         "Type": "Skinthieves",
@@ -75,7 +75,7 @@ export const lesserTemplatesData = [
         "Type": "Thaumaturges",
         "Association": "",
         "Advantages": "Thaumaturgy Merits",
-        "Book": ""
+        "Book": "SS 79"
     },
     {
         "Type": "Witches",

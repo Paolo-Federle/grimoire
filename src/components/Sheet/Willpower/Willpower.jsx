@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ModifierControl } from "../Common/40_ModifierControl";
 import { useSheetData } from "../05_SheetDataContext";
+import { updateValueAtPath } from "../sheetStateUtils";
 
 const initializeArray = (arr, length, defaultValue) => {
     return arr.slice(0, length).concat(Array(Math.max(0, length - arr.length)).fill(defaultValue));
@@ -8,29 +9,30 @@ const initializeArray = (arr, length, defaultValue) => {
 
 export const WillpowerTracker = () => {
     const { sheetData, setSheetData } = useSheetData();
+    const [willpowerMod, setWillpowerMod] = useState(sheetData.derived_stats.willpower_mod || 0);
 
     const getMaxWillpower = () => {
         return sheetData.attributes.mental.resolve.base +
             sheetData.attributes.mental.resolve.modifier +
             sheetData.attributes.social.composure.base +
             sheetData.attributes.social.composure.modifier +
-            sheetData.derived_stats.willpower_mod;
+            willpowerMod;
     };
 
-    const [willpowerMod, setWillpowerMod] = useState(sheetData.derived_stats.willpower_mod || 0);
     const maxWillpower = getMaxWillpower();
     const [willpower, setWillpower] = useState(initializeArray(sheetData.derived_stats.willpower || [], maxWillpower, "filled"));
 
     useEffect(() => {
         setWillpower(prev => initializeArray(prev, maxWillpower, "filled"));
+    }, [maxWillpower]);
 
-        setSheetData(prev => {
-            const updated = { ...prev };
-            updated.derived_stats.willpower = willpower;
-            updated.derived_stats.willpower_mod = willpowerMod;
-            return updated;
+    useEffect(() => {
+        setSheetData((prev) => {
+            let updatedSheetData = updateValueAtPath(prev, ["derived_stats", "willpower"], willpower);
+            updatedSheetData = updateValueAtPath(updatedSheetData, ["derived_stats", "willpower_mod"], willpowerMod);
+            return updatedSheetData;
         });
-    }, [maxWillpower, willpowerMod]);
+    }, [setSheetData, willpower, willpowerMod]);
 
     const WILLPOWER_ORDER = ["filled", "empty", "crossed"];
 
@@ -59,12 +61,6 @@ export const WillpowerTracker = () => {
                     newWillpower[i] = newValue;
                 }
             }
-
-            setSheetData(prev => {
-                const updated = { ...prev };
-                updated.derived_stats.willpower = newWillpower;
-                return updated;
-            });
 
             return newWillpower;
         });
