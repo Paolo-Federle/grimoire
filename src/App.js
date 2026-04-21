@@ -170,7 +170,7 @@ function App() {
   function generateRoutes({ data, basePath, Component, propKey, getKey, getPathName }) {
     return data.map((item, index) => {
       const key = getKey ? getKey(item, index) : index;
-      const slug = getPathName ? getPathName(item) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
+      const slug = getPathName ? getPathName(item, index) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
       const path = `${basePath}/${slugify(slug)}`;
 
       // console.log('path', path)
@@ -223,7 +223,9 @@ function App() {
               basePath: PATHS.DERANGEMENTS,
               data: derangementData,
               Component: DerangementsDetail,
-              propKey: "derangement"
+              propKey: "derangement",
+              getKey: (_, index) => `derangement-${index}`,
+              getPathName: (item, index) => `${item.Name || 'unknown'}-${index}`
             })}
             <Route path={PATHS.LEXYCON} element={<Lexycon />} />
 

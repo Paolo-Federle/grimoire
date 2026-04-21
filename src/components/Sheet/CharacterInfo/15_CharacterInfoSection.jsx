@@ -5,6 +5,11 @@ import { NumberInput } from "../Common/35_NumberInput";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
 
+const toLabel = (value) =>
+  String(value)
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase());
+
 export default function CharacterInfoSection() {
   const { sheetData, setSheetData } = useSheetData();
   const character = sheetData.character;
@@ -32,7 +37,7 @@ export default function CharacterInfoSection() {
   };
 
   const raceDetails = character.details[selectedRace] || {};
-  const [firstField, secondField, thirdField] = Object.keys(raceDetails).slice(0, 3);
+  const raceFields = Object.entries(raceDetails);
 
 
   return (
@@ -58,23 +63,40 @@ export default function CharacterInfoSection() {
           />
         </div>
 
-        {selectedRace && firstField && (
+        {selectedRace && raceFields.length > 0 && (
           <div className="w-1/3 space-y-4">
-            <SelectInput
-              label={firstField?.charAt(0).toUpperCase() + firstField?.slice(1)}
-              field={character.details[selectedRace][firstField]}
-              onChange={(value) => handleRaceDetailChange(firstField, value)}
-            />
-            <SelectInput
-              label={secondField?.charAt(0).toUpperCase() + secondField?.slice(1)}
-              field={character.details[selectedRace][secondField]}
-              onChange={(value) => handleRaceDetailChange(secondField, value)}
-            />
-            <TextInput
-              label={thirdField?.charAt(0).toUpperCase() + thirdField?.slice(1)}
-              value={character.details[selectedRace][thirdField]}
-              onChange={(val) => handleRaceDetailChange(thirdField, val)}
-            />
+            {raceFields.map(([fieldKey, fieldValue]) => {
+              if (fieldValue && typeof fieldValue === "object" && "choices" in fieldValue) {
+                return (
+                  <SelectInput
+                    key={fieldKey}
+                    label={toLabel(fieldKey)}
+                    field={fieldValue}
+                    onChange={(value) => handleRaceDetailChange(fieldKey, value)}
+                  />
+                );
+              }
+
+              if (typeof fieldValue === "number") {
+                return (
+                  <NumberInput
+                    key={fieldKey}
+                    label={toLabel(fieldKey)}
+                    value={fieldValue}
+                    onChange={(value) => handleRaceDetailChange(fieldKey, value)}
+                  />
+                );
+              }
+
+              return (
+                <TextInput
+                  key={fieldKey}
+                  label={toLabel(fieldKey)}
+                  value={fieldValue}
+                  onChange={(value) => handleRaceDetailChange(fieldKey, value)}
+                />
+              );
+            })}
           </div>
         )}
       </CategoryContainer>

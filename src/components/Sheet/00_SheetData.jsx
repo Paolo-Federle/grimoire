@@ -1,11 +1,6 @@
 import { Vices } from "../../Data/Mortal/VirtueViceData"
 import { Virtues } from "../../Data/Mortal/VirtueViceData"
-import { Paths } from "../../Data/Mage/PathData"
-import { Orders } from "../../Data/Mage/OrderData"
-import { Clans } from "../../Data/Vampire/ClanData"
-import { Coventants } from "../../Data/Vampire/CovenantData"
-import { Courts } from "../../Data/Changeling/CourtData"
-import { Seemings } from "../../Data/Changeling/SeemingsData"
+import { characterDetailOptions } from "./raceOptions"
 
 export const sheetData = {
     "character": {
@@ -18,43 +13,43 @@ export const sheetData = {
         "background": "",
         "details": {
             "mage": {
-                "path": { "selected": "", "choices": Paths },
-                "order": { "selected": "", "choices": Orders },
-                "legacy": ""
+                "path": { "selected": "", "choices": characterDetailOptions.mage.path },
+                "order": { "selected": "", "choices": characterDetailOptions.mage.order },
+                "legacy": { "selected": "", "choices": characterDetailOptions.mage.legacy }
             },
             "vampire": {
-                "clan": { "selected": "", "choices": Clans },
-                "covenant": { "selected": "", "choices": Coventants },
-                "bloodline": "",
+                "clan": { "selected": "", "choices": characterDetailOptions.vampire.clan },
+                "covenant": { "selected": "", "choices": characterDetailOptions.vampire.covenant },
+                "bloodline": { "selected": "", "choices": characterDetailOptions.vampire.bloodline },
             },
             "changeling": {
-                "seeming": { "selected": "", "choices": Seemings },
-                "court": { "selected": "", "choices": Courts },
-                "kith": ""
+                "seeming": { "selected": "", "choices": characterDetailOptions.changeling.seeming },
+                "court": { "selected": "", "choices": characterDetailOptions.changeling.court },
+                "kith": { "selected": "", "choices": characterDetailOptions.changeling.kith }
             },
             "werewolf": {
-                "auspice": { "selected": "", "choices": ["Rahu", "Cahalith", "Elodoth", "Ithaeur", "Irraka"] },
-                "tribe": { "selected": "", "choices": ["Blood Talons", "Bone Shadows", "Hunters in Darkness", "Iron Masters", "Storm Lords", "Ghost Wolves", "Fire-Touched", "Ivory Claws", "Predator Kings", "Bale Hounds", "Doirons", "Pickerings", "Rios", "Rosewood Clan", "Village of Fountainhill", "Baal-Hadad", "Balam-Colop", "Brineborn", "Colony", "Distant Ones", "Unclean"] },
-                "lodge": ""
+                "auspice": { "selected": "", "choices": characterDetailOptions.werewolf.auspice },
+                "tribe": { "selected": "", "choices": characterDetailOptions.werewolf.tribe },
+                "lodge": { "selected": "", "choices": characterDetailOptions.werewolf.lodge }
             },
             "hunter": {
-                "profession": "",
-                "compact": "",
-                "conspiracy": ""
+                "profession": { "selected": "", "choices": characterDetailOptions.hunter.profession },
+                "compact": { "selected": "", "choices": characterDetailOptions.hunter.compact },
+                "conspiracy": { "selected": "", "choices": characterDetailOptions.hunter.conspiracy }
             },
             "geist": {
-                "archetype": { "selected": "", "choices": ["Advocate", "Bonepicker", "Celebrant", "Gatekeeper", "Mourner", "Necromancer", "Pilgrim", "Reaper"] },
-                "threshold": { "selected": "", "choices": ["Torn", "Silent", "Stricken", "Prey", "Forgotten" ] },
+                "archetype": { "selected": "", "choices": characterDetailOptions.geist.archetype },
+                "threshold": { "selected": "", "choices": characterDetailOptions.geist.threshold },
                 "krewe": ""
             },
             "mummy": {
-                "decree": { "selected": "", "choices": ["Lion-Headed", "Falcon-Headed", "Bull-Headed", "Serpent-Headed", "Jackal-Headed" ] },
-                "guild": { "selected": "", "choices": ["Maa-Kep	", "Mesen-Nebu", "Sesha-Hebsu", "Su-Menent", "Tef-Aabhi", "Akhem-Urtu"] },
-                "judge": ""
+                "decree": { "selected": "", "choices": characterDetailOptions.mummy.decree },
+                "guild": { "selected": "", "choices": characterDetailOptions.mummy.guild },
+                "judge": { "selected": "", "choices": characterDetailOptions.mummy.judge }
             },
             "promethean": {
-                "lineage": { "selected": "", "choices": ["Frankenstein", "Galatea", "Osiris", "Tammuz", "Ulgan", "Unfleshed", "Zeka", "Hollow" ] },
-                "refinement": { "selected": "", "choices": ["Aes", "Argentum", "Aurum", "Centimani", "Cobalus", "Cuprum", "Ferrum", "Mercurius", "Plumbum", "Stannum"] },
+                "lineage": { "selected": "", "choices": characterDetailOptions.promethean.lineage },
+                "refinement": { "selected": "", "choices": characterDetailOptions.promethean.refinement },
                 "athanor": ""
             }
         }
@@ -125,17 +120,17 @@ export const sheetData = {
             }
         },
         "vampire": {
-            "disciplines": {},
-            "devotions": {},
-            "rituals": {}
+            "disciplines": [{ "name": "", "dots": 1 }],
+            "devotions": [{ "name": "" }],
+            "rituals": [{ "name": "" }]
         },
         "changeling": {
-            "contracts": {},
-            "pledges": {}
+            "contracts": [{ "name": "" }],
+            "pledges": [{ "name": "" }]
         },
         "werewolf": {
-            "gifts": {},
-            "rites": {},
+            "gifts": [{ "name": "", "dots": 1 }],
+            "rites": [{ "name": "" }],
             "renown": {
                 "purity": 0,
                 "glory": 0,
@@ -145,15 +140,16 @@ export const sheetData = {
             }
         },
         "hunter": {
-            "tactics": {},
-            "endowments": {}
+            "tactics": [{ "name": "" }],
+            "endowments": [{ "group": "", "name": "" }]
         },
         "geist": {
-            "manifestations": {},
+            "manifestations": [{ "name": "", "key": "", "dots": 1 }],
+            "krewe_traits": [{ "name": "" }],
             "keys": []
         },
         "mummy": {
-            "utterances": {},
+            "utterances": [{ "name": "" }],
             "pillars": {
                 "ab": 0,
                 "ba": 0,
@@ -163,7 +159,7 @@ export const sheetData = {
             }
         },
         "promethean": {
-            "transmutations": [],
+            "transmutations": [{ "name": "" }],
         }
     },
     "race_traits": {
@@ -206,18 +202,18 @@ export const sheetData = {
         }
     },
     "morality": {
-        "score": 1,
+        "score": 7,
         "derangements": {
-            "10": "",
-            "9": "",
-            "8": "",
-            "7": "",
-            "6": "",
-            "5": "",
-            "4": "",
-            "3": "",
-            "2": "",
-            "1": ""
+            "10": [],
+            "9": [],
+            "8": [],
+            "7": [],
+            "6": [],
+            "5": [],
+            "4": [],
+            "3": [],
+            "2": [],
+            "1": []
         },
         "mage": "wisdom",
         "vampire": "humanity",
@@ -236,7 +232,7 @@ export const sheetData = {
         "willpower_max": 0,
         "willpower_current": 0,
         "willpower_mod": 0,
-        "armor": {},
+        "armor": "",
         "speed": {
             "base": 0,
             "modifier": 0
@@ -245,26 +241,33 @@ export const sheetData = {
             "base": 1,
             "modifier": 0
         },
-        "initiative": 0,
+        "initiative": {
+            "base": 0,
+            "modifier": 0
+        },
         "size": 5
     },
     "race_details": {
         "mage": {
             "active_spells": [{
+                "arcana": "",
+                "level": 1,
                 "name": "",
                 "potency": "",
-                "description": ""
-
+                "dice_pool": "",
+                "book": ""
             }],
             "spells_onself": [{
+                "arcana": "",
+                "level": 1,
                 "name": "",
                 "potency": "",
-                "description": ""
+                "dice_pool": "",
+                "book": ""
             }],
-            "nimbus": "",
             "rotes": [{
                 "arcana": "",
-                "level": "",
+                "level": 1,
                 "name": "",
                 "dice_pool": "",
                 "book": "",

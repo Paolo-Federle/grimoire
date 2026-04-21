@@ -6,6 +6,7 @@ export const DotMarkers = ({
   value, 
   modifier, 
   onChange,
+  dotClassName = "",
   filledColor = "bg-black border-black",
   modifierColor = "bg-green-500 border-green-500",
   negativeModifierColor = "bg-red-500 border-red-500"
@@ -23,6 +24,7 @@ export const DotMarkers = ({
             filled={isFilled}
             modifier={isModifierPositive || isModifierNegative}
             onClick={() => onChange(i + 1 === value ? min : i + 1)}
+            dotClassName={dotClassName}
             filledColor={filledColor}
             modifierColor={isModifierNegative ? negativeModifierColor : modifierColor}
           />
