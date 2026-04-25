@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 
 export default function UniversalMeritsDetail(props) {
-    const location = useLocation();
     const matchedMerit = props.merits
-console.log('props.merits', props.merits)
-
     return (
         <div className='longTextContainer'>
             {matchedMerit && (

@@ -1,6 +1,5 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable';
-import { HarmonyData } from '../../Data/Werewolf/HarmonyData';
 import { PrimalUrgeData } from '../../Data/Werewolf/PrimalUrgeData';
 
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable';
-import { ArchetypesData } from '../../Data/Geist/ArchetypesData';
 import { DecreesData } from '../../Data/Mummy/DecreesData';
 
 

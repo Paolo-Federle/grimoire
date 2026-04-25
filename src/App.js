@@ -1,454 +1,501 @@
-import React, { useEffect, useState } from 'react';
-import Home from './pages/home'
-import Skills from './pages/Generale/Skills'
-import UniversalMerits from './pages/Generale/UniversalMerits'
-import Vampire from './pages/Vampire/Vampire'
-import Disciplines from './pages/Vampire/Disciplines'
-import DisciplinesDetail from './pages/Vampire/DisciplinesDetail';
-import { allDiscipline } from './Data/Vampire/DisciplineData';
-import VampireMerits from './pages/Vampire/VampireMerits'
-import Devotion from './pages/Vampire/Devotion';
-import DevotionsDetail from './pages/Vampire/DevotionsDetail ';
-import { DevotionData } from './Data/Vampire/DevotionData';
-import Werewolf from './pages/Werewolf/Werewolf'
-import Gifts from './pages/Werewolf/Gifts'
-import Rites from './pages/Werewolf/Rites'
-import WerewolfMerits from './pages/Werewolf/WerewolfMerits'
-import Talen from './pages/Werewolf/Talen'
-import Fetish from './pages/Werewolf/Fetish'
-import Mage from './pages/Mage/Mage'
-import Arcana from './pages/Mage/Arcana';
-import Spells from './pages/Mage/Spells'
-import MageMerits from './pages/Mage/MageMerits'
-import { allMageMeritsData } from './Data/Mage/mageMeritsData'
-import MageMeritsDetail from './pages/Mage/MageMeritsDetail'
-import Path from './pages/Mage/Path';
-import Order from './pages/Mage/Order';
-import Legacy from './pages/Mage/Legacy';
-import LegacyDetail from './pages/Mage/LegacyDetail';
-import SpellDetail from './pages/Mage/SpellDetail';
-import Gnosis from './pages/Mage/Gnosis'
-import Wisdom from './pages/Mage/Wisdom';
-import { LegacyData } from './Data/Mage/LegacyData';
-import { SpellsData } from './Data/Mage/Arcana/allArcana'
-import Artifacts from './pages/Mage/Artifact'
-import { artifactData } from './Data/Mage/artifactsData';
-import ArtifactDetail from './pages/Mage/ArtifactDetail';
-import ImbuedItems from './pages/Mage/ImbuedItems'
-import { imbuedItemsData } from './Data/Mage/imbuedItemsData';
-import ImbuedItemsDetail from './pages/Mage/ImbuedItemsDetail';
-import Grimoire from './pages/Mage/Grimoire';
-import Promethean from './pages/Promethean/Promethean'
-import Transmutations from './pages/Promethean/Transmutations'
-
-import PrometheanMerits from './pages/Promethean/PrometheanMerits'
-import Changeling from './pages/Changeling/Changeling';
-import Contracts from './pages/Changeling/Contracts';
-import { allContracts } from './Data/Changeling/ContractData';
-import ContractsDetail from './pages/Changeling/ContractsDetail';
-import Pledges from './pages/Changeling/Pledges';
-import ChangelingMerits from './pages/Changeling/ChangelingMerits';
-import ChangelingMeritsDetail from './pages/Changeling/ChangelingMeritsDetail';
-import GoblinFruits from './pages/Changeling/GoblinFruits';
-import Token from './pages/Changeling/Token';
-import { tokenDesc } from './Data/Changeling/TokenData';
-import { allToken } from './Data/Changeling/TokenData';
-import Clarity from './pages/Changeling/Clarity';
-import { allChangelingMeritsData } from './Data/Changeling/changelingMeritsData';
-import Hunter from './pages/Hunter/Hunter';
-import Endowments from './pages/Hunter/Endowments';
-import Tactics from './pages/Hunter/Tactics';
-import HunterMerits from './pages/Hunter/HunterMerits';
-import DreadPowers from './pages/Hunter/DreadPowers';
-import { dreadPowersData } from './Data/Hunter/DreadPowerData';
-import DreadPowerDetail from './pages/Hunter/DreadPowersDetail';
-import Geist from './pages/Geist/Geist';
-import KeysAndHaunts from './pages/Geist/KeysAndHaunts';
-import Ceremonies from './pages/Geist/Ceremonies';
-import GeistMerits from './pages/Geist/GeistMerits';
-import Mummy from './pages/Mummy/Mummy';
-import Affinities from './pages/Mummy/Affinities';
-import Utterances from './pages/Mummy/Utterances';
-import MummyMerits from './pages/Mummy/MummyMerits';
-import Relic from './pages/Mummy/Relic';
-import Numina from './pages/Spirit/Numina';
-import NuminaDetail from './pages/Spirit/NuminaDetail';
-import Mortal from './pages/MortalsAndTemplates/Mortal';
-import Armor from './pages/MortalsAndTemplates/Armor';
-import Tools from './pages/MortalsAndTemplates/Tools';
-import Reliquary from './pages/MortalsAndTemplates/Reliquary';
-import Vehicle from './pages/MortalsAndTemplates/Vehicle';
-import Weapon from './pages/MortalsAndTemplates/Weapon';
-import MortalMerits from './pages/MortalsAndTemplates/MortalMerits';
-import Thaumaturgy from './pages/MortalsAndTemplates/Lesser templates/Thaumaturgy';
-import PsychicsPowers from './pages/MortalsAndTemplates/Lesser templates/Psychics';
-import { allUniMeritsData } from './Data/universalMeritsData'
-import UniversalMeritsDetail from './pages/Generale/UniversalMeritsDetail'
-import Books from './pages/Generale/Books';
-import Location from './pages/Generale/Location';
-import { allLocation } from './Data/LocationMeritData';
-import LocationDetail from './pages/Generale/LocationDetail';
-import Size from './pages/Generale/Size';
-import Items from './pages/Generale/Items';
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar';
-import { useLocation } from 'react-router-dom';
-import './css/App.css';
-import './css/Races-Style.css'
-import { spiritNuminaData } from './Data/Spirit/SpiritNuminaData';
-import Traits from './pages/Generale/Traits';
-import ExternalResources from './pages/Generale/ExternalResources';
-import Derangements from './pages/Generale/Derangements';
-import DerangementsDetail from './pages/Generale/DerangementsDetail';
-import { derangementData } from './Data/DerangementsData';
-import Lexycon from './pages/Generale/Lexycon';
-import Clan from './pages/Vampire/Clan';
-import Covenant from './pages/Vampire/Covenant';
-import Kith from './pages/Changeling/Kith';
-import Seeming from './pages/Changeling/Seeming'
-import Court from './pages/Changeling/Court';
-import Entitlements from './pages/Changeling/Entitlement';
-import Wyrd from './pages/Changeling/Wyrd';
-import Bloodline from './pages/Vampire/Bloodline';
-import BloodPotency from './pages/Vampire/BloodPotency';
-import GhoulFamilies from './pages/Vampire/Ghoul';
-import Morality from './pages/MortalsAndTemplates/Morality';
-import Humanity from './pages/Vampire/Humanity';
-import VirtueVice from './pages/MortalsAndTemplates/VirtueVice';
-import TokensDetail from './pages/Changeling/TokensDetail';
-import TokenRules from './pages/Changeling/TokenRules';
-import SheetTest from './pages/Generale/SheetTest';
+import React, { Suspense, lazy } from "react";
+import { Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
+import Navbar from "./components/Navbar";
+import Breadcrumbs from "./components/Breadcrumbs";
+import LazyDetailRoute from "./components/LazyDetailRoute";
+import "./css/App.css";
+import "./css/Races-Style.css";
 import theme from "./css/muiTheme";
-import { slugify } from './utils';
-import MageExperiencePoints from './pages/Mage/MageExperiencePoints';
-import ChangelingExperiencePoints from './pages/Changeling/ChangelingExperiencePoints';
-import VampireExperiencePoints from './pages/Vampire/VampireExperiencePoints';
-import { goblinFruitData } from './Data/Changeling/GoblinFruitData';
-import GoblinFruitsDetail from './pages/Changeling/GoblinFruitsDetail';
-import { PATHS } from './pages/path';
-import Archetypes from './pages/Geist/Archetypes';
-import Decrees from './pages/Mummy/Decrees';
-import Synergy from './pages/Geist/Synergy';
-import Guilds from './pages/Mummy/Guilds';
-import Memory from './pages/Mummy/Memory';
-import Professions from './pages/Hunter/Professions';
-import KreweTraits from './pages/Geist/KreweTraits';
-import Thresholds from './pages/Geist/Thresholds';
-import AspectsAndFavors from './pages/Others/AspectsAndFavors';
-import Auspices from './pages/Werewolf/Auspices';
-import Harmony from './pages/Werewolf/Harmony';
-import Lodges from './pages/Werewolf/Lodges';
-import PrimalUrge from './pages/Werewolf/PrimalUrge';
-import Tribes from './pages/Werewolf/Tribes';
-import CompactConsipracies from './pages/Hunter/CompactConsipracies';
-import Lineages from './pages/Promethean/Lineages';
-import Mockeries from './pages/Promethean/Mockeries';
-import Refinements from './pages/Promethean/Refinements';
-import Breadcrumbs from './components/Breadcrumbs'
-import FuturisticItems from './pages/MortalsAndTemplates/FuturisticItems';
-import FavoritesPage from './pages/favorites';
-import Bestowments from './pages/Promethean/Bestowments';
-import Azoth from './pages/Promethean/Azoth';
-import Psyche from './pages/Geist/Psyche';
-import Manifestation from './pages/Promethean/Manifestation';
-import Memento from './pages/Geist/Memento';
-import Judges from './pages/Mummy/Judges';
-import Sekhem from './pages/Mummy/Sekhem';
-import WerewolfExperiencePoints from './pages/Werewolf/WerewolfExperiencePoints';
-import GeistExperiencePoints from './pages/Geist/GeistExperiencePoints';
-import PrometheanExperiencePoints from './pages/Promethean/PrometheanExperiencePoints';
-import MummyExperiencePoints from './pages/Mummy/MummyExperiencePoints';
-import Settings from './pages/Generale/Settings';
-import AbominableTraits from './pages/Others/AbominableTraits';
-import ParanormalObjectsPage from './pages/Generale/OggettiOcculti';
+import { PATHS } from "./pages/path";
+import { slugify } from "./utils";
+
+const HomePage = lazy(() => import("./pages/home"));
+const FavoritesPage = lazy(() => import("./pages/favorites"));
+const SheetPage = lazy(() => import("./pages/Generale/SheetTest"));
+const BooksPage = lazy(() => import("./pages/Generale/Books"));
+const SizePage = lazy(() => import("./pages/Generale/Size"));
+const ItemsPage = lazy(() => import("./pages/Generale/Items"));
+const SkillsPage = lazy(() => import("./pages/Generale/Skills"));
+const LocationPage = lazy(() => import("./pages/Generale/Location"));
+const SettingsPage = lazy(() => import("./pages/Generale/Settings"));
+const UniversalMeritsPage = lazy(() => import("./pages/Generale/UniversalMerits"));
+const TraitsPage = lazy(() => import("./pages/Generale/Traits"));
+const ExternalResourcesPage = lazy(() => import("./pages/Generale/ExternalResources"));
+const DerangementsPage = lazy(() => import("./pages/Generale/Derangements"));
+const LexyconPage = lazy(() => import("./pages/Generale/Lexycon"));
+const MortalPage = lazy(() => import("./pages/MortalsAndTemplates/Mortal"));
+const MoralityPage = lazy(() => import("./pages/MortalsAndTemplates/Morality"));
+const VirtueVicePage = lazy(() => import("./pages/MortalsAndTemplates/VirtueVice"));
+const MortalMeritsPage = lazy(() => import("./pages/MortalsAndTemplates/MortalMerits"));
+const ArmorPage = lazy(() => import("./pages/MortalsAndTemplates/Armor"));
+const ReliquaryPage = lazy(() => import("./pages/MortalsAndTemplates/Reliquary"));
+const ToolsPage = lazy(() => import("./pages/MortalsAndTemplates/Tools"));
+const VehiclePage = lazy(() => import("./pages/MortalsAndTemplates/Vehicle"));
+const WeaponPage = lazy(() => import("./pages/MortalsAndTemplates/Weapon"));
+const FuturisticItemsPage = lazy(() => import("./pages/MortalsAndTemplates/FuturisticItems"));
+const ThaumaturgyPage = lazy(
+  () => import("./pages/MortalsAndTemplates/Lesser templates/Thaumaturgy")
+);
+const PsychicsPowersPage = lazy(
+  () => import("./pages/MortalsAndTemplates/Lesser templates/Psychics")
+);
+const VampirePage = lazy(() => import("./pages/Vampire/Vampire"));
+const DisciplinesPage = lazy(() => import("./pages/Vampire/Disciplines"));
+const DevotionPage = lazy(() => import("./pages/Vampire/Devotion"));
+const VampireExperiencePage = lazy(
+  () => import("./pages/Vampire/VampireExperiencePoints")
+);
+const ClanPage = lazy(() => import("./pages/Vampire/Clan"));
+const CovenantPage = lazy(() => import("./pages/Vampire/Covenant"));
+const BloodlinePage = lazy(() => import("./pages/Vampire/Bloodline"));
+const BloodPotencyPage = lazy(() => import("./pages/Vampire/BloodPotency"));
+const GhoulFamiliesPage = lazy(() => import("./pages/Vampire/Ghoul"));
+const VampireMeritsPage = lazy(() => import("./pages/Vampire/VampireMerits"));
+const HumanityPage = lazy(() => import("./pages/Vampire/Humanity"));
+const WerewolfPage = lazy(() => import("./pages/Werewolf/Werewolf"));
+const GiftsPage = lazy(() => import("./pages/Werewolf/Gifts"));
+const RitesPage = lazy(() => import("./pages/Werewolf/Rites"));
+const WerewolfMeritsPage = lazy(() => import("./pages/Werewolf/WerewolfMerits"));
+const FetishPage = lazy(() => import("./pages/Werewolf/Fetish"));
+const TalenPage = lazy(() => import("./pages/Werewolf/Talen"));
+const AuspicesPage = lazy(() => import("./pages/Werewolf/Auspices"));
+const HarmonyPage = lazy(() => import("./pages/Werewolf/Harmony"));
+const LodgesPage = lazy(() => import("./pages/Werewolf/Lodges"));
+const PrimalUrgePage = lazy(() => import("./pages/Werewolf/PrimalUrge"));
+const TribesPage = lazy(() => import("./pages/Werewolf/Tribes"));
+const WerewolfExperiencePage = lazy(
+  () => import("./pages/Werewolf/WerewolfExperiencePoints")
+);
+const MagePage = lazy(() => import("./pages/Mage/Mage"));
+const PathPage = lazy(() => import("./pages/Mage/Path"));
+const OrderPage = lazy(() => import("./pages/Mage/Order"));
+const GnosisPage = lazy(() => import("./pages/Mage/Gnosis"));
+const WisdomPage = lazy(() => import("./pages/Mage/Wisdom"));
+const LegacyPage = lazy(() => import("./pages/Mage/Legacy"));
+const MageMeritsPage = lazy(() => import("./pages/Mage/MageMerits"));
+const GrimoirePage = lazy(() => import("./pages/Mage/Grimoire"));
+const MageExperiencePage = lazy(() => import("./pages/Mage/MageExperiencePoints"));
+const SpellsPage = lazy(() => import("./pages/Mage/Spells"));
+const ArcanaPage = lazy(() => import("./pages/Mage/Arcana"));
+const ArtifactsPage = lazy(() => import("./pages/Mage/Artifact"));
+const ImbuedItemsPage = lazy(() => import("./pages/Mage/ImbuedItems"));
+const PrometheanPage = lazy(() => import("./pages/Promethean/Promethean"));
+const AzothPage = lazy(() => import("./pages/Promethean/Azoth"));
+const TransmutationsPage = lazy(() => import("./pages/Promethean/Transmutations"));
+const BestowmentsPage = lazy(() => import("./pages/Promethean/Bestowments"));
+const PrometheanMeritsPage = lazy(
+  () => import("./pages/Promethean/PrometheanMerits")
+);
+const RefinementsPage = lazy(() => import("./pages/Promethean/Refinements"));
+const MockeriesPage = lazy(() => import("./pages/Promethean/Mockeries"));
+const LineagesPage = lazy(() => import("./pages/Promethean/Lineages"));
+const PrometheanExperiencePage = lazy(
+  () => import("./pages/Promethean/PrometheanExperiencePoints")
+);
+const ChangelingPage = lazy(() => import("./pages/Changeling/Changeling"));
+const SeemingPage = lazy(() => import("./pages/Changeling/Seeming"));
+const KithPage = lazy(() => import("./pages/Changeling/Kith"));
+const CourtPage = lazy(() => import("./pages/Changeling/Court"));
+const EntitlementsPage = lazy(() => import("./pages/Changeling/Entitlement"));
+const WyrdPage = lazy(() => import("./pages/Changeling/Wyrd"));
+const ContractsPage = lazy(() => import("./pages/Changeling/Contracts"));
+const ChangelingExperiencePage = lazy(
+  () => import("./pages/Changeling/ChangelingExperiencePoints")
+);
+const PledgesPage = lazy(() => import("./pages/Changeling/Pledges"));
+const ChangelingMeritsPage = lazy(
+  () => import("./pages/Changeling/ChangelingMerits")
+);
+const ClarityPage = lazy(() => import("./pages/Changeling/Clarity"));
+const GoblinFruitsPage = lazy(() => import("./pages/Changeling/GoblinFruits"));
+const TokenPage = lazy(() => import("./pages/Changeling/Token"));
+const TokenRulesPage = lazy(() => import("./pages/Changeling/TokenRules"));
+const HunterPage = lazy(() => import("./pages/Hunter/Hunter"));
+const EndowmentsPage = lazy(() => import("./pages/Hunter/Endowments"));
+const TacticsPage = lazy(() => import("./pages/Hunter/Tactics"));
+const HunterMeritsPage = lazy(() => import("./pages/Hunter/HunterMerits"));
+const ProfessionsPage = lazy(() => import("./pages/Hunter/Professions"));
+const CompactConspiraciesPage = lazy(
+  () => import("./pages/Hunter/CompactConsipracies")
+);
+const DreadPowersPage = lazy(() => import("./pages/Hunter/DreadPowers"));
+const GeistPage = lazy(() => import("./pages/Geist/Geist"));
+const PsychePage = lazy(() => import("./pages/Geist/Psyche"));
+const KeysAndHauntsPage = lazy(() => import("./pages/Geist/KeysAndHaunts"));
+const CeremoniesPage = lazy(() => import("./pages/Geist/Ceremonies"));
+const GeistMeritsPage = lazy(() => import("./pages/Geist/GeistMerits"));
+const MementoPage = lazy(() => import("./pages/Geist/Memento"));
+const ArchetypesPage = lazy(() => import("./pages/Geist/Archetypes"));
+const SynergyPage = lazy(() => import("./pages/Geist/Synergy"));
+const KreweTraitsPage = lazy(() => import("./pages/Geist/KreweTraits"));
+const ThresholdsPage = lazy(() => import("./pages/Geist/Thresholds"));
+const ManifestationPage = lazy(() => import("./pages/Promethean/Manifestation"));
+const GeistExperiencePage = lazy(() => import("./pages/Geist/GeistExperiencePoints"));
+const MummyPage = lazy(() => import("./pages/Mummy/Mummy"));
+const AffinitiesPage = lazy(() => import("./pages/Mummy/Affinities"));
+const UtterancesPage = lazy(() => import("./pages/Mummy/Utterances"));
+const JudgesPage = lazy(() => import("./pages/Mummy/Judges"));
+const SekhemPage = lazy(() => import("./pages/Mummy/Sekhem"));
+const MummyMeritsPage = lazy(() => import("./pages/Mummy/MummyMerits"));
+const RelicPage = lazy(() => import("./pages/Mummy/Relic"));
+const DecreesPage = lazy(() => import("./pages/Mummy/Decrees"));
+const GuildsPage = lazy(() => import("./pages/Mummy/Guilds"));
+const MemoryPage = lazy(() => import("./pages/Mummy/Memory"));
+const MummyExperiencePage = lazy(() => import("./pages/Mummy/MummyExperiencePoints"));
+const NuminaPage = lazy(() => import("./pages/Spirit/Numina"));
+const AspectsAndFavorsPage = lazy(() => import("./pages/Others/AspectsAndFavors"));
+const AbominableTraitsPage = lazy(() => import("./pages/Others/AbominableTraits"));
+const ParanormalObjectsPage = lazy(() => import("./pages/Generale/OggettiOcculti"));
+
+const ROUTE_FALLBACK = (
+  <div className="longTextContainer" style={{ padding: "1rem 0" }}>
+    Loading...
+  </div>
+);
+
+const GENERAL_ROUTES = [
+  { path: PATHS.HOME, Page: HomePage },
+  { path: PATHS.FAVORITES, Page: FavoritesPage },
+  { path: PATHS.SHEET, Page: SheetPage },
+  { path: PATHS.BOOKS, Page: BooksPage },
+  { path: PATHS.SIZE, Page: SizePage },
+  { path: PATHS.ITEMS, Page: ItemsPage },
+  { path: PATHS.SKILLS, Page: SkillsPage },
+  { path: PATHS.LOCATIONS_BASE, Page: LocationPage },
+  { path: PATHS.SETTINGS, Page: SettingsPage },
+  { path: PATHS.UNIVERSAL_MERITS, Page: UniversalMeritsPage },
+  { path: PATHS.TRAITS, Page: TraitsPage },
+  { path: PATHS.EXTERNAL_RESOURCES, Page: ExternalResourcesPage },
+  { path: PATHS.DERANGEMENTS, Page: DerangementsPage },
+  { path: PATHS.LEXYCON, Page: LexyconPage },
+];
+
+const MORTAL_ROUTES = [
+  { path: PATHS.MORTAL.BASE, Page: MortalPage },
+  { path: PATHS.MORTAL.MORALITY, Page: MoralityPage },
+  { path: PATHS.MORTAL.VIRTUE_VICE, Page: VirtueVicePage },
+  { path: PATHS.MORTAL.MERITS, Page: MortalMeritsPage },
+  { path: PATHS.MORTAL.ARMOR, Page: ArmorPage },
+  { path: PATHS.MORTAL.RELIQUARY, Page: ReliquaryPage },
+  { path: PATHS.MORTAL.TOOLS, Page: ToolsPage },
+  { path: PATHS.MORTAL.VEHICLES, Page: VehiclePage },
+  { path: PATHS.MORTAL.WEAPONS, Page: WeaponPage },
+  { path: PATHS.MORTAL.FUTURISTIC_ITEMS, Page: FuturisticItemsPage },
+  { path: PATHS.MORTAL.THAUMATURGY, Page: ThaumaturgyPage },
+  { path: PATHS.MORTAL.PSYCHIC_POWERS, Page: PsychicsPowersPage },
+];
+
+const VAMPIRE_ROUTES = [
+  { path: PATHS.VAMPIRE.BASE, Page: VampirePage },
+  { path: PATHS.VAMPIRE.DISCIPLINES, Page: DisciplinesPage },
+  { path: PATHS.VAMPIRE.DEVOTIONS, Page: DevotionPage },
+  { path: PATHS.VAMPIRE.EXPERIENCE, Page: VampireExperiencePage },
+  { path: PATHS.VAMPIRE.CLANS, Page: ClanPage },
+  { path: PATHS.VAMPIRE.COVENANTS, Page: CovenantPage },
+  { path: PATHS.VAMPIRE.BLOODLINE, Page: BloodlinePage },
+  { path: PATHS.VAMPIRE.BLOOD_POTENCY, Page: BloodPotencyPage },
+  { path: PATHS.VAMPIRE.GHOUL_FAMILIES, Page: GhoulFamiliesPage },
+  { path: PATHS.VAMPIRE.MERITS, Page: VampireMeritsPage },
+  { path: PATHS.VAMPIRE.HUMANITY, Page: HumanityPage },
+];
+
+const WEREWOLF_ROUTES = [
+  { path: PATHS.WEREWOLF.BASE, Page: WerewolfPage },
+  { path: PATHS.WEREWOLF.GIFTS, Page: GiftsPage },
+  { path: PATHS.WEREWOLF.RITES, Page: RitesPage },
+  { path: PATHS.WEREWOLF.MERITS, Page: WerewolfMeritsPage },
+  { path: PATHS.WEREWOLF.FETISHES, Page: FetishPage },
+  { path: PATHS.WEREWOLF.TALENS, Page: TalenPage },
+  { path: PATHS.WEREWOLF.AUSPICES, Page: AuspicesPage },
+  { path: PATHS.WEREWOLF.HARMONY, Page: HarmonyPage },
+  { path: PATHS.WEREWOLF.LODGES, Page: LodgesPage },
+  { path: PATHS.WEREWOLF.PRIMAL_URGE, Page: PrimalUrgePage },
+  { path: PATHS.WEREWOLF.TRIBES, Page: TribesPage },
+  { path: PATHS.WEREWOLF.EXPERIENCE, Page: WerewolfExperiencePage },
+];
+
+const MAGE_ROUTES = [
+  { path: PATHS.MAGE.BASE, Page: MagePage },
+  { path: PATHS.MAGE.PATH, Page: PathPage },
+  { path: PATHS.MAGE.ORDER, Page: OrderPage },
+  { path: PATHS.MAGE.GNOSIS, Page: GnosisPage },
+  { path: PATHS.MAGE.WISDOM, Page: WisdomPage },
+  { path: PATHS.MAGE.LEGACY, Page: LegacyPage },
+  { path: PATHS.MAGE.MERITS, Page: MageMeritsPage },
+  { path: PATHS.MAGE.GRIMOIRES, Page: GrimoirePage },
+  { path: PATHS.MAGE.EXPERIENCE, Page: MageExperiencePage },
+  { path: PATHS.MAGE.SPELLS, Page: SpellsPage },
+  { path: PATHS.MAGE.ARTIFACTS, Page: ArtifactsPage },
+  { path: PATHS.MAGE.IMBUED_ITEMS, Page: ImbuedItemsPage },
+];
+
+const ARCANA_ROUTE_CONFIGS = [
+  { path: PATHS.MAGE.DEATH, arcana: "death" },
+  { path: PATHS.MAGE.FATE, arcana: "fate" },
+  { path: PATHS.MAGE.FORCE, arcana: "force" },
+  { path: PATHS.MAGE.LIFE, arcana: "life" },
+  { path: PATHS.MAGE.MATTER, arcana: "matter" },
+  { path: PATHS.MAGE.MIND, arcana: "mind" },
+  { path: PATHS.MAGE.PRIME, arcana: "prime" },
+  { path: PATHS.MAGE.SPACE, arcana: "space" },
+  { path: PATHS.MAGE.SPIRIT, arcana: "spirit" },
+  { path: PATHS.MAGE.TIME, arcana: "time" },
+];
+
+const PROMETHEAN_ROUTES = [
+  { path: PATHS.PROMETHEAN.BASE, Page: PrometheanPage },
+  { path: PATHS.PROMETHEAN.AZOTH, Page: AzothPage },
+  { path: PATHS.PROMETHEAN.TRANSMUTATIONS, Page: TransmutationsPage },
+  { path: PATHS.PROMETHEAN.BESTOWMENTS, Page: BestowmentsPage },
+  { path: PATHS.PROMETHEAN.MERITS, Page: PrometheanMeritsPage },
+  { path: PATHS.PROMETHEAN.REFINEMENTS, Page: RefinementsPage },
+  { path: PATHS.PROMETHEAN.MOCKERIES, Page: MockeriesPage },
+  { path: PATHS.PROMETHEAN.LINEAGE, Page: LineagesPage },
+  { path: PATHS.PROMETHEAN.EXPERIENCE, Page: PrometheanExperiencePage },
+];
+
+const CHANGELING_ROUTES = [
+  { path: PATHS.CHANGELING.BASE, Page: ChangelingPage },
+  { path: PATHS.CHANGELING.SEEMINGS, Page: SeemingPage },
+  { path: PATHS.CHANGELING.KITHS, Page: KithPage },
+  { path: PATHS.CHANGELING.COURT, Page: CourtPage },
+  { path: PATHS.CHANGELING.ENTITLEMENTS, Page: EntitlementsPage },
+  { path: PATHS.CHANGELING.WYRD, Page: WyrdPage },
+  { path: PATHS.CHANGELING.CONTRACTS, Page: ContractsPage },
+  { path: PATHS.CHANGELING.EXPERIENCE, Page: ChangelingExperiencePage },
+  { path: PATHS.CHANGELING.PLEDGES, Page: PledgesPage },
+  { path: PATHS.CHANGELING.MERITS, Page: ChangelingMeritsPage },
+  { path: PATHS.CHANGELING.CLARITY, Page: ClarityPage },
+  { path: PATHS.CHANGELING.GOBLIN_FRUITS, Page: GoblinFruitsPage },
+  { path: PATHS.CHANGELING.TOKENS, Page: TokenPage },
+  { path: PATHS.CHANGELING.TOKEN_RULES, Page: TokenRulesPage },
+];
+
+const HUNTER_ROUTES = [
+  { path: PATHS.HUNTER.BASE, Page: HunterPage },
+  { path: PATHS.HUNTER.ENDOWMENTS, Page: EndowmentsPage },
+  { path: PATHS.HUNTER.TACTICS, Page: TacticsPage },
+  { path: PATHS.HUNTER.MERITS, Page: HunterMeritsPage },
+  { path: PATHS.HUNTER.PROFESSION, Page: ProfessionsPage },
+  { path: PATHS.HUNTER.COMPACT_CONSPIRANCY, Page: CompactConspiraciesPage },
+  { path: PATHS.HUNTER.DREAD_POWERS, Page: DreadPowersPage },
+];
+
+const GEIST_ROUTES = [
+  { path: PATHS.GEIST.BASE, Page: GeistPage },
+  { path: PATHS.GEIST.PSYCHE, Page: PsychePage },
+  { path: PATHS.GEIST.KEYS_AND_HAUNTS, Page: KeysAndHauntsPage },
+  { path: PATHS.GEIST.CEREMONIES, Page: CeremoniesPage },
+  { path: PATHS.GEIST.MERITS, Page: GeistMeritsPage },
+  { path: PATHS.GEIST.MEMENTOS, Page: MementoPage },
+  { path: PATHS.GEIST.ARCHETYPES, Page: ArchetypesPage },
+  { path: PATHS.GEIST.SYNERGY, Page: SynergyPage },
+  { path: PATHS.GEIST.KREWE_TRAITS, Page: KreweTraitsPage },
+  { path: PATHS.GEIST.THRESHOLDS, Page: ThresholdsPage },
+  { path: PATHS.GEIST.MANIFESTATION, Page: ManifestationPage },
+  { path: PATHS.GEIST.EXPERIENCE, Page: GeistExperiencePage },
+];
+
+const MUMMY_ROUTES = [
+  { path: PATHS.MUMMY.BASE, Page: MummyPage },
+  { path: PATHS.MUMMY.AFFINITIES, Page: AffinitiesPage },
+  { path: PATHS.MUMMY.UTTERANCES, Page: UtterancesPage },
+  { path: PATHS.MUMMY.JUDGE, Page: JudgesPage },
+  { path: PATHS.MUMMY.SEKHEM, Page: SekhemPage },
+  { path: PATHS.MUMMY.MERITS, Page: MummyMeritsPage },
+  { path: PATHS.MUMMY.RELICS, Page: RelicPage },
+  { path: PATHS.MUMMY.DECREE, Page: DecreesPage },
+  { path: PATHS.MUMMY.GUILD, Page: GuildsPage },
+  { path: PATHS.MUMMY.MEMORY, Page: MemoryPage },
+  { path: PATHS.MUMMY.EXPERIENCE, Page: MummyExperiencePage },
+];
+
+const SPIRIT_ROUTES = [{ path: PATHS.SPIRIT.NUMINA, Page: NuminaPage }];
+
+const OTHER_ROUTES = [
+  { path: PATHS.OTHERS.ASPECTS_FAVORRS, Page: AspectsAndFavorsPage },
+  { path: PATHS.OTHERS.ABOMINABLE, Page: AbominableTraitsPage },
+  { path: PATHS.OTHERS.PARANORMAL_OBJECTS, Page: ParanormalObjectsPage },
+];
+
+function getItemRouteSlug(item) {
+  return item?.Name || item?.Title || item?.Nome || item?.Titolo || item?.slug || "unknown";
+}
+
+function findItemBySlug(items, slug) {
+  return items.find((item) => slugify(getItemRouteSlug(item)) === slug) || null;
+}
+
+const DETAIL_ROUTE_CONFIGS = [
+  {
+    path: `${PATHS.LOCATIONS_BASE}/:slug`,
+    propKey: "location",
+    loadPage: () => import("./pages/Generale/LocationDetail"),
+    loadData: () => import("./Data/LocationMeritData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allLocation, slug),
+  },
+  {
+    path: `${PATHS.UNIVERSAL_MERITS}/:slug`,
+    propKey: "merits",
+    loadPage: () => import("./pages/Generale/UniversalMeritsDetail"),
+    loadData: () => import("./Data/universalMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allUniMeritsData, slug),
+  },
+  {
+    path: `${PATHS.DERANGEMENTS}/:slug`,
+    propKey: "derangement",
+    loadPage: () => import("./pages/Generale/DerangementsDetail"),
+    loadData: () => import("./Data/DerangementsData"),
+    resolveItem: ({ dataModule, slug }) =>
+      dataModule.derangementData.find(
+        (item, index) => slugify(`${item?.Name || "unknown"}-${index}`) === slug
+      ) || null,
+  },
+  {
+    path: `${PATHS.VAMPIRE.DISCIPLINES}/:slug`,
+    propKey: "discipline",
+    loadPage: () => import("./pages/Vampire/DisciplinesDetail"),
+    loadData: () => import("./Data/Vampire/DisciplineData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allDiscipline, slug),
+  },
+  {
+    path: `${PATHS.VAMPIRE.DEVOTIONS}/:slug`,
+    propKey: "devotion",
+    loadPage: () => import("./pages/Vampire/DevotionsDetail "),
+    loadData: () => import("./Data/Vampire/DevotionData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.DevotionData, slug),
+  },
+  {
+    path: `${PATHS.MAGE.MERITS}/:slug`,
+    propKey: "merits",
+    loadPage: () => import("./pages/Mage/MageMeritsDetail"),
+    loadData: () => import("./Data/Mage/mageMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allMageMeritsData, slug),
+  },
+  {
+    path: `${PATHS.MAGE.LEGACY}/:slug`,
+    propKey: "legacy",
+    loadPage: () => import("./pages/Mage/LegacyDetail"),
+    loadData: () => import("./Data/Mage/LegacyData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.LegacyData, slug),
+  },
+  {
+    path: `${PATHS.MAGE.SPELLS}/:slug`,
+    propKey: "spell",
+    loadPage: () => import("./pages/Mage/SpellDetail"),
+    loadData: () => import("./Data/Mage/Arcana/allArcana"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.SpellsData, slug),
+  },
+  {
+    path: `${PATHS.MAGE.ARTIFACTS}/:slug`,
+    propKey: "artifact",
+    loadPage: () => import("./pages/Mage/ArtifactDetail"),
+    loadData: () => import("./Data/Mage/artifactsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.artifactData, slug),
+  },
+  {
+    path: `${PATHS.MAGE.IMBUED_ITEMS}/:slug`,
+    propKey: "imbuedItem",
+    loadPage: () => import("./pages/Mage/ImbuedItemsDetail"),
+    loadData: () => import("./Data/Mage/imbuedItemsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.imbuedItemsData, slug),
+  },
+  {
+    path: `${PATHS.CHANGELING.CONTRACTS}/:slug`,
+    propKey: "contracts",
+    loadPage: () => import("./pages/Changeling/ContractsDetail"),
+    loadData: () => import("./Data/Changeling/ContractData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allContracts, slug),
+  },
+  {
+    path: `${PATHS.CHANGELING.MERITS}/:slug`,
+    propKey: "merits",
+    loadPage: () => import("./pages/Changeling/ChangelingMeritsDetail"),
+    loadData: () => import("./Data/Changeling/changelingMeritsData"),
+    resolveItem: ({ dataModule, slug }) =>
+      findItemBySlug(dataModule.allChangelingMeritsData, slug),
+  },
+  {
+    path: `${PATHS.CHANGELING.GOBLIN_FRUITS}/:slug`,
+    propKey: "goblinFruit",
+    loadPage: () => import("./pages/Changeling/GoblinFruitsDetail"),
+    loadData: () => import("./Data/Changeling/GoblinFruitData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.goblinFruitData, slug),
+  },
+  {
+    path: `${PATHS.CHANGELING.TOKENS}/:slug`,
+    propKey: "tokens",
+    loadPage: () => import("./pages/Changeling/TokensDetail"),
+    loadData: () => import("./Data/Changeling/TokenData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allToken, slug),
+  },
+  {
+    path: `${PATHS.HUNTER.DREAD_POWERS}/:slug`,
+    propKey: "dreadPowers",
+    loadPage: () => import("./pages/Hunter/DreadPowersDetail"),
+    loadData: () => import("./Data/Hunter/DreadPowerData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.dreadPowersData, slug),
+  },
+  {
+    path: `${PATHS.SPIRIT.NUMINA}/:slug`,
+    propKey: "numina",
+    loadPage: () => import("./pages/Spirit/NuminaDetail"),
+    loadData: () => import("./Data/Spirit/SpiritNuminaData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.spiritNuminaData, slug),
+  },
+];
+
+function renderLazyPage(Page, props = {}) {
+  return (
+    <Suspense fallback={ROUTE_FALLBACK}>
+      <Page {...props} />
+    </Suspense>
+  );
+}
 
 function App() {
-  const [categoryStyle, setCategoryStyle] = useState('');
-  const location = useLocation();
-
-  function generateRoutes({ data, basePath, Component, propKey, getKey, getPathName }) {
-    return data.map((item, index) => {
-      const key = getKey ? getKey(item, index) : index;
-      const slug = getPathName ? getPathName(item, index) : item.Name || item.Title || item.Nome || item.Titolo || item.slug || 'unknown';
-      const path = `${basePath}/${slugify(slug)}`;
-
-      // console.log('path', path)
-      // console.log('key', key)
-      return (
-        <Route
-          key={key}
-          path={path}
-          element={<Component {...{ [propKey]: item }} />}
-        />
-      );
-    });
-  }
+  const routeGroups = [
+    GENERAL_ROUTES,
+    MORTAL_ROUTES,
+    VAMPIRE_ROUTES,
+    WEREWOLF_ROUTES,
+    MAGE_ROUTES,
+    PROMETHEAN_ROUTES,
+    CHANGELING_ROUTES,
+    HUNTER_ROUTES,
+    GEIST_ROUTES,
+    MUMMY_ROUTES,
+    SPIRIT_ROUTES,
+    OTHER_ROUTES,
+  ];
 
   return (
-    <>
-      <ThemeProvider theme={theme}>
-
-        <Navbar />
-        <Breadcrumbs />
-        <div className={`page-container ${categoryStyle}`}>
-
-          <Routes>
-            <Route path={PATHS.HOME} element={<Home />} />
-            <Route path={PATHS.FAVORITES} element={<FavoritesPage />} />
-            <Route path={PATHS.SHEET} element={<SheetTest />} />
-            <Route path={PATHS.BOOKS} element={<Books />} />
-            <Route path={PATHS.SIZE} element={<Size />} />
-            <Route path={PATHS.ITEMS} element={<Items />} />
-            <Route path={PATHS.SKILLS} element={<Skills />} />
-            <Route path={PATHS.LOCATIONS_BASE} element={<Location />} />
-            <Route path={PATHS.SETTINGS} element={<Settings />} />
-            {generateRoutes({
-              basePath: PATHS.LOCATIONS_BASE,
-              data: allLocation,
-              Component: LocationDetail,
-              propKey: "location"
-            })}
-            <Route path={PATHS.UNIVERSAL_MERITS} element={<UniversalMerits />} />
-            {generateRoutes({
-              basePath: PATHS.UNIVERSAL_MERITS,
-              data: allUniMeritsData,
-              Component: UniversalMeritsDetail,
-              propKey: "merits"
-            })}
-            <Route path={PATHS.TRAITS} element={<Traits />} />
-            <Route path={PATHS.EXTERNAL_RESOURCES} element={<ExternalResources />} />
-            <Route path={PATHS.DERANGEMENTS} element={<Derangements />} />
-            {generateRoutes({
-              basePath: PATHS.DERANGEMENTS,
-              data: derangementData,
-              Component: DerangementsDetail,
-              propKey: "derangement",
-              getKey: (_, index) => `derangement-${index}`,
-              getPathName: (item, index) => `${item.Name || 'unknown'}-${index}`
-            })}
-            <Route path={PATHS.LEXYCON} element={<Lexycon />} />
-
-
-            {/* Mortals */}
-            <Route path={PATHS.MORTAL.BASE} element={<Mortal />} />
-            <Route path={PATHS.MORTAL.MORALITY} element={<Morality />} />
-            <Route path={PATHS.MORTAL.VIRTUE_VICE} element={<VirtueVice />} />
-            <Route path={PATHS.MORTAL.MERITS} element={<MortalMerits />} />
-            <Route path={PATHS.MORTAL.ARMOR} element={<Armor />} />
-            <Route path={PATHS.MORTAL.RELIQUARY} element={<Reliquary />} />
-            <Route path={PATHS.MORTAL.TOOLS} element={<Tools />} />
-            <Route path={PATHS.MORTAL.VEHICLES} element={<Vehicle />} />
-            <Route path={PATHS.MORTAL.WEAPONS} element={<Weapon />} />
-            <Route path={PATHS.MORTAL.FUTURISTIC_ITEMS} element={<FuturisticItems />} />
-            <Route path={PATHS.MORTAL.THAUMATURGY} element={<Thaumaturgy />} />
-            <Route path={PATHS.MORTAL.PSYCHIC_POWERS} element={<PsychicsPowers />} />
-
-            {/* VAMPIRI */}
-            <Route path={PATHS.VAMPIRE.BASE} element={<Vampire />} />
-            <Route path={PATHS.VAMPIRE.DISCIPLINES} element={<Disciplines />} />
-            {generateRoutes({
-              basePath: PATHS.VAMPIRE.DISCIPLINES,
-              data: allDiscipline,
-              Component: DisciplinesDetail,
-              propKey: "discipline"
-            })}
-
-            <Route path={PATHS.VAMPIRE.DEVOTIONS} element={<Devotion />} />
-            {generateRoutes({
-              basePath: PATHS.VAMPIRE.DEVOTIONS,
-              data: DevotionData,
-              Component: DevotionsDetail,
-              propKey: "devotion"
-            })}
-            <Route path={PATHS.VAMPIRE.EXPERIENCE} element={<VampireExperiencePoints />} />
-            <Route path={PATHS.VAMPIRE.CLANS} element={<Clan />} />
-            <Route path={PATHS.VAMPIRE.COVENANTS} element={<Covenant />} />
-            <Route path={PATHS.VAMPIRE.BLOODLINE} element={<Bloodline />} />
-            <Route path={PATHS.VAMPIRE.BLOOD_POTENCY} element={<BloodPotency />} />
-            <Route path={PATHS.VAMPIRE.GHOUL_FAMILIES} element={<GhoulFamilies />} />
-            <Route path={PATHS.VAMPIRE.MERITS} element={<VampireMerits />} />
-            <Route path={PATHS.VAMPIRE.HUMANITY} element={<Humanity />} />
-
-            {/* WEREWOLF */}
-            <Route path={PATHS.WEREWOLF.BASE} element={<Werewolf />} />
-            <Route path={PATHS.WEREWOLF.GIFTS} element={<Gifts />} />
-            <Route path={PATHS.WEREWOLF.RITES} element={<Rites />} />
-            <Route path={PATHS.WEREWOLF.MERITS} element={<WerewolfMerits />} />
-            <Route path={PATHS.WEREWOLF.FETISHES} element={<Fetish />} />
-            <Route path={PATHS.WEREWOLF.TALENS} element={<Talen />} />
-            <Route path={PATHS.WEREWOLF.AUSPICES} element={<Auspices />} />
-            <Route path={PATHS.WEREWOLF.HARMONY} element={<Harmony />} />
-            <Route path={PATHS.WEREWOLF.LODGES} element={<Lodges />} />
-            <Route path={PATHS.WEREWOLF.PRIMAL_URGE} element={<PrimalUrge />} />
-            <Route path={PATHS.WEREWOLF.TRIBES} element={<Tribes />} />
-            <Route path={PATHS.WEREWOLF.EXPERIENCE} element={<WerewolfExperiencePoints />} />
-
-            {/* MAGE */}
-            <Route path={PATHS.MAGE.BASE} element={<Mage />} />
-            <Route path={PATHS.MAGE.PATH} element={<Path />} />
-            <Route path={PATHS.MAGE.ORDER} element={<Order />} />
-            <Route path={PATHS.MAGE.GNOSIS} element={<Gnosis />} />
-            <Route path={PATHS.MAGE.WISDOM} element={<Wisdom />} />
-            <Route path={PATHS.MAGE.LEGACY} element={<Legacy />} />
-            <Route path={PATHS.MAGE.MERITS} element={<MageMerits />} />
-            <Route path={PATHS.MAGE.GRIMOIRES} element={<Grimoire />} />
-            <Route path={PATHS.MAGE.EXPERIENCE} element={<MageExperiencePoints />} />
-            {generateRoutes({
-              basePath: PATHS.MAGE.MERITS,
-              data: allMageMeritsData,
-              Component: MageMeritsDetail,
-              propKey: "merits"
-            })}
-            {generateRoutes({
-              basePath: PATHS.MAGE.LEGACY,
-              data: LegacyData,
-              Component: LegacyDetail,
-              propKey: "legacy"
-            })}
-            <Route path={PATHS.MAGE.SPELLS} element={<Spells />} />
-            {generateRoutes({
-              basePath: PATHS.MAGE.SPELLS,
-              data: SpellsData,
-              Component: SpellDetail,
-              propKey: "spell"
-            })}
-            {['death', 'fate', 'force', 'life', 'matter', 'mind', 'prime', 'space', 'spirit', 'time'].map((arcana, index) => (
-              <Route
-                key={index}
-                path={`/mage/${arcana}`}
-                element={<Arcana arcana={arcana} />}
-              />
-            ))}
-
-            <Route path={PATHS.MAGE.ARTIFACTS} element={<Artifacts />} />
-            {generateRoutes({
-              basePath: PATHS.MAGE.ARTIFACTS,
-              data: artifactData,
-              Component: ArtifactDetail,
-              propKey: "artifact"
-            })}
-
-            <Route path={PATHS.MAGE.IMBUED_ITEMS} element={<ImbuedItems />} />
-            {generateRoutes({
-              basePath: PATHS.MAGE.IMBUED_ITEMS,
-              data: imbuedItemsData,
-              Component: ImbuedItemsDetail,
-              propKey: "imbuedItem"
-            })}
-
-            {/* PROMETEANI */}
-            <Route path={PATHS.PROMETHEAN.BASE} element={<Promethean />} />
-            <Route path={PATHS.PROMETHEAN.AZOTH} element={<Azoth />} />
-            <Route path={PATHS.PROMETHEAN.TRANSMUTATIONS} element={<Transmutations />} />
-            <Route path={PATHS.PROMETHEAN.BESTOWMENTS} element={<Bestowments />} />
-            <Route path={PATHS.PROMETHEAN.MERITS} element={<PrometheanMerits />} />
-            <Route path={PATHS.PROMETHEAN.REFINEMENTS} element={<Refinements />} />
-            <Route path={PATHS.PROMETHEAN.MOCKERIES} element={<Mockeries />} />
-            <Route path={PATHS.PROMETHEAN.LINEAGE} element={<Lineages />} />
-            <Route path={PATHS.PROMETHEAN.EXPERIENCE} element={<PrometheanExperiencePoints />} />
-
-            {/* CHANGELING */}
-            <Route path={PATHS.CHANGELING.BASE} element={<Changeling />} />
-            <Route path={PATHS.CHANGELING.SEEMINGS} element={<Seeming />} />
-            <Route path={PATHS.CHANGELING.KITHS} element={<Kith />} />
-            <Route path={PATHS.CHANGELING.COURT} element={<Court />} />
-            <Route path={PATHS.CHANGELING.ENTITLEMENTS} element={<Entitlements />} />
-            <Route path={PATHS.CHANGELING.WYRD} element={<Wyrd />} />
-            <Route path={PATHS.CHANGELING.CONTRACTS} element={<Contracts />} />
-            <Route path={PATHS.CHANGELING.EXPERIENCE} element={<ChangelingExperiencePoints />} />
-            {generateRoutes({
-              basePath: PATHS.CHANGELING.CONTRACTS,
-              data: allContracts,
-              Component: ContractsDetail,
-              propKey: "contracts"
-            })}
-            {generateRoutes({
-              basePath: PATHS.CHANGELING.MERITS,
-              data: allChangelingMeritsData,
-              Component: ChangelingMeritsDetail,
-              propKey: "merits"
-            })}
-            <Route path={PATHS.CHANGELING.PLEDGES} element={<Pledges />} />
-            <Route path={PATHS.CHANGELING.MERITS} element={<ChangelingMerits />} />
-            <Route path={PATHS.CHANGELING.CLARITY} element={<Clarity />} />
-            <Route path={PATHS.CHANGELING.GOBLIN_FRUITS} element={<GoblinFruits />} />
-            {generateRoutes({
-              basePath: PATHS.CHANGELING.GOBLIN_FRUITS,
-              data: goblinFruitData,
-              Component: GoblinFruitsDetail,
-              propKey: "goblinFruit"
-            })}
-            <Route path={PATHS.CHANGELING.TOKENS} element={<Token />} />
-            <Route path={PATHS.CHANGELING.TOKEN_RULES} element={<TokenRules />} />
-            {generateRoutes({
-              basePath: PATHS.CHANGELING.TOKENS,
-              data: allToken,
-              Component: TokensDetail,
-              propKey: "tokens"
-            })}
-
-            {/* HUNTER */}
-            <Route path={PATHS.HUNTER.BASE} element={<Hunter />} />
-            <Route path={PATHS.HUNTER.ENDOWMENTS} element={<Endowments />} />
-            <Route path={PATHS.HUNTER.TACTICS} element={<Tactics />} />
-            <Route path={PATHS.HUNTER.MERITS} element={<HunterMerits />} />
-            <Route path={PATHS.HUNTER.PROFESSION} element={<Professions />} />
-            <Route path={PATHS.HUNTER.COMPACT_CONSPIRANCY} element={<CompactConsipracies />} />
-            <Route path={PATHS.HUNTER.DREAD_POWERS} element={<DreadPowers />} />
-            {generateRoutes({
-              basePath: PATHS.HUNTER.DREAD_POWERS,
-              data: dreadPowersData,
-              Component: DreadPowerDetail,
-              propKey: "dreadPowers"
-            })}
-
-
-            {/* GEIST */}
-            <Route path={PATHS.GEIST.BASE} element={<Geist />} />
-            <Route path={PATHS.GEIST.PSYCHE} element={<Psyche />} />
-            <Route path={PATHS.GEIST.KEYS_AND_HAUNTS} element={<KeysAndHaunts />} />
-            <Route path={PATHS.GEIST.CEREMONIES} element={<Ceremonies />} />
-            <Route path={PATHS.GEIST.MERITS} element={<GeistMerits />} />
-            <Route path={PATHS.GEIST.MEMENTOS} element={<Memento />} />
-            <Route path={PATHS.GEIST.ARCHETYPES} element={<Archetypes />} />
-            <Route path={PATHS.GEIST.SYNERGY} element={<Synergy />} />
-            <Route path={PATHS.GEIST.KREWE_TRAITS} element={<KreweTraits />} />
-            <Route path={PATHS.GEIST.THRESHOLDS} element={<Thresholds />} />
-            <Route path={PATHS.GEIST.MANIFESTATION} element={<Manifestation />} />
-            <Route path={PATHS.GEIST.EXPERIENCE} element={<GeistExperiencePoints />} />
-
-            {/* MUMMY */}
-            <Route path={PATHS.MUMMY.BASE} element={<Mummy />} />
-            <Route path={PATHS.MUMMY.AFFINITIES} element={<Affinities />} />
-            <Route path={PATHS.MUMMY.UTTERANCES} element={<Utterances />} />
-            <Route path={PATHS.MUMMY.JUDGE} element={<Judges />} />
-            <Route path={PATHS.MUMMY.SEKHEM} element={<Sekhem />} />
-            <Route path={PATHS.MUMMY.AFFINITIES} element={<Affinities />} />
-            <Route path={PATHS.MUMMY.MERITS} element={<MummyMerits />} />
-            <Route path={PATHS.MUMMY.RELICS} element={<Relic />} />
-            <Route path={PATHS.MUMMY.DECREE} element={<Decrees />} />
-            <Route path={PATHS.MUMMY.GUILD} element={<Guilds />} />
-            <Route path={PATHS.MUMMY.MEMORY} element={<Memory />} />
-            <Route path={PATHS.MUMMY.EXPERIENCE} element={<MummyExperiencePoints />} />
-
-            {/* SPIRIT */}
-            <Route path={PATHS.SPIRIT.NUMINA} element={<Numina />} />
-            {generateRoutes({
-              basePath: PATHS.SPIRIT.NUMINA,
-              data: spiritNuminaData,
-              Component: NuminaDetail,
-              propKey: "numina"
-            })}
-            {/* OTHERS */}
-            <Route path={PATHS.OTHERS.ASPECTS_FAVORRS} element={<AspectsAndFavors />} />
-            <Route path={PATHS.OTHERS.ABOMINABLE} element={<AbominableTraits />} />
-            <Route path={PATHS.OTHERS.PARANORMAL_OBJECTS} element={<ParanormalObjectsPage />} />
-
-          </Routes>
-        </div>
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={theme}>
+      <Navbar />
+      <Breadcrumbs />
+      <div className="page-container">
+        <Routes>
+          {routeGroups.flat().map(({ path, Page }) => (
+            <Route key={path} path={path} element={renderLazyPage(Page)} />
+          ))}
+          {ARCANA_ROUTE_CONFIGS.map(({ path, arcana }) => (
+            <Route
+              key={path}
+              path={path}
+              element={renderLazyPage(ArcanaPage, { arcana })}
+            />
+          ))}
+          {DETAIL_ROUTE_CONFIGS.map(({ path, ...routeConfig }) => (
+            <Route
+              key={path}
+              path={path}
+              element={<LazyDetailRoute {...routeConfig} />}
+            />
+          ))}
+        </Routes>
+      </div>
+    </ThemeProvider>
   );
 }
 

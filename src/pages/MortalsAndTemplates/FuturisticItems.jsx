@@ -8,9 +8,6 @@ import { PATHS } from '../path';
 export default function FuturisticItems() {
 
     const campiDaRimuovere = ['Description', "Example Backfire", "Example Compromise"];
-    
-    console.log('CyberpunkPluginData', CyberpunkPluginData)
-    console.log('futuristicWeaponsData', futuristicWeaponsData)
         return (
             <div className='grid-container'>
                 <SimpleTable table={addLink(futuristicWeaponsData, 'Name', PATHS.MORTAL.FUTURISTIC_ITEMS)}

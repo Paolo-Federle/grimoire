@@ -3435,10 +3435,6 @@ const toxinsData = [
     }
 ]
 
-const biologicalWeaponsData = [
-
-]
-
 const meleeWeaponData = [...bluntWeaponData, ...kniveWeaponData, ...swordWeaponData, ...axeWeaponData, ...polearmWeaponData,
 ...chainWeaponData, ...improvisedWeaponData, ...miscellaneousWeaponData, ...foundRiggedWeaponsData]
 

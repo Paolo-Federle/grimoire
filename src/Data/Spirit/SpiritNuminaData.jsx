@@ -681,7 +681,6 @@ const spiritNuminaData = [
         "Description": "Cast an tangling attack",
         "Long Description": [
             "The spirit possesses an entangling attack, be it mystic webbing, gobbets of intestine, wire mesh or glue-like spittle. To hit its target, the spirit makes a Finesse roll – the target’s Defense (armor does not add to Defense in this instance. Subjects struck by the attack are automatically grappled (see the World of Darkness Rulebook, p. 157). Each turn the victim may roll Strength + Athletics – the spirit’s Power to escape; otherwise she is immobilized. After a number of turns equal to the spirit’s Resistance, begin reducing the effective Power of the snare by two each turn. This attack costs one point of Essence. Additional Essence may be spent to add to the snare.",
-            ,
             ""
         ],
         "Pool": "",

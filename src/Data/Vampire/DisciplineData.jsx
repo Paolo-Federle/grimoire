@@ -12628,7 +12628,7 @@ export const otherDisciplineData = [
             "The character must make eye contact with the target. Touch is not necessary. This ability instantaneously plumbs the mind and searches out the darkness dwelling there. Concrete images and thoughts are not gained in this way, but the subject’s Humanity comes across as shades of pale red (higher Humanity) to deep black (low Humanity)."
         ],
         "RollResults": [
-            "<b>Dramatic Failure:</b> The character interprets inaccurate information (i.e., if the target’s Humanity was 8, the Sleeper believes the target’s Humanity is 3).",,
+            "<b>Dramatic Failure:</b> The character interprets inaccurate information (i.e., if the target’s Humanity was 8, the Sleeper believes the target’s Humanity is 3).",
             "<b>Failure:</b> The character gleans no information at all.",
             "<b>Success:</b> The character receives a sense of the subject’s relationship to the Beast. The player learns the exact Humanity score of the target Kindred.",
             "<b>Exceptional Success:</b> The character not only learns the target’s Humanity score, but also learns of any derangements the target suffers from.",

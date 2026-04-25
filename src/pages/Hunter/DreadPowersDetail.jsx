@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 import BaseTable from '../../components/BaseTable';
 
 export default function DreadPowerDetail(props) {
-    const location = useLocation();
     const matchedDreadPower = props.dreadPowers
-    console.log('matchedDreadPower', matchedDreadPower)
-
     return (
         <div className='longTextContainer'>
             {matchedDreadPower && (

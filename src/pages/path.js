@@ -15,17 +15,6 @@
 // import { allToken } from '../Data/Changeling/TokenData';
 // import { dreadPowersData } from '../Data/Hunter/DreadPowerData';
 
-const slug = (str) => {
-    if (typeof str !== 'string') return null;
-    return str
-      .toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // rimuove accenti
-      .replace(/\s+/g, '_')     // spazi → underscore
-      .replace(/[^\w]/g, '');   // rimuove tutto tranne lettere, numeri, underscore
-  };
-  
-  
-
 // const VAMPIRE_DISCIPLINE_DETAILS = Object.fromEntries(allDiscipline.map(d => [slug(d.Name), `/vampire/disciplines/${slug(d.Name)}`]));
 // const VAMPIRE_DEVOTION_DETAILS = Object.fromEntries(DevotionData.map(d => [slug(d.Name), `/vampire/devotions/${slug(d.Name)}`]));
 // const SPIRIT_NUMINA_DETAILS = Object.fromEntries(spiritNuminaData.map(n => [slug(n.Name), `/spirit/numina/${slug(n.Name)}`]));
@@ -214,4 +203,5 @@ export const PATHS = {
         PARANORMAL_OBJECTS: '/external/paranormal_objects'
     }
 };
+
 

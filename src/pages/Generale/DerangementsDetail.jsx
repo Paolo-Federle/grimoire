@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 import BaseTable from '../../components/BaseTable';
 
 export default function DerangementsDetail(props) {
-    const location = useLocation();
     const matchedDerangement = props.derangement
-    console.log('test', matchedDerangement)
-
     return (
         <div className='longTextContainer'>
             {matchedDerangement && (

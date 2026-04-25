@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../css/Races.css';
-import { Link } from 'react-router-dom';
 import BaseTable from '../../components/BaseTable';
 
 export default function TokenRules() {

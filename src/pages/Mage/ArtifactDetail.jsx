@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 
 export default function ArtifactDetail(props) {
-    const location = useLocation();
     const matchedArtifact = props.artifact
 
     return (

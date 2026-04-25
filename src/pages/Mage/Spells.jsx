@@ -59,7 +59,6 @@ export default function Spells() {
     // Define the headers that correspond to your data keys
     const tableFields = ['Titolo', 'DescrizioneBreve', 'Aspect', 'Cost', 'Arcana', "Book"];
 
-    console.log('MatterWithLink', MatterWithLink)
     const renderedArcanaTables = arcanaData.map((arcana, index) => (
         <MultipleTables
             key={index}

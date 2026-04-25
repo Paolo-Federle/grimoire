@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 import BaseTable from '../../components/BaseTable';
 
 export default function DisciplinesDetail(props) {
-    const location = useLocation();
     const matchedDiscipline = props.discipline
 
 

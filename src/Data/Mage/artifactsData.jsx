@@ -638,7 +638,6 @@ export const artifactData = [
     ],
     "Book": "SL 204"
   },
-  ,
   {
     'Nome': 'Shard of the Sun',
     'Artifact_Level': 6,
@@ -742,7 +741,6 @@ export const artifactData = [
     ],
     "Book": "AA 193"
   },
-  ,
   {
     'Nome': 'The Codex of Lost Pages',
     'Artifact_Level': 7,
@@ -846,7 +844,6 @@ export const artifactData = [
     ],
     "Book": "AA 194"
   },
-  ,
   {
     'Nome': 'Karnacki’s Coffin',
     'Artifact_Level': 7,
@@ -949,7 +946,6 @@ export const artifactData = [
     ],
     "Book": "SotT 197"
   },
-  ,
   {
     'Nome': 'Quicksilver Spear',
     'Artifact_Level': 7,
@@ -1062,7 +1058,6 @@ export const artifactData = [
     ],
     "Book": "MT 140"
   },
-  ,
   {
     'Nome': 'Soul Hammer',
     'Artifact_Level': 7,
@@ -1165,7 +1160,6 @@ export const artifactData = [
     ],
     "Book": "GotV 203"
   },
-  ,
   {
     'Nome': 'The Crown',
     'Artifact_Level': 8,
@@ -1270,7 +1264,6 @@ export const artifactData = [
     ],
     "Book": "Ban 70"
   },
-  ,
   {
     'Nome': 'Liar’s Mask',
     'Artifact_Level': 8,
@@ -1376,7 +1369,6 @@ export const artifactData = [
     ],
     "Book": "Myst 207"
   },
-  ,
   {
     'Nome': 'Profane Thummim',
     'Artifact_Level': 8,
@@ -1485,7 +1477,6 @@ export const artifactData = [
     ],
     "Book": "AA 193"
   },
-  ,
   {
     'Nome': 'The Flying Saucer',
     'Artifact_Level': 9,
@@ -1599,7 +1590,6 @@ export const artifactData = [
     ],
     "Book": "Ban 70"
   },
-  ,
   {
     'Nome': 'The Mask of Eyes',
     'Artifact_Level': 10,

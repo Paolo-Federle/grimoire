@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
-import BaseTable from '../../components/BaseTable';
+import React from 'react';
 
 export default function TokensDetail(props) {
-    const location = useLocation();
     const matchedToken = props.tokens
 
     return (
