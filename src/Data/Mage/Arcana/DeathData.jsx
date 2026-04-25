@@ -8,7 +8,32 @@ const deathOneData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "<p>When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the <b>World of Darkness Rulebook</b>, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). </p><p>Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). </p><p>A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. </p><p>A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. </p><p>A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies.</p><p>A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "When someone directs a vulgar spell at the mage or other targets whom the mage wishes to protect, he can cast a countering spell that creates a form of magical interference, weakening or even canceling the attacking spell, similar to how an obstacle can act as cover against a ranged attack. He must first have Mage Sight to be able to perceive the attacking spell. Like a dodge action, he can cast Counterspell against vulgar spells cast by another mage with a higher Initiative. (He cannot counter attacks with lower Initiatives if he has already performed an action in the turn. See “Dodge,” p. 156 of the World of Darkness Rulebook, for rules on how this circumvents the normal Initiative order for the turn.) A mage can even counter sympathetic spells cast directly at him (but not those cast at other targets), by sensing the sympathetic conduit being forged by the spell (again, he must have Mage Sight for this). "
+            },
+            {
+                "type": "paragraph",
+                "text": "Successes are subtracted from the target spell’s Potency. If the target spell is left with no Potency, it is canceled entirely. If even a single point of Potency remains, the spell is applied against its target (at its reduced Potency). "
+            },
+            {
+                "type": "paragraph",
+                "text": "A covert spell cannot normally be countered, since the defending mage must first identify its Arcanum components using the normal rules for doing so (see “Scrutinizing Spells,” p. 278). Such investigation is not normally possible within the same turn in which the spell is cast, although some Time magic might give a mage the extra time needed or clue him in on what spell the caster will cast before he casts it. Vulgar spells do not need this kind of scrutiny; they are obvious enough to counter within the same turn of casting. "
+            },
+            {
+                "type": "paragraph",
+                "text": "A spell aimed at more than one target does not need to be countered for each target; a successful countering diminishes or prevents its effects against all targets. "
+            },
+            {
+                "type": "paragraph",
+                "text": "A countering mage must have at least one dot in one of the Arcana used by the attacking spell. For example, to counter a conjunctional Mind 3 + Life 2 spell, a mage needs either Mind 1 or Life 1, but not both. If he does not have a proper Arcanum lore, he cannot counter the spell. Counterspell can be learned as a rote (use Occult Skill), but it must be learned separately for each Arcanum to which it applies."
+            },
+            {
+                "type": "paragraph",
+                "text": "A mage with two dots of Prime can instead use the “Counterspell Prime” spell, p. 222, to counter any spell, regardless of Arcanum. In addition, Counterspell Prime allows him to counter covert spells (assuming he has active Mage Sight) without first needing to identify them."
+            }
+        ],
         "DescrizioneBreve": "counter Death spells",
         "Book": "M:tA 123"
     },
@@ -21,9 +46,14 @@ const deathOneData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Successes are used as Potency to wrest control of the ectoplasm from the mage or ghost who currently controls it.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successes are used as Potency to wrest control of the ectoplasm from the mage or ghost who currently controls it."
+            }
+        ],
         "RoteName": "Mysterium Rote: The Seal of Harafax",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death vs. Resolve + Gnosis (mage) or Resistance (ghost)",
+        "RoteDice": "Dice Pool: Presence + Occult + Death vs. Resolve + Gnosis (mage) or Resistance (ghost)",
         "RoteDescrizione": "Named after the mage who first formulized it, the title of this rote also refers to the image of ectoplasm as hot wax, to which the mage’s will is applied like a signet.",
         "DescrizioneBreve": "alter existing ectoplasm",
         "Book": "M:tA 133"
@@ -31,15 +61,33 @@ const deathOneData = [
     {
         "Titolo": "Forensic Gaze",
         "Arcana": "Death •",
-        "DescrizioneAlta": "There are times when the most useful thing one can find out about a given dead body is how it got to be that way. An ability that most crime-scene investigators would give their eyeteeth for, this spell enables a mage to discern at a glance exactly how a creature died and how long ago. Thus, the mage might be able to realize that a cause of death obvious to all modern forensic evidence is in fact a ruse designed to distract from the subject’s true cause of death.<p>Because of the limitations of the Death Arcanum, Forensic Gaze reveals only cause of death and not mitigating circumstances. If used upon a human skeleton, for example, it can reveal that the individual died as a result of damage to the carotid artery two months ago to the day, but does not tell the mage that the victim also had a lethal dose of strychnine in his system at the time of his demise. This limitation on the sense can come in quite handy, however (such as finding a mutilated body and learning that it was a deliberate stab to the heart, rather than the obvious manic rending of flesh, that resulted in the person’s death). Even if physical evidence of the cause of death is absent (as with a body reduced to ash), this spell reveals what killed the being in question and how much time has passed since it died.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "There are times when the most useful thing one can find out about a given dead body is how it got to be that way. An ability that most crime-scene investigators would give their eyeteeth for, this spell enables a mage to discern at a glance exactly how a creature died and how long ago. Thus, the mage might be able to realize that a cause of death obvious to all modern forensic evidence is in fact a ruse designed to distract from the subject’s true cause of death."
+            },
+            {
+                "type": "paragraph",
+                "text": "Because of the limitations of the Death Arcanum, Forensic Gaze reveals only cause of death and not mitigating circumstances. If used upon a human skeleton, for example, it can reveal that the individual died as a result of damage to the carotid artery two months ago to the day, but does not tell the mage that the victim also had a lethal dose of strychnine in his system at the time of his demise. This limitation on the sense can come in quite handy, however (such as finding a mutilated body and learning that it was a deliberate stab to the heart, rather than the obvious manic rending of flesh, that resulted in the person’s death). Even if physical evidence of the cause of death is absent (as with a body reduced to ash), this spell reveals what killed the being in question and how much time has passed since it died."
+            }
+        ],
         "Practice": "Knowing",
         "Action": "Instant",
         "Duration": "Concentration",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage peers at a corpse to ascertain the cause of death. He does not need to touch, prod or cut into the corpse; he merely stares at it. Fairly obvious causes such as a knife wound or heart attack levy no penalties, but obscure causes such as a rare neurotoxin might cause a –2 or greater penalty. Likewise, deaths that took place more than a year ago suffer –1 dice. Deaths older than a decade suffer an additional –1 dice per decade.<br>It is possible to detect a vampire with this spell, although the cause of death (the Embrace) is extremely obscure (– 3 penalty). The caster also suffers the usual penalty of –1 die per decade that the vampire has been dead. Zombies, too, can be detected, although their state is usually obvious even to those without this spell.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage peers at a corpse to ascertain the cause of death. He does not need to touch, prod or cut into the corpse; he merely stares at it. Fairly obvious causes such as a knife wound or heart attack levy no penalties, but obscure causes such as a rare neurotoxin might cause a –2 or greater penalty. Likewise, deaths that took place more than a year ago suffer –1 dice. Deaths older than a decade suffer an additional –1 dice per decade."
+            },
+            {
+                "type": "paragraph",
+                "text": "It is possible to detect a vampire with this spell, although the cause of death (the Embrace) is extremely obscure (– 3 penalty). The caster also suffers the usual penalty of –1 die per decade that the vampire has been dead. Zombies, too, can be detected, although their state is usually obvious even to those without this spell."
+            }
+        ],
         "RoteName": "Free Council Rote: Reaper’s Scent",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Death",
+        "RoteDice": "Dice Pool: Intelligence + Medicine + Death",
         "RoteDescrizione": "This rote relies not only on sight, but on the olfactory senses to aid the mage in reading the secrets of a corpse. Some Free Council mages enjoy employing the seemingly miraculous forensic techniques seen in many of today’s most popular prime-time shows in the casting of this rote.",
         "DescrizioneBreve": "learn how a subject died",
         "Book": "M:tA 134"
@@ -53,9 +101,14 @@ const deathOneData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "See “Resonance,” pp. 277-280, for rules for scrutinizing magic with this sight. A +1 dice bonus is gained on perception and scrutiny rolls to sense vampiric Disciplines, Devotions and rituals.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "See “Resonance,” pp. 277-280, for rules for scrutinizing magic with this sight. A +1 dice bonus is gained on perception and scrutiny rolls to sense vampiric Disciplines, Devotions and rituals."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Aura of Gloom",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "Those whose lives have been touched in certain ways by Death can be manipulated through that contact. Using this rote, a mage can perceive another’s grief through a recent loss, and use this knowledge to manipulate that person’s emotional vulnerability. It can be used to identify murderers who have otherwise concealed their crimes from all knowledge (although this rote reveals no details about the murder, only that the target has blood on his hands). Some members of the Adamantine Arrow use a similar rote to size up a person as a potential threat.",
         "DescrizioneBreve": "Mage Sight",
         "Book": "M:tA 134"
@@ -69,9 +122,34 @@ const deathOneData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "A special dice pool, the Mortality pool, attaches to the item. Each time its user scores a failure in any task employing an Enchanted Item’s powers or equipment bonus, one die is added to that pool. (When the item is used for an action that would not normally require a roll, the user must instead roll the original willworker’s Death + Gnosis at the time of item creation.)<p>Before using an item with a Mortality greater than zero, the item’s user first reflexively rolls its Mortality.</p><p>On a failure, the item remains sound, and can be used as normal during the current turn.</p><p>On a success, the item suffers one point of Structure damage. The item can still be used during the current turn, unless the item’s total Structure damage exceeds the object’s Durability, in which case the item malfunctions. None of its powers or enhancements can be used until it is repaired. If all Structure points are lost to damage, the item is destroyed.</p><p>On an exceptional success, the object is destroyed.</p><p>The item fails in a manner befitting its configuration: swords break, guns explode and vehicles crash. The object’s demise unfolds as dramatically as possible without trespassing into outright vulgarity.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "A special dice pool, the Mortality pool, attaches to the item. Each time its user scores a failure in any task employing an Enchanted Item’s powers or equipment bonus, one die is added to that pool. (When the item is used for an action that would not normally require a roll, the user must instead roll the original willworker’s Death + Gnosis at the time of item creation.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Before using an item with a Mortality greater than zero, the item’s user first reflexively rolls its Mortality."
+            },
+            {
+                "type": "paragraph",
+                "text": "On a failure, the item remains sound, and can be used as normal during the current turn."
+            },
+            {
+                "type": "paragraph",
+                "text": "On a success, the item suffers one point of Structure damage. The item can still be used during the current turn, unless the item’s total Structure damage exceeds the object’s Durability, in which case the item malfunctions. None of its powers or enhancements can be used until it is repaired. If all Structure points are lost to damage, the item is destroyed."
+            },
+            {
+                "type": "paragraph",
+                "text": "On an exceptional success, the object is destroyed."
+            },
+            {
+                "type": "paragraph",
+                "text": "The item fails in a manner befitting its configuration: swords break, guns explode and vehicles crash. The object’s demise unfolds as dramatically as possible without trespassing into outright vulgarity."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Consigned to Oblivion",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Death",
+        "RoteDice": "Dice Pool: Intelligence + Crafts + Death",
         "RoteDescrizione": "Guardians don’t like to leave Enchanted Items around where unworthy fingers might grasp them. “Consigned to Oblivion” provides the Guardians’ favorite method of relinquishing control of item-bound spells, ensuring that any devices created with it will eventually self-destruct.",
         "DescrizioneBreve": "item crafting, alternate cost relinquishment - Item dies as it is used",
         "Book": "TotM 130"
@@ -85,9 +163,22 @@ const deathOneData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "This spell may only be cast after the mage has suffered at least one point of bashing, lethal or aggravated damage. The spell works only in the turbulent emotional aftermath of a genuine accident or attack by hostile others. The appropriate mental state can never be provoked by incidents of self-harm, or harm inflicted by one’s confederates. However, a qualifying incident may be engineered by provoking one’s enemies.<p>The spell is performed after the conclusion of the violent incident, before the mage seeks medical attention, pain relief or other healing. During the spell’s casting, the willworker uses a knife or similar implement to selfinflict up to three additional points of lethal damage. For each point suffered in this manner, the mage adds one to a pool of points known as a Pain Harvest pool. Only the self-inflicted damage contributes to the Pain Harvest pool.</p><p>The mage may at any subsequent time relinquish control over an imbued spell, curse, enhancement or defense installed in an Enchanted Item, by paying 12 points from her Pain Harvest pool.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spell may only be cast after the mage has suffered at least one point of bashing, lethal or aggravated damage. The spell works only in the turbulent emotional aftermath of a genuine accident or attack by hostile others. The appropriate mental state can never be provoked by incidents of self-harm, or harm inflicted by one’s confederates. However, a qualifying incident may be engineered by provoking one’s enemies."
+            },
+            {
+                "type": "paragraph",
+                "text": "The spell is performed after the conclusion of the violent incident, before the mage seeks medical attention, pain relief or other healing. During the spell’s casting, the willworker uses a knife or similar implement to selfinflict up to three additional points of lethal damage. For each point suffered in this manner, the mage adds one to a pool of points known as a Pain Harvest pool. Only the self-inflicted damage contributes to the Pain Harvest pool."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mage may at any subsequent time relinquish control over an imbued spell, curse, enhancement or defense installed in an Enchanted Item, by paying 12 points from her Pain Harvest pool."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Contracted in Sinew",
-        "RoteDice": "<b>Dice Pool:</b> Stamina + Survival + Death",
+        "RoteDice": "Dice Pool: Stamina + Survival + Death",
         "RoteDescrizione": "For Adamantine Arrow warriors, getting wounded is an everyday occurrence, affording frequent opportunities to top up their Pain Harvest pools. As an added bonus, the spell allows them to show off their stoic indifference to physical suffering.",
         "DescrizioneBreve": "item crafting, alternate cost relinquishment - Increase damage to pattern from violence",
         "Book": "TotM 131"
@@ -101,9 +192,18 @@ const deathOneData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "A simple success allows a mage to shape a one-yard radius area of shadows or darkness into shapes of his choosing, or he can thicken its gloom, making shadows deeper even under bright light. The Storyteller assesses the quality of existing shadows, categorizing them into three degrees: from light to dark to complete darkness. Each success deepens the darkness by one degree. Once complete darkness is achieved, additional successes impose dice penalties to perception rolls on a one-for-one basis for anyone peering into the area.<p>With Death 2, the mage can give shadows animation, while Death 3 allows him to conjure them.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "A simple success allows a mage to shape a one-yard radius area of shadows or darkness into shapes of his choosing, or he can thicken its gloom, making shadows deeper even under bright light. The Storyteller assesses the quality of existing shadows, categorizing them into three degrees: from light to dark to complete darkness. Each success deepens the darkness by one degree. Once complete darkness is achieved, additional successes impose dice penalties to perception rolls on a one-for-one basis for anyone peering into the area."
+            },
+            {
+                "type": "paragraph",
+                "text": "With Death 2, the mage can give shadows animation, while Death 3 allows him to conjure them."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Fall of Night",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "Sleepers rarely believe in anything more than what they can see. When a phenomenon is masked by shadows, most simply walk away, unwilling to delve any deeper into Mysteries best left to the Awakened.",
         "DescrizioneBreve": "deepen existing shadows",
         "Book": "M:tA 135"
@@ -118,7 +218,7 @@ const deathOneData = [
         "Aspect": "Covert",
         "Cost": "None",
         "RoteName": "Adamantine Arrow Rote: Wounds of the Soul",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Death",
+        "RoteDice": "Dice Pool: Intelligence + Medicine + Death",
         "RoteDescrizione": "Arrow mages seek to exploit any weakness their enemies might display. Conversely, this rote can also be used to detect vulnerabilities amongst one’s allies.",
         "DescrizioneBreve": "examine a soul for Derangements (extended Intelligence + Empathy to diagnose what kind)",
         "Book": "M:tA 135"
@@ -132,9 +232,14 @@ const deathOneData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "This spell’s successes must equal or exceed the Potency of any power (if any) used to conceal the ghost.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spell’s successes must equal or exceed the Potency of any power (if any) used to conceal the ghost."
+            }
+        ],
         "RoteName": "Mysterium Rote: Clamor of the Departed",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "Long have the Awakened known that the dead keep secrets. Mages of the Mysterium use this magic to learn such lost lore. More pragmatically, willworkers of the Adamantine Arrow have sometimes been known to use this rote to ask questions of allies or enemies recently slain.",
         "DescrizioneBreve": "see, hear, and speak with ghosts in Twilight",
         "Book": "M:tA 135"
@@ -151,9 +256,14 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The Speed at which the darkness can flow (directed by the caster as a reflexive action) is equal to the caster’s Gnosis + Death + the spell’s Potency.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The Speed at which the darkness can flow (directed by the caster as a reflexive action) is equal to the caster’s Gnosis + Death + the spell’s Potency."
+            }
+        ],
         "RoteName": "Mysterium Rote: Light’s Nemesis",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "Occasionally, the business of discovering the knowledge of the ancients is better pursued under cover of darkness than with a lantern proudly outstretched to dispel the shadows of ignorance.",
         "DescrizioneBreve": "move shadows into lit areas",
         "Book": "M:tA"
@@ -167,9 +277,14 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "Although covert in Aspect, this spell will invoke Disbelief if the Sleeper is in any way resistant to, or becomes especially terrified by, what he perceives (and most will be either one or the other, given the horror inherent in beholding the unquiet dead).",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Although covert in Aspect, this spell will invoke Disbelief if the Sleeper is in any way resistant to, or becomes especially terrified by, what he perceives (and most will be either one or the other, given the horror inherent in beholding the unquiet dead)."
+            }
+        ],
         "RoteName": "Mysterium Rote: Eyes of the Grave",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Empathy + Death",
+        "RoteDice": "Dice Pool: Intelligence + Empathy + Death",
         "RoteDescrizione": "By means of this rote, mages of the Mysterium can enable Sleeper associates to perceive the goings-on of the disincarnate dead. Alternately, a Sleeper who has somehow earned the wrath of the willworker might be compelled to gaze into the ghostly realm, whether the Sleeper likes it or not.",
         "DescrizioneBreve": "grant ability to see ghosts",
         "Book": "TotM 29"
@@ -183,9 +298,14 @@ const deathTwoData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage can add or subtract one feature per success. A feature represents a single wound or disease condition, such as a laceration caused by a knife, burns caused by exposure to a conflagration, or a cancerous tumor in the target’s liver.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage can add or subtract one feature per success. A feature represents a single wound or disease condition, such as a laceration caused by a knife, burns caused by exposure to a conflagration, or a cancerous tumor in the target’s liver."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Mortician’s Touch",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Death",
+        "RoteDice": "Dice Pool: Intelligence + Subterfuge + Death",
         "RoteDescrizione": "Even the most savvy coroner can be put off the trail of a blatantly paranormal death by means of this rote. Guardians thus preserve the integrity of the Mysteries. Adamantine Arrow mages, in the course of their work, must also sometimes occlude the truth behind a killing, so they too make use of this magic (Wits + Subterfuge + Death).",
         "DescrizioneBreve": "hide the true cause of death",
         "Book": "M:tA 136"
@@ -193,15 +313,45 @@ const deathTwoData = [
     {
         "Titolo": "Corpse Unmasking",
         "Arcana": "Death •• + Prime •",
-        "DescrizioneAlta": "One of the common and unpleasant duties of the Guardians of the Veil is to use the Death 2 “Corpse Mask” spell (<b>Mage: The Awakening</b>, p. 136) to cover up physical evidence of a magical homicide. But rogue mages can use Corpse Mask just as well as the Guardians. This spell allows the mage to detect whether or not the spell Corpse Mask had been used on a subject.<p>Corpse Unmasking cannot undo the transformation done by Corpse Mask, but can let the caster know if the original cause of death was due to a spell.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "One of the common and unpleasant duties of the Guardians of the Veil is to use the Death 2 “Corpse Mask” spell (Mage: The Awakening, p. 136) to cover up physical evidence of a magical homicide. But rogue mages can use Corpse Mask just as well as the Guardians. This spell allows the mage to detect whether or not the spell Corpse Mask had been used on a subject."
+            },
+            {
+                "type": "paragraph",
+                "text": "Corpse Unmasking cannot undo the transformation done by Corpse Mask, but can let the caster know if the original cause of death was due to a spell."
+            }
+        ],
         "Practice": "Knowing",
         "Action": "Instant",
         "Duration": "Concentration",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The results of the casting roll are as follows:<p><strong>Dramatic Failure:</strong> The mage not only fails to perceive if the subject has had a Corpse Mask placed upon it, but his attempt to penetrate the mask mystically “contaminates” the corpse, making it impossible for future spells to have a chance of determining if a Mask was placed upon it.</p><p><strong>Failure:</strong> The results are inconclusive, and the mage cannot tell if the corpse had been Masked.</p><p><strong>Success:</strong> The mage determines that the corpse has had a Mask placed upon it, though he cannot determine what the original cause of death was.</p><p><strong>Exceptional Success:</strong> While the spell does not undo the physical transformation, the caster is able to correctly determine whether or not the corpse in question has been Masked, and if so, he is able to perceive the body in its original state, allowing him to make a true diagnosis of the cause of death.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The results of the casting roll are as follows:"
+            },
+            {
+                "type": "paragraph",
+                "text": "Dramatic Failure: The mage not only fails to perceive if the subject has had a Corpse Mask placed upon it, but his attempt to penetrate the mask mystically “contaminates” the corpse, making it impossible for future spells to have a chance of determining if a Mask was placed upon it."
+            },
+            {
+                "type": "paragraph",
+                "text": "Failure: The results are inconclusive, and the mage cannot tell if the corpse had been Masked."
+            },
+            {
+                "type": "paragraph",
+                "text": "Success: The mage determines that the corpse has had a Mask placed upon it, though he cannot determine what the original cause of death was."
+            },
+            {
+                "type": "paragraph",
+                "text": "Exceptional Success: While the spell does not undo the physical transformation, the caster is able to correctly determine whether or not the corpse in question has been Masked, and if so, he is able to perceive the body in its original state, allowing him to make a true diagnosis of the cause of death."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Unmasking the Rogue",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death",
+        "RoteDice": "Dice Pool: Intelligence + Occult + Death",
         "RoteDescrizione": "The Guardians of the Veil were the first to invent the rote for piercing the Corpse Mask, though other orders have since followed in the Guardians’ footsteps. It is a common rote among Sentinels, though the actual Skills used may vary. (The Free Council frequently substitutes Science for Occult.)",
         "DescrizioneBreve": "reveal the true cause of death",
         "Book": "GotV 186"
@@ -215,9 +365,14 @@ const deathTwoData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "This spell lowers the object’s Durability by one point per success, but it does not affect the object’s Structure (for that effect, see “Destroy Object,” p. 139). The degraded Durability cannot be repaired by normal (non-magical) means.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spell lowers the object’s Durability by one point per success, but it does not affect the object’s Structure (for that effect, see “Destroy Object,” p. 139). The degraded Durability cannot be repaired by normal (non-magical) means."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Return to Dust",
-        "RoteDice": "<b>Dice Pool:</b> Stamina + Intimidation + Death",
+        "RoteDice": "Dice Pool: Stamina + Intimidation + Death",
         "RoteDescrizione": "Mundane weapons are of little use against Arrow mages, for they can be rendered brittle and easily destroyed. Guardians of the Veil sometimes use a similar rote (Resolve + Intimidation + Death) in preparation for destroying surveillance equipment used to capture evidence of the unseen world.",
         "DescrizioneBreve": "reduce Durability of a touched object",
         "Book": "M:tA 136"
@@ -231,9 +386,38 @@ const deathTwoData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "The mage must touch the target to enact this spell (at Death 3, she can cast this spell at sensory range). The target feels a sudden chill and then a profound feeling of distance and isolation, as though he were miles away from everything in his vicinity. The mage, through the use of the Prime Arcanum, can see “behind” the soul, viewing the Sleeper on a spiritual level so primitive that no part of his individual ego is present. Most mages find the experience profoundly disturbing, because a human being stripped of his individual humanity is simply a great deal of instinct and a little bit of intellect. Thus, it is possible to cast this spell using only the Death Arcanum, which knocks the soul out of joint but does not convey any mystical insight. This glimpse behind the soul lasts only a turn, after which the mage loses focus on the soul and must cast this spell on a different Sleeper in order to see this “proto-soul.”<p>While the mage peers through the gap, the player can make a Gnosis roll. If the roll is successful, the mage regains a spent Willpower point. Doing so too often, however, can have a serious drawback — the mage becomes addicted to what she sees through the gap, and for every week that passes in which she does not successfully use this spell to get a glimpse, she suffers a cumulative –1 dice penalty on all Socialand Mental-related rolls. When this addiction sets in is up to the Storyteller; one possibility is that it occurs as soon as the mage loses a dot of Wisdom from casting this spell. It is safe to assume that most, if not all, Echo Walkers suffer from this addiction.</p><p>The effects on the Sleeper target are long-lasting and brutal. The target becomes depressed, irritable and unable to relate to others as well as he once could. All Social rolls suffer a –1 dice penalty until the Sleeper can realign his soul. Doing this requires the target to reaffirm his connection to the rest of humanity, meaning that some people can correct the damage within a few hours (a loving father, for example, might find that spending an afternoon caring for his children does the trick, while an ER doctor might save someone’s life and repair the damage). Other people can help the person realign his soul — therapy, spiritual counseling or simply positive attention can shift the victim’s soul back into place (this might require a roll of, for instance, Manipulation + Empathy for counseling or Intelligence + Medicine for psychiatric help, though it’s worth noting that pharmaceutical remedies don’t help matters). People who lack the tools to fix the damage themselves, however, often make it worse. Any degeneration rolls made for the victim while the soul is dislodged automatically fail, and any derangements gained are considered severe. The victim often becomes suicidal (or, occasionally, violent) within a week or two.</p><p>A person afflicted by this spell can be detected by the Death 1 “Soul Marks” spell (see p. 135 of <b>Mage: The Awakening</b>). Any spell that affects the human soul receives a +2 dice bonus when cast upon a Sleeper suffering the effects of Dislodge Soul.</p><p>The Spirit 3 “Restore Lost Soul” spell (see p. 250 of <b>Mage: The Awakening</b>) can also correct the damage that Dislodge Soul causes. Doing so requires the restoring mage to accumulate a number of successes equal to the Potency of the Dislodge Soul spell.</p><p>Casting this spell upon a Sleeper requires a degeneration roll for mages of Wisdom 2 or more.</p><p>This spell cannot be cast upon Awakened targets, although a Death 4 version of this spell can target mages.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must touch the target to enact this spell (at Death 3, she can cast this spell at sensory range). The target feels a sudden chill and then a profound feeling of distance and isolation, as though he were miles away from everything in his vicinity. The mage, through the use of the Prime Arcanum, can see “behind” the soul, viewing the Sleeper on a spiritual level so primitive that no part of his individual ego is present. Most mages find the experience profoundly disturbing, because a human being stripped of his individual humanity is simply a great deal of instinct and a little bit of intellect. Thus, it is possible to cast this spell using only the Death Arcanum, which knocks the soul out of joint but does not convey any mystical insight. This glimpse behind the soul lasts only a turn, after which the mage loses focus on the soul and must cast this spell on a different Sleeper in order to see this “proto-soul.”"
+            },
+            {
+                "type": "paragraph",
+                "text": "While the mage peers through the gap, the player can make a Gnosis roll. If the roll is successful, the mage regains a spent Willpower point. Doing so too often, however, can have a serious drawback — the mage becomes addicted to what she sees through the gap, and for every week that passes in which she does not successfully use this spell to get a glimpse, she suffers a cumulative –1 dice penalty on all Socialand Mental-related rolls. When this addiction sets in is up to the Storyteller; one possibility is that it occurs as soon as the mage loses a dot of Wisdom from casting this spell. It is safe to assume that most, if not all, Echo Walkers suffer from this addiction."
+            },
+            {
+                "type": "paragraph",
+                "text": "The effects on the Sleeper target are long-lasting and brutal. The target becomes depressed, irritable and unable to relate to others as well as he once could. All Social rolls suffer a –1 dice penalty until the Sleeper can realign his soul. Doing this requires the target to reaffirm his connection to the rest of humanity, meaning that some people can correct the damage within a few hours (a loving father, for example, might find that spending an afternoon caring for his children does the trick, while an ER doctor might save someone’s life and repair the damage). Other people can help the person realign his soul — therapy, spiritual counseling or simply positive attention can shift the victim’s soul back into place (this might require a roll of, for instance, Manipulation + Empathy for counseling or Intelligence + Medicine for psychiatric help, though it’s worth noting that pharmaceutical remedies don’t help matters). People who lack the tools to fix the damage themselves, however, often make it worse. Any degeneration rolls made for the victim while the soul is dislodged automatically fail, and any derangements gained are considered severe. The victim often becomes suicidal (or, occasionally, violent) within a week or two."
+            },
+            {
+                "type": "paragraph",
+                "text": "A person afflicted by this spell can be detected by the Death 1 “Soul Marks” spell (see p. 135 of Mage: The Awakening). Any spell that affects the human soul receives a +2 dice bonus when cast upon a Sleeper suffering the effects of Dislodge Soul."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Spirit 3 “Restore Lost Soul” spell (see p. 250 of Mage: The Awakening) can also correct the damage that Dislodge Soul causes. Doing so requires the restoring mage to accumulate a number of successes equal to the Potency of the Dislodge Soul spell."
+            },
+            {
+                "type": "paragraph",
+                "text": "Casting this spell upon a Sleeper requires a degeneration roll for mages of Wisdom 2 or more."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spell cannot be cast upon Awakened targets, although a Death 4 version of this spell can target mages."
+            }
+        ],
         "RoteName": "Echo Walkers Rote: Glimpse of Glory",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Intimidation + Death",
+        "RoteDice": "Dice Pool: Resolve + Intimidation + Death",
         "RoteDescrizione": "While most mages find the images they see when using this spell disturbing (those few mages to whom it ever occurs to dislodge a person’s soul, that is), the Echo Walkers claim to see quick glances of the Ones Before. Over time, they claim, they build up enough of a concept of these beings to shape their usages of the Legacy’s Attainments. Of course, by combining this rote with the Image of Perfection Merit (see below), the Echo Walkers become much more driven and dangerous.",
         "DescrizioneBreve": "damage a soul of a sleeper (or mage at Death 4) for opportunity to gain Willpower",
         "Book": "L:tA 124"
@@ -241,15 +425,33 @@ const deathTwoData = [
     {
         "Titolo": "Ectoplasm",
         "Arcana": "Death ••",
-        "DescrizioneAlta": "The mage can create ectoplasm from one of his orifices (usually his mouth or nostrils) or the orifice of a corpse. This opaque, white, slick material can be molded to form whatever shape the mage desires, although it cannot be disguised to look like some other substance (unless the mage adds Matter 2 to the casting). The mage could use it as a mirror to allow anyone (even Sleepers) to see ghosts or objects that are present in Twilight.<p>Most often, it is used to allow a Twilight ghost to manifest without suffering any dice modifiers for location or the presence of mortals. The ectoplasm takes the shape of the ghost’s own image.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "The mage can create ectoplasm from one of his orifices (usually his mouth or nostrils) or the orifice of a corpse. This opaque, white, slick material can be molded to form whatever shape the mage desires, although it cannot be disguised to look like some other substance (unless the mage adds Matter 2 to the casting). The mage could use it as a mirror to allow anyone (even Sleepers) to see ghosts or objects that are present in Twilight."
+            },
+            {
+                "type": "paragraph",
+                "text": "Most often, it is used to allow a Twilight ghost to manifest without suffering any dice modifiers for location or the presence of mortals. The ectoplasm takes the shape of the ghost’s own image."
+            }
+        ],
         "Practice": "Ruling",
         "Action": "Instant",
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Successes are allocated between the ectoplasm’s Size (base 5 or less, plus one per allocated success) and its solidity. Its base solidity is like a spider web’s, but allocated successes can make this denser and thicker, giving the ectoplasm some weight and increasing detail. A ghost that manifests through ectoplasm with one success of solidity has only vague features. With two successes, its face can be recognized by those who knew it in life. Five successes make it look almost real (except for its uniform white color). Even with five successes (the maximum solidity), a material being or object can pass through the ectoplasm with little resistance. A manifesting ghost is not affected by damage to its ectoplasmic “body”; it merely becomes harder to make out its features.<p>The ectoplasm remains for one hour or for the rest of the scene.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successes are allocated between the ectoplasm’s Size (base 5 or less, plus one per allocated success) and its solidity. Its base solidity is like a spider web’s, but allocated successes can make this denser and thicker, giving the ectoplasm some weight and increasing detail. A ghost that manifests through ectoplasm with one success of solidity has only vague features. With two successes, its face can be recognized by those who knew it in life. Five successes make it look almost real (except for its uniform white color). Even with five successes (the maximum solidity), a material being or object can pass through the ectoplasm with little resistance. A manifesting ghost is not affected by damage to its ectoplasmic “body”; it merely becomes harder to make out its features."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ectoplasm remains for one hour or for the rest of the scene."
+            }
+        ],
         "RoteName": "Free Council Rote: A Mirror Darkly",
-        "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Death",
+        "RoteDice": "Dice Pool: Stamina + Occult + Death",
         "RoteDescrizione": "Spectral manifestations are intrinsic to the “new” definition of the occult. This rote enables Council mages to facilitate the appearance of such apparitions, especially before the eyes of those turning to scientific (or other nontraditional) aspects of “ghost hunting.” Silver Ladder willworkers sometimes highlight objects or beings in Twilight so that their allies can study or perhaps use other magics upon such subjects.",
         "DescrizioneBreve": "generate ectoplasm from an orifice",
         "Book": "M:tA 136"
@@ -263,9 +465,18 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "1 Mana (optional)",
-        "DescrizioneMiddle": "The mage gains one point of armor per dot he possesses in the Death Arcanum. By spending one Mana, the Duration can be made one day. Most mages cast such a shielding spell at the beginning of the day, as part of their morning rituals. Successes are used to combat attempts to dispel the ward.<p>Note that this magical armor does not apply against an opponent’s attempts to achieve a grappling hold on the mage (Fate, Mind, Space and Time Arcana provide shielding spells to accomplish that). This spell will, however, work to steal vigor from a grappler’s Strength + Brawl rolls to overpower the mage.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage gains one point of armor per dot he possesses in the Death Arcanum. By spending one Mana, the Duration can be made one day. Most mages cast such a shielding spell at the beginning of the day, as part of their morning rituals. Successes are used to combat attempts to dispel the ward."
+            },
+            {
+                "type": "paragraph",
+                "text": "Note that this magical armor does not apply against an opponent’s attempts to achieve a grappling hold on the mage (Fate, Mind, Space and Time Arcana provide shielding spells to accomplish that). This spell will, however, work to steal vigor from a grappler’s Strength + Brawl rolls to overpower the mage."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Shield of Bones",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "While some of the rewards yielded up by a long familiarity with Death are dubious at best, no Arrow mage argues with the benefits of this rote.",
         "DescrizioneBreve": "Shielding",
         "Book": "M:tA 136"
@@ -279,9 +490,22 @@ const deathTwoData = [
         "Duration": "Concentration",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The spell requires the presence of a corpse. While the eyes do not need to be intact, the spell does require a more substantial corpse than mere ashes, though a decapitated head will suffice.<p>Although mages often use this spell in the hopes of discovering the identity of an unknown killer (since the spell is limited to the last thing the victim saw before dying), if the victim was shot by a sniper from far away or poisoned, the spell will not reveal the identity of the killer.</p><p>An exceptional success might reveal an additional clue. For instance, if the targeted corpse reveals that the person was pushed off a cliff and fell down onto rocks below, a basic success might only show an image of the bottom of the cliff. But with an exceptional success, the “last sight” might be the image of the killer pushing the victim. However well the caster may or may not have rolled, the images are from the point of view of the subject, so things outside his line of sight are not revealed. Most Guardians prefer to attack from behind for just this reason.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The spell requires the presence of a corpse. While the eyes do not need to be intact, the spell does require a more substantial corpse than mere ashes, though a decapitated head will suffice."
+            },
+            {
+                "type": "paragraph",
+                "text": "Although mages often use this spell in the hopes of discovering the identity of an unknown killer (since the spell is limited to the last thing the victim saw before dying), if the victim was shot by a sniper from far away or poisoned, the spell will not reveal the identity of the killer."
+            },
+            {
+                "type": "paragraph",
+                "text": "An exceptional success might reveal an additional clue. For instance, if the targeted corpse reveals that the person was pushed off a cliff and fell down onto rocks below, a basic success might only show an image of the bottom of the cliff. But with an exceptional success, the “last sight” might be the image of the killer pushing the victim. However well the caster may or may not have rolled, the images are from the point of view of the subject, so things outside his line of sight are not revealed. Most Guardians prefer to attack from behind for just this reason."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Posthumous Accusation",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Death",
+        "RoteDice": "Dice Pool: Manipulation + Occult + Death",
         "RoteDescrizione": "The Guardians of the Veil are well known for using this rote in their inquiries. Even if the final image is not directly useful as a clue, it can provide clues indirectly. For instance, a killer might have, as mentioned above, thrown someone off a cliff. But if the body fell into a river and washed out to sea, the location of the death may lead the willworker to the scene of the crime, where other methods (such as the Time 2 spell “Postcognition”) might prove useful.",
         "DescrizioneBreve": "view the last image a body saw",
         "Book": "GotV 186"
@@ -295,9 +519,14 @@ const deathTwoData = [
         "Aspect": "Covert",
         "Duration": "Prolonged (one scene)",
         "Cost": "None",
-        "DescrizioneMiddle": "The spell also destroys the mage’s fingerprints by eliminating skin oils, but won’t affect marks she’s left in powders or other substances capable of retaining an impression. The spell won’t eliminate evidence that the mage leaves by disturbing the surrounding environment, such as footprints or objects that she’s moved or broken.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The spell also destroys the mage’s fingerprints by eliminating skin oils, but won’t affect marks she’s left in powders or other substances capable of retaining an impression. The spell won’t eliminate evidence that the mage leaves by disturbing the surrounding environment, such as footprints or objects that she’s moved or broken."
+            }
+        ],
         "RoteName": "Banisher Rote: Humble Exit",
-        "RoteDice": "<b>Dice Pool:</b> Composure + Stealth + Death",
+        "RoteDice": "Dice Pool: Composure + Stealth + Death",
         "RoteDescrizione": "A Moros Banisher recently taught this rote to members of St. Michael’s Promise (see Boston Unveiled) because he thought they’d need it in a city so infested by sorcery. The Banisher concentrates on humbling himself before God, reminding himself to leave no sign of pride, lest a subconscious desire to take credit for his work give him away to the authorities.",
         "DescrizioneBreve": "destroys fibers, dead skin, saliva, oils and hair",
         "Book": "Ban 54"
@@ -311,9 +540,14 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "In the case of a general summons among multiple ghosts, the spell targets the closest one. A curious ghost will usually answer a general call or personal summons, but a reflexive, contested Resistance roll is made if it does not wish to come. It must remain near the summoning mage for the Duration of the spell, unless the caster allows it to leave.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "In the case of a general summons among multiple ghosts, the spell targets the closest one. A curious ghost will usually answer a general call or personal summons, but a reflexive, contested Resistance roll is made if it does not wish to come. It must remain near the summoning mage for the Duration of the spell, unless the caster allows it to leave."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Muster the Dead",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death vs. Resistance",
+        "RoteDice": "Dice Pool: Presence + Persuasion + Death vs. Resistance",
         "RoteDescrizione": "Even the shades of the dead can be gathered by the call of a Silver Ladder willworker. While the mage cannot compel a ghost to do anything without more advanced magics, nothing prevents her from convincing the dead to serve her by more mundane means.",
         "DescrizioneBreve": "call to ghosts in the area",
         "Book": "M:tA 137"
@@ -327,9 +561,14 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "If the target is unwilling, a reflexive, contested Resolve + Gnosis roll is made.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "If the target is unwilling, a reflexive, contested Resolve + Gnosis roll is made."
+            }
+        ],
         "RoteName": "Free Council Rote: Opening the Sealed Eye",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Death",
+        "RoteDice": "Dice Pool: Manipulation + Persuasion + Death",
         "RoteDescrizione": "The mage whispers to the target, coaxing him to open his third eye. Those who have never before glimpsed the heavy shadow of Death are often changed by the experience. It is for this reason that Adamantine Arrow mages also make use of this magic (Presence + Persuasion + Death), so that none can forget the heavy burden that their order has accepted.",
         "DescrizioneBreve": "grant Mage Sight",
         "Book": "M:tA 137"
@@ -343,9 +582,14 @@ const deathTwoData = [
         "Duration": "Prolonged (this spell uses the advanced prolongation factors)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The ghost adds the spell’s Potency to its Power for the purpose of determining the range the ghost can roam from its anchors. (See the <b>World of Darkness Rulebook</b>, p. 209.)",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The ghost adds the spell’s Potency to its Power for the purpose of determining the range the ghost can roam from its anchors. (See the World of Darkness Rulebook, p. 209.)"
+            }
+        ],
         "RoteName": "Free Council Rote: Nothing To Lose But Your Chains",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "Though this rote is especially popular with mages who bind ghosts to Enchanted Items, mages of the Free Council often cast it for philosophical reasons, providing precious inches of liberty to their life-challenged brethren.",
         "DescrizioneBreve": "increase the range a ghost can travel",
         "Book": "TotM 60"
@@ -359,10 +603,28 @@ const deathTwoData = [
         "Aspect": "Covert",
         "Duration": "Lasting",
         "Cost": "None",
-        "DescrizioneMiddle": "Subtract the spell’s Potency from any spell or power that would animate the corpse from within. This includes Death magic, possession and certain necromantic supernatural powers, but not the kind of telekinetic “puppetry” a Forces-using mage might employ. This spell cannot rob already-animated corpses or undead creatures of their vigor. The spell can’t interfere with a vampire’s Embrace, either.<p>It’s also possible to cast this spell using Space 2 to suppress reanimation in an area instead of targeting particular corpses.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Subtract the spell’s Potency from any spell or power that would animate the corpse from within. This includes Death magic, possession and certain necromantic supernatural powers, but not the kind of telekinetic “puppetry” a Forces-using mage might employ. This spell cannot rob already-animated corpses or undead creatures of their vigor. The spell can’t interfere with a vampire’s Embrace, either."
+            },
+            {
+                "type": "paragraph",
+                "text": "It’s also possible to cast this spell using Space 2 to suppress reanimation in an area instead of targeting particular corpses."
+            }
+        ],
         "RoteName": "Banisher Rote: Proper Burial",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Academics + Death",
-        "RoteDescrizione": "Simplicius routinely casts this spell on victims and perpetrators alike. Nobody deserves to have his body violated by sorcery after he dies, even if the person would have happily done it to someone else while alive.<p>Thanks to Simplicius’s theological education, he’s capable of performing ad hoc funeral blessings from dozens of religions. He always takes the time to perform a service that fits the dead person’s religious background as best Simplicius knows it. Otherwise, he prefers ecumenical prayers with a slight bias toward his own Christian beliefs.</p>",
+        "RoteDice": "Dice Pool: Presence + Academics + Death",
+        "RoteDescrizione": [
+            {
+                "type": "paragraph",
+                "text": "Simplicius routinely casts this spell on victims and perpetrators alike. Nobody deserves to have his body violated by sorcery after he dies, even if the person would have happily done it to someone else while alive."
+            },
+            {
+                "type": "paragraph",
+                "text": "Thanks to Simplicius’s theological education, he’s capable of performing ad hoc funeral blessings from dozens of religions. He always takes the time to perform a service that fits the dead person’s religious background as best Simplicius knows it. Otherwise, he prefers ecumenical prayers with a slight bias toward his own Christian beliefs."
+            }
+        ],
         "DescrizioneBreve": "subtract Potency from attempts to animate a corpse",
         "Book": "Ban 54"
     },
@@ -375,9 +637,22 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "Any receptacle that can be used to seal liquid can serve as a soul jar, whether it’s a wine bottle, a preserve jar or even Tupperware. Success on the spellcasting enchants the receptacle so that a soul placed within the jar cannot escape.<p>The jar’s lid is usually held fast by a metal bar or is coated with wax. The soul is protected from attack by the object. If the jar is opened or broken, the soul can flee. See “Soul Handling,” p. 276.</p><p>With Death 3, the mage can attempt to cast this spell with indefinite Duration.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Any receptacle that can be used to seal liquid can serve as a soul jar, whether it’s a wine bottle, a preserve jar or even Tupperware. Success on the spellcasting enchants the receptacle so that a soul placed within the jar cannot escape."
+            },
+            {
+                "type": "paragraph",
+                "text": "The jar’s lid is usually held fast by a metal bar or is coated with wax. The soul is protected from attack by the object. If the jar is opened or broken, the soul can flee. See “Soul Handling,” p. 276."
+            },
+            {
+                "type": "paragraph",
+                "text": "With Death 3, the mage can attempt to cast this spell with indefinite Duration."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Urn of Motes",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Death (or Spirit)",
+        "RoteDice": "Dice Pool: Presence + Crafts + Death (or Spirit)",
         "RoteDescrizione": "In ancient times, Silver Ladder mages would carry out a terrible punishment levied against mage criminals: the severing of their souls. This was sometimes a temporary sentence; the caster would store the soul in a jar and release it once the convict’s sentence had been served.",
         "DescrizioneBreve": "prevent a dying soul from departing",
         "Book": "M:tA 137"
@@ -391,9 +666,14 @@ const deathTwoData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "Each success levies a –1 penalty on any attempts to scrutinize the target’s aura.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Each success levies a –1 penalty on any attempts to scrutinize the target’s aura."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Cloaking the Anointed",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Death",
+        "RoteDice": "Dice Pool: Manipulation + Subterfuge + Death",
         "RoteDescrizione": "Concealing the truth of the Mysteries sometimes entails occluding the mark of power within oneself, especially when enemies of the Awakened are about. When entering hostile territory in the pursuit of hidden wisdom, Mysterium mages have also been known to use this rote.",
         "DescrizioneBreve": "make examination of your soul more difficult",
         "Book": "M:tA 137"
@@ -401,15 +681,37 @@ const deathTwoData = [
     {
         "Titolo": "Touch of the Grave",
         "Arcana": "Death ••",
-        "DescrizioneAlta": "Through the casting of this spell, the mage gains the power to physically interact with ghosts and ghostly things in Twilight state. (“Ghostly things” are usually parts of a spectre’s anchors, which often exhibit ephemeral existence even after their material counterparts have crumbled to dust).<p>She could, for example, pull a ghostly hammer out of a Twilight room in order to pound a nail into a wall. She could take the spectral reflection of a key out of the lock in which it was broken, pull it through into materiality, and use it to open the material lock barring her from entering a room she wishes to access. She can also touch ghosts and be touched (or attacked) in return by any nearby shade. Such beings tend to be, at best, cold and clammy and many have other disturbing and not entirely tactile sensations associated with physical contact. Some spectres have been known to long for physical contact with the living in ways most unhealthy or inappropriate.</p><p>The caster cannot damage ghosts, or affect non-dead spirits such as fetches (see p. 82) or mental projections, including vampires using the Twilight Projection Discipline (she needs the Spirit and Mind Arcana, respectively, for those effects).</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "Through the casting of this spell, the mage gains the power to physically interact with ghosts and ghostly things in Twilight state. (“Ghostly things” are usually parts of a spectre’s anchors, which often exhibit ephemeral existence even after their material counterparts have crumbled to dust)."
+            },
+            {
+                "type": "paragraph",
+                "text": "She could, for example, pull a ghostly hammer out of a Twilight room in order to pound a nail into a wall. She could take the spectral reflection of a key out of the lock in which it was broken, pull it through into materiality, and use it to open the material lock barring her from entering a room she wishes to access. She can also touch ghosts and be touched (or attacked) in return by any nearby shade. Such beings tend to be, at best, cold and clammy and many have other disturbing and not entirely tactile sensations associated with physical contact. Some spectres have been known to long for physical contact with the living in ways most unhealthy or inappropriate."
+            },
+            {
+                "type": "paragraph",
+                "text": "The caster cannot damage ghosts, or affect non-dead spirits such as fetches (see p. 82) or mental projections, including vampires using the Twilight Projection Discipline (she needs the Spirit and Mind Arcana, respectively, for those effects)."
+            }
+        ],
         "Practice": "Ruling",
         "Action": "Instant",
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Objects drawn from Twilight possess Durability 1 and crumble into a fine ash if broken, regardless of their original consistency. Nothing really makes these items superior to (or even the equal of) those a mage could acquire normally in the material world, but being able to snatch the revolver from the nearby ghost of a police officer when the mage is attacked can be a lifesaver.<p>Note that objects found in Twilight are only infrequently the same as those found in the material world, as only lost or broken objects tend to manifest in that state. Objects that serve as anchors (or even those that once served as anchors but are now missing from the material world, either through decay or destruction) also often appear in Twilight. Some Twilight objects are made by magic; see “Ghostly Object,” p. 140.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Objects drawn from Twilight possess Durability 1 and crumble into a fine ash if broken, regardless of their original consistency. Nothing really makes these items superior to (or even the equal of) those a mage could acquire normally in the material world, but being able to snatch the revolver from the nearby ghost of a police officer when the mage is attacked can be a lifesaver."
+            },
+            {
+                "type": "paragraph",
+                "text": "Note that objects found in Twilight are only infrequently the same as those found in the material world, as only lost or broken objects tend to manifest in that state. Objects that serve as anchors (or even those that once served as anchors but are now missing from the material world, either through decay or destruction) also often appear in Twilight. Some Twilight objects are made by magic; see “Ghostly Object,” p. 140."
+            }
+        ],
         "RoteName": "Mysterium Rote: Ashen Grasp",
-        "RoteDice": "<b>Dice Pool:</b> Dexterity + Survival + Death",
+        "RoteDice": "Dice Pool: Dexterity + Survival + Death",
         "RoteDescrizione": "Often, the things that willworkers of the Mysterium seek have been lost to the ravages of time. On occasion, these relics leave shadows of themselves, shadows that can be used to open ancient vaults, studied for the imagery that they depict, or even read to learn the secrets they contain.",
         "DescrizioneBreve": "reach into twilight",
         "Book": "M:tA 138"
@@ -426,9 +728,14 @@ const deathThreeData = [
         "Duration": "Prolonged (this spell uses the advanced prolongation factors)",
         "Aspect": "Covert",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "The spell itself provides no guarantee that the ghost will use its spell in the manner specified. Any such assurances depend on negotiation or coercion between willworker and ghost.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The spell itself provides no guarantee that the ghost will use its spell in the manner specified. Any such assurances depend on negotiation or coercion between willworker and ghost."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Bolt From the Grave",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death",
+        "RoteDice": "Dice Pool: Intelligence + Occult + Death",
         "RoteDescrizione": "The restless ghosts of fallen Adamantine Arrow warriors relish the opportunity to strike out against the enemies of their glorious order, and are anxious to be armed with spells of the most devastating caliber.",
         "DescrizioneBreve": "allow a ghost to trigger a precast spell",
         "Book": "TotM 134"
@@ -442,9 +749,14 @@ const deathThreeData = [
         "Duration": "Prolonged (1 scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Shadow People, apparently, will always consent to be summoned into a place rife with what they consider a pleasing resonance, and are often known to linger long after the Duration of the spell elapses, as though somehow feeding on the darker ambient energies of the Fallen World. As Shadow People are not normally present anywhere in this reality, no Space component is necessary to call them to the caster’s present location; they simply arrive when called, though the willworker enjoys no particular protection from the entity’s attentions, unless she has taken such preparations in advance. Otherwise, this spell is in every way similar to the “Lesser Spirit Summons” and “Greater Spirit Summons” spells of the Spirit Arcanum (Mage: The Awakening, pp. 247 and 249).",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Shadow People, apparently, will always consent to be summoned into a place rife with what they consider a pleasing resonance, and are often known to linger long after the Duration of the spell elapses, as though somehow feeding on the darker ambient energies of the Fallen World. As Shadow People are not normally present anywhere in this reality, no Space component is necessary to call them to the caster’s present location; they simply arrive when called, though the willworker enjoys no particular protection from the entity’s attentions, unless she has taken such preparations in advance. Otherwise, this spell is in every way similar to the “Lesser Spirit Summons” and “Greater Spirit Summons” spells of the Spirit Arcanum (Mage: The Awakening, pp. 247 and 249)."
+            }
+        ],
         "RoteName": "Rote: Call to Darkness",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Intimidation + Death",
+        "RoteDice": "Dice Pool: Intelligence + Intimidation + Death",
         "RoteDescrizione": "Some believe the Shadow People are dark powers called up by hurtful magic and sent to afflict one’s enemies with fear and suffering. By way of this spell, a willworker can do just that, sending a hateful darkness to torment her foes, or those who otherwise offend against her.",
         "DescrizioneBreve": "summon a nasty spirit creature",
         "Book": "GoG 78"
@@ -458,9 +770,18 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "Complex commands require multiple successes. For example, “Go to the Contessa’s mansion and steal the Borgia Diamond!” might require three successes.<p>If the ghost has not completed the action by the time the Duration expires, it does not have to finish the job. It must, however, work to complete the command as soon as possible.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Complex commands require multiple successes. For example, “Go to the Contessa’s mansion and steal the Borgia Diamond!” might require three successes."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the ghost has not completed the action by the time the Duration expires, it does not have to finish the job. It must, however, work to complete the command as soon as possible."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Word of Woe",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Death vs. Resistance",
+        "RoteDice": "Dice Pool: Presence + Intimidation + Death vs. Resistance",
         "RoteDescrizione": "The unquiet dead can be potent allies, and Silver Ladder mages waste no resource. Some use the shades of the departed as simple shock troops, while the more cunning compel them to reveal desired knowledge or to use the subtle abilities of the dead in pursuits other than battle. Mysterium willworkers often find uses for a closely related rote (Manipulation + Intimidation + Death) in their endless endeavor to gather up the hoary secrets of the world.",
         "DescrizioneBreve": "dominate the will of a ghost",
         "Book": "M:tA 138"
@@ -474,9 +795,14 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Upon successfully casting this spell, and for the remainder of the scene, the mage no longer suffers wound penalties, does not need to breathe and does not begin to bleed to death when all of his Health boxes are filled with lethal damage (see “Incapacitation” in the <b>World of Darkness Rulebook</b>, pp. 143–144). Likewise, he does not register as a living pattern to sensory magics (though Life Arcanum spells can still affect him and he doesn’t count as a walking corpse for the purposes of the Death Arcanum), and perhaps most spectacularly, he can reattach severed pieces of his body with Life Arcanum healing (at the appropriate level for the type of damage sustained in losing the limb, or whatever other part was removed), so long as it is done before this spell’s Duration expires.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Upon successfully casting this spell, and for the remainder of the scene, the mage no longer suffers wound penalties, does not need to breathe and does not begin to bleed to death when all of his Health boxes are filled with lethal damage (see “Incapacitation” in the World of Darkness Rulebook, pp. 143–144). Likewise, he does not register as a living pattern to sensory magics (though Life Arcanum spells can still affect him and he doesn’t count as a walking corpse for the purposes of the Death Arcanum), and perhaps most spectacularly, he can reattach severed pieces of his body with Life Arcanum healing (at the appropriate level for the type of damage sustained in losing the limb, or whatever other part was removed), so long as it is done before this spell’s Duration expires."
+            }
+        ],
         "RoteName": "Adamantine Arrow Spell: Reaper’s Aegis",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Medicine + Death",
+        "RoteDice": "Dice Pool: Resolve + Medicine + Death",
         "RoteDescrizione": "Arrows die, so that others need not. This rote is just another way of accepting that heavy cost — one that an individual Arrow might just walk away from intact.",
         "DescrizioneBreve": "become halfway dead to survive damage",
         "Book": "AA 173"
@@ -490,15 +816,18 @@ const deathThreeData = [
         "Duration": "Prolonged (this spell uses the advanced prolongation factors)",
         "Aspect": "Covert",
         "Cost": "5 Mana",
-        "DescrizioneMiddle": "To trigger the curse, a victim must take willing possession of the item. From that point onwards, the victim loses one dot in a Physical Attribute every time a predetermined interval passes. The shorter the interval, the greater the target number needed for casting:[TABLE1]Dots are lost from the victim’s highest Attribute first. When two or more Attributes have the same current value, the Storyteller randomly chooses between them. This Attribute damage is permanent until the item is destroyed or disenchanted, or is willingly acquired by a new owner. This gives knowing victims strong incentives to pass the curse along.",
-        "Tables": [
+        "DescrizioneMiddle": [
             {
-                "Placeholder": "[TABLE1]",
-                "Data": [
-                    [
-                        "Interval",
-                        "Target Number"
-                    ],
+                "type": "paragraph",
+                "text": "To trigger the curse, a victim must take willing possession of the item. From that point onwards, the victim loses one dot in a Physical Attribute every time a predetermined interval passes. The shorter the interval, the greater the target number needed for casting:"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Interval",
+                    "Target Number"
+                ],
+                "rows": [
                     [
                         "1 month",
                         "5"
@@ -516,10 +845,14 @@ const deathThreeData = [
                         "20"
                     ]
                 ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Dots are lost from the victim?s highest Attribute first. When two or more Attributes have the same current value, the Storyteller randomly chooses between them. This Attribute damage is permanent until the item is destroyed or disenchanted, or is willingly acquired by a new owner. This gives knowing victims strong incentives to pass the curse along."
             }
         ],
         "RoteName": "Mysterium Rote: Tome of Pain",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Crafts + Death",
+        "RoteDice": "Dice Pool: Presence + Crafts + Death",
         "RoteDescrizione": "This rote is popular among Mysterium librarians and collectors as a measure against book thieves. The curse is woven into an especially rare and tempting volume. Its purloined pages poison the thief from a position of pride in his bookcase. This version of 'Curse of Withering' immunizes the creator from the book’s curse.",
         "DescrizioneBreve": "item creation, curse",
         "Book": "TotM 137"
@@ -533,9 +866,14 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Successes in excess of the object’s Durability (most ephemeral items have Durability 1) inflict aggravated damage on its Structure. This spell does not affect animate ephemeral beings such as ghosts (or anything with a Corpus trait rather than a Structure trait).",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successes in excess of the object’s Durability (most ephemeral items have Durability 1) inflict aggravated damage on its Structure. This spell does not affect animate ephemeral beings such as ghosts (or anything with a Corpus trait rather than a Structure trait)."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Shattering the Fetters",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
+        "RoteDice": "Dice Pool: Resolve + Occult + Death",
         "RoteDescrizione": "Even ephemeral objects have sometimes been known to exert an invisible pull on the material world, motivating Sleepers to strange and inexplicable acts. In these cases, Guardians have been known to destroy such items, ending the invisible pull they exert and preserving the secrecy of the occult.",
         "DescrizioneBreve": "fray objects in twilight",
         "Book": "M:tA 138"
@@ -549,9 +887,14 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Successes in excess of the object’s Durability inflict aggravated damage on its Structure.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successes in excess of the object’s Durability inflict aggravated damage on its Structure."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Breaking the Chains",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts or Science + Death",
+        "RoteDice": "Dice Pool: Resolve + Crafts or Science + Death",
         "RoteDescrizione": "A crumbling truncheon or dissolving handgun poses no threat to a mage of the Adamantine Arrow, or to the charges of such a willworker. The Guardians of the Veil sometimes use a similar rote (Composure + Crafts or Science + death) in the pursuit of their work.",
         "DescrizioneBreve": "reduce structure of a touched object if successes > durability",
         "Book": "M:tA 139"
@@ -559,15 +902,41 @@ const deathThreeData = [
     {
         "Titolo": "Devouring the Slain",
         "Arcana": "Death •••",
-        "DescrizioneAlta": "While any mage can commit a living sacrifice to gain Mana (see p. 78), this spell is an act of sorcerous cannibalism that allows a willworker to regain strength from the souls of the dying without necessarily killing them (although it certainly harms them).<p>A mage can restore her resolve or “burn out” a living human Pattern for its Mana, drawing this energy directly into her own stores to use as she will. The spell does not work if cast upon an animal; if it is, nothing happens. If used on a vampire or other form of walking dead, the spell provides no benefit to the mage. In general, the spell is meant for use upon a normal human being, and any attempt to diverge from that procedure is not apt to go well for the caster.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "While any mage can commit a living sacrifice to gain Mana (see p. 78), this spell is an act of sorcerous cannibalism that allows a willworker to regain strength from the souls of the dying without necessarily killing them (although it certainly harms them)."
+            },
+            {
+                "type": "paragraph",
+                "text": "A mage can restore her resolve or “burn out” a living human Pattern for its Mana, drawing this energy directly into her own stores to use as she will. The spell does not work if cast upon an animal; if it is, nothing happens. If used on a vampire or other form of walking dead, the spell provides no benefit to the mage. In general, the spell is meant for use upon a normal human being, and any attempt to diverge from that procedure is not apt to go well for the caster."
+            }
+        ],
         "Practice": "Fraying",
         "Action": "Instant; subtract target’s Stamina",
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "The mage must first grab hold of the target, with a Strength + Brawl roll, subtracting the target’s Defense. If successful, he can cast this spell as an instant action in the following turn. (With Death 4, he can cast this spell at sensory range as an instant action. He needs Death 5 before he can add Space 2 for a sympathetic casting.)<p>Each success allows the mage to replenish one of his spent Willpower points by harvesting it from a person who has suffered at least one aggravated wound during the current scene (including one who has lost all of his Health to lethal damage and now suffers aggravated damage as his body dies), up to a maximum of the victim’s remaining Willpower points.</p><p>Alternatively, the mage may burn out a person’s Pattern for points of Mana, converting the ephemeral energies that make up his idealized form into raw power. Each success inflicts one lethal Health wound onto the victim and gives the caster one Mana point. If the victim is a mage, his own Mana points are unaffected; this spell steals energy directly from his Pattern. The caster must use the Prime 5 “Siphon Mana” spell (see p. 231) to directly tap an Awakened person’s Mana. Direct siphoning requires a separate casting from the Willpower-harvesting version of this spell, although both effects can be combined using the normal rules for combining spells (see “Combined Spells,” p. 128).</p><p>Devouring the Slain can be used only on a given individual once, after which a new level of aggravated damage must be inflicted upon him before he can again be a target.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must first grab hold of the target, with a Strength + Brawl roll, subtracting the target’s Defense. If successful, he can cast this spell as an instant action in the following turn. (With Death 4, he can cast this spell at sensory range as an instant action. He needs Death 5 before he can add Space 2 for a sympathetic casting.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Each success allows the mage to replenish one of his spent Willpower points by harvesting it from a person who has suffered at least one aggravated wound during the current scene (including one who has lost all of his Health to lethal damage and now suffers aggravated damage as his body dies), up to a maximum of the victim’s remaining Willpower points."
+            },
+            {
+                "type": "paragraph",
+                "text": "Alternatively, the mage may burn out a person’s Pattern for points of Mana, converting the ephemeral energies that make up his idealized form into raw power. Each success inflicts one lethal Health wound onto the victim and gives the caster one Mana point. If the victim is a mage, his own Mana points are unaffected; this spell steals energy directly from his Pattern. The caster must use the Prime 5 “Siphon Mana” spell (see p. 231) to directly tap an Awakened person’s Mana. Direct siphoning requires a separate casting from the Willpower-harvesting version of this spell, although both effects can be combined using the normal rules for combining spells (see “Combined Spells,” p. 128)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Devouring the Slain can be used only on a given individual once, after which a new level of aggravated damage must be inflicted upon him before he can again be a target."
+            }
+        ],
         "RoteName": "Free Council Rote: Energetic Transfer",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Death",
+        "RoteDice": "Dice Pool: Manipulation + Persuasion + Death",
         "RoteDescrizione": "Some scientifically minded Free Council mages see this spell as a means of conserving energy, taking it from the dying before it can dissipate beyond anyone’s use. More traditional, mystically minded Awakened see the grim truths of this rote for what they are. Despite such knowledge, no few make use of it.",
         "DescrizioneBreve": "gain willpower from wounded foes",
         "Book": "M:tA 139"
@@ -581,9 +950,14 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Covert (though subject to Disbelief if the object in question disintegrates in front of Sleepers)",
         "Cost": "None",
-        "DescrizioneMiddle": "Successes accrued during the casting of this spell inflict levels of bashing damage on an “unreal” construct (as defined above) on a one-for-one basis, circumventing Durability. If the object’s Structure is exceeded, the object disintegrates instantly.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successes accrued during the casting of this spell inflict levels of bashing damage on an “unreal” construct (as defined above) on a one-for-one basis, circumventing Durability. If the object’s Structure is exceeded, the object disintegrates instantly."
+            }
+        ],
         "RoteName": "Free Council Rote: Supernal Vitriol",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Crafts + Death",
+        "RoteDice": "Dice Pool: Intelligence + Crafts + Death",
         "RoteDescrizione": "This rote enables a Libertine to dissipate phantasms and other such constructs, without resorting to more vulgar magics.",
         "DescrizioneBreve": "reduce structure of phantasms or ephemera",
         "Book": "TotM 26"
@@ -597,9 +971,14 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "1 Mana (optional)",
-        "DescrizioneMiddle": "The target gains one point of armor per dot the caster possesses in the Death Arcanum. The caster can increase the Duration to one day with the expenditure of one point of Mana.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The target gains one point of armor per dot the caster possesses in the Death Arcanum. The caster can increase the Duration to one day with the expenditure of one point of Mana."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Shroud of Gloom",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "The Guardians protect their charges with this spell, although some of them find its aura disturbing.",
         "DescrizioneBreve": "grant Shielding",
         "Book": "M:tA 139"
@@ -613,9 +992,18 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "One person of Size 5 or less can pass through the gate per turn (larger people can spend two turns squeezing through). Each success on the casting allows the mage to widen the gate so that one additional person can pass through per turn.<p>With Death 4, the mage can cast this spell as an instant action and can also limit who can enter (or exit) the gate.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "One person of Size 5 or less can pass through the gate per turn (larger people can spend two turns squeezing through). Each success on the casting allows the mage to widen the gate so that one additional person can pass through per turn."
+            },
+            {
+                "type": "paragraph",
+                "text": "With Death 4, the mage can cast this spell as an instant action and can also limit who can enter (or exit) the gate."
+            }
+        ],
         "RoteName": "Mysterium Rote: Calling the Crossroads",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
+        "RoteDice": "Dice Pool: Resolve + Occult + Death",
         "RoteDescrizione": "While it is one thing to speak to the dead and learn their lore, it is another entirely to physically become like a ghost and employ one’s senses while in a ghostly state. Certain locations inaccessible from the material realm can also be explored by means of this rote, enabling a Mysterium willworker to discover relics and knowledge perhaps lost for ages.",
         "DescrizioneBreve": "open a passage to Twilight",
         "Book": "M:tA 139"
@@ -630,7 +1018,7 @@ const deathThreeData = [
         "Aspect": "Covert",
         "Cost": "None",
         "RoteName": "Mysterium Rote: Night Hallowing",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult or Science + Death",
+        "RoteDice": "Dice Pool: Resolve + Occult or Science + Death",
         "RoteDescrizione": "Mysterium mages often populate their sanctums with Twilight objects, ready to be drawn forth using “Touch of the Grave” as needed. Free Council mages learn a version of this rote that uses the Science Skill in place of Occult.",
         "DescrizioneBreve": "transition an object to ephemera in Twilight",
         "Book": "M:tA 140"
@@ -644,9 +1032,18 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "This spells works similarly to the Mind 4 spell “Augment Other’s Mind,” except that this spell only functions on ghosts. The spell brings a ghost to a level of self-awareness at which it can remember how it died (if it was in a position to know; a person who died of poisoning might know that much, but not who poisoned it) and what has happened to it since its death. This spell in no way makes the ghost well-disposed toward the mage. In fact, many ghosts despise the person who showed them their deaths.<p>The mage must touch the ghost to use this spell, which requires the mage to be in Twilight, the ghost to manifest (see p. 210 of the <b>World of Darkness Rulebook</b>), or the mage to cast “Touch of the Grave” (see p. 138 of <b>Mage: The Awakening</b>). At Death 4, the mage can cast this spell at sensory range, and can use advanced prolongation Duration factors. Some ghosts are self-aware to begin with, and this spell confers no further bonus on such shades.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spells works similarly to the Mind 4 spell “Augment Other’s Mind,” except that this spell only functions on ghosts. The spell brings a ghost to a level of self-awareness at which it can remember how it died (if it was in a position to know; a person who died of poisoning might know that much, but not who poisoned it) and what has happened to it since its death. This spell in no way makes the ghost well-disposed toward the mage. In fact, many ghosts despise the person who showed them their deaths."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mage must touch the ghost to use this spell, which requires the mage to be in Twilight, the ghost to manifest (see p. 210 of the World of Darkness Rulebook), or the mage to cast “Touch of the Grave” (see p. 138 of Mage: The Awakening). At Death 4, the mage can cast this spell at sensory range, and can use advanced prolongation Duration factors. Some ghosts are self-aware to begin with, and this spell confers no further bonus on such shades."
+            }
+        ],
         "RoteName": "Mysterium Rote: Thwarting the Waters of Lethe",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Empathy + Death",
+        "RoteDice": "Dice Pool: Manipulation + Empathy + Death",
         "RoteDescrizione": "Ghosts see a great deal more than they remember, making them a valuable, but often untappable resource for those who seek lost knowledge or the location of long-forgotten (by humans) artifacts. The mages of the Mysterium frequently do not have time to waste in the slow (and sometimes fruitless) task of talking ghosts into remembering that they are dead so that they can query them about information. By using this spell, a mystagogue can cut to the chase, diving directly into negotiation for the information he needs.",
         "DescrizioneBreve": "increase a ghost's Mental Attributes",
         "Book": "Myst 192"
@@ -660,9 +1057,14 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "To cast this spell successfully is to die. A Banisher who has contemplated the magic necessary for this spell is ready to make the ultimate sacrifice for his cause. The spell targets and shuts down vital physiological functions (such as the heart and the lungs) of the caster’s body.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "To cast this spell successfully is to die. A Banisher who has contemplated the magic necessary for this spell is ready to make the ultimate sacrifice for his cause. The spell targets and shuts down vital physiological functions (such as the heart and the lungs) of the caster’s body."
+            }
+        ],
         "RoteName": "Banisher Rote: Martyr",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Medicine + Death",
+        "RoteDice": "Dice Pool: Resolve + Medicine + Death",
         "RoteDescrizione": "This 'rote' is obviously not gained through practice; it might be attained through study of a particular grimoire, or even learned instinctively after a series of terrible dreams. When used to its greatest effect, this rote is combined with a spell, Artifact or imbued item that removes the Banisher’s soul beyond the reach of magic. Banishers know all too well that dead men sometimes can be forced to tell tales.",
         "DescrizioneBreve": "caster dies",
         "Book": "Ban 54"
@@ -676,9 +1078,34 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "Special (see below)",
-        "DescrizioneMiddle": "Successfully casting this spell, which may be used only by a mage who is unconscious due to damage (with all his Health boxes filled with lethal damage, and who has “rolled over” into at least one box of aggravated damage) — an exception to the normal rules for spellcasting — destroys the casting willworker’s body, killing him instantly and irrevocably.<p>If the mage is a Disciple of Life, he may freely distribute his body’s remaining fortitude (every Health box not yet filled with aggravated damage) to anyone within the spell’s Area (<b>Mage: The Awakening</b>, p. 120), out to a limit of a person’s current maximum Health, healing any injury, whether bashing, lethal or aggravated, on a one-for-one basis.</p><p>If the mage is a Disciple of Mind, he may distribute his remaining points of Willpower in a similar manner, out to an individual’s current maximum.</p><p>If he is a Disciple of Prime, the willworker may distribute his remaining Mana and/or Tass (which dissolves to become Mana) to any individual capable of using such, adding it directly to her current stores, up to the maximum allowed by her Gnosis.</p>Any or all of these effects may be combined into a single casting by a suitably skilled mage.<p>The caster’s body disintegrates completely upon the successful completion of this spell and he may not subsequently be summoned up in any form, unless somehow previously and willingly metaphysically bound to such a fate. Théarchs believe this is because such a mage, by definition, is at peace with his demise and passes on in a spirit of generosity and Wisdom. As to why this spell is covert and not vulgar, none can say for certain, though certain scholars within the Silver Ladder believe the giving of the self in such a manner is somehow protected against the Lie of the Exarchs, making the use of this spell an act of holy martyrdom in the eyes of the Oracles.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successfully casting this spell, which may be used only by a mage who is unconscious due to damage (with all his Health boxes filled with lethal damage, and who has “rolled over” into at least one box of aggravated damage) — an exception to the normal rules for spellcasting — destroys the casting willworker’s body, killing him instantly and irrevocably."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the mage is a Disciple of Life, he may freely distribute his body’s remaining fortitude (every Health box not yet filled with aggravated damage) to anyone within the spell’s Area (Mage: The Awakening, p. 120), out to a limit of a person’s current maximum Health, healing any injury, whether bashing, lethal or aggravated, on a one-for-one basis."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the mage is a Disciple of Mind, he may distribute his remaining points of Willpower in a similar manner, out to an individual’s current maximum."
+            },
+            {
+                "type": "paragraph",
+                "text": "If he is a Disciple of Prime, the willworker may distribute his remaining Mana and/or Tass (which dissolves to become Mana) to any individual capable of using such, adding it directly to her current stores, up to the maximum allowed by her Gnosis."
+            },
+            {
+                "type": "paragraph",
+                "text": "Any or all of these effects may be combined into a single casting by a suitably skilled mage."
+            },
+            {
+                "type": "paragraph",
+                "text": "The caster’s body disintegrates completely upon the successful completion of this spell and he may not subsequently be summoned up in any form, unless somehow previously and willingly metaphysically bound to such a fate. Théarchs believe this is because such a mage, by definition, is at peace with his demise and passes on in a spirit of generosity and Wisdom. As to why this spell is covert and not vulgar, none can say for certain, though certain scholars within the Silver Ladder believe the giving of the self in such a manner is somehow protected against the Lie of the Exarchs, making the use of this spell an act of holy martyrdom in the eyes of the Oracles."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Sacrifice of the King",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death",
+        "RoteDice": "Dice Pool: Presence + Persuasion + Death",
         "RoteDescrizione": "In ancient times, some cultures practiced a form of sacred regicide, with rulers going willingly to their deaths in time of need so the people might know prosperity and wellbeing. So, too, do some willworkers of the Silver Ladder give of their lives when circumstances become dire so others might draw strength from their fallen comrade and, renewed, struggle onward to victory.",
         "DescrizioneBreve": "kill self when fatally injured; grant remaining Health/Willpower/Mana to allies",
         "Book": "SL 195"
@@ -692,25 +1119,107 @@ const deathThreeData = [
         "Duration": "Concentration",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "Casting this rote as described in the grimoire requires that the mage sings or plays an appropriately depressing song. A mage who improvises this spell doesn’t have to provide a musical component, but the player suffers a -1 to the casting roll. The song engulfs any sentient being within earshot with a feeling of depression and hopelessness. Any listener whose player fails to exceed the mage’s casting successes on a Composure + Gnosis roll suffers a penalty to all deliberate actions equal to the mage’s successes. A “deliberate” action is one into which the character must put conscious effort. Attacking an enemy, searching for an exit and driving a car are all deliberate actions, but a reflexive roll to resist another power is not. Perception rolls are not necessarily deliberate, but noticing one’s surroundings does require a degree of involvement with them, and so such rolls receive a negative modifier equal to the mage’s Expression rating.<p>Obviously, characters who cannot hear are exempt from the effects of this spell. Also, the caster has no ability to choose targets — it affects everyone within earshot. He can warn any allies in the area, of course, enabling them to prepare themselves (casting a Mental Shield, using earplugs, spending Willpower on the resistance roll), but beyond that, the song saddens everyone who hears it. The effect lasts as long as the mage keeps singing.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Casting this rote as described in the grimoire requires that the mage sings or plays an appropriately depressing song. A mage who improvises this spell doesn’t have to provide a musical component, but the player suffers a -1 to the casting roll. The song engulfs any sentient being within earshot with a feeling of depression and hopelessness. Any listener whose player fails to exceed the mage’s casting successes on a Composure + Gnosis roll suffers a penalty to all deliberate actions equal to the mage’s successes. A “deliberate” action is one into which the character must put conscious effort. Attacking an enemy, searching for an exit and driving a car are all deliberate actions, but a reflexive roll to resist another power is not. Perception rolls are not necessarily deliberate, but noticing one’s surroundings does require a degree of involvement with them, and so such rolls receive a negative modifier equal to the mage’s Expression rating."
+            },
+            {
+                "type": "paragraph",
+                "text": "Obviously, characters who cannot hear are exempt from the effects of this spell. Also, the caster has no ability to choose targets — it affects everyone within earshot. He can warn any allies in the area, of course, enabling them to prepare themselves (casting a Mental Shield, using earplugs, spending Willpower on the resistance roll), but beyond that, the song saddens everyone who hears it. The effect lasts as long as the mage keeps singing."
+            }
+        ],
         "RoteName": "Orpheus’ Last Riddle Rote",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Expression + Death",
+        "RoteDice": "Dice Pool: Manipulation + Expression + Death",
         "DescrizioneBreve": "all in earshot suffer penalty to deliberate rolls",
         "Book": "GoG 131"
     },
     {
         "Titolo": "Quicken Corpse",
         "Arcana": "Death •••",
-        "DescrizioneAlta": "Sometimes, it isn’t enough to have loyal and steadfast living servants. A normal human being, no matter how trustworthy, has the capacity for betrayal. Whether his lips are loosened by seemingly sincere companionship, mystic compulsion or even torture, he can be induced to fail his master’s trust. Where, then, does an enterprising necromancer turn for assistance? Quicken Corpse animates one or more corpses to serve as unfailing, devoted slaves. What such servants lack in wits and motivation, they more than make up for in dogged determination and sheer, tireless pursuit of the tasks they are set.<p>Generally speaking, such ambulatory corpses possess a level of reasoning just above that of a rather intelligent dog. They understand certain visual cues (such as the opening of the door they are meant to guard) and auditory commands (“Defend me!”), but cannot perform feats requiring abstract intellect. They have a limited memory, but cannot make even basic correlations or inferences. (While they can, for example, dimly recall that their master has changed their clothes once a day, they cannot determine that he is likely to do so again tomorrow.) They have no individual initiative.</p><p>These corpse-slaves are not really any stronger than they were in life, but they are tireless and completely without the ability to sense or respond to pain. They need not eat or sleep and do whatever chore they are set to until told otherwise, even if it requires them to tear their own bodies apart in the attempt. They experience neither fear nor the desire for self-preservation and have no minds, per se, for others to control. They can, however, be wrested away from their master through the casting of this spell by another necromancer.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "Sometimes, it isn’t enough to have loyal and steadfast living servants. A normal human being, no matter how trustworthy, has the capacity for betrayal. Whether his lips are loosened by seemingly sincere companionship, mystic compulsion or even torture, he can be induced to fail his master’s trust. Where, then, does an enterprising necromancer turn for assistance? Quicken Corpse animates one or more corpses to serve as unfailing, devoted slaves. What such servants lack in wits and motivation, they more than make up for in dogged determination and sheer, tireless pursuit of the tasks they are set."
+            },
+            {
+                "type": "paragraph",
+                "text": "Generally speaking, such ambulatory corpses possess a level of reasoning just above that of a rather intelligent dog. They understand certain visual cues (such as the opening of the door they are meant to guard) and auditory commands (“Defend me!”), but cannot perform feats requiring abstract intellect. They have a limited memory, but cannot make even basic correlations or inferences. (While they can, for example, dimly recall that their master has changed their clothes once a day, they cannot determine that he is likely to do so again tomorrow.) They have no individual initiative."
+            },
+            {
+                "type": "paragraph",
+                "text": "These corpse-slaves are not really any stronger than they were in life, but they are tireless and completely without the ability to sense or respond to pain. They need not eat or sleep and do whatever chore they are set to until told otherwise, even if it requires them to tear their own bodies apart in the attempt. They experience neither fear nor the desire for self-preservation and have no minds, per se, for others to control. They can, however, be wrested away from their master through the casting of this spell by another necromancer."
+            }
+        ],
         "Practice": "Weaving",
         "Action": "Instant",
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Only one success is required to animate a corpse. Additional successes determine the strength of the mage’s control. Someone attempting to wrest control of the walking dead with another casting of this spell must exceed the original caster’s successes. Additional success can instead be used to boost the corpse’s Physical (but not Mental or Social) traits, at a rate of one success per additional dot in any trait.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Only one success is required to animate a corpse. Additional successes determine the strength of the mage’s control. Someone attempting to wrest control of the walking dead with another casting of this spell must exceed the original caster’s successes. Additional success can instead be used to boost the corpse’s Physical (but not Mental or Social) traits, at a rate of one success per additional dot in any trait."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Rise and Obey",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death",
-        "RoteDescrizione": "Most Ladder mages have little compunction against creating zombies, since they view corpses as the material shells of departed souls. Such unthinking servants suit the temperament of imperious Silver Ladder willworkers quite well, but few members of the order debate their utility. Members of other orders create walking dead for their own purposes, ranging from cheap labor to defense to scaring the living hell out of intruders.<br><h2><b>Zombies</b></h2><p>Each zombie created by the “Quicken Corpse” spell (one per Target factor) has the following base traits:</p><b>Attributes:</b> Power 1, Finesse 1, Resistance 2<br><b>Size:</b> 5 (or less if the corpse is small)<br><b>Speed:</b> 1*<br><b>Initiative:</b> 1*<br><b>Defense:</b> 1*<br>* These traits begin at 1, regardless of Attribute scores; the caster must spend successes on a one-successper-dot basis to raise them.<p>Zombies do not suffer wound penalties and cannot heal damage naturally. Bashing, lethal and aggravated wounds are marked normally, but zombies never suffer incapacitation — they just keep going until their last Health point is lost to aggravated damage. When a zombie’s final (rightmost) Health box is marked with bashing damage, no roll is required to remain conscious. When its final Health box is marked with lethal damage, it does not collapse and begin bleeding to death — it keeps going. Any damage suffered after that is upgraded to aggravated. Once this happens, the corpse loses body parts with each new upgraded wound until it is completely pulverized or disintegrated (the Storyteller decides which parts fall off with each wound).</p><p>A zombie continues to rot. It suffers one lethal point of damage with each passage of a number of days equal to its Resistance. A zombie with a Resistance of 3 therefore suffers one lethal point of rotting damage every three days.</p><p>In addition, zombies created by this spell have a vulnerability to one specific type of attack, such as fire, damage to the brain or carving a mystic sigil on one’s body. If a zombie suffers at least one lethal or aggravated point of damage from an attack to which it is vulnerable, it is destroyed instantly. The caster chooses the zombie’s vulnerability during spellcasting, unless he devotes a success (over and above the simple success needed to animate the corpse) to make it Indestructible. Indestructible zombies can be destroyed only when their final Health box is marked with aggravated damage.</p>",
+        "RoteDice": "Dice Pool: Presence + Persuasion + Death",
+        "RoteDescrizione": [
+            {
+                "type": "paragraph",
+                "text": "Most Ladder mages have little compunction against creating zombies, since they view corpses as the material shells of departed souls. Such unthinking servants suit the temperament of imperious Silver Ladder willworkers quite well, but few members of the order debate their utility. Members of other orders create walking dead for their own purposes, ranging from cheap labor to defense to scaring the living hell out of intruders."
+            },
+            {
+                "type": "heading",
+                "text": "Zombies",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "Each zombie created by the ?Quicken Corpse? spell (one per Target factor) has the following base traits:"
+            },
+            {
+                "type": "line",
+                "label": "Attributes:",
+                "text": "Power 1, Finesse 1, Resistance 2"
+            },
+            {
+                "type": "line",
+                "label": "Size:",
+                "text": "5 (or less if the corpse is small)"
+            },
+            {
+                "type": "line",
+                "label": "Speed:",
+                "text": "1*"
+            },
+            {
+                "type": "line",
+                "label": "Initiative:",
+                "text": "1*"
+            },
+            {
+                "type": "line",
+                "label": "Defense:",
+                "text": "1*"
+            },
+            {
+                "type": "paragraph",
+                "text": "* These traits begin at 1, regardless of Attribute scores; the caster must spend successes on a one-success-per-dot basis to raise them."
+            },
+            {
+                "type": "paragraph",
+                "text": "Zombies do not suffer wound penalties and cannot heal damage naturally. Bashing, lethal and aggravated wounds are marked normally, but zombies never suffer incapacitation ? they just keep going until their last Health point is lost to aggravated damage. When a zombie?s final (rightmost) Health box is marked with bashing damage, no roll is required to remain conscious. When its final Health box is marked with lethal damage, it does not collapse and begin bleeding to death ? it keeps going. Any damage suffered after that is upgraded to aggravated. Once this happens, the corpse loses body parts with each new upgraded wound until it is completely pulverized or disintegrated (the Storyteller decides which parts fall off with each wound)."
+            },
+            {
+                "type": "paragraph",
+                "text": "A zombie continues to rot. It suffers one lethal point of damage with each passage of a number of days equal to its Resistance. A zombie with a Resistance of 3 therefore suffers one lethal point of rotting damage every three days."
+            },
+            {
+                "type": "paragraph",
+                "text": "In addition, zombies created by this spell have a vulnerability to one specific type of attack, such as fire, damage to the brain or carving a mystic sigil on one?s body. If a zombie suffers at least one lethal or aggravated point of damage from an attack to which it is vulnerable, it is destroyed instantly. The caster chooses the zombie?s vulnerability during spellcasting, unless he devotes a success (over and above the simple success needed to animate the corpse) to make it Indestructible. Indestructible zombies can be destroyed only when their final Health box is marked with aggravated damage."
+            }
+        ],
         "DescrizioneBreve": "raise a zombie",
         "Book": "M:tA 140"
     },
@@ -723,9 +1232,14 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "One Corpus point of damage is restored per success.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "One Corpus point of damage is restored per success."
+            }
+        ],
         "RoteName": "Free Council Rote: Spectral Poultice",
-        "RoteDice": "<b>Dice Pool:</b> Composure + Occult + Death",
+        "RoteDice": "Dice Pool: Composure + Occult + Death",
         "RoteDescrizione": "Some mages prefer to bend the dead to their will. Many in the Free Council are eager to point out that one catches more flies with honey than with vinegar. Aiding restless ghosts can often help in winning their trust and perhaps friendship. Adamantine Arrow mages often use a version of this rote (Resolve + Occult + Death) to heal shades that they have sent into battle, enabling them to keep fighting for a little longer.",
         "DescrizioneBreve": "restore a ghost's body",
         "Book": "M:tA 141"
@@ -739,9 +1253,14 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Only one success is needed to reshape an object (if the new shape is very complex, the Storyteller might levy dice penalties to the casting). Or, one point of Durability is added per success. In the case of weapons or armor, successes can also be assigned to a weapon’s equipment bonus or to armor’s protection.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Only one success is needed to reshape an object (if the new shape is very complex, the Storyteller might levy dice penalties to the casting). Or, one point of Durability is added per success. In the case of weapons or armor, successes can also be assigned to a weapon’s equipment bonus or to armor’s protection."
+            }
+        ],
         "RoteName": "Mysterium Rote: Spirit-smithing",
-        "RoteDice": "<b>Dice Pool:</b> Dexterity + Crafts + Death",
+        "RoteDice": "Dice Pool: Dexterity + Crafts + Death",
         "RoteDescrizione": "Mysterium willworkers often use this rote to craft useful objects before drawing them out of the Shadow Realm and into the material world. Sometimes, however, they create such items as gifts for spirits or ghosts.",
         "DescrizioneBreve": "alter the form of twilight objects",
         "Book": "M:tA 141"
@@ -755,9 +1274,14 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana per zombie",
-        "DescrizioneMiddle": "When cast upon a zombie, this spell enables the zombie to feed upon other dead flesh to mend its injuries and creates in it a compulsion to do so when reduced below a certain number of health boxes (determined by the caster). When reduced below this level and presented with any source of dead flesh, the zombie will feed, consuming one level of the corpse’s Size over the course of five turns and regaining one health box, until such time as the zombie is restored to at least the appropriate level of health programmed into the zombie by the caster. Note that the zombie can only be magically compelled to seek out alternate sources of sustenance by an effect that exceeds the Potency of this spell, though the zombie will break off from feeding to defend itself from harm.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "When cast upon a zombie, this spell enables the zombie to feed upon other dead flesh to mend its injuries and creates in it a compulsion to do so when reduced below a certain number of health boxes (determined by the caster). When reduced below this level and presented with any source of dead flesh, the zombie will feed, consuming one level of the corpse’s Size over the course of five turns and regaining one health box, until such time as the zombie is restored to at least the appropriate level of health programmed into the zombie by the caster. Note that the zombie can only be magically compelled to seek out alternate sources of sustenance by an effect that exceeds the Potency of this spell, though the zombie will break off from feeding to defend itself from harm."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Mend the Corpse-Slave",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death",
+        "RoteDice": "Dice Pool: Presence + Occult + Death",
         "RoteDescrizione": "In ancient days, the dead were more commonly employed as weapons by a minority of the willworkers of the Adamantine Arrow. While the practice has fallen out of use in most corners of the world, it still sees enough action to warrant means to repair the tireless and unfeeling soldiers without having to directly mend them with magic every time they’re badly damaged.",
         "DescrizioneBreve": "allow zombies eat corpses for health",
         "Book": "AA 173"
@@ -771,9 +1295,30 @@ const deathThreeData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "The mage must touch the target for the entirety of the spellcasting. If he loses contact, he loses all accumulated successes. (With Death 5, he can cast this spell at sensory range. The spell cannot be cast sympathetically.) Needless to say, the victim must be rendered incapable of moving or escaping for the full length of the spellcasting. Relying on a grappling hold for a conscious victim is unwise, since the victim gets a chance to throw off the hold each turn, while it might take hours to complete the extended casting.</p><p>The target number is equal to the subject’s Willpower. Only a limited number of rolls are allowed for the caster, however, before his attempt is deemed a success or failure. A number of rolls may be made equal to his Resolve + Composure. If the spell fails, it cannot be recast on the same target until at least one day (24 hours) has passed.</p><p>A reflexive and contested Resolve roll is made for the target against each of the spellcaster’s rolls. If the target’s rolls succeed at any point during the extended casting, the casting fails.</p><p>While the soul is free of its body, it exists in Twilight. The mage who severed the soul can see and touch the Twilight soul. Mages who use this dread magic usually store their soul bounty in a Soul Jar (see p. 137) to prevent its escape. See “Soul Handling,” p. 276, for more details about unmoored souls.</p><p>A soul can be restored using Spirit 3 (“Restore Lost Soul,” p. 250), and it can be protected with Prime 4 (“Armor of the Soul,” p. 223) and reclaimed with Fate 4 (“Destroy Bindings,” see p. 156). With Death 5, the mage can sever an Awakened soul.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must touch the target for the entirety of the spellcasting. If he loses contact, he loses all accumulated successes. (With Death 5, he can cast this spell at sensory range. The spell cannot be cast sympathetically.) Needless to say, the victim must be rendered incapable of moving or escaping for the full length of the spellcasting. Relying on a grappling hold for a conscious victim is unwise, since the victim gets a chance to throw off the hold each turn, while it might take hours to complete the extended casting."
+            },
+            {
+                "type": "paragraph",
+                "text": "The target number is equal to the subject’s Willpower. Only a limited number of rolls are allowed for the caster, however, before his attempt is deemed a success or failure. A number of rolls may be made equal to his Resolve + Composure. If the spell fails, it cannot be recast on the same target until at least one day (24 hours) has passed."
+            },
+            {
+                "type": "paragraph",
+                "text": "A reflexive and contested Resolve roll is made for the target against each of the spellcaster’s rolls. If the target’s rolls succeed at any point during the extended casting, the casting fails."
+            },
+            {
+                "type": "paragraph",
+                "text": "While the soul is free of its body, it exists in Twilight. The mage who severed the soul can see and touch the Twilight soul. Mages who use this dread magic usually store their soul bounty in a Soul Jar (see p. 137) to prevent its escape. See “Soul Handling,” p. 276, for more details about unmoored souls."
+            },
+            {
+                "type": "paragraph",
+                "text": "A soul can be restored using Spirit 3 (“Restore Lost Soul,” p. 250), and it can be protected with Prime 4 (“Armor of the Soul,” p. 223) and reclaimed with Fate 4 (“Destroy Bindings,” see p. 156). With Death 5, the mage can sever an Awakened soul."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Stripping the Wicked",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Intimidation + Death",
+        "RoteDice": "Dice Pool: Presence + Intimidation + Death",
         "RoteDescrizione": "Arrow mages claim their order used this rote in Atlantis to punish criminals. Since this magic is difficult to cast with any degree of subtlety, Guardians of the Veil rarely if ever use it unless they believe they can do so in secrecy. Even then, Guardians almost never do so unless to quiet a particularly persistent Sleeper.",
         "DescrizioneBreve": "cut a Sleeper's soul free",
         "Book": "M:tA 141"
@@ -787,10 +1332,28 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Shadows pool around the mage and congeal into the desired form visualized in the Imago. With a single success, the shadows may be shaped into any Size 3 or smaller simple object (no moving parts). Durability for the shaped object is equal to twice the number of successes gained on the casting roll. Additionally, any weapon or tool formed by this spell gains a +2 equipment bonus (see p. 139 of the <b>World of Darkness Rulebook</b>).<p>Bright light or scant shadow may have adverse effects on the Durability and Structure of the object shaped. The Storyteller may penalize the casting roll up to –3 when the spell is cast in an area with a shortage of shadows (see “Shadow Sculpting” on p. 135 of <b>Mage: The Awakening</b> for information about the quality of existing shadows). Likewise, exposing a ShadowForged object to bright light can degrade that object’s Structure. For every round the object is illuminated by lighting conditions brighter than those in which it was formed, roll five dice of damage against the object (see p. 135 of the <b>World of Darkness Rulebook</b> for more information on damaging objects). A “Shadow-Forged” object reduced to zero Structure is considered unraveled, and the object vanishes.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Shadows pool around the mage and congeal into the desired form visualized in the Imago. With a single success, the shadows may be shaped into any Size 3 or smaller simple object (no moving parts). Durability for the shaped object is equal to twice the number of successes gained on the casting roll. Additionally, any weapon or tool formed by this spell gains a +2 equipment bonus (see p. 139 of the World of Darkness Rulebook)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Bright light or scant shadow may have adverse effects on the Durability and Structure of the object shaped. The Storyteller may penalize the casting roll up to –3 when the spell is cast in an area with a shortage of shadows (see “Shadow Sculpting” on p. 135 of Mage: The Awakening for information about the quality of existing shadows). Likewise, exposing a ShadowForged object to bright light can degrade that object’s Structure. For every round the object is illuminated by lighting conditions brighter than those in which it was formed, roll five dice of damage against the object (see p. 135 of the World of Darkness Rulebook for more information on damaging objects). A “Shadow-Forged” object reduced to zero Structure is considered unraveled, and the object vanishes."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Shadow Breastwork",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Crafts + Death",
-        "RoteDescrizione": "The warrior-mages of the Adamantine Arrow don’t usually lack for weapons or equipment, so they put this rote to a different use. When cast, “Shadow Breastwork” forms a wall of solid shadow in front of the Arrow that may be used as cover. The basic wall formed, with a single success on the casting roll, is a three-foot by three-foot square of Durability 2 that appears membrane thick. A mage may increase the Durability of the wall by 2 or the length of the wall by three feet (maximum of 12 feet long) for each additional success beyond the first. A mage with four successes on the casting roll (for example) could create a sixfoot-long, Durability 6 wall. Regardless of length, the wall continues in a straight line. If the wall intersects with a solid object, the wall ends at that object, and any additional length is lost.<p>Bright light brought to bear on the wall for more than one turn will degrade the wall in the same way a “ShadowForged” object is degraded by being exposed to light.</p>",
+        "RoteDice": "Dice Pool: Wits + Crafts + Death",
+        "RoteDescrizione": [
+            {
+                "type": "paragraph",
+                "text": "The warrior-mages of the Adamantine Arrow don’t usually lack for weapons or equipment, so they put this rote to a different use. When cast, “Shadow Breastwork” forms a wall of solid shadow in front of the Arrow that may be used as cover. The basic wall formed, with a single success on the casting roll, is a three-foot by three-foot square of Durability 2 that appears membrane thick. A mage may increase the Durability of the wall by 2 or the length of the wall by three feet (maximum of 12 feet long) for each additional success beyond the first. A mage with four successes on the casting roll (for example) could create a sixfoot-long, Durability 6 wall. Regardless of length, the wall continues in a straight line. If the wall intersects with a solid object, the wall ends at that object, and any additional length is lost."
+            },
+            {
+                "type": "paragraph",
+                "text": "Bright light brought to bear on the wall for more than one turn will degrade the wall in the same way a “ShadowForged” object is degraded by being exposed to light."
+            }
+        ],
         "DescrizioneBreve": "create weapons or tools from shadows",
         "Book": "AA 174"
     },
@@ -803,9 +1366,14 @@ const deathThreeData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage creates a one-yard radius patch of darkness or five-cubic yard volume of darkness. Each success gives the shadow Strength 1 (used to lift objects) or Durability 1. It is not a material object, so it has no Structure. Attacks directed through it (if it is being used for cover) must deal with its Durability, but they don’t damage the shadow barrier.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage creates a one-yard radius patch of darkness or five-cubic yard volume of darkness. Each success gives the shadow Strength 1 (used to lift objects) or Durability 1. It is not a material object, so it has no Structure. Attacks directed through it (if it is being used for cover) must deal with its Durability, but they don’t damage the shadow barrier."
+            }
+        ],
         "RoteName": "Free Council Rote: Child of Midnight",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescrizione": "By conjuring up such impenetrable and even animate shadows from light, a Free Council mage can create a barrier that serves as cover against rangedweapon attacks, he can conjure a specter to frighten off an intruder, or he can wield a battering ram to fell a door.",
         "DescrizioneBreve": "create animate, physical shadows",
         "Book": "M:tA 142"
@@ -818,7 +1386,67 @@ const deathThreeData = [
         "Duration": "Special",
         "Aspect": "Covert",
         "Cost": "10 Mana",
-        "DescrizioneMiddle": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. <p>Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: </p>The mage needs 10 successes to open the gateway. Every additional success has one of the following effects: <ul><li>Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.</li><li>Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. </li></ul>In addition, the following factors add to the necessary total: </ul><li>Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. </li><li>Add one success per mage of a different Path present. </li><li>Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. </li><li>Add one success if the mage has caused a Paradox (even if he contained it) within the last week.</li><li>Add one success if the mage is AbyssMarked (see p. 71). </li><li>Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. </li><li>Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. </li></ul> <p>Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of <b>Mage: The Awakening</b>). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. </p>The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. <p><b>Example:</b> Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. </p><p>If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. </p><p><b>Concluding the spell:</b> Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. </p><p>If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. </p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must fashion a summoning circle, usually sing runes and High Speech glyphs appropriate not only to the Arcanum he is using, but to the intended purpose of the summoning. The process and form of the ritual is different for each realm, and is discussed in detail under the appropriate realm sections. "
+            },
+            {
+                "type": "paragraph",
+                "text": "Before beginning the ritual, the player must decide upon how many successes the mage will attempt to accrue. The formula is as follows: "
+            },
+            {
+                "type": "paragraph",
+                "text": "The mage needs 10 successes to open the gateway. Every additional success has one of the following effects:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Extend the duration in which the being can remain in the Fallen World without suffering damage. Each success adds 30 minutes. If the mage allocates no successes to this duration, the being begins taking damage immediately.",
+                    "Protect the gateway from Abyssal intrusion. Every success thus allocated allows the player to make one additional roll without the Storyteller checking for the Abyss creeping into the gateway. "
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "In addition, the following factors add to the necessary total:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Add one success per Sleeper present. In addition, a Sleeper’s presence renders the spell improbable. ",
+                    "Add one success per mage of a different Path present. ",
+                    "Add one success if the summoning is taking place in a Demesne oriented to a realm other than the one in question. ",
+                    "Add one success if the mage has caused a Paradox (even if he contained it) within the last week.",
+                    "Add one success if the mage is AbyssMarked (see p. 71). ",
+                    "Subtract one success from the target if the summoning is taking place in a Demesne oriented to the realm in question. ",
+                    "Subtract successes if the character incorporates items and conditions into the summoning that correspond to the realm in question. The sections on the different realms later in this chapter list sample correspondences, but the character must still weave these correspondences into the spell gracefully enough to ease the casting. The Storyteller can either adjudicate the number of successes shaved off the total based on the player’s descriptions of his character’s actions, or the player can roll Intelligence + Occult. Every two successes on this roll removes one success from the target number of the summoning spell. "
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the player has determined the target number of successes and how they will be allocated, he can start rolling. The amount of time required for each roll is, of course, determined by the mage’s Gnosis rating (see p. 76 of Mage: The Awakening). The player is not limited in the number of rolls he can make, but fatigue will eventually begin to set in. A greater danger, though, is Abyssal intrusion. "
+            },
+            {
+                "type": "paragraph",
+                "text": "The player can make a number of rolls equal to the character’s Resolve + Composure + any successes allocated to avoid Abyssal intrusion. After that point, the Storyteller rolls the character’s unmodified Gnosis for every roll that the character makes. If the Storyteller accrues a number of successes equal to the mage’s Gnosis + [ruling Arcanum used to cast the spell], the Abyss breaks into the gateway, and the creature that arrives is not a Supernal being but an Abyssal one. The Storyteller should by no means reveal how many successes she gets on the intrusion rolls. The Abyssal being that arrives might impersonate a Supernal one, at least for a while. More information on Abyssal summoning and the creatures resulting from them can be found in Chapter Three. "
+            },
+            {
+                "type": "paragraph",
+                "text": "Example: Whim, an Acanthus of the Mysterium, decides to call down a recondite being from Arcadia as part of her ongoing quest to unravel the nature of the Fallen World. She is a Master of Fate, so she is more than qualified to cast the spell. Her Gnosis is 3, so every roll requires one hour. She requires 14 successes to start — 10 (base) + 3 (three of her cabal mates are present) + 1 (she caused a Paradox within the last week). Her player decides to add in three more successes. Two are allocated two duration (if she is successful, the being will be able to survive in the Fallen World for an hour without taking damage) and one is allocated to stave off Abyssal intrusion. Her Resolve + Composure is 5, so with the success she has allocated, her player can make six rolls before Abyssal intrusion becomes a problem. "
+            },
+            {
+                "type": "paragraph",
+                "text": "If she fails to accumulate 17 successes in six rolls (which is a distinct possibility), the Storyteller rolls Whim’s Gnosis rating for every roll beginning with the seventh. If the Storyteller accumulates eight successes (Whim’s Gnosis + Fate) before her player finishes accumulating the 17 needed for the spell, an Abyssal entity intrudes. "
+            },
+            {
+                "type": "paragraph",
+                "text": "Concluding the spell: Once the Supernal being has returned “home,” the mage needs to channel the magic he used to work the summoning into something else. Leaving the spell “open” is dangerous, because if he does so, sooner or later the Abyss will seep in. The spell can be closed easily enough — the mage simply needs to choose what spell to cast. The player makes the appropriate roll, the spell occurs, and the gateway closes. "
+            },
+            {
+                "type": "paragraph",
+                "text": "If the spell rolls fails, though, or if the Supernal being dies from exposure to the Fallen World or is deliberately destroyed outside the summoning circle, the gateway collapses. This creates a temporary portal to the Abyss. Every mage within 50’ of this portal suffers a number of Health points of aggravated damage equal to the summoner’s Gnosis. In addition, the portal remains open for a number of days equal to the summoner’s Gnosis. During that time, the mage needs to watch the portal carefully, because Abyssal creatures can and do escape into the Fallen World. "
+            }
+        ],
         "DescrizioneBreve": "(Moros only) call a Spectre from Stygia, with difficulty",
         "Book": "Summ 73"
     },
@@ -831,9 +1459,22 @@ const deathThreeData = [
         "Duration": "Prolonged (one hour)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage determines a trigger that will wake him from this state (such as being struck or having a dog bark within earshot). Otherwise, he is dead until such time as the spell’s Duration runs out. Once awake, his Social rolls are penalized by –1 for every four hours he was under the spell’s effects (up to a maximum of –5). A character who looks like a walking corpse likely causes terror and repugnance. Penalties are reduced by one per hour after waking, as the mage regains his natural complexion.<p>This spell is most often cast as covert magic, made to appear as if the mage dies of natural causes or an accident. By spending a Willpower point, the mage can reflexively cast the spell as soon as something happens that he can use as an excuse for his demise, such as if a foe strikes him.</p><p>The Death 1 “Grim Sight” spell (p. 134) allows a mage to detect that a seemingly dead body is not actually dead, although that spell’s Potency must equal or exceed the Suppress Own Life spell’s Potency.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage determines a trigger that will wake him from this state (such as being struck or having a dog bark within earshot). Otherwise, he is dead until such time as the spell’s Duration runs out. Once awake, his Social rolls are penalized by –1 for every four hours he was under the spell’s effects (up to a maximum of –5). A character who looks like a walking corpse likely causes terror and repugnance. Penalties are reduced by one per hour after waking, as the mage regains his natural complexion."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spell is most often cast as covert magic, made to appear as if the mage dies of natural causes or an accident. By spending a Willpower point, the mage can reflexively cast the spell as soon as something happens that he can use as an excuse for his demise, such as if a foe strikes him."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Death 1 “Grim Sight” spell (p. 134) allows a mage to detect that a seemingly dead body is not actually dead, although that spell’s Potency must equal or exceed the Suppress Own Life spell’s Potency."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Descending to the Grave",
-        "RoteDice": "<b>Dice Pool:</b> Composure + Subterfuge + Death",
+        "RoteDice": "Dice Pool: Composure + Subterfuge + Death",
         "RoteDescrizione": "Not many people think to ask anything of a corpse, and Guardians whose activities have been compromised sometimes use this rote in order to avoid difficult questions. While the issues that crop up in the wake of a body disappearing from the local morgue can prove problematic, they are often less of a headache than being arrested or genuinely killed. On occasion, willworkers of the Silver Ladder have faked their own deaths by way of this rote, in order to cut the losses of one life and start anew.",
         "DescrizioneBreve": "pretend to be dead",
         "Book": "M:tA 142"
@@ -847,9 +1488,22 @@ const deathThreeData = [
         "Duration": "Prolonged (1 scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "This acts as the spell “Quicken Corpse,” but it converts the zombie’s Health into Structure (base points equal to its Size). It gains no Structure from its Resistance. The caster may also spend successes on Durability on a 1 for 1 basis, which increases its Structure normally (1 per point) and acts as armor. The zombie can inflict lethal damage in close combat but can’t perform tasks that require fine motor control. It can carry or drag large objects, for example, but can’t turn a doorknob. It has the same intellectual capacity as a normal zombie.<p>Like any object, anyone trying to damage it barehanded suffers a point of bashing damage per strike.</p><p>The “zombies” are actually metal skeletons, lashed together with alchemically altered, reconfigured sinews, festooned with sharp flanges and bits of sticky flesh that didn’t fall off when the things cut themselves out of their bodies.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This acts as the spell “Quicken Corpse,” but it converts the zombie’s Health into Structure (base points equal to its Size). It gains no Structure from its Resistance. The caster may also spend successes on Durability on a 1 for 1 basis, which increases its Structure normally (1 per point) and acts as armor. The zombie can inflict lethal damage in close combat but can’t perform tasks that require fine motor control. It can carry or drag large objects, for example, but can’t turn a doorknob. It has the same intellectual capacity as a normal zombie."
+            },
+            {
+                "type": "paragraph",
+                "text": "Like any object, anyone trying to damage it barehanded suffers a point of bashing damage per strike."
+            },
+            {
+                "type": "paragraph",
+                "text": "The “zombies” are actually metal skeletons, lashed together with alchemically altered, reconfigured sinews, festooned with sharp flanges and bits of sticky flesh that didn’t fall off when the things cut themselves out of their bodies."
+            }
+        ],
         "RoteName": "Free Council Rote: Blade Broken",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts + Death",
+        "RoteDice": "Dice Pool: Resolve + Crafts + Death",
         "RoteDescrizione": "Andy designed this rote as a work of art. He wouldn’t dream of using it on a human corpse and usually casts it on animal corpses. The rest of the band was duly impressed, with Blixa going so far as to declare it “fucking metal.”",
         "DescrizioneBreve": "animate corpse and transform to metal",
         "Book": "GoG 56"
@@ -863,15 +1517,18 @@ const deathThreeData = [
         "Duration": "Prolonged (this spell uses the advanced prolongation factors)",
         "Aspect": "Covert",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "Penalties may apply, depending on the nature of the original and replacement anchors.[TABLE1][TABLE2]<p>An additional –2 dice penalty applies when the nature of the original anchor differs from the replacement, for example, when the mage attempts to take a ghost anchored to a place and instead attach the ghost to an object.</p><p>If the ghost is bound to multiple anchors, a willworker desiring its full attention may wish to perform the spell multiple times, once per anchor.</p><p>Users of this spell often cast it in conjunction with “Lighten Anchor” (p. 60), granting the ghost greater flexibility in fulfilling the item owner’s requests.</p>",
-        "Tables": [
+        "DescrizioneMiddle": [
             {
-                "Placeholder": "[TABLE1]",
-                "Data": [
-                    [
-                        "Original Anchor",
-                        "Penalty"
-                    ],
+                "type": "paragraph",
+                "text": "Penalties may apply, depending on the nature of the original and replacement anchors."
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Original Anchor",
+                    "Penalty"
+                ],
+                "rows": [
                     [
                         "Object",
                         "None"
@@ -887,12 +1544,12 @@ const deathThreeData = [
                 ]
             },
             {
-                "Placeholder": "[TABLE2]",
-                "Data": [
-                    [
-                        "Replacement Anchor",
-                        "Penalty"
-                    ],
+                "type": "table",
+                "headers": [
+                    "Replacement Anchor",
+                    "Penalty"
+                ],
+                "rows": [
                     [
                         "Object",
                         "-1"
@@ -906,10 +1563,22 @@ const deathThreeData = [
                         "-4"
                     ]
                 ]
+            },
+            {
+                "type": "paragraph",
+                "text": "An additional ?2 dice penalty applies when the nature of the original anchor differs from the replacement, for example, when the mage attempts to take a ghost anchored to a place and instead attach the ghost to an object."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the ghost is bound to multiple anchors, a willworker desiring its full attention may wish to perform the spell multiple times, once per anchor."
+            },
+            {
+                "type": "paragraph",
+                "text": "Users of this spell often cast it in conjunction with ?Lighten Anchor? (p. 60), granting the ghost greater flexibility in fulfilling the item owner?s requests."
             }
         ],
         "RoteName": "Guardians of the Veil Rote: Spectral Relocation",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Larceny + Death",
+        "RoteDice": "Dice Pool: Presence + Larceny + Death",
         "RoteDescrizione": "Guardians of the Veil covering up supernatural events sometimes find it necessary to whisk pesky ghosts away from the gaze of curious Sleepers. Guardians’ warehouses are thick with relocated ghosts, knocking abjectly at crates where their new anchors are stored.",
         "DescrizioneBreve": "alter a ghost's anchor to a different subject",
         "Book": "TotM 133"
@@ -920,15 +1589,20 @@ const deathFourData = [
     {
         "Titolo": "Cloak of Decay",
         "Arcana": "Death •••• + Fate ••",
-        "DescrizioneAlta": "As “Destroy Object” (see p. 139 of <b>Mage: The Awakening</b>), except the mage surrounds himself with a field of entropy that acts to continually weaken melee weapons used to assault him. Each attack, successful or not, wears at weapons until attackers find their swords shattered, their knives dulled and their spears broken.",
+        "DescrizioneAlta": "As “Destroy Object” (see p. 139 of Mage: The Awakening), except the mage surrounds himself with a field of entropy that acts to continually weaken melee weapons used to assault him. Each attack, successful or not, wears at weapons until attackers find their swords shattered, their knives dulled and their spears broken.",
         "Practice": "Fraying",
         "Action": "Instant",
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "Each time the mage is attacked with a melee weapon (including improvised melee weapons), roll dice of damage equal to spell Potency against that weapon. Even entering the area created by Cloak of Decay can cause damage to weaponry. A damage roll is made against an attacker’s weapon even if the attack misses. This spell has no effect on ranged weapons or on any type of bare-fisted Brawling attack.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Each time the mage is attacked with a melee weapon (including improvised melee weapons), roll dice of damage equal to spell Potency against that weapon. Even entering the area created by Cloak of Decay can cause damage to weaponry. A damage roll is made against an attacker’s weapon even if the attack misses. This spell has no effect on ranged weapons or on any type of bare-fisted Brawling attack."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Entropic Armor",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Crafts or Science + Death",
+        "RoteDice": "Dice Pool: Resolve + Crafts or Science + Death",
         "RoteDescrizione": "Application of strategy in battle is just as important as application of force. Many warriors train extensively in one area of combat and, if denied the opportunity to use that training, are quickly defeated. When confronted with an opponent who shows expertise with a particular weapon, use of this spell can disarm and demoralize them.",
         "DescrizioneBreve": "apply Destroy Object against Melee attacks",
         "Book": "AA 175"
@@ -942,9 +1616,18 @@ const deathFourData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage must first grab hold of the target, with a roll of Strength or Dexterity + Brawl – the target’s Defense. If successful, he can cast this spell as an instant action in the following turn. (With Death 5, he can cast this spell at sensory range as an instant action. He needs Death 6 before he can add Space 2 for a sympathetic casting.)<p>Each success subtracts one dot from the target’s Strength Attribute, down to a minimum of 1. The maximum amount by which Strength can be lowered is equal to the mage’s dots in the Death Arcanum. (Lowering Strength also lowers the target’s Speed trait.)</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must first grab hold of the target, with a roll of Strength or Dexterity + Brawl – the target’s Defense. If successful, he can cast this spell as an instant action in the following turn. (With Death 5, he can cast this spell at sensory range as an instant action. He needs Death 6 before he can add Space 2 for a sympathetic casting.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Each success subtracts one dot from the target’s Strength Attribute, down to a minimum of 1. The maximum amount by which Strength can be lowered is equal to the mage’s dots in the Death Arcanum. (Lowering Strength also lowers the target’s Speed trait.)"
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Weight of the Grave",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death",
+        "RoteDice": "Dice Pool: Presence + Occult + Death",
         "RoteDescrizione": "If she lacks the strength to lift a weapon, an enemy without recourse to other means is rendered virtually harmless. Thus do Arrow mages strike at their foes’ power and secure victory. Of course, willworkers of all orders can find one use or another for this rote. Mysterium mages, for example, have been known to use one like it (Manipulation + Occult + Death) in order to slow pursuers while they flee.",
         "DescrizioneBreve": "reduce a touched foe's physical attributes",
         "Book": "M:tA 143"
@@ -958,9 +1641,18 @@ const deathFourData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "See the Ghost Familiar Merit, below, for more details. The target must purchase the Ghost Familiar Merit to secure the bond, which cannot be dispelled. As normal, only one familiar (ghostly or otherwise) may be pacted to one person at any given time.<p>The caster must be able to see and speak to the desired ghost (see the Death 1 spell, “Speak with the Dead” (<b>Mage: The Awakening</b>, p. 135), and he must be able to touch it with each extended roll (see “Touch of the Grave”; <b>Mage: The Awakening</b>, p. 138). If the ghost is physically manifested during the casting, however, then the willworker need not be able to communicate with or touch entities in Twilight to cement the familiar bond. As with conventional familiars, a ghost familiar must be willing to accept the mage’s pact.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "See the Ghost Familiar Merit, below, for more details. The target must purchase the Ghost Familiar Merit to secure the bond, which cannot be dispelled. As normal, only one familiar (ghostly or otherwise) may be pacted to one person at any given time."
+            },
+            {
+                "type": "paragraph",
+                "text": "The caster must be able to see and speak to the desired ghost (see the Death 1 spell, “Speak with the Dead” (Mage: The Awakening, p. 135), and he must be able to touch it with each extended roll (see “Touch of the Grave”; Mage: The Awakening, p. 138). If the ghost is physically manifested during the casting, however, then the willworker need not be able to communicate with or touch entities in Twilight to cement the familiar bond. As with conventional familiars, a ghost familiar must be willing to accept the mage’s pact."
+            }
+        ],
         "RoteName": "Mysterium Rote: Forlorn Pact",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Occult + Death",
+        "RoteDice": "Dice Pool: Wits + Occult + Death",
         "RoteDescription": "Sometimes by way of threats, bribes, or other forms of coercion, and sometimes on account of sincere offers of aid and companionship through the long, lonely years of restless death, mages of the Mysterium occasionally enter into the familiar bond with the shades of the departed. At least a few willworkers of all orders, however, know of and employ this grim magic.",
         "DescrizioneBreve": "bind a Ghost Familiar to self",
         "Book": "Summ 38"
@@ -974,9 +1666,18 @@ const deathFourData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "Upon the completion of this spell, the willworker may invest in dots of the Library Merit specifically tied to the shades of the dead who serve as the storage medium for the information in question. These ghosts must actually be experts on the information to be bestowed, unless the mage wants knowledge of ghosts, hauntings or the like — in which case, any ghost will do — meaning the mage may need to do some hunting around to find restless shades possessed of the appropriate knowledge (a difficult proposition, at best, if one wants to archive the lore of, say, Atlantis or the Abyss). The account given in Last Days of Atlantis indicates that such ghosts were typically bound to their own mortal remains, though one could, presumably, anchor them to any physical object.<p>In the event that the mage already possesses dots in a “conventional” Library, these dots stack on top of those (to the customary limit of 5 dots), and cost the normal amount of Experience for raising the Library Merit. Typically, the shades in such a “ghost library” should be built as rank 1 spirits, but substituting the supernatural powers of ghosts for those of spirits, and subject to the normal restrictions of ghosts. One of each such ghosts’ Numina (1 per dot of the Library Merit) must enable it to communicate with corporeal beings in some manner that does not necessitate possession. (See World of Darkness, pp. 208-16, for information on ghosts, and <b>Mage: The Awakening</b>, pp. 317-22, for information on spirits.)</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Upon the completion of this spell, the willworker may invest in dots of the Library Merit specifically tied to the shades of the dead who serve as the storage medium for the information in question. These ghosts must actually be experts on the information to be bestowed, unless the mage wants knowledge of ghosts, hauntings or the like — in which case, any ghost will do — meaning the mage may need to do some hunting around to find restless shades possessed of the appropriate knowledge (a difficult proposition, at best, if one wants to archive the lore of, say, Atlantis or the Abyss). The account given in Last Days of Atlantis indicates that such ghosts were typically bound to their own mortal remains, though one could, presumably, anchor them to any physical object."
+            },
+            {
+                "type": "paragraph",
+                "text": "In the event that the mage already possesses dots in a “conventional” Library, these dots stack on top of those (to the customary limit of 5 dots), and cost the normal amount of Experience for raising the Library Merit. Typically, the shades in such a “ghost library” should be built as rank 1 spirits, but substituting the supernatural powers of ghosts for those of spirits, and subject to the normal restrictions of ghosts. One of each such ghosts’ Numina (1 per dot of the Library Merit) must enable it to communicate with corporeal beings in some manner that does not necessitate possession. (See World of Darkness, pp. 208-16, for information on ghosts, and Mage: The Awakening, pp. 317-22, for information on spirits.)"
+            }
+        ],
         "RoteName": "Mysterium Rote: Counsel of the Departed",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death",
+        "RoteDice": "Dice Pool: Intelligence + Occult + Death",
         "RoteDescrizione": "While the great wisdom once gathered in the legendary Cenacle of Sighs is forever lost, modern mages can call upon powers similar to those used in the Cenacle’s creation to archive the knowledge of the dead, creating an interactive library of ghosts.",
         "DescrizioneBreve": "invest in Library of bound ghosts",
         "Book": "GoG 110"
@@ -990,7 +1691,12 @@ const deathFourData = [
         "Duration": "Prolonged (1 scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The targeted ghost enters the object to which it is bound as though the object were an anchor, save that the ghost continues to be aware of its surroundings and capable of using its Numina. The object Durability becomes the Resistance of the ghost, if the ghost’s Resistance is higher than its original Durability. In objects capable of moving and taking actions, all rolls use the ghost’s normal attributes. The item must in some way contain or incorporate one of the ghost’s anchors or be located in a place that is the ghost’s anchor.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The targeted ghost enters the object to which it is bound as though the object were an anchor, save that the ghost continues to be aware of its surroundings and capable of using its Numina. The object Durability becomes the Resistance of the ghost, if the ghost’s Resistance is higher than its original Durability. In objects capable of moving and taking actions, all rolls use the ghost’s normal attributes. The item must in some way contain or incorporate one of the ghost’s anchors or be located in a place that is the ghost’s anchor."
+            }
+        ],
         "DescrizioneBreve": "bind a ghost into a physical object",
         "Book": "GoG 29"
     },
@@ -1003,15 +1709,22 @@ const deathFourData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "A point of Mana must be spent for the mage (above and beyond any other expenditures) to create an anchor for the ghost, which in this case need not be something precious to the subject.<p>Excess successes can increase Duration:</p>[TABLE1]<p>With Death 5, a mage can create a haunting with a recently dead or dying mage or with a ghost who has been long dead.</p>",
-        "Tables": [
+        "DescrizioneMiddle": [
             {
-                "Placeholder": "[TABLE1]",
-                "Data": [
-                    [
-                        "Success",
-                        "Duration"
-                    ],
+                "type": "paragraph",
+                "text": "A point of Mana must be spent for the mage (above and beyond any other expenditures) to create an anchor for the ghost, which in this case need not be something precious to the subject."
+            },
+            {
+                "type": "paragraph",
+                "text": "Excess successes can increase Duration:"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Success",
+                    "Duration"
+                ],
+                "rows": [
                     [
                         "2 successes",
                         "5"
@@ -1033,10 +1746,14 @@ const deathFourData = [
                         "20"
                     ]
                 ]
+            },
+            {
+                "type": "paragraph",
+                "text": "With Death 5, a mage can create a haunting with a recently dead or dying mage or with a ghost who has been long dead."
             }
         ],
         "RoteName": "Silver Ladder Rote: Eternal Unrest",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death vs. Resolve (Sleeper) or Resistance (ghost)",
+        "RoteDice": "Dice Pool: Presence + Persuasion + Death vs. Resolve (Sleeper) or Resistance (ghost)",
         "RoteDescrizione": "On occasion, even death is not punishment enough for the enemies of the Silver Ladder. This rote allows a mage to bind the spirit of a recently dead person, or one who is dying, to a given locale. The shade may be commanded through other magics, or simply left to its own devices, as the willworker desires. Sometimes members of the Mysterium perform similar bindings (Intelligence + Persuasion + Death), using the dead to drive off those who might seek to steal the lore they have worked so hard to acquire.",
         "DescrizioneBreve": "bind a dying soul to become a ghost",
         "Book": "M:tA 143"
@@ -1044,16 +1761,64 @@ const deathFourData = [
     {
         "Titolo": "Revenant",
         "Arcana": "Death ••••",
-        "DescrizioneAlta": "The mage prevents a recently dead Sleeper’s spiritual release. The casting of this spell must begin within an hour of the target’s death. This spell creates what some mages call a revenant, forcing the soul to inhabit a body that does not decompose for the duration of the spell.<p>The caster inculcates the revenant with one or more driving Passions related to achieving a certain goal — revenge, salvation — that strengthen it for its trials.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "The mage prevents a recently dead Sleeper’s spiritual release. The casting of this spell must begin within an hour of the target’s death. This spell creates what some mages call a revenant, forcing the soul to inhabit a body that does not decompose for the duration of the spell."
+            },
+            {
+                "type": "paragraph",
+                "text": "The caster inculcates the revenant with one or more driving Passions related to achieving a certain goal — revenge, salvation — that strengthen it for its trials."
+            }
+        ],
         "Practice": "Patterning",
         "Action": "Extended and contested; target rolls Resolve reflexively",
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Only one success is required to animate a corpse and instill it with a Passion. Additional successes are added to the target number to boost the revenant’s traits, at a rate of one success per additional dot of any trait.<p>Although the target is dead, the Resolve Attribute it had in life is used to contest the magic.</p><p>With Death 5, the caster can make a recently dead mage into a revenant, although the revenant can no longer cast magic. (It contests with Resolve + Gnosis.)</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Only one success is required to animate a corpse and instill it with a Passion. Additional successes are added to the target number to boost the revenant’s traits, at a rate of one success per additional dot of any trait."
+            },
+            {
+                "type": "paragraph",
+                "text": "Although the target is dead, the Resolve Attribute it had in life is used to contest the magic."
+            },
+            {
+                "type": "paragraph",
+                "text": "With Death 5, the caster can make a recently dead mage into a revenant, although the revenant can no longer cast magic. (It contests with Resolve + Gnosis.)"
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Duty Before Rest",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Persuasion + Death",
-        "RoteDescrizione": "Ladder mages often use this rote to raise to service those who have not yet fulfilled their debts, though some cast it for no reason other than that they need a loyal servant with exceptional capabilities and who is largely incapable of betrayal. Still, such castings are dangerous and potentially quite cruel, and can easily lead a mage away from the path of Wisdom.<br><h2><b>Revenants</b></h2><p>This undead being possesses all the same Attributes and Skills as in life, but subtract one dot each from the revenant’s Composure (due to its obsessive nature) and Wits (because of its disconnection between body and spirit). The revenant cannot regain Willpower points by any means.</p><p>The revenant has a pool of Essence points equal to its Resolve +5, and it can hold a maximum amount of points equal to 10 + Resolve. It loses one Essence per day.</p><p>Instead of his former Virtue and Vice, the revenant has a Passion (the caster can add one additional Passion per success added to the spell’s target number). This could be “avenge a murder” (including its own), “protect Sarah,” or “steal the Ebon Grimoire.” Whenever the revenant performs an action that promotes the achievement of its Passion, roll a number of dice: one die is rolled for actions that only weakly benefit the Passion, while five dice (the maximum) are rolled for actions that are directly relevant to the Passion. Each success gives the revenant one Essence.</p><p>Finally, the revenant has one spirit Numen, a power it can use to help achieve its Passion. The caster can imbue the being with additional Numina, one per every two successes added to the spell’s target number.</p>",
+        "RoteDice": "Dice Pool: Manipulation + Persuasion + Death",
+        "RoteDescrizione": [
+            {
+                "type": "paragraph",
+                "text": "Ladder mages often use this rote to raise to service those who have not yet fulfilled their debts, though some cast it for no reason other than that they need a loyal servant with exceptional capabilities and who is largely incapable of betrayal. Still, such castings are dangerous and potentially quite cruel, and can easily lead a mage away from the path of Wisdom."
+            },
+            {
+                "type": "heading",
+                "text": "Revenants",
+                "level": 2
+            },
+            {
+                "type": "paragraph",
+                "text": "This undead being possesses all the same Attributes and Skills as in life, but subtract one dot each from the revenant?s Composure (due to its obsessive nature) and Wits (because of its disconnection between body and spirit). The revenant cannot regain Willpower points by any means."
+            },
+            {
+                "type": "paragraph",
+                "text": "The revenant has a pool of Essence points equal to its Resolve +5, and it can hold a maximum amount of points equal to 10 + Resolve. It loses one Essence per day."
+            },
+            {
+                "type": "paragraph",
+                "text": "Instead of his former Virtue and Vice, the revenant has a Passion (the caster can add one additional Passion per success added to the spell?s target number). This could be ?avenge a murder? (including its own), ?protect Sarah,? or ?steal the Ebon Grimoire.? Whenever the revenant performs an action that promotes the achievement of its Passion, roll a number of dice: one die is rolled for actions that only weakly benefit the Passion, while five dice (the maximum) are rolled for actions that are directly relevant to the Passion. Each success gives the revenant one Essence."
+            },
+            {
+                "type": "paragraph",
+                "text": "Finally, the revenant has one spirit Numen, a power it can use to help achieve its Passion. The caster can imbue the being with additional Numina, one per every two successes added to the spell?s target number."
+            }
+        ],
         "DescrizioneBreve": "raise a revenant",
         "Book": "M:tA 143"
     },
@@ -1066,9 +1831,22 @@ const deathFourData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "The mage must first grab hold of the target, with a roll of Strength or Dexterity + Brawl – the target’s Defense. If successful, he can cast this spell as an instant action in the following turn. (With Death 5, he can cast this spell at sensory range as an instant action. He needs Death 6 before he can add Space 2 for a sympathetic casting.)<p>Each success inflicts one Health point of lethal damage to the target. With Death 5, the mage can inflict aggravated damage instead with the expenditure of one Mana.</p><p>In addition, each success levies a –1 die penalty on all the victim’s Social rolls, due to the horrible appearance (and stench) of his wounds. (This penalty is not cumulative with successive wounds from successive castings of this spell; use the highest penalty from either the newest wound or the previous wound.)</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must first grab hold of the target, with a roll of Strength or Dexterity + Brawl – the target’s Defense. If successful, he can cast this spell as an instant action in the following turn. (With Death 5, he can cast this spell at sensory range as an instant action. He needs Death 6 before he can add Space 2 for a sympathetic casting.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Each success inflicts one Health point of lethal damage to the target. With Death 5, the mage can inflict aggravated damage instead with the expenditure of one Mana."
+            },
+            {
+                "type": "paragraph",
+                "text": "In addition, each success levies a –1 die penalty on all the victim’s Social rolls, due to the horrible appearance (and stench) of his wounds. (This penalty is not cumulative with successive wounds from successive castings of this spell; use the highest penalty from either the newest wound or the previous wound.)"
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Teeth of Kali Ma",
-        "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Death – Stamina",
+        "RoteDice": "Dice Pool: Strength + Intimidation + Death – Stamina",
         "RoteDescrizione": "When a willworker of the Adamantine Arrow just needs to kill someone and kill him quickly, this rote is a favored one. Every order practices similar magics, however.",
         "DescrizioneBreve": "do Lethal damage with a touch attack",
         "Book": "M:tA 144"
@@ -1082,9 +1860,14 @@ const deathFourData = [
         "Duration": "Concentration",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "Few tortures are as complete as this direct attack on the very substance of a ghost’s soul. The ghost is unable to take actions when the mage concentrates on maintaining its ghastly torments. It must make a successful Power + Resistance roll before mustering the courage to defy the mage’s instructions again. With the possible exception of utterly vile, deserving victims, the use of Scourge Ghost is an act of hubris, calling for a Wisdom degeneration roll, just as if the willworker had subjected a living victim to a session of appalling physical mistreatment.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Few tortures are as complete as this direct attack on the very substance of a ghost’s soul. The ghost is unable to take actions when the mage concentrates on maintaining its ghastly torments. It must make a successful Power + Resistance roll before mustering the courage to defy the mage’s instructions again. With the possible exception of utterly vile, deserving victims, the use of Scourge Ghost is an act of hubris, calling for a Wisdom degeneration roll, just as if the willworker had subjected a living victim to a session of appalling physical mistreatment."
+            }
+        ],
         "RoteName": "Mysterium Rote: Correct the Unliving",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Occult + Death versus Resistance",
+        "RoteDice": "Dice Pool: Presence + Occult + Death versus Resistance",
         "RoteDescrizione": "Mysterium explorers use this rote to deter guardian ghosts, including the protectors of Artifacts and valuable Enchanted Items, from harming the mages. Ethical tomb-robbers employ it sparingly, keeping it active for the few moments required to make their point.",
         "DescrizioneBreve": "psychicaly traumatize a ghost",
         "Book": "TotM 134"
@@ -1098,9 +1881,22 @@ const deathFourData = [
         "Duration": "Transitory (one turn)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "This spell takes effect in the turn following casting. Since the mage does not transform into another form of life, he is in no danger of losing himself to an alien mindset. Instead, he becomes a mass of incorporeal shadows, retaining his human shape. He may remain three-dimensional (though still without apparent mass or substance) or change into a two-dimensional form. While in either form, he may move up to his normal Speed, though the latter shape can only move by clinging to walls and floors; without recourse to other magic, he cannot move on ceilings or otherwise defy the force of gravity, though he can slip under doors, through cracks, or other spaces too thin for a normal person to move through, provided that any unsealed seam exists. The character is effectively invisible in areas of either normal or supernatural darkness and can see perfectly well in either, though he is not blinded or in any way discomfited by sunlight (save for the possibility of Disbelief on the part of Sleepers who witness a disembodied shadow moving under its own power and quite possibly against the direction of the light.)<p>The mage’s Attributes and other characteristics remain the same, though he cannot make any physical attacks (any that require touch with a hand, a weapon, or a unit of ammunition) while in this form, but may, himself, be attacked normally. The caster may alter his Size when casting this spell, as per the systems given under Life 4: “Shapechanging” (<b>Mage: The Awakening</b>, p. 190) for doing so.</p><p>By adding Matter 4 to the casting, the mage can cause all of his normal equipment (such as clothing, a cellular phone or a handgun) to change into shadow with him, though they retain no distinct properties; the phone neither makes nor receives calls and the gun cannot be used to fire bullets, for example.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spell takes effect in the turn following casting. Since the mage does not transform into another form of life, he is in no danger of losing himself to an alien mindset. Instead, he becomes a mass of incorporeal shadows, retaining his human shape. He may remain three-dimensional (though still without apparent mass or substance) or change into a two-dimensional form. While in either form, he may move up to his normal Speed, though the latter shape can only move by clinging to walls and floors; without recourse to other magic, he cannot move on ceilings or otherwise defy the force of gravity, though he can slip under doors, through cracks, or other spaces too thin for a normal person to move through, provided that any unsealed seam exists. The character is effectively invisible in areas of either normal or supernatural darkness and can see perfectly well in either, though he is not blinded or in any way discomfited by sunlight (save for the possibility of Disbelief on the part of Sleepers who witness a disembodied shadow moving under its own power and quite possibly against the direction of the light.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "The mage’s Attributes and other characteristics remain the same, though he cannot make any physical attacks (any that require touch with a hand, a weapon, or a unit of ammunition) while in this form, but may, himself, be attacked normally. The caster may alter his Size when casting this spell, as per the systems given under Life 4: “Shapechanging” (Mage: The Awakening, p. 190) for doing so."
+            },
+            {
+                "type": "paragraph",
+                "text": "By adding Matter 4 to the casting, the mage can cause all of his normal equipment (such as clothing, a cellular phone or a handgun) to change into shadow with him, though they retain no distinct properties; the phone neither makes nor receives calls and the gun cannot be used to fire bullets, for example."
+            }
+        ],
         "RoteName": "Seers of the Throne Rote: Donning the Mantle of Night",
-        "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Death",
+        "RoteDice": "Dice Pool: Stamina + Occult + Death",
         "RoteDescrizione": "Little in this world moves so stealthily as a shadow. No wonder, then, that certain Seers of the Throne who wish to move in secrecy aspire to emulate the qualities of darkness, itself. By way of this rote, they may do so, shedding flesh and bone in favor of a form comprised of living night.",
         "DescrizioneBreve": "transform self into living shadow",
         "Book": "SotT 189"
@@ -1114,9 +1910,14 @@ const deathFourData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage develops a new aura by the end of the week as his soul takes on new resonance based on his actions and character. (See “Resonance,” pp.277-280.) This new aura cannot be recognized by anyone who has not examined it before, giving the mage a new mystical “fingerprint.” In the meantime, mages who use aura-perception spells to view the mage are unnerved by the target’s complete lack of an aura — an unnatural occurrence.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage develops a new aura by the end of the week as his soul takes on new resonance based on his actions and character. (See “Resonance,” pp.277-280.) This new aura cannot be recognized by anyone who has not examined it before, giving the mage a new mystical “fingerprint.” In the meantime, mages who use aura-perception spells to view the mage are unnerved by the target’s complete lack of an aura — an unnatural occurrence."
+            }
+        ],
         "RoteName": "Free Council Rote: Starting Anew",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Subterfuge + Death",
+        "RoteDice": "Dice Pool: Intelligence + Subterfuge + Death",
         "RoteDescrizione": "The Free Council is in many ways all about a fresh start, and this rote proves that Death is merely the gateway to a new beginning. Powerful mages of all orders turn to this rote when their auras become overpowering.",
         "DescrizioneBreve": "prevent identification of your aura",
         "Book": "M:tA 144"
@@ -1130,9 +1931,14 @@ const deathFourData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The target number is equal to the recipient’s Gnosis, or simply one success if the target is a Sleeper. The soul then belongs to the recipient. See “Soul Handling,” p. 276, for more details on handling unmoored souls.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The target number is equal to the recipient’s Gnosis, or simply one success if the target is a Sleeper. The soul then belongs to the recipient. See “Soul Handling,” p. 276, for more details on handling unmoored souls."
+            }
+        ],
         "RoteName": "Free Council Rote: Restoration",
-        "RoteDice": "<b>Dice Pool:</b> Composure + Empathy + Death",
+        "RoteDice": "Dice Pool: Composure + Empathy + Death",
         "RoteDescrizione": "Used far more often to attach a soul to another who has been left soulless than for the Council mage’s own benefit, this rote has preserved the sanity of many an unwitting pawn dragged into the struggles of the Awakened.",
         "DescrizioneBreve": "attach a stolen soul",
         "Book": "M:tA 144"
@@ -1146,9 +1952,18 @@ const deathFourData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage must first grab hold of the target, with a Strength or Dexterity + Brawl – the target’s Defense. If successful, he can cast this spell reflexively. (With Death 5, he can cast this spell at sensory range. He needs Death 6 before he can add Space 2 for a sympathetic casting.)<p>If the target is attacked or harmed in any way during the time in which he appears to be dead, the spell is immediately broken and the target awakens. While “dead,” the target experiences nothing, as if he were merely in a deep sleep.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage must first grab hold of the target, with a Strength or Dexterity + Brawl – the target’s Defense. If successful, he can cast this spell reflexively. (With Death 5, he can cast this spell at sensory range. He needs Death 6 before he can add Space 2 for a sympathetic casting.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "If the target is attacked or harmed in any way during the time in which he appears to be dead, the spell is immediately broken and the target awakens. While “dead,” the target experiences nothing, as if he were merely in a deep sleep."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Consign to the Mausoleum",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Death vs. Composure + Gnosis",
+        "RoteDice": "Dice Pool: Manipulation + Subterfuge + Death vs. Composure + Gnosis",
         "RoteDescrizione": "When all else fails and a Guardian of the Veil has no wish to actually end the life of a problematic Sleeper, she can use this rote to make him seem to be dead temporarily. She then acquires the “corpse” and helps to ease the individual into a new life elsewhere. Arrow mages in war-torn areas sometimes cast this rote to help allies infiltrate an enemy’s lair.",
         "DescrizioneBreve": "falsify another's death",
         "Book": "M:tA 144"
@@ -1162,9 +1977,14 @@ const deathFourData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "All the mage’s clothing and equipment is likewise transferred into an ephemeral state, as long as he touches it during casting. The mage can restore himself to a material state at any time by dismissing the spell.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "All the mage’s clothing and equipment is likewise transferred into an ephemeral state, as long as he touches it during casting. The mage can restore himself to a material state at any time by dismissing the spell."
+            }
+        ],
         "RoteName": "Mysterium Rote: Stepping Over",
-        "RoteDice": "<b>Dice Pool:</b> Stamina + Occult + Death",
+        "RoteDice": "Dice Pool: Stamina + Occult + Death",
         "RoteDescrizione": "A bit more precise than any gateway into the state of unlife, this rote enables a member of the Mysterium to affect a quick escape for which there can be no mundane pursuit. Granted, such sojourns often come with their own difficulties, but most willworkers would argue that it is better to go among the dead in this fashion than in the traditional manner.",
         "DescrizioneBreve": "transition to and from Twilight",
         "Book": "M:tA 145"
@@ -1178,10 +1998,28 @@ const deathFourData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "This spell is a prepared version of the “Revenant” spell (see <b>Mage: The Awakening</b>, pp. 143–144). The mage must cast the spell ahead of time; see pp. 260–261 of <b>Mage: The Awakening</b> for prepared spell systems. Once cast, the spell can be activated with an instant action. At that point, the spell kills the mage instantly (using a voluntarily permanent version of Suppress Own Life that painlessly causes physical and spiritual death) and turns him into a revenant. Determine the revenant’s Passions and other traits at the time of casting, not activation.<p>This spell doesn’t work if the mage isn’t willing to die; the component that slays the mage isn’t strong enough to overcome the psychic resistance he might muster by having second thoughts (though a Death 5 variant allows this). The character suffers real (and barring the intervention of an archmaster) irrevocable death. The spell is essentially a form of suicide, used when a mage is cornered, wounded and will not prevail in his current state. Storytellers and players should ensure that the character <i>really</i> is ready to die. If there’s any question about this, a Resolve + Composure roll might help determine whether his will could really trump his survival instincts. Alternately, he might have to <i>fail</i> a Wisdom check.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spell is a prepared version of the “Revenant” spell (see Mage: The Awakening, pp. 143–144). The mage must cast the spell ahead of time; see pp. 260–261 of Mage: The Awakening for prepared spell systems. Once cast, the spell can be activated with an instant action. At that point, the spell kills the mage instantly (using a voluntarily permanent version of Suppress Own Life that painlessly causes physical and spiritual death) and turns him into a revenant. Determine the revenant’s Passions and other traits at the time of casting, not activation."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spell doesn’t work if the mage isn’t willing to die; the component that slays the mage isn’t strong enough to overcome the psychic resistance he might muster by having second thoughts (though a Death 5 variant allows this). The character suffers real (and barring the intervention of an archmaster) irrevocable death. The spell is essentially a form of suicide, used when a mage is cornered, wounded and will not prevail in his current state. Storytellers and players should ensure that the character really is ready to die. If there’s any question about this, a Resolve + Composure roll might help determine whether his will could really trump his survival instincts. Alternately, he might have to fail a Wisdom check."
+            }
+        ],
         "RoteName": "Banisher Rote: Die Today",
-        "RoteDice": "<b>Dice Pool:</b> Composure + Medicine + Death",
-        "RoteDescrizione": "Erik “Shugyosha” Osterberg is a martial arts fanatic who fancies himself a “modern-day samurai.” After he Awakened as a Banisher, he took his long-time interests in jujutsu and iaido to the point of obnoxious Orientalism and delusion. It was a defense mechanism; the Moros Awakening taught him that honing his body, meditating and studying another culture meant nothing. He’d be food for worms in the end. With his penchant for wearing tabi (“socks”) and carrying around a sword bag, he’d be a figure of mockery, if not for the fact that sword in the bag is real and he’s used it to behead two mages and one woman he mistook for one.<p>Erik based his spell on the philosophies of Hagakure, a Japanese text that extols the virtues of suicide for one’s lord. He believes that he’s serving Sleepers as a whole and should be ready to lay down his life at any time, so he casts this spell periodically so that, in the event of being critically wounded or trapped, he can die and will his remains to continue. His rote Imago consists of visualizing, in as exact a fashion as possible, various ways he might die.</p>",
+        "RoteDice": "Dice Pool: Composure + Medicine + Death",
+        "RoteDescrizione": [
+            {
+                "type": "paragraph",
+                "text": "Erik “Shugyosha” Osterberg is a martial arts fanatic who fancies himself a “modern-day samurai.” After he Awakened as a Banisher, he took his long-time interests in jujutsu and iaido to the point of obnoxious Orientalism and delusion. It was a defense mechanism; the Moros Awakening taught him that honing his body, meditating and studying another culture meant nothing. He’d be food for worms in the end. With his penchant for wearing tabi (“socks”) and carrying around a sword bag, he’d be a figure of mockery, if not for the fact that sword in the bag is real and he’s used it to behead two mages and one woman he mistook for one."
+            },
+            {
+                "type": "paragraph",
+                "text": "Erik based his spell on the philosophies of Hagakure, a Japanese text that extols the virtues of suicide for one’s lord. He believes that he’s serving Sleepers as a whole and should be ready to lay down his life at any time, so he casts this spell periodically so that, in the event of being critically wounded or trapped, he can die and will his remains to continue. His rote Imago consists of visualizing, in as exact a fashion as possible, various ways he might die."
+            }
+        ],
         "DescrizioneBreve": "come back as revenant after willing death",
         "Book": "Ban 55"
     }
@@ -1197,7 +2035,36 @@ const deathFiveData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "None (special)",
-        "DescrizioneMiddle": "Although the casting of the spell is described here as “instant,” the time it takes a mage to prepare to cast the spell can be lengthy, as the caster will sometimes set up an appointment with the Reaper — perhaps creating the circumstances that will allow a crazed enemy to take one final, fatal shot, perhaps subconsciously exposing himself to a disease or a poison.<p>The corpse of the person whom the mage wants to raise must be intact, meaning that the body can’t have begun to decay. Also, the subject cannot have died of old age — the subject must have had an untimely death, from disease, violence or an accident.</p><p>If the spell succeeds, the subject returns to life with all her Health dots, Attributes, Skills and Advantages intact. The mage who cast the spell dies. How he dies depends upon the circumstances he has created. In effect, fate takes a hand in his demise. A sniper’s bullet finds his temple at the moment the other arises. A terrible car accident claims his life, seconds after the spell is complete. His heart gives way to a congenital defect and he collapses, as the subject of the spell opens her eyes.</p><p>The price of this spell cannot be avoided. The Reaper can’t be tricked. It’s a life for a life; that’s the deal.</p><p>The soul of the Tamer of the Cave who cast this spell vanishes. The soul cannot be retrieved, and the Saint cannot be revived by any means.</p><p>The subject of the spell, meanwhile, Awakens. She doesn’t awaken immediately. It could be days, weeks, months or years down the line. But she does Awaken. It could be that this is where the mage’s soul goes: it enters the body of the person the mage wanted to raise, joining with her and making her a mage.</p><p>Given that this spell can only ever be cast once by any given mage, it has never been formalized as a rote.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Although the casting of the spell is described here as “instant,” the time it takes a mage to prepare to cast the spell can be lengthy, as the caster will sometimes set up an appointment with the Reaper — perhaps creating the circumstances that will allow a crazed enemy to take one final, fatal shot, perhaps subconsciously exposing himself to a disease or a poison."
+            },
+            {
+                "type": "paragraph",
+                "text": "The corpse of the person whom the mage wants to raise must be intact, meaning that the body can’t have begun to decay. Also, the subject cannot have died of old age — the subject must have had an untimely death, from disease, violence or an accident."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the spell succeeds, the subject returns to life with all her Health dots, Attributes, Skills and Advantages intact. The mage who cast the spell dies. How he dies depends upon the circumstances he has created. In effect, fate takes a hand in his demise. A sniper’s bullet finds his temple at the moment the other arises. A terrible car accident claims his life, seconds after the spell is complete. His heart gives way to a congenital defect and he collapses, as the subject of the spell opens her eyes."
+            },
+            {
+                "type": "paragraph",
+                "text": "The price of this spell cannot be avoided. The Reaper can’t be tricked. It’s a life for a life; that’s the deal."
+            },
+            {
+                "type": "paragraph",
+                "text": "The soul of the Tamer of the Cave who cast this spell vanishes. The soul cannot be retrieved, and the Saint cannot be revived by any means."
+            },
+            {
+                "type": "paragraph",
+                "text": "The subject of the spell, meanwhile, Awakens. She doesn’t awaken immediately. It could be days, weeks, months or years down the line. But she does Awaken. It could be that this is where the mage’s soul goes: it enters the body of the person the mage wanted to raise, joining with her and making her a mage."
+            },
+            {
+                "type": "paragraph",
+                "text": "Given that this spell can only ever be cast once by any given mage, it has never been formalized as a rote."
+            }
+        ],
         "DescrizioneBreve": "return a dead sleeper to life and to awaken by dying",
         "Book": "L:tA 35"
     },
@@ -1210,9 +2077,14 @@ const deathFiveData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "To use this spell, the mage must have a sympathetic connection to either the person’s place of death or to his body. Mages who cast this spell at the place of death, with a piece of the deceased’s body on hand, receive a +2 bonus to this spell. This spell calls forth the dead person’s ghost, exactly as it would have been if the person’s death had created a ghost. In addition, this ghost appears exactly as it would have within a few hours or days after the person’s death. As a result, the ghost is still very attached to the events of its life. The ghost always has a clear memory of these events, but this same attachment means that the ghost may want the mage to perform various tasks for it, in return for answering the mage’s questions.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "To use this spell, the mage must have a sympathetic connection to either the person’s place of death or to his body. Mages who cast this spell at the place of death, with a piece of the deceased’s body on hand, receive a +2 bonus to this spell. This spell calls forth the dead person’s ghost, exactly as it would have been if the person’s death had created a ghost. In addition, this ghost appears exactly as it would have within a few hours or days after the person’s death. As a result, the ghost is still very attached to the events of its life. The ghost always has a clear memory of these events, but this same attachment means that the ghost may want the mage to perform various tasks for it, in return for answering the mage’s questions."
+            }
+        ],
         "RoteName": "Mysterium Rote: Recalling the Ancient Departed",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Academics + Death",
+        "RoteDice": "Dice Pool: Presence + Academics + Death",
         "RoteDescrizione": "Although vast amounts of knowledge have been lost, someone once living once knew all of it. If a master of Death can find the bones or place of death of someone who once knew the desired information, the mage can call this deceased individual back so that she can reveal her knowledge to the living.",
         "DescrizioneBreve": "call a ghost out of the past",
         "Book": "Myst 193"
@@ -1225,9 +2097,26 @@ const deathFiveData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "Deathlike Journey severs a mage’s soul and grants it a body of ephemera. This body appears to be a ghost to anyone who does not inspect its aura. The ghost is drawn into the Underworld (see <b>Mage: The Awakening</b>, p. 283). In ghostly form, the mage cannot travel to other parts of the Realm Invisible without finding some special path or conduit. The subject of the spell uses his normal traits, but cannot make use of equipment.<p>While the mage journeys in ghost form, his body appears to be dead; his life signs and aura are absent. Unlike many spells of this type, the mage’s soul is truly absent from his body. Thus, the subject of the spell should ensure that his body is protected against possession and other from of tampering. Life magic prevents the body from decaying or suffering similar ill effects (such as damage due to oxygen starvation) throughout the spell’s duration. If the mage’s body is killed, he almost always becomes a ghost, but remains in the Underworld instead of moving into Twilight near an anchor.</p><p>Mages normally use this spell to uncover the secrets of the dead. Unfortunately, some force (perhaps just the trauma of the magic, but inherent to the laws of death) distorts the mage’s perceptions, so that separating the reality of ghostly experiences from metaphors and visions becomes difficult. Ultimately, the Storyteller decides which parts of the mage’s journey were literal experiences and which parts were visions, but all parts normally have symbolic significance. They may represent the distorted forms of strange entities the mage encountered, waypoints that no human eye can truly describe, or prophecies gleaned from the ravings of the ancient dead.</p><p>For example, mages have boasted of finding Atlantis within the Underworld, but this could be anything from a genuine echo of the Awakened City to a personal vision. Nevertheless, the ghosts and writings the mage encounters there may well pass on genuine knowledge. Alternately, the traveler might encounter a dead lover who knows an obscure spell, even though he was a Sleeper throughout his life.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Deathlike Journey severs a mage’s soul and grants it a body of ephemera. This body appears to be a ghost to anyone who does not inspect its aura. The ghost is drawn into the Underworld (see Mage: The Awakening, p. 283). In ghostly form, the mage cannot travel to other parts of the Realm Invisible without finding some special path or conduit. The subject of the spell uses his normal traits, but cannot make use of equipment."
+            },
+            {
+                "type": "paragraph",
+                "text": "While the mage journeys in ghost form, his body appears to be dead; his life signs and aura are absent. Unlike many spells of this type, the mage’s soul is truly absent from his body. Thus, the subject of the spell should ensure that his body is protected against possession and other from of tampering. Life magic prevents the body from decaying or suffering similar ill effects (such as damage due to oxygen starvation) throughout the spell’s duration. If the mage’s body is killed, he almost always becomes a ghost, but remains in the Underworld instead of moving into Twilight near an anchor."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mages normally use this spell to uncover the secrets of the dead. Unfortunately, some force (perhaps just the trauma of the magic, but inherent to the laws of death) distorts the mage’s perceptions, so that separating the reality of ghostly experiences from metaphors and visions becomes difficult. Ultimately, the Storyteller decides which parts of the mage’s journey were literal experiences and which parts were visions, but all parts normally have symbolic significance. They may represent the distorted forms of strange entities the mage encountered, waypoints that no human eye can truly describe, or prophecies gleaned from the ravings of the ancient dead."
+            },
+            {
+                "type": "paragraph",
+                "text": "For example, mages have boasted of finding Atlantis within the Underworld, but this could be anything from a genuine echo of the Awakened City to a personal vision. Nevertheless, the ghosts and writings the mage encounters there may well pass on genuine knowledge. Alternately, the traveler might encounter a dead lover who knows an obscure spell, even though he was a Sleeper throughout his life."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Agama Rite",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
+        "RoteDice": "Dice Pool: Resolve + Occult + Death",
         "RoteDescrizione": "Euthanists of the Guardians of the Veil use the rote to send their initiates to the lands of the dead. Initiates often acquire Arcane Experience on the journey that allows them to commit to the Legacy. Euthanist tutors who are not Guardians of the Veil also know this rote.",
         "DescrizioneBreve": "send soul on journey to the Underworld	",
         "Book": "L:tA 104"
@@ -1241,9 +2130,14 @@ const deathFiveData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "None",
-        "DescrizioneMiddle": "One point of Mana, no matter how it is stored (as tass, within an artifact, or a mage’s own personal Mana points), may be destroyed per success.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "One point of Mana, no matter how it is stored (as tass, within an artifact, or a mage’s own personal Mana points), may be destroyed per success."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Plucking Teeth",
-        "RoteDice": "<b>Dice Pool:</b> Strength + Intimidation + Death – Resolve",
+        "RoteDice": "Dice Pool: Strength + Intimidation + Death – Resolve",
         "RoteDescrizione": "A gun without ammunition is largely useless. While the same cannot be said of a mage without Mana, such a willworker is nevertheless cut off from many of her most powerful magics. Arrow mages enjoy using this rote against enemies that have become reliant on advanced magic.",
         "DescrizioneBreve": "unweave Mana that is bound as Tass",
         "Book": "M:tA 145"
@@ -1257,9 +2151,14 @@ const deathFiveData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "This spell is handled in exactly the same way as “Devouring the Slain,” p. 139, save that the mage may now perform the spell upon a healthy subject (one not currently suffering from aggravated damage) or a nearby ghost (damaging the spirit’s Corpus). The mage must still grab hold of the target first, however (unless he has Death 6, allowing him to cast the spell within sensory range as an instant action).",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "This spell is handled in exactly the same way as “Devouring the Slain,” p. 139, save that the mage may now perform the spell upon a healthy subject (one not currently suffering from aggravated damage) or a nearby ghost (damaging the spirit’s Corpus). The mage must still grab hold of the target first, however (unless he has Death 6, allowing him to cast the spell within sensory range as an instant action)."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Spoils to the Victor",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Intimidation + Death – Stamina (living being) or Resistance (ghost)",
+        "RoteDice": "Dice Pool: Manipulation + Intimidation + Death – Stamina (living being) or Resistance (ghost)",
         "RoteDescrizione": "Let those who would lead the charge in battle be the first to sample victory’s fruits. So goes the logic of the Adamantine Arrow, whose willworkers use this rote to destroy enemies, even as they restore reserves of both will and mystic power. Mages of the Silver Ladder also favor such magic, obliterating those who would express defiance through force of arms.",
         "DescrizioneBreve": "gain Willpower from healthy foes",
         "Book": "M:tA 145"
@@ -1273,9 +2172,14 @@ const deathFiveData = [
         "Duration": "Lasting",
         "Aspect": "Covert",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "See “Ghost Familiar Pact,” above. The subject pays the Merit cost. As above, the familiar bond may not be forced onto an unwilling ghost. Also as above, this spell may not be cast upon a mage who already possesses a familiar, ghostly or otherwise.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "See “Ghost Familiar Pact,” above. The subject pays the Merit cost. As above, the familiar bond may not be forced onto an unwilling ghost. Also as above, this spell may not be cast upon a mage who already possesses a familiar, ghostly or otherwise."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Aid of the Departed",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death",
+        "RoteDice": "Dice Pool: Presence + Persuasion + Death",
         "RoteDescrizione": "Through the use of this rote, willworkers occasionally bestow ghostly familiars upon friends, allies, and students.",
         "DescrizioneBreve": "bind a Ghost Familiar to another person",
         "Book": "Summ 39"
@@ -1283,15 +2187,46 @@ const deathFiveData = [
     {
         "Titolo": "Grant Lifespan",
         "Arcana": "Death •••••",
-        "DescrizioneAlta": "Masters of Death are feared for their ability to steal years from the end of a Sleeper’s life and graft those years into their own. The tamers of the Cave can, on the other hand, do the opposite, granting longer life to others at the cost of their own.<p>The threads of life are of a certain length, but a true altruist can, if he so wishes, transplant the end of his thread of life to the end of someone else’s.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "Masters of Death are feared for their ability to steal years from the end of a Sleeper’s life and graft those years into their own. The tamers of the Cave can, on the other hand, do the opposite, granting longer life to others at the cost of their own."
+            },
+            {
+                "type": "paragraph",
+                "text": "The threads of life are of a certain length, but a true altruist can, if he so wishes, transplant the end of his thread of life to the end of someone else’s."
+            }
+        ],
         "Practice": "Patterning",
         "Action": "Instant",
         "Duration": "Lasting",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "For every success the Tamer of the Cave gains, he can give one year of his own lifespan to the target of the spell.<p>This spell cannot be cast on supernatural beings, including the Awakened. Its effects are for the most part in the hands of the Storyteller. It doesn’t prevent the effects of aging on the target, and the spell doesn’t prevent death through violence, although it does slow the effects of disease.</p><p>This spell can only be cast once per month per dot of Gnosis the mage has.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "For every success the Tamer of the Cave gains, he can give one year of his own lifespan to the target of the spell."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spell cannot be cast on supernatural beings, including the Awakened. Its effects are for the most part in the hands of the Storyteller. It doesn’t prevent the effects of aging on the target, and the spell doesn’t prevent death through violence, although it does slow the effects of disease."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spell can only be cast once per month per dot of Gnosis the mage has."
+            }
+        ],
         "RoteName": "Free Council Rote: Gift of Years",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Medicine + Death",
-        "RoteDescrizione": "The Libertine who uses this rote begins by coughing up the years of his life in the form of a small, black, round substance resembling a pearl. Then he gives it to the subject of the spell to eat, and eating passes on the years.<p>Libertines who teach this rote do not use it often, understandably, and when they do, they choose subjects whom they consider to be worthy.</p>",
+        "RoteDice": "Dice Pool: Intelligence + Medicine + Death",
+        "RoteDescrizione": [
+            {
+                "type": "paragraph",
+                "text": "The Libertine who uses this rote begins by coughing up the years of his life in the form of a small, black, round substance resembling a pearl. Then he gives it to the subject of the spell to eat, and eating passes on the years."
+            },
+            {
+                "type": "paragraph",
+                "text": "Libertines who teach this rote do not use it often, understandably, and when they do, they choose subjects whom they consider to be worthy."
+            }
+        ],
         "DescrizioneBreve": "give others years of your life",
         "Book": "L:tA 35"
     },
@@ -1303,9 +2238,14 @@ const deathFiveData = [
         "Action": "Instant",
         "Duration": "Lasting",
         "Cost": "None",
-        "DescrizioneMiddle": "Successes are compared to the target spell’s Potency. If they equal or exceed it, the spell is dispelled.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Successes are compared to the target spell’s Potency. If they equal or exceed it, the spell is dispelled."
+            }
+        ],
         "RoteName": "Guardians of the Veil Rote: Great Interdiction",
-        "RoteDice": "<b>Dice Pool:</b> Resolve + Occult + Death",
+        "RoteDice": "Dice Pool: Resolve + Occult + Death",
         "RoteDescrizione": "The Guardians of the Veil are willing to employ even the most drastic measures. This rote destroys a spell utterly, and Sleepers who did not perceive it previously will never know it existed at all. Members of the Free Council are also known to use a variant of this rote (Manipulation + Occult + Death) to prove that the “tried and true” ways of magic are not quite as infallible as some would like to believe.",
         "DescrizioneBreve": "destroy set magic",
         "Book": "M:tA 145"
@@ -1319,9 +2259,14 @@ const deathFiveData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "Each success raises one of a ghost’s three Attributes by one or provides it with one Essence (this bonus cannot cause a ghost to possess more Essence than it can normally hold).",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "Each success raises one of a ghost’s three Attributes by one or provides it with one Essence (this bonus cannot cause a ghost to possess more Essence than it can normally hold)."
+            }
+        ],
         "RoteName": "Mysterium Rote: Remembrance of the Flesh",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Occult + Death",
+        "RoteDice": "Dice Pool: Manipulation + Occult + Death",
         "RoteDescrizione": "Ghosts make powerful allies. Supplemented by this rote, they can accomplish feats far beyond their already impressive capabilities. Mysterium mages sometimes bribe the dead by means of this rote. A Guardian (Resolve + Occult + Death) may bring a given ghost’s anchor along with him to another ghost’s haunt, and then fortify his interloping shade to drive out the resident spirit.",
         "DescrizioneBreve": "increase a ghost's traits",
         "Book": "M:tA 146"
@@ -1335,9 +2280,38 @@ const deathFiveData = [
         "Duration": "Prolonged (this spell uses the advanced prolongation factors)",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The spell may not be used on a proto that has already had “Construct Homunculus Persona” cast on it.<p>The Traits of the new homunculus are figured as follows. Its Physical Attributes and Skills are as determined by “Construct Homunculus Form.” The homunculus gains Intelligence and Presence dots equal to the ghost or spirit’s Power dots, Wits and Manipulation equal to its Finesse dots and Resolve and Composure equal to its Resistance dots. The homunculus gains whatever Mental and Social Skills the Storyteller feels are appropriate for the type of spirit or ghost (if any), along with any Flaws and/or derangements. Any supernatural powers arising from their status as discarnate entities are unavailable to them while in homunculus form. While some ghosts and spirits crave the ability to operate in the Material Realm conveyed by possession of a homunculus form, they generally feel this way because they want to pursue a specific agenda of some kind. Savvy mages should expect the average ghost or spirit to display only minimal loyalty and cooperation, except where their own interests converge with those of the discarnate entities they’ve gifted with physical forms.</p><p>The most loyal homunculi created in this manner are generally the ghosts of slain cabal members, who use their flawed new forms to further the collective goals they fought for while alive.</p><p>The Death version of this spell targets ghosts, while its Spirit equivalent works on spirits.</p><p>This spell is treated as a finishing spell. Any of the substitute relinquishment costs for Enchanted Items may be applied to it.</p><p>Similar to a finishing spell, Secret Marriage can’t be dispelled, only temporarily suppressed. While suppressed, the entity remains within the homunculus but is unable to animate it in any way, including the use of speech.</p><p>If this spell is cast with a limited Duration, the ghost or spirit departs the homunculus body when the spell expires. The empty, inanimate homunculus may be reused, housing either the same ghost or spirit or a new volunteer.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The spell may not be used on a proto that has already had “Construct Homunculus Persona” cast on it."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Traits of the new homunculus are figured as follows. Its Physical Attributes and Skills are as determined by “Construct Homunculus Form.” The homunculus gains Intelligence and Presence dots equal to the ghost or spirit’s Power dots, Wits and Manipulation equal to its Finesse dots and Resolve and Composure equal to its Resistance dots. The homunculus gains whatever Mental and Social Skills the Storyteller feels are appropriate for the type of spirit or ghost (if any), along with any Flaws and/or derangements. Any supernatural powers arising from their status as discarnate entities are unavailable to them while in homunculus form. While some ghosts and spirits crave the ability to operate in the Material Realm conveyed by possession of a homunculus form, they generally feel this way because they want to pursue a specific agenda of some kind. Savvy mages should expect the average ghost or spirit to display only minimal loyalty and cooperation, except where their own interests converge with those of the discarnate entities they’ve gifted with physical forms."
+            },
+            {
+                "type": "paragraph",
+                "text": "The most loyal homunculi created in this manner are generally the ghosts of slain cabal members, who use their flawed new forms to further the collective goals they fought for while alive."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Death version of this spell targets ghosts, while its Spirit equivalent works on spirits."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spell is treated as a finishing spell. Any of the substitute relinquishment costs for Enchanted Items may be applied to it."
+            },
+            {
+                "type": "paragraph",
+                "text": "Similar to a finishing spell, Secret Marriage can’t be dispelled, only temporarily suppressed. While suppressed, the entity remains within the homunculus but is unable to animate it in any way, including the use of speech."
+            },
+            {
+                "type": "paragraph",
+                "text": "If this spell is cast with a limited Duration, the ghost or spirit departs the homunculus body when the spell expires. The empty, inanimate homunculus may be reused, housing either the same ghost or spirit or a new volunteer."
+            }
+        ],
         "RoteName": "Adamantine Arrow Rote: Resurrect the Fallen Hero",
-        "RoteDice": "<b>Dice Pool:</b> Intelligence + Occult + Death (or Spirit)",
+        "RoteDice": "Dice Pool: Intelligence + Occult + Death (or Spirit)",
         "RoteDescrizione": "Heroes of the Arrow who die in the cause of duty are sometimes brought back as clawed, iron-clad killing machines — a consummation devoutly to be wished.",
         "DescrizioneBreve": "bind willing Ghost to Homonculus",
         "Book": "TotM 152"
@@ -1351,9 +2325,18 @@ const deathFiveData = [
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "2 Mana",
-        "DescrizioneMiddle": "The mage can cast this spell on a given target only once.<p>If the spell fails, that target is forever immune to any further casting by that mage (although not by others). The mage obtains the subject’s Strength, Dexterity and Stamina, and any physical Merits or Flaws, retaining all other traits. The subject’s spirit is destroyed although, at the Storyteller’s discretion, the spirit may survive as a ghost (and likely a vengeful one at that).</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage can cast this spell on a given target only once."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the spell fails, that target is forever immune to any further casting by that mage (although not by others). The mage obtains the subject’s Strength, Dexterity and Stamina, and any physical Merits or Flaws, retaining all other traits. The subject’s spirit is destroyed although, at the Storyteller’s discretion, the spirit may survive as a ghost (and likely a vengeful one at that)."
+            }
+        ],
         "RoteName": "Free Council Rote: Life-Transfer",
-        "RoteDice": "<b>Dice Pool:</b> Wits + Science + Death vs. Resolve",
+        "RoteDice": "Dice Pool: Wits + Science + Death vs. Resolve",
         "RoteDescrizione": "The body is just a vehicle for the mind and spirit, and techné allow the unseating of an existing 'occupant' so a new life-force can inhabit a body. For the Nameless rebels, this techné held the added benefit of erasing their former lives: appearance, flesh and bone, and allowing them to start anew away from the pursuit of their enemies.",
         "DescrizioneBreve": "supplant a target's soul with your own	",
         "Book": "FC 105"
@@ -1361,15 +2344,33 @@ const deathFiveData = [
     {
         "Titolo": "Steal Lifespan",
         "Arcana": "Death •••••",
-        "DescrizioneAlta": "The mage steals years of life from a Sleeper to extend his own life. Each person is allotted a set span of years, a single thread of existence that is snipped with each passing year, the thread growing shorter and shorter.<p>A person’s actions in life can fray the thread or stretch it. This spell allows a mage to snip a portion of a Sleeper’s thread and sew it to his own. This spell cannot be cast upon supernatural beings, including the Awakened.</p>",
+        "DescrizioneAlta": [
+            {
+                "type": "paragraph",
+                "text": "The mage steals years of life from a Sleeper to extend his own life. Each person is allotted a set span of years, a single thread of existence that is snipped with each passing year, the thread growing shorter and shorter."
+            },
+            {
+                "type": "paragraph",
+                "text": "A person’s actions in life can fray the thread or stretch it. This spell allows a mage to snip a portion of a Sleeper’s thread and sew it to his own. This spell cannot be cast upon supernatural beings, including the Awakened."
+            }
+        ],
         "Practice": "Unmaking",
         "Action": "Extended and contested; target rolls Stamina reflexively",
         "Duration": "Lasting",
         "Aspect": "Vulgar",
         "Cost": "1 Mana",
-        "DescrizioneMiddle": "The target number of successes equals the number of years sought from the target, although the mage may not steal more years with a single casting than his total dots in Death. The mage can cast this spell on the same target only once a year.<p>This effect is largely in the hands of the Storyteller. It is a means mages can use to live beyond a normal mortal life span, although it does not prevent the effects of aging nor death by calamity.</p>",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The target number of successes equals the number of years sought from the target, although the mage may not steal more years with a single casting than his total dots in Death. The mage can cast this spell on the same target only once a year."
+            },
+            {
+                "type": "paragraph",
+                "text": "This effect is largely in the hands of the Storyteller. It is a means mages can use to live beyond a normal mortal life span, although it does not prevent the effects of aging nor death by calamity."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Drawing the Thread of Years",
-        "RoteDice": "<b>Dice Pool:</b> Manipulation + Subterfuge + Death vs. Stamina",
+        "RoteDice": "Dice Pool: Manipulation + Subterfuge + Death vs. Stamina",
         "RoteDescrizione": "Building something of lasting importance can be difficult at best to accomplish within a single lifetime. Ladder willworkers turn to this rote to seize a few more precious years in which to finish their grand works. Mysterium scholars (Intelligence + Subterfuge + Death) likewise fail to see any reward in departing the mortal coil while half-completed projects and unfinished research remain.",
         "DescrizioneBreve": "steal a year of someone's life",
         "Book": "M:tA 146"
@@ -1383,7 +2384,12 @@ const deathFiveData = [
         "Duration": "Prolonged (one scene)",
         "Aspect": "Vulgar",
         "Cost": "2 Mana per Rank (see below)",
-        "DescrizioneMiddle": "In order to summon a chthonian, a willworker must accrue five successes per desired effective spirit Rank of the entity: five successes for a Rank 1 chthonian, for instance, or 20 for a creature of Rank 4. Further, two points of Mana must be spent in the casting for each Rank of the chthonian. This spell is not contested as chthonians appear to lack the wherewithal to resist a summons to the material realm (though they are perfectly capable of contesting any other magics directed at them once they are present). As specified, above, a summoned chthonian exists in the immaterial state of Twilight and cannot materialize, by any means. Further, no matter what steps are taken, the entity always returns to the Underworld at the next new moon, if not released (whether by the cast or under its own power) before such a time.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "In order to summon a chthonian, a willworker must accrue five successes per desired effective spirit Rank of the entity: five successes for a Rank 1 chthonian, for instance, or 20 for a creature of Rank 4. Further, two points of Mana must be spent in the casting for each Rank of the chthonian. This spell is not contested as chthonians appear to lack the wherewithal to resist a summons to the material realm (though they are perfectly capable of contesting any other magics directed at them once they are present). As specified, above, a summoned chthonian exists in the immaterial state of Twilight and cannot materialize, by any means. Further, no matter what steps are taken, the entity always returns to the Underworld at the next new moon, if not released (whether by the cast or under its own power) before such a time."
+            }
+        ],
         "DescrizioneBreve": "call a never-born from the Underworld",
         "Book": "Summ 46"
     },
@@ -1396,9 +2402,14 @@ const deathFiveData = [
         "Duration": "Special",
         "Aspect": "Vulgar",
         "Cost": "None",
-        "DescrizioneMiddle": "The mage can ask one question of the ghost per success. After it has answered it departs, returning to the Underworld. (The mage cannot delay for more than five turns between questions, or else the ghost departs.) The entity’s answers are truthful and straightforward, although if a question is not clear and concise, the ghost might misinterpret it and give a misleading answer.",
+        "DescrizioneMiddle": [
+            {
+                "type": "paragraph",
+                "text": "The mage can ask one question of the ghost per success. After it has answered it departs, returning to the Underworld. (The mage cannot delay for more than five turns between questions, or else the ghost departs.) The entity’s answers are truthful and straightforward, although if a question is not clear and concise, the ghost might misinterpret it and give a misleading answer."
+            }
+        ],
         "RoteName": "Silver Ladder Rote: Demanding an Audience of the Departed",
-        "RoteDice": "<b>Dice Pool:</b> Presence + Persuasion + Death vs. Resistance",
+        "RoteDice": "Dice Pool: Presence + Persuasion + Death vs. Resistance",
         "RoteDescrizione": "Even the denizens of the Underworld are not forbidden to one who attains mastery of the Arcanum of Death. Mages of the Silver Ladder are known to gather all kinds of information with this rote, often of the sort conducive to the accrual of temporal power. Mages of the Mysterium (Manipulation + Persuasion + Death) most commonly cast one much like it with the intention of learning more esoteric lore.",
         "DescrizioneBreve": "call a ghost from the Underworld",
         "Book": "M:tA 146"

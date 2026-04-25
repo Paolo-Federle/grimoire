@@ -1,78 +1,123 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
+import { BookLink } from '../../components/BookLink';
+import StructuredContent, { InlineContent, isStructuredContent } from '../../components/StructuredContent';
 
-export default function SpellDetail(props) {
-    const location = useLocation();
-    const matchedSpell = props.spell
-    console.log('spellDetail')
+function hasStructuralHtml(value) {
+  return typeof value === 'string' && /<(p|ul|ol|li|h[1-6]|table|thead|tbody|tr|th|td)\b/i.test(value);
+}
 
-    function generateTable(data) {
-        if (!Array.isArray(data) || data.length === 0) {
-            return '';
-        }
-    
-        const headers = data[0];
-        const rows = data.slice(1);
-    
-        let tableHTML = '<table class="table-auto border-collapse border border-gray-300 w-full text-sm text-left">';
-        tableHTML += '<thead><tr class="bg-gray-100">';
-    
-        for (const header of headers) {
-            tableHTML += `<th class="border border-gray-300 px-4 py-2 font-medium text-gray-700">${header}</th>`;
-        }
-    
-        tableHTML += '</tr></thead><tbody>';
-    
-        for (const row of rows) {
-            tableHTML += '<tr>';
-    
-            for (const cell of row) {
-                tableHTML += `<td class="border border-gray-300 px-4 py-2">${cell}</td>`;
-            }
-    
-            tableHTML += '</tr>';
-        }
-    
-        tableHTML += '</tbody></table>';
-    
-        return tableHTML;
-    }    
+function hasTablePlaceholder(value) {
+  return typeof value === 'string' && /\[TABLE\d+\]/.test(value);
+}
 
-    function replacePlaceholders(text) {
-        const tablePlaceholders = ['[TABLE1]', '[TABLE2]', '[TABLE3]', '[TABLE4]']; 
+function replacePlaceholders(text, tables = []) {
+  if (typeof text !== 'string') {
+    return '';
+  }
 
-        for (const placeholder of tablePlaceholders) {
-            if (text.includes(placeholder)) {
-                const placeholderIndex = tablePlaceholders.indexOf(placeholder);
-                const tableData = matchedSpell.Tables[placeholderIndex].Data;
-                const tableHTML = generateTable(tableData);
-                text = text.replace(placeholder, tableHTML);
-            }
-        }
+  return tables.reduce((updatedText, table, index) => {
+    const placeholder = table?.Placeholder || `[TABLE${index + 1}]`;
 
-        return text;
+    if (!updatedText.includes(placeholder) || !Array.isArray(table?.Data) || table.Data.length === 0) {
+      return updatedText;
     }
 
+    const [headers = [], ...rows] = table.Data;
+    const tableHtml = `
+      <table class="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
+        <thead>
+          <tr class="bg-gray-100">
+            ${headers
+              .map(
+                (header) =>
+                  `<th class="border border-gray-300 px-4 py-2 font-medium text-gray-700">${header}</th>`
+              )
+              .join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${rows
+            .map(
+              (row) => `
+                <tr>
+                  ${row
+                    .map((cell) => `<td class="border border-gray-300 px-4 py-2">${cell}</td>`)
+                    .join('')}
+                </tr>
+              `
+            )
+            .join('')}
+        </tbody>
+      </table>
+    `;
 
+    return updatedText.replace(placeholder, tableHtml);
+  }, text);
+}
+
+function renderContentField(content, tables) {
+  if (!content) {
+    return null;
+  }
+
+  if (isStructuredContent(content)) {
+    return <StructuredContent content={content} tables={tables} />;
+  }
+
+  if (typeof content === 'string' && !hasStructuralHtml(content) && !hasTablePlaceholder(content)) {
     return (
-        <div className='longTextContainer'>
-            {matchedSpell && (
-                <>
-                        <h1>{matchedSpell.Titolo} ({matchedSpell.Arcana})</h1>
+      <div>
+        <InlineContent content={content} prefix="legacy-inline-content" />
+      </div>
+    );
+  }
 
-                        {matchedSpell.DescrizioneAlta && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.DescrizioneAlta }} /></p>}
-                        {matchedSpell.Practice && <div><b>Practice:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Practice }} /></div>}
-                        {matchedSpell.Action && <div><b>Action:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Action }} /></div>}
-                        {matchedSpell.Duration && <div><b>Duration:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Duration }} /></div>}
-                        {matchedSpell.Aspect && <div><b>Aspect:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Aspect }} /></div>}
-                        {matchedSpell.Cost && <div><b>Cost:</b> <span dangerouslySetInnerHTML={{ __html: matchedSpell.Cost }} /></div>}
-                        {matchedSpell.DescrizioneMiddle && <div><span dangerouslySetInnerHTML={{ __html: replacePlaceholders(matchedSpell.DescrizioneMiddle) }} /></div>}
-                        <p>{matchedSpell.RoteName && <b><span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteName }} /></b>}<br />
-                            {matchedSpell.RoteDice && <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDice }} />}</p>
-                        {matchedSpell.RoteDescrizione && <p> <span dangerouslySetInnerHTML={{ __html: matchedSpell.RoteDescrizione }} /></p>}
-                        {matchedSpell.Book && (<div><b>Book:</b> {matchedSpell.Book}</div>)}
-                </>
-            )}
-        </div>
-    )
+  return <div dangerouslySetInnerHTML={{ __html: replacePlaceholders(content, tables) }} />;
+}
+
+function renderLabeledField(label, value, prefix) {
+  if (!value) {
+    return null;
+  }
+
+  return (
+    <div>
+      <b>{label}:</b> <InlineContent content={value} prefix={prefix} />
+    </div>
+  );
+}
+
+export default function SpellDetail({ spell }) {
+  const matchedSpell = spell;
+
+  if (!matchedSpell) {
+    return null;
+  }
+
+  return (
+    <div className="longTextContainer">
+      <h1>
+        {matchedSpell.Titolo} ({matchedSpell.Arcana})
+      </h1>
+
+      {renderContentField(matchedSpell.DescrizioneAlta, matchedSpell.Tables)}
+      {renderLabeledField('Practice', matchedSpell.Practice, 'practice')}
+      {renderLabeledField('Action', matchedSpell.Action, 'action')}
+      {renderLabeledField('Duration', matchedSpell.Duration, 'duration')}
+      {renderLabeledField('Aspect', matchedSpell.Aspect, 'aspect')}
+      {renderLabeledField('Cost', matchedSpell.Cost, 'cost')}
+      {renderContentField(matchedSpell.DescrizioneMiddle, matchedSpell.Tables)}
+
+      {(matchedSpell.RoteName || matchedSpell.RoteDice) ? (
+        <p>
+          {matchedSpell.RoteName ? <b><InlineContent content={matchedSpell.RoteName} prefix="rote-name" /></b> : null}
+          {matchedSpell.RoteName && matchedSpell.RoteDice ? <br /> : null}
+          {matchedSpell.RoteDice ? <InlineContent content={matchedSpell.RoteDice} prefix="rote-dice" /> : null}
+        </p>
+      ) : null}
+
+      {renderContentField(matchedSpell.RoteDescrizione, matchedSpell.Tables)}
+      {matchedSpell.Book ? <div><b>Book:</b> {BookLink(matchedSpell.Book)}</div> : null}
+    </div>
+  );
 }

@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import App from './App';
-import { PATHS } from './pages/path';
+import App from '../App';
+import { PATHS } from '../pages/path';
 
 function renderApp(initialEntry = PATHS.HOME) {
   return render(

@@ -1,45 +1,57 @@
 /**
  * Struttura generale del content.
  *
- * Possibili casi:
- * - stringa semplice
- * - array di paragrafi
- * - blocchi con type
- * - tabelle
- * - liste
- * - html raw
+ * Direzione del progetto:
+ * - i dataset piu' recenti tendono a usare blocchi strutturati
+ * - i dataset legacy possono ancora fare fallback su html raw
+ * - il renderer deve supportare testo, liste, heading, linee tecniche e tabelle
  */
 
-type ContentBlock = []
+type InlineText =
   | string
-  | ParagraphBlock
-  | HeadingBlock
-  | ListBlock
-  | TableBlock
-  | HtmlBlock;
+  | {
+      type: "text" | "bold" | "italic";
+      text: string | InlineText[];
+    }
+  | {
+      type: "lineBreak";
+    };
 
 type ParagraphBlock = {
   type: "paragraph";
-  text: string;
+  text: InlineText | InlineText[];
 };
 
 type HeadingBlock = {
   type: "heading";
-  text: string;
+  text: InlineText | InlineText[];
   level?: 1 | 2 | 3;
 };
 
 type ListBlock = {
   type: "list";
-  items: string[];
+  items: Array<InlineText | InlineText[]>;
   ordered?: boolean;
+};
+
+type LineBlock = {
+  type: "line";
+  label?: InlineText | InlineText[];
+  text: InlineText | InlineText[];
 };
 
 type TableBlock = {
   type: "table";
-  title?: string;
-  headers: string[];
-  rows: Array<Array<string | number>>;
+  title?: InlineText | InlineText[];
+  headers: Array<InlineText | InlineText[]>;
+  rows: Array<Array<InlineText | InlineText[] | number>>;
+};
+
+type TableRefBlock = {
+  type: "tableRef";
+  index?: number;
+  placeholder?: string;
+  title?: InlineText | InlineText[];
 };
 
 type HtmlBlock = {
@@ -47,18 +59,14 @@ type HtmlBlock = {
   content: string;
 };
 
+type ContentBlock =
+  | string
+  | ParagraphBlock
+  | HeadingBlock
+  | ListBlock
+  | LineBlock
+  | TableBlock
+  | TableRefBlock
+  | HtmlBlock;
 
-type LineBlock = {
-  type: "line";
-  content: string;
-};
-
-/**
- * Casistiche da ricordare:
- *
- * 1. Alcune voci potrebbero avere solo testo semplice
- * 2. Alcune potrebbero avere paragrafi + heading
- * 3. Alcune potrebbero richiedere html per grassetti o layout particolari
- * 4. Le tabelle potrebbero comparire solo in alcune sezioni
- * 5. In futuro si potrebbe unificare tutto in blocchi con `type`
- */
+type Content = ContentBlock[];
