@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrimoire=self.webpackChunkgrimoire||[]).push([[5276],{5276(e,r,u){u.r(r),u.d(r,{default:()=>n});u(5043);var i=u(579);function n(){return(0,i.jsx)(i.Fragment,{})}}}]);
+//# sourceMappingURL=5276.0b6b5df0.chunk.js.map
