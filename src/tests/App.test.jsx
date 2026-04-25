@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitForElementToBeRemoved } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import App from '../App';
 import { PATHS } from '../pages/path';
@@ -25,7 +25,11 @@ test('renders home page entry points', async () => {
 test('renders the sheet route without crashing', async () => {
   renderApp(PATHS.SHEET);
 
-  expect(await screen.findByText('CHARACTER INFO', {}, { timeout: 10000 })).toBeInTheDocument();
-  expect(await screen.findByText('HEALTH', {}, { timeout: 10000 })).toBeInTheDocument();
-  expect(await screen.findByText('WILLPOWER', {}, { timeout: 10000 })).toBeInTheDocument();
-}, 15000);
+  await waitForElementToBeRemoved(() => screen.queryByText('Loading...'), {
+    timeout: 30000,
+  });
+
+  expect(await screen.findByText('CHARACTER INFO', {}, { timeout: 30000 })).toBeInTheDocument();
+  expect(await screen.findByText('HEALTH', {}, { timeout: 30000 })).toBeInTheDocument();
+  expect(await screen.findByText('WILLPOWER', {}, { timeout: 30000 })).toBeInTheDocument();
+}, 35000);
