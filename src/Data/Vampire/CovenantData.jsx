@@ -1,4 +1,4 @@
-const covenantData = [
+export const mainCovenantData = [
     {
         "Name": "Carthian Movement",
         "Description": "The Carthian Movement applies mortal solutions to immortal problems with modern and experimental government.",
@@ -28,13 +28,10 @@ const covenantData = [
         "Description": "The Ordo Dracul struggles to transcend the Curse through eldritch alchemies and rites.",
         "Advantage": "Coils of the Dragon",
         "Book": "VtR 62"
-    },
-    {
-        "Name": "Antagonistic",
-        "Description": "N/A",
-        "Advantage": "N/A",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const antagonisticCovenantData = [
     {
         "Name": "Belial's Brood",
         "Description": "Belial's Brood identify with the Beast and feed its will with bloody crimes.",
@@ -58,13 +55,10 @@ const covenantData = [
         "Description": "Puppets of a self-propagating sleeper organization, subverted by psychic surgery to cleanse the Damned.",
         "Advantage": "Psychogenics",
         "Book": "VII 120"
-    },
-    {
-        "Name": "Uncommon",
-        "Description": "N/A",
-        "Advantage": "Advantage",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const uncommonCovenantData = [
     {
         "Name": "Brethren of the Hundred Faces",
         "Description": "The Face Brethren shed the foolishness of the Beast by installing and cooperating with the personalities of elder Brethren.",
@@ -118,13 +112,10 @@ const covenantData = [
         "Description": "A covenant of vessels, ghouls and vampires seeking a constructive balance of power through mutual offerings.",
         "Advantage": "Washing the Shadow",
         "Book": "DM 122"
-    },
-    {
-        "Name": "Broken",
-        "Description": "N/A",
-        "Advantage": "AdvaN/Antage",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const brokenCovenantData = [
     {
         "Name": "Cult of Augurs",
         "Description": "The Camarilla's Wing of Prophets, who supplicate the gods and advise through prophecy.",
@@ -148,13 +139,10 @@ const covenantData = [
         "Description": "The Camarilla's Wing of Ancients, its elite legislative body.",
         "Advantage": "Merit discount",
         "Book": "RfR 71"
-    },
-    {
-        "Name": "Alternate",
-        "Description": "N/A",
-        "Advantage": "N/A",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const alternateCovenantData = [
     {
         "Name": "Namewealth",
         "Description": "The Carthians at a greater scale, steeped in mad social engineering plans to serve the needs of the Blood.",
@@ -185,11 +173,15 @@ const covenantData = [
         "Advantage": "Status benefits",
         "Book": "DM 77"
     }
-]
+];
 
-export { covenantData }
-
+export const covenantData = [
+    ...mainCovenantData,
+    ...antagonisticCovenantData,
+    ...uncommonCovenantData,
+    ...brokenCovenantData,
+    ...alternateCovenantData,
+];
 
 export const Coventants = covenantData
-    .filter(item => item["Description"] !== "N/A")
     .map(item => item["Name"]);

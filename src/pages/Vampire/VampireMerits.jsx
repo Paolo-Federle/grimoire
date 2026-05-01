@@ -1,17 +1,28 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
-import { vampireMeritsData } from '../../Data/Vampire/VampireMeritsData';
+import SimpleTable from '../../components/SimpleTable'
+import {
+    carthianMeritsData,
+    generalVampireMeritsData,
+    invictusMeritsData,
+    ordoDraculMeritsData,
+} from '../../Data/Vampire/VampireMeritsData';
 
 export default function VampireMerits() {
 
 
     const headers = ['Name', 'Cost', 'Description', 'Book']
-    const headerCheckFields = ['Cost']
-    const disciplineData = ['Name']
+    const meritTables = [
+        { title: 'Vampire Merits', data: generalVampireMeritsData },
+        { title: 'Carthian Merits', data: carthianMeritsData },
+        { title: 'Invictus Merits', data: invictusMeritsData },
+        { title: 'Ordo Dracul Merits', data: ordoDraculMeritsData },
+    ];
 
     return (
         <div className='grid-container'>
-            <ManyHeadersTable table={vampireMeritsData} title={'Vampire Merits'} headers={headers} headerCheckFields={headerCheckFields} alternateData={disciplineData}/>
+            {meritTables.map(({ title, data }) => (
+                <SimpleTable key={title} table={data} title={title} headers={headers} />
+            ))}
         </div>
     );
 }

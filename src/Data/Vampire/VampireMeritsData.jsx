@@ -1,4 +1,4 @@
-export const vampireMeritsData = [
+export const generalVampireMeritsData = [
     {
         "Name": "Bad Breeding",
         "Cost": "(• to •••) *pre: Does not have Good Breeding",
@@ -226,13 +226,10 @@ export const vampireMeritsData = [
         "Cost": "(••) *Pre: Resolve •••",
         "Description": "Gain a +1 bonus to all social rolls where one's cause might prove helpful. Substitute Resolve for a lower attribute once per chapter.",
         "Book": "AM 68"
-    },
-    {
-        "Name": "Carthian Merits",
-        "Cost": "N/A",
-        "Description": "N/A",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const carthianMeritsData = [
     {
         "Name": "Carthian Lawyer",
         "Cost": "(••) *pre: Status (Carthians), Academics •",
@@ -298,13 +295,10 @@ export const vampireMeritsData = [
         "Cost": "(•) *pre: Status (Carthians) •, Streetwise ••",
         "Description": "Gains 9-Again on Streetwise rolls",
         "Book": "Cart 182"
-    },
-    {
-        "Name": "Invictus Merits",
-        "Cost": "N/A",
-        "Description": "N/A",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const invictusMeritsData = [
     {
         "Name": "House Membership",
         "Cost": "(• or •••) *pre: Vampire or Ghoul",
@@ -340,13 +334,10 @@ export const vampireMeritsData = [
         "Cost": "(•••) *pre: Vampire, House Membership •••",
         "Description": "Any attempts to compel the character with this merit to act against their house is resisted as if they had spent a willpower point.",
         "Book": "Inv 188"
-    },
-    {
-        "Name": "Ordo Dracul Merits",
-        "Cost": "N/A",
-        "Description": "N/A",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const ordoDraculMeritsData = [
     {
         "Name": "Crucible Ritual",
         "Cost": "(•••) *pre: Resolve •• and Coils •",
@@ -383,4 +374,11 @@ export const vampireMeritsData = [
         "Description": "Character can switch their mind to a state that grants a penalty to Intelligence tests, but all effects that attempt to read their mind are resisted or contested as if a Willpower point had been spent.",
         "Book": "OD 203"
     }
-]
+];
+
+export const vampireMeritsData = [
+    ...generalVampireMeritsData,
+    ...carthianMeritsData,
+    ...invictusMeritsData,
+    ...ordoDraculMeritsData,
+];

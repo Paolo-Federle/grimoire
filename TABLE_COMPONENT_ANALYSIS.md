@@ -91,6 +91,14 @@ Second cleanup example:
 - Each real bloodline row now has a `Clan` key for data/search/filter use, while the page passes explicit headers so `Clan` is not shown in the table.
 - A combined `bloodlineData` export remains for sheet/options compatibility.
 
+Additional cleanup examples:
+- `src/Data/Vampire/CovenantData.jsx` previously mixed real covenant rows with divider labels such as `Antagonistic`, `Uncommon`, `Broken`, and `Alternate`.
+- This does not need a new key on each object. The data has been split into `mainCovenantData`, `antagonisticCovenantData`, `uncommonCovenantData`, `brokenCovenantData`, and `alternateCovenantData`.
+- A combined `covenantData` export remains for existing consumers, and `src/pages/Vampire/Covenant.jsx` can render separate `SimpleTable` instances.
+- `src/Data/Vampire/VampireMeritsData.jsx` had divider rows for covenant-specific merits.
+- This also does not need a new key on each object. The data has been split into `generalVampireMeritsData`, `carthianMeritsData`, `invictusMeritsData`, and `ordoDraculMeritsData`.
+- A combined `vampireMeritsData` export remains for sheet lookup compatibility, and `src/pages/Vampire/VampireMerits.jsx` can render separate `SimpleTable` instances.
+
 ### Why this matters
 
 If a new unified table only reproduces `headerCheckFields`, it will preserve behavior but keep the rendering hack embedded in the data model.
@@ -193,7 +201,8 @@ Initial guesses:
 - `ContractData.jsx`: likely `content-group`.
 - `ClanData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
 - `BloodlineData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports and adding a hidden `Clan` key.
-- `VampireMeritsData.jsx`: likely normal flat rows unless transformed elsewhere.
+- `CovenantData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
+- `VampireMeritsData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
 
 The unified table plan should include this classification as rendering config, otherwise the component may accidentally make visual labels favorite-able or make real overview content disappear.
 
@@ -623,16 +632,12 @@ Files:
 - `src/pages/Vampire/Covenant.jsx`
 - `src/Data/Vampire/CovenantData.jsx`
 
-Current rendering:
-- Uses `ManyHeadersTable`.
-- Group rows include labels such as `Antagonistic`, `Uncommon`, `Broken`, and `Alternate`.
-
-Current read:
-- Could be legitimate grouping, but it is close to the old `ClanData` problem.
-- Because there are only a handful of groups, it might also work as several `SimpleTable`s.
-
-Question:
-- Are these covenant group labels domain categories that should stay inside one grouped table, or would this be cleaner as separate tables?
+Resolution:
+- Cleanup candidate, not a table edge case.
+- Split into separate pools for main, antagonistic, uncommon, broken, and alternate covenants.
+- Do not add a new grouping key to each covenant row.
+- Keep combined `covenantData` for compatibility.
+- Render as multiple `SimpleTable` instances.
 
 #### Vampire merits
 
@@ -640,15 +645,12 @@ Files:
 - `src/pages/Vampire/VampireMerits.jsx`
 - `src/Data/Vampire/VampireMeritsData.jsx`
 
-Current rendering:
-- Uses `ManyHeadersTable`.
-- Group rows include `Carthian Merits`, `Invictus Merits`, `Ordo Dracul Merits`.
-
-Current read:
-- Likely legitimate grouped table or separate simple tables. Both are reasonable.
-
-Question:
-- Do covenant-specific merit headers belong inside one table, or should these be split into normal table datasets later?
+Resolution:
+- Cleanup candidate, not a table edge case.
+- Split into general merits and covenant-specific merit arrays.
+- Do not add a new grouping key to each merit row.
+- Keep combined `vampireMeritsData` for sheet lookup compatibility.
+- Render as multiple `SimpleTable` instances.
 
 #### Changeling courts
 
@@ -867,6 +869,8 @@ Resolved:
 - The current page-level data filtering approach is acceptable; the unified table should reduce inconsistent rendering APIs, not forbid page-level data preparation.
 - `src/Data/Vampire/ClanData.jsx` was a bad grouped-table case and can be cleaned immediately by splitting data into `clanData`, `restrictedClanData`, and `historicalClanData`.
 - `src/Data/Vampire/BloodlineData.jsx` was also a cleanup case and can be split into generic/parent-clan arrays, with a hidden `Clan` key on each row.
+- `src/Data/Vampire/CovenantData.jsx` is also a cleanup case and can be split into separate covenant pools without adding a grouping key to each row.
+- `src/Data/Vampire/VampireMeritsData.jsx` is also a cleanup case and can be split into separate merit pools without adding a grouping key to each row.
 
 Still open:
 1. For arcana/spells, should grouping be supplied as arrays per level, or should the table accept a flat list plus `groupBy`?
