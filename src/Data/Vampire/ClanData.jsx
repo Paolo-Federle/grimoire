@@ -1,4 +1,4 @@
-const clanData = [
+export const clanData = [
     {
         "Name": "Daeva",
         "Nickname": "Succubi",
@@ -44,18 +44,11 @@ const clanData = [
         "Weakness": "–2 on rolls to avoid gaining a Derangement after Degeneration",
         "Book": "VtR 112"
     },
-    {
-        "Name": "Restricted",
-        "Nickname": "N/A",
-        "Disciplines": "N/A",
-        "Bonus Trait": "N/A",
-        "Clan Disciplines": "N/A",
-        "Weakness": "N/A",
-        "Book": "N/A"
-    },
+]
+
+export const restrictedClanData = [
     {
         "Name": "Akhud",
-        "Nickname": "",
         "Disciplines": "Celerity, Praestantia, Obfuscate",
         "Bonus Trait": "Strength or Wits",
         "Clan Disciplines": "Celerity, Praestantia, Obfuscate",
@@ -64,7 +57,6 @@ const clanData = [
     },
     {
         "Name": "House Petrovnavich",
-        "Nickname": "",
         "Disciplines": "Auspex, Dominate, Vigor",
         "Bonus Trait": "Intelligence or Wits",
         "Clan Disciplines": "Auspex, Dominate, Vigor",
@@ -73,7 +65,6 @@ const clanData = [
     },
     {
         "Name": "House Semeonovic",
-        "Nickname": "",
         "Disciplines": "Auspex, Majesty, Resilience",
         "Bonus Trait": "Presence or Resolve",
         "Clan Disciplines": "Auspex, Majesty, Resilience",
@@ -82,7 +73,6 @@ const clanData = [
     },
     {
         "Name": "House Alexander",
-        "Nickname": "",
         "Disciplines": "Nightmare, Protean, Vigor",
         "Bonus Trait": "Manipulation or Stamina",
         "Clan Disciplines": "Nightmare, Protean, Vigor",
@@ -91,7 +81,6 @@ const clanData = [
     },
     {
         "Name": "House Grigorovich",
-        "Nickname": "",
         "Disciplines": "Celerity, Obfuscate, Protean",
         "Bonus Trait": "Composure or Wits",
         "Clan Disciplines": "Celerity, Obfuscate, Protean",
@@ -100,7 +89,6 @@ const clanData = [
     },
     {
         "Name": "House Irinavici",
-        "Nickname": "",
         "Disciplines": "Auspex, Majesty, Nightmare",
         "Bonus Trait": "Intelligence or Manipulation",
         "Clan Disciplines": "Auspex, Majesty, Nightmare",
@@ -109,22 +97,15 @@ const clanData = [
     },
     {
         "Name": "House Marisovich",
-        "Nickname": "",
         "Disciplines": "Auspex, Dominate, Obfuscate",
         "Bonus Trait": "Composure or Resolve",
         "Clan Disciplines": "Auspex, Dominate, Obfuscate",
         "Weakness": "Must spend willpower to avoid investigating supernatural encounters and his occult dot decrease his maximum humanity score",
         "Book": "VII 101"
     },
-    {
-        "Name": "Historical",
-        "Nickname": "N/A",
-        "Disciplines": "N/A",
-        "Bonus Trait": "N/A",
-        "Clan Disciplines": "N/A",
-        "Weakness": "N/A",
-        "Book": "N/A"
-    },
+]
+
+export const historicalClanData = [
     {
         "Name": "Julii",
         "Nickname": "Founders",
@@ -136,8 +117,9 @@ const clanData = [
     }
 ]
 
-export { clanData };
-
-export const Clans = clanData
-    .filter(item => item["Nickname"] !== "N/A")
+export const Clans = [
+    ...clanData,
+    ...restrictedClanData,
+    ...historicalClanData,
+]
     .map(item => item["Name"]);

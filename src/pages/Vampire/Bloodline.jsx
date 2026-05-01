@@ -1,17 +1,37 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
-import { bloodlineData } from '../../Data/Vampire/BloodlineData';
+import SimpleTable from '../../components/SimpleTable'
+import {
+    daevaBloodlineData,
+    gangrelBloodlineData,
+    genericBloodlineData,
+    juliiBloodlineData,
+    mekhetBloodlineData,
+    nosferatuBloodlineData,
+    unknownBloodlineData,
+    ventrueBloodlineData,
+} from '../../Data/Vampire/BloodlineData';
 
 export default function Bloodline() {
 
 
     const headers = ['Name', 'Nickname', 'Description', 'Disciplines', 'Additional Weakness', 'Book']
-    const headerCheckFields = ['Nickname']
-    const disciplineData = ['Name']
+
+    const bloodlineTables = [
+        { title: 'Generic Bloodlines', data: genericBloodlineData },
+        { title: 'Daeva Bloodlines', data: daevaBloodlineData },
+        { title: 'Gangrel Bloodlines', data: gangrelBloodlineData },
+        { title: 'Mekhet Bloodlines', data: mekhetBloodlineData },
+        { title: 'Nosferatu Bloodlines', data: nosferatuBloodlineData },
+        { title: 'Ventrue Bloodlines', data: ventrueBloodlineData },
+        { title: 'Julii Bloodlines', data: juliiBloodlineData },
+        { title: 'Unknown Bloodlines', data: unknownBloodlineData },
+    ];
 
     return (
         <div className='grid-container'>
-            <ManyHeadersTable table={bloodlineData} title={'Bloodlines'} headers={headers} headerCheckFields={headerCheckFields} alternateData={disciplineData}/>
+            {bloodlineTables.map(({ title, data }) => (
+                <SimpleTable key={title} table={data} title={title} headers={headers} />
+            ))}
         </div>
     );
 }
