@@ -602,12 +602,15 @@ Current rendering:
 - Some sections have note paragraphs between tables.
 
 Current read:
-- Legit grouped content.
+- Legit grouped content, with one mixed subcase.
 - Similar to disciplines, but more varied because universal, court, goblin, and unclassified contracts use different headers.
+- Most rows such as `Contracts of the Board` are content-bearing contract families.
+- `unclassifiedGoblinContractData` also uses dot rows such as `Name: "•"` and `Name: "••"` as alphabetical rank buckets. Those are not content groups.
 
 Needed table behavior:
 - Same as disciplines, plus per-table column configs.
 - Keep page-level notes outside the table.
+- Allow one page/table family to mix content group headers and visual rank bucket headers.
 
 #### Werewolf gifts
 
@@ -730,21 +733,23 @@ Resolution:
 - Cleanup candidate, not a table edge case.
 - Split into `kithBeastsData`, `kithDarklingsData`, `kithElementalsData`, `kithFairestData`, `kithOgresData`, and `kithWizenedData`.
 - Add hidden `Seeming` to each real kith row.
+- Rename the old `Book` effect text to `Blessing effect`.
+- Add a real `Book` source field using the Codex of Darkness kith table references.
 - Keep combined `kithData` for sheet/options compatibility.
 - Render as multiple `SimpleTable` instances with headers that hide `Seeming`.
 
 ### Fresh remaining edge-case pass
 
-This pass was made after cleaning Vampire clan, bloodline, covenant, and vampire merits out of `ManyHeadersTable`.
+This pass was made after cleaning Vampire clan, bloodline, covenant, vampire merits, and Changeling kiths out of `ManyHeadersTable`.
 
-Live table families that still need review:
-- `src/pages/Vampire/Disciplines.jsx`: content groups. Keep as a pilot for group labels that are real content, linkable, favorite-able, and searchable.
-- `src/pages/Changeling/Contracts.jsx`: content groups, like disciplines, but with more column variants and note paragraphs between sections.
-- `src/pages/Werewolf/Gifts.jsx`: mostly visual groups. Review `Spirit's Silence, The` because one `Rank: "N/A"` row appears to be an actual effect row, not only a divider.
+Live sectioned/grouped families still in the code:
+- `src/pages/Vampire/Disciplines.jsx`: rank-progression content groups. This is a strong pilot for group labels that are real content, linkable, favorite-able, and searchable.
+- `src/pages/Changeling/Contracts.jsx`: mixed content groups and rank buckets. Most contract family rows are content groups, but unclassified goblin contracts also contain dot/rank bucket headers such as `•`, `••`, `•••`, `••••`, and `•••••`.
+- `src/pages/Werewolf/Gifts.jsx`: mostly rank-progression visual groups. Review `Spirit's Silence, The` because one `Rank: "N/A"` row appears to be an actual effect row, not only a divider.
 - `src/pages/Changeling/Court.jsx`: taxonomy groups. Decide whether to keep grouped in one table or split into separate pools.
 - `src/pages/MortalsAndTemplates/Lesser templates/Psychics.jsx`: visual category groups. Likely a grouped table case unless you want split arrays.
 - `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`: likely cleanup/split candidate because `Rituals` is the only section divider inside the merits array.
-- `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: grouped table from array-of-arrays, not sentinel rows. Good candidate for the future `groups` API.
+- `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: alphabetical buckets by rank/level from array-of-arrays, not sentinel rows. Good candidate for the future `groups` API.
 - `src/pages/Mummy/Utterances.jsx`: repeated-row grouping through `mergeHeaders`, confirmed legit.
 - `src/pages/Mummy/MummyMerits.jsx`: `MummiesStyleMeritsData` uses the same repeated-row grouping pattern; likely legit but still worth checking.
 - Detail pages using direct `BaseTable`: probably not special domain cases, but the migration should decide whether detail tables keep favorites by default.
@@ -753,6 +758,15 @@ Current cleanup candidates to discuss next:
 - `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx`: split `ThaumaturgyMeritsData` into general merits and rituals, while preserving a combined export if needed.
 - `src/Data/Changeling/CourtData.jsx`: either keep grouped, or split into court-family arrays. Also check the `Courts` export filtering by `Page Number`.
 - `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx`: either keep grouped, or split into general/ESP/Mediumist/Psychokinetic/Telepathy pools.
+
+Cases that most need Paolo's comment before code changes:
+- `Changeling/Court`: keep as one grouped table, or split into court-family arrays like kiths/clans?
+- `Psychics`: keep category labels as visual table groups, or split into category arrays?
+- `Thaumaturgy`: can `Rituals` become a separate dataset/table?
+- `Werewolf/Gifts`: should `Spirit's Silence, The` be one standalone gift with a rank range, or a group containing one unusual child row?
+- `Contracts`: should dot headers in unclassified goblin contracts be treated as rank buckets, while contract-family rows remain content groups?
+- `Mage/Spells` and `Mage/Arcana`: keep the current arrays-per-level data shape, or eventually add a level key and render via `groupBy`?
+- Detail tables: should favorite toggles remain visible inside detail-page sub-tables?
 
 Current component-level edge cases:
 - `ManyHeadersTable` relies on sentinel values such as `Rank: "N/A"` or `Book: "N/A"`. This works for simple visual labels but becomes fragile when an actual row also has `N/A`.
@@ -955,4 +969,6 @@ Still open:
 4. For `src/pages/MortalsAndTemplates/Lesser templates/Psychics.jsx`, are the psychic category labels only visual, or should they eventually be searchable/favorite-able group entries?
 5. For `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`, can `Rituals` be treated as a cleanup split into separate pools?
 6. For `src/pages/Werewolf/Gifts.jsx`, how should the `Spirit's Silence, The` rows be modeled: one group with one unusual child row, or a single standalone gift with a special rank/range?
-7. During migration, should old imports like `SimpleTable` and `ManyHeadersTable` keep working while they internally call the new shared `DataTable`, or do you prefer changing page imports directly as each page is migrated?
+7. For `src/pages/Changeling/Contracts.jsx`, should unclassified goblin dot rows be treated as visual rank buckets while contract-family rows remain content groups?
+8. For detail-page tables that currently use `BaseTable`, should favorites stay visible or should detail sub-tables be plain reference tables?
+9. During migration, should old imports like `SimpleTable` and `ManyHeadersTable` keep working while they internally call the new shared `DataTable`, or do you prefer changing page imports directly as each page is migrated?

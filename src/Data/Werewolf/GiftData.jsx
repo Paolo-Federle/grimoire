@@ -2065,8 +2065,8 @@ export const giftData = [
         "Book": ""
       },
       {
-        "Rank": "N/A",
-        "Name": "• - •••••",
+        "Rank": "• - •••••",
+        "Name": "",
         "Description": "Each level can make the sound of activating gifts of the same level completely silent",
         "Cost": "●",
         "Book": "LodgS 129"
