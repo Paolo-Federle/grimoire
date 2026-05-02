@@ -1,20 +1,21 @@
 import React from 'react';
 import SimpleTable from '../../../components/SimpleTable';
-import { ThaumaturgyMeritsData, ThaumaturgyTraditionsData } from '../../../Data/Mortal/Lesser templates/ThaumaturgyData';
-import ManyHeadersTable from '../../../components/ManyHeadersTable/ManyHeadersTable';
+import {
+    thaumaturgyMeritsData,
+    thaumaturgyRitualMeritsData,
+    ThaumaturgyTraditionsData,
+} from '../../../Data/Mortal/Lesser templates/ThaumaturgyData';
 
 
 export default function Thaumaturgy() {
 
     const headers = ['Name', 'Rank', 'Prerequisite', 'Description', 'Book']
-    const datoSostituibile = ['Description']
-    const datoSostituto = ['Name']
 
     return (
         <div className='grid-container'>
             <SimpleTable table={ThaumaturgyTraditionsData} title={'Thaumaturgy Traditions'} activeRowLink={false} />
-            {/* <SimpleTable table={ThaumaturgyMeritsData} title={'Thaumaturgy'} activeRowLink={false} /> */}
-             <ManyHeadersTable table={ThaumaturgyMeritsData} title={'Thaumaturgy'} headers={headers} headerCheckFields={datoSostituibile} alternateData={datoSostituto} prereqForLink={'Name'} activeRowLink={false}/>
+            <SimpleTable table={thaumaturgyMeritsData} title={'Thaumaturgy Merits'} headers={headers} activeRowLink={false} />
+            <SimpleTable table={thaumaturgyRitualMeritsData} title={'Thaumaturgy Ritual Merits'} headers={headers} activeRowLink={false} />
         </div>
     );
 }

@@ -205,7 +205,7 @@ Initial guesses:
 - `GiftData.jsx`: mostly `visual-group`; intentionally postponed as a rank-progression edge case.
 - `CourtData.jsx`: no longer a table edge case if split by the current group headers and rendered with the base table path.
 - `PsychicMeritsData.jsx`: no longer a table edge case if split into stable psychic category arrays.
-- `ThaumaturgyData.jsx`: intentionally postponed as an edge case; handle later with the other rank/section families.
+- `ThaumaturgyData.jsx`: no longer a table edge case after splitting the real merits from ritual merits.
 - `ClanData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
 - `BloodlineData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports and adding a hidden `Clan` key.
 - `CovenantData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
@@ -645,11 +645,11 @@ Current rendering:
 
 Current read:
 - Psychic merits can be normalized by splitting the dataset into stable category arrays and rendering each with the base table path.
-- Thaumaturgy remains intentionally postponed as a later edge case.
+- Thaumaturgy can be normalized by splitting the three general merits from the ritual merits.
 
 Needed table behavior:
 - Psychic merits should not need visual group label rows after the split.
-- Thaumaturgy can stay in the later edge-case bucket for now.
+- Thaumaturgy should not need visual group label rows after the split.
 
 Fresh read:
 - `PsychicMeritsData.jsx` has several clear category labels: `Extrasensory Perception`, `Mediumist`, `Psychokinetic`, and later `Telepathy`.
@@ -660,7 +660,7 @@ Fresh read:
   - `Mediumist`: `psychicMediumistMeritsData`, rendered with title `Mediumist merits`
   - `Psychokinetic`: `psychicPsychokineticMeritsData`, rendered with title `Psychokinetic merits`
   - `Telepathy`: `psychicTelepathicMeritsData`, rendered with title `Telepathic merits`
-- Thaumaturgy should remain in the postponed edge-case group for later analysis.
+- Thaumaturgy should be split into `thaumaturgyMeritsData` and `thaumaturgyRitualMeritsData`, with the combined `ThaumaturgyMeritsData` export kept for compatibility.
 
 ### Needs confirmation
 
@@ -750,7 +750,7 @@ Live sectioned/grouped families still in the code:
 - `src/pages/Werewolf/Gifts.jsx`: postponed edge case; rank-progression visual groups.
 - `src/pages/Changeling/Court.jsx`: cleanup/split candidate; divide by the current court group headers and use the base table path.
 - `src/pages/MortalsAndTemplates/Lesser templates/Psychics.jsx`: cleanup/split candidate; divide into psychic merit category arrays and use the base table path.
-- `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`: postponed edge case.
+- `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`: cleanup/split candidate; divide general merits from ritual merits and use the base table path.
 - `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: postponed edge case; alphabetical buckets by rank/level from array-of-arrays, not sentinel rows.
 - `src/pages/Mummy/Utterances.jsx`: repeated-row grouping through `mergeHeaders`, confirmed legit.
 - `src/pages/Mummy/MummyMerits.jsx`: `MummiesStyleMeritsData` uses the same repeated-row grouping pattern; likely legit but still worth checking.
@@ -759,6 +759,7 @@ Live sectioned/grouped families still in the code:
 Applied cleanup:
 - `src/Data/Changeling/CourtData.jsx`: split into court-family arrays and fixed the combined `Courts` export so it uses only real court rows.
 - `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx`: split into `psychicMeritsData`, `psychicEspMeritsData`, `psychicMediumistMeritsData`, `psychicPsychokineticMeritsData`, and `psychicTelepathicMeritsData`.
+- `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx`: split into `thaumaturgyMeritsData` for Dream/Library/Magical Nexus and `thaumaturgyRitualMeritsData` for ritual merits.
 
 Cases that most need Paolo's comment before code changes:
 - `Contracts`: should dot headers in unclassified goblin contracts be treated as rank buckets, while contract-family rows remain content groups?
@@ -768,7 +769,6 @@ Postponed edge cases:
 - Spells/Arcana: alphabetical rank/level buckets.
 - Disciplines: rank-progression content groups.
 - Gifts: rank-progression visual groups.
-- Thaumaturgy: section/rank handling to revisit later.
 
 Current component-level edge cases:
 - `ManyHeadersTable` relies on sentinel values such as `Rank: "N/A"` or `Book: "N/A"`. This works for simple visual labels but becomes fragile when an actual row also has `N/A`.
@@ -965,6 +965,7 @@ Resolved:
 - `src/Data/Changeling/KithData.jsx` is also a cleanup case and can be split into seeming arrays, with a hidden `Seeming` key on each row.
 - `src/Data/Changeling/CourtData.jsx` can be split into arrays matching the current court group headers and rendered with the base table path.
 - `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx` can be split into `psychicMeritsData`, `psychicEspMeritsData`, `psychicMediumistMeritsData`, `psychicPsychokineticMeritsData`, and `psychicTelepathicMeritsData`, with page titles `ESP merits`, `Mediumist merits`, `Psychokinetic merits`, and `Telepathic merits` for the specialized groups.
+- `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx` can be split into `thaumaturgyMeritsData` and `thaumaturgyRitualMeritsData`.
 
 Still open:
 1. For `src/pages/Mummy/Utterances.jsx`, should desktop keep the exact merged-cell look, or is a clearer grouped-section look acceptable?
@@ -975,6 +976,5 @@ Still open:
 Postponed by choice:
 - `src/pages/Vampire/Disciplines.jsx`
 - `src/pages/Werewolf/Gifts.jsx`
-- `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`
 - `src/pages/Mage/Spells.jsx`
 - `src/pages/Mage/Arcana.jsx`

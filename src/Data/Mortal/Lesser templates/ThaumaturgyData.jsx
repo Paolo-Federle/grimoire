@@ -1,4 +1,4 @@
-export const ThaumaturgyMeritsData = [
+export const thaumaturgyMeritsData = [
     {
         "Name": "Dream",
         "Rank": "• to •••••",
@@ -19,14 +19,10 @@ export const ThaumaturgyMeritsData = [
         "Prerequisite": "",
         "Description": "Possess a magical location that facilitates other rituals",
         "Book": "SS 115"
-    },
-    {
-        "Name": "Rituals",
-        "Rank": "N/A",
-        "Prerequisite": "",
-        "Description": "N/A",
-        "Book": "N/A"
-    },
+    }
+];
+
+export const thaumaturgyRitualMeritsData = [
     {
         "Name": "Alchemy (External)",
         "Rank": "•• or ••••",
@@ -209,7 +205,12 @@ export const ThaumaturgyMeritsData = [
         "Description": "Manipulate the weather, potentially dramatically.",
         "Book": "SS 120"
     }
-]
+];
+
+export const ThaumaturgyMeritsData = [
+    ...thaumaturgyMeritsData,
+    ...thaumaturgyRitualMeritsData,
+];
 
 export const ThaumaturgyTraditionsData = [
     {
