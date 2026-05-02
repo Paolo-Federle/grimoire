@@ -16,6 +16,9 @@ Data cleanup is a later workstream. Some datasets clearly could be better arrang
 
 - Mobile tables should keep the same core behavior as desktop: favorites and row/detail links should work consistently.
 - Grouped tables should support collapsible groups on mobile.
+- Sectioned tables currently fall into two major patterns:
+  - alphabetical buckets inside a fixed rank/level, such as Mage spells where `Fate 1`, `Fate 2`, etc. are headers and each bucket contains same-rank spells ordered alphabetically;
+  - progression groups ordered by rank, such as Vampire disciplines where `Animalism`, `Dominate`, etc. are group headers and child powers are ordered from rank 1 to rank 5.
 - Some group labels are only visual labels, but some group labels are links to additional content. The unified model must support both.
 - The new table does not need to preserve the current look exactly. It can improve consistency, especially column width, spacing, and alignment.
 - Special action-heavy pages such as `OggettiOcculti` can remain local for now.
@@ -199,10 +202,15 @@ For each current `ManyHeadersTable` dataset, classify section rows enough to cho
 Initial guesses:
 - `DisciplineData.jsx`: likely `content-group`.
 - `ContractData.jsx`: likely `content-group`.
+- `GiftData.jsx`: mostly `visual-group`, with at least one `mixed` warning around a power-like row that also has `Rank: "N/A"`.
+- `CourtData.jsx`: likely `visual-group` or `linked-visual-group`; the group labels are taxonomy, not row content.
+- `PsychicMeritsData.jsx`: likely `visual-group`, but could become clean split arrays if those categories are stable enough.
+- `ThaumaturgyData.jsx`: likely cleanup/split candidate because only the `Rituals` divider separates general thaumaturgy merits from ritual merits.
 - `ClanData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
 - `BloodlineData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports and adding a hidden `Clan` key.
 - `CovenantData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
 - `VampireMeritsData.jsx`: no longer a `ManyHeadersTable` case after splitting fake divider rows into separate exports.
+- `KithData.jsx`: no longer a `ManyHeadersTable` case after splitting fake seeming rows into separate exports and adding a hidden `Seeming` key.
 
 The unified table plan should include this classification as rendering config, otherwise the component may accidentally make visual labels favorite-able or make real overview content disappear.
 
@@ -469,6 +477,24 @@ Implementation note:
 
 ### Likely legit edge cases
 
+#### Two section-header ordering patterns
+
+Current sectioned tables are not all the same kind of grouping.
+
+Pattern 1: alphabetical buckets inside fixed rank/level
+- Example: `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`.
+- Headers such as `Fate 1`, `Fate 2`, and so on represent rank/level buckets.
+- Rows below each bucket are same-rank spells and are usually ordered alphabetically.
+- The future table should support this as explicit `groups` or `groupBy` buckets.
+
+Pattern 2: rank progression inside a named group
+- Example: `src/pages/Vampire/Disciplines.jsx`.
+- Headers such as `Animalism` and `Dominate` represent named power trees.
+- Rows below each header are ordered by rank, usually rank 1 through rank 5.
+- The group itself may also hold content, links, favorites, and search metadata.
+
+This distinction matters because the first pattern is mostly a display bucket, while the second may represent a real domain object with its own detail page.
+
 #### Mummy style merits
 
 Files:
@@ -535,6 +561,14 @@ Alternative future props if the page keeps flat rows:
 Question:
 - For arcana/spells, should the page continue preparing arrays per dot level, or should the table accept a flat spell list plus a `groupBy` function/key?
 
+Fresh read:
+- `Spells.jsx` and `Arcana.jsx` duplicate the same array-of-arrays preparation for Death/Fate/Force/Life/Matter/Mind/Prime/Space/Spirit/Time.
+- `addLinkToList` mutates each spell object by assigning `obj.link`; this works today, but the future table adapter should prefer returning copied rows.
+- This is a strong candidate for a small shared mage spell table model before the generic table migration, because the repetition is page-level rather than domain-specific.
+- The grouped table can support either shape:
+  - existing arrays per arcana level;
+  - a future flat list with an `ArcanaLevel` or `Level` field.
+
 #### Vampire disciplines
 
 Files:
@@ -592,6 +626,13 @@ Current read:
 Potential issue to verify later:
 - At least one area around `Spirit's Silence, The` has a row with `Rank: "N/A"` that appears to be an actual power-like row, not a group label. This may be data cleanup later, not a blocker for table consolidation.
 
+Fresh read:
+- Most `Rank: "N/A"` rows are real gift-list labels, for example `Agony`, `Alpha`, `Battle`, `Blood`, and many more.
+- The `Spirit's Silence, The` area is different:
+  - one row has `Name: "Spirit's Silence, The"` and looks like a group/title row;
+  - the next row also has `Rank: "N/A"` but `Name: "• - •••••"` and contains the actual effect summary.
+- That second row is not the same kind of group label as the others. It should be reviewed as a data exception before relying only on `Rank: "N/A"` to identify group labels.
+
 #### Psychic powers and Thaumaturgy merits
 
 Files:
@@ -611,6 +652,12 @@ Current read:
 Needed table behavior:
 - Group label without row link/favorite by default.
 - Easy switch if a group label later gets content.
+
+Fresh read:
+- `PsychicMeritsData.jsx` has several clear category labels: `Extrasensory Perception`, `Mediumist`, `Psychokinetic`, and later `Telepathy`.
+- `ThaumaturgyData.jsx` has one visible divider, `Rituals`, after a few non-ritual merits.
+- Psychic powers are a better candidate for true visual grouping.
+- Thaumaturgy may be a cleanup case like covenant/merits: one pool for general thaumaturgy merits and one pool for rituals, while keeping a combined export if anything else needs it.
 
 ### Needs confirmation
 
@@ -668,22 +715,50 @@ Current read:
 Question:
 - Should court family labels be visual-only headers, or should they eventually become linkable/content entries?
 
+Fresh read:
+- The labels are taxonomy rows with no real row content: `Seasonal Courts of the Americas`, `Faraway CourtsSeasonal Variants`, `Directional Courts of Asia`, `Diurnal Courts of Eastern Europe`, and `Auroral Courts`.
+- This could be kept as one grouped table for scanning, or split into separate arrays/tables if you prefer the cleanup style used for clans/covenants.
+- There is a data issue to check later: `Courts` filters by `item["Page Number"] !== "N/A"`, but the visible rows use `Book`, not `Page Number`. Since `undefined !== "N/A"` is true, group labels may leak into `Courts`.
+
 #### Changeling kiths
 
 Files:
 - `src/pages/Changeling/Kith.jsx`
 - `src/Data/Changeling/KithData.jsx`
 
-Current rendering:
-- Uses `ManyHeadersTable`.
-- Group rows include seeming labels such as `Beasts`, `Darklings`, and likely other seeming categories.
+Resolution:
+- Cleanup candidate, not a table edge case.
+- Split into `kithBeastsData`, `kithDarklingsData`, `kithElementalsData`, `kithFairestData`, `kithOgresData`, and `kithWizenedData`.
+- Add hidden `Seeming` to each real kith row.
+- Keep combined `kithData` for sheet/options compatibility.
+- Render as multiple `SimpleTable` instances with headers that hide `Seeming`.
 
-Current read:
-- Legit grouped table if the goal is scanning kiths by seeming.
-- Could also be split into separate tables, but one grouped table seems more ergonomic.
+### Fresh remaining edge-case pass
 
-Question:
-- Should kith seeming labels stay as visual group headers?
+This pass was made after cleaning Vampire clan, bloodline, covenant, and vampire merits out of `ManyHeadersTable`.
+
+Live table families that still need review:
+- `src/pages/Vampire/Disciplines.jsx`: content groups. Keep as a pilot for group labels that are real content, linkable, favorite-able, and searchable.
+- `src/pages/Changeling/Contracts.jsx`: content groups, like disciplines, but with more column variants and note paragraphs between sections.
+- `src/pages/Werewolf/Gifts.jsx`: mostly visual groups. Review `Spirit's Silence, The` because one `Rank: "N/A"` row appears to be an actual effect row, not only a divider.
+- `src/pages/Changeling/Court.jsx`: taxonomy groups. Decide whether to keep grouped in one table or split into separate pools.
+- `src/pages/MortalsAndTemplates/Lesser templates/Psychics.jsx`: visual category groups. Likely a grouped table case unless you want split arrays.
+- `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`: likely cleanup/split candidate because `Rituals` is the only section divider inside the merits array.
+- `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: grouped table from array-of-arrays, not sentinel rows. Good candidate for the future `groups` API.
+- `src/pages/Mummy/Utterances.jsx`: repeated-row grouping through `mergeHeaders`, confirmed legit.
+- `src/pages/Mummy/MummyMerits.jsx`: `MummiesStyleMeritsData` uses the same repeated-row grouping pattern; likely legit but still worth checking.
+- Detail pages using direct `BaseTable`: probably not special domain cases, but the migration should decide whether detail tables keep favorites by default.
+
+Current cleanup candidates to discuss next:
+- `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx`: split `ThaumaturgyMeritsData` into general merits and rituals, while preserving a combined export if needed.
+- `src/Data/Changeling/CourtData.jsx`: either keep grouped, or split into court-family arrays. Also check the `Courts` export filtering by `Page Number`.
+- `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx`: either keep grouped, or split into general/ESP/Mediumist/Psychokinetic/Telepathy pools.
+
+Current component-level edge cases:
+- `ManyHeadersTable` relies on sentinel values such as `Rank: "N/A"` or `Book: "N/A"`. This works for simple visual labels but becomes fragile when an actual row also has `N/A`.
+- `MultipleTables` already has a cleaner grouped shape, but its cell rendering duplicates favorites, links, mobile cards, `BookLink`, and show/hide behavior.
+- `mergeHeaders` is a desktop table trick for a real grouped-row need. The unified component should model the grouping directly, then decide whether desktop renders row-spans or group headers.
+- Mobile parity is uneven: grouped mobile tables have favorites and collapse, but `SimpleTable` mobile cards still do not have all desktop behaviors.
 
 ### Known special case to keep local
 
@@ -871,8 +946,13 @@ Resolved:
 - `src/Data/Vampire/BloodlineData.jsx` was also a cleanup case and can be split into generic/parent-clan arrays, with a hidden `Clan` key on each row.
 - `src/Data/Vampire/CovenantData.jsx` is also a cleanup case and can be split into separate covenant pools without adding a grouping key to each row.
 - `src/Data/Vampire/VampireMeritsData.jsx` is also a cleanup case and can be split into separate merit pools without adding a grouping key to each row.
+- `src/Data/Changeling/KithData.jsx` is also a cleanup case and can be split into seeming arrays, with a hidden `Seeming` key on each row.
 
 Still open:
-1. For arcana/spells, should grouping be supplied as arrays per level, or should the table accept a flat list plus `groupBy`?
+1. For `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`, should grouping stay as arrays per level, or should the table accept a flat list plus `groupBy`?
 2. For `src/pages/Mummy/Utterances.jsx`, should desktop keep the exact merged-cell look, or is a clearer grouped-section look acceptable?
-3. During migration, should old imports like `SimpleTable` and `ManyHeadersTable` keep working while they internally call the new shared `DataTable`, or do you prefer changing page imports directly as each page is migrated?
+3. For `src/pages/Changeling/Court.jsx`, should court family labels stay as visual group headers, or should the data be split into separate pools like clans/covenants?
+4. For `src/pages/MortalsAndTemplates/Lesser templates/Psychics.jsx`, are the psychic category labels only visual, or should they eventually be searchable/favorite-able group entries?
+5. For `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`, can `Rituals` be treated as a cleanup split into separate pools?
+6. For `src/pages/Werewolf/Gifts.jsx`, how should the `Spirit's Silence, The` rows be modeled: one group with one unusual child row, or a single standalone gift with a special rank/range?
+7. During migration, should old imports like `SimpleTable` and `ManyHeadersTable` keep working while they internally call the new shared `DataTable`, or do you prefer changing page imports directly as each page is migrated?
