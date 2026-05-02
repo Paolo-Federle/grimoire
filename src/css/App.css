@@ -42,16 +42,17 @@ p {
 
 
 .spacing-table td,
-th {
+.spacing-table th {
     /* top, right, bottom, left */
     padding: 2px 15px 3px 5px;
     line-height: 24px;
-    font-size: 16spx;
+    font-size: 16px;
+    border: solid 2px #fff;
+    box-sizing: border-box;
 }
 
-td {
-    border-right: solid 1px #dfdfdf;
-    border-left: solid 1px #dfdfdf;
+.spacing-table {
+    border: solid 2px #fff;
 }
 
 .grid-container {
@@ -87,7 +88,8 @@ td {
     color: #fff;
     background-color: #333;
     font-weight: bold;
-    border-top: solid 1px #dfdfdf;
+    border-top: solid 2px #fff;
+    border-bottom: solid 2px #fff;
 }
 
 .alternating-row {

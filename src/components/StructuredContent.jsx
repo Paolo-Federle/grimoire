@@ -183,13 +183,13 @@ function renderBlock(block, index, tables) {
     return (
       <div key={index}>
         {table.title ? <h3>{renderInlineContent(table.title, `table-title-${index}`)}</h3> : null}
-        <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
+        <table className="table-auto border-collapse border border-white w-full text-sm text-left">
           <thead>
             <tr className="bg-gray-100">
               {table.headers.map((header, headerIndex) => (
                 <th
                   key={`${index}-header-${headerIndex}`}
-                  className="border border-gray-300 px-4 py-2 font-medium text-gray-700"
+                  className="border border-white px-4 py-2 font-medium text-gray-700"
                 >
                   {renderTableCell(header, `table-header-${index}-${headerIndex}`)}
                 </th>
@@ -200,7 +200,7 @@ function renderBlock(block, index, tables) {
             {table.rows.map((row, rowIndex) => (
               <tr key={`${index}-row-${rowIndex}`}>
                 {row.map((cell, cellIndex) => (
-                  <td key={`${index}-cell-${rowIndex}-${cellIndex}`} className="border border-gray-300 px-4 py-2">
+                  <td key={`${index}-cell-${rowIndex}-${cellIndex}`} className="border border-white px-4 py-2">
                     {renderTableCell(cell, `table-cell-${index}-${rowIndex}-${cellIndex}`)}
                   </td>
                 ))}

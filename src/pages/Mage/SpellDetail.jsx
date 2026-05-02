@@ -24,13 +24,13 @@ function replacePlaceholders(text, tables = []) {
 
     const [headers = [], ...rows] = table.Data;
     const tableHtml = `
-      <table class="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
+      <table class="table-auto border-collapse border border-white w-full text-sm text-left">
         <thead>
           <tr class="bg-gray-100">
             ${headers
               .map(
                 (header) =>
-                  `<th class="border border-gray-300 px-4 py-2 font-medium text-gray-700">${header}</th>`
+                  `<th class="border border-white px-4 py-2 font-medium text-gray-700">${header}</th>`
               )
               .join('')}
           </tr>
@@ -41,7 +41,7 @@ function replacePlaceholders(text, tables = []) {
               (row) => `
                 <tr>
                   ${row
-                    .map((cell) => `<td class="border border-gray-300 px-4 py-2">${cell}</td>`)
+                    .map((cell) => `<td class="border border-white px-4 py-2">${cell}</td>`)
                     .join('')}
                 </tr>
               `
