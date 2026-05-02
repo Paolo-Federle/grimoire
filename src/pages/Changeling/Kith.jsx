@@ -12,7 +12,7 @@ import {
 export default function Kith() {
 
 
-    const headers = ['Kith', 'Description', 'Blessing', 'Book']
+    const headers = ['Kith', 'Description', 'Blessing', 'Blessing effect', 'Book']
     const kithTables = [
         { title: 'Beasts', data: kithBeastsData },
         { title: 'Darklings', data: kithDarklingsData },
