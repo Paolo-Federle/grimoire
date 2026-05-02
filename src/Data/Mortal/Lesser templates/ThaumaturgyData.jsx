@@ -2,21 +2,18 @@ export const thaumaturgyMeritsData = [
     {
         "Name": "Dream",
         "Rank": "• to •••••",
-        "Prerequisite": "",
         "Description": "Gain vague insights from dreams",
         "Book": "SS 106"
     },
     {
         "Name": "Library",
         "Rank": "• to •••",
-        "Prerequisite": "",
         "Description": "Possess library of information on obscure occult topics",
         "Book": "SS 113"
     },
     {
         "Name": "Magical Nexus",
         "Rank": "• or ••",
-        "Prerequisite": "",
         "Description": "Possess a magical location that facilitates other rituals",
         "Book": "SS 115"
     }

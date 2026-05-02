@@ -640,8 +640,8 @@ Files:
 - `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable`.
-- Rows like `Extrasensory Perception`, `Mediumist`, `Psychokinetic`, and `Telepathy` mark groups for related merits.
+- Uses split data arrays and `SimpleTable`.
+- The old visual rows like `Extrasensory Perception`, `Mediumist`, `Psychokinetic`, `Telepathy`, and `Rituals` are no longer data objects.
 
 Current read:
 - Psychic merits can be normalized by splitting the dataset into stable category arrays and rendering each with the base table path.
@@ -661,6 +661,12 @@ Fresh read:
   - `Psychokinetic`: `psychicPsychokineticMeritsData`, rendered with title `Psychokinetic merits`
   - `Telepathy`: `psychicTelepathicMeritsData`, rendered with title `Telepathic merits`
 - Thaumaturgy should be split into `thaumaturgyMeritsData` and `thaumaturgyRitualMeritsData`, with the combined `ThaumaturgyMeritsData` export kept for compatibility.
+
+Resolution:
+- Applied.
+- `PsychicMeritsData.jsx` now exports real split arrays and a combined compatibility export.
+- `ThaumaturgyData.jsx` now exports real split arrays and a combined compatibility export.
+- `Psychics.jsx` and `Thaumaturgy.jsx` render the split arrays through `SimpleTable`.
 
 ### Needs confirmation
 
@@ -709,8 +715,8 @@ Files:
 - `src/Data/Changeling/CourtData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable`.
-- Group rows include labels such as `Seasonal Courts of the Americas`, `Faraway CourtsSeasonal Variants`, and `Directional Courts of Asia`.
+- Uses split court-family arrays and `SimpleTable`.
+- The old visual group rows such as `Seasonal Courts of the Americas`, `Faraway CourtsSeasonal Variants`, and `Directional Courts of Asia` are no longer data objects.
 
 Current read:
 - Can be normalized by splitting the data into the same groups currently represented by the section headers.
@@ -723,7 +729,7 @@ Resolution:
 Fresh read:
 - The labels are taxonomy rows with no real row content: `Seasonal Courts of the Americas`, `Faraway CourtsSeasonal Variants`, `Directional Courts of Asia`, `Diurnal Courts of Eastern Europe`, and `Auroral Courts`.
 - Split these labels into separate arrays/tables, matching the cleanup style used for clans/covenants/kiths.
-- There is a data issue to check later: `Courts` filters by `item["Page Number"] !== "N/A"`, but the visible rows use `Book`, not `Page Number`. Since `undefined !== "N/A"` is true, group labels may leak into `Courts`.
+- The old `Courts` filter issue was resolved by making `courtData` a combined list of real court rows only.
 
 #### Changeling kiths
 
@@ -742,18 +748,17 @@ Resolution:
 
 ### Fresh remaining edge-case pass
 
-This pass was made after cleaning Vampire clan, bloodline, covenant, vampire merits, and Changeling kiths out of `ManyHeadersTable`.
+This pass was made after cleaning Vampire clan, bloodline, covenant, vampire merits, Changeling kiths, Changeling courts, psychic merits, and thaumaturgy merits out of section-header table data.
 
 Live sectioned/grouped families still in the code:
 - `src/pages/Vampire/Disciplines.jsx`: postponed edge case; rank-progression content groups.
 - `src/pages/Changeling/Contracts.jsx`: mixed content groups and rank buckets. Most contract family rows are content groups, but unclassified goblin contracts also contain dot/rank bucket headers.
 - `src/pages/Werewolf/Gifts.jsx`: postponed edge case; rank-progression visual groups.
-- `src/pages/Changeling/Court.jsx`: cleanup/split candidate; divide by the current court group headers and use the base table path.
-- `src/pages/MortalsAndTemplates/Lesser templates/Psychics.jsx`: cleanup/split candidate; divide into psychic merit category arrays and use the base table path.
-- `src/pages/MortalsAndTemplates/Lesser templates/Thaumaturgy.jsx`: cleanup/split candidate; divide general merits from ritual merits and use the base table path.
 - `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: postponed edge case; alphabetical buckets by rank/level from array-of-arrays, not sentinel rows.
 - `src/pages/Mummy/Utterances.jsx`: repeated-row grouping through `mergeHeaders`, confirmed legit.
 - `src/pages/Mummy/MummyMerits.jsx`: `MummiesStyleMeritsData` uses the same repeated-row grouping pattern; likely legit but still worth checking.
+- `src/pages/Promethean/Manifestation.jsx`: intentionally special combination UI, not a standard table migration target.
+- `src/pages/Generale/OggettiOcculti.jsx`: intentionally special local table for now.
 - Detail pages using direct `BaseTable`: probably not special domain cases, but the migration should decide whether detail tables keep favorites by default.
 
 Applied cleanup:
@@ -763,6 +768,7 @@ Applied cleanup:
 
 Cases that most need Paolo's comment before code changes:
 - `Contracts`: should dot headers in unclassified goblin contracts be treated as rank buckets, while contract-family rows remain content groups?
+- `Mummy/Utterances` and `Mummy/MummyMerits`: should the unified table preserve the exact desktop merged-cell look, or is a grouped-section rendering acceptable?
 - Detail tables: should favorite toggles remain visible inside detail-page sub-tables?
 
 Postponed edge cases:
@@ -774,7 +780,7 @@ Current component-level edge cases:
 - `ManyHeadersTable` relies on sentinel values such as `Rank: "N/A"` or `Book: "N/A"`. This works for simple visual labels but becomes fragile when an actual row also has `N/A`.
 - `MultipleTables` already has a cleaner grouped shape, but its cell rendering duplicates favorites, links, mobile cards, `BookLink`, and show/hide behavior.
 - `mergeHeaders` is a desktop table trick for a real grouped-row need. The unified component should model the grouping directly, then decide whether desktop renders row-spans or group headers.
-- Mobile parity is uneven: grouped mobile tables have favorites and collapse, but `SimpleTable` mobile cards still do not have all desktop behaviors.
+- Mobile parity is improved now that `SimpleTable` mobile cards have favorites, but `mergeHeaders` is still desktop-only behavior.
 
 ### Known special case to keep local
 
@@ -963,9 +969,9 @@ Resolved:
 - `src/Data/Vampire/CovenantData.jsx` is also a cleanup case and can be split into separate covenant pools without adding a grouping key to each row.
 - `src/Data/Vampire/VampireMeritsData.jsx` is also a cleanup case and can be split into separate merit pools without adding a grouping key to each row.
 - `src/Data/Changeling/KithData.jsx` is also a cleanup case and can be split into seeming arrays, with a hidden `Seeming` key on each row.
-- `src/Data/Changeling/CourtData.jsx` can be split into arrays matching the current court group headers and rendered with the base table path.
-- `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx` can be split into `psychicMeritsData`, `psychicEspMeritsData`, `psychicMediumistMeritsData`, `psychicPsychokineticMeritsData`, and `psychicTelepathicMeritsData`, with page titles `ESP merits`, `Mediumist merits`, `Psychokinetic merits`, and `Telepathic merits` for the specialized groups.
-- `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx` can be split into `thaumaturgyMeritsData` and `thaumaturgyRitualMeritsData`.
+- `src/Data/Changeling/CourtData.jsx` has been split into arrays matching the current court group headers and rendered with the base table path.
+- `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx` has been split into `psychicMeritsData`, `psychicEspMeritsData`, `psychicMediumistMeritsData`, `psychicPsychokineticMeritsData`, and `psychicTelepathicMeritsData`, with page titles `ESP merits`, `Mediumist merits`, `Psychokinetic merits`, and `Telepathic merits` for the specialized groups.
+- `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx` has been split into `thaumaturgyMeritsData` and `thaumaturgyRitualMeritsData`.
 
 Still open:
 1. For `src/pages/Mummy/Utterances.jsx`, should desktop keep the exact merged-cell look, or is a clearer grouped-section look acceptable?

@@ -327,6 +327,19 @@ function findItemBySlug(items, slug) {
   return items.find((item) => slugify(getItemRouteSlug(item)) === slug) || null;
 }
 
+function findDisciplineBySlug(items, slug) {
+  const isSlugMatch = (value) => value && slugify(value) === slug;
+  const isOverview = (item) =>
+    item?.Rank === "N/A" &&
+    Array.isArray(item?.LongDescription || item?.longDescription);
+
+  return (
+    items.find((item) => isOverview(item) && isSlugMatch(item?.Name)) ||
+    items.find((item) => isOverview(item) && isSlugMatch(item?.Discipline)) ||
+    findItemBySlug(items, slug)
+  );
+}
+
 const DETAIL_ROUTE_CONFIGS = [
   {
     path: `${PATHS.LOCATIONS_BASE}/:slug`,
@@ -357,7 +370,7 @@ const DETAIL_ROUTE_CONFIGS = [
     propKey: "discipline",
     loadPage: () => import("./pages/Vampire/DisciplinesDetail"),
     loadData: () => import("./Data/Vampire/DisciplineData"),
-    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allDiscipline, slug),
+    resolveItem: ({ dataModule, slug }) => findDisciplineBySlug(dataModule.allDiscipline, slug),
   },
   {
     path: `${PATHS.VAMPIRE.DEVOTIONS}/:slug`,

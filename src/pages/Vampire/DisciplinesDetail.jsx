@@ -3,6 +3,8 @@ import BaseTable from '../../components/BaseTable';
 
 export default function DisciplinesDetail(props) {
     const matchedDiscipline = props.discipline
+    const longDescription = matchedDiscipline?.LongDescription || matchedDiscipline?.longDescription || [];
+    const fullCost = matchedDiscipline?.FullCost || matchedDiscipline?.fullCost;
 
 
     return (
@@ -14,8 +16,9 @@ export default function DisciplinesDetail(props) {
                         {matchedDiscipline.Rank && matchedDiscipline.Rank !== "N/A" && ` (${matchedDiscipline?.Discipline} ${matchedDiscipline.Rank})`}
                     </h1>
 
+                    {longDescription.length > 0 && (
                     <div style={{ paddingBottom: "20px" }}>
-                        {matchedDiscipline.LongDescription.map((item, index) => {
+                        {longDescription.map((item, index) => {
                             if (typeof item !== 'object') {
                                 return (
                                     <p key={index}>
@@ -37,8 +40,9 @@ export default function DisciplinesDetail(props) {
                             );
                         })}
                     </div>
+                    )}
 
-                    {matchedDiscipline.FullCost && matchedDiscipline.FullCost !== "N/A" && (<div><b>Cost:</b> {matchedDiscipline.FullCost}</div>)}
+                    {fullCost && fullCost !== "N/A" && (<div><b>Cost:</b> {fullCost}</div>)}
                     {matchedDiscipline.DicePool && matchedDiscipline.DicePool !== "N/A" && (<div><b>Dice Pool:</b> {matchedDiscipline.DicePool}</div>)}
                     {matchedDiscipline.Action && (<div><b>Action:</b> {matchedDiscipline.Action}</div>)}
 
