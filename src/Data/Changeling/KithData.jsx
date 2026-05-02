@@ -60,7 +60,7 @@ export const kithBeastsData = [
         "Description": "Wise/Cunning Animals of Legend",
         "Blessing": "Inquisitive Instinct",
         "Blessing effect": "Spend Glamour, for one scene, +2 to all Wits rolls except Perception (Wits + Composure). Free Investigation Specialty \"Riddles\".",
-        "Book": "NH:GF 102",
+        "Book": "NH-GF 102",
         "Seeming": "Beasts"
     },
     {
@@ -421,7 +421,7 @@ export const kithFairestData = [
         "Description": "Charmers and Thieves",
         "Blessing": "Thievery's Grace",
         "Blessing effect": "9-Again on Larceny and Socialize rolls involving Agility. +1 to dodge when dodging attacks.",
-        "Book": "NH:GF 63",
+        "Book": "NH-GF 63",
         "Seeming": "Fairest"
     },
     {
@@ -429,7 +429,7 @@ export const kithFairestData = [
         "Description": "Performer",
         "Blessing": "Perfect Pitch",
         "Blessing effect": "Spend a Glamour to reroll any failed dice on Expression roll. Harvesting Glamour from audience gains 8-Again.",
-        "Book": "NH:GF 43",
+        "Book": "NH-GF 43",
         "Seeming": "Fairest"
     },
     {
@@ -445,7 +445,7 @@ export const kithFairestData = [
         "Description": "Taken to be the Fae's Best Friend",
         "Blessing": "Circle of Friends",
         "Blessing effect": "When Playmate is primary actor in a teamwork roll, add +2. If secondary, you may forgo roll to give primary 9-again.",
-        "Book": "NH:GF 122",
+        "Book": "NH-GF 122",
         "Seeming": "Fairest"
     },
     {
@@ -461,7 +461,7 @@ export const kithFairestData = [
         "Description": "Masters of Twisting Truths",
         "Blessing": "Narcissus's Blessing",
         "Blessing effect": "Subtle changes in everyone's eyes making each viewer see the Romancer with visual traits they find attractive. This causes a -3 to describe Romancer, which also applies to their clothes. Even cameras, both video and digital are affected by blessing.",
-        "Book": "NH:GF 46",
+        "Book": "NH-GF 46",
         "Seeming": "Fairest"
     },
     {
