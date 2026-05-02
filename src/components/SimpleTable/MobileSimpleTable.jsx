@@ -1,9 +1,13 @@
 import React from "react";
 import { BookLink } from "../BookLink";
 import { useNavigate } from "react-router-dom";
+import FavoriteToggle from "../FavoriteToggle";
+import { getCurrentRoutePath } from "../../utils";
 
 export default function MobileSimpleTable({ headers, data, activeRowLink }) {
     const navigate = useNavigate();
+    const sourcePath = getCurrentRoutePath();
+    const columnsToSave = (headers || []).filter((h) => h !== "link");
 
     const handleLinkClick = (e, link) => {
         e.preventDefault();
@@ -42,12 +46,32 @@ export default function MobileSimpleTable({ headers, data, activeRowLink }) {
                 >
                     {headers.map((header, i) => {
                         const value = row[header];
+                        const isFirstCell = i === 0;
+                        const titleIsLink = !!(isFirstCell && activeRowLink && row.link);
 
                         return (
                             <div key={i} className="flex justify-between text-sm">
                                 <span className="font-semibold">{header}</span>
                                 <span className="max-w-[60%] text-right break-words">
-                                    {renderValue(header, row, value, i)}
+                                    {isFirstCell ? (
+                                        <span
+                                            style={{
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: 6,
+                                            }}
+                                        >
+                                            <FavoriteToggle
+                                                row={row}
+                                                columns={columnsToSave}
+                                                sourcePath={sourcePath}
+                                                titleIsLink={titleIsLink}
+                                            />
+                                            {renderValue(header, row, value, i)}
+                                        </span>
+                                    ) : (
+                                        renderValue(header, row, value, i)
+                                    )}
                                 </span>
                             </div>
                         );

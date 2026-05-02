@@ -1,17 +1,30 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
-import { courtData } from '../../Data/Changeling/CourtData';
+import SimpleTable from '../../components/SimpleTable'
+import {
+    auroralCourtsData,
+    directionalCourtsData,
+    diurnalCourtsData,
+    farawaySeasonalCourtsData,
+    seasonalCourtsData,
+} from '../../Data/Changeling/CourtData';
 
 export default function Court() {
 
 
     const headers = ['Court Name', 'Court Emotion', 'Mantle Effects', 'Crown Blessing', 'Blessing Effect', 'Book']
-    const headerCheckFields = ['Book']
-    const disciplineData = ['Court Name']
+    const courtTables = [
+        { title: 'Seasonal Courts of the Americas', data: seasonalCourtsData },
+        { title: 'Faraway Courts Seasonal Variants', data: farawaySeasonalCourtsData },
+        { title: 'Directional Courts of Asia', data: directionalCourtsData },
+        { title: 'Diurnal Courts of Eastern Europe', data: diurnalCourtsData },
+        { title: 'Auroral Courts', data: auroralCourtsData },
+    ];
 
     return (
         <div className='grid-container'>
-            <ManyHeadersTable table={courtData} title={'Court'} headers={headers} headerCheckFields={headerCheckFields} alternateData={disciplineData}/>
+            {courtTables.map(({ title, data }) => (
+                <SimpleTable key={title} table={data} title={title} headers={headers} />
+            ))}
         </div>
     );
 }

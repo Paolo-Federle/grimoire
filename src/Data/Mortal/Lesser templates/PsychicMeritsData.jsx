@@ -1,4 +1,4 @@
-export const PsychicMeritsData = [
+export const psychicMeritsData = [
     {
         "Name": "Anti-Psi",
         "Rank": "•••••",
@@ -48,13 +48,9 @@ export const PsychicMeritsData = [
         "Book": "SS 67",
         "Description": "Extra protection agaisnt mind altering psychich powers"
     },
-    {
-        "Name": "Extrasensory Perception",
-        "Rank": "N/A",
-        "Prerequisite": "",
-        "Book": "N/A",
-        "Description": "N/A"
-    },
+];
+
+export const psychicEspMeritsData = [
     {
         "Name": "Astral Projection",
         "Rank": "•••",
@@ -104,13 +100,9 @@ export const PsychicMeritsData = [
         "Book": "SS 42",
         "Description": "Sense the history of objects"
     },
-    {
-        "Name": "Mediumist",
-        "Rank": "N/A",
-        "Prerequisite": "",
-        "Book": "N/A",
-        "Description": "N/A"
-    },
+];
+
+export const psychicMediumistMeritsData = [
     {
         "Name": "Automatic Writing",
         "Rank": "••",
@@ -146,13 +138,9 @@ export const PsychicMeritsData = [
         "Book": "SS 46",
         "Description": "Summon ghosts to materialize"
     },
-    {
-        "Name": "Psychokinetic",
-        "Rank": "N/A",
-        "Prerequisite": "",
-        "Book": "N/A",
-        "Description": "N/A"
-    },
+];
+
+export const psychicPsychokineticMeritsData = [
     {
         "Name": "Biokinesis",
         "Rank": "• to •••••",
@@ -223,13 +211,9 @@ export const PsychicMeritsData = [
         "Book": "SS 54",
         "Description": "Ability to raise ambient temperature in an area"
     },
-    {
-        "Name": "Telepathy",
-        "Rank": "N/A",
-        "Prerequisite": "",
-        "Book": "N/A",
-        "Description": "N/A"
-    },
+];
+
+export const psychicTelepathicMeritsData = [
     {
         "Name": "Animal Empathy",
         "Rank": "•• or ••••",
@@ -328,4 +312,12 @@ export const PsychicMeritsData = [
         "Book": "SS 64",
         "Description": "Send one-way thoughts to another"
     }
-]
+];
+
+export const PsychicMeritsData = [
+    ...psychicMeritsData,
+    ...psychicEspMeritsData,
+    ...psychicMediumistMeritsData,
+    ...psychicPsychokineticMeritsData,
+    ...psychicTelepathicMeritsData,
+];

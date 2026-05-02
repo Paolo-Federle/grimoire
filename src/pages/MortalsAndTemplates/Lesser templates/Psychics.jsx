@@ -1,18 +1,30 @@
 import React from 'react';
-import { PsychicMeritsData } from '../../../Data/Mortal/Lesser templates/PsychicMeritsData';
-import ManyHeadersTable from '../../../components/ManyHeadersTable/ManyHeadersTable';
+import {
+    psychicEspMeritsData,
+    psychicMediumistMeritsData,
+    psychicMeritsData,
+    psychicPsychokineticMeritsData,
+    psychicTelepathicMeritsData,
+} from '../../../Data/Mortal/Lesser templates/PsychicMeritsData';
+import SimpleTable from '../../../components/SimpleTable';
 
 
 export default function PsychicsPowers() {
 
     const headers = ['Name', 'Rank', 'Prerequisite', 'Description', 'Book']
-    const datoSostituibile = ['Rank']
-    const datoSostituto = ['Name']
+    const psychicTables = [
+        { title: 'Psychic merits', data: psychicMeritsData },
+        { title: 'ESP merits', data: psychicEspMeritsData },
+        { title: 'Mediumist merits', data: psychicMediumistMeritsData },
+        { title: 'Psychokinetic merits', data: psychicPsychokineticMeritsData },
+        { title: 'Telepathic merits', data: psychicTelepathicMeritsData },
+    ];
 
     return (
         <div className='grid-container'>
-            {/* <ManyHeadersTable table={PsychicMeritsData} title={'Psychic powers'} activeRowLink={false} /> */}
-            <ManyHeadersTable table={PsychicMeritsData} title={'Psychic powers'} headers={headers} headerCheckFields={datoSostituibile} alternateData={datoSostituto} prereqForLink={'Name'} activeRowLink={false}/>
+            {psychicTables.map(({ title, data }) => (
+                <SimpleTable key={title} table={data} title={title} headers={headers} activeRowLink={false} />
+            ))}
         </div>
     );
 }

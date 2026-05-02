@@ -1,12 +1,4 @@
-const courtData = [
-    {
-        "Court Name": "Seasonal Courts of the Americas",
-        "Book": "N/A",
-        "Court Emotion": "",
-        "Mantle Effects": "",
-        "Crown Blessing": "",
-        "Blessing Effect": ""
-    },
+export const seasonalCourtsData = [
     {
         "Court Name": "Spring Court",
         "Book": "CtL 47, LoS 28",
@@ -38,15 +30,10 @@ const courtData = [
         "Mantle Effects": "• -1 Wits + Composure/Skill when not specifically looking for character.••• +1 to Subterfuge.••••• As •, but -3 penalty.",
         "Crown Blessing": "Feast of Ashes",
         "Blessing Effect": "Once per session, Crown converts Glamour to Willpower = Mantle. Willpower can be more then maximum, but is lost at the end of the session. For the rest of the scene, add Mantle to willpower rating."
-    },
-    {
-        "Court Name": "Faraway CourtsSeasonal Variants",
-        "Book": "N/A",
-        "Court Emotion": "N/A",
-        "Mantle Effects": "N/A",
-        "Crown Blessing": "N/A",
-        "Blessing Effect": "N/A"
-    },
+    }
+];
+
+export const farawaySeasonalCourtsData = [
     {
         "Court Name": "Growing Season",
         "Book": "WM 120",
@@ -86,15 +73,10 @@ const courtData = [
         "Mantle Effects": "See Winter Court",
         "Crown Blessing": "Feast of Ashes",
         "Blessing Effect": "See Winter Court"
-    },
-    {
-        "Court Name": "Directional Courts of Asia",
-        "Book": "N/A",
-        "Court Emotion": "N/A",
-        "Mantle Effects": "N/A",
-        "Crown Blessing": "N/A",
-        "Blessing Effect": "N/A"
-    },
+    }
+];
+
+export const directionalCourtsData = [
     {
         "Court Name": "North Court",
         "Book": "WM 122",
@@ -126,15 +108,10 @@ const courtData = [
         "Mantle Effects": "•+ Weapon carried gains +1 durability.•••+ +1 Initiative.••••• Choose higher of Wits or Dexterity for determining Defense. Can defend against multiple attacks.",
         "Crown Blessing": "",
         "Blessing Effect": ""
-    },
-    {
-        "Court Name": "Diurnal Courts of Eastern Europe",
-        "Book": "N/A",
-        "Court Emotion": "N/A",
-        "Mantle Effects": "N/A",
-        "Crown Blessing": "N/A",
-        "Blessing Effect": "N/A"
-    },
+    }
+];
+
+export const diurnalCourtsData = [
     {
         "Court Name": "Sun Court",
         "Book": "WM 137",
@@ -150,15 +127,10 @@ const courtData = [
         "Mantle Effects": "• Larceny involving manual theft gains +2••• Spending willpower grants 4 extra dice instead of 3 for Intimation rolls.••••• Gain 2 Willpower when indulging Vice.",
         "Crown Blessing": "",
         "Blessing Effect": ""
-    },
-    {
-        "Court Name": "Auroral Courts",
-        "Book": "N/A",
-        "Court Emotion": "N/A",
-        "Mantle Effects": "N/A",
-        "Crown Blessing": "N/A",
-        "Blessing Effect": "N/A"
-    },
+    }
+];
+
+export const auroralCourtsData = [
     {
         "Court Name": "Dawn Court",
         "Book": "SaD 133",
@@ -175,10 +147,15 @@ const courtData = [
         "Crown Blessing": "",
         "Blessing Effect": ""
     }
-]
+];
 
-export { courtData }
+export const courtData = [
+    ...seasonalCourtsData,
+    ...farawaySeasonalCourtsData,
+    ...directionalCourtsData,
+    ...diurnalCourtsData,
+    ...auroralCourtsData,
+];
 
-export const Courts = courtData
-    .filter(item => item["Page Number"] !== "N/A")
-    .map(item => item["Court Name"]);
+
+export const Courts = courtData.map(item => item["Court Name"]);
