@@ -56,12 +56,12 @@ export default function Navbar() {
   const desktopNavBase =
     "inline-flex items-center h-10 px-2 text-gray-300 hover:text-white transition-colors no-underline";
   const desktopNavActive =
-    "inline-flex items-center h-10 px-2 font-bold underline decoration-2 text-white";
+    "inline-flex items-center h-10 px-2 font-bold underline decoration-2 !text-white hover:!text-gray-300";
 
   const mobileNavBase =
     "inline-flex items-center h-10 text-gray-300 hover:text-white transition-colors";
   const mobileNavActive =
-    "inline-flex items-center h-10 !text-white font-bold underline !hover:text-gray-300";
+    "inline-flex items-center h-10 !text-white font-bold underline hover:!text-gray-300";
 
   return (
     <>
