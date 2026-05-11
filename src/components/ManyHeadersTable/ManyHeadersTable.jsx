@@ -15,6 +15,7 @@ export default function ManyHeadersTable({
   alternateData = [],
   activeRowLink = false,
   prereqForLink,
+  titleVariant = "default",
 }) {
   const [isSectionActive, setIsSectionActive] = useState(true);
   const navigate = useNavigate();
@@ -29,6 +30,10 @@ export default function ManyHeadersTable({
   const columnsToSave = (tableHeaders || []).filter((h) => h !== "link");
 
   const toggleSection = () => setIsSectionActive((prev) => !prev);
+  const TitleTag = titleVariant === "nested" ? "h2" : "h1";
+  const titleClassName = titleVariant === "nested"
+    ? "text-xl cursor-pointer flex items-center gap-1"
+    : "text-2xl cursor-pointer flex items-center gap-1";
 
   const isHeaderRow = (row) =>
     headerCheckFields.length > 0 &&
@@ -60,12 +65,12 @@ export default function ManyHeadersTable({
 
   return (
     <div>
-      <h1
+      <TitleTag
         onClick={toggleSection}
-        className="text-2xl cursor-pointer flex items-center gap-1"
+        className={titleClassName}
       >
         {title} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-      </h1>
+      </TitleTag>
 
       {isSectionActive && (
         <>

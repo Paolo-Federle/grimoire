@@ -1,5 +1,6 @@
 import React from 'react';
 import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
+import TableGroup from '../../components/TableGroup';
 import {
     universalContractData, beastlyContractsData, darklingContractsData, elementalContractsData,
     fairestContractsData, ogreishContractsData, wizenedContractsData, springCourtContractsData,
@@ -20,7 +21,7 @@ export default function Contracts() {
     const courtData = ['Name', 'Dice Pool']
     const unclassifiedData = ['Name']
 
-    const renderContractTable = (data, title, headers, headerCheckFields, alternateData, activeRowLink = false) => {
+    const renderContractTable = (data, title, headers, headerCheckFields, alternateData, activeRowLink = false, titleVariant = "default") => {
         const tableData = activeRowLink ? addLink(data, 'Name', '/changeling/contracts/') : data;
         return (
             <ManyHeadersTable
@@ -31,6 +32,7 @@ export default function Contracts() {
                 alternateData={alternateData}
                 activeRowLink={activeRowLink}
                 prereqForLink={'FullDescription'}
+                titleVariant={titleVariant}
             />
         );
     };
@@ -38,23 +40,30 @@ export default function Contracts() {
     return (
         <div className='grid-container'>
             {renderContractTable(universalContractData, 'Universal Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(beastlyContractsData, 'Beastly Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(darklingContractsData, 'Darkling Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(elementalContractsData, 'Elemental Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(fairestContractsData, 'Fairest Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(ogreishContractsData, 'Ogreish Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(wizenedContractsData, 'Wizened Contracts', universalContHeader, headerCheckFields, contractData, true)}
-            {renderContractTable(springCourtContractsData, 'Spring Court Contracts', courtContHeader, headerCheckFields, courtData, true)}
-            {renderContractTable(summerCourtContractsData, 'Summer Court Contracts', courtContHeader, headerCheckFields, courtData, true)}
-            {renderContractTable(autumnCourtContractsData, 'Autumn Court Contracts', courtContHeader, headerCheckFields, courtData, true)}
-            {renderContractTable(winterCourtContractsData, 'Winter Court Contracts', courtContHeader, headerCheckFields, courtData, true)}
-            {renderContractTable(minorCourtContractData, 'Other Court Contracts', courtContHeader, headerCheckFields, courtData, true)}
-            
-            <p><b>Note:</b> To buy an ability with Mantle, ability must be Clause Rank - 1 = Mantle. So a level 4 can own the 5th dot, and a level 2 the 3rd.</p>
 
-            {renderContractTable(goblinContractData, 'Goblin Contracts', goblinContHeader, headerCheckFields, courtData, true)}
-            <p><b>Note:</b> Goblin Contracts are not chained and any clause rank can be bought with no prerequisites.</p>
-            {renderContractTable(unclassifiedGoblinContractData, 'Unclassified Goblin Contracts', unclassifiedGoblinContHeader, unclassifiedFields, unclassifiedData, true)}
+            <TableGroup title="Seeming Contracts">
+                {renderContractTable(beastlyContractsData, 'Beastly Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+                {renderContractTable(darklingContractsData, 'Darkling Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+                {renderContractTable(elementalContractsData, 'Elemental Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+                {renderContractTable(fairestContractsData, 'Fairest Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+                {renderContractTable(ogreishContractsData, 'Ogreish Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+                {renderContractTable(wizenedContractsData, 'Wizened Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+            </TableGroup>
+
+            <TableGroup title="Court Contracts">
+                {renderContractTable(springCourtContractsData, 'Spring Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
+                {renderContractTable(summerCourtContractsData, 'Summer Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
+                {renderContractTable(autumnCourtContractsData, 'Autumn Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
+                {renderContractTable(winterCourtContractsData, 'Winter Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
+                {renderContractTable(minorCourtContractData, 'Other Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
+                <p><b>Note:</b> To buy an ability with Mantle, ability must be Clause Rank - 1 = Mantle. So a level 4 can own the 5th dot, and a level 2 the 3rd.</p>
+            </TableGroup>
+
+            <TableGroup title="Goblin Contracts">
+                {renderContractTable(goblinContractData, 'Goblin Contract Families', goblinContHeader, headerCheckFields, courtData, true, "nested")}
+                <p><b>Note:</b> Goblin Contracts are not chained and any clause rank can be bought with no prerequisites.</p>
+                {renderContractTable(unclassifiedGoblinContractData, 'Unclassified Goblin Contracts', unclassifiedGoblinContHeader, unclassifiedFields, unclassifiedData, true, "nested")}
+            </TableGroup>
         </div>
     );
 }

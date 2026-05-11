@@ -29,6 +29,121 @@ Data cleanup is a later workstream. Some datasets clearly could be better arrang
 - The unified component should expose easy props for common layout behavior: title, accordion/collapsible section, grouped rendering, group label links, favorites, row links, mobile collapse, and optional intro text.
 - Grouping should not require fake objects. The table should support groups derived from repeated row values, page-level arrays, or explicit group metadata.
 - Some grouped data needs the group itself to hold content, links, favorites, or search metadata; disciplines and contracts are the clearest examples.
+- There are two different concepts that should not be collapsed into the same data model:
+  - a real parent content item with ranked child rows, such as a discipline, gift, or utterance;
+  - a UI grouping of multiple sibling tables, such as an Arcana page that contains `Death 1`, `Death 2`, etc.
+- For real parent content items, prefer a parent object with a `Ranks` array instead of section-header rows.
+- For sibling table groups, prefer a wrapper component such as `TableGroup`, while the inner tables can remain normal `SimpleTable`/future standard-table instances.
+
+## New component direction: `TableGroup`
+
+File:
+- `src/components/TableGroup.jsx`
+
+Purpose:
+- Provide a lightweight MUI/Tailwind wrapper for a group of related tables.
+- Keep the table rendering itself delegated to `SimpleTable` or the future standard table.
+- Replace cases where `MultipleTables` is being used only because several standard tables need to be visually connected under one outer title/accordion.
+
+Current component shape:
+
+```jsx
+<TableGroup title="Death" defaultExpanded>
+  <SimpleTable table={deathOneData} title="Death 1" />
+  <SimpleTable table={deathTwoData} title="Death 2" />
+  <SimpleTable table={deathThreeData} title="Death 3" />
+  <SimpleTable table={deathFourData} title="Death 4" />
+  <SimpleTable table={deathFiveData} title="Death 5" />
+</TableGroup>
+```
+
+When the outer group title should also link to a detail/overview page, pass `titleLink`.
+If `titleLink` is a relative string, it is appended to the current route; if it starts with `/`, it is treated as an absolute internal route.
+
+```jsx
+<TableGroup title="Seeming Contracts" titleLink="seeming">
+  ...
+</TableGroup>
+```
+
+From `/changeling/contracts`, this points the title to `/changeling/contracts/seeming`.
+When `titleLink` is present, the title text is styled as a normal content link and the expand/collapse icon remains the collapse control.
+The contracts example above describes the API shape only; pages should pass `titleLink` only when the destination route/content actually exists.
+
+It also supports a `sections` prop for generated page code:
+
+```jsx
+<TableGroup
+  title="Death"
+  sections={[
+    { title: "Death 1", content: <SimpleTable table={deathOneData} /> },
+    { title: "Death 2", content: <SimpleTable table={deathTwoData} /> },
+  ]}
+/>
+```
+
+Implementation notes:
+- Uses Material UI primitives with an outlined-group treatment inspired by the MUI outlined input label pattern.
+- Uses Tailwind utility classes for spacing and text sizing.
+- Encloses sibling groups with a light Material-style line interrupted by the group title, instead of using a colored background.
+- Shows the expand/collapse icon after the group title, matching the existing table-title pattern.
+- Uses content indent, smaller nested table titles, an outline around each outer group, and spacing between outer groups to show hierarchy.
+- Supports title links through `titleLink`; row favorite/link behavior remains the responsibility of the inner tables.
+- Supports `collapsible={false}` if a page wants the same grouping without an accordion.
+
+Migration target:
+- `src/pages/Mage/Spells.jsx`
+- `src/pages/Mage/Arcana.jsx`
+- ritual-style sibling rank groups inside `src/pages/Vampire/Disciplines.jsx`, currently Crúac and Theban Sorcery
+
+Applied migration:
+- `src/pages/Mage/Spells.jsx` now uses `TableGroup` as the outer Arcana container.
+- `src/pages/Mage/Arcana.jsx` now renders the selected Arcana as plain `SimpleTable` instances, without the outer `TableGroup`.
+- `src/pages/Mage/spellTableData.js` centralizes the Arcana list, visible spell headers, row normalization, and spell detail links.
+- `src/Data/Vampire/DisciplineData.jsx` now exposes `ThebanSorceryOverview` and `CrùacOverview` as parent/overview objects outside the ritual arrays. `ThebanSorceryData` and `CrùacData` now contain only real ritual rows, without the old sentinel `N/A` overview fields or rank-divider objects.
+- `src/pages/Vampire/Disciplines.jsx` now renders Theban Sorcery and Crúac with `TableGroup` plus nested `SimpleTable` instances by rank. Their outer titles use `titleLink`, pointing at the existing discipline detail pages, while the old `Book: "N/A"` overview objects are no longer inside the table data arrays.
+
+Non-target:
+- Parent/child ranked content such as ordinary disciplines, gifts, and utterances. Those should use a hierarchical data shape first. Crúac and Theban Sorcery are a different subcase: the parent object is a linked overview, while the child rituals are sibling rank buckets rather than a fixed one-power-per-rank progression.
+
+## Data direction: parent objects with `Ranks`
+
+This applies when the group label is a real content object and the rows below it are ranked children.
+
+Preferred shape:
+
+```js
+{
+  Name: "Animalism",
+  Book: "VTR p115",
+  LongDescription: [...],
+  Ranks: [
+    {
+      Rank: "•",
+      Name: "Feral Whispers",
+      Cost: "-",
+      Description: "Speak with animals",
+      "Dice Pool": "Manipulation + Animal Ken + Animalism",
+      Book: "VTR p115"
+    }
+  ]
+}
+```
+
+Rationale:
+- The parent is searchable/favoritable as a real object.
+- The ranked powers remain normal row-like objects.
+- Overview text belongs to the parent instead of living in fake table rows.
+- Detail pages can render parent content and ranked rows from the same object.
+- Listing pages can choose whether to show one parent row, expanded ranked rows, or both.
+
+Primary candidates:
+- `src/Data/Vampire/DisciplineData.jsx`
+- `src/Data/Werewolf/GiftData.jsx`
+- `src/Data/Mummy/UtterancesData.jsx`
+
+Possible later candidate:
+- Some parts of `src/Data/Changeling/ContractData.jsx`, after deciding which labels are real parent content and which are only table buckets.
 
 ## Data-shape findings
 
@@ -576,19 +691,23 @@ Files:
 - `src/Data/Vampire/DisciplineData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable`.
+- Uses `ManyHeadersTable` for ordinary disciplines, Coils, bloodline disciplines, and other disciplines.
+- Theban Sorcery and Crúac now use `TableGroup` with nested `SimpleTable` instances grouped by `Rank`.
 - Section rows are detected through fields such as `Rank: "N/A"` or `Book: "N/A"`.
 - Overview rows like `Animalism` contain real long-form content and should remain favorite-able/searchable/linkable.
+- For Theban Sorcery and Crúac, the overview object is extracted into dedicated exports and used as the outer linked group title. The ritual arrays contain only real rituals; the overview objects remain in `allDiscipline` for detail/search/link behavior.
 
 Current read:
 - Legit grouped content.
 - This is a key pilot for group labels that are also content entries.
+- Theban Sorcery and Crúac are closer to the Arcana/spell shape than to fixed discipline progressions: each rank can contain many alphabetically ordered rituals, while the parent title links to the overview content.
 
 Needed table behavior:
 - Group header can render as a dark/strong row.
 - Group header can have a link.
 - Group header can be favorite-able.
 - Child rows can also link when they have detail content.
+- Ritual-style groups can use an outer linked `TableGroup` title and normal inner tables, without fake visual objects in the rendered rows.
 
 #### Changeling contracts
 
@@ -597,7 +716,12 @@ Files:
 - `src/Data/Changeling/ContractData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable`.
+- Uses `ManyHeadersTable` for each contract pool.
+- `src/pages/Changeling/Contracts.jsx` now also uses `TableGroup` to wrap related table pools:
+  - `Seeming Contracts`: Beastly, Darkling, Elemental, Fairest, Ogreish, and Wizened.
+  - `Court Contracts`: Spring, Summer, Autumn, Winter, and Other Court Contracts.
+  - `Goblin Contracts`: named goblin contract families plus unclassified goblin contracts.
+- `Universal Contracts` remains a standalone table.
 - Overview rows like `Contracts of the Board` contain family description content.
 - Some sections have note paragraphs between tables.
 
@@ -609,8 +733,9 @@ Current read:
 
 Needed table behavior:
 - Same as disciplines, plus per-table column configs.
-- Keep page-level notes outside the table.
+- Keep page-level notes inside the appropriate outer group, but outside the inner table.
 - Allow one page/table family to mix content group headers and visual rank bucket headers.
+- Support nested table titles, so inner `ManyHeadersTable` sections do not compete visually with the outer `TableGroup` title.
 
 #### Werewolf gifts
 
@@ -752,7 +877,7 @@ This pass was made after cleaning Vampire clan, bloodline, covenant, vampire mer
 
 Live sectioned/grouped families still in the code:
 - `src/pages/Vampire/Disciplines.jsx`: postponed edge case; rank-progression content groups.
-- `src/pages/Changeling/Contracts.jsx`: mixed content groups and rank buckets. Most contract family rows are content groups, but unclassified goblin contracts also contain dot/rank bucket headers.
+- `src/pages/Changeling/Contracts.jsx`: mixed content groups and rank buckets. Outer pool grouping now uses `TableGroup`, while the inner tables still use `ManyHeadersTable`; most contract family rows are content groups, but unclassified goblin contracts also contain dot/rank bucket headers.
 - `src/pages/Werewolf/Gifts.jsx`: postponed edge case; rank-progression visual groups.
 - `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: postponed edge case; alphabetical buckets by rank/level from array-of-arrays, not sentinel rows.
 - `src/pages/Mummy/Utterances.jsx`: repeated-row grouping through `mergeHeaders`, confirmed legit.
@@ -765,6 +890,8 @@ Applied cleanup:
 - `src/Data/Changeling/CourtData.jsx`: split into court-family arrays and fixed the combined `Courts` export so it uses only real court rows.
 - `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx`: split into `psychicMeritsData`, `psychicEspMeritsData`, `psychicMediumistMeritsData`, `psychicPsychokineticMeritsData`, and `psychicTelepathicMeritsData`.
 - `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx`: split into `thaumaturgyMeritsData` for Dream/Library/Magical Nexus and `thaumaturgyRitualMeritsData` for ritual merits.
+- `src/pages/Changeling/Contracts.jsx`: grouped Seeming, Court, and Goblin contract table pools with `TableGroup`.
+- `src/components/ManyHeadersTable/ManyHeadersTable.jsx`: added `titleVariant="nested"` so legacy grouped tables can sit inside outer `TableGroup` containers without equal heading weight.
 
 Cases that most need Paolo's comment before code changes:
 - `Contracts`: should dot headers in unclassified goblin contracts be treated as rank buckets, while contract-family rows remain content groups?
@@ -772,13 +899,14 @@ Cases that most need Paolo's comment before code changes:
 - Detail tables: should favorite toggles remain visible inside detail-page sub-tables?
 
 Postponed edge cases:
-- Spells/Arcana: alphabetical rank/level buckets.
-- Disciplines: rank-progression content groups.
-- Gifts: rank-progression visual groups.
+- Spells/Arcana: alphabetical rank/level buckets. Preferred migration is `TableGroup` wrapping standard tables, not a hierarchical parent/rank data rewrite.
+- Disciplines: rank-progression content groups. Preferred migration is parent discipline objects with a `Ranks` array.
+- Gifts: rank-progression visual groups. Preferred migration is parent gift objects with a `Ranks` array.
+- Utterances: repeated-row grouped content. Preferred migration is parent utterance objects with a `Ranks` array or equivalent ranked child list, preserving the current grouped-row meaning.
 
 Current component-level edge cases:
 - `ManyHeadersTable` relies on sentinel values such as `Rank: "N/A"` or `Book: "N/A"`. This works for simple visual labels but becomes fragile when an actual row also has `N/A`.
-- `MultipleTables` already has a cleaner grouped shape, but its cell rendering duplicates favorites, links, mobile cards, `BookLink`, and show/hide behavior.
+- `MultipleTables` already has a cleaner grouped shape, but its cell rendering duplicates favorites, links, mobile cards, `BookLink`, and show/hide behavior. `TableGroup` is the preferred replacement when the inner content can be rendered as normal tables.
 - `mergeHeaders` is a desktop table trick for a real grouped-row need. The unified component should model the grouping directly, then decide whether desktop renders row-spans or group headers.
 - Mobile parity is improved now that `SimpleTable` mobile cards have favorites, but `mergeHeaders` is still desktop-only behavior.
 

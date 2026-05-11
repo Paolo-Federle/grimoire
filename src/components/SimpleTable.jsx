@@ -13,7 +13,9 @@ export default function SimpleTable({
     table,
     headers,
     activeRowLink,
-    mergeHeaders
+    mergeHeaders,
+    titleVariant = "default",
+    className = ""
 }) {
     const [isSectionActive, setIsSectionActive] = useState(true);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -26,16 +28,20 @@ export default function SimpleTable({
 
     const tableHeaders =
         headers || Object.keys(table?.[0] || {}).filter((h) => h !== "link");
+    const TitleTag = titleVariant === "nested" ? "h2" : "h1";
+    const titleClassName = titleVariant === "nested"
+        ? "cursor-pointer text-xl flex items-center gap-1"
+        : "cursor-pointer text-2xl flex items-center gap-1";
 
     return (
-        <div>
+        <div className={className}>
             {title && (
-                <h1
+                <TitleTag
                     onClick={() => setIsSectionActive((p) => !p)}
-                    className="cursor-pointer text-2xl flex items-center gap-1"
+                    className={titleClassName}
                 >
                     {title} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-                </h1>
+                </TitleTag>
             )}
 
             {upperText && isSectionActive && (

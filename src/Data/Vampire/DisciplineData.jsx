@@ -1766,8 +1766,7 @@ export const CoilsOfTheDragonData = [
     }
 ]
 
-export const ThebanSorceryData = [
-    {
+export const ThebanSorceryOverview = {
         "Name": "Theban Sorcery",
         "LongDescription": [
             "Theban Sorcery is the miraculous magic practiced by members of the Lancea Sanctum. According to the covenant, it is a tradition of magic taught (or stolen, depending on to whom one listens) by an “avatar of God.” The practice is said to have been received when early members visited Thebias in northern Egypt with a contingent of Christian soldiers during the reign of Diocletian, after Longinus had vanished from the world. The Discipline has decidedly judgmental overtones, combining a focus on Biblical elements (rains of blood, plagues of locusts, the vengeance of God) with a very overt and occult reliance on righteousness.",
@@ -1791,11 +1790,10 @@ export const ThebanSorceryData = [
                 ]
             }
         ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "•",
         "Discipline": "Theban Sorcery"
-    },
+};
+
+export const ThebanSorceryData = [
     {
         "Name": "The Angel's Touch",
         "LongDescription": [
@@ -1920,16 +1918,6 @@ export const ThebanSorceryData = [
         "Description": "Store vitae from the caster's body in any inanimate object, to be recalled later by any who know it is there.",
         "Book": "VtR 146",
         "Rank": "•",
-        "Discipline": "Theban Sorcery"
-    },
-    {
-        "Name": "Theban Sorcery",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "••",
         "Discipline": "Theban Sorcery"
     },
     {
@@ -2078,16 +2066,6 @@ export const ThebanSorceryData = [
         "Description": "Increases the caster's speed by Theban Sorcery * Activation success for a few turns. May be precast and activated later any time during the night. Does not stack with Celerity.",
         "Book": "Noma 94",
         "Rank": "••",
-        "Discipline": "Theban Sorcery"
-    },
-    {
-        "Name": "Theban Sorcery",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "•••",
         "Discipline": "Theban Sorcery"
     },
     {
@@ -2260,16 +2238,6 @@ export const ThebanSorceryData = [
         "Discipline": "Theban Sorcery"
     },
     {
-        "Name": "Theban Sorcery",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "••••",
-        "Discipline": "Theban Sorcery"
-    },
-    {
         "Name": "Call of Amoniel",
         "LongDescription": [
             "This ritual was discovered in the vault of Thebes on the first night after the angel Amoniel gave Theban Sorcery to the Sanctified, but was renamed following St. Daniel’s day of reckoning. This ritual simply allows the sorcerer to successfully awaken any time during the following day, without planning in advance what criterion might be necessary to rouse her. A minor degree of clairvoyance is involved in this magic, as the character may even be roused by stimuli seemingly too distant to hear or feel — in short, the sorcerer automatically awakens when her sleep is disturbed. She may even awaken based on information that would normally be unavailable to a sleeping vampire, such as the time of day, the delivery of a package or the falling of snow. The range of this vague clairvoyance is extremely limited; the sorcerer is not made aware of anything outside the boundaries of the building or immediate region where she sleeps, but the specific limits are up to the Storyteller’s assessment of the circumstance. As a guideline, assume the sorcerer senses anything she could if she were awake and walking circles around her sleeping body. For example, the sorcerer may sense a car door slamming outside her haven, but not a car just driving by. She may become aware of rain clattering on the roof, but not of an approaching storm. She may dream that she’s sitting by a campfire on the dirt above her slumbering corpse when she sees eyes shining at the edge of the firelight, but be unable to discern anything going on out in the darkness. The sleeping vampire doesn’t necessarily see or hear these stimuli, however, but knows they’re occurring.",
@@ -2371,16 +2339,6 @@ export const ThebanSorceryData = [
         "Description": "If the caster succeeds at the resisted activation roll, the victim suffers lethal damage (if mortal) or Vitae loss (if Kindred), based on the number of successes.",
         "Book": "VtR 147",
         "Rank": "••••",
-        "Discipline": "Theban Sorcery"
-    },
-    {
-        "Name": "Theban Sorcery",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "•••••",
         "Discipline": "Theban Sorcery"
     },
     {
@@ -2499,8 +2457,7 @@ export const ThebanSorceryData = [
     }
 ]
 
-export const CrùacData = [
-    {
+export const CrùacOverview = {
         "Name": "Crúac",
         "LongDescription": [
             "Crúac is the common name for the pagan blood sorcery practiced by the Circle of the Crone. A type of ritual magic, Crúac, meaning “crescent,” is a mixture of pre-Christian and pagan magic from across the globe whose only common element is a reliance on blood sacrifice. Crúac is denounced by many traditional Kindred as “black magic” or “witchcraft,” and in areas where the Lancea Sanctum holds sway, Crúac’s known practitioners are occasionally persecuted as heretics. Of course, it is such very derision and fear of Crúac that leads many to the Circle of the Crone and, by extension, to this Discipline’s study. The Circle of the Crone’s message of empowerment speaks to many a neonate, and for some there is no greater expression of that empowerment than this Discipline.",
@@ -2526,11 +2483,10 @@ export const CrùacData = [
                 ]
             }
         ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "•",
         "Discipline": "Crúac"
-    },
+};
+
+export const CrùacData = [
     {
         "Name": "Balancing the Four Humors",
         "LongDescription": [
@@ -2677,16 +2633,6 @@ export const CrùacData = [
         "Book": "Crone 204",
         "Rank": "•",
         "Long description": "Crúac",
-        "Discipline": "Crúac"
-    },
-    {
-        "Name": "Crúac",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "••",
         "Discipline": "Crúac"
     },
     {
@@ -2889,16 +2835,6 @@ export const CrùacData = [
         "Discipline": "Crúac"
     },
     {
-        "Name": "Crúac",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "•••",
-        "Discipline": "Crúac"
-    },
-    {
         "Name": "Beloved Deodand",
         "LongDescription": [
             "“Deodand” is an archaic British legal term that applies to any object used in an unlawful killing. (Some nobles were entitled to claim deodands from crimes committed on their land as a fine.) To use this ritual, the sorcerer must obtain an item used to kill someone, e.g. a hangman’s noose, a killer’s knife or the gun that fired the fatal shot. When the ritual is performed over the item, it forms a mystic link with the ritualist. If the item is used again, the ritualist gains one Vitae from every subject wounded by the deodand. Distance doesn’t matter, but the weapon must be used within a number of nights equal to the successes achieved on the activation roll. Likewise, for each success scored on the activation roll, the weapon can feed its master one additional time. A Beloved Deodand can only draw one Vitae from each individual victim of the weapon per casting.",
@@ -3078,16 +3014,6 @@ export const CrùacData = [
         "Discipline": "Crúac"
     },
     {
-        "Name": "Crúac",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "••••",
-        "Discipline": "Crúac"
-    },
-    {
         "Name": "Blade of Tu'At",
         "LongDescription": [
             "The Sethite smears a knife or sword (ritually, the Sethites favor the use of the bronze Khepesh, the dog-legged scimitar of Ancient Egypt) with the mixed blood of the sacrificial victim and his own Vitae. If the activation roll for this ritual is successful, the blade gains the power to cause aggravated damage to ghosts and spirits, whether in twilight or materialized. The weapon is no more effective than usual against anyone else. The effect of the ritual lasts until dawn, when the weapon rusts or rots away and can never be used again."
@@ -3222,16 +3148,6 @@ export const CrùacData = [
         "Book": "VtR 145",
         "Rank": "••••",
         "Long description": "Crúac",
-        "Discipline": "Crúac"
-    },
-    {
-        "Name": "Crúac",
-        "LongDescription": [
-            ""
-        ],
-        "Description": "N/A",
-        "Book": "N/A",
-        "Rank": "•••••",
         "Discipline": "Crúac"
     },
     {
@@ -12942,8 +12858,10 @@ export const otherDisciplineData = [
 export const allDiscipline = [
     ...UniversalDisciplineData,
     ...CoilsOfTheDragonData,
+    ThebanSorceryOverview,
     ...ThebanSorceryData,
-    ...CrùacData, 
+    CrùacOverview,
+    ...CrùacData,
     ...BloodlineDisciplineData,
     ...otherDisciplineData
-]
+].filter(Boolean)
