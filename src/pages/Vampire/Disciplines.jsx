@@ -1,9 +1,9 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
 import SimpleTable from '../../components/SimpleTable';
 import TableGroup from '../../components/TableGroup';
 import {
     UniversalDisciplineData,
+    CoilsOfTheDragonOverview,
     CoilsOfTheDragonData,
     ThebanSorceryOverview,
     ThebanSorceryData,
@@ -22,6 +22,11 @@ const buildRitualRankGroups = (data) => {
         rows: data.filter((row) => row.Rank === rank),
     }));
 };
+
+const addRankedLinks = (data, keyName, baseLink) => addLink(data, keyName, baseLink).map((row) => ({
+    ...row,
+    Ranks: Array.isArray(row.Ranks) ? addLink(row.Ranks, keyName, baseLink) : row.Ranks,
+}));
 
 function RitualTableGroup({ data, overview, fallbackTitle }) {
     const headers = ['Name', 'Description', 'Book'];
@@ -53,18 +58,19 @@ export default function Disciplines() {
 
     const headers = ['Name', 'Rank', 'Cost', 'Description', 'Book']
     const coilHeaders = ['Name','Rank', 'Description', 'Book']
-    const headerCheckFields = ['Rank']
     const bloodlineDisciplineData = ['Discipline', 'Bloodline']
     const disciplineData = ['Discipline']
 
     return (
         <div className='grid-container'>
-            <ManyHeadersTable table={addLink(UniversalDisciplineData, 'Name', '/vampire/disciplines/')} title={'Disciplines'} headers={headers} headerCheckFields={headerCheckFields} alternateData={disciplineData} prereqForLink={'Name'} activeRowLink={true}/>
-            <ManyHeadersTable table={addLink(CoilsOfTheDragonData, 'Name', '/vampire/disciplines/')} title={'Coils of the Dragon'} headers={coilHeaders} headerCheckFields={headerCheckFields} alternateData={disciplineData} prereqForLink={'Name'} activeRowLink={true}/>
+            <SimpleTable table={addRankedLinks(UniversalDisciplineData, 'Name', '/vampire/disciplines/')} title={'Disciplines'} headers={headers} activeRowLink={true}/>
+            <TableGroup title={CoilsOfTheDragonOverview.Name} titleLink={slugify(CoilsOfTheDragonOverview.Name)}>
+                <SimpleTable table={addRankedLinks(CoilsOfTheDragonData, 'Name', '/vampire/disciplines/')} headers={coilHeaders} activeRowLink={true}/>
+            </TableGroup>
             <RitualTableGroup data={ThebanSorceryData} overview={ThebanSorceryOverview} fallbackTitle="Theban Sorcery" />
             <RitualTableGroup data={CrùacData} overview={CrùacOverview} fallbackTitle="Crúac" />
-            <ManyHeadersTable table={addLink(BloodlineDisciplineData, 'Name', '/vampire/disciplines/')} title={'Bloodline Disciplines'} headers={headers} headerCheckFields={headerCheckFields} alternateData={bloodlineDisciplineData} prereqForLink={'Name'} activeRowLink={true}/>
-            <ManyHeadersTable table={addLink(otherDisciplineData, 'Name', '/vampire/disciplines/')} title={'Other Disciplines'} headers={headers} headerCheckFields={headerCheckFields} alternateData={disciplineData} prereqForLink={'Name'} activeRowLink={true}/>
+            <SimpleTable table={addRankedLinks(BloodlineDisciplineData, 'Name', '/vampire/disciplines/')} title={'Bloodline Disciplines'} headers={headers} activeRowLink={true} rankedParentHeaders={bloodlineDisciplineData}/>
+            <SimpleTable table={addRankedLinks(otherDisciplineData, 'Name', '/vampire/disciplines/')} title={'Other Disciplines'} headers={headers} activeRowLink={true} rankedParentHeaders={disciplineData}/>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable'
+import SimpleTable from '../../components/SimpleTable';
 import TableGroup from '../../components/TableGroup';
 import {
     universalContractData, beastlyContractsData, darklingContractsData, elementalContractsData,
@@ -7,7 +7,7 @@ import {
     summerCourtContractsData, autumnCourtContractsData, winterCourtContractsData, minorCourtContractData,
     goblinContractData, unclassifiedGoblinContractData,
 } from '../../Data/Changeling/ContractData'
-import { addLink } from '../../utils';
+import { slugify } from '../../utils';
 
 export default function Contracts() {
 
@@ -15,54 +15,94 @@ export default function Contracts() {
     const courtContHeader = ['Name', 'Rank', 'Description', 'Catch', 'Court Goodwill Requirement if not a member', 'Cost', 'Dice Pool']
     const goblinContHeader = ['Name', 'Rank', 'Benefit', 'Drawback', 'Catch', 'Cost', 'Dice Pool', 'Book']
     const unclassifiedGoblinContHeader = ['Name', 'Benefit', 'Drawback', 'Catch', 'Cost', 'Dice Pool', 'Book']
-    const headerCheckFields = ['Rank']
-    const unclassifiedFields = ['Drawback']
     const contractData = ['Name']
     const courtData = ['Name', 'Dice Pool']
-    const unclassifiedData = ['Name']
 
-    const renderContractTable = (data, title, headers, headerCheckFields, alternateData, activeRowLink = false, titleVariant = "default") => {
-        const tableData = activeRowLink ? addLink(data, 'Name', '/changeling/contracts/') : data;
-        return (
-            <ManyHeadersTable
-                table={tableData}
-                title={title}
-                headers={headers}
-                headerCheckFields={headerCheckFields}
-                alternateData={alternateData}
-                activeRowLink={activeRowLink}
-                prereqForLink={'FullDescription'}
-                titleVariant={titleVariant}
-            />
-        );
+    const addContractLink = (row) => {
+        if (!row?.Name || row.FullDescription === undefined || row.FullDescription === "") return row;
+
+        return {
+            ...row,
+            link: `/changeling/contracts/${slugify(row.Name)}`
+        };
     };
+
+    const addRankedLinks = (data) => (
+        data.map((row) => ({
+            ...addContractLink(row),
+            Ranks: Array.isArray(row.Ranks) ? row.Ranks.map(addContractLink) : row.Ranks
+        }))
+    );
+
+    const addContractLinks = (data) => data.map(addContractLink);
+
+    const groupContractsByRank = (data) => (
+        data.reduce((groups, row) => {
+            const title = row.Rank || "Unranked";
+            const group = groups.find((item) => item.title === title);
+
+            if (group) {
+                group.rows.push(row);
+            } else {
+                groups.push({ title, rows: [row] });
+            }
+
+            return groups;
+        }, [])
+    );
+
+    const renderRankedContractTable = (data, title, headers, rankedParentHeaders, titleVariant = "default") => (
+        <SimpleTable
+            table={addRankedLinks(data)}
+            title={title}
+            headers={headers}
+            activeRowLink={true}
+            titleVariant={titleVariant}
+            rankedParentHeaders={rankedParentHeaders}
+        />
+    );
+
+    const renderUnclassifiedGoblinContracts = () => (
+        <TableGroup title="Unclassified Goblin Contracts">
+            {groupContractsByRank(unclassifiedGoblinContractData).map(({ title, rows }) => (
+                <SimpleTable
+                    key={title}
+                    table={addContractLinks(rows)}
+                    title={title}
+                    headers={unclassifiedGoblinContHeader}
+                    activeRowLink={true}
+                    titleVariant="nested"
+                />
+            ))}
+        </TableGroup>
+    );
 
     return (
         <div className='grid-container'>
-            {renderContractTable(universalContractData, 'Universal Contracts', universalContHeader, headerCheckFields, contractData, true)}
+            {renderRankedContractTable(universalContractData, 'Universal Contracts', universalContHeader, contractData)}
 
             <TableGroup title="Seeming Contracts">
-                {renderContractTable(beastlyContractsData, 'Beastly Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
-                {renderContractTable(darklingContractsData, 'Darkling Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
-                {renderContractTable(elementalContractsData, 'Elemental Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
-                {renderContractTable(fairestContractsData, 'Fairest Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
-                {renderContractTable(ogreishContractsData, 'Ogreish Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
-                {renderContractTable(wizenedContractsData, 'Wizened Contracts', universalContHeader, headerCheckFields, contractData, true, "nested")}
+                {renderRankedContractTable(beastlyContractsData, 'Beastly Contracts', universalContHeader, contractData, "nested")}
+                {renderRankedContractTable(darklingContractsData, 'Darkling Contracts', universalContHeader, contractData, "nested")}
+                {renderRankedContractTable(elementalContractsData, 'Elemental Contracts', universalContHeader, contractData, "nested")}
+                {renderRankedContractTable(fairestContractsData, 'Fairest Contracts', universalContHeader, contractData, "nested")}
+                {renderRankedContractTable(ogreishContractsData, 'Ogreish Contracts', universalContHeader, contractData, "nested")}
+                {renderRankedContractTable(wizenedContractsData, 'Wizened Contracts', universalContHeader, contractData, "nested")}
             </TableGroup>
 
             <TableGroup title="Court Contracts">
-                {renderContractTable(springCourtContractsData, 'Spring Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
-                {renderContractTable(summerCourtContractsData, 'Summer Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
-                {renderContractTable(autumnCourtContractsData, 'Autumn Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
-                {renderContractTable(winterCourtContractsData, 'Winter Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
-                {renderContractTable(minorCourtContractData, 'Other Court Contracts', courtContHeader, headerCheckFields, courtData, true, "nested")}
+                {renderRankedContractTable(springCourtContractsData, 'Spring Court Contracts', courtContHeader, courtData, "nested")}
+                {renderRankedContractTable(summerCourtContractsData, 'Summer Court Contracts', courtContHeader, courtData, "nested")}
+                {renderRankedContractTable(autumnCourtContractsData, 'Autumn Court Contracts', courtContHeader, courtData, "nested")}
+                {renderRankedContractTable(winterCourtContractsData, 'Winter Court Contracts', courtContHeader, courtData, "nested")}
+                {renderRankedContractTable(minorCourtContractData, 'Other Court Contracts', courtContHeader, courtData, "nested")}
                 <p><b>Note:</b> To buy an ability with Mantle, ability must be Clause Rank - 1 = Mantle. So a level 4 can own the 5th dot, and a level 2 the 3rd.</p>
             </TableGroup>
 
             <TableGroup title="Goblin Contracts">
-                {renderContractTable(goblinContractData, 'Goblin Contract Families', goblinContHeader, headerCheckFields, courtData, true, "nested")}
+                {renderRankedContractTable(goblinContractData, 'Goblin Contract Families', goblinContHeader, contractData, "nested")}
                 <p><b>Note:</b> Goblin Contracts are not chained and any clause rank can be bought with no prerequisites.</p>
-                {renderContractTable(unclassifiedGoblinContractData, 'Unclassified Goblin Contracts', unclassifiedGoblinContHeader, unclassifiedFields, unclassifiedData, true, "nested")}
+                {renderUnclassifiedGoblinContracts()}
             </TableGroup>
         </div>
     );

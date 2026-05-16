@@ -140,10 +140,98 @@ Rationale:
 Primary candidates:
 - `src/Data/Vampire/DisciplineData.jsx`
 - `src/Data/Werewolf/GiftData.jsx`
+- `src/Data/Changeling/ContractData.jsx` for Universal and Seeming contract families
 - `src/Data/Mummy/UtterancesData.jsx`
 
 Possible later candidate:
-- Some parts of `src/Data/Changeling/ContractData.jsx`, after deciding which labels are real parent content and which are only table buckets.
+- Remaining parts of `src/Data/Changeling/ContractData.jsx`, especially Court and Goblin contracts, after deciding which labels are real parent content and which are only table buckets.
+
+## `SimpleTable` support for parent rows with `Ranks`
+
+`SimpleTable` now detects parent rows that contain a `Ranks` array and renders them as a hierarchical table instead of a flat table.
+
+Supported default shape:
+
+```js
+{
+  Name: "Animalism",
+  Description: "",
+  Book: "VtR 115",
+  LongDescription: [...],
+  link: "/vampire/disciplines/animalism",
+  Ranks: [
+    {
+      Name: "Feral Whispers",
+      Rank: "•",
+      Cost: "-",
+      Description: "Speak with animals",
+      Book: "VtR 115",
+      link: "/vampire/disciplines/feral_whispers"
+    }
+  ]
+}
+```
+
+Also supported, for existing Manifestation/Key-style data:
+
+```js
+{
+  Manifestation: "Boneyard",
+  Key: "Cold Wind",
+  Attribute: "Wits",
+  Skill: "Occult",
+  Summary: "...",
+  Ranks: [
+    { dot: 1, summary: "..." },
+    { dot: 2, summary: "..." }
+  ],
+  Book: "GTS 115"
+}
+```
+
+Behavior:
+- Parent rows render as the same dark section rows used by `ManyHeadersTable`.
+- Parent rows can be linked when `activeRowLink` is enabled and the parent has `link`.
+- Child rows render as normal alternating rows.
+- Child rows can also link when they have `link`.
+- `dot` is converted to bullet-dot rank text when a child does not already have `Rank`.
+- `summary` is rendered under `Summary` when a child does not already have that field.
+- Detail text fields such as `LongDescription` remain in the data object but are not auto-rendered as columns.
+
+Migration rule:
+- Keep parent descriptive/detail data on the parent object.
+- Move every ranked power into the parent `Ranks` array.
+- Do not drop fields from ranked children; if a field is not visible in the list table, it can still remain on the child for detail pages/search/favorites.
+- Prefer passing explicit `headers` during migration so the visible table remains stable.
+
+Applied migration:
+- `src/Data/Vampire/DisciplineData.jsx`: `UniversalDisciplineData` now uses parent discipline objects with `Ranks` arrays.
+- `src/Data/Vampire/DisciplineData.jsx`: `UniversalDisciplineFlatData` is derived from the nested data and used by `allDiscipline`, so existing discipline and power detail routes still resolve.
+- `src/pages/Vampire/Disciplines.jsx`: the universal Disciplines section now uses `SimpleTable` with ranked parent rendering instead of `ManyHeadersTable`.
+- Data-preservation check: the migration reconstructed the original 48 universal discipline rows from the new nested data with no mismatches, apart from intentionally removing parent `Rank: "N/A"` sentinel fields.
+- `src/Data/Vampire/DisciplineData.jsx`: `CoilsOfTheDragonOverview` now holds the top-level Coils overview, while `CoilsOfTheDragonData` contains only the individual coil families with ranked tiers in `Ranks`.
+- `src/Data/Vampire/DisciplineData.jsx`: `CoilsOfTheDragonFlatData` is derived from the nested Coils data and used by `allDiscipline` after the overview object.
+- `src/pages/Vampire/Disciplines.jsx`: the Coils section now renders through `TableGroup` plus ranked `SimpleTable`; the group title links to the Coils overview detail page and the coil family/power rows keep their links.
+- Data-preservation check: the Coils migration reconstructed the original 46 rows from the overview plus nested data with no mismatches, apart from intentionally removing old `Rank: "N/A"` sentinel fields from overview/group rows.
+- `src/Data/Vampire/DisciplineData.jsx`: `BloodlineDisciplineData` now uses one parent object per bloodline discipline, with each discipline power moved into the parent `Ranks` array.
+- `src/Data/Vampire/DisciplineData.jsx`: `BloodlineDisciplineFlatData` is derived from the nested bloodline discipline data and used by `allDiscipline`.
+- `src/components/SimpleTable.jsx`: ranked tables can receive `rankedParentHeaders` when parent section rows need to display different fields than child rows; this preserves the old bloodline parent row display of `Discipline` and `Bloodline`.
+- `src/pages/Vampire/Disciplines.jsx`: the Bloodline Disciplines section now uses ranked `SimpleTable` instead of `ManyHeadersTable`.
+- Data-preservation check: the Bloodline Disciplines migration reconstructed the original 336 rows from the nested data with no mismatches, apart from intentionally removing old `Rank: "N/A"` sentinel fields from parent rows.
+- `src/Data/Vampire/DisciplineData.jsx`: `otherDisciplineData` now uses parent discipline objects with ranked powers in `Ranks`.
+- `src/Data/Vampire/DisciplineData.jsx`: `otherDisciplineFlatData` is derived from the nested other discipline data and used by `allDiscipline`.
+- `src/pages/Vampire/Disciplines.jsx`: the Other Disciplines section now uses ranked `SimpleTable`; this removes `ManyHeadersTable` from the Vampire disciplines page.
+- Data-preservation check: the Other Disciplines migration reconstructed the original 46 rows from the nested data with no mismatches, apart from intentionally removing old `Rank: "N/A"` sentinel fields from parent rows.
+- `src/Data/Werewolf/GiftData.jsx`: `giftData` now uses one parent object per gift list, with individual Gifts moved into the parent `Ranks` array.
+- `src/Data/Werewolf/GiftData.jsx`: `giftFlatData` is derived from the nested gift data for consumers that need the original flat shape.
+- `src/pages/Werewolf/Gifts.jsx`: the Gifts section now uses ranked `SimpleTable` instead of `ManyHeadersTable`.
+- `src/components/Sheet/raceOptions.js`: the Werewolf sheet gift picker now reads parent gift-list rows directly from `giftData`.
+- Data-preservation check: the Gifts migration reconstructed the original 398 rows from the nested data with no mismatches, apart from intentionally removing old `Rank: "N/A"` sentinel fields from parent rows.
+- `src/Data/Changeling/ContractData.jsx`: Universal, Seeming, Court, minor Court, and named Goblin contract arrays now use real contract-family parent rows with ranked clauses inside `Ranks`.
+- `src/Data/Changeling/ContractData.jsx`: `unclassifiedGoblinContractData` remains flat real contract rows. Its rank grouping is a page-rendering concern, like Arcana/spell rank buckets, not a parent-with-children data model.
+- `src/Data/Changeling/ContractData.jsx`: flat derived exports such as `universalContractFlatData` and `beastlyContractsFlatData` preserve the old flattened shape for `allContracts`, detail pages, search, and sheet options.
+- `src/pages/Changeling/Contracts.jsx`: all contract pools now render with ranked `SimpleTable`; `ManyHeadersTable` is no longer used by the Contracts page.
+- Data-preservation check: the Universal and Seeming contract migration converted 20 contract-family rows and preserved 131 ranked clauses in order; the Court/named Goblin pass converted 20 more contract-family rows and preserved 90 ranked clauses. `unclassifiedGoblinContractData` was flattened back to its 26 real contract rows. Old `Rank: "N/A"` sentinel fields were intentionally removed from real parent rows.
 
 ## Data-shape findings
 
@@ -691,9 +779,9 @@ Files:
 - `src/Data/Vampire/DisciplineData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable` for ordinary disciplines, Coils, bloodline disciplines, and other disciplines.
+- Universal disciplines, Coils, bloodline disciplines, and other disciplines now use ranked `SimpleTable` data with parent `Ranks` arrays.
 - Theban Sorcery and Crúac now use `TableGroup` with nested `SimpleTable` instances grouped by `Rank`.
-- Section rows are detected through fields such as `Rank: "N/A"` or `Book: "N/A"`.
+- Former discipline section rows that used `Rank: "N/A"` have been converted into parent objects or extracted overview objects.
 - Overview rows like `Animalism` contain real long-form content and should remain favorite-able/searchable/linkable.
 - For Theban Sorcery and Crúac, the overview object is extracted into dedicated exports and used as the outer linked group title. The ritual arrays contain only real rituals; the overview objects remain in `allDiscipline` for detail/search/link behavior.
 
@@ -716,7 +804,8 @@ Files:
 - `src/Data/Changeling/ContractData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable` for each contract pool.
+- Contract-family pools use ranked `SimpleTable`.
+- Unclassified Goblin contracts use `TableGroup` with normal `SimpleTable` sections grouped by `Rank`.
 - `src/pages/Changeling/Contracts.jsx` now also uses `TableGroup` to wrap related table pools:
   - `Seeming Contracts`: Beastly, Darkling, Elemental, Fairest, Ogreish, and Wizened.
   - `Court Contracts`: Spring, Summer, Autumn, Winter, and Other Court Contracts.
@@ -727,15 +816,19 @@ Current rendering:
 
 Current read:
 - Legit grouped content, with one mixed subcase.
-- Similar to disciplines, but more varied because universal, court, goblin, and unclassified contracts use different headers.
-- Most rows such as `Contracts of the Board` are content-bearing contract families.
-- `unclassifiedGoblinContractData` also uses dot rows such as `Name: "•"` and `Name: "••"` as alphabetical rank buckets. Those are not content groups.
+- Similar to disciplines, but more varied because universal, seeming, court, goblin, and unclassified contracts use different headers.
+- Rows such as `Contracts of the Board`, `Contracts of Eternal Spring`, and `Contracts of Goblin Fortune` are now content-bearing parent objects.
+- Court and named Goblin contract rows now use the same parent `Ranks` shape as Universal and Seeming contracts.
+- `unclassifiedGoblinContractData` is flat data. The page groups it by `Rank`, because those dot sections are UI buckets like Arcana levels, not content groups.
 
 Needed table behavior:
 - Same as disciplines, plus per-table column configs.
 - Keep page-level notes inside the appropriate outer group, but outside the inner table.
 - Allow one page/table family to mix content group headers and visual rank bucket headers.
 - Support nested table titles, so inner `ManyHeadersTable` sections do not compete visually with the outer `TableGroup` title.
+- For migrated contract-family rows, pass `rankedParentHeaders={["Name"]}` so parent rows behave like the old section headers while children keep the full visible column set.
+- Court contract parent rows pass `rankedParentHeaders={["Name", "Dice Pool"]}` to preserve the old parent-source display in the second column.
+- For unclassified Goblin contracts, keep the data flat and group by `Rank` at the page/component level.
 
 #### Werewolf gifts
 
@@ -744,17 +837,18 @@ Files:
 - `src/Data/Werewolf/GiftData.jsx`
 
 Current rendering:
-- Uses `ManyHeadersTable`.
-- Many rows with `Rank: "N/A"` appear to name gift lists, followed by ranked gift rows.
+- Uses ranked `SimpleTable`.
+- `giftData` now stores each gift list as a parent row with ranked gifts inside `Ranks`.
+- `giftFlatData` reconstructs the old flat list if another consumer needs it.
 
 Current read:
-- Likely legit grouped table.
-- Most group labels look visual rather than rich content, but they are meaningful domain groups.
+- Legit grouped content.
+- Most group labels are meaningful gift-list domain groups rather than rich detail entries.
 
 Fresh read:
-- Most `Rank: "N/A"` rows are real gift-list labels, for example `Agony`, `Alpha`, `Battle`, `Blood`, and many more.
+- Former `Rank: "N/A"` rows are real gift-list labels, for example `Agony`, `Alpha`, `Battle`, `Blood`, and many more.
 - `Spirit's Silence, The` was adjusted and no longer needs to be tracked as a special blocker.
-- Gifts remain a valid edge case to address later with disciplines and other rank-progression tables.
+- Migration result: 398 original rows, 67 parent gift lists, 398 reconstructed flat rows, 0 mismatches.
 
 #### Psychic powers and Thaumaturgy merits
 
@@ -876,9 +970,7 @@ Resolution:
 This pass was made after cleaning Vampire clan, bloodline, covenant, vampire merits, Changeling kiths, Changeling courts, psychic merits, and thaumaturgy merits out of section-header table data.
 
 Live sectioned/grouped families still in the code:
-- `src/pages/Vampire/Disciplines.jsx`: postponed edge case; rank-progression content groups.
-- `src/pages/Changeling/Contracts.jsx`: mixed content groups and rank buckets. Outer pool grouping now uses `TableGroup`, while the inner tables still use `ManyHeadersTable`; most contract family rows are content groups, but unclassified goblin contracts also contain dot/rank bucket headers.
-- `src/pages/Werewolf/Gifts.jsx`: postponed edge case; rank-progression visual groups.
+- `src/pages/Changeling/Contracts.jsx`: mixed content groups and rank buckets. Contract-family groups render through ranked `SimpleTable`; unclassified Goblin contracts render as flat rank-bucket tables inside `TableGroup`.
 - `src/pages/Mage/Spells.jsx` and `src/pages/Mage/Arcana.jsx`: postponed edge case; alphabetical buckets by rank/level from array-of-arrays, not sentinel rows.
 - `src/pages/Mummy/Utterances.jsx`: repeated-row grouping through `mergeHeaders`, confirmed legit.
 - `src/pages/Mummy/MummyMerits.jsx`: `MummiesStyleMeritsData` uses the same repeated-row grouping pattern; likely legit but still worth checking.
@@ -891,22 +983,22 @@ Applied cleanup:
 - `src/Data/Mortal/Lesser templates/PsychicMeritsData.jsx`: split into `psychicMeritsData`, `psychicEspMeritsData`, `psychicMediumistMeritsData`, `psychicPsychokineticMeritsData`, and `psychicTelepathicMeritsData`.
 - `src/Data/Mortal/Lesser templates/ThaumaturgyData.jsx`: split into `thaumaturgyMeritsData` for Dream/Library/Magical Nexus and `thaumaturgyRitualMeritsData` for ritual merits.
 - `src/pages/Changeling/Contracts.jsx`: grouped Seeming, Court, and Goblin contract table pools with `TableGroup`.
-- `src/components/ManyHeadersTable/ManyHeadersTable.jsx`: added `titleVariant="nested"` so legacy grouped tables can sit inside outer `TableGroup` containers without equal heading weight.
+- `src/Data/Changeling/ContractData.jsx`: Universal and Seeming contract-family rows now own ranked clause children through `Ranks`, with flat derived exports feeding `allContracts`.
+- `src/pages/Changeling/Contracts.jsx`: Universal and Seeming contract pools now render through ranked `SimpleTable`.
+- `src/Data/Changeling/ContractData.jsx`: Court contracts, minor Court contracts, and named Goblin contracts now also use the ranked `Ranks` shape, with matching flat derived exports.
+- `src/Data/Changeling/ContractData.jsx`: `unclassifiedGoblinContractData` was corrected back to flat real contract rows; the page groups it by rank.
+- `src/pages/Changeling/Contracts.jsx`: Court and named Goblin contract-family pools now render through ranked `SimpleTable`, while unclassified Goblin uses a rank-bucket `TableGroup`. The page no longer imports `ManyHeadersTable`.
+- Removed unused legacy components: `src/components/ManyHeadersTable/*` and `src/components/MultipleTables.jsx`.
 
 Cases that most need Paolo's comment before code changes:
-- `Contracts`: should dot headers in unclassified goblin contracts be treated as rank buckets, while contract-family rows remain content groups?
 - `Mummy/Utterances` and `Mummy/MummyMerits`: should the unified table preserve the exact desktop merged-cell look, or is a grouped-section rendering acceptable?
 - Detail tables: should favorite toggles remain visible inside detail-page sub-tables?
 
 Postponed edge cases:
 - Spells/Arcana: alphabetical rank/level buckets. Preferred migration is `TableGroup` wrapping standard tables, not a hierarchical parent/rank data rewrite.
-- Disciplines: rank-progression content groups. Preferred migration is parent discipline objects with a `Ranks` array.
-- Gifts: rank-progression visual groups. Preferred migration is parent gift objects with a `Ranks` array.
 - Utterances: repeated-row grouped content. Preferred migration is parent utterance objects with a `Ranks` array or equivalent ranked child list, preserving the current grouped-row meaning.
 
 Current component-level edge cases:
-- `ManyHeadersTable` relies on sentinel values such as `Rank: "N/A"` or `Book: "N/A"`. This works for simple visual labels but becomes fragile when an actual row also has `N/A`.
-- `MultipleTables` already has a cleaner grouped shape, but its cell rendering duplicates favorites, links, mobile cards, `BookLink`, and show/hide behavior. `TableGroup` is the preferred replacement when the inner content can be rendered as normal tables.
 - `mergeHeaders` is a desktop table trick for a real grouped-row need. The unified component should model the grouping directly, then decide whether desktop renders row-spans or group headers.
 - Mobile parity is improved now that `SimpleTable` mobile cards have favorites, but `mergeHeaders` is still desktop-only behavior.
 

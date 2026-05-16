@@ -1,18 +1,16 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
-import ManyHeadersTable from '../../components/ManyHeadersTable/ManyHeadersTable';
 import { giftData } from '../../Data/Werewolf/GiftData';
 import { milestoneGifts } from '../../Data/Werewolf/GiftData';
 
 export default function Gifts() {
 
     const headers = ['Name', 'Rank', 'Cost', 'Description', 'Book']
-    const datoSostituibile = ['Rank']
-    const datoSostituto = ['Name']
+    const giftFamilyHeaders = ['Name']
 
     return (
         <div className='grid-container'>
-            <ManyHeadersTable table={giftData} title={'Gifts'} headers={headers} headerCheckFields={datoSostituibile} alternateData={datoSostituto} prereqForLink={'Name'} activeRowLink={false}/>
+            <SimpleTable table={giftData} title={'Gifts'} headers={headers} rankedParentHeaders={giftFamilyHeaders}/>
             <SimpleTable table={milestoneGifts} title={'Milestone Gifts'} />
         </div>
     );

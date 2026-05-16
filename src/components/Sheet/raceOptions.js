@@ -173,10 +173,7 @@ export const racePowerOptions = {
     contracts: extractOptions(allContracts, "Name"),
   },
   werewolf: {
-    gifts: extractOptions(
-      giftData.filter((item) => item?.Rank === "N/A"),
-      "Name"
-    ),
+    gifts: extractOptions(giftData, "Name"),
     rites: extractOptions(RitesData, "Name"),
   },
   hunter: {
