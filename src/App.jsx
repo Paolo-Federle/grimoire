@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import Navbar from "./components/Navbar";
 import Breadcrumbs from "./components/Breadcrumbs";
@@ -7,12 +7,13 @@ import LazyDetailRoute from "./components/LazyDetailRoute";
 import "./css/App.css";
 import "./css/Races-Style.css";
 import theme from "./css/muiTheme";
-import { PATHS } from "./pages/path";
+import { getSheetPath, PATHS } from "./pages/path";
 import { slugify } from "./utils";
 
 const HomePage = lazy(() => import("./pages/home"));
 const FavoritesPage = lazy(() => import("./pages/favorites"));
-const SheetPage = lazy(() => import("./pages/Generale/SheetTest"));
+const SheetLibraryPage = lazy(() => import("./pages/Generale/SheetLibrary"));
+const SheetEditorPage = lazy(() => import("./pages/Generale/SheetEditor"));
 const BooksPage = lazy(() => import("./pages/Generale/Books"));
 const SizePage = lazy(() => import("./pages/Generale/Size"));
 const ItemsPage = lazy(() => import("./pages/Generale/Items"));
@@ -157,7 +158,7 @@ const ROUTE_FALLBACK = (
 const GENERAL_ROUTES = [
   { path: PATHS.HOME, Page: HomePage },
   { path: PATHS.FAVORITES, Page: FavoritesPage },
-  { path: PATHS.SHEET, Page: SheetPage },
+  { path: PATHS.SHEET, Page: SheetLibraryPage },
   { path: PATHS.BOOKS, Page: BooksPage },
   { path: PATHS.SIZE, Page: SizePage },
   { path: PATHS.ITEMS, Page: ItemsPage },
@@ -467,6 +468,11 @@ function renderLazyPage(Page, props = {}) {
   );
 }
 
+function LegacySheetEditorRedirect() {
+  const { sheetId = "" } = useParams();
+  return <Navigate replace to={getSheetPath(sheetId)} />;
+}
+
 function App() {
   const routeGroups = [
     GENERAL_ROUTES,
@@ -492,6 +498,14 @@ function App() {
           {routeGroups.flat().map(({ path, Page }) => (
             <Route key={path} path={path} element={renderLazyPage(Page)} />
           ))}
+          <Route
+            path={getSheetPath()}
+            element={renderLazyPage(SheetEditorPage)}
+          />
+          <Route
+            path={`${PATHS.SHEET_LEGACY_EDITOR}/:sheetId`}
+            element={<LegacySheetEditorRedirect />}
+          />
           {ARCANA_ROUTE_CONFIGS.map(({ path, arcana }) => (
             <Route
               key={path}

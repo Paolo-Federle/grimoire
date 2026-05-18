@@ -19,7 +19,7 @@ export default function Home() {
                                     &nbsp;•&nbsp;
                                     <Link to={PATHS.EXTERNAL_RESOURCES} title="Resources">External Resources</Link>
                                     &nbsp;•&nbsp;
-                                    <Link to={PATHS.SHEET} title="Sheet">Sheet</Link>
+                                    <Link to={PATHS.SHEET} title="Sheets">Sheets</Link>
                                 </td>
                             </tr>
                         </tbody>

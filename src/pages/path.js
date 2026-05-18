@@ -44,6 +44,7 @@ export const PATHS = {
     NPC: 'npc',
     SKILLS: '/skills',
     SHEET: '/sheet',
+    SHEET_LEGACY_EDITOR: '/sheet/editor',
     TRAITS: '/traits',
     EXTERNAL_RESOURCES: '/external_resources',
     LEXYCON: '/lexycon',
@@ -203,5 +204,9 @@ export const PATHS = {
         PARANORMAL_OBJECTS: '/external/paranormal_objects'
     }
 };
+
+export const getSheetPath = (sheetId = ":sheetId") => `${PATHS.SHEET}/${sheetId}`;
+export const getLegacySheetEditorPath = (sheetId = ":sheetId") =>
+    `${PATHS.SHEET_LEGACY_EDITOR}/${sheetId}`;
 
 

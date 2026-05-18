@@ -8,8 +8,18 @@ function formatLabel(segment) {
 
 export default function Breadcrumbs() {
   const { pathname } = useLocation();
-
   const segments = pathname.split("/").filter(Boolean);
+
+  if (segments[0] === "sheet" && segments[1] && segments[1] !== "editor") {
+    return (
+      <nav className="text-gray-700 mt-4 mb-3 ml-4">
+        <Link to="/sheet" className="underline text-gray-800 hover:text-black">
+          Sheets
+        </Link>
+      </nav>
+    );
+  }
+
   if (segments.length <= 1) return null;
 
   const paths = segments.map(

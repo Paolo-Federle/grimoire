@@ -12,7 +12,7 @@ import SheetAutoCalculations from "./20_SheetAutoCalculations";
 import MoralitySection from "./Traits/15_MoralitySection";
 import DerivedStatsSection from "./Traits/15_DerivedStatsSection";
 
-export default function CharacterSheet() {
+export default function CharacterSheet({ initialData, onSheetDataChange }) {
   const pages = [
     { key: "page1", label: "Page 1" },
     { key: "page2", label: "Page 2" },
@@ -20,7 +20,7 @@ export default function CharacterSheet() {
 
 
   return (
-    <SheetDataProvider>
+    <SheetDataProvider initialData={initialData} onChange={onSheetDataChange}>
       <SheetAutoCalculations />
       <Pages pages={pages}>
         <>
