@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function ContractsDetail(props) {
     const matchedcontract = props.contracts
@@ -71,7 +72,7 @@ export default function ContractsDetail(props) {
                                 />
                             );
                         })}
-                        {matchedcontract.Book && matchedcontract.Book  !== "N/A" && (<div><b>Book:</b> {matchedcontract.Book}</div>)}
+                        {matchedcontract.Book && matchedcontract.Book  !== "N/A" && (<div><b>Book:</b> {BookLink(matchedcontract.Book)}</div>)}
                 </>
             )
             }

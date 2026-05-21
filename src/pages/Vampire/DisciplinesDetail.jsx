@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function DisciplinesDetail(props) {
     const matchedDiscipline = props.discipline
@@ -72,7 +73,7 @@ export default function DisciplinesDetail(props) {
                     </div>
                     )}
                     {matchedDiscipline?.Bloodline && matchedDiscipline?.Bloodline !== "N/A" && (<div><b>Bloodline:</b> {matchedDiscipline?.Bloodline}</div>)}
-                    {matchedDiscipline.Book && matchedDiscipline.Book !== "N/A" && (<div><b>Book:</b> {matchedDiscipline.Book}</div>)}
+                    {matchedDiscipline.Book && matchedDiscipline.Book !== "N/A" && (<div><b>Book:</b> {BookLink(matchedDiscipline.Book)}</div>)}
                 </>
             )
             }

@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function DreadPowerDetail(props) {
     const matchedDreadPower = props.dreadPowers
@@ -37,7 +38,7 @@ export default function DreadPowerDetail(props) {
                             );
                         })}
                     </div>
-                    {matchedDreadPower.Book && (<div><b>Book:</b> {matchedDreadPower.Book}</div>)}
+                    {matchedDreadPower.Book && (<div><b>Book:</b> {BookLink(matchedDreadPower.Book)}</div>)}
                 </>
             )}
         </div>

@@ -1,20 +1,125 @@
 export const GeistMeritsData = [
     {
         "Name": "Ceremony",
-        "Cost": "(•+)",
+        "Cost": "•+",
         "Summary": "Gain Number of Ceremonies Based on Number of Dots Held",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "Throughout the ages, countless rituals have been devised for the living to contact, placate, or honor the dead. These rituals rarely have much innate power of their own — but in the hands of someone bound to a geist, they can be invested with deathly power. The adoption of these ceremonies, and to some extent the duties that these ceremonies reflect, are in some ways what defines the role of the Sin-Eater."
+            },
+            {
+                type: "paragraph",
+                text: "This Merit represents the number of ceremonies (see page 150) that a Sin-Eater knows and can perform. A character beginning play with three dots of Ceremonies might know three one-dot ceremonies, one one-dot, and one two-dot ceremony, or a single three-dot ritual."
+            },
+            {
+                type: "paragraph",
+                text: "In order to learn a new ceremony, the Sin-Eater must usually find an instructor to teach her, though in some cases (particularly with high Synergy) a Sin-Eater can learn how to “create” a ceremony from scratch. For instance, a character might study a particular culture’s rites for propitiating the dead, and with assistance and advice from her geist, fine-tune a version of those rites that has some supernatural effect when she performs it."
+            },
+            {
+                type: "paragraph",
+                text: "When purchasing new ceremonies with experience points, they aren’t treated as expansions of this Merit. Learning a new ceremony costs 2 experience points per dot, or three per dot if the character has no instructor available and must devise it on her own."
+            }
+        ],
         "Book": "GTS 87"
     },
     {
         "Name": "Death-Touched",
         "Cost": "•• to •••••",
         "Summary": "Gain a one or two die bonus to non-hostile rolls to interact with ghosts in the Underworld; for an additional merit dot this applies to ghosts anywhere.",
+        "Prerequisite": "Sin-Eater",
+        "Content": [
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Effect:",
+                        bold: true
+                    },
+                    " Something has stained your character’s soul. Perhaps her geist has always born the inky stain of death upon its corpus. Maybe something about your character’s death caused the stain, tainting her geist along with it. However she gained the mark, your character connects with ghosts on a level that few others will ever manage."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "With the two-dot version of this Merit, your character gets a +1 modifier to all Presence or Manipulation rolls when dealing with ghosts in a non-confrontational manner. The four-dot version indicates that ghosts sometimes have a hard time remembering that you’re not already dead; your character gains a +2 modifier."
+            },
+            {
+                type: "paragraph",
+                text: "This Merit normally only affects dealings with ghosts in the Underworld. Purchasing an extra dot in the Merit allows you to apply the modifier against all ghosts, wherever they may be."
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Drawback:",
+                        bold: true
+                    },
+                    " The more your character is touched by death, the more ghosts will treat her as one of their own. Ghosts actively seek her out, believing a physical body no barrier to communing with a kindred spirit. Your Other characters who can perceive ghosts will know that something’s odd about your character from all the attention she’s getting."
+                ]
+            }
+        ],
         "Book": "BotD 93"
     },
     {
         "Name": "Memento",
-        "Cost": "(•+)",
+        "Cost": "•+",
         "Summary": "Item with various bonuses",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "place, then that dot is lost.) In the event that a krewe breaks up and each member goes their separate ways, all of the dots of the shared Haunt are refunded to their previous contributors, less one dot each as a result of the breakup, need to find new locations, cost of moving personal effects, hurdles of gaining new access, and so on. Should a Sin-Eater die, all of her contributed dots vanish from the shared Merits of her krewe."
+            },
+            {
+                type: "paragraph",
+                text: "Shared Haunts do not rise in value above ••••• in any category, even if the krewe contributes more total dots; excess dots are superfluous, but might prevent the cenote from losing potency if the krewe suffers a sudden loss."
+            },
+            {
+                type: "paragraph",
+                text: "A Sin-Eater may also have personal access to a private cenote while contributing to the krewe’s shared Haunt. In such a case, the character simply possesses multiple versions of each Merit. The shared Haunt Utility for the group’s cenote, for instance, would be tracked and purchased separately from the Sin-Eater’s own personal Haunt."
+            },
+            {
+                type: "paragraph",
+                text: "The golden death mask of Tut-Ankh-Amen. The rifle with which Lee Harvey Oswald (ostensibly) killed Kennedy. The cremated remains of Nurhachi, first sovereign emperor of the Manchu dynasty. Relics and reminders of such potent deaths (and lives) carry with them the emotive resonance of their history. Each one is a symbol of the power of death, held in tangible form, with memory carried in it just like a ghost that clings to some half-faded, decaying vestige of its former living glory. To a Sin-Eater, such memento mori not only serve as artistic and maudlin reminders of mortality, but as focal points of very real and very tangible power."
+            },
+            {
+                type: "paragraph",
+                text: "Every Bound has access to at least one memento: the keystone originally given to her by her attendant geist. Many Sin-Eaters go out of their way to collect additional mementos, often for their utility and sometimes out of a perverse desire to assemble a medley of morbid miscellany. A few krewes even hunt down other Sin-Eaters and their geists for the express purpose of relieving them of their mementos. Due to the utility of mementos, Sin-Eaters are apt to gather as many as they can — but mementos are, after all, signature objects that generally have a unique provenance. This means the demand for mementos far exceeds the supply, with predictable and sometimes violent consequences."
+            },
+            {
+                type: "paragraph",
+                text: "Mementos generally grant access to a Threshold — a symbolic representation of a specific form of death, such as “death by violence” — which carries with it bonuses when invoking ceremonies related to its form of death. Some mementos provide Keys, which grant bonuses when used by a Sin-Eater who shares the same Key; a Sin-Eater with the Pyre-Flame Key, for instance, gains a bonus when using a Pyre-Flame memento to invoke a Manifestation."
+            },
+            {
+                type: "paragraph",
+                text: "Six different forms of mementos generally make the rounds of Sin-Eater society. The simplest memento is a charm, a small item imbued with a trace of symbolic death-energy so as to assist in unlocking Manifestations. A vanitas is a memento created by a Sin-Eater to symbolize her personal artistic interpretation of death. A fetter is a ghost’s anchor to which the Sin-Eater has bound the ghost via a special ceremony, thereby granting the item a cold infusion of death via the ghost’s traits. A deathmask is the remnant of a geist given material form; worn by a Sin-Eater, it provides association with the former geist’s own qualities in the form of innate knowledge from the geist’s past as well as a Key associated with the former geist’s keystone. Memorabilia, the most potent of mementos, are unique relics from powerfully symbolic deaths, such as the aforementioned rings, weapons, clothes, and implements associated with the demise of legendary figures from King Arthur to Elvis Presley. Finally, a keystone is a Manifestation of the pact between geist and Sin-Eater, given to the living by the dead as a symbol of the connection between the two."
+            },
+            {
+                type: "paragraph",
+                text: "A Sin-Eater’s initial keystone (granted by her geist) is an automatic special Memento Merit with a Threshold and two Keys, provided at no cost. Each additional memento counts as a separate Merit purchase. If a player wants to possess multiple mementos, then the Sin-Eater must have multiple Memento Merits to match. A Sin-Eater who possesses a Charm and a vanitas has two separate Memento Merits: the Charm is a • Memento Merit, and the vanitas is a •• Memento Merit."
+            },
+            {
+                type: "paragraph",
+                text: "Unlike other Merits, mementos do not improve via use, practice, or the simple expenditure of experience points. Each type of memento represents a signature item with unique characteristics. A Charm, for instance, is a simple object imbued symbolically with some association with death. It is not possible for a Charm to suddenly “become” a deathmask, a remnant of a destroyed geist. In extremely unusual circumstances, a Sin-Eater might discover that an item thought to be a weak memento is actually something of greater provenance (such as a Charm bullet that later turns out to be a memorabilia, perhaps the bullet that killed Martin Luther King, Jr.). Such an improvement in the value of a memento is fodder for story development, and should not occur simply because the player wants to make a given memento “better.”"
+            },
+            {
+                type: "paragraph",
+                text: "In addition to the varied powers of mementos, every memento is in essence a battery of death energy. As an instant action with a Resolve + Occult roll, a Sin-Eater can destroy one of his own mementos while in contact with it in order to release its energy and stanch his wounds. The Sin-Eater absorbs the freed plasm, healing a number of Health equal to twice the memento’s Merit rating. The memento permanently loses its supernatural powers (and, since its unnatural resilience disappears, crumbles into dust)."
+            },
+            {
+                type: "paragraph",
+                text: "Specific examples of mementos, and of the particular benefits they provide to their owners, can be found starting on page 192."
+            },
+            {
+                type: "list",
+                items: [
+                    "• Charm (one Threshold)",
+                    "•• Vanitas (one Threshold, Willpower refresh)",
+                    "••• Fetter (one Threshold, one Key, one Numen)",
+                    "•••• Deathmask (one Threshold, one Key, skill bonuses, plasm reservoir)",
+                    "••••• Memorabilia (one Threshold, one Key, equipment bonuses, social bonuses)"
+                ]
+            }
+        ],
         "Book": "GTS 89"
     }
 ]

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BookLink } from '../../components/BookLink';
 
 export default function MageMeritsDetail(props) {
     const matchedMerit = props.merits
@@ -18,7 +19,7 @@ export default function MageMeritsDetail(props) {
                                 ))}
                             </div>
                         )}
-                        {matchedMerit.Book && (<div><b>Book:</b> {matchedMerit.Book}</div>)}
+                        {matchedMerit.Book && (<div><b>Book:</b> {BookLink(matchedMerit.Book)}</div>)}
                 </>
             )}
         </div>

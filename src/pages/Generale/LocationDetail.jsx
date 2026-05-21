@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function LocationDetail(props) {
     const matchedLocation = props.location
@@ -34,7 +35,7 @@ export default function LocationDetail(props) {
                                 />
                             );
                         })}
-                        {matchedLocation.Book && matchedLocation.Book  !== "N/A" && (<div><b>Book:</b> {matchedLocation.Book}</div>)}
+                        {matchedLocation.Book && matchedLocation.Book  !== "N/A" && (<div><b>Book:</b> {BookLink(matchedLocation.Book)}</div>)}
                 </>
             )
             }

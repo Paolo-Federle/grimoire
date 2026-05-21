@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function DevotionsDetail(props) {
     const matchedDevotion = props.devotion
@@ -41,7 +42,7 @@ export default function DevotionsDetail(props) {
                         })}
                     </div>
                    
-                    {matchedDevotion.Book && matchedDevotion.Book !== "N/A" && (<div><b>Book:</b> {matchedDevotion.Book}</div>)}
+                    {matchedDevotion.Book && matchedDevotion.Book !== "N/A" && (<div><b>Book:</b> {BookLink(matchedDevotion.Book)}</div>)}
                 </>
             )
             }

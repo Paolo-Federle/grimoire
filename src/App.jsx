@@ -452,6 +452,33 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.dreadPowersData, slug),
   },
   {
+    path: `${PATHS.GEIST.MERITS}/:slug`,
+    propKey: "geistMerit",
+    loadPage: () => import("./pages/Geist/GeistMeritsDetail"),
+    loadData: () => import("./Data/Geist/GeistMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.GeistMeritsData, slug),
+  },
+  {
+    path: `${PATHS.OTHERS.ABOMINABLE}/:slug`,
+    propKey: "abominableTrait",
+    loadPage: () => import("./pages/Others/AbominableTraitsDetail"),
+    loadData: () => import("./Data/Others/AbominableTraitsData"),
+    resolveItem: ({ dataModule, slug }) =>
+      findItemBySlug([
+        ...dataModule.AbominableMeritsData,
+        dataModule.AbominableRitesOverview,
+        ...dataModule.AbominableRitesData,
+        ...dataModule.AbominablePowersData,
+      ], slug),
+  },
+  {
+    path: `${PATHS.MORTAL.PSYCHIC_POWERS}/:slug`,
+    propKey: "psychicMerit",
+    loadPage: () => import("./pages/MortalsAndTemplates/Lesser templates/PsychicMeritsDetail"),
+    loadData: () => import("./Data/Mortal/Lesser templates/PsychicMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.PsychicMeritsData, slug),
+  },
+  {
     path: `${PATHS.SPIRIT.NUMINA}/:slug`,
     propKey: "numina",
     loadPage: () => import("./pages/Spirit/NuminaDetail"),

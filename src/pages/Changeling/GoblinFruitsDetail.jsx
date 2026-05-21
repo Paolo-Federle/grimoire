@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function GoblinFruitsDetail(props) {
     const matchedGoblinFruit = props.goblinFruit
@@ -37,7 +38,7 @@ export default function GoblinFruitsDetail(props) {
                         })}
                     </div>
 
-                    {matchedGoblinFruit.Book && (<div><b>Book:</b> {matchedGoblinFruit.Book}</div>)}
+                    {matchedGoblinFruit.Book && (<div><b>Book:</b> {BookLink(matchedGoblinFruit.Book)}</div>)}
                 </>
             )
             }

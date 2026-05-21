@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function DerangementsDetail(props) {
     const matchedDerangement = props.derangement
@@ -33,7 +34,7 @@ export default function DerangementsDetail(props) {
                             );
                         })}
                     </div>
-                    {matchedDerangement.Book && (<div><b>Book:</b> {matchedDerangement.Book}</div>)}
+                    {matchedDerangement.Book && (<div><b>Book:</b> {BookLink(matchedDerangement.Book)}</div>)}
                 
                 </>
             )}

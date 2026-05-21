@@ -81,11 +81,11 @@ function renderInlinePart(part, key) {
 
   const content = renderInlineContent(part.text ?? part.content ?? '', key);
 
-  if (part.type === 'bold') {
+  if (part.type === 'bold' || part.bold) {
     return <strong key={key}>{content}</strong>;
   }
 
-  if (part.type === 'italic') {
+  if (part.type === 'italic' || part.italic) {
     return <em key={key}>{content}</em>;
   }
 

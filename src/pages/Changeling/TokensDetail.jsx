@@ -1,4 +1,5 @@
 import React from 'react';
+import { BookLink } from '../../components/BookLink';
 
 export default function TokensDetail(props) {
     const matchedToken = props.tokens
@@ -59,7 +60,7 @@ export default function TokensDetail(props) {
                                 ))}
                             </span>
                         )} */}
-                    {matchedToken.Book && matchedToken.Book !== "N/A" && (<div><b>Book:</b> {matchedToken.Book}</div>)}
+                    {matchedToken.Book && matchedToken.Book !== "N/A" && (<div><b>Book:</b> {BookLink(matchedToken.Book)}</div>)}
                 </>
             )
             }

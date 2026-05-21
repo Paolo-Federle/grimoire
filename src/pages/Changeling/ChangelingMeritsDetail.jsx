@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
+import { BookLink } from '../../components/BookLink';
 
 export default function ChangelingMeritsDetail(props) {
     const matchedMerits = props.merits
@@ -38,7 +39,7 @@ export default function ChangelingMeritsDetail(props) {
                         })}
                     </div>
 
-                    {matchedMerits.Book && (<div><b>Book:</b> {matchedMerits.Book}</div>)}
+                    {matchedMerits.Book && (<div><b>Book:</b> {BookLink(matchedMerits.Book)}</div>)}
                 </>
             )
             }
