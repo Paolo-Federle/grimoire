@@ -115,6 +115,21 @@ p {
     padding-bottom: 20px;
   }
 
+.longTextContainer > h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.longTextContainer > h2 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+
+.longTextContainer > h3 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+
   .white-border-tr {
     border-left: 1px solid white;
     border-right: 1px solid white;

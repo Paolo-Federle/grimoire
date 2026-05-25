@@ -9,7 +9,7 @@ Criterio usato:
 - escluse le pagine piu tecniche/meccaniche, mantenendo quelle piu enciclopediche o narrative.
 
 Note:
-- `GeistMerits` e `AbominableTraits` non sono piu in lista perche ora hanno detail page.
+- `GeistMerits`, `AbominableTraits` e `AspectsAndFavors` non sono piu in lista perche ora hanno detail page.
 - `Clan` somma `clanData`, `historicalClanData` e `restrictedClanData`.
 - I conteggi indicano gli elementi negli array importati dalla pagina.
 
@@ -48,7 +48,6 @@ Note:
 | 77 | `src/pages/Werewolf/Gifts.jsx` | `giftData` 67, `milestoneGifts` 10 |
 | 92 | `src/pages/Changeling/Kith.jsx` | `kithBeastsData` 16, `kithDarklingsData` 15, `kithElementalsData` 14, `kithFairestData` 17, `kithOgresData` 13, `kithWizenedData` 17 |
 | 108 | `src/pages/Werewolf/Lodges.jsx` | `LodgesData` 108 |
-| 123 | `src/pages/Others/AspectsAndFavors.jsx` | `AspectsData` 105, `FavorsData` 18 |
 | 134 | `src/pages/Vampire/Bloodline.jsx` | `daevaBloodlineData` 26, `gangrelBloodlineData` 28, `genericBloodlineData` 2, `juliiBloodlineData` 1, `mekhetBloodlineData` 25, `nosferatuBloodlineData` 26, `unknownBloodlineData` 1, `ventrueBloodlineData` 25 |
 | 159 | `src/pages/Mummy/Utterances.jsx` | `UtterancesData` 105, `GuildUtterancesData` 27, `SpiritUtterancesData` 9, `IronBullUtterancesData` 9, `MaatUtterancesData` 6, `WheelUtterancesData` 3 |
 | 161 | `src/pages/Werewolf/Rites.jsx` | `RitesData` 161 |
@@ -64,4 +63,4 @@ Queste pagine sono state considerate piu tecniche/meccaniche o non prioritarie p
 - scale/regole generali: `Morality`, `Humanity`, `VirtueVice`, `Clarity`, `Wyrd`, `Psyche`, `Synergy`, `Azoth`, `Refinements`, `Harmony`, `PrimalUrge`, `BloodPotency`, `Gnosis`, `Sekhem`, `Memory`;
 - reference/utility: `Books`, `ExternalResources`, `Settings`, `Size`, `Skills`, `Traits`;
 - equipaggiamento tabellare o molto tecnico: `Armor`, `Tools`, `Vehicle`, `Weapon`, `Reliquary`, `FuturisticItems`;
-- pagine gia coperte da detail route: Location, Universal Merits, Derangements, Disciplines, Devotions, Mage Merits, Legacy, Spells/Arcana, Artifacts, Imbued Items, Contracts, Changeling Merits, Goblin Fruits, Tokens, Dread Powers, Geist Merits, Abominable Traits, Psychic Merits, Numina.
+- pagine gia coperte da detail route: Location, Universal Merits, Derangements, Disciplines, Devotions, Mage Merits, Legacy, Spells/Arcana, Artifacts, Imbued Items, Contracts, Changeling Merits, Goblin Fruits, Tokens, Dread Powers, Geist Merits, Abominable Traits, Aspects and Favors, Psychic Merits, Numina.

@@ -472,6 +472,17 @@ const DETAIL_ROUTE_CONFIGS = [
       ], slug),
   },
   {
+    path: `${PATHS.OTHERS.ASPECTS_FAVORRS}/:slug`,
+    propKey: "aspectFavor",
+    loadPage: () => import("./pages/Others/AspectsAndFavorsDetail"),
+    loadData: () => import("./Data/Others/AspectsFavorsData"),
+    resolveItem: ({ dataModule, slug }) =>
+      findItemBySlug([
+        ...dataModule.AspectsData,
+        ...dataModule.FavorsData,
+      ], slug),
+  },
+  {
     path: `${PATHS.MORTAL.PSYCHIC_POWERS}/:slug`,
     propKey: "psychicMerit",
     loadPage: () => import("./pages/MortalsAndTemplates/Lesser templates/PsychicMeritsDetail"),

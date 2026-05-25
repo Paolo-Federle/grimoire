@@ -2,10 +2,12 @@ import React from 'react';
 import SimpleTable from '../../components/SimpleTable';
 import { hunterMeritsData } from '../../Data/Hunter/HunterMeritsData';
 
+const headers = ['Name', 'Ranks', 'Rank name', 'Prerequisites', 'Summary', 'Book'];
+
 export default function HunterMerits() {
     return (
         <div className='grid-container'>
-            <SimpleTable table={hunterMeritsData} title={'Hunter Merits'} />
+            <SimpleTable table={hunterMeritsData} title={'Hunter Merits'} headers={headers} />
         </div>
     );
 }
