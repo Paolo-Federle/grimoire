@@ -1,1 +1,0 @@
-import{j as t}from"./index-CW6Sfw94.js";import{S as r}from"./SimpleTable-B54xAgLq.js";import{a}from"./PathData-DfKesmd5.js";import"./BaseTable-DHqlhuY2.js";import"./BookLink-pIyIP5HN.js";import"./FavoriteToggle-CL2hzIoe.js";import"./Grow-DVZKsZbv.js";function n(){return t.jsx("div",{className:"grid-container",children:t.jsx(r,{table:a,title:"Path"})})}export{n as default};
