@@ -1,0 +1,1 @@
+import{j as t}from"./index-wLeu80eZ.js";import{S as i}from"./SimpleTable-ISE4vzSC.js";import{R as r}from"./RitesData-CTJ2VEhT.js";import"./BaseTable-CePWjavS.js";import"./BookLink-CtFlhVIz.js";import"./FavoriteToggle-lAkiXtMK.js";import"./Grow-DoJ01r7A.js";function n(){return t.jsx("div",{className:"grid-container",children:t.jsx(i,{table:r,title:"Rites"})})}export{n as default};
