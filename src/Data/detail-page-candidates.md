@@ -9,7 +9,7 @@ Criterio usato:
 - escluse le pagine piu tecniche/meccaniche, mantenendo quelle piu enciclopediche o narrative.
 
 Note:
-- `GeistMerits`, `AbominableTraits` e `AspectsAndFavors` non sono piu in lista perche ora hanno detail page.
+- `GeistMerits`, `AbominableTraits`, `AspectsAndFavors`, `HunterMerits` e `giftData` non sono piu in lista perche ora hanno detail page.
 - `Clan` somma `clanData`, `historicalClanData` e `restrictedClanData`.
 - I conteggi indicano gli elementi negli array importati dalla pagina.
 
@@ -24,8 +24,8 @@ Note:
 | 8 | `src/pages/Promethean/Lineages.jsx` | `LineagesData` 8 |
 | 8 | `src/pages/Promethean/Mockeries.jsx` | `MockeriesData` 8 |
 | 10 | `src/pages/Vampire/Ghoul.jsx` | `GhoulFamiliesData` 10 |
+| 10 | `src/pages/Werewolf/Gifts.jsx` | `milestoneGifts` 10 |
 | 13 | `src/pages/Vampire/Clan.jsx` | `clanData` 5, `historicalClanData` 1, `restrictedClanData` 7 |
-| 15 | `src/pages/Hunter/HunterMerits.jsx` | `hunterMeritsData` 15 |
 | 17 | `src/pages/Changeling/Court.jsx` | `auroralCourtsData` 2, `directionalCourtsData` 4, `diurnalCourtsData` 2, `farawaySeasonalCourtsData` 5, `seasonalCourtsData` 4 |
 | 17 | `src/pages/Promethean/Bestowments.jsx` | `BestowmentsData` 17 |
 | 18 | `src/pages/Promethean/PrometheanMerits.jsx` | `PrometheanMeritsData` 18 |
@@ -45,7 +45,6 @@ Note:
 | 61 | `src/pages/Mummy/Relic.jsx` | `amuletData` 8, `effigyData` 5, `RegiumData` 5, `textData` 5, `uterData` 5, `sebaData` 28, `vestigeData` 5 |
 | 61 | `src/pages/Vampire/VampireMerits.jsx` | `carthianMeritsData` 11, `generalVampireMeritsData` 38, `invictusMeritsData` 6, `ordoDraculMeritsData` 6 |
 | 67 | `src/pages/Hunter/Tactics.jsx` | `TactictsData` 67 |
-| 77 | `src/pages/Werewolf/Gifts.jsx` | `giftData` 67, `milestoneGifts` 10 |
 | 92 | `src/pages/Changeling/Kith.jsx` | `kithBeastsData` 16, `kithDarklingsData` 15, `kithElementalsData` 14, `kithFairestData` 17, `kithOgresData` 13, `kithWizenedData` 17 |
 | 108 | `src/pages/Werewolf/Lodges.jsx` | `LodgesData` 108 |
 | 134 | `src/pages/Vampire/Bloodline.jsx` | `daevaBloodlineData` 26, `gangrelBloodlineData` 28, `genericBloodlineData` 2, `juliiBloodlineData` 1, `mekhetBloodlineData` 25, `nosferatuBloodlineData` 26, `unknownBloodlineData` 1, `ventrueBloodlineData` 25 |
@@ -63,4 +62,4 @@ Queste pagine sono state considerate piu tecniche/meccaniche o non prioritarie p
 - scale/regole generali: `Morality`, `Humanity`, `VirtueVice`, `Clarity`, `Wyrd`, `Psyche`, `Synergy`, `Azoth`, `Refinements`, `Harmony`, `PrimalUrge`, `BloodPotency`, `Gnosis`, `Sekhem`, `Memory`;
 - reference/utility: `Books`, `ExternalResources`, `Settings`, `Size`, `Skills`, `Traits`;
 - equipaggiamento tabellare o molto tecnico: `Armor`, `Tools`, `Vehicle`, `Weapon`, `Reliquary`, `FuturisticItems`;
-- pagine gia coperte da detail route: Location, Universal Merits, Derangements, Disciplines, Devotions, Mage Merits, Legacy, Spells/Arcana, Artifacts, Imbued Items, Contracts, Changeling Merits, Goblin Fruits, Tokens, Dread Powers, Geist Merits, Abominable Traits, Aspects and Favors, Psychic Merits, Numina.
+- pagine gia coperte da detail route: Location, Universal Merits, Derangements, Disciplines, Devotions, Werewolf Gifts, Mage Merits, Legacy, Spells/Arcana, Artifacts, Imbued Items, Contracts, Changeling Merits, Goblin Fruits, Tokens, Dread Powers, Hunter Merits, Geist Merits, Abominable Traits, Aspects and Favors, Psychic Merits, Numina.

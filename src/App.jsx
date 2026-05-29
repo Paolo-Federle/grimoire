@@ -381,6 +381,13 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.DevotionData, slug),
   },
   {
+    path: `${PATHS.WEREWOLF.GIFTS}/:slug`,
+    propKey: "gift",
+    loadPage: () => import("./pages/Werewolf/GiftsDetail"),
+    loadData: () => import("./Data/Werewolf/GiftData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.giftDetailData, slug),
+  },
+  {
     path: `${PATHS.MAGE.MERITS}/:slug`,
     propKey: "merits",
     loadPage: () => import("./pages/Mage/MageMeritsDetail"),
@@ -450,6 +457,13 @@ const DETAIL_ROUTE_CONFIGS = [
     loadPage: () => import("./pages/Hunter/DreadPowersDetail"),
     loadData: () => import("./Data/Hunter/DreadPowerData"),
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.dreadPowersData, slug),
+  },
+  {
+    path: `${PATHS.HUNTER.MERITS}/:slug`,
+    propKey: "hunterMerit",
+    loadPage: () => import("./pages/Hunter/HunterMeritsDetail"),
+    loadData: () => import("./Data/Hunter/HunterMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.hunterMeritsDetailData, slug),
   },
   {
     path: `${PATHS.GEIST.MERITS}/:slug`,
