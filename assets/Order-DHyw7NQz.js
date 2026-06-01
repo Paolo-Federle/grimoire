@@ -1,0 +1,1 @@
+import{j as r}from"./index-CuM6giG0.js";import{S as t}from"./SimpleTable-B1xAqxPH.js";import{a as i}from"./OrderData-EcXZaZbI.js";import"./BaseTable-nWAWDpp1.js";import"./BookLink-CG7lM1DV.js";import"./FavoriteToggle-DOlL9YsE.js";import"./Grow-DD9EgmGC.js";function l(){return r.jsx("div",{className:"grid-container",children:r.jsx(t,{table:i,title:"Order"})})}export{l as default};
