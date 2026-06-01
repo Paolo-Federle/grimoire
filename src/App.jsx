@@ -381,6 +381,13 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.DevotionData, slug),
   },
   {
+    path: `${PATHS.VAMPIRE.MERITS}/:slug`,
+    propKey: "vampireMerit",
+    loadPage: () => import("./pages/Vampire/VampireMeritsDetail"),
+    loadData: () => import("./Data/Vampire/VampireMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.vampireMeritsData, slug),
+  },
+  {
     path: `${PATHS.WEREWOLF.GIFTS}/:slug`,
     propKey: "gift",
     loadPage: () => import("./pages/Werewolf/GiftsDetail"),

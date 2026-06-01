@@ -18074,7 +18074,7 @@ export const giftRankDetailData = giftData.flatMap(({ Ranks = [], ...parent }) =
 export const milestoneGifts = [
     {
         "Name": "Backstage Synchronicity",
-        "Description": "",
+        "Description": "When working with the pack members in harmony to come up with new ideas and clever plans, they get a bonus with their wits and restore essence.",
         "prerequisites": "Cunning •••••, Harmony •••••",
         "fullDescription": [
             {
@@ -18175,7 +18175,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Destoyer’s Jaws, The",
-        "Description": "",
+        "Description": "Whenever you fill an enemy’s rightmost Health box, that enemy dies instantly",
         "Prequisites": "",
         "Book": "Tribes 46",
         "prerequisites": "Glory 5, Honor 3, Harmony 6 or greater",
@@ -18205,7 +18205,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Eyes of Death Wolf",
-        "Description": "",
+        "Description": "Exchange your eyes with the eyes of Death Wolf, so it can can see into or out of the Shadow merely by concentrating, identify Ridden and other possessed beings on site and know the name of any spirit he encounters.",
         "prerequisites": "Wisdom 5, Harmony 6 or greater",
         "fullDescription": [
             {
@@ -18235,7 +18235,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Hunter’s Bounty, The",
-        "Description": "",
+        "Description": "Allows to replenish essence simply by hunting and catching food",
         "prerequisites": "Purity 5, Harmony 6 or greater",
         "fullDescription": [
             {
@@ -18275,7 +18275,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Storm’s Whisper",
-        "Description": "",
+        "Description": "Once per game session, one member of her pack to receive a blessing (+2 to any rolls) and one to receive castigation (-2 to any rolls)",
         "prerequisites": "Honor 5, Wisdom 2, Harmony 6 or greater",
         "fullDescription": [
             {
@@ -18328,7 +18328,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Thief of Shadows",
-        "Description": "",
+        "Description": "Become able to purchase the supernatural powers of any other creatures",
         "prerequisites": "Cunning 5",
         "fullDescription": [
             {
@@ -18444,7 +18444,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Words of Power",
-        "Description": "",
+        "Description": "Once per chapter, may resolve any rite as an instant action instead of an extended action.",
         "prerequisites": "Wisdom 5, Harmony 7+",
         "fullDescription": [
             {
@@ -18561,7 +18561,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Absolute Authority",
-        "Description": "",
+        "Description": "Any Empathy, Investigation, or Politics rolls made to uncover truth are Rote Actions, sees everything, including ghosts and spirits in Twilight, can send the restless dead on to whatever awaits them, banish spirits to the Shadow and humans to the physical world, unravel illusions, and free minds from the influences of others.",
         "prerequisites": "Harmony ••••••, Honor •••••",
         "fullDescription": [
             {
@@ -18637,7 +18637,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Songs of Uplifting Glory",
-        "Description": "",
+        "Description": "If use willpower to enhance a roll, if tthe roll fails, count the roll as having a single success. If the roll succeeds with fewer than five successes, consider to have resulted in five successes. If are attained five or more successes, does not lose the Willpower point spent and gains an additional point of Willpower",
         "prerequisites": "Glory 5",
         "fullDescription": [
             {
@@ -18700,7 +18700,7 @@ export const milestoneGifts = [
     },
     {
         "Name": "Luna's Gaze",
-        "Description": "",
+        "Description": "Can always see in even pitch dark, become impossible to surprise, cannot fail rolls to spot hidden opponents.",
         "prerequisites": "Purity 5, Harmony 7+",
         "fullDescription": [
             {

@@ -6,22 +6,31 @@ import {
     invictusMeritsData,
     ordoDraculMeritsData,
 } from '../../Data/Vampire/VampireMeritsData';
+import { PATHS } from '../path';
+import { slugify } from '../../utils';
 
 export default function VampireMerits() {
 
 
-    const headers = ['Name', 'Cost', 'Description', 'Book']
+    const headers = ['Name', 'Rank', 'Prerequisite', 'Description', 'Book']
     const meritTables = [
         { title: 'Vampire Merits', data: generalVampireMeritsData },
         { title: 'Carthian Merits', data: carthianMeritsData },
         { title: 'Invictus Merits', data: invictusMeritsData },
         { title: 'Ordo Dracul Merits', data: ordoDraculMeritsData },
     ];
+    const meritTablesWithLinks = meritTables.map(({ title, data }) => ({
+        title,
+        data: data.map((merit) => ({
+            ...merit,
+            link: `${PATHS.VAMPIRE.MERITS}/${slugify(merit.Name)}`,
+        })),
+    }));
 
     return (
         <div className='grid-container'>
-            {meritTables.map(({ title, data }) => (
-                <SimpleTable key={title} table={data} title={title} headers={headers} />
+            {meritTablesWithLinks.map(({ title, data }) => (
+                <SimpleTable key={title} table={data} title={title} headers={headers} activeRowLink />
             ))}
         </div>
     );
