@@ -6,6 +6,40 @@ import {
 } from '../../Data/BookData';
 import SimpleTable from '../../components/SimpleTable';
 
+function getFirstPagePdfLink(linkTo) {
+    if (!linkTo) return '';
+
+    if (linkTo.includes('#p=')) {
+        return linkTo.replace(/#p=.*/, '#p=1');
+    }
+
+    return `${linkTo}#p=1`;
+}
+
+function ExternalPdfLink({ linkTo }) {
+    const pdfLink = getFirstPagePdfLink(linkTo);
+
+    if (!pdfLink) return '';
+
+    return (
+        <a
+            href={pdfLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800 transition-colors"
+        >
+            PDF
+        </a>
+    );
+}
+
+function addExternalPdfColumn(books) {
+    return books.map((book) => ({
+        ...book,
+        'External PDF': <ExternalPdfLink linkTo={book.LinkTo} />,
+    }));
+}
+
 export default function Books(props) {
 
     const bookSets = ['World of Darkness', 'Vampire: The Requiem',
@@ -19,13 +53,14 @@ export default function Books(props) {
     ];
 
     // Define the headers that correspond to your data keys
-    const tableFields = ['Code Name', 'Type', 'Title', 'Description', 'Release Date'];
+    const tableFields = ['Code Name', 'Type', 'Title', 'Description', 'Release Date', 'External PDF'];
 
 
     const renderedBookTables = bookData.map((book, index) => (
         <SimpleTable
+            key={bookSets[index]}
             title={bookSets[index]}
-            table={bookData[index]}
+            table={addExternalPdfColumn(book)}
             activeRowLink={false}
             headers={tableFields}
         />

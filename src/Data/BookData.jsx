@@ -1,7 +1,7 @@
 const WoDBookData = [
     {
         'Code Name': 'Ant',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Antagonists',
         "Description": "Details foes that anyone, mortal or supernatural, may encounter in their adventures.",
         'Release Date': '10/04',
@@ -28,7 +28,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'Asy',
-        'Type': '',
+        'Type': 'Location',
         'Title': 'Asylum',
         "Description": "Focuses on the insanity of the World of Darkness, and providing rules and information to bring this into a story.",
         'Release Date': '08/07',
@@ -37,7 +37,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'BoS',
-        'Type': '',
+        'Type': 'Spirit',
         'Title': 'Book of Spirits',
         "Description": "Details the Shadow, its spirit denizens and the various ways in which both interact with the material world.",
         'Release Date': '05/07',
@@ -46,7 +46,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'CB',
-        'Type': '',
+        'Type': 'Creatures',
         'Title': 'Changing Breeds',
         "Description": "Rules and information for playing as were-creatures other than werewolves.",
         'Release Date': '12/07',
@@ -64,7 +64,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'DoW',
-        'Type': '',
+        'Type': 'Military',
         'Title': 'Dogs of War',
         "Description": "Features how the men and women of the military react to the supernatural forces of the night.",
         'Release Date': '06/08',
@@ -73,7 +73,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'GS',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'Ghost Stories',
         "Description": "",
         'Release Date': '11/04',
@@ -82,7 +82,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'Imm',
-        'Type': '',
+        'Type': 'Character',
         'Title': 'Immortals',
         "Description": "Focuses on the type of immortals that inhabit the World of Darkness.",
         'Release Date': '05/09',
@@ -91,7 +91,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'Inf',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Inferno',
         "Description": "The content deals with demons, the possessed, and Faustian pacts with the devil.",
         'Release Date': '01/09',
@@ -100,7 +100,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'Inn',
-        'Type': '',
+        'Type': 'Character',
         'Title': 'Innocents',
         "Description": "Contains both rules for playing as child characters, and running chronicles for children.",
         'Release Date': '04/08',
@@ -109,7 +109,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'MR',
-        'Type': '',
+        'Type': 'Travel',
         'Title': 'Midnight Roads',
         "Description": "",
         'Release Date': '02/08',
@@ -127,7 +127,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'MP',
-        'Type': '',
+        'Type': 'Location',
         'Title': 'Mysterious Places',
         "Description": "Contains several archetypes for curious and grotesque locales.",
         'Release Date': '06/05',
@@ -136,7 +136,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'Rel',
-        'Type': '',
+        'Type': 'Relic',
         'Title': 'Reliquary',
         "Description": "Highlights the usage of mystical and magical items.",
         'Release Date': '08/07',
@@ -145,7 +145,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'SS',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Second Sight',
         "Description": "Options to users of minor magics and psychics.",
         'Release Date': '04/06',
@@ -172,7 +172,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'Skin',
-        'Type': '',
+        'Type': 'Creatures',
         'Title': 'Skinchangers',
         "Description": "Presents Skinthieves, people who achieve animal transformation through unusual means.",
         'Release Date': '07/06',
@@ -181,7 +181,7 @@ const WoDBookData = [
     },
     {
         'Code Name': '13th',
-        'Type': '',
+        'Type': 'Police',
         'Title': 'Tales from the 13th Precinct',
         "Description": "Highlights the roles of American police officers and how they react to supernatural creatures.",
         'Release Date': '07/06',
@@ -190,7 +190,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'UL',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'Urban Legends',
         "Description": "It serves as a way to bring urban legends into the World of Darkness, where they are possibly true - and possibly even more horrific.",
         'Release Date': '04/07',
@@ -244,7 +244,7 @@ const WoDBookData = [
     },
     {
         'Code Name': 'GotU',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'Glimpses of the Unknown',
         "Description": "Story ideas for each World of Darkness line",
         'Release Date': '07/11',
@@ -273,7 +273,7 @@ const WoDBookData = [
 
     {
         'Code Name': 'PM',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Proverbial Monsters',
         "Description": "Contains various monsters and story ideas for the story.",
         'Release Date': '10/09',
@@ -297,7 +297,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'AM',
-        'Type': '',
+        'Type': 'Mystery',
         'Title': 'Ancient Mysteries',
         "Description": "Provides information on Elder vampires and the historical eras they come from, as well as how to use them",
         'Release Date': '04/09',
@@ -307,7 +307,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'Nos',
-        'Type': '',
+        'Type': 'Clan',
         'Title': 'The Beast That Haunts the Blood: Nosferatu',
         "Description": "Clan books that focuses on Nosferatu.",
         'Release Date': '03/09',
@@ -317,7 +317,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'BB',
-        'Type': '',
+        'Type': 'Covenant',
         'Title': "Belial's Brood",
         "Description": "It explores the nature and motivations of the barbaric Belial's Brood covenant.",
         'Release Date': '01/07',
@@ -327,7 +327,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'Blood',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'The Blood',
         "Description": "It serves as a player's handbook, giving new insight on both the in-character and rules considerations of the Kindred condition.",
         'Release Date': '05/07',
@@ -397,7 +397,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'Cote',
-        'Type': '',
+        'Type': 'Coterie',
         'Title': 'Coteries',
         "Description": "It examines the relationships between groups of Kindred, and how they survive in their environments.",
         'Release Date': '10/04',
@@ -407,7 +407,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'DC',
-        'Type': '',
+        'Type': 'City',
         'Title': 'Damnation City',
         "Description": "t is designed to aid the Storyteller in the creation of cities and smaller places, such as neighborhoods and unique sites.",
         'Release Date': '08/07',
@@ -417,7 +417,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'DM',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'The Danse Macabre',
         "Description": "It includes a slew of new mechanics and rules for Storytellers and players alike.",
         'Release Date': '03/11',
@@ -436,7 +436,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'Ghou',
-        'Type': '',
+        'Type': 'Character',
         'Title': 'Ghouls',
         "Description": "It elaborates upon the roles of Ghouls in the world of vampires.",
         'Release Date': '05/05',
@@ -486,7 +486,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'Myth',
-        'Type': '',
+        'Type': 'Lore',
         'Title': 'Mythologies',
         "Description": "Explores different ideas and tales about the origins of the Kindred.",
         'Release Date': '06/06',
@@ -496,7 +496,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'NH-IS',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Night Horrors: Immortal Sinners',
         "Description": "It focuses on both the famous and infamous individual Kindred that inhabit the Chronicles of Darkness.",
         'Release Date': '03/09',
@@ -506,7 +506,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'NH-WD',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Night Horrors: Wicked Dead',
         "Description": "The vampires and creatures featured within the book focus on the violent side of Kindred unlife.",
         'Release Date': '09/09',
@@ -516,7 +516,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'Noma',
-        'Type': '',
+        'Type': 'Travel',
         'Title': 'Nomads',
         "Description": "A guide for both playing Kindred that live outside major cities and Kindred traveling the wilderness.",
         'Release Date': '11/04',
@@ -535,7 +535,7 @@ const VampireBookData = [
     },
     {
         'Code Name': 'RCG',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'Requiem Chroniclers Guide',
         "Description": "",
         'Release Date': '02/06',
@@ -555,7 +555,7 @@ const VampireBookData = [
 
     {
         'Code Name': '',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Rites of the Dragon',
         "Description": "It explores the origins of Dracula, the founder of the Ordo Dracul.",
         'Release Date': '11/04',
@@ -605,7 +605,7 @@ const VampireBookData = [
 
     {
         'Code Name': 'BSorc',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Blood Sorcery: Sacraments and Blasphemies',
         "Description": " It provides insight into Kindred blood magic and the rituals needed to invoke them.",
         'Release Date': '09/12',
@@ -636,7 +636,7 @@ const VampireBookData = [
 const WerewolfBookData = [
     {
         'Code Name': 'Blas',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Blasphemies',
         "Description": "Describes more radical views of Urathan creation myths.",
         'Release Date': '01/06',
@@ -646,7 +646,7 @@ const WerewolfBookData = [
 
     {
         'Code Name': 'BotW',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'Blood of the Wolf',
         "Description": "Serves as an advanced player's guide.",
         'Release Date': '09/05',
@@ -665,7 +665,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'LodgF',
-        'Type': '',
+        'Type': 'Lodge',
         'Title': 'Lodges: The Faithful',
         "Description": "It expands on the purpose and uses of Lodges.",
         'Release Date': '11/05',
@@ -675,7 +675,7 @@ const WerewolfBookData = [
 
     {
         'Code Name': 'LodgS',
-        'Type': '',
+        'Type': 'Lodge',
         'Title': 'Lodges: The Splintered',
         "Description": "It expands on the Lodges of the world.",
         'Release Date': '09/06',
@@ -685,7 +685,7 @@ const WerewolfBookData = [
 
     {
         'Code Name': 'Lore',
-        'Type': '',
+        'Type': 'Spirit',
         'Title': 'Lore of the Forsaken',
         "Description": "It covers the special powers and abilities available to the Uratha.",
         'Release Date': '08/05',
@@ -694,7 +694,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'NH-W',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Night Horrors: Wolfsbane',
         "Description": "It provides antagonists to use in a Werewolf chronicle, and is the first appearance of the Idigam.",
         'Release Date': '09/09',
@@ -704,7 +704,7 @@ const WerewolfBookData = [
 
     {
         'Code Name': 'Pred',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Predators',
         "Description": "Contains several antagonists to be used in a chronicle.",
         'Release Date': '06/05',
@@ -714,7 +714,7 @@ const WerewolfBookData = [
 
     {
         'Code Name': 'Pure',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'The Pure',
         "Description": "It delves into the society of the Pure, and examines their motivations and history.",
         'Release Date': '11/06',
@@ -723,7 +723,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'Rage',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'The Rage: Forsaken Players Guide',
         "Description": "Expands both options for character development as well as Urathan history.",
         'Release Date': '01/07',
@@ -732,7 +732,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'SotM',
-        'Type': '',
+        'Type': 'Auspice',
         'Title': 'Signs of the Moon',
         "Description": "Expands the role of Auspices.",
         'Release Date': '08/10',
@@ -741,7 +741,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'Terr',
-        'Type': '',
+        'Type': 'Location',
         'Title': 'Territories',
         "Description": "The concept of werewolf territories is expanded upon.",
         'Release Date': '04/06',
@@ -750,7 +750,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'Tribes',
-        'Type': '',
+        'Type': 'Tribe',
         'Title': 'Tribes of the Moon',
         "Description": "The book expands greatly upon the Tribes of the Moon.",
         'Release Date': '04/08',
@@ -760,7 +760,7 @@ const WerewolfBookData = [
 
     {
         'Code Name': 'WAtP',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'The War Against the Pure',
         "Description": "Covers the secret war between the Tribes of the Moon and the Pure Tribes.",
         'Release Date': '04/07',
@@ -779,7 +779,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'FCG:TI',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': "Forsaken Chronicler's Guide I - To Isolate",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
@@ -788,7 +788,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'FCG:TR',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': "Forsaken Chronicler's Guide II - To Rebuild",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
@@ -797,7 +797,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'FCG:TR',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': "Forsaken Chronicler's Guide II - To Rebuild",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
@@ -806,7 +806,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'FCG:TT',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': "Forsaken Chronicler's Guide III - To Transform",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
@@ -815,7 +815,7 @@ const WerewolfBookData = [
     },
     {
         'Code Name': 'FCG:TRA',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': "Forsaken Chronicler's Guide IV - To Rip Asunder",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
@@ -838,7 +838,7 @@ const MageBookData = [
 
     {
         'Code Name': 'AR',
-        'Type': '',
+        'Type': 'Astral',
         'Title': 'Astral Realms',
         "Description": "Provides a focused look on Astral Space and the realms and inhabitants within it.",
         'Release Date': '11/07',
@@ -847,7 +847,7 @@ const MageBookData = [
     },
     {
         'Code Name': 'Ban',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Banishers',
         "Description": "Focuses on the Banishers, Awakened who wish to eradicate everything supernatural from the Fallen World.",
         'Release Date': '03/08',
@@ -876,7 +876,7 @@ const MageBookData = [
     },
     {
         'Code Name': 'GoG',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Grimoire of Grimoires',
         "Description": "It offers many new grimoires for use within a chronicle, and each one is themed differently.",
         'Release Date': '05/08',
@@ -896,7 +896,7 @@ const MageBookData = [
 
     {
         'Code Name': 'IEwtA',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Intruders: Encounters with the Abyss',
         "Description": "It expands upon ideas of the Abyss and the creatures that break into reality from it.",
         'Release Date': '03/07',
@@ -905,7 +905,7 @@ const MageBookData = [
     },
     {
         'Code Name': 'KST',
-        'Type': '',
+        'Type': 'Tarot',
         'Title': 'Keys to the Supernal Tarot',
         "Description": "It expands on the uses of tarot in Mage and how it can be used in chronicles.",
         'Release Date': '11/08',
@@ -944,7 +944,7 @@ const MageBookData = [
 
     {
         'Code Name': 'MCG',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': "Mage Chronicler's Guide",
         "Description": "It serves as a guideline for Storytellers running Mage chronicles.",
         'Release Date': '07/10',
@@ -954,7 +954,7 @@ const MageBookData = [
 
     {
         'Code Name': 'MT',
-        'Type': '',
+        'Type': 'Tradition',
         'Title': 'Magical Traditions',
         "Description": "It provides several traditions for Mage players.",
         'Release Date': '06/07',
@@ -973,7 +973,7 @@ const MageBookData = [
 
     {
         'Code Name': 'NH-TU',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Night Horrors: The Unbidden',
         "Description": "It provides antagonists to use in a Mage chronicle, and to bring horror into magic.",
         'Release Date': '01/10',
@@ -983,7 +983,7 @@ const MageBookData = [
 
     {
         'Code Name': 'RotE',
-        'Type': '',
+        'Type': 'Chronicle',
         'Title': 'Reign of the Exarchs',
         "Description": "A collection of five stories that form a chronicle.",
         'Release Date': '07/06',
@@ -992,7 +992,7 @@ const MageBookData = [
     },
     {
         'Code Name': 'S&S',
-        'Type': '',
+        'Type': 'Sanctum',
         'Title': 'Sanctum & Sigil',
         "Description": "It provides more information on Mage society, with a focus on cabals and sanctums.",
         'Release Date': '11/05',
@@ -1002,7 +1002,7 @@ const MageBookData = [
 
     {
         'Code Name': 'SotRT',
-        'Type': '',
+        'Type': 'Lore',
         'Title': 'Secrets of the Ruined Temple',
         "Description": "The book delves into Atlantean myths, theories, and ancient ruins of Atlantean mages.",
         'Release Date': '05/06',
@@ -1021,7 +1021,7 @@ const MageBookData = [
     },
     {
         'Code Name': 'Summ',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Summoners',
         "Description": "Expands on mages who summon creatures from other realms, as well as providing new character options.",
         'Release Date': '04/09',
@@ -1041,7 +1041,7 @@ const MageBookData = [
 
     {
         'Code Name': 'TotM',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Tome of the Mysteries',
         "Description": "It offers information on creating magic as well as how different cultures view and affect magic.",
         'Release Date': '11/06',
@@ -1050,7 +1050,7 @@ const MageBookData = [
     },
     {
         'Code Name': 'TotW',
-        'Type': '',
+        'Type': 'Path',
         'Title': 'Tome of the Watchtowers',
         "Description": "It offers further information and options for players of all five Paths.",
         'Release Date': '04/06',
@@ -1060,7 +1060,7 @@ const MageBookData = [
 
     {
         'Code Name': 'IM',
-        'Type': '',
+        'Type': 'Archmastery',
         'Title': 'Imperial Mysteries',
         "Description": "Describes what happens to mages who transcend to the highest level of mystical power, including mechanics for Arcana at 6 dots or more.",
         'Release Date': '01/12',
@@ -1070,7 +1070,7 @@ const MageBookData = [
 
     {
         'Code Name': 'LHP',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Left-Hand Path',
         "Description": "It focuses on the mages who use forbidden magics.",
         'Release Date': '11/12',
@@ -1089,7 +1089,7 @@ const MageBookData = [
 const PrometheanBookData = [
     {
         'Code Name': 'MO',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'Magnum Opus',
         "Description": "This book explores the true origins of the Prometheans, the alternate means of creating them, new Refinements and Transmutations, and working with complications in Promethean storylines, from going to the Wastes to working in other supernatural creatures.",
         'Release Date': '02/07',
@@ -1098,7 +1098,7 @@ const PrometheanBookData = [
     },
     {
         'Code Name': 'PB',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': "Pandora's Book",
         'Description': 'This book focuses on the antagonists of the Prometheans, including the Centimani and the Pandorans, details on the mysterious qashmallim, and more information on the properties as Pyros.',
         'Release Date': '10/06',
@@ -1117,7 +1117,7 @@ const PrometheanBookData = [
 
     {
         'Code Name': 'SN',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'Saturnine Night',
         "Description": "The book's main themes include bringing strong science fiction elements into storylines through new types of Prometheans and a new Lineage, as well as tips on creating new Lineages and creating short and long-term Promethean chronicles.",
         'Release Date': '03/07',
@@ -1127,7 +1127,7 @@ const PrometheanBookData = [
 
     {
         'Code Name': 'SA',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'Strange Alchemies',
         "Description": "This book expands and details many of the concepts brought forth in the first book; the Lineages each receive an in-depth section on their rituals and habits and the Refinements get more detail and new Transmutations.",
         'Release Date': '11/06',
@@ -1146,7 +1146,7 @@ const PrometheanBookData = [
 const ChangelingBookData = [
     {
         'Code Name': 'AN',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Autumn Nightmares',
         "Description": "Contains details of the characters and creatures which are the main antagonists of Changelings, most notably other Changelings, the True Fae, and fetches. It uses the Autumn Court's emotion, fear, as its main theme.",
         'Release Date': '10/07',
@@ -1165,7 +1165,7 @@ const ChangelingBookData = [
     },
     {
         'Code Name': 'DitD',
-        'Type': '',
+        'Type': 'Storytelling',
         'Title': 'Dancers in the Dusk',
         "Description": "",
         'Release Date': '04/09',
@@ -1175,7 +1175,7 @@ const ChangelingBookData = [
 
     {
         'Code Name': 'ER',
-        'Type': '',
+        'Type': 'Arcadia',
         'Title': 'The Equinox Road',
         "Description": "It gathers together the last missing pieces of the Changeling Universe, including more on Arcadia, the True Fae, and roleplaying the most complicated, high-power aspects of Changeling campaigns.",
         'Release Date': '08/08',
@@ -1185,7 +1185,7 @@ const ChangelingBookData = [
 
     {
         'Code Name': 'LoS',
-        'Type': '',
+        'Type': 'Court',
         'Title': 'Lords of Summer',
         "Description": "It deals with changeling freeholds, more information on the Great Courts, and new Entitlements.",
         'Release Date': '06/08',
@@ -1194,7 +1194,7 @@ const ChangelingBookData = [
     },
     {
         'Code Name': 'NH-GF',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Night Horrors: Grim Fears',
         "Description": "It contains many antagonists and monsters to use in a Changeling game.",
         'Release Date': '10/08',
@@ -1204,7 +1204,7 @@ const ChangelingBookData = [
 
     {
         'Code Name': 'RoS',
-        'Type': '',
+        'Type': 'Magic',
         'Title': 'Rites of Spring',
         "Description": "Expands upon the information about faerie magic.",
         'Release Date': '02/08',
@@ -1214,7 +1214,7 @@ const ChangelingBookData = [
 
     {
         'Code Name': 'SaD',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'Swords at Dawn',
         "Description": "Expands the options available to players for character development in a chronicle.",
         'Release Date': '07/09',
@@ -1223,7 +1223,7 @@ const ChangelingBookData = [
     },
     {
         'Code Name': 'WM',
-        'Type': '',
+        'Type': 'Player',
         'Title': 'Winter Masques',
         "Description": "It contains more options for player characters, in particular more information on the Seemings - including new Kiths and Contracts - and of Court structures beyond the seasonal courts common in the Western world.",
         'Release Date': '12/07',
@@ -1252,7 +1252,7 @@ const ChangelingBookData = [
     },
     {
         'Code Name': 'GobM',
-        'Type': '',
+        'Type': 'Location',
         'Title': 'Goblin Markets',
         "Description": "It provides information for designing a Goblin Market to place into a changeling chronicle.",
         'Release Date': '09/09',
@@ -1293,7 +1293,7 @@ const HunterBookData = [
 
     {
         'Code Name': 'NS',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Night Stalkers',
         "Description": "Focuses on hunters who pursue the creatures tied to vampires.",
         'Release Date': '03/09',
@@ -1303,7 +1303,7 @@ const HunterBookData = [
 
     {
         'Code Name': 'Slash',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Slasher',
         "Description": "Closely examines the role of the mass murderers and serial killers in the World of Darkness, including those under supernatural influences, and those that are hunters who have been pushed too far.",
         'Release Date': '02/09',
@@ -1312,7 +1312,7 @@ const HunterBookData = [
     },
     {
         'Code Name': 'SpSl',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Spirit Slayers',
         "Description": "Focuses on hunters who pursue the creatures tied into the spirit world, particularly werewolves and ghosts.",
         'Release Date': '04/09',
@@ -1321,7 +1321,7 @@ const HunterBookData = [
     },
     {
         'Code Name': 'WF',
-        'Type': '',
+        'Type': 'Antagonist',
         'Title': 'Witch Finders',
         "Description": "This book puts an emphasis on hunters who go after mages, witches, and other humans who practice magic in violation of the laws of man.",
         'Release Date': '09/08',
@@ -1331,7 +1331,7 @@ const HunterBookData = [
 
     {
         'Code Name': 'C&C',
-        'Type': '',
+        'Type': 'Faction',
         'Title': 'Compacts and Conspiracies',
         "Description": "Details more information on existing compacts and conspiracies from the HTV: Hunter: The Vigil Rulebook",
         'Release Date': '05/10',
@@ -1340,7 +1340,7 @@ const HunterBookData = [
     },
     {
         'Code Name': 'BbBB',
-        'Type': '',
+        'Type': 'Adventure',
         'Title': '	Block by Bloody Block',
         "Description": "",
         'Release Date': '12/08',
@@ -1369,7 +1369,7 @@ const HunterBookData = [
 const GeistBookData = [
     {
         'Code Name': 'BotD',
-        'Type': '',
+        'Type': 'Underworld',
         'Title': 'Book of the Dead',
         "Description": "It describes in great detail the Underworld and all of the horrors and wonders within.",
         'Release Date': '12/09',
@@ -1400,7 +1400,7 @@ const GeistBookData = [
 const MummyBookData = [
     {
         'Code Name': 'Dec',
-        'Type': '',
+        'Type': 'Faction',
         'Title': 'Book of the Deceived',
         "Description": "",
         'Release Date': '11/14',
@@ -1447,7 +1447,7 @@ const MummyBookData = [
     },
     {
         'Code Name': 'GotD',
-        'Type': '',
+        'Type': 'Alternate Setting',
         'Title': 'Guildhalls of the Deathless',
         "Description": "A setting for Mummy: The Curse at the turn of the 20th century.",
         'Release Date': '10/13',
@@ -1457,7 +1457,7 @@ const MummyBookData = [
 
     {
         'Code Name': 'LotD',
-        'Type': '',
+        'Type': 'Faction',
         'Title': 'Lore of the Deceived',
         "Description": "",
         'Release Date': '02/15',
@@ -1476,7 +1476,7 @@ const MummyBookData = [
     },
     {
         'Code Name': 'Soth',
-        'Type': '',
+        'Type': 'Lore',
         'Title': 'Sothis Ascends',
         "Description": "This book examines the Sothic Turn; the cycle of existence within which Mummies live and die. Since their creation, there have been five Turns and each is examined: one part historical setting, one part grab-bag of artifacts, powers, and antagonists.",
         'Release Date': '04/15',

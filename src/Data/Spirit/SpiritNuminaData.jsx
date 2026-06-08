@@ -107,7 +107,13 @@ const spiritNuminaData = [
         "Description": "Stun enemies with a wail, per successes",
         "Long Description": [
             "The ghost creates an earsplitting scream that deafens anyone nearby. Spend one point of Essence and roll Power + Finesse. Anyone within 20 yards of the ghost must succeed on a Resolve + Stamina roll – the number of successes gained or be stunned for one turn (see the World of Darkness Rulebook, p. 167). Characters that are stunned by the wail also suffer a –3 penalty to any Perception checks that rely on hearing for the remainder of the scene.",
-            "<b>Channeled:<b> The effects of the Numina remain the same when channeled by a Sin-Eater, with the Sin-Eater acting as the source of the wail. The Sin-Eater is immune to the effects of a wail channeled by him. "
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Channeled:" },
+                    " The effects of the Numina remain the same when channeled by a Sin-Eater, with the Sin-Eater acting as the source of the wail. The Sin-Eater is immune to the effects of a wail channeled by him.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -186,9 +192,27 @@ const spiritNuminaData = [
         "Description": "The spirit can summon a brisk wind and direct it as they will.",
         "Long Description": [
             "A werewolf may summon a brisk wind (approximately 25 miles per hour) and direct it as he wills. This wind is useful both for dispersing or redirecting a fire or flying insects, or as a distraction. ",
-            "<b>Cost:</b> None",
-            "<b>Dice Pool:</b> This power requires no roll.",
-            "<b>Action:</b> Instant",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " None",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " This power requires no roll.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
             "Though it requires no roll to actually summon the wind, a successful Manipulation + Occult roll is necessary to direct it to any specific task, such as to disperse tear gas. Because of the distraction of the sudden breeze, perception task rolls (World of Darkness Rulebook, p. 45) made in the area suffer a –1 penalty. The Gift lasts for one turn per dot of Primal Urge that the summoner has. The breeze can be conjured indoors or out."
         ],
         "Pool": "",
@@ -201,9 +225,27 @@ const spiritNuminaData = [
         "Description": "The spirit manifests water.",
         "Long Description": [
             "Any animal knows that even a small pool of water can mean the difference between life and death. Such is the purpose behind this Gift, which can draw a few cups of water into the hands of a werewolf, even in a desert.",
-            "<b>Cost:</b> None",
-            "<b>Dice Pool:</b> Stamina + Survival + Purity",
-            "<b>Action:</b> Instant",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " None",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Stamina + Survival + Purity",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
             "After invoking this Gift, the character creates the element of water between his hands seemingly from thin air, at least enough to stave off death from dehydration. (See “Deprivation,” World of Darkness Rulebook, p. 175) The character creates one cup of water for every success rolled — the excess overflowing his hands either into a container or just onto the ground. The Gift cannot be invoked more than once an hour.",
             ""
         ],
@@ -283,9 +325,27 @@ const spiritNuminaData = [
         "Description": "Similar to 'Claim' above, but imperfect, and used by Ghosts.",
         "Long Description": [
             "The ravening ghost does not simply possess a body. As long as the person’s psyche remains in the body, there is a chance the victim can wrest control from the possessor and evict it. This is simply not acceptable to the bhüta, as it requires a more permanent solution. The bhüta attempts to gain access to its chosen victim’s body and digs away at his soul. ",
-            "<b>Dice Pool:</b> Power + Finesse vs. target’s Resolve + Composure",
-            "<b>Cost:</b> 3 Essence",
-            "<b>Action:</b> Extended and Contested; the bhüta must gather 50 successes before sunrise. Each roll represents one hour of effort. If the bhüta fails to gather 50 successes in the required time, the attempt fails."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Power + Finesse vs. target’s Resolve + Composure",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 3 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Extended and Contested; the bhüta must gather 50 successes before sunrise. Each roll represents one hour of effort. If the bhüta fails to gather 50 successes in the required time, the attempt fails.",
+                ],
+            },
         ],
         "Pool": "Power+Finesse vs Resolve + Composure",
         "Cost": "3e",
@@ -319,9 +379,27 @@ const spiritNuminaData = [
         "Description": "The spirit can manipulate fire.",
         "Long Description": [
             "Fire’s flames can both soothe the spirit and sear the flesh. This Gift shows the strong connection werewolves have with this element, even to the point of commanding fire to burn enemies or to cease its scorching wrath.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Strength + Survival + Glory",
-            "<b>Action:</b> Instant",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Strength + Survival + Glory",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
             "The character can’t summon fire from nothingness, but if open flames such as a nearby campfire or burning torch are within sight, she can command the flames at will, even having them arc through the air. The werewolf may cause one point of fire damage per success to a single target within line of sight. The target must be within 20 yards of an existing source of flame. The roll to attack someone with fire is penalized by the victim’s Defense and any cover or concealment involved. In addition, armor may offer some protection against the attack. (See “Fire” in the World of Darkness Rulebook, p. 180.)",
             "This Gift can also be used more simply, to spread an existing fire to a larger area (doubling the fire’s rate of growth) or to stop a fire from progressing toward a forest or settlement. This more exacting control lasts for as long as the werewolf concentrates. It is demanding, however, and imposes a –2 penalty on the activation roll. "
         ],
@@ -368,13 +446,54 @@ const spiritNuminaData = [
         "Description": "The spirit gains knowledge of the physical land, where enemies are and where to hide.",
         "Long Description": [
             "In war, knowledge of the terrain is key to victory. This Gift is an expression of that maxim. The werewolf opens her mind to her environment and gains knowledge of the terrain around her — where enemies are, where she can hide, where the best avenues of attack lie. When used on the home territory of an enemy, the werewolf might find she knows more about her foe’s home ground than he does.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Intelligence + Streetwise + Cunning",
-            "<b>Roll Results</b>",
-            "<b>Dramatic <b>Failure:</b></b> The character gains conflicting messages about her surroundings. She suffers a –1 penalty to Initiative until the scene ends or she leaves the area.",
-            "<b>Failure:</b> The character gains no knowledge of her surroundings. ",
-            "<b>Success:</b> The character immediately gains full knowledge of her surroundings with regard to potential entrances and exits, the number of creatures larger than a rat present and general terrain features. While she remains in the area, a +2 bonus to Defense and Initiative is gained. The area to which she can attune herself is roughly equal to one acre per success. The Gift effects last for a scene.",
-            "<b>Exceptional Success:</b> As success, but the bonus to Defense and Initiative is +3."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Intelligence + Streetwise + Cunning",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The character gains conflicting messages about her surroundings. She suffers a –1 penalty to Initiative until the scene ends or she leaves the area.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The character gains no knowledge of her surroundings.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character immediately gains full knowledge of her surroundings with regard to potential entrances and exits, the number of creatures larger than a rat present and general terrain features. While she remains in the area, a +2 bonus to Defense and Initiative is gained. The area to which she can attune herself is roughly equal to one acre per success. The Gift effects last for a scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As success, but the bonus to Defense and Initiative is +3.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -519,15 +638,77 @@ const spiritNuminaData = [
         "Description": "The spirit summons a very heavy rain",
         "Long Description": [
             "With this Gift, a werewolf summons a rain-spirit to bring a torrential downpour to an area. No gentle shower, this torrent has myriad uses, from ruining crops to starting flash floods to erasing evidence of a pack’s passage. This Gift can only be used outdoors.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Manipulation + Survival + Honor",
-            "<b>Action:</b> Extended (20 successes; one turn passes per roll)",
-            "<b>Roll Results</b>",
-            "<b>Dramatic <b>Failure:</b></b> The weather alters in a manner other than the character’s choosing. It may shift from rain to snow to hail to high wind, usually in some fashion horribly inconvenient to the Gift user. The aberrant and troublesome weather persists for the duration of the scene.",
-            "<b>Failure:</b> The weather doesn’t change.",
-            "<b>Success:</b> The area affected is equal to one square mile per success achieved. Common sense must be applied to applications of this Gift. The deluge could flood low-lying areas or cause a river to swell its banks, but no one standing on even reasonably high ground is going to drown. The Gift isn’t designed to directly damage an individual, but it can sure as hell do so indirectly, causing thousands of dollars in property damage alone. In times of drought, the power of this Gift can be a great boon. The downpour lasts for a scene. Those caught in heavy rain suffer a –2 penalty to perception rolls and ranged combat.",
-            "<b>Exceptional Success:</b> The character can select an area that receives less or no rain, effectively creating an eye of the storm.",
-            "Suggested Modifiers<br><table border='1' style='margin: 15px 0;'><thead><tr><th style='padding: 5px;'>Modifier</th><th style='padding: 5px;'>Situation</th></tr></thead><tbody><tr><td style='padding: 5px;'>+1</td><td style='padding: 5px;'>A heavily clouded day</td></tr><tr><td style='padding: 5px;'>+2</td><td style='padding: 5px;'>The weather is already raining or drizzling</td></tr><tr><td style='padding: 5px;'>–3</td><td style='padding: 5px;'>A cloudless day</td></tr><tr><td style='padding: 5px;'>–5</td><td style='padding: 5px;'>Desert or other similarly arid area</td></tr></tbody></table>"
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Manipulation + Survival + Honor",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Extended (20 successes; one turn passes per roll)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The weather alters in a manner other than the character’s choosing. It may shift from rain to snow to hail to high wind, usually in some fashion horribly inconvenient to the Gift user. The aberrant and troublesome weather persists for the duration of the scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The weather doesn’t change.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The area affected is equal to one square mile per success achieved. Common sense must be applied to applications of this Gift. The deluge could flood low-lying areas or cause a river to swell its banks, but no one standing on even reasonably high ground is going to drown. The Gift isn’t designed to directly damage an individual, but it can sure as hell do so indirectly, causing thousands of dollars in property damage alone. In times of drought, the power of this Gift can be a great boon. The downpour lasts for a scene. Those caught in heavy rain suffer a –2 penalty to perception rolls and ranged combat.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character can select an area that receives less or no rain, effectively creating an eye of the storm.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "Suggested Modifiers",
+                ],
+            },
+            {
+                type: 'table',
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "A heavily clouded day"],
+                    ["+2", "The weather is already raining or drizzling"],
+                    ["–3", "A cloudless day"],
+                    ["–5", "Desert or other similarly arid area"],
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -541,10 +722,40 @@ const spiritNuminaData = [
             "You may decide that this Numen has been used to mold Donnie into an obsessive-compulsive sycophant of Fort Assumption. Alternatively, Donnie could have been sufficiently imbalance before, foregoing the need for this power.",
             "This Numen assaults a person’s mind with a cavalcade of nightmarish imagery, breaking down his sanity in the process. Such images are often personal and culled from a victim’s own memory, although the user sometimes applies images from its own history or “memory” to decide such visions.",
             "Use of Dement is a contested action, with opposing rolls being made reflexively. Spend one Essence and roll Power + Finesse versus the victim’s Intelligence + Composure.",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The power can’t be used against the same target again for a week. If a dramatic failure is rolled for the target, no contested rolls are allowed against other applications for a week.",
-            "<b>Failure:</b> The most or an equal number of successes are rolled for the target. The power has no effect on him, but successive attempts are possible.",
-            "<b>Success:</b> The most successes are rolled for the town or spirit. The victim gains a mild derangement of the Storyteller’s choice (see World of Darkness Rulebook, p. 96) for a number of days equal to the successes rolled.",
-            "<b>Exceptional Success:</b> The most — five or more — successes are rolled for the town or spirit. A mild derangement is inflicted upon the victim permanently, or a severe one is imposed for a number of days equal to successes rolled. A permanent disability may be overcome only through prolonged treatment.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The power can’t be used against the same target again for a week. If a dramatic failure is rolled for the target, no contested rolls are allowed against other applications for a week.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The most or an equal number of successes are rolled for the target. The power has no effect on him, but successive attempts are possible.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The most successes are rolled for the town or spirit. The victim gains a mild derangement of the Storyteller’s choice (see World of Darkness Rulebook, p. 96) for a number of days equal to the successes rolled.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The most — five or more — successes are rolled for the town or spirit. A mild derangement is inflicted upon the victim permanently, or a severe one is imposed for a number of days equal to successes rolled. A permanent disability may be overcome only through prolonged treatment.",
+                ],
+            },
             "Suggested Equipment: Intended target already has a mild (+1) or severe (+2) derangement, target has a Morality of 5 or 6 (+1) or lower (+2)",
             "Possible Penalties: Intended target currently under mental care (-3), target has the Meditative Mind Merit (-2)",
             "Dement can be used successfully on a victim only once per week. Its range is variable, perhaps as far as a number of miles equal to its user’s Power dots, or a distance determined by the Storyteller."
@@ -807,13 +1018,61 @@ const spiritNuminaData = [
         "Description": "The spirit possess some of the sense of nearby forest beings, gaining knowledge of the surrounding area.",
         "Long Description": [
             "The forest is alive, and much can be gleaned by those who know how to listen. With this Gift, a werewolf can sense much about the life around her: the tread of boots on the earth, fleeting images through the eyes of an owl or fox, or the scent of recent visitors.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Manipulation + Survival + Cunning",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The character is overwhelmed by the amount of information, suffering a –1 penalty to Wits rolls for the remainder of the scene.",
-            "<b>Failure:</b> The character cannot establish communication.",
-            "<b>Success:</b> The user slips into a trancelike state. Successful activation of this Gift allows basic information (presence of intruders, potential threats such as fires) up to 500 yards from the werewolf. Each additional success increases the radius by an additional 100 yards and increases the detail of information learned. One success could tell the presence of intruders, while three successes could reveal the species and gender of those intruders. The Gift lasts as long as the user remains in the trance, but she is unaware of and cannot react to the outside world, nor can she relay her findings while the Gift is active. This Gift doesn’t function in an urban environment. ",
-            "<b>Exceptional Success:</b> No additional effect apart from greater range and increased information."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Manipulation + Survival + Cunning",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The character is overwhelmed by the amount of information, suffering a –1 penalty to Wits rolls for the remainder of the scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The character cannot establish communication.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The user slips into a trancelike state. Successful activation of this Gift allows basic information (presence of intruders, potential threats such as fires) up to 500 yards from the werewolf. Each additional success increases the radius by an additional 100 yards and increases the detail of information learned. One success could tell the presence of intruders, while three successes could reveal the species and gender of those intruders. The Gift lasts as long as the user remains in the trance, but she is unaware of and cannot react to the outside world, nor can she relay her findings while the Gift is active. This Gift doesn’t function in an urban environment.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " No additional effect apart from greater range and increased information.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1322,14 +1581,77 @@ const spiritNuminaData = [
         "Description": "Summon a fearsome whirlwind",
         "Long Description": [
             "This Gift in many ways expresses the primal anger and inner turmoil of the werewolf’s spirit. The wind can be a fearsome ally, able to destroy flesh as well as metal, wood and stone. When a werewolf calls upon the wind, great destruction is sure to follow.",
-            "<b>Cost:</b> 2 Essence",
-            "<b>Dice Pool:</b> Strength + Empathy + Honor",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The character stirs up a weather pattern beyond his control, such as a freak snowstorm or a bolt of lightning that strikes a random tree or building.",
-            "<b>Failure:</b> The local winds stir a bit with no real consequence.",
-            "<b>Success:</b> A whirlwind of terrible intensity forms immediately within 50 yards of the character. He can then set it moving in any direction he chooses (though he cannot make it change direction). The whirlwind’s radius of effect is approximately 10 feet, and it moves at the character’s unmodified base Speed. People or objects caught in that radius suffer one die of lethal damage per success rolledon the Gift’s activation roll. Anyone within the radius of effect also suffers a –4 penalty on all die rolls, and targets weighing 150 pounds or less may be lifted and thrown in a random direction. A character who is within the radius of effect can attempt to get out of harm’s way during the Gift-user’s place in the Initiative order if his action falls after that of the Gift user. His player rolls Dexterity + Athletics (though this roll suffers the –4 penalty). Even a single success allows the dodging character to get out of harm’s way, but doing so costs him his action at his own later place in the Initiative order that turn. The whirlwind dissipates after two turns. The Gift user himself can be affected by the wind if he comes in contact with it.",
-            "<b>Exceptional Success:</b> As success, but the whirlwind remains for an additional turn.",
-            "Suggested Modifiers<br><table border='1' style='margin: 15px 0;'><thead><tr><th style='padding: 5px;'>Modifier</th><th style='padding: 5px;'>Situation</th></tr></thead><tbody><tr><td style='padding: 5px;'>+1</td><td style='padding: 5px;'>A heavily clouded day</td></tr><tr><td style='padding: 5px;'>+2</td><td style='padding: 5px;'>The weather is already raining or drizzling</td></tr><tr><td style='padding: 5px;'>–3</td><td style='padding: 5px;'>A cloudless day</td></tr><tr><td style='padding: 5px;'>–5</td><td style='padding: 5px;'>Desert or other similarly arid area</td></tr></tbody></table>"
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 2 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Strength + Empathy + Honor",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The character stirs up a weather pattern beyond his control, such as a freak snowstorm or a bolt of lightning that strikes a random tree or building.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The local winds stir a bit with no real consequence.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " A whirlwind of terrible intensity forms immediately within 50 yards of the character. He can then set it moving in any direction he chooses (though he cannot make it change direction). The whirlwind’s radius of effect is approximately 10 feet, and it moves at the character’s unmodified base Speed. People or objects caught in that radius suffer one die of lethal damage per success rolledon the Gift’s activation roll. Anyone within the radius of effect also suffers a –4 penalty on all die rolls, and targets weighing 150 pounds or less may be lifted and thrown in a random direction. A character who is within the radius of effect can attempt to get out of harm’s way during the Gift-user’s place in the Initiative order if his action falls after that of the Gift user. His player rolls Dexterity + Athletics (though this roll suffers the –4 penalty). Even a single success allows the dodging character to get out of harm’s way, but doing so costs him his action at his own later place in the Initiative order that turn. The whirlwind dissipates after two turns. The Gift user himself can be affected by the wind if he comes in contact with it.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As success, but the whirlwind remains for an additional turn.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "Suggested Modifiers",
+                ],
+            },
+            {
+                type: 'table',
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "A heavily clouded day"],
+                    ["+2", "The weather is already raining or drizzling"],
+                    ["–3", "A cloudless day"],
+                    ["–5", "Desert or other similarly arid area"],
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1341,13 +1663,61 @@ const spiritNuminaData = [
         "Description": "The spirit ignores suxx durability of inanimate objects",
         "Long Description": [
             "Werewolves tap into a source of strength that is older than all the works of man. Iron-Rending infuses a werewolf’s claws with such destructive power that iron, steel and concrete cannot withstand his might. A character with this Gift can tear apart steel like cardboard and claw stone as easily as clay. This Gift is usable only in Dalu, Gauru or Urshul form.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Strength + Crafts + Glory",
-            "<b>Action:</b> Reflexive",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The Gift fails and the werewolf’s claws actually soften and break off. The result inflicts one point of bashing damage.",
-            "<b>Failure:</b> The werewolf gains no particular advantage.",
-            "<b>Success:</b> When attempting to damage an inanimate object with his bare claws, the character may ignore a number of points of Durability (see the World of Darkness Rulebook, p. 135) equal to the number of successes achieved on this power’s activation roll. The Gift’s effects last for one turn per success rolled. If the werewolf attacks a target protected by worn armor, this Gift allows a number of Armor points to be ignored equal to successes achieved on the power’s activation roll. This Gift cannot penetrate Durability or Armor gained by mystical means, such as through the Gift: Rage Armor.",
-            "<b>Exceptional Success:</b> Not only does the character ignore a portion of an object’s Durability or a target’s Armor, but he gains a +1 bonus to unarmed close-combat attacks for the duration of the effect."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Strength + Crafts + Glory",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Reflexive",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The Gift fails and the werewolf’s claws actually soften and break off. The result inflicts one point of bashing damage.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The werewolf gains no particular advantage.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " When attempting to damage an inanimate object with his bare claws, the character may ignore a number of points of Durability (see the World of Darkness Rulebook, p. 135) equal to the number of successes achieved on this power’s activation roll. The Gift’s effects last for one turn per success rolled. If the werewolf attacks a target protected by worn armor, this Gift allows a number of Armor points to be ignored equal to successes achieved on the power’s activation roll. This Gift cannot penetrate Durability or Armor gained by mystical means, such as through the Gift: Rage Armor.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Not only does the character ignore a portion of an object’s Durability or a target’s Armor, but he gains a +1 bonus to unarmed close-combat attacks for the duration of the effect.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1359,16 +1729,64 @@ const spiritNuminaData = [
         "Description": "The spirit visualizes the fast way to a location",
         "Long Description": [
             "Not all werewolves hunt by scent. The werewolf with this Gift draws forth knowledge of the quickest path to wherever she wants to go, be it the safe house of an allied pack or the heart of a Beshilu infestation. The quickest and most efficient path isn’t always the safest, but so it goes.",
-            "<b>Cost:</b> 1 Essence ",
-            "<b>Dice Pool:</b> Wits + Survival + Glory (versus subject’s Resolve + Primal Urge)",
-            "<b>Action:</b> Instant or contested; resistance is reflexive",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The character perceives an improper path, one that leads someplace considerably less useful and potentially more dangerous.",
-            "<b>Failure:</b> The character fails to discern the proper path and cannot use this Gift again until after the next moonrise.",
-            "<b>Success:</b> The character visualizes the closest and most efficient route to the location she wishes. The information is stored in her head as a precise set of directions, allowing her to spend minimal time checking for landmarks. This Gift does not reveal the presence of dangers or obstacles along the way, unless they are specific landmarks. (“Turn left at the open chemical vats.”)",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Wits + Survival + Glory (versus subject’s Resolve + Primal Urge)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant or contested; resistance is reflexive",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The character perceives an improper path, one that leads someplace considerably less useful and potentially more dangerous.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The character fails to discern the proper path and cannot use this Gift again until after the next moonrise.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character visualizes the closest and most efficient route to the location she wishes. The information is stored in her head as a precise set of directions, allowing her to spend minimal time checking for landmarks. This Gift does not reveal the presence of dangers or obstacles along the way, unless they are specific landmarks. (“Turn left at the open chemical vats.”)",
+                ],
+            },
             "If the location in question is kept secret by its owner (such as a vampire’s haven), the roll is contested. Roll Resolve + Primal Urge for the subject. If the place is shared by multiple people, roll the lowest Resolve + Primal Urge pool among them. The Gift user must be in the physical presence of someone whose secret lair is discerned. If a subject ties or wins the roll, he cannot be subjected to this Gift again for 24 hours.",
             "This Gift cannot locate the path to a place that is magically veiled or that exists on another plane of existence. The character can, however, use the Gift in the Shadow Realm to find the way to another location in the spirit world.",
             "The Gift effects last for a scene. If the character doesn’t reach her destination in that time, she must use the Gift again, or Intelligence + Composure can be rolled to remember the details (World of Darkness Rulebook, p. 44). ",
-            "<b>Exceptional Success:</b> The character learns not only the most efficient route to the desired location, but also the safest. She might not choose the safest, but the option is there.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character learns not only the most efficient route to the desired location, but also the safest. She might not choose the safest, but the option is there.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1455,7 +1873,13 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "This Numen allows the ghost to project its image in glass, mirrors, and other reflective surfaces without an actual physical manifestation. Spend one Essence and roll Power + Finesse. With success, the image of the ghost appears in the reflective surface. Any Numina that require the ghost to manifest but don’t have physical effects can be enacted through the projection (Dissembling Guise, for example). In addition, if anyone stares into the reflective surface containing the projection and speaks the name of the ghost aloud three times, the ghost may physically manifest without a roll and is refunded the point of Essence spent to activate this Numen.",
-            "<b>Channeled:</b> While channeling this Numen, the Sin-Eater can look into a mirror or other reflective surface and see out of another reflective surface in the same building. Anyone that happens to be looking at their reflection when the Sin-Eater uses this Numen sees the reflection of the Sin-Eater in place of their own.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Channeled:" },
+                    " While channeling this Numen, the Sin-Eater can look into a mirror or other reflective surface and see out of another reflective surface in the same building. Anyone that happens to be looking at their reflection when the Sin-Eater uses this Numen sees the reflection of the Sin-Eater in place of their own.",
+                ],
+            },
             "",
             "",
             ""
@@ -1509,13 +1933,61 @@ const spiritNuminaData = [
         "Description": "Manipulate present expressions of Earth",
         "Long Description": [
             "The dust of the earth becomes as malleable as clay in the werewolf’s hands. This Gift is useful for a variety of things, such as forming a protective earthen shelter or quickly concealing loved ones from enemies. The character touches the ground, and it seems to do her bidding.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Dexterity + Crafts + Cunning",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> Earth-spirits recoil at the werewolf’s fumbling. Any spirits of earth or stone become more hostile. Social rolls made toward those spirits suffer a –2 penalty, as do Gift-activation rolls or rite-activation rolls made within 24 hours that involve such spirits.",
-            "<b>Failure:</b> The Gift is unable to shape more than a few ounces of dirt.",
-            "<b>Success:</b> The werewolf can shape a surface area of roughly 100 square feet or a volume of roughly 40 cubic feet. The Gift is ideal for creating a quick foxhole or small escape tunnel. This power can sculpt earth, but not stone, concrete or metal. Changes made are permanent.",
-            "<b>Exceptional Success:</b> The werewolf can sculpt stone as well as earth, though not metal or man-made substances such as asphalt."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Dexterity + Crafts + Cunning",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Earth-spirits recoil at the werewolf’s fumbling. Any spirits of earth or stone become more hostile. Social rolls made toward those spirits suffer a –2 penalty, as do Gift-activation rolls or rite-activation rolls made within 24 hours that involve such spirits.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The Gift is unable to shape more than a few ounces of dirt.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The werewolf can shape a surface area of roughly 100 square feet or a volume of roughly 40 cubic feet. The Gift is ideal for creating a quick foxhole or small escape tunnel. This power can sculpt earth, but not stone, concrete or metal. Changes made are permanent.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The werewolf can sculpt stone as well as earth, though not metal or man-made substances such as asphalt.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1647,13 +2119,61 @@ const spiritNuminaData = [
         "Description": "Disables all electric lighting, and prevents it from operating for a scene.",
         "Long Description": [
             "Humans and werewolves alike rely on the power of light for innumerable tasks. This Gift allows the user to extinguish all electric light (i.e., electric lamps, battery-powered flashlights, streetlights) in a specific area.",
-            "<b>Cost:</b> 1 Willpower",
-            "<b>Dice Pool:</b> Wits + Larceny + Cunning",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The failed Gift alerts local technological spirits. Any spirits in the area associated with technology become increasingly hostile toward the character for one lunar month.",
-            "<b>Failure:</b> Nothing happens.",
-            "<b>Success:</b> The character must target a specific area within unaided visual range; the Gift does not work on areas viewed remotely via binoculars, security systems or the like. Success extinguishes the light within a home of about 2,000 square feet, with each additional success doubling the size of the area. Three successes, for example, kill the lights on an entire floor of a large office building. This Gift does not simply turn the lights off — it prevents them from functioning at all. The effects last for one scene, or until the character chooses to end the Gift’s effects.",
-            "<b>Exceptional Success:</b> The character gains selective control over the technological light sources in the area, and may select one source to still function if she chooses."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Willpower",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Wits + Larceny + Cunning",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The failed Gift alerts local technological spirits. Any spirits in the area associated with technology become increasingly hostile toward the character for one lunar month.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " Nothing happens.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character must target a specific area within unaided visual range; the Gift does not work on areas viewed remotely via binoculars, security systems or the like. Success extinguishes the light within a home of about 2,000 square feet, with each additional success doubling the size of the area. Three successes, for example, kill the lights on an entire floor of a large office building. This Gift does not simply turn the lights off — it prevents them from functioning at all. The effects last for one scene, or until the character chooses to end the Gift’s effects.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character gains selective control over the technological light sources in the area, and may select one source to still function if she chooses.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1704,7 +2224,13 @@ const spiritNuminaData = [
         "Description": "The ghost can make a living target their temporary anchor, but can invest a point of Corpus to make it permanent.",
         "Long Description": [
             "This Numen allows the ghost to bind a bit of itself to the target, creating a temporary living anchor. The ghost spends three Essence and rolls Power + Finesse versus the Resolve + Psyche of its target. If the ghost wins the contest, the target becomes a living anchor for the duration of the scene. The ghost may extend the effect of the Numen by spending a point of Essence at the end of the scene and for every hour that passes thereafter. Ghosts can make this effect permanent by investing a point of corpus into the bond. This permanently reduces the corpus of the ghost by one (and some Sin-Eaters claim this was how the first geists were born). Once formed, only an exorcism can sever the bond between a ghost and its target. Ghosts may only have one living fetter at a time.",
-            "<b>Channeled:</b> The channeled version of this Numen requires the Sin-Eater to touch her target, necessitating a roll for unwilling targets (see the World of Darkness Rulebook, p. 157). With a successful activation, the Sin-Eater instinctively knows the exact location of the target for the remainder of the scene. The Sin-Eater can extend this effect for one hour by spending an additional point of Willpower before the end of the scene.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Channeled:" },
+                    " The channeled version of this Numen requires the Sin-Eater to touch her target, necessitating a roll for unwilling targets (see the World of Darkness Rulebook, p. 157). With a successful activation, the Sin-Eater instinctively knows the exact location of the target for the remainder of the scene. The Sin-Eater can extend this effect for one hour by spending an additional point of Willpower before the end of the scene.",
+                ],
+            },
             "",
             "",
             ""
@@ -1797,15 +2323,132 @@ const spiritNuminaData = [
         "Description": "Creatures killed by a Ridden can be animated by the Spirit",
         "Long Description": [
             "This Numen only functions if the spirit is using Chain of the Dead, or Corpse Ride. Creatures killed by a Ridden Dead can be animated by the spirit. It costs two points of Essence to animate a corpse for roughly a day — see the write-up below for more details. (Those with World of Darkness: Antagonists can create their own zombies — this Numen grants five Creation points to craft a zombie. Greater spirits can pump more Essence into the effort, adding one creation point per extra point of Essence.)",
-            "<b>Background:</b> Use these stats to represent zombies created by the Plague of the Dead Numen.These zombies seek to kill any living human in their presence; failing that, they wander about destroying any other life they can recognize. Some even attack mannequins in desperation.Tragically, zombies can often remember scraps of their life — enough to allow them to act with some intelligence, but also enough to torment them as their bodies and minds rot away utterly.",
-            "<b>Description:</b> They see with eyes clouded with pus, they eat with tongues bloated with rot; these walking dead not only inspire horror from their frightful undead appearance, but they also decay at a staggering rate — within hours they begin swelling with necrotic gasses, oozing pus and attracting hordes of cadaverous insects.",
-            "<b>Storytelling Hints:</b> These shambling dead, while amazingly strong, are not extremely dangerous as individuals for a group of humans.Yet in groups, they become an overwhelming tide of unlife. Even though they have little means to resist damage, they can absorb terrific amounts of damage and remain dangerous.These zombies do no suffer wound penalties and do not differentiate between bashing, lethal and aggravated damage.After exhausting their Health attribute, begin removing points of Physical Integrity.As this trait degrades, the zombie begins losing digits, feet and even limbs — which may make some actions impossible, or drop their Speed.At five points, the zombie has half of its limbs, and when the trait reaches 0, there’s nothing left. Zombies cannot heal their wounds.",
-            "<b>Attributes:</b> Power 5, Finesse 1, Resistance 3<br><b>Willpower:</b> 0<br><b>Initiative:</b> 1<br><b>Defense:</b> 0<br><b>Speed:</b> 6<br><b>Size:</b> 5<br><b>Weapons/Attacks:</b><table border='1' style='margin: 15px 0;'><thead><tr><th style='padding: 5px;'>Type</th><th style='padding: 5px;'>Damage</th><th style='padding: 5px;'>Dice Pool</th></tr></thead><tbody><tr><td style='padding: 5px;'>Baseball Bat</td><td style='padding: 5px;'>2(b)</td><td style='padding: 5px;'>8</td></tr><tr><td style='padding: 5px;'>Bite</td><td style='padding: 5px;'>1 (L)</td><td style='padding: 5px;'>7</td></tr><tr><td style='padding: 5px;'>Fist</td><td style='padding: 5px;'>0 (B)</td><td style='padding: 5px;'>2</td></tr></tbody></table><br>Health: 5<br><b>Physical Integrity:</b> 10",
-            "<b>Spirit Plague Weakness:</b> The death-aspected Essence that animates them also speeds the decomposition of their corpses. These zombies take a point of damage every three hours due to the necrotic effects of their animating energies.All zombies created via Plague of the Dead bear this weakness.",
-            "<b>Residual Memories Weakness:</b> These poor creatures are driven to murder, yet still posses a few memories of their life. When presented with a loved one or other appropriate stimulus, they will stop attacking — or perhaps move away whimpering for three (Resistance) minutes.After this time, the same stimulus will not work again. No one is safe for long.",
-            "<b>Limited Intelligence:</b> The zombie possesses enough intelligence to solve basic problems, such as how operate doorknobs, unlatch gates and use simple hand-to-hand weapons.",
-            "<b>Quick Movement:</b> The zombie’s Speed equals Power + Finesse (rather than just its Finesse)",
-            "<b>Vicious Bite:</b> The zombie inflicts lethal damage with its bite."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Background:" },
+                    " Use these stats to represent zombies created by the Plague of the Dead Numen.These zombies seek to kill any living human in their presence; failing that, they wander about destroying any other life they can recognize. Some even attack mannequins in desperation.Tragically, zombies can often remember scraps of their life — enough to allow them to act with some intelligence, but also enough to torment them as their bodies and minds rot away utterly.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Description:" },
+                    " They see with eyes clouded with pus, they eat with tongues bloated with rot; these walking dead not only inspire horror from their frightful undead appearance, but they also decay at a staggering rate — within hours they begin swelling with necrotic gasses, oozing pus and attracting hordes of cadaverous insects.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Storytelling Hints:" },
+                    " These shambling dead, while amazingly strong, are not extremely dangerous as individuals for a group of humans.Yet in groups, they become an overwhelming tide of unlife. Even though they have little means to resist damage, they can absorb terrific amounts of damage and remain dangerous.These zombies do no suffer wound penalties and do not differentiate between bashing, lethal and aggravated damage.After exhausting their Health attribute, begin removing points of Physical Integrity.As this trait degrades, the zombie begins losing digits, feet and even limbs — which may make some actions impossible, or drop their Speed.At five points, the zombie has half of its limbs, and when the trait reaches 0, there’s nothing left. Zombies cannot heal their wounds.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Attributes:" },
+                    " Power 5, Finesse 1, Resistance 3",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Willpower:" },
+                    " 0",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Initiative:" },
+                    " 1",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Defense:" },
+                    " 0",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Speed:" },
+                    " 6",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Size:" },
+                    " 5",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Weapons/Attacks:" },
+                ],
+            },
+            {
+                type: 'table',
+                headers: ["Type", "Damage", "Dice Pool"],
+                rows: [
+                    ["Baseball Bat", "2(b)", "8"],
+                    ["Bite", "1 (L)", "7"],
+                    ["Fist", "0 (B)", "2"],
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "Health: 5",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Physical Integrity:" },
+                    " 10",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Spirit Plague Weakness:" },
+                    " The death-aspected Essence that animates them also speeds the decomposition of their corpses. These zombies take a point of damage every three hours due to the necrotic effects of their animating energies.All zombies created via Plague of the Dead bear this weakness.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Residual Memories Weakness:" },
+                    " These poor creatures are driven to murder, yet still posses a few memories of their life. When presented with a loved one or other appropriate stimulus, they will stop attacking — or perhaps move away whimpering for three (Resistance) minutes.After this time, the same stimulus will not work again. No one is safe for long.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Limited Intelligence:" },
+                    " The zombie possesses enough intelligence to solve basic problems, such as how operate doorknobs, unlatch gates and use simple hand-to-hand weapons.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Quick Movement:" },
+                    " The zombie’s Speed equals Power + Finesse (rather than just its Finesse)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Vicious Bite:" },
+                    " The zombie inflicts lethal damage with its bite.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -1817,9 +2460,27 @@ const spiritNuminaData = [
         "Description": "The spirit causes a plant to grow at a phenomenal rate.",
         "Long Description": [
             "The werewolf can cause any living plant to grow at a phenomenal rate, shaping the growth to her whim. Some Hunter in Darkness packs have thick thorn hedges surrounding their territorial borders, or live in literal tree houses.",
-            "<b>Cost:</b> 1 Willpower",
-            "<b>Dice Pool:</b> Wits + Survival + Honor",
-            "<b>Action:</b> Instant",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Willpower",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Wits + Survival + Honor",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
             "Each success rolled increases the size of a plant or group of plants by a cubic yard, at a rate of one minute per cubic yard. The vegetation can grow in whatever shape desired. The effects of the growth are permanent, though the plants can be trimmed or destroyed as usual. One or two successes are required to create a simple shelter for an individual. Five successes can turn a sapling into a 20-foottall tree.",
             "",
             ""
@@ -1834,7 +2495,13 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "The ghost uses this Numen to mold hands, faces, and other body parts out of solid, material objects as though they were soft as clay. Spend one point of Essence and roll Power + Finesse. With success, the ghost creates a body part that seems to stretch out from a solid surface. A pair of arms might reach out from the wall, a face could push its way out of the ceiling or more disturbing pieces of anatomy might bubble up from the surface of a table. The ghost can manipulate its creations as though they were part of its corpus, making attacks (such attacks cause bashing damage) that use the ghost’s dice pool or just moving them around a room causing panic in onlookers. If a plasticized body part takes a single point of damage, the surface returns to its original appearance. This Numen persists for one scene or until the ghost has manifested and subsequently lost a number of creations equal to its corpus. Ghosts may only create and maintain one body part at a time.",
-            "<b>Channeled:</b> Channeling this Numen requires the full concentration of the Sin-Eater, meaning he can take no other actions while it remains active. The character can create a total number of body parts equal to his Stamina. Use of this Numen requires line-of-sight to whatever material the character intends to manipulate.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Channeled:" },
+                    " Channeling this Numen requires the full concentration of the Sin-Eater, meaning he can take no other actions while it remains active. The character can create a total number of body parts equal to his Stamina. Use of this Numen requires line-of-sight to whatever material the character intends to manipulate.",
+                ],
+            },
             "",
             "",
             ""
@@ -1936,13 +2603,61 @@ const spiritNuminaData = [
         "Description": "The spirit gains armor equal to every 2 suxx",
         "Long Description": [
             "The natural resilience and rapid regeneration that the Forsaken have inherited makes werewolves daunting foes. Using this Gift, however, makes Full Moons even more fearsome than their brothers and sisters. With a blood-curdling howl to Luna, the werewolf tempers his flesh with the fire of his Rage and renders himself nigh indestructible for a short time. When he does so, his eyes glow the deep amber of the harvest moon, and a faint distortion makes the air around him waver as his inner fire burns close to the surface.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Stamina + Survival + Honor",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The werewolf mistakenly believes that he’s well protected, which makes him careless. Not only does he fail to gain the Armor, he loses his Defense for the first turn of combat.",
-            "<b>Failure:</b> The werewolf gains no Armor.",
-            "<b>Success:</b> The werewolf gains a point of Armor for every two successes rolled, with remainders ignored. It protects against physical attacks and firearms equally, but not against silver. Attacks made with silver weapons or silver bullets ignore the effects of this Gift and still cause aggravated damage. The effect lasts for a number of turns equal to the character’s Primal Urge dots.",
-            "<b>Exceptional Success:</b> No special benefit other than a high Armor rating."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Stamina + Survival + Honor",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The werewolf mistakenly believes that he’s well protected, which makes him careless. Not only does he fail to gain the Armor, he loses his Defense for the first turn of combat.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The werewolf gains no Armor.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The werewolf gains a point of Armor for every two successes rolled, with remainders ignored. It protects against physical attacks and firearms equally, but not against silver. Attacks made with silver weapons or silver bullets ignore the effects of this Gift and still cause aggravated damage. The effect lasts for a number of turns equal to the character’s Primal Urge dots.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " No special benefit other than a high Armor rating.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -2224,13 +2939,61 @@ const spiritNuminaData = [
         "Description": "",
         "Long Description": [
             "Though fierce fighters and savage predators, even werewolves recognize the need for stealth and guile.This Gift is a prime example of how werewolves operate strategically and with a mind toward hewing to the Oath’s prohibition against human discovery. With it, a werewolf may summon a thick blanket of fog to obscure an area, allowing a pack to move unseen in whatever form its members choose. This fog bank moves as the werewolf who summoned it wills it to, and it makes an excellent vehicle for ambush or a way of avoiding combat entirely.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Manipulation + Survival + Cunning",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The fog appears, but it obscures the vision of the summoner and his pack as much as anyone else.",
-            "<b>Failure:</b> The weather does not change.",
-            "<b>Success:</b> Over the course of a turn, the cloud-spirit summoned with this Gift congeals from the air, and a dense fog covers an area equal to the werewolf’s Primal Urge x 20 square yards. It may thereafter be directed to move in any direction at a rate of (Primal Urge x 10) yards per turn. While within the fog, a perception check at –2 is required for observers to spot someone more than one yard distant. Even if spotted, ranged attacks are treated as if those within the bank are substantially concealed (see “Concealment” on pp. 162-164 of the World of Darkness Rulebook). Silent Fog lasts for an entire scene or until the spirit is dismissed by the Forsaken who commanded it. ",
-            "<b>Exceptional Success:</b> The fog is particularly thick, levying a –3 penalty to perception checks instead of –2."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Manipulation + Survival + Cunning",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The fog appears, but it obscures the vision of the summoner and his pack as much as anyone else.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The weather does not change.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " Over the course of a turn, the cloud-spirit summoned with this Gift congeals from the air, and a dense fog covers an area equal to the werewolf’s Primal Urge x 20 square yards. It may thereafter be directed to move in any direction at a rate of (Primal Urge x 10) yards per turn. While within the fog, a perception check at –2 is required for observers to spot someone more than one yard distant. Even if spotted, ranged attacks are treated as if those within the bank are substantially concealed (see “Concealment” on pp. 162-164 of the World of Darkness Rulebook). Silent Fog lasts for an entire scene or until the spirit is dismissed by the Forsaken who commanded it.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The fog is particularly thick, levying a –3 penalty to perception checks instead of –2.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -2497,7 +3260,13 @@ const spiritNuminaData = [
         "Long Description": [
             "A qashmal with this Numen can change the gender of a living being (including a mage, but not a Promethean, vampire or werewolf). Spend 10 Pyros and roll Power + Finesse. If the mortal wishes to resist, his player can roll Resolve + Stamina. If the qashmal succeeds, the mortal changes sex, becoming as if he or she had been born belonging to the other gender. A qashmal could use this Numen to “heal” a transsexual, supplying those generative organs and making the changes that surgery could not fully perform. A qashmal can also use this Numen to join two humans together in one hermaphrodite being, a true rebis, wholly male and wholly female. In this case, roll once. Either individual or both get the option of contesting the qashmal’s roll. If either gets more successes than the qashmal, the Numen fails to work.",
             "This is a rare Numen, and, as with many others, its use might well be a qashmal’s only purpose on Earth. The qashmal might be the granting of a dearly held wish, a punishment or some strange means of altering history.",
-            "<b>Creating a Rebis:</b> A rebis is a single being with a single mind, an harmonious synthesis of both bodies and souls. He/she remembers both lives equally, without conflict. Rebises are smarter, better looking and healthier than their component parts.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Creating a Rebis:" },
+                    " A rebis is a single being with a single mind, an harmonious synthesis of both bodies and souls. He/she remembers both lives equally, without conflict. Rebises are smarter, better looking and healthier than their component parts.",
+                ],
+            },
             "The rebis takes both sets of Attributes and Skills, using the higher every time. If one of the components of the rebis is a mage, the rebis still has all his or her Gnosis and Arcana. If both components are mages, the rebis uses the higher of the partners’ Gnosis and Arcana dots. If two mages joined as a rebis are of different Paths, the rebis keeps both Paths (meaning that the mage might now have as many as four Ruling Arcana and no Inferior Arcana). Whether either or both of the component beings were Awakened, a rebis cannot belong to a Legacy. The rebis loses any Legacy Attainments either of his/her parts may have had.",
             "The rebis is a very different person to either being. The rebis’ player can choose to take either Virtue and Vice, or pick entirely new ones."
         ],
@@ -2598,14 +3367,76 @@ const spiritNuminaData = [
         "Description": "Inflict 5 points of Lethal damage, plus one per success beyond the first.",
         "Long Description": [
             "This Gift implores a mighty thunderbird to turn its gaze earthward and fix its flashing eyes on a select target. At the werewolf’s command, lightning strikes his foe, its power capable of killing most mortals and severely wounding even supernatural opponents.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Intelligence + Survival + Glory – Defense",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The bolt strikes a random target nearby, be it friend or foe.",
-            "<b>Failure:</b> The werewolf’s call is ignored.",
-            "<b>Success:</b> The bolt deals a base of five points of lethal damage, plus any extra successes from the activation roll after the first. The werewolf can nominate any target within his line of sight, as long as the victim is outdoors or standing near a window.",
-            "<b>Exceptional Success:</b> The blast also deafens the target for two turns.",
-            "Suggested Modifiers<br><table border='1' style='margin: 15px 0;'><thead><tr><th style='padding: 5px;'>Modifier</th><th style='padding: 5px;'>Situation</th></tr></thead><tbody><tr><td style='padding: 5px;'>+2</td><td style='padding: 5px;'>Rain or windy weather</td></tr><tr><td style='padding: 5px;'>+1</td><td style='padding: 5px;'>Cloudy day</td></tr><tr><td style='padding: 5px;'>–3</td><td style='padding: 5px;'>Cloudless sky</td></tr></tbody></table>"
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Intelligence + Survival + Glory – Defense",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The bolt strikes a random target nearby, be it friend or foe.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The werewolf’s call is ignored.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The bolt deals a base of five points of lethal damage, plus any extra successes from the activation roll after the first. The werewolf can nominate any target within his line of sight, as long as the victim is outdoors or standing near a window.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The blast also deafens the target for two turns.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "Suggested Modifiers",
+                ],
+            },
+            {
+                type: 'table',
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Rain or windy weather"],
+                    ["+1", "Cloudy day"],
+                    ["–3", "Cloudless sky"],
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",
@@ -2735,13 +3566,61 @@ const spiritNuminaData = [
             "Connected characters gain a +3 bonus to Initiative as they’re better able to coordinate their efforts. Connected characters also gain a +1 bonus to attack and use Gifts against enemies of the group as victims reel while trying to contend with combined and well-times assaults.",
             "The Cahalith can terminate the effect of this Gift at any point before the end of the scene, but doing so is an all-or-nothing proposition. She cannot selectively drop one packmate and keep others connected. She can, however, include a new packmate in the connection after the Gift is activated with the expenditure of an additional Essence point. If a packmate is within sight when the power is activated, and then moves to where he cannot be seen by the Cahalith, the link of communication is not severed.",
             "People who aren’t direct members of the Gift user’s pack cannot be included in this mental link. The power cannot be used to communicate across the Gauntlet.",
-            "<b>Cost:</b> 1 Essence",
-            "<b>Dice Pool:</b> Intelligence + Socialize + Purity",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic <b>Failure:</b></b> The awareness of packmates’ thoughts overwhelms the Cahalith and proves distracting. Her actions incur a –1 penalty for one turn per packmate included (not counting herself). She cannot invoke this Gift again until the penalty passes.",
-            "<b>Failure:</b> None of the packmates receives any extra awareness. ",
-            "<b>Success:</b> The packmates are connected mentally to each other and may “speak” mind to mind.",
-            "<b>Exceptional Success:</b> Connected characters each regain a point of spent Willpower for sharing a powerful pack bond. The Gift user doesn’t gain this bonus. Only one Willpower point can be regained by a character per day by this means."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " 1 Essence",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dice Pool:" },
+                    " Intelligence + Socialize + Purity",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Action:" },
+                    " Instant",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Roll Results" },
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The awareness of packmates’ thoughts overwhelms the Cahalith and proves distracting. Her actions incur a –1 penalty for one turn per packmate included (not counting herself). She cannot invoke this Gift again until the penalty passes.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " None of the packmates receives any extra awareness.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The packmates are connected mentally to each other and may “speak” mind to mind.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Connected characters each regain a point of spent Willpower for sharing a powerful pack bond. The Gift user doesn’t gain this bonus. Only one Willpower point can be regained by a character per day by this means.",
+                ],
+            },
         ],
         "Pool": "",
         "Cost": "",

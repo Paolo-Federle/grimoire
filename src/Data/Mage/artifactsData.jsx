@@ -30,16 +30,76 @@ export const artifactData = [
       "The first of five Artifacts left behind by the Dethroned Queen, the Ring’s name doesn’t describe what the Artifact looks like, but rather what the Artifact releases when activated. In the shape of a bell clapper roughly nine inches in length, the Ring’s head is spanned along its equator by 10 evenly spaced, small stones: a diamond, ruby, emerald, sapphire, onyx, amethyst, moonstone, amber, jade and aquamarine. On the head’s bottom is a sigil akin to Atlantean glyphs, but not even decipherable to experts in the High Speech.",
       "Activation occurs when the user spends one point of Mana (either her own or the Artifact’s) and taps the clapper against a solid surface — either wood, plastic, metal or stone. While bystanders hear the sound they would expect to hear a piece of metal to make when struck against the selected surface, the user hears a bass-rich tone that reverberates deep within the user’s soul.",
       "Shortly after activating the Ring, the user experiences a sensation that something was cast but is waiting to be processed. This feeling will linger indefinitely until the user decides to cast Mage Sight. Regardless of which Mage Sight spell she casts, the user will instead see that which correlates to her strongest major Arcanum (Storyteller’s choice in the event the two are equal).",
-      "<b>Death (Grim Sight):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 134), the mage also notices that certain people have tags upon their bodies, much like the toe tags used in a morgue. This tag could be wrapped around a finger, an exposed toe or dangling from an ear. Closer inspection of the tag reveals no writing, only a hint. What’s more, the resolution of the tag varies from one person to the next, ranging from hinted (just noticeable) to quite clear (the lines upon which words are written are only slightly blurred).",
-      "<b>Fate (The Sybil’s Sight):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 150), the mage also notices that certain people have more distinct threads than others. How the threads manifest varies, ranging from dragged behind to hanging overhead like the strings of a marionette being put into use by an unseen puppeteer.",
-      "<b>Forces (Read Matrices):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 163), the mage also notices that resonant energy emits a hissing whisper that’s nearly coherent, as if someone were yelling from the other side of a soundproofed door. Again, the effect varies from barely audible to distinctly present, a clear indication that unknown forces are currently at work.",
-      "<b>Life (Pulse of the Living World):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 181), the mage also detects the presence of parasitic infection around the target’s aura. The effects vary from slight discoloration to massive parasitic growth all about the target’s person.",
-      "<b>Matter (Dark Matter):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 194), the mage also picks up a tangible gravitational pull emanating from the target itself. The effects range from light tugging to a weirdly powerful pull that can only be broken if the caster deactivates the spell.",
-      "<b>Mind (Third Eye):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 206), the mage also gleans an unseen presence just outside her field of vision. The effect ranges from shadows just beyond view to “knowing” that a strange being lurks over her shoulder and freezes the caster from looking back. ",
-      "<b>Prime (Supernal Vision):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 221), the mage also sees resonance in a color heretofore never experienced, so foreign, in fact, that the caster can’t even begin to describe it to others. The effect varies from just perceptible to blindingly omnipresent.",
-      "<b>Space (Spatial Awareness):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 233), the mage also perceives a bizarre warping of space seemingly centered on the mass of an influenced subject. The effect ranges from minor tweaks of distance and shape to major warps that could disorient the most talented of Mastigos.",
-      "<b>Spirit (Second Sight):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 246), the mage also sees individuals and locations as “echoed.” The effect varies from hazy outlines trailing behind a person as he walks to multiple mirror images tracing after a person as he walks (or along a building as the user walks by it).",
-      "<b>Time (Temporal Eddies):</b> In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 258), the mage also discerns a subtext of time in everything. The effect varies from seeing a shadow of a person’s youth to witnessing a fully fleshed visage of the target as an old man or woman.",
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Death (Grim Sight):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 134), the mage also notices that certain people have tags upon their bodies, much like the toe tags used in a morgue. This tag could be wrapped around a finger, an exposed toe or dangling from an ear. Closer inspection of the tag reveals no writing, only a hint. What’s more, the resolution of the tag varies from one person to the next, ranging from hinted (just noticeable) to quite clear (the lines upon which words are written are only slightly blurred).",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Fate (The Sybil’s Sight):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 150), the mage also notices that certain people have more distinct threads than others. How the threads manifest varies, ranging from dragged behind to hanging overhead like the strings of a marionette being put into use by an unseen puppeteer.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Forces (Read Matrices):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 163), the mage also notices that resonant energy emits a hissing whisper that’s nearly coherent, as if someone were yelling from the other side of a soundproofed door. Again, the effect varies from barely audible to distinctly present, a clear indication that unknown forces are currently at work.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Life (Pulse of the Living World):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 181), the mage also detects the presence of parasitic infection around the target’s aura. The effects vary from slight discoloration to massive parasitic growth all about the target’s person.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Matter (Dark Matter):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 194), the mage also picks up a tangible gravitational pull emanating from the target itself. The effects range from light tugging to a weirdly powerful pull that can only be broken if the caster deactivates the spell.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Mind (Third Eye):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 206), the mage also gleans an unseen presence just outside her field of vision. The effect ranges from shadows just beyond view to “knowing” that a strange being lurks over her shoulder and freezes the caster from looking back.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Prime (Supernal Vision):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 221), the mage also sees resonance in a color heretofore never experienced, so foreign, in fact, that the caster can’t even begin to describe it to others. The effect varies from just perceptible to blindingly omnipresent.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Space (Spatial Awareness):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 233), the mage also perceives a bizarre warping of space seemingly centered on the mass of an influenced subject. The effect ranges from minor tweaks of distance and shape to major warps that could disorient the most talented of Mastigos.",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Spirit (Second Sight):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 246), the mage also sees individuals and locations as “echoed.” The effect varies from hazy outlines trailing behind a person as he walks to multiple mirror images tracing after a person as he walks (or along a building as the user walks by it).",
+          ],
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Time (Temporal Eddies):" },
+              " In addition to the standard effects listed for this spell in Mage: The Awakening (see p. 258), the mage also discerns a subtext of time in everything. The effect varies from seeing a shadow of a person’s youth to witnessing a fully fleshed visage of the target as an old man or woman.",
+          ],
+      },
       "All of these skewed perspectives are governed by the relative influence the Exarchs exert upon the target under investigation. People, objects or locations lightly manipulated by the Exarchs trigger the minor effects listed, while those targets strongly influenced by the Exarchs exude major readings.",
       "Or so it seems. The power attributed to the Exarchs by the Ring may in fact be some other Supernal power, the magic of the Seers of the Throne being recast in some way, or it might be an elaborate magical hallucination manipulated at the will of the Exarchs. There is no reliable means to verify the assertion of the Exarchs’ power. What a mage sees with the Ring Sight is clear — what it means is not.",
       "Peering through the fabric of the world to the Supernal stitches underneath is an act of hubris. Mages with Wisdom 7 or higher must make a degeneration roll when this power is used."
@@ -1017,8 +1077,18 @@ export const artifactData = [
       "The Scepter also enables a mage to perform uncommonly versatile Counterspells. Regardless of what Arcana a mage knows, as long as she holds the Scepter she can cast Counterspell against a Seer of the Throne or other willing servant of the Exarchs. If she has no dots in the appropriate Arcanum, she rolls her Gnosis alone. The Scepter merely makes it possible for her to Counterspell by keying in on the Supernal magic of the spell, rather than its Arcanum.",
       "The Scepter can be used as a source for Coun- terspell rotes in any Arcana, though once it has been used by a mage to learn a rote, that mage cannot learn another rote from the Scepter. The Scepter’s interfering magic willfully disguises and ciphers itself against that willworker in the future. Finally, the Scepter can be used to cast the equivalent of a “Supernal Dispellation” spell (Mage: The Awakening, p. 229).",
       "Using the artifact or learning one of its rotes is an act of hubris, requiring a degeneration check for any mage of Wisdom 5 or lower. A mage bearing the Scepter gains a +2 bonus when using any of its powers against a minion or follower of the Exarchs. (This includes the work of dupes who serve the Exarchs unknowingly.)",
-      "<h2>Counterspell Rote: Counter the Supernal</h2>",
-      "<b>Dice Pool:</b> Composure + Occult + Arcanum",
+      {
+          type: 'heading',
+          level: 2,
+          text: "Counterspell Rote: Counter the Supernal",
+      },
+      {
+          type: 'paragraph',
+          content: [
+              { type: 'bold', text: "Dice Pool:" },
+              " Composure + Occult + Arcanum",
+          ],
+      },
       "The fear of many Pentacle mages will be that the anti-magic powers of the Scepter are, in fact, dulling the Mana and magic of the Fallen World. Is it just a tool for Supernal jailors?"
     ],
     "Book": "RotE 89"

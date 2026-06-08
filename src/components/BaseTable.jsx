@@ -2,38 +2,12 @@ import React from "react";
 import { BookLink } from "./BookLink";
 import { useNavigate } from "react-router-dom";
 import FavoriteToggle from "./FavoriteToggle";
-import { getCurrentRoutePath } from "../utils";
+import { getCurrentRoutePath, normalizeDisplayText } from "../utils";
 
-function getRowSpans(data, headers, mergeHeaders = []) {
-  const spans = {};
-
-  mergeHeaders.forEach((header) => {
-    spans[header] = new Array(data.length).fill(0);
-
-    let start = 0;
-
-    while (start < data.length) {
-      const currentValue = data[start]?.[header];
-      let count = 1;
-
-      while (
-        start + count < data.length &&
-        data[start + count]?.[header] === currentValue
-      ) {
-        count++;
-      }
-
-      spans[header][start] = count;
-
-      for (let i = start + 1; i < start + count; i++) {
-        spans[header][i] = 0;
-      }
-
-      start += count;
-    }
-  });
-
-  return spans;
+function renderDisplayValue(value) {
+  if (Array.isArray(value)) return normalizeDisplayText(value.join(", "));
+  if (value !== null && typeof value === "object") return "";
+  return normalizeDisplayText(value);
 }
 
 export default function BaseTable({
@@ -41,7 +15,6 @@ export default function BaseTable({
   data,
   onRowClick,
   title,
-  mergeHeaders = [],
 }) {
   const navigate = useNavigate();
   const sourcePath = getCurrentRoutePath();
@@ -51,11 +24,10 @@ export default function BaseTable({
   };
 
   const columnsToSave = (headers || []).filter((h) => h !== "link");
-  const rowSpans = getRowSpans(data, headers, mergeHeaders);
 
   return (
     <div style={{ marginBottom: "20px" }}>
-      {title && <h3>{title}</h3>}
+      {title && <h3>{normalizeDisplayText(title)}</h3>}
 
       <table className="spacing-table" style={{ minWidth: 600 }}>
         <thead>
@@ -72,22 +44,16 @@ export default function BaseTable({
               {headers.map((header, i) => {
                 const value = row[header];
 
-                if (mergeHeaders.includes(header) && rowSpans[header][idx] === 0) {
-                  return null;
-                }
-
-                const rowSpan =
-                  mergeHeaders.includes(header) ? rowSpans[header][idx] : 1;
-
                 if (header === "Book") {
                   return (
-                    <td key={i} rowSpan={rowSpan}>
+                    <td key={i}>
                       {BookLink(value)}
                     </td>
                   );
                 }
 
                 const isFirstCell = i === 0;
+                const displayValue = renderDisplayValue(value);
 
                 if (isFirstCell) {
                   const textNode =
@@ -100,14 +66,14 @@ export default function BaseTable({
                         }}
                         style={{ textDecoration: "underline" }}
                       >
-                        {value}
+                        {displayValue}
                       </a>
                     ) : (
-                      value
+                      displayValue
                     );
 
                   return (
-                    <td key={i} rowSpan={rowSpan}>
+                    <td key={i}>
                       <span
                         style={{
                           display: "inline-flex",
@@ -128,8 +94,8 @@ export default function BaseTable({
                 }
 
                 return (
-                  <td key={i} rowSpan={rowSpan}>
-                    {Array.isArray(value) ? value.join(", ") : value}
+                  <td key={i}>
+                    {displayValue}
                   </td>
                 );
               })}

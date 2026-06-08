@@ -135,7 +135,14 @@ export const goblinFruitData = [
         "Effect": "Toxicity 5.  Spores growing in the intestines cause dizziness and hallucinations.  Spores lodged in the brain cause fugue states, or in extreme cases coma or permanent brain damage.",
         "Type": "Goblin Fruit",
         "LongDescription": [
-            "These brown spores come from a type of fungus that grows on the briars of the Hedge. When ingested, they tend to lodge in the intestines, growing slowly through the gut wall and releasing toxins into the bloodstream. These toxins, over time, can cause hallucinations or dizzy spells. When the fungus matures inside the body, more spores can be released into the bloodstream to grow in other parts of the body. If a spore lodges in the character’s brain, the fungus destroys the character’s memories, leaving him in a fugue state (see <b>World of Darkness Rulebook</b>, p. 100). In extreme cases, it can put the character in a coma or cause permanent brain damage. Fuguespores are Toxicity 5."
+            {
+                type: "paragraph",
+                text: [
+                    "These brown spores come from a type of fungus that grows on the briars of the Hedge. When ingested, they tend to lodge in the intestines, growing slowly through the gut wall and releasing toxins into the bloodstream. These toxins, over time, can cause hallucinations or dizzy spells. When the fungus matures inside the body, more spores can be released into the bloodstream to grow in other parts of the body. If a spore lodges in the character’s brain, the fungus destroys the character’s memories, leaving him in a fugue state (see ",
+                    { type: "bold", text: "World of Darkness Rulebook" },
+                    ", p. 100). In extreme cases, it can put the character in a coma or cause permanent brain damage. Fuguespores are Toxicity 5."
+                ]
+            }
         ],
         "Book": "NH-GF 20"
     },
@@ -196,7 +203,14 @@ export const goblinFruitData = [
         "Effect": "+3 to stay awake for extensive amount of time; sleep whole day after to maximum of 7 days.",
         "Type": "Goblin Fruit",
         "LongDescription": [
-            "Both the leaves and the ovaries of the jarmyn plant are edible, and each produces a distinct effect. Jarmyn leaves are stimulating, and add three bonus dice to the roll for a character to stay awake after a period of extensive wakefulness. (See pp. 179–180 of the <b>World of Darkness Rulebook</b> for more information on fatigue and staying awake). This sleeping effect is cumulative: for each “dose” of jarmyn, whether fruit or leaves, the character consumes, the number of days the character sleeps increases by one, to a maximum of seven days."
+            {
+                type: "paragraph",
+                text: [
+                    "Both the leaves and the ovaries of the jarmyn plant are edible, and each produces a distinct effect. Jarmyn leaves are stimulating, and add three bonus dice to the roll for a character to stay awake after a period of extensive wakefulness. (See pp. 179–180 of the ",
+                    { type: "bold", text: "World of Darkness Rulebook" },
+                    " for more information on fatigue and staying awake). This sleeping effect is cumulative: for each “dose” of jarmyn, whether fruit or leaves, the character consumes, the number of days the character sleeps increases by one, to a maximum of seven days."
+                ]
+            }
         ],
         "Book": "CtL 223"
     },
@@ -352,7 +366,13 @@ export const goblinFruitData = [
         "Effect": "Thorns can be used as 1L, Size 1, Durability 1 weapons.",
         "Type": "Oddments",
         "LongDescription": [
-            "The fruits of the stabapple tree are benign goblin fruits, offering no benefit or detriment to those who consume them other than a mild, savory taste. The thorns of the fruit, however, are sharp and hard as bone, long as a man’s forearm. A changeling who breaks a stabapple thorn from the tree may use it as a knife, wielding it in melee or throwing it as he chooses. A stabapple thorn does one lethal damage and has a Size of 1. It can be thrown as described on pp. 67–68 of the <b>World of Darkness Rulebook.</b>"
+            {
+                type: "paragraph",
+                text: [
+                    "The fruits of the stabapple tree are benign goblin fruits, offering no benefit or detriment to those who consume them other than a mild, savory taste. The thorns of the fruit, however, are sharp and hard as bone, long as a man’s forearm. A changeling who breaks a stabapple thorn from the tree may use it as a knife, wielding it in melee or throwing it as he chooses. A stabapple thorn does one lethal damage and has a Size of 1. It can be thrown as described on pp. 67–68 of the ",
+                    { type: "bold", text: "World of Darkness Rulebook." }
+                ]
+            }
         ],
         "Book": "CtL 224"
     },

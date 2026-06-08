@@ -99,7 +99,7 @@ export const MummiesMeritsData = [
     }
 ]
 
-export const MummiesStyleMeritsData = [
+const rawMummiesStyleMeritsData = [
         {
         "Name": "Disciple of the Wheel",
         "Rank": "•",
@@ -407,3 +407,38 @@ export const CultBenefitsData = [
         "Book": "MTC 162"
     }
 ]
+
+function compactSharedValue(rows, key) {
+    const values = [...new Set(rows.map((row) => row[key]).filter((value) => value !== undefined && value !== ""))];
+
+    return values.length === 1 ? values[0] : values.join(", ");
+}
+
+function groupRankedRows(rows) {
+    const groups = [];
+    const groupByName = new Map();
+
+    rows.forEach((row) => {
+        const { Name, ...rankRow } = row;
+
+        if (!groupByName.has(Name)) {
+            const group = {
+                Name,
+                Ranks: [],
+            };
+
+            groupByName.set(Name, group);
+            groups.push(group);
+        }
+
+        groupByName.get(Name).Ranks.push(rankRow);
+    });
+
+    return groups.map((group) => ({
+        ...group,
+        Book: compactSharedValue(group.Ranks, "Book"),
+    }));
+}
+
+export const MummiesStyleMeritsFlatData = rawMummiesStyleMeritsData;
+export const MummiesStyleMeritsData = groupRankedRows(rawMummiesStyleMeritsData);

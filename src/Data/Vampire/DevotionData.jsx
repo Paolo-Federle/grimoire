@@ -62,10 +62,34 @@ export const DevotionData = [
             "When the Noctuku activates this power, he distributes the remains in a pattern that, though it seems random, is actually meticulously constructed to attract attention. The first vampire who notices one of the limbs — even if it’s only partially visible — will feel a strange, dreamlike attraction to it, and may find himself wandering over to have a closer look, even if he knows it might be a bad idea.",
             "At least five limbs of Size 1 or greater must be scattered for the lure to work, in a radius no more than 10 feet from a chosen center.",
             "The lure is sprung the moment any vampire looks at it (except for the one who set it) — it cannot be set to attract a specific target and ignore others. The activation roll is made when the lure is first set, and the resistance roll is made when the lure is noticed.",
-            "<b>Dramatic Failure:</b> The lure activates properly, and is immediately discharged by the presence of the Noctuku. The Vitae for activation is wasted, and the Noctuku stands rooted to the spot, mesmerized by his own creation. He cannot act for the next 10 minutes, or until he is attacked (whichever comes first).",
-            "<b>Failure:</b> The lure fails to activate. The Noctuku innately senses this failure, and may attempt to set the snare again.",
-            "<b>Success:</b> The trap is set. The victim who is affected is compelled to approach the center of the pattern by the most direct path possible, not stopping until he reaches it. Even those who are fearful or sense danger will be helpless to resist the lure — although they may be perfectly aware that trouble is lurking, and will be able to defend themselves normally if attacked.",
-            "<b>Exceptional Success:</b> It is possible to have more than one Appalling Lure active at once. This power does not affect mortals. If the lure is not activated by the next sunrise, its power fades.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The lure activates properly, and is immediately discharged by the presence of the Noctuku. The Vitae for activation is wasted, and the Noctuku stands rooted to the spot, mesmerized by his own creation. He cannot act for the next 10 minutes, or until he is attacked (whichever comes first).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The lure fails to activate. The Noctuku innately senses this failure, and may attempt to set the snare again.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The trap is set. The victim who is affected is compelled to approach the center of the pattern by the most direct path possible, not stopping until he reaches it. Even those who are fearful or sense danger will be helpless to resist the lure — although they may be perfectly aware that trouble is lurking, and will be able to defend themselves normally if attacked.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " It is possible to have more than one Appalling Lure active at once. This power does not affect mortals. If the lure is not activated by the next sunrise, its power fades.",
+                ],
+            },
             "This power costs 21 experience points to learn."
         ],
         "Book": "BtC 54"
@@ -100,7 +124,12 @@ export const DevotionData = [
             "This Devotion fuses the emotional punch of Nightmare with the finesse and precision of Dominate, allowing its user to create a specific temporary phobia without needing time or privacy.",
             "If the Devotion succeeds, the target becomes terrified by a person, place, object, symbol, concept or action of the user’s choice. Mechanically, it’s just like the Phobia derangement described on p. 97 of the World of Darkness Rulebook, though writing this Devotion on the character sheet as “Aversion Curse” can make it easier to remember it’s temporary.",
             "The curse eventually wears off, but not until the victim has failed a number of Resolve + Composure rolls equal to the successes the user rolled in excess of the victim’s Resolve + Blood Potency. In other words, the curse never goes away until it has scared the victim.",
-            "<i>Example: Ione puts an Aversion Curse on Scratch, making him afraid of cars. She rolls five successes to activate it, while he rolls three to resist it. He is now afraid of cars. Since it’s very hard to get away from automobiles in an urban environment, Scratch has to make a lot of Resolve + Composure rolls. It does not matter how many times he succeeds. He is plagued by the fear until he loses control of himself two times.</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "Example: Ione puts an Aversion Curse on Scratch, making him afraid of cars. She rolls five successes to activate it, while he rolls three to resist it. He is now afraid of cars. Since it’s very hard to get away from automobiles in an urban environment, Scratch has to make a lot of Resolve + Composure rolls. It does not matter how many times he succeeds. He is plagued by the fear until he loses control of himself two times." },
+                ],
+            },
             "The user needs to be in the presence of the target and looking at him to apply the curse, but does not need to speak or make eye contact. A firm mental image or definition of the fear stimulus is needed, however. A vague curse can have unanticipated effects. Making the religious Solomon Birch averse to God might force a roll every time he sees a crucifix. The same aversion, inflicted on an atheist, might only trigger when he’s confronted with what he considers the indisputable presence of the Almighty.",
             "It should be noted that while the curse can be triggered by common things (“dogs”), specific things (“Duce Carter”) or exacting things (“Duce Carter when he’s wearing blue jeans and a white shirt with a mandarin collar”), choosing a ubiquitous trigger such as “air” or “the letter E” is not possible. Vampires cannot be made frightened of blood or feeding.",
             {
@@ -237,11 +266,41 @@ export const DevotionData = [
         "FullDescription": [
             "This Devotion is rumored to have survived for millennia as a way for vampires in ancient times to stand beneath the light of the Sun, even if for just a few seconds. In modern nights, there are other useful ways to employ this Devotion for vampires unwilling to take that leap of faith. Surviving a major conflagration is one such use.",
             "When a Kindred activates this Devotion, he literally forces his Vitae out the pores of his skin, creating a thick, coagulated blood shield that begins smoldering almost immediately. Obviously, use of this Devotion depends upon the amount of Vitae in the Kindred’s body and/or the amount of Willpower he can expend.",
-            "<b>Dramatic Failure:</b> A dramatic failure results in absolutely no protection for the Kindred from the flames. Damage is aggravated (per Vampire: the Requiem, p. 172). Rötschreck automatically occurs.",
-            "<b>Failure:</b> Not enough Vitae covers the Kindred to protect him from harm. He still receives aggravated damage, but Resilience functions normally.",
-            "<b>Success:</b> The flames surround the vampire and attempt to consume him, but his blood absorbs the damage. As long as the vampire can continue replenishing the Blood Shield, he suffers bashing damage from fire rather than aggravated. He is still susceptible to Rötschreck, however.",
-            "<b>Exceptional Success:</b> The vampire’s blood creates a barrier against which the heat and fire cannot penetrate. As long as he can replenish the Blood Shield, he suffers no damage from fire, nor does he need to worry about Rötschreck.",
-            "<b>Duration:</b> One turn per point of Vitae spent. This power costs 39 experience points to learn."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " A dramatic failure results in absolutely no protection for the Kindred from the flames. Damage is aggravated (per Vampire: the Requiem, p. 172). Rötschreck automatically occurs.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " Not enough Vitae covers the Kindred to protect him from harm. He still receives aggravated damage, but Resilience functions normally.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The flames surround the vampire and attempt to consume him, but his blood absorbs the damage. As long as the vampire can continue replenishing the Blood Shield, he suffers bashing damage from fire rather than aggravated. He is still susceptible to Rötschreck, however.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The vampire’s blood creates a barrier against which the heat and fire cannot penetrate. As long as he can replenish the Blood Shield, he suffers no damage from fire, nor does he need to worry about Rötschreck.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Duration:" },
+                    " One turn per point of Vitae spent. This power costs 39 experience points to learn.",
+                ],
+            },
         ],
         "Book": "AM 73"
     },
@@ -309,7 +368,12 @@ export const DevotionData = [
         "FullCost": "1 Vitae",
         "Action": "Instant and contested; resistance is reflexive. (An instant action is required to make the Solution; its effects are resisted with a contested action.)",
         "FullDescription": [
-            "<i>“Sleep,” he said as he slid the awl into his palm. “Sleep,” he said as he squeezed one hand in the other. “Sleep,” he said as a thick drop of blood dropped heavy and almost black into the glass of white wine before him. “Sleep,” he said one last time as that drop sank to the bottom. With one finger, he stirred the wine until the blood had thinned and spread and turned all the fluid an impenetrable red.</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "“Sleep,” he said as he slid the awl into his palm. “Sleep,” he said as he squeezed one hand in the other. “Sleep,” he said as a thick drop of blood dropped heavy and almost black into the glass of white wine before him. “Sleep,” he said one last time as that drop sank to the bottom. With one finger, he stirred the wine until the blood had thinned and spread and turned all the fluid an impenetrable red." },
+                ],
+            },
             "By distilling his will and personality into his blood, the character creates a potable imperative. Essentially, the character is infusing a one-word command of the type normally communicable with Dominate • into a liquid medium. When this command is distilled, the character makes his activation roll as if he were invoking the Command power of Dominate as usual. Record the successes achieved on the activation roll (if any) for use when the Solution is consumed. The subject who drinks the Solution feels compelled to take the action infused within it unless he achieves at least as many successes on a reflexive Resolve + Blood Potency roll as the character achieved on the activation roll.",
             "If the subject fails the contested action, he is affected exactly as if the Solution’s creator had affected him with the Command power in person (see Vampire: The Requiem, p. 124 – 125).",
             "This power costs six experience points to learn."
@@ -398,7 +462,13 @@ export const DevotionData = [
         "FullCost": "-",
         "Action": "Instant",
         "FullDescription": [
-            "<b>Duration:</b> N/A",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Duration:" },
+                    " N/A",
+                ],
+            },
             "The primeval vampires of Belial’s Brood are known for their intuitive understanding of the more primal aspects of existence, and this power is a natural extension of that understanding. With Child of the Night, a Forsworn can draw upon the acuity of his own Beast to sense the presence of all “low animals” in his vicinity.",
             "Each success on the activation roll allows the user to increase the range of his perception. With one success, he can sense the presence of certain animal life in his immediate vicinity — defined as roughly 100 yards. Each success thereafter increases the range by a further 100 yards. A dramatic failure indicates that the vampire cannot get an accurate sense of nearby animal life for the remainder of the scene. Only “low animals” can be detected by means of this power, a category that includes arachnids, bats, rats, reptiles, wolves and insects of all varieties. (Apart from this list, the Storyteller is the final arbiter of what constitutes a “low animal” for the purposes of this Devotion.) The Forsworn detects the presence and approximate number of animals of each type, but he cannot pinpoint their exact location. This power does detect supernatural creatures who have assumed the shape of one of the aforementioned creatures, but it doesn’t distinguish them from any normal animal of the same type (unless it’s a vampire in animal form, in which case the Forsworn detects the vampire’s presence).",
             "This power costs six experience points to learn."
@@ -457,10 +527,34 @@ export const DevotionData = [
             "Obfuscate is an excellent tool for keeping people from spying on you, but it’s less useful when your property can be convinced to give up your secrets. After all, a secret is only as good as its protection.",
             "With an effort of will, the vampire neutralizes any psychic impressions on any and all objects around her. Anyone who examines an affected item with The Spirit’s Touch or any other form of past sensing gets the impression that no one has ever touched it and nothing has ever happened to it. This is distinct from the sensation of simply being unable to access the impression, and many seers find this sensation disturbing the first time they experience it.",
             "Once an item has been cleansed, it remains void of impression until something meaningful happens to it — someone other than the cleansing Kindred picks it up, for example. Depending on how strong the vampire’s effort is, a greater or smaller number of objects are affected.",
-            "<b>Dramatic Failure:</b> Instead of voiding the items, the character leaves a stronger impression. All future attempts to read the items are made with a +2 bonus.",
-            "<b>Failure:</b> The Devotion does nothing.",
-            "<b>Success:</b> Every unliving object within 10 feet is cleansed of psychic impressions. For each additional success, that radius increases by five feet.",
-            "<b>Exceptional Success:</b> As a standard success. The extra successes are their own reward, as they extend the radius.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Instead of voiding the items, the character leaves a stronger impression. All future attempts to read the items are made with a +2 bonus.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The Devotion does nothing.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " Every unliving object within 10 feet is cleansed of psychic impressions. For each additional success, that radius increases by five feet.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As a standard success. The extra successes are their own reward, as they extend the radius.",
+                ],
+            },
             "This power costs 15 experience points to learn."
         ],
         "Book": "Cart 192"
@@ -515,10 +609,34 @@ export const DevotionData = [
             "The Moirai teach the power to hide from the auguries of one another, and from other beings with supernatural powers. The proficient vampire can make it very hard for vampires, magicians or other beings with supernatural powers to use divination techniques to ascertain his past, present or future.",
             "The character wakens, and looks beyond the world surrounding him. Fate’s threads envelop him and tie him down. He visualizes a spiritual knife, slicing them away, one at a time.",
             "A character can only attempt to use this Divination once a night, upon waking.",
-            "<b>Dramatic Failure:</b> The vampire tangles himself hopelessly within Fate’s strands. Any divinations made around the character gain a +3 bonus.",
-            "<b>Failure:</b> The character makes no difference to the strands of Fate surrounding him, and does not affect any divinations that target or include him.",
-            "<b>Success:</b> Any divinations (including the Devotion Manteia, below, but not the benefits of the first dot in the Moirai Initiation) concerning the character’s past, present or future fates suffer a -1 penalty to dice pools for every success rolled.",
-            "<b>Exceptional Success:</b> As for success, but the character instinctively knows when someone else is trying to perform a divination that concerns him in some way.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The vampire tangles himself hopelessly within Fate’s strands. Any divinations made around the character gain a +3 bonus.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The character makes no difference to the strands of Fate surrounding him, and does not affect any divinations that target or include him.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " Any divinations (including the Devotion Manteia, below, but not the benefits of the first dot in the Moirai Initiation) concerning the character’s past, present or future fates suffer a -1 penalty to dice pools for every success rolled.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As for success, but the character instinctively knows when someone else is trying to perform a divination that concerns him in some way.",
+                ],
+            },
             "This power costs 15 experience points to learn."
         ],
         "Book": "Mekh 109"
@@ -610,7 +728,13 @@ export const DevotionData = [
         "FullCost": "1 Vitae",
         "Action": "Instant",
         "FullDescription": [
-            "<b>Duration:</b> One scene",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Duration:" },
+                    " One scene",
+                ],
+            },
             "This Devotion is a favorite among young Forsworn who revel in lording over chaos. By allowing one’s Beast to subtly purr and tease at those around him, the vampire agitates the minds of everyone in his immediate presence. Mortals and vampires alike are susceptible to the primal taunting of Disquieting Mien, but all would be hard-pressed to identify the source of their subtle unease without resorting to mystical means (e.g., Auspex).",
             "This power affects everyone within 10 yards of the vampire for so long as the ability is active. Those who fail to accumulate as many successes as the Forsworn take a –2 penalty to all rolls involving the Composure Attribute for the remainder of the scene, for as long as they remain in his presence.",
             "This power costs six experience points to learn."
@@ -644,7 +768,12 @@ export const DevotionData = [
         "FullCost": "2 Vitae",
         "Action": "Instant and contested; resistance is reflexive. (An instant action is required to make the Solution; its effects are resisted with a contested action.)",
         "FullDescription": [
-            "<i>“I’m telling you, he won’t talk to me,” Andrea said. “He’s afraid he’ll scare me.” Victor shook his head and pulled out his silver hip flask. “He’ll talk.” Victor unscrewed the lid and inhaled, then passed it to Andrea. She sniffed it. “What is this? Bourbon?” Victor grinned. “Pour him a drink. He’ll talk to you.”</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "“I’m telling you, he won’t talk to me,” Andrea said. “He’s afraid he’ll scare me.” Victor shook his head and pulled out his silver hip flask. “He’ll talk.” Victor unscrewed the lid and inhaled, then passed it to Andrea. She sniffed it. “What is this? Bourbon?” Victor grinned. “Pour him a drink. He’ll talk to you.”" },
+                ],
+            },
             "The character’s compassion and allure is infused into a drop of blood that loosens the tongue of whoever consumes it. When this draught is created, the character rolls Manipulation + Persuasion + Majesty as though she were activating the Revelation power of that Discipline as usual. The successes achieved on this roll become the successes the subject contests with a reflexive Composure + Blood Potency roll. The results of this contested action are resolved as though the Revelation power were used in person (see Vampire: The Requiem, p. 130), except the subject bares his soul to whoever is present when the Solution is consumed, instead of the character.",
             "This power costs 10 experience points to learn."
         ],
@@ -664,10 +793,34 @@ export const DevotionData = [
             "Ordinarily, dream threats pose no real danger to a dream-drinking vampire. The Storyteller may still call for Composure rolls to avoid waking up or fear frenzy (if the sleeper is dreaming about his Boy Scout Jamboree bonfire). If the stories of a “dream world” are correct, it may be inhabited by spirits or dream entities of some sort, which might be able to harm a dreamer — or a dreamer’s leech. Giving powerful dream entities the equivalent of the Nightmare Discipline is probably a good start; Storytellers who really want to escalate can have a vampire awaken from a mortal nightmare to discover claw marks in his own chest, an eye missing or some other dream-inflicted wound.",
             "Dreams occur during REM (Rapid Eye Movement) sleep, which sets in about 90 minutes after falling asleep or 90 minutes after the end of the last REM phase. The average human sleeper goes through three or four REM phases per night, each one usually longer than the last. Humans familiar with lucid dreaming, or with the visualization exercises common in some esoteric traditions, have better instinctive control over their subconscious minds; they add their Occult score to their target number.",
             "A vampire who has shared the proper dream (or dreams) with a mortal will be at an advantage when manipulating him. Such a vampire should add +1 (or more for more intense or frequent sharing) to Social rolls against him, especially Empathy, Intimidation and Seduction. Pure information gathering is also possible through dreams, replacing Empathy in the activation dice pool with Investigation or Subterfuge.",
-            "<b>Dramatic Failure:</b> The subject awakens in a panic, and the user accidentally drinks (and manifests) any derangements present in the target for the rest of the night.",
-            "<b>Failure:</b> Failure means no dream found or consumed.",
-            "<b>Success:</b> Success allows continued dream-drinking; when the required total is reached, the user has drained the subject’s dream, and can experience it herself.",
-            "<b>Exceptional Success:</b> A dream is fully drained, and the user can nudge the sleeper into a new dream, retaining previous successes."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The subject awakens in a panic, and the user accidentally drinks (and manifests) any derangements present in the target for the rest of the night.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " Failure means no dream found or consumed.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " Success allows continued dream-drinking; when the required total is reached, the user has drained the subject’s dream, and can experience it herself.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " A dream is fully drained, and the user can nudge the sleeper into a new dream, retaining previous successes.",
+                ],
+            },
         ],
         "Book": "Myth 76"
     },
@@ -684,9 +837,27 @@ export const DevotionData = [
             "The Ordo Dracul have, in the past, jealously guarded the secret of Courier Ghouls, but since the Mnemosyne developed the process in the first place, it was in fact a fairly hopeless enterprise, since the Mnemosyne had been doing it long before they showed the Dragons how.",
             "The vampire sheds a few drops of her own Vitae into a glass, drinks and swallows it, and then regurgitates; holding it in her gullet, she enters a trance state where she encodes her memories on the blood before spitting it out once more.",
             "This done, she can inject it into her ghoul.",
-            "<b>Dramatic Failure:</b> Not only does the vampire fail to encode the memories within his blood, but the process wipes the memories from his mind. He forgets the very thing he was trying to pass on, and can never regain it himself.",
-            "<b>Failure:</b> The character gains less than a total of five successes. She fails to empower the Vitae, and it’s wasted.",
-            "<b>Success:</b> The character manages to gain more than five successes. She can encode one significant memory, one hour of personal experience, or information broadly equivalent to the study of a single chapter of a text book for each point of Vitae so used. The blood doesn’t retain its power indefinitely; the length of time it holds the information depends on how many successes rolled.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Not only does the vampire fail to encode the memories within his blood, but the process wipes the memories from his mind. He forgets the very thing he was trying to pass on, and can never regain it himself.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The character gains less than a total of five successes. She fails to empower the Vitae, and it’s wasted.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character manages to gain more than five successes. She can encode one significant memory, one hour of personal experience, or information broadly equivalent to the study of a single chapter of a text book for each point of Vitae so used. The blood doesn’t retain its power indefinitely; the length of time it holds the information depends on how many successes rolled.",
+                ],
+            },
             {
                 'Duration': [
                     { Successes: "5 successes", Duration: "One night" },
@@ -756,7 +927,12 @@ export const DevotionData = [
         "FullCost": "1 Vitae",
         "Action": "Instant and contested; resistance is reflexive. (An instant action is required to make the Solution; its effects are resisted with a contested action.)",
         "FullDescription": [
-            "<i>It happened almost immediately. Before Scott had even swallowed, it seemed like the noise level in the room doubled and kept climbing. The music was unbearable at first, and the lights became so separate and so distinct that they lost all meaning for a minute. Outside, a car was running, humming like a brand new engine. Wait, not outside — across the street, or down the block, maybe. How was it possible? How could he make that out? “Pretty awesome, right?” asked Trey. “I told you this guy got some pretty amazing shit, right.” Scott looked at the blaring splash of pink light that Trey’s face had become and watched it grow its features back. Scott was suddenly very aware of the sound of Trey’s beating heart. “Yeah,” he said. “Awesome.”</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "It happened almost immediately. Before Scott had even swallowed, it seemed like the noise level in the room doubled and kept climbing. The music was unbearable at first, and the lights became so separate and so distinct that they lost all meaning for a minute. Outside, a car was running, humming like a brand new engine. Wait, not outside — across the street, or down the block, maybe. How was it possible? How could he make that out? “Pretty awesome, right?” asked Trey. “I told you this guy got some pretty amazing shit, right.” Scott looked at the blaring splash of pink light that Trey’s face had become and watched it grow its features back. Scott was suddenly very aware of the sound of Trey’s beating heart. “Yeah,” he said. “Awesome.”" },
+                ],
+            },
             "This mystic concoction preserves the psychic power of the character’s blood and conveys it to the subject who drinks the Solution. Although only the simplest power of Auspex is distilled in this Solution, the senses of most mortals, ghouls and vampires aren’t prepared for the sensual rush that comes with Heightened Senses. Unlike normal uses of the Heightened Senses power, the character is not able to control the effects on individual senses; to boil the power of psychically enhanced senses down to a widely potable approximation, the Kindred must make some gross generalizations with the ways of Auspex.",
             "All Eye’s Blood Solutions affect all five senses of the subject. Drinkers with no dots in Auspex find the experience overwhelming at first, at suffer a –3 penalty on all Wits-related dice pools for the first few turns after drinking the Solution. The penalty persists for a number of turns equal to six minus the subject’s Wits. After that, the benefits of Heightened Senses override the sensory penalties of the experience.",
             "Perhaps more alarming, a sense of the vampire’s thirsting curse comes through the Solution — drinkers find not only that their senses are hyperactive, but that they are inclined to focus on the sound of a beating heart, the smell of blood and the distinctive features of solitary figures in the dark. It’s a brief sense of the predatory mind, and most mortals (and many ghouls) are so deeply unnerved by it, that the Storyteller may require the character to check for a derangement, as a result (see the World of Darkness Rulebook, p. 96). Subjects who voluntarily drink Eye’s Blood, knowing what it is, may gain a bonus on the roll to avoid a derangement, at the Storyteller’s discretion.",
@@ -824,15 +1000,57 @@ export const DevotionData = [
         "Action": "Instant (compared to Composure — see below)",
         "FullDescription": [
             "This is actually a generic term for a whole suite of possible Devotions. Each version of Faking It enables a Player to seem like she’s a master of a particular skill. She isn’t, of course, but onlookers think she is, no matter how inept she might be. For instance:",
-            "<b>I Know Kung Fu:</b> The character imitates a few martial arts poses he’s seen in movies. An onlooker, however, sees the deadly grace of a martial arts master. This may be enough to intimidate the average mortal into backing off. After expending a few Vitae on Strength and Dexterity, a Player might indeed be a reasonably competent brawler compared to the average mortal, but the Devotion makes him look like the second coming of Bruce Lee. (Though the character doesn’t have to pose as a kung fu master. He could just as easily pose as a boxer, tae kwon do fighter or mean muthafuckah streetfighter — anything that could be interpreted as a high Brawling score.)",
-            "<b>King of Comedy:</b> So what if a Player tells lame jokes with bad timing? To anyone affected by this devotion, she seems like a laff riot! An hour later the character’s audience may be scratching their heads wondering how the Player made such dumb jokes seem funny — but who can explain comedy?",
-            "<b>Stylin’:</b> A Player can seem to strut like a supermodel dressed at the height of fashion, even if her clothes came from Kmart and she stumps along like a pig farmer in a mucky field.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "I Know Kung Fu:" },
+                    " The character imitates a few martial arts poses he’s seen in movies. An onlooker, however, sees the deadly grace of a martial arts master. This may be enough to intimidate the average mortal into backing off. After expending a few Vitae on Strength and Dexterity, a Player might indeed be a reasonably competent brawler compared to the average mortal, but the Devotion makes him look like the second coming of Bruce Lee. (Though the character doesn’t have to pose as a kung fu master. He could just as easily pose as a boxer, tae kwon do fighter or mean muthafuckah streetfighter — anything that could be interpreted as a high Brawling score.)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "King of Comedy:" },
+                    " So what if a Player tells lame jokes with bad timing? To anyone affected by this devotion, she seems like a laff riot! An hour later the character’s audience may be scratching their heads wondering how the Player made such dumb jokes seem funny — but who can explain comedy?",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Stylin’:" },
+                    " A Player can seem to strut like a supermodel dressed at the height of fashion, even if her clothes came from Kmart and she stumps along like a pig farmer in a mucky field.",
+                ],
+            },
             "Each version of Faking It takes the basic aura of charisma granted by Awe and refines it through the influence of Cloak of Night. The Devotion doesn’t fool people’s eyes; it fools their brains, so whatever they see seems much cooler than it really is. They refuse to see imperfections or outright ineptitude. The result is narrower than Awe, but can more easily affect large numbers of people.",
             "Even though all versions of Faking It work the same way in rules terms, they are separate Devotions. Characters must buy each version of Faking It separately. Collectively, the many versions of Faking It are extremely popular and widespread among Players.",
-            "<b>Dramatic Failure:</b> A dramatic failure means the Player makes an utter fool of herself. Her fraud is transparent. In fact, even if the character does have the skill (but wants to look more impressive while using it), her audience still sees her as inept.",
-            "<b>Failure:</b> The Devotion fails to activate. The character does not know this immediately, though; she must guess by the reactions of her “audience.” If they don’t laugh, retreat or do whatever she wanted, she can try again on the next turn.",
-            "<b>Success:</b> The character succeeds in dazzling her audience.",
-            "<b>Exceptional Success:</b> Damn, she’s good! An exceptional success indicates the subject’s Composures are considered one less than normal for determining who is affected.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " A dramatic failure means the Player makes an utter fool of herself. Her fraud is transparent. In fact, even if the character does have the skill (but wants to look more impressive while using it), her audience still sees her as inept.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The Devotion fails to activate. The character does not know this immediately, though; she must guess by the reactions of her “audience.” If they don’t laugh, retreat or do whatever she wanted, she can try again on the next turn.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character succeeds in dazzling her audience.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Damn, she’s good! An exceptional success indicates the subject’s Composures are considered one less than normal for determining who is affected.",
+                ],
+            },
             "The number of successes the player acquires is compared to the Composure of each person she wants to dazzle. If the number of successes equals or exceeds the target’s Composure, that individual perceives the character as skillful and charismatic. If a target’s Composure exceeds the number of successes rolled, that person is not affected (and may wonder why other people seem so impressed).",
             "A character may Fake It to whoever is present (see the suggested modifiers below). Comparisons are made from the lowest Composure to highest among potential subjects. A Wannabe cannot single out a specific person in a crowd to affect. She has to try for everyone at once, and hope not many people have high Composures.",
             "Affected people feel whatever emotion the character wanted to evoke through the display of skill: intimidated by I Know Kung Fu, hilarity from King of Comedy, lust and admiration from Stylin’ and so on. The effect lasts for one scene. During that time, the residual effect of Faking It may provide bonus dice to other Skills that seem connected to the character’s imposture. For instance, the character might receive a bonus to Intimidation against people who believe she’s a badass fighter.",
@@ -960,9 +1178,27 @@ export const DevotionData = [
         "FullDescription": [
             "Nearly every vampire who emerges from torpor can at least remember that his time spent in the deep slumber was unpleasant at best. Many are able to recall that period of time as absolute terror. A select few, however, wield their collection of memories as a potent weapon. Victims of this power receive an unfiltered view of torpor’s mindbending effects. These unfortunate victims stop at nothing to find solitude and escape the nightmarish hallucinations assaulting them.",
             "Damatic Failure: The vampire brings too many memories of his period in torpor to his own mind instead, causing a -1 penalty on all of his own rolls for the remainder of the scene.",
-            "<b>Failure:</b> The subject is momentarily distracted by a minor hallucination, but it does not hinder his current activity.",
-            "<b>Success:</b> The victim witnesses hallucinations inspired by the vampire’s memories of torpor and then amplified by the target’s own fears. Every person he sees or hears becomes another hallucination that he believes to be a threat, physically and emotionally. The victim does anything possible to escape everyone he can see and hear. During his attempts to find solitude, self-inflicted wounds (gouging his own eyes, attempts to forcefully plug his ears, falling in a careless and frantic escape, etc.) and psychic trauma cause one point of bashing damage per turn. This effect lasts until the victim can find solitude and no longer sees or hears anyone who could become another hallucination. Kindred subject to this power must check for Rötschreck (requiring a number of successes equal to the successes rolled when activating this power), and other supernatural beings capable of similar frenzies or losses of control must check for this possibility, as well. Being in a state of frenzy does not protect a victim from the self-inflicted damage — even the Beast fears these nightmares.",
-            "<b>Exceptional Success:</b> As a success, except the first three points of damage caused during this power’s effect are lethal.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The subject is momentarily distracted by a minor hallucination, but it does not hinder his current activity.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The victim witnesses hallucinations inspired by the vampire’s memories of torpor and then amplified by the target’s own fears. Every person he sees or hears becomes another hallucination that he believes to be a threat, physically and emotionally. The victim does anything possible to escape everyone he can see and hear. During his attempts to find solitude, self-inflicted wounds (gouging his own eyes, attempts to forcefully plug his ears, falling in a careless and frantic escape, etc.) and psychic trauma cause one point of bashing damage per turn. This effect lasts until the victim can find solitude and no longer sees or hears anyone who could become another hallucination. Kindred subject to this power must check for Rötschreck (requiring a number of successes equal to the successes rolled when activating this power), and other supernatural beings capable of similar frenzies or losses of control must check for this possibility, as well. Being in a state of frenzy does not protect a victim from the self-inflicted damage — even the Beast fears these nightmares.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As a success, except the first three points of damage caused during this power’s effect are lethal.",
+                ],
+            },
             "This power costs 27 experience points to learn."
         ],
         "Book": "AM 75"
@@ -983,10 +1219,34 @@ export const DevotionData = [
             "The Kindred cannot use any of his other Disciplines except Auspex and Majesty while in this form, although, he can make it appear as if he is using other powers by playing into what those who are interacting with him expect. If they anticipate a show of Celerity, for example, that is what they’ll see.",
             "The group hallucination can be maintained even if one person doesn’t believe in it. However, to break the spell over an entire group of individuals, the disbeliever must act against the Kindred’s form and do something that specifically proves that the vampire isn’t really there (e.g. walk through him when the ghostly image can’t avoid such a move.)",
             "Anyone who sees the vampire makes a resistance roll and compares the results to the activation roll for this Devotion.",
-            "<b>Dramatic Failure:</b> The Kindred appears in daylight, but his form is anything but solid. It seems as if his body is being projected, like a holographic image, and his claims are obviously false.",
-            "<b>Failure:</b> The user fails to appear at all.",
-            "<b>Success:</b> The Kindred becomes visible and is likely able to convince any onlookers that he is standing before them, solid and unharmed. He can perform simple actions like sitting in chairs or walking and standing around, but his interaction is limited.",
-            "<b>Exceptional Success:</b> The vampire appears solid and unharmed by the sun’s rays. He can perform complex actions and can appear to manipulate objects, such as opening doors, carrying books and shaking hands.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The Kindred appears in daylight, but his form is anything but solid. It seems as if his body is being projected, like a holographic image, and his claims are obviously false.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The user fails to appear at all.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The Kindred becomes visible and is likely able to convince any onlookers that he is standing before them, solid and unharmed. He can perform simple actions like sitting in chairs or walking and standing around, but his interaction is limited.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The vampire appears solid and unharmed by the sun’s rays. He can perform complex actions and can appear to manipulate objects, such as opening doors, carrying books and shaking hands.",
+                ],
+            },
             "This power costs 30 experience points to learn."
         ],
         "Book": "AB 171"
@@ -1055,10 +1315,34 @@ export const DevotionData = [
             "The Dominate Discipline is normally anything but subtle, and requires complete attention in order to meddle with the mind of but a single person or Kindred. Vampires skilled in this Devotion are able to partially overcome these obstacles. Disguised as part of a speech or ongoing conversation, this power’s user may reach the minds of several subjects at once. Most victims are unaware of the commands given to them, as the orders are intertwined in the speech they believe they are simply listening to.",
             "With this power, a vampire is able to Mesmerize (Vampire: The Requiem, p. 125) a group of people, and he disguises his effort as part of a conversation or speech being delivered. He must engage the group of people in a conversation or have all of their attention. Direct eye contact is not needed, but each of the listeners must be able to see and hear the speaker. Acceptable settings include speaking on stage, a group of individuals chatting at the same table, a circle of socialites gossiping at a party, or a car full of passengers, among other similar possibilities. As soon as he activates this power, the vampire’s audience is “locked in” and continues to pay attention until the power’s results are resolved or they are forcefully removed from the scene. The potential victims actively resist removal from the speech or conversation, but if physically removed, they are unaffected by the Devotion.",
             "When activating the power, the vampire must decide exactly who he wants to affect. Each of the targets receives exactly the same commands and conditions. The player must then accumulate a number of successes equal to the number of targets the character wants to Mesmerize. Each turn, including the first, the player must spend one Vitae as he works toward this total. During this time, the vampire appears to continue his speech or normally participate in the conversation. Listeners hear the vampire elaborating on points, restating opinions, or uttering some other expected phrases. The imperfect applications of Obfuscate come into play, as none of the listeners remember exactly the same words or replies from the vampire. Only after the power is resolved can the vampire stop talking or remove himself from the situation. If the vampire is interrupted or prematurely ends his speech before the entire series of the extended rolls has been made, the entire effect fails and nobody is affected.",
-            "<b>Dramatic Failure:</b> The vampire using this power believes that the effect is taking hold and continues to issue his Mesmerisms to each target with everyone around him fully aware of what he is telling those targets.",
-            "<b>Failure:</b> The player accumulates no successes toward the total. If the vampire does not score enough successes before he must stop expending Vitae, or he is interrupted by an outside source, the Devotion fails. Being physically restrained from speaking or removed from the sight of his potential targets would also cause this power to fail, as would an amount of noise capable of completely drowning out his voice. The crowd around him does not see through his ruse, but he has not Mesmerized any of his desired targets.",
-            "<b>Success:</b> The player makes progress toward the total. If the player accumulates the required successes (one per target), each is affected as per the normal rules and limitations of Mesmerize. All targets receive the exact same commands, conditions, and triggers.",
-            "<b>Exceptional Success:</b> The player succeeds at the final roll of the extended action with five successes more than are required. The victims not only obey, but they also rationalize what they have done as their own decisions until and unless someone questions them about their actions in depth.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The vampire using this power believes that the effect is taking hold and continues to issue his Mesmerisms to each target with everyone around him fully aware of what he is telling those targets.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The player accumulates no successes toward the total. If the vampire does not score enough successes before he must stop expending Vitae, or he is interrupted by an outside source, the Devotion fails. Being physically restrained from speaking or removed from the sight of his potential targets would also cause this power to fail, as would an amount of noise capable of completely drowning out his voice. The crowd around him does not see through his ruse, but he has not Mesmerized any of his desired targets.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The player makes progress toward the total. If the player accumulates the required successes (one per target), each is affected as per the normal rules and limitations of Mesmerize. All targets receive the exact same commands, conditions, and triggers.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The player succeeds at the final roll of the extended action with five successes more than are required. The victims not only obey, but they also rationalize what they have done as their own decisions until and unless someone questions them about their actions in depth.",
+                ],
+            },
             "Should a vampire with Auspex, who has activated Heightened Senses, observe this power’s use, the two vampires are subject to the “Clash of Wills” (Vampire: The Requiem, p. 119). Piercing the deception allows that vampire to be immune to this application of Hidden Agenda.",
              {
                 'Suggested Modifiers': [
@@ -1083,10 +1367,34 @@ export const DevotionData = [
             "Worse yet, this power allows Rötgrafen to defend most insidiously against an attempt to board, subjugating the attacker the moment he touches the hull of the vampire’s ship.",
             "To invoke this power, the Rötgrafen must first sink into the wooden hull of his ship using Haven of Soil, and then make the first roll. The mortal who is subjected to this power must be in flesh-to-wood contact with the hull of the ship at the time of activation. The vampire will instinctively attack the right person, even if there are many mortals in contact with the hull at the same time.",
             "To completely seize control of the victim, the vampire must achieve a number of successes in excess of the victim’s Willpower. The victim is locked in a rigid, immobile state as soon as activation begins, and remains that way as long as the vampire’s player continues to win each contested roll.",
-            "<b>Dramatic Failure:</b> The attempt is ended, and the victim is immune to the vampire’s Dominate until the next sunset.",
-            "<b>Failure:</b> The victim may attempt to break contact with the hull. If the vampire succeeds in restarting the process during the same scene, the contest picks up from where it left off.",
-            "<b>Success:</b> The character moves closer to gaining control over the victim.",
-            "<b>Exceptional Success:</b> The character makes significant progress toward the ultimate goal of seizing control over the victim.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The attempt is ended, and the victim is immune to the vampire’s Dominate until the next sunset.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The victim may attempt to break contact with the hull. If the vampire succeeds in restarting the process during the same scene, the contest picks up from where it left off.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character moves closer to gaining control over the victim.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character makes significant progress toward the ultimate goal of seizing control over the victim.",
+                ],
+            },
             "Once the victim’s Willpower is exceeded, the vampire may take control of her body, per Possession (Dominate •••••, see Vampire: The Requiem, p. 128). For the duration of the Possession, the vampire’s body is melded to the hull of the ship and enjoys the protections of Haven of Soil (Protean ••, see Vampire: The Requiem, p. 138).",
             "This power can only be used if the ship is constructed of a natural material (usually wood) that the vampire can meld with, per Haven of Soil.",
             "This power costs 21 experience points to learn."
@@ -1130,9 +1438,37 @@ export const DevotionData = [
             "Very few Hive coteries develop the fullest expression of their philosophy, in which every member’s mind shares certain aspects with all the others. This is because very few Kindred develop the Disciplines needed for Hive Nexus Gestalt. Those few coteries are, essentially, individuals in their own right while the Devotion is active, and the whole is greater than the sum of the parts.",
             "A single success on the activation roll establishes the link until the nexus member (the “queen” to rude outsiders, “focus” to hivers) next slumbers, gets knocked into torpor or is destroyed. However, there are several restrictions that govern admission into the totality. First, only Kindred can join. Second, every Kindred who participates needs a second-stage Vinculum to every other participant. Any who lack this bond cannot be joined, though the others may fuse without them. Third, all the members must willingly submit to the Devotion.",
             "Once fused, all the components act in concert and participate in each other’s thoughts. This has several benefits:",
-            "<ul><li>All members gain a +1 bonus to Intelligence dice pools.</li><li>Members gain a +1 bonus to Skill dice pools if someone else in the Hive has that Skill at a level at least two points higher.</li><li>Willpower is shared out of a common pool.</li></ul>",
+            {
+                type: 'list',
+                ordered: false,
+                items: [
+                    [
+                        "All members gain a +1 bonus to Intelligence dice pools.",
+                    ],
+                    [
+                        "Members gain a +1 bonus to Skill dice pools if someone else in the Hive has that Skill at a level at least two points higher.",
+                    ],
+                    [
+                        "Willpower is shared out of a common pool.",
+                    ],
+                ],
+            },
             "There are drawbacks to being mentally aware in this fashion, however.",
-            "<ul><li>Whenever any character takes an action that would force a degeneration roll on one of the members, all the members make individual degeneration rolls.</li><li>Members cannot regain Willpower through their Vices unless all members of the Hive have the same Vice. Even then indulgence yields only a single Willpower point to the pool.</li><li>The gestalt may force an individual to perform an action against his will.</li></ul>",
+            {
+                type: 'list',
+                ordered: false,
+                items: [
+                    [
+                        "Whenever any character takes an action that would force a degeneration roll on one of the members, all the members make individual degeneration rolls.",
+                    ],
+                    [
+                        "Members cannot regain Willpower through their Vices unless all members of the Hive have the same Vice. Even then indulgence yields only a single Willpower point to the pool.",
+                    ],
+                    [
+                        "The gestalt may force an individual to perform an action against his will.",
+                    ],
+                ],
+            },
             "This last one is particularly important. Gestalts share their thoughts and beliefs, but that doesn’t mean they always agree, no more than a mortal always has an unambiguous opinion, no more than a vampire’s Man and Beast always concur. When a majority of the Hive members want one of the bodies to do something, they can attempt to force that body to act, even if the body’s owner disagrees. When that happens, the owner rolls Composure + Resolve against the highest opposing Intelligence and highest opposing Resolve. If the body’s owner gets more successes, he retains control. If not, the body does the bidding of the Hive.",
             "If there is a tie, in which half the Hive wants an action and half does not, the owner of the body that would take the action decides. Furthermore, any member of the group can break out of the Hive at any time by spending a Willpower point out of the collective pool. So Hives that need to send a member to certain death should make sure their Willpower is completely gone first — though if a Hive is considering such a sacrifice, it’s usually because all other options have already failed.",
             "This power costs 24 experience points to learn."
@@ -1220,7 +1556,12 @@ export const DevotionData = [
         "FullDescription": [
             "The moment a Ventrue learns that it’s possible to scrub clean memories with Dominate, he almost always has an uncomfortable realization: “That could have been used on me!” This is unacceptable, and in the typical Carthian can-do spirit, a Devotion has been developed to cope with it.",
             "While a character is protected by Immutable Mind, attempts to use Dominate on the character are hindered by the character’s own mastery of Dominate. If the roll is contested, the defender with Immutable Mind gets to add his rating in Dominate to his attempts to resist.",
-            "<i>Example: Travis has Dominate •• and has activated Immutable Mind. When a rival for Carthian office attempts to Mesmerize him, the contested pool is the rival’s Intelligence + Expression + Dominate. Usually, Travis would resist with Resolve + Blood Potency, but Immutable Mind allows him to roll Resolve + Blood Potency + Dominate.</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "Example: Travis has Dominate •• and has activated Immutable Mind. When a rival for Carthian office attempts to Mesmerize him, the contested pool is the rival’s Intelligence + Expression + Dominate. Usually, Travis would resist with Resolve + Blood Potency, but Immutable Mind allows him to roll Resolve + Blood Potency + Dominate." },
+                ],
+            },
             "This power costs eight experience points to learn."
         ],
         "Book": "Cart 192"
@@ -1386,7 +1727,12 @@ export const DevotionData = [
         "FullCost": "1 Vitae",
         "Action": "Extended, instant and contested; resistance is reflexive. (An extended action is required to falsify a memory. An instant action is required to make the Solution; its effects are resisted with a contested action.)",
         "FullDescription": [
-            "<i>With each drop, Victor added a little bit more to the story. In this drop, Andrea remembers driving home. The little red spot expanded into the water. In this drop, she remembers leaning on the open refrigerator door looking into a crowded collection of wasted food. Each bloody drip thinned out to nothing. In this drop, she remembers checking her voice mail, and having none. Blood dissolved. In this drop, she remembers turning out the lights.</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "With each drop, Victor added a little bit more to the story. In this drop, Andrea remembers driving home. The little red spot expanded into the water. In this drop, she remembers leaning on the open refrigerator door looking into a crowded collection of wasted food. Each bloody drip thinned out to nothing. In this drop, she remembers checking her voice mail, and having none. Blood dissolved. In this drop, she remembers turning out the lights." },
+                ],
+            },
             "Among the most surreal of the known blood alchemy Solutions, this power allows the character to construct memories in his own mind, and then transmit them through this Solution. Compared to the Dominate power this Solution depends on, the effects are incredibly gross and unrefined, but nonetheless useless.",
             "To create the Solution, the character first goes about inventing a memory in his own mind by imagining encounters and conversations, recalling fragments of his own real memories and using other memory tricks. The character does not fool himself with this false memory, but the best mental forgers create recollections so exacting that they hate to part with them. The action required to create a memory is similar to that used in The Forgetful Mind, but it is not penalized by the subject’s Resolve (because there is no subject yet, when the memory is created). The character performs an extended Intelligence + Expression + Dominate action to construct the memory, with each roll representing five minutes of mental manipulation. The successes accumulated are used just as the collective successes of The Forgetful Mind, but the character can make twice as many rolls as he has dots in Spoiling when writing a memory for the Solution.",
             "Once the memory is ready, the character can distill it into his Vitae. Doing so requires an instant Intelligence + Expression + Dominate activation roll. The successes on this roll do not add to the memory’s successes. Instead, these successes determine the threshold for success on the subject’s contested action to resist the forged memory. When the Solution is created, the vampire loses his invented memory’s place in his mind. Most blood alchemists that know this power claim they can “remember the memory,” but it is a vague and incomplete recollection.",
@@ -1458,10 +1804,34 @@ export const DevotionData = [
         "FullDescription": [
             "With this power, an Oberloch is able to reduce a subject’s mental acuity to that of a common animal’s. The victim’s higher brain functions give way to base, feral needs (i.e., the reptilian urges of food, sex, sleep and shelter). In some cases, a subject can even be made to manifest bestial features, further degrading identity.",
             "The Oberloch can suggest a type of animal to the subject, but the influence is not necessarily followed. A victim could react based on the kind of animal to which he feels most connection. How an animal behaves is also open to interpretation. (People might have different opinions on how a hog acts, for example.)",
-            "<b>Dramatic Failure:</b> The Devotion fails and the subject may not be affected by any uses of Dominate (including this and other Devotions that require Dominate) from the character until the next sunset.",
-            "<b>Failure:</b> Willpower is consumed, but the power fails with no effect. A successive attempt may be possible.",
-            "<b>Success:</b> The subject is reduced to feral, bestial behavior. Each success on the activation roll removes one die from the victim’s Social and Mental dice pools for a number of hours equal to the Oberloch’s Animalism score.",
-            "<b>Exceptional Success:</b> The victim also manifests animal features. One quality is gained for each success rolled at and in excess of five. (Five successes means one animal feature, six means two, seven means three, and so on.) A single feature could be a pig’s snout, ears, tail or hooves. In addition to the dice-pool penalties imposed by a success, the victim suffers a mild derangement based on the experience that can be overcome only through roleplaying or therapy.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The Devotion fails and the subject may not be affected by any uses of Dominate (including this and other Devotions that require Dominate) from the character until the next sunset.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " Willpower is consumed, but the power fails with no effect. A successive attempt may be possible.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The subject is reduced to feral, bestial behavior. Each success on the activation roll removes one die from the victim’s Social and Mental dice pools for a number of hours equal to the Oberloch’s Animalism score.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The victim also manifests animal features. One quality is gained for each success rolled at and in excess of five. (Five successes means one animal feature, six means two, seven means three, and so on.) A single feature could be a pig’s snout, ears, tail or hooves. In addition to the dice-pool penalties imposed by a success, the victim suffers a mild derangement based on the experience that can be overcome only through roleplaying or therapy.",
+                ],
+            },
             "A victim of this power can be subject to only one application of it at a time. The target must also be within direct earshot of the user. Trying to use the power over the telephone has no effect.",
             "This power costs 21 experience points to learn."
         ],
@@ -1480,8 +1850,20 @@ export const DevotionData = [
             "The power of the Moirai to predict the future has been rumored for centuries. In fact, the great secret of the Moirai is not that they necessarily know what the future holds, but that they can make the future happen. Fate bends to their will, making some futures easier to manifest than others.",
             "The character takes a reading of some kind, using a Tarot spread, a palm reading, tea leaves, haruspicy, phrenology, astrology or any other kind of divination the character favors. The target doesn’t have to be present at the character’s reading but can only choose not to resist the divination is he is present.",
             "And from that, the vampire says what will happen. And Fate conspires with the divination.",
-            "<b>Dramatic Failure:</b> The character describes an outcome that is especially unlikely. Any roll made to further the result mentioned in the divination suffers a -3 dice pool penalty. Failure: The roll fails to gain any successes. If the target gains five successes first, the divination fails to find anything conclusive at all.",
-            "<b>Success:</b> The character names an outcome, preferably in suitably vague terms, and for the duration of the augury, any dice pool directly relevant to the desired outcome gains a +1 bonus, and any roll which would thwart the purpose of the augury suffers a -1 penalty.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The character describes an outcome that is especially unlikely. Any roll made to further the result mentioned in the divination suffers a -3 dice pool penalty. Failure: The roll fails to gain any successes. If the target gains five successes first, the divination fails to find anything conclusive at all.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character names an outcome, preferably in suitably vague terms, and for the duration of the augury, any dice pool directly relevant to the desired outcome gains a +1 bonus, and any roll which would thwart the purpose of the augury suffers a -1 penalty.",
+                ],
+            },
             {
                 'Duration': [
                     { Successes: "10 successes", Duration: "One night" },
@@ -1492,8 +1874,20 @@ export const DevotionData = [
                     { Successes: "15+ successes", Duration: "23 nights" },
                 ]
             },
-            "<b>Exceptional Success:</b> The character gathers 15 or more successes. The effects of the augury last until the next solstice or equinox, but for the first night the bonus or penalty attached to rolls relevant to the outcome of the divination is +/-2.",
-            "<b>Suggested Modifiers:</b> Character using power on self (-1), character has blood-tie with target (+2), target is under Vinculum to vampire (+3), character is under Vinculum to target (-3), augury is based upon a condition (“Should the Prince find himself alone under the full moon, the Children of the Wolf shall sate their wrath upon him”) (+2), augury is very specific (“You shall find the Book of Unwritten Names tonight”) (-1), augury is very general (“All of your joys shall turn to ash in your mouth; all of your enterprises shall fail”) (-4).",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character gathers 15 or more successes. The effects of the augury last until the next solstice or equinox, but for the first night the bonus or penalty attached to rolls relevant to the outcome of the divination is +/-2.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Suggested Modifiers:" },
+                    " Character using power on self (-1), character has blood-tie with target (+2), target is under Vinculum to vampire (+3), character is under Vinculum to target (-3), augury is based upon a condition (“Should the Prince find himself alone under the full moon, the Children of the Wolf shall sate their wrath upon him”) (+2), augury is very specific (“You shall find the Book of Unwritten Names tonight”) (-1), augury is very general (“All of your joys shall turn to ash in your mouth; all of your enterprises shall fail”) (-4).",
+                ],
+            },
             "This power costs 15 experience points to learn."
         ],
         "Book": "Mekh 110"
@@ -1562,10 +1956,34 @@ export const DevotionData = [
         "Action": "Instant (contested if subject is aware of the mental intrusion)",
         "FullDescription": [
             "Characters who learn this Devotion are usually desperate and greedy enough to break into another vampire’s mind to take the memory they need, regardless of the consequences this action may entail. This Devotion can be performed quietly, without the subject knowing his mind is even being invaded (such as when the subject is sleeping) or it can be a brutal rape of the victim’s mind. If the subject is awake, she may become aware of someone attempting to infiltrate her mind. The player must make a contested roll of Wits + Intimidation + Auspex versus the target’s Composure + Blood Potency. If the character wins, the target is unaware of the intrusion. If the target is the victor, however, she is better able to resist the vampire’s intrusion (see below).",
-            "<b>Dramatic Failure:</b> The subject retains the memory, and any derangements the subject may have transfer to the character for the remainder of the evening. Further, the subject is aware of the intrusion and who the intruder is.",
-            "<b>Failure:</b> The subject retains the memory. If the subject was unaware, she remains so.",
-            "<b>Success:</b> The vampire extracts the target memory. She knows and feels what the subject experiences when recalling it. If the target was aware of the invasion, she can spend a Willpower point to retain the memory (it is thus “copied,” rather than “stolen”).",
-            "<b>Exceptional Success:</b> The subject’s memory is taken from her. She will never be able to recall having the memory as her own, whether or not she was aware of the Devotion’s use. An aware subject still realizes that her mind was violated, but doesn’t know (and never will) exactly how.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The subject retains the memory, and any derangements the subject may have transfer to the character for the remainder of the evening. Further, the subject is aware of the intrusion and who the intruder is.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The subject retains the memory. If the subject was unaware, she remains so.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The vampire extracts the target memory. She knows and feels what the subject experiences when recalling it. If the target was aware of the invasion, she can spend a Willpower point to retain the memory (it is thus “copied,” rather than “stolen”).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The subject’s memory is taken from her. She will never be able to recall having the memory as her own, whether or not she was aware of the Devotion’s use. An aware subject still realizes that her mind was violated, but doesn’t know (and never will) exactly how.",
+                ],
+            },
             {
                 'Suggested Modifiers': [
                     { Modifier: "+2", Situation: "Power is turned on a vampire with whom the user has a blood tie (Vampire: The Requiem, p. 162)" },
@@ -1589,7 +2007,12 @@ export const DevotionData = [
             "Even though vampires do not grow or see changes as a mortal’s physiology would over the course of years, the Vitae allows a vampire to gradually increase his raw capabilities through years and decades of focus. One might grow stronger, but his actual body appears to remain the same. He might become extremely intelligent, but it is not a factor of the lifeless brain in his skull. The Vitae allows it, and this power causes a vampire to mimic these changes for a short time.",
             "This power allows the vampire to change his form and its Attributes. When he activates this power, he is able to temporarily “shift” dots from one Attribute to another. When shifting dots, the vampire chooses a number of dots of Attributes not exceeding his Blood Potency. These dots may be redistributed between any combination of Attributes that is desired, and for each transferred dot, the player must expend one Vitae. Any given Attribute may not be raised above the normal maximum dictated by Blood Potency, and may not be reduced to zero. Note that if the cost of this power exceeds normal limits of Vitae use, this power requires a second turn to complete before any changes take effect.",
             "This power lasts for one scene. Any traits derived from the affected Attributes change as well. Raising Stamina, Resolve or Composure results in extra Health or Willpower dots; see p. 173 and p. 96 of the World of Darkness Rulebook for information on how to handle temporary increases in those traits.",
-            "<i>Example: Jaqueline’s ability to sway crowds is considerable, but she needs to be sure that her Sovereignty cannot be challenged. Jaquline’s player decides that she needs to maximize her Presence, Resolve and Composure. She has Presence 5, Resolve 4, and Composure 4. One dot is removed from Strength, Dexterity, Stamina, and Intelligence, totaling four dots. The player spends four Vitae and those dots are allocated, changing her Presence and Resolve to 6 and Composure to 5. Because of her decreased Attributes, her Initiative, Speed, Health, and possibly Defense are all reduced, but her Willpower is increased to 10 (as that Trait cannot exceed 10).</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "Example: Jaqueline’s ability to sway crowds is considerable, but she needs to be sure that her Sovereignty cannot be challenged. Jaquline’s player decides that she needs to maximize her Presence, Resolve and Composure. She has Presence 5, Resolve 4, and Composure 4. One dot is removed from Strength, Dexterity, Stamina, and Intelligence, totaling four dots. The player spends four Vitae and those dots are allocated, changing her Presence and Resolve to 6 and Composure to 5. Because of her decreased Attributes, her Initiative, Speed, Health, and possibly Defense are all reduced, but her Willpower is increased to 10 (as that Trait cannot exceed 10)." },
+                ],
+            },
             "This power costs 27 experience points to learn."
         ],
         "Book": "AM 78"
@@ -1604,7 +2027,13 @@ export const DevotionData = [
         "FullCost": "-",
         "Action": "As Entrancement",
         "FullDescription": [
-            "<b>Duration:</b> As Entrancement",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Duration:" },
+                    " As Entrancement",
+                ],
+            },
             "A vampire’s Beast is a creature of passion and territoriality. Weaker vampires can be cowed into submission by the mere presence of a Beast worthy of respect. Mesmeric Taint allows Forsworn to subjugate those who would challenge their authority by crushing any defiance presented to their own Beasts. Forsworn of the Throne of Smokeless Fire consider this aura a mark of some distinction within their ranks, and some take a perverse pleasure in the fawning attention of weaker vampires.",
             "The potency of this Devotion is equally as substantial as it is narrow in scope; its effects only come into play in situations when touching Taints actually calls for opposed Composure + Resolve rolls (e.g., when meeting other vampires for the first time). When an unfamiliar or startled vampire fails his Composure + Resolve roll upon touching Taints with the character, instead of succumbing to frenzy, the other vampire must immediately enter a contested roll with the Forsworn to resist being Entranced (per Majesty •••). If the near-frenzy vampire fails this contested roll, his impending frenzy is averted, and he is instead affected per the Entrancement Discipline. If he wins the contested roll, his frenzy or Rötschreck proceeds as normal.",
             "This power costs 12 experience points to learn."
@@ -1708,10 +2137,34 @@ export const DevotionData = [
         "FullDescription": [
             "Draugr don’t always cooperate, but sometimes a kind of pack instinct takes over. This Devotion allows a draugr to call out to any others of its kind in the vicinity. This Devotion is mercifully rare, because it constitutes a terrible danger the Masquerade (not to mention anyone standing near the draugr employing it).",
             "The draugr lets out an unearthly howl. This hideous sound carries farther than it should—the draugr’s Beast reaches out to the Beasts of any other Kindred in the area, and they respond.",
-            "<b>Dramatic Failure:</b> Any draugr or Larvae within a quarter mile respond, but the pitiful, mewling cry for help enrages them, and they attack the draugr (that has no idea the Devotion backfired).",
-            "<b>Failure:</b> The howl carries, but the mystical summons does not. The attempt fails.",
-            "<b>Success:</b> The howl rings out and carries with it a mystical summons to any vampiric Beast in the area. All draugr and Larvae within a half-mile per success respond to the summons. They aren’t necessarily under the vampire’s command when they arrive, but they attack mortals and non-draugr first.",
-            "<b>Exceptional Success:</b> The call affects normal Kindred in Frenzy, as well.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Any draugr or Larvae within a quarter mile respond, but the pitiful, mewling cry for help enrages them, and they attack the draugr (that has no idea the Devotion backfired).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The howl carries, but the mystical summons does not. The attempt fails.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The howl rings out and carries with it a mystical summons to any vampiric Beast in the area. All draugr and Larvae within a half-mile per success respond to the summons. They aren’t necessarily under the vampire’s command when they arrive, but they attack mortals and non-draugr first.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The call affects normal Kindred in Frenzy, as well.",
+                ],
+            },
             "This Devotion costs 15 experience points to learn.",
             {
                 'Suggested Modifiers': [
@@ -1732,7 +2185,13 @@ export const DevotionData = [
         "FullCost": "1 Vitae + 1 Willpower",
         "Action": "Instant",
         "FullDescription": [
-            "<b>Duration:</b> From activation until dawn",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Duration:" },
+                    " From activation until dawn",
+                ],
+            },
             "In young vampires, or those who have stayed close to their Humanity, a trickle of Vitae suffuses the surface of the skin, allowing them to look healthy and passably alive. Moreover, any Kindred can counterfeit life for a short time, enough to keep down a meal or engage in carnal intercourse. This Blush of Life, however, is all too fleeting and all too tantalizing to the Beast’s hungers. Even the pleasures it allows are only temporary, as the vampire must shortly rush to a restroom to vomit back the mortal food it has consumed. A quick flush of the Blood may allow a vampire to escape scrutiny from mortals, but he still faces difficulties if he wishes to spend the entire night in one’s company. The cost of a little Vitae is repeated over and over as the night goes on, and the Beast begins to bellow for more blood.",
             "Other powers, however, can be adapted to the purpose, and somewhat more efficiently. Vigor gives a Kindred the ability to go beyond mere animation of the flesh and infuse his muscles with unholy might. Majesty allows the Damned to make his presence magnetic and charming. By combining the small deceptions of Majesty with the physical control of Vigor, a Kindred can counterfeit life for an entire night.",
             "When active, Night Life enables a vampire to counterfeit life through the active circulation of Vitae, controlled motion of the lungs, and so on. These are physical movements mortals perform unconsciously but notice just as unconsciously when others fail to perform them. A vampire using Night Life intuitively keeps his organs operating much as they would in an ordinary human being. The sensation is not entirely comfortable: Vitae, even warmed and liquefied, is no longer mortal blood, and the organs tend to grind in stops and starts. The vampire often finds himself experiencing alien sensations in and beneath his skin: pores opening one by one, intestines squeezing in fits and so on. However, a vampire who has mastered this Devotion also has the ability to avoid giving evidence of his discomfort and, indeed, gained some capacity to ignore it. Thanks to his air of Majesty, his mortal companions will usually forgive any tiny aberrations in his behavior, or unusual symptoms – such as clotted Vitae clogging an obvious vein or a light sheen of the Blood trickling forth with sweat.",
@@ -2071,10 +2530,34 @@ export const DevotionData = [
             "In a dead world where the only important possession is blood to sate one’s unending thirst, the only meaningful gift is blood. The Ventrue have traded mortal blood slaves as gifts for centuries. Such gifts are meant to curry favor and enmesh recipients in the webs of boon and counter-favor that typify members of the clan. If a gift-giver has learned the secret of this Devotion, the blood of an enslaved mortal can be far more than a token of esteem. It can be a conduit through which the benefactor works his inhuman powers on the recipient.",
             "To use Poisoned Chalice, the vampire must have already Dominated a chosen mortal subject (the vessel) using the Conditioning power successfully. He must then feed the vessel a few drops of his own Vitae while concentrating on a specific subject — the intended recipient of the gift. The power of his Dominate Discipline is instilled in the vessel’s blood, which is laced with psychic energy. When the intended recipient drinks from the vessel, the trap springs, seeping into the subject’s mind and making him especially inclined to trust or favor the gift-giver.",
             "Don’t make a dice roll for the power’s effect when your character imprints his power on the vessel. A dice pool is rolled only if/when the vessel’s blood is tasted by the chosen recipient, for whom the contested roll is made as well.",
-            "<b>Dramatic Failure:</b> For the giver: The subject is unaffected by the power and realizes that the vessel is tainted or cursed in some way. For the recipient: Treat as an exceptional success for the giver.",
-            "<b>Failure:</b> The same or most successes are rolled for the recipient. The subject is unaffected by the power and does not realize that the vessel’s blood is tainted.",
-            "<b>Success:</b> The most successes are rolled for the benefactor. The subject is strongly inclined to trust and respect the character. When they next meet, the benefactor gains a bonus to all Social-Attribute-based dice pools (not including Disciplines) equal to the successes achieved on the Devotion roll. This bonus lasts for one scene and applies only to Social rolls made against the subject. This excludes the use of any Disciplines.",
-            "<b>Exceptional Success:</b> For the giver: The bonus to Social rolls extends to the use of Disciplines involving Social Attributes in the dice pool. For the recipient: Treat as a dramatic failure for the giver.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " For the giver: The subject is unaffected by the power and realizes that the vessel is tainted or cursed in some way. For the recipient: Treat as an exceptional success for the giver.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The same or most successes are rolled for the recipient. The subject is unaffected by the power and does not realize that the vessel’s blood is tainted.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The most successes are rolled for the benefactor. The subject is strongly inclined to trust and respect the character. When they next meet, the benefactor gains a bonus to all Social-Attribute-based dice pools (not including Disciplines) equal to the successes achieved on the Devotion roll. This bonus lasts for one scene and applies only to Social rolls made against the subject. This excludes the use of any Disciplines.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " For the giver: The bonus to Social rolls extends to the use of Disciplines involving Social Attributes in the dice pool. For the recipient: Treat as a dramatic failure for the giver.",
+                ],
+            },
             {
                 'Suggested Modifiers': [
                     { Modifier: "+2", Situation: "Power is used on a vampire with whom the user has a blood tie (see Vampire: the Requiem, p. 162)" },
@@ -2239,10 +2722,34 @@ export const DevotionData = [
         "Action": "Instant",
         "FullDescription": [
             "The Mnemosyne always risk losing their own memories, and their powers can sometimes work too well. There are times when memories – their own, or others’ – must be restored.",
-            "<b>Dramatic Failure:</b> The vampire wipes the memories away forever, and they can never be recovered, either by this power or any other means.",
-            "<b>Failure:</b> The character fails to find the lost memories.",
-            "<b>Success:</b> The character finds the lost memories. They flood to the surface, and the target briefly experiences them all at once. The target’s player must roll Resolve + Composure or gain a derangement.",
-            "<b>Exceptional Success:</b> The character not only regains the lost memories, but does so gently and gradually, meaning that the target is in no danger of gaining a derangement.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The vampire wipes the memories away forever, and they can never be recovered, either by this power or any other means.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The character fails to find the lost memories.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character finds the lost memories. They flood to the surface, and the target briefly experiences them all at once. The target’s player must roll Resolve + Composure or gain a derangement.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character not only regains the lost memories, but does so gently and gradually, meaning that the target is in no danger of gaining a derangement.",
+                ],
+            },
             "Suggested Modifiers: The vampire is reversing the effects of his own power (+2), the vampire is reversing the effects of a dramatic failure (-2), the character is using the power on himself (-1), character has blood-tie with target (+2), target is under Vinculum to vampire (+3), character is under Vinculum to target (-3).",
             "This power costs 21 experience points to learn."
         ],
@@ -2297,11 +2804,35 @@ export const DevotionData = [
             "Mekhet who know how to manipulate and perceive the spiritual nature of objects can, with the right formulae and a plate of freshly prepared food and a glass of wine, give a Reflection form and shape, and sate its hunger.",
             "Although the Sethites teach this devotion, anyone can learn it, if the Sethites choose to teach it.",
             "The vampire using this devotion can wield it on any vampire’s Reflection: he need only know the name of the vampire to whom the Reflection belongs. He has to prepare the food himself, with a drop of Vitae, and lay it out in a formal manner (which means, in the modern West, with a full table setting, accompanied by a glass of wine). Having made the food, lit the candle and sat down at the other side of the table, the vampire using the devotion begins to chant the ancient words.",
-            "<b>Dramatic Failure:</b> The Reflection does not come, and worse, wherever it is, it goes into an immediate Hunger Frenzy.",
-            "<b>Failure:</b> Nothing happens. The Reflection goes its own way and ignores the summons.",
-            "<b>Success:</b> The Reflection materializes by the food (even if it doesn’t have the Materialize Numen) and begins to eat. It cannot leave the table until it has finished, and can converse with anyone in the room while it does so, if it elects to. For every success rolled, the Reflection gains one point of Essence, and even if the vampire only rolled one success, the Reflection does not need to feed tonight.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The Reflection does not come, and worse, wherever it is, it goes into an immediate Hunger Frenzy.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " Nothing happens. The Reflection goes its own way and ignores the summons.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The Reflection materializes by the food (even if it doesn’t have the Materialize Numen) and begins to eat. It cannot leave the table until it has finished, and can converse with anyone in the room while it does so, if it elects to. For every success rolled, the Reflection gains one point of Essence, and even if the vampire only rolled one success, the Reflection does not need to feed tonight.",
+                ],
+            },
             "If anyone attacks the Reflection, it vanishes, and any benefit the ritual may have granted is lost.",
-            "<b>Exceptional Success:</b> As for success, except that the Reflection gains its full Essence pool.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As for success, except that the Reflection gains its full Essence pool.",
+                ],
+            },
             "This power costs 12 experience points to learn."
         ],
         "Book": "Mekh 111"
@@ -2320,10 +2851,34 @@ export const DevotionData = [
             "A vampire making use of the Body of Mist (Protean •••••) may choose to invoke this power and make the activation roll upon effecting her transformation. Afterwards, any individual who wishes to pass through the mist (or who encounters it as it moves toward him) must successfully resist the activation or be repelled. Vampires are simply disgusted by the clinging, foul mist, while mortals may actually be nauseated by the effect.",
             "Note that the Repulsive Vapor does not involve an unusual display: for all intents and purposes, the mist is no more or less remarkable than any normal fog (unless the mist moves in a suspicious manner).",
             "For a group of individuals encountering the mist, the Storyteller may roll the highest Composure of the crowd as an indicator of the group’s reaction.",
-            "<b>Dramatic Failure:</b> The vampire is incapable of manifesting the Repulsive Vapor or using Monstrous Countenance for the remainder of the scene.",
-            "<b>Failure:</b> The subject’s successes exceed or tie those rolled for the vampire. The subject finds the mist unpleasant, but is otherwise unaffected.",
-            "<b>Success:</b> Successes rolled for the vampire exceed those rolled for the subject. The victim turns away from the mist, and will attempt to flee from it. He continues fleeing for one turn per success rolled and will not come within sight of the mist for the remainder of the scene.",
-            "<b>Exceptional Success:</b> An exceptional success causes a strong physical reaction in the subject. Even vampires flail and stumble in their attempt to flee the mist. Mortals are overcome by intense nausea, losing the ability to take any action except stagger away at half speed. If attacked, the victim of this power can defend himself (he is allowed Defense but not a dodge action), and may attack anyone who attacks him. He cannot attack the disembodied vampire or seek to disrupt her. The victim remains sickened as long as he is in contact with the mist.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The vampire is incapable of manifesting the Repulsive Vapor or using Monstrous Countenance for the remainder of the scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The subject’s successes exceed or tie those rolled for the vampire. The subject finds the mist unpleasant, but is otherwise unaffected.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " Successes rolled for the vampire exceed those rolled for the subject. The victim turns away from the mist, and will attempt to flee from it. He continues fleeing for one turn per success rolled and will not come within sight of the mist for the remainder of the scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " An exceptional success causes a strong physical reaction in the subject. Even vampires flail and stumble in their attempt to flee the mist. Mortals are overcome by intense nausea, losing the ability to take any action except stagger away at half speed. If attacked, the victim of this power can defend himself (he is allowed Defense but not a dodge action), and may attack anyone who attacks him. He cannot attack the disembodied vampire or seek to disrupt her. The victim remains sickened as long as he is in contact with the mist.",
+                ],
+            },
             "This power costs 18 experience points to learn."
         ],
         "Book": "RfR 119"
@@ -2374,10 +2929,34 @@ export const DevotionData = [
             "One reason why the Gangrel are more willing to leave the safety of their havens and cities than other Kindred is that many have the ability to take shelter at any time. Any vampire with more than the basics of Protean can meld her body into the soil to hide from the sun and her enemies. Still, the safety offered by Haven of Soil is fleeting. If a resting place is disturbed, a vampire risks being ripped from the soil and exposed to the light of day.",
             "To minimize the dangers of deliberate or accidental violation of their temporary havens, some gifted Kindred have developed this Devotion. It channels the psychic force of the Nightmare Discipline into the earth that surrounds a vampire. Whenever someone comes near the Kindred’s resting place, the intruder is plagued by a subconscious sense of gnawing dread. Unless the subject can overcome this ominous instinct, he is forced to turn away and avoid the place altogether.",
             "One extra Vitae is spent when invoking Haven of Soil and this Devotion takes effect once the vampire has melded with the earth. The Storyteller makes the power’s activation roll and records the successes achieved (if any). Anyone who comes close to the resting place — within two yards for each Willpower dot of the interred vampire — is affected.",
-            "<b>Dramatic Failure:</b> For user: The subject is not only unaffected by the Devotion, but realizes that an external power affects his mind. With a successful Wits + Occult roll, he can actually pinpoint the spot from which the “bad feeling” emanates. For subject: Treat as an exceptional success for the user.",
-            "<b>Failure:</b> An equal number or the most successes are rolled for the subject. He feels a little uneasy but is otherwise unaffected. The subject does not realize that an external force was intended to influence his mind.",
-            "<b>Success:</b> The most successes are rolled for the interred vampire. The subject’s subconscious mind is stricken with dread. He avoids the area without knowing why and refuses to venture back until the next sunset. If forced to stay by others or by circumstances, the subject suffers a penalty on all actions equal to the successes achieved on the Devotion roll until he can leave the area.",
-            "<b>Exceptional Success:</b> For user: The subject is utterly terrified and flees the area immediately, fighting anyone who attempts to prevent his escape. Indeed, a subject is so frightened that he will not direct subordinates or allies to the place, and may even attempt to prevent enemies from venturing there. If the subject cannot leave the area, he withdraws into a catatonic state and suffers a derangement of the Storyteller’s choice for a number of days equal to the successes rolled for the Devotion. For subject: Treat as a dramatic failure for the user.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " For user: The subject is not only unaffected by the Devotion, but realizes that an external power affects his mind. With a successful Wits + Occult roll, he can actually pinpoint the spot from which the “bad feeling” emanates. For subject: Treat as an exceptional success for the user.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " An equal number or the most successes are rolled for the subject. He feels a little uneasy but is otherwise unaffected. The subject does not realize that an external force was intended to influence his mind.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The most successes are rolled for the interred vampire. The subject’s subconscious mind is stricken with dread. He avoids the area without knowing why and refuses to venture back until the next sunset. If forced to stay by others or by circumstances, the subject suffers a penalty on all actions equal to the successes achieved on the Devotion roll until he can leave the area.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " For user: The subject is utterly terrified and flees the area immediately, fighting anyone who attempts to prevent his escape. Indeed, a subject is so frightened that he will not direct subordinates or allies to the place, and may even attempt to prevent enemies from venturing there. If the subject cannot leave the area, he withdraws into a catatonic state and suffers a derangement of the Storyteller’s choice for a number of days equal to the successes rolled for the Devotion. For subject: Treat as a dramatic failure for the user.",
+                ],
+            },
             "The effects of the power lapse upon the next sunset, or until the sleeping vampire is unearthed, whichever comes first. The power ceases to function even if the vampire remains sleeping beyond one day.",
             "This power costs 12 experience points to learn."
         ],
@@ -2395,10 +2974,34 @@ export const DevotionData = [
         "FullDescription": [
             "Kindred certainly share accounts of what they perceive and remember regarding torpor, but few have any educated position about the nature of a vampire’s soul. Those who have learned this power claim that they have mastered the art of coaxing a slumbering vampire’s soul out of the murky depths of the Underworld and into their ritual area. There, the user of this power is able to converse with the torpor-bound Kindred for a short while before its essence is drawn back to the depths. Some Kindred claim this power merely summons a sort of psychic reflection of the target vampire, but results of this power speak for themselves.",
             "The user of this power must either touch the target Kindred or be within close proximity to the torpid vampire... such as within the tomb or resting area.",
-            "<b>Dramatic Failure:</b> Psychic feedback strips the ability for this vampire to use Auspex or any Devotion derived from it for the rest of the scene.",
-            "<b>Failure:</b> No successes are added to the total. If the Devotion’s user fails to accumulate the target number of successes before the victim does, the Devotion fails, and the target Kindred may not be contacted for one month.",
-            "<b>Success:</b> The character wins the contested roll by achieving a number of successes equal to the target’s Willpower before the target can achieve a number of successes equal to the summoner’s Willpower. The vampire has summoned the spiritual presence of the Kindred in torpor. Once this has been accomplished, the summoner is free to converse with the ghostly reflection of the torpid vampire. The presence may only manifest for a number of minutes equal to the summoner’s Occult skill. The power’s user can employ whatever verbal tactics he feels are necessary in order to convince the summoned presence to answer questions or convey any information it might know. No Disciplines may be used to harm the presence or force it to respond, but effects of a Vinculum still apply.",
-            "<b>Exceptional Success:</b> As a success, plus the summoner acquires a +2 bonus on all social rolls versus the presence to gain its confidence or cooperation.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Psychic feedback strips the ability for this vampire to use Auspex or any Devotion derived from it for the rest of the scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " No successes are added to the total. If the Devotion’s user fails to accumulate the target number of successes before the victim does, the Devotion fails, and the target Kindred may not be contacted for one month.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The character wins the contested roll by achieving a number of successes equal to the target’s Willpower before the target can achieve a number of successes equal to the summoner’s Willpower. The vampire has summoned the spiritual presence of the Kindred in torpor. Once this has been accomplished, the summoner is free to converse with the ghostly reflection of the torpid vampire. The presence may only manifest for a number of minutes equal to the summoner’s Occult skill. The power’s user can employ whatever verbal tactics he feels are necessary in order to convince the summoned presence to answer questions or convey any information it might know. No Disciplines may be used to harm the presence or force it to respond, but effects of a Vinculum still apply.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As a success, plus the summoner acquires a +2 bonus on all social rolls versus the presence to gain its confidence or cooperation.",
+                ],
+            },
             {
                 'Suggested Modifiers': [
                     { Modifier: "+2", Situation: "Power is used on a vampire with whom the user has a blood tie (Vampire: The Requiem, p. 162)." },
@@ -2424,7 +3027,12 @@ export const DevotionData = [
             "This Solution is thought to be one of the first created by the covenant’s early blood alchemists in the 1860s. It is, in a way, the archetypal Mr. Hyde brew. With a successful activation roll, the character infuses the power of his own Vigor into a liquid medium. For each success on the activation roll, another “bonus dot” of Strength can be suspended in the brew, so a maximum of three bonus dots. The effects of this Solution last for the remainder of the scene in which it is ingested. A given subject can only be affected by one volume of Sanguine Strength at a time.",
             "Along with the supernatural Physical power comes an echo of the Beast. Subjects — even mortals and ghouls — who drink this Solution are prone to a kind of violent tantrum that weakly approximates frenzy. If the subject is confronted with stimuli sufficient to provoke an anger frenzy in a vampire, she must (or, at least, should) attempt an extended Resolve + Composure action to overcome her own rage, just as a vampire would. Mortals and ghouls may be subject to unique modifiers to this action, however, at the Storyteller’s discretion. The drinker’s false frenzy isn’t really much more than a terrible display of anger. She retains her own mind, but suffers a –2 penalty to Mental actions for the rest of the scene, and attempts to use his Strength to solve as many problems as possible. She is shaken by an overwhelming violent urge, but she is not truly given over to the Beast.",
             "This power costs six, 12 or 18 experience points to learn, depending on the level learned. The Solution must always be purchased with equal dots’ worth of Spoiling and Vigor. The character can bestow a Strength bonus equal to or less than the dots he had in Vigor when he purchased this power, to a limit of three dots. A character who purchases this power with Vigor • or •• may upgrade this power later by paying the difference in experience points necessary to purchase the power at new its level originally.",
-            "<i>Example: A Nosferatu blood alchemist purchases this power when he has two dots in Vigor. He may only create Solutions infused with a +1 or +2 bonus to Strength dice pools. Later, the Nosferatu buys a third dot of Vigor, but he can still only create Solutions with a +1 or +2 bonus, unless he pays the experience points necessary to “upgrade” this power. For the Nosferatu, who originally paid 12 experience points, the cost is an additional six experience points.</i>"
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "Example: A Nosferatu blood alchemist purchases this power when he has two dots in Vigor. He may only create Solutions infused with a +1 or +2 bonus to Strength dice pools. Later, the Nosferatu buys a third dot of Vigor, but he can still only create Solutions with a +1 or +2 bonus, unless he pays the experience points necessary to “upgrade” this power. For the Nosferatu, who originally paid 12 experience points, the cost is an additional six experience points." },
+                ],
+            },
         ],
         "Book": "OD 208"
     },
@@ -2443,10 +3051,34 @@ export const DevotionData = [
             "This Devotion detects only Kindred and their Beasts, and offers no advantage for tracking mortals, animals or other creatures. If the quarry is able to obscure his Beast, such as with the Mask of Tranquility power (Obfuscate), the task becomes extended and contested (see the “Clash of Wills” sidebar in Vampire: The Requiem, p. 119). If the quarry ever achieves the most successes in a roll, the tracker loses the trail altogether. If the tracker gets the most successes with each roll, they count toward the total number needed to follow the trail to its end. If there’s ever a tie on any particular roll, the Storyteller may allow the tracker successive attempts at that stage (see the World of Darkness Rulebook, p. 132) to resume the trail, all compared to the same number of successes achieved in the tying roll made for the subject. So, if the tying roll involves four successes, five or more successes must be achieved for the tracker for him to ever pick up to the trail again. The Storyteller decides how many successive attempts are allowed, but each becomes more difficult. Note that it’s easier to find the Beast of a vampire with higher Blood Potency — the more “vampiric” the subject, the easier it is to detect his Beast’s psychic residue.",
             "Both tracking and deliberately covering one’s tracks with Obfuscate requires participants to move at half Speed. Moving at a more desperate clip increases the margin of error. Moving at three-quarter Speed imposes a –2 penalty, while moving at full Speed imposes a –4 penalty. These modifiers apply to appropriate participants’ rolls.",
             "See “Rule of Thumb: Extended Actions” (World of Darkness Rulebook, p. 128) for any limits on how many rolls can be made for a tracker.",
-            "<b>Dramatic Failure:</b> Your character picks up another trail, mistaking it for that of the quarry. A dramatic failure rolled at any point for the quarry means that his trail can be followed easily for the duration of the tracking effort.",
-            "<b>Failure:</b> In an extended effort, no successes are gathered at the current stage of the trail. Your character must find and correctly identify a fresher section of trail before trying again, represented by successes accumulated in subsequent rolls. In an extended and contested effort, if the most successes are ever rolled for the quarry, the trail is lost altogether.",
-            "<b>Success:</b> In an extended effort, the tracker gains some ground and accurately traces the trail further (successes are accumulated). In an extended and contested effort, the most successes are rolled for and accumulated by the tracker.",
-            "<b>Exceptional Success:</b> Considerable successes are gathered for the tracker, or the quarry is likely to stymie his pursuer if an exceptional success is rolled for him.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Your character picks up another trail, mistaking it for that of the quarry. A dramatic failure rolled at any point for the quarry means that his trail can be followed easily for the duration of the tracking effort.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " In an extended effort, no successes are gathered at the current stage of the trail. Your character must find and correctly identify a fresher section of trail before trying again, represented by successes accumulated in subsequent rolls. In an extended and contested effort, if the most successes are ever rolled for the quarry, the trail is lost altogether.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " In an extended effort, the tracker gains some ground and accurately traces the trail further (successes are accumulated). In an extended and contested effort, the most successes are rolled for and accumulated by the tracker.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Considerable successes are gathered for the tracker, or the quarry is likely to stymie his pursuer if an exceptional success is rolled for him.",
+                ],
+            },
             {
                 'Suggested Modifiers': [
                     { Modifier: "+2", Situation: "Power is used on a vampire with whom the user has a blood tie (see Vampire: The Requiem, p. 162)" },
@@ -2488,10 +3120,34 @@ export const DevotionData = [
         "FullDescription": [
             "Once the coterie that developed Torpid Awareness had mingled the use of Auspex and Protean, the coterie decided to try other combinations using the Gangrel member’s more powerful abilities. What the members came up with could be quite useful in a domain with Lupine problems.",
             "This power reveals any shapeshifting ability possessed by creatures the user views. The alternate forms appear as an alteration of the shape of the creature’s aura. For those who can transform into multiple other shapes, this makes it difficult to discern what each one is. For each alternate shape beyond the first the subject may assume, the user of this power suffers a –1 penalty to his roll.",
-            "<b>Dramatic Failure:</b> The character draws the wrong conclusion. Sometimes this is obvious, as when a Kindred’s aura appears to indicate all the forms of a Lupine. Sometimes it’s not obvious, such as when a human-form Lupine’s aura appears normal, or when a normal mortal appears to have Lupine forms.",
-            "<b>Failure:</b> The subject’s aura appears normal, no matter what the truth is. However, since no distortion of the aura occurs at all, the user can tell that the power has failed to activate.",
-            "<b>Success:</b> For each success rolled, one alternate form can be perceived for certain. So if four successes are rolled, then all the forms of a Lupine could be viewed in the aura.",
-            "<b>Exceptional Success:</b> The insight of this power is gained with just a glance; the action is reflexive instead of instant.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The character draws the wrong conclusion. Sometimes this is obvious, as when a Kindred’s aura appears to indicate all the forms of a Lupine. Sometimes it’s not obvious, such as when a human-form Lupine’s aura appears normal, or when a normal mortal appears to have Lupine forms.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The subject’s aura appears normal, no matter what the truth is. However, since no distortion of the aura occurs at all, the user can tell that the power has failed to activate.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " For each success rolled, one alternate form can be perceived for certain. So if four successes are rolled, then all the forms of a Lupine could be viewed in the aura.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The insight of this power is gained with just a glance; the action is reflexive instead of instant.",
+                ],
+            },
             "This power costs 12 experience points to learn."
         ],
         "Book": "Cart 200"
@@ -2545,11 +3201,35 @@ export const DevotionData = [
             "This Devotion allows the Kindred to project a specific emotion onto an inanimate object, thereby forcing the next person who touches it to feel the emotional impression left behind. Further, the target feels compelled to share with the Kindred a specific memory attached to that emotion, as if the only way to purge the feeling is to talk it out.",
             "A cunning and manipulative vampire should be able to get the information he needs from his victim simply by being nearby when the target touches the prepared object. Then, using whatever Attributes or Skills he possesses, the Kindred can guide the target into telling him everything he wants to know.",
             "A Bak-Ra using this Devotion should consider two points of caution, though. One is to be careful when applying anger. Should the victim suddenly feel such a powerful burst of rage, she might be thrown into an uncontrollable frenzy. This might be a convenient method of pitting one of the Kindred’s foes against another, of course, but wouldn’t be pleasant to be around. Second, if the victim has a derangement that is triggered by a given strong emotion, she might be overcome by it and be unable to provide any useful information.",
-            "<b>Dramatic Failure:</b> Not only is the wrong emotion transmitted to the object in question, but the target realizes that she is being manipulated in some way and that someone is actually trying to get information out of her.",
-            "<b>Failure:</b> The victim feels as if something isn’t quite right and immediately drops or removes her hand from the object. No further attempt can be made to manipulate the target by using the same object.",
-            "<b>Success:</b> The correct emotion is projected onto the object. The character can then play to that emotion, ferreting out information from the target by taking advantage of his fragile emotional state. This grants a positive modifier to Social rolls with the target (not including rolls to use Disciplines) equal to the successes that the player rolls.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Not only is the wrong emotion transmitted to the object in question, but the target realizes that she is being manipulated in some way and that someone is actually trying to get information out of her.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The victim feels as if something isn’t quite right and immediately drops or removes her hand from the object. No further attempt can be made to manipulate the target by using the same object.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The correct emotion is projected onto the object. The character can then play to that emotion, ferreting out information from the target by taking advantage of his fragile emotional state. This grants a positive modifier to Social rolls with the target (not including rolls to use Disciplines) equal to the successes that the player rolls.",
+                ],
+            },
             "If the Bak-Ra implants anger, a vampire who touches the object must roll to avoid frenzy.",
-            "<b>Exceptional Success:</b> Extra successes are their own reward.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Extra successes are their own reward.",
+                ],
+            },
             "Once an object is “imprinted” with an emotion, the power remains for a number of turns equal to the BakRa’s Blood Potency. If the object ever leaves her sight, the Devotion’s effects end.",
              {
                 'Suggested Modifiers': [
@@ -2640,7 +3320,13 @@ export const DevotionData = [
         "FullCost": "-",
         "Action": "Instant",
         "FullDescription": [
-            "<b>Duration:</b> One scene",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Duration:" },
+                    " One scene",
+                ],
+            },
             "The bonds of blood are strong among the Forsworn, and many of the covenant’s rituals revolve around the pack dynamics of the covey. A vampire who develops this power learns how to use his mastery of Auspex to project his thoughts into the minds of those with whom he shares such a powerful bond, even when they are removed from his immediate presence.",
             "This Devotion allows the user to transmit mental messages to any creature with whom he shares a blood connection — his own ghouls, the covey’s ghouls, his covey-mates themselves and any other creature with whom he shares a blood tie. Success on the activation roll allows the user to transmit messages (at a rate of one per turn) to any one, some or all of those connected to him in this fashion, for one scene. Subjects cannot reply with thoughts or messages of their own unless they are within line of sight of the user of this power (or they, too, possess this Devotion). A dramatic failure results in the user not being able to focus his mind enough to single out specific subjects; every thought he transmits goes out to every creature with whom he shares a blood connection. The power of this effect is limited to a range of about 50 miles.",
             "This power costs 15 experience points to learn."
@@ -2780,11 +3466,35 @@ export const DevotionData = [
         "FullDescription": [
             "The vampire combines the power over the Beast that Animalism grants with the force of personality from Majesty. This allows the Kindred to tap into the hive- mind shared by the Larvae, and become its master. This Devotion requires time and repeated use to work, but once the vampire cements himself as the pack’s leader, his dominance is unshakeable and the Larvae will sacrifice themselves to the sun to protect him.",
             "The character must be within sight of at least one of the Larvae in the pack in order to use this power. The player spends the Vitae and makes the indicated roll.",
-            "<b>Dramatic Failure:</b> The Larvae instantly attack the character. All previous successes are lost, and any further attempts to dominate this group of Larvae suffer a –2 penalty. (This fades after a successful use of the Devotion.)",
-            "<b>Failure:</b> No successes are added to the total. If this was not the first roll, the vampire can sacrifice 1 previously gained success in order to maintain control of the pack for the remainder of the night.",
-            "<b>Success:</b> Successes are added to the total. If this roll does not take the character to his target number of successes, the vampire still controls the pack for the remainder of the night. The pack will obey commands (issued verbally) from the character, and will attack enemies and perform tasks within its ability (see below). The Larvae will not, however, approach fire or sunlight for the character.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The Larvae instantly attack the character. All previous successes are lost, and any further attempts to dominate this group of Larvae suffer a –2 penalty. (This fades after a successful use of the Devotion.)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " No successes are added to the total. If this was not the first roll, the vampire can sacrifice 1 previously gained success in order to maintain control of the pack for the remainder of the night.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " Successes are added to the total. If this roll does not take the character to his target number of successes, the vampire still controls the pack for the remainder of the night. The pack will obey commands (issued verbally) from the character, and will attack enemies and perform tasks within its ability (see below). The Larvae will not, however, approach fire or sunlight for the character.",
+                ],
+            },
             "If this roll results in the target number of successes being accumulated, the vampire is now in full control of the pack. He can issue commands mentally instead of verbally, and the Larvae obey him unquestioningly, no matter how suicidal the command. Any attempt to wrest control of the pack results in the Larvae attacking the would-be master without mercy.",
-            "<b>Exceptional Success:</b> Considerable successes are added to the total. No special effect for exceptional success.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Considerable successes are added to the total. No special effect for exceptional success.",
+                ],
+            },
             "This Devotion costs 15 experience points to purchase."
         ],
         "Book": "NH-WD 107"
@@ -2818,11 +3528,41 @@ export const DevotionData = [
         "FullDescription": [
             "The Moirai depend on human cultists even more than the other Shadow Cults do. The Weavers and Fates of the Moirai cultivate the devotion of the faithful by sending them messages in broad daylight. At a predetermined time, the mind of the convert becomes flooded with the voice of his master, and he can do nothing but listen, although no forces in this power compel his obedience.",
             "The Weaver or Fate composes a telepathic message and names a time at which a mortal cultist targeted known to the vampire will receive it. The mortal in question must be someone he has seen before the message will arrive (although the mortal doesn’t have to have seen the vampire).",
-            "<b>Dramatic Failure:</b> The cultist receives a message, but it doesn’t arrive at the right time or isn’t remotely what the vampire actually wanted to say.",
-            "<b>Failure:</b> The vampire can’t create a message with the power to linger until the appointed time. He must try again.",
-            "<b>Success:</b> The vampire can name a time, within about an hour, when the mortal will receive a telepathic message.",
-            "<b>Exceptional Success:</b> The character can, if he chooses, name a condition instead of a time when the message will arrive (for example, when the cultist meets a certain individual, or when the cultist arrives at a certain place).",
-            "<b>Suggested Modifiers:</b> Target has no dots in Initiation (Moirai) Merit (-2), target is a ghoul (+1), target is under Vinculum to vampire (+3).",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The cultist receives a message, but it doesn’t arrive at the right time or isn’t remotely what the vampire actually wanted to say.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The vampire can’t create a message with the power to linger until the appointed time. He must try again.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The vampire can name a time, within about an hour, when the mortal will receive a telepathic message.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " The character can, if he chooses, name a condition instead of a time when the message will arrive (for example, when the cultist meets a certain individual, or when the cultist arrives at a certain place).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Suggested Modifiers:" },
+                    " Target has no dots in Initiation (Moirai) Merit (-2), target is a ghoul (+1), target is under Vinculum to vampire (+3).",
+                ],
+            },
             "This power costs 15 experience points to learn."
         ],
         "Book": "Mekh 111"
@@ -2928,10 +3668,34 @@ export const DevotionData = [
         "FullDescription": [
             "Renowned for their bravery even in the face of vampiric banes, Rötgrafen warriors have developed the ability to reverse the rise of panic within themselves and redirect it, surprising the wielders of fire by turning upon them in apparent ignorance of the threat they face.",
             "Any time a vampire with this power faces provocation that would normally lead to Rötschreck, he may attempt to invoke this power. The roll to activate Undiminished Rage occurs instead of the frenzy resistance roll.",
-            "<b>Dramatic Failure:</b> Not only does the power fail to take hold, resulting in an immediate fear frenzy, but the vampire is so completely shaken by the experience that he is unable to use this power again for the duration of the chapter.",
-            "<b>Failure:</b> The vampire exerts his will, but does not alter the nature of his oncoming frenzy. He may attempt to resist it as normal.",
-            "<b>Success:</b> The vampire is provoked by the source of the frenzy, but he is moved to rage instead of fear. He may Ride the Wave as normal, or may simply attack the source of his frenzy.",
-            "<b>Exceptional Success:</b> Not only does the vampire enter a rage frenzy instead of fleeing uncontrollably, but he is already considered to be Riding the Wave, and need not spend another Willpower point to impose limits on his frenzy.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " Not only does the power fail to take hold, resulting in an immediate fear frenzy, but the vampire is so completely shaken by the experience that he is unable to use this power again for the duration of the chapter.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The vampire exerts his will, but does not alter the nature of his oncoming frenzy. He may attempt to resist it as normal.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The vampire is provoked by the source of the frenzy, but he is moved to rage instead of fear. He may Ride the Wave as normal, or may simply attack the source of his frenzy.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " Not only does the vampire enter a rage frenzy instead of fleeing uncontrollably, but he is already considered to be Riding the Wave, and need not spend another Willpower point to impose limits on his frenzy.",
+                ],
+            },
             "This power costs 18 experience points to learn."
         ],
         "Book": "BtC 64"
@@ -3020,7 +3784,12 @@ export const DevotionData = [
             "A character must be holding as much Vitae as he can normally contain to activate Vitae Bloat. Once that’s done, he can hold a number of extra Vitae equal to his score in Protean. Or, if he prefers, he can hold less.",
             "The vampire suffers one point of bashing damage for each two Vitae held above his standard maximum. These Health points can’t be healed while the Kindred is exceeding his normal capacity for Vitae.",
             "Furthermore, his veins and arteries bulge unnaturally, swollen beyond their ordinary capacity. Some Kindred might say the use of Vitae Bloat is a Masquerade risk, if they’re inclined to make trouble for its user. Mortal viewers, on the other hand, are likely to assume the bloated Kindred simply has some hideous, disfiguring disease. (Storytellers may choose to assess penalties to Social rolls accordingly.)",
-            "<i>Example: Rosalita, with Blood Potency 1 and Protean 2, can usually carry no more than 10 Vitae. Preparing for a long journey across the Mojave Desert (don’t ask), she begins with five Vitae in her system when she catches an unfortunate hitchhiker. His first five points of Vitae fill her up, and then she activates Vitae Bloat to take the last two. She takes one point of bashing damage, and is even uglier than you’d expect a casual murderess to be.</i>",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'italic', text: "Example: Rosalita, with Blood Potency 1 and Protean 2, can usually carry no more than 10 Vitae. Preparing for a long journey across the Mojave Desert (don’t ask), she begins with five Vitae in her system when she catches an unfortunate hitchhiker. His first five points of Vitae fill her up, and then she activates Vitae Bloat to take the last two. She takes one point of bashing damage, and is even uglier than you’d expect a casual murderess to be." },
+                ],
+            },
             "This power costs nine experience points to learn."
         ],
         "Book": "Cart 193"
@@ -3055,10 +3824,34 @@ export const DevotionData = [
             "Those who see the hanging flesh of the Balm (whether worn by the Noctuku or not) can be made to suffer a nameless fear, subconsciously realizing what it is made of, and how it came to be.",
             "Some of the Noctuku make use of this power to warn intruders away from their lairs. A well-placed hide may dissuade those who seek to enter, and those who manage to push past it are likely to suffer its effects, shaking their resolve for the battle that is sure to follow.",
             "The activation roll is made for The Warding Flesh when it is placed (or first worn). The resistance roll is made the first time a sentient creature, mortal, Kindred or other, looks upon The Warding Flesh. It will not trigger when the Noctuku sees it.",
-            "<b>Dramatic Failure:</b> The Ward fails, and those who look upon it are actually steeled in their determination, knowing that they face a true monster. All of their rolls in opposition to the Noctuku gain a +1 die bonus for the remainder of the scene.",
-            "<b>Failure:</b> The Ward fails to activate. The onlookers react as normal.",
-            "<b>Success:</b> The scene is suffused with an oppressive atmosphere of fear, per the Nightmare power “Dread” (see Vampire: The Requiem, p. 133). All those present must make the reflexive roll against the power, and those who fail it suffer a –2 dice penalty on all actions for the remainder of the scene (or for as long as the skin remains visible), due to a rising panic.",
-            "<b>Exceptional Success:</b> As above, but each victim present also loses a Willpower point.",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Dramatic Failure:" },
+                    " The Ward fails, and those who look upon it are actually steeled in their determination, knowing that they face a true monster. All of their rolls in opposition to the Noctuku gain a +1 die bonus for the remainder of the scene.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Failure:" },
+                    " The Ward fails to activate. The onlookers react as normal.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Success:" },
+                    " The scene is suffused with an oppressive atmosphere of fear, per the Nightmare power “Dread” (see Vampire: The Requiem, p. 133). All those present must make the reflexive roll against the power, and those who fail it suffer a –2 dice penalty on all actions for the remainder of the scene (or for as long as the skin remains visible), due to a rising panic.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Exceptional Success:" },
+                    " As above, but each victim present also loses a Willpower point.",
+                ],
+            },
             "The penalty imposed by The Warding Flesh is not cumulative with that of Dread — if one is in use, victims will not feel more frightened by the other.",
             "This power costs 21 experience points to learn."
         ],

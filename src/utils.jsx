@@ -13,6 +13,37 @@ export function sortByKey(list, key) {
     });
 }
 
+const DISPLAY_TEXT_REPLACEMENTS = [
+    ["Ã¢â‚¬Â¢", "•"],
+    ["â€¢", "•"],
+    ["Ã¢â€”Â", "●"],
+    ["â—", "●"],
+    ["Â°C", "°C"],
+    ["â€™", "’"],
+    ["â€˜", "‘"],
+    ["â€œ", "“"],
+    ["â€", "”"],
+    ["â€“", "–"],
+    ["â€”", "—"],
+    ["Ã©", "é"],
+    ["Ã¨", "è"],
+    ["Ã¡", "á"],
+    ["Ãº", "ú"],
+    ["Ã¹", "ù"],
+    ["Ã¼", "ü"],
+    ["Ã¶", "ö"],
+    ["Ã±", "ñ"],
+];
+
+export function normalizeDisplayText(value) {
+    if (value === null || value === undefined) return "";
+
+    return DISPLAY_TEXT_REPLACEMENTS.reduce(
+        (text, [broken, fixed]) => text.split(broken).join(fixed),
+        String(value)
+    );
+}
+
 // Filtro per array di oggetti che elimina interi oggetti indesiderati (ad esempio per creare link a pagine)
 export const filtreArrayOfObjects = (array, keyToFilter, valueToLeaveOut) =>
     array.filter(object => !valueToLeaveOut.includes(object[keyToFilter]))
@@ -68,7 +99,7 @@ export function removeFieldsAndAddLink({ data, fieldsToRemove, urlPrefix, keyToU
 export function getFlipHtmlPageUrlsFromSource(source, allBooks) {
     if (typeof source !== 'string') return [];
   
-    return source.split(',').map(part => {
+    return normalizeDisplayText(source).split(',').map(part => {
       const trimmed = part.trim();
       const match = trimmed.match(/^([^\s]+)\s+(\d+)$/);
       if (!match) return { text: trimmed, url: null };

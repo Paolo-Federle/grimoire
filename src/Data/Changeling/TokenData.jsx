@@ -352,7 +352,13 @@ const tokenData = [
         "Drawback": "If the sleight of hand roll fails, its always a dramatic failure",
         "fullCatch": [
             "Crows and ravens are chatty birds, cawing and complaining. After using the Jackdaw Trinket, a character becomes chatty, too — she suffers from the Vocalization derangement (see pp. 98-99, the World of Darkness Rulebook). If she already possesses the mild version, she instead suffers from the more severe Schizophrenia. This lasts until she is able to get eight hours of uninterrupted sleep.",
-            "<b>Recipe:</b> A golden thread or cord; 23 drops of dew collected from Hedge flowers; the severed head of a Hedge carrion bird."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Recipe:" },
+                    " A golden thread or cord; 23 drops of dew collected from Hedge flowers; the severed head of a Hedge carrion bird."
+                ]
+            }
         ],
         "Catch": "Gain the Vocalization derangement, or if the user already has that, the more severe Schizophrenia. Lasts until the user gets 8 hours of sleep.",
         "fullDescription": [
@@ -417,7 +423,13 @@ const tokenData = [
         "Drawback": "-2 to all social rolls while wearing the mask.",
         "fullCatch": [
             "Through two small holes, the character can affix the Kirtimukha to his face with two broken-off thorns from the Brambles. Doing so, however, earns him two bashing points of damage.",
-            "<b>Recipe:</b> River mud; the eye of any hobgoblin, its juices squeezed over the hardening mud; dyes made from various crushed Thorn insects (usually beetles); a bel- lowed threat."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Recipe:" },
+                    " River mud; the eye of any hobgoblin, its juices squeezed over the hardening mud; dyes made from various crushed Thorn insects (usually beetles); a bel- lowed threat."
+                ]
+            }
         ],
         "Catch": "Affix the mask by using two thorns, causing 2B",
         "fullDescription": [
@@ -549,7 +561,13 @@ const tokenData = [
         "Drawback": "User is harried with hedge-nits. -1 to all non-social rolls while wearing the wig.",
         "fullCatch": [
             "The lavender scent, so close to the character’s own nose, is almost narcotic. The overpowering fragrance incurs effects similar to those brought on by smoking marijuana (see p. 177, the World of Darkness Rulebook). This drug-like effect is felt only by the character wearing the periwig; those around her smell the lavender, but suffer no ill effects from the otherwise pleasant aroma.",
-            "<b>Recipe:</b> Three handfuls of hair pulled from three different changelings; seven stalks of dried, crushed Briar Lavender (a type of Hedge-grown lavender that whispers the character’s true name when one rubs up against it); powder made from pulverized bones."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Recipe:" },
+                    " Three handfuls of hair pulled from three different changelings; seven stalks of dried, crushed Briar Lavender (a type of Hedge-grown lavender that whispers the character’s true name when one rubs up against it); powder made from pulverized bones."
+                ]
+            }
         ],
         "Catch": "Act as if under the effect of marijuana.",
         "fullDescription": [
@@ -743,7 +761,13 @@ const tokenData = [
         "Drawback": "Activator becomes over-sensitive to sound, and suffers -2 to perception.",
         "fullCatch": [
             "The token can be filled with several pints of blood instead of water.",
-            "<b>Recipe:</b> Two prodigious handfuls of fresh mud from a rain-slick trod; three crushed fireflies; one gallon of wa- ter from a Hedge stream where the moonlight reflects off its surface; a watch or other timepiece pulverized into bits; a gasp."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Recipe:" },
+                    " Two prodigious handfuls of fresh mud from a rain-slick trod; three crushed fireflies; one gallon of wa- ter from a Hedge stream where the moonlight reflects off its surface; a watch or other timepiece pulverized into bits; a gasp."
+                ]
+            }
         ],
         "Catch": "Fill the token with blood instead of water",
         "fullDescription": [
@@ -787,7 +811,13 @@ const tokenData = [
         "Drawback": "Pony is GRUMPY. Getting too close to the ponies mouth can result in up to 2B of bite damage.",
         "fullCatch": [
             "The character must first curry the pony (currying involves brushing the mane, cleaning the inanimate beast, even picking things from its teeth) for one hour. During the process, the character must tell the pony in depth a terrible nightmare she once had. It cannot be a dream she has told the pony before.",
-            "<b>Recipe:</b> Blanket of woven reeds and thistle to serve as the skin; sharp white stones to serve as the teeth; a  Mason jar filled with fog and dead fireflies to serve as its heart; a hundred pounds of sticks and branches from the Hedge to serve as its bones; two pieces of coal to serve as its eyes; four human skulls to serve as its hooves; a three-foot length of a woman’s long raven- colored hair to serve as its swishing tail."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Recipe:" },
+                    " Blanket of woven reeds and thistle to serve as the skin; sharp white stones to serve as the teeth; a  Mason jar filled with fog and dead fireflies to serve as its heart; a hundred pounds of sticks and branches from the Hedge to serve as its bones; two pieces of coal to serve as its eyes; four human skulls to serve as its hooves; a three-foot length of a woman’s long raven- colored hair to serve as its swishing tail."
+                ]
+            }
         ],
         "Catch": "Groom the pony - Brush its mane, clean it generally, pick things from its teeth) for one hour. During this time, the user must tell the pony of a terrible nightmare that they once had, in detail.",
         "fullDescription": [
@@ -966,7 +996,13 @@ const tokenData = [
         "Drawback": "Transmits small jolts of pleasure upon use. Hurting others with it becomes addictive after its third use. When addicted, user must succeed on a Res+Comp roll to NOT use the Quirt when available.",
         "fullCatch": [
             "The character may use the Quirt without cost or roll if she uses it on a family member or motley mate within an eight-hour period before attempting to activate it.",
-            "<b>Recipe:</b> One hair pulled from a True Fae’s head; the tanned skin of a briarwolf first soaked in crushed dream-a-drupe berries and then dried in the sun; two drops of the character’s own blood; a cruel or callous wish."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Recipe:" },
+                    " One hair pulled from a True Fae’s head; the tanned skin of a briarwolf first soaked in crushed dream-a-drupe berries and then dried in the sun; two drops of the character’s own blood; a cruel or callous wish."
+                ]
+            }
         ],
         "Catch": "Use on a family member or motley-mate within an 8 hour period before activation.",
         "fullDescription": [

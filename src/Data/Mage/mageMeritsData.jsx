@@ -32,19 +32,61 @@ const mageMeritsData = [
             "An Artifact’s base Merit dot cost is equal to 2 dots plus the dot-rating of the Arcanum power it mimics, plus one dot per additional power. If it has more than one power or simulates a conjunctional spell, use the highest Arcanum dot-rating simulated.",
             "Base Cost: 2 + highest Arcanum dots +1 dot per additional power",
             "Artifacts have the following properties:",
-            "<b>Legendry:</b> Every single Artifact is unique and legendary, meaning that it has a historical or mythical significance that can be researched, even if its origin or use is obscure and largely forgotten in modern times. Some rare Artifacts are new enough to be unknown to most mages, but even these sometimes appear in others’ dreams or prophecies.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Legendry:" },
+                    " Every single Artifact is unique and legendary, meaning that it has a historical or mythical significance that can be researched, even if its origin or use is obscure and largely forgotten in modern times. Some rare Artifacts are new enough to be unknown to most mages, but even these sometimes appear in others’ dreams or prophecies."
+                ]
+            },
             "A known Artifact can bring its wielder a degree of renown — either good or bad, depending on the Artifact’s legendry. This can act at times like one dot in a sort of Status Merit (see pp. 88-89), although it applies only when the Artifact is of interest to the person its wielder tries to influence, such as a master with whom an audience is requested. The Status lies with the Artifact, not the bearer; if others desire to see it, they might grant the mage audience.",
             "The drawback of this legendry is that others might lust for the Artifact and seek to take it from the mage.",
-            "<b>Awakened use only:</b> Only mages can use Artifacts. Sleepers and most other supernatural creatures lack the necessary sympathetic connection to the Supernal World.",
-            "<b>Unbreakable:</b> All Artifacts have a Durability that’s two points higher than normal for their materials and manufacture.",
-            "<b>Function:</b> Persistent or contingent.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Awakened use only:" },
+                    " Only mages can use Artifacts. Sleepers and most other supernatural creatures lack the necessary sympathetic connection to the Supernal World."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Unbreakable:" },
+                    " All Artifacts have a Durability that’s two points higher than normal for their materials and manufacture."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Function:" },
+                    " Persistent or contingent."
+                ]
+            },
             "A persistent power is always active. The power does not have to be cast by the user to take effect; he simply needs to hold the Artifact or wear it. These include talismans of protection against spirits, mirrors that reflect the Shadow Realm version of whatever room they’re in, or cloaks of invisibility, hiding any portion of the wearer covered. The user must use or wear the Artifact to benefit from the power, but the power cannot be turned on or off with a switch or command word. If one or more of the Artifact’s powers is persistent, add one dot to its total cost.",
             "A contingent power needs to be activated for each use. It might be a sword that becomes supernaturally sharp when it tastes blood, a carpet that flies when the proper words are spoken, or even a gun made of bones that fires enervating Death energy with each pull of the trigger. The effect’s Duration depends on the default Duration of the spell it mimics, usually transitory (one turn) or prolonged (one hour/scene). Once this period expires, the mage may use the same trigger to use the power again. A trigger is an instant action and can be defined as anything performed within the proximity of the item: verbal commands, gestures and so on.",
             "When a trigger is activated, the Artifact’s spellcasting dice pool is rolled. It is equal to its wielder’s Gnosis + the highest Arcanum dot rating used to determine the Artifact’s Merit dots, based on the highest rated power (as described above).",
-            "<b>Mana:</b> Some powers require Mana. Use the descriptions for the spell mimicked to determine any possible cost. All Artifacts hold up to 10 Mana points + 1 per spell (so an Artifact with three powers holds up to 13 Mana). A user can draw points from the Artifact to fuel its powers rather than spending his own. This pool is self-replenishing; they are restored at a rate of one point per Merit dot per day, although a mage can spend his own Mana to restore the points more quickly, or use Prime magic to transfer them from a Hallow or some other source. (See the “Channel Mana” spell, p. 224.)",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mana:" },
+                    " Some powers require Mana. Use the descriptions for the spell mimicked to determine any possible cost. All Artifacts hold up to 10 Mana points + 1 per spell (so an Artifact with three powers holds up to 13 Mana). A user can draw points from the Artifact to fuel its powers rather than spending his own. This pool is self-replenishing; they are restored at a rate of one point per Merit dot per day, although a mage can spend his own Mana to restore the points more quickly, or use Prime magic to transfer them from a Hallow or some other source. (See the “Channel Mana” spell, p. 224.)"
+                ]
+            },
             "The wielder can also use the Artifact’s Mana to power his own spells, as if he were drawing on his own Mana reserves (he is still limited by his Gnosis for the amount he can spend per turn). He does not need to use the Prime Arcanum to acquire them, but he does need to be in contact (physical or sympathetic) with the Artifact.",
-            "<b>Paradox:</b> Artifact powers can invoke Paradoxes just like the spells they mimic, and vulgar effects that are witnessed by Sleepers invoke Disbelief (see p. 274).",
-            "<i>Example:</i> The Cave Lord’s Talisman is an Artifact in the form of a medallion that allows its wearer to grow bear claws upon activation (a contingent power). This mimics the Life 3 “Transform Self” spell, p. 187. It would be rated at five Merit dots (2 + 3rd-dot Arcanum = 5). Remember, though, that the fifth dot costs two dots, so the total cost would be six Merit dots. Acquiring an Artifact once play begins does not cost Merit dots; characters must gain them through roleplaying actions. If an Artifact is ever lost, stolen or destroyed, the player loses the Merit and the points he spent to gain it."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Paradox:" },
+                    " Artifact powers can invoke Paradoxes just like the spells they mimic, and vulgar effects that are witnessed by Sleepers invoke Disbelief (see p. 274)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Example:" },
+                    " The Cave Lord’s Talisman is an Artifact in the form of a medallion that allows its wearer to grow bear claws upon activation (a contingent power). This mimics the Life 3 “Transform Self” spell, p. 187. It would be rated at five Merit dots (2 + 3rd-dot Arcanum = 5). Remember, though, that the fifth dot costs two dots, so the total cost would be six Merit dots. Acquiring an Artifact once play begins does not cost Merit dots; characters must gain them through roleplaying actions. If an Artifact is ever lost, stolen or destroyed, the player loses the Merit and the points he spent to gain it."
+                ]
+            }
         ],
         "Book": "M:tA 80",
     },
@@ -69,15 +111,62 @@ const mageMeritsData = [
         "LongDescription": [
             "A cartomancer is never without a Tarot deck. In the myriad possibilities of the Tarot lies true magical power and a way to make Awakened magic fit a bit more seamlessly into the Fallen World. A mage can become a cartomancer without training by another mage, but must still fulfill the perquisites.",
             "The Cartomancer Merit is progressive. Each dot is a prerequisite for the next dot. So your character cannot have the “Interpretive Draw” ability unless she first has the “Divinatory Eye” ability.",
-            "<b>• Divinatory Eye:</b> This level of the Merit represents basic familiarity with the Tarot with respect to Awakened magic. This has two effects. First, the character gains a +2 to all attempts at divination, including spells that attempt to see the future or uses of the Dream Merit, if she uses a Tarot deck in the attempt. Second, the character can dedicate a Tarot deck as a magical tool. She can also dedicate individual cards as Arcana tools, but she needs a way to find a particular card quickly in a crisis situation if this is to help.",
-            "<b>•• Interpretative Draw:</b> Before casting a spell, the character draws one card from her Tarot deck. Depending on what the card is, it can help her cast the spell or warn her against it. The system for this can either be a dice roll or a literal random draw from a Tarot deck. If you choose to use a random draw from a deck, the Storyteller and the player must interpret the card in relation to the spell being cast and the situation at hand. If the card indicates that the casting is favorable, apply the bonus as described below under “Success.” If the card is something extremely favorable, the Storyteller may deem it an exceptional success. But by the same token, if the draw indicates something truly disastrous, the character suffers a failure or a dramatic failure.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "• Divinatory Eye:" },
+                    " This level of the Merit represents basic familiarity with the Tarot with respect to Awakened magic. This has two effects. First, the character gains a +2 to all attempts at divination, including spells that attempt to see the future or uses of the Dream Merit, if she uses a Tarot deck in the attempt. Second, the character can dedicate a Tarot deck as a magical tool. She can also dedicate individual cards as Arcana tools, but she needs a way to find a particular card quickly in a crisis situation if this is to help."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "•• Interpretative Draw:" },
+                    " Before casting a spell, the character draws one card from her Tarot deck. Depending on what the card is, it can help her cast the spell or warn her against it. The system for this can either be a dice roll or a literal random draw from a Tarot deck. If you choose to use a random draw from a deck, the Storyteller and the player must interpret the card in relation to the spell being cast and the situation at hand. If the card indicates that the casting is favorable, apply the bonus as described below under “Success.” If the card is something extremely favorable, the Storyteller may deem it an exceptional success. But by the same token, if the draw indicates something truly disastrous, the character suffers a failure or a dramatic failure."
+                ]
+            },
             "The dice pool, should you choose to use that system, is Wits + Occult. Drawing and interpreting the card is an instant action, meaning that the character casts the spell on the following turn.",
-            "<b>Roll Results</b>",
-            "<b>Dramatic Failure:</b> The spell is the wrong choice for the situation. If the mage chooses to cast it, the player rolls a chance dice. A dramatic failure on this roll is treated as a Havoc Paradox, whether or not the spell was vulgar in aspect.",
-            "<b>Failure:</b> The spell isn’t the best choice, but it might work. Apply a -2 to the character’s casting attempt if she chooses to go through with it.",
-            "<b>Success:</b> The spell is a good choice given the situation. Apply a +2 to the character’s attempt. If the character has the High Speech Merit and chooses to spend the next turn chanting, this bonus stacks with the High Speech bonus for a total of +4.",
-            "<b>Exceptional Success:</b> The spell is exactly appropriate for the circumstance. The player receives a 9-again bonus on the casting roll.",
-            "<b>••• Instinctive Draw:</b> The character can now use the Interpretative Draw ability as a reflexive action, meaning that she can draw, interpret, and cast in the same turn. Alternately, the character can draw, interpret, and then chant in High Speech, thus gaining the High Speech Merit along with the bonus from this Merit (if any) on the following turn. Although the mage does not have to cast the spell if the draw isn’t favorable, she can only make one draw per spell, even if the draw is a reflexive action."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Roll Results" }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The spell is the wrong choice for the situation. If the mage chooses to cast it, the player rolls a chance dice. A dramatic failure on this roll is treated as a Havoc Paradox, whether or not the spell was vulgar in aspect."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The spell isn’t the best choice, but it might work. Apply a -2 to the character’s casting attempt if she chooses to go through with it."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The spell is a good choice given the situation. Apply a +2 to the character’s attempt. If the character has the High Speech Merit and chooses to spend the next turn chanting, this bonus stacks with the High Speech bonus for a total of +4."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The spell is exactly appropriate for the circumstance. The player receives a 9-again bonus on the casting roll."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "••• Instinctive Draw:" },
+                    " The character can now use the Interpretative Draw ability as a reflexive action, meaning that she can draw, interpret, and cast in the same turn. Alternately, the character can draw, interpret, and then chant in High Speech, thus gaining the High Speech Merit along with the bonus from this Merit (if any) on the following turn. Although the mage does not have to cast the spell if the draw isn’t favorable, she can only make one draw per spell, even if the draw is a reflexive action."
+                ]
+            }
         ],
         "Book": "KST 13, Tarot",
     },
@@ -101,7 +190,13 @@ const mageMeritsData = [
             "Your character’s thread stands out in the skein of fate. It may be cut short through tragedy or catastrophe, but until then, she has the ability to weave it into a sound pattern of her choosing. She is fated for great triumphs, and this Merit helps her achieve them. Like any true hero, she finds success a little more easily than mere mortals. In true heroic fashion, she also has a fatal flaw — no matter how strong her Pattern might be, it has one weakness others can use to tear it apart.",
             "For each chapter in a story, you have a pool of “destiny dice” equal to twice the number of dots your character has in this Merit. For instance, a character with 2 dots of Destiny has four dice in his destiny pool.",
             "Each time you use one of these destiny dice, you can add it to any one dice pool. You can use them all on one dice roll, or split them up between different dice rolls. Either way, once you use them, they’re gone until the next chapter or game session. For example, a player whose character has Destiny 3 (giving him six dice) might choose to add two dice to a Brawl roll and then four to an Occult roll. The next game session, he might apply six dice to a single Intimidation roll. The bonus can apply to Mental, Physical or Social rolls, or to spellcasting rolls. You can even use these dice on a Skill for which your character has no training (although she still suffers the penalties for untrained Skill use).",
-            "<b>Drawback:</b> Your character’s blessing has a price: her bane. There is one type of person or situation that can bring her down. This bane can be summed up in one sentence, generally describing what her downfall will be. The Storyteller must either declare or approve this bane during the course of the game. For instance, a hero may have been told to “Beware the Queen of Hearts” (perhaps a reference to the woman who will seduce and destroy him), while another may be warned, “Wolves will devour your soul.” The reference may be literal or figurative, but it should never mention a specific time or place.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character’s blessing has a price: her bane. There is one type of person or situation that can bring her down. This bane can be summed up in one sentence, generally describing what her downfall will be. The Storyteller must either declare or approve this bane during the course of the game. For instance, a hero may have been told to “Beware the Queen of Hearts” (perhaps a reference to the woman who will seduce and destroy him), while another may be warned, “Wolves will devour your soul.” The reference may be literal or figurative, but it should never mention a specific time or place."
+                ]
+            },
             "Whenever the bane comes into play, the character’s dice pools are penalized by one die per Destiny dot he possesses. This applies only to dice pools for directly dealing with the bane or for resisting its attacks, spells or even Social rolls to intimidate or persuade the character. For example, if the character’s bane mentions wolves, anytime he encounters a “wolf” (whether that’s an actual werewolf or a “wolf in sheep’s clothing,” depending on how the Storyteller interprets the bane), dice pools are penalized."
         ],
         "Book": "M:tA 81",
@@ -115,10 +210,34 @@ const mageMeritsData = [
             "Your character has a connection to primordial forces in the world, ancient truths that can be seen and comprehended only in dreams. He gains insight into secrets through reverie and visions, finding answers to questions he couldn’t normally get by mundane means. This might be through the collective unconscious, universal mind, poetic reverie or even an imagined journey to a fictional dreamscape. Through effort of will, he can even channel this insight into action. Behind the lie of the so-called real world, dreams reveal the world as it really is… from a certain point of view.",
             "Once per game session, your character can use his Dream ability to gain a supernatural insight concerning a question or topic. Activating this ability requires at least one hour spent in sleep, trance or an activity exclusively focused on accessing an altered state of consciousness. The Storyteller then rolls the character’s Wits + Composure in secret.",
             "The results are:",
-            "<b>Dramatic failure:</b> A nightmare. The character can interpret it any way he wants, but it probably leads to more trouble than solutions.",
-            "<b>Failure:</b> Meaningless images.",
-            "<b>Success:</b> One or more clues (one per Dream dot), although they must be interpreted.",
-            "<b>Exceptional success:</b> One or more clues (one per Dream dot), and a suggestion about their interpretation provided by the Storyteller.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic failure:" },
+                    " A nightmare. The character can interpret it any way he wants, but it probably leads to more trouble than solutions."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " Meaningless images."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " One or more clues (one per Dream dot), although they must be interpreted."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional success:" },
+                    " One or more clues (one per Dream dot), and a suggestion about their interpretation provided by the Storyteller."
+                ]
+            },
             "The information conveyed is hidden behind allegory, symbols and archetypes. Dreams rarely answer questions directly, typically relying on symbolism and imagery to convey information. A mage seeking a specific person’s location wouldn’t see his address, but landmarks nearby could lead the way: a river, a tower or even the face of a man walking by at dusk. The answer has the potential to resolve the problem. It’s a tool for the Storyteller to help drive events of the story."
         ],
         "Book": "M:tA 82",
@@ -131,7 +250,32 @@ const mageMeritsData = [
         "LongDescription": [
             "Your mage has an object whose properties have been supernaturally altered, either for increased Durability, Structure, Size or an equipment bonus, or to give it some special property, such as to make steel transparent or flexible.",
             "Enhanced items are made with the Matter Arcanum (see pp. 194-204). Any special properties that would require the use of other Arcana (such as Forces to make a sword that glows) must be achieved by imbuing the item instead; see “Imbued Item,” below. The cost depends on the enhanced item’s properties.",
-            "<table><tr><th>Property</th><th>Merit Dot Cost</th></tr><tr><td>Increased Durability</td><td>1 dot per +2 Durability</td></tr><tr><td>Increased Structure</td><td>1 dot per +2 Structure</td></tr><tr><td>Increased Size</td><td>1 dot per +2 Size</td></tr><tr><td>Increased equipment bonus</td><td>1 dot per +1 dice modifier*</td></tr><tr><td>Special property</td><td> 1 dot per Arcanum dot needed to achieve the property</td></tr></table>",
+            {
+                type: "table",
+                headers: ["Property", "Merit Dot Cost"],
+                rows: [
+                    [
+                        "Increased Durability",
+                        "1 dot per +2 Durability"
+                    ],
+                    [
+                        "Increased Structure",
+                        "1 dot per +2 Structure"
+                    ],
+                    [
+                        "Increased Size",
+                        "1 dot per +2 Size"
+                    ],
+                    [
+                        "Increased equipment bonus",
+                        "1 dot per +1 dice modifier*"
+                    ],
+                    [
+                        "Special property",
+                        "1 dot per Arcanum dot needed to achieve the property"
+                    ]
+                ]
+            },
             "* If the enhanced equipment bonus is more than double the item’s normal equipment bonus, the enhanced item causes Disbelief when Sleepers witness its use.",
             "Enhanced items have the following features:",
             "Function: Persistent only. A persistent power is always active (i.e., of indefinite Duration). The user simply needs to hold the item or wear it.",
@@ -196,40 +340,241 @@ const mageMeritsData = [
             "Twilight familiars have no bodies: they are spirits existing in an ephemeral state of existence called Twilight. Embodied familiars inhabit a physical body in the material world.",
             "A Twilight familiar is bought for three dots; it is a spirit originating in the Shadow Realm, also known as a “fetch.” Twilight familiars can temporarily manifest like ghosts (see “Manifestations,” p. 210 in the World of Darkness Rulebook), but their ephemeral bodies are otherwise invisible and intangible to the physical world. A Twilight familiar must manifest or use Numina to affect anything in the physical world — except for its bonded mage, whom it can touch at will (its mage can also see and speak with the familiar even when he is not using a spell that allows him to see Twilight). Twilight familiars exist on the material side of the Gauntlet, although they can accompany their masters across into the Shadow, or travel there themselves if their Numina allow it.",
             "An embodied familiar is bought for four dots. It takes the form of an earthly creature. Many of the legendary stories of sorcerers with cunning animal companions — cats, rats, bats — are actually references to embodied familiars.",
-            "<b>Familiar Traits</b>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Familiar Traits" }
+                ]
+            },
             "Whether immaterial or embodied, a familiar is considered to be a rank 1 spirit (a “squire”; see “The Spiritual Hierarchy,” p. 317). The Storyteller designs the spirit’s traits. Each familiar begins play with at least one dot in each Attribute, with extra dots as listed below. See “Spirits,” pp. 317-322, for rules concerning spirit traits.",
             "A familiar’s bonded mage is considered to be its anchor to the material world, although there is no limit to how far a familiar can travel from its mage. It does not lose Essence for every hour it spends in the physical world or Twilight. It must follow all the other rules concerning Essence, however, including spending one Essence per day. If it is reduced to zero Essence, it falls into slumber (see “Essence,” p. 319), but it is not transferred back into the Shadow Realm as long as the mage-familiar bond still exists. Like other spirits, it can gain Essence by being in proximity to something that it reflects, or its mage can spend Mana points to give it Essence.",
             "The master and familiar have an empathic connection; each can automatically feel the emotions of the other. (Magical effects that damage or manipulate the familiar through an emotional attack don’t damage or manipulate the master.)",
             "All familiars have a Sensory sympathetic connection to their bonded mage, meaning that a mage’s scrying spells can use the familiar’s senses in place of a scrying window, with no sympathetic penalty. This makes familiars superlative spies. Even more useful, however, the mage can spend his familiar’s Essence points as Mana points, no matter how distant the familiar is from the mage. He can also spend his own Mana points to give his familiar Essence.",
-            "<b>Improvement:</b> To improve a familiar, a mage’s player must spend some of his character’s experience points on the familiar",
-            "<h2><b>Twilight Familiar Traits</b></h2>",
-            "<b>Attributes:</b> 3/3/2 (allocate dots in any order among Power, Finesse and Resistance)",
-            "<b>Willpower:</b> Equal to Power + Resistance",
-            "<b>Essence:</b> 10 (10 max)",
-            "<b>Initiative:</b> Equal to Finesse + Resistance",
-            "<b>Defense:</b> Equal to highest of Power and Finesse",
-            "<b>Speed:</b> Equal to Power + Finesse + “species factor” (same as its earthly counterpart)",
-            "<b>Size:</b> 5 or less (same as its earthly counterpart)",
-            "<b>Corpus:</b> Equal to Resistance + Size",
-            "<b>Influence:</b> 2 dots (choose one)",
-            "<b>Numina:</b> Choose one",
-            "<b>Ban:</b> The fetch has one Ban, chosen by the Storyteller",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Improvement:" },
+                    " To improve a familiar, a mage’s player must spend some of his character’s experience points on the familiar"
+                ]
+            },
+            {
+                type: "heading",
+                level: 2,
+                text: [
+                    { type: "bold", text: "Twilight Familiar Traits" }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Attributes:" },
+                    " 3/3/2 (allocate dots in any order among Power, Finesse and Resistance)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Willpower:" },
+                    " Equal to Power + Resistance"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Essence:" },
+                    " 10 (10 max)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Initiative:" },
+                    " Equal to Finesse + Resistance"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Defense:" },
+                    " Equal to highest of Power and Finesse"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Speed:" },
+                    " Equal to Power + Finesse + “species factor” (same as its earthly counterpart)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Size:" },
+                    " 5 or less (same as its earthly counterpart)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Corpus:" },
+                    " Equal to Resistance + Size"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Influence:" },
+                    " 2 dots (choose one)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Numina:" },
+                    " Choose one"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Ban:" },
+                    " The fetch has one Ban, chosen by the Storyteller"
+                ]
+            },
             "Most mages with a fetch have a respectable command of Spirit Arcanum, since its spells are useful for influencing the familiar. It is possible to have a fetch without knowledge of Spirit magic — or even knowing what the fetch really is — but such a relationship may torment the mage more than it helps him.",
             "When a fetch manifests, use the following modifiers:",
-            "<table><tr><th>Location</th><th>ModifierM</th></tr><tr><td>Wilderness</td><td>+3</td></tr><tr><td>Demesne</td><td>+3</td></tr><tr><td>Hallow</td><td>+2</td></tr><tr><td>Ley line nexus</td><td>+1</td></tr><tr><td>Handmade structure (wooden bridge, shed)</td><td>+1</td></tr><tr><td>Parking lot</td><td>-1</td></tr><tr><td>Modern commercial building</td><td>-1</td></tr><tr><td>Modern industrial building</td><td>-2</td></tr><tr><td>Modern laboratory</td><td>-3</td></tr></table>",
-            "<b>Embodied Familiar Traits</b>",
-            "<b>Attributes:</b> 5/4/3",
-            "<b>Skills:</b> 9/6/3",
-            "<b>Willpower:</b> Equal to Resolve + Composure",
-            "<b>Essence:</b> 10 (10 max)",
-            "<b>Initiative:</b> Equal to Dexterity + Composure",
-            "<b>Defense:</b> Equal to lowest of Dexterity and Wits",
-            "<b>Speed:</b> Strength + Dexterity + “species factor” (based on its animal type)",
-            "<b>Size:</b> 5 or less (based on its animal type)",
-            "<b>Health:</b> Equal to Stamina + Size",
-            "<b>Influence:</b> 2 dots (choose one)",
-            "<b>Numina:</b> Innocuous (see below), and choose one more",
-            "<b>Ban:</b> The fetch has one Ban, chosen by the Storyteller.",
+            {
+                type: "table",
+                headers: ["Location", "ModifierM"],
+                rows: [
+                    [
+                        "Wilderness",
+                        "+3"
+                    ],
+                    [
+                        "Demesne",
+                        "+3"
+                    ],
+                    [
+                        "Hallow",
+                        "+2"
+                    ],
+                    [
+                        "Ley line nexus",
+                        "+1"
+                    ],
+                    [
+                        "Handmade structure (wooden bridge, shed)",
+                        "+1"
+                    ],
+                    [
+                        "Parking lot",
+                        "-1"
+                    ],
+                    [
+                        "Modern commercial building",
+                        "-1"
+                    ],
+                    [
+                        "Modern industrial building",
+                        "-2"
+                    ],
+                    [
+                        "Modern laboratory",
+                        "-3"
+                    ]
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Embodied Familiar Traits" }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Attributes:" },
+                    " 5/4/3"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Skills:" },
+                    " 9/6/3"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Willpower:" },
+                    " Equal to Resolve + Composure"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Essence:" },
+                    " 10 (10 max)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Initiative:" },
+                    " Equal to Dexterity + Composure"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Defense:" },
+                    " Equal to lowest of Dexterity and Wits"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Speed:" },
+                    " Strength + Dexterity + “species factor” (based on its animal type)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Size:" },
+                    " 5 or less (based on its animal type)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Health:" },
+                    " Equal to Stamina + Size"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Influence:" },
+                    " 2 dots (choose one)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Numina:" },
+                    " Innocuous (see below), and choose one more"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Ban:" },
+                    " The fetch has one Ban, chosen by the Storyteller."
+                ]
+            },
             "Embodied familiars live in the material world in a physical body, although it might be a rather strange body. They are often clever and loyal animals, the black cat or cunning rat of sorcerous legend.",
             "All embodied familiars have the Innocuous Numen (see pp. 321-322). It is very good at not being noticed by others. Anyone but its bonded mage suffers a –2 penalty on perception rolls to notice the familiar, unless it does something to draw attention to itself."
         ],
@@ -263,10 +608,34 @@ const mageMeritsData = [
         "LongDescription": [
             "The character has a sense for the ley line energies in the local landscape, and can apply certain principles to its particular conditions to alter the ley lines’ shape and/or flow through construction, architecture, interior design, landscaping and pretty much any activity that goes on in the place.",
             "What this means is that the character can make an extended-action Intelligence + Occult roll to figure out what steps need to be taken in the area to affect its ley energies. The target number depends on the size of the area. A single room might require only five successes, while the entire house might need 10 successes; a city block might require 20 or more successes. The time per roll is one day, during which the character studies the area and contemplates how geomantic principles might apply. Possible tool modifiers include classic geomancy manuals (+1 or +2, depending on quality), dowsing rods (+1) and even satellite imagery (+2).",
-            "<b>Dramatic Failure:</b> The character completely misunderstands the meaning and portent of certain features of the area. If his project is implemented, it will have the opposite effect than that desired (ley flow will weaken rather than get stronger, a line will be repelled rather than attracted, etc.).",
-            "<b>Failure:</b> The character fails to grasp how any activity might alter the area’s ley line landscape.",
-            "<b>Success:</b> The character has a blueprint for how to alter the shape and/or flow of ley lines in the area.",
-            "<b>Exceptional Success:</b> The character’s blueprint is so efficient it can save the project time and money, cutting in half the amount of work required.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The character completely misunderstands the meaning and portent of certain features of the area. If his project is implemented, it will have the opposite effect than that desired (ley flow will weaken rather than get stronger, a line will be repelled rather than attracted, etc.)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The character fails to grasp how any activity might alter the area’s ley line landscape."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The character has a blueprint for how to alter the shape and/or flow of ley lines in the area."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The character’s blueprint is so efficient it can save the project time and money, cutting in half the amount of work required."
+                ]
+            },
             "Generally, altering a line requires construction that involves raising or lowering the ground level, or placing and/or removing structures. Altering the flow requires more subtle affects involving placement of objects in the area and even the look and feel (color and imagery) of buildings and objects. In other words, this means getting permits for construction, hiring architects and workers and buying materials. Not every mage can afford this kind of endeavor. Most of them try to manipulate private builders or City Hall into doing it for them."
         ],
         "Book": "S&S 99, SotRT 51, LoP",
@@ -281,7 +650,13 @@ const mageMeritsData = [
             "Once willworkers learn one version, it’s impossible to learn another by any method short of relearning the rote entirely. On the other hand, some mages might be adept at translating one set of gestures into another. These mages can see how an asana might replace the mudras or nata they originally learned. This is a useful skill because each type of gesture has its own inherent limitations. Mages using mudras must devote at least one hand to them instead of carrying an object, for example. Use the following Merit to simulate this ability.",
             "For each dot in this Merit, a mage can substitute one other gesture type for that mandated by a rote that she learns. For example, a mage who knows a version of “Numinous Shield” that requires mudras could cast a version that uses asanas (or pranayama as well, if she had two dots in this Merit). Choose one type of gesture (from asana, darshana, mudra, nata and pranayama) for each dot purchased. The mage can substitute the gesture inherent to a given rote for any of those selected.",
             "In addition, the mage can pass on the rotes she knows using one of the alternate gesture forms she has studied instead of the form she learned it in.",
-            "<b>Drawback:</b> This is only effective for rotes the mage knows, and only for personal castings of these rotes. Furthermore, no matter how many gesture sets she knows, a mage can only pass on one of them while teaching a given rote."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " This is only effective for rotes the mage knows, and only for personal castings of these rotes. Furthermore, no matter how many gesture sets she knows, a mage can only pass on one of them while teaching a given rote."
+                ]
+            }
         ],
         "Book": "TotM 94",
     },
@@ -295,7 +670,31 @@ const mageMeritsData = [
             "Unlike a normal familiar, ghost familiars may not be embodied, though they can attempt to manifest (The World of Darkness, p. 210), as normal. Even while insubstantial, however, a ghost familiar may touch, and be touched by, the mage to whom it is bound. Likewise, the bound shade may speak with the willworker and hear her words, without the need for any other magics. Ghostly familiars exist on the material side of the Gauntlet, but can travel with their masters into Shadow, or go there themselves, if they possess the appropriate Numina.",
             "The act of bonding with a ghost in this way frees the restless shade from reliance upon its anchors: it may still travel to them, as normal (The World of Darkness, pp. 209–10), but it no longer needs them. Even if all of its anchors are destroyed, the ghost remains within the material realm, rather than descending to the Underworld. Further, the ghost may now range as far from its master as a normal familiar might, and the familiar bond bestows a modicum of self-awareness upon even the dimmest residual shade. Such ghosts regain a bit of personality (through proximity to the Supernally-fortified souls of the mage to whom they are bound); enough to interact on the same level as a more conventional familiar.",
             "A ghost familiar spends and receives Essence in the same manner as a fetch, though the ghost familiar can only gain Essence from its bonded willworker or through proximity to a place resonant with death. The empathic connection conveyed by a normal familiar bond exists between a mage and her ghost familiar. Likewise, the ghost familiar constitutes a Sensory sympathetic tie for its bound mage, and the willworker can spend the shade’s Essence as points of Mana.",
-            "Ghost familiars are built as fetches, with the following exceptions:<ul><li>A ghost familiar retains its Virtue and Vice, and benefits from them, as normal. (Note, however, that the ghost familiar’s Morality score, and any derangements associated with degeneration, are lost when the familiar bond takes hold; the ghost no longer needs its Morality trait to function normally.)</li><li>A ghost familiar has no Influence or Ban.</li><li>A ghost familiar has two ghost Numina (The World of Darkness, pp. 210–2), rather than one spirit Numen.</li><li>As above, ghost familiars attempting to manifest do so according to the rules that govern ghosts, rather than those for normal fetches.</li></ul>"
+            [
+                {
+                    type: "paragraph",
+                    text: [
+                        "Ghost familiars are built as fetches, with the following exceptions:"
+                    ]
+                },
+                {
+                    type: "list",
+                    items: [
+                        [
+                            "A ghost familiar retains its Virtue and Vice, and benefits from them, as normal. (Note, however, that the ghost familiar’s Morality score, and any derangements associated with degeneration, are lost when the familiar bond takes hold; the ghost no longer needs its Morality trait to function normally.)"
+                        ],
+                        [
+                            "A ghost familiar has no Influence or Ban."
+                        ],
+                        [
+                            "A ghost familiar has two ghost Numina (The World of Darkness, pp. 210–2), rather than one spirit Numen."
+                        ],
+                        [
+                            "As above, ghost familiars attempting to manifest do so according to the rules that govern ghosts, rather than those for normal fetches."
+                        ]
+                    ]
+                }
+            ]
         ],
         "Book": "Summ 39",
     },
@@ -324,7 +723,28 @@ const mageMeritsData = [
             "Note that, unlike other familiars of its type, an embodied goetic familiar may take on a wholly human shape or one only subtly different from human. No self-proclaimed scholar of the Key knows why this is, but speculation is that the small quantity of human spiritual essence within the familiar grants it the ability to incarnate in a human shape. Small deviations tend to be archetypically “demonic” in nature: red (or otherwise abnormally-colored) eyes, nubs of horns upon the brow, too-sharp canine teeth, reddish or slightly metallic skin tone, the faint smell of brimstone or burning incense, etc. A familiar marked with these characteristics is (at any time other than Halloween or a costume party, anyway), naturally, a threat to the Veil, unless disguised through other means.",
             "Similarly, as a creation of Vice, even an embodied goetic familiar may take on a genuinely demonic appearance, such as that of a twisted little imp, a hellhound, or another such clearly unnatural shape (to a maximum Size of 5). Wise goeticists are advised to keep these entities well out of the sight of Sleepers (and, if they don’t wish to be branded as Scelesti, probably out of the sight of other willworkers, as well), lest the Guardians of the Veil come calling. While subject to the limitations of its form (a scaled and tusked mastiff, though certainly intimidating, cannot use a pen to write, for instance), a goetic familiar in the shape of a human or a demon does not enjoy any especial benefits on account of its shape beyond those normally possessed by an embodied familiar.",
             "The same as normal familiars, goetic familiars may be improved with Experience points (subject to the normal limitations and trait caps of rank 1 spirits, unless otherwise noted):",
-            "<table><tr><th>Trait</th><th>Experience Point Cost</th></tr><tr><td>Attribute</td><td>New dots x8 (fetch) or x5 (embodied familiar; capped at 5)</td></tr><tr><td>Skill</td><td>New dots x3 (embodied familiars only; capped at 5)</td></tr><tr><td>Skill specialty</td><td>3 (embodied familiars only)</td></tr><tr><td>Numen</td><td>25 (up to 4 Numina for fetches or 5 for embodied familiars)</td></tr></table>",
+            {
+                type: "table",
+                headers: ["Trait", "Experience Point Cost"],
+                rows: [
+                    [
+                        "Attribute",
+                        "New dots x8 (fetch) or x5 (embodied familiar; capped at 5)"
+                    ],
+                    [
+                        "Skill",
+                        "New dots x3 (embodied familiars only; capped at 5)"
+                    ],
+                    [
+                        "Skill specialty",
+                        "3 (embodied familiars only)"
+                    ],
+                    [
+                        "Numen",
+                        "25 (up to 4 Numina for fetches or 5 for embodied familiars)"
+                    ]
+                ]
+            },
             "Note that changes to a spirit’s Attributes may alter other characteristics, such as Health or Speed, and adjust those traits accordingly. Goetic familiars may not have their Influences increased.",
             "A mage who already has a familiar (Twilight or embodied) may still acquire a goetic familiar of either sort, but may only ever have one goetic familiar, regardless of type."
         ],
@@ -374,15 +794,39 @@ const mageMeritsData = [
             "An imbued item’s base Merit dot cost is equal to one dot plus the dot rating of its Arcanum power, plus one dot per additional power. If it has more than one power or uses a conjunctional spell, use the highest Arcanum dot rating involved.",
             "Base Cost: 1 dot + highest Arcanum dots + 1 dot per additional power.",
             "Imbued items have the following properties.",
-            "<b>Function:</b> Persistent or contingent.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Function:" },
+                    " Persistent or contingent."
+                ]
+            },
             "A persistent power is always active. The power does not have to be cast by the user to take effect; he simply needs to hold or wear the item. These include amulets of luck, magical body armor or goggles that let the wearer peer into the Shadow Realm. The user must use or wear the imbued item to benefit from the power, but the power cannot be turned on or off with a switch, command word or the like. If one or more of the imbued item’s powers is persistent (i.e., of indefinite Duration), add one dot to its total cost.",
             "A contingent power needs to be activated for each use. The mage squeezes the gun’s trigger or utters the staff’s magic word and calls forth its magic. Duration depends on the default Duration of the spell mimicked by the effect, and is usually transitory (one turn) or prolonged (one hour/scene).",
             "Once this period expires, the mage may use the same trigger to use the power again. A trigger should be an appropriate instant action, anything performed within the proximity of the item: verbal commands, gestures and so on.",
             "When the trigger is activated, the imbued item’s spellcasting dice pool is rolled. It is equal to its wielder’s Gnosis + the Arcanum dots used for the power.",
-            "<b>Mana:</b> If a contingent power requires Mana, the item must either have its own Mana pool or the mage must supply the points himself. Some imbued items have their own Mana pools. This costs an additional Merit dot and the item holds up to 10 Mana points + 1 per spell (i.e., an imbued item with two spells can hold up to 12 Mana). Its user can draw points from the imbued item to fuel its powers rather than spending his own. This pool is not self-replenishing. Once the points have been used up, the mage must spend his own Mana to restore the imbued item’s points, or use Prime magic to transfer them from a Hallow or some other source.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mana:" },
+                    " If a contingent power requires Mana, the item must either have its own Mana pool or the mage must supply the points himself. Some imbued items have their own Mana pools. This costs an additional Merit dot and the item holds up to 10 Mana points + 1 per spell (i.e., an imbued item with two spells can hold up to 12 Mana). Its user can draw points from the imbued item to fuel its powers rather than spending his own. This pool is not self-replenishing. Once the points have been used up, the mage must spend his own Mana to restore the imbued item’s points, or use Prime magic to transfer them from a Hallow or some other source."
+                ]
+            },
             "Unlike an Artifact, an imbued item’s points can be used only to activate its powers, unless the mage uses the “Channel Mana” spell (see p. 224) to place the item’s points somewhere else.",
-            "<b>Sleepers:</b> Even a Sleeper can use an imbued item. If its power is persistent, he need only hold or wear it. If it’s contingent, he need only perform the proper trigger. The spellcasting dice pool rolled is equal to the highest Arcanum dot rating used to determine the Imbued Item’s Merit dots, based on the highest rated power (as described above). Since Sleepers do not have Gnosis, it cannot be added to the dice pool. Needless to say, Sleepers must rely on an item’s own Mana pool to fuel its powers.",
-            "<b>Paradox:</b> Imbued items’ vulgar powers can invoke Paradoxes, even when wielded by Sleepers. The dice pool is equal to half the item’s Merit dots (round down). (If the item is created during play with the Prime 3 “Imbue Item” spell, pp. 225-226, the Paradox dice pool is based on the Gnosis of the imbued item’s creator.) Items that produce vulgar effects before the eyes of a Sleeper witnesses will also invoke Disbelief (see p. 274). His own inability to accept the magic undermines the magic.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Sleepers:" },
+                    " Even a Sleeper can use an imbued item. If its power is persistent, he need only hold or wear it. If it’s contingent, he need only perform the proper trigger. The spellcasting dice pool rolled is equal to the highest Arcanum dot rating used to determine the Imbued Item’s Merit dots, based on the highest rated power (as described above). Since Sleepers do not have Gnosis, it cannot be added to the dice pool. Needless to say, Sleepers must rely on an item’s own Mana pool to fuel its powers."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Paradox:" },
+                    " Imbued items’ vulgar powers can invoke Paradoxes, even when wielded by Sleepers. The dice pool is equal to half the item’s Merit dots (round down). (If the item is created during play with the Prime 3 “Imbue Item” spell, pp. 225-226, the Paradox dice pool is based on the Gnosis of the imbued item’s creator.) Items that produce vulgar effects before the eyes of a Sleeper witnesses will also invoke Disbelief (see p. 274). His own inability to accept the magic undermines the magic."
+                ]
+            },
             "Example: A ring that allows a mage to turn himself invisible on a contingent basis would cost four dots (1 + a 3-dot Forces spell), while a sword with a persistent power that allows it to cut through iron would be rated at five dots (1 + a 3-dot Matter spell + 1 dot for indefinite Duration).",
             "An item can be both imbued and enhanced. See “Enhanced Item,” above. Simply add the cost of all imbuements and enhancements together to determine the item’s total cost.",
             "Acquiring an imbued item once play begins does not cost Merit dots; characters must gain these items through roleplaying actions. If an item is ever lost, stolen or destroyed, the character loses the Merit and the points he spent to gain it."
@@ -461,7 +905,13 @@ const mageMeritsData = [
             "In addition, Occultation protects your character from spells that attempt to directly affect him at sympathetic range. His Occultation dots are subtracted from the caster’s dice pool. See “Sympathetic Spells,” pp. 114-116.",
             "At the Storyteller’s discretion, this Merit can also affect other supernatural abilities to find the creator of a magical effect. For example, a vampire using Spirit’s Touch to analyze the results of a magical spell should have difficulty finding the occulted mage who cast it. When this trait applies, subtract a number of dice equal to the mage’s Occultation dots from the activation roll for that supernatural ability.",
             "Occulted mages tend to live on the fringes of mundane reality, as though they are an anomaly or aberration. Sleepers have trouble keeping track of their identities and activities. Records regarding an arcane mage tend to get lost, and the authorities are challenged to investigate his activities. Since most Sleepers find it hard to gather information about the mage, they won’t know many details about him. This also makes it harder for mages to research information about the mage through mundane sources. Whenever someone makes a roll to gather information about your character, your Occultation dots are subtracted from the researcher’s dice pool.",
-            "<b>Drawback:</b> If your character ever becomes well known to the public (such as getting caught on camera and being shown on television night after night), he loses his Occultation until the public at large forgets him (which could take many years, depending on how famous or notorious the mage became). Likewise, if he maintains a public persona at all among Sleepers, even to the degree of having many Sleeper friends, he cannot maintain his Occultation. The mage must constantly cultivate this Merit, working to remain away from the attention of Sleeper society. It does not affect his standing in Awakened society."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " If your character ever becomes well known to the public (such as getting caught on camera and being shown on television night after night), he loses his Occultation until the public at large forgets him (which could take many years, depending on how famous or notorious the mage became). Likewise, if he maintains a public persona at all among Sleepers, even to the degree of having many Sleeper friends, he cannot maintain his Occultation. The mage must constantly cultivate this Merit, working to remain away from the attention of Sleeper society. It does not affect his standing in Awakened society."
+                ]
+            }
         ],
         "Book": "M:tA 86",
     },
@@ -518,7 +968,13 @@ const mageMeritsData = [
         "Description": "gain one Skill-based Rote Specialty / dot",
         "LongDescription": [
             "Each dot in this Merit confers one Skill-based Rote Specialty. This Specialty adds a die to the pool for rotes that use the listed Skill.",
-            "<b>Drawback:</b> Fully initiated members of an order effectively possess the maximum number of dots in this Merit and can’t take it again. Some order apprentices might have only one or two-dot Rote Specialties. If they leave order training early, they might forge a unique path, picking up their own rote skills."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Fully initiated members of an order effectively possess the maximum number of dots in this Merit and can’t take it again. Some order apprentices might have only one or two-dot Rote Specialties. If they leave order training early, they might forge a unique path, picking up their own rote skills."
+                ]
+            }
         ],
         "Book": "Ban 42",
     },
@@ -531,9 +987,21 @@ const mageMeritsData = [
             "Some mages learn the techniques of ritual synergy, a form of group ritual that allows those involved to contribute individual parts of a magical working to form a greater whole than any of them can manage alone. Normally, each of the participants of a group ritual must have the ability to cast the spell on his own; mages with this Merit can break those rules.",
             "With Ritual Synergy •••, the mage leading the ritual must have the ability to cast the spell, but those participants who also possess this Merit do not need to know how to cast the spell themselves. The leader rolls his normal dice pool, but each participant’s dice pool is equal to his own Gnosis.",
             "Any mages who know the primary Arcanum used in the spell can add their dots to this dice pool. (The spell might require Death 3, but one of the participants knows only Death 1; he can still add his Death dot to the dice pool.) Each of the participants, including the leader, must also spend a point of Mana at the beginning of the ritual.",
-            "<i>Example:</i> A cabal wishes to join together into a group ritual casting of Space 2 “Scrying.” However, only one member of the cabal knows Space 2. Luckily, the mages have all learned this Merit at three dots, allowing the mage with the requisite Arcanum lore to act as the group leader while the others assist, even though they do not themselves know how to cast the spell.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Example:" },
+                    " A cabal wishes to join together into a group ritual casting of Space 2 “Scrying.” However, only one member of the cabal knows Space 2. Luckily, the mages have all learned this Merit at three dots, allowing the mage with the requisite Arcanum lore to act as the group leader while the others assist, even though they do not themselves know how to cast the spell."
+                ]
+            },
             "With Ritual Synergy •••••, the mage leading the ritual need not know how to cast the entirety of the spell; other participants with this Merit can contribute their personal Arcanum knowledge to conjunctional or combined spells. All participants roll their relevant dice pools (using the Arcanum they are contributing) and spend a point of Mana.",
-            "<i>Example:</i> Adept Solis wishes to cast a conjunctional Fate 4 + Space 2 “Gift of Fortune” spell (see p. 157 in Mage: The Awakening). He knows Fate 4 but not Space 2. He teams with a fellow mage who does know Space 2. They each know the Ritual Synergy Merit at fi ve dots, so each can contribute his personal Arcanum knowledge to the whole of the casting."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Example:" },
+                    " Adept Solis wishes to cast a conjunctional Fate 4 + Space 2 “Gift of Fortune” spell (see p. 157 in Mage: The Awakening). He knows Fate 4 but not Space 2. He teams with a fellow mage who does know Space 2. They each know the Ritual Synergy Merit at fi ve dots, so each can contribute his personal Arcanum knowledge to the whole of the casting."
+                ]
+            }
 
         ],
         "Book": "TotM 74",
@@ -582,12 +1050,62 @@ const mageMeritsData = [
             "While certain Merits detailed in the World of Darkness Rulebook focus on recognition in mortal society, certain Status concerns itself with the social orders of the Awakened and represents recognition among other mages. Status is divided into two areas — Consilium and Order. Players must choose one of these two areas for each Merit dot spent. (Enterprising Storytellers may come up with additional types of Status, and clever players might have unique applications as well. As such, Status is designed as a sort of “umbrella” Merit under which new types can be created.)",
             "Consilium Status represents a vested responsibility and according acknowledgement in the affairs of the Consilium of the region. Certain individuals rise to the top of the social strata, exemplary because of their efforts in the name of their cabal, Consilium or in the area as a whole. Hierarchs, Heralds, Sentinels and other “officers” fit this description, but the Merit can also apply to mages who are popular but who eschew politics. Their opinion holds sway even if they don’t involve themselves in a particular Consiliar function. Consilium Status is most often based on accomplishment.",
             "A character must earn his way into the title or esteem of his fellow mages. While this often involves being recognized for worthy deeds, it can also be a result of careful oliticking and gossip. In general, mages of other cabals recognize a mage’s Consilium status and give him respect (although they do not necessarily heed him or reveal secrets).",
-            "<table><tr><td>•</td><td>“Rising star”; Leigeman (or –woman)</td></tr><tr><td>••</td><td>“Accomplished individual”; Sentinel</td></tr><tr><td>•••</td><td>“Much deserved reputation”; Herald</td></tr><tr><td>••••</td><td>“Example to the Wise”; Provost</td></tr><tr><td>•••••</td><td>“Benefactor of the Awakened”; Hierarch or Councilor</td></tr></table>",
+            {
+                type: "table",
+                headers: [],
+                rows: [
+                    [
+                        "•",
+                        "“Rising star”; Leigeman (or –woman)"
+                    ],
+                    [
+                        "••",
+                        "“Accomplished individual”; Sentinel"
+                    ],
+                    [
+                        "•••",
+                        "“Much deserved reputation”; Herald"
+                    ],
+                    [
+                        "••••",
+                        "“Example to the Wise”; Provost"
+                    ],
+                    [
+                        "•••••",
+                        "“Benefactor of the Awakened”; Hierarch or Councilor"
+                    ]
+                ]
+            },
             "Order Status represents rank, achievement and responsibility in a magical order. It is concerned with the order’s goals and accomplishments. It is not enough to be powerful or exemplary of the order’s ideals. The group is concerned with what its members have done to benefit its cause and combat its rivals.",
             "Those mages who enjoy the greatest order-based recognition are often the core members of their order in a given region, those who call the local caucuses and around whom others rally. These mages instigate or mediate conflict with other orders or cabals, generally looking to further certain idealistic goals and to establish themselves or other members in positions of influence in the Consilium hierarchy of their region.",
             "A character must have at least a single dot of Order Status in order to gain the benefits of any special abilities of that society. In other words, a character must have at least one dot of Order Status in order to learn the rotes of her order. (A character’s beginning six dots worth of rotes are an exception. They were presumably taught by the order to win the mage’s loyalty). If a character leaves an order after learning some of its secrets, she does not lose any of those abilities for which experience points were spent, such as rotes or Rote Specialties, but she may not learn additional abilities without finding a new teacher. In addition, some orders punish those who violate their oaths and spread their secrets.",
             "Order Status is not so specifically tied to certain titles. It is more a notion of an individual’s accomplishments.",
-            "<table><tr><td>•</td><td>The character is known to a select subset of the order — a spy network, perhaps</td></tr><tr><td>••</td><td>The majority of the order in the region recognizes the character’s face and can recall her exploits.</td></tr><tr><td>•••</td><td>The character’s deeds are known to all in the order, even in nearby regions. Many members of other orders recognize her face.</td></tr><tr><td>••••</td><td>Word of the character’s exploits has traveled far, and her name is known in cities around the country</td></tr><tr><td>•••••</td><td>The character’s name and face are synonymous with her order; her exploits are taught to new members of the order.</td></tr></table>",
+            {
+                type: "table",
+                headers: [],
+                rows: [
+                    [
+                        "•",
+                        "The character is known to a select subset of the order — a spy network, perhaps"
+                    ],
+                    [
+                        "••",
+                        "The majority of the order in the region recognizes the character’s face and can recall her exploits."
+                    ],
+                    [
+                        "•••",
+                        "The character’s deeds are known to all in the order, even in nearby regions. Many members of other orders recognize her face."
+                    ],
+                    [
+                        "••••",
+                        "Word of the character’s exploits has traveled far, and her name is known in cities around the country"
+                    ],
+                    [
+                        "•••••",
+                        "The character’s name and face are synonymous with her order; her exploits are taught to new members of the order."
+                    ]
+                ]
+            },
             "Status can serve as a mixed blessing, however. Those who enjoy the most renown might be able to use it to their advantage, but they are also visible targets for their enemies. High Status dots make it almost impossible to pass unnoticed, but they can open doors that would otherwise remain blocked.",
             "Status works like a “social tool” in that it adds to dice pools for Social interactions between members of the sub-groups given. That is, Order Status adds to dice pools for  interactions with members of the same order, and Consilium Status affects those who are recognized residents of the given region. Consilium Status, however, may be ignored by enemies of the Consilium. Status does not add to die rolls predicated upon magic, only for mundane social actions.",
             "Dealing with Status can be a mire of responsibility for characters, though clever characters can turn it to their advantage. They may actually have a variety of Status. It is not uncommon for someone to have Consilium Status and Order Status.",
@@ -626,7 +1144,12 @@ const mageMeritsData = [
             "A minority of mages Awaken with a quiescent connection to other realms, which, if developed, shows itself as an inherent talent for summoning magics. On a level far below conscious thought, the mage has an instinct for the rules that govern other realities. Awakened scholars refer to this gift (or curse, if you like) as a Summoner’s Soul. Every mage with a Summoner’s Soul is mystically inclined towards one realm over the others, while still being more naturally adept with summoning magic in general than most mages. A player should choose the realm to which her character is linked when selecting this Merit.",
             "A mage tied to a Supernal Realm in this manner must select his Path Realm; this inborn connection is probably what drew such a willworker to his particular Watchtower in the first place. When spending Willpower on a summoning spell attuned to entities from his character’s favored realm, the player of a mage with a Summoner’s Soul receives five bonus dice, or four bonus dice with respect to summoning spells that call upon other realms.",
             "When dealing with entities from his favored realm, all of the willworker’s Social Skill rolls receive two bonus dice as a result of this special bond.",
-            "<i>But this may only be selected at character creation or with Storyteller approval.</i>"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "But this may only be selected at character creation or with Storyteller approval." }
+                ]
+            }
         ],
         "Book": "Summ 186",
     },
@@ -693,7 +1216,13 @@ const mageMeritsOrderData = [
         "Description": "Influence secret societies",
         "LongDescription": [
             "Your character knows how the Guardians of the Veil implanted certain symbols and tokens of authority throughout history. These symbols still have power today, so the Guardian can use them to claim authority in secret societies that use such symbols. Make a Wits + Occult roll; each success adds one die to social dice pools used to interact with any secret society that uses Guardian symbols. This aids the character’s attempts to convince the society that she is a member or pretend to hold higher status than she currently possesses. In the modern day, a vast number of organizations that do not necessarily even have an ongoing Guardian infl uence still use signs and tokens designed by Guardian Cultors.",
-            "<b>Drawback:</b> If the deception is discovered or the Wits + Occult roll fails, no other Guardian can use this Merit on the secret society the character has attempted to cheat. Its members either now consider the old signs to be unreliable or have abandoned them before your character tried to use them."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " If the deception is discovered or the Wits + Occult roll fails, no other Guardian can use this Merit on the secret society the character has attempted to cheat. Its members either now consider the old signs to be unreliable or have abandoned them before your character tried to use them."
+                ]
+            }
         ],
         "Book": "GotV 58",
     },
@@ -704,9 +1233,21 @@ const mageMeritsOrderData = [
         "Description": "Gain two dots in Laboratory, Library or Scriptorium per dot",
         "LongDescription": [
             "You can convert each dot in this Merit to two dots in the following Merits: Laboratory, Library and Scriptorium (new Merit; see below). You must use these dots to purchase at least two different Merits from this list. You may stack these Merit dots with the same dots from standard versions of each Merit, but the derived Merits cannot rise higher than five dots (though there may be some ancient or secret exceptions to this rule).",
-            "<b>Drawback:</b> The materials that compose each Merit must occupy the same basic location. The Library must occupy the same building as the Scriptorium, for example. If you move component Merits purchased with Athenaeum dots to different locations, you can recover only half of their value as you lose the efficiency of combining resources.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The materials that compose each Merit must occupy the same basic location. The Library must occupy the same building as the Scriptorium, for example. If you move component Merits purchased with Athenaeum dots to different locations, you can recover only half of their value as you lose the efficiency of combining resources."
+                ]
+            },
             "Athenaeum materials and facilities also require space to be properly organized: at least one dot of Sanctum Size per two dots of Athenaeum (not component Merits).",
-            "<b>Special:</b> It’s possible for members of a close-knit group (typically, a Mysterium caucus) to share this Merit. Members each contribute one or more dots and are considered to have common access to the Athenaeum."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Special:" },
+                    " It’s possible for members of a close-knit group (typically, a Mysterium caucus) to share this Merit. Members each contribute one or more dots and are considered to have common access to the Athenaeum."
+                ]
+            }
         ],
         "Book": "Myst 66",
     },
@@ -718,8 +1259,19 @@ const mageMeritsOrderData = [
         "LongDescription": [
             "Graduates of Otranto understand doom. Add +2 dice to their spellcasting pools when they cast the “The Evil Eye,” “Monkey’s Paw,” “Forge Doom” and “Great Curse” spells. At the Storyteller’s discretion, this applies to other curses as long as they use the Fate Arcanum.",
             "The mage can voluntarily forego this benefit and avoid its associated drawback, below.",
-            "<b>Drawback: If the mage uses this Merit’s benefit, she takes a bit of the target’s doom onto herself. The mage gains an extra Paradox die, even if the spell was covert and appeared plausible.",
-            "<b>Special:</b> This Merit is an example of the type of Merits available to students of academy Athenaea. Storytellers should invent others to reflect the unique experience of studying at a particular academy."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback: If the mage uses this Merit’s benefit, she takes a bit of the target’s doom onto herself. The mage gains an extra Paradox die, even if the spell was covert and appeared plausible." }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Special:" },
+                    " This Merit is an example of the type of Merits available to students of academy Athenaea. Storytellers should invent others to reflect the unique experience of studying at a particular academy."
+                ]
+            }
         ],
         "Book": "Myst 72",
     },
@@ -731,7 +1283,13 @@ const mageMeritsOrderData = [
         "LongDescription": [
             "Your character has trained to master a particular Greater Masque. When the character has the token of that Masque, she is entitled to the bonus the Masque grants (see the “Trained Benefit” entry for each Masque). Furthermore, when she wears or uses the Masque’s token while using the Masque identity as a disguise, you gain a +2 dice bonus to disguise attempts associated with the Masque’s identity.",
             "You may purchase this Merit multiple times. Each purchase represents training in a different Greater Masque or a different identity within the same Greater Masque (with each one favoring different Skills).",
-            "<b>Drawback:</b> Whenever you are capable of using this Merit’s benefits, your character is so immersed in the Masque that she also acquires the Masque’s Drawback. See the Masque Drawback entry for each Greater Masque. The Masque’s benefit and its drawback dice modifiers do not apply to magical or other supernatural tasks."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Whenever you are capable of using this Merit’s benefits, your character is so immersed in the Masque that she also acquires the Masque’s Drawback. See the Masque Drawback entry for each Greater Masque. The Masque’s benefit and its drawback dice modifiers do not apply to magical or other supernatural tasks."
+                ]
+            }
         ],
         "Book": "GotV 69",
     },
@@ -755,7 +1313,13 @@ const mageMeritsOrderData = [
             "Your character can make a vow so powerful that it has supernatural consequences. She makes the vow more important than herself, down to her most trivial or powerful personal desires. Her oaths influence all of her thoughts and actions. Some Arrows discover inner peace in service, but most battle with their vows.",
             "This Merit does not represent a specific oath. Instead, this Merit measures the mage’s psychic capacity for keeping oaths. Arrows train to increase this by meditating, practicing scetic discipline and the studying the order’s secret philosophical texts. Each dot in the Merit provides the capacity to retain (or “bind”) one point’s worth of oaths. The Arrow can fill some or all of her capacity with one especially intense oath or a number of minor ones, as long as their point values don’t exceed her total Oathbound Merit dots.",
             "Calculate the cost of the oath by adding its binding strength to the listed additional costs. Oaths have an effect based on their binding strength alone; do not count additional costs.",
-            "<b>Drawbacks:</b> If the character binds an oath during the chronicle, doing so requires one point of Mana (regardless of the oath’s point total) and 16 hours of secluded, uninterrupted study and meditation. A new character can fill her capacity at no cost, but doesn’t have to. In the latter case, the mage is assumed to have bound these oaths before play began.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawbacks:" },
+                    " If the character binds an oath during the chronicle, doing so requires one point of Mana (regardless of the oath’s point total) and 16 hours of secluded, uninterrupted study and meditation. A new character can fill her capacity at no cost, but doesn’t have to. In the latter case, the mage is assumed to have bound these oaths before play began."
+                ]
+            },
             "Bound oaths are public matters. Order mages do make secret vows from time to time, but they aren’t covered by this Merit. The Arrow has 24 hours after taking the oath to tell others about it. The Arrow cannot ask or imply that witnesses should keep the oath a secret. If the Arrow doesn’t meet these conditions, the oath doesn’t bind to her soul, and she loses it.",
             "Arrows lose bound oaths in one of three ways: completion, rejection or violation.",
             "• Completing the oath occurs whenever the oath’s conditions can no longer apply. Her liege dies, for example, or she completes a quest. The oath is no longer relevant, and dissolves at no penalty to the mage. Arrows can also specify that an oath end after a preset time (such as a year and a day) or event, but must include such conditions when they publicly declare their oaths.",
@@ -791,7 +1355,13 @@ const mageMeritsLegacyData = [
             "The mage may freely visit one or more locations in the Dreamtime. These Astral locations arise from the psychic resonance associated with a place.",
             "Some Dreamspeakers say that the Dreamborn came to rest in such places, and that Dreamlands are the echoes of the Dreamborn’s own fitful dreams. Others say that ancestors won these places from the Dreamborn at the dawn of time, or that they merely arose after millennia of rites and initiations in the sacred place. Dreamspeakers can know multiple Dreamlands. Each one represents one Merit dot. A character does not require this Merit to reach a Dreamland, but he cannot access its wisdom without first purchasing this Merit.",
             "Each Dreamland contains one dot of the Library background (see Mage: The Awakening, pp. 85–86). This usually doesn’t represent Astral books and scrolls, but visions of wise ancestors and Dreamborn who are willing to share their knowledge. This lore can often reveal histories — both mundane and supernatural — of the region that are otherwise unrecorded in any book or living memory.",
-            "<b>Drawbacks:</b> Dreamlands are at least 20 miles apart from one another. Each Dreamland’s physical location also has one essential feature that, if destroyed or changed (by construction or landscaping, for example), cuts off access to the Dreamland until the problem is repaired."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawbacks:" },
+                    " Dreamlands are at least 20 miles apart from one another. Each Dreamland’s physical location also has one essential feature that, if destroyed or changed (by construction or landscaping, for example), cuts off access to the Dreamland until the problem is repaired."
+                ]
+            }
         ],
         "Book": "L:tA 21",
     },

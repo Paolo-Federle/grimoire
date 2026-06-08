@@ -20,7 +20,13 @@ const uniMeritsMentalData = [
         "LongDescription": [
             "Your character is uncommonly focused on a particular area of expertise. By purchasing this Merit, your character essentially doubles his Specialty in a particular Mental Skill, so that he gains a +2 dice bonus from that Specialty rather than the usual +1.",
             "This Merit can only be applied to one of the character’s existing Specialties. This Merit can only be purchased once per character.",
-            "<b>Drawback:</b> A character with this Merit cannot have any other Specialties in the same Skill as Area of Expertise. Thus, if this Merit is purchased for the Automobiles Specialty of Craft, the character can never have any other Specialties in that same Skill."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " A character with this Merit cannot have any other Specialties in the same Skill as Area of Expertise. Thus, if this Merit is purchased for the Automobiles Specialty of Craft, the character can never have any other Specialties in that same Skill."
+                ]
+            }
         ],
         "Book": "FC 131"
     },
@@ -31,12 +37,50 @@ const uniMeritsMentalData = [
         "Description": "Can safely gauge how far Old Laws can be pushed	",
         "LongDescription": [
             "The Lower Mysteries thrive on the Old Laws, and you’re a natural at comprehending legal systems. While the Kerberoi who enforce them know when someone breaks the law, you’ve got a decent sense for just when you can push the very edges, obeying the letter of the law but not the spirit without drawing undue attention. Better, you know precisely when it’s best to get the hell out of Dodge. Once you know all of the Old Laws that apply in a particular Dominion, you can work out ways to push the edges. You can only do this once in each Dead Dominion.",
-            "<b>Dice Pool:</b> Intelligence + Politics - the number of Old Laws (max -5)",
-            "<b>Action:</b> Instant",
-            "<b>Roll Results</b><br><b>Dramatic Failure:</b> Your character thinks he’s found a loophole, but he’s wrong. The first time he takes an action that isn’t clearly allowed by the Old Laws, the Dominion’s Kerberos knows precisely where he is.",
-            "<b>Failure:</b> The Old Laws are cast in stone, and your character can’t think his way around them.",
-            "<b>Success:</b> Your character knows how and when to push his luck. You can take one action that would normally contravene the spirit but not the letter of the Old Laws without the Kerberos knowing; for example, you can’t get around spilling blood on entering a Dominion that requires it, but unless the Law is very specific you don’t need to spill your own blood.",
-            "<b>Exceptional Success:</b> Your character has a sudden flash of insight. You can pick two actions, rather than one."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dice Pool:" },
+                    " Intelligence + Politics - the number of Old Laws (max -5)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Action:" },
+                    " Instant"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Roll Results" },
+                    { type: "lineBreak" },
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " Your character thinks he’s found a loophole, but he’s wrong. The first time he takes an action that isn’t clearly allowed by the Old Laws, the Dominion’s Kerberos knows precisely where he is."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The Old Laws are cast in stone, and your character can’t think his way around them."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " Your character knows how and when to push his luck. You can take one action that would normally contravene the spirit but not the letter of the Old Laws without the Kerberos knowing; for example, you can’t get around spilling blood on entering a Dominion that requires it, but unless the Law is very specific you don’t need to spill your own blood."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " Your character has a sudden flash of insight. You can pick two actions, rather than one."
+                ]
+            }
         ],
         "Book": "BotD 91"
     },
@@ -58,7 +102,13 @@ const uniMeritsMentalData = [
         "LongDescription": [
             "Your character is exceptionally grounded and pragmatic, and can usually be depended upon to make sound, straightforward decisions after a few moments’ thought.",
             "The Storyteller can make a reflexive Wits + Composure roll once per chapter for your character if he is about to embark on a disastrous course of action, or if you find yourself at a point in the story where you’re completely stumped for ideas. If the roll succeeds, the Storyteller may point out the risks of a particular course, or suggest possible actions that your character can take that might get events back on track.",
-            "Note: While you’re free to ask the Storyteller for a Common Sense roll when you’re out of ideas, he is under no obligation to comply. It’s an aid, not a crutch. <i>Available at character creation only.</i>"
+            {
+                type: "paragraph",
+                text: [
+                    "Note: While you’re free to ask the Storyteller for a Common Sense roll when you’re out of ideas, he is under no obligation to comply. It’s an aid, not a crutch. ",
+                    { type: "italic", text: "Available at character creation only." }
+                ]
+            }
         ],
         "Book": "WoD 108",
     },
@@ -103,7 +153,13 @@ const uniMeritsMentalData = [
         "Description": "Gains 8-again when navigating in the Underworld; loses 10-again navigating above ground.",
         "LongDescription": [
             "Something about the Underworld resonates with the character’s way of thinking. Maybe he’s more at home around the dead than the living — common among pathologists, undertakers, and Indian mahar corpse handlers — or she feels a natural aptitude for life below ground, without the uncaring stars hanging over his head. In the caverns and tunnels of the Underworld, forever cut off from the living world, you’ve got a damn fine sense of direction. Your character gains the 8-again quality on all rolls to navigate the Underworld (see “Navigating Dark Passages,” p. 99 of Book of the Dead).",
-            "<b>Drawback:</b> Navigating without a roof over your head is just that little bit less reliable. Whenever you roll Survival to navigate above ground, do not re-roll 10s."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Navigating without a roof over your head is just that little bit less reliable. Whenever you roll Survival to navigate above ground, do not re-roll 10s."
+                ]
+            }
         ],
         "Book": "BotD 91",
     },
@@ -114,7 +170,12 @@ const uniMeritsMentalData = [
         "Description": "Remember with ease, gain +2 to Intelligence + Composure to remember facts from large swaths of data",
         "LongDescription": [
             "Your character has a near-photographic memory, being able to recall vast amounts of observed detail with astonishing accuracy. You do not normally need to make a roll for your character to remember an obscure fact or past experience, unless he is under stress (such as in combat). Under stress, there is a +2 modifier on any Intelligence + Composure or other Skill-based roll (say, Academics, to remember a fact) for memory recall.",
-            "<i>Available at character creation only.</i>"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Available at character creation only." }
+                ]
+            }
         ],
         "Book": "WoD 108",
     },
@@ -136,11 +197,41 @@ const uniMeritsMentalData = [
         "LongDescription": [
             "Your character is a veritable font of useful (and sometimes useless) information on a wide variety of topics. Chances are he can come up with an anecdote pertaining to any situation based on something he’s read, witnessed or seen on TV.",
             "You can make an Intelligence + Wits roll any time your character is confronted with a situation or phenomenon outside his normal realm of experience. If the roll is successful, he may recall a “factoid” that he’s heard at some point that may shed light on matters.",
-            "<i>Available at character creation only.</i> Your character has either been soaking up trivia all his life or he hasn’t. ",
-            "<b>Dramatic Failure:</b> Your character “remembers”something about the situation that is completely inaccurate. “Wait! Wait! I saw something like this in a movie once!” The Storyteller might make Intelligence + Wits rolls on your behalf when a dramatic failure is possible.",
-            "<b>Failure:</b> Your character wracks his brain but comes up empty.",
-            "<b>Success:</b> Your character remembers a detail or fact that sheds some light on the situation. “You said there was an almond odor? Seems to me I read somewhere that’s a sign of cyanide poisoning.”",
-            "<b>Exceptional Success:</b> Your character recalls a number of useful details that provide extensive insight. “Hey, cool — a little candy skull. They make these in Mexico for the Day of the Dead. It’s an offering for a loved one who’s died. And they say you can’t learn anything on TV.”"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Available at character creation only." },
+                    " Your character has either been soaking up trivia all his life or he hasn’t. "
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " Your character “remembers”something about the situation that is completely inaccurate. “Wait! Wait! I saw something like this in a movie once!” The Storyteller might make Intelligence + Wits rolls on your behalf when a dramatic failure is possible."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " Your character wracks his brain but comes up empty."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " Your character remembers a detail or fact that sheds some light on the situation. “You said there was an almond odor? Seems to me I read somewhere that’s a sign of cyanide poisoning.”"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " Your character recalls a number of useful details that provide extensive insight. “Hey, cool — a little candy skull. They make these in Mexico for the Day of the Dead. It’s an offering for a loved one who’s died. And they say you can’t learn anything on TV.”"
+                ]
+            }
         ],
         "Book": "WoD 109",
     },
@@ -183,7 +274,13 @@ const uniMeritsMentalData = [
         "Description": "+1 on Resolve rolls to resist coercion",
         "LongDescription": [
             "Your character is especially devoted to a particular cause or purpose, gaining +1 die for Resolve rolls to resist coercion that runs counter to his calling. This only affects Resolve rolls, not Willpower or other Traits, and does not affect coercion that doesn’t involve the character’s Higher Calling.",
-            "<b>Drawbacks:</b> If your character ever acts in a way contrary to his calling or abandons his dedication to it, the Storyteller may even remove this Merit."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawbacks:" },
+                    " If your character ever acts in a way contrary to his calling or abandons his dedication to it, the Storyteller may even remove this Merit."
+                ]
+            }
         ],
         "Book": "TotW 125",
     },
@@ -195,12 +292,48 @@ const uniMeritsMentalData = [
         "LongDescription": [
             "Your character is skilled in the arts of wholebody healing, promoting health and recovery by keeping a person’s entire physiology balanced and strong. The result is that he is able to treat sickness and some injuries (those not requiring surgery, and ones suffered to bashing or lethal damage but not aggravated) with a collection of natural remedies rather than resorting to a doctor or hospital.",
             "Make an Intelligence + Medicine roll once per day when your character spends an hour treating a patient. If the roll is successful, the patient’s healing times that day are halved. The worst of a patient’s injuries must be treated first. So, if he has suffered a lethal wound and a successful roll is made, the wound heals that day rather than in two days. If the patient has suffered nothing but bashing damage, all wounds are healed in mere minutes (about eight each). See Chapter 7, p. 175, for healing times.",
-            "<b>Dramatic Failure:</b> Your character misdiagnoses or mistreats the problem, making it worse. The patient does not heal more quickly (he maintains normal healing times). He does, however, suffer an additional point of bashing damage. Your character cannot try to heal the patient again for his current injuries.",
-            "<b>Failure:</b> The treatment has no effect and normal healing times apply to any bashing wounds or to a single lethal wound. If the Storyteller allows, your character can make a successive attempt to try again that day (see p. 132). If still no successes are gained to heal a single lethal wound or one or more bashing wounds, those must be allowed to heal naturally before another effort can be made. Thus, if no successes are rolled to heal one of a patient’s lethal wounds, that wound must heal naturally over two days before your character can try to heal another lethal wound.",
-            "<b>Success:</b> Your character’s treatment is rewarding and the patient’s healing time that day is halved.",
-            "<b>Exceptional Success:</b> The patient responds remarkably well to treatment. You can skip tomorrow’s roll altogether. It’s automatically assumed to succeed. In that case, two lethal wounds can be healed in two days.",
-            "<b>Suggested Equipment:</b> Holistic medicines (+1), healing-touch manuals (+1), body-purifying foods and liquids (+1)",
-            "<b>Possible Penalties:</b> Lack of remedies (-1 to -4), noisy environment (-1), imminent danger (-3), improvised facilities (-1)"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " Your character misdiagnoses or mistreats the problem, making it worse. The patient does not heal more quickly (he maintains normal healing times). He does, however, suffer an additional point of bashing damage. Your character cannot try to heal the patient again for his current injuries."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The treatment has no effect and normal healing times apply to any bashing wounds or to a single lethal wound. If the Storyteller allows, your character can make a successive attempt to try again that day (see p. 132). If still no successes are gained to heal a single lethal wound or one or more bashing wounds, those must be allowed to heal naturally before another effort can be made. Thus, if no successes are rolled to heal one of a patient’s lethal wounds, that wound must heal naturally over two days before your character can try to heal another lethal wound."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " Your character’s treatment is rewarding and the patient’s healing time that day is halved."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The patient responds remarkably well to treatment. You can skip tomorrow’s roll altogether. It’s automatically assumed to succeed. In that case, two lethal wounds can be healed in two days."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Suggested Equipment:" },
+                    " Holistic medicines (+1), healing-touch manuals (+1), body-purifying foods and liquids (+1)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Possible Penalties:" },
+                    " Lack of remedies (-1 to -4), noisy environment (-1), imminent danger (-3), improvised facilities (-1)"
+                ]
+            }
         ],
         "Book": "WoD 109",
     },
@@ -211,39 +344,236 @@ const uniMeritsMentalData = [
         "Description": "",
         "LongDescription": [
             "Although not truly a psychic power, Hypnotic Voice is certainly capable of eerie effects. Whether through training in psychology or simply through having a deep, soothing voice, a character with this Merit is capable of hypnotizing others into trance states. The character can hypnotize anyone given the opportunity, but it is much easier if the subject is willing. While in a hypnotic trance, a subject can be given suggestions or forced to confront repressed memories, possibly memories stolen by vampiric Disciplines or repressed due to Lunacy triggered by were-wolves, or Disbelief invoked by vulgar magic.",
-            "<b>Inducing a Light Trance</b>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Inducing a Light Trance" }
+                ]
+            },
             "In order to begin the process of hypnotizing a subject, Manipulation + Persuasion or Science (depending on which Skill is used as the prerequisite for the Merit) is rolled. If the subject is willing, the roll is extended but not contested, and the hypnotist must accumulate [subject’s Resolve x5] successes, with each roll representing 10 seconds of induction. If the subject is unwilling, he can resist with Composure + Supernatural Advantage in contested rolls; resistance is reflexive. If the subject ever gets more successes in a single roll, he realizes what the hypnotist is attempting and any further attempts to hypnotize the subject fail automatically. If the subject and hypnotist ever get the same number of successes in a roll, the subject does not begin to enter a trance, but doesn’t realize what the hypnotist attempts either, so the performer can proceed. If the hypnotist’s successes on a roll are ever five or more and exceed the subject’s in that period, the victim begins to enter a trance despite himself and suffers a –1 penalty on all subsequent contested rolls. The hypnotist must have a target’s undivided attention. She cannot hypnotize someone carrying on a conversation with someone else, or who intently watches television while paying the hypnotist no mind.",
             "Once the player accumulates enough successes, the subject is successfully placed into a light trance. The subject is not able to initiate any hostile actions until he wakes up, and is highly suggestible. The hypnotist can induce an entranced subject to give up any non-intimate information or to perform almost any non-hazardous action with a successful Manipulation + Persuasion roll. A light trance lasts for a scene before the subject comes out of it. The trance ends automatically if someone makes a loud noise or even physically shakes the subject, and the hypnotist can wake the subject whenever she desires. If the hypnotist attempts to get the subject to do something that violates her Morality or her Virtue, or that is obviously dangerous or suicidal, the trance ends immediately.",
-            "<b>Cost:</b> None",
-            "<b>Dice Pool:</b> Manipulation + Persuasion or Science (Hypnotherapy Specialty), possibly contested by Composure + Supernatural Advantage",
-            "<b>Action:</b> Extended (subject willing) or extended and contested (subject unwilling). The hypnotist must accumulate successes equal to the target’s Resolve x5, with each roll representing 10 seconds of speech.",
-            "<b>Roll Results</b><br><b>Dramatic Failure:</b> The hypnotist fails to entrance his subject and loses any accumulated successes. If the subject was unwilling, she automatically knows that the hypnotist was attempting to hypnotize her and may react accordingly. Any subsequent attempts to hypnotize the subject (or indeed, anyone else who saw what happened) fail automatically.",
-            "<b>Failure:</b> The character gathers no successes at this time.",
-            "<b>Success:</b> The character gets the required number of successes and the subject is placed in a light trance.",
-            "<b>Exceptional Success:</b> The character gathers five or more successes than required. The character gains a +2 bonus on any Social rolls against the subject for the remainder of the trance.",
-            "<table className='spacing-table' style='min-width: 600px;'><tr className='table-row'><th>Dice modifiers</th><th>Situation</th></tr className={`alternating-row table-clickable`}><tr><td>+2</td><td>The subject is intoxicated, drugged or otherwise mentally impaired.</td></tr><tr className={`alternating-row table-clickable`}><td>+1</td><td>The subject is under peer pressure to submit to hypnosis, most commonly during a stage-hypnotist show.</td></tr></table>",
-            "<b>Deepening the Trance</b>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Cost:" },
+                    " None"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dice Pool:" },
+                    " Manipulation + Persuasion or Science (Hypnotherapy Specialty), possibly contested by Composure + Supernatural Advantage"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Action:" },
+                    " Extended (subject willing) or extended and contested (subject unwilling). The hypnotist must accumulate successes equal to the target’s Resolve x5, with each roll representing 10 seconds of speech."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Roll Results" },
+                    { type: "lineBreak" },
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The hypnotist fails to entrance his subject and loses any accumulated successes. If the subject was unwilling, she automatically knows that the hypnotist was attempting to hypnotize her and may react accordingly. Any subsequent attempts to hypnotize the subject (or indeed, anyone else who saw what happened) fail automatically."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The character gathers no successes at this time."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The character gets the required number of successes and the subject is placed in a light trance."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The character gathers five or more successes than required. The character gains a +2 bonus on any Social rolls against the subject for the remainder of the trance."
+                ]
+            },
+            {
+                type: "table",
+                headers: ["Dice modifiers", "Situation"],
+                rows: [
+                    [
+                        "+2",
+                        "The subject is intoxicated, drugged or otherwise mentally impaired."
+                    ],
+                    [
+                        "+1",
+                        "The subject is under peer pressure to submit to hypnosis, most commonly during a stage-hypnotist show."
+                    ]
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Deepening the Trance" }
+                ]
+            },
             "Once a subject is put into a light trance, the character can attempt to hypnotize him further. The player must roll Manipulation + Persuasion (– the subject’s Composure). While such a deep trance lasts, the hypnotist gains a +2 bonus on all Social rolls against the subject (+5 with an exceptional success), she can persuade him to perform almost any non-dangerous action, and she can give post-hypnotic suggestions that can affect the subject’s perceptions or even beliefs (such as the stereotypical depiction of the hypnotist making a subject bark like a dog). A deep trance lasts for a scene, after which the subject goes into a normal sleep and stays out for hours unless awoken by mundane means.",
             "While the subject is in a deep trance, the hypnotist can attempt to get him to perform actions that violate his Morality or Virtue, or that are obviously dangerous or suicidal. The hypnotist must phrase such commands in a manner calculated to work around the subject’s beliefs, however. A conservative preacher might rebel at being ordered to strip down in front of strangers, but if persuaded that he was a male dancer, such inhibitions can be overcome. Commands calculated to overcome Morality or Virtue or that place a subject in grave danger suffer a penalty in a Social roll based on how well the hypnotist works around the subject’s inhibitions.",
-            "<b>Cost:</b> None",
-            "<b>Dice Pool:</b> Manipulation + Persuasion – subject’s Composure",
-            "<b>Action: Instant, although the roll can be made only after at least five minutes of induction",
-            "<b>Roll Results</b><br><b>Dramatic Failure:</b> The hypnotist fails to entrance the subject, who instantly awakens.",
-            "<b>Failure:</b> The character fails to induce the subject to enter a deep trance. Other attempts can be made if time permits.",
-            "<b>Success:</b> The subject is placed in a deep trance. The character gains a +2 bonus on any Social rolls against the target for the remainder of the trance.",
-            "<b>Exceptional Success:</b> The subject is placed into an exceptionally deep trance. The character gains a +5 bonus on all Social rolls against the subject for the rest of the trance.",
-            "<table className='spacing-table' style='min-width: 600px;'><tr className='table-row'><th>Dice modifiers</th><th>Situation</th></tr className={`alternating-row table-clickable`}><tr><td>+2</td><td>The subject is intoxicated, drugged or otherwise mentally impaired.</td></tr><tr className={`alternating-row table-clickable`}><td>+1</td><td>The subject is under peer pressure to submit to hypnosis, most commonly during a stage-hypnotist show.</td></tr></table>",
-            "<b>Memory Recovery</b>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Cost:" },
+                    " None"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dice Pool:" },
+                    " Manipulation + Persuasion – subject’s Composure"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Action: Instant, although the roll can be made only after at least five minutes of induction" }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Roll Results" },
+                    { type: "lineBreak" },
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The hypnotist fails to entrance the subject, who instantly awakens."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The character fails to induce the subject to enter a deep trance. Other attempts can be made if time permits."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The subject is placed in a deep trance. The character gains a +2 bonus on any Social rolls against the target for the remainder of the trance."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The subject is placed into an exceptionally deep trance. The character gains a +5 bonus on all Social rolls against the subject for the rest of the trance."
+                ]
+            },
+            {
+                type: "table",
+                headers: ["Dice modifiers", "Situation"],
+                rows: [
+                    [
+                        "+2",
+                        "The subject is intoxicated, drugged or otherwise mentally impaired."
+                    ],
+                    [
+                        "+1",
+                        "The subject is under peer pressure to submit to hypnosis, most commonly during a stage-hypnotist show."
+                    ]
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Memory Recovery" }
+                ]
+            },
             "Once a subject has been put into a deep trance, the hypnotist can attempt to help him to recover repressed or stolen memories, although doing so might be highly traumatic for the subject depending on the experiences’ nature. The player must roll Manipulation + Persuasion, resisted by the subject’s Resolve + Supernatural Advantage, and accumulate [the subject’s Resolve x5] in successes, all as part of an extended and contested action. The player’s dice pool also suffers a penalty according to the nature of the memories recovered. The hypnotist must achieve an exceptional success (gather five or more successes than needed in the time allowed or under the circumstances) for the subject to be able to recall the repressed memories after waking from the trance. If more successes are ever achieved for the subject in any contested roll, that memory cannot be restored by the hypnotist in this effort. Another attempt may be made after 24 hours.",
-            "<b>Cost:</b> None",
-            "<b>Dice Pool:</b> Manipulation + Persuasion versus the subject’s Resolve + Supernatural Advantage (resistance is reflexive)",
-            "<b>Action:</b> Extended and contested, with each roll representing 30 minutes of hypnotherapy",
-            "<b>Roll Results</b><br>",
-            "<b>Dramatic Failure:</b> The hypnotist’s attempts to dredge up the lost memories traumatizes the subject, inflicting a mild derangement on him.",
-            "<b>Failure:</b> The character gathers no successes at this time.",
-            "<b>Success:</b> The character gets the required number of successes. The subject is able to recall the lost memories while under a trance, but does not recall them while awake.",
-            "<b>Exceptional Success:</b> Five or more successes than required are accumulated. The subject recalls the lost memories after awakening.",
-            "<table className='spacing-table' style='min-width: 600px;'><tr className='table-row'><th>Dice Modifier</th><th>Lost Memories</th></tr><tr className={`alternating-row table-clickable`}><td>—</td><td>Non-traumatic events that have simply been forgotten.</td></tr><tr className={`alternating-row table-clickable`}><td>–2</td><td>Traumatic but mundane events such as childhood circumstances or a sexual assault.</td></tr><tr className={`alternating-row table-clickable`}><td>-4</td><td>“Unintentional” supernatural influences that have affected the subject’s memories, such as Disbelief triggered by the actions of a mage or Lunacy triggered by a werewolf.</td></tr><tr className={`alternating-row table-clickable`}><td>-5</td><td>“Deliberate” supernatural effects intended to alter the subject’s memories, such as vampiric Disciplines or effects created with the Mind Arcana.</td></tr></table>"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Cost:" },
+                    " None"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dice Pool:" },
+                    " Manipulation + Persuasion versus the subject’s Resolve + Supernatural Advantage (resistance is reflexive)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Action:" },
+                    " Extended and contested, with each roll representing 30 minutes of hypnotherapy"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Roll Results" },
+                    { type: "lineBreak" }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The hypnotist’s attempts to dredge up the lost memories traumatizes the subject, inflicting a mild derangement on him."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The character gathers no successes at this time."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The character gets the required number of successes. The subject is able to recall the lost memories while under a trance, but does not recall them while awake."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " Five or more successes than required are accumulated. The subject recalls the lost memories after awakening."
+                ]
+            },
+            {
+                type: "table",
+                headers: ["Dice Modifier", "Lost Memories"],
+                rows: [
+                    [
+                        "—",
+                        "Non-traumatic events that have simply been forgotten."
+                    ],
+                    [
+                        "–2",
+                        "Traumatic but mundane events such as childhood circumstances or a sexual assault."
+                    ],
+                    [
+                        "-4",
+                        "“Unintentional” supernatural influences that have affected the subject’s memories, such as Disbelief triggered by the actions of a mage or Lunacy triggered by a werewolf."
+                    ],
+                    [
+                        "-5",
+                        "“Deliberate” supernatural effects intended to alter the subject’s memories, such as vampiric Disciplines or effects created with the Mind Arcana."
+                    ]
+                ]
+            }
 
         ],
         "Book": "SS 66",
@@ -430,7 +760,13 @@ const uniMeritsMentalData = [
         "Description": "Memorize information perfectly; roll to memorize for entire scene (i.e. everything a character could sense in a given moment) instead of specific information or sensory input",
         "LongDescription": [
             "Your character can remember the events of a single scene or a day’s worth of study perfectly as long as she has a turn to concentrate. During this turn (in which she cannot engage in combat or other stressful situations), the character uses a special technique to commit what she has learned to memory. (You should write a brief note about this on the character sheet.) After that, during peaceful times, you no longer need to make dice rolls to remember details about that event or piece of knowledge, and you can ask the Storyteller to fill in details that you might have forgotten.",
-            "<b>Drawback:</b> Just as for any other character, you must make an Intelligence + Composure roll for the character to remember any additional details about a subject during stressful situations (such as combat). You gain no bonus to this roll; your enhanced memory is a matter of training and organized thinking, not off-the-cuff recall."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Just as for any other character, you must make an Intelligence + Composure roll for the character to remember any additional details about a subject during stressful situations (such as combat). You gain no bonus to this roll; your enhanced memory is a matter of training and organized thinking, not off-the-cuff recall."
+                ]
+            }
         ],
         "Book": "GotV 46",
     },
@@ -503,7 +839,12 @@ const uniMeritsPhysicalData = [
         "Description": "Remove off-hand penalty",
         "LongDescription": [
             "Your character does not suffer the -2 penalty for using his off-hand in combat or to perform other actions.",
-            "<i>Available at character creation only.</i>"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Available at character creation only." }
+                ]
+            }
         ],
         "Book": "WoD 110",
     },
@@ -581,7 +922,13 @@ const uniMeritsPhysicalData = [
         "Description": "Successful, defenseless Brawl strike adds damage as bonus to subsequent grappling attack",
         "LongDescription": [
             "Your character knows how to strike an opponent to upset his balance, making it easy for you to take him down. If you inflict damage with a Brawl-based strike, you gain a dice bonus equal to the damage you inflicted to a subsequent grappling hold (or shihonage, if you know the Aikido Fighting Style) attempt. This must be your next attack.",
-            "<b>Drawback:</b> Your Defense does not apply during the turn in which you attempt an entering strike."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your Defense does not apply during the turn in which you attempt an entering strike."
+                ]
+            }
         ],
         "Book": "Reload 72",
     },
@@ -592,7 +939,13 @@ const uniMeritsPhysicalData = [
         "Description": "Add size of blunt weapon (3 or less) to overpowering maneuver dice pool",
         "LongDescription": [
             "Your character knows how to use a blunt weapon to enhance her holds and locks. She presses the weapon against joints and muscle groups, or forces compliance with a few short blows. If she has a blunt weapon in hand, add the weapon’s Size to her Strength + Brawl pool whenever she attempts overpowering maneuvers.",
-            "<b>Drawbacks:</b> This benefit doesn’t apply to initial attempts to establish a grapple. It only works with weapons that have a maximum Size of 3."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawbacks:" },
+                    " This benefit doesn’t apply to initial attempts to establish a grapple. It only works with weapons that have a maximum Size of 3."
+                ]
+            }
         ],
         "Book": "Reload 89",
     },
@@ -625,7 +978,13 @@ const uniMeritsPhysicalData = [
         "Description": "Subtract Brawl dots from attempts to disarm by overpowering",
         "LongDescription": [
             "Your character knows how to keep a hold of his gun when someone tries to take it, even while it’s holstered. If an opponent attempts to disarm her with an overpower maneuver, an attempt to target her holster with a grab (see the World of Darkness rulebook, p. 138) or use a similar tactic learned from a Fighting Style, he must subtract your character’s Brawl dots from his dice pool. This benefit also applies to attempts to steal the weapon from your character’s holster.",
-            "<b>Drawback:</b> This benefit doesn’t apply against attempts to take a weapon by stealth."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " This benefit doesn’t apply against attempts to take a weapon by stealth."
+                ]
+            }
         ],
         "Book": "Reload 89",
     },
@@ -647,7 +1006,13 @@ const uniMeritsPhysicalData = [
         "Description": "Delay action into next round",
         "LongDescription": [
             "Your character dedicates an action to altering his standing in the Initiative order in the following turn and for all subsequent turns, choosing to insert himself at a new point in the roster, even if it means going first when he went last before. For example, if your Initiative roll (see p. 151) resulted in a 9, but a rival whom your character wanted to waylay got a 12, your character can forfeit an action in turn one to get a fresh start and then act before that rival at 13 in turn two and afterward.",
-            "<b>Drawback:</b> A character must take an action to change his Initiative ranking in subsequent turns. He can do nothing else in that action except move up to his Speed."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " A character must take an action to change his Initiative ranking in subsequent turns. He can do nothing else in that action except move up to his Speed."
+                ]
+            }
         ],
         "Book": "WoD 112",
     },
@@ -658,8 +1023,19 @@ const uniMeritsPhysicalData = [
         "Description": "+1 Size",
         "LongDescription": [
             "Your character is seven or more feet tall and over 250 pounds. He is +1 Size (and thus +1 Health).",
-            "<i>Available at character creation only.</i>",
-            "<b>Drawback:</b> Your character needs to shop in big-and-tall clothing stores or gets clothes custom tailored. He might also be required to purchase two seats for air travel, depending on the airline."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Available at character creation only." }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character needs to shop in big-and-tall clothing stores or gets clothes custom tailored. He might also be required to purchase two seats for air travel, depending on the airline."
+                ]
+            }
         ],
         "Book": "WoD 112",
     },
@@ -681,7 +1057,13 @@ const uniMeritsPhysicalData = [
         "LongDescription": [
             "Your character’s capability and experience with firearms is such that he can accurately fire two pistols at the same time. Your character still suffers the -2 offhand penalty for shooting with his secondary hand (unless he also possesses the Ambidextrous Merit, above), but he can shoot both pistols as a single action during a turn. The second attack is also at a -1 penalty. Your character may shoot at two different targets if he wishes, but the amount of concentration required negates his Defense for the turn.",
             "The Merit can be used with pistols only.",
-            "<b>Drawback:</b> Your character cannot use his Defense against any attack in the same turn in which he intends to use this Merit on two separate targets in the same turn. If he uses Defense against attacks that occur earlier in the Initiative roster, before he can perform this maneuver, he cannot perform the maneuver this turn. He is too busy bobbing and weaving out of the way of attacks."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character cannot use his Defense against any attack in the same turn in which he intends to use this Merit on two separate targets in the same turn. If he uses Defense against attacks that occur earlier in the Initiative roster, before he can perform this maneuver, he cannot perform the maneuver this turn. He is too busy bobbing and weaving out of the way of attacks."
+                ]
+            }
         ],
         "Book": "WoD 112",
     },
@@ -692,7 +1074,13 @@ const uniMeritsPhysicalData = [
         "Description": "+1 damage to unarmed strikes",
         "LongDescription": [
             "Your character has a strong upper body, tough knuckles and enough raw aggression to punch harder than most people. Her strikes inflict +1 damage. This even applies when she’s wearing knuckledusters or other blunt fist loads.",
-            "<b>Drawback:</b> The benefit does not apply to biting, grappling attacks or sharp weapons (including blades or spiked fist loads) – just standard unarmed strikes. "
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The benefit does not apply to biting, grappling attacks or sharp weapons (including blades or spiked fist loads) – just standard unarmed strikes. "
+                ]
+            }
         ],
         "Book": "Reload 98",
     },
@@ -704,7 +1092,13 @@ const uniMeritsPhysicalData = [
         "LongDescription": [
             "Each dot eliminates a negative modifier (on a one-for-one basis) when resisting the effects of fatigue or injury. For example: A character with Iron Stamina •• is able to ignore up to a -2 modifier brought on by fatigue. See “Fatigue,” p. 179. The Merit also counteracts the effects of wound penalties. So, if all of your character’s Health boxes are filled (which normally imposes a -3 penalty to his actions) and he has Iron Stamina •, those penalties are reduced to -2. This Merit cannot be used to gain positive modifiers for actions, only to cancel out negative ones.",
             "Your character can push his body well past the limits of physical endurance when he has to, pressing on in the face of mounting exhaustion or pain. Perhaps he trained himself to go without sleep for days at a time in order to get through college, or a lifetime of sports has taught your character how to play through the pain no matter how bad it gets.",
-            "<b>Drawback:</b> When your character does finally rest, he sleeps like the dead. After staying awake for an extended period, your character is extremely difficult to wake until he’s slept for a minimum of 12 hours, regardless of the situation."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " When your character does finally rest, he sleeps like the dead. After staying awake for an extended period, your character is extremely difficult to wake until he’s slept for a minimum of 12 hours, regardless of the situation."
+                ]
+            }
         ],
         "Book": "WoD 112",
     },
@@ -864,7 +1258,13 @@ const uniMeritsPhysicalData = [
         "Description": "+2 on Stamina rolls to resist toxins",
         "LongDescription": [
             "Your character gains a +2 modifier to Stamina rolls to resist the effects of drugs, poisons and toxins. His body is capable of withstanding high levels of chemicals without suffering any ill effects. He’s probably never had a case of food poisoning, much less a hangover.",
-            "<b>Drawbacks:</b> Your character’s body can’t tell the difference between recreational toxins and intentional ones. It’s very difficult for him to become intoxicated, whether from alcohol, nicotine or other drugs. Also, painkillers and anesthetics are only half as effective as normal."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawbacks:" },
+                    " Your character’s body can’t tell the difference between recreational toxins and intentional ones. It’s very difficult for him to become intoxicated, whether from alcohol, nicotine or other drugs. Also, painkillers and anesthetics are only half as effective as normal."
+                ]
+            }
         ],
         "Book": "WoD 113"
     },
@@ -918,7 +1318,13 @@ const uniMeritsSocialData = [
             "The Storyteller has final say over what is an acceptable request and what is not. If there’s any doubt, the Storyteller could call for a Manipulation + Persuasion roll, with a bonus equal to your character’s Allies dots. Penalties might also apply based on the importance or danger of the request. Asking someone to do something already in the bounds of their role imposes no modifier, while asking them to do something that could get them suspended imposes a -3 penalty, and asking for something that could get them jailed or killed is -5. Frequent favors asked of the same group also imposes a penalty as group members grow tired of being called upon.",
             "Similarly, a roll of Manipulation + Persuasion + Allies dots could determine how many police answer your character’s call for help, or how many longshoremen turn up when your character needs a show of force (one per success rolled).",
             "Allies doesn’t have to be defined in terms of specific individuals over whom your character has sway. He could simply know a variety of people among city reporters and he can call upon them in general from time to time. You should, however, explain why your character has influence in a particular body. Maybe he worked there himself at one time and still has friends in the organization. Or he has done a group a favor and its members still owe him.",
-            "<b>Drawback:</b> Allies are not automatons, waiting for your character to ask for help. They have their own lives and needs. An alliance is a two-way relationship. Calling for favors makes your character indebted to his friends, and they are sure to call such favors in when they need help. The Storyteller can use such debts as inspiration for future stories."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Allies are not automatons, waiting for your character to ask for help. They have their own lives and needs. An alliance is a two-way relationship. Calling for favors makes your character indebted to his friends, and they are sure to call such favors in when they need help. The Storyteller can use such debts as inspiration for future stories."
+                ]
+            }
         ],
         "Book": "WoD 114"
     },
@@ -933,7 +1339,13 @@ const uniMeritsSocialData = [
             "The number of dots spent on this Merit determines how convincing and in-depth the documentation surrounding this new life actually is. Alternate Identity (●) represents an identity that passes casual inspection, but not much else  a character can go shopping and get around in most daily situations, but any kind of trained scrutiny such as from a police officer or bureaucrat immediately identifies this identity as a fake. Alternate Identity (●●) creates an identity that will pass most forms of relatively cursory professional inspection, but cannot stand up to a sustained investigation.",
             "A police officer that pulls your character over will not automatically pick up anything unusual if she runs the character’s license plates or calls up his name in a database. However, if your character is arrested and the police begin a formal investigation his identity will quickly unravel. Alternate Identity (●●●●) represents an identity that is essentially as real as any identity can be  it takes a truly dedicated, competent and time-consuming search by trained professionals to uncover any hint that the purified isn’t exactly who he claims to be, at least as far as his documentation is concerned.",
             "This Merit may be purchased multiple times at multiple ratings, each time representing a different identity. Also, an identity may also be upgraded later with the appropriate in-game explanation and experience expenditure. In the case of certain Merits such as Resources or Status, it might also be worth noting to which identity these Merits are tied, since a character may not easily be able to access or maintain them if that identity is compromised.",
-            "<b>Drawback:</b> Although one-dot Alternate Identities require no maintenance, both of the more thorough versions do. If someone checks on a legal identity, they will immediately become suspicious if the person has no legal address or magazine subscriptions, pays no taxes and has no phone number. Similarly, if all of this data exactly matches your character’s primary legal identity, many people soon realize both of these identities belong to the same individual. Therefore, your character must take time and spend money to maintain any two or four-dot Alternate Identities.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Although one-dot Alternate Identities require no maintenance, both of the more thorough versions do. If someone checks on a legal identity, they will immediately become suspicious if the person has no legal address or magazine subscriptions, pays no taxes and has no phone number. Similarly, if all of this data exactly matches your character’s primary legal identity, many people soon realize both of these identities belong to the same individual. Therefore, your character must take time and spend money to maintain any two or four-dot Alternate Identities."
+                ]
+            },
             "Having the identity make frequent trips to remote locations and similar inventive dodges can reduce the frequency of this maintenance. The amount of maintenance needed to keep a two-dot identity looking legitimate is fairly minimal, requiring only a few hours of work every month.",
             "However, keeping a four-dot identity believable requires at least several hours of work every week. Failure to perform this upkeep on an identity causes it to be reduced to the next lowest level. However, alternate identities never fall lower than one dot. Paying Experience Points to upgrade an identity represents the effort needed to build it back up. Characters can also pay criminal organizations to maintain alternate identities, but doing so causes its own problems, including both the cost and the possibility of blackmail."
         ],
@@ -949,7 +1361,13 @@ const uniMeritsSocialData = [
             "To purchase the Merit, you must decide the backstory between your feral and his friend. Does their bond predate the First Change? If so, how old is the animal now, and how did their affinity survive her “master’s” new life? Is this a new companion, and if so, how did the normal animal bond with the shapechanging beast? Whatever their tale might be, this companion is smart, useful and independent. A rat in a cage or a dog in the yard isn’t a Merit — she’s a pet.",
             "The dots in this Merit reflect the animal’s power, intellect and often size. The higher the trait, the more capable the companion. A one-dot beast could be a smart rat or clever bird, a two-dot Merit might reflect a loyal (if finicky) cat, three points could buy a common-looking but brilliant companion such as Lassie or Trigger; at the top of the scale, the companion stands out in any setting — a tiger, bear, dolphin or chimpanzee whose physical and mental capacity would be impressive even if she weren’t devoted to her apparent “master.”",
             "Unless the Animal Companion is driven off by poor treatment or otherwise killed, she remains a loyal element in the character’s life. She will do whatever she can to assist him, and regard him with the ultimate affection. The details, naturally, depend on her species — a devoted cat or loyal snake won’t show devotion the way a dog might. Still, unless that bond is severed by death or abuse, the Animal Companion is yours for life. (If this “Merit” is killed off, all points regarding her are lost.)",
-            "<b>Drawback:</b> Unlike the Retainer Merit, an Animal Companion is just that: an animal. She won’t have free access to Man’s world, and remains limited by manual dexterity, mental perspective and social rules. Lassie may be a great dog, but she still can’t drive to the bank and cash a check.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Unlike the Retainer Merit, an Animal Companion is just that: an animal. She won’t have free access to Man’s world, and remains limited by manual dexterity, mental perspective and social rules. Lassie may be a great dog, but she still can’t drive to the bank and cash a check."
+                ]
+            },
             "Powerful animals are often exotic, too, and they stand out on a city street. Most places have laws against horses in public, and almost all human societies regulate private “ownership” of tigers, bears and so forth. The beast may spook other animals, and will probably follow her instincts if prey happens to be nearby. Loyal as she might be, this friend retains her bestial habits and needs; she might trash an office, eat a garden or throw feces at the cops if that’s what seems natural. Your feral might adore his companion, but a smart, powerful animal remains a high-maintenance friend."
         ],
         "Book": "CB 95"
@@ -979,7 +1397,13 @@ const uniMeritsSocialData = [
             "The maximum Damage or Defense rating possible for any Armory equipment is equal to the Merit’s dots +1. Firearms come with a full load or magazine. One Armory point adds an additional load or magazine.",
             "You don’t need to account for every single knife and gun, and in fact, there are more parts and arms than the pool would allow — the equivalent of the classic briefcase or rack full of guns. Your total represents arms in good enough repair to actually use. You may change weapon selections freely as long as the choices could plausibly fit under the general descriptor.",
             "Similar to the Sanctum or Library Merits, it’s possible to purchase this Merit collectively, dividing its benefits among the entire group.",
-            "<b>Drawback:</b> Unlike arms and armor purchased with standard Resources, Armory gear is gray market at best. It includes a selection of stolen, illegally modified or improperly registered weapons. If the authorities discover your Armory, you might incur a fine or imprisonment."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Unlike arms and armor purchased with standard Resources, Armory gear is gray market at best. It includes a selection of stolen, illegally modified or improperly registered weapons. If the authorities discover your Armory, you might incur a fine or imprisonment."
+                ]
+            }
         ],
         "Book": "Ban 51"
     },
@@ -1011,12 +1435,48 @@ const uniMeritsSocialData = [
         "LongDescription": [
             "Contacts provide your character information in a particular area of awareness. Each dot in this Merit represents one arena or circle in which your character has a web of connections and from which he may draw information. If he has Contacts •••, his dots might be assigned to computer hackers, couriers and big business, respectively. Contacts can include individuals whom you or the Storyteller defines, but more likely they comprise an array of people from whom your character can draw information with a phone call, email or face-to-face query. Contacts is strictly information-gathering. Contacts do not come perform services for your character or rush to his aid. Those actions are the purview of other Merits such as Allies and Retainer.",
             "Gaining information from contacts requires a successful Manipulation + Persuasion or Socialize roll, depending on the relationship between your character and the people in question. Penalties might apply if the information sought is little known (-1 to -3), confidential (-3), or if sharing it could get people in trouble or harmed (-3 to 5). Success doesn’t guarantee exactly the information for which your character looks. Contacts aren’t all-knowing, and the Storyteller is perfectly justified in saying that a particular contact simply doesn’t know something.",
-            "<b>Dramatic Failure:</b> The contact doesn’t tell your character the full extent of what he knows, or provides misleading information. Perhaps he’s holding out for money or favors, or simply makes an honest mistake.",
-            "<b>Failure:</b> The contact doesn’t have the information your character needs.",
-            "<b>Success:</b> The contact is able to provide some information that’s helpful to your character.",
-            "<b>Exceptional Success:</b> The contact is able to provide a wealth of information to your character, providing answers to questions that aren’t even asked.",
-            "<b>Suggested Equipment:</b> Gift (+1), small bribe (+1), large bribe (+2), an outstanding favor (+1 to +3)",
-            "<b>Possible Penalties:</b> Lack of bribe (-1), frequent and recent requests (-1 to -2), information confidential (-1 to -3), information scarce (-2), information obscure (-3)"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The contact doesn’t tell your character the full extent of what he knows, or provides misleading information. Perhaps he’s holding out for money or favors, or simply makes an honest mistake."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The contact doesn’t have the information your character needs."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The contact is able to provide some information that’s helpful to your character."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The contact is able to provide a wealth of information to your character, providing answers to questions that aren’t even asked."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Suggested Equipment:" },
+                    " Gift (+1), small bribe (+1), large bribe (+2), an outstanding favor (+1 to +3)"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Possible Penalties:" },
+                    " Lack of bribe (-1), frequent and recent requests (-1 to -2), information confidential (-1 to -3), information scarce (-2), information obscure (-3)"
+                ]
+            }
         ],
         "Book": "WoD 115"
     },
@@ -1030,7 +1490,13 @@ const uniMeritsSocialData = [
             "The three-dot, four-dot and five-dot Merits indicate an exceptional award: the Silver Star for the three-dot Merit; the Distinguished Service Medal or Distinguished Service Cross for the four-dot Merit; and the Medal of Honor for the five-dot Merit.",
             "Those who have earned the Medal of Honor are entitled to a salute regardless of rank or whether they are now civilians.",
             "Servicemen and servicewomen who have received lethal injuries as a result of combat during a military action are automatically awarded the Purple Heart, a two-dot Merit.",
-            "<b>Drawback:</b> This Merit rides on the world’s perception of the character’s honor and Morality. The character must be seen to retain honor and dignity in his actions. Should the character commit sins rated 5 or lower on the Morality chart, and should those sins become public knowledge, the Merit may be revoked, earning him the Notoriety Flaw (see “Character Flaws”, the World of Darkness Rulebook, p. 217)."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " This Merit rides on the world’s perception of the character’s honor and Morality. The character must be seen to retain honor and dignity in his actions. Should the character commit sins rated 5 or lower on the Morality chart, and should those sins become public knowledge, the Merit may be revoked, earning him the Notoriety Flaw (see “Character Flaws”, the World of Darkness Rulebook, p. 217)."
+                ]
+            }
         ],
         "Book": "DoW 39"
     },
@@ -1054,7 +1520,13 @@ const uniMeritsSocialData = [
         "LongDescription": [
             "Your character has a measure of recognition in today’s media-saturated society, possibly as a performer, athlete, politician or other sort of public personality. He’s frequently identified and can often get star treatment. On the other hand, it’s difficult for your character to go places without being recognized, and the media watches him carefully.",
             "Each dot adds a +1 modifier to your character’s Socialize (or Persuasion, where applicable) rolls among those who are impressed by his celebrity status.",
-            "<b>Drawback:</b> The more famous your character is, the more easily he is recognized by the public. The Storyteller should apply the same +1 modifier per dot to a general Wits + Composure roll to see if he is recognized by anyone on the street. An exceptional success indicates that one or more people are loyal fans who approach him for autographs, pictures and long conversations."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The more famous your character is, the more easily he is recognized by the public. The Storyteller should apply the same +1 modifier per dot to a general Wits + Composure roll to see if he is recognized by anyone on the street. An exceptional success indicates that one or more people are loyal fans who approach him for autographs, pictures and long conversations."
+                ]
+            }
         ],
         "Book": "WoD 115"
     },
@@ -1111,7 +1583,13 @@ const uniMeritsSocialData = [
             "Many Seers of the Throne possess this Merit. It doesn’t represent flexible resources but the ability to live a privileged lifestyle without spending money. Seers acquire this through blackmail, favor trading and investments in businesses and other organizations that cater to the elite.",
             "Your character lives like a millionaire or better, regardless of her actual Resources. She wears fine clothes, drives expensive cars and can always get a spot at exclusive restaurants and resorts. She doesn’t pay for any of it through cash transactions. Instead, her social ties and backers provide these creature comforts.",
             "The •• version of this Merit provides the luxuries someone with US$5 million in assets (or Resources 5) could enjoy without breaking the bank. She always flies first class or in a chartered plane. There’s a Porsche waiting for her at the airport, and she can always get past the bodyguards at a nightclub. The •••• version of the Merit provides the kind of lifestyle that alternately fascinates and disgusts the rest of the world. The character has jets and helicopters at her constant disposal, rubs shoulders with celebrities and can count on a staff of assistants willing to cater to her every legal whim — and a few illegal ones (recreational drugs and prostitutes, for example).",
-            "<b>Drawback:</b> Your character’s luxuries ultimately belong to somebody else. They are for her personal use. She can have guests, of course, but can’t support them for an extended period of time. If she tries to resell or earn money using this Merit she finds that she either can’t move her borrowed assets, or is punished with the loss of this Merit. This Merit cannot be used to acquire weaponry or illegal items."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character’s luxuries ultimately belong to somebody else. They are for her personal use. She can have guests, of course, but can’t support them for an extended period of time. If she tries to resell or earn money using this Merit she finds that she either can’t move her borrowed assets, or is punished with the loss of this Merit. This Merit cannot be used to acquire weaponry or illegal items."
+                ]
+            }
         ],
         "Book": "SotT 52"
     },
@@ -1172,7 +1650,13 @@ const uniMeritsSocialData = [
         "LongDescription": [
             "Your character has received initiation into one of the Shadow Cults of the Mekhet (for example, the Moulding Room, the Followers of Seth or the Moirai). On the first occasion you meet another member of the cult, you gain a bonus to Social rolls for the duration of the scene, equal to your dots in this Merit. Interacting with that individual from that point on is based solely on your own abilities.",
             "Other benefits come from Initiation into a Shadow Cult, depending on the cult and the number of dots the character has gained in his or her Initiation.",
-            "<b>Drawback:</b> Initiation into a Shadow Cult carries with it duties, and failure to perform those duties can cause dots in this Merit to fall, although benefits gained from initiations (such as access to the cults’ proprietary Disciplines) don’t go away once learned or otherwise paid for. A character with more than one dot of Initiation into any Shadow Cult can become initiated into others, but can never gain more than one dot in any other cult."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Initiation into a Shadow Cult carries with it duties, and failure to perform those duties can cause dots in this Merit to fall, although benefits gained from initiations (such as access to the cults’ proprietary Disciplines) don’t go away once learned or otherwise paid for. A character with more than one dot of Initiation into any Shadow Cult can become initiated into others, but can never gain more than one dot in any other cult."
+                ]
+            }
         ],
         "Book": "Mekh 121"
     },
@@ -1184,7 +1668,13 @@ const uniMeritsSocialData = [
         "LongDescription": [
             "The character is familiar with the tactical application of force by a small unit: no unit larger than a platoon. The character must be in charge of the unit in question for it to benefit from his tactical leadership.",
             "When conducting a tactical maneuver such as a flanking attack, covering fire or when in a CQB (Close Quarters battle) or FIBUA (Fighting In Built Up Areas, aka Urban Warfare) situation, in any turn, the leader may spend 1 Willpower and roll Manipulation + Persuasion reflexively to issue a command to his unit. The Willpower bonus of +3, or +2 to a defensive dice pool, applies to all the men in the unit in that turn, including the leader. Any individual member may also stack their own Willpower expenditure and bonus on top of the leadership bonus conferred by the leader.",
-            "<b>Drawback:</b> The Willpower bonus only applies in a situation in which the leader and his men are already well trained, using tactics familiar to all men in the unit. In game terms, all members of the team, including the leader, must have gained 1 experience point at some prior stage whilst under the guidance of the leader. If a situation arises for which there is no SOP (Standard Operating Procedure), the leadership bonus does not apply unless it is applied to a defensive dice pool."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The Willpower bonus only applies in a situation in which the leader and his men are already well trained, using tactics familiar to all men in the unit. In game terms, all members of the team, including the leader, must have gained 1 experience point at some prior stage whilst under the guidance of the leader. If a situation arises for which there is no SOP (Standard Operating Procedure), the leadership bonus does not apply unless it is applied to a defensive dice pool."
+                ]
+            }
         ],
         "Book": "DoW 39"
     },
@@ -1212,15 +1702,75 @@ const uniMeritsSocialData = [
             "The phrase “within the confines and definitions of his group” is emphasized above because Status operates exclusively through official channels. A surgeon might have one patient seen or operated on before another, because that’s within the official confines of his authority. Exceeding the confines of authority or proper channels transcends the limits of the Status Merit. Going above and beyond — to ask for favors rather than give orders or to requisition an official request — enters the realm of the Allies Merit. So, a police detective who gets a lower-ranking officer to investigate a case may do so with Status. That request is conducted through proper channels. Meanwhile, a police detective who asks another officer to overlook some evidence or to delay an investigation does so with Allies. The favor is asked outside official channels.",
             "While Status might allow your character to give orders to underlings, the Merit doesn’t automatically get results. Subordinates or co-workers might resent their assignments, dislike your character or have personal agendas that interfere with your character’s needs. Efforts to get things done through official channels still call for Manipulation + Intimidation, Persuasion or Socialize rolls, whichever Skill is appropriate to the request, circumstances and your character’s standing within the organization. Bonus dice equal your character’s Status dots. Penalties might apply if your character browbeats someone (1), uses threats (-2), skirts the limits of his authority (-2) or exceeds his authority (-3 to -5).",
             "Some sample organizations and the basic benefits, perks and privileges of standing in them are listed below.",
-            "<b>City Police:</b> A patrol officer has legal powers of search, seizure and arrest, is permitted to carry a firearm at all times and has access to a wide range of local databases. High-ranking officers (•••+) can initiate investigations, coordinate with neighboring county or state police, and call in urban-assault teams.",
-            "<b>Clerical Standing:</b> Your character is a licensed minister, gaining access to people and places such as accused criminals, hospital patients, crime and accident scenes, and restricted areas in religious institutions. <b>Prerequisite:</b> Academics Skill Specialty: Religion.",
-            "<b>Corporate Executive:</b> A low-level corporate executive has access to much of the company’s resources, including corporate credit cards, vehicles, cell phones and computer equipment. Depending on the company, he can also access sources of information and influence not available to the general public. Executives (•••+) have larger salaries, expense accounts, and hiring and firing powers, not to mention social perks and access to connected political figures and/or celebrities.",
-            "<b>Diplomat:</b> Your character is a registered diplomat for a sovereign country. If he works in a foreign country he has free lodging, access to his country’s embassy and immunity from foreign criminal prosecution. Prerequisites: Politics •• and Persuasion ••.",
-            "<b>Licensed Professional:</b> Your character is licensed in a recognized profession that affords him privileges unavailable to most civilians. He might be a private investigator and authorized to carry a concealed weapon and to have access to restricted databases and government files, or he could be a building contractor and be authorized to own and use explosives for professional applications. <b>Prerequisite:</b> Academics Skill Specialty: Law (private investigator), Science Skill Specialty: Demolitions (building contractor).",
-            "<b>Medical:</b> Your character is licensed to practice medicine. He can write prescriptions, access medical records and gain access to restricted areas such as crime and accident scenes. <b>Prerequisite:</b> Medicine ••.",
-            "<b>Military:</b> An enlisted soldier has a monthly stipend, is permitted to possess military-grade firearms and has access to restricted sources of information and equipment. If he is an active-duty soldier he receives free room and board and medical care. High-ranking soldiers (•••+) are officers who can command units, requisition military equipment and perhaps even initiate foreign insurgencies.",
-            "<b>Rotary Club:</b> A basic member in good standing has access to the local meeting hall and a network of members who can provide club-related information or perform club-related duties. A basic member can also benefit from the organization’s emergency fund in times of need. Highranking members (•••+) have access to other clubs around the country, and have sway over connected civic groups and political figures.",
-            "<b>Drawback:</b> Your character’s standing in a given organization is dependent on the fulfillment of his duties and on abiding by the regulations required of members."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "City Police:" },
+                    " A patrol officer has legal powers of search, seizure and arrest, is permitted to carry a firearm at all times and has access to a wide range of local databases. High-ranking officers (•••+) can initiate investigations, coordinate with neighboring county or state police, and call in urban-assault teams."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Clerical Standing:" },
+                    " Your character is a licensed minister, gaining access to people and places such as accused criminals, hospital patients, crime and accident scenes, and restricted areas in religious institutions. ",
+                    { type: "bold", text: "Prerequisite:" },
+                    " Academics Skill Specialty: Religion."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Corporate Executive:" },
+                    " A low-level corporate executive has access to much of the company’s resources, including corporate credit cards, vehicles, cell phones and computer equipment. Depending on the company, he can also access sources of information and influence not available to the general public. Executives (•••+) have larger salaries, expense accounts, and hiring and firing powers, not to mention social perks and access to connected political figures and/or celebrities."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Diplomat:" },
+                    " Your character is a registered diplomat for a sovereign country. If he works in a foreign country he has free lodging, access to his country’s embassy and immunity from foreign criminal prosecution. Prerequisites: Politics •• and Persuasion ••."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Licensed Professional:" },
+                    " Your character is licensed in a recognized profession that affords him privileges unavailable to most civilians. He might be a private investigator and authorized to carry a concealed weapon and to have access to restricted databases and government files, or he could be a building contractor and be authorized to own and use explosives for professional applications. ",
+                    { type: "bold", text: "Prerequisite:" },
+                    " Academics Skill Specialty: Law (private investigator), Science Skill Specialty: Demolitions (building contractor)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Medical:" },
+                    " Your character is licensed to practice medicine. He can write prescriptions, access medical records and gain access to restricted areas such as crime and accident scenes. ",
+                    { type: "bold", text: "Prerequisite:" },
+                    " Medicine ••."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Military:" },
+                    " An enlisted soldier has a monthly stipend, is permitted to possess military-grade firearms and has access to restricted sources of information and equipment. If he is an active-duty soldier he receives free room and board and medical care. High-ranking soldiers (•••+) are officers who can command units, requisition military equipment and perhaps even initiate foreign insurgencies."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Rotary Club:" },
+                    " A basic member in good standing has access to the local meeting hall and a network of members who can provide club-related information or perform club-related duties. A basic member can also benefit from the organization’s emergency fund in times of need. Highranking members (•••+) have access to other clubs around the country, and have sway over connected civic groups and political figures."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character’s standing in a given organization is dependent on the fulfillment of his duties and on abiding by the regulations required of members."
+                ]
+            }
         ],
         "Book": "WoD 116"
     },
@@ -1233,7 +1783,13 @@ const uniMeritsSocialData = [
             "Your character is exceptionally attractive by modern standards; heads turn and conversations stop when she enters a room.",
             "For two dots, your character gets a +1 modifier to all Presence or Manipulation rolls when she attempts to use her looks to entertain, persuade, distract or deceive others.",
             "For four dots, your character’s looks are angelic; she gets a +2 modifier.",
-            "<b>Drawback:</b> The more attractive your character is, the harder it is for her to avoid notice in public. Witnesses to any criminal acts are much more likely to remember your character’s appearance, and easily recognize her in a lineup. Your character is also likely to receive a great degree of unwanted attention in social situations."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The more attractive your character is, the harder it is for her to avoid notice in public. Witnesses to any criminal acts are much more likely to remember your character’s appearance, and easily recognize her in a lineup. Your character is also likely to receive a great degree of unwanted attention in social situations."
+                ]
+            }
         ],
         "Book": "WoD 117"
     },
@@ -1244,7 +1800,13 @@ const uniMeritsSocialData = [
         "Description": "A shared community complicit in dark deeds. While you remain in good standing, you may spend Willpower for bonus dice to resist gaining a derangement from the community's practices.",
         "LongDescription": [
             "With this Merit, the character has access to a number of likeminded individuals who share in a particular depraved act. This support network offers sympathy that most could not. This Merit allows the character to spend a Willpower point to gain the usual three-dice bonus on the roll to resist gaining a derangement, if the action causing the roll is acceptable to the members of the group.",
-            "<b>Drawback:</b> The group expects the character to act as support for other members, and the group may call her in to perform other perverse acts in kind, such as body disposal. This can lead a character to an even quicker path to moral degradation."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The group expects the character to act as support for other members, and the group may call her in to perform other perverse acts in kind, such as body disposal. This can lead a character to an even quicker path to moral degradation."
+                ]
+            }
         ],
         "Book": "Imm 82"
     },
@@ -1303,7 +1865,13 @@ const uniMeritsSupernaturalData = [
         "Description": "+2 to resist the control or influence of ghosts and spirits",
         "LongDescription": [
             "Your character is remarkably resistant to being Urged, Ridden or Possessed by spirits or ghosts. The character adds two dice to all contested rolls against spirits’ attempts to affect her in that way (or with other forms of mental control), or adds two to her Resistance traits (if subtracted from a spirit’s roll). Whether this is because of a hardening experience in her past or some hereditary predisposition depends on the story.",
-            "<b>Drawback:</b> Many spirits are angered by strong resistance and eager to get revenge. Others just want to eliminate such people so they never spawn more. Either way, your character becomes a target once her resistance becomes clear."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Many spirits are angered by strong resistance and eager to get revenge. Others just want to eliminate such people so they never spawn more. Either way, your character becomes a target once her resistance becomes clear."
+                ]
+            }
         ],
         "Book": "BoS 108"
     },
@@ -1315,7 +1883,13 @@ const uniMeritsSupernaturalData = [
         "LongDescription": [
             "Some drivers have good luck charms for their vehicles. A hula girl on the dashboard, a Saint Christopher medal on one’s keychain, a pair of beloved fuzzy dice, a cup holder full of the knucklebones of a vanquished enemy. Sometimes, such items are just icons of luck that doesn’t really manifest. Other times, the driver imparts a tiny portion of his own soul and will into the artifact, and it genuinely grants him some measure of luck when driving.",
             "For every dot purchased, the charm can increase by +1 the following statistics of a chosen vehicle: Durability, Structure, Acceleration, Handling.",
-            "<b>Drawback:</b> The driver’s charm works for only a single scene once per day, and requires one Willpower point from the driver to become active. Also, the charm is “attuned” only to one vehicle. If that vehicle wrecks, the charm (if it survived) can be re-attuned to a new vehicle, but doing so costs the driver a dot of Willpower. (Remember that recouping a dot of lost or spent Willpower costs eight experience points.)"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The driver’s charm works for only a single scene once per day, and requires one Willpower point from the driver to become active. Also, the charm is “attuned” only to one vehicle. If that vehicle wrecks, the charm (if it survived) can be re-attuned to a new vehicle, but doing so costs the driver a dot of Willpower. (Remember that recouping a dot of lost or spent Willpower costs eight experience points.)"
+                ]
+            }
         ],
         "Book": "MR 56"
     },
@@ -1327,7 +1901,13 @@ const uniMeritsSupernaturalData = [
         "LongDescription": [
             "Your character knows how to relax and let a spirit or ghost possess her. She forgoes any contesting roll or Resistance trait, and the possession takes place as long as the spirit rolls a single success. Possessing spirits gain full, penalty-free control over the character’s faculties immediately, without any muss or fuss. She remains aware of what is going on during the possession and has a couple of extra options.",
             "She may allow the spirit to continue controlling her body for longer than a scene, if she likes. Or, if displeased as the possession progresses, she may try to eject the spirit. She and the spirit make the normal contested roll they would normally have made during the original possession. Success on the spirit’s part allows it to remain for the rest of the scene, and ties must be rerolled the next turn. The character may only try this once per scene.",
-            "<b>Drawback:</b> As a well-trod soul, the character suffers a –2 dice penalty to any contesting rolls or Resistance traits applied to prevent (or end, as above) a possession. She also earns a reputation as “easy” among local spirits, who may seek her out when they need a quick body for something, even if she’s not likely to go willingly."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " As a well-trod soul, the character suffers a –2 dice penalty to any contesting rolls or Resistance traits applied to prevent (or end, as above) a possession. She also earns a reputation as “easy” among local spirits, who may seek her out when they need a quick body for something, even if she’s not likely to go willingly."
+                ]
+            }
         ],
         "Book": "BoS 108"
     },
@@ -1349,7 +1929,13 @@ const uniMeritsSupernaturalData = [
         "Description": "You can welcome even spirits without the Possession Numen",
         "LongDescription": [
             "Your character can draw Essence from a locus, an ability normally reserved for spirits, werewolves and some mages. This requires a Morality roll that the character can only attempt once per day. Each success allows the character to draw out one point of Essence, and each point requires one minute of meditative effort. The character still has no ability to store that Essence within himself or use it for any means, but he can channel it to objects or creatures that can (such as spirits or the Cup of Life fetish, see p. 120). If the character somehow has the ability to use Essence, he may bend this Essence to that use immediately (but still cannot store it).",
-            "<b>Drawback:</b> Possession of this Merit makes the character a threat to some (endangering their supplies of Essence) and a resource to others (potentially doubling their daily Essence acquisition). If the character isn’t careful with his ability, others may try to eliminate him or use him as a tool."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Possession of this Merit makes the character a threat to some (endangering their supplies of Essence) and a resource to others (potentially doubling their daily Essence acquisition). If the character isn’t careful with his ability, others may try to eliminate him or use him as a tool."
+                ]
+            }
         ],
         "Book": "BoS 109"
     },
@@ -1371,8 +1957,43 @@ const uniMeritsSupernaturalData = [
         "LongDescription": [
             "The character owns a mystical object or relic. How the character came to own the object is up to the player. The character might have inherited the object, stolen it, purchased it or just found it by sheer luck. Note that this Merit only represents an object that a character begins play with; if your character finds a relic during a story, you don’t need to pay the experience points for it.",
             "Relics have a variable point cost, determined as follows:",
-            "<table className='spacing-table' style='min-width: 600px;'><tr className='table-row'><th>Condition</th><th>Cost in Merit Dots</th></tr><tr className={`alternating-row table-clickable`}><td>Powers</td><td>+1 per Power dot</td></tr><tr className={`alternating-row table-clickable`}><td>Durability</td><td>+1 per dot</td></tr><tr className={`alternating-row table-clickable`}><td>Equipment Bonus</td><td>+1 per dot (maximum of +5 above what such an item would normally confer)</td></tr><tr className={`alternating-row table-clickable`}><td>Bonded (the item only works for this character)</td><td>+1</td></tr><tr className={`alternating-row table-clickable`}><td>Cost</td><td>-1 per dot of Cost (see Reliquary p. 116-117)</td></tr><tr className={`alternating-row table-clickable`}><td>Curses/Drawbacks</td><td>-2 per Curse (see Reliquary p. 113-116)</td></tr></table>",
-            "<i>Example:</i> Matt, in creating a new character for Chuck’s chronicle, decides to put some Merit points into a relic. He has visions of a ring that looks plain, but in fact contains a deep and abiding power.",
+            {
+                type: "table",
+                headers: ["Condition", "Cost in Merit Dots"],
+                rows: [
+                    [
+                        "Powers",
+                        "+1 per Power dot"
+                    ],
+                    [
+                        "Durability",
+                        "+1 per dot"
+                    ],
+                    [
+                        "Equipment Bonus",
+                        "+1 per dot (maximum of +5 above what such an item would normally confer)"
+                    ],
+                    [
+                        "Bonded (the item only works for this character)",
+                        "+1"
+                    ],
+                    [
+                        "Cost",
+                        "-1 per dot of Cost (see Reliquary p. 116-117)"
+                    ],
+                    [
+                        "Curses/Drawbacks",
+                        "-2 per Curse (see Reliquary p. 113-116)"
+                    ]
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Example:" },
+                    " Matt, in creating a new character for Chuck’s chronicle, decides to put some Merit points into a relic. He has visions of a ring that looks plain, but in fact contains a deep and abiding power."
+                ]
+            },
             "Right off the bat, Matt decides he doesn’t want to deal with anyone stealing the ring and using it on him. The ring is Bonded to his character (1 dot). He decides against raising its Durability, and a ring doesn’t normally confer an equipment bonus anyway, so he doesn’t spend points in those areas. For Powers (see p. 87-113 for a full list of Relic Powers), Matt chooses Hypnotic Suggestion and Reward Temptation — the ring allows the wielder greater benefit from indulging his Vice and great opportunity to do so. These are both two-dot Powers, which raises the total to five; a little more than Matt was hoping to spend. Fortunately, there are ways to lower the cost.",
             "Matt decides that the ring is Cursed (see p. 113). Yes, using it can grant the character untold amounts of pleasure and mental fortitude, but it saps his physical well-being. The ring has the Leech curse, sapping the character’s Health away every time he uses it. Matt decides that this Health loss manifests as a wracking cough, sometimes with a bit of blood. This drops the total cost to 3 Merit dots, which both Matt and Chuck feel is fair. All that remains is for Matt to figure out where he got the ring, what it looks like and how he discovered its powers, all details that he will work into his character’s prelude.",
             "Note: The reduction in price for taking Costs is only applicable if these costs are taken in conjunction with the specified cost of the chosen Power(s), not as a replacement for the costs listed. If the relic only works at night, and its Power still costs the specified Willpower to activate, the builder can subtract the appropriate 1-dot Cost value for a Temporal Cost. If the relic only works at night, and the builder takes this limitation in place of its Willpower cost, it does not lower the relic’s overall cost.)"
@@ -1385,7 +2006,14 @@ const uniMeritsSupernaturalData = [
         "Prerequisites": "",
         "Description": "+1 to determine how to use a relic, or whether it is cursed",
         "LongDescription": [
-            "The character has an instinctive understanding of how relics work, what their capabilities are, and how to make use of them. This understanding is by no means complete, nor does it grant prescience about curses or other pitfalls of the relic. This Merit grants a +1 to any attempts to figure out an item’s “trigger” condition or activation, detect curses and any other roll that involves figuring out <i>practical</i> (not historical) uses for a mystical object (see Reliquary p. 132 of Chapter 4 for a sample scenario)."
+            {
+                type: "paragraph",
+                text: [
+                    "The character has an instinctive understanding of how relics work, what their capabilities are, and how to make use of them. This understanding is by no means complete, nor does it grant prescience about curses or other pitfalls of the relic. This Merit grants a +1 to any attempts to figure out an item’s “trigger” condition or activation, detect curses and any other roll that involves figuring out ",
+                    { type: "italic", text: "practical" },
+                    " (not historical) uses for a mystical object (see Reliquary p. 132 of Chapter 4 for a sample scenario)."
+                ]
+            }
         ],
         "Book": "Rel 86"
     },
@@ -1398,11 +2026,40 @@ const uniMeritsSupernaturalData = [
             "The character can create limited-use mystical items, such as a Hand of Glory or the Writ of Safe Haven (see p. 79-81). Doing so is a time-consuming and sometimes expensive or dangerous process, and not even the most talented and prolific craftsman can churn out such objects quickly.",
             "To create a relic, the character must first have suitable materials. This might require the character to procure components or ingredients. If any preparation is required (carving a statue or writing a poem, for instance), the player makes the appropriate rolls to make the vessel ready for magic (typically Dexterity + Crafts or Manipulation + Expression).",
             "Once the object is ready, the character performs a ritual appropriate to her style of magic and the type of enchantment she is trying to lay upon the object. The player makes an extended Resolve + Occult roll. The target number of successes is equal to five times the relic’s rating, based on the formula presented under the Relic Merit, below. Every roll takes one hour of work, prayer, chanting, dancing or whatever activity is appropriate to the ritual. The player may only make a number of rolls equal to the character’s Resolve + Occult dice pool.",
-            "<b>Roll Results</b>",
-            "<b>Dramatic Failure:</b> The object has taken on the appropriate magical properties, as far as the creator can tell, but in fact the object has become tainted by faulty enchantment. It takes on a curse (see Reliquary p. 113-116), which becomes activated when the object’s magic would normally take effect.",
-            "<b>Failure:</b> The character accumulates no successes. If the number of rolls surpasses the character’s Resolve + Occult pool before the target is reached, the magic doesn’t “take.” The item must be ritually cleansed and re-enchanted.",
-            "<b>Success:</b> The character makes progress toward the goal. If she reaches the target number of successes, the relic is complete and functions as described in Chapter Two.",
-            "<b>Exceptional Success:</b> Significant progress is made toward the goal. No other effect."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Roll Results" }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The object has taken on the appropriate magical properties, as far as the creator can tell, but in fact the object has become tainted by faulty enchantment. It takes on a curse (see Reliquary p. 113-116), which becomes activated when the object’s magic would normally take effect."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The character accumulates no successes. If the number of rolls surpasses the character’s Resolve + Occult pool before the target is reached, the magic doesn’t “take.” The item must be ritually cleansed and re-enchanted."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The character makes progress toward the goal. If she reaches the target number of successes, the relic is complete and functions as described in Chapter Two."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " Significant progress is made toward the goal. No other effect."
+                ]
+            }
         ],
         "Book": "Rel 85"
     },
@@ -1413,7 +2070,13 @@ const uniMeritsSupernaturalData = [
         "Description": "+1 to Intimidation, abjury and exorcism against spirits, but -1 to Expression, Persuasion and Socialize against them",
         "LongDescription": [
             "Your character releases spirit energy — Essence — into the world when her blood spills. And spirits can sense it. No one has ever been able to explain why to the character’s satisfaction, but it’s true. Because Essence is such a valuable resource to spirits, the character has some measure of influence over them. She can bribe them for information or favors, and all it takes is a splash of blood. Each point of lethal damage the character suffers frees one point of Essence into the air, as long as the injury actually causes blood loss. For the next several turns before the Essence dissipates, any spirit nearby may take an action to consume the Essence.",
-            "<b>Drawback:</b> While most spirits would rather preserve a renewable source of Essence, not all are so careful. Some might try to slaughter her all at once when they really, really need the Essence. Others notice her as a resource of their enemies and might decide to make a surgical strike against them (but at her). In short, the character becomes a target or potential possession to those spirits who don’t want to barter with her."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " While most spirits would rather preserve a renewable source of Essence, not all are so careful. Some might try to slaughter her all at once when they really, really need the Essence. Others notice her as a resource of their enemies and might decide to make a surgical strike against them (but at her). In short, the character becomes a target or potential possession to those spirits who don’t want to barter with her."
+                ]
+            }
         ],
         "Book": "BoS 110"
     },
@@ -1425,7 +2088,13 @@ const uniMeritsSupernaturalData = [
         "LongDescription": [
             "Spirit’s do not like your character’s presence.",
             "She might make spirits uncomfortable because of her extraordinary faith (per the Merit’s name) or maybe she has a less earthly reason for disturbing them. A mighty spirit might have blessed or cursed her when she was young, or declared her off-limits to others for inscrutable reasons. Either way, she has a little influence on them, and they don’t like her. She gains a +1 to Intimidate rolls against spirits, and to attempts to abjure or exorcise them from places or human hosts (see the World of Darkness Rulebook, pp. 213–124). They may also be unwilling to harm her or disrupt her life.",
-            "<b>Drawback:</b> Some spirits are not unwilling to harm her, and may even see it as a challenge — after all, she has a level of notoriety. She suffers a –1 die penalty to all Expression, Persuasion and Socialize rolls against spirits. A given spirit may be unwilling to involve itself with her at all, which could cause complications."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Some spirits are not unwilling to harm her, and may even see it as a challenge — after all, she has a level of notoriety. She suffers a –1 die penalty to all Expression, Persuasion and Socialize rolls against spirits. A given spirit may be unwilling to involve itself with her at all, which could cause complications."
+                ]
+            }
         ],
         "Book": "BoS 110"
     },
@@ -1438,7 +2107,13 @@ const uniMeritsSupernaturalData = [
             "Your character knows a place where she can ask questions and get information. She has reasonably free access to this place — which may be the urinal in a cathedral, a dank cave in a national park, the manhole that a murderer used to dispose of bodies or nearly anything else — and can occasionally go there to get answers. She does not know what entity she asks.",
             "For each answer the Shadow Contact provides, it asks a price. This price often has some tangential relation to the nature of the question, but may well not. The more urgent or esoteric the question, the stranger and more disturbing the price. Frivolous questions are discouraged by incommensurately outrageous demands. If the character asks whether and why her creepy neighbor is stealing locks of her hair, the voice may request a Barbie doll hanged in a noose made from a young girl’s hair. Asking whether she should change her hairstyle, the entity may demand all the hair shaved from three young girls.",
             "The character only pays the price if the Shadow Contact has the answer. The Storyteller (who likely knows just who or what the Shadow Contact is) may simply decide, or he may roll the character’s rating in the Merit to determine either way.",
-            "<b>Drawback:</b> If the character receives an answer from the Shadow Contact, she must pay the price or make the contact reluctant to speak with her. Each time the character fails to give the Shadow Contact its dues, her rating in the Merit drops by one dot. She may purchase greater trust with proper roleplaying and experience points. This will often involve meeting the reneged upon deal, with interest. If the rating drops below three dots, the contact refuses to speak with her any longer. She must purchase the Merit anew from zero dots, which represents finding a new mysterious font of information — no easy task. Note that the Merit degrades only if the Shadow Contact decides that her payment is officially past due. Clever characters may be able to delay the entity for some time."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " If the character receives an answer from the Shadow Contact, she must pay the price or make the contact reluctant to speak with her. Each time the character fails to give the Shadow Contact its dues, her rating in the Merit drops by one dot. She may purchase greater trust with proper roleplaying and experience points. This will often involve meeting the reneged upon deal, with interest. If the rating drops below three dots, the contact refuses to speak with her any longer. She must purchase the Merit anew from zero dots, which represents finding a new mysterious font of information — no easy task. Note that the Merit degrades only if the Shadow Contact decides that her payment is officially past due. Clever characters may be able to delay the entity for some time."
+                ]
+            }
 
         ],
         "Book": "BoS 110"
@@ -1450,7 +2125,13 @@ const uniMeritsSupernaturalData = [
         "Description": "Take refuge in a place where spirits have difficulty following",
         "LongDescription": [
             "Your character owns or can take refuge in a location that spirits have trouble finding. Maybe the location has no reflection in the Shadow Realm or has a peculiar resonance that confounds spirits. The location may have a bad reputation in the spirit world, in a way similar to the worst streets in a mortal city. Whatever the cause, spirits rarely go there and rarely think to go there. The character may hide there with reasonable surety that denizens of the Shadow Realm will not find him. Each dot in this Merit applies a –1 die penalty on spirits’ attempts to track the character to that location or reason out where he might be hiding.",
-            "<b>Drawback:</b> This Merit is fragile. When a spirit does manage to find the character in the marked location, word begins to spread. The location’s reputation diminishes, or the presence of a spirit alters the resonance that once kept them away. Each such event reduces the Merit’s rating by one. On the other hand, when something bad does happen to the spirit there — the character manages to discorporate it, or the resonance infects the spirit — such events serve as excellent reason to increase this Merit with experience points."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " This Merit is fragile. When a spirit does manage to find the character in the marked location, word begins to spread. The location’s reputation diminishes, or the presence of a spirit alters the resonance that once kept them away. Each such event reduces the Merit’s rating by one. On the other hand, when something bad does happen to the spirit there — the character manages to discorporate it, or the resonance infects the spirit — such events serve as excellent reason to increase this Merit with experience points."
+                ]
+            }
         ],
         "Book": "BoS 110"
     },

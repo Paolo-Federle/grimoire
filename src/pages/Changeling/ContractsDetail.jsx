@@ -1,81 +1,93 @@
 import React from 'react';
 import BaseTable from '../../components/BaseTable';
 import { BookLink } from '../../components/BookLink';
+import StructuredContent, { InlineContent } from '../../components/StructuredContent';
+import { normalizeDisplayText } from '../../utils';
+
+const blockHtmlPattern = /<\/?(p|div|ul|ol|li|h[1-6]|table|thead|tbody|tr|td|th)\b/i;
+
+function hasBlockHtml(value) {
+    return typeof value === 'string' && blockHtmlPattern.test(value);
+}
+
+function renderTextContent(value, key, asParagraph = true) {
+    if (hasBlockHtml(value)) {
+        return <StructuredContent key={key} content={{ type: 'html', content: value }} />;
+    }
+
+    const content = <InlineContent content={value} prefix={`contract-detail-${key}`} />;
+
+    return asParagraph ? <p key={key}>{content}</p> : content;
+}
 
 export default function ContractsDetail(props) {
-    const matchedcontract = props.contracts
+    const matchedcontract = props.contracts;
+    const fullDescription = Array.isArray(matchedcontract?.FullDescription) ? matchedcontract.FullDescription : [];
+    const fullCatch = Array.isArray(matchedcontract?.FullCatch) ? matchedcontract.FullCatch : [];
+    const rollResults = Array.isArray(matchedcontract?.['Roll Results']) ? matchedcontract['Roll Results'] : [];
+
+    const renderContentBlock = (item, index) => {
+        if (typeof item !== 'object' || item === null) {
+            return renderTextContent(item, index);
+        }
+
+        if (item.type || Array.isArray(item)) {
+            return <StructuredContent key={index} content={item} />;
+        }
+
+        const [title, data] = Object.entries(item)[0];
+        const headers = Object.keys(data[0]);
+
+        return (
+            <BaseTable
+                key={index}
+                headers={headers}
+                data={data}
+                title={title}
+            />
+        );
+    };
 
     return (
         <div className='longTextContainer'>
             {matchedcontract && (
                 <>
-                        <h1>
-                            {matchedcontract.Name}
-                            {matchedcontract.Rank && matchedcontract.Rank !== "N/A" && ` (${matchedcontract.Rank})`}
-                        </h1>
+                    <h1>
+                        {normalizeDisplayText(matchedcontract.Name)}
+                        {matchedcontract.Rank && matchedcontract.Rank !== "N/A" && ` (${normalizeDisplayText(matchedcontract.Rank)})`}
+                    </h1>
 
-                        <div style={{ paddingBottom: "20px" }}>
-                            {matchedcontract.FullDescription.map((item, index) => {
+                    <div style={{ paddingBottom: "20px" }}>
+                        {fullDescription.map(renderContentBlock)}
+                    </div>
 
-                                if (typeof item !== 'object') {
-                                    return (
-                                        <p key={index}>
-                                            <span dangerouslySetInnerHTML={{ __html: item }} />
-                                        </p>
-                                    );
-                                }
+                    {matchedcontract.FullCost && matchedcontract.FullCost !== "N/A" && (
+                        <div><b>Cost:</b> {normalizeDisplayText(matchedcontract.FullCost)}</div>
+                    )}
+                    {matchedcontract['Dice Pool'] && matchedcontract['Dice Pool'] !== "N/A" && (
+                        <div><b>Dice Pool:</b> {normalizeDisplayText(matchedcontract['Dice Pool'])}</div>
+                    )}
+                    {matchedcontract.Action && (
+                        <div><b>Action:</b> {normalizeDisplayText(matchedcontract.Action)}</div>
+                    )}
 
-                                const [title, data] = Object.entries(item)[0];
-                                const headers = Object.keys(data[0]);
-
-                                return (
-                                    <BaseTable
-                                        key={index}
-                                        headers={headers}
-                                        data={data}
-                                        title={title}
-                                    />
-                                );
-                            })}
+                    {fullCatch.length > 0 && fullCatch[0] !== "" && (
+                        <div>
+                            {fullCatch.map((desc, index) => (
+                                <div key={index}>
+                                    <b>Catch:</b> {renderTextContent(desc, `catch-${index}`, false)}
+                                </div>
+                            ))}
                         </div>
-                        {matchedcontract.FullCost && matchedcontract.FullCost  !== "N/A" && (<div><b>Cost:</b> {matchedcontract.FullCost}</div>)}
-                        {matchedcontract['Dice Pool'] && matchedcontract['Dice Pool']  !== "N/A" && (<div><b>Dice Pool:</b> {matchedcontract['Dice Pool']}</div>)}
-                        {matchedcontract.Action && (<div><b>Action:</b> {matchedcontract.Action}</div>)}
+                    )}
 
-                        {matchedcontract.FullCatch?.length > 0 && matchedcontract?.FullCatch[0] !== "" && (
-                            <span>
-                                {matchedcontract.FullCatch.map((desc, index) => (
-                                    <span key={index}>
-                                        <b>Catch:</b> <span dangerouslySetInnerHTML={{ __html: desc }} />
-                                    </span>
-                                ))}
-                            </span>
-                        )}
-                        {matchedcontract['Roll Results'].map((item, index) => {
-                            if (typeof item !== 'object') {
-                                return (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item }} />
-                                    </p>
-                                );
-                            }
+                    {rollResults.map(renderContentBlock)}
 
-                            const [title, data] = Object.entries(item)[0];
-                            const headers = Object.keys(data[0]);
-
-                            return (
-                                <BaseTable
-                                    key={index}
-                                    headers={headers}
-                                    data={data}
-                                    title={title}
-                                />
-                            );
-                        })}
-                        {matchedcontract.Book && matchedcontract.Book  !== "N/A" && (<div><b>Book:</b> {BookLink(matchedcontract.Book)}</div>)}
+                    {matchedcontract.Book && matchedcontract.Book !== "N/A" && (
+                        <div><b>Book:</b> {BookLink(matchedcontract.Book)}</div>
+                    )}
                 </>
-            )
-            }
-        </div >
-    )
+            )}
+        </div>
+    );
 }

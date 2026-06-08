@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import FavoriteToggle from "./FavoriteToggle";
-import { getCurrentRoutePath } from "../utils";
+import { getCurrentRoutePath, normalizeDisplayText } from "../utils";
 import { BookLink } from "./BookLink";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
@@ -31,9 +31,9 @@ function normalizeName(value) {
 }
 
 function renderSimpleValue(value) {
-  if (Array.isArray(value)) return value.join(", ");
+  if (Array.isArray(value)) return normalizeDisplayText(value.join(", "));
   if (value === null || value === undefined) return "";
-  return String(value);
+  return normalizeDisplayText(value);
 }
 
 function buildFavoriteRankRow(selectedCombination, rank, sourcePath) {
@@ -274,7 +274,7 @@ export default function ManifestationCombination({
 
             {selectedCombination?.Summary ? (
               <p className="mt-2 leading-6 text-[#161616]">
-                {selectedCombination.Summary}
+                {normalizeDisplayText(selectedCombination.Summary)}
               </p>
             ) : null}
 
@@ -311,7 +311,7 @@ export default function ManifestationCombination({
                 >
                   <div className="flex items-center justify-between gap-3 bg-[#d5d5d5] px-4 py-[10px]">
                     <div className="font-semibold text-[#2f2f2f]">
-                      Rank {dots(rank.dot)}
+                      Rank {normalizeDisplayText(dots(rank.dot))}
                     </div>
 
                     <FavoriteToggle
@@ -323,7 +323,7 @@ export default function ManifestationCombination({
                   </div>
 
                   <div className="px-4 py-3 leading-7 text-[#161616]">
-                    {rank.summary}
+                    {normalizeDisplayText(rank.summary)}
                   </div>
                 </div>
               );
@@ -341,7 +341,7 @@ export default function ManifestationCombination({
       <div className="mx-auto w-full max-w-full xl:w-[1600px]">
         {title ? (
           <h1 className="mb-4 font-serif text-[28px] font-bold text-[#161616] sm:text-[32px]">
-            {title}
+            {normalizeDisplayText(title)}
           </h1>
         ) : null}
 

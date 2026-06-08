@@ -1,3 +1,5 @@
+import { normalizeDisplayText } from "../../utils";
+
 export const DEFAULT_RANKED_FIELD = "Ranks";
 
 const TECHNICAL_FIELDS = new Set(["link"]);
@@ -8,14 +10,14 @@ export function hasRankedRows(data, rankedField = DEFAULT_RANKED_FIELD) {
 }
 
 export function formatHeaderLabel(key) {
-    return key.replace(/([a-z])([A-Z])/g, "$1 $2");
+    return normalizeDisplayText(key.replace(/([a-z])([A-Z])/g, "$1 $2"));
 }
 
 export function renderSimpleValue(value) {
     if (value === null || value === undefined) return "";
-    if (Array.isArray(value)) return value.join(", ");
+    if (Array.isArray(value)) return normalizeDisplayText(value.join(", "));
     if (typeof value === "object") return "";
-    return value;
+    return normalizeDisplayText(value);
 }
 
 export function formatRankValue(value) {
@@ -26,7 +28,7 @@ export function formatRankValue(value) {
         return "•".repeat(numericValue);
     }
 
-    return value;
+    return normalizeDisplayText(value);
 }
 
 export function getRankedTableHeaders({

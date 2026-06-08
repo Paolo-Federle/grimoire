@@ -1072,9 +1072,27 @@ export const imbuedItemsData = [
         'Descrizione': [
             "While older versions of this imbued item tend to favor baroque skeleton-key designs, modern copies trade elegance for subtlety with unassuming modern templates. Regardless of their outward form, these items incorporate a variant of the Matter 3 “Plasticity” spell (see Mage: The Awakening, p. 199), enabling them to resize and alter to fit any lock intended to be opened with a key.",
             "Rarer and more powerful variants of these keys add one of the powers listed below, adjusting the cost of the device as noted in the power’s description. The most wondrous keys occasionally have more than one of these powers, in which case the item’s cost should be calculated according to the usual rules for imbued items (see Mage: The Awakening, p. 84):",
-            "<b>Death:</b> (••••••) Turning this key harshly in a door’s lock results a terrible screech of metal on metal like a cry of anguish. Once opened, the doorway roils with thick darkness and muted gray fog, creating a passage into Twilight, per the Death 4 instant casting of the “Ghost Gate” spell (see Mage: The Awakening, p. 139). The mage cannot limit who may enter this gate, as it remains open according to its usual Duration or until the door closes, whichever comes first. Fortunately for a mage in Twilight, the key also works when inserted into a physical lock while immaterial, in which case the door flies open with a blast of cold wind to allow the mage’s exit.",
-            "<b>Space:</b> (•••••••) By inserting this key into a door and turning the lock past the unlocked position, the mage can unlock space itself, causing the door to lead somewhere else, per the Space 5 instant-action casting of the “Portal” spell (see Mage: The Awakening, p. 238). The portal remains as long as the magic’s normal Duration allows or until the door closes, whichever comes first.",
-            "<b>Spirit:</b> (•••••••) Turned slowly and reverently, this key unlocks the Gauntlet itself, causing a door to open into the Shadow Realm, per the Spirit 5 instant-action casting of the “Spirit Road” spell (see Mage: The Awakening, p. 251). The gateway endures until the door closes or the magic’s Duration elapses, whichever comes first. Mages with such keys should be careful, however, as doors are not always easy to find in the spirit world when they wish to return."
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Death:" },
+                    " (••••••) Turning this key harshly in a door’s lock results a terrible screech of metal on metal like a cry of anguish. Once opened, the doorway roils with thick darkness and muted gray fog, creating a passage into Twilight, per the Death 4 instant casting of the “Ghost Gate” spell (see Mage: The Awakening, p. 139). The mage cannot limit who may enter this gate, as it remains open according to its usual Duration or until the door closes, whichever comes first. Fortunately for a mage in Twilight, the key also works when inserted into a physical lock while immaterial, in which case the door flies open with a blast of cold wind to allow the mage’s exit.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Space:" },
+                    " (•••••••) By inserting this key into a door and turning the lock past the unlocked position, the mage can unlock space itself, causing the door to lead somewhere else, per the Space 5 instant-action casting of the “Portal” spell (see Mage: The Awakening, p. 238). The portal remains as long as the magic’s normal Duration allows or until the door closes, whichever comes first.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Spirit:" },
+                    " (•••••••) Turned slowly and reverently, this key unlocks the Gauntlet itself, causing a door to open into the Shadow Realm, per the Spirit 5 instant-action casting of the “Spirit Road” spell (see Mage: The Awakening, p. 251). The gateway endures until the door closes or the magic’s Duration elapses, whichever comes first. Mages with such keys should be careful, however, as doors are not always easy to find in the spirit world when they wish to return.",
+                ],
+            },
         ],
         "Book": "Myst 213"
     },
@@ -2013,12 +2031,48 @@ export const imbuedItemsData = [
             'A Truck for banishers, it repairs itself and it is easier for them to drive',
         ],
         'Descrizione': [
-            "<b>Type:</b> Modified Light Pickup",
-            "<b>Acceleration:</b> 15 (20 mph/turn)",
-            "<b>Safe Speed:</b> 88 (60 mph.)",
-            "<b>Max Speed:</b> 154 (105 mph)",
-            "<b>Handling:</b> 1",
-            "<b>Occupants:</b> 1+2",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Type:" },
+                    " Modified Light Pickup",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Acceleration:" },
+                    " 15 (20 mph/turn)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Safe Speed:" },
+                    " 88 (60 mph.)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Max Speed:" },
+                    " 154 (105 mph)",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Handling:" },
+                    " 1",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Occupants:" },
+                    " 1+2",
+                ],
+            },
             "Cost: N/A",
             "This ’57 Ford pickup drives better than it looks. It’s got a coat of rust and patchy gray primer across a dent-ridden body, but the pickup really stands out to casual observers because of its age, tinted windows and the big custom bumper. The plates are covered in grime, preventing anyone from identifying them.",
             "Mohammad al-Abbas enchanted the Truck half a century ago. He actually helped build it, working the factory line. He Awakened, took it and spent 30 years sleeping in it while he hunted supernatural horrors throughout the continental United States. Al-Abbas died of a heart attack in 1976. Another Banisher found al-Abbas’s body in the Truck, buried the body and took the vehicle for himself. Over the next three decades, the Truck passed from Banisher to Banisher as previous owners die, the Truck gets stolen, the thieves die (the Truck has a tendency to crash and roll violently when non-Banishers drive it) and is passed on to the next owner.",
@@ -2071,8 +2125,20 @@ export const imbuedItemsData = [
             'An indestructible thaumium sword that may be the original sword from the myths.',
         ],
         'Descrizione': [
-            "<b>Damage:</b> 5",
-            "<b>Cost:</b> N/A",
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Damage:" },
+                    " 5",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Cost:" },
+                    " N/A",
+                ],
+            },
             "In legend, Durandal is the sword of Roland, one of Charlemagne’s paladins. Orlando Furioso says that the sorcerer Malagigi gave him the sword. It had once belonged to Hector of Troy but was refitted through the ages. At some point, holy men placed a tooth of St. Peter’s, blood from St. Basil, hair from St. Denis and part of the Virgin Mary’s veil in the hilt.",
             "Its name means “inflexible” as a testament to its supposed indestructibility. They say that Roland tried to break the sword as he lay dying but failed. And, over the years, as mages have tracked the sword that some claimed is Durandal, they’ve noted that it’s defied every attempt to destroy it. Tales say that Durandal’s made of the same metal that was used to forge Ogier the Dane’s Cortana and Charlemagne’s Joyeuse, but none have found credible, magical candidates that could be identified with these blades.",
             "Is this Durandal the genuine article? Mages doubt it. There’s no evidence for a historical Roland beyond a single obscure reference in an old Frankish record. The battles of the tales, where Roland and the other paladins fight bestial caricatures of Muslims, are about as historical as Arthurian myths — not very. But somewhere, someone created the sword, and it has become associated with the Roland legends. Interestingly, while Roland is almost certainly fictional, French mages do have records of a sorcerer with the shadow name Malagigi who was attached the Charlemagne’s court.",
@@ -2096,11 +2162,111 @@ export const imbuedItemsData = [
         'Descrizione': [
             "These weapons can come from any of the Supernal Realms, and their forms vary depending on their origins. Supernal Scourges are meant to punish mages who risk Paradox, but they also have a terrible affinity for mages from their home Realm. These weapons inflict aggravated damage upon any mage of the Path appropriate to the Scourge’s Realm of origin, or any mage on the turn after that mage creates a Paradox (even if the mage contained the Paradox in his own Pattern).",
             "These weapons also have some additional power, typically using one of the Ruling Arcana of the Realm in question. Some examples of Supernal Scourges follow:",
-            "• <b>Whispering Blade (Arcadia)</b>: This rapier’s blade is so thin that it barely makes a sound when swung, but it cuts like a razor. The metal shimmers like a fish through sunlit waters as the blade whispers through the air. In addition to inflicting aggravated damage to Acanthus mages, in the hands of an ignorant wielder (that is, someone who doesn’t know the High Speech phrase to speak upon drawing it), the blade bestows a –3 instead of a damage bonus.<br /><b>Durability:</b> 5, <b>Size:</b> 2, <b>Structure:</b> 7, <b>Damage:</b> 2L (2A against Acanthus or any mage on the turn following a Paradox).",
-            "• <b>Oedipus’ Lash (Pandemonium)</b>: The Lash is a short, leather whip with the emblem of a bleeding eye burned into the wooden hilt. Those struck by the Lash feel not only the keen sting of the wounds, but also a profound sense of shame and fear. The wielder can spend a point of Mana upon successfully striking an opponent to render that opponent blind for three turns.<br /><b>Durability:</b> 4, <b>Size:</b> 2, <b>Structure:</b> 6, <b>Damage:</b> 1L (1A against Mastigos or any mage on the turn following a Paradox).",
-            "• <b>The Forgeless Hammer (Stygia)</b>: This powerful Artifact resembles a simple blacksmith’s hammer with a wooden handle and an iron head. A mage armed with the Hammer can speak a curse before striking an inanimate object. Successes against that object in excess of the object’s Durability are then treated as aggravated damage against the object’s Structure, enabling the mage to destroy an object in short order (this effect is vulgar, however, and can engender Paradox).<br /><b>Durability:</b> 5, <b>Size:</b> 1, <b>Structure:</b> 6, <b>Damage:</b> 2B (2A against Moros or any mage on the turn following a Paradox).",
-            "• <b>Lightbringer’s Sword (The Aether)</b>: This short, double-bladed sword is embossed with angelic script. A translation reveals a passage from the Gospel of Luke: “I saw Satan fall like lightning from the Heavens.” The wielder of this blade can raise it up (the player spends a point of Mana) to ignite the tip. While ignited, the sword inflicts an additional die of damage, and all damage from the sword is considered fire (which might be of note if the mage faces a vampire or another creature that takes special damage from flames). This effect is vulgar, of course, and can engender a Paradox.<br /><b>Durability:</b> 6, <b>Size:</b> 2, <b>Structure:</b> 8, <b>Damage:</b> 2L (2A against Obrimos or any mage on the turn following a Paradox).",
-            "• <b>Swarm-Caller (The Primal Wild)</b>: This weapon is a simple leather sling, suitable for hurling small stones at opponents. If the mage aims the stone at a patch of plant life — a bed of moss, a bush, a flowering tree and so on — he can change the plants into a swarm of insects or other base life (spiders, scorpions, horseflies and bees are all popular choices). This requires a point of Mana, and a quiet invocation to the spirit of the appropriate creature. This power is vulgar, and therefore can create a Paradox.<br /><b>Durability:</b> 2, <b>Size:</b> 1, <b>Structure:</b> 3, <b>Damage:</b> 1B (1A against Thyrsus or any mage on the turn following a Paradox)."
+            {
+                type: 'paragraph',
+                content: [
+                    "• ",
+                    { type: 'bold', text: "Whispering Blade (Arcadia)" },
+                    ": This rapier’s blade is so thin that it barely makes a sound when swung, but it cuts like a razor. The metal shimmers like a fish through sunlit waters as the blade whispers through the air. In addition to inflicting aggravated damage to Acanthus mages, in the hands of an ignorant wielder (that is, someone who doesn’t know the High Speech phrase to speak upon drawing it), the blade bestows a –3 instead of a damage bonus.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Durability:" },
+                    " 5, ",
+                    { type: 'bold', text: "Size:" },
+                    " 2, ",
+                    { type: 'bold', text: "Structure:" },
+                    " 7, ",
+                    { type: 'bold', text: "Damage:" },
+                    " 2L (2A against Acanthus or any mage on the turn following a Paradox).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "• ",
+                    { type: 'bold', text: "Oedipus’ Lash (Pandemonium)" },
+                    ": The Lash is a short, leather whip with the emblem of a bleeding eye burned into the wooden hilt. Those struck by the Lash feel not only the keen sting of the wounds, but also a profound sense of shame and fear. The wielder can spend a point of Mana upon successfully striking an opponent to render that opponent blind for three turns.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Durability:" },
+                    " 4, ",
+                    { type: 'bold', text: "Size:" },
+                    " 2, ",
+                    { type: 'bold', text: "Structure:" },
+                    " 6, ",
+                    { type: 'bold', text: "Damage:" },
+                    " 1L (1A against Mastigos or any mage on the turn following a Paradox).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "• ",
+                    { type: 'bold', text: "The Forgeless Hammer (Stygia)" },
+                    ": This powerful Artifact resembles a simple blacksmith’s hammer with a wooden handle and an iron head. A mage armed with the Hammer can speak a curse before striking an inanimate object. Successes against that object in excess of the object’s Durability are then treated as aggravated damage against the object’s Structure, enabling the mage to destroy an object in short order (this effect is vulgar, however, and can engender Paradox).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Durability:" },
+                    " 5, ",
+                    { type: 'bold', text: "Size:" },
+                    " 1, ",
+                    { type: 'bold', text: "Structure:" },
+                    " 6, ",
+                    { type: 'bold', text: "Damage:" },
+                    " 2B (2A against Moros or any mage on the turn following a Paradox).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "• ",
+                    { type: 'bold', text: "Lightbringer’s Sword (The Aether)" },
+                    ": This short, double-bladed sword is embossed with angelic script. A translation reveals a passage from the Gospel of Luke: “I saw Satan fall like lightning from the Heavens.” The wielder of this blade can raise it up (the player spends a point of Mana) to ignite the tip. While ignited, the sword inflicts an additional die of damage, and all damage from the sword is considered fire (which might be of note if the mage faces a vampire or another creature that takes special damage from flames). This effect is vulgar, of course, and can engender a Paradox.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Durability:" },
+                    " 6, ",
+                    { type: 'bold', text: "Size:" },
+                    " 2, ",
+                    { type: 'bold', text: "Structure:" },
+                    " 8, ",
+                    { type: 'bold', text: "Damage:" },
+                    " 2L (2A against Obrimos or any mage on the turn following a Paradox).",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    "• ",
+                    { type: 'bold', text: "Swarm-Caller (The Primal Wild)" },
+                    ": This weapon is a simple leather sling, suitable for hurling small stones at opponents. If the mage aims the stone at a patch of plant life — a bed of moss, a bush, a flowering tree and so on — he can change the plants into a swarm of insects or other base life (spiders, scorpions, horseflies and bees are all popular choices). This requires a point of Mana, and a quiet invocation to the spirit of the appropriate creature. This power is vulgar, and therefore can create a Paradox.",
+                ],
+            },
+            {
+                type: 'paragraph',
+                content: [
+                    { type: 'bold', text: "Durability:" },
+                    " 2, ",
+                    { type: 'bold', text: "Size:" },
+                    " 1, ",
+                    { type: 'bold', text: "Structure:" },
+                    " 3, ",
+                    { type: 'bold', text: "Damage:" },
+                    " 1B (1A against Thyrsus or any mage on the turn following a Paradox).",
+                ],
+            },
         ],
         "Book": "Ban 72"
     },

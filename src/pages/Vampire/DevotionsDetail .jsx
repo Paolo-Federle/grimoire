@@ -1,6 +1,6 @@
 import React from 'react';
-import BaseTable from '../../components/BaseTable';
 import { BookLink } from '../../components/BookLink';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function DevotionsDetail(props) {
     const matchedDevotion = props.devotion
@@ -19,27 +19,7 @@ export default function DevotionsDetail(props) {
                     {matchedDevotion.Action && (<div><b>Action:</b> {matchedDevotion.Action}</div>)}
 
                     <div style={{ paddingBottom: "20px" }}>
-                        {matchedDevotion.FullDescription.map((item, index) => {
-                            if (typeof item !== 'object') {
-                                return (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item }} />
-                                    </p>
-                                );
-                            }
-
-                            const [title, data] = Object.entries(item)[0];
-                            const headers = Object.keys(data[0]);
-
-                            return (
-                                <BaseTable
-                                    key={index}
-                                    headers={headers}
-                                    data={data}
-                                    title={title}
-                                />
-                            );
-                        })}
+                        <ContentBlockList content={matchedDevotion.FullDescription} />
                     </div>
                    
                     {matchedDevotion.Book && matchedDevotion.Book !== "N/A" && (<div><b>Book:</b> {BookLink(matchedDevotion.Book)}</div>)}

@@ -1,1129 +1,13746 @@
 export const RitesData = [
     {
+        "Name": "Rites",
+        "Rank": "N/A",
+        "Cost": "",
+        "Description": "Explains how werewolves learn rites, how rite descriptions are structured, how rites can be disrupted, and the general modifiers used when performing them.",
+        "Book": "WtF 148, WtF 149",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Rites are the Uratha's way of calling on ancient spirit pacts and bans, drawing a spirit's response through correct performance and giving a ceremony supernatural force. The rites listed here are common examples known across werewolf culture, rather than an exhaustive catalog."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Acquiring Rites"
+            },
+            {
+                "type": "paragraph",
+                "text": "At character creation, a werewolf can trade the free Gift pick for one dot in the Rituals trait. That first dot grants one one-dot rite. Additional rites can be learned during play with experience, and a character can know any number of rites as long as he has enough experience and the rite's dot rating does not exceed his Rituals rating."
+            },
+            {
+                "type": "paragraph",
+                "text": "Rituals dots are purchased as an affinity trait for all Uratha, at a cost of new dots x 5. Unlike Gift lists, Rituals dots are not limited by Renown. Each time a character gains a new dot in Rituals, he also gains a rite of that same value for free. A character can have only one dot of Rituals at character creation."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Rite Descriptions"
+            },
+            {
+                "type": "paragraph",
+                "text": "Each rite description covers the rite's purpose and history, how the rite is performed, and its game mechanics. Most rites have no Essence or Willpower cost; when a rite does have a cost, invested points are lost if the rite is disrupted before completion."
+            },
+            {
+                "type": "paragraph",
+                "text": "Rites are formal performances, but they are not rote actions. A rite that takes more than an instant action can be disrupted if the ritemaster is paralyzed, grappled, rendered mute, or otherwise prevented from continuing the performance. Damage suffered during the rite penalizes the next casting roll."
+            },
+            {
+                "type": "paragraph",
+                "text": "Teamwork is possible for extended rites only when the assistants also know the rite. Assistants roll Harmony with the relevant modifiers, adding successes to the ritemaster's dice pools or subtracting penalties caused by dramatic failures. Storytellers may allow local or personal variations to the Performing the Rite section as long as the performance remains thematically suitable and uses the same participants."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Ritemaster meditates successfully before the ritual."
+                    ],
+                    [
+                        "+2",
+                        "In the vicinity of a powerful locus (rated ••••+)."
+                    ],
+                    [
+                        "+1",
+                        "In the vicinity of a locus (rated • to •••)."
+                    ],
+                    [
+                        "+1",
+                        "Ritualist has gained goodwill of local spirits."
+                    ],
+                    [
+                        "+1",
+                        "Ritemaster is in Dalu form."
+                    ],
+                    [
+                        "+1",
+                        "Ritemaster's auspice moon is in the sky."
+                    ],
+                    [
+                        "-1 to -3",
+                        "Performer suffers wound penalties."
+                    ],
+                    [
+                        "-1",
+                        "Local spirits are hostile to ritualist."
+                    ],
+                    [
+                        "-1",
+                        "City suburb or town, only if the rite is performed in the physical world."
+                    ],
+                    [
+                        "-1",
+                        "Distracting environment."
+                    ],
+                    [
+                        "-2",
+                        "Packmates are involved in battle."
+                    ],
+                    [
+                        "-2",
+                        "Dense urban area, only if the rite is performed in the physical world."
+                    ],
+                    [
+                        "-2",
+                        "Ritemaster is struck during the rite but takes no damage."
+                    ],
+                    [
+                        "-3",
+                        "Rite is performed in a Barren."
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "Name": "Avowed Soldier, Rite of the",
         "Rank": "1",
         "Cost": "",
         "Description": "Target becomes official supporter of war and gains benefits of war totem's blessing.",
-        "Book": "WAtP 51"
+        "Book": "WAtP 51",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "When the Forsaken go to war, they must know for certain who is with them and who against. Of the packs that join for battle, one becomes alpha, and the rest must be willing to remain dedicated to the war’s ideal even while someone not their pack alpha gives them directions. It can be hard, but this rite helps. The Rite of the Avowed Soldier is an oath, conducted by the ritemaster, that promises devoted service in the war until the enemy’s defeat. This helps assuage werewolves’ egos, as they are sworn to the war and not to the war leader. Even members of the alpha pack are subject to the rite, since they may well be ousted from their positions of leadership before the war is done."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "Before a semicircle of her peers, with her back to a bonfire, the ritual’s subject proudly declares her dedication to the war. The ritualist conducts the subject, asking her name and the name of her pack. After those, she describes her commitment to the goal of the war, and the ritemaster turns her statements into eloquent poetry. After he has howled the subject’s affirmation loudly, the ritemaster guides her in a formal oath swearing her dedication to the war."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (12 successes; each roll represents three minutes of effort)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Peers are unconvinced by the ritemaster’s representation of the soldier’s feelings. She may join the war if she still desires, but her heroism does not inspire tales. The ritemaster and the subject both suffer a -1 die penalty to Social rolls involving members of the war for the next month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes accumulate."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. If the rite is finished, the subject becomes an official supporter of the war. She may benefit from the war totem’s blessings and is the peer (apart from Renown) of any other werewolf participating in the war."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. Gaining 17+ successes by the end of the rite means that her words were moving, or her ritemaster was particularly gifted in his speech. Both gain a one-die bonus to Social rolls with other members of the war for one month."
+                ]
+            }
+        ]
     },
     {
         "Name": "Banish Human",
         "Rank": "1",
         "Cost": "-",
         "Description": "Cast a targeted human out of the spirit world and back into the material (includes Mages)",
-        "Book": "WtF 149"
+        "Book": "WtF 149",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This simple, quick ritual forces a living human or animal out of the spirit world and back into the physical. While the Banish Human ritual got a lot of use before the Sundering — when a human might easily enter the spirit world — the Gauntlet serves as a hard barrier today. This rite doesn’t see a great deal of use in the modern world, as humans rarely venture into the spirit world (deliberately or accidentally). It can, however, rescue a human who’s been trapped in the Shadow Realm by accident or malice. Many modern werewolves use this ritual to interfere with the activities of human shamans and wizards who enter the spirit world."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This simple ritual takes just one turn to perform. The ritualist must be within arm’s reach of the target but doesn’t have to touch him or her. The ritualist emits a howl of rage and commands the subject to return to his home realm."
+            }
+        ],
+        "DicePool": "Harmony (versus subject’s Resolve)",
+        "Action": "Instant or contested; resistance is reflexive. If the human subject of the ritual is capable of performing magic to keep himself in the spirit world, Resolve can be rolled for him to contest the werewolf’s effort. If the human cannot perform magic, the rite involves an instant action alone.",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and cannot be used again against the target for the duration of the scene."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " If the human’s successes equal or exceed those rolled for the ritualist, the subject remains where he is. If the subject is incapable of magic and no successes are rolled for the werewolf, the human also remains in the spirit world."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " A banished human returns instantly to the physical world in the nearest equivalent location. If he is currently in a place with no earthly analogue (pg. 260), he’s returned to a random location that’s significant to him (such as his home or birthplace)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The subject cannot return to the spirit world for a number of days equal to the werewolf’s Harmony dots."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "line",
+                "label": "-3",
+                "text": "Target has supernatural powers (such as a ghoul or mage). The modifier applies to the roll made for the ritualist."
+            }
+        ]
     },
     {
         "Name": "Blood Ogham",
         "Rank": "1",
         "Cost": "○●",
         "Description": "Creates ogham rune that warns (only) Uratha and wolf-bloods that territory is claimed.",
-        "Book": "SotUK 99"
+        "Book": "SotUK 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ritual allows the ritemaster to communicate a single sentence in a variant of the runic-style language known as Ogham, used by the ancient tribes of Britain. The rite itself is used to mark the boundaries of territories and hunting grounds in a manner that is immediately recognizable to werewolves and wolf-blooded, but undetectable by normal humans. Werewolves seeing Blood Ogham upon a surface know that they are risking trespassing on another pack’s territory, and are free to act accordingly."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The werewolf carves the Ogham runes for his pack’s name and “hunting ground” into a solid surface such as a tree trunk, a wall, or even a door. As he performs the carving he repeats ",
+                    {
+                        "text": "The Herd Must Not Know,",
+                        "italic": true
+                    },
+                    " in First Tongue, until the runes are completed. Afterwards, he wets the runes with a few droplets of his own blood."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Upon completion, the Ogham runes stand out distinctly from the surface they have been scratched onto, appearing as bleeding symbols gouged into the wall, tree, or door."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the werewolf may not call upon the rite’s powers for another week."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite simply fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The Ogham runes show clearly on the surface, and remain wet with blood from that point on. Uratha and wolf-blooded instinctively understand the bloody symbols as a means of marking territory, and will be aware that a pack claims its hunting ground nearby. Humans and supernatural creatures can never see the blood on the signs, and are unable to make out the meaning of the etchings from any other nonsensical graffiti."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " As with a success, though at the Storyteller’s discretion, the runes might continue to bleed slowly over time."
+                ]
+            }
+        ]
     },
     {
         "Name": "Blood’s Revelation, Rite of",
         "Rank": "1",
         "Cost": "-",
         "Description": "The ritualist steals some memories from a subject.",
-        "Book": "LodgF 108"
+        "Book": "LodgF 108",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ritual steals the memories from the subject’s mind, ripping them in scattered shards and allowing the ritemaster to recall events as they happened to the victim. Though the process is painless for the victim and the victim retains her memory, some victims will experience momentary disorientation if they try to remember any of the memories that have been “stolen.” Unfortunately for the ritualist, he has no control over which memories are taken, which often end up being a clashing mixture of recent events and long-buried recollections."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist must have tasted (and swallowed) some of the subject’s blood within the last 24 hours. If he has done so, the werewolf is able to meditate on the act of consuming another creature’s blood and unlock the secrets of the victim’s life. Some werewolves believe that this is a prayer of sorts to Wendigo, and it is the totem that steals the victim’s memories. Others insist that all memories of a creature’s life are contained within its blood, whether they argue from a scientific DNA standpoint or mere belief in the power of blood."
+            }
+        ],
+        "DicePool": "Harmony contested by victim’s Resolve + Primal Urge",
+        "Action": "Instant and contested",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the Uratha must taste the target’s blood again if he ever wishes to make another attempt."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite simply fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The Uratha can access a store of the subject’s memories, which are now within his own mind. It is confusing at first, though the werewolf is always aware that the events “never happened to him,” as such. Storytellers should feel free to describe the chaotic nature of the memories that come in a broken stream of information."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The werewolf “remembers” some of the subject’s memories that immediately relate to a certain factor that interests the ritualist."
+                ]
+            }
+        ]
     },
     {
-        "Name": "Chimnage Rite",
+        "Name": "Chiminage Rite",
         "Rank": "1",
         "Cost": "●",
         "Description": "Target gains one point of Essence per dot of the ritemaster’s Wisdom. Ritemaster gains a +2 bonus on Gifts, rites, and Social rolls against target.",
-        "Book": "SotM 70"
+        "Book": "SotM 70",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Similar to the rites used to summon spirits and humans, this simple rite calls a single animal (or a swarm of very small animals like rats or locusts) to the ritemaster’s location. The ritual summons the closest animal of a desired species within five miles; if no such creature exists (trying to summon a Siberian tiger in the middle of rural Nebraska, for instance), the rite fails. The ritemaster cannot summon a specific animal, nor can she summon supernatural animals or animals with human-level intelligence."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist marks a specific location and remains close to that spot throughout the performance. He must provide “chiminage” for the animal, typically a moderate amount of food the animal would eat. The ritualist performs a howl of summons while moving counterclockwise around the chiminage. Once the rite has been initiated, the ritualist and any packmates nearby must emit a further howl of summons roughly every five minutes until the rite’s subject arrives."
+            }
+        ],
+        "DicePool": "Harmony versus subject’s Resolve",
+        "Action": "Extended (15 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The ritual must be started again. At the Storyteller’s discretion, ",
+                    {
+                        "text": "something",
+                        "italic": true
+                    },
+                    " might be summoned anyway. It might even ",
+                    {
+                        "text": "look",
+                        "italic": true
+                    },
+                    " like the desired animal."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The animal feels an irresistible compulsion to travel to the ritemaster’s location. The beast enters a kind of fugue state; it retains some awareness of his surroundings (enough to navigate and avoid hazards), but it does not react to stimuli. It is drawn for no obvious reason to the ritemaster’s location. It travels to the werewolf’s location as quickly as it can manage. Unlike most animals, it does not try to avoid human inhabited areas or contact with humans, which might create a panic depending on the type of animal summoned."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the animal arrives, it can be given a single, simple command (e.g. attack him, follow her, guard me, carry this to here), which it obeys to the best of its ability. If the task is not completed by the end of the scene (or if it is open-ended), the effect ends at the end of the scene. Otherwise, the animal is released from the rite’s effects when the task is completed."
+            },
+            {
+                "type": "paragraph",
+                "text": "If it takes the animal more than an hour to reach the ritualist, the magic of the rite breaks down. The subject of the rite no longer feels any compulsion to find the ritualist. This rite does not grant the summoned animal any ability to bypass barriers or escape bonds; while it might be possible to affect the tiger at the Bronx Zoo with this ritual, the tiger won’t be able to get out of its enclosure (though it will try mightily for an hour)."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable progress is made toward summoning the animal."
+                ]
+            }
+        ]
     },
     {
         "Name": "Condemnation, Rite of",
         "Rank": "1",
         "Cost": "",
         "Description": "Target loses benefit of war totem's blessing, and -1 penalty to social rolls among rites audience for 1 month.",
-        "Book": "WAtP 51"
+        "Book": "WAtP 51",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "One werewolf does not always approve of another. To some perspectives, the People seem so fractious that it’s remarkable that any two packs ever get along, but werewolves understand each other on levels that are difficult for a human to appreciate. Even if they don’t agree, they are all bound together by their common fates and experiences. When one of the Uratha feels that another has disgraced himself and his race, he may perform this ritual to declare that shame to Forsaken society. This is also the rite used when a werewolf who has participated in the Rite of the Avowed Soldier must be removed from the war, usually because of betrayal or great ineptitude."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The werewolf who wishes to condemn another must perform this rite herself; a war leader may designate another to end the Rite of the Avowed Soldier if she wishes. Bearing a token that represents the target of the ritual diatribe and another that represents the disgrace or betrayal, the ritualist rails against the shameful actions of the rite’s subject. At the end of the speech, she uses the token of disgrace to break the other token."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents five minutes of effort)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The character has poorly represented her opinion of the rite’s subject and made her audience think her inconsiderate, judgmental and rash. She suffers a -1 die penalty to all Social rolls among her audience for the next month. Other members of the war do not believe the condemnation and consider the rite’s target still an honorable participant in the effort."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes accumulate."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. If the character has the required number of successes, she completes her condemnation. Her audience (and people to whom the words spread) think poorly of her rant’s target. He suffers a -1 die penalty to all Social rolls among the audience (and people at the meeting) for two months. He is no longer part of the war and can gain no benefit from the war’s totem."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. If the character achieves 25+ successes at the rite’s completion, she has made a particularly moving case. Her tale spreads quickly throughout Forsaken society (and among any allies in the war), and the rite’s subject suffers a -1 die penalty to Social rolls with those entities for three months."
+                ]
+            }
+        ]
     },
     {
         "Name": "Contrition, Rite of",
         "Rank": "1",
         "Cost": "-",
         "Description": "The Pure's variant of the Forsaken's two dot version of this ritual, the primary distinction is the subject must remain out of the sight of the moon for an extended period while gathering the necessary successes.",
-        "Book": "Pure 122"
+        "Book": "Pure 122",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Ivory Claws are the pioneers of this ritual, which gives the subject more power when performing other rites by virtue of his obedience to Silver Wolf’s decrees (specifically, the Orthodox laws listed on p. 69). Some Fire-Touched and Predator Kings know their own variants, which require obedience to a similarly restrictive law chosen by their Firstborn patron. Few werewolves of any ilk are able to obey these laws for a long time, but some Ivory Claw ritualists and hermits are able to hold to them for months if not years."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The subject of the rite — who can be the ritualist, or can be another werewolf — declares that she is an obedient child of Father Wolf. She then announces one of Silver Wolf’s laws of purity that she intends to obey. The ritualist anoints the rite’s subject with ritually blessed pure water and commands the subject to obey the laws of the great father."
+            },
+            {
+                "type": "paragraph",
+                "text": "Note that this ritual can “stack” with itself. If the subject of the rite obeys two or three of Silver Wolf’s laws of purity, she gains two or three bonus dice. She cannot exceed three bonus dice, however."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Simple (the rite takes five minutes to perform, but a single die roll determines success)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the sins of the subject come to the forefront; he suffers a one-die penalty to all rituals for the next 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the ritualist can try again one hour later."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " So long as the subject of the rite continues to obey the declared law, he gains one die to the Harmony roll to perform any given ritual. When that law is broken, he suffers a one-die penalty to rituals for the next 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Success:",
+                        "bold": true
+                    },
+                    " When the subject of the rite finally does violate the declared law of purity, he does not suffer the one-die penalty described above."
+                ]
+            }
+        ]
     },
     {
         "Name": "Dedication, Rite of",
         "Rank": "1",
         "Cost": "-",
         "Description": "Imbues an item with the ability to shapeshift along with a designated owner, such that it is not destroyed or dropped during the change. Also allows the item to be brought into the Shadow Realm. A character may bind up to his Primal Urges score number of items.",
-        "Book": "WtF 150"
+        "Book": "WtF 150",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A werewolf’s body is suffused with Essence, allowing it to contravene the “laws” of the physical world in ways science deems impossible. For example, a werewolf can bodily enter the spirit world or quadruple his mass in an instant by changing shape. This spirit energy doesn’t automatically infuse the werewolf’s belongings, though. Shifting to Dalu almost certainly damages a werewolf’s clothes, and shifting to any other form destroys them. By the same token, when a werewolf steps into the spirit world, his mundane belongings are left behind. This rite allows a werewolf to ritually tie mundane objects such as clothing, watches or weapons to his Essence."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "When the werewolf shapeshifts, a ritually bound or “dedicated” item of clothing or equipment shifts to match his form if feasible, or merges with his flesh. For example, if a werewolf has dedicated a suit of clothes, a necklace and a wristwatch, all these objects change in size to suit his new form when he assumes Dalu. When he shifts to Gauru, the clothes merge with his flesh, but the wristwatch and necklace might shift size again. When he takes Urhan form, the wristwatch also blends with his flesh, while the necklace might remain. In addition, all these objects remain with him when he enters the spirit world, although the ",
+                    {
+                        "text": "un-dedicated",
+                        "italic": true
+                    },
+                    " flashlight he carries doesn’t."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster may perform this ritual on himself or on other werewolves. It involves cutting the recipient with a claw and smearing his blood on the item in question, drawing a circular pattern. At the culmination of the rite, the item absorbs the blood, leaving no stain. The ritual takes a few minutes for every item to be dedicated."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one turn)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and all accumulated successes are lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added to the roll for the current period."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The target may have up to one item bound to him per Primal Urge dot that he has. He may later choose to “release” a dedicated item in order to dedicate another one. The target need not have all items dedicated to him at once. For example, this ritual could bind two new items to a character who already has two items dedicated to him, as long as his Primal Urge is at least 4."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A simple set of clothing counts as one item. A backpack and its contents also count as one item, although only the contents inside the backpack at the time of the rite. If a werewolf later adds something to the backpack, it doesn’t count as dedicated unless the rite is performed again with the new object inside. The contents of an article of clothing’s pockets aren’t considered part of the clothing, unless the werewolf dedicates that particular article of clothing as a separate item. Therefore, if a werewolf dedicates a business suit to himself as “one item,” the watch in his pocket doesn’t count as dedicated. If, however, he dedicates his favorite pair of jeans to himself as one item, the wallet in the pocket counts as dedicated."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The item doesn’t count toward the character’s Primal Urge limit on how many items that can be dedicated to him. It is essentially dedicated for free or is extra."
+                ]
+            }
+        ]
     },
     {
         "Name": "Demonstration of Obedience",
         "Rank": "1",
         "Cost": "-",
         "Description": "Vows faith to Father Wolf's decrees and binds one subject to a specific law, granting a bonus to Harmony rolls for other rituals so long as the law is observed.",
-        "Book": "Pure 122"
+        "Book": "Pure 122",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Ivory Claws are the pioneers of this ritual, which gives the subject more power when performing other rites by virtue of his obedience to Silver Wolf’s decrees (specifically, the Orthodox laws listed on p. 69). Some Fire-Touched and Predator Kings know their own variants, which require obedience to a similarly restrictive law chosen by their Firstborn patron. Few werewolves of any ilk are able to obey these laws for a long time, but some Ivory Claw ritualists and hermits are able to hold to them for months if not years."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The subject of the rite — who can be the ritualist, or can be another werewolf — declares that she is an obedient child of Father Wolf. She then announces one of Silver Wolf’s laws of purity that she intends to obey. The ritualist anoints the rite’s subject with ritually blessed pure water and commands the subject to obey the laws of the great father."
+            },
+            {
+                "type": "paragraph",
+                "text": "Note that this ritual can “stack” with itself. If the subject of the rite obeys two or three of Silver Wolf’s laws of purity, she gains two or three bonus dice. She cannot exceed three bonus dice, however."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Simple (the rite takes five minutes to perform, but a single die roll determines success)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the sins of the subject come to the forefront; he suffers a one-die penalty to all rituals for the next 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the ritualist can try again one hour later."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " So long as the subject of the rite continues to obey the declared law, he gains one die to the Harmony roll to perform any given ritual. When that law is broken, he suffers a one-die penalty to rituals for the next 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Success:",
+                        "bold": true
+                    },
+                    " When the subject of the rite finally does violate the declared law of purity, he does not suffer the one-die penalty described above."
+                ]
+            }
+        ]
     },
     {
         "Name": "Duel, Rite of the",
         "Rank": "1",
         "Cost": "-",
         "Description": "Creates a dueling zone, in which any lethal damage inflicted from weapons is downgraded to bashing.",
-        "Book": "LodgF 31"
+        "Book": "LodgF 31",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Dueling with other members of the Lodge of Arms is one of the great pleasures of lodge membership for many werewolves. With the level of skill many lodge members possess, and the frightening power of their weapons, the lodge needed to find a way to prevent members killing each other too frequently. This rite was the response. It creates an area in which the spirits of weapons are suppressed, rendering them much less effective in killing opponents. This rite is always performed before any duel between lodge members."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster sets a fire burning in the center of the dueling circle, and then walks around the boundaries of the area, marking it out with a weapon, stick or even his hands. Once the circle is complete, the ritemaster must douse the fire, thereby symbolically quenching the passion of spirits within the circle. At the end of the rite, he growls in the manner of a patient parent and invites the combatants into the ring."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. Participants are likely to interpret the rite’s failure as a sign that the duel is meant to be to the death."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained toward the total. If the ritemaster accumulates 15 or more successes, the area within the boundaries is appropriately blessed. While within the marked circle, any lethal damage received from weapons is downgraded to bashing damage. This rite cannot affect attacks made with natural weapons, and its effects are lost if a character leaves the circle. If the circle is physically broken (the mark being scuffed out, most likely), the rite’s effects end. The circle remains empowered for the duration of the scene."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are gained toward the total. If the ritemaster accumulates 20 or more successes, the area within the marked boundaries receives a particularly potent blessing. Aggravated damage received from weapons is also downgraded to lethal damage as long as the wound was incurred within the circle."
+                ]
+            }
+        ]
     },
     {
         "Name": "Fair Warning, Rite of",
         "Rank": "1",
         "Cost": "",
         "Description": "Lupines entering area protected with this rite instinctively feel as if they are interlopers, and get +2 bonus when attempting to find territory markers.",
-        "Book": "SotM 106"
+        "Book": "Tribes 106",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In the modern world, Uratha can’t always be expected to notice when they’ve crossed into another pack’s territory. Scent marks and visual tags might help, yes, but unless a werewolf knows what to look for or changes to Urhan form (not always feasible in the city), she’ll probably miss the markings. Getting upset when territory is thus “invaded” is ridiculous, but the ",
+                    {
+                        "text": "Meninna",
+                        "italic": true
+                    },
+                    " do have their tribal vow to think about. Thus, this rite was developed for the benefit of werewolves new to an area."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "When a werewolf crosses into an area protected by the Rite of Fair Warning, she immediately feels a sense of subtle threat. The threat isn’t severe — the Uratha doesn’t feel as if her life is in danger — but she does feel ",
+                    {
+                        "text": "noticed",
+                        "italic": true
+                    },
+                    ", even if she is under the effect of a Gift or other power that masks her somehow. The Rite of Fair Warning doesn’t notify the werewolf who performed it; it merely lets the interloper know that she is an interloper. In addition, if a werewolf is actively looking for scent marks or other territory tags in an area protected by this rite, the player receives a +2 modifier to any rolls made to do so. This bonus also applies to other, non-Uratha powers meant to detect supernatural phenomena (a mage’s detection spells, a vampire’s Auspex Discipline or even a mortal’s Unseen Sense Merit might apply)."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist must walk the perimeter of the area to be affected, continually singing or chanting an invocation to the spirits to watch over her borders. When she comes full circle, she seals the area with a few drops of her blood, sweat or urine (the specific fluid varies from place to place), and marks the location with a visual or olfactory tag. Once performed, the Rite of Fair Warning lasts for one lunar month before fading."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents 10 minutes of walking)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The character is attacked by a local spirit that takes issue with her “claim” of territory."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained toward the total."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained toward the total. When the total reaches 20 successes, the character must continue walking and chanting or singing until she reaches her starting point, at which point she can finish the ritual."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The character makes considerable progress toward her goal. If the character has gained 25+ successes, the ritual is extremely potent. Any werewolf entering the territory suffers a -2 penalty to Wits + Composure rolls to avoid surprise (see p. 46 of the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ") until the ritualist or one of her packmates has officially welcomed the interloper to the area."
+                ]
+            }
+        ]
     },
     {
         "Name": "Final Howl, Rite of the",
         "Rank": "1",
         "Cost": "●",
         "Description": "Ritualist howls and is able to transmit his location, a message and emotional undercurrent to all that hear. Used only in dire circumstances.",
-        "Book": "SotUK 99"
+        "Book": "SotUK 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Forsaken of Britain are no strangers to hearing tales of desperate last stands against the Pure or some hideous and alien creature from the Shadow. Though calling for aid can be considered the act of a coward and a weakling depending on the circumstances, sometimes a werewolf has no choice but to howl for help or die. Even then, if the situation is dire enough, a werewolf could be long dead before help arrives, and may need to communicate one last piece of information to other Uratha in the area. For this last breath attempt to send a message, the Forsaken created the Rite of the Final Howl."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The werewolf bites her tongue hard enough to bleed, and swills the blood around her mouth for a turn. The following turn, she roars out a single, long howl to the sky, containing rough details of the howler’s location, a message to any who hear the roar, and with an emotional undercurrent that she doesn’t expect to survive."
+            },
+            {
+                "type": "paragraph",
+                "text": "This is a gravely serious rite, and few werewolves would ignore the plea or the message within the howl. Even rival packs are likely to race to the howler’s aid to see what the danger is, or pass on a message if that is the focus of the roar — the Rite of the Final Howl is taken with solemn sincerity among the Forsaken of Britain who know of it."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the werewolf chokes slightly on the blood in his mouth, preventing him for howling this turn."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the howl reaches no farther than a normal howl."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The howl sounds out for five miles per success on the Harmony roll. Though the roar does not reach the ears of humans beyond natural hearing range of the howling werewolf, all Uratha with auspices within the rite’s radius hear the howl whether they are in the physical world or the Shadow Realm."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No additional benefit beyond the additional range of the howl."
+                ]
+            }
+        ]
     },
     {
         "Name": "First Blood, Rite of",
         "Rank": "1",
         "Cost": "",
         "Description": "Performed when Blood Talon has received first battle wound, grants 3 XP which must be spent towards Glory renown.",
-        "Book": "SotM 39"
+        "Book": "Tribes 39",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "When a cub takes his first wound in battle, the Blood Talons celebrate. To face death and survive, to be wounded in service to the memory of Father Wolf, is a glorious thing. Blood Talons perform this rite the first time a cub newly initiated into the tribe is severely injured in battle. The Rite of First Blood commemorates the event, which is considered a major milestone in a Blood Talon’s life and a truly Glorious event."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This rite can be performed only on an Uratha who has been severely wounded in battle (that is, who has suffered an aggravated wound), and an individual can be the recipient of this rite only once."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist gathers the tribe, ideally at the site of the battle or at a location designated ",
+                    {
+                        "text": "tur",
+                        "italic": true
+                    },
+                    ". The ritualist stands in the center of the assembled tribe with the honored initiate kneeling beside him, and the ritualist declares the initiate’s deeds and injuries. The ritualist then pulls the initiate to his feet, proclaiming him to be unbroken and a worthy inheritor of ",
+                    {
+                        "text": "Fenris-Ur’s",
+                        "italic": true
+                    },
+                    " legacy. The assembled werewolves howl their approval, and each takes his turn marking the initiate’s wounds: some merely trace a talon over the wounds; others paint the wounds with handfuls of mud or smear their own blood over the wounds (especially common if the wounds came from the same battle). When each member of the tribe has made his mark, the ritualist proclaims the cub “blooded in glory,” and leads all the assembled werewolves, the cub included, in a howl to the Destroyer Wolf."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents one minute of extolling the honoree’s virtues)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritualist dishonors or inadvertently insults the initiate. The honoree loses one point of Glory Renown."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The ritualist fails to extol the virtues of the initiate’s deeds. The initiate gains no experience points."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The ritualist honors the initiate’s suffering. The honoree receives three experience points, which may be spent only on improving Glory Renown."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The ritualist’s performance is so spellbinding and tells of such epic prowess in battle that it attracts the attention of a Lune of the honoree’s auspice choir. The Lune immediately grants the honoree one free dot of Glory Renown."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-3",
+                        "The initiate’s wounds have already healed when the rite is performed."
+                    ],
+                    [
+                        "-1",
+                        "The honoree received only one or two points of aggravated damage."
+                    ],
+                    [
+                        "+0",
+                        "The honoree suffered two or more points of aggravated damage, but was not pushed into wound penalties."
+                    ],
+                    [
+                        "+1",
+                        "The honoree has an aggravated wound marked in one of his last three Health boxes."
+                    ],
+                    [
+                        "+1",
+                        "All Uratha present are Blood Talons."
+                    ],
+                    [
+                        "+2",
+                        "Blood Talons from multiple packs are present."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Funeral Rite",
         "Rank": "1",
         "Cost": "-",
         "Description": "Speeds the spirit of a deceased werewolf onward into the afterlife.",
-        "Book": "WtF 149"
+        "Book": "WtF 149",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Funeral Rite is performed after the death of a werewolf. Its intent is threefold. First, it provides proper honor to the spirit of the valiant dead. Second, the rite gives packmates, allies and friends of the deceased an opportunity to make their peace with his demise. Third, the ritual speeds the spirit of the dead werewolf on its way to the ancestor realms or into its next life."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite is said to have been first performed by the ancestors of the Pure Tribes upon the death of Father Wolf, and it’s rumored that performance laid waste to the spirit world, wracking the very Earth with the agony of Father Wolf’s death. The modern form of the ritual has no such effect."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This ritual usually takes roughly an hour to perform. The ritualist and all participants smear a small amount of their own blood onto both the corpse of the subject and the location of the body’s final resting place (whether a grave or funeral pyre, or into the ocean’s water). Specifics of the ritual vary from region to region, but it always includes a howl of mourning. The ritual ends with the interring of the corpse — again, whether underground, in a cairn, on a pyre or into the water varies."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents 15 minutes)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritemaster accidentally dishonors the deceased in some way. This may affect the performer’s standing among those present at the funeral. He may suffer a -1 penalty on Social rolls toward attendees for the next month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added. If the required number is accumulated, this rite may speed a werewolf’s spirit [unclear]"
+                ]
+            }
+        ]
     },
     {
         "Name": "Ghost Howl, Rite of the",
         "Rank": "1",
         "Cost": "-",
         "Description": "Infuses an area with a haunting growl, which persists until the day of the ritemaster's death. Serves as a warning to spirits and other Uratha alike.",
-        "Book": "LodgF 75"
+        "Book": "LodgF 75",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Lodge of Night developed this ritual in order to serve as both a warning and a memoriam for fallen members. This strange dual-purpose aspect to the rite comes from its unique effect, whereby the ritualist howls long and hard in the Shadow, and leaves a faint “echo” of the sound in the area after he has departed. From then on, any spirits or Uratha entering the area might hear the faint ghost of a howl, conveying whatever message the ritemaster put into the original howl."
+            },
+            {
+                "type": "paragraph",
+                "text": "Most often these “ghost howls” are left to linger in a region to warn any hostile spirits that it is Uratha-protected territory, or to warn other werewolves that there are highly dangerous spirits nearby. The rite also sees use among the night hunters to mark the spot of a fellow lodge member’s death, where the howl of sorrow will remain in the Shadow for all time. Members of the Lodge of Night are rarely discouraged from marking a packmate’s grave with this rite, even if the fallen Uratha was not a night hunter himself. However, it is forbidden to teach the Rite of the Ghost Howl to non-lodge members, and punishable by expulsion."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This ritual takes no more than a minute or so to perform. The ritualist must assume the Urshul form in the area he wishes to mark, and howl a simple message (understandable by those who can speak First Tongue). The message can include the howler’s identity and a vague impression of reason he performed the howl, but little more than that."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the howler finds that his message simply will not echo in the region. He may try again when a month has passed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite simply fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The howl lingers in the air after the ritualist finishes, and is imprinted in the region of Shadow until the day of the ritemaster’s death. After his death, the howl will fade and never be heard again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The howl lingers and remains even after the ritemaster’s death, never fading from the Shadow."
+                ]
+            }
+        ]
     },
     {
         "Name": "Hallowed Ground, Rite of",
         "Rank": "1",
         "Cost": "",
         "Description": "Ritemaster sings of his glory to the spirits of his territory. If he is judged well the Ritemaster gains 2 essence or entire pack gains 1 essence each.",
-        "Book": "SotM 143"
+        "Book": "Tribes 143",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "An Iron Master must never forget his territory. Without a place, a people or an institution to call his own, he will never truly understand Sagrim-Ur’s tenet. Some werewolves find that honoring the spirit of their territory — whatever that territory might be — helps tie them to the words and the spirit of what they swore before Red Wolf after their initiation."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Spirits that find themselves honored this way reward a successful Rite of Hallowed Ground with a small amount of Essence.",
+                    {
+                        "type": "lineBreak"
+                    },
+                    {
+                        "type": "lineBreak"
+                    },
+                    "Some ",
+                    {
+                        "text": "Farsil Luhal",
+                        "italic": true
+                    },
+                    " consider this rite pointless. They consider that a werewolf should honor his territory through hard work rather than sucking up to the spirits behind it. Many still use the rite, showing the spirits what the werewolves have done and claiming the Essence for doing so. A werewolf must treat the rite as an addition to everything else that he does to honor his territory, rather than the only thing."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster calls to the spirits of her territory. She must burn something symbolic of her territory while she stands in an appropriate location (an Iron Master who considers the Catholic Church to be her territory can use any church). She howls tales of all she has done while the item burns, then must cut her palm, spilling three drops of blood on the ground. When the third drop hits the ground, the spirits judge her words. The rite normally takes only a couple of minutes to complete. A werewolf can use this rite only once per week unless she performs a great service to her territory in the meantime. The spirits see further attempts as glory-hunting, and those attempts automatically fail."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The spirits mock the werewolf’s efforts. The character loses a point of Willpower."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite simply fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The spirits are satisfied with the werewolf’s actions and suffuse her spirit with Essence. The character regains two points of Essence, or the character’s entire pack regains one Essence point each."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The ritualist is flushed with her success and the rush of Essence through her spirit. In addition to the effects of a success, she regains one point of Willpower."
+                ]
+            }
+        ]
     },
     {
         "Name": "Honor the Benevolent Spirit",
         "Rank": "1",
         "Cost": "",
         "Description": "Brands a rune upon a spirit which means \"Honored\". Werewolves must protect the spirit if it calls for aid.",
-        "Book": "LodgS 47"
+        "Book": "LodgS 47",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ritual was developed by the Lodge of the Endless Moon in order to bestow gratitude and respect upon those spirits that serve the balance of nature, and that never possess humans or cause further harm to the unstable spirit wilds. Some spirits have no care for whether the werewolves are pleased or otherwise, and are free to ignore this blessing. Other spirits either fear or respect the Uratha enough to appreciate this small recognition and enjoy the slight protection such a marking offers. Once the spirit has been blessed, it is marked with a glyph upon the surface of its corpus. The symbol means “Honored” in the First Tongue, and is visible to both Uratha and spirits alike."
+            },
+            {
+                "type": "paragraph",
+                "text": "Whether to perform this rite can be a difficult choice. A spirit marked with the glyph has proven its use and benevolence, and must be protected if it calls for aid. This can generate a great deal of work for the Uratha if too many spirits bear the honor. However, the more spirits that carry the mark and enjoy the good-natured protection of the Uratha, the more pleasant the local Shadow and physical realm will eventually become. As with all aspects of defending territory, a balance between ability and necessity must be struck — the werewolves can’t be everywhere at once, and they can’t take care of every problem that crops up."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster sheds a drop of his own blood, by using a claw or other edged instrument, and draws the glyph upon the spirit’s “flesh” with a fingertip. As he traces the symbol, the werewolf intones a blessing in the name of Father Wolf and Tsuki-yumi to recognize the spirit as a just servant of Creation. A spirit that is forcibly bound or restrained can reject the power of the rite with its Resistance. Whichever of the two has the highest number of successes after the single turn is considered victorious. Ties always go in favor of the Uratha."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The glyph appears incorrectly, reading something completely different and causing a burst of pain (one Corpus level) to the spirit. The mark cannot be removed for another lunar cycle, whereby the Uratha can once again try to inscribe the correct mark."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite simply fails, and the mark does not show."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The glyph shows on the spirit’s form in a dull red light. This will likely make other spirits jealous at the protection the branded spirit receives."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The glyph shows through with flickering white fire or some other ostentatious display of the ritemaster’s power."
+                ]
+            }
+        ]
     },
     {
         "Name": "Howl of Ownership",
         "Rank": "1",
         "Cost": "",
-        "Description": "Alerts spirits in the area that the pack has claimed it's territory and challenges spirits to face them if they dispute the claim.",
-        "Book": "Terr 50"
+        "Description": "Alerts spirits in the area that the pack has claimed its territory and challenges spirits to face them if they dispute the claim.",
+        "Book": "Terr 50",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This simple ritual allows a pack to declare to the spirit world that the pack controls a given patch of territory. The rite is simple, but it is easily interrupted. In this way, it is designed to announce the claim to other nearby werewolves. If those neighbors do not challenge the pack shortly after performance of the rite, obviously the pack’s claim is true."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist stands in the center of a territory element that his pack intends to lay claim to and unleashes a howl of dominance. Each of the ritemaster’s packmates must be named in the howl, which in essence exhorts any nearby werewolves to come if they dare and challenge the ritualist’s pack if they believe they have a valid claim to this place."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Only the nearest spirits hear the howl, and they are inclined to believe that the ritemaster and her pack are weak and incompetent. For the next day, the ritemaster and her pack receive -1 to all rolls made to perform rites or influence spirits within the territory."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " Only the nearest spirits hear the howl, and they are unimpressed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The spirits within the area become aware of the ritemaster’s pack and their claim."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The spirits within the area are impressed or intimidated by the strength of the ritemaster’s conviction. For the next day, all members of the ritemaster’s pack receive +1 die to summon or banish spirits within this territory element."
+                ]
+            }
+        ]
     },
     {
         "Name": "Luna’s Acre, Rite of",
         "Rank": "1",
         "Cost": "",
         "Description": "Consecrates a graveyard for 1 year. Those that come and pray can gain back 1 willpower point once per week.",
-        "Book": "Rage 178"
+        "Book": "Rage 178",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Protectorates with some level of history have seen their people come and go. Yes, some probably leave of their own accord, but many fall in battle (though a few certainly succumb to old age or disease) when the clutch goes to war. This rite simply consecrates a protectorate’s graveyard (or, as some call it, “bone orchard”) with Luna’s blessing. Those who come to Luna’s Acre to pray and reflect often feel recharged in doing so."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "Enacting the ritual is simple, though lengthy. The ritemaster goes to where the protectorate keeps its dead (or honors the dead through cenotaphs and markers, if not the bodies themselves). There, she must upend a small bottle (thimble-sized) of her own tears onto the ground. She must then whisper a small prayer of her own design to Luna and her fallen clutch-mates. She must repeat the prayer over and over again until the ritual is complete, which may be an hour or more in time."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (seven successes; each roll represents one hour of time)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritemaster feels overwhelmed with grief and cannot continue. For the following eight hours, she suffers a -1 penalty to all rolls due to her crushing sadness."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated, and the rite fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The appropriate successes are added. If the total reaches seven or more successes, the rite is completed. For the following year, any who come to pray at the graveyard for at least 10 minutes of uninterrupted quiet can gain back one Willpower point for doing so. The character may only gain one Willpower point per week in this manner. The rite lasts for one year, 365 days, from the point of the ritemaster’s performance. After that, the rite must be performed anew by her or another Forsaken."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. If the total reaches 12 or more successes, the ritemaster automatically gains two Willpower points for her success."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "line",
+                "label": "+2",
+                "text": "Performed during a full moon"
+            },
+            {
+                "type": "line",
+                "label": "-2",
+                "text": "Performed during a new moon"
+            }
+        ]
     },
     {
         "Name": "Packstone",
         "Rank": "1",
         "Cost": "",
         "Description": "Ritemaster and pack create packstone. Activating packstone allows owner to detect what direction, how far and the physical health of each packmate regardless of distance.",
-        "Book": "LodgF 98"
+        "Book": "LodgF 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Packstones are small, jagged, thumb-sized chunks of bone that are choked up and coughed out by Nomad Wolf himself. They are formed of spirit matter, but are manifested into physical form so that they appear undetectable from any other bone, beyond their unique, twisted shape."
+            },
+            {
+                "type": "paragraph",
+                "text": "The werewolf must carve Anka-Ur’s name into the “stone” when he receives it, and make the attuning roll. If unsuccessful, he may try again next time he is in his lodge totem’s presence. If successful, the character may take the chunk of bone back to his pack to prepare the fetish for its purpose. Every pack member who grips the jagged bone nugget in her fist and draws blood from her palm is “remembered” by the Packstone. From that moment on, the owner can activate the fetish by squeezing it in his hand and drawing blood, and then detect the exact distance and physical health (in terms of damage taken) of each packmate, no matter their position in either of the two worlds."
+            },
+            {
+                "type": "paragraph",
+                "text": "Anka-Ur is said to consume spirits of carrion or scavengers to create these fetishes. He alone creates them for his adopted children, rather than teaching them the knowledge to make the items themselves; some Ithaeur have guessed that other powerful wolf-spirits might have the ability as well, but less cause to use it."
+            }
+        ],
+        "PerformingRite": [],
+        "DicePool": "",
+        "Action": "Reflexive",
+        "RollResults": []
     },
     {
         "Name": "Penance, Rite of",
         "Rank": "1",
         "Cost": "-",
         "Description": "A painful and torturous rite that seeks the forgiveness of the founder of the Fire-Touched tribe, this ritual can free the subject of derangement acquired due to Harmony loss.",
-        "Book": "Pure 122"
+        "Book": "Pure 122",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "As discussed in Chapter Two, the Fire-Touched believe that sin can be forgiven, provided that the proper penance is performed. The Rite of Penance is one of the most important parts of the ",
+                    {
+                        "text": "Izidakh",
+                        "italic": true
+                    },
+                    " culture, and since this rite can be performed alone, most Fire-Touched eventually learn it. With it, the Uratha can find some forgiveness for recently committed sins, no matter how intense. The rite is interesting in that it doesn’t require the werewolf to seek forgiveness from the people he actually sinned ",
+                    {
+                        "text": "against",
+                        "italic": true
+                    },
+                    ", only a more abstract form of absolution from Gurim-Ur himself. If the werewolf is seeking forgiveness from another party, he would be well-advised to perform the Rite of Contrition instead."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The Fire-Touched who is receiving the rite must confess his sins. If the werewolf is performing the rite upon himself, he usually builds a small fire and directs his confession there, the idea being that Gurim-Ur will hear the werewolf through the flames. The ritemaster then decides upon an appropriate form of penance. Some ritualists choose penance appropriate to the sin committed. For instance, lying might result in the offender’s tongue being tied to a stump and then beaten flat with iron rods, while killing another werewolf in battle (noble though it may be, it is still a sin) might call for the killer to submit to a full minute of biting and clawing by other Fire-Touched. Sometimes the ritualist just chooses something appropriately painful, with no regard toward how well it thematically meshes with what the werewolf did. After all, few Fire-Touched can appreciate the symbolism while they are actually enduring the penance."
+            },
+            {
+                "type": "paragraph",
+                "text": "Whatever form the penance takes, the ritualist must take care not to kill the subject. The subject can be injured within an inch of his life, but werewolves can heal from the most grievous injuries in hours, at most. Obviously, the use of silver is strictly forbidden in the Rite of Penance (though some heretical packs of Fire-Touched sometimes break this rule)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Each roll in the rite requires five minutes of torture, but the subject can only withstand so much. After a number of rolls equal to the subject’s Stamina + Resolve (+ Iron Stamina, if applicable), the target’s body becomes inured to the pain and the subject’s mind becomes awash with Rage. At that point, the subject must check for Death Rage for every roll the ritualist makes for the remainder of the rite. If the subject enters Death Rage, of course, the rite fails (treat as a dramatic failure, below)."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite can be performed only once during any given lunar month on any given subject."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended, (20 successes - subject’s current Harmony; each roll represents five minutes of torture)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The act of penance is either not sufficient, or the subject flies into Death Rage, ruining the rite. All successes are lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The successes are added to the total. Once the ritemaster reaches (20 - subject’s Harmony), the rite is successful. At that point, the subject of the rite can attempt purge himself of any derangements or compulsions accrued as a result of Harmony loss. The player rolls the character’s ",
+                    {
+                        "text": "current",
+                        "italic": true
+                    },
+                    " Harmony rating once for each derangement. If the roll is successful, a mild derangement disappears or a severe derangement becomes mild. It is possible to continue performing the Rite of Penance until all derangements have been purge, but this is time-consuming and, of course, painful."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The successes are added to the total. No effects beyond the rite being completed quickly."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Subject has never experienced the particular torture used."
+                    ],
+                    [
+                        "-1",
+                        "Subject is performing the rite for himself."
+                    ],
+                    [
+                        "-1",
+                        "Each sin (i.e., degeneration roll) is confessed."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Renunciation, Rite of",
         "Rank": "1",
         "Cost": "-",
         "Description": "This rite is the polite procedure for departing from a tribe respectfully; still costs one Renown dot.",
-        "Book": "WtF 150"
+        "Book": "WtF 150",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Sometimes, a werewolf discovers that she simply cannot consider herself a member of her tribe any longer. Perhaps she chose poorly during her initiation; perhaps her ideology changed under the pressures of Forsaken life. In such cases, it’s better to formally renounce one’s tribe to begin a new life than to crack under the strain."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite doesn’t actually create the ability to leave the tribe at all. A werewolf who doesn’t perform this rite is not mystically bound to be a member of her tribe forever. Rather, this rite allows a werewolf to leave her current tribe formally while causing the least amount of offense to the tribe’s patron totem and the other werewolves of the tribe. Once the Rite of Renunciation is performed, the werewolf is free to undergo a second Rite of Initiation and join another tribe, or to simply walk as a Ghost Wolf."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The werewolf who wishes to renounce her tribe must be the one to perform this rite. The rite is usually performed in the presence of an elder of the tribe, but if none are able (or willing) to attend, the supplicant usually substitutes a summoned spirit of the tribal totem’s brood or an effigy of the tribal totem. The rite begins with a low howl begging leniency. The ritemaster then begins the ritual speech of renunciation, praising the virtues of the tribe even as she admits her inability to hold to them. In most variations of the rite, the supplicant symbolically sheds some token of tribal membership. (A Bone Shadow might divest herself of all garments and fetishes in ceremonial fashion, while a Blood Talon might slice away the scar gained from his Rite of Initiation.) At the close of the rite, the ritualist kneels, bows or exposes her belly before the elder, spirit or effigy as a final gesture of appeasement."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (50 successes; each roll represents 10 minutes of effort)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The character has made an embarrassing gaffe and insulted the tribe or tribal totem in question, and is likely to gain enemies among the tribe."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained at this time."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained. If the character gains the total required amount, the rite concludes and she’s no longer considered a member of her tribe. The character loses one dot of Renown in the category associated with her former tribe. The character may later choose to join a different tribe, in which case she must undergo the Rite of Initiation for that tribe as usual. If she chooses not to join another tribe, she’s now considered a Ghost Wolf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are gained. If the character has gained 55+ successes, her closing plea was exceptionally moving, and her former tribemates will view her with more kindness and camaraderie than they might have otherwise."
+                ]
+            }
+        ]
     },
     {
         "Name": "Ritual Mind",
         "Rank": "1",
         "Cost": "○●",
         "Description": "Ritemaster gains 1 die to Harmony roll for other rite, but can only be used to offset penalties, not to gain extra dice.",
-        "Book": "LotD 121"
+        "Book": "Lore 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A werewolf who has trouble finding balance before invoking the spirits to empower her rituals is at a disadvantage compared to Uratha who pay closer heed to the tenets of Harmony. To redress that balance, many ritemasters have taken to petitioning Mother Luna to watch over their workings. While Luna likely doesn’t pay any heed, the local spirits recognize the werewolf’s need to focus."
+            },
+            {
+                "type": "paragraph",
+                "text": "Many werewolves consider this rite holy in some way, a ritual created to assist with the greatest of workings. For Uratha of lower Harmony to use it seems rather profane to many dedicated ritemasters, but its use goes on. A new werewolf will likely not learn this rite first, but knowing it before she needs it to bolster her Harmony marks her as a highly dedicated ritualist."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "A werewolf can only use this rite to assist in using another, and the same werewolf must perform both rites. She must prepare all of the materials required for the other rite before starting, and only enacts this rite when ready to start the other as well. The werewolf faces east if she cannot see Mother Luna or west if she is visible in the sky. From there, she takes one deep breath and howls her need for clear thought and balance to the four cardinal directions, turning clockwise. The rite takes less than two minutes to perform."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails. Due to the extra confusion and stress, the other rite suffers an additional -2 modifier."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails. The ritemaster gets neither bonus nor penalty."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The ritualist may add one die to her Harmony roll for the other rite. This extra die can only be used to offset penalties to the roll, not to gain extra dice above the character’s Harmony."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The ritualist gets three extra dice to offset penalties rather than just one."
+                ]
+            }
+        ]
     },
     {
         "Name": "Scent of the Einherjar",
         "Rank": "1",
         "Cost": "",
         "Description": "Allows ritemaster to track fallen Uratha worthy of the Funeral Rite up to 1 mile per point of Primal Urge.",
-        "Book": "Blas 102"
+        "Book": "Blas 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Einherjar is the name of the fallen heroes who reside in Valhalla. This rite allows Valkyries to catch the scent of a fallen hero so that they may perform the Funeral Rite for her. This rite also allows them to identify whether a fallen Uratha has been selected. They will not use this skill to attempt to identify an Uratha they feel is unworthy."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This rite is very simple. It is performed by invoking the Vaettir and slowly turning in a circle clockwise, scenting the quadrants."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails and cannot be used for 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the point of Essence is lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The scent of the fallen immediately springs to the nose of the Valkyrie. Any within 10 yards may be identified immediately. Any likely candidates for the Funeral Rite from farther away must be tracked. The ",
+                    {
+                        "text": "Summis-urdu",
+                        "italic": true
+                    },
+                    " may catch the scent of someone within one mile per point of Primal Urge."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " A raven or wolf appears to identify the dead, and the Valkyrie gains +4 dice to perform the Funeral Rite for the identified Uratha."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "The Uratha fell in battle"
+                    ],
+                    [
+                        "+2",
+                        "If the dead Uratha’s Brawl or Weaponry skill is above 3"
+                    ],
+                    [
+                        "+1",
+                        "The Uratha fell in a heroic struggle fulfilling the Oath of the Moon"
+                    ],
+                    [
+                        "+1",
+                        "Per point of Primal Urge possessed by the dead that is above 5"
+                    ],
+                    [
+                        "-2",
+                        "If neither of the dead Uratha’s Brawl or Weaponry skills are at least 3"
+                    ],
+                    [
+                        "-2",
+                        "Per point of Primal Urge possessed by the dead that is below 5"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Shared Scent",
         "Rank": "1",
         "Cost": "-",
         "Description": "Allows a pack to together follow a scent and track a target, provided one of their number has smelled it recently.",
-        "Book": "WtF 151"
+        "Book": "WtF 151",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Every werewolf can trace even faint remnants of a scent as long as he’s tasted his prey’s blood. This rite dates back to the earliest times, to the legendary task of tracking wayward spirits and men and keep them out of the wrong side of the Border Marches. Wolves don’t hunt alone, and neither do Uratha — they track their prey in packs. In those ancient days, the werewolves learned how to share a captured scent."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster must first gather members of his pack within a small, quiet area. The ritualist then intones a howl to Father Wolf, with the members of the pack joining in as a chorus. At the peak, the werewolf who tasted the prey’s blood cuts his tongue with a consecrated knife and passes the knife around to the others. Every other member present tastes the blood. When the knife is returned to the ritemaster, all of the werewolves present “own” the scent and can track the prey as though they had bitten him themselves. This rite shares only the most recent scent the ritemaster has captured, and it works only in the first couple of hours after he’s bitten his victim."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (5 successes per packmate; each roll represents one turn)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All accumulated successes are lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " All participants now have the scent and can track the prey as though they’d tasted his blood (see “Tracking” in Chapter Three, p. 179)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " All tracking rolls made to track the targeted prey, including those made by the werewolf who initially caught the prey’s scent, receive a one-die bonus."
+                ]
+            }
+        ]
     },
     {
         "Name": "Silver Road, Rite of the",
         "Rank": "1",
         "Cost": "",
         "Description": "Target is judged by Luna for Crusade. If accepted the supplicant may learn Silver Road gifts and rites and immediately gain their new Auspice abilities.",
-        "Book": "WAtP 143"
+        "Book": "WAtP 143",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite is used to cement the stronger relationship between Luna and the Forsaken. With this rite, they pledge renewed and strengthened oaths to their mother and her servants. This rite also serves to lessen the desire of the Forsaken to possess territory, superimposing the goals of the crusade upon the werewolf’s psyche. This does not mean that the new crusader has no desire for territory, or is given leave to break tribal bans, such as those of the Iron Masters or Hunters in Darkness. The rite ensures that the supplicant realizes that the goals of the crusade, at least temporarily, trump all others — even if that means putting his or her pack, territory or own Harmony in jeopardy."
+            },
+            {
+                "type": "paragraph",
+                "text": "Participating in the rite is often referred to as “taking the road,” or “taking the moon,” as in: “Have you taken the road?”"
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This rite is performed with as many of the participant’s pack, lodge and tribe members in attendance as possible. Their presence is an acknowledgment that they will do as much as possible to help the participant in his quest, not necessarily directly, but by forgiving some of his duties, and attempting to protect his property and possessions while on the Silver Road."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite is normally carried out on the supplicant’s auspice moon, or the auspice moon of the ritemaster. When the rite is completed successfully, Lunes appear and mystically brand the forehead of the supplicant with his or her auspice glyph as a sign to all that he or she has taken on a lunar crusade."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritemaster scribes a circle of fine ash marking five stations of the moon upon its perimeter. The supplicant stands on the proper sign as the ritemaster recites the Oath of the Moon and a new howl, the Call of the Silver Road."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (five successes for each Forsaken joining the crusade; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All accumulated successes are lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The supplicants are accepted. They immediately gain their new Auspice Abilities and may learn Silver Road Gifts and rites."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The supplicants are exceptionally well received by the lunar court. All rolls to communicate with or influence a Lune gain a +3 dice bonus for one month."
+                ]
+            }
+        ]
     },
     {
-        "Name": "Sorrow Marks – Mirrayindri",
+        "Name": "Sorrow Marks - Mirrayindri",
         "Rank": "1",
         "Cost": "",
         "Description": "Wounds the target with aggravated damage, and while wounds still open ghosts receive -3 penalty to oppose target. Once healed over and only scars remain, ghosts receive -1 penalty.",
-        "Book": "LodgS 61"
+        "Book": "LodgS 61",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The dead look down, say the gubbas, from some place in the sky. Kooris know that the dead are in all sorts of places. The death of a loved one is usually accompanied by rituals. The Uratha have adapted the custom of “sorrow marks” (sacred scarification) in order to prevent ghosts from harming them."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The pack will gather on the occasion of a loved one’s death, whether Uratha, wolf-blooded or any other, and chant while cutting themselves with flint or pieces of kurranulla shell. A bora ring is the usual place to meet. They chant, usually dance as well and cut their packmates in ceremonial patterns. Each sort of ghost that one might fear has a traditional pattern. The cuts are made to form permanent scars, called “sorrow marks” by the British because they were a funerary custom. Rarely, the Uratha of Australia will scar themselves after a defeat in battle or some other loss; the custom is the same. The scarring is painful and creates aggravated damage, but does not incur the risk of Death Rage for Uratha with Harmony over 3."
+            },
+            {
+                "type": "paragraph",
+                "text": "This ritual lasts perhaps an hour for each person who wishes to be scarified. The scars are effective as long as ghosts can see them. Therefore, if a werewolf was scarred on the chest, his scars would keep away a ghost unless he were wearing a shirt. Usually, one point of aggravated damage is enough to scar the body, but for each additional level, another area can be scarred (arms, face, genitalia, etc.). If more of the body is scarred, the effect is stronger."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (five successes; each roll represents half an hour and one point of aggravated damage)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes gained are lost. The ritemaster may try again from the beginning."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained. If the total reaches five successes, the wounds will eventually heal and scar. Ghosts lose three dice from any dice pools used to oppose the rite’s recipient until the wounds are healed and scarred over. Thereafter, they lose one die when the scars are visible to them. The rite may be repeated to reopen the wounds, but unless aggravated damage is done, such as with silver or with a consecrated shell, the ward is not renewed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite protects Uratha from ghosts, obviously not from other kinds of spirits."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No ghosts may come near the victim at all until the wounds are healed. Thereafter, they lose one die from dice pools when the scars are visible."
+                ]
+            }
+        ]
     },
     {
         "Name": "Spirit Brand, Rite of the",
         "Rank": "1",
         "Cost": "-",
         "Description": "Prompts the Lunes to assess a werewolf and increase his Renown.",
-        "Book": "WtF 151"
+        "Book": "WtF 151",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ritual invokes the Lunes to confirm that a given werewolf has achieved a greater measure of Renown. The Lunes respond by marking the subject with silver brands, proving that he’s claimed the right to greater standing among his people and the spirits. Traditionally, a werewolf must perform this rite for another. It’s generally considered too proud and crass to perform it for oneself, though some Ghost Wolves have little alternative."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist intones a chant honoring the subject’s strength and wisdom. The exact wording of the chant may be poetic or modern, depending on the ritemaster’s talents, but it must be respectful. As he continues the chant, the ritemaster runs her nails (or claws, if in Dalu form) in ritual patterns across the skin of the subject. As the rite continues, the patterns begin to glow with silver light and take on the form of spirit brands."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents one minute of effort)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost, and the ritemaster must begin anew. This failure to properly honor the rite’s subject is seen as shameful."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The successes are added to the total. If the total reaches 15+ successes, the brands blaze into being and then fade to the proper state (to invisibility if the rite took place in the physical world)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The successes are added to the total. If the total reaches 20+ successes, the brands are slower to fade. The subject gains a +1 to all Social rolls made to influence spirits for the duration of the scene."
+                ]
+            }
+        ]
     },
     {
         "Name": "Spirit’s Promise, Rite of the",
         "Rank": "1",
         "Cost": "",
         "Description": "Determines spirits ban.",
-        "Book": "SotM 71"
+        "Book": "Tribes 71",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Bone Shadows deal with spirits on a regular basis, and it helps to speak from a position of strength. The best way to gain such a position, of course, is to know a spirit’s ban, but finding out this information is a matter of careful investigation (the Gift: Read Spirit works, too, but not every pack has a Crescent Moon). The Rite of the Spirit’s Promise determines a spirit’s ban fairly quickly, but the rite also risks reprisal — spirits ",
+                    {
+                        "text": "don’t like",
+                        "italic": true
+                    },
+                    " being so closely investigated by Uratha. A Bone Shadow performing this rite on a spirit more powerful than he is had better have his pack handy."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The werewolf need not be able to see the spirit in order to use this rite, but he must be in the spirit’s presence or know its name. The Bone Shadow intones a quiet First Tongue phrase asking for insight, and draws a symbol in the dirt or on a wall. If the ritual succeeds, knowledge of the spirit’s ban becomes clear to the werewolf. In any case, though, the spirit might notice what is happening, and it can use the connection created by the rite to attack the ritualist."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (successes equal to the spirit’s Rank; each roll represents one turn of concentration)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The connection works, but in the wrong direction. The spirit knows some damning fact about the ritualist — a dark secret, the location of his family, his Vice, the ban that his totem imposes, etc. The spirit can do what it wishes with this information."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are garnered."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Progress is made toward the goal. When the player accrues successes equal to the spirit’s Rank, the spirit’s ban comes to the character in a flash of insight. The Storyteller does not provide the mechanical aspects of the ban, however. For instance, a garbage-spirit might suffer three points of damage to its Corpus per turn of contact with cleansing chemicals. If the character uses this rite, though, all she knows is that the spirit “cannot abide the touch of cleansing chemicals,” not that it damages the spirit."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Each turn that the character rolls to accrue successes for this rite, the targeted spirit has a chance to notice what’s happening. The Storyteller rolls the spirit’s Finesse. If the roll succeeds, the spirit realizes what is happening and can use its Numina on the werewolf as if it possessed the Reaching Numen (see p. 278 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "). The spirit can use its powers ",
+                    {
+                        "text": "only",
+                        "italic": true
+                    },
+                    " on the ritualist (unless the spirit actually knows the Reaching Numen, of course), and only as long as the rite continues."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Significant progress is made toward the goal. If the rite concludes with successes equal to the spirit’s Rank + 5, the Storyteller must inform the player of the mechanical aspects of the ban."
+                ]
+            }
+        ]
     },
     {
         "Name": "Taste of the Ancestors",
         "Rank": "1",
         "Cost": "-",
         "Description": "A rite which tests the blood of a subject, which can determine if either of their parents were werewolves, and if so whether they were aligned with the SotM or the Pure.",
-        "Book": "Pure 123"
+        "Book": "Pure 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite allows a werewolf to determine something about the subject’s ancestry. Specifically, she can determine whether either of the subject’s parents are werewolves — and if either one is, she can determine whether either one of them is one of the Tribes of the Moon. This ritual cannot determine whether its subject is a werewolf himself, nor whether the subject will become a werewolf."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist must come into possession of any quantity of the subject’s blood. Even a few drops suffice for this ritual. The blood is smeared on a specially prepared bit of linen, and the linen is burned. The Pure werewolf performing the rite watches the direction that the smoke blows — the smoke’s direction is independent of the surrounding weather conditions."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Unclear or deceptive information is revealed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The smoke billows upward, revealing no useful information about the subject."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " If the smoke from the linen blows east to west, one of the subject’s parents is a werewolf of the Tribes of the Moon. If the smoke blows west to east, one of the subject’s parents is a werewolf of the Pure Tribes. If the smoke blows due north or due south, neither of the subject’s parents is a werewolf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Success:",
+                        "bold": true
+                    },
+                    " The direction that the smoke curls gives further information about the target’s parentage: if the smoke curls upward, the subject’s father is the werewolf. If the smoke curls downward, the subject’s mother is the werewolf. A dramatic success has no bonus effect if neither of the subject’s parents is a werewolf."
+                ]
+            }
+        ]
     },
     {
         "Name": "Tremulous Howl, The",
         "Rank": "1",
         "Cost": "",
         "Description": "Ritemaster howls and alerts all werewolves within 20 miles per dot of Primal Urge that he is in dire trouble. All who hear know who is in trouble and where, but not what the cause is.",
-        "Book": "BotW 98"
+        "Book": "BotW 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Tremulous Howl is a werewolf’s cry for aid at a time when all other options are forfeit. The Tremulous Howl is no little thing for a fully grown werewolf to evoke. A ritemaster who performs this rite can be certain that those who hear it will remember her and the call for help. It admits weakness and may bring a degree of shame on the werewolf, her pack and, sometimes, her tribe. Those who respond will always know (or believe) they saved her, and those who hear of the event will become uncertain that she can adequately perform her duties. Those who desire to accumulate Glory Renown will think twice before allowing this howl to be performed. Still, it requires a certain knowledge of self to know that one needs help. Using this rite when hope is truly lost and through no fault of one’s own can be seen as an act of Wisdom."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This ritual can be performed in moments. The ritualist need do no more than nick her throat enough to draw a trickle of blood, then throw her arms and legs wide to reveal her vulnerable belly. Then, she howls."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant. The howl can be heard at a distance of 20 miles per dot of Primal Urge. A werewolf who hears it knows instantly who is in trouble and where, but not the nature of the trouble. This rite does not compel any werewolf to go to the source of the howl, but it infallibly alerts all within range that something serious is going on. Some spirits, especially wolf- and aid-spirits, can discern the same information from the howl as a werewolf. The Pure can interpret the Tremulous Howl as well as the Forsaken, and some Pure may choose to follow the howl to its source in order to make things more difficult for those who need aid. For this reason alone, almost all werewolves who hear a Tremulous Howl will drop everything in order to help. Most will go simply because this howl is so serious, and no werewolf wants to be the one who caused disaster when he didn’t lend a hand.",
+        "RollResults": []
     },
     {
         "Name": "Anticipated Forgiveness, Rite of",
         "Rank": "2",
         "Cost": "",
         "Description": "Target gains 1 die to degeneration rolls made for killing Werewolves for the next hour, but must be genuinely repentant.",
-        "Book": "WAtP 52"
+        "Book": "WAtP 52",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "As common as combat is, it is impossible that no claw ever slips or tooth tears too deep. And when fighting the Pure, many werewolves would rather spill all their opponents’ blood than give their hateful brethren the opportunity to return and return the favor. It’s hard not to “murder the People” sometimes, whatever the elders say, and some werewolves have a method for dealing with the guilt — or the lack of it. This rite assures the Forsaken that she will receive some measure of forgiveness should she accidentally (or not) kill a werewolf. Like being pardoned for a crime not yet committed, the rite often makes it easier to actually do the deed, but werewolves who do often do it with tears streaming down their cheeks, contrite and glad of the absolution."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "In Hishu form, the subject of the rite goes to her knees before the ritemaster, who must actually be willing to forgive the transgression. The ritemaster proceeds to lead the subject through a formulaic series of inquiries (on the master’s part) and confessions (on the subject’s part) in the First Tongue. The ritual ends with an extended invocation of Mother Luna, the spirit of Father Wolf and the subject’s tribal totem. When it is over, the subject rises, feeling in touch with her ancestors and already regretful of the act she may perform."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritual fails to reaffirm the subject’s reluctance to murder another werewolf. Instead, the meaningless confessions and prayers she hears only make her feel like the act is equally of little import. She ",
+                    {
+                        "text": "loses",
+                        "italic": true
+                    },
+                    " one die from the degeneration rolls she must make if she kills any werewolves during the next day."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. If the ritemaster reaches 15+ successes, the ritual ends and the subject feels strongly her connection with all her werewolf brethren. She believes that she would truly regret the act of killing another werewolf, however necessary or unavoidable it might be. She gains one die to any degeneration rolls she must make for killing werewolves during the next hour."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite only has (positive) effect if the character subjected to it actually wants to repent for any werewolf deaths she may cause. A werewolf who undergoes the ritual with no actual intent to feel contrite or desire to change her ways afterward suffers penalties to the degeneration rolls as though the rite had ended in dramatic failure."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. There are no special bonuses."
+                ]
+            }
+        ]
     },
     {
         "Name": "Banish Spirit",
         "Rank": "2",
         "Cost": "-",
         "Description": "Attempts to banish a spirit from the material world back into the Shadow Realm.",
-        "Book": "WtF 152"
+        "Book": "WtF 152",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite returns a wayward spirit from the physical world to the spirit world. In the First Times, the children of Father Wolf used this ritual to force spirits to travel back past the Border Marches. After the Fall, things got easier, in a way. No longer did a werewolf need to force a spirit to the Border Marches and then banish it. Instead, she could simply force the spirit through the Gauntlet and into the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    ". Unfortunately, this is something of a brute-force ritual. Being shoved through the Gauntlet can be damaging to spirits, who resent having this rite used on them. Most spirits would prefer to leave of their own volition, perhaps after being plied with chiminage or the promise of favors. On the other hand, the pain this ritual inflicts on a wayward spirit makes it a good stick to have around if the carrot of chiminage proves insufficient."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The targeted spirit must be bound with the Bind Spirit rite or by physically preventing its host from moving more than a meter or two in any direction. The ritualist approaches the bound spirit and performs a brief snarl of exile and refusal, complete with similar gestures. The ritualist then slowly circles the bound spirit counterclockwise, and sprinkles it with salt water from each of the four cardinal directions."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The key of the ritual is the five-time repetition of the First Tongue phrase, “I banish you from this realm,” ",
+                    {
+                        "text": "Galer za da sar",
+                        "italic": true
+                    },
+                    ". The ritualist doesn’t have to repeat the phrase five times in a row. He may sprinkle it throughout the performance, but the ritual isn’t complete until the phrase is said for a fifth time."
+                ]
+            }
+        ],
+        "DicePool": "Harmony versus the subject’s Resistance",
+        "Action": "Contested and extended (10 successes; each roll requires a minute’s time). The first competitor to accumulate the required successes wins, either to be banished to the spirit world or to refuse to go. If the spirit wins, no attempt to banish it can be made again by any werewolf for 24 hours.",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite or resistance fails outright and all accumulated successes are lost. Either the werewolf cannot attempt to use this rite against the given spirit for a lunar month, or the spirit leaves for the spirit wilds immediately."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated at this stage of the contest."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated toward the total required. If the total reaches 10+ successes, the spirit is banished from the physical world and appears in the Shadow Realm."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Tremendous progress is made or resistance is shown."
+                ]
+            }
+        ]
     },
     {
         "Name": "Bar to Birth",
         "Rank": "2",
         "Cost": "",
         "Description": "Target cannot become pregnant due to intercourse with human for one lunar month.",
-        "Book": "BotW 28"
+        "Book": "BotW 28",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Because an inconvenient pregnancy can make life difficult for a female werewolf, some packs have learned how to lay a ward over the womb and prevent any new life from taking root there. Though useful, this rite is not common. Some Uratha do not consider it a worthwhile expenditure of effort; others feel that it is a sign of weakness to avoid pregnancy at all."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The moon must be in the sky and the subject menstruating when this rite is performed. The ritemaster takes a dab of the subject’s menstrual blood and writes Luna’s First Tongue name above the subject’s womb. If the rite is successful, the blood evaporates. A ritemaster who knows this rite also knows how to lift the ward, which requires a simple incantation and the willingness of the subject."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and cannot be used again until the subject next menstruates."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and cannot be used again that night."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The subject of the rite cannot become pregnant due to intercourse with a human. This rite offers no protection against the conception of a Ghost Child. This condition lasts for one lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The effects of the rite last three times as long."
+                ]
+            }
+        ]
     },
     {
         "Name": "Beseech the Mother",
         "Rank": "2",
         "Cost": "",
         "Description": "Cahalith ritemaster entreats Luna for prophetic dreams.",
-        "Book": "SotUK 100"
+        "Book": "SotUK 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The blessing of the Cahalith auspice moon is precious indeed, and all Gibbous Moon werewolves find their dream-visions compelling at worst and incredibly useful at best. But they are rare and unreliable prophecies, as random in their manifestation as they are shrouded in myriad interpretations. British mythology features a few tales of wisdom and enlightenment coming to people in dreams, and this ritual is designed to mirror that belief, by begging Luna Herself for another Cahalith sleep-vision beyond his first (the one received once per story). This rite can be used as many times as the Cahalith desires, though each successive attempt after the first receives a -2 penalty to the dice roll."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The werewolf must spend at least one hour in silent reverence to Mother Moon, looking up at her face in an unclouded night sky. If the moon is covered at any point during the hour’s meditation, the rite fails. Afterwards, the werewolf composes a short poetic verse honoring each of the Lune choirs — and it must be the Cahalith’s own words. He then lays down and attempts to go straight to sleep under Luna’s gaze. The face of the moon can be obscured after this moment and the ritual will still function depending on the ritemaster’s Harmony roll."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Roll Results"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritualist seems to have offended the Cahalunim and the Mother with his pleas. His own prophetic ability fails to function for an entire month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; perhaps the Cahalunim judged the werewolf unworthy of another dream, or simply not in need of one."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The Cahalith receives a prophetic dream, as described in the auspice descriptions in ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Luna blesses her child for seeking her wisdom, and the next time to the werewolf uses the ritual, he does not suffer the -2 penalty as standard."
+                ]
+            }
+        ]
     },
     {
         "Name": "Blademaster, Rite of the",
         "Rank": "2",
         "Cost": "",
         "Description": "Binds spirits into glyphs painted on targets bodies that can grant a dot in Brawl, Weaponry or Firearms; or a dot in any Fight Style merit; or one point of armor; or three specialties in Brawl, Weaponry or Firearms. Skill and Fight Style dots are granted only if the target has a 0 rating in the skill.",
-        "Book": "SotM 39"
+        "Book": "Tribes 39",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Blood Talons expect every member of the tribe to be a warrior. Even the less martially-inclined auspices are expected to be competent in a fight. The tribe’s more established members know, however, that competence in battle doesn’t just spring up overnight. Training takes time, and the unfortunate truth is that a battle rarely waits around until all the recruits are fully trained and prepared. The tribe developed this rite for emergencies when even the most raw, untested cubs must be pressed into service to defend a territory."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite is a popular one, especially in dangerous territories that see a high rate of turnover among packs. While use of the rite carries no stigma on its own, many Talons consider it lazy or disrespectful to invoke the rite casually. A warrior should earn his skill at arms through effort, not simply magic them into existence with tattoos and drumming. Ritualists counter that summoning and binding spirits of violence with this rite require just as much effort as hitting the dojo five times a week."
+            },
+            {
+                "type": "paragraph",
+                "text": "A werewolf who receives the blessing of this rite gains one of the following benefits (ritualist’s choice):"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "One dot of Brawl, Weaponry or Firearms",
+                    "One dot of any Fighting Style Merit (the recipient does not need to meet any prerequisites of the Merit)",
+                    "One point of armor",
+                    "Three Specialties in Brawl, Weaponry and/or Firearms"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Skill dots and Fighting Style dots may be conferred only if the recipient has no dots in the given Skill or Merit. The purpose of this rite is to give new cubs a fighting chance, not to empower already-gifted warriors. Note that this restriction applies to specific Merits and Skills: a nuzusul with Firearms 3 can still receive a dot in Brawl from this rite (assuming he’s untrained in Brawl), and a character with Fighting Style: Boxing 2 can still learn Fighting Style: Kung Fu through this rite. Specialties may be granted even in Skills the recipient has training in."
+            },
+            {
+                "type": "paragraph",
+                "text": "The benefits of this rite last for one scene. If the painted glyphs are erased, the effect ends immediately."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-1",
+                        "Each participant has more than two dots in Brawl, Firearms or Weaponry."
+                    ],
+                    [
+                        "+1",
+                        "All participants are Blood Talons"
+                    ],
+                    [
+                        "+1",
+                        "The beneficiaries are nuzusul less than a month from their First Change."
+                    ]
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist lines up all prospective beneficiaries, almost like a military company standing at attention. Tradition dictates that all should be nude, but since this ritual is often performed on nuzusul who still cling to human modesty, it’s acceptable to wear a modicum of clothing. As long as the beneficiaries’ arms, legs and torso are mostly bare, the rite can function. The ritualist grinds up a paste of blood, honey and various herbs and plants thought to represent courage (the borage flower is a popular choice in Europe and North Africa), then paints glyphs representing strength, skill at arms and glory in battle along the recipients’ arms, legs and chest."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Through intonation of ancient First Tongue words of binding, the ritualist commands a war-spirit or a spirit of violence to go with the cubs and guide their hands and feet in battle. The spirit is ideally one found naturally near the site of the battle, but one summoned and bound using other rites may be used if necessary. In effect, the spirit “Rides” the marks painted on the recipients (although Blood Talons tend to get testy at that implication)."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (five successes per beneficiary; each roll represents 10 minutes of painting glyphs and binding the spirit)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The spirit is improperly bound. All recipients suffer a -1 penalty on all combat dice pools for the next scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No progress is made toward completing the rite."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The ritualist makes progress toward binding the spirits into the painted glyphs. Five successes are required to affect each beneficiary, and a character may gain only one benefit of this rite for a time (see below)."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Not only is significant progress made, but each beneficiary of the rite receives two of the benefits listed below, or a single benefit at double effectiveness."
+            }
+        ]
     },
     {
         "Name": "Blessing of the Spirit Hunt",
         "Rank": "2",
         "Cost": "●",
         "Description": "Imbues a werewolf's teeth and claws with the ability to harm a spirit in Twilight as if it were manifest (not needed in Shadow Realm)",
-        "Book": "WtF 152"
+        "Book": "WtF 152",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite stands as evidence of the Uratha’s millennia of conflict with the spirit world. The lore of the People states that this rite was first taught by Father Wolf himself, so that his half-flesh descendants could hunt spirit prey alongside their Father and the Firstborn. The rite blesses the teeth and fangs of a werewolf, so that he can catch and rend an ephemeral spirit as if it were solid flesh. The ritemaster invokes allied wolf-spirits or spirits closely allied to the brood of his totem, for few other spirits could be compelled to empower this rite."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster cuts either herself or her subject with a claw, and uses the blood to mark a glyph on the forehead and on the back of each hand. As she does so, she intones a blessing in the name of Father Wolf and the Firstborn. The bloodstained glyphs remain visible for the duration of the rite’s blessing, which may strike fear into any spirits who recognize them."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The rite fails, and the Essence point is lost. The ritemaster cannot attempt to invoke this rite again until the next night."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The rite fails, and the Essence point is lost."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Either the ritemaster or the subject may pay the Essence point to invoke the blessing. The recipient of the rite’s blessing can physically touch or strike ephemeral spirits as if they were solid, as long as he is using his natural weaponry. The blessing does not affect weapons. This rite can be performed only on werewolf subjects; it cannot be used to bless a human, vampire or other supernatural being. The ritemaster may use this rite on herself. The blessings of this rite are not necessary for werewolves to affect spirits while in the spirit world; a werewolf in the Shadow has transformed his flesh into spirit matter, and is in the same state of being as the spirits that surround him. The blessing lasts for one scene."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The blessing lasts until the next sunrise or sunset."
+            }
+        ]
     },
     {
         "Name": "Cairn Stones, Rite of the",
         "Rank": "2",
         "Cost": "●",
         "Description": "Beseeches a memory spirit to remember the deeds of the departed Uratha forever.",
-        "Book": "SotUK 100"
+        "Book": "SotUK 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "How a culture treats its dead is always an important part of any society, and though Uratha are drawn from human cultures, the werewolves have their own customs for honoring the fallen. This rite allows a more personal remembrance around the burial site of a packmate, and is popular among the Forsaken of the British Isles for its poignant and solemn use as a grave marker."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The packmembers cover the body of their dead friend with stones gathered from their hunting ground, and build a cairn over the werewolf’s remains. If it is completely inappropriate to do so (such as if the packmate has already been buried in a graveyard or cremated and buried elsewhere), then each packmember places a single stone over the gravesite and pushes it into the soil."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Each member then changes to wolf form and howls a single emotion to the night sky, perhaps sorrow, respect, love — whichever the werewolf feels toward the departed packmate at the time. The ritemaster lets these howls fade into the air, then makes the roll as he howls himself, beseeching a spirit of memory to recall forever the cries of the bereaved."
+            }
+        ],
+        "DicePool": "Harmony (+1 for each additional howler after the ritemaster)",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The rite fails as the memory-spirit pays no attention, and the werewolf may never perform the ritual on the fallen again, though other ritemasters are free to make the attempt."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The rite simply fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "A memory-spirit hears the howls and promises to remember them for all time. In the Shadow around the grave, the distant sounds of howling will always be heard. Werewolves who listen carefully will be able to hear and recognize the emotions that drove those howls, and will certainly understand the howl calling for remembrance at the death of a packmate."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "As with a success, though on the anniversary of the werewolf’s death, the howls can be heard faintly across the Gauntlet in the physical world."
+            }
+        ]
     },
     {
         "Name": "Call Gaffling",
         "Rank": "2",
         "Cost": "-",
         "Description": "Attempts to summon a low ranked spirit.",
-        "Book": "WtF 153"
+        "Book": "WtF 153",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ancient ritual and its brother rite, Call Jaggling, are the core of relations between spirits and werewolves. Though the Uratha face great animosity from the spirit broods, the ancient pacts forged before history began still hold. Most spirits still adhere to a series of bans that require them to obey the summons of a werewolf who performs the proper rites. The power of ritual to compel them is written on their very being."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Gaffling is the lowest rank of spirit, and the most commonly found in the natural world (and the Shadow). Like most spirits, Gafflings are generally unfriendly toward the Forsaken and Pure Tribes. The summoned spirit is under no compulsion to cooperate, and most choose not to unless offered delightfully appropriate chiminage and/or the threat of binding. And yet, Gafflings, like all spirits, are aware of a werewolf’s Renown and are more likely to respond well to an accomplished Uratha than to a cub."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite is relatively simple. The werewolf marks out a sacred circle and sits in the middle. She consumes a small amount of reality-expanding natural substance — a hallucinogen, stimulant or depressant, as per the ritualist’s traditions. She then places a few hundred grams of chiminage on the ground before her. While this is most often food of some kind appropriate to the spirit’s type, it can also be precious metal, gems or another substance. The greater the value of the chiminage, the more likely the Gaffling is to cooperate with the werewolf’s request."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The chiminage may be burned, buried or doused with water in order to bring it to the spirits’ attention. The ritualist then performs a howl of summons. A single Gaffling of the chosen type arrives within several minutes of the beginning of the rite if all goes well."
+            }
+        ],
+        "DicePool": "Harmony versus the spirit’s Resistance (see below)",
+        "Action": "Extended (40 successes needed; each roll represents one minute); potentially contested",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All accumulated successes are lost; the ritemaster must begin again."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Most Gafflings come automatically once the required successes are gathered. A Gaffling with an important duty that it knows it will be punished for shirking may attempt to resist the call. In that case, the Gaffling’s Resistance is rolled to fight the summons. The ritual becomes an extended and contested action. Each side accumulates successes, and the first to gather 40 wins. In the spirit’s case, it refuses the summons and another might respond in its place or the werewolf beckons none. In the werewolf’s case, the spirit responds normally. Once the spirit has been summoned, the ritualist must either bargain with the Gaffling for its services or bind it."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Several successes are gained. In an extended and contested action, the opponent suffers a -1 penalty to all subsequent rolls. This penalty is cumulative if one side achieves more than one exceptional success."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Chiminage is very valuable to the spirit"
+                    ],
+                    [
+                        "+1",
+                        "Spirit is particularly disposed toward ritemaster’s tribe or auspice (an Elunim answering an Elodoth’s rite, a war-spirit answering a Rahu’s rite)"
+                    ],
+                    [
+                        "+1",
+                        "Chiminage is particularly valuable to the spirit"
+                    ],
+                    [
+                        "+1 or more",
+                        "The werewolf outranks the spirit*"
+                    ],
+                    [
+                        "-1",
+                        "Attempting to summon a specific individual spirit"
+                    ],
+                    [
+                        "-3",
+                        "Attempting to summon a specific individual spirit from one mile away"
+                    ],
+                    [
+                        "-5",
+                        "Attempting to summon a specific individual spirit from 10 miles away"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "*The werewolf’s honorary Rank as determined by total Renown (see p. 272) is compared to the Rank of the spirit summoned. If the werewolf outranks the spirit, the Harmony roll for the ritemaster gains a bonus equal to the difference. If a werewolf with a total of 13 Renown (equivalent to Rank 3) calls a lesser Gaffling (Rank 1), rolls made for the werewolf receive a +2 bonus. If the werewolf’s honorary Rank is less than the spirit’s Rank, the roll made for the ritemaster suffers a penalty equal to the difference."
+            }
+        ]
     },
     {
         "Name": "Call Human",
         "Rank": "2",
         "Cost": "-",
         "Description": "Plants an irresistible compulsion in the nearest human within five miles to approach the ritualist's location. The character may not choose a specific target, but wolf-blooded are more susceptible,",
-        "Book": "WtF 153"
+        "Book": "WtF 153",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite dates back to the illegitimate kingdoms ruled by the Uratha in prehistory. A werewolf might need some spare physical labor and use this rite to conjure it up. A ritualist might use this rite repeatedly over a span of weeks to spread his seed among the women of a small town. The Call Human rite is rarely used for ethical reasons these days, and many Forsaken find its practice disgusting."
+            },
+            {
+                "type": "paragraph",
+                "text": "This ritual allows a werewolf to summon the nearest mortal human within five miles. The rite works only in the physical world. The ritualist cannot choose a specific mortal. Instead, the nearest mortal human feels a compulsion to travel to the ritualist’s current location."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite doesn’t summon werewolves or other supernatural entities such as mages, ghouls and vampires. It may, however, call a person with the blood of the wolf (in fact, the wolf-blooded are even more susceptible to it than ordinary people are). It doesn’t summon wolves or other animals (though there are likely other rituals and Gifts that do summon animals)."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist marks a specific location and remains close to that spot throughout the performance. He must provide “mortals’ chiminage”: objects considered to be alluring to the local mortal population. This can range from a case of beer and a pornographic DVD to a gold necklace. The ritualist performs a howl of summons while moving counterclockwise around the chiminage. Once the rite has been initiated, the ritualist and any packmates nearby must emit a further howl of summons roughly every five minutes until the rite’s subject arrives."
+                ]
+            }
+        ],
+        "DicePool": "Harmony versus subject’s Resolve",
+        "Action": "Extended and contested (30 successes; each roll represents one minute); resistance is reflexive and unconscious",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost. The ritual runs the risk of inadvertently summoning something powerful and hostile — and not necessarily human (at the Storyteller’s discretion). A dramatic failure for the human indicates that he responds immediately."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The human feels an irresistible compulsion to travel to the ritemaster’s location. The compulsion is even enough to wake that mortal out of a sound sleep. (In fact, it’s somewhat easier to use this rite on a sleeping human, who might believe that he’s dreaming.) The mortal enters something of a fugue state; he retains some self-awareness, but is strangely unaware of his surroundings, drawn for no obvious reason to the ritemaster’s location. The subject receives a general idea of the distance to the werewolf, as well as the direction. He travels to the werewolf’s location as quickly as he can easily manage. If he owns a car he uses it, but the rite doesn’t compel the subject to empty a savings account in order to buy a new car to traverse the distance. Whether the target obeys the compulsion depends on his strength of will. Contested and extended rolls are made throughout the subject’s summons, with arrival decided by the winner. The human doesn’t show up until the werewolf wins, or the subject returns to his previous activity and environment if he wins, all the while unconscious of where he’s going, and why. If it takes the mortal more than an hour to reach the ritualist, the magic of the rite breaks down. The subject of the rite no longer feels any compulsion to find the ritualist (although simple monkey curiosity might drive some humans to figure out what was going on)."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Considerable progress is made toward summoning or defying the summons."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Subject is asleep"
+                    ],
+                    [
+                        "+2",
+                        "Subject is wolf-blooded"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Call the Cloudless Sky",
         "Rank": "2",
         "Cost": "",
         "Description": "Changes weather into cloudless sky for 10 minutes per dot of ritemasters Primal Urge.",
-        "Book": "Rage 130"
+        "Book": "Rage 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Forsaken find it easier to hunt and fight when they can clearly see the face of Luna in the sky. This rite controls both cloud and fog, sweeping them from the sky so that moonlight can fall clearly on the Forsaken’s hunting ground. Even a raging storm can be quelled for a short time, an eye opening up in its midst to reveal the gaze of Luna. Needless to say, the Pure do not practice this rite."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster places a silver coin in shallow dirty water — a filled saucepan, a dirty puddle or something similar. She then paints a mark of her own auspice over her eye, usually in her own blood. As she rocks back and forth on her heels over the water, chanting soft invocations to sky and water and moon, the sediment gradually clears from the dirty water. Once the silver coin reflects a cloudless sky through clear water, the rite is complete."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents five minutes’ effort)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes gathered are lost. The rite cannot be performed again for another 24 hours."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are accumulated. If the required total is gathered, the sky is cleared of clouds over the ritemaster’s territory. This change in weather lasts for 10 minutes per point of the ritemaster’s Primal Urge. After that, the prevailing weather conditions will take over at the usual speed. If this rite is used on a clear, still night, the clouds and mist might not return; if this rite is invoked during a thunderstorm, the clouds will sweep in almost immediately, assuming the storm hasn’t already passed the area in that time."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Successes are accumulated. If 20 successes are accumulated, the prevailing conditions last for double the usual duration."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Light clouds or mist"
+                    ],
+                    [
+                        "-1",
+                        "Heavy clouds or smog"
+                    ],
+                    [
+                        "-3",
+                        "Storm weather"
+                    ],
+                    [
+                        "-5",
+                        "Hurricane"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Carrion Messenger",
         "Rank": "2",
         "Cost": "-",
         "Description": "Can deliver a clear message to another member of the Lodge of Crows anywhere in the world, regardless of location.",
-        "Book": "LodgF 43"
+        "Book": "LodgF 43",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Lodge of Crows has one of the finest and most secure communication systems known to the Uratha, thanks to the crow-spirits that have been placed at the lodge’s disposal. Using this rite, Crows can send one another messages without having to bother with unreliable (or non-secure) communication media; a Crow can send word to one of her peers in another city without even having to know a human name or phone number. This rite can only be used to carry messages from one lodge member to another; teaching the rite to an outsider is a violation of the lodge’s oath of secrecy, and the spirit messenger will refuse to take a message to anyone but a Crow."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " Calling the crow-spirit is a simple process. The ritemaster rolls a bit of carrion between her thumb and fingers as she sings a whispered song to call the crow-spirit to her. When the crow-spirit arrives, the werewolf feeds it the bit of carrion as she tells it the message the spirit is to carry and the lodge member it’s to find."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes total; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost. The crow-spirits will not serve the ritemaster until a day and a night has passed."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are gained. If 10 or more are accumulated, the crow-spirit manifests and will carry a short message (30 words or less) to the fellow lodge member of the ritemaster’s choice. The crow-spirit travels at the rate of roughly 200 miles per hour, and will make a flight up to 1000 miles distant. The messenger is subtle enough not to approach its target openly, and will whisper the message in his ear without otherwise manifesting."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Successes are gained toward the total. If 15 or more are accumulated, the crow-spirit is especially motivated, and will carry the message at a speed of up to 250 miles per hour."
+            }
+        ]
     },
     {
         "Name": "Churned Earth, Rite of",
         "Rank": "2",
         "Cost": "-",
         "Description": "Buried objects within an affected area come to the surface.",
-        "Book": "LodgF 61"
+        "Book": "LodgF 61",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Earthworms, pigs and many other creatures help the cycles of decay and renewal by digging in the dirt and stirring things up. Rooting Boar undoubtedly taught some of his secrets to the Lodge of Harmony, resulting in this rather strange rite. Performed correctly, it roils the earth, forcing buried material to the top and oxygenating the area of effect. This rite also has the side effect of revealing any buried secrets there, for, as sensible as Rooting Boar is, he can’t resist buried treasures."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite does not function on any ground with human-made structures atop it, only on bare earth or mud. The Rite of Churned Earth takes time to perform, and so isn’t really useful in an offensive capacity, although some Uratha have been known to use the rite just before a rainstorm, thus turning a large section of the territory into thick mud to trap and slow intruders."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster assumes Urhan form and brushes her nose against the ground in a symbolic imitation of Rooting Boar, then digs up a bit of the earth with her paws. She then shifts to Dalu form and places her palm against the ground, speaking an invocation to Rooting Boar to help the cycles of the world continue. If the land is especially tainted, the ritemaster cuts or bites her hand and lets a bit of her blood drip onto the ground."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The Rite of Churned Earth can be performed any time, but is traditionally enacted at dawn or dusk. A werewolf can perform the rite only once in a 12-hour period."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All accumulated successes are lost, and the ritemaster has offended Rooting Boar somehow. She suffers a -2 penalty on all rites for the next lunar month."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained at this time."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are gathered toward the total required. If 10 are gained, the ground for one yard per dot of the ritemaster’s Harmony in front of the ritemaster rumbles and roils, and any foreign objects (buried corpses, caches, garbage, etc.) come to the surface. The earth in the area of effect is soft and loose until it settles, meaning anyone stepping on it sinks a bit (-2 on any Physical actions performed in this area that require agility or body coordination; this falls to -3 if the ground is also wet)."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The ritemaster makes significant progress toward the goal. If 15+ successes are gathered on the same roll that the ritemaster reaches 10 successes, the ritemaster’s Purity rating is added to her Harmony for purposes of determining the area of effect."
+            }
+        ]
     },
     {
         "Name": "Cleansed Blood",
         "Rank": "2",
         "Cost": "-",
         "Description": "Any creature currently tracking the subject of the ritual by the scent of their blood loses the trail.",
-        "Book": "WtF 154"
+        "Book": "WtF 154",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Werewolves possess the uncanny ability to track anyone whose blood they have tasted — a trait that some of their enemies share. This rite of purification is particularly sought after by werewolves who know they have enemies among the People. By enacting this rite, a werewolf can lose a spiritual trail, perhaps to turn the tables on her hunter."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite must be performed on the shore of running water of some kind — a creek, river or even a partly full drainage ditch. The subject of the rite can be human, werewolf or another creature, and need not be present for the performance. The ritualist takes a handful of fur, hair or feathers from the subject, as well as a few ounces of the subject’s blood. These two things are mixed together with water from the source while the ritualist utters a low chant. The chant continues as the ritualist pours the mixture into the stream, completing the rite. The ritemaster may choose herself as the subject."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The rite fails. The ritemaster may not try to cleanse that subject’s trail again for a full week."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The rite fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Success means that any creature who could track the subject by the taste of her blood loses that taste. Cleansed Blood doesn’t render its subject immune to normal tracking by scent or talent (see p. 178). After this rite is performed, the subject’s scent can be re-acquired by any werewolf who tastes her blood."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The subject’s physical scent fades slightly as well. Any attempts made to track the subject by mundane scent suffer a -1 penalty for the duration of the scene."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-1",
+                        "Rite’s subject is human"
+                    ],
+                    [
+                        "-1",
+                        "For each full moon that has passed since the subject’s scent was taken"
+                    ],
+                    [
+                        "-2",
+                        "Rite’s subject is a prey animal (herbivore)"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Communion of the Flesh",
         "Rank": "2",
         "Cost": "-",
         "Description": "Grants a bonus to Stamina and Resolve rolls to all those who have recently consumed human flesh.",
-        "Book": "LodgF 125"
+        "Book": "LodgF 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The rite of Communion of the Flesh is said to exist in a thousand different forms around the world, not simply in the hands of the Lodge of the Feast. The rite was first performed over meat crudely seared over a small fire, or not cooked at all. While members of the Lodge of the Feast see themselves as the keepers of the rite, it can be found by those who look for it — perhaps scrawled into the back of a battered “pagan spellbook” in the dusty stacks of a used bookstore, detailed in the diaries of a Spanish conquistador, or even taught outright by a gluttony-spirit. Some humans have managed to discover the rite in a form they understand, and some of those have even tried to enact the rite. It’s a futile endeavor for them, and one that is sure to mark the nearby Shadow."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Communion of the Flesh does not enable werewolves to eat human or wolf flesh with impunity; the rite makes the experience more “filling,” not safer. A werewolf could well run mad after partaking in this communion too often, though he would delight in the process."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The rite takes the form of a series of ritual blessings made before beginning a meal of human or wolf flesh. No other food will suffice. Although the blessings hold the most power in the First Tongue, the rite still works if performed in a human language, perhaps disguised as a human religious prayer. The culmination of the rite requires anointing the centerpiece of the meal with salt and a small amount of alcoholic libation (usually wine)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Traditionally, this rite is performed at night. Sunlight is said to “taint” the feast, though some say it’s more likely that the purity of sunlight makes it difficult for the feast’s corrupt nature to properly manifest."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost. The meal cannot be blessed, and the participants cannot successfully invoke this rite again until after the next sunrise."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are accumulated toward the total required. If the total reaches 10 or more successes, the meal is charged with an additional measure of spiritual power. Those werewolves who eat enough of the meal to regain at least one Essence point (and therefore must make a degeneration check, if their Harmony is sufficiently high to demand it) receive a +1 bonus to all Stamina and Resolve rolls made for the next 24 hours."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Successes are accumulated toward the total required. If the total reaches 15 or more successes, the imbued level of spiritual power in the meal reaches a new peak, raising the bonus to Stamina and Resolve rolls to +2."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Rite takes place at night"
+                    ],
+                    [
+                        "+1",
+                        "Three or more participants"
+                    ],
+                    [
+                        "-1",
+                        "Rite is performed in a human language"
+                    ],
+                    [
+                        "-1",
+                        "Rite takes place under sunlight"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Contrition, Rite of",
         "Rank": "2",
         "Cost": "-",
         "Description": "This rite represents a formal apology to an offended being, with no mechanical effect.",
-        "Book": "WtF 155"
+        "Book": "WtF 155",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Rite of Contrition is performed by any werewolf who wishes to apologize to another being for an act of dishonor. The rite can be performed in supplication to another werewolf or a spirit. In the case of truly powerful entities, such as Incarnae or Celestines, the subject of the rite does not need to be present and it’s assumed that that spirit receives and understands the ritualist’s contrition. The ritualist might not truly be sorry for what he’s done, and the offended party might not be content with an apology no matter how effusive it is, but once this ritual has been performed, all witnesses are bound by honor to the idea that the ritualist has truly apologized to the best of his ability. The Rite of Contrition isn’t used for trivial offenses or errors in etiquette. It’s intended to help rectify real offenses, such as violating a totem’s ban or destroying a valued servant of the spirit in question."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This ritual takes several minutes to perform. The ritualist chooses a sort of spirit known to be favored by the subject of the rite — perhaps a pack totem or one of its spirit brethren. Unless the spirit is powerful enough to perceive the rite’s effects from a distance (as with an Incarna-level spirit or greater), the spirit must be present for the rite, although it may be on the other side of the Gauntlet."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "An appropriate food sacrifice is made to the spirit; a handful of the food in question is burned as an offering. The ritemaster then describes in humble language the offense or crime he committed and begs forgiveness from the subject in the First Tongue while exposing his bare neck. The subject of the rite may respond — the ritual response is Ss’uthaf, “I accept you.” The subject may choose not to respond (represented by turning his back on the ritualist), but that response isn’t required or magically imposed."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes per Rank of the spirit; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The rite fails immediately and the subject is likely further offended."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are accumulated. If the required number is gathered, the rite has no game-mechanical function. It serves purely as a way to apologize profusely and at length. Spirits who receive the Rite of Contrition tend to be less ill inclined toward a werewolf who performs it. If the performer currently suffers from Social dice-pool penalties when dealing with the rite’s subject, the rite may reduce those penalties by a die or two."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Numerous successes are accumulated. If five or more are gained than needed, the rite is particularly well performed, which may hasten the spirit’s forgiveness. The ritualist could gain a +1 bonus to Social rolls in regard to the subject for a month."
+            }
+        ]
     },
     {
         "Name": "Create Talen",
         "Rank": "2",
         "Cost": "",
         "Description": "Creates a Talen",
-        "Book": "SotM 72"
+        "Book": "Tribes 72",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Creating a talen is usually a matter for a fetish-crafter, and requires the Fetish Rite. But the Bone Shadows make frequent use of these minor fetishes, and discovered that a less complicated rite suffices for creating such fetishes, providing that the Bone Shadows “grease the wheels” a bit. A sacrifice of blood and pain is necessary to create fetishes without using the tried-and-true ritual, but sometimes it’s worth it to get a useful tool quickly."
+            },
+            {
+                "type": "paragraph",
+                "text": "For this rite to function, the spirit that is to power the talen must enter the object willingly (the spirit can be coerced, bribed, threatened or even lied to for this to take place, but it can’t be forced). Once the talen is created, it lasts for one lunar month, and then the bindings loosen and the spirit escapes. The spirit escapes if the talen is used, as well. Most spirits simply flee upon their release, but some hold a grudge and try to find a way to exact revenge upon the Bone Shadow. Some even grow accustomed to being in a talen and volunteer to undergo the process again."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite was designed to be performed relatively quickly, and using cheap, simple and easy-to-handle materials (unlike its more powerful cousin; see p. 162 of Werewolf: The Forsaken). The object must be prepared in a manner appropriate to the talen. The ritualist doesn’t necessarily have to be the one to do this, but doing so requires a roll of Wits + Crafts. The ritualist gathers the material in front of her, slashes her palm or wrist open with a blade (inflicting two levels of lethal damage) and bleeds in a circle around the object(s). The werewolf must already have negotiated terms with the spirit that is to power the talen, whether that means threatening the spirit with its ban or promising to reward the spirit after service is complete (failure to follow through on this promise, of course, is a violation of the Bone Shadows’ tribal vow)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "After the blood circle is complete, the werewolf instructs the spirit to “enter.” The blood acts as a kind of minor locus, allowing the spirit ingress to the objects, and boils off in a foul-smelling smoke as this happens. If the rite is successful, the object becomes a talen for one lunar month."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute of concentration)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The spirit has a change of heart, or a more-powerful entity sees what the werewolf is doing and takes offense. The rite fails, and an attack may be in the offing."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained toward the total."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Progress is made toward the total. If the player accrues 10 successes, the spirit bonds with the object and becomes a talen. For talens that have doses (such as Decay Dust or Ghost Salt; see p. 205 of Werewolf: The Forsaken and p. 75 of this book, respectively), the rite creates one dose per success on the Crafts roll to fashion the talen (see above). The talen retains its power for one lunar month."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The spirit is comfortable in its temporary home. The talen retains its power for one lunar month, after which the werewolf can spend one Essence point per week to keep the talen functional. The talen remains empowered until one week goes by without a point of Essence being spent for it, or until it is used."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Spirit has empowered a similar talen in the past."
+                    ],
+                    [
+                        "-1",
+                        "Spirit is inappropriate for this type of talen."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Dizzying Wind, Rite of the",
         "Rank": "2",
         "Cost": "",
         "Description": "Ritemaster deducts dots from skill he possesses and adds to a skill he does possess. The amount of dots is limited by the ritemasters Primal Urge and the duration is 12 hours.",
-        "Book": "Rage 195"
+        "Book": "Rage 195",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Story holds that this ritual has been around for nearly 1,000 years, first born of the Toltec Forsaken who walked the temples of central Mexico. This ritual, utilizing music and dance, grants the practitioner access to a trade of power with what is believed to be some other werewolf performing the same ritual elsewhere (though some suggest the power comes from spirits, not other Uratha)."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " With this ritual, the Forsaken dances about in a circle, playing some kind of wind instrument (potentially a many-chambered traditional tlapitzalli flute). She must do this for a number of hours equal to 10 minus her Harmony score. Once complete, she suffers a sudden wave of hallucinations similar to those that might be gained from the consumption of a psychotropic herb. The hallucinations — which can be both enlivening and enervating, disturbing and enlightening — last for one hour."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant (effect takes place once hallucinations cease)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The werewolf throws up, and suffers a -1 penalty to all Physical rolls for the remainder of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The ritual fails to have any effect."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The werewolf may take a number of points equal to his Primal Urge score away from a single Skill and apply them instead to a Skill in which he possesses no dots at all. (Example: A werewolf with Primal Urge 2 reduces his Athletics 3 by two dots, and now has Athletics 1. He takes those two dots and applies them to a Skill he does not possess — in this case, Persuasion.) This lasts for 12 hours after the rite begins to work. After the 12 hours, the Skills revert back."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "As the above success, except the werewolf also feels a dizzying rush of confidence, and gains one Willpower point."
+            },
+            {
+                "type": "paragraph",
+                "text": "(Note that to complete this rite, the Storyteller may call upon a Forsaken to make a successful Expression roll.)"
+            }
+        ]
     },
     {
         "Name": "Dormancy, Rite of",
         "Rank": "2",
         "Cost": "-",
         "Description": "Temporarily squelches a Locus for up to a lunar month. It gives a -4 penalty to finding the locus and it cannot be tapped for Essence. However, any werewolf may spend 1 Essence point to revive it.",
-        "Book": "WtF 156"
+        "Book": "WtF 156",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Rite of Dormancy allows a pack to leave a locus they’ve claimed for a short time without worrying that it might be discovered or stolen by a rival pack or by other creatures that haunt the night. The rite causes a locus to “sleep,” greatly reducing its flow of Essence and making it much harder to find. This rite compels the intercession of spirits that represent a long sleep, such as bear-spirits or others in their sleepy late autumn incarnation. The rite is best performed only on loci that the pack can control; although it could technically be used to temporarily shut down loci outside their territory, the local spirits who use the locus are likely to reactivate it almost immediately after the pack leaves."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist begins by invoking the appropriate spirits, who congregate around the locus’ spirit reflection. He chants in the First Tongue in a low, monotone growl and anoints the locus’ physical form with the juice of crushed evergreen needles, pure water or some other substance meant to obscure scent."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes per dot of locus rating; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost, and the locus remains active. The rite cannot be attempted again for 24 hours."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Some successes are gained. If the required number is accumulated, the locus goes dormant for a period of no more than one lunar month. When a locus is dormant, any attempt to find it mystically suffers a -4 penalty. The locus cannot be tapped for Essence while it’s dormant, nor does it grant its ambient Essence bonus to anyone within its area of influence. A werewolf or spirit who finds the dormant locus can revive it with an offering of one Essence point, in a sense “priming the pump.”"
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Considerable successes are gained. If five or more successes are gathered than needed, the duration of the locus’ dormancy can be extended by an additional lunar month."
+            }
+        ]
     },
     {
         "Name": "Eyes of the City",
         "Rank": "2",
         "Cost": "",
         "Description": "Learn broad information about city, or more specific information about smaller areas.",
-        "Book": "LodgS 74"
+        "Book": "LodgS 74",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Members of the Lodge of Ilia have attuned themselves to the cities in the way that more naturalistic Uratha view the forests and plains. This means having an innate knowledge of the underlying spiritual nature and health of a city."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The Ilian needs to “splash” his eyes with some element of the city — dirt from the city park, water from a street puddle or the like — while proclaiming the wonders of the city the ritualist has seen (drawing on both the physical and spiritual world). If successful, the ritualist’s vision becomes both less distinct but more informative. Technology-minded Ilians liken the experience to overhead “radar,” akin to those in search engines or video games; the Eyes of the City can reveal broad patterns of information, but nothing pinpoint-specific."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The character not only fails to gain any insights into the city, he also questions what he already knows. He is at a -1 penalty to all Mental rolls for the remainder of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The character does not gain any insight into the spiritual sense of the city."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The depth of information gained depends on the scope of the investigation. At the most outstretched scope, the werewolf can learn the most general spiritual facts about the entire city, such as where the city believes itself to end, approximately how many people are in the city, where the most spiritual unrest is (such as excessively violent or murderous parts) and so on. At the most narrowly focused scope, the werewolf can gain information about a street or small neighborhood. For example, a narrowed examination of New York City’s Broadway would reveal the essential energy of excitement-spirits, sorrow-spirits (from the broken dreams of those who don’t make it) and creativity-spirits. Since humans don’t have a direct spiritual counterpart in the Hisil, the Ilian can never be certain about pinpointing the exact locations or intents of humans; for example, he could not determine exactly how many people are on a city block or precisely where a specific person is. However, use of this rite can give alternate avenues of information that aren’t immediately obvious. In general, any information gained from Eyes of the City cannot pinpoint specifics at a greater resolution than one-tenth of the chosen zoom level. For example, trying to get information about a one square mile of the city will only give the Uratha the information to zoom in to about 10 city blocks, while trying to peg down something on a city block will get it within 150 square feet or so. The number of successes gained is the bonus to any Investigation rolls made in the area for determining specific information."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "In addition to the other information gained, the Uratha can detect the presence of loci and other places of profound spiritual significance."
+            }
+        ]
     },
     {
-        "Name": "Fires of Jarrah – Parnrdriyindri",
+        "Name": "Fires of Jarrah - Parnrdriyindri",
         "Rank": "2",
         "Cost": "",
         "Description": "Allows ritemaster to purchase back lost Harmony point.",
-        "Book": "LodgS 61"
+        "Book": "LodgS 61",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The loss of Harmony weighs heavily on all Uratha: not only does it open them up to derangements and further sins, but it makes their packs and territories vulnerable to invaders and rot from within. But fire is the force of cleansing and renewal on the body of Bandaiyan. Fire-spirits eat the filth and corruption that dirties the Hisil, release the nutrients in dead animals and plants into thurrpa (ash), disperse and transform spirits and allow new life, biological and spiritual, to sprout. Uratha have not ignored this potent mystical force. The smoke of burning jarrah (eucalyptus) can help werewolves maintain and regain Harmony, “burning away” sins for those who can turn back to the “Ways of the Law.” This rite allows the Uratha to scorch themselves with burning eucalyptus in order to burn away the “sin” that they have committed. A spirit of fire, such as a bushfire Gaffling, must be present, usually inhabiting a firepot while the rite takes place."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The Uratha meet on a bora ring or some other sacred place (one pack in Canberra is said to use a mosque whose imam is wolf-blooded) and light a firepot, calling fire-spirits to aid them. The sinner stands before the fire, usually naked, and is scorched with burning pieces of eucalyptus bark and twigs (jarrah trees drop huge quantities of this material all around them, and so it’s not hard to procure some in Australia, California or Italy, where vast stands of these trees exist) while confessing to the offenses that she has committed. The packmates take special care to scorch and burn the body parts that have a connection to the “sin”: thus, a liar will receive burns on the tongue, a thief’s hands will be burned and so on. Note that the risk of a werewolf falling into Kuruth is very real here, and so many packs are reluctant to perform this rite, even if their Ithaeur knows how to do so. The pack usually has to keep the fiery torture going for at least one hour per point of Harmony that the Uratha has lost. If the werewolf succumbs to Kuruth, no Harmony is regained, although some more might be lost."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each represents half an hour)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The sinner flies into Kuruth and cannot be brought out of it while conscious and able to move."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained. The subject takes one point of aggravated damage."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are added to the roll; the subject takes one point of aggravated damage. If the total of accumulated successes equals 10 or more, then one point of Harmony may now be bought back with experience points. The rite itself doesn’t restore Harmony, but allows it to be restored in perhaps easier fashion than would otherwise be feasible."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Successes are added to the roll; the subject takes one point of aggravated damage. If the total of accumulated successes equals 15 or more, the subject may purchase back up to two points of Harmony if he has the experience points."
+            }
+        ]
     },
     {
         "Name": "Fortify the Border Marches",
         "Rank": "2",
         "Cost": "-",
         "Description": "Modify the strength of the Gauntlet by 1 in a small area for up to one hour.",
-        "Book": "WtF 154"
+        "Book": "WtF 154",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "In the most ancient days, werewolves prowled the Border Marches between the spirit and physical worlds. The get of Father Wolf couldn’t be everywhere at once, of course, so in some cases they built walls — or bound humans or spirits to the task of building walls along the Border Marches. The rituals used to bind spirits and men to this task failed after the death of Father Wolf. The Border Marches became the Gauntlet. Forsaken Ithaeur roamed the spirit world for years after that, looking for a way to affect the Gauntlet within their own territories. Eventually, they came to an agreement with the spider-spirits that skitter along the Gauntlet itself."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite mimics the ability of the Azlu to affect the Gauntlet, though to lesser effect. The rite takes about an hour to perform. The ritualist weaves silk thread into a small patch of cloth. The werewolf can use tools to do this weaving, or he can do it by hand as well as he is able. The act of weaving is the important part, as the patch of cloth is burned as an offering to the spirits that maintain the Gauntlet. Some Forsaken are loath to use this rite, fearing that performing the rite too well or too frequently might lead to the creation of a Barren."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost. The Gauntlet’s penalty is increased or decreased by one in direct opposition to the ritemaster’s intent; the change lasts for one hour."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are added. If the required number is accumulated, the ritualist designates a small area no more than 2,500 square feet (a 50’ by 50’ square, or another shape of similar area). The ritualist may choose to increase or reduce the Gauntlet in the designated area by one. This effect remains in place for one hour. The rite cannot be performed multiple times on the same area. If one spot is overlapped by two uses of the rite, the effects of only the most recent use apply."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Considerable successes are accumulated. If five or more than needed are gained (25+), the Gauntlet change lasts for one lunar month."
+            }
+        ]
     },
     {
         "Name": "Fresh Scent",
         "Rank": "2",
         "Cost": "",
         "Description": "Target's scent, hair, fur color, and facial structure undergo a change. The rite imposes a -5 dice penalty to track the target and lasts for one week.",
-        "Book": "LotD 121"
+        "Book": "Lore 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Werewolves are not the only beings that live for the hunt. Mobs of humans, rival Uratha and vengeful spirits all try to find werewolves — and never for good reason. This rite cleanses the subject’s physical scent and makes minor changes to all her forms, making her just different enough to evade anything hunting her that has not tasted her blood. Werewolves with enemies among creatures other than the People may seek out a ritemaster who knows this ritual — though using this rite too frequently is a sure sign of cowardice."
+            },
+            {
+                "type": "paragraph",
+                "text": "Despite being of similar intent to Cleansed Blood, this rite is often frowned upon by the People. It is a call to spirits to change the face of an Uratha because she cannot outwit a more powerful foe by her own means. Ritemasters who know it walk a fine line between honest necessity and taking the easy way out."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite must be performed before a fire that is open to the sky — a fire in an enclosed area will not work. The ritemaster normally lays the fire with green wood but any substance that generates a lot of smoke will work. The ritualist casts items symbolic to the subject of the rite — who must be a werewolf — into the fire, destroying any identification along with a lock of hair or a tuft of fur and any other items that represent the subject as who she is. Once the smoke has taken these symbols, the ritualist extinguishes the fire and traces the ash in glyphs over the subject’s face while chanting to the spirits. The subject then washes away the ash with fresh water, revealing her new face and completing the rite. The ritemaster herself may be the subject of this rite."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes, each roll represents 5 minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost. The subject’s old scent grows stronger, and she is easier to recognize. All rolls to track her gain a +1 modifier for the remainder of the day."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Once ten or more successes are accumulated, the target’s hair and fur color and length, build, facial structure and scent all change by just enough to make her appear to be different. Neither the ritemaster nor the subject has any control over the new appearance. Attempts to track the subject based on her old appearance suffer a -5 penalty for one week after the rite. Tracking assisted by the taste of the subject’s blood is unaffected."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "If five or more successes are rolled than needed (15+), the changes to the subject last for one lunar month."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "The subject offers all the identifying items she normally carries."
+                    ],
+                    [
+                        "-1",
+                        "The subject has obvious distinguishing marks, such as a tattoo or distinctive scar."
+                    ],
+                    [
+                        "-1",
+                        "The subject keeps more than one item bearing her old identity."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Hallow Touchstone",
         "Rank": "2",
         "Cost": "-",
         "Description": "Imbue an appropriate item with some of the Essence from a Loci (up to 3 points); this can be tapped by any werewolf later, either slowly and efficiently, or reflexively and for only a single point. The touchstone bleeds 1 point of Essence per day.",
-        "Book": "WtF 155"
+        "Book": "WtF 155",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Werewolves can certainly hunt and fight well enough on their own, but access to Essence to fuel their spiritual powers can often mean the difference between life and death. The ability to access the energy of the Shadow without having to brave its many hazards is invaluable; even more so is the ability to carry a portion of a locus’ power on one’s person. By properly cleansing and preparing an object that correlates to a locus via this rite, a ritemaster can create a touchstone that bears a measure of the locus’ energy. When a pack must abandon their territory, often one of the final steps they take is to drink deeply of their locus’ Essence, then use this rite to drain the last of the energy, thus denying their enemies that strength."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster must first procure an appropriate physical vessel for the touchstone, something that is either a part of the locus’ physical form or a reflection thereof. This might be a shard of broken glass from the window of a warehouse, a piece of bark from an ancient tree, or a sliver of bone from a burial ground — anything appropriate and symbolic. The ritemaster seats herself at the heart of the locus’ area of influence and begins the ritual chanting and gestures. The rite takes about an hour to perform."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (40 successes; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost. The chosen object cannot be made into a touchstone, and the ritemaster must procure another before attempting the rite anew."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are added. If the required successes are gathered, the touchstone is successfully hallowed. The werewolf may transfer up to three points of Essence from the locus’ reserve into the touchstone. Any werewolf who carries the touchstone may drink up the touchstone’s power for himself as a reflexive action, although this hasty measure loses much of the efficiency. The werewolf gains a point of Essence, and the touchstone loses its spiritual power. If the werewolf instead uses a standard action, he may withdraw a point of Essence without losing any excess. A touchstone can hold Essence only temporarily. The touchstone bleeds off one point of Essence per day, making it mainly useful for a planned raid into difficult territory or a direct evacuation."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Considerable successes are gathered. If 45+ are accumulated, the touchstone stores up to five Essence."
+            }
+        ]
     },
     {
         "Name": "Hunter’s Howl, Rite of the",
         "Rank": "2",
         "Cost": "",
         "Description": "All wolves who set out on hunt receive essence but the hunt must be a virtuous one.",
-        "Book": "SotM 106"
+        "Book": "Tribes 106",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A human saying advises: “Always have something to eat before attending a feast — a hungry man is not a good speaker.” A similar sentiment serves as the impetus for this rite. A wolf that hunts while ravenous isn’t as effective, and finds its choice of prey narrowed. A werewolf who hunts while low on energy (i.e., Essence) is taking a risk. If the hunt goes poorly, that werewolf will have a difficult time healing himself, fueling his Gifts or changing shape. That, in turn, risks Death Rage and cannibalism. The Hunters in Darkness, before commencing a hunt, sometimes begin with this invocation to Black Wolf, granting a small measure of power as a blessing."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite can be performed only before a werewolf or a group of werewolves sets out on a hunt. The target of the hunt isn’t important — the hunt could be for food, information, an enemy, a locus, etc. The ritualist stands in the center of the group, changes to Urshul or Urhan form (or, for hunts that are decidedly aggressive in nature, Gauru) and howls to Black Wolf. All of the assembled werewolves must howl as well, though they don’t necessarily have to match the ritualist’s form while doing so. If the ritual is successful, each member of the hunting party feels an oddly calm feeling. The ambient sounds fall away, a distinct scent of rain and earth wells up and the werewolves feel a burst of energy. And then, the hunt begins in earnest."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "Every werewolf present loses a point of Essence as the howls to Black Wolf meet with her disapproval. The ritualist can choose to accept this loss of Essence himself, which is an honorable act (perhaps allowing the character to fulfill the Virtue of Charity or the Vice of Pride)."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The howls to Black Wolf go unheeded. The Hunters in Darkness consider a repeat attempt at the rite to be cloying and pathetic, unless the hunt is of supreme importance."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Each werewolf present regains Essence equal to the ritualist’s Primal Urge. This Essence comes with a price, however — Black Wolf expects the hunters to be virtuous during the hunt (see below)."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Each werewolf present also regains one point of Willpower."
+            },
+            {
+                "type": "paragraph",
+                "text": "If, during the hunt, any werewolf risks degeneration and succeeds, the player must roll Resolve + Primal Urge. If this roll succeeds, the werewolf keeps the Essence — whatever action he took to risk his Harmony, it was necessary for completion of the hunt and Black Wolf understands. If the roll fails, or if the degeneration roll fails (meaning the werewolf loses Harmony), he immediately loses the Essence that this rite afforded him. If he does not have enough Essence to cover this debt, the difference is paid with his lifeblood (in game terms, he suffers aggravated damage equal to the Essence he cannot pay)."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Rite is performed in the wilderness."
+                    ],
+                    [
+                        "-1",
+                        "Hunting party includes any non-Hunters in Darkness (non-cumulative)."
+                    ],
+                    [
+                        "-2",
+                        "The target of the hunt is a werewolf."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Invoke Kletba",
         "Rank": "2",
-        "Cost": "○●○�",
+        "Cost": "Variable",
         "Description": "Issues a curse from Gift, rite or fetish upon a target.",
-        "Book": "LodgS 79"
+        "Book": "LodgS 79",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite is actually a general description of the curse-wielding powers held by the Kletby. With it, the ritualist can channel the detrimental effects of any Gift, rite or fetish upon a person or place and extend its duration."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The exact mechanisms required by the rite depend on the effect; at the very least, the Uratha needs to point at the target or an object representing the target (such as a piece of the target’s fur). She must then perform Invoke Kletba, stating the effect she wishes to carry out. Finally, she must then activate the Gift, secondary rite or fetish she wishes to inflict on that person, using the normal rules for that Ability or item. Obviously, the Kletba must have access to that Gift, rite or fetish activation normally; Invoke Kletba cannot be used to inflict a curse using an Ability she does not have."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "To issue a curse, the ritualist must spend an equal amount of both Willpower and Essence; the amount required depends on the duration she wishes the curse to last."
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Willpower/Essence Spent",
+                    "Duration"
+                ],
+                "rows": [
+                    [
+                        "1",
+                        "10 actions (30 seconds)"
+                    ],
+                    [
+                        "2",
+                        "Five minutes"
+                    ],
+                    [
+                        "3",
+                        "One hour (or one scene)"
+                    ],
+                    [
+                        "4",
+                        "One day"
+                    ],
+                    [
+                        "5",
+                        "One week"
+                    ],
+                    [
+                        "6",
+                        "One month"
+                    ],
+                    [
+                        "7",
+                        "One year"
+                    ],
+                    [
+                        "8",
+                        "Five years"
+                    ],
+                    [
+                        "9",
+                        "20 years"
+                    ],
+                    [
+                        "10",
+                        "Permanent"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The minimum threshold required is determined by the duration of the original Gift, rite or fetish. For example, if a Gift has a duration of one hour, the minimum level of Willpower/Essence required is 3, which would generate a curse of the same duration as the original Gift. To generate a curse that lasted longer, the ritualist would need to extend the duration to a minimum of one day (four Willpower/Essence)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The amount spent here can be reduced with modifiers (see following)."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (three successes per Willpower spent; each roll represents one minute, unless all successes required are gained on the first roll, in which case the curse only took one action)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All accumulated successes are lost. In addition, the curse is reflected back upon the wielder, if possible, with a duration equal to that which was originally sought."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are gained. If the total number reaches (3 x Willpower expended), the curse is issued as expected."
+            },
+            {
+                "type": "paragraph",
+                "text": "In general, a curse is a statement proclaiming the effect the Kletba is inflicting on a place or another person. This effect needs to be encompassed by the secondary Gift, rite or fetish. Unless the Storyteller allows otherwise, the target of this ability remains the same; the Gift Fuel Rage could not be used to inflict the Gauru form upon another, because the target of Fuel Rage is limited to the possessor of the Gift. (Conversely, Silver Jaws could be inflicted on another, because the Gift specifically allows for that possibility.) The Kletba cannot pick and choose the effects, but must either issue all or none of them upon the victim. All the effects must have an initial duration greater than Instant; a Gift that merely inflicts one-time damage on a target cannot be made into a curse, but a Gift that inflicts damage over several minutes could."
+            },
+            {
+                "type": "paragraph",
+                "text": "For example, the Kletba might say, “By the power of the Jinx’s dark eyes, the next words you hear you shall be compelled to obey for the next year” (Luna’s Dictum or Voice of Command, Willpower and Essence costs of seven). Or he might say, “By the blessing of the most cursed spirit, may this automobile cease to work through sunrise and sunset” (Left-Handed Spanner, Willpower and Essence costs of four)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Conditions can be placed on the proclamation; these usually make it easier to inflict the curse, and reduce the Willpower and Essence cost required. For example, she might say, “From this day forth, the chattering of birds shall drive you to madness” (Distractions, duration of Permanent (10) with a condition of common (-2), for a Willpower and Essence cost of eight). Or, “So long as Prince Donatello speaks every day, may this ground be proof against humans for the next dozen moons” (Ward Versus Humans, duration of one year (7) with a dispelling condition of easy (-3), for a Willpower and Essence cost of four)."
+            },
+            {
+                "type": "paragraph",
+                "text": "If a condition is placed on a curse, the condition supersedes the original duration or effect of the attached Gift, rite or fetish. For example, Ward Versus Humans normally lasts for one lunar cycle against all humans; in the previous Prince Donatello example, the Ward Versus Humans would not have its normal effect for the first month and then be able to be dispelled by Donatello’s silence; rather, Prince Donatello’s day-long silence at any time during the duration is enough to end the ward."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "No additional effect beyond the several successes gained."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Suggested Modifiers",
+                        "bold": true
+                    },
+                    {
+                        "type": "lineBreak"
+                    },
+                    "These modifiers are not for the roll itself, but rather to the number of Willpower and Essence required (which then ultimately affects the number of successes required). No modifiers can ever bring the total Willpower and Essence cost below one."
+                ]
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "",
+                        "The adverse effects are activated by the following:"
+                    ],
+                    [
+                        "-4",
+                        "Very rare stimulus or situation, or one that is very easy to avoid (e.g., the removal of a body part)"
+                    ],
+                    [
+                        "-3",
+                        "Rare stimulus or situation, or one that is easy to avoid (e.g., the year’s first snowfall)"
+                    ],
+                    [
+                        "-2",
+                        "Common stimulus or situation, or one that is difficult to avoid (e.g., the light of the full moon)"
+                    ],
+                    [
+                        "-1",
+                        "Very common or unavoidable stimulus or situation (e.g., the light of the sun)"
+                    ],
+                    [
+                        "+2",
+                        "This modifier is secret from the cursed."
+                    ],
+                    [
+                        "",
+                        "The curse can be lifted by the following:"
+                    ],
+                    [
+                        "-4",
+                        "Very common action or task (being immersed in water)"
+                    ],
+                    [
+                        "-3",
+                        "Common action or task (going without food or water for one day)"
+                    ],
+                    [
+                        "-2",
+                        "Difficult task or action (having someone fall in love with you despite the hideous appearance the curse causes)"
+                    ],
+                    [
+                        "-1",
+                        "Very difficult task or action (visiting the most holy sites of the three largest cities on all seven continents)"
+                    ],
+                    [
+                        "+2",
+                        "This modifier is secret from the cursed."
+                    ],
+                    [
+                        "+2",
+                        "The curse is directed indirectly (e.g., using a piece of the victim’s clothing)"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Regardless of the number of conditions placed upon a curse, only two negative modifiers can be applied to the Willpower and Essence costs — one for how the curse is activated and one for how the curse is lifted."
+            },
+            {
+                "type": "paragraph",
+                "text": "Note that a modifier cannot be received if it is impossible to perform in the time allowed; for example, a curse that requires sleeping under the light of the moon for one month to be lifted could not last any less than one year; at the one-year duration, it would be a very difficult (-1) means of lifting the curse, and at longer than one year, it would be difficult (-2)."
+            }
+        ]
     },
     {
         "Name": "Lesser Oath, Rite of the",
         "Rank": "2",
         "Cost": "",
         "Description": "Participants of an oath must abide by the agreement or risk Harmony (level 7) loss and the appearance of a glyph denoting shame being added to their spirit brands.",
-        "Book": "Blas 99"
+        "Book": "Blas 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "These oaths are also called lesser fainings, blood oaths, oaths of hearth, or oaths of the karls. These vows are normally sworn between good friends who are not of the same pack. But, powerful elders may also require oaths between long-standing enemies to prevent further hostilities and end blood feuds. Lesser Oaths can also be made between totems and the Uratha who venerate them, as additional bans."
+            },
+            {
+                "type": "paragraph",
+                "text": "Lesser Oaths do not give Uratha magical knowledge of when they may be endangered, and, for the most part (see below), are taken literally. It is assumed that the Uratha will sacrifice pretty much anything to fulfill an oath. For example, two Uratha friends take a blood oath to defend their respective human children. The child of the first Uratha dies in an auto accident two miles away. The second Uratha neither gains a sixth sense that his “oathchild” was in danger nor is his oath broken since he had no power over it. Now, if he were driving a car that was involved in the accident, then he has broken his oath."
+            },
+            {
+                "type": "paragraph",
+                "text": "Example Oaths (and their Spirit Witnesses):"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Avenge one’s death if murdered (raven, death-spirit, Ralunim)",
+                    "Loyalty to a tribal or lodge mentor (wolf-spirit, Elunim)",
+                    "Loyalty to an alpha (wolf-spirit, Elunim)",
+                    "Come to one’s aid, assuming that the person’s enemy is not someone that the oath-taker has greater obligation to, such as blood kin, or a packmate (dog-spirit, Cahalunim)",
+                    "Protect one’s human kin (ancestor-spirit, Ithalunim)"
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This ritual cements some agreement between its participants — any can perform the rite. First, the ritemaster calls upon an appropriate spirit to witness the oath (see some examples, above). These spirits do not have to manifest. Each participant brings physical chiminage meaningful to the particular spirit, and the person(s) taking the vow offers two Essence to the spirit, one point for witnessing the Lesser Oath, one point later to enforce it."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritual also requires the sharing of something between the participants. Many mingle their blood by clasping cut hands. Some share some wine or mead from the same cup, while others eat of the same food."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended. (Two successes per total Renown of the participants; each roll represents one minute.)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The rite fails immediately, and the spirit is deeply offended. It leaves, but not without mocking or perhaps lashing out at the offender."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are accumulated. When enough successes are totaled, the participants are bound by the oath and the spirit witness departs."
+            },
+            {
+                "type": "paragraph",
+                "text": "When fulfilling a Lesser Oath, both in spirit and letter, the avowed Uratha can call upon the power of oath itself and regain one Essence and one Willpower immediately. The Uratha may do this at any time, but only once."
+            },
+            {
+                "type": "paragraph",
+                "text": "Breaking a Lesser vow is a level 7 sin against Harmony (roll four dice). In addition, a glyph denoting shame is added to the spirit brands covering the werewolf’s body, making her dishonor clearly visible to anyone who can see those brands."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Numerous successes gained; the oath takes on special significance as a much more powerful spirit takes up the binding of the Lesser Oath. When fulfilling the oath (see above), the oath-taker may call upon the oath’s power twice."
+            }
+        ]
     },
     {
         "Name": "Mark of Change",
         "Rank": "2",
         "Cost": "",
         "Description": "Imbue body modifications with spirits for one month. This bestows upon the wearer 9 again on Auspice abilities as well as the ability to spend X essence to increase an auspice by X dots for one roll.",
-        "Book": "SotM 143"
+        "Book": "Tribes 143",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Many Iron Masters decorate their bodies, changing the forms that they have worn since birth. For some, outlandish hairstyles are enough, others prefer tattoos or piercings and yet others go for branding, scarification or implants. A changed body indicates a changed mind, and some werewolves use this rite to channel spirit magics into their body modifications."
+            },
+            {
+                "type": "paragraph",
+                "text": "Rumor has that this rite comes from Mother Luna herself, but others speak of a darker source. Whatever the source, body modifications empowered by this rite give a werewolf the edge when using serving her auspice. Rather than bootstrapping a novice, a Mark of Change offers the most benefit to an Uratha who is aware of his role under the moon and wishes to become even more effective. An Iron Master Elodoth will often take a Mark before investigating a major event."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist intones words of binding in the First Tongue, commanding minor spirits into his tools. He also prepares a balm of honey, witch-hazel and night-blooming plants. The recipient of the Mark purifies herself by washing in cold running water before the ritualist starts the process."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the modification is complete, the recipient must mix some of the balm into a cup of wine, then drink the cup dry, before applying the balm to her Mark. She must keep the Mark covered for at least six hours, after which she reveals it to the world and reaps its benefit."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes required; every roll represents 20 minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The Mark is a twisted reflection of what it should be. The recipient takes a point of lethal damage."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The modification is not imbued with spiritual power."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The character’s body modification is empowered by spirits. She may apply the 9-again quality to any auspice Skill roll, and once a day may spend Essence to increase an auspice Skill, gaining one dot of skill per point of Essence. These added dots apply only to one die roll. The magics accompanying the modification last for a month before dissipating."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The body modification is a work of art. The recipient and the ritualist both regain one point of Willpower."
+            }
+        ]
     },
     {
         "Name": "Oath of the Rose",
         "Rank": "2",
         "Cost": "○●",
         "Description": "Bestows upon a vow the full protection of the Rose Shield.",
-        "Book": "LodgS 110"
+        "Book": "LodgS 110",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "To the Lodge of the Rose, little is more important than those to whom one swears loyalty, fealty or dedication. The Oath of the Rose serves as one of the most common and tangible aspects of the importance of that bond. When successfully completed, the rite formally binds an oath of the werewolf, giving her all the mystical power and responsibilities of the Rose Shield."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence"
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The Oath of the Rose is done under the moon of the petitioner’s auspice. Ideally, the ritemaster and the subject giving the Oath of the Rose will coordinate beforehand to determine if this new vow it is public or secret; the subject will also tell the ritemaster when all other outstanding oaths were taken, as well as the nature of all the outstanding public oaths the subject has sworn."
+            },
+            {
+                "type": "paragraph",
+                "text": "When the time comes to do the rite, the ritemaster proclaims to the moon (and any other werewolves attending, if any) the solemnity with which the Lodge of the Rose takes all oaths sworn under her and the nurturing love that flows between Uratha and Luna; he does this by cupping a single rose in his hands to the sky toward the moon. He will then ask the person taking the vow to affirm all vows he has made publicly, in reference to the time since he made them and the moon phase of the oath: “Do you reaffirm the sacred Oath of the Moon that you swore under the crescent moon six years and five months ago?” The petitioner should answer in the affirmative; in response, the ritemaster tears off a rose petal and gives it to the avower to eat. The ritemaster can either go in chronological order, or mention all public vows first followed by the secret vows."
+            },
+            {
+                "type": "paragraph",
+                "text": "For all secret vows, the ritemaster phrases his question differently, omitting the actual oath: “Do you reaffirm the vow you made under the crescent moon five years and two months ago?”"
+            },
+            {
+                "type": "paragraph",
+                "text": "Having reaffirmed each oath, the ritemaster then asks the petitioner to state his new oath (if public) or his intention to undertake a new oath (if private): “By the light of the crescent moon, I vow to serve and protect the Shrine of Bear for one full year,” for example, or “By the light of the crescent moon, I keep safe in my heart the vow I do swear.”"
+            },
+            {
+                "type": "paragraph",
+                "text": "Oaths can either be permanent or temporary, having a circumstance or time frame under which the oath expires (“until asked to leave” or “for two years,” for example). Petitioners are discouraged from making trivial vows, but it is up to the individual lodge member making the promise to determine the relative necessity of the vow."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (three successes per previous oath taken, plus three successes for the new oath; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The ritemaster has insulted Noble Gryphon with his ineptitude; the person giving the vow may never have that promise granted the protection of the lodge."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are gained as usual. Once the required number of successes is acquired, the remaining petals on the rose explode into the air, showering the petitioner, the ritemaster and all attending; there are always enough petals to hit everyone with at least one petal. Where the petals touch skin, a faint red mark is left; this is symbolic of the shared affirmation the witnesses and community provide. The petitioner now has the full protection of the Rose Shield for that vow."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Successes are gained as usual. If the total reaches five more than necessary to complete the rite, in addition to the normal effects of success, the rite provides an additional bonus die on the first check that invokes the Rose Shield. If unused, this benefit expires in one month."
+            },
+            {
+                "type": "paragraph",
+                "text": "The marks left by the rose petals wash off as normal, but the marks are a very potent symbol for lodge members, and it’s common for people attending to make reference to them: “I will stand beside you, brother, as one whose flesh was marked red by your oath.”"
+            }
+        ]
     },
     {
         "Name": "Purgation, Rite of",
         "Rank": "2",
         "Cost": "-",
         "Description": "A rite typically performed by packs of Fire-Touched on a monthly basis, this rite allows all members with at least Harmony 7 to buy back Harmony dots lost due to tribal ban violation at half cost.",
-        "Book": "Pure 123"
+        "Book": "Pure 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Living in the modern world is difficult to reconcile with a mindset that regards lying as abhorrent, particularly since the Fire-Touched believe that even presenting the notion that they are human to be a lie of sorts. Most Fire-Touched packs include one member who can perform this rite, extirpating the lies of the pack in a moment of searing pain."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The Rite of Purgation is performed monthly, though the exact time of the month isn’t important. The pack gathers together around a small fire and howls in unison, mourning the fact that lies are necessary for survival. The ritemaster then gathers a handful of hot coals, nails or other small bits of metal left in the fire and holds them out to the participants. They each take one and insert it under their tongues, holding it there until the heat is gone. Needless the say, the rest of the rite is spent in silent meditation, to let the pack’s tongues heal."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (two successes per packmate; each roll represents one turn)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "All successes are lost, and the ritemaster cannot perform this rite again until he has undergone the Rite of Penance."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are added."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are added to the total. Once the required number is accumulated, each member of the pack suffers one level of lethal damage (this heals normally). Any lies the pack has told during the past month are forgiven; if any of the packmembers has lost Harmony through violating the tribal ban in the last month, he may buy one point of Harmony back at half the normal cost. The Rite of Purgation is not a preventative measure. That is, it doesn’t mean that lies the werewolves tell the ",
+                    {
+                        "text": "next",
+                        "italic": true
+                    },
+                    " month will be forgiven unless the rite is performed a month later."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Fire-Touched of Harmony 6 or lower receive no mechanical benefit from this rite, but are, of course, still expected to participate."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Considerable successes are added to the total."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Ritemaster is the Truthcatcher of the pack (see p. 58)."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Rouse the Fetish",
         "Rank": "2",
         "Cost": "",
         "Description": "Ritemaster can communicate with a spirit inside a fetish. It will reveal it's nature, rank and the purpose of the fetish.",
-        "Book": "LotD 142"
+        "Book": "Lore 142",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite allows an Uratha to communicate with the spirit of a fetish. It may be used to investigate the properties of a strange, newly won prize or to appease a fetish that is less than happy with its wielder."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Much like the binding rites, the Uratha first draws a circle around the ",
+                    {
+                        "text": "urmagan",
+                        "italic": true
+                    },
+                    " with chalk or some other substance meaningful to the spirit bound into the fetish (if known). The ritualist surrounds this circle with claw sigils and chants softly as he focuses his will. Offerings of chiminage are also helpful, if the nature of the ",
+                    {
+                        "text": "urmagan",
+                        "italic": true
+                    },
+                    " spirit is known."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (Eight successes; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The ritemaster’s crude query looses something in the bonds tying spirit to object. The spirit flees the fetish."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gathered. The ritemaster may try again."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "Successes are gathered. If eight or more are gained, the ritemaster makes contact, and can converse in a limited fashion. The spirit will reveal its nature, Rank and the purpose of the fetish."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional success",
+                "text": "Successes are gathered. If 13 or more are gained, the spirit is more forthcoming, and may relate details about its binding, past owners or other such information."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Ritemaster knows spirit’s name."
+                    ],
+                    [
+                        "+1",
+                        "Ritemaster makes offering of chiminage."
+                    ],
+                    [
+                        "-1 to -5",
+                        "-1 per dot of the fetish"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Ruined Tongue, Rite of the",
         "Rank": "2",
         "Cost": "",
         "Description": "Renders target unable to speak of a specific topic.",
-        "Book": "SotM 178"
+        "Book": "Tribes 178",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Lodge of Shadow’s Storm thrives through the keeping of secrets. This ritual is just one of the many ways in which the werewolves revel in their secrecy, and is a mystic rite many other lodges would kill to learn."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite allows a werewolf to silence another being, be it Uratha, human or spirit. By performing the ritual, the ritemaster turns the target’s tongue thick in his mouth, rendering him unable to speak of a single subject. Any attempts to speak of the forbidden topic result in breathless silence, which turns into choking, which in turn quickly becomes asphyxiation if the speaker doesn’t give up his attempts."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster must possess some item belonging to the intended target. This can be anything from an iPod the character owned for a day to a vial of the target’s blood — but it must be something the character has touched and physically ‘owned.’"
+            },
+            {
+                "type": "paragraph",
+                "text": "Once this component is obtained, the ritemaster must choose — very, very carefully — the exact topic the target will be denied speaking of. Specifics matter here; something like “The Uratha” or “The Shadow” is too vague for this ritual to cover. Things such as “The Lodge of Shadow’s Storm,” “The events of the night of September 27th, 2005” or “The name of the pack you met last night” are more in the realm of the rite’s coverage. Specific topics, narrow in scope."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritemaster writes the forbidden sentence on a piece of fresh paper that has been used for nothing else, and leaves both the paper and the component out in the next rainstorm to be battered (and almost certainly blown away) by the elements."
+            }
+        ],
+        "DicePool": "Harmony versus the subject’s Resistance",
+        "Action": "Extended and contested (the first time and each time the subject wishes to speak of the forbidden subject)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The secret-spirits mock the ritemaster, and the ritual fails catastrophically. Instead of the subject being afflicted by the rite, the ritemaster bears the effects of the ritual himself for a full lunar month."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The rite simply fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "The subject is afflicted as intended, and the effects are permanent. Every time the target wishes to speak of the forbidden topic, he must first pass the Resistance versus Harmony roll. If he fails the roll, his awkward silence becomes wracking chokes that reduce all dice pools by 1 until he stops trying to speak of the topic. If he continues (tries to roll again in a following turn) and fails a third time, the ritual closes his windpipe, causing the effects of asphyxiation as detailed in the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ". All negative effects cease the moment the subject stops trying to break the mystically-enforced silence."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "As with a success, though the Harmony roll against the subject gains a +1 bonus the next time a roll is called for."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+5",
+                        "Subject’s blood was used in the initial rite."
+                    ],
+                    [
+                        "+3",
+                        "Subject’s body matter was used in the initial rite."
+                    ],
+                    [
+                        "+2",
+                        "Subject’s treasured possession was used in the initial rite."
+                    ],
+                    [
+                        "-1",
+                        "An unmemorable or disliked item was used in the initial rite."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Scarlet Messenger",
         "Rank": "2",
         "Cost": "",
         "Description": "Creates short lived spirit to carry a message for up to 1 mile per success.",
-        "Book": "SotUK 101"
-    },
-    {
-        "Name": "Sekhmet’s Jar",
-        "Rank": "2",
-        "Cost": "",
-        "Description": "FETISH, NOT RITE",
-        "Book": "LodgS 105"
+        "Book": "SotUK 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "There are times when a werewolf needs to get a message to somebody, and all other options are exhausted. Mobile phones fail due to reception and incompatibility in the Shadow, howls can only be heard so far and there might be any one of a hundred reasons why a character cannot call for help from someone nearby or contact someone several miles away. The Scarlet Messenger ritual solves that problem with style, creating a short-lived spirit capable of delivering a message to anyone, anywhere."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster cuts open her flesh (usually a palm or forearm) and lets 33 droplets of blood drip onto the ground by her feet. At the end of this offering, the werewolf beseeches the blood to awaken and carry forth a single message, and speaks one sentence aloud — no more than 33 words — and names the person who is to be the recipient of the message. The werewolf need not know the person personally, but must at least know the recipient’s name."
+            },
+            {
+                "type": "paragraph",
+                "text": "The blood forms into a large raven-spirit, black-feathered but with red eyes and a scarlet cast to its plumage when the light catches at certain angles. It is not a true spirit, merely a simulacrum created by the ritual, but is capable of flight in the Shadow like a true raven-spirit, and can cross the Gauntlet to or from the physical world in order to deliver its message. When the raven-spirit arrives at the named person, it alights on their shoulder (regardless of witnesses or location) and caws loudly. The recipient of the message understands these caws perfectly, hearing the ritemaster’s message in the croaky sounds. The raven waits for 33 seconds to hear any reply to the message, which the raven will carry back to the ritemaster and deliver. If no reply is forthcoming in that time, or after the raven has delivered the message back to the ritemaster, the spirit lands on the ground and becomes nothing more than a small patch of the werewolf’s blood."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes required — each roll represents one minute of beseeching the spirit to awaken)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The werewolf takes two points of bashing damage from his bleeding palms; all successes are lost."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are gained; the werewolf takes a single point of bashing damage."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The werewolf takes one point of bashing damage, and successes are accumulated. If the total equals 10 or more successes, the Scarlet Messenger manifests and can carry a message up to a mile per success on the Harmony roll."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The werewolf takes one point of bashing damage, and successes are accumulated. If the total equals 15 or more successes, the rite succeeds with twice the usual range (2 miles per success on the Harmony roll)."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Situation",
+                    "Modifier"
+                ],
+                "rows": [
+                    [
+                        "Recipient is well-known to the ritemaster.",
+                        "+1"
+                    ],
+                    [
+                        "Recipient has tasted the ritemaster’s blood.",
+                        "+1"
+                    ],
+                    [
+                        "Recipient has never met the ritemaster.",
+                        "-1"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Shroud, Rite of the",
         "Rank": "2",
         "Cost": "",
-        "Description": "Hides a Bale Hounds allegiance to Maeljin Incarna from Luna and the Foresaken.",
-        "Book": "Blas 140"
+        "Description": "Hides a Bale Hound's allegiance to Maeljin Incarna from Luna and the Forsaken.",
+        "Book": "Blas 140",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "To conceal their existence from the Forsaken, the Bale Hounds must mask their spirit brands to the Maeljin Incarna. Through the Rite of the Shroud, the ",
+                    {
+                        "text": "Asah Gadar",
+                        "italic": true
+                    },
+                    " bond with Soulless Wolf, the so-called forgotten Firstborn, and establish a connection to the Maeljin through Viruhk-Ur. In this role, Soulless Wolf is nothing more than an intermediary that allows the Bale Hounds to possess Maeljin or Maeltinet totems without being revealed as traitors to Luna and ",
+                    {
+                        "text": "Urfarah",
+                        "italic": true
+                    },
+                    ". The Rite of the Shroud is always taught to a Bale Hound on the night she joins the cult, and attended by the Eyes of the Maeljin after a formal Rite of Initiation. Soulless Wolf itself, any of the Maeltinet and most of the Maeljin’s trusted spirit servitors can teach this ritual to the Bale Hounds."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "For more structured presentations of the Bale Hounds, this ritual follows the Rite of Initiation (such as a Blooding). Rite of the Shroud must be performed in a Wound, after attracting the attention of Soulless Wolf through deeds or by summoning. The rite can never be performed without the Eyes of the Maeltinet present."
+            },
+            {
+                "type": "paragraph",
+                "text": "Soulless Wolf describes, step by step, what the werewolf must do after he has passed his trial to gain entry to the cult. First, the Hound-to-be must chant the names of eight people close to him, and swear in First Tongue that he will kill them all before his own death. This is a solemn vow, and though not mystically binding, it serves as a powerful oath highlighting just how far the Bale Hound is falling into personal corruption. He is then instructed to swear the following three promises:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "“I swear that with my claws I will tear Mother Moon from the sky.”",
+                    "“I swear that with my deeds I shall destroy all that the People have worked for.”",
+                    "“I swear that all the blood I shed shall be to see the Maeljin rise.”"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "After speaking each sentence, the werewolf is instructed to reach into Soulless Wolf’s mouth and break a fang free from the spirit’s powerful jaws. After the third promise, when the werewolf holds three of Soulless Wolf’s fangs, the Uratha is instructed to swallow them and concentrate on the feel of the spiritual matter dissipating throughout his body."
+            },
+            {
+                "type": "paragraph",
+                "text": "In the silence that follows, as the werewolf meditates on the sickening sensation of having swallowed pure Corpus from what seems to be the most powerful servant of the Maeljin, Soulless Wolf circles the Uratha eight times, growling the names of each of the Maeljin Incarnae as the spirit completes a circle. Then Viruhk-Ur waits for the werewolf to open his eyes, and demands that the Uratha speak the name of the Maeljin he desires to serve, or die here so that he may never speak of the secrets he has learned."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the werewolf attempts to back out of this part of the ritual, he is destroyed swiftly and mercilessly. If he speaks the name of his chosen Maeljin, he feels the ice-cold rush of connection in his blood, as the Maeljin totem reaches for his heart. Here is the point at which the character rolls for the rite’s success."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The Maeljin are sickened by the thought of accepting this werewolf into their service. Soulless Wolf immediately turns to destroy the character; only the rarest of Uratha will survive a battle with the Eyes of the Maeljin."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The rite fails and the werewolf must try again, before sunrise, or she will be destroyed by Soulless Wolf."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Soulless Wolf leaves the Uratha alone in this moment, and the werewolf is free to leave the Wound. The werewolf is now one of the ",
+                    {
+                        "text": "Asah Gadar",
+                        "italic": true
+                    },
+                    ", free to work against the local Forsaken of his own will and learn the cult’s dark secrets if he is able to find a teacher."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Soulless Wolf remains to answer any questions the werewolf has, and will help the Bale Hound find other ",
+                    {
+                        "text": "Asah Gadar",
+                        "italic": true
+                    },
+                    " nearby by revealing their locations if required."
+                ]
+            }
+        ]
     },
     {
         "Name": "Silent Hunt",
         "Rank": "2",
         "Cost": "",
         "Description": "Leave no mark and go unnoticed so long as stalking and observing.",
-        "Book": "GotU 18"
+        "Book": "GotU 18",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite is meant to be something that can be introduced to the characters as a new creation — an ally, contact or rival has developed it recently and is willing to teach it to the pack, for a price. The Silent Hunt allows a pack of Uratha in a populated area to stalk and learn about their prey without giving themselves away. As long as they are surveying or hunting their target, they do not leave footprints, hair or claw marks, and any normal people that see them ignore them. Any violent action — and any change out of Urhan form — discontinues the rite."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The pack focuses on the quarry or task at hand (often performing Shared Scent first — see p. 150 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "). The ritemaster then whispers the name of each packmate, followed by a First Tongue phrase that translates to “silence.” The werewolves change to Urhan form in turn, and afterwards begin their hunt."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (successes equal to the number of packmates, each roll represents one turn of concentration)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The werewolf fails to complete the rite and the pack is locked in Urhan form until the next moonrise."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "No successes are garnered."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Progress is made toward the goal. When the player accrues successes equal to the number of packmates, the werewolves begin their hunt. They can track down their target, observe it, follow it and even get close enough to sniff it, but if any packmate changes shape, attacks the target, or allows himself to be seen, the rite’s effects end. While the rite is in effect, though, all players receive a bonus to Stealth rolls equal to the highest Cunning Renown in the pack. In addition, all ties on opposed Stealth rolls go to the pack. Finally, while the rite is in effect, all members can spend a point of Essence to make any Stealth roll a teamwork action (p. 134 of the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ")."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Significant progress is made toward the goal. If the rite concludes with successes equal to the number of packmates + 5, the point of Essence allows for a Stealth action to automatically succeed rather than use a teamwork action."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Suggested Modifiers"
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-1",
+                        "Any participant has entered Death Rage in the last week"
+                    ],
+                    [
+                        "-1",
+                        "Rite is enacted on the crescent moon"
+                    ],
+                    [
+                        "-2",
+                        "Rite is enacted on the half moon"
+                    ],
+                    [
+                        "-3",
+                        "Rite is enacted on the gibbous moon"
+                    ],
+                    [
+                        "-4",
+                        "Rite is enacted on the full moon"
+                    ],
+                    [
+                        "+1",
+                        "Rite is enacted on the new moon"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Sin-Eater, Rite of the",
         "Rank": "2",
         "Cost": "●●+2(L)",
-        "Description": "Bale Hound gives Chiminage to Soulless Wolf. For next lunar month ritemaster gains +2 dice to Harmony rolls for rites and stepping sideways. May spend extra essence to increase Dicepool.",
-        "Book": "Blas 142"
+        "Description": "Bale Hound gives Chiminage to Soulless Wolf. For next lunar month ritemaster gains +2 dice to Harmony rolls for rites and stepping sideways. May spend extra essence to increase Dice Pool.",
+        "Book": "Blas 142",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "In Soulless Wolf’s role as the Eyes of the Maeltinet, the spirit plays a vital part in the Bale Hound cult. It is he who takes the sins of the Asah Gadar into himself, ensuring that the werewolves are able to mask their dying Harmony and infiltrate the Forsaken without their rites and ability to enter the Hisil failing completely."
+            },
+            {
+                "type": "paragraph",
+                "text": "The method by which the Bale Hounds save their own souls is based on an old Christian custom, adapted and corrupted for the cultists’ own uses. By tithing extensive chiminage to Soulless Wolf, the Asah Gadar pay for their dark deeds to be masked for another lunar cycle."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite must be performed within a Wound, and can only be performed by an individual on himself — never with a ritemaster. However, it can be performed with or without Soulless Wolf being present. The Bale Hound must tithe a great deal of chiminage for the rite to function, in addition to spending two points of Essence."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Firstly, the werewolf recites a litany of her recent sins against Harmony, and pleads with the Maeljin to take each of the sins from her soul. She offers chiminage appropriate to each of the Maeljin: items representing wrath, greed, lust, gluttony, violence, envy, deception, pride and sloth. A relatively popular method of gathering such challenging chiminage is to murder mortals who exhibit these sins in their lives, and then use their blood, bones or other body parts as items in the offering. Though the most common method for acquiring the necessary chiminage, this is by no means the only accepted one. Many Bale Hounds “store up” any items that can be used in future offerings, for a werewolf never knows just when she might suddenly need her sins eaten in a hurry after a particularly grueling engagement."
+            },
+            {
+                "type": "paragraph",
+                "text": "After the sin-chiminage is gathered and offered to the Maeljin as a gift, the Bale Hound must cut his own flesh and shed blood for nine minutes over the offered items. Obviously, due to regeneration, this can be something of a trial itself, and many of the Asah Gadar use ritual silver knives for this part of the ceremony. The Bale Hound must not talk to another being, or the ritual automatically fails. The blood is to be shed in silent contemplation of both the pain the werewolf is feeling, or while begging the Maeljin for aid."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once blood has been shed for nine minutes — a minute for each Maeljin Incarna — the werewolf spends two Essence points into the last trickle of blood, and pleads once again for her Maeljin totem to lend him spiritual strength."
+            },
+            {
+                "type": "paragraph",
+                "text": "With these words spoken, the character can make the roll to see whether the rite is successful."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "Two Essence and two points of lethal damage from blood loss."
+            }
+        ],
+        "DicePool": "Harmony. For each additional Essence point spent beyond the mandatory two points, the Bale Hound gains a +1 bonus to the roll.",
+        "Action": "Instant (once the lengthy ceremony is complete).",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the Bale Hound may not attempt to perform the rite until another lunar cycle has passed. It is likely that during this month, the Bale Hound will again suffer Harmony loss, increasing the difficulty of the next performance of the Rite of the Sin-Eater, and potentially leading the werewolf in a downward spiral to the life of a Broken Soul."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails to please the Maeljin (or fails to attract their attention entirely), and the Bale Hound must once again gather the necessary chiminage before performing the rite in the future."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Soulless Wolf manifests, representing the Maeljin. Often without a word, the spirit consumes the blood-covered chiminage, taking the sinful offerings and the Bale Hound’s blood into the spirit’s own Corpus. For the next month, the Bale Hound may add +2 to all Harmony dice rolls involving rites and stepping sideways. This bonus cannot raise a Bale Hound’s Harmony dice pool above seven dice."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The Maeljin bless the Bale Hound for her masterful chiminage and dedication to their foul destiny. In addition to the results gained from a success, the dark gods bestow a further gift for the coming month: the Bale Hound may effortlessly resist all compulsions gained from Harmony loss for a full lunar cycle."
+                ]
+            }
+        ]
     },
     {
         "Name": "Speak with the Guardian",
         "Rank": "2",
         "Cost": "-",
         "Description": "The ritemaster is possessed by the incredibly powerful totem spirit of the Lodge of Cerberus, who will then answer three questions to the best of his ability.",
-        "Book": "Faithful Errata"
+        "Book": "Faithful Errata",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This is the ritual performed at a werewolf's initiation into the lodge, when Cerberus reads his heart to see if the Uratha is truly dedicated. It is also the rite used when a lodge member needs to contact his totem for guidance. When performed, the ritual opens a spiritual link to Cerberus and the ritemaster is gripped by sudden possession as the totem’s awareness enters his body. It is a shallow link with no real access to Cerberus’ own mind, but even a bare whisper of the great spirits awareness is enough to allow for telepathic communication. The werewolf can ask three questions of his totem, which Cerberus will answer to the best of his knowledge. In addition to his vast knowledge of the Shadow and the general lore of an ancient spirit, Cerberus has the ability to discern the location of any ghosts within a mile radius of any werewolf of the lodge. Also of note, Cerberus can inform the ritemaster of any falsehoods spoken to the werewolf while the Uratha is under the power of this rite."
+            },
+            {
+                "type": "paragraph",
+                "text": "A werewolf performing this ritual is physically affected by the closeness of his totem. His eyes milk over completely white, though this does not ruin his vision. The ritemaster speaks with Cerberus’ voice, which is a crackling whisper that sounds like a burning funeral pyre. Also, werewolves with a Willpower of less than 9 are unable to suppress severe trembling throughout their body, which is painless but definitely unnerving to both the ritemaster and any onlookers."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The rite is performed similarly to the Rite: Call Gaffling. It is only a fraction of Cerberus’ great awareness that answers the summoning and he is a spirit that is much less bitter about being called than many other Shadow-dwellers. The Chiminage must be proof of a recent success against something that threatened the veil between the living and dead. Every time this rite is used more than once per lunar cycle, the ritemaster suffers 5 levels of Lethal damage from convulsions and internal bleeding. This damage cannot be soaked."
+            }
+        ],
+        "DicePool": "Harmony (versus 7)",
+        "Action": "Extended (20 successes needed; each roll represents one minute); never contested.",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    "All accumulated successes are lost; the ritemaster must begin again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    "No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    "Cerberus enters the ritemaster’s body when the required successes are gathered. The totem can maintain this link even when he is otherwise occupied; such is the minute amount of attention it requires on his behalf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    "Several successes are gained."
+                ]
+            }
+        ]
     },
     {
         "Name": "Surrogate, Rite of the",
         "Rank": "2",
         "Cost": "-",
         "Description": "Prepares the subject to deal with a transgression they plan to commit in the next 24 hours; grants a bonus to resist degeneration once the sin is performed.",
-        "Book": "Pure 124"
+        "Book": "Pure 124",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Pure know that they are in a vicious war against the Forsaken, as well as the other dark entities that stalk the night. Every war has its innocent victims, and even the warriors of purity and righteousness may violate their vows and tribal bans in the pursuit of higher justice."
+            },
+            {
+                "type": "paragraph",
+                "text": "This ritual allows the Uratha who uses it to gain prior forgiveness for a Harmony sin he knows he will soon commit. This ritual certainly is not perfect; Uratha who use it may still suffer as they violate Harmony bans. But this improves the werewolves’ chances of withstanding any dark tasks that confront them."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Ivory Claws have no specific ritual intended to alleviate the negative effects of Harmony sins already committed; Silver Wolf commands his servants to prepare for upcoming battles both physically and, using this rite, spiritually. (However, Ivory Claws may still participate in and execute other rites described in this section; it is simply the case that none of the other Harmony-related rites come to them from Silver Wolf.)"
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The subject of the rite — who cannot be the ritualist — stands before the ritualist in a lupine form and intones a howl to Silver Wolf. This howl begs Silver Wolf’s forgiveness for a sin yet to be committed. The subject of the rite and the ritualist then simultaneously commit a ritualized version of the sin that the Uratha plans to commit. The subject of the rite must describe the sin he expects to commit, in a moderate level of detail. “I intend to sin” isn’t nearly detailed enough, but “I intend to kill Lars McGahee by ripping his throat out” is more detailed than it needs to be. Simply “I intend to kill a human in battle” suffices in that case."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritualized sin that the ritualist commits must itself be a transgression on the Harmony hierarchy of sins. However, the ritualized sin can be a “lesser” sin than the one to be committed — its “rating” can be as much as three points higher than the sin the rite’s subject intends to commit. The ritualized sin must be related to the “real” sin in some fashion. For instance, if the rite’s subject intends to kill another werewolf in the heat of battle (a Harmony 5 sin), the ritualist might kill a human in a mock battle (a Harmony 6 sin). The ritualist then suffers the consequences of this transgression normally."
+            },
+            {
+                "type": "paragraph",
+                "text": "(It might be inferred that ritualists with low Harmony scores are especially useful in performing this rite. That is true, except that the rite’s success depends on a Harmony roll, and such a ritualist is more likely to fail that roll.)"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes are needed; each roll requires one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " No successes are gathered. The rite doesn’t obviously fail, but if the character goes ahead and commits the sin described, he automatically fails the degeneration roll and loses a point of Harmony."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The spirits have spoken: the character should not commit this sin tonight, lest he face the consequences. No further successes can be gathered in this rite; it fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gathered. Once 10 successes have been accumulated, the character gains one die to resist degeneration when he commits the sin he described in this rite. Note that the sin in question must be committed within 24 hours of the rite’s performance — and that this ritual only aids the werewolf on ",
+                    {
+                        "text": "one",
+                        "italic": true
+                    },
+                    " degeneration roll until the rite has to be performed again — whether the degeneration roll was successful or a failure."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Success:",
+                        "bold": true
+                    },
+                    " Several successes are gained at one time. If 15+ are accumulated on the same roll that the ritemaster reaches 10 successes with, the subject of the rite automatically succeeds on the degeneration roll caused by the sin he describes in this rite."
+                ]
+            }
+        ]
     },
     {
         "Name": "Strip the Soul Bare",
         "Rank": "2",
         "Cost": "-",
         "Description": "A powerful rite, designed to torment captive Forsaken, which strips them of Willpower and the ability to enter death rage. Using it is a significant Harmony violation.",
-        "Book": "Pure 124"
+        "Book": "Pure 124",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Despite the Pure’s doctrine of total war, they sometimes find themselves with Forsaken prisoners or other captives. Captives can be a liability unless they possess some value to the ",
+                    {
+                        "text": "Anshega",
+                        "italic": true
+                    },
+                    " — the captive may possess information or be useful as a bargaining chip to ensure the return of a Pure prisoner from the Forsaken."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Prisoners with useful information cannot always be persuaded to turn that information over to Pure captors. Forsaken resist most forms of torture, and the kind of torment that the Pure can put out often inadvertently kills human captives, even those with wolf blood."
+            },
+            {
+                "type": "paragraph",
+                "text": "This ritual is intended both as a sacrifice to Silver Wolf and as a tool for the Pure as they deal with captives. Strip the Soul Bare allows a werewolf ritualist to inflict horrific pain upon the rite’s target and in so doing crush the target’s will to resist the ritualist’s demands for information. The Essence generated by the target’s agony is channeled to Silver Wolf. Strip the Soul Bare also prevents the target from dying under the Ivory Claws’ ministrations."
+            },
+            {
+                "type": "paragraph",
+                "text": "The use of this ritual is a level-three sin against Harmony."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The subject of the rite must be hidden away from the sight of the Moon, either underground or in a closed room. The subject of the rite is entirely cleansed through whole-body immersion in water, and then bound in place away from that water. The ritualist can inflict pain on the subject in any way the ritualist sees fit; he can use his own fists, claws or teeth, or ritually prepared torture equipment. This rite takes a long time and may, at the Storyteller’s discretion, require Stamina rolls by the ritualist. Unlike among human torturers, the subject of the rite can be given no hope, no food, drink or sleep. He cannot be told, “Your pain will end if you cooperate.” Silver Wolf requires that the Forsaken see only an eternity of pain before them."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (five successes required; each roll represents four hours of work for the Uratha)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite ends abruptly. The target regains one point of Willpower, and may enter Death Rage at the Storyteller’s discretion."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If enough successes are earned, the rite succeeds. Success strips two points of Willpower away from the target; this Willpower cannot be regained by any means until at least a full day has passed since Strip the Soul Bare was last used on the target. Worse, this rite strips away the target’s Rage; the Uratha may not enter Death Rage for the same period."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Several successes are gained at once. If the total number of successes gained through an exceptional success exceeds the target’s permanent Willpower, the target loses all remaining points of Willpower."
+                ]
+            }
+        ]
     },
     {
         "Name": "Winter’s Anguish, Rite of",
         "Rank": "2",
         "Cost": "",
         "Description": "Target is immune to natural cold for 1 hour per dot of ritemaster's Primal Urge.",
-        "Book": "BotW 98"
+        "Book": "BotW 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Cold is an insidious foe. It can never be fully defeated, only escaped for a time. A werewolf does not always have the leisure to don his warmest form and spend the duration of a cold snap in a snug den. Some werewolves are even forced to endure cold weather in the vulnerable human form. When this is the case, sometimes even the best mundane efforts won’t help the werewolf survive the sapping low temperatures. The Rite of Winter’s Anguish abjures the spirits of the snow, air and cold to leave the werewolf be. Even the kindest spirits have limited patience, however, and they return their attentions to the werewolf after a short time."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The subject of the ritual must be completely bared to the unkind elements. No physical or magical protections that might separate him from the cold may remain on his body, though jewelry and fetishes that in no way offer him such aid may remain. He is then subjected to the coldest thing possible, be it snow or a steel bar left out in below-zero weather. So humbled before the spirits, they give the ritual their blessing."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents 10 seconds)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The spirits are affronted. For the next 24 hours, the subject of the ritual and the ritualist both suffer twice as much damage from cold."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added. If the ritual ends before it is successfully completed, the subject may already be well on his way to hypothermia."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Some successes are gained. If 10 are accumulated, the subject becomes completely immune to natural cold for one hour per dot of the ritemaster’s Primal Urge. The subject need not worry about hypothermia, frostbite or any other adverse effects from lack of warmth. Magical cold effects leveled against the subject suffer a -4 to relevant dice pools."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable successes are gained. If 15 successes are accumulated when the ritual concludes, the effects of the rite last for twice the normal duration."
+                ]
+            }
+        ]
     },
     {
         "Name": "Ajogun, Rite of",
         "Rank": "3",
         "Cost": "(●x3)+",
         "Description": "Within area of effect people get lost and sense of direction fails them. Area affected equals 1 square mile per 3 essence spent and lasts 1 hour for every point of Primal Urge of the ritemaster.",
-        "Book": "LodgS 21"
+        "Book": "LodgS 21",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "With this rite, the werewolf calls upon the ",
+                    {
+                        "text": "ajo-gun",
+                        "italic": true
+                    },
+                    ", or “tricky spirits,” to create confusion for those who come near a certain area. The werewolf marks a certain area as a “maze” of Eshu, whereupon those passing through become hopelessly lost. Travelers get turned around, wander in circles, or double back from whence they came. While this doesn’t always prevent invaders from finding their target, it can often delay them long enough for the Brotherhood Uratha to work whatever deception is necessary to keep them away."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Performing this ritual too close to the sacred spot or object is useless. Once travelers are actually at the destination (i.e., the locus, fetish, or holy location), creating confusion is a futile effort. No, the ritual is performed on the outlying areas leading to the protected zone: pathways, roads, forests, deserts. Wherever individuals may pass through serves as a good target for this ritual."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster binds together three feathers with three pieces of straw. She buries this in the ground at the center of the area which she hopes to affect with the ritual. Then she must engage in a series of dances and chants to the ancestor-spirits (",
+                    {
+                        "text": "ara-orun",
+                        "italic": true
+                    },
+                    ", or the “living dead”). Such chants often take the form of playful and mischievous yips, as well as invocations of Eshu’s name."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "3 Essence per square mile affected"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes needed; each roll is equal to one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the ritemaster suffers a sudden headache and dizziness. For the following hour, all rolls are performed at a -2 dice penalty."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gathered."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gathered. If the total reaches 20 successes or more, the ritemaster affects a radius of square miles determined at the time of Essence expenditure (one square mile = six Essence, two square miles = six Essence, and so on)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Any living being coming into this affected area must make an Intelligence + Survival roll (-3 dice). Success allows them to push on with minimal confusion. Failure indicates that they become lost and wander aimlessly around the affected area until the effects of the ritual end or until they come back out the other side from whence they came (i.e., their starting point). Dramatic failure causes an individual to be overwhelmed with confusion — she must either spend a Willpower point or otherwise be forced to stop and rest for an hour, at which point she may attempt the Intelligence + Survival roll anew."
+            },
+            {
+                "type": "paragraph",
+                "text": "If successful, this rite also negates any use of the Direction Sense Merit for those wandering in the affected zone. During the duration of the ritual, the Direction Sense Merit does not supply its benefits to those in the area."
+            },
+            {
+                "type": "paragraph",
+                "text": "The effects of this ritual last for one hour per point of the ritemaster’s Primal Urge score."
+            },
+            {
+                "type": "paragraph",
+                "text": "This ritual works on all living creatures, including animals. It does not work, however, on other Forsaken, or vampires."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Several successes (five or more) are gathered above and beyond the required successes. The roll for a living being to find her way within the affected area is Intelligence + Survival, but is now affected by a -4 penalty instead of the normal -3."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Local spirits are sympathetic to werewolf’s goal"
+                    ],
+                    [
+                        "-1",
+                        "Local spirits are hostile to werewolf"
+                    ],
+                    [
+                        "-3",
+                        "Densely populated area (urban)"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Apples and Oranges",
         "Rank": "3",
         "Cost": "",
         "Description": "Ritemaster can determine similarities between objects, and can even ask specific questions about the target object.",
-        "Book": "LodgS 137"
+        "Book": "LodgS 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Lodge of the Union believes that all things are more alike than dissimilar, and these similarities can be used to draw all things closer together. This rite is one such tool they have at their disposal, enabling them to determine what, if anything, two objects have in common."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " When invoked, this rite will let the Uratha compare two objects, searching for the similarities between the two. Ideally, the ritualist touches the two objects (or object sets) he wishes to compare; if that isn’t possible, the ritualist can also point to one or both of them. Both must be visible to the Uratha with the naked eye, although the information gleaned can be ",
+                    {
+                        "text": "anything",
+                        "italic": true
+                    },
+                    ", including material that is not visible to the naked eye."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the ritualist has made contact with the objects, he invokes a small comparison between two spirits that is similar to the information desired. For example, if the ritualist is comparing two signatures, he might say, “As the river-spirit and ant-spirit both travel in straight lines, may the spirits help me determine if these lines are similarly true.”"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite conveys the usual sense of comparison between two objects, but the information conveyed is wrong or fundamentally flawed. In addition, the Uratha cannot use the rite again on that target for one full lunar cycle."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite grants the most obvious and general of comparisons (“Those two people are both alive”), but otherwise doesn’t yield any useful information."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " In addition to feeling the obvious similarities between the two objects, for each success, the Uratha can ask one yes or no question trying to determine the similarities between the two. For example, “Are both these objects capable of supporting the weight of me and my packmates?”"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Alternatively, on three or more successes, the Uratha can look for specific pieces of information that may prove helpful, such as “Is there any similarity between me and the guard that I could use to make him friendly toward me?” or “Are there any similarities between this stack of law precedent books and my case that will help the defendant go free?” Use of Apples and Oranges in this way may provide a bonus of +1 or more to a subsequent related check, depending on the level of similarity between the two objects."
+            },
+            {
+                "type": "paragraph",
+                "text": "At the Storyteller’s discretion, the use of this rite might reveal pieces of information that are not obvious, but would serve as remarkable similarities. (“Both these artifacts were created by the same person on the same day” or “Both these people are hunted by the same murderer for something they know.”)"
+            },
+            {
+                "type": "paragraph",
+                "text": "For example, Michee Born-of-Three-Worlds, an art expert in the mortal realm, always carries a forged $20 bill with her. When invoking Apples and Oranges, she can hold the bill and look at a painting and determine, “Does this bill and that painting have in common that they are both forgeries?”"
+            },
+            {
+                "type": "paragraph",
+                "text": "The user of Apples and Oranges needs to be careful in the questions he chooses; general questions tend to reveal less useful information, but specific questions tend to return more “no” results. For example, if Michee holds a genuine $100 bill, she might get an affirmative answer to the question, “Would both this bill and that painting be worth more than $50 to an art collector?” but a negative to the question “Would both this bill and that painting be worth exactly $100 to an art collector?”"
+            }
+        ]
     },
     {
         "Name": "Bestowing the Shadowblind Cloak",
         "Rank": "3",
         "Cost": "",
         "Description": "Cast upon a mortal, the target is ignored by spirits for one lunar month. High rank spirits get to roll to resist.",
-        "Book": "BoS 121"
+        "Book": "BoS 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ancient ritual has long been used to protect choice mortals against the depredations of the Shadow Realm. Werewolves do not choose these mortals by virtue of worldly importance. Rather, werewolves aim to deny active spirits those humans the Shadow denizens desire in the endless game the two factions play. Bestowing the Shadowblind Cloak conceals a mortal behind a veil of uninteresting normalcy. Spirits that once hungered after the human’s body or soul now ignore her completely, and even those desperate and hungering after a mortal vessel pass over the person in favor of anything — or even nothing — else."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist makes a wreath out of any vine (ivy is most common) and hangs it with six iron bells. The construction of the object is done at night under the new moon, when Luna averts her gaze from Earth, and is part of the ritual. The ritual’s subject need only be present for the very end of the ritual, and it can actually be taken to her: the ritemaster seals the ward by placing the wreath over the subject’s neck. Subjects of this rite are only rarely in the know, and the ritual’s conclusion is usually disguised as part of some celebration."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (40 successes; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. New materials must be gathered before the ritualist may try again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. If the character meets the required number of successes, he has one hour (or until sunrise, whichever is sooner) to place the wreath around the subject’s neck. Once that is done, the rite is complete. No spirit notices the subject mortal except as scenery, completely ignoring her until the effect wears off after one lunar month. A spirit whose Rank is higher than the ritemaster’s Primal Urge make a Finesse + Resistance roll at -4 dice upon seeing the subject. Success indicates it detects her as normal, and exceptional success indicates that it detects the rite’s interference."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Many successes accumulate."
+                ]
+            }
+        ]
     },
     {
         "Name": "Bind Human",
         "Rank": "3",
         "Cost": "- (●+)",
         "Description": "Wards an area, such that a particular human cannot leave, or that no humans can enter. In order to pass, humans must roll to resist the effects or else satisfy some condition determined by the ritualist. Also effective against Mages.",
-        "Book": "WtF 156"
+        "Book": "WtF 156",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "There are two main functions to this rite: to secure a location against unwanted human intrusion and to bind a human to a particular location. Neither variant ritual is entirely foolproof even against a human who knows no magic. Humans aren’t bound by bans as spirits are, and their actions simply cannot be as constrained as spirits’ can be."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "When this rite is used to bind a person to a given location, the ritemaster ",
+                    {
+                        "text": "must",
+                        "italic": true
+                    },
+                    " provide for a single means of escape from the bond, and he must express that means to at least two others — neither of whom have to be the bound mortal. The means of escape can be all but impossible, but it cannot be a true logical impossibility. Usually, the means of escape is phrased as, “Once you have accomplished this task for me, you may depart.”"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "When used to secure a location against mortal intrusion, no “password” is required, although the ritemaster may choose to nominate a specific action that allows a human to pass through normally. For example, a werewolf might set up a ward that bars all humans save those who carry a crow feather somewhere on their person, and then gives a crow feather to his wolf-blooded lover in the event that she needs to reach him."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ward isn’t directly evident save when a human attempts to cross it. The human feels a faint nausea, a headache, a sense of vertigo or even a combination of such unpleasant sensations. The subject is unable to step beyond the area unless he successfully resists the ward’s effects."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " To secure an area against mortal intrusion, the werewolf takes a form that has claws and uses them to draw a series of sigils (using a muddy mixture of water and ash) on every path of entry into the area. In a built structure, this includes doors and windows. Outdoors, the sigils are repeated every few meters to form a rough boundary around the area."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "To keep a mortal bound in an area, the werewolf uses his claws and a muddy mixture of earth and water, but this time he must clearly mark out the precise boundaries of the area, putting the sigils on the inside of the boundary."
+            },
+            {
+                "type": "paragraph",
+                "text": "In either case, the affected area cannot be larger than a radius of 50 yards. A werewolf may typically use this ritual to bind a human inside a house or within a campsite, or to ward a small building. This ritual takes an hour to complete."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The ward cannot be attempted again for 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained toward the required total. If they’re all gained, the human is bound temporarily. The first time the mortal attempts to pass, a Resolve + Occult roll is made at a penalty equal to half the ritemaster’s Harmony (rounded up). One die is added to this roll for ghouls and other supernatural humans. Mages may add their appropriate resistance trait as usual. Vampires, Ridden and other supernatural creatures that are no longer human are immune to the rite’s effects. The roll made for the human may gain one to three dice if the stated terms of passing are directly against the mortal’s moral code, although no dice are gained if the terms are merely unpleasant. “You may not leave until you have deleted all the files you possess that mention us, from whatever secure location they might be” provides no bonus dice, while “You may not leave until you kill your infant son” does. If the roll for the mortal succeeds, he’s free. Otherwise he cannot try to escape again for another hour (and he can try again every hour after that, if he keeps failing). When the mortal tries again, he receives a cumulative -1 penalty for every attempt after the first (though this penalty can never exceed -5)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "A binding typically lasts for 24 hours, although Essence may be spent for the ritemaster to increase the duration. Each point increases the binding’s duration for another 24 hours. The ritemaster may dismiss the binding as an instant action by erasing a portion of the boundary with a claw."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable successes are gained. If 25+ are rolled, the binding lasts an additional four hours."
+                ]
+            }
+        ]
     },
     {
         "Name": "Bind Spirit",
         "Rank": "3",
         "Cost": "-",
         "Description": "As Bind Human, but for Spirits. I doesn't work on ghosts.",
-        "Book": "WtF 157"
+        "Book": "WtF 157",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ancient ritual, like many other common Uratha rites, is attributed to the time of Father Wolf. It allows a werewolf to bind a spirit to a single location or to prevent a particular spirit from entering a single location. Bind Spirit is very common; most experienced Ithaeur know a variation of it. This same rite can be used to bind a spirit into a particular part of the Shadow or the physical world. As a result, the spirit cannot leave its immediate area, not even to cross the Gauntlet. Werewolves who know this rite can use it in a preparatory fashion for a spirit they haven’t yet summoned into the physical world, or against a spirit already manifest in the real world or against a spirit in the Shadow if the ritualist is already in the spirit world."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist ",
+                    {
+                        "text": "must",
+                        "italic": true
+                    },
+                    " provide for a single means of escape from the bond, and he must express that means to at least two others — neither of whom have to be the bound spirit. The means of escape can be all but impossible, but it cannot be a true logical impossibility. Frequently, the means of escape is phrased as, “Once you perform the following task to the best of your ability, you will be free…” (e.g., “Once you successfully teach me the following Gift…”)."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " Werewolves know dozens of variations on this rite, and most experienced Ithaeur create their own versions, which they then pass on to students. The most common version — not an ancient one, but one that has become quite popular in the last few decades — requires the ritualist to draw a chalk circle around the fringes of a room or glade before summoning the spirit. Creating the circle requires 20 successes on an extended Intelligence + Occult roll. Each roll represents one minute of work. The circle is marked with dozens of Uratha claw-sigils, and a complex half-howling chant is performed before the spirit is summoned. Once the spirit has been summoned into the circle (via an appropriate rite, such as Summon Gaffling), the werewolf must complete the last notes of the howl before the spirit realizes what is going on and escapes."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "To bind a spirit that is already present, the ritualist may be able to complete the aforementioned circle in secret. For example, a particularly clever werewolf might be able to convince a night-spirit that the circle he is drawing represents the spirit’s “star chart.” If that cannot be done — it isn’t likely, Luna knows — he must somehow wrap the rite’s subject three times in silvered thread (which is impossible to do in the material world) and then perform the aforementioned chant. That silvered thread can easily be broken until the third loop is complete. After that, it cannot be broken at all unless the ritualist makes a mistake in the chant. In the physical world, a spirit may be encircled by physically holding its host on the spot."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite doesn’t work on ghosts."
+            }
+        ],
+        "DicePool": "Harmony versus spirit’s Resistance",
+        "Action": "Instant (once circle has been prepared)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The binding circle or silver thread is broken, and the spirit gains an extra point of Resistance for the duration of the scene."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " An equal number or the most successes are rolled for the spirit. The binding circle or silver thread is broken, and the spirit may escape."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The most successes are rolled for the ritemaster. The spirit is successfully bound and cannot break free except under a few circumstances:"
+                ]
+            },
+            {
+                "type": "list",
+                "items": [
+                    "If the ritualist that binds the spirit releases it with the phrase, “I release you” or its equivalent.",
+                    "If the binding circle is broken or the silver thread is snapped by an outside force.",
+                    "The ritemaster must designate one other way that the spirit can be freed, and he must express this method to at least two other entities within an hour of the spirit’s binding. One of those two may be the spirit, but it doesn’t have to be."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The most successes — five or more — are rolled for the ritemaster. The werewolf may choose to strip a point of Essence from the spirit and use it to refresh a spent point of Essence of his own."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1 or more",
+                        "The werewolf outranks the spirit*"
+                    ],
+                    [
+                        "-1 or more",
+                        "The spirit outranks the werewolf*"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "*The werewolf’s honorary Rank as determined by total Renown (see p. 272) is compared to the Rank of the spirit summoned. If the werewolf outranks the spirit, the Harmony roll for the ritemaster gains a bonus equal to the difference. If a werewolf with a total of 13 Renown (equivalent to Rank 3) calls a lesser Gaffling (Rank 1), rolls made for the werewolf receive a two-die bonus. If the werewolf’s honorary Rank is less than the spirit’s Rank, the roll made for the ritemaster suffers a penalty equal to the difference."
+            }
+        ]
     },
     {
         "Name": "Blood Communion of Spring",
         "Rank": "3",
         "Cost": "",
         "Description": "Seasonal rite bestows upon participants 4 discretionary dice that may be used for social interactions that may be used during the next lunar month. Participants also receive -1 to composure checks and +1 to stamina checks for the duration.",
-        "Book": "Rage 131"
+        "Book": "Rage 131",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "With this rite, the Uratha tap directly into spring’s power of renewal. The Blood Communion of Spring is a ritual celebrating life, and, to a lesser extent, a fertility rite, though werewolves are hesitant to invoke the spirits of fertility when gathered with one another and not their wolf-blooded mates. A communal sacrifice of blood renews the Uratha’s sense of their ties to the land. Those who receive the blessing of spring find it easier to relate to their human relatives and mates, or to run among the animals of the world, if only for a short time."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite is the easiest of the seasonal rites to master and enact, in part because the Uratha’s natures are already keyed to renewal and the vibrancy of life. The rite is often performed on the spring equinox, though in many areas this rite is coordinated with appropriate human holidays. Most notably, werewolves from Christian backgrounds often find it fitting to enact the Blood Communion on Good Friday or Easter."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The Blood Communion of Spring begins at sunset, and continues through the twilight. The participants gather in a circle, often stripped to the waist, and pass around a small bowl made of wood or silver. As each werewolf receives the bowl, he announces his name, auspice, pack and tribe to the others. He then makes a customary boast or pledge of his loyalty to pack and tribe, or to Luna, and a customary promise to uphold something particularly dear to him (such as defending his new bride, or swearing to tame the spirits surrounding his territory). Many Blood Talons in particular point out scars they’ve acquired over the last year as part of the rite, especially if gained in defense of a human loved one or packmate. As he finishes, the werewolf then cuts himself and lets a measure of blood into the bowl to mark his pledge. He then passes the bowl on to his neighbor."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Once all the participants have shared of their deeds and blood, the ritemaster then takes the bowl and walks around the circle, telling each participant in turn to drink of the blood and share in the strength of the People. “",
+                    {
+                        "text": "Muth, Su, Hithim",
+                        "italic": true
+                    },
+                    "” — “Blood, Body, Spirit.” As the communion continues, the fervor of the Uratha begins to rise higher. The ritemaster is last to drink, and as she throws down the bowl, she leads the assembled werewolves in a howl. The packs separate at that point, some returning to their human mates to spend their energy, others attacking a more traditional hunt with renewed vigor."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents 10 minutes’ effort)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes gathered are lost. The mood sours as the rite goes awry, and all participants receive a -1 penalty to Composure checks for the remainder of the evening. The rite cannot be attempted again that evening."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If the required total is gathered, the rite succeeds. All participants in the rite gain four discretionary dice, which may be used toward any action related to social interaction during the next lunar month. However, the great fervor of the rite has its drawbacks. Participants suffer a -1 penalty to Resolve rolls for the duration of the evening."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If 20 successes are accumulated, the number of discretionary dice awarded to each participant is increased to seven."
+                ]
+            }
+        ]
     },
     {
         "Name": "Bone Club, Rite of the",
         "Rank": "3",
         "Cost": "",
         "Description": "Ritemaster imbues a bone taken from the victim of his intended target and casts rite upon it. For 3 days, or until the target is killed the ritemaster can use the bone as a club that deals aggravated damage to the target only, and the ritemaster gains 3 health.",
-        "Book": "LotD 122"
+        "Book": "Lore 122",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The children of Father Wolf have warred with both humans and each other since the Sundering. Humans fall like chaff before the powerful talons and burning rage of the Uratha, but werewolves find worthier foes in their own kind, be they other Forsaken or the Pure. A rampaging pack of werewolves who have lost much of their inner Harmony will lash out at both humans and other werewolves. They try to gain respect from their savagery without realizing that control and balance is what they need. This rite gives the ritualist a powerful tool to stop such a rampage."
+            },
+            {
+                "type": "paragraph",
+                "text": "This is the first ritual dedicated to war between werewolves that the Uratha know of. One tale speaks of an Elodoth awaiting attack, placating the spirits of those his foes had slain to come to his aid and empower a mighty weapon. Others tell of the Ithaeur who forced aid from the spirits of his own victims to help him destroy his enemy. The one thing that the stories agree on is the ferocity with which the wielder of a Bone Club will strike down his foe, shrugging off blows that would cripple any other werewolf."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster carves intricate patterns of glyphs signifying death and war into a bone taken from a victim of her foe. She then lays the bone at the center of a circle of fire — of any kind, from enmeshed twigs to gasoline — and howls litanies of the fallen and tales of her enemy’s actions to the sun. The ritualist cuts her palms and throws droplets of her blood into the fire as she does, linking the bone to herself and her foe. She ends the rite by smearing her blood on the bone as she takes it from the circle. From then on, the bone is a powerful talen linked to the ritemaster, who is empowered by the rite to kill the enemy that she has named. Once that task is accomplished, or three sunsets pass after the rite’s completion, the bone crumbles to a fine dust as the spirits take their due."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (25 successes, each roll represents 15 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The bone breaks and is useless."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The bone is charged once the required successes are rolled. Once charged, it becomes tougher than steel. Against anyone but the named enemy the bone functions the same as a club. When fighting the enemy named in the club’s creation, the ritualist gains three extra dots of Health (see “Temporary Health Dots” in the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ", p. 173), and the club deals aggravated damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The werewolf makes considerable progress towards completing the rite. If five or more successes are gained than needed (30+), the club gains a +1 modifier to damage against the specific target."
+                ]
+            }
+        ]
     },
     {
         "Name": "Boundary Stone, Rite of the",
         "Rank": "3",
         "Cost": "",
         "Description": "Creates a stone in the Hisil that denotes territory marking to any being that possesses Essence trait that sees it. One stone must be created for each Cardinal point.",
-        "Book": "LotD 133"
+        "Book": "Lore 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The creation of boundary stones, or ",
+                    {
+                        "text": "gudurru",
+                        "italic": true
+                    },
+                    " in the First Tongue, is often one of the first steps taken in claiming and reshaping a territory, usually before more elaborate rites, such as the Rite of the Chosen Ground. Uratha use this rite to mark their territory from the spirit world. Unlike the Rite of Chosen Ground, it does not directly influence the resonance of the Shadow Realm, it merely acts as a spiritual signpost — hopefully warning off interlopers. Of course, announcing the pack’s presence often has unintended circumstances — only tribes secure in their abilities perform the Rite of the Boundary Stone."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite must be performed on the spiritual reflection of an object in the Shadow. Traditionally, this was done on large stones, tumuli or even the reflections of human boundary stones. Nowadays, the inscriptions may be done on trees, street signs, abandoned cars, etc."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "To be completely effective, the rite must be performed four times — once for each cardinal direction. Distance and absolute location have little meaning in the Shadow, so it is quite possible that two separate Uratha traveling into a pack’s territory from the North would see the same northern ",
+                    {
+                        "text": "gudurru",
+                        "italic": true
+                    },
+                    " at the same time, even though they cannot see one another."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "While created with Uratha in mind, a boundary marker may be seen by any creature with an Essence trait traveling in the spirit world. A creature without knowledge of the First Tongue has little chance of interpreting it as much more than “some kind of mystic warning” (standard action to identify, Intelligence + Occult, -4 difficulty)."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster travels in the Shadow Realm to one of the cardinal directions along the boundary of the pack’s territory and finds a suitable object to inscribe — one with a strong reflection, but one without an awakened spirit. The ritemaster then performs a long series of howls announcing the tribe’s claim on the territory, and the direction identified by the ",
+                    {
+                        "text": "gudurru",
+                        "italic": true
+                    },
+                    ". At the culmination of the ritual, the ritemaster inscribes the tribe’s claim in sigils on the object with pigments made from a mixture of all the pack members’ blood and urine."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (30 successes for each marker; each roll represents one hour’s worth of effort)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The object being marked may spontaneously awaken in a very angry frame of mind; nonetheless, it becomes spoilt for the purposes of this ritual for a lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained, but the ritual may continue. This ritual automatically fails if performed within the ",
+                    {
+                        "text": "gudurru",
+                        "italic": true
+                    },
+                    " set by another tribe."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The boundary stone becomes visible. Any Uratha or spirit passing into the territory from the direction identified by the ",
+                    {
+                        "text": "gudurru",
+                        "italic": true
+                    },
+                    " may make a Wits + Occult roll at +5 to see the marker. This is an automatic, reflexive action. A marker remains active for one year."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Creatures crossing this boundary in the Shadow automatically see the marker — no roll is necessary."
+                ]
+            }
+        ]
     },
     {
         "Name": "Call Jaggling",
         "Rank": "3",
         "Cost": "-",
         "Description": "As Call Gaffling, but calls a higher ranked spirit. Werewolves without a Renown trait of 3+ will be treated with open contempt.",
-        "Book": "WtF 158"
+        "Book": "WtF 158",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite is a more powerful version of Call Gaffling. Jagglings are more independent and powerful spirits than Gafflings, and are more likely to resist the sweet summons of chiminage. And yet, a Jaggling servant — even a temporary one — is a valuable tool for any werewolf, so this ritual is a valued tool among Ithaeur. Jagglings are even less likely to be sympathetic to an Uratha summons than Gafflings are, and the wise werewolf is especially cautious when summoning. Jagglings are likely to treat a werewolf of low Renown (highest trait rated 1 or 2) with open contempt, while they respond more favorably to a more accomplished werewolf."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite is very similar to Call Gaffling, but the ritualist must provide richer chiminage, and his howl of summons must be customized to the type of Jaggling he wishes to summon. A common howl of summoning doesn’t suffice. If the werewolf wants a stag-spirit, he must howl a specific call to the Children of Stag. The rite takes around several minutes to perform."
+                ]
+            }
+        ],
+        "DicePool": "Harmony (versus spirit’s Resistance)",
+        "Action": "Extended (50 successes needed; each roll represents one minute); potentially contested",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All accumulated successes are lost; the ritemaster must begin again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Most Jagglings come automatically once the required successes are gathered. A Jaggling with an important duty may attempt to resist the call. In that case, the Jaggling’s Resistance is rolled to fight the summons. The ritual becomes an extended and contested action. Each side accumulates successes and the first to gather 50 wins. In the spirit’s case, it refuses the summons and another may respond in its place or the werewolf beckons none. In the werewolf’s case, the spirit responds normally."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the spirit has been summoned, the ritualist must bargain for its services or bind it."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Several successes are gained. In an extended and contested action, the opponent suffers a -1 penalty to all subsequent rolls. This penalty is cumulative if one side achieves more than one exceptional success."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Chiminage is very valuable to the spirit"
+                    ],
+                    [
+                        "+1 or more",
+                        "The werewolf outranks the spirit*"
+                    ],
+                    [
+                        "+1",
+                        "Chiminage is particularly valuable to the spirit"
+                    ],
+                    [
+                        "+1",
+                        "Spirit is particularly disposed toward the ritemaster’s tribe or auspice (a metal-spirit answering an Iron Master’s rite; a knowledge-spirit answering a Cahalith’s rite)"
+                    ],
+                    [
+                        "-1 or more",
+                        "The spirit outranks the werewolf*"
+                    ],
+                    [
+                        "-1",
+                        "Attempting to summon a specific individual spirit"
+                    ],
+                    [
+                        "-3",
+                        "Attempting to summon a specific individual spirit from one mile away"
+                    ],
+                    [
+                        "-5",
+                        "Attempting to summon a specific individual spirit from 10 miles away"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "*The werewolf’s honorary Rank as determined by total Renown (see p. 272) is compared to the Rank of the spirit summoned. If the werewolf outranks the spirit, the Harmony roll for the ritemaster gains a bonus equal to the difference. If a werewolf with a total of 20 Renown (equivalent to Rank 4) calls a lesser Jaggling (Rank 3), rolls made for the werewolf receive a one-die bonus. If the werewolf’s honorary Rank is less than the spirit’s Rank, the roll made for the ritemaster suffers a penalty equal to the difference."
+            }
+        ]
     },
     {
         "Name": "Call the Empty Road",
         "Rank": "3",
         "Cost": "",
         "Description": "All humans of willpower 4 or less, except for target, feel antipathy towards certain area and will avoid it",
-        "Book": "Rage 130"
+        "Book": "Rage 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The scent of a traveler’s fear when walking down an empty road at night, the moon overhead, no human voices to soothe him, but only the movement of animals close by — this is the invocation of Call the Empty Road. This rite reduces the odds of anyone but the intended prey from traveling down the marked section of road or street, therefore making it more likely that the werewolves will have him all to themselves. While this rite was originally developed to be used along country roads, urban werewolves are quite capable of using it to catch their prey along deserted city streets late at night."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster must be able to name the intended prey, although a true name is not necessary. Specific details such as “the red-haired male stockbroker who lives in Victoria Arms” suffice. (Of course, if there are two stockbrokers of this description, both will be able to travel freely down the road while the rite is in effect.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritemaster draws a line across the road at all potential entry points. The section of road protected varies with population density: the rite can be performed on up to two miles of back-country road, or up to a city block’s worth of urban street. Once the lines have been drawn, the ritemaster settles by a crossroads leading to the given road or street, where she performs small obeisances to the spirits, asking them to divert the attention of any humans other than those she names."
+            },
+            {
+                "type": "paragraph",
+                "text": "For obvious reasons, this rite cannot be performed along particularly high-traffic roads such as an interstate highway."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (30 successes; each roll represents five minutes’ effort)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes gathered are lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If the required total is gathered, the section of road is marked. Until the sun next rises, all humans of Willpower 4 or less who are not named by the rite feel a faint antipathy to the target area, and will not travel down the given road unless they succeed at a Resolve check. This aversion is unconscious, and easily rationalized away — “I heard someone got mugged there last night,” or “Hey, let’s take a shortcut instead of the scenic route.” Supernatural beings are not warded away by this rite, though they may perceive a faint sense of unease if their Willpower is low."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If 35 successes are accumulated, the effects of the rite target humans of Willpower 5 and lower."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Road or street has an existing bad reputation"
+                    ],
+                    [
+                        "+1",
+                        "Ritemaster uses target’s true name"
+                    ],
+                    [
+                        "+1",
+                        "Late at night"
+                    ],
+                    [
+                        "-2",
+                        "Cloudy day"
+                    ],
+                    [
+                        "-2",
+                        "Dense urban area"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Centering the Cairn",
         "Rank": "3",
         "Cost": "●",
         "Description": "Sanctifies a Cairn and imbues the area with several properties. Attacking another werewolf has a -4 penalty (but not defending) but can spend a willpower point to ignore the penalty; when approaching Cairn werewolves get 1 die bonus to Empathy, Expression, Persuasion, Socialize or Subterfuge; Werewolves gain +2 dice to resist Kuruth. Effects last for a lunar month but can be extended by the ritemaster for another month simply by spending the essence to power the rite.",
-        "Book": "Rage 178"
+        "Book": "Rage 178",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A protectorate’s sacred cairn is, on the surface, a pretty straightforward thing. It’s a pile of rocks and sticks (though, in cities some might use a small heap of car parts or even paint cans filled with rocks and sticks) that act as the focal point of a communal area."
+            },
+            {
+                "type": "paragraph",
+                "text": "The communal area isn’t just for socializing — it’s a spiritually sanctified area made for mediating disputes and dealing with alliance business. The cairn radiates a kind of power, drawing down tempers and mitigating madness. Werewolves can come together and talk, negotiate, even swap stories with less fear of alliance-shattering events taking place."
+            },
+            {
+                "type": "paragraph",
+                "text": "Some cairns are fancier than others: an elaborate circle drawn in ash and sigil-scored stones, with the center heap of rocks comprising ancient, river-worn boulders. Circles may be drawn within the circles. The whole affair might sit beneath a claw-etched willow tree. Others care little for pomp and circumstance — they throw a pile of rocks in the middle of some old rickety chairs and draw the circle with a clumsy claw. The level of devotion and preparedness matters little, only the function of the rite and capability of the ritemaster are relevant."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " Every sacred cairn is a little different, and so, too, are the rituals to make them. The building of a cairn, though, always starts with the drawing of a circle to represent the moon. The circle can be inscribed in whatever material the ritemaster deems appropriate — it doesn’t matter if the circle’s actual image washes away, as it is the circle’s spiritual effect that remains. The circle, whether written in chalk, blood or some other material, is then adorned with various sigils. The sigils represent the tribes, the phases of the moon, auspices, totems and other “binding” factors of the People. Creating the circle thus requires 10 successes on an extended Intelligence + Occult roll; each roll equates to one minute of work. (This roll is performed before the actual ritual roll begins; it adds to the time spent performing this ritual.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the circle is drawn, the ritemaster then puts in place the actual cairn. The cairn itself can comprise any kind of objects — most prefer organic or natural materials (stones, sticks), whereas urban werewolves might instead use hunks of concrete pinned to the ground by a pyramid of rebar. Cairns are rarely extravagant (though one protectorate supposedly uses a pile of baby doll heads wound with Christmas lights)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The heap of material is then ritually prepared. The ritemaster hand-washes each component with pure water. Then, he must drizzle his own blood atop the cairn — and this blood must be drawn from his own teeth. Whether he bites the tip of his finger or nicks his tongue with a sharp incisor and then spits the blood onto the cairn matters little, only that it is his blood drawn from his own bite."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes, with each roll representing 15 minutes). Note that the time taken to draw the circle comes before this, and adds to the total time to perform the rite.",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The ritemaster feels suddenly agitated, nervous, suspicious. He risks entering Death Rage, and must succeed on the Resolve + Composure roll not to succumb, but gains a +2 modifier to resist."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gathered. The circle may be drawn, but the rite itself cannot be completed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. Once the proper successes are gathered, the cairn’s power goes into effect. The cairn radiates its centering, balancing power in a number of yards equal to 10 yards per the ritemaster’s Harmony (so, if his Harmony were 7, the cairn’s effects work in a 70-yard radius, and thus affect all Uratha within that range). The specific effects are as follows:"
+                ]
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Werewolves attempting violence against one another feel compelled not to do so, as if their limbs resist the very action. They can still attack, but doing so incurs a -4 penalty. (Defending from an attack, however, does not incur such a penalty.) The resistance (and thus, the penalty) can be removed if the werewolf wishing to bring about violence spends a Willpower point.",
+                    "Upon approaching the cairn, every werewolf must choose a Social Skill bonus. This bonus provides a +1 die to any of the following Social Skills: Empathy, Expression, Persuasion, Socialize or Subterfuge. The werewolf must choose one of these Skills to boost while within the cairn’s radius of effect. This bonus is only good while within the cairn’s radius of effect. The Skill bonus is locked in until the next phase of the moon reaches its apex, at which point the werewolf can choose to change the bonus or keep it.",
+                    "It is harder to enter Kuruth while within the affected cairn radius. Rolls to resist Death Rage are made at a +2 modifier."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The cairn’s effects last for a full month. The ritemaster can, however, maintain the cairn’s effects by spending one Essence within three days (before or after) of the negation of those effects. Spending the Essence within that time ensures that he does not need to repeat the roll or process; the point of Essence is enough. If he goes outside of the time limit and fails to spend the Essence, the rite must be performed again. Only the original ritemaster can contribute the Essence."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. If the ritemaster gains 20+ successes, he can gain back a Willpower point to indicate a feeling of strength and success."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Ritemaster has the highest Renown of the entire protectorate."
+                    ],
+                    [
+                        "+1",
+                        "Ritemaster has a Harmony of 8+."
+                    ],
+                    [
+                        "-1",
+                        "Ritemaster has a Harmony of 4 or less."
+                    ],
+                    [
+                        "-2",
+                        "Ritemaster has the lowest Renown of the entire protectorate."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Comprehension, Rite of",
         "Rank": "3",
         "Cost": "-",
         "Description": "Allows the ability to comprehend a foreign language, written or spoken.",
-        "Book": "LodgF 89"
+        "Book": "LodgF 89",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Many Scroll-Keepers pick up several languages in the course of their studies, but the insular, territorial nature of Uratha life makes a polyglot werewolf a rare thing indeed. However, sometimes lodge members are faced with information in a foreign language that they urgently need to read. This rite is believed to be the result of a bargain struck with specialized-language-spirits, a descant within the choir of knowledge-spirits, centuries ago by lodge members. The Rite of Comprehension allows the Uratha to read or hear a foreign language almost as if it were his own, for a limited period of time."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The werewolf sits in a calm, empty space, with just himself and the volume (or person) he wishes to understand, a small fire and a collection of writing material. In his own native language, he writes down a secret of his own using his own blood, and then burns the secret in the fire, symbolically offering up the information within to the knowledge-spirits."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The werewolf temporarily forgets the secret he had offered up, and cannot recall the memory for one lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained. If the werewolf gains a total of 10 or more successes, he gains full literacy in the written language or code he has chosen. This rite cannot be used to crack supernaturally encoded material."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No additional effect."
+                ]
+            }
+        ]
     },
     {
         "Name": "Courage of the Fallen",
         "Rank": "3",
         "Cost": "",
         "Description": "Ritualist gains 1 willpower point for each health level of preys flesh consumed.",
-        "Book": "SotM 40"
+        "Book": "Tribes 40",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Some small sects of the Blood Talon tribe, mostly in isolated corners of the world, perform a bizarre and borderline blasphemous practice known as ",
+                    {
+                        "text": "ghu-ghabbasughar",
+                        "italic": true
+                    },
+                    " (see p. 28). When a warrior of the ",
+                    {
+                        "text": "Suthar Anzuth",
+                        "italic": true
+                    },
+                    " defeats an enemy, he ritually consumes the flesh of his vanquished foe to take in its courage and ferocity. Certainly, the act of eating one’s kills is not inherently bad, but many followers of this practice simply do not discriminate based on Harmony. Packs deep in the practice of ",
+                    {
+                        "text": "ghu-ghabbasughar",
+                        "italic": true
+                    },
+                    " will devour slain humans, Pure Tribe werewolves and even Forsaken rivals."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Because of this rite’s association with cannibal cults, the Courage of the Fallen rite has a dark reputation in the tribe. The rite itself is innocuous, and can be used on any sort of prey without causing a Harmony violation except humans, wolves or werewolves. Nevertheless, few ritualists will teach this rite, and merely knowing it is enough to get a Blood Talon run out of a territory or even killed in certain parts of the world."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite is almost always performed on the spot the werewolf felled her quarry, and is brutally simplistic in its performance. The ritualist stands over the fallen adversary and speaks a prayer to ",
+                    {
+                        "text": "Fenris-Ur",
+                        "italic": true
+                    },
+                    " in the First Tongue. As she praises the Destroyer Wolf and entreats him to watch over her as she devours her foe, she tears out gobbets of flesh and devours them whole. Since the rite requires continuous chanting and prayer, the ritualist must remain in Hishu or Dalu form for the entire rite, depriving her of the lupine digestive system that is so much better at handling fresh, raw meat. Most hardcore practitioners of ",
+                    {
+                        "text": "ghu-ghabbasughar",
+                        "italic": true
+                    },
+                    " have the Merit: Iron Stomach. When the meal is complete, the ritualist throws back her head and howls a paean to Father Wolf and the Destroyer — an eerie, blood-chilling sound when it comes from a mostly human throat."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (see below; each roll represents one turn of prayer and feasting)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritualist’s prayers offend ",
+                    {
+                        "text": "Fenris-Ur",
+                        "italic": true
+                    },
+                    ". For the next 24 hours, each time the character eats meat she loses a point of Willpower. If she has no Willpower remaining, she loses a point of Essence. If she has no Essence, she takes a point of lethal damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The ritualist consumes one “Health-point” worth of flesh per success rolled. Each point of flesh consumed gives her one Willpower point. Willpower points in excess of her normal maximum are lost at the end of the scene. If the flesh belonged to a wolf, werewolf or human, the ritualist also gains Essence as described on p. 77 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The Destroyer Wolf is greatly pleased by the ritualist’s prayers. In addition to consuming a truly prodigious amount of flesh, the ritualist regains one Willpower point for every point of damage she inflicts with the express purpose of devouring her target for the next 24 hours. The character also gains a temporary fixation derangement regarding the consumption of raw flesh. If she already has a similar fixation, she instead gains a temporary obsessive compulsion. The derangement also lasts 24 hours."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritualist may consume a number of “Health points” worth of flesh equal to the victim’s total Health rating. If the corpse is dismembered or badly mutilated, the Storyteller may reduce this amount by one quarter, or by half in extreme cases. More than one werewolf may partake in this rite; if multiple Uratha feast on the victim, the ritualist’s successes denote the total number of “Health points” worth of meat that can be devoured per turn with this rite. The ritualist may automatically consume one point of flesh per success rolled; other characters must roll Strength + Brawl as a bite attack each turn. (Nothing stops a werewolf from eating more than the number of successes rolled if he can inflict that much damage with a bite attack, but any excess meat consumed is wasted.) Unlike the ritualist, additional participants may wear any form."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-5",
+                        "The victim was not killed or taken in battle."
+                    ],
+                    [
+                        "-3",
+                        "The victim was not a worthy foe; the ritualist took no damage during the battle."
+                    ],
+                    [
+                        "-2",
+                        "The victim was an easy kill; the ritualist took only bashing damage during the battle."
+                    ],
+                    [
+                        "+0",
+                        "The victim fought well; the ritualist took lethal damage during the battle."
+                    ],
+                    [
+                        "+1",
+                        "All Uratha present are Blood Talons."
+                    ],
+                    [
+                        "+1",
+                        "The victim was a worthy adversary; the ritualist took aggravated damage during the battle."
+                    ],
+                    [
+                        "+2",
+                        "The victim was nearly victorious; the ritualist took an aggravated wound in one of his last three Health boxes."
+                    ],
+                    [
+                        "+3",
+                        "The ritualist entered Death Rage during the battle."
+                    ],
+                    [
+                        "+5",
+                        "The victim was alive at the beginning of the rite."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Eshu’s Blessing",
         "Rank": "3",
         "Cost": "●",
         "Description": "Curses a target as a focal point of chaos. Anyone within 10 yards of targets loses 10 again and 1's subtract from rolls for 1 hour per point the ritemaster has in Primal Urge.",
-        "Book": "LodgS 22"
+        "Book": "LodgS 22",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The name is ironic; this rite provides no blessing, only a curse. The rite makes someone the focal point of chaos. The person does not cause chaos directly, but his presence becomes the vortex for all manner of strangeness and disorder."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Ritual:",
+                        "bold": true
+                    },
+                    " The ritemaster must paint half of the victim’s face with his own blood. The werewolf waves a goatskin pouch of animal teeth over the target, spitting on him as the werewolf does so. When that is done, the werewolf whistles (or blows a whistle, often hand-carved) over the individual to attract the attention of the spirits. They then wash the blood off the face, and the ritual is complete."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Because this requires a great deal of effort that will be seemingly antagonistic, many Brotherhood ritemasters actually abduct the individuals they wish to curse. They kidnap them, perform the ritual and then release them back among their people. The Forsaken watch the chaos from a distance."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence"
+            }
+        ],
+        "DicePool": "Harmony versus target’s Composure (or, if the victim is Forsaken, versus her Composure + Primal Urge)",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The spirits decide instead to truly bless the target, granting him a measure of resistance in the form of +1 Composure for the rest of the day. Some Forsaken, upon realizing this, accept that the figure is truly chosen by Eshu to be an ally."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " An equal number or the most successes are rolled for the target. The rite fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The most successes are rolled for the ritemaster. The target is successfully cursed. The victim is not actually affected. Those around him, however, are. Anybody within a 10-yard radius of the target suffers ill effects while near him. When performing an action that requires a dice roll in the 10-yard radius, the 10 again rule does not apply. Additionally, any 1s that come up on any roll are subtracted from successes. (The latter part of the weakness does not affect dramatic failure rules.) The narrative effect is that things seem out of sorts around the target: dogs bark constantly, the air smells a little strange, people feel queasy, tools break or slip away or clouds of small flies hover nearby. All of these slight-but-strange occurrences help to accentuate the curse and its mechanical effects."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This power lasts for a number of hours equal to the ritemaster’s Primal Urge score."
+            },
+            {
+                "type": "paragraph",
+                "text": "(Some werewolves drug the victims to cause confusion. That way, the targets have little clue what is happening or has happened to them.)"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The ritemaster rolls an additional five or more successes than the target. The effects of this rite last for twice as long as usual (i.e., equal to twice the ritemaster’s Primal Urge score in hours)."
+                ]
+            }
+        ]
     },
     {
         "Name": "Expiate the Sin",
         "Rank": "3",
         "Cost": "-",
         "Description": "By sacrificing a captured Forsaken warrior, the ritualist and his pack may in some small part atone for the murder of Father Wolf, potentially relieving them of one of their degeneration-caused derangement. However, this rite is a significant Harmony violation for the ritualist.",
-        "Book": "Pure 125"
+        "Book": "Pure 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "At the heart of werewolf mythology lies the belief that the Uratha committed a great sin by allowing Father Wolf to be murdered. The Forsaken suffer for the actions of their ancestors and spirit patrons; the Pure suffer for their ancestors’ inaction or inability."
+            },
+            {
+                "type": "paragraph",
+                "text": "Using this rite, the Pure can atone for their ancestors’ sins and in so doing regain a fraction of the Pure’s own status within the spirit world. Expiate the Sin also allows the Pure to reclaim part of their lost stability and peace of mind after great sins have been committed."
+            },
+            {
+                "type": "paragraph",
+                "text": "The use of this ritual is a level-three sin against Harmony. This rite is therefore something of a gamble."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist and his pack must have a living Forsaken captive within their power. The captive must be bound, trussed to a rack that can be stood upright under the light of the moon — so that the traitorous ",
+                    {
+                        "text": "Iduth",
+                        "italic": true
+                    },
+                    " can see what fate awaits her and all her servants. Using a silver knife, the ritualist cuts through the captive’s hide, sinew and bone until he reaches the captive’s heart — without killing the captive. The ritualist then stabs through the captive’s heart, killing her instantly, and the entire pack rends the captive’s corpse to bits, as it is said the first Forsaken did to Father Wolf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritualist is the only werewolf who suffers a potential loss of Harmony from the death of the captured Forsaken; the desecration of the corpse of an enemy is not, of itself, a Harmony sin. The degeneration roll for the captive’s death occurs after the ritual is complete and any benefits are gained. That means that the ritualist may overcome a derangement and gain a new one in the same rite."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (two successes are needed for every werewolf who will gain a benefit from the ritual; each roll represents 15 minutes of work)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All participants must immediately test for a level-three sin against Harmony. The ritual fails, and if it was performed outdoors under the light of the moon, Lunes may have noticed the ugly blasphemy."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added to the tally."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gathered. If enough successes are accumulated, each participant can immediately roll a dice pool as though committing a sin equal in magnitude to his ",
+                    {
+                        "text": "current",
+                        "italic": true
+                    },
+                    " Harmony score. Success on this roll allows the participant to eliminate one of the degeneration-driven derangements that he now suffers from."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Success:",
+                        "bold": true
+                    },
+                    " Several successes are gathered. If the ritualist exceeds the total number of needed successes by five or more on the roll that takes the rite to success, the ritualist’s consumption of the pack’s collective sin truly enables the pack to overcome its degeneration. Effects are per success, above; in addition, any character who succeeds may make a second roll with the same pool. Success on that second roll allows the werewolf to immediately spend experience points to increase his Harmony score by one."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Rite is performed outdoors under a full moon."
+                    ],
+                    [
+                        "-1",
+                        "Rite is performed indoors."
+                    ],
+                    [
+                        "-1",
+                        "Rite is performed under a new moon."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Eyes of Sagrim-Ur",
         "Rank": "3",
         "Cost": "",
         "Description": "The subject's perceptions are altered, highlighting opportunities that he would not otherwise see. The character adds a +2 circumstance bonus on all rolls made to improvise equipment or otherwise try something he would not normally attempt.",
-        "Book": "SotM 144"
+        "Book": "Tribes 144",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Sagrim-Ur never missed a chance to question the established ways of things. She pestered Father Wolf constantly, driving her siblings mad because she wasn’t content with the tried-and-tested ways of doing things. This rite channels some of Red Wolf’s mindset, putting the werewolf into an altered state of consciousness where she sees opportunities that she would otherwise have missed. Items that she could make into improvised weapons glow with a faint green aura. Electric blue threads wind along paths she’s never taken through her territory. Ghostly visages overlay the faces of people, offering suggestions on new ways to deal with them. The rite’s mindset expands to a higher level by meditating for a few minutes. As long as she has one specific situation in mind — how to deal with a nest of Azlu without the local authorities being aware, what she can do to get a pack of Fire-Touched to leave her territory alone — the ritualist sees potential courses of action that she had not considered. The rite doesn’t tell her what will happen, only what she could try."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Iron Masters seek out others who know this rite when they feel like they’re stuck in a rut, or when they are faced with a problem and just don’t know how to proceed. When their internal creativity is at a loss, they turn to the cunning of Sagrim-Ur. For that reason, many ",
+                    {
+                        "text": "Farsil Luhal",
+                        "italic": true
+                    },
+                    " are ashamed of using this rite too often. A night spent in the ritual mindset, re-learning cunning and adaptability is all well and good, but the spirit magic is addictive. It’s too easy for a werewolf to outsource his cunning and inventiveness to this rite. Some Iron Masters use the rite to give Uratha of other tribes a taste of what it’s like to feel Red Wolf’s favor. Though Iron Masters would never teach this rite to a werewolf of another tribe, they enjoy giving others the chance to think as they do."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster surrounds the subject of this rite, who can be himself, with a circle of chalk. He lights pungent incense at each cardinal point on the circle, and places items important to the subject at the inter-cardinal points — indicating that the subject’s normal modes of thinking will be skewed for the duration. The ritemaster blindfolds the subject, and drums or plays resonant, bass-heavy music at around 70 beats per minute to synch with the subject’s heart rate. Finally, the ritemaster howls to Red Wolf while the subject consumes a hallucinogenic drug."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (25 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Visions of missed opportunities and failed gambits wrack the subject as he relives past failures. He loses two points of Willpower in addition to the effects of a failure."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails. The subject is affected by the hallucinogens as described on p. 177 of the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    "."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The subject’s perceptions are altered, highlighting opportunities that he would not otherwise see. The character adds a +2 circumstance bonus on all rolls made to improvise equipment or otherwise try something he would not normally attempt. If the player does not know how to proceed, other players and the Storyteller are encouraged to suggest options though the player has final control over what course of action his character takes. The effects of the rite last until the following sunset."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The subject learns a lot from the rite’s effects. One Skill that the character uses when under the influence of this rite can be increased at an experience cost of (new dots x2) rather than (new dots x3). This bonus affects only the purchase of one dot in the Skill; further increases cost the normal amount."
+                ]
+            }
+        ]
     },
     {
         "Name": "Final Sunrise, Rite of the",
         "Rank": "3",
         "Cost": "-",
         "Description": "Performed on a living being on the verge of death, or on a machine that is broken beyond repair, this rite brings the subject to an end but grants those involved a significant boon of Essence.",
-        "Book": "LodgF 82"
+        "Book": "LodgF 82",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite allows a Rust-Walker and his pack to draw strength from the power of entropy. Taught to the Lodge of Ruin by Coyote-Who-Howls, the Rite of the Final Sunrise doesn’t refer to the last day of the world but to the being or object subjected to the rite, for whom the end has come."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite requires an object or living being that is very nearly dead or useless. A terminally ill human being or an animal about to die of old age suffices, as does a machine that is irreparable. A machine used in this ritual must contain moving parts and require some kind of outside fuel to work. A gun, therefore, is acceptable, as is a car or a washing machine, but a sword is not."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the subject is human (or Uratha, as presumably this rite would function on a werewolf, although the Rust-Walkers do not attempt it), he need not have volunteered for the job, and indeed need not be dying of natural causes. Some especially vicious Uratha have been known to mortally wound a human and allow him to die slowly enough to perform this ritual. During the course of the rite, the subject dies or shuts down permanently, and a small amount of Essence is released, which can then be absorbed by the ritualist and any participants."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The Rite of the Final Sunrise must be performed in the last moments of darkness before the sun rises. The ritemaster stands on the western side of the subject, facing east, and marks him or it with rust, dirt or blood. The ritemaster then changes to Urshul or Urhan form and howls to the sun (any other Uratha present can join in this howl, but it isn’t necessary). The ritemaster must howl until the first ray of sunlight touches the target, so timing (or stamina) is important. The subject expires (in the case of a living creature) or falls apart (in the case of a machine) as soon as the light touches."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes needed; each roll represents one turn)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritemaster stops howling too soon. Sunlight strikes the target and rejuvenates it as Coyote laughs from somewhere in the spirit wilds. The subject of the rite will live or function for at least another day before dying or ceasing to function (unless, of course, the frustrated ritemaster destroys it anyway). In any event, this particular subject will never work as a focus for this rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained at this time."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gathered toward the total required. If 10 are gained, the subject dies or falls apart and all the werewolves present reap the benefit. Living beings give off Essence equal to their ",
+                    {
+                        "text": "maximum",
+                        "italic": true
+                    },
+                    " Health score (so an adult human with 2 Stamina provides 7 Essence, even though at the time of the rite he did not have any Health points remaining). Machines provide Essence based on their complexity, as illustrated on the following table:"
+                ]
+            },
+            {
+                "type": "table",
+                "headers": [
+                    "Machine",
+                    "Essence Reward"
+                ],
+                "rows": [
+                    [
+                        "Gun",
+                        "1"
+                    ],
+                    [
+                        "Computer",
+                        "3"
+                    ],
+                    [
+                        "Car",
+                        "5"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This Essence is divided up equally among the participants, with any remainder going to the ritemaster."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Success:",
+                        "bold": true
+                    },
+                    " Significant progress is made toward the goal. No other effect."
+                ]
+            }
+        ]
     },
     {
         "Name": "Found, Rite of the",
         "Rank": "3",
         "Cost": "-",
         "Description": "Imbues the ritualist with knowledge of the location of nearby werewolves who have not yet experienced the first Change.",
-        "Book": "Pure 125"
+        "Book": "Pure 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Pure prize ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    ". If the ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    " is abducted before his First Change, the Pure can hide him from Luna’s gaze and prevent the burning of auspices. Those Pure who have never been marred by her touch are considered by many to be the pinnacle of purity within the three tribes. Thus, finding ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    ", whatever the cost, is a priority for many packs."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite allows the ritemaster to track a ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    " as if the ritemaster has already tasted the subject’s blood. By transubstantiating the ritemaster’s own blood as the blood of the target — and then consuming the blood — the Pure can track a pre-Change werewolf per the rules of Prey’s Blood. The ritemaster needn’t know who the subject is, or even if one exists: if a ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    " is within five square miles, his blood transubstantiates. (If more than one is within that range, the ritemaster gains a bonus to track whichever one is closest.)"
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster must place a stone in a vessel, and then bleed over the stone. How he bleeds matters little, though many use a whetted claw or knife. The vessel must be heated so that the blood boils around the stone. When the stone is hot (after the blood has begun to congeal), the ritemaster must swallow the stone whole."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Whether or not this rite is successful, upon swallowing the stone the werewolf takes one aggravated level of damage from where he cut himself to spill the blood. The wound literally spasms and burns; upon healing, the wound forms a scar that will not go away. (Some Pure consider such scars as badges of honor, showing how many ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    " they have potentially hunted.)"
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritemaster’s blood transubstantiates to the blood of the wrong target (the bonus for Prey’s Blood still applies, but not for ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    "). The ritemaster doesn’t realize this, and likely tracks the wrong target."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " When all successes are gained, the ritemaster gains the +4 bonus toward tracking a pre-Change werewolf as if the ritemaster had tasted the ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    "’s blood (see “Prey’s Blood,” pp. 179-180, ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "). The ritemaster can use the Shared Scent ritual to give his packmates a taste of the blood, as well."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite lasts for a number of hours equal to the ritemaster’s Primal Urge. Once that time period is over, the bonus is lost. (It is also lost for any werewolves sharing the effect with Shared Scent.)"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The duration of the ritual doubles (the ritemaster’s Primal Urge x 2)."
+                ]
+            }
+        ]
     },
     {
         "Name": "Forbidden Flesh, Rite of",
         "Rank": "3",
         "Cost": "-",
         "Description": "After consuming the flesh of a human, werewolf, or wolf-blood, the ritualist may use this rite to gain increased strength and stamina for a time.",
-        "Book": "LodgF 108"
+        "Book": "LodgF 108",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Lodge of Wendigo is well aware of the secrets and the strength within blood, flesh and bone. By taking into themselves parts of their enemies, those werewolves with particular loyalty to the cannibal-spirit also take in their enemies’ power — be it knowledge or physical might."
+            },
+            {
+                "type": "paragraph",
+                "text": "This spiritual magic is clearly unacceptable within the greater body of Forsaken culture. The Uratha within the Lodge of Wendigo must be ever vigilant that they do not fall from Harmony by pursuing this rite too readily. Any werewolf ever caught teaching the Rite of Forbidden Flesh to an outsider is signing his death sentence. Wendigo himself senses the use of these rituals, and will appear in wrathful form should his lodge be betrayed. Overusing the Rite of Forbidden Flesh is a certain way to tempt degeneration and insanity."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritualist must have eaten and swallowed at least a mouthful of human, wolf or werewolf flesh within the last hour to perform this rite. If he has done so, the werewolf can enhance his own strength, drawing on the favor of his totem and its cannibalistic power. The ritemaster meditates upon the act of cannibalizing another living creature as he beseeches the lodge totem for health and strength. Some werewolves believe that the ritual unlocks the supernaturally potent aspects of cannibalism, though some are certain it is a way to literally contact the totem with a show of dedication."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the werewolf automatically loses a point of Harmony from the guilt and corrupt nature of this act."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails. The Uratha must eat more flesh if he wishes to make another attempt."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The cannibalistic act has infused the werewolf with healing energy and strength. For the next hour, he gains one additional Health point and +1 Strength (both are cumulative with shapeshifting modifiers)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The bonus lasts for the next four hours."
+                ]
+            }
+        ]
     },
     {
         "Name": "Grave’s Bounty, Rite of the",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 73"
+        "Description": "Lets the ritualist see and hear through a mortal resident of the city for a number of hours equal to Harmony.",
+        "Book": "Tribes 73",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Graves are seldom anchors for ghosts. Many ghosts don’t even realize that they are dead, and so don’t know they have graves. And yet, a person’s grave is the focus of a great deal of emotion, and that energy has to go somewhere. Years ago, a Bone Shadow Ithaeur learned that the energy tends to “soak” into the headstone or monument, and that a patient werewolf can harvest it."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Bone Shadow who discovered this rite was a member of the Lodge of Death (see p. 88 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "), and he made a vow that if anyone teaches the rite to a werewolf outside the tribe, there must be a price extracted in blood. It’s not a very commonly known rite anyway, and Bone Shadows tend to be possessive of it, but sometimes a werewolf teaches it to a non-Bone Shadow packmate. If she does so, she must make the learner bleed, usually by slashing, biting or just punching him in the nose. If the werewolf exacts ",
+                    {
+                        "text": "any",
+                        "italic": true
+                    },
+                    " retribution, even a snarl or a curse, the rite will never function for either of them (which is one reason that it doesn’t spread beyond the tribe very often). The Bone Shadow isn’t forbidden from explaining the rules to her packmate, but werewolves respond instinctively when attacked (and the Storyteller should call for a Resolve + Composure roll from the recipient’s player to make sure the character doesn’t respond)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite itself allows a werewolf to harvest a tiny carving from a monument and gain a bit of Essence. When Bone Shadows learn this rite, they are admonished not to be greedy. It could be fatal."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The werewolf sits in front of the grave, lays a palm on the monument and makes a silent invocation to Death Wolf. She also thanks the person who lies there interred (it is customary to lay flowers on the grave at some point in the future, but this isn’t required for the rite). The werewolf then scrapes a bit of dust or dirt from the headstone and places the dirt under her tongue. If the rite works, she feels a sudden influx of emotion — grief, pain, loss and even joy, depending on what sorts of emotions the monument has absorbed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The werewolf can attempt this rite more than once in the same night in the same graveyard, but this carries some serious risks (see below)."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The werewolf has chosen a gravestone that, for whatever reason, has no emotional energy in it at all. She feels a terrible emptiness fill her. The player immediately rolls Resolve + Primal Urge. The character keeps a number of Essence points equal to the successes, but loses the rest. Any further attempt to use this rite on the same night incurs a -3 penalty."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; either Death Wolf doesn’t approve or the werewolf just can’t concentrate. She can try again with a different gravestone, but each subsequent attempt incurs a -1 penalty."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The werewolf gains a number of Essence points equal to the successes the player rolled. She can try to gain more Essence by performing the rite on a different headstone, but she runs the risk of offending the spirit of the graveyard. For every successful attempt at this rite after the first, the player rolls Manipulation + Occult. If this roll fails, the graveyard-spirit attacks the werewolf’s Essence directly, turning it into caustic, black ",
+                    {
+                        "text": "nothingness",
+                        "italic": true
+                    },
+                    ". The character suffers one point of aggravated damage per point of Essence she has gained from this rite while in that particular graveyard on that night."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No effect beyond the larger bounty of Essence."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "The character attended the funeral of the person interred in the grave"
+                    ],
+                    [
+                        "+1",
+                        "The grave has flowers laid during that day (by someone who knew the deceased personally)."
+                    ],
+                    [
+                        "+1",
+                        "For every dot of the Fame rating the deceased had at the time of death."
+                    ],
+                    [
+                        "-1",
+                        "[unclear]"
+                    ],
+                    [
+                        "-2",
+                        "The deceased has been dead for more than 10 years."
+                    ],
+                    [
+                        "-3",
+                        "[unclear]"
+                    ],
+                    [
+                        "-4",
+                        "The deceased has been dead for more than 50 years."
+                    ],
+                    [
+                        "-5",
+                        "The deceased has been dead for more than 100 years."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Healing, Rite of",
         "Rank": "3",
         "Cost": "●●+",
-        "Description": "Heals up to 5 aggravated damage points at a rate of two Essence per point; the Essence may come from the ritualist or those healed. The healed points may be divided in any number of targets, including the ritemaster. Works only on Werewolfs.",
-        "Book": "WtF 159"
+        "Description": "Heals up to 5 aggravated damage points at a rate of two Essence per point; the Essence may come from the ritualist or those healed. The healed points may be divided in any number of targets, including the ritemaster. Works only on Werewolves.",
+        "Book": "WtF 159",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "As astounding as a werewolf’s supernatural recuperative powers are, they’re not infallible. Some wounds, such as those inflicted by silver, simply inflict too much damage to be regenerated at any speed. The Rite of Healing is the Uratha’s answer to this need. With it, the ritemaster can increase a subject’s regenerative powers until they can overcome even the most severe wounds. This rite is certainly potent, but it’s hardly an ironclad guarantee. The most grievously wounded werewolves might not survive the time required to complete the rite."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The ritemaster must gather any subjects to be healed around herself, evenly spaced about her like the points of a compass or spokes of a wheel. As she chants or sings an invocation to ancestor-spirits and spirits of strength and mercy, she ritually cleans the wounds of each subject in turn. Some ritemasters wash the wounds in pure water, while others lick the wounds clean. Unlike many other rites, the Rite of Healing doesn’t involve howls. It’s a quiet, intense ceremony usually performed between packmates."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "2 Essence per Health point healed"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (5 to 25 successes; each roll represents fifteen minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the ritemaster may not attempt to heal the given recipients again until after the next night’s moonrise."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails; the ritemaster may try again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The ritemaster may heal up to five Health points lost to aggravated damage; each Health point regained costs two Essence, and requires five successes. Either the ritualist or the subject being healed may pay the Essence cost, or they may split it between them; the Essence is spent before the ritemaster begins the rite, in order to charge the rite with the added power needed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The amount of Essence spent determines the length of the ritual as well as its potency; thus, if the ritemaster spent four Essence in order to heal two Health points, the rite would be completed once she accumulated ten successes. The healing may be distributed among multiple recipients, including the ritemaster, as long as all are within arm’s reach."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the subject to be healed is unconscious, the ritemaster may choose to tap into the subject’s own Essence pool to pay the cost for healing. In effect, she jump-starts his healing process by ritually encouraging his body to heal itself. The ritemaster cannot force conscious targets to spend their own Essence, however."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite can be used on any given subject, including the ritemaster, only once per day. The Rite of Healing cannot heal subjects other than werewolves, as it specifically accelerates the power of werewolf regeneration."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No additional effect beyond the several successes gained."
+                ]
+            }
+        ]
     },
     {
         "Name": "Information Gestalt",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "HG 65"
+        "Description": "Duplicates Omen Gazing as a Harmony-based rite, using a meditative trance before multiple television screens.",
+        "Book": "HG 65",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This mystical rite duplicates the effects of the Gift: Omen Gazing (p. 124 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "), except that the extended roll to activate the rite is based on Harmony, the rite is affected by the usual rite modifiers, and there is no Essence cost. Other factors such as the nature of the extended roll and the 24-hour limitation remain the same (though a character can use Omen Gazing and Information Gestalt in the same 24-hour period). The Iron Masters developed the ritual, though any tribe can use it. The character enters a meditative trance by watching multiple television screens, all tuned to different channels."
+                ]
+            }
+        ],
+        "PerformingRite": [],
+        "DicePool": "Harmony",
+        "Action": "Extended",
+        "RollResults": []
     },
     {
         "Name": "Initiation, Rite of",
         "Rank": "3",
         "Cost": "-",
         "Description": "Initiates a Werewolf into a new tribe.",
-        "Book": "WtF 159"
+        "Book": "WtF 159",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Once a newly Changed werewolf has been taught something of what she is, she is given the opportunity to join a tribe. Sometimes the other werewolves pressure her, for reasons of bloodline or “destiny,” to join a specific tribe, but the choice of which tribe to join always rests with the werewolf. Joining a tribe is a serious business, one meant to color the path of the werewolf’s life, so it is ritually acknowledged through the Rite of Initiation."
+            },
+            {
+                "type": "paragraph",
+                "text": "The first part of the Rite of Initiation is an ordeal of some sort. The ordeal might be physical or mental, a challenge to be overcome or a painful experience to be endured. It is usually meant to test the subject’s dedication and ability. Some harsh ritemasters set ordeals that might kill an unworthy supplicant. Others prefer that the ordeal run little or no risk of actually killing the subject, but in no case is the ordeal simply ceremonial. It always tests the subject physically or mentally."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the subject endures the ordeal, she then swears the Oath of the Moon, including the vow levied by her new tribal totem. Once her oath has been accepted, she becomes a member of her tribe in full, which is often a cause for vigorous celebration."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " The performance of the Rite of Initiation varies not only from tribe to tribe, but also from region to region. In most cases, it takes place at a tribal gathering, but some werewolves have been given the Oath and inducted into the tribe by a solitary ritemaster. There are a few constants, but Storytellers and players should customize the ritual as seems appropriate. The applicant must have at least one dot of Renown in the appropriate category to undergo the rite; thus, an aspiring Bone Shadow must have at least one Wisdom."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "First, the ritemaster calls to the tribal totem, asking it to watch the ordeal and determine whether the new supplicant is worthy. In some cases, the subject is introduced by a sponsor or relative who vouches for her."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ordeal itself varies very widely but always reflects the tribe’s ideals in some fashion. The ordeal usually takes a few hours to a night to complete successfully, but some tests of endurance last longer. If the subject does her best to pass the ordeal but fails (passing out in the middle of an endurance ordeal, for instance), the ritemaster may give her some time to prepare herself and attempt the rite again in a few month’s time (possibly with a different ordeal to face). If the subject chooses not to complete the ordeal, she’s turned away from the tribe and must either find another tribe to offer her the Rite of Initiation or remain a Ghost Wolf."
+            },
+            {
+                "type": "paragraph",
+                "text": "After the ordeal, the subject may be ritually cleansed before swearing the Oath of the Moon (although the Blood Talons often prefer to have the subject swear the Oath while still wet with her own blood). The ritemaster or another of the assembled werewolves summons a spirit servant of the tribal totem to bear witness to the subject’s pledge, which always concludes with the tribal vow. The ritemaster then ceremonially acknowledges the subject as one of the tribe, calling her by her new deed name (if any), as do any other werewolves present. (The actual die roll to complete the rite represents the swearing of the Oath and the subsequent acknowledgement. If the ordeal is failed, the ritemaster’s roll is moot.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the Rite of Initiation is completed successfully, the subject is treated as a full member of the tribe, and it’s customary to summon a spirit allied with the tribal totem to teach the new member an appropriate Gift shortly thereafter."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes needed; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritemaster has insulted the tribal totem by botching such an important rite. The ritemaster suffers a -2 penalty to all Social rolls to influence his tribemates or the spirits of his tribal totem’s brood for the next three lunar months."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained for one minute. If the ritemaster cannot accumulate enough successes in the time allotted, he’s failed to impress the tribal totem on the subject’s behalf, and the subject is not accepted into the tribe. The rite can be attempted again on the same subject in a lunar month’s time."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The subject is accepted into the tribe."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The subject is accepted into the tribe, and the tribal totem is impressed. The subject enjoys an extra die on all Social rolls to influence her new tribemates or the spirits of her tribal totem’s brood for the next three lunar months."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Subject performs exceptionally during the ordeal"
+                    ],
+                    [
+                        "-2",
+                        "Subject performs poorly during the ordeal"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Maenads, Rite of the",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "Blas 79"
+        "Description": "Augurs whether a specific course of action is likely to end well, badly, or both.",
+        "Book": "Blas 79",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This ritual allows the Uratha to make a prophecy regarding the likely result of a specific course of action. Specific actions that aren’t likely to be life-threatening or have long-lasting effects to the chronicle are much easier to augur than events of major importance that could occur far in the future. “Will I prevail in my combat with the magath tomorrow?” is an example of a good augury. “Will I live past 50?” is not."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " This rite must be performed in a natural setting during the night of the ritualist’s auspice moon. A sacrificial animal is required, normally a bird or four-footed mammal. The ritualist poses the question in Dalu form, then shifts to Gauru, eviscerates the sacrifice with its claws, then shifts back to Dalu to read the results in the creature’s entrails, the patterns of blood, or even its flavor."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The Lodge of Mania is rumored to practice human sacrifice in accordance with this rite, though normally only during lodge meetings and for especially important auguries."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended. (Twenty successes needed, +10 successes for an occurrence far in the future, +10 for major questions, such as of life or death, +10 for general rather than specific questions; each roll represents five minutes.)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Dishonoring the Rite of the Maenads threatens the ritualist and all around him. The ritemaster must make a Resolve + Composure roll or immediately fall into Death Rage. Furthermore, the werewolf may not perform the rite until the next night. In addition, the ritemaster may never perform the rite for the same question again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added. Once the total is accumulated, the rite is successful and the ritualist will speak with an unearthly voice, repeating the question and telling the questioner that the likely result will be “good,” “bad” or “both good and bad.”"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Several successes are gained in a short time. If five more successes are gained with the final throw than are needed, an exceptional success is achieved. The augury moves beyond that which is predictive, or likely to that which seems ordained. For the time of the events for which the augury is made, any action that conforms to the “predestined” result gains a +1 modifier. Actions that go against the result gain a -1 modifier."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "These modifiers can affect more than one scene until the augury is proven true or false."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Ritualist is a Cahalith"
+                    ],
+                    [
+                        "+1",
+                        "Ritualist is a Bone Shadow"
+                    ],
+                    [
+                        "+1",
+                        "Ritualist is female"
+                    ],
+                    [
+                        "+1",
+                        "If the question has to do with fertility, such as the sex of a child"
+                    ],
+                    [
+                        "+2",
+                        "If the sacrifice is human"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Mark of the Black Wolf",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 107"
+        "Description": "Brands a trespasser with a spiritual mark that warns other werewolves and reveals something wrong with the target.",
+        "Book": "Tribes 107",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Hunters in Darkness can’t kill werewolves who violate the Hunters’ territories. Rather, they can, but doing so is a violation of the Oath of the Moon, and the ",
+                    {
+                        "text": "Meninna",
+                        "italic": true
+                    },
+                    " value their Purity. Long ago, the tribe (so legend has it) asked Black Wolf for a method to mark trespassers without killing them, so that other Hunters would know the interlopers and be wary. Whether it was actually Black Wolf who responded or simply one of her servants, the result was this rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Mark of the Black Wolf doesn’t require that the subject be physically present, but it’s much easier that way. The rite marks a subject (who is usually, but not necessarily, another Uratha) with a spiritual brand similar to a Renown tattoo. Any werewolf can sense something wrong with a marked person with a successful reflexive Wits + Composure roll, and Gifts designed to detect lies or other malign intent (including Scent Beneath the Surface, Sense Malice or potentially even Death Sight, as well as any Gift that allows a werewolf to see Renown brands) perceive the Mark automatically. The Mark is usually in the form of a First Tongue glyph for “sacred” with a claw slash through it, since the Mark of the Black Wolf is most commonly bestowed upon werewolves who violated a Hunter’s territory."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Occasionally, a werewolf violates such a territory or otherwise wrongs the tribe and comes to accept his mistake. If a werewolf willingly submits to this rite, the Mark remains, but it can ",
+                    {
+                        "text": "only",
+                        "italic": true
+                    },
+                    " be seen if another werewolf specifically looks for it. That is, it doesn’t trigger the reflexive roll to sense the Mark. Accepting just punishment this way is a mark of Honor, and the ",
+                    {
+                        "text": "Meninna",
+                        "italic": true
+                    },
+                    " usually consider that the end of the matter."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The Mark of the Black Wolf can be bestowed upon beings other than werewolves, but doing so is more challenging to the ritualist. At the Storyteller’s discretion, other supernatural beings might be able to detect the Mark with their respective powers, though they probably don’t have any context for the symbol."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Performing the Rite:",
+                        "bold": true
+                    },
+                    " Some representation of the target must be present, even if it is only a footprint or an article of clothing. The ritualist invokes Black Wolf, explains the nature of the target’s crime against the tribe and then changes to Urshul and steps down firmly upon the target’s chest (or the chosen representation). The mark burns itself into the target’s flesh. At that moment, the ritualist drags his foot backwards, scarring the target further. Even when the wound heals, the Mark of the Black Wolf is visible to those who know how to look, and it’s always visible in the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    "."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended and contested (10 successes; each roll represents one turn). Target can choose to resist, with the target’s player or Storyteller rolling Harmony (or equivalent Morality score) with a negative penalty equal to the Purity of the ritualist.",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Whether it’s true or not, the spirits feel that the target was accused unfairly. The target regains all Willpower as if he had fulfilled a Virtue, and the ritualist loses one Willpower point. This rite will not function on this target again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated, or the target reaches 10 successes first. The rite fails, and may not be attempted again unless the target commits another crime against the tribe."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gathered toward the total. If the ritualist reaches 10 successes before the target, the Mark is in place. The Mark inflicts two levels of lethal damage, and even after the damage heals, the Mark remains. It ",
+                    {
+                        "text": "might",
+                        "italic": true
+                    },
+                    " be possible to remove such a mark, but that would require a Rite of Contrition to the werewolf who performed the rite and a special quest or show of apology to Black Wolf (if the werewolf is in fact guilty), or a special effort, probably a whole story’s worth, to clear the target’s name (if he’s not)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable progress made toward the total. No special effect."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Target is guilty of the crime but did not lose Harmony for it."
+                    ],
+                    [
+                        "+1",
+                        "Target is guilty of the crime but did lose Harmony."
+                    ],
+                    [
+                        "-1",
+                        "Target is a human being (including ghouls and wolf-blooded)."
+                    ],
+                    [
+                        "-2",
+                        "Target is a supernatural being, such as a vampire or mage (but not a werewolf)."
+                    ],
+                    [
+                        "-3",
+                        "Target is not physically present, but the ritualist has a sample of that target’s blood, skin or recently worn clothing."
+                    ],
+                    [
+                        "-4",
+                        "The ritualist knows only the target’s name or has a photograph."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Moon’s Love, Rite of the",
         "Rank": "3",
         "Cost": "-",
         "Description": "Grants a wolf-blooded subject enhanced ability to resist Lunacy for 1 month (+2 to Willpower for Lunacy's effects purposes)",
-        "Book": "WtF 160"
+        "Book": "WtF 160",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The children of Father Wolf learned in the earliest days that their mates and children couldn’t bear to see them in their Dalu, Urshul or Gauru forms. Lunacy was so terrible that even werewolves’ most beloved were driven to terror. The Uratha learned to avoid their war forms around their children and mates, but at times it was impossible. Whenever a werewolf was forced to take one of those forms to fight an enemy who had tracked him to his lair, his mate and children would be gripped by madness, sometimes even fleeing to their deaths. It was a grieving Ithaeur, they say, who begged ",
+                    {
+                        "text": "Amahan Iduth",
+                        "italic": true
+                    },
+                    " for a way to protect the offspring of other werewolves from a similar fate. Mother Moon took pity on him and taught him the Rite of the Moon’s Love, which prevents Lunacy from taking hold quite as strongly as it otherwise might — at least, for those who already share a measure of wolf’s blood."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster grasps the subject’s hands in his own and leads her in a ritual chant in the First Tongue, begging for acceptance. The ritemaster or subject must lay a single silver coin on the ground between them as chiminage to the Lunes. The ritualist then cuts his finger or hand and traces symbols of the moon on the subject’s face. The last of the blood is smeared onto the silver coin (which disintegrates into a whiff of smoke as the Lunes accept the offering), along with a final, pleading howl."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The subject of this rite must possess the Wolf-Blooded Merit; the effects are cumulative."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All success are lost. The subject’s primal fears are intensified and she reacts to Lunacy as though her Willpower were two points lower (minimum of 1). The ritemaster may not try again for the duration of the scene."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gathered. If the rite cannot be completed for some reason, the ritemaster may not try again for the duration of the scene."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gathered. Once the total number is accumulated, the subject reacts to Lunacy as though her Willpower is two points higher (maximum of 10) for the duration of the moon phase (usually three nights)."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Several successes are gained at one time. If 15+ are accumulated on the same roll that the ritemaster reaches 10 successes, the subject of the rite gains protection from Lunacy as though her Willpower is three points higher rather than normal."
+                ]
+            }
+        ]
     },
     {
         "Name": "Moon’s Veil, Rite of the",
         "Rank": "3",
         "Cost": "●+",
         "Description": "Grants a Pure subject the Lune's favor, and an increased ability to hide from werewolves and spirits for a number of days depending on the essence spent by the Ritemaster.",
-        "Book": "LodgF 86"
+        "Book": "LodgF 86",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "For members of the Lodge of Salvation to have a chance to reach a “rescued” Pure werewolf, they need time to gradually break down the blocks and mental scars imposed by the Pure Tribes indoctrination. Time is a rare commodity when the Pure have been roused, though. This rite allows the ritemaster to temporarily hide the subject from the Pure Tribes, masking her from any supernatural attempts made by the Pure or their spirit allies to detect her."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite does not work on targets that possess auspices."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite is relatively simple, as befits the urgent circumstances under which it’s often invoked. The ritemaster embraces the subject as if attempting to shield her with his own body, and softly sings a chant to Luna and her spirits, asking for her to return her blessings to her wayward child."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the total required. If the total reaches 15 or more successes, the subject is blessed with the Lunes’ favor. Any supernatural attempt to detect the subject made by a werewolf or spirit is at -4 dice. The effects last for a night and a day, plus an additional 24 hours for each point of Essence beyond the first that the ritemaster spends."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained toward the total required. If the total reaches 20 or more successes, the blessing increases to a -6 penalty to detection rolls."
+                ]
+            }
+        ]
     },
     {
         "Name": "New Coat, Rite of the",
         "Rank": "3",
         "Cost": "",
         "Description": "Transforms the appearance of Pure renown into Forsaken renown within the Hisil.",
-        "Book": "LodgS 131"
+        "Book": "LodgS 131",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite was taught by Fox Master-of-Guile shortly after the Fire-Touched took over the lodge. Rite of the New Coat enables a Pure werewolf to remove all telltale signs of his true nature in his spirit form, and also affords a degree of protection from most other means of discerning the true nature of the wolf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Given how useful this rite would be in the ongoing war against the Uratha, many members of the Pure tribes question the loyalty of their brethren for not teaching this rite outside of the lodge. So far, the elders within the lodge have managed to keep these naysayers at bay, saying that the long-term benefits of having a “wolf in the fold” more than outweigh any short-term benefits in sharing the rite. Another, darker, theory holds that they have tried teaching it to others, but that it has failed; if this is true, then Fox Master-of-Guile may be playing the entire lodge for fools in the spirit’s own cunning game."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist dips a bone dagger into the blood of a Uratha and hands the dagger to the intended target, who must inflict a scar no smaller than three inches on himself with the weapon before handing it back. The ritemaster then proceeds to cut the air around the Pure with the dagger, as if “skinning” him of his old shell."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Each person who undergoes this rite can only use the blood of a specific Uratha once, although blood from a Uratha can be used on multiple participants (each of whom must have their own New Coat performed). It is common for small cells of modern Thin Ones to have an annual festival, when they capture and torture a werewolf for information in one room while draining his blood to use in continuous successions of New Coat rites performed in the other."
+                ]
+            }
+        ],
+        "DicePool": "",
+        "Action": "Extended (three successes per point of renown the target has; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. In addition, the blood for that Uratha cannot be used again on that target."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the required total. As successes are generated, the target’s appearance within the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    " changes, with each success transforming the Renown of the Pure from looking like a scar to appearing silver; if the rite ends before the required number of successes, the Renown reverts back to its previous appearance. Once the number of successes is reached, the target’s Renown fully transforms within the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    ", making the werewolf appear — by all obvious means — to be Uratha. In addition, the target receives four bonus dice to all supernatural means of discerning the werewolf’s true nature (or the person trying to discern the truth receives a -4 penalty on those rolls that do not have a defense). All benefits of the Rite of the New Coat last for one year. The target’s chosen area to cut with the dagger shows up in both the real and spirit world as a scar, providing a telltale clue (or at least an abnormality) for those who know to look for it. For the rite to be successful, no two scars can intersect; cutting across a previous scar results in the rite’s automatic failure (as well as another scar), and the chosen Uratha’s blood cannot be used again by that target. As a result, the Thin Men who use this rite tend to mark inconspicuous areas, such as the soles of their feet, their armpits and the joints of their thigh and pelvis."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The area chosen to be scarred does not, in fact, scar; the New Coat remains undetectable and the area can be chosen again for future usage of the rite."
+                ]
+            }
+        ]
     },
     {
         "Name": "Offal, Rite of",
         "Rank": "3",
         "Cost": "-",
         "Description": "All man-made refuse within an affected area turns into a foul slime, which acts as a powerful fertilizer.",
-        "Book": "LodgF errata"
+        "Book": "LodgF errata",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In olden times, when all of the material that would litter the landscape was organic in nature and would break down in a matter of months or years, the Lodge of Harmony had an easier time keeping their territories clean. Modern garbage, however, is more resilient, and as plastics and other material that even Boar finds inedible began to pile up, the Sulukka petitioned their totem for a solution. The Rite of Offal provides one, although it has its price."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Rite of Offal, usually performed directly after the Rite of Churned Earth, converts all man-made debris in the area into a foul-smelling but completely natural sludge. The odor is reminiscent of pig manure and is repulsive even to wolf sensibilities, but it goes away after a few days and helps the area’s plant and animal life flourish."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite does not function on corpses or other organic matter, only material fashioned by humanity. Also, it doesn’t work on anything still in use; the Uratha could not use it on a car and cause the vehicle to break down into sludge, unless the car was completely irreparable."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster splashes the area to be affected with his urine (normally this entails a change to Urhan form, although some male Uratha choose to use Dalu). The ritemaster then chooses the largest chunk of man-made material in the area and spits on it, growling a curse in the First Tongue. Finally, he takes and handful of earth and throws it over the area, asking for Rooting Boar’s aid in returning the land to its normal cycle."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite is typically performed under the half moon, but can be performed at any time. It can only be enacted once per day."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes required; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All accumulated successes are lost. The ritemaster’s clothes and any other objects carried melt into foul-smelling sludge. This odor levies a -4 penalty on all Social rolls and doesn’t wash off for a week."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained at this time."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gathered toward the total required. If 10 are gained, any man-made refuse within (yards x ritemaster’s Harmony rating) melt into black, stinking slime. This slime acts as good fertilizer for the land, but causes the area to reek for four days or until the next rainfall. The odor is pungent enough to levy a -1 penalty to anyone within the area of effect, and some Uratha have been known to scoop some of the slime up into glass bottles to hurl at enemies. In addition to the odor, getting the stuff in a target’s eyes (see Specified Targets, CofD: World of Darkness: Storytelling System Rulebook, p. 165 ) blinds him until he can wash the slime off."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The ritemaster makes significant progress toward the goal. If 15+ successes are gathered on the same roll that the ritemaster reaches 10 successes, the ritemaster’s Purity rating is added to her Harmony for purposes of determining the area of effect."
+                ]
+            }
+        ]
     },
     {
         "Name": "Open Moon Gate",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "WAtP 143"
+        "Description": "Opens a prepared lunar road between two loci, allowing Forsaken to travel quickly and safely through the Shadow.",
+        "Book": "WAtP 143",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite opens a previously prepared lunar road between two loci. This rite can only be performed in the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    ". Lunar roads are secretive tunnels within the Shadow. Their existence is never obvious, and even spirits or other supernaturals who have some reason to suspect the existence of Moon Gates have an incredibly difficult time detecting them when in use. (The negative modifier is equal to the combined ratings of the two loci, maximum -5.) This also affords safety to the Uratha, as Luna protects her servants from attack while using them. Finally, and most importantly to her crusaders, Moon Gates are fast, often allowing the Forsaken to travel much more quickly between loci than modern transportation could hope to. In this way, crusaders do not have to outnumber all of their foes when they are able to mass enough forces at critical points and join together to fight those greater than a single pack."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The gateway stays open for a number of turns equal to the amount of Essence contributed to the rite. The ritemaster does not have to journey along the lunar road, and any who enter are carried to the end."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist must hold a pathstone dedicated to the destination loci. She simply howls to the appropriate Lunar Choir to guide them to the destination. If successful, the gate opens, and any Forsaken who enter are sent to their destination."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "When the rite is successful, the twin of the pathstone (at the other end) begins to send out a preset alarm —usually something rather subtle, such as the call of an insect."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The rite fails, and the set of pathstones is ruined."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "The rite fails."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "A lunar road — a tunnel of silvery light — opens up in front of the ritemaster, allowing all who enter to traverse the Shadow quickly and safely. The normal amount of time it would take to travel between the loci is cut in half for each success generated (halved, quartered, eighthed, etc.)."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Traveling on the lunar road takes next to no time. The characters arrive one minute after departure."
+                ]
+            }
+        ]
     },
     {
         "Name": "Purity, Rite of",
         "Rank": "3",
         "Cost": "-",
         "Description": "This rite, performed on a werewolf who has not yet experienced the First Change, ensures that when they do they will not awaken with an auspice.",
-        "Book": "Pure 126"
+        "Book": "Pure 126",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite has been with the Pure as long as any of them can remember. Some claim it has been with them since the beginning, when their first children suffered the brands of Mother Moon without realizing that she was quite so vigilant. When the ritemaster performs this rite upon a pre-Change werewolf (",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    "), it hides him from Luna’s gaze and assures that he will experience his First Change without gaining an auspice. The werewolf will never gain an auspice unless an appropriate countering rite is performed successfully. Such rites, however, are closely guarded by old Forsaken and considered quite rare."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    " must be bound and pinned to the ground facing downward. It must be open earth (dirt, sand, clay, grass) and ",
+                    {
+                        "text": "not",
+                        "italic": true
+                    },
+                    " a human-made material (concrete, asphalt, brick). The ritemaster draws a circle around the target (whether etched in the ground or drawn with chalk or a stone, it doesn’t matter)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Once bound and encircled, the target must be covered in at least three different types of befouled material."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "One of these types ",
+                    {
+                        "text": "must",
+                        "italic": true
+                    },
+                    " be blood, enough to cover most of the body. This blood can be animal or human, but not werewolf. The other two types of foul substance are within the purview of the ritemaster. Potential choices include vomit, saliva, urine, spoiled milk, maggots, sewage water or rotten foods. The goal of this is, somewhat ironically, that it befouls the target so completely that Luna is convinced that such a creature is utterly impure and unworthy of her gaze. The befouling is, to the Pure, a necessary deception."
+                ]
+            }
+        ],
+        "DicePool": "Harmony (versus target’s Resistance + Composure if the target chooses to actively resist)",
+        "Action": "Extended (five successes per dot of target’s Willpower; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The rite fails immediately and cannot be performed again on the subject."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are achieved."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained. If the total equals five successes per dot of the target’s Willpower, the rite succeeds. Success of course requires that the target has not yet experienced his First Change. When the target finally experiences the Change (which may be soon after the ritual or not), the rite ensures that he will not achieve an auspice and will not have access to those Gifts or benefits associated with auspice. He does not gain an auspice unless extraordinary circumstances (a Forsaken rite, or a blessing from a powerful Forsaken totem) allow. Otherwise, no mechanical benefits are granted to the subject."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes occur above and beyond the expected. If the total equals (five successes per dot of the target’s Willpower) + 5, the rite succeeds. In addition, the target gains a +1 Social roll when dealing with the Pure for the following week because he is considered particularly blessed. This is in addition to the effects noted above."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Five or more Pure are present during the ritual."
+                    ],
+                    [
+                        "+2",
+                        "Ten or more Pure are present during the ritual."
+                    ],
+                    [
+                        "-1",
+                        "The ritual is performed during a full moon."
+                    ],
+                    [
+                        "-2",
+                        "Target has Wolf-Blooded Merit."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Sacred Hunt",
         "Rank": "3",
         "Cost": "-",
         "Description": "Begins a ritual hunt of a designated spirit, which must consent. After the ritual, the pack has twenty four hours to catch the released spirit and tear it to shreds, devouring its Essence; as part of the ritual, the spirit will survive if the Werewolves let him at least 1 Essence point.",
-        "Book": "WtF 160"
+        "Book": "WtF 160",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ancient rite enforces the role of werewolves as predators of spirit and flesh alike, allowing them to ritually hunt spirits for Essence. When the ritemaster performs this ritual, he marks a spirit as the pack’s rightful prey. Then the entire pack goes on the hunt, chasing the spirit out of hiding and eventually bringing it down. When they’ve successfully done so, the werewolves say a quick prayer of respect and gratitude for the spirit’s sacrifice and reap a bounty of Essence."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This hunt can take place in the Shadow or in the physical world. The ritemaster must either have a (likely captured) spirit close at hand, or be able to name a specific spirit that will serve as the pack’s quarry. If the quarry is captured beforehand, the ritemaster then releases it to flee, waits a certain amount of time (as much as an hour), and then the pack takes off on the hunt."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The spirit quarry is rarely a willing volunteer — yet the terms of the Sacred Hunt leave it with a measure of protection. The werewolf pack will feed on its Essence, yet it receives the promise that it will survive the experience somehow. Thus, the spirit is compelled to abide by the terms of the hunt. The spirit flees, uses guile and possibly even fights back, but it doesn’t leave the werewolves’ territory (or its spirit reflection) before the sun comes up, and it doesn’t use Numina that cost Essence to activate. It doesn’t seek the help of other spirits in the vicinity, nor do observing spirits aid either party. Tracking the spirit through the Shadow is handled the same way tracking any other spirit would be."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "If the rite takes place in the physical world, the pack must usually perform the Blessing of the Spirit Hunt (p. 152) before beginning the Sacred Hunt. Some spirits may seek out a suitable vessel in the material world (possibly an animal of its type, but just as likely a human being if the pack’s territory is urban) and ride it, bringing with it a measure of Essence from the Shadow Realm. However, the spirit that does this is violating the terms of the Hunt, and receives no guarantee of survival at hunt’s end."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Once the spirit has been caught, the werewolves are able to devour its Essence much as another spirit would. However, they are bound by tradition to leave the spirit a small bit of Essence before it is torn apart, so that it may re-form later as a reward for participating in the hunt. The hunt is sacred, after all, and werewolves are bound to respect their prey’s sacrifice."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster either draws a map or marks out a section of a map to represent the boundary of the hunting ground to which the spirit is bound. (This hunting ground can be no smaller than the entirety of the pack’s territory, but it can be much larger if the ritemaster wishes.) He then burns the map while offering chiminage appropriate to the type of spirit summoned. Meanwhile, packmates howl out a reminder of the ancient pact that binds lesser spirits to take part."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Only one hunt can be performed by a pack or any of its members per night."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute) for the performance of the rite itself. The actual hunt can take a matter of a couple hours or it can last all night. Consider it to last for one hour per roll made to accumulate all the successes required. The hunt is considered one scene for purposes of a Gift or rite’s duration.",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All accumulated successes are lost. The ritemaster may name the wrong spirit as quarry, or even attract the attention of a more powerful and dangerous spirit from the nearby Shadow. Even if the werewolves defeat it and tear it apart, they gain no Essence from the activity. No other attempts can be made in the same night."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained at this time."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gathered toward the total required. If 10 are gained, the proper spirit is marked as quarry, and can be harvested for Essence at the completion of the hunt. The effects of the mark last from the culmination of the rite until the sun rises. The spirit leaves a physical trail, whether in Shadow or the physical world, that the werewolves can follow. In either case, the spirit remains within the boundary established by the ritemaster until sunrise, at which point its obligation is fulfilled. When the hunt is completed, participants may divide the spirit’s Essence among themselves. This share is even among all members, with any remainder going to the ritemaster. If three werewolves perform the hunt and catch a spirit with 10 Essence, two of them get three Essence points back, while the ritemaster gets four. However, it is only just and honorable to leave the spirit with one Essence point of its own, so that it can re-form after discorporation at the hunt’s climax. Permanently destroying a spirit that has been marked as sacred quarry is cause for a three-die check against degeneration for werewolves of Harmony 5 or higher. (See Harmony, p. 180.) See Chapter Four for tips on creating physical and spirit antagonists who could serve as prey for this rite’s purposes. See also Appendix One for tips on creating spirits from whole cloth. This rite cannot be used to mark a spirit of more power than a lesser Jaggling; more powerful spirits are rivals and foes, not prey."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The ritemaster makes significant progress toward a rewarding hunt. If 15+ successes are gathered on the same roll that the ritemaster reaches 10 successes, the hunt is particularly rewarding. At the successful culmination of the hunt, each character also regains a single point of spent Willpower."
+                ]
+            }
+        ]
     },
     {
         "Name": "Sacred Vigil",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 142"
+        "Description": "Grants altered sight that reveals supernatural auras, Twilight beings, Hosts, Ridden, and Claimed, but compels the werewolf to hunt.",
+        "Book": "Tribes 142",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite, powered by an ancient compact between a few werewolves and Hugin and Munin and rediscovered by the Lodge of Spires, lends an aspect of the ravens’ sight to the werewolf. A werewolf who takes on a Sacred Vigil exists in an altered mindset where the individual threads that tie the city together become plain. It’s a strange, often taxing experience that nonetheless is incredibly powerful in the right hands."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "In a Sacred Vigil, the world seems to change. Everything possesses a glowing aura: most humans are white, vampires red, werewolves blue, and mages gold. Other werewolves glow deep green. The werewolf sees through into Twilight without effort: spirits and embodied ",
+                    {
+                        "text": "shartha",
+                        "italic": true
+                    },
+                    " appear purple, while ghosts are grey. The sight allows a werewolf to identify Hosts that have taken a human form, as well as pointing out humans who are Ridden or Claimed by spirits."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Vigil doesn’t just highlight the world; it colors the werewolf’s understanding. Once she sees a target, she must hunt. The Vigil will not let her sit by and watch when she could be taking action. She intuitively knows how to follow her target without ever setting foot on the ground, and if she can strike from above, her prey will never know what hit her."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster stands under the open sky. He takes a piece of glass and cleans it with a cloth soaked in rainwater, then draws an ancient rune on the glass in black ink. He then places it in a circle drawn in salt and howls to Hugin and Munin. In a wooden bowl, he then combines a natural hallucinogenic (mescaline, ayahuasca or psilocybin are the most common) with salt from the circle, more rainwater, a drop of the same ink, a drop of blood and a drop of urine. The final ingredient is a tiny fragment of glass chipped from the larger piece. He drinks the concoction, and soon after feels its effects. This rite cannot be used by anyone under the effects of Eyes of Sagrim-Ur (see p. 144); likewise, a werewolf on a Sacred Vigil cannot perform the Eyes of Sagrim-Ur."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "Hugin and Munin are displeased. The glass shatters, and the werewolf suffers the normal effects of taking hallucinogens (see the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ", p. 177)."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "The glass shatters, though the werewolf feels no ill effects."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Success imbues the werewolf with an incredible perceptive ability. The aura given off by physical creatures shines brilliantly against the darkened world. He can see humans, and identify common supernatural creatures that he can see (Hosts, vampires and mages) automatically. In addition, he can make a reflexive Resolve + Composure roll to beat magical concealment. He can also detect and identify ghosts, spirits and other creatures in Twilight without a roll.",
+                    {
+                        "lineBreak": true
+                    },
+                    "When he hunts, the character gains a two-dice bonus to Athletics rolls made to follow a path that avoids the ground. If he manages to go the whole hunt without hitting the ground (except for the first step before attacking his prey), his prey does not apply his Defense for the first round of combat. The werewolf loses this bonus if he steps on the ground before finding his prey.",
+                    {
+                        "lineBreak": true
+                    },
+                    "The werewolf must hunt when under the effects of this rite. If he spends six hours in the Sacred Vigil without hunting, he takes two points of lethal damage."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The werewolf can see the trail of his prey. Once he has selected a target for his hunt, treat all tracking rolls as if the werewolf had tasted his target’s blood."
+                ]
+            }
+        ]
     },
     {
         "Name": "Salon, The",
         "Rank": "3",
         "Cost": "○●",
-        "Description": "",
-        "Book": "LodgS 87"
+        "Description": "Participants complete a 24-hour ceremonial celebration, restoring Willpower, healing aggravated damage, and gaining a temporary Attribute bonus.",
+        "Book": "LodgS 87",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The origins of this ritual lie with the Lady; before her, the lodge did not practice or even know of this rite. This ceremonial party is certainly an odd one — in it, the members convene at a single location (usually one of the overtaken research stations, some of which are quite comfortable) and hold a 24-hour celebration. In this celebration, the Lady demands that her children dress in their finest clothing (some have gone through the arduous process of obtaining nice clothes from Argentina or Australia, though many have only the parkas of dead scientists) and prepare the finest meals. The “finest meals” are rarely anything more than MREs (freeze-dried Meals Ready to Eat), though seals and researchers make for good meals now and again. The lodge members regale one another with boastful tales. They commit to games of competition, often social in origin though many certainly prefer tests of a more physical nature. They drink whatever alcohol is available — booze can be imported from the warmer climes or stolen from scientists (some in the lodge have actually taken to distilling their own “End of the World” vodka using leftover or half-destroyed research equipment). Some Salons involve organized hunts of humans or beasts (traitors may meet their end this way). Other Salons bring spirits across the Gauntlet and dominate them in the name of the Lady. Whatever the “events,” the Salon and its members must go the full 24-hour duration."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The party is little more than a celebration in the middle of frozen nowhere. Beasts dress up in finery, and act civilized (better than they perhaps are, given their potentially lowered Harmony scores). The Lady demands this. Her children are important — or, at least, ",
+                    {
+                        "text": "self-important",
+                        "italic": true
+                    },
+                    " — and she certainly enjoys the irony of them acting as the paragons of Forsaken society when they are relegated to the bottom of the world unknowingly serving a Maeljin Lord of the Wound."
+                ]
+            }
+        ],
+        "PerformingRite": [],
+        "DicePool": "Harmony",
+        "Action": "Instant (only the ritemaster is required to make and succeed on the roll, performing the roll at the start of the Salon)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All Salon participants lose the Essence spent, and also lose a point of Willpower"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No Essence is lost, and the rite fails before it begins."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "The participants in the rite go the entire 24-hour duration. (The Storyteller may require a Stamina + Composure roll to remain awake and alert.) They may fill up their Willpower pool, and may also heal one aggravated level of damage. Also, for the next two weeks, each participant may choose one Attribute. Any rolls made using that Attribute during the following two weeks gain a +1 bonus. This signifies the participant’s “pride” in that part of herself. Every participant may choose a different Attribute; they needn’t all select the same one to receive this bonus."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The effects are the same as a normal success, except the participants may heal ",
+                    {
+                        "text": "two",
+                        "italic": true
+                    },
+                    " aggravated levels of damage if they have been that badly injured."
+                ]
+            }
+        ]
     },
     {
         "Name": "Shackle Spirit",
         "Rank": "3",
         "Cost": "",
         "Description": "Binds troublesome spirit into state of near slumber. Spirit not capable of movement, reasoning or employing any powers. The spirit can be plied for simple information (not gifts).",
-        "Book": "LodgS 124"
+        "Book": "LodgS 124",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ritual allows the Uratha to bind a troublesome spirit in a state of near-slumber. The spirit remains nominally aware of its surroundings, but is incapable of movement, reasoning thought or employing its powers. The spirit remains where it was bound, and can usually be plied for simple information (but not to bestow Gifts). This rite is the reason so many members of the Lodge of the Storm’s Eye have a deep understanding of the local Shadow Realm, as Shackle Spirit represents an effective way of pulling information from the minds of the most hostile and powerful spirits — knowledge that would have been lost had the creatures been destroyed."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "No spirit wishes to suffer this binding, and those that manage to break free of the rite’s effects are certain to seek some form of revenge. The most common form of this rite is a mixture of the rites: Banish Spirit and Bind Spirit, though it results in something quite different and often more useful. As with Bind Spirit, the ritualist must designate one other way that the spirit can be freed. However, unlike the Bind Spirit rite, that condition is always “If I do not return to replenish your shackles in one month’s time.” It is easy to see how much more secure and tractable a spirit is under the effects of this rite. To lodge members, if they refer to a spirits as “caught within the eye of the storm,” they are referring to a being bound by the Shackle Spirit rite."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite is performed in a similar manner to Bind Spirit, on p. 158 of the ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    ", and has its own host of variations. The key of the ritual is the five-time repetition of the First Tongue phrase, “You shall never awaken.” The ritualist doesn’t have to repeat the phrase five times in a row. He may sprinkle it throughout the performance, but the ritual isn’t complete until the phrase is said for the fifth time. The effects of the rite wear away after a lunar cycle, though the werewolf can refresh the effect by returning to the bound spirit before the month is up and performing the rite once again. The spirit suffers a -2 penalty on its dice pools to resist being re-shackled."
+                ]
+            }
+        ],
+        "DicePool": "Harmony versus the subject’s Resistance",
+        "Action": "Contested and extended (10 successes; each roll requires 30 seconds’ time)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The rite or resistance fails outright and all accumulated successes are lost. Either the werewolf cannot attempt to shackle the spirit for another lunar cycle, or the spirit is bound immediately."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are accumulated at this stage of the contest."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are accumulated toward the total required. If the total reaches 10+ successes, the spirit is shackled and rendered immobile. The spirit will answer any simple questions asked of it, unless it is determined to remain silent. If so, then the spirit must succeed at a Resolve roll with a -4 penalty, or speak the answers it seeks to conceal."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Tremendous progress is made or resistance is shown."
+                ]
+            }
+        ]
     },
     {
         "Name": "Shrieking Glyphs",
         "Rank": "3",
         "Cost": "",
         "Description": "Bale Hound creates glyph that marks Iduth-Su to help other Bale Hounds find Flayed Ones. Glyph repels werewolves with high harmony.",
-        "Book": "Blas 142"
+        "Book": "Blas 142",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The walls of some Wounds have been known to display dozens of strange symbols that resemble First Tongue glyphs, but read as gibberish if deciphered. Bale Hounds use these sigils in two ways: as a way to mark the location of an ",
+                    {
+                        "text": "Iduth-Su",
+                        "italic": true
+                    },
+                    ", so that other Bale Hounds can track down one of the Flayed Ones if he desires, and as a way of repelling werewolves with high Harmony from attempting to investigate and cleanse the Wound."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The symbols have little effect on werewolves with Harmony scores of 4 or less, but those with scores of 5 and higher feel severe discomfort and even pain if they look at the runes on the walls, trees or ground of the Wound. The exact nature of the discomfort depends on the viewer’s Harmony, and the penalties stack with those already in play from the characters standing within a Wound."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Harmony 5",
+                "text": [
+                    "The runes are ugly symbols that seem to almost make sense, and could possibly be describing the history of the Wound and what has occurred in the area. The werewolf suffers discomfort from looking at the symbols, as if his skin were crawling, but no mechanical penalty."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Harmony 6",
+                "text": [
+                    "The runes are alive with some kind of power of their own, and, though the words they represent are gibberish, the werewolf can hear them being whispered in her mind. Whenever the character looks directly at them, the whispering increases to a painful shriek within her mind, inflicting a -1 penalty to all dice rolls until the character looks away."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Harmony 7",
+                "text": [
+                    "The runes are definitely alive, somehow. They seem to shriek their nonsensical meanings into the mind of the character, inflicting a -1 penalty to all dice rolls while the character is within 10 yards of the symbols."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Harmony 8+",
+                "text": [
+                    "As Harmony 7, though directly looking at the symbols intensifies the horrific shrieking, and the character must make a Willpower roll to prevent himself backing away from them."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Bale Hound learns the names of several of the Wound-born Gaffling spirits of the area, and writes the names on the Wound’s surfaces with his own blood. Once the werewolf has gained the cooperation of the spirits involved, the werewolf can use this variant of the Fetish Rite to bind the spirits one by one into these bloody runes, creating fetishes that exist only to psychically shriek in torment at their confinement. Some spirits actually agree to this horrendous treatment without being first bound or tortured, either out of mindless desire to serve the Maeljin or out of fear of death at the Bale Hound’s hands."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite works on all of the named spirits at the same time, though the maximum number that can be affected at once is equal to the Bale Hound’s Harmony."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended. (10 successes needed; each roll represents one minute.)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All accumulated successes are lost, the spirits break free of the binding before it takes hold and seek to attack the Bale Hound for her actions."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No further successes are accumulated, the rite fails and the spirits are not bound into the glyphs. The ritemaster must create new glyphs if he wishes to try again in the future."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are added, and when the required number is accumulated, the spirits are bound into the symbols."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional effect beyond the several successes gained."
+                ]
+            }
+        ]
     },
     {
         "Name": "Sleeping Seer, Rite of the",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 179"
+        "Description": "Sends participants into a mystic slumber and shared dream of the coming End Times.",
+        "Book": "Tribes 179",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ritual allows the Lodge of the Final Winter to dream what the lodge members believe is the coming end of the world. Once the ritual is complete, those involved fall into a mystic slumber and meet in a shared dream of the End Times, as described on p. 173."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritual begins with the ritemaster ritually blessing a chalice of rainwater with a few chunks of soil and a drop of blood for each dreamer sharing in the experience. As the ritemaster’s blood drips into the murky water, the werewolf speaks the name of every soul present who will be sharing the vision. This rite does work on non-Uratha, though only wolf-blooded humans may enter the joint dream (non-werewolf characters must at least have the Merit: Wolf-Blooded to be involved)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Once the chalice is blessed, each character present takes a sip from the foul-tasting liquid, and falls into a light trance, entering the shared dream."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The ritemaster’s dream fails to imprint as intended within the minds of those who shared the ritual drink. Instead, the mind-link is unstable and chaotic, though still present in some form. For a month’s duration, each time the ritemaster dreams as part of her natural sleep, there is a small chance one of the characters present at the failed ritual ‘seeing’ the ritemaster’s dream in her own slumber. Characters experiencing the ritemaster’s dreams in this manner are unable to affect what they see in any way, but it’s an eerie, curious (if totally accidental) way of seeing inside someone’s head without that person ever knowing."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "The rite fails, though the ritemaster is free to make another attempt after the following moonrise. The characters who were to be involved may suffer potent dreams and nightmares for a few nights, but there are no concrete aftereffects."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "The rite is successful, and the affected characters enter a light trance. To wake from the trance, characters need only pass a Willpower roll, spend a Willpower point or wake naturally as the ritemaster ceases the dream. Unbroken, a dream can last until the next sunrise, be that an hour or 20 hours away. During the dream, the ritemaster has no direct control on the way time passes, but some werewolves have reported ‘living’ within a dream for several years, even if only a single night has passed in the real world.",
+                    {
+                        "lineBreak": true
+                    },
+                    "Within the shared dream, each character may act independently and has the same stats and traits as in the real world. Any characters dying in the dream wake immediately in the real world completely free of injury. Any new traits bought with experience points, new derangements or Harmony losses (and gains, for that matter) are all lost upon waking, left behind as echoes of the dream world. Such details belong to the characters’ potential futures, not to them themselves.",
+                    {
+                        "lineBreak": true
+                    },
+                    "While in the dream, characters will experience the end of the world as described in the Lodge of the Final Winter’s write-up on p. 173."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "As with a success, but the characters’ dream-selves are preternaturally resilient in the shared vision. Each character adds +1 Stamina for the duration of the dream, usable only in the dream-state."
+                ]
+            }
+        ]
     },
     {
         "Name": "Subduing Hungers Rite",
         "Rank": "3",
         "Cost": "●+",
         "Description": "No need to eat or drink for number of days equal to essence spent during ritual.",
-        "Book": "BotW 99"
+        "Book": "BotW 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "There are many ways to die when alone in the wilderness. Dying of thirst and hunger are two of the most unpleasant, not least of all for the sheer length of time they take. While most Uratha have little difficulty finding an amount of food and water sufficient to keep them functioning, werewolves get into all manner of predicaments. One can find herself in the middle of a desert, in the arid arctic or stuck in the middle of the ocean. That is when the Subduing Hungers Rite becomes necessary. It allows the werewolf to continue to function as if fed and watered for a few extra days, sometimes just enough to ensure that she lives."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite can be performed on any werewolf, but it is usually performed by the ritemaster on herself. She bites her tongue or lip, or cuts herself and licks the wound, then ingests the blood. She then burns each of her feet just enough to raise light blisters, though these quickly heal. If the spirits hear her, she ceases to feel the urges to eat or drink. At this point, the werewolf expends at least one Essence to empower the rite."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (25 successes; each roll represents one minute’s worth of effort)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost, as is any Essence spent."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained at this time."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained, and, if the total is accumulated, the werewolf will not need to eat or drink for a number of days equal to the number of Essence points spent. Not only does she not feel any urge to do so, her body does not react to the lack of sustenance until the ritual’s effects ends. When the effects of the ritual dissipate, the werewolf’s body suddenly notices what it has been missing. A werewolf who lacks food but has water, or vice versa, should consume what she has although she feels no need, reducing the harsh backlash at the end of the ritual."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional effect beyond the extra successes gained."
+                ]
+            }
+        ]
     },
     {
         "Name": "To The Cannon’s Mouth",
         "Rank": "3",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 180"
+        "Description": "Lets the ritualist see and hear through a mortal resident of the city for a number of hours equal to Harmony.",
+        "Book": "Tribes 180",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Different Storm Lord packs perform this rite for different reasons: some use it as part and parcel of initiation. Some use it as a test, others as proof of a werewolf’s obvious authority. Finally, packs may use this rite as punishment, a watermark of one’s worth… or his worthlessness."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "In this rite, a pack tests a werewolf’s mettle by running him through a barrage of physical damage and pain. They might beat him with bats. They perhaps harry him like wolves do play, nipping at his heels, slamming him into walls and knocking him down steps. In the city, the pack might bind him to a fire escape and blast him with the spray from a fire hose (if that doesn’t sound bad, then you’ve never been hit in the chest with the water from a fire hose). The test is, can the werewolf suffer the barrage of attacks without an utterance of pain, without a strangled cry or a peep through gritted teeth?"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The name of the rite comes from an old Storm Lord tradition forged at sea with the pirates and shipmen of the tribe. The tradition was to march the werewolf up to the mouth of the cannon and then… fire it at his torso. The werewolf would take the brunt. The stories say that some could tighten up their prodigious chests so tightly that the cannonball would bounce off, whereas others dropped to the deck with a shattered breastbone. Whether this story is even true ignores the point of the ritual: not to test how a werewolf can shrug off damage, but how well he can maintain the face of strength in the power of such sudden pain."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster prepares the target of the ritual by shaving his or her head (one can’t conceal the face of weakness behind long, stringy hair). All participants in the rite must mark the target with fingers of blood — some write words or glyphs on the target’s naked flesh, others might simply rub grisly smears of the stuff. The blood can be animal, human or werewolf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The participants then must do enough bashing damage to the target so that his entire Health pool fills with it. How they do the damage is up to the ritemaster: a gauntlet of tire irons, shotguns firing off bean bags, choking, whatever. The target must not show any kind of weakness. He can run, he can try to escape the damage (though the rite cannot be fulfilled until he suffers all that he can suffer, but some ritemasters will demand that the target flee as prey would during a hunt). But his face must not show moments of pain, and he cannot cry out or make any kind of utterance revealing his suffering. (Storytellers might demand that the target succeed on a Resolve + Composure roll; failure on this roll means the target shows weakness, but can negate that by spending a Willpower point.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Performing bashing damage against the target is the ••• version of this rite. The Storm Lords do have a •••• version, however, and this version requires that the damage be lethal — either lethal from the get-go, or bashing made to turn to lethal. This is obviously more dangerous, pushing the target closer to the edge of death to test his strength."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (a number of successes must be met equal to the target’s total Health score; each roll represents 10 minutes of pain delivery)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. The subject must roll for ",
+                    {
+                        "text": "Kuruth",
+                        "italic": true
+                    },
+                    ". The ritual must be reattempted another day."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gathered toward the total."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes mount toward the total. Once the total is reached, the rite is over and the pain can stop. The target has hopefully proven his mettle. If he ",
+                    {
+                        "text": "did",
+                        "italic": true
+                    },
+                    " not show weakness during that time, he gains a rather potent benefit upon healing all the damage suffered. For a number of days equal to the werewolf’s Primal Urge score, that werewolf becomes immune to the type of damage suffered (if the three-dot version was performed, he becomes immune to bashing damage, and if the four-dot version was performed, he is immune to lethal). If he ",
+                    {
+                        "text": "did",
+                        "italic": true
+                    },
+                    " show weakness, however, the target suffers a punishment, instead. Once the damage from the rite is healed, the target suffers greatly from damage taken for a number of days equal to ",
+                    {
+                        "text": "twice",
+                        "italic": true
+                    },
+                    " his Primal Urge score. During this time, bashing damage becomes lethal, and lethal damage becomes aggravated. Aggravated stays as is, being at the peak of preternatural damage."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "As above, except all participants gain a Willpower point. The ritemaster gains two."
+                ]
+            }
+        ]
     },
     {
         "Name": "Wake the Spirit",
         "Rank": "3",
         "Cost": "-",
         "Description": "Awaken a dormant spirit, which possesses no loyalty or concern for the ritualist.",
-        "Book": "WtF 161"
+        "Book": "WtF 161",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "When the Gauntlet rose and the two worlds were separated, many spirits fell into slumber, their voices no longer heard. In the years since, countless objects have come into being without their spirits being stirred. To this day, although many spirits roam the shadow world, many, many more places and objects have yet to be “awakened.” This rite allows a werewolf to rouse a dormant spirit from slumber, effectively “summoning” a new spirit into existence."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Waking a spirit can be a dangerous gamble, as the newly awakened spirit feels no obligation or gratitude to the ritemaster. A spirit that’s been awakened by this rite acts according to its nature — no more, no less. A werewolf might be able to convince the newly awakened spirit of a car to give its earthly analogue a measure of its power simply for the ecstasy of racing at high speeds, but an awakened flame-spirit might be as dangerous to the werewolf as to her enemies. Yet awakening a spirit gives a werewolf a new potential resource from which to draw. A werewolf can awaken the spirit of a murder weapon to question the spirit about its former owner, for instance. Indeed, using this rite brings a new spark of life to the Shadow."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster drums, chants, dances or performs some other form of rhythmic noise and motion as she moves about the object or place to be awakened. The culmination of the rite is a loud howl, which is meant to shake the spirit free of sleep."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost, and the rite fails. The ritemaster may not attempt to awaken that particular spirit again for 24 hours."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are added."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gathered. When 15 or more are accumulated and the rite is performed on a mundane item or place, it wakes the potential spirit within. The item then possesses a spirit analogue in the Shadow Realm.",
+                    {
+                        "lineBreak": true
+                    },
+                    "When performed on an animal, this ritual “wakes” a Gaffling related to that animal in the spirit world. The Gaffling isn’t directly connected to the animal in question, though, and it doesn’t have to remain in the animal’s area. For example, performing the rite on a Doberman pinscher wakes a dog-spirit that might not necessarily look like a Doberman.",
+                    {
+                        "lineBreak": true
+                    },
+                    "A newly awakened spirit is always a Rank 1 Gaffling with average traits for its class (see p. 279). The rite cannot be performed on sentient creatures such as humans, or on objects or animals that already have awakened spirits associated with them. The ritemaster gains a +1 to all rolls to influence the newly woken spirit, including Gifts and rites, for the duration of the scene in which this rite is performed. Although the spirit doesn’t always show gratitude, it’s usually slightly suggestible for the first few hours of its existence."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Several successes are gained at one time. If 20+ are accumulated, the spirit has an increased chance of being positively disposed toward the ritemaster."
+                ]
+            }
+        ]
     },
     {
         "Name": "Waken the Fell Wolf",
         "Rank": "3",
         "Cost": "○●",
-        "Description": "",
-        "Book": "Blas 103"
+        "Description": "Temporarily awakens the predatory spirit of dogs or enhances wolves, creating a temporary pack for hunting or defense.",
+        "Book": "Blas 103",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In days of old, the Valkyries often hunted and warred at the head of their own pack of feral wolves. This rite was more commonly used before the modern age, when more people owned large numbers of working dogs and wolves were more common, but still has its uses even now. With this rite, a Valkyrie may temporarily waken the predatory spirit of domestic dogs or enhance the prowess of a group of wolves — creating a temporary pack for herself, normally for the purpose of hunting or defense."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Valkyries do not use this rite lightly. Although they will use it to battle a strong foe, they will not throw away the lives of these animals. Once the animals are ennobled with this ritual, the Valkyries treat even mere dogs as wolf-brothers."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ritual must be performed at night. The subject(s) can be from 1-10 large dogs, up to no more than two dogs per dot of the ritualist’s Primal Urge. The ritemaster must keep the dogs within a ritual circle about five yards wide, drawn in fresh earth with the jawbone of a wolf. During the ritual, the ritualist coaxes the dogs into a group howl. Each dog must be fed a pound of raw meat and offered water at the rite’s conclusion."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended. (10+ 1 success per dog; each roll represents one minute.)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. The rite cannot be attempted again for 24 hours."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are added."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the required total. Once the total needed is reached, the canines transform over the period of one minute. They do not turn into dire wolves, but they do grow more feral looking, as their fur thickens and darkens and their musculature is enhanced. They do not become mindless killing machines, but become more mannered than most domestic dogs — developing the social skills of wolves. The dogs also remember their heritage and skills as hunters and predators. Canines affected gain one dot of Stamina, Dexterity, Survival and Stealth for the rite’s duration. Use the dog write-up from the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ", p. 203.",
+                    {
+                        "lineBreak": true
+                    },
+                    "These feral hunters always recognize the ritualist as their alpha and are unflinchingly loyal. They will not stray more than 50 yards from her side while affected. The ritualist may communicate with them as if they were wolves. To take advantage of this, she often switches to Urhan to guide them in a hunt and use wolf-speak; Urshul can be used to issue commands in battle. She does not gain any magical control over them, only their loyalty. The ritualist in these forms gets + 3 to Manipulation + Animal Ken rolls to communicate with her “pack.” She can still attempt to interact with them per the normal rules for Animal Ken (see the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ", p. 78, and ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    ", p. 173).",
+                    {
+                        "lineBreak": true
+                    },
+                    "The rites effects last until dawn or the ritualist dies."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Considerable successes are gained. If the final roll brings the total to five greater than is needed, the dogs gain a dot of Strength as well."
+                ]
+            }
+        ]
     },
     {
         "Name": "Waters of Songkran",
         "Rank": "3",
         "Cost": "●●",
         "Description": "Creates purified water that will cause aggravated damage to Hosts, Ridden and Forsaken with a Harmony of 3 or less. Any werewolf hit by water reverts to Hishu and cannot Death Rage, regardless of circumstances. Water loses potency after number of hours equal to ritemaster's Primal Urge.",
-        "Book": "LodgS 119"
+        "Book": "LodgS 119",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Also called ",
+                    {
+                        "text": "Khan Kwaang",
+                        "italic": true
+                    },
+                    " (or “water-throwing”), this is a ritual of purity taught only to members. To the Songkran Forsaken, throwing clean water upon an individual is an act of purification. During the springtime water of Songkran, the Thai people dash about the streets tossing water upon each other for the same reason."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ritual gives this act a level of potency. Not only does this ritual help to purify a tainted werewolf, but it also burns the skin of any creature who is in some way corrupted. When the water hits the flesh, it sizzles and steams wildly, causing the target intense pain."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The water the ritemaster hopes to purify can be in any vessel, but the Songkran werewolves prefer it be in a bowl (often gold, but wood or another metal is fine). The ritemaster prays over the bowl and lights incense, blowing the smoke over the surface of the water. She also must place an orchid in the water, letting it float for the final minutes of the ritual."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes; each roll represents one minute of preparation)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The rite fails, and the water turns black. The ritemaster may not attempt to cast this rite again for 12 hours."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained. If the total reaches 10 or more successes, the water is thus blessed with purity. This has a number of effects.",
+                    {
+                        "lineBreak": true
+                    },
+                    "First, the water is literally purified. If it featured any chemical or natural contaminants, they are now gone and the water is clean and potable.",
+                    {
+                        "lineBreak": true
+                    },
+                    "Second, when ",
+                    {
+                        "text": "all",
+                        "italic": true
+                    },
+                    " the blessed water is thrown upon the bare flesh of a target, doing so causes one point of aggravated damage. This task can be performed with a Dexterity + Athletics roll, with the target’s Defense subtracted when applicable. If any of the water hits the target’s skin, the damage is done. This ",
+                    {
+                        "text": "only",
+                        "italic": true
+                    },
+                    " works on a certain subset of targets, however. The water will only burn Hosts, Ridden and those Forsaken who have a Harmony of 3 or less.",
+                    {
+                        "lineBreak": true
+                    },
+                    "Third, if the water successfully hits ",
+                    {
+                        "text": "any",
+                        "italic": true
+                    },
+                    " Forsaken, that Forsaken may not enter Death Rage this scene, regardless of the circumstances. All werewolves hit by the water also revert automatically to Hishu form.",
+                    {
+                        "lineBreak": true
+                    },
+                    "The water only maintains its blessing for a number of hours equal to the ritemaster’s Primal Urge. Moreover, the ritemaster can only cast this upon a single vessel of water at any given time. While some would like to stockpile this sacred water, the permutations of the ritual deny them that possibility."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained. If the total reaches 15 or more successes, the water now does two aggravated damage to the appropriate targets (Hosts, Ridden, Forsaken with Harmony 3 or less)."
+                ]
+            }
+        ]
     },
     {
         "Name": "Alpha’s Blessing, Rite of",
         "Rank": "4",
         "Cost": "-",
         "Description": "A pack swears fealty to the ritemaster, and in turn they gain bonuses to Wits and Resolve until sunrise. Should any member break their vows to the ritemaster, they lose the bonus.",
-        "Book": "LodgF 112"
+        "Book": "LodgF 112",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite is a particular favorite of the Lodge of Winter’s ritualists, as it offers power for power — those who obey the ritemaster are rewarded with spiritual might."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "According to lore, the rite was originally stolen from the Ivory Claws, who used it to cement their leadership position over the other Pure. This rite works only on participants who are willing to swear obedience to the ritemaster; for as long as they follow his orders, they are mystically fortified, but should they disobey or question him at any point, the blessing ends. Despite the relatively painless consequences of disobedience, many Uratha are unwilling to receive the blessings of this rite — particularly other Storm Lords. It is a rite that offers its power only to those who are willing to bend knee."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Those who are willing to be subjected to the rite must gather before the ritemaster in a fashion that demonstrates their willingness to obey; it is common to kneel, though some prefer to take wolf form and hold a submissive posture. The ritemaster anoints each of the subjects with her own blood, a sign of her willingness to lend them power. As the ritemaster proceeds, she asks repeated oaths of loyalty from the recipients in the First Tongue — each one a formal charge such as “Should I ask it, you will give me food” and “Should I ask it, you will kill.” To each charge, the recipient responds in the First Tongue, “",
+                    {
+                        "text": "Ha sehah",
+                        "italic": true
+                    },
+                    "” — “I obey.” At the completion of the rite, the ritemaster must give the subjects at least one command to prove to the spirits that she truly seeks obedience — “Do as you will” and similar “orders” mock the purpose of the rite, and are not acceptable. Most Winter Lords have no difficulty whatsoever in finding orders for their allies, of course."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes per recipient; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. It is unlikely that the recipients are willing to endure another attempt in the face of the ritemaster’s incompetence."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are added."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are added. If the ritemaster reaches a number of successes equal to or greater than 10 per follower, the rite is a success. Each recipient receives a +1 bonus to Wits and Resolve rolls for the duration of the rite’s effect.",
+                    {
+                        "lineBreak": true
+                    },
+                    "The rite’s effects last until the next sunrise, or until one of the recipients disobeys one of the ritemaster’s orders. The ritemaster doesn’t have to be aware that she was disobeyed, nor does the trespass have to be intentional. Disobedience only strips the rite’s effects from the errant recipient; other subjects retain the blessing until the next sunrise or a trespass of their own."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional benefit beyond the extra successes gained."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-1",
+                        "Per recipient who has a higher Renown total than the ritemaster"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Angry Streets, Rite of",
         "Rank": "4",
         "Cost": "●",
         "Description": "Warns a section of a city of hostile intruders; until the next sunrise, the city becomes actively hostile to these targets.",
-        "Book": "LodgF 95"
+        "Book": "LodgF 95",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In ",
+                    {
+                        "text": "The Art of War",
+                        "italic": true
+                    },
+                    ", Sun Tzu teaches that you must choose and control your battleground if you want victory. In the urban jungle, the city-speakers can control the battleground like no others. Experienced members of the lodge — and only experienced members are taught this rite — are enough in harmony with the agendas of the city-spirit to rouse them in anger to make life ever harder for mutual foes of the werewolf’s pack and the city itself. The very city itself seems to turn on the enemy, making even the simplest task, such as passing through a door or navigating the streets difficult. Door jams and curbstones reach out to trip him up and urban animals attack unexpectedly from the shadows."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist walks the streets of the city, making purposeful, physical contact with as many buildings as he can. Some werewolves rest their foreheads against the objects they’re talking to, while others lay their palms flat against their subjects. Some just walk along, running their fingers against the brickwork, leaving angry spirits in their wake. To each building, he whispers of the evil of the enemy they face. To every road and sidewalk, he tells of the harm that will be done to the city. To every animal lurking in an alley, he howls of the coming predator. He must spend at least half an hour per area the size of a city block to rouse the spirits and set them against the werewolf’s prey. This rite cannot be performed more than once in any lunar month without offending the city’s spirit."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents half an hour)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the required total. If the number of successes reaches 15 or more, the rite takes effect. The werewolf may nominate one target, or a group of multiple targets that are bound together by spiritual ties (such as a group of Hosts or a werewolf pack). If the werewolf chooses to name multiple mutually bound targets, he may nominate up to one target per point of Harmony.",
+                    {
+                        "lineBreak": true
+                    },
+                    "Until the next sunrise, an area of the city up to one city block per point of Harmony will become hostile to the named targets. The targets of the rite suffer a -2 penalty to all rolls that would ordinarily be subject to a distraction penalty while within the area of effect, as the city interferes subtly with their actions. The nominated city blocks must be adjoining."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained toward the required total. If the number of successes reaches 20 or more, the rite has additional power. The penalty to Physical rolls is raised to -3."
+                ]
+            }
+        ]
     },
     {
         "Name": "Battle Brand, Rite of the",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 41"
+        "Description": "Marks warriors before battle, granting attack bonuses and making enemies hesitate against branded beneficiaries.",
+        "Book": "Tribes 41",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A pack of howling, snarling Uratha wearing the war form and charging out of the darkness with Rage in their eyes is an intimidating sight. Most any human, and more than a few of the supernatural denizens of the World of Darkness, would flee in abject terror at such a vision of death bearing down on them. But when the natural intimidation factor of a werewolf’s Rage isn’t enough, the Blood Talons employ this rite, to pump themselves up before a battle and to intimidate their foes."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Although many Blood Talon ritualists agree that the Rite of the Battle Brand is an original creation of their tribe, this rite has a bad reputation in some areas contested by the Pure. The imagery of the ritual is undeniably similar to that used in the rites of the Fire-Touched, and the ",
+                    {
+                        "text": "Izidakh",
+                        "italic": true
+                    },
+                    " are known to employ similar pre-battle rituals. Whether this is a case of parallel evolution or one tribe appropriating the rituals of their enemies, ritualists are advised to step lightly when performing this rite in territories where war against the ",
+                    {
+                        "text": "Anshega",
+                        "italic": true
+                    },
+                    " is common."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "On the eve of battle, the ritualist and any participating werewolves gather in a large, open space and build a fire. This could be anything from an inferno in a clearing in the woods to a burning trash can in an empty parking lot, as long as the fire is at least bonfire-sized. Once the fire is banked up to its full intensity, the werewolves begin to circle around it, moving in a stuttering, uneven counterclockwise loop. As the shadows dance and flicker, the pack members change shape at random, striving to match their changes to the shifting firelight. The ritualist stands in the center of the ring next to the bonfire and shouts exhortations to Glory and Honor in battle. The ritual often takes a call-and-response form, with the ritualist bellowing a challenge that the participants answer with shouts, roars or howls. Finally, when the assembled werewolves are judged to be suitably worked up, the ritualist calls each forward in turn and sears him with a brand from the fire. The brand is usually made on the chest or arm, but some Blood Talons prefer to mark themselves on the brow. The brand inflicts a minimum of one point of lethal damage, but it is considered a point of pride to wear a more severe brand into battle. The recipient of the brand may choose how many points of lethal damage he suffers. Mark any Health boxes filled with lethal wounds by the brand with a small dot below the box to more easily track the rite’s Duration."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (at least two successes per Uratha to be blessed; each roll represents five minutes of psyching up)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The ritualist fails to properly stoke the blood of the assembled warriors. All present take a -1 penalty on shapeshifting rolls and attack rolls until the next moonrise."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are accumulated."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "The ritualist makes progress toward working the assembled werewolves into a battle-hungry mindset (see below).",
+                    {
+                        "lineBreak": true
+                    },
+                    "Each success rolled must be assigned to one Uratha beneficiary (including the ritualist himself). For every two successes assigned to a character, the beneficiary receives a +1 bonus to any Brawl or Weaponry attack made to attack an enemy (round down). In addition, compare the total successes assigned to the beneficiary against the Composure of any enemy who attacks him. If the number of assigned successes is greater, the target takes a penalty on any attacks against the beneficiary equal to the difference.",
+                    {
+                        "lineBreak": true
+                    },
+                    {
+                        "text": "Example: Jack Snake Tooth performs the Rite of the Battle Brand for his pack before they go into battle against the Pure. Jack assigns five out of his total 15 successes to Stone Eyes, the pack’s Rahu. Until his brand heals, Stone Eyes receives a +2 bonus on all of his attacks. When Stone Eyes faces off against the Pure pack’s Predator King war chief with a Composure of 3, the Predator King suffers a -2 penalty to hit Stone Eyes.",
+                        "italic": true
+                    },
+                    {
+                        "lineBreak": true
+                    },
+                    "The effects of this rite last until the wound from the branding heals. When none of the boxes filled with lethal damage by the brand have a wound marked in them, the brand is considered healed."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Not only is significant progress toward the ritual’s completion made, but the total number of successes assigned is doubled when compared to the Composure of any enemies (see below)."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "-1",
+                        "The fire used is no hotter than a candle (see the World of Darkness Rulebook, p. 180)."
+                    ],
+                    [
+                        "+1",
+                        "All participants are Blood Talons."
+                    ],
+                    [
+                        "+1",
+                        "The rite is performed by a Rahu."
+                    ],
+                    [
+                        "+1",
+                        "The rite is performed under the full moon."
+                    ],
+                    [
+                        "+1",
+                        "The fire used is inferno-size (see the World of Darkness Rulebook, p. 180)."
+                    ],
+                    [
+                        "+1",
+                        "The fire used is as hot as a Bunsen burner (see the World of Darkness Rulebook, p. 180)."
+                    ],
+                    [
+                        "+2",
+                        "The fire used is as hot as a chemical fire (see the World of Darkness Rulebook, p. 180)."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Binding of Looks",
         "Rank": "4",
         "Cost": "●",
         "Description": "All locks within one city block become locked.",
-        "Book": "Rage 131"
+        "Book": "Rage 131",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Binding of Locks was developed specifically for urban hunts, though the rite has its uses in certain rural areas. When successfully enacted, the rite locks all doors and windows within its area of influence, making it all the harder for prey to find a safe place to hide. No door will open to the quarry; no car will carry him from the scene."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster draws some of her own blood and mixes it with oil. She then dips a fingertip or claw into the mixture and slowly draws a number of circles on a door or window, singing a song of wakefulness to the spirits of doors and portals. As she concludes the rite, she draws a horizontal line through each circle, “locking” the rite."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents one minute’s effort)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes gathered are lost. A few locks may even open themselves out of spite."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are accumulated. If the required total is gathered, all locks within the equivalent of a city block’s area, centered on the ritemaster, immediately lock themselves. They can be unlocked again at any time as usual; the rite does not keep them fastened. Only locks and fasteners (such as a window fastener) are affected; the rite cannot affect security devices such as door chains or security alarms."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional effect other than the quicker accumulation of successes."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Dead of night"
+                    ],
+                    [
+                        "-2",
+                        "Daytime"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Blinding the Eye",
         "Rank": "4",
         "Cost": "-",
         "Description": "Using a personal possession of a subject, the ritualist strikes the victim blind for a short time. The blindness lasts only minutes in Uratha, but several hours in humans.",
-        "Book": "LodgF 112"
+        "Book": "LodgF 112",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Members of the Lodge of Winter continually search out new rites of all sorts, but are of course partial to those rites that increase their personal power. Blinding the Eye is an example of the worst of these rites, those that do not enhance the ritemaster so much as weaken or injure his enemies. The werewolf with this rite who obtains a personal possession or bit of body matter from a target can use it as a bridge to strike his enemy blind. Though the effects are not usually permanent, a cunning Storm Lord will time the rite for maximum effect — during a target’s morning commute, for instance."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The werewolf must have some sort of object with a sympathetic link to the target; the closer to the eyes, the better. An eyelash is considered the ideal ritual focus. The ritemaster lets some of his blood fall on the focus as he chants the formal curses in the First Tongue. If the rite is successful, the victim’s vision is overcome with a blood-red haze that quickly deepens to pitch blackness."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (5 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. If the ritemaster did not already have any successes to lose (such as on the first roll of the rite), the curse backfires; the ritemaster is blinded for 10 minutes as his target would have been."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained. If the werewolf reaches 5 or more successes, the rite takes effect. The target must roll Resolve + Primal Urge - the ritemaster’s Harmony. Success indicates no effect; failure indicates the target is struck blind for one minute per success. Humans are particularly susceptible to this rite, and lose their vision for one hour per success if they fail the Resolve roll."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained. If the werewolf reaches 10 or more successes, the rite takes effect as above, but the duration is increased to one hour per success (or permanently, in the case of a human target)."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Sympathetic material is vision-related (eyeglasses, eyelash)"
+                    ],
+                    [
+                        "+1",
+                        "Sympathetic material is part of the target’s body (nail clipping, hair, blood)"
+                    ],
+                    [
+                        "-1",
+                        "Sympathetic material is not part of the target’s body (shirt, wallet)"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Bloody-Handed Hunter",
         "Rank": "4",
         "Cost": "●●",
-        "Description": "Stains hands blood red to the wrist for one night but can be ended prematurely if the werewtdtdolf desires. All claw attacks inflict +1 aggravated damage.",
-        "Book": "SotUK 101"
+        "Description": "Stains hands blood red to the wrist for one night but can be ended prematurely if the werewolf desires. All claw attacks inflict +1 aggravated damage.",
+        "Book": "SotUK 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite was developed to honor the family lines and ancestry of some Blood Talons that reach back to the era of Celtic warriors as “bloody-handed heroes.” This is not a ritual that romanticizes the Celtic culture as particularly noble; rather it harkens back to an era of violent men who spent a great deal of time killing one another. That savage passion echoes in the modern ritual, and transfers to the werewolf’s claws."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Bloody-Handed Hunter cannot be performed on other characters — only the ritemaster himself can receive the benefits. The ritualist meditates on the savagery shown by his ancestors for no less than an hour before beginning the rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist then prepares a bowl of purified water (mineral water is not acceptable; the water must be boiled by the ritemaster), and the werewolf cuts deeply into his palms with a knife or other sharp implement. Immersing his bleeding hands in the bowl for a number of minutes, the werewolf swears to Luna that he will bring death to any enemies he meets before sunrise."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes required; each roll represents a minute of immersion in the bloody water)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All gathered successes are lost; the werewolf suffers one point of lethal damage."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained. If the total number of successes equals 15 or more, the werewolf’s hands are stained blood-red to the wrists for the rest of the night and his claws create hideously painful wounds when they strike his enemies. All of the Uratha’s claw attacks inflict aggravated damage +1 until sunrise, when the stain fades. The rite’s effects can be ended at any time the werewolf desires."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained. If the total number of successes equals 20 or more, the Uratha’s hands continue to bleed until sunrise, causing one Health level of lethal damage every minute, and dealing aggravated damage +3 until sunrise, when the rite ends. The rite’s effects ",
+                    {
+                        "text": "cannot",
+                        "italic": true
+                    },
+                    " be ended before dawn."
+                ]
+            }
+        ]
     },
     {
         "Name": "Bone-Fires of Summer",
         "Rank": "4",
         "Cost": "",
         "Description": "Seasonal rite bestows upon participants 6 discretionary dice that may be used for combat s that may be used during the next lunar month.",
-        "Book": "Rage 132"
+        "Book": "Rage 132",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Summer is the traditional season of war. The People mark the season by building great fires, in which they burn war trophies and offerings to their totems. This ritual proclaims their strength and ferocity to the heavens, and empowers their resolution to continue fighting. The Pure are said to add living sacrifices to their fires to prove their devotion, a step that most Forsaken are not willing to take."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Some areas build their bone-fires on the summer solstice, while others wait for the temperature to be at its hottest. More aggressive werewolves (particularly the Pure) often favor enacting the rite in the middle of a heat wave, when violence is already rising high. In the United States, some werewolves choose to set their bone-fires on the Fourth of July. Urban packs often have to perform this rite outside their territory, though some actually burn down entire buildings as an offering."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite is typically performed at night, though there is no drawback to lighting a fire under the sun. The rite begins with the ritemaster appearing, torch in hand, to exhort the gathered werewolves to show their might and resolve to the spirits. As the pyre is lit, the participants throw in war trophies or personal offerings to their pack or tribal totems. Each offering is made with a howl, boast or battle cry. The offerings vary greatly: hand-carved statuettes, paper money, scalps, delicate origami, leather jackets splashed with the owner’s colors are all possibilities. Bones, of course, are the most famous offering, particularly femurs or skulls carved with an account of the former owner and how he died. The ceremony closes with a great howl led by the ritemaster, after which pack alphas usually cry out to their packs to follow them on a hunt."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents 10 minutes’ effort)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes gathered are lost. The rite’s failure actually acts as a light curse on the participants, giving them a -1 penalty to Dexterity rolls for the remainder of the night."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are accumulated. If the required total is gathered, the rite is a success. All participants in the rite gain six discretionary dice, which may be used toward any action related to combat during the next lunar month. In addition, the spirit of war floods the participants. All affected werewolves suffer a -1 penalty to Composure checks and gain a +1 bonus to Stamina checks for the duration."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are accumulated. If 25 successes are accumulated, the number of discretionary dice awarded to each participant is increased to nine."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Per werewolf who takes at least two levels of damage by exposing herself to the flames"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Chosen Ground, Rite of",
         "Rank": "4",
         "Cost": "-",
         "Description": "Colors the resonance of a locus at the heart of a pack's territory according to their desires, giving a +1 to all appropriate rolls inside the territory for 1 year.",
-        "Book": "WtF 163"
+        "Book": "WtF 163",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Many werewolf packs shape their territory to suit their tastes. Physically, doing so might involve planting trees where more belong or slaughtering humans that detract from the territory’s worth. Changes to the spirit world in a pack’s territory take much longer to effect — with a few exceptions. The Rite of Chosen Ground is one. This ritual allows a pack to infuse the spirit reflection of its territory with the kind of Essence that members prefer, influencing the area’s resonance and hopefully attracting specific sorts of spirits while repelling unwanted ones."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Rite of Chosen Ground is usually performed as the culmination of a pack’s efforts to shape its territory. (For more details on this process, see “Reshaping the Spirit World,” p. 264.) The rite requires the presence of a locus as the focal point. The actual details of the rite vary greatly between packs, as the particulars depend on the sort of resonance the group attempts to invoke. For example, an effort to bring out the resonance of strength may involve rituals of mock combat, heavy exercise and the erection of standing stones or other large monuments that attest to the power of the builders. Invoking a resonance of fear in an attempt to discourage humans and others from entering the pack’s territory might involve carefully orchestrated (but random-seeming) acts of violence or ritually causing Lunacy in humans. The pack engages in appropriate activity for four hours each night or day, culminating with an hour of elaborate ritual led by the ritemaster."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (50 successes; each roll represents one day’s worth of effort.)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. The botched rite might attract the attention of a powerful antagonistic spirit that attempts to claim the area for its own."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained at this time."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Success are gained, and if the total is accumulated, the local flow of Essence is adjusted, bringing out the desired resonance. For the next year, all pack members and spirits that are either allied with the pack or with the resonance in question (such as fear-spirits in an area dedicated to a resonance of fear) gain a +1 bonus to all rolls that involve appropriate activities. For example, if the pack works hard to create an area with a resonance of healing, +1 is added to rolls involving Medicine for members and allied spirits. If the pack creates an area with the resonance of fear, one extra die is added to any rolls to intimidate or terrify adversaries.",
+                    {
+                        "lineBreak": true
+                    },
+                    "The effects of the rite apply over an area equal to triple the radius of a locus’ influence. (See “Loci,” p. 261.)",
+                    {
+                        "lineBreak": true
+                    },
+                    "If the rite is enacted with a two-dot locus at its center (five yards of influence), the pack members receive the benefits whenever they’re within 15 yards of the locus. Obviously, large and powerful loci extend the rite’s influence to a great distance, further increasing the demand for such potent places of power.",
+                    {
+                        "lineBreak": true
+                    },
+                    "The Rite of Chosen Ground’s effects last for an entire year unless the pack neglects its territory such that the influence of the chosen resonance would fade. The ritual’s effects can also be undone by appropriate changes to the territory."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Several successes are gathered in a short time. If 55+ are accumulated, the chosen bonus is +2 for 24 hours after the rite’s completion. After that time, it becomes a one-die bonus."
+                ]
+            }
+        ]
     },
     {
         "Name": "Claws of Ashes",
         "Rank": "4",
         "Cost": "●",
         "Description": "Claw attacks inflict +2 Aggravated damage until sunrise.",
-        "Book": "LodgS 115"
+        "Book": "LodgS 115",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite was developed in order to offer the aging Scars an additional edge in the battles they fought. As few scarred elders leap into battle with the tenacity and fury of the young, the werewolves grouped together and created a ritual that would allow a respected werewolf to heighten his killing skills in other ways, through preparation and meditation before a battle. The result of this was the rite that came to be known as Claws of Ashes."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This is a deeply personal rite that cannot be performed on others. The ritemaster meditates for an indeterminate amount of time, but for no less than an hour before beginning the actual rite. This is a period of reflection and clearing of the mind, when the werewolf must dwell upon the chances of his own death in the coming battle."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist then starts a small fire (several candles are considered acceptable if a modest “campfire” isn’t available), and thrusts his hands over the tip of the flames for nine heartbeats, while snarling his anger at no longer possessing the true fire of youth. Then the werewolf rubs cold ashes over his hands, washing them in the ash of a long-dead fire. He does this for a further nine heartbeats, while solemnly admitting that his own death will come soon. After these two benedictions are complete, the Uratha holds his burned and filthy hands up to Luna’s face, begging the Mother for luck in battle and invoking the ancient might of Scarred Bear in the coming conflict."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The rite fails and the Scar may not call upon Scarred Bear in this manner for another month."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "The rite simply fails."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "The werewolf feels a painful, barely-suppressed ache in his hands, reaching from a dull throb in the bones of his forearms to an agonizing and shrill pain in his fingertips. All of the Uratha’s claw attacks inflict aggravated damage +2 until sunrise."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "As with a success, though the blessing of Scarred Bear also adds +1 Strength to the previous effects, which also lasts until dawn."
+                ]
+            }
+        ]
     },
     {
         "Name": "Corrosion, Rite of",
         "Rank": "4",
         "Cost": "-",
         "Description": "Corrodes an object, granting 9-again property to all attempts to break it for the remainder of the scene.",
-        "Book": "LodgF 71"
+        "Book": "LodgF 71",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "“Sometimes you make, sometimes you just have to break,” is an old saying amongst the Lodge of Metal. Other Iron Masters often look to members of the Lodge of Metal to help them destroy things, from unwelcome buildings to fetishes used by the hosts or the Pure. This rite doesn’t destroy the object, but does highlight and enhance its weaknesses, allowing werewolves to do what they often do best."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite needs a varying number of participants, depending on how big the object targeted for destruction is. A small, handheld object needs just the ritemaster, while a building will require an entire pack to participate. The werewolves call, howl and chant as they circle the object, attempting to scare or, at least, unsettle the spirits within. Over the course of the rite, the connection between the spirits and the object is slowly worn away, leaving the object more vulnerable to manipulation, without the reinforcing effect of the spirit’s presence."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (3 successes per point of Size of the target object; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. The rite fails, and will not work again no matter what the object until the next day."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the total. If the total number of successes equals the object’s Size x3, the rite takes effect. For the remainder of the scene, any rolls made to break or destroy the object in question are subject to the “9 again” rule (see the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    ", p. 134)."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional effect save hastening the rite."
+                ]
+            }
+        ]
     },
     {
         "Name": "Darkest Night of Winter",
         "Rank": "4",
         "Cost": "",
         "Description": "Seasonal rite bestows upon participants 6 discretionary dice that may be used towards enduring mental of physical hardship during the next lunar month.",
-        "Book": "Rage 133"
+        "Book": "Rage 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The most somber of the seasonal rites, the Darkest Night of Winter is a ritual dedicated to endurance and perseverance rather than zeal, strength or wisdom. This rite is a scanty meal shared between predators, a reminder of lean times and an exhortation to endure and thrive despite the lean times to come."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "As the title suggests, this rite is typically performed on the winter solstice. Other popular dates include New Year’s Eve, or the new moon closest to the end of December."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite is always performed when the sky is at its blackest; attempting a spiritual reinforcement of endurance requires adverse conditions. The presence of moonlight at the rite is considered an affirmation of weakness, as if the People were unable to endure poor conditions without the presence of their mother."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The participants meet under the open sky, and traditionally wear very little in order to defy the elements. Mountaintops and rooftops are particularly valued gathering places. The ritemaster opens with a ritual greeting and invocation to the spirits, and sets some form of food in the center. The food is traditionally meager for all the werewolves concerned: a single deer carcass for a gathering of multiple packs, or a solitary skinny rabbit for a pack. The rite then moves to an invocation of those who died during the past year. Each participant repeats the names of those Forsaken lost to the packs gathered, and offers some memory, however, short, of the deceased. The ritemaster then divides the food among the werewolves present, stating that even on this meager fare and under this hostile sky, the People will endure."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Unlike the other seasonal rites, the Darkest Night of Winter does not typically end with the assembled werewolves rushing off to hunt. It has become something of a tradition, particularly in Europe, for the participants to then retire to a bar, pub or restaurant for a peaceful bout of drinking, something of a respectful wake for the fallen. Even the most bitter of rivals are expected to get along with one another on this night. It doesn’t always work out that way, but the ideal is still valued."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents 10 minutes’ effort)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes gathered are lost. The rite’s failure hangs over the participants, giving them a -1 penalty to Resolve rolls for the remainder of the night. The rite cannot be attempted again that night."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are accumulated. If the required total is gathered, the rite is a success. All participants in the rite gain six discretionary dice, which may be applied to any action related to enduring physical or mental hardship during the next lunar month."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are accumulated. If 25 successes are accumulated, the number of discretionary dice awarded to each participant is increased to nine."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Total cloud cover"
+                    ],
+                    [
+                        "-1",
+                        "Visible starlight"
+                    ],
+                    [
+                        "-2",
+                        "Visible moonlight"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Dead Light, Rite of",
         "Rank": "4",
         "Cost": "",
         "Description": "Transforms a Lune into an Iduth-Su.",
-        "Book": "Blas 143"
+        "Book": "Blas 143",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Rite of Dead Light allows ",
+                    {
+                        "text": "Asah Gadar",
+                        "italic": true
+                    },
+                    " to keep Lunes in a semi-sentient, near-death state of constant agony. The spirit is cut off from returning to Luna, and is utterly subservient to the ritemaster that bound it, in the hope that it will be granted release in death. In truth, the Lune is dying — dying eternally — but the Rite of Dead Light feeds the spirit just enough Essence to maintain its agonized existence forever. These tortured, bestial Lunes are known as the ",
+                    {
+                        "text": "Iduth-Su",
+                        "italic": true
+                    },
+                    ", the Flayed Ones."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This is no easy feat. The ritual to hollow out the Lunes and rebirth them as Flayed Ones must take place on a lunar eclipse, and within the boundaries of a Wound. If the Bale Hound can arrange this difficult circumstance precisely during the short time the moon is eclipsed by the Earth’s shadow, then the most difficult part is out of the way and the Rite of Dead Light can be performed. A Bale Hound who is fully ready for this ritual will consider using the Rite of Binding on the Lune to make sure it is unable to flee the tainted Shadow landscape when the treachery is revealed."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Before the Lune is even present, the Bale Hound must establish a “heresy circle” of runes defying the love offered by Mother Moon. These are the ritual signifiers that show the Bale Hound is truly prepared to violate the will of Luna and corrupt one of her blessed servants. Once it is within the Wound, the Lune must be reduced to zero Corpus within sight of the heresy circle (which some Bale Hounds use as a Binding circle if they know how). Bale Hounds traditionally seek to “flay” the Lunes by inflicting row upon row of claw-carvings that literally peel the Corpus from the spirit’s body."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Once the Lune resembles nothing more than a hollow shell of its former self, the Bale Hound offers the creature chiminage of a kind only appropriate only for the Maeljin Incarna , such as Essence drawn from a Wounded locus or the Essence-rich blood of another werewolf. The Lune, starved and near-destroyed, will be forced to take the offering in order to sustain itself. At this point, the poor spirit is ingesting Essence with tainted resonance, and as the character makes the Harmony roll, the Bale Hound begins the chant that will bind the betrayed Lune to his will and tear away what little sentience remains to the creature."
+                ]
+            }
+        ],
+        "DicePool": "Harmony versus the Lune’s Resistance",
+        "Action": "Instant and Resisted.",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The Lune breaks free at the last moment and flees the Wound, unless the character has established a Rite of Binding beforehand, in which case the spirit simply dies with obvious relief."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "The Lune is destroyed in the exchange of energies, and fades into nothingness."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "The Rite is successful, and the chant binds the Lune to the will of the Bale Hound. The ",
+                    {
+                        "text": "Iduth-Su",
+                        "italic": true
+                    },
+                    " instinctively recognizes any of the ",
+                    {
+                        "text": "Asah Gadar",
+                        "italic": true
+                    },
+                    ", and serves them with blind devotion. The Flayed One is restored to the Traits that it possessed as a true Lune, though its only source of Essence is through a Bale Hound (or, rarely, one of the Maeltinet)."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The ",
+                    {
+                        "text": "Iduth-Su",
+                        "italic": true
+                    },
+                    " is fanatically loyal to the Bale Hound who bound it, above all others. His voice is the first obeyed, no matter the Rank of any other ",
+                    {
+                        "text": "Asah Gadar",
+                        "italic": true
+                    },
+                    " that the Flayed One encounters."
+                ]
+            }
+        ]
     },
     {
         "Name": "Desert Rain",
         "Rank": "4",
         "Cost": "○●",
-        "Description": "",
-        "Book": "Terr 50"
+        "Description": "Temporarily restores Essence flow to a Barren, allowing the area to begin healing with repeated effort.",
+        "Book": "Terr 50",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Ordinarily it takes years for a Barren to heal and become fertile again, if it ever happens at all. The Rite of Desert Rain temporarily undoes the effects of a Barren, allowing Essence to flow through the area once more. With repeated applications of this rite, and no small amount of luck and hard work to encourage Essence to continue flowing after the rite’s effects end, healing a Barren completely over time is possible."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist crafts a clay brick, baking it in a kiln or with the aid of a fire elemental. Once the brick is finished, the ritualist sets it on the ground at noon and begins slowly trickling 100 gallons of water over the brick. He may use an assistant to ensure a constant flow of water. The water must flow for precisely one day, and the flow cannot be interrupted for any reason (or the ritual fails and a new brick must be made). When this is complete, the ritualist and any assistants begin slowly trickling Essence into the precise spot on the brick weakened by the water flow. If the ritual succeeds, the brick cracks and melts into mud, and the Barren is broken. If the ritual fails, it cannot be attempted for at least 28 days."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (40 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost; the rite fails, and cannot be attempted on the particular Barren again until 28 days have passed."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained; the ritemaster or anyone assisting the rite must spend one Essence."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained; the ritemaster or anyone assisting the rite must spend one Essence. If the total amount equals or exceeds 40 successes, the ritual is a success. The penalties imposed by the Barren are eliminated for seven days, at the end of which time the Barren reasserts itself."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained; the ritemaster or anyone assisting the rite must spend one Essence. If the total amount equals or exceeds 45 successes, the rite’s effects last for 14 days rather than seven."
+                ]
+            }
+        ]
     },
     {
         "Name": "Essence Fence, Rite of the",
         "Rank": "4",
         "Cost": "●●",
         "Description": "Creates fence in the Hisil for up to 1 lunar month. Within the fence Essence may not be taken or traded. Loci cannot be tapped although personal reserves of essence may be spent. The fence may be visible or invisible.",
-        "Book": "LodgS 93"
+        "Book": "LodgS 93",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The spirit world is a constant flow of essence, with the universe’s energy flowing in many ways among spirits and Uratha alike. The Great Darkness perverted that natural order, injecting the Darkness’ own corruptive Essence into spirits and turning them over to its cause. The Rite of the Essence Fence was devised as a means of combating that threat, although the ritual has found other use. When complete, the Rite of the Essence Fence keeps Essence from being transferred into something by any means."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist walks the perimeter around the area he wishes to protect; his footprints are infused with the Essence he spends to initiate the rite. The ritualist must remain in motion for an entire hour; he can retrace his steps, but for the rite to be successful, he must complete the perimeter at least once. As such, the maximum area possibly affected is limited by the ritualist’s own mobility."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "At the completion of the circuit, the ritemaster declares the length of time the fence is to remain erect, with no minimum duration and up to a maximum length of one lunar month. He also declares whether the fence will be invisible or visible in the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    "; this decision will determine whether the glowing footprints fade away or remain visible."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes required; each attempt takes 10 minutes, and no more than six attempts can be made in the hour-long ritual)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost, as are the points of Essence spent. The ritemaster may attempt again on the next night."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the total. If the total reaches 15+ successes, the fence is successfully raised. All Essence bestowment within the perimeter is impossible. Essence can still be spent (presuming its “burned”), but it cannot be given, traded or taken by another. This rite keeps loci from being tapped for their Essence, Essence from being given (or taken) from spirits and so on.",
+                    {
+                        "lineBreak": true
+                    },
+                    "The Essence Fence remains standing for the duration the ritemaster declared; he cannot choose to end it prior to that time, or have any option to ignore its restrictions. Therefore, the ritualist needs to be careful, since he can easily find himself trapped by the same inability to tap Essence as his foes.",
+                    {
+                        "lineBreak": true
+                    },
+                    "Given how unbalancing this rite is to the natural order, most builders of the Essence Fence usually only do so for a week at most, and then only if there is a compelling reason."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional effects beyond the normal results for a successful rite."
+                ]
+            }
+        ]
     },
     {
         "Name": "Eyes of the City",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "SotUK 82"
+        "Description": "Lets the ritualist see and hear through a mortal resident of the city for a number of hours equal to Harmony.",
+        "Book": "SotUK 82",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite mimics one of the legendary powers of the great city-spirit, allowing a werewolf to see through the eyes of any human who lives within the city limits. Ritualists might use this rite to divine the location of a hated enemy, or eavesdrop on the dealings of a loved one or contact. The werewolf has no control over the actions of the subject, and merely sees and hears what the subject senses. The images and sounds replace the character’s own senses, and only revert back to normal when the magic of the rite eventually fails, or the character speaks a word of severance."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "People who share close ties to the werewolf are easier to “ride” in this manner, and wolf-blooded are especially susceptible. The rite fails to function if used on supernatural creatures such as Ridden, vampires, mages and ghosts, though the rite works on wolf-blooded, acolytes and ghouls. Performing this rite upon a friend or relative without informing her beforehand is considered rude and unworthy."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist gathers one or more items related to the subject of the rite (personal items, money recently given, etc.) and howls to the spirit of the city, pleading to be allowed to share the mortal’s senses. When the city-spirit establishes the link, the werewolf must speak a First Tongue word of breaking that will sever the contact when he desires. Otherwise, the rite lasts for a number of hours equal to the ritemaster’s Harmony."
+                ]
+            }
+        ],
+        "DicePool": "Harmony versus subject’s Resolve",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The call to London fails; the ritualist is unable to use the rite on the same subject for another month."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "The rite simply fails."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Success means that the ritualist loses his senses of sight and sound, which are immediately replaced by those of the chosen human. The ritualist sees and hears everything the subject experiences, though the ritualist lacks any control over the human’s actions."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The rite succeeds with twice the usual duration (Harmony x2 hours)."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Situation",
+                    "Modifier"
+                ],
+                "rows": [
+                    [
+                        "Subject does not live in the city.",
+                        "-2"
+                    ],
+                    [
+                        "Subject is wolf-blooded.",
+                        "+1"
+                    ],
+                    [
+                        "Subject is well-known to the ritemaster.",
+                        "+1"
+                    ],
+                    [
+                        "Ritemaster was born in the city.",
+                        "+1"
+                    ],
+                    [
+                        "Ritemaster has lived in the city for his entire life.",
+                        "+1"
+                    ],
+                    [
+                        "Ritemaster possesses an image of the subject.",
+                        "+1"
+                    ],
+                    [
+                        "Ritemaster possesses an item belonging to the subject.",
+                        "+2"
+                    ],
+                    [
+                        "Ritemaster possesses a hair or body part of the subject.",
+                        "+3"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Fetish Rite",
         "Rank": "4",
         "Cost": "●+",
         "Description": "Creates a new Fetish; costs one Essence per dot of the Fetish, as well as requiring a spirit to be so bound.",
-        "Book": "WtF 162"
+        "Book": "WtF 162",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Fetish Rite is a complex and subtle ritual with untold thousands of variations, but the intended result is always the same — the creation of an object empowered by a spirit bound within. A properly created fetish can call on strange powers that no mundane object can emulate, but only if the spirit within is properly appeased."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Fetish Rite requires a peaceful and at least marginally cooperative spirit to be on hand. That spirit might have been summoned with Call Gaffling or a similar ritual, it might have been captured by werewolves in an ambush, or it might simply have been persuaded to participate. If the spirit is a captive, it must be bound with the Bind Spirit rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The particular sort of spirit that must be bound in a given fetish is determined by the fetish’s description. (See “Fetishes,” p. 204.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "A hostile spirit bound into a fetish is likely to slowly corrupt that object, perverting its function and powers to match the spirit’s anger over its imprisonment. In most cases, if the fetish item is broken, the spirit is freed. Most spirits do their best to remain free after a stint within a fetish, though some acquiesce to being bound again if properly appeased."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The object to become a fetish is placed at the center of a ritual circle. If the spirit is a hostile, bound spirit, the fetish focus had better be within the spirit’s binding circle before the rite begins or the binding is broken when the object enters. A small amount of chiminage appropriate to the spirit is burned as appeasement. The ritualist expends some Essence to bind the spirit in place as he describes the fetish’s purpose and powers in the First Tongue, and he walks an ever-shrinking circle around the spirit and the fetish. Over the course of the ritual, the spirit’s substance decays and is visibly pulled into the item. When the rite is complete, the spirit is wholly bound."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "As a general rule, the spirit bound in a given fetish must be of similar Rank to the fetish level. A one-dot fetish can be created with a Gaffling, while a three-dot fetish requires a Jaggling. The exception is five-dot fetishes, which require particularly powerful Jagglings (Incarnae cannot be bound by this rite). Sample fetishes are found on p. 204. Spirit Ranks are found on page 279."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes + 10 successes per level of the fetish to be created; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All accumulated successes are lost; the vessel is ruined, and the spirit is freed from its binding."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are added."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are added, and when the required number is accumulated, the fetish is created."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "No additional effect beyond the several successes gained."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Chiminage is very valuable to the spirit"
+                    ],
+                    [
+                        "+1",
+                        "Spirit is sympathetic to the werewolf or the werewolf’s goals"
+                    ],
+                    [
+                        "+1 or more",
+                        "The werewolf outranks the spirit*"
+                    ],
+                    [
+                        "+1",
+                        "Chiminage is particularly valuable to the spirit"
+                    ],
+                    [
+                        "+1",
+                        "The fetish vessel is of fine quality"
+                    ],
+                    [
+                        "+1",
+                        "Werewolf’s pack totem is of the same brood as the spirit"
+                    ],
+                    [
+                        "-1 or more",
+                        "The spirit outranks the werewolf*"
+                    ],
+                    [
+                        "-1",
+                        "The fetish vessel is poorly made"
+                    ],
+                    [
+                        "-2",
+                        "Spirit is hostile to the werewolf or the werewolf’s goals"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "*The werewolf’s honorary Rank as determined by total Renown (see p. 272) is compared to the Rank of the spirit summoned. If the werewolf outranks the spirit, the Harmony roll for the ritemaster gains a bonus equal to the difference. If a werewolf with a total of 4 Renown (equivalent to Rank 2) calls a lesser Gaffling (Rank 1), rolls made for the werewolf receive a one-die bonus. If the werewolf’s honorary Rank is less than the spirit’s Rank, the roll made for the ritemaster suffers a penalty equal to the difference."
+                ]
+            }
+        ]
     },
     {
         "Name": "Forge Lunar Road",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "WAtP 144"
+        "Description": "Links two loci with a lunar road, preparing them for fast travel through the Open Moon Gate rite.",
+        "Book": "WAtP 144",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite links two loci, allowing the users of the Open Moon Gate rite to safely and quickly travel between the two. This rite is considered a holy blessing from Luna herself. A locus may have two lunar roads per rating."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "While only one ritemaster need perform the ritual, this rite calls for the cooperation of two to prepare. First, the two must create touchstones at their loci, then exchange them. At this point, the ritemasters also agree upon the warning alarm, some sensory clue that the gateway is being opened from the other side. These touchstones are placed within the loci’s area of influence during the ritual, which must be completed before the Essence within them fades (one to three days). When the ritual is successfully completed, the touchstones become pathstones, mystic keys to the other locus. If they are ever removed, the lunar road is broken, and the ritual must be repeated. While most often stone, similar to touchstones themselves, pathstones can be composed of different substances, such as wood, skulls or even plastic and silicon."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (one success is needed for each 20 miles [round up] separating the loci; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All accumulated successes are lost."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are added."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are added to the total. Once the total is reached (see above), the road is forged."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "The pathstones become especially potent. During the same phase of the moon when they were formed, they add a +2 dice bonus to Open Moon Gate rite."
+                ]
+            }
+        ]
     },
     {
         "Name": "Forging Arms",
         "Rank": "4",
         "Cost": "●",
         "Description": "Used for initiation into the Lodge of Arms, this rite binds a subject and a weapon as permanent companions.",
-        "Book": "LodgF 31"
+        "Book": "LodgF 31",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This is the central rite of the Lodge of Arms, a rite which bonds a spirit to a weapon and both to the lodge member who will carry the weapon for the rest of his life."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite only takes place after days of preparation. Once all the elements are in place — the weapon built, a spirit captured and bound and the werewolf’s own spiritual aspect exhausted by days of endurance — the rite begins. Under the command of the ritemaster, the new initiate carries out repeated sets of practiced forms with the weapon. They can be anything from a series of guards, parries and attacks with a blade to different firing positions and target shots with a gun. As the new weapon-holder works, the lodge members who built the weapon and helped trap the spirits chant the words of the ritual with increasing volume and speed. The new initiate is expected to match these changes by increasing the speed and intensity of his exercises. This continues until the initiate is at the very point of exhaustion. Then, just before the young werewolf collapses, the ritemaster speaks the words of binding in the spirit tongue, and the spirits of the werewolf and blade momentarily fuse, infusing each other with new strength. Each of the participants in the rite, bar the initiate, spends a point of Essence to achieve this."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This experience is often traumatic for both the initiate and the participants, causing them to lose control and frenzy. For that reason, all the participants in the rite must be experienced lodge members who can easily restrain the new lodge members without doing any serious permanent harm. Then the rite ends and the werewolf’s new partnership begins."
+                ]
+            }
+        ],
+        "DicePool": "",
+        "Action": "Extended (30 successes; each roll represents 1 minute)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "All successes are lost. The rite fails; if the subject also failed her Dexterity + Performance roll (see below), she cannot be inducted into the Lodge of Arms."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are gained toward the total. If the total successes equal 30 or more, the rite is completed. The subject is successfully initiated into the lodge, and gains the requisite bond with her weapon."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Successes are gained toward the total. If the total successes equal 35 or more, the rite is completed with an exceptional performance. All participants, including the subject, regain any spent points of Willpower from the invigorating experience."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": [
+                    "Suggested Modifiers"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite’s subject rolls Dexterity + Performance during the course of the rite to represent her own level of performance. Each success gained on this roll adds one die to the ritemaster’s Harmony roll. If the roll is failed, the ritemaster instead loses two dice from her roll to perform the rite; if the subject dramatically fails this roll, the rite fails utterly and she is forbidden from joining the lodge."
+                ]
+            }
+        ]
     },
     {
         "Name": "Greater Oath, Rite of the",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "Blas 99"
+        "Description": "Binds two groups of Uratha and their totems to a powerful oath, granting benefits while fulfilled and serious consequences if broken.",
+        "Book": "Blas 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Greater Oaths are also called greater fainings, pack oaths, ring oaths and oaths of the tree."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Greater Oaths are sworn between one group of Uratha and their totem and another group of Uratha and their totem. Ring oaths cannot be sworn between individuals. A Greater Oath requires the involvement and acquiescence of two totems that witness and bind the oaths. Any Uratha who joins such a pack later on assumes the oath as well when the werewolf accept his totem’s patronage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "These oaths are often mutual protection agreements or bans, such as a binding agreement to prevent some future territorial clash. Think of these oaths as either binding the members to do something or to not do something. Breaking a Greater vow is a level 7 sin against Harmony (roll four dice). Moreover, doing so is often enough to sever the ties between totem and the Uratha who venerate it. At the very least, the totem will withdraw its favors until all of the offending Uratha perform the Rite of Contrition."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "While fulfilling an Oath — both in spirit and letter — the avowed Uratha can call upon the power of oath itself, regaining one Essence and one Willpower immediately. Moreover, they gain +1 to all die rolls for the scene. This bonus can be gained only once."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": [
+                    "Example Greater Oaths:"
+                ]
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Swearing to come to the aid if [named locus] is attacked",
+                    "Promising to never enter a sacred site",
+                    "Vowing to aid the other group if [named enemy] attacks",
+                    "Swearing never to succor [named enemy]"
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ritual always takes place at a tur, usually under a large tree. The ritual involves the exchange of some special token crafted by one group for the other, commonly rings, armbands or torcs. The ritualists come together around a fire, sharing drink and food. Finally, the ritemasters of each group call their totems to manifest and then swear the oaths before them, asking the totem’s blessing and cooperation as every member sacrifices an Essence to the group’s totem."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended. (Two successes per total Renown of the participants; each roll represents five minutes.)",
+        "RollResults": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": [
+                    "The rite fails immediately, and the ritemaster’s totem is offended. It refuses all aid to the group until the ritemaster performs the Rite of Contrition. The ritual cannot be performed again for one month."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": [
+                    "No successes are gained."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": [
+                    "Successes are accumulated. When the total is reached, the totems ritually bow to one another and the Greater Oath is cemented. Breaking a Greater Oath holds the same consequences as breaking a Lesser Oath (see above)."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": [
+                    "Numerous successes are gained, and the participants gain a preternatural sense when the oath is in danger of being broken. This may come as a rising of the hackles or a tingling sensation given off by the tokens of the oath."
+                ]
+            }
+        ]
     },
     {
         "Name": "Hikaon’s Trail, Rite of",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 108"
-    },
-    {
-        "Name": "Joint-Cutting Knife",
-        "Rank": "4",
-        "Cost": "",
-        "Description": "NOT A RITE, THIS IS A FETISH",
-        "Book": "LodgS 105"
+        "Description": "Reveals a trail to a sought place, object, person, or spirit, greatly shortening the journey if the werewolf does not leave the path.",
+        "Book": "Tribes 108",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Black Wolf traveled the world over, learning the secret pathways of all lands and the hiding places of dark things. This rite, known only to a few knowledgeable ",
+                    {
+                        "text": "Meninna",
+                        "italic": true
+                    },
+                    ", allows the Hunters in Darkness to find such secrets. Hikaon’s Trail can lead anywhere that the werewolf needs to go, and find almost anything that she might need to find. Actually walking the trail can be dangerous, however, and requires the utmost tenacity and mental fortitude. Stepping off Hikaon’s Trail can be deadly."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "After performing this rite, the Hunter sees a set of paw prints leading off into the distance. These prints appear fresh, even if the medium in which they are found is concrete or wood. The prints lead directly to whatever the werewolf wishes to find, but the rite is much easier to perform when used to find a place rather than an object or (especially) a person or spirit. Once the werewolf begins following the trail, though, she cannot leave it. The journey doesn’t take as long as it would if the werewolf were traveling without benefit of the rite (see below), but even if the werewolf sleeps, she must do so with the trail in sight. If she needs food, she’d better hope that the trail takes her near game or someplace that she can purchase a meal. Hikaon-Ur supposedly hunted without food or sleep for months at a time, but the Uratha, still half-flesh, are ill-equipped to do this."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the quarry is in sight, the trail starts to fade. The werewolf knows that her journey is at an end, but the Hunt is just beginning (for why call upon Hikaon-Ur except to find the target of a Hunt?). When the trail fades, the werewolf regains all Willpower as if she had fulfilled her Virtue."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist names the target of the rite, describing the target in as much detail as the ritualist can manage. As she does so, she punctuates the description with entreaty to Black Wolf (her packmates, if any, keep a constant howl to the mighty Firstborn going). The ritualist then changes to wolf form and performs a ceremonial hunt, chasing down and killing a rabbit or other small animal as a sacrifice. If the hunt is successful, the paw prints immediately appear, and the journey begins."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes necessary; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The trail appears, but it leads the werewolf into danger. Black Wolf apparently disapproves of the hunt, and wishes to test the werewolf. If she notices that the trail is leading her astray (and the Storyteller should provide opportunities for such), she can attempt this rite again with the same target. If she reaches the “end” of the trail, she may not, even if she survives what waits for her."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated toward the total. If the player fails to roll 10 successes within a number of rolls equal to the werewolf’s Harmony, the rite fails and cannot be attempted again on the same target for one week."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated toward the total. If the player reaches 10 successes within a number of rolls equal to the character’s Harmony, the trail appears, leading to wherever the target can be found. The journey to reach the target takes only 1/10th the amount of time that it would normally take on foot, as the trail winds in and out of the Shadow and leads the werewolf down shortcuts that only Black Wolf remembers. The only requirement is that the journey be possible with land travel only; separate continents are too much even for Black Wolf."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The werewolf can stop to rest or take other actions as she wishes, but if the trail ever leaves her senses entirely (she cannot see, smell or touch it), the rite ends. The werewolf might be in the material world or the Shadow when this happens, and is probably miles from home."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable progress is made toward the goal. If the rite ends successfully and the werewolf has accumulated 15+ successes, Black Wolf takes a special interest in this Hunt. As the werewolf walks the trail, wolf-spirits bring her gifts of fresh meat, and she always seems able to find a good source of water."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Target is a place that the Hunter considers sacred."
+                    ],
+                    [
+                        "−3",
+                        "Target is an object."
+                    ],
+                    [
+                        "−4",
+                        "Target is a spirit."
+                    ],
+                    [
+                        "−5",
+                        "Target is a living (or unliving) being."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Obon Temae",
         "Rank": "4",
         "Cost": "●",
         "Description": "Ritemaster shares meal with Yokai and can force it to answer specific questions that are based on the meal served.",
-        "Book": "LodgS 67"
+        "Book": "LodgS 67",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Lodge of the Hungry Ghosts knows an ancient version of the Bind Spirit ritual, one said to have been passed down from the lodge’s original progenitor, Shimizu-san. This rite, based somewhat on the Japanese tea-drinking “tray ceremony,” allows a werewolf to force a single ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    " to sit with her for a time. The two share ritually-prepared food or drink, and neither can commit violence against the other during that time (provided, of course, the ritual was successful)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This ritual also forces the spirit to communicate certain information to the ritemaster. The type of information and story that the spirit must deliver is based upon the type of food chosen for the ritual — and only one type of victual or drink is allowed per ceremony (see below for the types of meal and what they demand a spirit do)."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Hungry Ghosts use this ritual to plumb the depths of specific ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    ", allowing them to get to the bottom of whatever has caused a spirit or creature’s madness. The ritual is certainly not foolproof; it doesn’t guarantee concrete answers, but it does force a being to calm itself for a time, and may allow a werewolf just enough opportunity to learn more about the entity, and earn its trust over time."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This ritual has two steps. The first step is the preparation of the meal. Each meal requires an extended Intelligence + Occult roll to prepare. Twenty successes are required for each, with each roll taking one minute’s worth of time. A single “meal” consists of an individual item: for instance, one blood-filled, sticky rice cake (",
+                    {
+                        "text": "ketsueki daifuku",
+                        "italic": true
+                    },
+                    ") counts as one meal and requires 20 successes to create. One point of Essence is ",
+                    {
+                        "text": "also",
+                        "italic": true
+                    },
+                    " required for each meal."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "These meals can be made ahead of time, and last for a full week before rotting or decaying. They can also be carried through to the Shadow from the physical world; crossing the Gauntlet with one or many meals for the ceremony, however, incurs a –1 (non-cumulative) penalty to the roll for stepping sideways."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster can prepare five different common types of meal for the ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    " (though more are said to exist). The meals and their effects upon spirits are as follows:"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Ketsueki Daifuku:",
+                        "italic": true
+                    },
+                    " This is a round or square ",
+                    {
+                        "text": "mochi",
+                        "italic": true
+                    },
+                    " (glutinous rice cake) filled with blood (the ritemaster’s own). For every cake given to a spirit, the spirit must answer one question about what it eats (what it likes to eat, hates to eat, bad things it has consumed, other spirits it has swallowed, etc.)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Sukin Dango:",
+                        "italic": true
+                    },
+                    " This dumpling (made of ",
+                    {
+                        "text": "mochiko",
+                        "italic": true
+                    },
+                    " or rice flour) is steamed or fried and stuffed with some of the ritemaster’s own skin and meat. Many ritemasters use their teeth or a knife to get the golf ball-sized hunk of flesh necessary to fill the dough. For every dumpling given to a ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    ", the being must answer one question about who it has spoken with over the last 24 hours. (The werewolf may ask who the creature has spoken with, what topics were discussed and the time and places of such conversations.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Koicha Chishio:",
+                        "italic": true
+                    },
+                    " This “thick” tea is a syrupy beverage flavored with three drops of the ritemaster’s blood and some of her saliva. The tea can be served in bowls or glasses. For every serving of tea, the ritemaster may ask the spirit a question about its powers (what it is capable of, how often, if it has used its abilities recently, what Gifts it can teach, etc.)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Sakana no Ikizukuri:",
+                        "italic": true
+                    },
+                    " This is a five-to-ten-inch fish stuck with two skewers (often made of bamboo). The ritemaster must pluck one of his own teeth from his mouth and stuff it into the belly of the fish. The fish is not cooked (and is often served alive). The ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    " must answer one question (per fish served) about spirit politics. (The werewolf may ask about power blocs, choirs, rivalries and rank.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Pa-Ji Basashi:",
+                        "italic": true
+                    },
+                    " The ritemaster marinates raw horsemeat briefly in a bowl of her own bile (she must make herself throw up if necessary). With each of these delicacies, the ritemaster may ask one question pertaining to a location in the Shadow (the location of a loci, of the suspected location of another spirit, the direction toward a specific locale or even where other Forsaken went)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The second part of the ritual is invoking it against an individual ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    ". This ability works on spirits, Ridden, Hosts and ghosts. (It does not work on vampires, mages or other ",
+                    {
+                        "text": "oni",
+                        "italic": true
+                    },
+                    ".) When invoking the ritual, the ritemaster merely needs to bring out the food and set one of the meals down before the creature."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence per “meal” prepared"
+            }
+        ],
+        "DicePool": "Harmony versus creature’s Resistance (rolled at the time food is placed before the yokai, as noted above).",
+        "Action": "Instant (once food has been prepared)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The food instantly rots and molders. As a result, the creature or spirit gains an additional point of Resistance for the duration of the scene."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " An equal number of (or the most) successes are rolled for the spirit. The food does not tempt the spirit, and the ritual fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    " is bound to a 10-yard radius around the meal laid out by the ritemaster. The ritemaster must stay within 10 yards of the meal, as well, or the ritual ends."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster may, as noted above, ask one question per meal served. Only one type of meal may be served during this ceremony. In other words, the ritemaster may not lay down a rice cake and then follow it up with a bowl of tea. Bringing new food means she must perform the ritual anew (making the Harmony roll against the ",
+                    {
+                        "text": "yokai",
+                        "italic": true
+                    },
+                    "’s Resistance)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Note that any of the questions asked will be answered honestly by the spirit — but honesty does not imply accuracy. The spirit may have incorrect information, and will pass that misinformation along as gospel truth."
+            },
+            {
+                "type": "paragraph",
+                "text": "The spirit is bound to the area for one hour per meal. The ritemaster may only put down one meal (and ask one question) per hour."
+            },
+            {
+                "type": "paragraph",
+                "text": "The spirit does not necessarily need to eat the meal (though many do). The ritemaster, similarly, does not need to consume any of the prepared food or drink. The food must only be present. At the end of the hour, whatever is left of a single meal collapses into mold and dust."
+            },
+            {
+                "type": "paragraph",
+                "text": "If at any time the ritemaster decides to leave the 10-yard radius around the meal, the ritual ends. Also, the ritemaster may not bring violence against the entity targeted by the rite. Doing so costs a Willpower point (while the ritual remains active), and also ends the ritual prematurely."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The most successes (five or more) are rolled for the ritemaster. The werewolf may ask one additional question per meal (two total per meal)."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1 or more",
+                        "The werewolf outranks the spirit"
+                    ],
+                    [
+                        "−1 or more",
+                        "The spirit outranks the werewolf"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Offering of Blood and Silver",
         "Rank": "4",
         "Cost": "-",
         "Description": "Ritually strips a werewolf of their loyalty to Luna, exchanging Renown for significant aggravated damage.",
-        "Book": "Pure 126"
+        "Book": "Pure 126",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "One of the most notorious of all Pure techniques, this rite slices away the subject’s auspice. In many ways, this rite defines what it is to be Pure — while the Rite of the Found can prevent the unasked-for blessing of Luna from falling on a ",
+                    {
+                        "text": "nuzusul",
+                        "italic": true
+                    },
+                    ", all those who are found after their First Change or recruited from the ranks of the Forsaken have undergone the Offering of Blood and Silver."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite’s spiritual implications are twofold. It is both a purification of the subject and (perhaps more importantly) an agonizing sacrifice to the spirits allied with the Pure. By rejecting Luna, the ",
+                    {
+                        "text": "Anshega",
+                        "italic": true
+                    },
+                    " prove that they are no friends to the werewolves who would hunt spirits as their prey. The rite is a terrible offering, but enough to impress their patrons."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Ritually removing the silver brands of auspice is an excruciating task. Each silver mark of Renown must be removed entirely. The process badly injures the rite’s subject — in some cases the ritemaster must end the rite early in order to keep the subject alive, beginning again once the convert has healed enough to endure further punishment. The rite can be performed on oneself to some degree, though the ritemaster may have to find unusual means to accurately peel away the brands from areas he couldn’t normally reach (most notably along the back). The iron will, stamina and precision needed to perform this rite on one’s own flesh are nothing short of horrifying."
+            },
+            {
+                "type": "paragraph",
+                "text": "The rite cannot be performed on an unwilling subject. Only through willing sacrifice can a werewolf be severed from his link with the moon. The damage inflicted by this rite cannot be healed by supernatural means such as the Rite of Healing — the offering of flesh, blood and spirit is not easily undone."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The Offering of Blood and Silver actually has many variants, as the silver brands of Renown can be removed in a variety of ways. The ritemaster invariably opens by calling on the spirits to witness the subject’s willingness to renounce the Bitch Mother and her lies, and then leading the subject in a similar declaration. The actual rite consists of physically cutting or burning away the brands in all their patterns while the ritemaster repeats bloody benedictions in the First Tongue."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite causes the brands to glow as if the subject were in the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    ", so the ritemaster can accurately trace their patterns with a knife, branding iron or similar implement. One variant of the rite even uses powerful acid, carefully administered in a vicious baptism. The subject is usually tied down with ropes or chains sufficient to endure even the strength of the Gauru form, because the pain of this rite is an open invitation to the Death Rage."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (five successes per point of Renown to be removed; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " No successes are achieved. The subject takes one point of aggravated damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are achieved. The subject takes one point of lethal damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are achieved. The subject takes one point of aggravated damage. Once the ritemaster has achieved five or more successes, the subject loses one dot of Renown in the category of the ritemaster’s choice. The ritemaster may end the rite at any time; if she does so, any “leftover” successes are lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Example: The Ivory Claw Judith’s Dagger is performing the Offering of Blood and Silver on the Iron Master Irraka Gunpowder Jack.",
+                        "italic": true
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Jack has Cunning 3, Glory 1, Purity 2 and Wisdom 2. Judith’s Dagger gets three successes on her first roll, and Jack takes one point of aggravated damage. Five minutes later, Judith’s Dagger gets three successes on her second roll. She chooses to take one dot of Cunning out of Jack’s hide. The process continues until Judith has accumulated 22 successes. She’s removed four points of Jack’s Renown, but he’s a bleeding mess and is going to die if he takes any more damage. She decides to end the rite here. When she begins to use the rite again on Jack three weeks later, she starts anew from zero successes. However, this time Jack only has four points left to remove, so if she can get 20 or more successes without killing him, he will be free of his auspice that night.",
+                        "italic": true
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once all of the silver brands of Lunar Renown have been cut away, the rite is successful and the subject’s auspice has been successfully removed. The subject loses all the passive benefits of the auspice. This includes the innate auspice ability, the bonus Specialty granted by that auspice and the ability to regain Essence by looking at the appropriate moon phase. Auspice Gifts are not forgotten, as mentioned above, but the subject suffers a –2 penalty to use any auspice Gifts he retains. Any auspice Gifts that call directly on the power of Lunes or of the moon (such as the five-dot Full Moon Gift: Luna’s Fury) will no longer work for the newly Pure werewolf."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the subject was previously a member of one of the Tribes of the Moon and had not already ritually renounced his tribe, he loses all appropriate tribal benefits, and must be initiated into one of the Pure tribes to receive similar benefits again. The same holds true of lodge, unless the subject was a member of a lodge that accepted both Forsaken and Pure for membership — highly unlikely, but not impossible."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No additional effect save for removing Renown with less damage to the subject."
+                ]
+            }
+        ]
     },
     {
         "Name": "Permanence, Rite of",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 145"
+        "Description": "Makes an improvised tool, weapon, or armor permanently useful, removing improvised penalties or granting comparable equipment bonuses.",
+        "Book": "Tribes 145",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Nothing’s worse than being unprepared. ",
+                    {
+                        "text": "Farsil Luhal",
+                        "italic": true
+                    },
+                    " the world over face similar problems, from needing to pick a lock without tools to being trapped in a junkyard with a powerful Claimed hunting for them. Whatever the situation, Red Wolf’s chosen improvise. She may use scraps of wire to pick a lock or a car hood to deflect powerful blows. When she’s desperate, it’s the work of mere moments to grab something and put it to use. Whatever she chooses won’t be ideal, but several werewolves become attached to their ramshackle solutions, especially those without the working capital to afford top-grade equipment. This rite bridges the gap between the haves and the have-nots. Through a combination of bribery and intimidation, the werewolf slowly changes the object’s spirit, making his temporary tool more permanent. A shard of glass partially wrapped in duct tape becomes less brittle and more knife-like, and a zip gun is easier to reload and less prone to jamming."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Other werewolves who know of this rite use it as another reason to brand the ",
+                    {
+                        "text": "Farsil Luhal",
+                        "italic": true
+                    },
+                    " as irreverent materialists who focus on tools at the expense of their own capabilities. That said, some situations need tools that aren’t readily available without dealing with the wrong sort of people — and when they’re in your territory, that’s bad news. Better to improvise. Iron Masters who use this rite a lot develop their own style. While the function of their items changes over time, the original form does not. Some Iron Masters look like urban primitives, wielding trash and junk as surprisingly effective weapons."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster must first create his jury-rigged tool and use it once without destroying it. If the tool survives that first use, she places it in a circle of broken consumer goods — from smashed satnav devices to parts of a burned-up car. By the light of the moon, she howls threats to the spirit while scrawling images that evoke her tool’s new focus in chalk around the circle. When she’s made one complete circuit, she doubles back on herself, chanting an entreaty to the spirit of the object and drawing representations of what will happen to her tool if the spirit resists her."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (15 successes; each roll represents 15 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The object’s spirit is angered by the werewolf’s request. The tool destroys itself, and the ritemaster cannot use this rite for a full lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite simply fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The rite succeeds, and the object gains a measure of permanence. If the object replaces a required tool for a roll (such as lockpicks for picking a lock) then the roll can be made without any penalties for improvised equipment. If the object is used for a weapon or armor, it adds a number of dice (or defense) equal to a comparable manufactured item. The change to the object is permanent."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The spirit is willing to change its function. A tool or weapon increases its bonus by +1, armor increases either normal or firearms defense by 1."
+                ]
+            }
+        ]
     },
     {
         "Name": "Power in Words",
         "Rank": "4",
         "Cost": "○●",
-        "Description": "",
-        "Book": "LodgS 99"
+        "Description": "Invokes a single verb for a scene, granting bonuses to actions through spoken related verbs.",
+        "Book": "LodgS 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Uratha in the Lodge of Words know the power of the root of language, and can focus the richness and diversity of words themselves to a greater purpose. Therefore, Power in Words remains one of the Modernists’ most powerful tools, not because of the rite’s raw might but because of its seemingly infinite versatility in a myriad of situations (just as language itself, the Modernists argue)."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "To perform this rite, the ritualist pricks his finger and writes a single verb on a piece of parchment, paper or something similar, and then swallows that piece of paper — in essence, making the word “part” of him. During this time, the ritualist also repeats that word over and over in his mind (and aloud, if he wishes), making it a nonstop mantra. Since speed can often be of the essence when forming this rite, many Modernists who make frequent use of Power in Words will keep their thumbnail pointed and sharpened, so they can prick their index finger at will."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the Essence point spent is lost. This rite cannot be used again for one lunar cycle."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails, and the Essence point spent is lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " By invoking this rite, the Uratha declares a concept using a single verb (such as “attack” or “research”). For the duration of the scene, the werewolf invokes the power behind that word, channeling energy off it and related verbs by saying them aloud. Each verb or verb phrase so invoked gives a bonus to one action; this bonus depends on the relationship between the original word and the new one."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "+3",
+                "text": "Direct synonym (the relationship between “hit” and “punch”)"
+            },
+            {
+                "type": "line",
+                "label": "+2",
+                "text": "Closely related (the relationship between “attack” and “kick”)"
+            },
+            {
+                "type": "line",
+                "label": "+1",
+                "text": "Tangentially related (the relationship between “kick” and “punch”)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Using words that are completely unrelated (such as the relationship between “toss” and “punch”) or not verbs (“aggression”) will not bestow any bonus. Each word can only be used once with an activation of the rite. Verb phrases can be used, provided none of the words have been used previously for the activation of the rite (for example, “sucker-punch” could be a closely related synonym to “attack,” but the Uratha could not later on use “punch” or “sucker-hit”). The verb used to activate Power in Words is merely a reference point and does not provide any bonus."
+            },
+            {
+                "type": "paragraph",
+                "text": "For example, Slade Names-the-Darkness is looking for clues at a crime scene and he invokes Power in Words, declaring “investigate.” Each Investigation check takes 10 minutes, and Slade will be spending one hour searching the crime scene (six rolls). Slade utters “search” as the first synonym; the Storyteller rules this is a direct synonym and grants a +3 bonus to that check. Ten minutes later, Slade says, “seek”; this grants a +3 bonus to that check. For the four remaining checks Slade uses “look,” “comb,” “peer” and “sift,” granting +3, +1, +2 and +0 to the remaining rolls."
+            },
+            {
+                "type": "paragraph",
+                "text": "Generally, only words in the Uratha’s birth language can be used; this rite relies on the subject’s true understanding of the word, and merely reading out of a Spanish-English dictionary isn’t enough to invoke the energies of words. However, if the user of this rite has at least two dots in the Language Merit, then the Uratha knows one closely related (+2) synonym and one tangentially related (+1) synonym; at three dots in a Language, the Uratha knows one tangentially related (+1), one closely related (+2) and one direct synonym (+3)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Although invoked words don’t need to be shouted, they do need to be said at a conversational level, and the Uratha must be able to speak to utilize this rite. Only one version of this rite may be active for a werewolf during a scene."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The rite lasts the duration of the scene or until the next sunrise or sunset, whichever is longer."
+                ]
+            }
+        ]
     },
     {
         "Name": "Questioning Rite",
         "Rank": "4",
         "Cost": "",
         "Description": "Ritemaster poses a specific question to the spirits of his territory and receives an answer. Ritemasters renown, and whether the territory has been neglected factor into how honest the answer is.",
-        "Book": "LotD 123"
+        "Book": "Lore 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A werewolf pack cannot be everywhere in their territory at once. A pressing problem or a large territory may lengthen the time during which areas go unguarded, and this rite alleviates the problem. It’s not just used to make up for a lack of patrols; the werewolf leading this rite can ask the spirits in his territory one particular question. Of course, the spirits do not need to answer honestly. If the pack has neglected their territory or the local resonance is unfavorable to the kind of spirit that would answer the question, it is less likely that the werewolf will get an answer. Furthermore, an Uratha of low Renown has a much harder time convincing the spirits that her need is genuine and worthy of their attention. Many ritualists are wary of questioning spirits that they have recently neglected; a fact that keeps this rite from being used more often."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster first buries items as chiminage to the spirits of her territory. These items could be items representative of the area or her question, or food and other objects that the local spirits find pleasing. She then sits in front of a bowl or pool of clear water and howls her question to the sky. With that done, the ritemaster pours a strong-smelling liquid like urine or witch hazel on the ground to deaden her sense of smell, and howls, drums or chants until the outside world fades from view. The rite ends as the ritualist pours ink or blood into the water. As the clouds mix into the water, the surface shimmers and reflects a scene in answer to the question. The scene is not just visual; she observes the scene with all of her senses as if she were present."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (40 successes, each roll represents ten minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The visions granted by the pool are false. (A new wolf pack appears to be the greatest threat to a pack’s territory, rather than the Uratha trying to take a slice of the territory as their own.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The vision starts when the required number of successes are rolled. The ritemaster clearly sees the answer to her question and the implications it has for the surrounding area. She also gets a feeling for the exact area the pool has shown her. The vision lasts for five minutes, though it may seem to take longer."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " If five or more successes than needed are rolled, the ritemaster’s vision both answers her question and indicates the threads of events that have lead up to the answer. All rolls related to the vision have a +1 modifier."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Local spirits or resonance are favorable to the werewolf."
+                    ],
+                    [
+                        "+1",
+                        "Chiminage is particularly valuable to the local spirits."
+                    ],
+                    [
+                        "−1",
+                        "Local spirits or resonance are opposed to the werewolf."
+                    ],
+                    [
+                        "−1 or more",
+                        "The answer to the question is deliberately obscured in some way."
+                    ],
+                    [
+                        "−2",
+                        "The werewolf is of low Renown (highest trait rated 1 or 2)."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Recollection, Rite of",
         "Rank": "4",
         "Cost": "○●",
-        "Description": "",
-        "Book": "WAtP 81"
+        "Description": "Uses a dead subject's personal item to draw participants into visions of important events from that subject's life.",
+        "Book": "WAtP 81",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Bone Shadows are the primary custodians of this uncommon rite, and claim it was learned by a shaman at the feet of Death Wolf herself. This rite is usually learned in pursuit of a particular goal of knowledge; most Ithaeur see a danger in seeking out a rite of this nature casually. It isn’t something to be learned “just in case” you find a use for it later — one who plans to open those doors must do so with the will that comes only from a serious need."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The rite uses a personal item from a dead subject as a focus to allow the participants to witness significant events from that subject’s life. Over the course of an hour, the participants undergo a series of visions that may detail entire days in the subject’s life. The characters have no control over which events they view; generally the ",
+                    {
+                        "text": "memento mori",
+                        "italic": true
+                    },
+                    " is charged with the events most important to the deceased’s life. The participants in the rite are unaware of the outside world while viewing the vision of recollection, and as such the rite is typically performed in as safe a location as can be arranged."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The participants gather in a circle around the ",
+                    {
+                        "text": "memento mori",
+                        "italic": true
+                    },
+                    " that is the focus of the rite. The focus must be some item that once belonged to the deceased in question, optimally an item that has had no other owners since the subject of the rite died. The more direct and clear a connection between the ",
+                    {
+                        "text": "memento mori",
+                        "italic": true
+                    },
+                    " and the rite’s subject, the better the odds of success."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritemaster names the fallen as accurately as possible, by human given name and by Uratha deed-name. The ritemaster then takes a bowl of purified water and drinks from it, spitting a portion of the water on the focus. The offering of Essence occurs with the touch of water to the focus; the water is a bridge between the object and the ritemaster. As the ritemaster chants a litany in the First Tongue, each participant takes the bowl of water in turn and emulates the ritemaster: drinking, spitting and making an offering of Essence as she asks for the spirit of the fallen to show her the tale of his life. When the bowl has made a full circle, the ritemaster sprinkles the rest in a circle around the focus and strengthens his invocation until the vision comes."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite cannot be used to gain memories from more than 3,000 years ago. Some werewolves have attempted to find ways to empower the rite and reach back further, but for now the memories of Pangaea remain lost. The rite also works only if the subject is well and truly dead — it cannot be used on a subject such as a vampire. The rite ",
+                    {
+                        "text": "does",
+                        "italic": true
+                    },
+                    " work if the deceased has left behind a ghost, as the ghost lacks any higher consciousness."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence per participant"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (25 successes; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The rite fails, and cannot be attempted again using this particular object as a focus."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. If 25+ successes are gained, the vision takes hold. The participants’ senses effectively black out. The vision usually begins subtly at first, with voices echoing in the darkness or a faint light seen through gray fog."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The participants view the events of the vision without any control over their perspective, which may vary. Most experience a detached perspective, as if viewing the events from above or from a short distance, their perception moving with the rite’s target. Some have reported seeing events from the direct point of view of the participants. This seems to happen most frequently when the viewer is a direct blood relation to the subject."
+            },
+            {
+                "type": "paragraph",
+                "text": "The vision is always related to some event that changed the life of the participant — or ended it. The Bone Shadows who keep the rite note that the Rite of Recollection always seems to bring images of tragedy or conflict; even if the most important event in a werewolf’s life is the birth of his son, that birth will not be recalled unless it is tied to events involving death. As the rite calls on spirits of death to empower it, such a limitation seems inevitable."
+            },
+            {
+                "type": "paragraph",
+                "text": "The participants are unable to perceive the world around them while experiencing the vision, just as if they were sleeping or catatonic. If a participant suffers injury during the rite, she is pulled out of the vision and can react as normal on the next turn. If the ritemaster exits the vision in such a manner, the entire vision ends for all participants."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite can be used successfully only once for any given focus object."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. If 30+ successes are gained, the vision is clear and strong, yet the characters remain somewhat aware of their physical surroundings. Participants may make Perception rolls to determine what’s going on in the space around their physical bodies, although at a penalty of –3."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "−3",
+                        "Deceased died more than 1,000 years ago."
+                    ],
+                    [
+                        "−2",
+                        "Deceased died from 501–1,000 years ago."
+                    ],
+                    [
+                        "−2",
+                        "Focus was not carried frequently by the deceased."
+                    ],
+                    [
+                        "−1",
+                        "Per additional person who carried and used the focus."
+                    ],
+                    [
+                        "−1",
+                        "Deceased died from 101–500 years ago."
+                    ],
+                    [
+                        "−1",
+                        "Ritemaster cannot provide the deceased’s full name."
+                    ],
+                    [
+                        "−1",
+                        "Deceased is not a werewolf."
+                    ],
+                    [
+                        "+1",
+                        "Focus is a bone taken from the deceased."
+                    ],
+                    [
+                        "+1",
+                        "Ritemaster is a blood relative of the deceased."
+                    ],
+                    [
+                        "+2",
+                        "Focus played a heavy part in the vital events of the deceased’s life."
+                    ],
+                    [
+                        "+2",
+                        "Site of the rite is also the site of the vital events of the deceased’s life."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Scorched Earth, Rite of",
         "Rank": "4",
         "Cost": "●x10",
         "Description": "This rite, performed in the Shadow, causes an area to burst into spiritual flames. This is spiritually devastating and mars the area significantly.",
-        "Book": "Pure 128"
+        "Book": "Pure 128",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Pure cannot always be victorious. Sometimes the Forsaken drive the Pure back, be it through putting aside their tribal differences, working within the human world or simply good tactics. In any case, the Fire-Touched are unwilling to concede victory even when they cannot destroy their enemies, and in such times, they use the Rite of Scorched Earth."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite causes the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    " to burst into flames and burn out of control. The fire destroys spiritual buildings, kills the spirits of anything flammable (which covers almost everything outside of Elemental or Conceptual spirits, though obviously water-spirits are immune) and incinerates any Uratha foolish enough to be caught in the blaze. This includes the ritemaster, however, and so the Rite of Scorched Earth is usually performed near a locus to enable a speedy exit once the fires start."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The spiritual fires inflict damage as though they were natural fires (see p. 180 of the ",
+                    {
+                        "text": "World of Darkness Rulebook",
+                        "bold": true
+                    },
+                    "). At their hottest (that is, a spiritual inferno), they inflict four points of lethal damage per turn, and they inflict this damage to spirits’ Corpus and Essence (meaning spirits can actually be destroyed by the fires). Most spirits, therefore, choose to flee or discorporate rather than stay and burn, though spirits that cannot travel faster than the fire are probably lost. Stopping the fires is difficult. The intervention of a powerful water-spirit is one possibility, but ordinary methods of firefighting (digging trenches, sandbagging, starting smaller fires to destroy the fuel) don’t help much because of the spiritual nature of the blaze. The fire-spirits want to consume ",
+                    {
+                        "text": "everything",
+                        "italic": true
+                    },
+                    ", and the best solution is usually to simply get out of their way."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The fires leave loci active, but destroy any wards or rites used to conceal or protect them. Since the fires destroy spiritual structures, a locus that takes the form of the cornerstone of a house might sit uncovered and unguarded after the fires end, meaning the pack that claims the locus must now seriously reconsider their defense strategies."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This rite must be performed in the Shadow, and is normally performed near a locus to allow the participants to flee when the rite begins. Sometimes, of course, a lone werewolf martyr performs the rite, consigning himself to the flames to destroy his enemies, but this is rare, even for the Fire-Touched."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster holds aloft two burning torches, and emits a long, hideous scream of challenge and defiance. The ritemaster then turns in a circle, holding the torches near the ground while he (and probably some of his pack) expends the Essence to fuel the spirit-blaze. The ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    " itself cries out in pain and anger, however, and so the ritemaster only has a few moments to collect the necessary Essence and complete the rite before something shows up to stop him. Often, Fire-Touched packs use an area that is home to spirits sympathetic to their cause — fire-spirits, pain-spirits and even carrion-bird-spirits might help them."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the rite is completed, the area bursts into flames. The ritemaster and anyone standing nearby suffer five Health points of lethal damage from this initial explosion, and four points per turn thereafter. The fire spreads quickly, burning stone, earth, plant matter and any spirit the fire comes across. It cannot normally cross water, but river-spirits of heavily polluted areas might contain enough other types of Essence to burn, as well."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "10 Essence"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes required; each roll represents one turn)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The ritemaster incurs the wrath of all local spirits and can expect to be attacked without mercy by any spirit other than his pack totem for the next month should he dare set foot in the ",
+                    {
+                        "text": "Hisil",
+                        "italic": true
+                    },
+                    "."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. When the total reaches 20 successes, the spirit-inferno begins as described above."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable successes are added to the total. If five or more than needed are gathered, the fire burns especially hot — all damage for the fire is increased by one point."
+                ]
+            }
+        ]
     },
     {
         "Name": "Shadow Play",
         "Rank": "4",
         "Cost": "●+",
         "Description": "Can replay years of a locations history in minutes. Five years per success at a cost of 1 essence per success.",
-        "Book": "BotW 67"
+        "Book": "BotW 67",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Many suburban packs become quite adept at reading the spiritual imprint of a place as a result of the often turbulent Shadow reflection of their home."
+            },
+            {
+                "type": "paragraph",
+                "text": "This costly rite calls upon the reflection of a location to replay a portion of its spiritual lifespan. With this rite, ritualists can often learn of events or times when a particular place had a different resonance or of tragedies that occurred there in the past. Though the rite has the power to reach back for centuries, it levies a terrible cost to do so."
+            },
+            {
+                "type": "paragraph",
+                "text": "Because of the allegorical nature of the Shadow, it doesn’t give definitive answers to questions like, who burned down the old Phillips house? Such a question would be answered only if the arsonists somehow struck from the Shadow — such as using a fire elemental to commit the crime from the other side of the Gauntlet — and, even then, only the fire elemental might be revealed. What the rite does show is how the place’s reflection has changed over time in the Shadow."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The performance of this rite must take place in the reflection of a location in the Shadow. The ritualist first demarks the boundary of the area she wishes to perform the shadow play for her — leaving chiminage to the local spirits at key points. Then she performs a ritual howl and lapses into a trance. While others in the spirit world begin to see strange bands of distortion, they do not see the shadow play itself — the vision is only granted to the ritualist."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Note:",
+                        "bold": true
+                    },
+                    " If the area is awakened (i.e., it is a location spirit), this ritual may only be performed with the spirit’s acquiescence."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence per success"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (1 to 100 successes, depending on Essence spent). Each roll represents five minutes.",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Spirits in the location become openly hostile to the Uratha’s intentions. Rites in this area performed by the Uratha suffer a –2 penalty for a lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The ritual ends."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained. Each success allows the ritualist to replay five years of change in roughly five minutes at the cost of one Essence. This is not like a CD playback in which the user has full control to stop, start, search and pause the shadow play once it starts. While she can attempt to search for particularly significant events (ones that would have generated Essence flavored with a particular resonance, for example), it is very difficult to control precisely."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " An exceptional success replays 50 years of past occurrences for merely one Essence."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Chiminage is very valuable to local spirits and/or connected to the events the ritemaster is interested in."
+                    ],
+                    [
+                        "+1",
+                        "The area has some connection to the ritemaster, such as within her territory."
+                    ],
+                    [
+                        "+1",
+                        "The area has a particularly strong reflection in the spirit world."
+                    ],
+                    [
+                        "+1",
+                        "The ritualist is a Cahalith."
+                    ],
+                    [
+                        "+1",
+                        "Chiminage is valuable to local spirits."
+                    ],
+                    [
+                        "+0",
+                        "The area is equivalent to a large room."
+                    ],
+                    [
+                        "−1",
+                        "The area is equivalent to a house."
+                    ],
+                    [
+                        "−2",
+                        "The ritemaster is attempting to locate a particular event."
+                    ],
+                    [
+                        "−2",
+                        "The area is equivalent to a building."
+                    ],
+                    [
+                        "−4",
+                        "The area is equivalent to a city block."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Shadowed Hunt",
         "Rank": "4",
         "Cost": "-",
         "Description": "Using a living sacrifice, the caster opens a door to the Underworld at an Avernian gate or a locus with a death resonance.",
-        "Book": "BotD 57"
+        "Book": "BotD 57",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite allows a werewolf to open a gateway into the Underworld. While the rite isn’t the special province of any one tribe or lodge, the Lodge of Death (a group of Bone Shadows dedicated to studying the mysteries of death; see Story Hooks, below) is the only one that uses it with any regularity. The rite is called “the Shadowed Hunt” because of the way many werewolves feel about hunting already-dead prey; it’s an uncomfortable, murky practice, tantamount to admitting that the job wasn’t done right the first time. Sometimes, though, it’s necessary."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "This rite can only be performed at an Avernian Gate, or at a locus with an appropriately death-like resonance. The ritemaster stands before the gate or locus, and makes an offering to Death Wolf. This offering must involve a living sacrifice, but any living creature, even a mouse, will do. The werewolf then draws the First Tongue sigils for “death” and “crossing” in the victim’s blood, and sits in silence until the gate opens."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes needed; each roll requires one minute of meditation)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The gateway does not open, but Luna takes offense that Her children are attempting to seek the Underworld. She makes her displeasure apparent, but the specifics vary by the phase of the moon. Under a new moon, the ritemaster is struck blind. Under a crescent moon, the ritemaster can use no Gifts. Under the half moon, the ritemaster loses favor with all spirits, including his pack totem, if any (−3 to all spirit interactions and forfeiture of totem benefits). Under the gibbous moon, the ritemaster suffers horrifying nightmares whenever he sleeps, regaining no Willpower from rest. These effects all last until the moon phase changes. Under a full moon, however, Luna takes a more direct approach — Lunes immediately attack the ritemaster and any other assembled werewolves, and only cease when the werewolves flee."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added to the total."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. If the player reaches 20 successes, the gateway opens to the Underworld, and remains open for one hour per dot of the ritemaster’s Harmony. It cannot be closed early, and once open it admits anyone to the Underworld."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable successes are added to the total. If the ritemaster concludes the rite with an exceptional success, Luna sees the rite in progress but acknowledges that it must be so. She sends a Lune to watch the gate and make sure no one but the pack members (and any allies they designate) enter it."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Ritemaster is a Bone Shadow"
+                    ],
+                    [
+                        "+3",
+                        "Ritemaster kills a human being as part of the rite"
+                    ],
+                    [
+                        "−1",
+                        "Ritemaster kills an animal for the rite"
+                    ],
+                    [
+                        "−2",
+                        "Ritemaster kills a small animal (rodent or small bird) for the rite"
+                    ],
+                    [
+                        "−5",
+                        "Ritemaster kills a wolf for the rite (this also requires a degeneration check at Harmony 6; roll 3 dice)"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Slaying the Truth, Rite of",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 74"
+        "Description": "Erases forbidden knowledge from an unconscious target's memory without killing the target.",
+        "Book": "Tribes 74",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Some secrets should remain secret. But information, the Bone Shadows note, seeks to flow into places of lesser concentration. This means that people seem to have a way of learning things that they shouldn’t, and sometimes it rankles the werewolves’ consciences that someone who learned a truth that they ",
+                    {
+                        "text": "cannot",
+                        "italic": true
+                    },
+                    " be allowed to possess should die for it. This is especially true if the offending person isn’t a scholar or an investigator, but just a normal human who picked up the wrong book or turned down the wrong path."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Rite of Slaying the Truth provides a way to hide the secret again ",
+                    {
+                        "text": "and",
+                        "italic": true
+                    },
+                    " prevent needless killing. The rite is highly esoteric, and werewolves without a good grounding in spiritual matters and medicine often have trouble learning it. Everything has a spirit, as every werewolf knows, and every thought, feeling and memory in the human mind has a chemical representation. Therefore, each individual memory must have a spirit and a chemical that represents the memory. If the spirit of a memory can be targeted and destroyed, the memory can be erased entirely."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Bone Shadow who developed this rite, a surgeon and a member of the Lodge of the Hallowed Halls (see p. 65), originally created the rite to remove a comparatively innocuous secret. He wanted his daughter to forget that she had seen him change shape (because she was ",
+                    {
+                        "text": "uragarum",
+                        "italic": true
+                    },
+                    ", she hadn’t fallen to Lunacy). His attempt worked too well, and she forgot her father entirely. The werewolf, broken-hearted, set out to refine the rite so that it worked properly from there on out, but his daughter’s memory was never restored."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Now, the Bone Shadows teach this rite only to those with great standing — pack alphas, guardians of important loci, high-ranking members of lodges, etc. Using the rite is a serious undertaking, and only done when the alternative is killing a person whose death would be detrimental to the tribe. If successful, the rite removes the targeted memory and leaves the victim confused, but intact. Used incorrectly, though, the rite leaves the target a ",
+                    {
+                        "text": "tabula rasa",
+                        "italic": true
+                    },
+                    ", a blank slate with no memories at all."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The target needs to be present and unconscious for this rite to work. Normally, the Uratha drug the target or abduct him while he sleeps. The ritualist and any assistants have to work in complete silence — even a cough will disrupt the rite. They surround the sleeping target and trace glyphs in the air above his body, and then release a small insect onto his skin. The insect becomes infused with the power of the rite, buries into the target’s ear and poisons the spirit of the targeted memory. The spirit then dies and is absorbed into the target’s body. The target awakens a few hours later, but has no recollection of whatever event or knowledge the werewolf removed. Of course, the werewolves need to make sure that the target doesn’t simply relearn the secret."
+            }
+        ],
+        "DicePool": "Harmony versus subject’s Resolve",
+        "Action": "Extended and contested (30 successes; each roll represents five minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The insect that the werewolves used is too potent, and kills ",
+                    {
+                        "text": "all",
+                        "italic": true
+                    },
+                    " of the target’s memories. When the target awakens, he is a complete amnesiac. He recalls nothing about his previous life. He can eat, speak and function (he retains his Skills, though he might not know he has them until called upon to use them), but has no recollection of who he is. Doing this to a person causes degeneration at Harmony 6 (roll three dice)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are made toward the goal. If the target reaches 30 successes before the ritualist, the rite fails and the target wakes up. At this point, the werewolves might need to reconsider whether they can really let him live."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Progress is made toward the goal. If the ritualist reaches 30 successes before the target, the spirit-insect kills the spirit-memory, the information disappears and the target awakens in the morning feeling confused but otherwise intact."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Significant progress is made toward the goal. If the ritualist reaches the goal with 35+ successes, the target “smoothes out” his own memory. The information disappears, but the target has no lost time, holes in events or incongruous recollections that would tip him off that something is wrong."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+3",
+                        "Subject already suffers from amnesia of some time."
+                    ],
+                    [
+                        "+1",
+                        "Ritualist has a Medicine Specialty in Neurology."
+                    ],
+                    [
+                        "−1",
+                        "Subject has never seen the ritualist’s face."
+                    ],
+                    [
+                        "−3",
+                        "Ritualist does not possess the Medicine Skill."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Spirit Lamps of Autumn",
         "Rank": "4",
         "Cost": "",
         "Description": "Seasonal rite bestows upon participants 6 discretionary dice that may be used for spirit interactions during the next lunar month.",
-        "Book": "Rage 134"
+        "Book": "Rage 134",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "When the nights begin to grow longer, the power of the Shadow begins to grow as well. Werewolves answer this with the rite called Spirit Lamps of Autumn. This rite offers respect to the spirit world and honors their totems, but also is a demonstration of the Uratha’s own strength and vigilance. The lamps lit send a simple message to the spirit world — ",
+                    {
+                        "text": "We see you.",
+                        "italic": true
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite is sometimes performed on the autumnal equinox, but frequently may take place later into the season, when the nights are longer than the days. The four nights surrounding Halloween (Devil’s Night, Halloween, All Saints Day and All Souls Day) are popular choices in the West, with some werewolves choosing a night based on which moon phase will be most favorable. Some ritemasters insist on performing this rite on nights of the crescent moon, when the Ithaeur’s strength is at its peak and the spirits can be resisted."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The rite begins at twilight, and continues into the deepening night. All werewolves participating in the rite bring spirit lamps they’ve fashioned themselves to the gathering. These lamps take a great variety of forms. In some regions, all of the lamps may be made in the same way, in accordance to tradition — all red candles with wicks made from the maker’s own hair, for instance. The lamps may also vary tremendously even within a single gathering, with a lantern made from the skull of a Ridden enemy burning beside a kitbashed electric light with occult sigils covering its lampshade."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster moves from one participant to the next as the rite unfolds, instructing each werewolf to place her lamp at a specific point along a spiral pattern. Each lamp is blessed by the ritemaster in turn, and ritually lit by the werewolf who brought it there. The participant then stands above or beside her lamp (perhaps even holding it), staring out into the growing blackness, and stating her conviction to stand fast against the Shadow. As the ritemaster places and lights the final lamp (always the ritemaster’s own), he then speaks out in praise of the totems of the People. The Blood Talons present join in the praise of Destroyer Wolf, the Bone Shadows present join the soft chant to Death Wolf and so on. The ritemaster then names the pack totems of each participating pack, and the packs themselves speak words of thanks and honor. The words vary, but the intent is the same: ",
+                    {
+                        "text": "We see you. We see and honor your strength and wisdom, valued allies. We see and respect your might, enemies, and we will stand against it. We see you.",
+                        "italic": true
+                    },
+                    " The rite closes as each participant moves beyond the circle of light into the darkness, leaving only the ritemaster in the spiral of light. Many packs move directly into a hunt that very night."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents five minutes’ effort)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes gathered are lost. The rite’s failure demoralizes the werewolves in attendance; all participants suffer a −1 penalty to Composure checks for the remainder of the night. The rite cannot be performed again that night."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If the required total is gathered, the rite is a success. All participants in the rite gain six discretionary dice, which may be used toward any action related to direct dealings with spirits in the next lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are accumulated. If 25 successes are accumulated, the number of discretionary dice awarded to each participant is increased to nine."
+                ]
+            }
+        ]
     },
     {
         "Name": "Wealth of Heroes’ Health",
         "Rank": "4",
         "Cost": "",
-        "Description": "",
-        "Book": "WAtP 52"
-    },
-    {
-        "Name": "••••• Rites",
-        "Rank": "5",
-        "Cost": "",
-        "Description": "",
-        "Book": ""
+        "Description": "Creates a temporary communal Essence pool that packmates can draw from to heal lethal damage during the next scene.",
+        "Book": "WAtP 52",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "War may be rare for the Forsaken, but combat is a foregone conclusion. This rite is an old one, said to be created by Father Wolf after he first ran with the pack of his children. Before entering battle, a pack’s ritemaster may use this ritual to bless them all with long life and fortune in war. Then, at the ritual’s climax, the entire pack runs into the fray with confidence and flair, relatively certain that the spirits of their ancestors are watching over them."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "Wealth of Heroes’ Health is quieter than most rites, and faster, probably because it was designed to be activated in the short, tense minutes before an impending battle or ambush. The ritemaster arranges his packmates around him in an evenly-spaced circle and goes from one to the next, giving each a token of the pack and taking from each a token of the individual. He concludes it with a few words in the First Tongue thanking the ancestors for their protection."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes needed; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All accumulated successes are lost; the ritemaster must begin again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. Once the total number is reached, the ritemaster and each involved packmate spends a minimum of one Essence. These points of Essence become part of a phantom, communal Essence pool that all packmates may draw upon ",
+                    {
+                        "text": "only",
+                        "italic": true
+                    },
+                    " for the purpose of self-healing. Each point of Essence spent into the pool becomes two points of Essence in the phantom pool. Over the next scene, each werewolf involved in the rite can draw upon this pool as a reflexive action to heal a point of lethal damage. This counts toward the maximum amount of Essence spent in a turn for the individual, though there is no limit to the amount that can be drawn from the communal pool in a single turn. At the end of the scene, any phantom Essence left unused disappears."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The ritemaster achieves many successes. If 15+ successes are gathered on the same roll that ends the rite, the amount of phantom Essence in the group pool increases by two."
+                ]
+            }
+        ]
     },
     {
         "Name": "Besieging the Shadow",
         "Rank": "5",
         "Cost": "○●",
-        "Description": "",
-        "Book": "Terr 51"
+        "Description": "Weakens the local Gauntlet, counteracting thickened barriers between the physical world and the Shadow.",
+        "Book": "Terr 51",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Uratha use this ritual to lessen the strength of the local Gauntlet. This ritual came into being as a counter to the activity of the Azlu, but has also proven useful in counteracting a Gauntlet thickened by other outside forces. Besieging the Shadow can be used to undo the effects of the Fortify the Border Marches rite, for instance. Some Forsaken disapprove of this rite’s very existence, as it represents a temptation to make an area more prone to heavy spirit activity in the physical world."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritualist creates a symbolic barrier, and then destroys it by hand, tooth and claw. The symbolic barrier can be crafted of wood, stone, brick or cement. Once the symbolic wall is complete, the werewolf must spend days carving runes and sigils into it — different sigils as ",
+                    {
+                        "text": "Amahan Iduth",
+                        "italic": true
+                    },
+                    " changes her face. Every face of Mother Moon must see the wall and approve of its construction: the werewolf must spend at least 14 days crafting the wall, and it must be built outdoors, where the Lunes can look upon it. The strength of the symbolic barrier must correspond to the strength of the local Gauntlet. Once the symbolic wall has been created, the true ritual begins as the werewolf destroys the wall with tooth and claw. The construction of the symbolic wall can only be begun on the night of the darkest new moon."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence per −1 of the local Gauntlet penalty"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes per −1 penalty of the local Gauntlet; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All accumulated successes are lost. The ritemaster must begin from the beginning by building another symbolic barrier before attempting the rite again."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the roll. If the total equals or exceeds 10 successes per −1 of the Gauntlet penalty (for instance, 20 successes in an area where the Gauntlet strength is −2), the rite breaks down a portion of the barrier between worlds. The penalty imposed by the Gauntlet is lessened by 1."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite only works in areas where the Gauntlet is unnaturally thick, where the dice pool penalty is greater than it would normally be (as determined by the standard modifiers on p. 250 of Werewolf: The Forsaken). This rite cannot be used to create a positive Gauntlet modifier; this rite cannot raise an area with a +0 modifier to a +1 modifier. This rite cannot be successfully performed more than once on the same area; if the local Gauntlet is again thickened after successful use of this rite, the werewolf must find another means of reducing the penalty."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No effect apart from additional successes gained."
+                ]
+            }
+        ]
     },
     {
         "Name": "Border Citadel, Rite of the",
         "Rank": "5",
         "Cost": "○●",
-        "Description": "",
-        "Book": "Terr 51"
+        "Description": "Permanently strengthens the local Gauntlet, usually to repair spiritual damage or protect against dangerous incursions.",
+        "Book": "Terr 51",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "This rite is a more powerful version of the rite ",
+                    {
+                        "text": "Fortify the Border Marches",
+                        "italic": true
+                    },
+                    " (see ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    ", p. 154). Few werewolves know the secrets of this rite, and fewer are willing to share its knowledge with others. The rite thickens the local Gauntlet permanently, an activity that can cause damage to the spirit world and draw much of the life from the physical world. Most ritemasters capable of using this rite do so only to repair damage caused by the Beshilu or to protect the physical world from the depredations of a Wound."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritualist must erect a new and permanent barrier within her pack’s territory. This barrier does not necessarily have to be in the same place as the place whose Gauntlet she wishes to change, but it must be within the pack’s territory and the chosen location must be visible from this new barrier. The barrier can be nearly anything: a chain-link fence, a brick-and-mortar wall, a jail cell. The barrier must be a physical barrier, and it must truly interfere with the movements of mortals in the area — they have to walk or drive along a new path as a result of this barrier. The werewolf smears a bit of her own blood into the center of the new wall while speaking words of warding and banishment. This ritual can only be begun once per month, on the night of the brightest full moon."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence per −1 penalty imposed by the local Gauntlet"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents 30 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. At the Storyteller’s discretion, a Barren may form in the local Shadow."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added. If the total number meets or exceeds 20 successes, the rite is complete, and the Gauntlet in the local area is increased in power by an additional −1 penalty — a −2 modifier becomes a −3, and so on. This rite cannot be used more than once on the same area, although Fortify the Border Marches can still be used as a temporary augmentation of the Gauntlet’s strength."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are added. If the total number gained meets or exceeds 25 successes, the effect is so perfectly formed that the rite may be performed an additional time in the area (allowing the werewolf to add a permanent total of −2 modifier dice to the Gauntlet’s strength). This bonus can only be gained once; an area can never “benefit” from the effects of more than two applications of the Rite of the Border Citadel."
+                ]
+            }
+        ]
     },
     {
         "Name": "Community Spirit",
         "Rank": "5",
         "Cost": "○●",
-        "Description": "",
-        "Book": "SotM 145"
+        "Description": "Turns people connected to the ritemaster's territory against the target of a hunt for a day and a night.",
+        "Book": "Tribes 145",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Every ",
+                    {
+                        "text": "Farsil Luhal",
+                        "italic": true
+                    },
+                    " has a territory that she must honor. For some, their territory is their pack’s territory; others have close ties to a community, an institution or even an ideal. Everything an Iron Master does is for her territory. This rite taps the tribe’s role as the wardens of humanity, making her territory give her something in return."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Enacting this rite at the start of a hunt allows a werewolf to exert an innate authority over people with a connection to her territory. Those who live there, those who are part of her community, those who belong to the same institution or hold the same ideal in high regard — anyone who has a strong connection to the werewolf’s territory does whatever she needs without realizing it. Channeling her Rage out into her territory can quickly raise a lynch mob or rally crowds to the pack’s defense. Whomever the pack is hunting, people refuse him service, cops arrest him and gang members beat him. The ritemaster has ultimate authority over the fate of her victim, but it will not be pretty."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Even a werewolf who holds the ideal of the ",
+                    {
+                        "text": "Farsil Luhal",
+                        "italic": true
+                    },
+                    " themselves as her territory gains great benefit from this rite. If she focuses on the idea of the tribe as watchers over humanity, humans who take a similar role — such as cops — act to her benefit. A werewolf who focuses on the tribe as the innovators of the Uratha find that artists, creators and technologists follow her command."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster gathers her pack around her. They must have a target for their hunt, either a single person or a close-knit group — a family, a small company or another pack of werewolves are common examples. The ritemaster needs a photograph, a lock of hair or some other personal item from every member of the hunted group. She lights a small fire, burning incense and items of chiminage — commonly food or hand-crafted objects — before her packmates cast the items into the flames. They howl the reasons for their hunt and their desire to run their targets to the ground and kill them. The pack must howl until the fire has burned out. Afterwards, the ritemaster mixes the ash with a few drops of rainwater and one drop of blood from every member of her pack. She uses the resulting mixture to write a secret word of power in the First Tongue on a symbol of her territory."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (25 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " Powerful spirit magics turn against the pack. People who would aid the pack members turn against them; all Social rolls made on behalf of the pack suffer a −3 penalty. This lasts for one scene."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The rite fails. The target only has to deal with a pack of werewolves coming to kill him."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The Iron Master’s territory comes to aid the pack in their hunt. The ritemaster binds his territory to him, deciding just how far members of his territory will go. The werewolf doesn’t have to speak; his Rage contacts the primal mind of his territory."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Members of the territory who see the target of the hunt are compelled to act against him — a store or restaurant refuses to serve him, a cab driver ignores his hails, a mugger sees his next mark. People won’t do anything worse than they would on a really bad day, but the target finds a large chunk of the populace is against him. Nobody will kill the target of the rite — that is a job for the pack alone. The rite lasts for a day and a night, and honor demands that after that time the hunt must cease."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " People who are part of the territory go out of their way to obstruct the target of the rite. The target sees that the world is against him, and loses two points of Willpower."
+                ]
+            }
+        ]
     },
     {
         "Name": "Drawing Down the Shadow",
         "Rank": "5",
         "Cost": "●x30+",
         "Description": "Creates a new Locus; costs 10 Essence base plus 20 Essence per dot of the Locus. Each additional participant generates one extra Essence per hour for this purpose.",
-        "Book": "WtF 163"
+        "Book": "WtF 163",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The origins of this rite are lost in prehistory. However, lore states that it was learned after the murder of Father Wolf and the rise of the Gauntlet, as a desperate measure learned to keep the physical and spirit from drifting too far apart."
+            },
+            {
+                "type": "paragraph",
+                "text": "This powerful mystical rite allows werewolves to pour Essence into an object and create a locus, a place where the spirit world is close to the physical. The rite is difficult to master and never performed lightly, for the consequences are potentially very dangerous. A new locus can be a valuable resource, or it can be a gateway through which new threats bleed into the world from the Shadow."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite requires a significant amount of Essence to enact; the object must be saturated with spiritual energy before the peak of the rite’s power can forge it into a beacon of Essence in its own rite. As few packs are able to muster the amount of Essence required from their personal reserves — and fewer still would willingly leave themselves so vulnerable by doing so — the rite incorporates the use of touchstones. The spirits invoked vary from place to place - a wise ritemaster will call on spirits that are strong locally, yet will not call the names of spirits that might prove powerful rivals for the new locus."
+            },
+            {
+                "type": "paragraph",
+                "text": "Loci are described in Appendix One, beginning on p. 260."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster must select an appropriate object to be the focus of the rite; an object that might over time have become a locus in its own right is ideal. The pack piles their collection of touchstones around the object to be empowered in something of a loose cairn. Then, each werewolf participating in the rite cuts their palm and lets a measure of their blood run onto the assembled touchstones. The ritemaster dips a claw into the blood, and paints a series of glyphs surrounding the locus to better channel the Essence."
+            },
+            {
+                "type": "paragraph",
+                "text": "Surrounding the core of the ritual is an exhausting and time-consuming series of chants, dances, howls and even impromptu ritual combat meant to increase the flow of emotional energy in the area. The rite is half-improvised. The ritualist knows the common themes that must be included in the pack’s efforts, and leads the group through them. The culmination of the rite is a great howl that lances across the Gauntlet into the Shadow, and binds flesh together with spirit in the form of a new locus."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite cannot succeed in the area of influence of a Barren."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "10 Essence + 20 Essence per level of the locus to be created."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite is particularly grueling, and requires multiple rolls. The rite itself requires an extended Harmony roll, with the locus coming into being once the appropriate number of successes has been earned. However, for every hour that passes a Stamina + Occult roll must be made every hour for the ritualist and each werewolf who assists in the performance. Penalties accrue as the performance proceeds: –1 for each two hours that pass after the first. Thus: –1 after the second and third hour, –2 after the fourth and fifth hour, and so on. Teamwork doesn’t apply to this roll. Each werewolf attempts to hold up his own end of the rite. Each failure on this roll levies an additional –2 penalty to the next Stamina + Occult roll made for the character. A dramatic failure means the werewolf collapses from exhaustion. If the character leading the rite collapses from exhaustion, the rite fails automatically."
+            },
+            {
+                "type": "paragraph",
+                "text": "However, each participant that successfully aids the ritual will generate extra Essence for the purpose of creating the locus. Each werewolf apart from the ritemaster who continues to participate will add one Essence per hour for the purposes of feeding the cost of the rite. This Essence cannot be spent in any other way. In addition, each participant (including the ritemaster) may spend their own Essence to feed the rite: up to three Essence during the ritual bloodletting, and one additional Essence per hour of participation."
+            }
+        ],
+        "DicePool": "Stamina + Occult / Harmony",
+        "Action": "Extended (20 successes + 5 successes per level of the locus to be created; each roll represents one hour)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite has been disrupted, and the ritemaster must begin again. Any Essence spent during the bloodletting stage of the ritual or in the hours leading up to the dramatic failure is lost."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added to the rite, although the ritemaster and participants may still spend Essence during this hour."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained, and if the total becomes 25 successes, the object becomes a one-dot locus. The ritemaster may continue the rite if he so chooses; each additional 5 successes and 20 Essence will raise the locus’ power by a dot, presuming that the ritemaster doesn’t collapse from exhaustion."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The benefits of a locus are described on p. 260."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No additional benefit apart from gaining more successes in a short time."
+                ]
+            }
+        ]
     },
     {
         "Name": "Final Moonrise, Rite of the",
         "Rank": "5",
         "Cost": "-",
         "Description": "The subject of this ritual, who must have Purity ●●●, is transformed into a being of living silver. They take aggravated damage over time, but they may spend their final hours always in the war form, and are able to inflict devastating attacks on other werewolves.",
-        "Book": "Pure 128"
+        "Book": "Pure 128",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "One of the deadliest rites known to the Uratha, Pure and Forsaken alike, the Rite of the Final Moonrise turns a werewolf into a walking weapon against his enemies. The Pure who undergoes the rite changes into a nightmare of living silver, and though he has only scant hours to live after the rite’s completion, he will fill those hours tearing the life from his Forsaken enemies. This rite is suicide for the werewolf who accepts it, but the reward, the Fire-Touched say, is eternity in ",
+                    {
+                        "text": "Taga Dan",
+                        "italic": true
+                    },
+                    "."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Normally, this rite is performed when a Pure werewolf has lost a pack to the Forsaken or otherwise suffered such an injustice at their hands that his honor cannot be satisfied in any other way but to kill them all and die in the process. Once in a great while, the Fire-Touched use this rite to destroy opposition to access to a locus or holy site, but they generally are far too reverent of the rite to use it casually. And, although the Pure would never admit it, the Rite of the Final Moonrise is dangerous because it can attract Luna’s attention. The Pure can howl about “Bitch Luna” all they wish, but they know how dangerous her Lune servants can be."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Rite of the Final Moonrise can only performed on werewolves without auspices (that is, Pure). If a Forsaken werewolf attempts to perform or accept the rite, she can expect to be brutally attacked by Lunes within moments of the rite beginning. Also, only willing werewolves can undergo the rite, and the recipient must have Purity ••• in order for the rite to be successful."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The ritemaster anoints the recipient with a special fluid made from the blood of each member of the recipient’s pack (if none remain, the recipient’s own blood is used). The recipient’s packmates and any other Pure in the area who wishes to then say words of kind farewell, thanking the Fire-Touched for his courage and expressing their hope to one day meet him in ",
+                    {
+                        "text": "Taga Dan",
+                        "italic": true
+                    },
+                    ". They then retreat, leaving the recipient alone with the ritemaster, who tears the clothes (if any) off the werewolf’s body and paints his skin with glyphs in a mixture of blood and ash. The recipient, meanwhile, lets his Rage come to the surface but does not allow himself to release it until the rite is complete. When the last glyph is painted, the recipient explodes in Gauru form, as his body changes to silver. He then charges off to meet his enemies and his eventual reward."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (30 successes required; each roll represents one hour)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The rite attracts Lunar attention — either Lunes or a pack of Forsaken notice the rite in progress and attack."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added to the total."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. When the total reaches 30 successes, the werewolf changes into living silver as described. The werewolf suffers two aggravated Health points per hour, meaning that even an incredibly tough werewolf has less than seven hours to live. During that time, though, the subject cannot change out of Gauru form (unless killed), inflicts one point of aggravated damage to werewolves per turn through casual contact and adds three dice to all attacks made with natural weaponry. Needless to say, all such attacks inflicted aggravated damage to Uratha. In addition, the Fire-Touched receives an armor rating of 4 against any attack from a metal object (bullets, knives, swords, etc.) and an armor rating of 2 against all other attacks. The werewolf suffers no wound penalties. Finally, any Uratha attacking the silver werewolf with natural weaponry suffers one level of aggravated damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Considerable successes are added to the total. No other effect."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Recipient has Harmony 10."
+                    ],
+                    [
+                        "+1",
+                        "Recipient has Harmony 8 or 9."
+                    ],
+                    [
+                        "+1",
+                        "Recipient has undergone the Rite of Penance within the last 12 hours."
+                    ],
+                    [
+                        "−1",
+                        "Recipient has Harmony 2 to 6."
+                    ],
+                    [
+                        "−2",
+                        "Recipient has Harmony 1."
+                    ],
+                    [
+                        "−3",
+                        "Recipient is a Forsaken convert."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Last Stand, Rite of the",
         "Rank": "5",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 42"
+        "Description": "Blesses warriors for a final battle, letting them enter Death Rage and ignore wounds until the fight ends.",
+        "Book": "Tribes 42",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Horatius at the bridge over the Tiber. Leonidas and his 300 at Thermopylae. The Swiss Guard during the sack of Rome. The Five Lizards pack at Cherry Tree. The story of the last, epic stand is a powerful one for humans and Uratha alike. The Blood Talons in particular admire the glory of a life given in unwinnable battle so that others may live, and the Talons’ greatest ritualists have devised a rite to aid their warriors in their final battles. Only the most skilled ritualists can perform this rite, and only the greatest warriors of the tribe are blessed with its power. To use this rite in any but the most dire of need is considered a grave insult to the Destroyer Wolf and ",
+                    {
+                        "text": "Urfarah",
+                        "italic": true
+                    },
+                    " himself."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Down through the ages, dozens of tales have been told about the use of this rite. During the Brethren War, a pack of veteran Blood Talons in Detroit invoked the Rite of the Last Stand on Devil’s Night in 1984 as seven packs of ",
+                    {
+                        "text": "Anshega",
+                        "italic": true
+                    },
+                    " rolled over their territory. During the First World War, a pack trapped in the Ardennes made a last stand against a phantom army conjured up by an enormous Wound in the heart of the forest. Those who face the final battle with courage and honor are glorified in song by the tribe’s Moon-Dancers; the Lodge of the Einherjar is especially interested in these stories."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Rite of the Last Stand has the air of a funerary rite. The ritualist gathers his packmates, fully armed and girded for war, and reminds them that it is their duty and obligation to lay down their lives in defense of their territory and their loved ones. Each pack member steps forward, and recounts his memory of the pack’s greatest victories. As each pack member finishes his tale, he breaks his weapon in two and throws it to the ground, announcing that he needs no weapon to destroy his enemies. Those who do not have a personal weapon to break typically carry a club or a similar crude weapon to break for the purpose of the rite. When the entire pack has finished the ritual, they take on Urshul form and howl to the sky, asking ",
+                    {
+                        "text": "Fenris-Ur",
+                        "italic": true
+                    },
+                    " to witness the destruction of his enemies and to see how true warriors die."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (10 successes required per affected character; each roll represents one minute of preparing for death)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The Destroyer Wolf takes umbrage at the misuse of this rite. Each pack member takes seven points of aggravated damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are accumulated."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Progress is made toward the completion of the rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " No additional effect beyond extraordinary progress."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The effects of this rite are triggered the first time the character assumes Gauru form within 24 hours of performing the rite. The character immediately enters Death Rage, no roll required, and remains in that state until all enemies are dead or gone. Most significantly, though, the Uratha simply ",
+                    {
+                        "text": "does not die",
+                        "italic": true
+                    },
+                    ". He ignores all wound penalties, and suffers no ill effects for having any type of wound in his rightmost Health box. Even having his Health track completely filled with aggravated damage doesn’t put him down. Only complete and utter annihilation of his body will kill him before this rite’s effects end. (At the Storyteller’s discretion, grievous destruction of the character’s body may inflict additional drawbacks that are not wound penalties in the strictest sense — a Rahu who loses a leg very likely suffers a Speed reduction, for example.)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "When all enemies are either slain or retreated, the character comes out of Death Rage and immediately shifts back to Hishu form. Any and all injuries he suffered while in ",
+                    {
+                        "text": "Kuruth",
+                        "italic": true
+                    },
+                    " now take full effect, meaning that he is very likely dead."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Due to the intimate nature of the rite’s performance, the ritualist may perform it only for his own packmates. Any attempt to grant the benefits of the rite to a werewolf not linked by totem-bond to the ritualist is treated as a dramatic failure."
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "−5",
+                        "The ritualist’s pack is not completely outmatched by the impending battle."
+                    ],
+                    [
+                        "−3",
+                        "The pack members are not fighting to defend their territory or their loved ones."
+                    ],
+                    [
+                        "−1",
+                        "For each member of the pack that does not participate in the rite."
+                    ],
+                    [
+                        "+1",
+                        "The pack faces overwhelming numbers of enemies."
+                    ],
+                    [
+                        "+3",
+                        "The pack is the last line of defense against an impending threat (for example, the last Forsaken pack still resisting a Pure takeover of the city)."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Name the Quarry",
         "Rank": "5",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 109"
+        "Description": "Names a target as prey until sunrise, cutting him off from the world so only the hunting pack can interact with him.",
+        "Book": "Tribes 109",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite is invoked only rarely, as it is a death sentence for the target. The Hunters in Darkness use Name the Quarry only on enemies that the Hunters cannot allow to live to see sunrise, no matter what such bloody-mindedness might mean for the their Harmony. Once the Quarry is named, there’s no turning back — the ritualist (and usually his pack) must see the Hunt through to its bloody conclusion."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "A target named as the Quarry of the ",
+                    {
+                        "text": "Meninna",
+                        "italic": true
+                    },
+                    ", though, is a desperate wretch indeed. No one will help him. Indeed, no one can ",
+                    {
+                        "text": "see",
+                        "italic": true
+                    },
+                    " him. He becomes a non-person, shielded from view by powerful spirits of death (which, in recompense for their efforts, reap the Essence released when he dies). He might run up to people on the street, but find himself running past them. He screams, but no one hears. He throws objects, but they stop in midair and land harmlessly, unnoticed. The Quarry is alone in the world… until the Hunters come for him. If he can survive to feel the first ray of sunlight on his skin, he is free of the rite’s effects, and by custom, the ",
+                    {
+                        "text": "Meninna",
+                        "italic": true
+                    },
+                    " cannot harm him. But this is academic — if anyone has ever survived a night as the Hunters’ Quarry, no tales exist as testament."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Because time is a factor, this rite is brief. The ritualist touches the Quarry and speaks his name, or as much of it as she knows, and finishes the rite with a First Tongue phrase — ",
+                    {
+                        "text": "Mu-se za nam-erin",
+                        "italic": true
+                    },
+                    " (“I name you as my prey.”). To the ritualist and her pack, the world fades in color, and only the prey seems real and vibrant. To the Quarry, the sky grows lower, the world becomes narrow and he feels the touch of death on his neck. The Hunters howl, and the Quarry runs. The Hunt begins."
+                ]
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Instant and contested (target rolls Composure + Purity + Primal Urge reflexively)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The Quarry is unworthy of this rite, and the spirits take great offense to the werewolves who tried calling down such a curse on an undeserving person. The pack suffers under the curse for one hour, pursued by Wolf-Brothers (see p. 244 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    ")."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " The ritualist does not exceed the target’s successes. The rite fails to take effect. The pack can still hunt the Quarry, but without benefit of this rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The ritualist exceeds the target’s successes. Until sunrise, the target cannot interact with anyone other than the pack and cannot affect the world around him. Because this effect is made possible by powerful death-spirits, it is possible, however unlikely, that he might be able to drive them away and thus end the rite’s effects. Doing so with a pack of slavering werewolves on his heels, though, would be a truly miraculous feat."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The ritualist exceeds the target’s successes, and the player rolls five successes or more. The target is so terrified by the rite that he loses a point of Willpower."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Rite is performed in the Shadow."
+                    ],
+                    [
+                        "+1",
+                        "Ritualist knows the target’s full, birth name."
+                    ],
+                    [
+                        "−1",
+                        "Ritualist knows only a nickname or part of the target’s name."
+                    ],
+                    [
+                        "−2",
+                        "Ritualist doesn’t know any part of the target’s name."
+                    ],
+                    [
+                        "−3",
+                        "Target has never directly harmed the ritualist or her pack."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Oath and Fetter, The",
         "Rank": "5",
         "Cost": "●●●●●",
-        "Description": "Creates a protecterate and those who swear oath to the protectorate gain certain buffs. While inside the protectorate's border werewolves who belong get +2 to all physical actions but outside the borders they are penalized -1 to all physical rolls. Werewolves who do not belong are penalized -2 to all physical rolls. Mortals within the borders are penalized -2 to their willpower ratings for determining Lunacy. The Gauntlet is considered 1 lower for sidestepping within the borders as well.",
-        "Book": "Rage 180"
+        "Description": "Creates a protectorate and those who swear oath to the protectorate gain certain buffs. While inside the protectorate's border werewolves who belong get +2 to all physical actions but outside the borders they are penalized -1 to all physical rolls. Werewolves who do not belong are penalized -2 to all physical rolls. Mortals within the borders are penalized -2 to their willpower ratings for determining Lunacy. The Gauntlet is considered 1 lower for sidestepping within the borders as well.",
+        "Book": "Rage 180",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Legends say that, long ago, the Forsaken gathered more easily in functional societies — more than just protectorates, they marked the mountains and forests with fortified city-states that kept vigil over the spirits and loci in an effort to guard the harmony of the land. Of course, many Forsaken think that such legends are just that, legends, and thus taste faintly of bullshit. The bestial urges of a werewolf would eventually override the solidarity of such a city-state, guaranteeing the eventual downfall of such a so-called society."
+            },
+            {
+                "type": "paragraph",
+                "text": "Whatever the case, one rite may harken back to such a supposed time. This rite ensures that those who belong to the protectorate are quite literally marked and favored for doing so. They become tied to the land and to one another by swearing an oath (of the ritemaster’s devising). The actual domain itself actually becomes spiritually protected, as well — outsiders feel the effects when they step into a domain that is not their own."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite is by no means simple to perform, but its effects are lasting, more so than many rituals."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The enacting of this rite by its ritemaster is lengthy and complex. His first step is to walk the perimeter of the entire protectorate — which may be tens of miles — three times in a row. On the third pass, he must mark four spots with blood. On the northernmost point, he must mark the land with the blood of a bird. On the southernmost point, the blood of a mammal (non-human). At the easternmost point, he must drizzle human blood on the ground, and the blood of a Forsaken (himself or another) at the westernmost point. (These direction points can be roughly approximated if an exact directional “peak” cannot be easily surmised.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "When that is complete, the ritemaster must find the relative center of the protectorate. There, he will finish the last grueling stages of the ritual. He must set up a stone circle for himself, and for the next several days and nights he will visit this circle and perform various tasks. He will dance and howl. He will bite and claw at himself (likely in Dalu form) causing a number of lethal wounds equal to his Primal Urge score. He must then deliver unto the circle a number of bodily fluids: spit, blood, bile and urine. These fluids are meant to represent both a kind of purging as well as sacrifice — for forming and keeping a protectorate cannot be done without a strong measure of sacrifice on the parts of all involved."
+            },
+            {
+                "type": "paragraph",
+                "text": "At the end, he must shift into all five of his forms in that circle. He needn’t spend any significant time in those forms, only that he becomes each."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "5 Essence"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (40 successes; each roll represents one day’s worth of effort. The ritemaster needn’t perform this rite straight through, and can come back to perform the various parts of the rite over the course of weeks or even months.)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. The disturbed rite is like a beacon to antagonistic spirits, Hosts or Ridden. They may come sniffing around for the ritemaster’s blood and flesh."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained. The rite fails to take effect."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The appropriate successes are gained. If the ritemaster gains 40 or more successes, the ground within the protectorate’s perimeter (i.e., that periphery walked by the ritemaster during the rite) becomes supernaturally protected. Those who belong to the clutch also gain a number of bonuses. Note, however, that truly belonging to the protectorate means doing so in more than name alone. To “belong,” a werewolf must swear an oath of the ritemaster’s devising to the ritemaster himself. The ritemaster must then mark the werewolf’s wrists and ankles with the ritemaster’s own blood. The overall effects are as follows:"
+                ]
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Werewolves who belong gain a +2 bonus when performing Physical actions within the protectorate’s periphery. The land literally seems to aid them: if running, the ground seems to give them a boost. If fighting, they seem to see and feel the space around them, allowing them to move more confidently.",
+                    "However, when outside the protectorate boundary, werewolves suffer a –1 penalty to all Physical rolls. They feel awkward, out-of-place. They might stumble more easily or feel uncomfortable in their own bodies.",
+                    "Werewolves who do not belong to the protectorate suffer a –2 penalty to all Physical rolls while within the protectorate borders. The land seems somehow to reject them — if running, they might trip on a snaking root that didn’t seem to be there before. If fighting, they might find that every time they swing or bite, a branch catches them in the face or their heel gets caught on a jutting rock.",
+                    "Mortals in the protectorate area suffer Lunacy more acutely. Assume that every mortal has a Willpower lowered by 2 when considering the effects of observing a werewolf Dalu, Gauru or Urshul form.",
+                    "The Gauntlet is one lower than usual for purposes of traveling back and forth from the Shadow to the physical world. This is the case only within the periphery of the alliance domain."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite’s effects function for as long as the ritemaster remains alive. Once he dies, its effects cease suddenly. Once a werewolf “belongs” through the oath, he can choose to bow out of the oath (and thus, all the positive effects of the rite) by simply deciding to do so. Doing so, however, means he is now an “outsider,” and subject to the –2 Physical penalty while within the protectorate borders. The werewolf can, with the ritemaster’s permission, rejoin the protectorate by swearing the oath again, but doing so costs him both an Essence and a Willpower point."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are added to the total. If the total reaches 45+ successes, for 24 hours after the completion of the rite, the Physical bonus to all the appropriate werewolves in the protectorate is increased to +3. After the 24 hours, the bonus drops to the normal +2 modifier."
+                ]
+            }
+        ]
     },
     {
         "Name": "Rending the Gauntlet",
         "Rank": "5",
         "Cost": "-",
         "Description": "Opens a hole in the Gauntlet in any location, which lasts for a single turn.",
-        "Book": "WtF 165"
+        "Book": "WtF 165",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "With the rise of the Gauntlet, the Uratha lost the ability to walk freely between flesh and spirit as their progenitor did. Now werewolves require the presence of a locus, where the spirit world is naturally close, to cross between worlds. Powerful werewolves are capable of overcoming this limitation, however, forcing their way through the Gauntlet even away from a locus. This rite is one of the means they use to do so. By Rending the Gauntlet, a werewolf weakens the wall between the worlds for a moment, allowing him and his pack to enter or leave the Shadow."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster must be in Dalu form to initiate this rite, as it requires claws more substantial than a human’s nails. The ritualist claws at the air in a series of passes, tracing mystical symbols. As the rite progresses, he begins to feel more resistance under his claws, as he cuts his way deeper into the Gauntlet. At the height of the ritual, the barrier between the worlds becomes a soft membrane that he and his pack can push through."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes; each roll represents one minute’s effort)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost and the Gauntlet regains its strength. A hostile spirit might slip through the Gauntlet just before the weakened spot heals."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Some successes are accumulated. If the required total is gathered, the werewolf opens a temporary passage through the Gauntlet, allowing his entire pack to enter or exit the spirit world. The passage remains open for one turn, after which it reseals itself. Any nearby spirits may attempt to use the passage as well, although most don’t choose to do so. (They recognize the sign of a pack of Uratha about to cross the Gauntlet, and are usually unwilling to directly antagonize werewolves.) Humans, vampires and other denizens of the physical realm without Essence can attempt to pass through as well, but doing so requires the expenditure of a Willpower point and a successful Composure + Resolve roll."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Several successes are gathered in a short time. If 25+ are accumulated, the passage opens with even greater speed, which is perceptible to spirits on either side as sign of a powerful entity forcing its way through. Most spirits flee the area, giving the ritemaster and his pack a bit more breathing room. Otherwise, the passage functions as described."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Suggested Modifiers",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The modifiers that correspond to the Gauntlet’s relative thickness (see p. 251) apply to this rite even if it’s performed in the spirit world."
+            }
+        ]
     },
     {
         "Name": "Return to the Borderland",
         "Rank": "5",
         "Cost": "●●●●● +1(A)",
         "Description": "Creates a temporary verge, although otherworldly forces or events may conspire to make the verge permanent.",
-        "Book": "BoS 122"
+        "Book": "BoS 122",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Werewolves know that their duty is to maintain the separation of the physical and the spiritual worlds. They want to keep one from lording over the other, but that didn’t stop them from developing this ritual. They temporarily bring the two worlds into convergence, forcing them so close together that the spiritual imagery and symbolism appears in the material world and the dull, solid objects of reality are also in the Shadow Realm. This ritual creates a verge."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Most verges created by this rite are temporary. A pack of werewolves joins the two worlds for a specific purpose, and they are happy to let the Gauntlet drop again once they no longer need it raised. Occasionally, the passage between worlds might stay open longer, usually maintained by some ",
+                    {
+                        "text": "other",
+                        "italic": true
+                    },
+                    " mystic force. Or the verge may even become woven into the cyclic nature of Earth. Once the Gauntlet is torn open, events conspire to open it again at regular intervals, with no assistance (or even intent) necessary from the original ritualist."
+                ]
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster must delineate the boundaries of the verge, usually no more than can contain a large room or a small house. Marking the border with symbols meaningful to the local Shadow Realm and objects common in the surrounding material world, the character must slowly pierce her belly with a silver knife. The sensation is agonizing, and few ritemasters can stand the pain long enough to complete the rite. After at least an hour of incredible pain, she drives the knife as hard as she can into the ground, and the verge opens instantly."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "5 Essence, one point of aggravated damage per hour"
+            },
+            {
+                "type": "paragraph",
+                "text": "As the ritualist must slowly and excruciatingly drive a silver knife into her own abdomen, this rite requires more focus and control than many werewolves possess. At the beginning of each hour, the character must roll her Stamina. Failure indicates that the character cannot continue and must end the ritual unsuccessfully. Penalties do not accrue over time, but wound penalties (if the ritual goes that far) apply to both the Stamina and Harmony rolls."
+            }
+        ],
+        "DicePool": "Stamina / Harmony",
+        "Action": "Extended (five successes + 1 per 100 square feet + 1 per hour open; one hour per roll)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The ritual ends in failure, and the character cannot attempt it again for a lunar month."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes accumulate."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. If the character reaches the required number of successes, the verge opens. The local physical and spiritual worlds temporarily collide, completely free of the Gauntlet. Anyone and everyone can cross from one to the other simply by walking through this area."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Many successes accumulate."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "In a locus rated ••••+"
+                    ],
+                    [
+                        "+1",
+                        "In a locus rated •• or •••"
+                    ]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "And apply a penalty based on the strength of the local Gauntlet."
+            }
+        ]
     },
     {
         "Name": "Risen the Wardens, Close the Gates",
         "Rank": "5",
         "Cost": "●+",
         "Description": "Spirits of Rank 5 or less may not leave the Hisil. The area affected is a 1 mile radius per Essence spent and lasts for one lunar month.",
-        "Book": "BoS 122"
+        "Book": "BoS 122",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This mighty and terrible ritual sees such rare use that it is even more rarely taught. Many ritemasters consider it too dangerous to pass on, or even a form of heresy to invoke. This is a rite that hardens the barrier between the spiritual and physical worlds, making it nearly impossible for all but the most powerful creatures to pass from one to the other. This includes all werewolves, making this a disagreeable situation only used in the most dangerous of times. One might perform the ritual when it was of the utmost importance that no spirits be allowed out of the Shadow Realm — when their interference could send something delicate tumbling into destruction."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The ritemaster performs this ritual under the sun, beginning one hour after dawn and ending no later than one hour before dusk. During that time, the ritualist implores the spirits of the sun to burn away shadow, and he must have a finely crafted clock (Cost: Resources ••• or greater) as the focus of the rite. The character must destroy one object with the potential for life, be it a fertilized chicken egg or an unsprouted seed, for every hour of the ritual."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "1 Essence per mile radius"
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (40 successes; each roll represents 10 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The rite fails completely. The ritemaster and all werewolves nearby suffer backlash, becoming unable to cross the Gauntlet for one full year."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes accumulate."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes accumulate. When the ritemaster achieves the required number of successes, a burst of light flows outward from the clock-focus, dimming as the light goes. It travels outward a number of miles equal to the Essence spent on the rite, though it is barely visible after the first 100 yards. Within that area, no attempt to pass between the physical world and the Shadow Realm succeeds, regardless of the method. Only spirits of Rank greater than five may ignore this restriction."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Complete inability to enter the material world causes significant consternation to many spirits. Few, if any, will know the cause, especially since this rite sees such infrequent use. After a very short time, spirits are going to test the boundaries of this restriction. They will eventually find where they can and where they cannot cross the Gauntlet, and then they will head inwards to discover the source of their irritation. The influx of agitated spirits will cause a great deal of trouble, especially as they need to fetter themselves to or possess living creatures to stay so long in the physical world."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the clock used as the focus is, for any reason, destroyed, the ritual’s effect immediately ends. Otherwise, it lasts for one lunar month."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Many successes accumulate."
+                ]
+            }
+        ]
     },
     {
         "Name": "Silver Scar, Rite of the",
         "Rank": "5",
         "Cost": "-",
         "Description": "Removes Renown from a Pure subject; when removed completely the subject makes a degeneration check due to the agony of enduring this rite.",
-        "Book": "LodgF 86"
+        "Book": "LodgF 86",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This potent rite is used to remove the Renown gained from a willing recipient, in effect re-baptizing her and preparing her to begin walking the path of Lunes. Without the use of this rite, a formerly Pure werewolf cannot join the Tribes of the Moon; at best, she can only be a Ghost Wolf without so much as an auspice."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The subject typically exposes herself to the open sky, baring any areas of her skin that are marked by the brands of Pure Renown. As the ritemaster begins to chant a litany of sacrifice and forgiveness, the scar-like spirit brands that mark her Renown become visible, glowing with a dull golden light. The ritemaster runs a fingernail across the pattern of each tattoo as he continues to chant, anointing the brands with a mix of pure water and powdered silver. The spirit brands that mark Renown gained as a Pure werewolf glow with silver light as they burn away from the subject’s flesh."
+            },
+            {
+                "type": "paragraph",
+                "text": "The process is quite painful, and leaves ugly wounds on the subject; werewolves subjected to this rite have been known to fly into Death Rage if too much Renown is scourged away from them. When the rite is completed, the subject can heal from her wounds normally, but a faint tracery of almost invisible scars marks where her previous brands of Renown once were. These marks can be covered up or disguised, but the surest way to remove them is to undergo the Rite of the Spirit Brand sufficient times to replace the old marks with the new brands of lunar devotion."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (5 successes per dot of Renown to be removed; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. Any Pure Renown that has already been scourged away does not return; the ritemaster must start over from zero successes to burn off the remaining Renown."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are gained."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gained. The ritemaster may trade five of the accumulated successes to burn off one point of Renown; the character loses one point of Renown in a category of the ritemaster’s choice and takes one point of lethal damage, and the ritemaster’s total pool of successes is reduced by five. If the target still has Renown, the rite may continue."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the ritemaster has spent sufficient successes to remove all the target’s existing Renown, the rite is considered complete. At the completion of the rite, the recipient must make a degeneration check at three dice; the pain and change of the rite is sufficient to severely traumatize a werewolf and disrupt her inner sense of balance."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Successes are gained; there is no additional effect."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+2",
+                        "Rite is performed by moonlight"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Spirit Clay, Rite of the",
         "Rank": "5",
         "Cost": "",
-        "Description": "",
-        "Book": "SotM 74"
+        "Description": "Reshapes a bound spirit and imposes a new ban upon it.",
+        "Book": "Tribes 74",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rite is reserved for powerful spirits that have offended the tribe, and usually used only on spirits whose bans are complex, arcane or extremely difficult to enact. The Rite of the Spirit Clay allows the Bone Shadow to reshape the targeted spirit and bestow a new ban upon it."
+            },
+            {
+                "type": "paragraph",
+                "text": "Learning this rite is an undertaking in and of itself. It requires a journey into the Shadow, a quest to find a deep, dark cave — a Den of Secrets (p. 61) belonging to Death Wolf herself. This quest can take weeks or years, but some werewolves have reportedly completed it sooner. It depends on how much time and energy the Uratha wishes to devote. In any case, the werewolf must give over a small piece of her own Essence to Death Wolf. She replaces this Essence with a portion of her own, bestowing the power to reshape spirits. Uratha cannot teach this rite to each other, and although a werewolf might mimic the motions of the rite, it is impossible to perform without blessing from Kamduis-Ur."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ban that the werewolf imposes upon the spirit is the same each time the werewolf performs it. The werewolf chooses the “sculpture” she makes in the spirit clay when Death Wolf teaches her the rite, and it is usually indicative of the challenges she faced while finding the den. The ban can be simple and potent, but must be something that requires deliberate action. That is, a werewolf can name “A wave of my hand banishes the spirit” as the ban, because a wave of the hand can be accidental. A particular hand gesture, though, one too complicated to make without intent, would work."
+            },
+            {
+                "type": "paragraph",
+                "text": "This rite, predictably, earns the enmity of any spirit subjected to it. The Bone Shadows use this rite as retribution against powerful spirits, or sometimes as a way to impose a check on a spirit that might cause them trouble in the future."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The spirit must be bound in order for the rite to proceed (see “Bind Spirit,” p. 157 of ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    "). The werewolf calls out the name of the spirit and recites its choir, descant and any wrongs the spirit has committed against the ",
+                    {
+                        "text": "Hirfathra Hissu",
+                        "italic": true
+                    },
+                    ". The ritualist then pours a small amount of liquid onto bare earth (water, normally, though some werewolves have been known to bleed or urinate if it would offend or intimidate the spirit) and forms a small chunk of dirt in a soft, clay-like substance. The character reshapes the clay into a form representative of the spirit’s new ban, and holds the sculpture up for the spirit to see. At the culmination of the rite, the werewolf hurls the sculpture at the spirit, and spirits the First Tongue phrase ",
+                    {
+                        "text": "Ne me-a su hifil har",
+                        "italic": true
+                    },
+                    " — “This is your new form.”"
+                ]
+            }
+        ],
+        "DicePool": "Harmony versus spirit’s Resistance",
+        "Action": "Extended and contested (35 successes necessary; each roll represents one minute)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " The binding shatters, and the spirit bursts free in a blast of spiritual power. The ritualist and any werewolves in the area are momentarily stunned, and the spirit can take one free action (flee, attack, etc.) before the werewolves can react."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are garnered toward the goal. If the spirit reaches 35 successes before the ritualist, its ban remains intact, and the Storyteller can make a Power + Resistance roll for the spirit. If this roll succeeds, the spirit shakes free of the binding circle and can act as the spirit sees fit."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " Successes are gathered toward the goal. If the ritualist reaches 35 successes before the spirit, the spirit’s makeup is reshaped, and the spirit takes on the new ban. The Storyteller can roll Power + Resistance as explained above for the spirit to escape the binding, but the spirit generally flees if it does escape."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " Significant progress is made toward the goal. If the ritualist finishes the rite with 40+ successes, the spirit ",
+                    {
+                        "text": "cannot",
+                        "italic": true
+                    },
+                    " attempt to escape the binding."
+                ]
+            },
+            {
+                "type": "table",
+                "title": "Suggested Modifiers",
+                "headers": [
+                    "Modifier",
+                    "Situation"
+                ],
+                "rows": [
+                    [
+                        "+1",
+                        "Werewolf outranks the spirit (see p. 158 of Werewolf: The Forsaken)."
+                    ]
+                ]
+            }
+        ]
     },
     {
         "Name": "Transfer the Spirit’s Blessing",
         "Rank": "5",
         "Cost": "●●+",
         "Description": "Ritemaster transfers ability to use gift from one willing werewolf to another willing werewolf (or himself) permanently. Cost is 2 essence per rank of the gift transferred and is a sin with a threshold of Harmony 4. The werewolf that donates the gift may never relearn it and both werewolves have a -1 penalty to all rolls for one week.",
-        "Book": "LotD 123"
+        "Book": "Lore 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Only a spirit can grant a Gift. That’s one of the rules of the world, one of the inviolate laws laid down by Father Wolf before the Sundering. This rite exploits a tiny loophole in that law, allowing the ritemaster to transfer a Gift between werewolves. The ritual is not a pleasant experience for either party. The ritemaster rips the Gift’s Essence-mark from the other werewolf and grafts it to his own Essence. This process is extremely painful for both participants. The ritualist may also give Gifts she knows to another werewolf in a similar fashion. In either case, both werewolves are left dazed. The recipient is flooded with knowledge and feelings that she was unprepared for, and must learn how to use her new Gift the hard way. The werewolf who loses a Gift has a hole ripped in his Essence, and must come to terms with having lost the blessing of a spirit."
+            },
+            {
+                "type": "paragraph",
+                "text": "No one knows the origin of this rite; the People and the Pure Tribes both consider it going against the way of the world. A few werewolves know the rite at any one time, but none of them advertises the fact and they will only teach it to others whom they are sure they can trust. All too often, a werewolf who knows the rite grows careless, and any Uratha who hear of him join in the hunt."
+            }
+        ],
+        "PerformingRite": [
+            {
+                "type": "paragraph",
+                "text": "The rite must take place during the new moon, when Mother Luna’s face is most hidden from the world and the Shadow Realm is infected with her madness. The ritemaster must complete the rite in the open air before the sun rises, as any sunlight touching the ritual site will cause it to fail. In a deep valley or big city the effective horizons are higher, lengthening the amount of time that the werewolves have to complete the rite."
+            },
+            {
+                "type": "paragraph",
+                "text": "Before starting, the ritualist must take fifteen minutes to align her Essence with that of the other participant. The two align themselves through a series of joint howls, mad dances or sexual intercourse (the last of which may call for a separate degeneration check). The ritual itself takes place around a fire, built within a circle marked with chalk and saltwater. The rite leads off with an exhausting series of dances around the fire, while offerings are burned to bribe the local spirits with Essence under the guise of them understanding and allowing the transfer. The manic action dissolves into both Uratha howling nonsense to the sky and spirits. Both werewolves take a natural hallucinogen like peyote, ayahuasca or psilocybin during this part of the rite, exhausting their bodies and minds alike until they can feel nothing but the wind whipping at their skin and the flows of Essence between them. As the fire burns out, the ritemaster slashes the palms of both participants and thrusts them into the embers of the fire. The ritemaster can give or receive a Gift, or can enact the rite for two werewolves willing to undergo the process."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "2 Essence per level of the Gift (both participants must spend the full amount)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Taking part in this rite, whether it succeeds or fails, is a sin with a Harmony Threshold of 4. Both parties will also lose Purity Renown."
+            }
+        ],
+        "DicePool": "Harmony",
+        "Action": "Extended (20 successes + 10 per level of the Gift, each roll represents 20 minutes)",
+        "RollResults": [
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Dramatic Failure:",
+                        "bold": true
+                    },
+                    " All successes are lost. Both participants must immediately roll Harmony to avoid gaining a derangement (see ",
+                    {
+                        "text": "Werewolf: The Forsaken",
+                        "bold": true
+                    },
+                    ", p. 181) in addition to the roll for degeneration as normal."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Failure:",
+                        "bold": true
+                    },
+                    " No successes are added. If the total number of successes required is not gained before the sun rises, the rite automatically fails."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Success:",
+                        "bold": true
+                    },
+                    " The Gift is transferred once the required successes are gathered. The donator of the Gift loses the ability to use it, and can never re-learn that Gift. The recipient gains full use of the Gift, but suffers a -1 penalty upon first using it as the power is unfamiliar to her. Both parties suffer a –1 penalty to all rolls for the next week as their Essence slowly repairs the damage from this rite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Exceptional Success:",
+                        "bold": true
+                    },
+                    " The werewolf makes considerable progress toward completing the rite. If five or more successes are gained than needed, the negative modifier only applies for the next two days as both participants’ Essence heals at a much faster rate."
+                ]
+            }
+        ]
     }
-]
+];

@@ -12,7 +12,8 @@ import {
     getRankedTableHeaders,
     hasRankedRows,
 } from "./SimpleTable/rankedTableUtils";
-import { getCurrentRoutePath } from "../utils";
+import { InlineContent } from "./StructuredContent";
+import { getCurrentRoutePath, normalizeDisplayText } from "../utils";
 
 export default function SimpleTable({
     title,
@@ -21,7 +22,6 @@ export default function SimpleTable({
     table,
     headers,
     activeRowLink,
-    mergeHeaders,
     titleVariant = "default",
     className = "",
     rankedField = DEFAULT_RANKED_FIELD,
@@ -63,7 +63,7 @@ export default function SimpleTable({
                     onClick={() => setIsSectionActive((p) => !p)}
                     className={titleClassName}
                 >
-                    {title} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                    {normalizeDisplayText(title)} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
                 </TitleTag>
             )}
 
@@ -72,9 +72,9 @@ export default function SimpleTable({
                     {upperText.map((desc, i) => (
                         <p key={i}>
                             {typeof desc === "string" ? (
-                                <span dangerouslySetInnerHTML={{ __html: desc }} />
+                                <InlineContent content={desc} />
                             ) : (
-                                <Link to={desc.link}>{desc.text}</Link>
+                                <Link to={desc.link}>{normalizeDisplayText(desc.text)}</Link>
                             )}
                         </p>
                     ))}
@@ -127,7 +127,6 @@ export default function SimpleTable({
                             headers={tableHeaders}
                             data={table}
                             activeRowLink={activeRowLink}
-                            mergeHeaders={mergeHeaders}
                         />
                     )}
                 </>

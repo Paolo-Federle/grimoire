@@ -1,4 +1,5 @@
 import React from 'react';
+import { normalizeDisplayText } from '../utils';
 
 function hasInlineHtml(value) {
   return typeof value === 'string' && /<[^>]+>/.test(value);
@@ -6,11 +7,11 @@ function hasInlineHtml(value) {
 
 function renderLegacyInlineHtml(value, keyPrefix) {
   if (!hasInlineHtml(value) || typeof DOMParser === 'undefined') {
-    return value;
+    return normalizeDisplayText(value);
   }
 
   const parser = new DOMParser();
-  const doc = parser.parseFromString(`<body>${value}</body>`, 'text/html');
+  const doc = parser.parseFromString(`<body>${normalizeDisplayText(value)}</body>`, 'text/html');
 
   return renderInlineNodes(Array.from(doc.body.childNodes), keyPrefix);
 }
@@ -21,7 +22,7 @@ function renderInlineNodes(nodes, keyPrefix) {
 
 function renderInlineNode(node, key) {
   if (node.nodeType === Node.TEXT_NODE) {
-    return node.textContent;
+    return normalizeDisplayText(node.textContent);
   }
 
   if (node.nodeType !== Node.ELEMENT_NODE) {
@@ -59,7 +60,7 @@ function renderInlineContent(value, keyPrefix) {
     return renderLegacyInlineHtml(value, keyPrefix);
   }
 
-  return value ?? null;
+  return value === null || value === undefined ? null : normalizeDisplayText(value);
 }
 
 export function InlineContent({ content, prefix = 'inline' }) {
@@ -68,7 +69,7 @@ export function InlineContent({ content, prefix = 'inline' }) {
 
 function renderInlinePart(part, key) {
   if (typeof part === 'string') {
-    return part;
+    return normalizeDisplayText(part);
   }
 
   if (!part || typeof part !== 'object') {
@@ -139,7 +140,7 @@ function renderBlock(block, index, tables) {
   }
 
   if (block.type === 'html') {
-    return <div key={index} dangerouslySetInnerHTML={{ __html: block.content || '' }} />;
+    return <div key={index} dangerouslySetInnerHTML={{ __html: normalizeDisplayText(block.content || '') }} />;
   }
 
   if (block.type === 'paragraph') {
@@ -148,8 +149,16 @@ function renderBlock(block, index, tables) {
 
   if (block.type === 'heading') {
     const level = block.level >= 1 && block.level <= 3 ? block.level : 2;
-    const HeadingTag = `h${level}`;
-    return <HeadingTag key={index}>{renderInlineContent(block.text ?? '', `heading-${index}`)}</HeadingTag>;
+    return (
+      <div
+        key={index}
+        role="heading"
+        aria-level={level}
+        className={`structured-content-heading structured-content-heading-${level}`}
+      >
+        {renderInlineContent(block.text ?? '', `heading-${index}`)}
+      </div>
+    );
   }
 
   if (block.type === 'list') {
@@ -182,7 +191,11 @@ function renderBlock(block, index, tables) {
 
     return (
       <div key={index}>
-        {table.title ? <h3>{renderInlineContent(table.title, `table-title-${index}`)}</h3> : null}
+        {table.title ? (
+          <div role="heading" aria-level={3} className="structured-content-heading structured-content-heading-3">
+            {renderInlineContent(table.title, `table-title-${index}`)}
+          </div>
+        ) : null}
         <table className="table-auto border-collapse border border-white w-full text-sm text-left">
           <thead>
             <tr className="bg-gray-100">

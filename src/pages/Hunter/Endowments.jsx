@@ -1,33 +1,65 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable'
+import { PATHS } from '../path';
+import { slugify } from '../../utils';
 import {
-    advancedArmoryData, benedictionData, castigationData, dreamscapeData,
-    elixirData, relicData, ritesDuChevalData, seitokukenData,
-    thaumatechnologyData, teleinformaticsInterviewData, teleinformaticsInvestigationData,
-    teleinformaticsResearchData, gospelOfAgaresData, gospelOfAmonData,
-    gospelOfBelethData, ritesOfDenialData, otherEndowmentData
+    advancedArmoryData, benedictionData, castigationData,
+    elixirData, relicData, ritesDuChevalData,
+    thaumatechnologyData, teleinformaticsOverviewData, teleinformaticsData,
+    goeticGospelOverviewData, goeticGospelData,
+    ritesOfDenialOverviewData, ritesOfDenialData, otherEndowmentData, endowmentDetailData
 } from '../../Data/Hunter/EndowmentData';
+
+const rankedEndowmentHeaders = ['Name', 'Rank', 'Cost', 'Dice Pool', 'Description', 'Book'];
+const rankedEndowmentParentHeaders = ['Name', null, null, null, 'Description', 'Book'];
+const ratedEndowmentHeaders = ['Name', 'Rating', 'Description', 'Book'];
+const activatedEndowmentHeaders = ['Name', 'Cost', 'Dice Pool', 'Description', 'Book'];
+const relicEndowmentHeaders = ['Name', 'Rating', 'Cost', 'Dice Pool', 'Description', 'Book'];
+const ritesDuChevalHeaders = ['Name', 'Rating', 'Cost', 'Description', 'Book'];
+const ritesOfDenialHeaders = ['Name', 'Cost (Xt = X thimbles of blood)', 'Description', 'Book'];
+const otherEndowmentHeaders = ['Name', 'Description', 'Compact or Conspiracy', 'Book'];
+const detailReadySlugs = new Set(endowmentDetailData.map((item) => slugify(item.Name)));
+
+const addEndowmentDetailLink = (item) => {
+    const hasDetail = item?.Name && detailReadySlugs.has(slugify(item.Name));
+
+    return {
+        ...item,
+        ...(hasDetail ? { link: `${PATHS.HUNTER.ENDOWMENTS}/${slugify(item.Name)}` } : {}),
+        ...(Array.isArray(item.Ranks)
+            ? { Ranks: item.Ranks.map(addEndowmentDetailLink) }
+            : {}),
+    };
+};
+
+const addEndowmentDetailLinks = (data) => data.map(addEndowmentDetailLink);
 
 export default function Endowments() {
     return (
         <div className='grid-container'>
-            <SimpleTable table={advancedArmoryData} title={'Advanced Armory'} activeRowLink={false} />
-            <SimpleTable table={benedictionData} title={'Benediction'} activeRowLink={false} />
-            <SimpleTable table={castigationData} title={'Castigation'} activeRowLink={false} />
-            <SimpleTable table={dreamscapeData} title={'Dreamscape'} activeRowLink={false} />
-            <SimpleTable table={elixirData} title={'Elixir'} activeRowLink={false} />
-            <SimpleTable table={relicData} title={'Relic'} activeRowLink={false} />
-            <SimpleTable table={ritesDuChevalData} title={'Rites du Cheval'} activeRowLink={false} />
-            <SimpleTable table={seitokukenData} title={'Seitokuken'} activeRowLink={false} />
-            <SimpleTable table={thaumatechnologyData} title={'Thaumatechnology'} activeRowLink={false} />
-            <SimpleTable table={teleinformaticsInterviewData} title={'Teleinformatics'} activeRowLink={false} />
-            <SimpleTable table={teleinformaticsInvestigationData} activeRowLink={false} />
-            <SimpleTable table={teleinformaticsResearchData} activeRowLink={false} />
-            <SimpleTable table={gospelOfAgaresData} title={'Goetic Gospel'} activeRowLink={false} />
-            <SimpleTable table={gospelOfAmonData} activeRowLink={false} />
-            <SimpleTable table={gospelOfBelethData} activeRowLink={false} />
-            <SimpleTable table={ritesOfDenialData} title={'Rites of Denial'} activeRowLink={false} />
-            <SimpleTable table={otherEndowmentData} title={'Other endowments'} activeRowLink={false} />
+            <SimpleTable table={addEndowmentDetailLinks(advancedArmoryData)} title={'Advanced Armory'} headers={ratedEndowmentHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(benedictionData)} title={'Benediction'} headers={activatedEndowmentHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(castigationData)} title={'Castigation'} headers={activatedEndowmentHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(elixirData)} title={'Elixir'} headers={ratedEndowmentHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(relicData)} title={'Relic'} headers={relicEndowmentHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(ritesDuChevalData)} title={'Rites du Cheval'} headers={ritesDuChevalHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(thaumatechnologyData)} title={'Thaumatechnology'} headers={ratedEndowmentHeaders} activeRowLink />
+            <SimpleTable
+                table={addEndowmentDetailLinks(teleinformaticsData)}
+                title={teleinformaticsOverviewData.Name}
+                headers={rankedEndowmentHeaders}
+                rankedParentHeaders={rankedEndowmentParentHeaders}
+                activeRowLink
+            />
+            <SimpleTable
+                table={addEndowmentDetailLinks(goeticGospelData)}
+                title={goeticGospelOverviewData.Name}
+                headers={rankedEndowmentHeaders}
+                rankedParentHeaders={rankedEndowmentParentHeaders}
+                activeRowLink
+            />
+            <SimpleTable table={addEndowmentDetailLinks(ritesOfDenialData)} title={ritesOfDenialOverviewData.Name} headers={ritesOfDenialHeaders} activeRowLink />
+            <SimpleTable table={addEndowmentDetailLinks(otherEndowmentData)} title={'Other endowments'} headers={otherEndowmentHeaders} activeRowLink />
         </div>
     );
 }

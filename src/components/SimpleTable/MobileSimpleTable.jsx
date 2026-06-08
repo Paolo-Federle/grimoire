@@ -2,7 +2,7 @@ import React from "react";
 import { BookLink } from "../BookLink";
 import { useNavigate } from "react-router-dom";
 import FavoriteToggle from "../FavoriteToggle";
-import { getCurrentRoutePath } from "../../utils";
+import { getCurrentRoutePath, normalizeDisplayText } from "../../utils";
 
 export default function MobileSimpleTable({ headers, data, activeRowLink }) {
     const navigate = useNavigate();
@@ -17,6 +17,10 @@ export default function MobileSimpleTable({ headers, data, activeRowLink }) {
     const renderValue = (header, row, value, i) => {
         if (header === "Book") return BookLink(value);
 
+        const displayValue = Array.isArray(value)
+            ? normalizeDisplayText(value.join(", "))
+            : normalizeDisplayText(value);
+
         const shouldLink =
             i === 0 && 
             activeRowLink &&
@@ -29,12 +33,12 @@ export default function MobileSimpleTable({ headers, data, activeRowLink }) {
                     onClick={(e) => handleLinkClick(e, row.link)}
                     className="underline text-blue-600"
                 >
-                    {value}
+                    {displayValue}
                 </a>
             );
         }
 
-        return value;
+        return displayValue;
     };
 
     return (

@@ -32,8 +32,20 @@ export const derangementData = [
         "LongDescription": [
             "Your character feels isolated, vulnerable and alone when not in the presence of animals. Kindred and kine are untrustworthy, two-faced and wicked. Animals are honest and dependable. While, in most cases, your character is able to make do with her discomfort provided she is not too far removed from wild creatures, when frightened, pressured, or imperiled, she seeks out or summons the reassuring presence of mundane animals just for her own peace of mind.",
             "This derangement most often manifests in the minds of Kindred who practice the Discipline of Animalism, though no particular level of ability in that Discipline is necessary to open the door to this disorder. A Kindred with the power to summon animals may be more likely to recover from her discomfort, but the anxiety does not wait for the Kindred to gain that power before it deranges her.",
-            "<b>Mild Effect:</b> In any scene set in an environment where your character cannot expect to see or hear wild animals (even squirrels or birds), roll Resolve + Composure to avoid a bout of anxiety. If the roll fails, the character suffers a -1 penalty to all dice pools for the remainder of the scene. Not actually seeing a wild animal isn’t enough to trigger the mild effect of this derangement; if the character can see a patch of ground or sky where animals would be able to reach her, should she call for them, that’s usually enough to ward off anxiety. GM discretion should dictate what environments are problematic for the character.",
-            "<b>Severe Effect:</b> The mild effects apply, as above, but in addition your character feels trapped whenever she is uncertain if her calls to nearby animals will be heard. It’s not enough to simply see sky or ground, at this level of derangement – the character cannot function unless she knows that some form of animal life can hear her. If the player fails the Resolve + Composure roll to overcome the character’s anxiety, the character must spend one Vitae and activate the Call of the Wild power (Animalism •••), just to get a sense of how well she can be heard by nearby animals. If the dice pool to activate the power is penalized by the Storyteller due to the nature of the physical environment (sealed windows, secure foundations, etc.), that same penalty affects all the character’s dice pools for the scene if she fails to summon any animals (or if the summoned animals fail to reach her).",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mild Effect:" },
+                    " In any scene set in an environment where your character cannot expect to see or hear wild animals (even squirrels or birds), roll Resolve + Composure to avoid a bout of anxiety. If the roll fails, the character suffers a -1 penalty to all dice pools for the remainder of the scene. Not actually seeing a wild animal isn’t enough to trigger the mild effect of this derangement; if the character can see a patch of ground or sky where animals would be able to reach her, should she call for them, that’s usually enough to ward off anxiety. GM discretion should dictate what environments are problematic for the character."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Severe Effect:" },
+                    " The mild effects apply, as above, but in addition your character feels trapped whenever she is uncertain if her calls to nearby animals will be heard. It’s not enough to simply see sky or ground, at this level of derangement – the character cannot function unless she knows that some form of animal life can hear her. If the player fails the Resolve + Composure roll to overcome the character’s anxiety, the character must spend one Vitae and activate the Call of the Wild power (Animalism •••), just to get a sense of how well she can be heard by nearby animals. If the dice pool to activate the power is penalized by the Storyteller due to the nature of the physical environment (sealed windows, secure foundations, etc.), that same penalty affects all the character’s dice pools for the scene if she fails to summon any animals (or if the summoned animals fail to reach her)."
+                ]
+            },
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",
@@ -85,7 +97,26 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "Follows I’m No Animal; As mild, but must spend Willpower point to assume beast-form as well as roll. May attack anyone who tries to remind of shapechanger nature.",
         "LongDescription": [
-            "<i>He <b>won’t</b> Change. At all. Obsessive to the point of insanity about his role as a <b>man</b>, goddammit, your shapechanger utterly forsakes his true nature. Suggestions that he embrace his wild self make him violent; he smashes or withdraws from every trace of his feral life, including the people he once held dear.</i>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "He " },
+                    {
+                        type: "italic",
+                        text: [
+                        { type: "bold", text: "won’t" }
+                        ]
+                    },
+                    { type: "italic", text: " Change. At all. Obsessive to the point of insanity about his role as a " },
+                    {
+                        type: "italic",
+                        text: [
+                        { type: "bold", text: "man" }
+                        ]
+                    },
+                    { type: "italic", text: ", goddammit, your shapechanger utterly forsakes his true nature. Suggestions that he embrace his wild self make him violent; he smashes or withdraws from every trace of his feral life, including the people he once held dear." }
+                ]
+            },
             "This character won’t change unless forced to do so; even then, he must make the usual roll and spend a Willpower point to assume beast-form. Anyone who tries to remind him of what he is will probably be attacked — first non-fatally, possibly with lethal intent if that doesn’t shut them up.",
         ],
         "ProgressesFrom": "I’m No Animal",
@@ -98,7 +129,12 @@ export const derangementData = [
         "Severity": "Mild",
         "Description": "Phobia of animals. Reflexive Res+Comp to avoid trembling fearfully around any animals, even self.",
         "LongDescription": [
-            "<i>This person’s afraid of animals, including the one in the mirror. Around beasts or fellow shapechangers, he seems agitated; if one confronts him, he may panic. This derangement is common among “little animal” ferals such as foxes or hares. It’s workable, but highly inconvenient.</i>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "This person’s afraid of animals, including the one in the mirror. Around beasts or fellow shapechangers, he seems agitated; if one confronts him, he may panic. This derangement is common among “little animal” ferals such as foxes or hares. It’s workable, but highly inconvenient." }
+                ]
+            },
             "Essentially, this is a phobia of animals — see the World of Darkness Rulebook, p. 97. Without a reflexive Resolve + Composure roll, the character trembles fearfully around other beasts, even sometimes himself.",
         ],
         "ProgressesFrom": "",
@@ -164,7 +200,14 @@ export const derangementData = [
         "Description": "Follows Suspicion; Everything is a threat. Only use Intimidation for Social rolls, -2 to resist anger frenzy.",
         "LongDescription": [
             "When every night is a struggle for survival, some nomads find it only practical to treat everything and everyone as a threat — to shoot first and ask questions later, if at all. A vampire with this derangement, a variation of Paranoia, is constantly aggressive, reacting to every social overture as a potential precursor to an attack.",
-            "The character uses Intimidation in <i>every</i> social encounter rather than other Social Skills like Expression or Persuasion, and suffers a –2 penalty to rolls for resisting anger frenzies.",
+            {
+                type: "paragraph",
+                text: [
+                    "The character uses Intimidation in ",
+                    { type: "italic", text: "every" },
+                    " social encounter rather than other Social Skills like Expression or Persuasion, and suffers a –2 penalty to rolls for resisting anger frenzies."
+                ]
+            },
         ],
         "ProgressesFrom": "Suspicion",
         "ProgressesTo": "",
@@ -191,8 +234,20 @@ export const derangementData = [
         "Description": "Mild: When taking lethal/agg, roll Stam+Comp. -3 to roll for bashing, -2 for lethal, -1 for agg. On fail, can’t dodge for scene unless spending 1 Willpower. Severe: On fail, can’t dodge and won’t avoid damage unless spending 1 Willpower.",
         "LongDescription": [
             "This derangement sometimes strikes Kindred who have experienced (and survived) traumatizing events while using the Discipline of Resilience, even if that Discipline isn’t why the character survived. If your character suffers from this disorder, he imagines himself to be much tougher than he actually is. When your character first suffers lethal or aggravated damage in a scene, reflexively roll Stamina + Composure. This dice pool is penalized by the nature of the damage dealt: –3 for bashing, –2 for lethal, –1 to aggravated. (The amount of damage suffered does not affect the dice pool.) If the roll succeeds, the character keeps his head about him.",
-            "<b>Mild Effect:</b> If the roll fails, the character is unable to appreciate just how serious his injury is. Instead, he convinces himself that he’s better off pushing through any pain and presenting a strong front. For the rest of the scene, the character cannot Dodge unless you spend a Willpower point.",
-            "<b>Severe Effect:</b> If the roll fails, the character is unable to appreciate the seriousness of his injury and feels practically invulnerable to harm. The character cannot Dodge or voluntarily stop the action causing harm (e.g., he continues fighting or holds on to a speeding car) unless you spend a Willpower point.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mild Effect:" },
+                    " If the roll fails, the character is unable to appreciate just how serious his injury is. Instead, he convinces himself that he’s better off pushing through any pain and presenting a strong front. For the rest of the scene, the character cannot Dodge unless you spend a Willpower point."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Severe Effect:" },
+                    " If the roll fails, the character is unable to appreciate the seriousness of his injury and feels practically invulnerable to harm. The character cannot Dodge or voluntarily stop the action causing harm (e.g., he continues fighting or holds on to a speeding car) unless you spend a Willpower point."
+                ]
+            },
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",
@@ -307,7 +362,16 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "Follows Magical Ideation; As Obsessive Compulsion, but specifically to perform some sort of divination.",
         "LongDescription": [
-            "This is really a sub-type of the Obsessive Compulsion derangement (see The World of Darkness Rulebook, p. 98). The character feels the urge at least once a night to perform some sort of divination. He could read tea leaves, or examine a newspaper horoscope page, or read the Tarot, or get a divination from a 70s mass-market paperback capitalizing on Mayan prophecies. He might perform the <i>Sortes Virgilianae</i>, which is where you take a significant book – a copy of Virgil, or the Bible, or Shakespeare, or Milton, or the <i>Bhagavad Gita</i>, or the Qu’ran, or anything else – and open it on a random page, point at a random sentence and take that as a divination. He could shave the head of his ghoul and perform a phrenological analysis of the imperfections in her scalp. He might even find a cat and disembowel it, reading his future from the spatters its guts make on the floor. Players are encouraged to find interesting ways to read the future.",
+            {
+                type: "paragraph",
+                text: [
+                    "This is really a sub-type of the Obsessive Compulsion derangement (see The World of Darkness Rulebook, p. 98). The character feels the urge at least once a night to perform some sort of divination. He could read tea leaves, or examine a newspaper horoscope page, or read the Tarot, or get a divination from a 70s mass-market paperback capitalizing on Mayan prophecies. He might perform the ",
+                    { type: "italic", text: "Sortes Virgilianae" },
+                    ", which is where you take a significant book – a copy of Virgil, or the Bible, or Shakespeare, or Milton, or the ",
+                    { type: "italic", text: "Bhagavad Gita" },
+                    ", or the Qu’ran, or anything else – and open it on a random page, point at a random sentence and take that as a divination. He could shave the head of his ghoul and perform a phrenological analysis of the imperfections in her scalp. He might even find a cat and disembowel it, reading his future from the spatters its guts make on the floor. Players are encouraged to find interesting ways to read the future."
+                ]
+            },
             "In game terms, it might be helpful for the Storyteller to have some divinations prepared; perhaps having a collection of clipped newspaper horoscopes for this very purpose. Divination methods and sample divinations appear throughout this book.",
             "Essentially, if given the opportunity to act on the divination (to do what it says) in any way, the character will. For example, if the divination says that a fair-haired stranger will bring good luck, the character may put his total trust and confidence in the first blond he meets, even if she turns out to be working for the enemy, and refuse to believe that she is bad news. If the player considers following the divination to be stupid, or dangerous, the player must roll Resolve + Composure with a -2 penalty to avoid doing what the divination says. If the roll fails, the character has no choice but to act on the divination, and will follow the literal word of the divination as closely as possible.",
         ],
@@ -398,8 +462,20 @@ export const derangementData = [
         "Severity": "Mild",
         "Description": "Res+Comp when reminded of fetishized event or object. On failure, attempt to recreate the situation or come into contact with object in question.",
         "LongDescription": [
-            "<i>Ghouls:</i> Your character formulates an irrational, pleasurable association with an object or situation, usually as the direct result of his regnant’s proclivities. To fully enjoy himself, so to speak, he needs to duplicate the situation or be in the presence of the object. This can lead to some truly bizarre behavior, often triggering a cycle of gratification and guilt that’s extremely difficult to break. If your character experiences something that reminds him of the event or object he’s chosen, roll Resolve + Composure. If the roll fails, your character focuses on re-creating the situation or coming in contact with the object in question. For example, a ghoul who fetishizes his regnant’s habit of having him lick her leather boots might experience a compulsion to press his face to the boots of a woman he sees Walking by on the street if he finds her attractive.",
-            "<i>Asylum:</i> Your character formulates an irrational, pleasurable association with an object or situation. To fully enjoy himself, so to speak, he needs to duplicate the situation or be in the presence of the object. This can lead to some truly bizarre behavior, often triggering a cycle of gratification and guilt that’s extremely difficult to break. If your character experiences something that reminds him of the event or object he’s fetishized, roll Resolve + Composure. If the roll fails, your character focuses on re-creating the situation or coming in contact with the object in question. For example, an orderly who fetishizes licking female patients’ feet when they are restrained might see an attractive woman sunning herself by a pool and feel compelled to indulge himself."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Ghouls:" },
+                    " Your character formulates an irrational, pleasurable association with an object or situation, usually as the direct result of his regnant’s proclivities. To fully enjoy himself, so to speak, he needs to duplicate the situation or be in the presence of the object. This can lead to some truly bizarre behavior, often triggering a cycle of gratification and guilt that’s extremely difficult to break. If your character experiences something that reminds him of the event or object he’s chosen, roll Resolve + Composure. If the roll fails, your character focuses on re-creating the situation or coming in contact with the object in question. For example, a ghoul who fetishizes his regnant’s habit of having him lick her leather boots might experience a compulsion to press his face to the boots of a woman he sees Walking by on the street if he finds her attractive."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Asylum:" },
+                    " Your character formulates an irrational, pleasurable association with an object or situation. To fully enjoy himself, so to speak, he needs to duplicate the situation or be in the presence of the object. This can lead to some truly bizarre behavior, often triggering a cycle of gratification and guilt that’s extremely difficult to break. If your character experiences something that reminds him of the event or object he’s fetishized, roll Resolve + Composure. If the roll fails, your character focuses on re-creating the situation or coming in contact with the object in question. For example, an orderly who fetishizes licking female patients’ feet when they are restrained might see an attractive woman sunning herself by a pool and feel compelled to indulge himself."
+                ]
+            }
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "Masochism",
@@ -411,8 +487,24 @@ export const derangementData = [
         "Severity": "Mild",
         "Description": "Hates, teases and torments animals. Res+Comp to resist abusing a helpless animal.",
         "LongDescription": [
-            "Your character doesn’t fear animals — she <i>hates</i> ’em. Lashing out subconsciously at the beast within herself, she teases and torments animals whenever possible. Flicking cigarettes at zoo beasts, kicking dogs and throwing water at kitties is normal fun for her. Naturally, this slides her further down the scale of sins.",
-            "Unless the player makes a Resolve + Composure roll when given an opportunity to abuse a helpless animal, she’ll inflict some <i>probably</i> non-fatal punishment on it. Even though she’ll often be excused because “they’re just dumb animals,” the fallout from this sort of thing can get <i>really</i> messy…",
+            {
+                type: "paragraph",
+                text: [
+                    "Your character doesn’t fear animals — she ",
+                    { type: "italic", text: "hates" },
+                    " ’em. Lashing out subconsciously at the beast within herself, she teases and torments animals whenever possible. Flicking cigarettes at zoo beasts, kicking dogs and throwing water at kitties is normal fun for her. Naturally, this slides her further down the scale of sins."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    "Unless the player makes a Resolve + Composure roll when given an opportunity to abuse a helpless animal, she’ll inflict some ",
+                    { type: "italic", text: "probably" },
+                    " non-fatal punishment on it. Even though she’ll often be excused because “they’re just dumb animals,” the fallout from this sort of thing can get ",
+                    { type: "italic", text: "really" },
+                    " messy…"
+                ]
+            },
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "Hunter King",
@@ -479,7 +571,14 @@ export const derangementData = [
         "LongDescription": [
             "Your character fixates on her favorite territory, occupation or subject, feeling an inflated sense of knowledge and influence in relation to it. She will believe that she knows best in all cases related to the matter of choice, and will begin to guard the object of fixation jealously, working to ensure that nobody else can “interfere.” Whenever your character encounters an individual who is attempting to exert influence in the matter (and isn’t already in her service), roll Resolve + Composure to keep her from responding aggressively.",
             "On a failed roll, your character must immediately answer the perceived threat with an attempt to exclude the interloper. The attempt can take any form that seems appropriate to her — bribery, intimidation, coercion — whatever she thinks will work. For the remainder of the scene, this attempt must be the character’s first priority, even if there are more pressing matters at hand.",
-            "<b>Example:</b> <i>Beatriz, a Mekhet drug dealer, suffers a Grandiose Delusion with regards to her heroin business. One night, on her way to Elysium, she sees a pusher she doesn’t know making a sale on the street. Beatriz’ player fails the Resolve + Composure roll, so she can’t help but respond immediately. She grits her teeth, deciding to beat the “competition” down, even if means ending up late for the gathering.</i>",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Example:" },
+                    " ",
+                    { type: "italic", text: "Beatriz, a Mekhet drug dealer, suffers a Grandiose Delusion with regards to her heroin business. One night, on her way to Elysium, she sees a pusher she doesn’t know making a sale on the street. Beatriz’ player fails the Resolve + Composure roll, so she can’t help but respond immediately. She grits her teeth, deciding to beat the “competition” down, even if means ending up late for the gathering." }
+                ]
+            },
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",
@@ -555,8 +654,20 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "As Phobia add that she must run from subject of Fear. If touched, another Res+Comp. If Dramatic Fail, looses consciousness. -3 Penalty if it’s in proximity and you see it -5 if you lack visual. For Kindred: -1 to all frenzy rolls that relate to the object of Fear.",
         "LongDescription": [
-            "<i>VtM:</i> Kindred hysteria operates much like that of mortals, except it rises to new heights, as would be expected for a mental ailment of the undead. The vampire’s emotions run high and stressful situations can cause fits of rage, weeping, fainting or other emotional displays.",
-            "<i>WoD:</i> This condition operates as a phobia, but on a failed Resolve + Composure roll your character cannot be in the same room with the object of her fear. She must run away from it immediately, and cannot tolerate being within sensory range (sight, sound, smell) of it. If the trigger comes within sensory range, she must run away at full running Speed as soon as she can take an action. She cannot target it for an attack under any circumstance. If it touches her, make another Resolve + Composure roll for her to not freak out and run as far away as she can, thinking of nothing else until she’s left the subject far behind. (Even if this roll succeeds, your character must still leave the room or area.) If any of your Resolve + Composure rolls suffer a dramatic failure or your character is unable to escape, she faints and loses consciousness for the remainder of the scene. If your character is unaware of the object’s proximity until it touches her, your Resolve + Composure roll suffers a -3 penalty. If it touches her where she can’t see it but she can feel it - a spider dropping on her neck or in her hair - the penalty is -5."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "VtM:" },
+                    " Kindred hysteria operates much like that of mortals, except it rises to new heights, as would be expected for a mental ailment of the undead. The vampire’s emotions run high and stressful situations can cause fits of rage, weeping, fainting or other emotional displays."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "WoD:" },
+                    " This condition operates as a phobia, but on a failed Resolve + Composure roll your character cannot be in the same room with the object of her fear. She must run away from it immediately, and cannot tolerate being within sensory range (sight, sound, smell) of it. If the trigger comes within sensory range, she must run away at full running Speed as soon as she can take an action. She cannot target it for an attack under any circumstance. If it touches her, make another Resolve + Composure roll for her to not freak out and run as far away as she can, thinking of nothing else until she’s left the subject far behind. (Even if this roll succeeds, your character must still leave the room or area.) If any of your Resolve + Composure rolls suffer a dramatic failure or your character is unable to escape, she faints and loses consciousness for the remainder of the scene. If your character is unaware of the object’s proximity until it touches her, your Resolve + Composure roll suffers a -3 penalty. If it touches her where she can’t see it but she can feel it - a spider dropping on her neck or in her hair - the penalty is -5."
+                ]
+            }
         ],
         "ProgressesFrom": "Phobia",
         "ProgressesTo": "",
@@ -647,7 +758,14 @@ export const derangementData = [
         "Description": "Res+Comp to keep cool when wellbeing is threatened. On failure, require Wits+Comp to take any action to diffuse the situation or leave the scene. Cannot initiate violence.",
         "LongDescription": [
             "Whenever your character is threatened with violence or suffers extreme tension by being persecuted, challenged or accused, she might react without logic or reason. Roll her Resolve + Composure to keep her cool.",
-            "The persecution, challenge or accusation needs to bear some realistic threat to your character’s wellbeing, whether related to finances, emotional security or social standing. A hobo threatening to sue is no real threat, but a rich executive who says he’s going to ruin your character qualifies as a threat. Likewise, a society-page gossipmonger who threatens to expose your character’s faults is a threat <i>if</i> your character relies on that crowd for social acceptance, but not if he is a bicycle messenger who’s never been inside a penthouse.",
+            {
+                type: "paragraph",
+                text: [
+                    "The persecution, challenge or accusation needs to bear some realistic threat to your character’s wellbeing, whether related to finances, emotional security or social standing. A hobo threatening to sue is no real threat, but a rich executive who says he’s going to ruin your character qualifies as a threat. Likewise, a society-page gossipmonger who threatens to expose your character’s faults is a threat ",
+                    { type: "italic", text: "if" },
+                    " your character relies on that crowd for social acceptance, but not if he is a bicycle messenger who’s never been inside a penthouse."
+                ]
+            },
             "On a failed roll, your character’s only way to comfortably deal with confrontation is to act crazy or over the top, in wild hopes that she will scare away her oppressor or at least mitigate her own fears. This behavior persists for the remainder of the scene. Ironically, she takes dangerous risks that might harm her worse than the actual threat posed. If a bouncer demands to know what your character is doing in an off-limits part of a club, she might overreact and get in his face. Make a Wits + Composure roll for her to be able to take any action that removes her from the scene or that directly diffuses the situation (such as accepting a hand offered in a conciliatory handshake). The truly ironic part about this behavior is that during such a bout, your character cannot initiate violence, only respond to it if it occurs. She can threaten or cajole challengers, but can’t take the first swing. (That, in fact, is what her crazed behavior tries to avoid.)",
         ],
         "ProgressesFrom": "",
@@ -725,8 +843,20 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "As Narcissism add, 1 to all penalties on failure.",
         "LongDescription": [
-            "<i>(WoD)</i> - The effects of Narcissism apply, except that the penalties intensify by one. Your character is also highly competitive. He cannot allow himself to fail a contest (even a contested roll). If he does, he obsesses about it and works to arrange a rematch when it’s most beneficial for him. If, for example, he fails to pick a lock while an ally succeeds, he doesnÕt let it go. He constantly insists that he did the job and that his successor took the glory, and demands that similar efforts be tried again, even under inappropriate circumstances such as at an office or restaurant.",
-            "<i>(VtR)</i> - Clinical megalomania can consist of a delusion that the individual is some famous and powerful person, contemporary or historical, or even that he is God. A megalomaniac vampire might imagine that he is some famous or infamous Kindred, or the Devil himself.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "(WoD)" },
+                    " - The effects of Narcissism apply, except that the penalties intensify by one. Your character is also highly competitive. He cannot allow himself to fail a contest (even a contested roll). If he does, he obsesses about it and works to arrange a rematch when it’s most beneficial for him. If, for example, he fails to pick a lock while an ally succeeds, he doesnÕt let it go. He constantly insists that he did the job and that his successor took the glory, and demands that similar efforts be tried again, even under inappropriate circumstances such as at an office or restaurant."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "(VtR)" },
+                    " - Clinical megalomania can consist of a delusion that the individual is some famous and powerful person, contemporary or historical, or even that he is God. A megalomaniac vampire might imagine that he is some famous or infamous Kindred, or the Devil himself."
+                ]
+            },
             "A romantic form of megalomania might be called “James Bond Mastermind Syndrome.” This sort of megalomaniac obsessively seeks ever-greater wealth and power. Such individuals hide their anxiety (even from themselves) behind a mask of arrogance and supreme self-confidence. The character may seek power by means ranging from intricate conspiracies to brutal murder and terror. To this sort of megalomaniac, everyone is a minion who should do what he’s told, or a competitor who must be destroyed. This belief extends to even members of the vampire’s own coterie.",
             "If your character ever loses a contest to someone he feels is socially inferior, he loses one point of Willpower due to shame and self-loathing (which is at the heart of his megalomania; he secretly fears that he’s a fraud).",
         ],
@@ -741,8 +871,20 @@ export const derangementData = [
         "Description": "Become paranoid about memories being tampered with. On fail to recall information by memory... Mild: -2 to all Mental rolls for a scene. Severe: -2 to all actions until extended Int+Comp 10 successes reached.",
         "LongDescription": [
             "This derangement sometimes affects practitioners of the mind-altering powers of the Ventrue clan. If she suffers from this disorder, your character no longer trusts that her memories are genuine. She suspects that hostile Kindred are rewriting her recollections with Dominate or that her every impulse is actually a missive coded into her psyche by some shadowy Lord. Whenever your character fails a Mental action to recall some detail or scan her own memory, she becomes suspicious and paranoid.",
-            "<b>Mild Effect:</b> For the rest of the scene, your character suffers a –2 penalty on all Mental rolls as she struggles to overcome her own self-doubt and wastes time double-checking her instincts and rational thought. “Wait,” the paranoid doctor might say, “I’m trying to think if that’s really how the pulmonary arteries work.”",
-            "<b>Severe Effect:</b> At this level of derangement, your character is quite certain that her memory has been altered, either maliciously or as a side-effect of her own usage of Ventrue blood. She suffers a –2 penalty on all actions for the rest of the scene, at least, as she is rattled by doubt and anxiety. This penalty persists into the next scene, as well, until she has gone over her memory sufficiently enough to convince herself that she is not the victim of someone’s Ventrue blood. The process of double-checking her memory requires an extended Intelligence + Composure action, with each roll taking one minute, versus a target number of 10 successes.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mild Effect:" },
+                    " For the rest of the scene, your character suffers a –2 penalty on all Mental rolls as she struggles to overcome her own self-doubt and wastes time double-checking her instincts and rational thought. “Wait,” the paranoid doctor might say, “I’m trying to think if that’s really how the pulmonary arteries work.”"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Severe Effect:" },
+                    " At this level of derangement, your character is quite certain that her memory has been altered, either maliciously or as a side-effect of her own usage of Ventrue blood. She suffers a –2 penalty on all actions for the rest of the scene, at least, as she is rattled by doubt and anxiety. This penalty persists into the next scene, as well, until she has gone over her memory sufficiently enough to convince herself that she is not the victim of someone’s Ventrue blood. The process of double-checking her memory requires an extended Intelligence + Composure action, with each roll taking one minute, versus a target number of 10 successes."
+                ]
+            },
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",
@@ -754,9 +896,21 @@ export const derangementData = [
         "Severity": "Severe, Extreme",
         "Description": "Follows Irrationality; Multiple Personalities triggered may have different skills / Attributes than dominate personality.",
         "LongDescription": [
-            "<i>WoD:</i> The trauma that spawns this derangement fractures your character’s personality into one or more additional personas, allowing her to deny her trauma or any actions the trauma causes by placing the blame on “someone else.” Each personality is created to respond to certain emotional stimuli. An abused person might develop a tough-as-nails survivor personality, create a “protector” or even become a murderer to deny the abuse she suffers. In most cases, none of these personalities is aware of the others, and they come and go through your character’s mind in response to specific situations or conditions.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "WoD:" },
+                    " The trauma that spawns this derangement fractures your character’s personality into one or more additional personas, allowing her to deny her trauma or any actions the trauma causes by placing the blame on “someone else.” Each personality is created to respond to certain emotional stimuli. An abused person might develop a tough-as-nails survivor personality, create a “protector” or even become a murderer to deny the abuse she suffers. In most cases, none of these personalities is aware of the others, and they come and go through your character’s mind in response to specific situations or conditions."
+                ]
+            },
             "A character with multiple personalities can manifest different Skills or perhaps increased or diminished Social Attributes for each identity (the number of dots allocated to your character’s Social Attributes are rearranged by anywhere from one to three).",
-            "<i>VtR:</i>Multiple-Personality Disorder (MPD) results from traumas so severe and prolonged that the victim’s mind splits into several personalities. When a vampire suffers this derangement, the Storyteller and player need to agree on a set of alternative personalities for the character, as well as on what situations call each personality to the fore. Each personality should have some connection to the trauma that fractured the character’s mind. Alternate personalities might believe they belong to different clans, bloodlines or covenants, or even not be aware that they are undead.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "VtR:" },
+                    "Multiple-Personality Disorder (MPD) results from traumas so severe and prolonged that the victim’s mind splits into several personalities. When a vampire suffers this derangement, the Storyteller and player need to agree on a set of alternative personalities for the character, as well as on what situations call each personality to the fore. Each personality should have some connection to the trauma that fractured the character’s mind. Alternate personalities might believe they belong to different clans, bloodlines or covenants, or even not be aware that they are undead."
+                ]
+            },
             "A character with multiple personalities can manifest different Skills or perhaps increased or diminished Social Attributes for each identity (the number of dots allocated to your character’s Social Attributes are rearranged by anywhere from one to three). The character does not actually possess more Skills than other characters, he merely switches personalities when he needs to use certain Skills. For instance, a tough-guy “protector” persona might emerge whenever the character needs to fight, so the baseline identity doesn’t need to face the moral and emotional stress of combat. The “protector” persona takes possession of the character’s combat Skills, while the other personalities don’t admit that they know how to fight.",
             "This is an extreme derangement. The character must experience a life-altering trauma or supernatural tragedy to manifest it. The ailment cannot normally be acquired by failing a Humanity roll unless the sin performed is truly ghastly. MPD is an elaborate derangement, and a challenge to roleplay. Its symptoms are frightening and the suffering it exacts from its victim is monumental. It should not be an excuse for slapstick, wacky, foolish or childish behavior.",
         ],
@@ -770,7 +924,14 @@ export const derangementData = [
         "Severity": "Severe, Extreme",
         "Description": "Develops alternate personality with diametrically opposed perspective on the supernatural.",
         "LongDescription": [
-            "The mage develops an alternate personality with a diametrically opposed perspective on the supernatural. A Banisher becomes an enthusiastic sorcerer. A Pentacle mage might develop Banisher sympathies, or explore magic that she normally abhors, stealing souls or summoning demons. The mage doesn’t adopt a new name or personal history. She believes herself to be the same person, but each personality only vaguely recalls the other’s beliefs and magical workings, filtering them through its preferred attitude. Banishers who suffer an episode around fellow witch hunters keep a low profile. They know that something’s <i>wrong</i>. They might rationalize their position inside a Banisher cult by thinking they’re infiltrating it. They could betray their own cult or hide away artifacts meant for destruction. The switch occurs whenever the mage is exposed to a particular trigger, usually related to the event that inspired the derangement in the first place. The episode lasts for a scene or longer, after which the mage’s normal personality asserts itself."
+            {
+                type: "paragraph",
+                text: [
+                    "The mage develops an alternate personality with a diametrically opposed perspective on the supernatural. A Banisher becomes an enthusiastic sorcerer. A Pentacle mage might develop Banisher sympathies, or explore magic that she normally abhors, stealing souls or summoning demons. The mage doesn’t adopt a new name or personal history. She believes herself to be the same person, but each personality only vaguely recalls the other’s beliefs and magical workings, filtering them through its preferred attitude. Banishers who suffer an episode around fellow witch hunters keep a low profile. They know that something’s ",
+                    { type: "italic", text: "wrong" },
+                    ". They might rationalize their position inside a Banisher cult by thinking they’re infiltrating it. They could betray their own cult or hide away artifacts meant for destruction. The switch occurs whenever the mage is exposed to a particular trigger, usually related to the event that inspired the derangement in the first place. The episode lasts for a scene or longer, after which the mage’s normal personality asserts itself."
+                ]
+            }
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",
@@ -808,8 +969,20 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "Follows a strict code of behaviors. If forcibly kept from doing them, may lash out. May override these with a Res+Com - 2 roll.",
         "LongDescription": [
-            "<i>WoD:</i>The trauma, guilt or inner conflict that causes this derangement forces your character to focus nearly all of his attention and energy on a single repetitive behavior or action. Obsession relates to an individualÕs desire to control his environment - keeping clean, keeping an area quiet and peaceful, or keeping undesirable individuals out. A compulsion is an action or set of actions that an individual is driven to perform to soothe his anxieties - placing objects in an exact order, constantly checking to make sure a weapon is loaded, praying every few hours to give thanks for surviving that long.",
-            "<i>VtR:</i> A character with this derangement focuses her attention on a single repetitive behavior or action as a way to distract herself from feelings of anxiety or inner torment. The compulsive character turns everything into a ritual and feels utter dread of any disruption of her behaviors.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "WoD:" },
+                    "The trauma, guilt or inner conflict that causes this derangement forces your character to focus nearly all of his attention and energy on a single repetitive behavior or action. Obsession relates to an individualÕs desire to control his environment - keeping clean, keeping an area quiet and peaceful, or keeping undesirable individuals out. A compulsion is an action or set of actions that an individual is driven to perform to soothe his anxieties - placing objects in an exact order, constantly checking to make sure a weapon is loaded, praying every few hours to give thanks for surviving that long."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "VtR:" },
+                    " A character with this derangement focuses her attention on a single repetitive behavior or action as a way to distract herself from feelings of anxiety or inner torment. The compulsive character turns everything into a ritual and feels utter dread of any disruption of her behaviors."
+                ]
+            },
             "Many European vampire legends say the undead suffer from an obsessive need to count collections of small objects, and so a mortal can protect himself by leaving piles of grain where he sleeps. A marauding vampire, legends say, feels compelled to count the grain before he feeds, and this can keep the vampire occupied until dawn. Kindred who believe in the stories mortals tell about them might suffer from this kind of fixation.",
             "Determine a set of specific actions or behaviors that your character follows to the exclusion of all else (even if doing so interferes with his current agenda or endangers his existence or others’). The effects of obsessive/compulsive behavior can be negated for the course of one scene by making a successful Resolve + Composure roll at a -2 penalty. If your character is forcibly prevented from adhering to his derangement, he may lose control among enemies or allies and attack either (or both) indiscriminately. An obsessive-compulsive vampire is subject to a frenzy roll in this situation.",
         ],
@@ -864,7 +1037,14 @@ export const derangementData = [
         "Severity": "Mild",
         "Description": "Idealistic, New Age dream of wilderness, overconfidence in own abilities there. Comp+Survival roll to cope in bad situations.",
         "LongDescription": [
-            "He’s not half-animal — he’s <i>all</i> animal. Trouble is, this feral’s view of animals is extremely idealistic. He talks with them as if they’re fellow humans, yet holds real humans in contempt. He might be a furry or therian with elaborate garb and mythic history; or he’s renounced the human world and lives sort of a New Age dream in the deep wilderness. Either way, he’s disconnected from the truth of his situation.",
+            {
+                type: "paragraph",
+                text: [
+                    "He’s not half-animal — he’s ",
+                    { type: "italic", text: "all" },
+                    " animal. Trouble is, this feral’s view of animals is extremely idealistic. He talks with them as if they’re fellow humans, yet holds real humans in contempt. He might be a furry or therian with elaborate garb and mythic history; or he’s renounced the human world and lives sort of a New Age dream in the deep wilderness. Either way, he’s disconnected from the truth of his situation."
+                ]
+            },
             "Aside from neurotic and often unsociable behavior, this feral can function in Man’s world. He hates Man’s world, though, and prefers to spend time in the wild... where he may or may not know what he’s doing. In bad situations, the player might need to make a Composure + Survival roll; failure means he’s in over his head and may not be able to get back out without help.",
         ],
         "ProgressesFrom": "",
@@ -877,9 +1057,21 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "Follows Suspicion; Suffers from Persecution Complex. Automatically -2 on Social Rolls. The slightest hint of suspicion triggers a Res+Comp-2 roll on failure flees or attacks.",
         "LongDescription": [
-            "<i>WoD:</i> Your character believes that her misery and insecurity stem from external persecution and hostility. (That would be an accurate assumption in the World of Darkness, if people actually knew of monsters’ existence.) Paranoids obsess over their persecution complexes, often creating vast and intricate conspiracy theories to explain who torments them and why. Anyone or anything perceived to be “one of them” might be subjected to violence.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "WoD:" },
+                    " Your character believes that her misery and insecurity stem from external persecution and hostility. (That would be an accurate assumption in the World of Darkness, if people actually knew of monsters’ existence.) Paranoids obsess over their persecution complexes, often creating vast and intricate conspiracy theories to explain who torments them and why. Anyone or anything perceived to be “one of them” might be subjected to violence."
+                ]
+            },
             "A character who suffers from paranoia automatically suffers a -2 penalty on Social rolls. The character is distrustful and wary of everyone, even close friends and family. The slightest hint of suspicious behavior is enough to provoke a Resolve + Composure roll to retain control (made at a -2 penalty). A failed roll indicates that your character flees or attacks an offender.",
-            "<i>VtR:</i> Paranoia is a species of delusion. The paranoid believes that enemies persecute her and make her miserable. As a paranoid’s delusions intensify, she spins out elaborate conspiracy theories to explain who’s doing the persecution, and why. Everything goes into the conspiracy. Do the neighbors stay up late? They must be spying. Does she have headaches? Her enemies have dosed her with some insidious toxin. Did she lose her job? The conspiracy arranged it… and of course, they want other people to believe she’s crazy. As paranoia deepens, the sufferer might plot to strike back at her persecutors, whomever she imagines them to be.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "VtR:" },
+                    " Paranoia is a species of delusion. The paranoid believes that enemies persecute her and make her miserable. As a paranoid’s delusions intensify, she spins out elaborate conspiracy theories to explain who’s doing the persecution, and why. Everything goes into the conspiracy. Do the neighbors stay up late? They must be spying. Does she have headaches? Her enemies have dosed her with some insidious toxin. Did she lose her job? The conspiracy arranged it… and of course, they want other people to believe she’s crazy. As paranoia deepens, the sufferer might plot to strike back at her persecutors, whomever she imagines them to be."
+                ]
+            },
             "This derangement can be hard to diagnose among the Kindred because they really do have enemies in the Danse Macabre. A paranoid vampire, however, can’t tell a real enemy from one that exists only in his head. Imagined enemies can range from the CIA to Satan himself. Paranoid Kindred often turn obsessive-compulsive as well and adopt complex feeding precautions to prevent their enemies from “tainting their blood supply.” They also parse every question or comment for hidden motives and meanings. Suspicion extends even to progeny and thralls subjected to Vinculums — maybe they’re only pretending to be loyal!",
             "A paranoid character has difficulty with all social interactions because of her reflexive suspicion of everyone. A character who suffers from paranoia automatically suffers a -2 penalty on Social rolls. The character is distrustful and wary of everyone, even close friends and family. The slightest hint of suspicious behavior is enough to provoke a Resolve + Composure roll to retain control (made at a -2 penalty). A failed roll indicates that your character flees or attacks an offender. Additionally, among Kindred, the slightest hint that someone might be an enemy can provoke a frenzy check, with the number of successes required set by how threatening the trigger event seems. A casual remark that seems to show someone knows a bit about the character’s activities might require only one success to avoid frenzy. Finding an intruder in his haven would almost certainly require five.",
         ],
@@ -893,8 +1085,20 @@ export const derangementData = [
         "Severity": "Mild",
         "Description": "Res+Comp roll to even approach the item of the phobia",
         "LongDescription": [
-            "<i>WoD:</i> Your character is scared of a particular type of person, place or thing such as lawyers, heights or spiders. When that trigger is encountered, a reflexive Resolve + Composure roll must be made successfully or your character suffers a bout of fear.",
-            "<i>VtR:</i> A person who suffers from a phobia has an unreasoning fear of something. A phobia can result from a traumatic experience associated with an object or condition, or might be a purely neurotic way of hiding from a real source of anxiety. Common phobias include a fear of open spaces, leaving one’s home, of enclosed spaces or germs, but nearly anything can become the focus of a phobia. Kindred are especially prone to phobias of fire, sunlight or hunger. A phobic vampire might avoid going outdoors for fear of sunlight, even if she knows dawn is hours away.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "WoD:" },
+                    " Your character is scared of a particular type of person, place or thing such as lawyers, heights or spiders. When that trigger is encountered, a reflexive Resolve + Composure roll must be made successfully or your character suffers a bout of fear."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "VtR:" },
+                    " A person who suffers from a phobia has an unreasoning fear of something. A phobia can result from a traumatic experience associated with an object or condition, or might be a purely neurotic way of hiding from a real source of anxiety. Common phobias include a fear of open spaces, leaving one’s home, of enclosed spaces or germs, but nearly anything can become the focus of a phobia. Kindred are especially prone to phobias of fire, sunlight or hunger. A phobic vampire might avoid going outdoors for fear of sunlight, even if she knows dawn is hours away."
+                ]
+            },
             "Your character moves away from the object of her phobia. If she must be near it, she can tolerate being no closer than her Speed in yards. If it approaches her, she must move away at least her Speed in distance in her next action. She cannot easily target the trigger with close combat or ranged attacks. Such attacks suffer a -5 penalty as your character shakes just looking at it. If space or circumstances don’t allow her to maintain her distance, she freezes like a deer in headlights until she finds an opening by which to escape. (Her Defense still applies if attacked and she can choose to dodge and can take cover from Firearms attacks, but she can take no other actions while “frozen.”)",
             "A successful Resolve + Composure roll must be made for a phobic Kindred to simply approach the subject of her fear. Any sort of shock or surprise associated with the subject of the phobia can cause Rötschreck. Roll normally for the character to resist, suitably modified by the degree of exposure.",
         ],
@@ -935,8 +1139,20 @@ export const derangementData = [
         "LongDescription": [
             "Your character erroneously believes that blood of a certain quality is essential to his wellbeing. He might think that only the blood of virgins (or of successful executives, or of Latinos, or of children, or whatever else) is sufficient for his delicate system. Or perhaps he believes unsuitable blood will soak up his mystic energy and rob him of his vampiric powers. Folkloric wisdom among ancient Ventrue has led some to think they must sup from a series of athletic, intelligent and sexy vessels in a precise sequence, lest the delicate cocktail of Vitae within their undead bodies be thrown out of balance and their Aenead powers be diluted. (“No! It is the second Monday! I must have someone strong of leg or back! Keep her until the Sabbath, when I can drink of the wise.”)",
             "Your character’s feeding restrictions must be defined when this derangement is taken, and cannot be changed unless the derangement is “cured” and then reacquired.",
-            "<b>Mild Effect:</b> Your character simply won’t satiate himself with improper Vitae. He will not take more than two Vitae from a vessel who does not meet his particular feeding restriction, even if hungry or starving, unless driven to frenzy.",
-            "<b>Severe Effect:</b> Your character’s delusions overpower even his Beast. He cannot satisfy himself from an improper vessel, even if hungry or starving, even in the throes of frenzy. If faced with the dilemma of consuming improper Vitae or suffering frenzy and torpor, your character drinks only if driven to frenzy, and even then he expends one Vitae per minute just to flush the unwelcome blood from his system. (Vitae spent in this way can be used to enhance Physical dice pools, simulate the blush of life, or simply be vomited up, but it cannot be used to activate Disciplines.)",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mild Effect:" },
+                    " Your character simply won’t satiate himself with improper Vitae. He will not take more than two Vitae from a vessel who does not meet his particular feeding restriction, even if hungry or starving, unless driven to frenzy."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Severe Effect:" },
+                    " Your character’s delusions overpower even his Beast. He cannot satisfy himself from an improper vessel, even if hungry or starving, even in the throes of frenzy. If faced with the dilemma of consuming improper Vitae or suffering frenzy and torpor, your character drinks only if driven to frenzy, and even then he expends one Vitae per minute just to flush the unwelcome blood from his system. (Vitae spent in this way can be used to enhance Physical dice pools, simulate the blush of life, or simply be vomited up, but it cannot be used to activate Disciplines.)"
+                ]
+            },
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",
@@ -1012,9 +1228,21 @@ export const derangementData = [
         "Severity": "Severe, Extreme",
         "Description": "Follows Vocalization; -2 to all Social Rolls. Res+Comp to avoid attacking / escaping the source of trauma.",
         "LongDescription": [
-            "<i>WoD:</i> Conflicting sets of feelings and impulses that cannot be resolved can cause your character to develop schizophrenia, which manifests as a withdrawal from reality, violent changes in behavior and hallucinations. This derangement is the classic sort, causing victims to talk to walls, imagine themselves to be the King of Siam, or to receive murderous instructions from their pets.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "WoD:" },
+                    " Conflicting sets of feelings and impulses that cannot be resolved can cause your character to develop schizophrenia, which manifests as a withdrawal from reality, violent changes in behavior and hallucinations. This derangement is the classic sort, causing victims to talk to walls, imagine themselves to be the King of Siam, or to receive murderous instructions from their pets."
+                ]
+            },
             "Roleplaying this derangement requires careful thought. The Storyteller must determine a general set of behaviors relevant to the trauma that causes the condition. Hallucinations, bizarre behavior and disembodied voices stem from a terrible inner conflict that the individual cannot resolve. Establish a firm idea of what that conflict is and then rationalize what kind of behavior it causes.",
-            "<i>VtR:</i> Schizophrenia is the most severe of all derangements. This mental illness includes hallucinations, delusions, radical mood swings, manic or obsessive babbling on certain themes, and outbursts of violence. The victim constantly hears strange hums, roars or voices in his head. People on TV or passing by seem to look at and threaten him. Delusions of grandeur are common: the schizophrenic thinks he’s Jesus, Napoleon (no, really, it happens) or the president.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "VtR:" },
+                    " Schizophrenia is the most severe of all derangements. This mental illness includes hallucinations, delusions, radical mood swings, manic or obsessive babbling on certain themes, and outbursts of violence. The victim constantly hears strange hums, roars or voices in his head. People on TV or passing by seem to look at and threaten him. Delusions of grandeur are common: the schizophrenic thinks he’s Jesus, Napoleon (no, really, it happens) or the president."
+                ]
+            },
             "Unlike most lesser derangements, schizophrenia has a proven organic cause, an imbalance of brain chemistry that drugs can treat in mortals. Stress also plays a role in sending a latent schizophrenic over the edge, though, and mortals need both drugs and psychotherapy to recover from the disease (if they can at all).",
             "Schizophrenia presents a formidable roleplaying challenge. The player must decide on a general set of delusions, hallucinations and behaviors that relate to the trauma that causes the derangement. The Storyteller, meanwhile, should prepare to include hallucinatory details in her descriptions to the player. The character doesn’t know what’s real, so the player shouldn’t either. The player can probably guess that when the TV weatherman looks at the character and says, “Your sire wants to kill you. You have to kill him first,” that isn’t real. When he waits at a bus stop and someone pulls a dagger from under a coat, however...",
             "A character with this derangement is unpredictable and dangerous. His player automatically suffers a -2 penalty on all Social rolls, and he might be aggressive or violent toward people who confront him with trauma such as accusations, disturbing truths or heated arguments. Make a Resolve + Composure roll for your character to avoid escaping or attacking the source of trauma. The player and Storyteller should also designate a set of conditions that trigger the character’s mood swings and delusions. Under these conditions, a -2 penalty applies to resist frenzy and Rötschreck as the vampire’s mind is racked by imaginary horrors.",
@@ -1194,7 +1422,14 @@ export const derangementData = [
         "Severity": "Severe",
         "Description": "Follows Supernatural Fascination; As mild, but proselytizes to everyone they speak with.",
         "LongDescription": [
-            "Your character has decided that his spiritual or supernatural beliefs are so important than everyone should share them. He proselytizes to everyone he meets, given only a few minutes of conversation. He might ask people if they have accepted Jesus Christ as their personal savior, or he might simply warn people engaging in “sinful” behavior that they are bound for Hell. He might snap pictures of agents of the government conspiracy and warn other people to “stay away from <i>them</i>.” He might occasionally curse while looking at sky, as though expecting the aliens to arrive any moment. The game system for this derangement works similar to Supernatural Fascination, but the effects are more extreme, as described."
+            {
+                type: "paragraph",
+                text: [
+                    "Your character has decided that his spiritual or supernatural beliefs are so important than everyone should share them. He proselytizes to everyone he meets, given only a few minutes of conversation. He might ask people if they have accepted Jesus Christ as their personal savior, or he might simply warn people engaging in “sinful” behavior that they are bound for Hell. He might snap pictures of agents of the government conspiracy and warn other people to “stay away from ",
+                    { type: "italic", text: "them" },
+                    ".” He might occasionally curse while looking at sky, as though expecting the aliens to arrive any moment. The game system for this derangement works similar to Supernatural Fascination, but the effects are more extreme, as described."
+                ]
+            }
         ],
         "ProgressesFrom": "",
         "ProgressesTo": "",

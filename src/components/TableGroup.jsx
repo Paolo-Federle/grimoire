@@ -5,6 +5,7 @@ import ButtonBase from "@mui/material/ButtonBase";
 import Collapse from "@mui/material/Collapse";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { normalizeDisplayText } from "../utils";
 
 const frameSx = (expanded, hasTitle) => ({
   position: "relative",
@@ -120,13 +121,13 @@ export default function TableGroup({
         <div key={section.key || section.title || index} className={sectionClassName}>
           {section.title && (
             <h2 className="mt-4 mb-2 text-xl font-bold">
-              {section.title}
+              {normalizeDisplayText(section.title)}
             </h2>
           )}
 
           {section.description && (
             <div className="mb-3 text-sm text-neutral-700">
-              {section.description}
+              {normalizeDisplayText(section.description)}
             </div>
           )}
 
@@ -157,14 +158,14 @@ export default function TableGroup({
           >
             {extendedTitleLink ? (
               <Box component={Link} to={extendedTitleLink} sx={titleLinkSx}>
-                {title}
+                {normalizeDisplayText(title)}
               </Box>
             ) : (
-              title
+              normalizeDisplayText(title)
             )}
           </Box>
         )}
-        {subtitle && <p className="text-sm text-neutral-700">{subtitle}</p>}
+        {subtitle && <p className="text-sm text-neutral-700">{normalizeDisplayText(subtitle)}</p>}
         {content}
       </Box>
     );
@@ -181,7 +182,7 @@ export default function TableGroup({
           {extendedTitleLink ? (
             <Box sx={{ ...titleButtonSx, display: "flex" }}>
               <Box component={Link} to={extendedTitleLink} sx={titleLinkSx}>
-                {title}
+                {normalizeDisplayText(title)}
               </Box>
               <ButtonBase
                 onClick={() => setExpanded((current) => !current)}
@@ -198,13 +199,13 @@ export default function TableGroup({
               aria-expanded={expanded}
               sx={titleButtonSx}
             >
-              {title} {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+              {normalizeDisplayText(title)} {expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}
             </ButtonBase>
           )}
         </Box>
       )}
 
-      {subtitle && <p className="m-0 text-sm text-neutral-700">{subtitle}</p>}
+      {subtitle && <p className="m-0 text-sm text-neutral-700">{normalizeDisplayText(subtitle)}</p>}
 
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <Box sx={{ pt: 1 }}>

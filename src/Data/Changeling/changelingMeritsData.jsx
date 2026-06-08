@@ -4,9 +4,21 @@ export const changelingMeritsData = [
         "Cost": "•",
         "Prerequisites": "Wyrd ••••",
         "LongDescription": [
-            "<b>Effect:</b> The changeling ages backward instead of forward: a 50-year-old man gets younger by the day — one year of life is equal to one year reversed (instead of turning 51, he turns 49 on his birthday). This has little mechanical effect, though certainly it’s possible that a player will seek to affect stats accordingly as a character grows younger — Willpower might drop, for instance, but Physical stats might increase a bit.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The changeling ages backward instead of forward: a 50-year-old man gets younger by the day — one year of life is equal to one year reversed (instead of turning 51, he turns 49 on his birthday). This has little mechanical effect, though certainly it’s possible that a player will seek to affect stats accordingly as a character grows younger — Willpower might drop, for instance, but Physical stats might increase a bit."
+                ]
+            },
             "(Why is this such a low-dot Merit? Ultimately, because in the day-to-day game, it doesn’t have a lot of effect. Maybe a year passes and the character appears a bit younger, but it’s only the type of thing that really shows itself over a long chronicle — and even then, it doesn’t have any huge systemic effect on the character, instead incurring a more narrative effect. Plus, the drawback is worth figuring into the cost.)",
-            "<b>Drawback:</b> Not only does the character still one day die (he’ll eventually be a baby and will continue to age backward until his frail infant body cannot support his life outside a womb), but in addition, the character does not find his life expectancy grown any more (according to Wyrd) once he purchases this Merit."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Not only does the character still one day die (he’ll eventually be a baby and will continue to age backward until his frail infant body cannot support his life outside a womb), but in addition, the character does not find his life expectancy grown any more (according to Wyrd) once he purchases this Merit."
+                ]
+            }
         ],
         "Description": "Your Changeling begins to age backwards.",
         "Book": "NH:GF 84"
@@ -26,8 +38,20 @@ export const changelingMeritsData = [
         "Cost": "•••",
         "Prerequisites": "-",
         "LongDescription": [
-            "<b>Effect:</b> Your character adapted to Arcadia better than most changelings. Perhaps he was in Arcadia an especially long time, or possibly the faerie fruit in his portion of Arcadia was especially potent. Regardless of the reason, your character gains additional benefit from eating goblin fruit. He regains one point of aggravated damage, two points of lethal damage or four points of bashing damage for every goblin fruit he consumes. The worst damage always heals first. However, your character can heal aggravated damage in this fashion only once a day. Characters who possess this Merit also often possess the Long of Days Merit.",
-            "<b>Drawback:</b> Your character’s unusual metabolism is not an unqualified blessing. His body chemistry is subtly different from that of an ordinary mortals. Medicine rolls to help him all receive a –1 penalty. In addition, he can no longer survive without infusions of food touched by Arcadia. If your character does not eat at least one piece of goblin fruit every week, he suffers one point of bashing damage that cannot be healed except by eating goblin fruit. Your character suffers an addition point of bashing damage for every three additional days that he does not eat a piece of goblin fruit. However, eating a single goblin fruit cures this damage and has its normal affect upon the character. Characters with this Merit who are kept from goblin fruit for too long eventually sicken and die."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Your character adapted to Arcadia better than most changelings. Perhaps he was in Arcadia an especially long time, or possibly the faerie fruit in his portion of Arcadia was especially potent. Regardless of the reason, your character gains additional benefit from eating goblin fruit. He regains one point of aggravated damage, two points of lethal damage or four points of bashing damage for every goblin fruit he consumes. The worst damage always heals first. However, your character can heal aggravated damage in this fashion only once a day. Characters who possess this Merit also often possess the Long of Days Merit."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character’s unusual metabolism is not an unqualified blessing. His body chemistry is subtly different from that of an ordinary mortals. Medicine rolls to help him all receive a –1 penalty. In addition, he can no longer survive without infusions of food touched by Arcadia. If your character does not eat at least one piece of goblin fruit every week, he suffers one point of bashing damage that cannot be healed except by eating goblin fruit. Your character suffers an addition point of bashing damage for every three additional days that he does not eat a piece of goblin fruit. However, eating a single goblin fruit cures this damage and has its normal affect upon the character. Characters with this Merit who are kept from goblin fruit for too long eventually sicken and die."
+                ]
+            }
         ],
         "Description": "Greater healing when eating Goblin Fruits, but suffer malnutrition without one Fruit per week.",
         "Book": "RoS 87"
@@ -108,7 +132,13 @@ export const changelingMeritsData = [
         "LongDescription": [
             "Your character’s kith is in some fashion a blending of two existing kiths. For two dots, your character is a blending of two kiths associated with her seeming. A Beast associated with an especially agile flying insect such as a dragonfly, who combines features of a Skitterskulk and a Windwing, is but one of many possible examples. Other possibilities include an Elemental associated with human-created electricity, who combines features of a Fireheart and a Manikin, or a Fairest who is an especially graceful and elegant dragon, who combines features of the Dancer and the Draconic. The changeling gains the blessing of both of the kiths she is associated with and can use both equally easily and well.",
             "For three dots, your character is one of the rare changelings who blends together traits from two kiths associated with different seemings. Your character might be an Airtouched who is so attuned to the winds that she can float and glide like a Windwing Elemental, a Flowering whose association with plants is so strong that she has some of the traits of a Woodblood Elemental. Alternately, your character might be an especially bestial Farwalker who appears as a hairy, humanoid predator with traits of a Hunterheart Beast. Your character can belong to only a single seeming, but she also possesses the kith blessings of both kiths. No other benefit of the other seeming is transferred; your character is still a member of one seeming, with all that entails. This Merit can be taken only once. Available at character creation only. A character’s kith may be unusual, but it never changes. You cannot blend your character’s kith at a later time.",
-            "<b>Note:</b> An alternate approach to blending or evolving kiths appears in Winter Masques."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Note:" },
+                    " An alternate approach to blending or evolving kiths appears in Winter Masques."
+                ]
+            }
         ],
         "Description": "Your character possesses two or more kiths, and by proxy the blessing that comes with it.",
         "Book": "RoS 88",
@@ -142,9 +172,21 @@ export const changelingMeritsData = [
         "Cost": "•••",
         "Prerequisites": "-",
         "LongDescription": [
-            "<b>Effect:</b> One of the Gentry owes your character a single favor, for reasons that may seem to make little sense to her. It may be a dark secret such as turning over another child or changeling to the Other, or as innocuous-seeming as offering a piece of bread to a withered old woman at a crossroads. The Fae in question has given his word to provide one and only one service for your character — a promise made out of a sense of obligation, not out of kindness or respect. This service can include transport to anyplace in the Hedge or the mortal world (through the Hedge) in less than an hour, one use of the Fae’s powers on any mortal or changeling or temporarily working to stymie a rival Other in its hunt. This favor does not extend to Arcadia or those who reside there, though the Fae may agree to rescue a certain individual from Faerie in exchange for an additional task from your character (which is unlikely to be pleasant).",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " One of the Gentry owes your character a single favor, for reasons that may seem to make little sense to her. It may be a dark secret such as turning over another child or changeling to the Other, or as innocuous-seeming as offering a piece of bread to a withered old woman at a crossroads. The Fae in question has given his word to provide one and only one service for your character — a promise made out of a sense of obligation, not out of kindness or respect. This service can include transport to anyplace in the Hedge or the mortal world (through the Hedge) in less than an hour, one use of the Fae’s powers on any mortal or changeling or temporarily working to stymie a rival Other in its hunt. This favor does not extend to Arcadia or those who reside there, though the Fae may agree to rescue a certain individual from Faerie in exchange for an additional task from your character (which is unlikely to be pleasant)."
+                ]
+            },
             "Your character has a small token that he has been instructed to break when he wishes to call this Fae and ask for the favor. Once broken, this token cannot be re-used, and even if your character asks for no favor, the Fae cannot be called again.",
-            "<b>Drawback:</b> Most changelings who find out about this favor assume (sometimes correctly) that your character is a loyalist or a privateer."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Most changelings who find out about this favor assume (sometimes correctly) that your character is a loyalist or a privateer."
+                ]
+            }
         ],
         "Description": "You possess a token, which, when broken, will summon your Keeper, who owes you a single favor.",
         "Book": "RoS 90",
@@ -164,13 +206,51 @@ export const changelingMeritsData = [
         "Cost": "• to •••••",
         "Prerequisites": "Wyrd ••, Empathy •••",
         "LongDescription": [
-            "<b>Effect:</b> Your character has honed her oneiromachy skills to a high degree, allowing her to push the envelope of dream-battle and take the dream-bound combat beyond the reach of less experienced or dedicated oneiromancers.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Your character has honed her oneiromachy skills to a high degree, allowing her to push the envelope of dream-battle and take the dream-bound combat beyond the reach of less experienced or dedicated oneiromancers."
+                ]
+            },
             "Dots purchased in this Merit allow access to special combat maneuvers that are only applicable for oneiromachy (dream-battles). Each maneuver is a prerequisite for the next. So, your character can’t have Double Team until he has Stunning Blow. The maneuvers and their effects are described below.",
-            "<b>Stunning Blow (•):</b> Your character’s dreamonslaught is overwhelming, literally stunning your opponent to the point of inaction. If successes inflicted in a single attack equal or exceed a target’s Wyrd, the victim loses his next action. Attacks of this strength are often accompanied by appropriate special effects in a dream, from shockwaves to tendrils of grasping fog that seem to stall the stunned opponent for a moment.",
-            "<b>Double Team (••):</b> Not content with a single avenue of attack, your character is adept enough with oneiromancy that he can coordinate an environmental and a personal attack against his target at the same time. The second attack suffers a –1 penalty. <b>Drawback:</b> Your character cannot use his Defense against any attack in the same turn in which he intends to use this maneuver. If he uses Defense against attacks that occur earlier in the Initiative roster, before he can perform this maneuver, he cannot perform the maneuver in the same turn, his attention is too focused on protecting himself.",
-            "<b>Blind Spot (•••):</b> Your character’s control of the dream environment is so great that it allows him to attack from the vantage point most detrimental to his opponent. He must use the lowest, rather than the highest, of her Finesse Traits (Wits, Dexterity or Manipulation) as her Defense and the lowest, rather than the highest, of her Resistance traits as her armor.",
-            "<b>Wyrd Armor (••••):</b> Your character’s mastery of the dream-realm protects him in battle. He may add his Wyrd to the highest of his Finesse Traits to serve as his Defense and to the highest of his Resistance traits to serve as his armor.",
-            "<b>Coup de Grace (•••••):</b> Even as your character’s opponent fades from the dream-arena, he is capable of delivering a final blow. At any time that an opponent in a dream-combat is beginning to waken (i.e., has dropped to or below 0 Willpower), he may deliver one final dream-attack (environmental or personal) against her as she wakes. She may not use her Defenses or armor against this attack."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Stunning Blow (•):" },
+                    " Your character’s dreamonslaught is overwhelming, literally stunning your opponent to the point of inaction. If successes inflicted in a single attack equal or exceed a target’s Wyrd, the victim loses his next action. Attacks of this strength are often accompanied by appropriate special effects in a dream, from shockwaves to tendrils of grasping fog that seem to stall the stunned opponent for a moment."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Double Team (••):" },
+                    " Not content with a single avenue of attack, your character is adept enough with oneiromancy that he can coordinate an environmental and a personal attack against his target at the same time. The second attack suffers a –1 penalty. ",
+                    { type: "bold", text: "Drawback:" },
+                    " Your character cannot use his Defense against any attack in the same turn in which he intends to use this maneuver. If he uses Defense against attacks that occur earlier in the Initiative roster, before he can perform this maneuver, he cannot perform the maneuver in the same turn, his attention is too focused on protecting himself."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Blind Spot (•••):" },
+                    " Your character’s control of the dream environment is so great that it allows him to attack from the vantage point most detrimental to his opponent. He must use the lowest, rather than the highest, of her Finesse Traits (Wits, Dexterity or Manipulation) as her Defense and the lowest, rather than the highest, of her Resistance traits as her armor."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Wyrd Armor (••••):" },
+                    " Your character’s mastery of the dream-realm protects him in battle. He may add his Wyrd to the highest of his Finesse Traits to serve as his Defense and to the highest of his Resistance traits to serve as his armor."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Coup de Grace (•••••):" },
+                    " Even as your character’s opponent fades from the dream-arena, he is capable of delivering a final blow. At any time that an opponent in a dream-combat is beginning to waken (i.e., has dropped to or below 0 Willpower), he may deliver one final dream-attack (environmental or personal) against her as she wakes. She may not use her Defenses or armor against this attack."
+                ]
+            }
         ],
         "Description": "Abilities for fighting while in a dream. Look under the Styles Merits page for more information.",
         "Book": "RoS 90",
@@ -180,15 +260,51 @@ export const changelingMeritsData = [
         "Cost": "• to •••••",
         "Prerequisites": "Wyrd •••",
         "LongDescription": [
-            "<b>Effect:</b> While any changeling can step into the Hedge to duke it up with an opponent, for some, Hedge battles have become an art form. Characters with the Fighting Style: Hedge Duelist Merit have dedicated time and effort into perfecting combat within the Hedge’s unique environment, turning the Hedge Duel into an (often lethal) art form.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " While any changeling can step into the Hedge to duke it up with an opponent, for some, Hedge battles have become an art form. Characters with the Fighting Style: Hedge Duelist Merit have dedicated time and effort into perfecting combat within the Hedge’s unique environment, turning the Hedge Duel into an (often lethal) art form."
+                ]
+            },
             "Dots purchased in this Merit allow access to special combat maneuvers that are applicable only to combat within the Hedge (not Arcadia), and only in formal duels. See p. 225 of Changeling: The Lost for criteria on how a Hedge Duel is begun.",
             "Each maneuver is a prerequisite for the next. A character can’t purchase Briar Bite until he has mastered Quick Count and Cruel Blow. The maneuvers and their effects are described below.",
-            "<b>Quick Count (•):</b> In a traditional pistol duel, opponents walk in opposite directions, counting to 10 before turning and firing at each other. This often means that whoever has the quicker reflexes gets the benefit of the first shot. Experienced Hedge Duelists seem to be able to get the “drop” on their opponents more often than not, perhaps simply by quick reaction times, or perhaps through some subtle manipulation of the Hedge’s time flow. With Quick Count, your opponent gets a +2 bonus to her Initiative when beginning a Hedge Duel. If Storytellers are using the alternate Initiative rules on p. 151 of the World of Darkness Rulebook, the bonus applies to each Initiative roll.",
-            "<b>Cruel Blow (••):</b> Demoralizing an opponent is an effective, if unscrupulous, tactic for Hedge duels, and your character has perfected it. When targeting an opponent’s mind (see p. 226 of Changeling: The Lost), she has an uncanny ability to choose whatever words will do the most damage. Add either your character’s Empathy or the victim’s (whichever is higher) to your character’s Manipulation + Subterfuge rolls against the victim’s Clarity or Resolve + Composure.",
-            "<b>Briar Bite (•••):</b> For an expert Hedge Duelist, the Hedge itself becomes its own, oft lethal, weapon. By spending a Glamour, a Hedge Duelist is able to use the Hedge against his opponent without regard for the opponent’s own powers. When your character uses the Hedge to strike at a rival, your opponent’s Wyrd is treated as two less for purposes of defense (to a minimum of 0).",
-            "<b>No Mercy (••••):</b> Normally, a character suffers no more than a –2 penalty for losing all of her Willpower to a Hedge Duel opponent’s mind-attacks. Characters with the No Mercy maneuver, however, give no quarter to their opponents’ weakened state, pursuing the mental abuse to the point where it can totally incapacitate their foes. Once an opponent has been reduced to 0 Willpower, each successive strike at his mind with the No Mercy maneuver increases his dice penalty by 1. Using this tactic calls for a Clarity roll if the attacker’s Clarity is 7 or higher (roll three dice).",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Quick Count (•):" },
+                    " In a traditional pistol duel, opponents walk in opposite directions, counting to 10 before turning and firing at each other. This often means that whoever has the quicker reflexes gets the benefit of the first shot. Experienced Hedge Duelists seem to be able to get the “drop” on their opponents more often than not, perhaps simply by quick reaction times, or perhaps through some subtle manipulation of the Hedge’s time flow. With Quick Count, your opponent gets a +2 bonus to her Initiative when beginning a Hedge Duel. If Storytellers are using the alternate Initiative rules on p. 151 of the World of Darkness Rulebook, the bonus applies to each Initiative roll."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Cruel Blow (••):" },
+                    " Demoralizing an opponent is an effective, if unscrupulous, tactic for Hedge duels, and your character has perfected it. When targeting an opponent’s mind (see p. 226 of Changeling: The Lost), she has an uncanny ability to choose whatever words will do the most damage. Add either your character’s Empathy or the victim’s (whichever is higher) to your character’s Manipulation + Subterfuge rolls against the victim’s Clarity or Resolve + Composure."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Briar Bite (•••):" },
+                    " For an expert Hedge Duelist, the Hedge itself becomes its own, oft lethal, weapon. By spending a Glamour, a Hedge Duelist is able to use the Hedge against his opponent without regard for the opponent’s own powers. When your character uses the Hedge to strike at a rival, your opponent’s Wyrd is treated as two less for purposes of defense (to a minimum of 0)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "No Mercy (••••):" },
+                    " Normally, a character suffers no more than a –2 penalty for losing all of her Willpower to a Hedge Duel opponent’s mind-attacks. Characters with the No Mercy maneuver, however, give no quarter to their opponents’ weakened state, pursuing the mental abuse to the point where it can totally incapacitate their foes. Once an opponent has been reduced to 0 Willpower, each successive strike at his mind with the No Mercy maneuver increases his dice penalty by 1. Using this tactic calls for a Clarity roll if the attacker’s Clarity is 7 or higher (roll three dice)."
+                ]
+            },
             "In addition, opponents who end a Hedge Duel with more than a –2 penalty thanks to this punishment suffer from a mild derangement (or an upgrade of an existing derangement from mild to severe) for the next 24 hours. Those who end a Hedge Duel with a –5 or greater penalty or less Willpower suffer the derangement or upgrade for an entire week. When an opponent reaches a –10 penalty, he are no longer able to function and falls to the ground in a quivering, fetal ball. It is considered exceptionally poor form to kill an opponent who has been so incapacitated, even if the duel was announced as being to the death, so adroit Hedge Duelists will often attempt to pause their mind attacks just short of this threshold if they intend on killing their victim. (Killing a victim who is incapacitated in this manner calls for a degeneration roll if the attacker’s Clarity is 2 or higher. Roll two dice.)",
-            "<b>Hedge Wrath (•••••):</b> The Hedge is not a nice place. The fact that it seems to cooperate more freely with changelings who come into its fickle environ for the purposes of harming each other is just one example of its cruel nature. For those who are able to harness this cruelty, however, the Thorns are an incredible weapon. With Hedge Wrath, your character is able to sacrifice her own Willpower to fan the Hedge’s lethal potential even higher. She may spend a Willpower point to enhance any Hedge Duel attack in which she is reshaping the Hedge to strike at her enemy; the usual benefits apply. In addition, if that attack is an exceptional success, all damage the attack does is aggravated, rather than lethal."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Hedge Wrath (•••••):" },
+                    " The Hedge is not a nice place. The fact that it seems to cooperate more freely with changelings who come into its fickle environ for the purposes of harming each other is just one example of its cruel nature. For those who are able to harness this cruelty, however, the Thorns are an incredible weapon. With Hedge Wrath, your character is able to sacrifice her own Willpower to fan the Hedge’s lethal potential even higher. She may spend a Willpower point to enhance any Hedge Duel attack in which she is reshaping the Hedge to strike at her enemy; the usual benefits apply. In addition, if that attack is an exceptional success, all damage the attack does is aggravated, rather than lethal."
+                ]
+            }
         ],
         "Description": "Abilities to use in a formal duel while in the Hedge. Look under the Styles Merits page for more information.",
         "Book": "RoS 91",
@@ -209,8 +325,20 @@ export const changelingMeritsData = [
         "Cost": "• or •••",
         "Prerequisites": "-",
         "LongDescription": [
-            "<b>Effect:</b> Your character has convinced the local Goblin Market to let you sell wares to other Market-goers without having to worry about being price-gouged by the other vendors or forcefully removed by the Market toughs. For •, these are the only benefits. At ••• you’ve paid your membership in full and gain the protection of Market law.",
-            "<b>Drawback:</b> Selling wares at the Goblin Market is hardly a respectable profession. In most freeholds, this results in a loss of face among the other changelings. Goblin merchants find that the Court Goodwill Merit is limited to ••• for them. At the Storyteller’s discretion other social merits, such as Status and Allies, may be subject to similar restrictions when purchased to reflect ties to freehold society. Changelings find it difficult to hide their association with the Market; aspects of the Market always seem to seep into their mien."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Your character has convinced the local Goblin Market to let you sell wares to other Market-goers without having to worry about being price-gouged by the other vendors or forcefully removed by the Market toughs. For •, these are the only benefits. At ••• you’ve paid your membership in full and gain the protection of Market law."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Selling wares at the Goblin Market is hardly a respectable profession. In most freeholds, this results in a loss of face among the other changelings. Goblin merchants find that the Court Goodwill Merit is limited to ••• for them. At the Storyteller’s discretion other social merits, such as Status and Allies, may be subject to similar restrictions when purchased to reflect ties to freehold society. Changelings find it difficult to hide their association with the Market; aspects of the Market always seem to seep into their mien."
+                ]
+            }
         ],
         "Description": "Sell at Goblin Market without being price-gouged and while protected by Market Law",
         "Book": "Goblin Markets 34"
@@ -223,20 +351,86 @@ export const changelingMeritsData = [
             "Your character has an innate connection to some very specific purview of Wyrd reality that emulates, to a lesser degree, the Others’ connections thereto. This allows her to craft pledges with that purview off the cuff, without the need for another individual to serve as a witness or agent of the Wyrd.",
             "For each dot your characters has in this Merit, she has a connection with one purview of the Wyrd. These purviews are very specific. “Animals” is too general a purview, as is “canines,” but “dogs,” “wolves,” “coyotes” or “jackals” are all appropriate purviews. Similarly, “nighttime” is too broad a purview, but “dusk,” “dawn,” “midnight” or “moonless nights” are all acceptable.",
             "A changeling with the Goblin Vow Merit can craft a pledge just as she would a one-sided pledge, choosing the task, boon and duration, which must equal out to a zero sum. (Note the missing sanction, which requires that the tasks are strong enough to equal out to both boon and duration. Thus, most Goblin Vows are very short in duration.) Elements of the pledge are all based on one of the particular purviews the character possesses, with the task serving that purview in some manner and the boon being some aspect of that purview the character can benefit from.",
-            "<b>Purview Favors:</b> Similar to a traditional favor boon, the changeling in a Goblin Pledge asks a favor from the other entity in the pledge. However, unlike a traditional boon, the other party is not a mortal or changeling but a purview of the Wyrd itself. This allows a great deal of flexibility in the nature of the favor, but it must be in keeping with the purview itself. Purviews of fire, such as candles, fireplaces or bonfires, for example, might grant warmth, summon a small flame, illuminate an area or give protection from burning. Darkness purviews, such as various aspects of night, might hide one from attackers, grant restful sleep or even lull a bored enemy into dozing off. Midnight, however, could not grant one sharp claws or protection from hunters who are using scent, rather than sight.",
-            "<b>Disadvantage:</b> Unlike normal pledges, Goblin Pledges contain their own innate sanctions, which are separate from the balancing equation of task, boon and duration. Goblin Pledge sanctions are activated by the Wyrd, should the pledger fail to follow through on her tasks after making the pledge, and are equal in severity to the task total + 1.",
-            "<b>Example:</b> Annie Lida, a young Skitterskulk who has the Goblin Vow Merit •••• (Black Velvet, Cemeteries, Earthworms and Moonless Nights) finds herself being chased down a dead-end multi-story alley by an ill-intentioned gang of thugs. Exhausted and injured, her options are few. She can’t climb over the walls; they’re too tall. It’s too late to double-back out of the alley, and every Contract that she has that might help her requires the use of Glamour, which she is out of. She looks up and realizes that the night sky is clear and dark — the moon is new and invisible. Desperate, she crafts a Goblin Pledge: “Dark night, dark night, hide your daughter from their sight. If I live through the day, I will break every lit streetlight I see for the next month.” She expends a point of Willpower to invoke the pledge, and finds herself shrouded in nightdarkness. The thugs look for her, but can’t pick her out of the shadows and eventually leave the alley in search of easier prey.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Purview Favors:" },
+                    " Similar to a traditional favor boon, the changeling in a Goblin Pledge asks a favor from the other entity in the pledge. However, unlike a traditional boon, the other party is not a mortal or changeling but a purview of the Wyrd itself. This allows a great deal of flexibility in the nature of the favor, but it must be in keeping with the purview itself. Purviews of fire, such as candles, fireplaces or bonfires, for example, might grant warmth, summon a small flame, illuminate an area or give protection from burning. Darkness purviews, such as various aspects of night, might hide one from attackers, grant restful sleep or even lull a bored enemy into dozing off. Midnight, however, could not grant one sharp claws or protection from hunters who are using scent, rather than sight."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Disadvantage:" },
+                    " Unlike normal pledges, Goblin Pledges contain their own innate sanctions, which are separate from the balancing equation of task, boon and duration. Goblin Pledge sanctions are activated by the Wyrd, should the pledger fail to follow through on her tasks after making the pledge, and are equal in severity to the task total + 1."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Example:" },
+                    " Annie Lida, a young Skitterskulk who has the Goblin Vow Merit •••• (Black Velvet, Cemeteries, Earthworms and Moonless Nights) finds herself being chased down a dead-end multi-story alley by an ill-intentioned gang of thugs. Exhausted and injured, her options are few. She can’t climb over the walls; they’re too tall. It’s too late to double-back out of the alley, and every Contract that she has that might help her requires the use of Glamour, which she is out of. She looks up and realizes that the night sky is clear and dark — the moon is new and invisible. Desperate, she crafts a Goblin Pledge: “Dark night, dark night, hide your daughter from their sight. If I live through the day, I will break every lit streetlight I see for the next month.” She expends a point of Willpower to invoke the pledge, and finds herself shrouded in nightdarkness. The thugs look for her, but can’t pick her out of the shadows and eventually leave the alley in search of easier prey."
+                ]
+            },
             "In this case, Annie’s pledge task (breaking every lit streetlight she sees for a month) is a medial endeavor (–2), the pledge’s duration is a day (+1) and the boon was fairly minor (+1). (Had she asked for the ability to harm the thugs, it might have been a medial task, or to kill them, a greater one.)",
             "Annie has no control over the sanction of the Goblin Vow. She leaves the alley, still shrouded in darkness, and for the next three weeks, is fastidious about shooting out every lit streetlight she sees with her pellet gun. However, just before the task is completed, she finds herself in the street as night is falling, and as the lights come on, she chooses to go out with some friends rather than spend the evening destroying streetlights. The Wyrd is evoked with the breaking of the pledge, and the Storyteller chooses a greater curse sanction (see p. 182 of Changeling: The Lost) for the next day (the duration of the pledge).",
-            "<h2>Sample Wyrd Purviews</h2>",
+            {
+                type: "heading",
+                level: 2,
+                text: [
+                    "Sample Wyrd Purviews"
+                ]
+            },
             "Below are some of the potential Wyrd purviews that a Storyteller might allow a character with the Goblin Vow Merit to take. Note that the bolded categories are too broad to be taken as purviews, and are offered merely for ease of organization. If a Storyteller feels a particular purview is too restrictive or too broad, she is welcomed to create her own guidelines for what a purview can and cannot cover. Ideally, purviews should be narrow enough to not be useful in every situation but not so restrictive as to never be useful.",
-            "<b>Animals:</b> Stray Cats, Tigers, Birds of Prey, Ravens, Songbirds, Insects, Whales ",
-            "<b>Buildings and Structures:</b> Schools, Garages (Mechanical), Working Farms, Morgues, Hospitals",
-            "<b>Emotions:</b> Righteous Indignation, Unrequited Love, Phobic Fear ",
-            "<b>Items:</b> Sports Cars, Trucks, Telephones, Books, Knives, Cash",
-            "<b>Plants:</b> Algae, Ivy, Kudzu, Moss and Lichen, Oak Trees, Roses",
-            "<b>Time/Seasons:</b> Midnight, Noon, Dusk, Dawn, Solstice, February 29th",
-            "<b>Weather:</b> Hurricanes, Moonless Nights, Monsoons, Blizzards"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Animals:" },
+                    " Stray Cats, Tigers, Birds of Prey, Ravens, Songbirds, Insects, Whales "
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Buildings and Structures:" },
+                    " Schools, Garages (Mechanical), Working Farms, Morgues, Hospitals"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Emotions:" },
+                    " Righteous Indignation, Unrequited Love, Phobic Fear "
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Items:" },
+                    " Sports Cars, Trucks, Telephones, Books, Knives, Cash"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Plants:" },
+                    " Algae, Ivy, Kudzu, Moss and Lichen, Oak Trees, Roses"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Time/Seasons:" },
+                    " Midnight, Noon, Dusk, Dawn, Solstice, February 29th"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Weather:" },
+                    " Hurricanes, Moonless Nights, Monsoons, Blizzards"
+                ]
+            }
         ],
         "Description": "Can make pledges with one Wyrd-purview/dot; no sanction and boon and task must be related to purview",
         "Book": "RoS 38"
@@ -290,7 +484,13 @@ export const changelingMeritsData = [
         "LongDescription": [
             "The True Fae are occasionally known as the hidden folk because they are only seen when they wish to be, and your character shares some of this ability. Anyone attempting to gather or obtain any information about your character, by either supernatural or mundane means, must subtract a number of dice equal to your character’s dots in this Merit from all rolls to perform such activities. Mortals must also subtract an equal number of dice from all rolls to remember any information about her or her actions, including what your character looked like.",
             "Changelings with the Hidden Life Merit often live on the fringes of mortal society, since their records can easily become lost. While police officers forgetting to write up reports of minor crimes your character committed can be extremely helpful, having the company your character works for lose her paycheck is far more problematic.",
-            "<b>Drawback:</b> If your character is ever noticed by the media or otherwise gains any significant degree of fame, she temporarily loses the Hidden Life Merit until her fame or notoriety fades. Fortunately, given the nature of this Merit, this occurs more swiftly than normal. However, changelings who are public figures, such as TV personalities, actors or politicians, cannot have this Merit, since they make themselves far too obvious for people to forget them."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " If your character is ever noticed by the media or otherwise gains any significant degree of fame, she temporarily loses the Hidden Life Merit until her fame or notoriety fades. Fortunately, given the nature of this Merit, this occurs more swiftly than normal. However, changelings who are public figures, such as TV personalities, actors or politicians, cannot have this Merit, since they make themselves far too obvious for people to forget them."
+                ]
+            }
         ],
         "Description": "Seeking information about your character takes a penalty, including remembering contact or physical details.",
         "Book": "RoS 92",
@@ -354,7 +554,13 @@ export const changelingMeritsData = [
             "Of course, a changeling might have the most gigantic and elaborate Hollow imaginable, but unless it is properly warded and secured against intrusion, it will most likely be lost to opportunistic scavengers in short order — or worse yet, subject to an unpleasant visitation from the Others. Thus, it is wise to invest at least a few dots in Hollow Wards, representing the precautions both mundane and magical that protect the Hollow from unwanted visitors. Each dot invested in Hollow Wards subtracts one die from all attempts by unwanted visitors to find or break into the Hollow; in addition, those inside receive a +1 die bonus per dot on their Initiative compared to those attempting to break in. Lastly, the more dots invested in Hollow Wards, the less likely the location is to be found by True Fae or creatures from the Hedge; each dot subtracts one die from any rolls made to find the Hollow.",
             "Characters whose players spend no points at all on Hollow simply do not have access to any sort of special location in the Hedge. They might come as guests to another’s dwelling from time to time, but if they wish to have regular access to any particular location, they must purchase this Merit on their own or pool points with other changelings who already own an existing Hollow. Characters with no Hollow points simply do not enjoy the mechanical benefits of having spent dots on a better living space in the Hedge.",
             "Each aspect of the Hollow Merit has a limit of 5. In other words, Hollow Size, Hollow Amenities, Hollow Wards and Hollow Doors may not rise above 5 (to a maximum of 20 points spent on this Merit). The combined pool of points is used to determine the cost in experience points for raising the Hollow Merit during play.",
-            "<b>Special:</b> The Hollow Merit may be shared among characters in a close-knit group. They might simply be a motley whose members are devoted to one another and are willing to pool what they have, or perhaps their mutual reliance on an individual or trust could bring them together to share what they have in common.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Special:" },
+                    " The Hollow Merit may be shared among characters in a close-knit group. They might simply be a motley whose members are devoted to one another and are willing to pool what they have, or perhaps their mutual reliance on an individual or trust could bring them together to share what they have in common."
+                ]
+            },
             "To share this Merit, two or more characters simply have to be willing to pool their dots for greater capability. A shared rating in the Hollow Merit cannot rise higher than five dots in any of the four aspects of the trait. That is, characters cannot pool more than five points to be devoted to, say, Hollow Size. If they wish to devote extra points to the Merit, they must allocate those dots to a different aspect of the Merit, such as Wards or Doors.",
             "Shared Hollow dots can be lost. Motley members or associates might be abused or mistreated, ending relationships. Group members might perform actions that cast themselves (and the group) in a bad light. Ravaging creatures from the Hedge might damage part of the location, or some True Fae could discover the Hollow and decide to make it their personal residence for a time. If any group member does something to diminish the Hollow, its dots decrease for all group members. That’s the weakness of sharing dots in this Merit. The chain is only as strong as its weakest link. The Storyteller dictates when character actions or events in a story compromise shared Hollow dots.",
             "Characters can also leave a shared Hollow. A rift might form between close sworn comrades, or perhaps a character falls in battle. Or one could simply be kicked out of the Hollow by the others. When a character leaves a sharedHollow relationship, the dots he contributed are removed from the pool. If the individual still survives, he doesn’t get all his dots back for his own purposes. He gets one less than he originally contributed. So, if a character breaks a relationship with his motley, his two Hollow dots are lost by the group, but he gets only one dot back for his own purposes. The lost dot represents the cost or bad image that comes from the breakup. If all members agree to part ways, they all lose one dot from what they originally contributed.",
@@ -396,11 +602,35 @@ export const changelingMeritsData = [
             "As a sign of brotherhood, Mantle adds to dice pools for social interaction with members of the Court in question. Each dot adds a +1 die bonus to relevant rolls with members of that particular Court. This Merit does not add to dice pools predicated on supernatural powers. Characters with no Court cannot purchase Mantle. Mantle also serves as a prerequisite for learning certain Court-related Contracts.",
             "A character may learn clauses from the relevant Contract path of his Court, which generally require a certain amount of Mantle to learn, though he must still meet any other prerequisites as well. Should his Mantle fall or he adopt the Mantle of a new Court, he might no longer meet the prerequisites for some of his old Contracts; in that case, he must spend additional Glamour to activate those Contracts. (See “Changing Seasons,” p. 94, and the note on Contract prerequisites, p. 174).",
             "Each Court has certain mechanical and descriptive benefits for all its members developing a Mantle rating, as outlined in the Court descriptions in Chapter One. In addition to those benefits, each Court has a benefit reserved for its leader, an advantage most commonly referred to its “crown.” A crown can only manifest in a freehold where there are at least a handful of members of a particular Court and they are able to choose a common leader, and generally manifests only during the appropriate physical season. Occasionally, a crown will manifest during the off-season if a Court is especially prominent or powerful in the area, as the Hedge reflects the Court’s potency, or a changeling who is elected leader of the freehold might manifest his crown out of season if he is sufficiently popular. Note that the leader of a Court is not always the member with a highest Mantle rating. Ultimately, the Storyteller is the final arbiter of when and how a crown appears, but as a rule, only one crown may manifest in a given freehold at a time.",
-            "<b>Blessing of the Green (Spring):</b> A character who wears the crown of Spring may spend a Willpower point to bestow the Blessing of the Green, allowing her to add her Mantle rating as bonus successes to a single roll related to gathering Glamour. The changeling may use this ability up to a maximum number of times per session equal to her Mantle dots. A particular character may only benefit from one use of this ability per session, however. The Spring fae may cast this blessing on herself, or she may choose to bestow it on another with a touch, in which case the blessing must be used before the next sunrise or it is lost.",
-            "<b>Challenge of the Black Spear (Summer):</b> This benefit applies in one-on-one situations such as duels. By spending a Glamour point, the character with the crown of Summer receives a bonus to his Initiative rating equal to his Mantle dots for the duration of the duel, and is not considered surprised by ambushes or other unexpected trickery, though if the duel shifts to mass combat this Initiative bonus drops to a simple +1. The changeling may use this ability multiple times per session, up to a maximum number equal to his Mantle rating. However, this ability may only be used once against a particular foe per combat.",
-            "<b>Harvest of Whispers (Autumn):</b> Once per session, the Autumn leader may take a minute to reflect on what she has learned so far that session (and consult the Storyteller as to whether or not a particular bit of information qualifies for this ability), and then perform the Harvest of Whispers. For each valuable secret, important truth, revelatory fact or other significant piece of information she has uncovered this session, up to a maximum number equal to her Mantle rating, the character receives two Glamour points that are placed in a special pool apart from her regular Glamour points. These harvested Glamour points can be spent only to power Contracts, activate tokens, facilitate dream travel or cross into the Hedge. These points cannot be used for any other purposes, including seeming abilities, and cannot in any way traded or given away; anything left in this pool fades to nothingness at the end of the session. This ability may allow the character to effectively exceed the limit of Glamour points she can possess as dictated by her Wyrd, but the number of Glamour points she can spend per turn is still limited normally. Furthermore, as long as a character exceeds her normal limit of Glamour, she is considered especially noticeable by beings that can detect Glamour or magical energy, so unless she wishes to attract undue attention, it is also best to ready a concealing Contract or two to help dim this radiance.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Blessing of the Green (Spring):" },
+                    " A character who wears the crown of Spring may spend a Willpower point to bestow the Blessing of the Green, allowing her to add her Mantle rating as bonus successes to a single roll related to gathering Glamour. The changeling may use this ability up to a maximum number of times per session equal to her Mantle dots. A particular character may only benefit from one use of this ability per session, however. The Spring fae may cast this blessing on herself, or she may choose to bestow it on another with a touch, in which case the blessing must be used before the next sunrise or it is lost."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Challenge of the Black Spear (Summer):" },
+                    " This benefit applies in one-on-one situations such as duels. By spending a Glamour point, the character with the crown of Summer receives a bonus to his Initiative rating equal to his Mantle dots for the duration of the duel, and is not considered surprised by ambushes or other unexpected trickery, though if the duel shifts to mass combat this Initiative bonus drops to a simple +1. The changeling may use this ability multiple times per session, up to a maximum number equal to his Mantle rating. However, this ability may only be used once against a particular foe per combat."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Harvest of Whispers (Autumn):" },
+                    " Once per session, the Autumn leader may take a minute to reflect on what she has learned so far that session (and consult the Storyteller as to whether or not a particular bit of information qualifies for this ability), and then perform the Harvest of Whispers. For each valuable secret, important truth, revelatory fact or other significant piece of information she has uncovered this session, up to a maximum number equal to her Mantle rating, the character receives two Glamour points that are placed in a special pool apart from her regular Glamour points. These harvested Glamour points can be spent only to power Contracts, activate tokens, facilitate dream travel or cross into the Hedge. These points cannot be used for any other purposes, including seeming abilities, and cannot in any way traded or given away; anything left in this pool fades to nothingness at the end of the session. This ability may allow the character to effectively exceed the limit of Glamour points she can possess as dictated by her Wyrd, but the number of Glamour points she can spend per turn is still limited normally. Furthermore, as long as a character exceeds her normal limit of Glamour, she is considered especially noticeable by beings that can detect Glamour or magical energy, so unless she wishes to attract undue attention, it is also best to ready a concealing Contract or two to help dim this radiance."
+                ]
+            },
             "It is important to note that only new information learned that session can be used for the Harvest of Whispers even if a character learned something just last session, it’s old news and doesn’t qualify. Those who don the crown of the Autumn Court are expected to always be seeking out new and interesting information, not rest on the body of knowledge they’ve already accumulated. The Storyteller is the final arbiter of whether a piece of information is new, valuable or important enough to qualify for this ability.",
-            "<b>Feast of Ashes (Winter):</b> Once per session, a changeling wearing the crown of the Winter Court may devote himself to the Feast of Ashes, converting one point of Glamour to one point of Willpower, up to a maximum number of points equal to the character’s Mantle rating. He may even exceed his normal limit of Willpower points in this fashion, though any excess points are lost at the end of the session. In addition, for the remainder of the scene in which this ability is activated, the changeling’s Willpower rating is effectively increased by a number equal to his Mantle rating, making it extremely hard for others to undermine his confidence in his ability to survive."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Feast of Ashes (Winter):" },
+                    " Once per session, a changeling wearing the crown of the Winter Court may devote himself to the Feast of Ashes, converting one point of Glamour to one point of Willpower, up to a maximum number of points equal to the character’s Mantle rating. He may even exceed his normal limit of Willpower points in this fashion, though any excess points are lost at the end of the session. In addition, for the remainder of the scene in which this ability is activated, the changeling’s Willpower rating is effectively increased by a number equal to his Mantle rating, making it extremely hard for others to undermine his confidence in his ability to survive."
+                ]
+            }
         ],
         "Description": "Membership in a court, benefits in the form of bonuses to social interaction, Contracts and Blessing. The first dot for free.",
         "Book": "CtL 97"
@@ -491,10 +721,34 @@ export const changelingMeritsData = [
             "Prophecy dreams come to changelings relatively infrequently. Some changelings possessed of particularly strong connection to the Wyrd (i.e., those with the Visionary Dreams Merit on p. 96) can call upon this gift more frequently, but other changelings are not so lucky, and must come up with alternative divinatory methods.",
             "This Merit represents your character’s ensorcellment of one or more mortals with a high level of psychic sensitivity. They have no special powers of their own (unless you also choose to buy the Retainer Merit for them), but they have clairvoyant dreams fairly frequently and, thanks to your Pledge of Horn and Bone, you can ride their dreams and witness these visions yourself. Once per story per dot you possess in the Prophet Circle Merit, you may dream ride one of your oathbound psychics and receive a vision that grants supernatural insight about a question or topic. This question may be about the future (“What will happen on the solstice night if the Spring Queen succeeds in her plans?”) or the present (“Where is Jack Tallow hiding?”) or even the past (“How did Jenny Tulips die?”). The prophets you have oathbound are assumed to be pledged to a token, so they don’t count toward your maximum number of vows. As with the Contacts Merit, the Storyteller is encouraged to flesh out these prophets as characters and use them as story hooks.",
             "You must spend a point of Glamour to “jump-start” the psychic vision, and roll Wits + Occult to interpret it. The results are as follows:",
-            "<b>Dramatic Failure:</b> A nightmare. You can interpret it any way you want, but it probably leads to more trouble than solutions.",
-            "<b>Failure:</b> Meaningless images.",
-            "<b>Success:</b> One or more clues (one per Prophet Circle dot), although they must be interpreted.",
-            "<b>Exceptional Success:</b> One or more clues (one per Prophet Circle dot), and a suggestion about their interpretation provided by the Storyteller.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " A nightmare. You can interpret it any way you want, but it probably leads to more trouble than solutions."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " Meaningless images."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " One or more clues (one per Prophet Circle dot), although they must be interpreted."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " One or more clues (one per Prophet Circle dot), and a suggestion about their interpretation provided by the Storyteller."
+                ]
+            },
             "The information conveyed is hidden behind allegory, symbols and archetypes. The dreams rarely answer questions directly, typically relying on symbolism and imagery to convey information. A changeling seeking a specific person’s location wouldn’t see his address, but landmarks nearby could lead the way: a river, a tower or even the face of a man walking by at dusk. The answer has the potential to resolve the problem. It’s a tool for the Storyteller to help drive events of the story."
         ],
         "Description": "Grants ensorcelled mortals to receive Prophetic dreams. Costs 1 glamour and a Wits + Occult roll.",
@@ -515,8 +769,20 @@ export const changelingMeritsData = [
         "Cost": "• to •••",
         "Prerequisites": "Wyrd •••",
         "LongDescription": [
-            "<b>Effect:</b> The character has aligned her destiny with that of someone who was skilled in a way the character is not. For a small tithe of magic, the character may gain access to this expertise. Upon purchasing this Merit, three Skills are chosen (generally corresponding to the Skills most used by the original owner). Once per chapter the character may spend 1 Glamour to gain a number of additional dots in one of those Skills equal to the dot value of the Merit, for the remainder of the scene. This Merit cannot raise the character’s effective Skill above 5.",
-            "<b>Drawback:</b> The Storyteller should deter- mine the details of the fate’s original owner at the time of purchase and explain it to the player (and can add depth to the Market bargain-ing process). When benefiting from this Merit, characters often adopt some of the manner- isms or ideas of the fate’s original owner. While this is mostly a roleplaying consideration, such behavior can cause penalties to rolls in certain situations at the Storyteller’s discretion. (These should never be more encumbering than a Flaw.)"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The character has aligned her destiny with that of someone who was skilled in a way the character is not. For a small tithe of magic, the character may gain access to this expertise. Upon purchasing this Merit, three Skills are chosen (generally corresponding to the Skills most used by the original owner). Once per chapter the character may spend 1 Glamour to gain a number of additional dots in one of those Skills equal to the dot value of the Merit, for the remainder of the scene. This Merit cannot raise the character’s effective Skill above 5."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The Storyteller should deter- mine the details of the fate’s original owner at the time of purchase and explain it to the player (and can add depth to the Market bargain-ing process). When benefiting from this Merit, characters often adopt some of the manner- isms or ideas of the fate’s original owner. While this is mostly a roleplaying consideration, such behavior can cause penalties to rolls in certain situations at the Storyteller’s discretion. (These should never be more encumbering than a Flaw.)"
+                ]
+            }
         ],
         "Description": "Gain bonus equal to dots to three skills once per Chapter.",
         "Book": "Goblin Markets 26",
@@ -549,8 +815,20 @@ export const changelingMeritsData = [
         "LongDescription": [
             "Your character has purchased a slave at Market. The creature is bound to serve you in almost any way imaginable, chained to your will. This chain always manifests in some way in the creature’s appearance: iron collars around the neck and silver cords about the wrist are typical markers, but brands, tattoos and even fur patterns have been known to manifest. So long as the slave’s fetters remain, it must make a successful Resolve + Composure roll to act against its master. The roll is penalized by -3 dice if the slave attempts to refuse, ignore or disobey a direct order, and -5 if it tries to physically harm the character. Even the most simple- minded slaves have feelings, however, and the Storyteller can reduce (or even waive) these penalties in the face of long-term abuse.",
             "The complexity and intelligence of a slave varies based on the value of the Merit. At •, the slave is little more than a magical automaton, such as a lamp that follows its master or a broom that sweeps of its own ac- cord. For ••, the slave is a simple imp or wisp of limited intelligence, capable of carrying out relatively simple tasks but without any significant capacity for problem solving. At •••, the slave has the intelligence (and often temperament) of a child. At this value, a slave can be large enough to provide its master with physical defense and may possess one dot in a single Contract. A •••• slave is a familiar of average intellect and skill, perhaps possessing two dots in a single Contract. Finally, for •••••, the slave is of greater-than-average intelligence or strength, able to think critically and creatively about problems and possessed of four clauses from one or two Contracts. At this level, the slave may even be a changeling or non-fae supernatural creature (with four of their appropriate powers), but keeping such powerful creatures as slaves is asking for trouble.",
-            "<b>Drawback:</b> Besides the dangers inherent in housing abused hobgoblins, owning slaves carries a social stigma among changeling society (composed, as it is, primarily of former slaves). Most changeling slave- owners take care to be discreet in their proclivities, lest they garner a reputation in their Freehold for being no better than the Others.",
-            "<b>Special:</b> Slaves at the Goblin Market come in two varieties: trained and untrained. The latter are most common and tend to come cheap, and have a value (see p. 28) equal to half the Merit’s rating. The character purchasing such a slave must also pay the usual experience cost of the Merit in order to “break in” the new slave. Trained slaves serve obediently from the moment of purchase (requiring no expenditure of experience), but cost an exorbitant amount. These have a value equal to the Merit’s rating."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Besides the dangers inherent in housing abused hobgoblins, owning slaves carries a social stigma among changeling society (composed, as it is, primarily of former slaves). Most changeling slave- owners take care to be discreet in their proclivities, lest they garner a reputation in their Freehold for being no better than the Others."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Special:" },
+                    " Slaves at the Goblin Market come in two varieties: trained and untrained. The latter are most common and tend to come cheap, and have a value (see p. 28) equal to half the Merit’s rating. The character purchasing such a slave must also pay the usual experience cost of the Merit in order to “break in” the new slave. Trained slaves serve obediently from the moment of purchase (requiring no expenditure of experience), but cost an exorbitant amount. These have a value equal to the Merit’s rating."
+                ]
+            }
         ],
         "Description": "Supernatural servant purchased at Market.",
         "Book": "Goblin Markets 23"
@@ -560,8 +838,20 @@ export const changelingMeritsData = [
         "Cost": "••",
         "Prerequisites": "A Living Fetch",
         "LongDescription": [
-            "<b>Effect:</b> Some Lost conjecture that a portion of each changeling’s soul is imbedded in her fetch. Whether this is true or not, your character feels some extra level of connection to the simulacrum crafted to replace her. Your character always knows the direction and approximate distance to her fetch. In addition, your character has a very general sense of her fetch’s moods and emotions. As a result, your character gains a +2 bonus to all Social rolls when interacting with her fetch.",
-            "<b>Drawback:</b> Your character also feels when her fetch is in pain and suffers an injury penalty equal to half of the fetch’s (round up). If her fetch is incapacitated due to injuries, your character suffers a –2 penalty to all rolls. If your character’s fetch is killed, your character takes a number of points of bashing damage equal to her Wyrd and must make a Stamina + Composure roll to not fall unconscious for several minutes."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Some Lost conjecture that a portion of each changeling’s soul is imbedded in her fetch. Whether this is true or not, your character feels some extra level of connection to the simulacrum crafted to replace her. Your character always knows the direction and approximate distance to her fetch. In addition, your character has a very general sense of her fetch’s moods and emotions. As a result, your character gains a +2 bonus to all Social rolls when interacting with her fetch."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Your character also feels when her fetch is in pain and suffers an injury penalty equal to half of the fetch’s (round up). If her fetch is incapacitated due to injuries, your character suffers a –2 penalty to all rolls. If your character’s fetch is killed, your character takes a number of points of bashing damage equal to her Wyrd and must make a Stamina + Composure roll to not fall unconscious for several minutes."
+                ]
+            }
         ],
         "Description": "Always know the direction and distance to your Fetch, its moods and emotions, and a +2 to social rolls when interacting. Take penalties when it is injured or killed.",
         "Book": "RoS 96",
@@ -571,8 +861,20 @@ export const changelingMeritsData = [
         "Cost": "•••••",
         "Prerequisites": "Wyrd •••••••••",
         "LongDescription": [
-            "<b>Effect:</b> The character’s mien has become truly otherworldly. Perhaps her human form is gone and she is just a being of pure light or darkness. Maybe she appears as a creature out of myth, or as an angel, or even a goddess. She may be the pinnacle or horror of beauty. While humans still see the Mask, they sense her transcendent nature. Mortal beings may not attack her (unless in self-defense), may not lie to her, and may not attempt to intimidate her. In addition, all humans who can see her must halve their Speed and Initiative scores (round down). Changelings, on the other hand, do not halve Speed or Initiative, but must succeed at a reflexive Resolve + Composure roll to attack her (unless in self-defense), lie to her, or intimidate her. Finally, the Gentry no longer see her as a direct enemy, and they see her as almost a kindred spirit. It doesn’t mean the True Fae won’t attack her, but it’s quite likely they’ll approach her first as something close to an equal.",
-            "<b>Drawback:</b> She also draws the attention of the Gen- try. The Fae want her to come “home” to Faerie, and will do whatever they must to push her in that direction. That means her friends and family are subject to possible torment or death by the Fae, who think she must have her “fetters” to the mundane world removed. In addition, changelings don’t often trust her; why would they, when the Gentry seem so fond of her?"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The character’s mien has become truly otherworldly. Perhaps her human form is gone and she is just a being of pure light or darkness. Maybe she appears as a creature out of myth, or as an angel, or even a goddess. She may be the pinnacle or horror of beauty. While humans still see the Mask, they sense her transcendent nature. Mortal beings may not attack her (unless in self-defense), may not lie to her, and may not attempt to intimidate her. In addition, all humans who can see her must halve their Speed and Initiative scores (round down). Changelings, on the other hand, do not halve Speed or Initiative, but must succeed at a reflexive Resolve + Composure roll to attack her (unless in self-defense), lie to her, or intimidate her. Finally, the Gentry no longer see her as a direct enemy, and they see her as almost a kindred spirit. It doesn’t mean the True Fae won’t attack her, but it’s quite likely they’ll approach her first as something close to an equal."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " She also draws the attention of the Gen- try. The Fae want her to come “home” to Faerie, and will do whatever they must to push her in that direction. That means her friends and family are subject to possible torment or death by the Fae, who think she must have her “fetters” to the mundane world removed. In addition, changelings don’t often trust her; why would they, when the Gentry seem so fond of her?"
+                ]
+            }
         ],
         "Description": "The Changeling's mein becomes transcendental, and mortals become bewitched, limiting their actions. Changelings must roll Resolve + Composure or be bewitched.",
         "Book": "ER 14",
@@ -608,8 +910,19 @@ export const changelingMeritsData = [
             "Creating a token is a long and arduous project that requires not only great skill but a commitment of personal energies as well. First, the character must be able to accurately create some sort of plans, recipe or blueprint for the creation. Creating a recipe from scratch is an extended Intelligence + Occult roll, with one day required per roll and total successes required of five per dot in the token. This research cannot be interrupted until complete, or all successes are lost. In some cases, the crafter may be able to discover a plan that some other changeling has created, and work directly from that. Such a discovery may be the focus of a story — and may result in an object with unforeseen quirks reflecting the unknown author.",
             "Tokens are created as an extended action (Wyrd + Crafts) with each roll representing two weeks of work and a target number of 25 per dot of Token. Thus a twodot token such as a Lantern of Ill Omen would require 50 successes to create. Token Makers must expend at least one point of Glamour per two weeks into their work, and may expend up to five per month. Each point of Glamour above the first counts as an automatic success toward the total. The character must work for at least eight hours each day; working 16 or more hours a day adds an additional two dice to the roll per week that the character can maintain this schedule. If the crafter leaves off in the middle of her project, accumulated successes remain — but if she fails to pick up her tools again and resume work within two weeks, the successes are lost as the Glamour flees and her inspiration leaves her.",
             "Changelings possessing the Workshop Merit below may additionally halve the time per roll (if working on a token made of a material which falls within one of their Workshop’s Specialty areas) should any points in Workshop focus on that specialty.",
-            "<i>Example: Annie Bumble wants to create a Curious Paw Token (p. 207 of Changeling: The Lost). She’s a passable taxidermist and has a nicely appointed taxidermy table set up in her Hollow (one dot in Workshop: Taxidermy). She sequesters herself in her Hollow to work on it. Because she has a dot in Taxidermy allocated to her Workshop Hollow, she halves two weeks, making her time per roll one week. At the end of the first week of work, she spends one Glamour for the required investment and five more toward automatic successes. Her player rolls Annie’s Wyrd (3) + Crafts (4) + Crafts Specialty: Taxidermy (1) + Workshop (Taxidermy) (3) and gets 4 successes on the 11 dice. Adding in her automatic successes, Annie has now accumulated nine successes toward the 100 required to complete the Curious Paw. At the end of the next week of work, she spends another Glamour (with the option of spending up to five more) and makes another roll, accumulating the successes until she has reached 100 and the Curious Paw is complete.</i>",
-            "<b>Drawbacks:</b> Token drawbacks are not within the control of their creator. They are a result of the cagey nature of Glamour, and cannot be guided by the token’s maker’s hand or will. As tokens are forged in part out of the maker’s own Glamour, however, the drawback often reflects a connection to the maker in some way. One Darkling craftsman’s token might cause temporary blindness after being used, while another item by the same artisan might attract spiders to the user’s home. For already published tokens, such as those found on pp. 202–209 of Changeling: The Lost or in Chapter Four of this book, Storytellers have the option of using the listed drawback or creating one that more closely ties the token to its creator’s nature."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "Example: Annie Bumble wants to create a Curious Paw Token (p. 207 of Changeling: The Lost). She’s a passable taxidermist and has a nicely appointed taxidermy table set up in her Hollow (one dot in Workshop: Taxidermy). She sequesters herself in her Hollow to work on it. Because she has a dot in Taxidermy allocated to her Workshop Hollow, she halves two weeks, making her time per roll one week. At the end of the first week of work, she spends one Glamour for the required investment and five more toward automatic successes. Her player rolls Annie’s Wyrd (3) + Crafts (4) + Crafts Specialty: Taxidermy (1) + Workshop (Taxidermy) (3) and gets 4 successes on the 11 dice. Adding in her automatic successes, Annie has now accumulated nine successes toward the 100 required to complete the Curious Paw. At the end of the next week of work, she spends another Glamour (with the option of spending up to five more) and makes another roll, accumulating the successes until she has reached 100 and the Curious Paw is complete." }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawbacks:" },
+                    " Token drawbacks are not within the control of their creator. They are a result of the cagey nature of Glamour, and cannot be guided by the token’s maker’s hand or will. As tokens are forged in part out of the maker’s own Glamour, however, the drawback often reflects a connection to the maker in some way. One Darkling craftsman’s token might cause temporary blindness after being used, while another item by the same artisan might attract spiders to the user’s home. For already published tokens, such as those found on pp. 202–209 of Changeling: The Lost or in Chapter Four of this book, Storytellers have the option of using the listed drawback or creating one that more closely ties the token to its creator’s nature."
+                ]
+            }
         ],
         "Description": "Through extended actions and spending Glamour a Changeling may create a Token at 25 successes per level.",
         "Book": "RoS 150"
@@ -619,8 +932,20 @@ export const changelingMeritsData = [
         "Cost": "•••",
         "Prerequisites": "Wyrd •••••••",
         "LongDescription": [
-            "<b>Effect:</b> The character’s Wyrd is truly potent: it radiates from her mien in unseen waves. Those objects she values and touches run the chance of becoming tokens. She must first be in somewhat constant contact with the object for a number of days equal to (10 minus her Clarity score). A knife hung at her belt or a bed she sleeps on at night counts: the coffee maker she uses every morning would not count. At the culmination of that time period, the Storyteller rolls a single die — if that die is a success (8 or above on the roll), the object becomes a token as her Wyrd has inadvertently infused it. It’s not impossible for a truly potent changeling to effectively create tokens left and right...",
-            "<b>Drawback:</b> ...and that’s not always a good thing. First, she has no control over what the objects become—she cannot say, “I wish that this hand-me-down wallet from my deceased father magically makes money appear” and have that happen. The Wyrd does what it wants. Second, tokens can be dangerous, especially if they get into the hands of her enemies or into the hands of foolish humans who trigger dangerous catches."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The character’s Wyrd is truly potent: it radiates from her mien in unseen waves. Those objects she values and touches run the chance of becoming tokens. She must first be in somewhat constant contact with the object for a number of days equal to (10 minus her Clarity score). A knife hung at her belt or a bed she sleeps on at night counts: the coffee maker she uses every morning would not count. At the culmination of that time period, the Storyteller rolls a single die — if that die is a success (8 or above on the roll), the object becomes a token as her Wyrd has inadvertently infused it. It’s not impossible for a truly potent changeling to effectively create tokens left and right..."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " ...and that’s not always a good thing. First, she has no control over what the objects become—she cannot say, “I wish that this hand-me-down wallet from my deceased father magically makes money appear” and have that happen. The Wyrd does what it wants. Second, tokens can be dangerous, especially if they get into the hands of her enemies or into the hands of foolish humans who trigger dangerous catches."
+                ]
+            }
         ],
         "Description": "Being in constant touch with objects turns them into Tokens. See the list here]].",
         "Book": "ER 14"
@@ -664,8 +989,20 @@ export const changelingMeritsData = [
         "Cost": "• to ••",
         "Prerequisites": "Market Stall ••••",
         "LongDescription": [
-            "<b>Effect:</b> Owning a stall makes running a successful Goblin Market business significantly easier. The character has access to a stable supply of wares that he can sell or trade to visitors or other vendors. More importantly, the merchant knows who in the Market to go to for certain rare valuables, and how best to wrangle a deal from them. Once per chapter, the character may reduce the price of an item she purchases from another vendor by 1 for each dot she possesses in this Merit (to a minimum of 0), as long as the character intents to sell the item in her own stall. This allows her to make a higher than usual profit on the item.",
-            "<b>Drawback:</b> Goblin merchants typically make these backroom deals to get items out of the Marketand into the populace. A merchant who uses an item she obtains through this Merit herself defeats this purpose, typically appearing weak in the eyes of the other vendors. She loses access to this Merit for the remainder of the story, as the other vendors charge her full cost for wares, no matter what she intends to do with them."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Owning a stall makes running a successful Goblin Market business significantly easier. The character has access to a stable supply of wares that he can sell or trade to visitors or other vendors. More importantly, the merchant knows who in the Market to go to for certain rare valuables, and how best to wrangle a deal from them. Once per chapter, the character may reduce the price of an item she purchases from another vendor by 1 for each dot she possesses in this Merit (to a minimum of 0), as long as the character intents to sell the item in her own stall. This allows her to make a higher than usual profit on the item."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Goblin merchants typically make these backroom deals to get items out of the Marketand into the populace. A merchant who uses an item she obtains through this Merit herself defeats this purpose, typically appearing weak in the eyes of the other vendors. She loses access to this Merit for the remainder of the story, as the other vendors charge her full cost for wares, no matter what she intends to do with them."
+                ]
+            }
         ],
         "Description": "Once per chapter, reduce the cost of an item by dots in the Merit so long as intent is to resell.",
         "Book": "Goblin Markets 35"
@@ -677,10 +1014,34 @@ export const changelingMeritsData = [
         "LongDescription": [
             "Your character has especially close ties to humanity’s collective unconscious. When your character sleeps, his dreams can gather any knowledge known to a living human and allow him to make use of it when he awakes. This Merit allows your character to temporarily gain one dot in any Ability Specialty or one dot in any Language that is known to at least one living mortal. Knowledge of this Ability Specialty or Language persists until your character next sleeps and can be used just as any other Specialty or Language. If your character learns a Specialty such as Heavy Weapons or Pilot, where characters without the Specialty suffer special penalties when trying to perform certain actions, this Specialty acts as a normal Specialty and negates these penalties and also provides one additional dot for appropriate rolls.",
             "Having a dream to learn such a Specialty requires your character to make a meditation (Composure + Wits) roll immediately before he goes to sleep. Your character must then sleep for at least five hours to gain a Specialty or Language in this fashion. Characters may not use this Merit more than once per day.",
-            "<b>Dramatic Failure:</b> Your character’s dreams bring him false and useless information, and for the next day, he suffers an additional –1 to any rolls with the chosen Ability.",
-            "<b>Failure:</b> Your character fails to learn the desired knowledge.",
-            "<b>Success:</b> Your character gains the desired Specialty or one dot in the desired Language.",
-            "<b>Exceptional Success:</b> Your character’s dreams are exceptionally vivid and useful. If a Language is selected, he gains two dots in the Language until he sleeps again."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " Your character’s dreams bring him false and useless information, and for the next day, he suffers an additional –1 to any rolls with the chosen Ability."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " Your character fails to learn the desired knowledge."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " Your character gains the desired Specialty or one dot in the desired Language."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " Your character’s dreams are exceptionally vivid and useful. If a Language is selected, he gains two dots in the Language until he sleeps again."
+                ]
+            }
         ],
         "Description": "A successful Wits + Composure leads to borrowing a skill specialty or language for one day from a known mortals dreams",
         "Book": "RoS 97"
@@ -690,8 +1051,20 @@ export const changelingMeritsData = [
         "Cost": "•••",
         "Prerequisites": "Wyrd ••••••",
         "LongDescription": [
-            "<b>Effect:</b> As noted on p. 173 of Changeling: The Lost, each changeling gains a free Specialty to Athletics, Brawl or Stealth to represent the minor physical aspects that carry from mien to Mask and give the character an extra edge. With Wyrdskill, a character binds another Skill to his mien and seeming, and at every Wyrd dot gained starting at Wyrd 6, the character receives another free Specialty for the Skill chosen to be bound to one’s Wyrd. The mien literally grows to reflect the Skill: think of a Flowering Fairest who finds her Wyrd score is bound to her Subterfuge score. At Wyrd 6, her player grants her the Specialty of “Seduction” because her dizzying floral scent allows her to lie to get men into bed; at Wyrd 7, she maybe earns the “Swindle” Specialty because she finds that her “hothouse flower” veneer helps her with her many con jobs; and so forth.",
-            "<b>Drawback:</b> Upon finding that a Skill is bound to her mien and seeming, a character begins to rely on it too much, driven both by its potency and by the Wyrd itself. Other Skills may falter slightly: the experience costs to buy Skill dots or Specialties in other Skills in the same area as her Wyrdskill (Mental, Physical or Social) increase slightly. New Skill dots in the same area are now new dots x 4, and Specialties purchased for Skills in that same area now cost 4 experience points. (So, if her Wyrdskill is Subterfuge, it would cost more to buy new Social Skills or Social Specialties, but not Physical or Mental ones.)"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " As noted on p. 173 of Changeling: The Lost, each changeling gains a free Specialty to Athletics, Brawl or Stealth to represent the minor physical aspects that carry from mien to Mask and give the character an extra edge. With Wyrdskill, a character binds another Skill to his mien and seeming, and at every Wyrd dot gained starting at Wyrd 6, the character receives another free Specialty for the Skill chosen to be bound to one’s Wyrd. The mien literally grows to reflect the Skill: think of a Flowering Fairest who finds her Wyrd score is bound to her Subterfuge score. At Wyrd 6, her player grants her the Specialty of “Seduction” because her dizzying floral scent allows her to lie to get men into bed; at Wyrd 7, she maybe earns the “Swindle” Specialty because she finds that her “hothouse flower” veneer helps her with her many con jobs; and so forth."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Upon finding that a Skill is bound to her mien and seeming, a character begins to rely on it too much, driven both by its potency and by the Wyrd itself. Other Skills may falter slightly: the experience costs to buy Skill dots or Specialties in other Skills in the same area as her Wyrdskill (Mental, Physical or Social) increase slightly. New Skill dots in the same area are now new dots x 4, and Specialties purchased for Skills in that same area now cost 4 experience points. (So, if her Wyrdskill is Subterfuge, it would cost more to buy new Social Skills or Social Specialties, but not Physical or Mental ones.)"
+                ]
+            }
         ],
         "Description": "Gain a free skill specialty in one field every time you grow in Wyrd. Developing other skills may cost more.",
         "Book": "ER 15"
@@ -730,10 +1103,34 @@ export const entitlementRestrictedMeritsData = [
         "LongDescription": [
             "This Merit allows the character to begin play with a talen or a fetish. Any supernatural character, including characters with both major and minor supernatural templates can use this fetish, but ordinary mortals cannot. Non-werewolves cannot begin play with a fetish rated higher than ••, however. One dot of this Merit indicates that the changeling owns a talen, two dots translates to a one-dot fetish and three dots means the character owns a two-dot fetish. The werewolf must then instruct the character in using the fetish since non-werewolves cannot activate the fetish normally. The character must enact the spirit’s ban in order to gain the fetish’s benefits.",
             "In order to use a fetish, the character must enact the spirit’s ban, which can be as simple as sprinkling some salt on the fetish or as complex as reciting a phrase in the werewolf language. The player then rolls Resolve + Occult.",
-            "<b>Dramatic Failure:</b> The spirit wrenches itself free of the fetish, which is promptly rendered useless. The spirit is hostile to the character, but doesn’t necessarily attack. The spirit might well alert other, more dangerous, beings to the character’s presence, depending on how well the character has treated the spirit.",
-            "<b>Failure:</b> The character performs the ban incorrectly and the fetish doesn’t work. Any subsequent attempts to activate it during the same scene incur a cumulative –1 penalty.",
-            "<b>Success:</b> The fetish works as described.",
-            "<b>Exceptional Success:</b> The spirit in the fetish looks favorably on the character. The next attempt to activate it receives a +1 bonus."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Dramatic Failure:" },
+                    " The spirit wrenches itself free of the fetish, which is promptly rendered useless. The spirit is hostile to the character, but doesn’t necessarily attack. The spirit might well alert other, more dangerous, beings to the character’s presence, depending on how well the character has treated the spirit."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Failure:" },
+                    " The character performs the ban incorrectly and the fetish doesn’t work. Any subsequent attempts to activate it during the same scene incur a cumulative –1 penalty."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Success:" },
+                    " The fetish works as described."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Exceptional Success:" },
+                    " The spirit in the fetish looks favorably on the character. The next attempt to activate it receives a +1 bonus."
+                ]
+            }
         ],
         "Description": "Begin play with a talen or fetish. Must be instructed on the usage by a Werewolf. List of Talens and Fetishs.",
         "Book": "LoS 150"
@@ -744,8 +1141,20 @@ export const milestoneMeritsData = [
     {
         "Name": "Bloodied Ground",
         "LongDescription": [
-            "<b>Circumstance:</b> The changeling must kill his fetch on the “human” side of an open gateway to the Hedge. Both the Hedge and the mortal world must be visible to the changeling when the fetch dies.",
-            "<b>Effect:</b> The site where the fetch died becomes a special, even sacred, place for the changeling. Whenever the changeling is in the Hedge and trying to find his way out, he can picture that spot and instinctively find his way to it. The player receives a +3 to Hedge navigation rolls to find the place where the fetch died (see p. 219 of Changeling: The Lost)."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Circumstance:" },
+                    " The changeling must kill his fetch on the “human” side of an open gateway to the Hedge. Both the Hedge and the mortal world must be visible to the changeling when the fetch dies."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The site where the fetch died becomes a special, even sacred, place for the changeling. Whenever the changeling is in the Hedge and trying to find his way out, he can picture that spot and instinctively find his way to it. The player receives a +3 to Hedge navigation rolls to find the place where the fetch died (see p. 219 of Changeling: The Lost)."
+                ]
+            }
         ],
         "Description": "The milestone is achieved with no witnesses, even animals. Receive an item that lets you play the part of the fetch. Can be stolen and used to impersonate the Changeling.",
         "Book": "AN p. 103",
@@ -764,9 +1173,27 @@ export const milestoneMeritsData = [
     {
         "Name": "Cuckoo's Egg",
         "LongDescription": [
-            "<b>Circumstance:</b> The changeling kills his own fetch with absolutely no witnesses, including animals. The character must then carry a piece of the fetch with him at all times to retain this Merit.",
-            "<b>Effect:</b> The character can step into the fetch’s life more easily with this Merit. Any rolls made to recall details about the fetch’s life, recognize people close to the fetch or otherwise behave as the fetch would receive a +3 modifier. Over time, of course, the character can gradually integrate the fetch’s life with his own goals, desires and mannerisms, but the Cuckoo’s Egg (as the piece of fetch-matter is called, regardless of what form it actually takes) makes this transition much easier.",
-            "<b>Drawback:</b> Other changelings, Mirrorskins especially, prize Cuckoo’s Eggs because any changeling possessing the Egg enjoys the benefit. A rival might steal the Egg and try to take over the changeling’s identity, even for a short while."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Circumstance:" },
+                    " The changeling kills his own fetch with absolutely no witnesses, including animals. The character must then carry a piece of the fetch with him at all times to retain this Merit."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The character can step into the fetch’s life more easily with this Merit. Any rolls made to recall details about the fetch’s life, recognize people close to the fetch or otherwise behave as the fetch would receive a +3 modifier. Over time, of course, the character can gradually integrate the fetch’s life with his own goals, desires and mannerisms, but the Cuckoo’s Egg (as the piece of fetch-matter is called, regardless of what form it actually takes) makes this transition much easier."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Other changelings, Mirrorskins especially, prize Cuckoo’s Eggs because any changeling possessing the Egg enjoys the benefit. A rival might steal the Egg and try to take over the changeling’s identity, even for a short while."
+                ]
+            }
         ],
         "Description": "The milestone is achieved with no witnesses, even animals. Receive an item that lets you play the part of the fetch. Can be stolen and used to impersonate the Changeling.",
         "Book": "AN p. 103",
@@ -783,12 +1210,48 @@ export const milestoneMeritsData = [
     {
         "Name": "Fetchbane",
         "LongDescription": [
-            "<b>Circumstance:</b> The changeling kills his fetch with a weapon. He might stab his fetch to death with a sword, throttle it with a rope, beat it with a club or even shoot it with a bow or a gun. The changeling must kill the fetch that weapon alone, though; he can’t shoot the fetch and then slit its throat as it lies bleeding. Cold iron weapons cannot become fetch-banes.",
-            "<b>Effect:</b> The weapon used to kill the fetch becomes a token called a fetch-bane. When activated, the weapon’s damage either becomes lethal (if it is normally bashing) or increases by two (if it is normally lethal).",
-            "<b>Action:</b> Reflexive",
-            "<b>Mien:</b> The weapon shows evidence of the killing committed with it. A knife or cudgel drips with blood, a rope smells of chafed flesh and a gun smokes.",
-            "<b>Drawback:</b> A fetch-bane cannot be used in self-defense. If a character attempts to use a fetch-bane in a fight in which he is not the aggressor in a fight, the fetch-bane turns in his hands, imposing a –3 penalty on all attempts to use it.",
-            "<b>Catch:</b> The character must start a fight with someone that he knows personally within the next 24 hours. The fight must be physical, unprovoked and without warning (i.e., the character cannot say to a member of his motley, “I have to punch you now, please punch me back once and we’ll call it a day”). If the character does not do so within 24 hours of using the fetch-bane, the weapon leaps into the character’s hand and attacks the nearest person (the character makes a normal attack roll against the victim, and must deal with the consequences)."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Circumstance:" },
+                    " The changeling kills his fetch with a weapon. He might stab his fetch to death with a sword, throttle it with a rope, beat it with a club or even shoot it with a bow or a gun. The changeling must kill the fetch that weapon alone, though; he can’t shoot the fetch and then slit its throat as it lies bleeding. Cold iron weapons cannot become fetch-banes."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The weapon used to kill the fetch becomes a token called a fetch-bane. When activated, the weapon’s damage either becomes lethal (if it is normally bashing) or increases by two (if it is normally lethal)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Action:" },
+                    " Reflexive"
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Mien:" },
+                    " The weapon shows evidence of the killing committed with it. A knife or cudgel drips with blood, a rope smells of chafed flesh and a gun smokes."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " A fetch-bane cannot be used in self-defense. If a character attempts to use a fetch-bane in a fight in which he is not the aggressor in a fight, the fetch-bane turns in his hands, imposing a –3 penalty on all attempts to use it."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Catch:" },
+                    " The character must start a fight with someone that he knows personally within the next 24 hours. The fight must be physical, unprovoked and without warning (i.e., the character cannot say to a member of his motley, “I have to punch you now, please punch me back once and we’ll call it a day”). If the character does not do so within 24 hours of using the fetch-bane, the weapon leaps into the character’s hand and attacks the nearest person (the character makes a normal attack roll against the victim, and must deal with the consequences)."
+                ]
+            }
         ],
         "Description": "The milestone is achieved with a single weapon not made of Cold Iron. The weapon does lethal damage (Or +2 if lethal) when infused with Glamour. Take penalties for using it in self-defense.",
         "Book": "AN p. 103",
@@ -796,8 +1259,20 @@ export const milestoneMeritsData = [
     {
         "Name": "Shared Guilt",
         "LongDescription": [
-            "<b>Circumstance:</b> The changeling’s motley must assist him in killing the fetch. Each character must inflict at least one point of damage on the fetch before it dies.",
-            "<b>Effect:</b> Because of the changeling’s motley’s help, he knows that the “version” of him that died was the fetch, and that the fetch was false. Each member of the motley must check for degeneration as usual, but as long as one member of troupe succeeds on the roll, none of the changelings loses Clarity. If all of the rolls fail, the breaking point is handled normally (roll Clarity to determine if a derangement surfaces, etc.).",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Circumstance:" },
+                    " The changeling’s motley must assist him in killing the fetch. Each character must inflict at least one point of damage on the fetch before it dies."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Because of the changeling’s motley’s help, he knows that the “version” of him that died was the fetch, and that the fetch was false. Each member of the motley must check for degeneration as usual, but as long as one member of troupe succeeds on the roll, none of the changelings loses Clarity. If all of the rolls fail, the breaking point is handled normally (roll Clarity to determine if a derangement surfaces, etc.)."
+                ]
+            },
             "Thereafter, once per story, the motley can invoke the Shared Guilt Merit. This requires that all members of the motley who participated in the slaughter of the fetch have undergone or witnessed the same breaking point. The degeneration roll is handled in the same way — all of the players make the roll, and as long as someone succeeds, everyone succeeds.",
             "Example: Jack Tallow and his motley track down and confront his embittered fetch, Randall Vey (see p. 254 of Changeling: The Lost). They surround the fetch and stab it to death, each member inflicting one wound. All of the players roll three dice for the breaking point of killing a fetch, but as long as one player succeeds, the others do as well. Later in the chronicle, the motley enters the dream of a human rival, and one of Jack’s compatriots goes a little wild, poisoning his dreams and bringing him to harm. Since the entire motley was present, they can choose to invoke the Shared Guilt Merit — all of the players roll two dice, and as long as one succeeds, no one loses Clarity or has to check for a derangement.",
             "Invoking Shared Guilt requires unanimous consent from the motley (and the troupe). If the motley feels that the changeling who reached the breaking point acted on his own and that they could not have stopped him, they are quite justified in refusing to take the risk of losing their own Clarity for his sake."
@@ -818,10 +1293,33 @@ export const fateMeritsData = [
         "Effect": "Once per story, after being tricked, spend a glamour to gain a significant advantage.",
         "Drawback": "Using the advantage runs you into an enemy, who gains access to you through said advantage.",
         "LongDescription": [
-            "<b>Effect:</b> Like Jack the Giant Killer, your character has the tendency to purchase things that no other rational individual would pay for. And like Jack, whose magic beans sprouted into a magnificent beanstalk that ascended to the heavens, your purchases usually work out. Once per story, upon being tricked or swindled (not necessarily into buying something) you may spend one point of Glamour to tweak fate. The item or swindle becomes a blessing in disguise, granting the character a significant advantage.",
-            "<b>Drawback:</b> Unfortunately, just as Jack found that his incredible beanstalk led him to man-eating giants, your character’s own luck has a tendency to sour quickly. Whenever the character uses an advantage he gained from this Merit, he invariably runs afoul of an enemy. The enemy always gains access to the character by way of the advantage.",
-            "<b>Example:</b><i> Old Lady Mudfingers out in the Hedge offers to show Kayla, a Bean Buyer, a secret trod that leads to an opulent Hollow left abandoned by the former Autumn King... for a price. Kayla, thrilled at the opportunity, ponies up a rare oddment for the old Wizened, who takes her deep into the Hedge before promptly vanishing. Now alone, Kayla begins to despair. Her player evokes this Merit and spends one point of Glamour. The Storyteller takes a short break to do some quick thinking.</i>",
-            "<i>As Kayla tries to find her way home she discovers a Thorncompass, a minor token that aids in navigating the Hedge. Unfortunately for her, it does so by directing her towards the nearest changeling. This time it just happens to be her old nemesis Cold John.</i>"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Like Jack the Giant Killer, your character has the tendency to purchase things that no other rational individual would pay for. And like Jack, whose magic beans sprouted into a magnificent beanstalk that ascended to the heavens, your purchases usually work out. Once per story, upon being tricked or swindled (not necessarily into buying something) you may spend one point of Glamour to tweak fate. The item or swindle becomes a blessing in disguise, granting the character a significant advantage."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Unfortunately, just as Jack found that his incredible beanstalk led him to man-eating giants, your character’s own luck has a tendency to sour quickly. Whenever the character uses an advantage he gained from this Merit, he invariably runs afoul of an enemy. The enemy always gains access to the character by way of the advantage."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Example:" },
+                    { type: "italic", text: " Old Lady Mudfingers out in the Hedge offers to show Kayla, a Bean Buyer, a secret trod that leads to an opulent Hollow left abandoned by the former Autumn King... for a price. Kayla, thrilled at the opportunity, ponies up a rare oddment for the old Wizened, who takes her deep into the Hedge before promptly vanishing. Now alone, Kayla begins to despair. Her player evokes this Merit and spends one point of Glamour. The Storyteller takes a short break to do some quick thinking." }
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "italic", text: "As Kayla tries to find her way home she discovers a Thorncompass, a minor token that aids in navigating the Hedge. Unfortunately for her, it does so by directing her towards the nearest changeling. This time it just happens to be her old nemesis Cold John." }
+                ]
+            }
         ],
         "Book": "SaD 89",
     },
@@ -831,9 +1329,28 @@ export const fateMeritsData = [
         "Effect": "Do an instant Action to turn trash into something valuable.",
         "Drawback": "Every time something is created using this method, the Fatebound loses something of equal value.",
         "LongDescription": [
-            "<b>Effect:</b> Unlike the spinner from Rumpelstiltskin, you actually have a knack for turning useless dross into something special or valuable. You may spend one point of Glamour to turn garbage or junkinto something of value. This item must be something that could conceivably be created fromthe raw material, but it inevitably comes out more impressive than anyone would expect from what went into it. The player rolls Dexterity + Crafts as an Instant action. The finished product either provides an equipment bonus equal to the number of successes rolled or can be sold or traded as an item with a Resources value equal to the successes rolled. Note that a character that rolls no successes still creates an item, but that it is not of high enough quality to grant a bonus or be sold for significant profit.",
-            "<b>Drawback:</b> Unfortunately, every time a character uses this ability, fate ensures that she loses some-thing important to her of equivalent value to the item constructed (though not necessarily in monetary terms). It may be a favored weapon or a family heirloom, but it can just as easily be a firstborn child or close friend.",
-            "<b>Example:</b> <i>Casper, a Cloistered Spinner, finds himself jailed in a moldering basement by the dominant Summer Court. Glancing around, he notices the space is filled with dust and cobwebs. Casper’s player spends one point of Glamour and rolls Dexterity + Crafts, garnering 2 successes. Gathering the dross, Casper twines it together into a surprisingly strong rope (with an equipment bonus of 3). He uses the rope to escape through the nearby window. When the Summer Knights find that Casper has escaped, they become infuriated. They know he has a sister he cares for, so they hunt her down, throwing her into the same cell her brother lately inhabited. His sister’s freedom has been traded for his.</i>"
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Unlike the spinner from Rumpelstiltskin, you actually have a knack for turning useless dross into something special or valuable. You may spend one point of Glamour to turn garbage or junkinto something of value. This item must be something that could conceivably be created fromthe raw material, but it inevitably comes out more impressive than anyone would expect from what went into it. The player rolls Dexterity + Crafts as an Instant action. The finished product either provides an equipment bonus equal to the number of successes rolled or can be sold or traded as an item with a Resources value equal to the successes rolled. Note that a character that rolls no successes still creates an item, but that it is not of high enough quality to grant a bonus or be sold for significant profit."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Unfortunately, every time a character uses this ability, fate ensures that she loses some-thing important to her of equivalent value to the item constructed (though not necessarily in monetary terms). It may be a favored weapon or a family heirloom, but it can just as easily be a firstborn child or close friend."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Example:" },
+                    " ",
+                    { type: "italic", text: "Casper, a Cloistered Spinner, finds himself jailed in a moldering basement by the dominant Summer Court. Glancing around, he notices the space is filled with dust and cobwebs. Casper’s player spends one point of Glamour and rolls Dexterity + Crafts, garnering 2 successes. Gathering the dross, Casper twines it together into a surprisingly strong rope (with an equipment bonus of 3). He uses the rope to escape through the nearby window. When the Summer Knights find that Casper has escaped, they become infuriated. They know he has a sister he cares for, so they hunt her down, throwing her into the same cell her brother lately inhabited. His sister’s freedom has been traded for his." }
+                ]
+            }
         ],
         "Book": "SaD 90",
     },
@@ -843,8 +1360,20 @@ export const fateMeritsData = [
         "Effect": "Gain some knowledge of circumstance when forcibly seperated from your lover, and your lover escapes.",
         "Drawback": "Lose all social 10-Again rolls when with your lover.",
         "LongDescription": [
-            "<b>Effect:</b> The character has a lover from whom the world conspires to keep him separated. Only fate protects the union. Once per story, the character may spend a point of Glamour when forcibly separated from his love. Fate conspires with the character to reunite him with his lover, regardless of circumstance. He gains some bit of knowledge or insight into the whereabouts of his lover, and his lover finds some method to escape her own circumstances. This Merit does not automatically deliver the characters into one another’s arms; it simply paves the way with a hint and a minor twist of good fortune.",
-            "<b>Drawback:</b> The world conspires against the lovers out of jealousy for their relationship. Both characters lose the 10-again rule on all social dice pools when together, partly due to their absorption with one another and partly due to the annoyance it inspires in others."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The character has a lover from whom the world conspires to keep him separated. Only fate protects the union. Once per story, the character may spend a point of Glamour when forcibly separated from his love. Fate conspires with the character to reunite him with his lover, regardless of circumstance. He gains some bit of knowledge or insight into the whereabouts of his lover, and his lover finds some method to escape her own circumstances. This Merit does not automatically deliver the characters into one another’s arms; it simply paves the way with a hint and a minor twist of good fortune."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The world conspires against the lovers out of jealousy for their relationship. Both characters lose the 10-again rule on all social dice pools when together, partly due to their absorption with one another and partly due to the annoyance it inspires in others."
+                ]
+            }
         ],
         "Book": "SaD 90",
     },
@@ -854,8 +1383,20 @@ export const fateMeritsData = [
         "Effect": "Spend a Glamour whilst being cruel to a subordinate to get something that will help you in the future.",
         "Drawback": "Near the climax of the story, everything comes back to bite you in the ass.",
         "LongDescription": [
-            "<b>Effect:</b> The character has authority over an individual (possibly but not necessarily represented by the Retainer Merit), and, like Cinderella’s vicious stepsiblings, she abuses it. This abuse is not without purpose, however. Once per chapter, the character may spend one point of Glamour while being cruel to the individual she has authority over to ensure that he has some ability or item that will prove useful in overcoming the character’s obstacles. This may be as simple as possessing a skill the character lacks or as esoteric as knowing an ancient nursery rhyme that provides the clue to opening an even older vault.",
-            "<b>Drawback:</b> Alas, the Evil Stepsister never prospers. Once per story (usually near the climax) the wrongs levied against the underling come back to harm the character. These abuses come back to haunt the character at the same time... usually the worst possible time. The wrongs may come in the form of an accident or may come at the hand of one of the character’s enemies."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The character has authority over an individual (possibly but not necessarily represented by the Retainer Merit), and, like Cinderella’s vicious stepsiblings, she abuses it. This abuse is not without purpose, however. Once per chapter, the character may spend one point of Glamour while being cruel to the individual she has authority over to ensure that he has some ability or item that will prove useful in overcoming the character’s obstacles. This may be as simple as possessing a skill the character lacks or as esoteric as knowing an ancient nursery rhyme that provides the clue to opening an even older vault."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Alas, the Evil Stepsister never prospers. Once per story (usually near the climax) the wrongs levied against the underling come back to harm the character. These abuses come back to haunt the character at the same time... usually the worst possible time. The wrongs may come in the form of an accident or may come at the hand of one of the character’s enemies."
+                ]
+            }
         ],
         "Book": "SaD 90",
     },
@@ -865,8 +1406,20 @@ export const fateMeritsData = [
         "Effect": "You are loved by almost all the courts, and receive a bonus for dealing with non-fae.",
         "Drawback": "Opposing Court hates the Fair Prince, to the point of plotting assassination.",
         "LongDescription": [
-            "<b>Effect:</b> The Fair Prince is beloved by his people. He is charming, gallant and brave (if a Spring Courtier), strong and courageous (Summer), brilliant and intense (Autumn) or quiet and manipulative (Winter). Thoroughly beloved, he gains a bonus of 2 dice on all social rolls with members of his Court and 1 die with changelings of other Courts. Furthermore, his charming personality affects his interactions with non-fae: Persuasion rolls against non-fae benefit from the 9-again rule.",
-            "<b>Drawback:</b> The Fair Prince is the very symbol of his Court. Unfortunately, that makes him the antithesis of another Court. Members of this other Court loathe the character, hinder him whenever possible, and may make plans to dispatch him (if they can do so without getting caught for murdering a popular figure). The character does not benefit from the above social bonuses with members of that Court, and may never gain the Court Goodwill Merit with that Court. Use of that Court’s Contracts by the hated character may inspire members of the offended Court to violence.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The Fair Prince is beloved by his people. He is charming, gallant and brave (if a Spring Courtier), strong and courageous (Summer), brilliant and intense (Autumn) or quiet and manipulative (Winter). Thoroughly beloved, he gains a bonus of 2 dice on all social rolls with members of his Court and 1 die with changelings of other Courts. Furthermore, his charming personality affects his interactions with non-fae: Persuasion rolls against non-fae benefit from the 9-again rule."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The Fair Prince is the very symbol of his Court. Unfortunately, that makes him the antithesis of another Court. Members of this other Court loathe the character, hinder him whenever possible, and may make plans to dispatch him (if they can do so without getting caught for murdering a popular figure). The character does not benefit from the above social bonuses with members of that Court, and may never gain the Court Goodwill Merit with that Court. Use of that Court’s Contracts by the hated character may inspire members of the offended Court to violence."
+                ]
+            },
             "The offended Court is determined by the character’s Court. Spring opposes Autumn, Summer opposes Winter, and Dawn opposes Dusk (and vice versa in all cases)."
         ],
         "Book": "SaD 91",
@@ -877,8 +1430,20 @@ export const fateMeritsData = [
         "Effect": "When at full health, all Social Merits act as though you have them twice over (Not doubled).",
         "Drawback": "A Court member dying causes one lethal damage, and inability to maintain rule or insurrection in your kingdom loses benefits, and causes wound penalties",
         "LongDescription": [
-            "<b>Effect:</b> Like the wounded monarch of myth, the character has become closely tied to that which he rules. As the King prospers, so does his land. When the character holds power, the strength of his body determines the strength of his reign. So long as the character has not suffered a lethal or aggravated wound, his Social Merits function at twice their usual potency (if applicable). This doesn’t mean that a Fisher King with Resources 2 has the equivalent of Resources 4, but rather that he has Resources 2 twice over (and thus can afford twice as much equipment). Similarly, a Retainer 3 does not become a superhuman Retainer 6, but rather can accomplish the work of 2 three-dot retainers. Allies are willing to do twice as much and Contacts uncover double the usual amount of information. If the character loses a single Health Level to damage worse than bashing, he loses these benefits until he heals the damage.",
-            "<b>Drawback:</b> As the land withers, so does the King. A Fisher King suffers one lethal Health Level of damage whenever a member of his Court dies. Furthermore, a Fisher King who fails to maintain a strong rule or whose rule is divided by insurrection finds his orders ineffectual and his own body wracked with pain. Not only does he lose the benefits listed above, but he suffers wound penalties based on the extent of the unrest under his rule. These penalties do not stack with usual wound penalties, and neither do they fade until the King has resolved whatever issues plague his rule. Iron Stamina does not reduce these penalties.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Like the wounded monarch of myth, the character has become closely tied to that which he rules. As the King prospers, so does his land. When the character holds power, the strength of his body determines the strength of his reign. So long as the character has not suffered a lethal or aggravated wound, his Social Merits function at twice their usual potency (if applicable). This doesn’t mean that a Fisher King with Resources 2 has the equivalent of Resources 4, but rather that he has Resources 2 twice over (and thus can afford twice as much equipment). Similarly, a Retainer 3 does not become a superhuman Retainer 6, but rather can accomplish the work of 2 three-dot retainers. Allies are willing to do twice as much and Contacts uncover double the usual amount of information. If the character loses a single Health Level to damage worse than bashing, he loses these benefits until he heals the damage."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " As the land withers, so does the King. A Fisher King suffers one lethal Health Level of damage whenever a member of his Court dies. Furthermore, a Fisher King who fails to maintain a strong rule or whose rule is divided by insurrection finds his orders ineffectual and his own body wracked with pain. Not only does he lose the benefits listed above, but he suffers wound penalties based on the extent of the unrest under his rule. These penalties do not stack with usual wound penalties, and neither do they fade until the King has resolved whatever issues plague his rule. Iron Stamina does not reduce these penalties."
+                ]
+            },
             {
                 'Penalties': [
                     { Penalty: "-1", Situation: "General mild discontent or a small group of active and dedicated revolutionaries" },
@@ -895,8 +1460,20 @@ export const fateMeritsData = [
         "Effect": "Massive bonuses when activating a Court Contract, and a bonus when harvest a Court Emotion.",
         "Drawback": "-1 when rolling to resist gaining a derangement after losing Clarity. Every time she benefits from this merit, she gains a cumulative penalty to all actions (Except contract activation and resistance).",
         "LongDescription": [
-            "<b>Effect:</b> The Mobled Queen is wrapped in the magic of her Court, shrouded in its potent emotions as if they were vestments sewn from desire, anger, fear or sorrow. She knows those emotions like none other, her very blood inundated with their energy. The Mobled Queen gains a bonus of 4 dice to all activation rolls for Contracts that are affinity to her Court. Furthermore, she gains an additional +1 when harvesting Glamour that resonates with her Court’s representative emotion.",
-            "<b>Drawback:</b> The Mobled Queen’s pain drives her magic, but it also limits her, burning her mind with unearthly passions. She suffers a –1 penalty when rolling to resist garnering a Derangement after having lost Clarity. Furthermore, each time she benefits from this Merit in a given scene, she suffers a cumulative –1 penalty to all other actions (to a maximum of –5) from emotional distress. This penalty does not apply to Contract activation rolls or resistance rolls. The Mobled Queen may not choose not to benefit from this Merit, though she can certainly choose not to use her Court Contracts."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The Mobled Queen is wrapped in the magic of her Court, shrouded in its potent emotions as if they were vestments sewn from desire, anger, fear or sorrow. She knows those emotions like none other, her very blood inundated with their energy. The Mobled Queen gains a bonus of 4 dice to all activation rolls for Contracts that are affinity to her Court. Furthermore, she gains an additional +1 when harvesting Glamour that resonates with her Court’s representative emotion."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " The Mobled Queen’s pain drives her magic, but it also limits her, burning her mind with unearthly passions. She suffers a –1 penalty when rolling to resist garnering a Derangement after having lost Clarity. Furthermore, each time she benefits from this Merit in a given scene, she suffers a cumulative –1 penalty to all other actions (to a maximum of –5) from emotional distress. This penalty does not apply to Contract activation rolls or resistance rolls. The Mobled Queen may not choose not to benefit from this Merit, though she can certainly choose not to use her Court Contracts."
+                ]
+            }
         ],
         "Book": "SaD 91",
     },
@@ -906,8 +1483,20 @@ export const fateMeritsData = [
         "Effect": "+5 to notice traps and avoid being suprised by an adversary for a second time after.",
         "Drawback": "-2 to avoiding traps or being surprised by an adversary for the first time.",
         "LongDescription": [
-            "<b>Effect:</b> The clever monkey is no simple ass; while the donkey can be convinced to meet the lion a second time, the monkey refuses to walk knowingly back into danger. The character has a portion of the monkey’s wiles. He gains a +5 bonus on rolls to notice traps or avoid being surprised by an adversary who has attempted (successfully or not) to trap or ambush him in the past.",
-            "<b>Drawback:</b> Of course, the monkey’s cleverness comes from experience. The character suffers a –2 penalty on all rolls to notice traps or avoid being surprised the first time a given adversary attempts to trap or ambush him."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The clever monkey is no simple ass; while the donkey can be convinced to meet the lion a second time, the monkey refuses to walk knowingly back into danger. The character has a portion of the monkey’s wiles. He gains a +5 bonus on rolls to notice traps or avoid being surprised by an adversary who has attempted (successfully or not) to trap or ambush him in the past."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Of course, the monkey’s cleverness comes from experience. The character suffers a –2 penalty on all rolls to notice traps or avoid being surprised the first time a given adversary attempts to trap or ambush him."
+                ]
+            }
         ],
         "Book": "SaD 91",
     },
@@ -917,9 +1506,21 @@ export const fateMeritsData = [
         "Effect": "Get extra dice when dealing with your enemy, as well as other bonuses.",
         "Drawback": "Enemy receives same benefits.",
         "LongDescription": [
-            "<b>Effect:</b> Sometimes the Wyrd ties two individuals together in a bond of enmity, driving them to strike at one another time and time again, until one or both are left broken and bloody on the cracked asphalt. Your character has established just such a bond with another changeling of similar power. Fate paves the way for you to clash with your hated opponent, and you gain three phantom dice each chapter that you can apply to any roll directly related to finding and confronting your enemy (though not to any roll against the enemy herself). These dice can be applied together on one roll, separately on three different rolls or split two and one. They can even be applied to combat if, for example, your character is fighting the enemy’s guards.",
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " Sometimes the Wyrd ties two individuals together in a bond of enmity, driving them to strike at one another time and time again, until one or both are left broken and bloody on the cracked asphalt. Your character has established just such a bond with another changeling of similar power. Fate paves the way for you to clash with your hated opponent, and you gain three phantom dice each chapter that you can apply to any roll directly related to finding and confronting your enemy (though not to any roll against the enemy herself). These dice can be applied together on one roll, separately on three different rolls or split two and one. They can even be applied to combat if, for example, your character is fighting the enemy’s guards."
+                ]
+            },
             "When you actually face your enemy, fate guards you and empowers you. You barely duck fatal blows and your own swings strike with legendary precision. You gain +1 Defense from your enemy’s attacks and +2 to all attack rolls against her.",
-            "<b>Drawback:</b> Just as you are bound to your enemy, so is he bound to you. He gains the exact same advantages as you do, but his are directed towards killing you, making him quite the enemy indeed. If you ever kill your enemy, you regain any spent Willpower. You lose the Merit, however."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Just as you are bound to your enemy, so is he bound to you. He gains the exact same advantages as you do, but his are directed towards killing you, making him quite the enemy indeed. If you ever kill your enemy, you regain any spent Willpower. You lose the Merit, however."
+                ]
+            }
         ],
         "Book": "SaD 92",
     },
@@ -929,8 +1530,20 @@ export const fateMeritsData = [
         "Effect": "Spending a Willpower point when working to protect or save your love is an automatic success and regain a point of Willpower per scene spent protecting her.",
         "Drawback": "The lover is constantly being targeted for abduction. When this happens, -2 on all rolls not directly related to rescuing the lover",
         "LongDescription": [
-            "<b>Effect:</b> The Wyrd also binds fates of lovers together, but tests that love constantly with every imaginable hardship. Your character has a true love — she need not be a changeling or love the character in return but must be something capable of sharing the love — and his need for her is so desperate that it has been imprinted on fate. When working to protect or save his love, the character gains a single automatic success when spending Willpower on a roll rather than the usual three dice bonus. Furthermore he regains one spent point of Willpower in any scene in which he directly protects her from danger.",
-            "<b>Drawback:</b> Unfortunately, the character’s true love gets the bad end of the deal. She is often in danger, regularly targeted by the denizens of the World of Darkness, perhaps because the character cares about her, perhaps for some other ineffable reason. When the love is in trouble, the character suffers a –2 distraction penalty to all actions that don’t directly relate to saving her. If the love ever dies, the character loses the Merit."
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Effect:" },
+                    " The Wyrd also binds fates of lovers together, but tests that love constantly with every imaginable hardship. Your character has a true love — she need not be a changeling or love the character in return but must be something capable of sharing the love — and his need for her is so desperate that it has been imprinted on fate. When working to protect or save his love, the character gains a single automatic success when spending Willpower on a roll rather than the usual three dice bonus. Furthermore he regains one spent point of Willpower in any scene in which he directly protects her from danger."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    { type: "bold", text: "Drawback:" },
+                    " Unfortunately, the character’s true love gets the bad end of the deal. She is often in danger, regularly targeted by the denizens of the World of Darkness, perhaps because the character cares about her, perhaps for some other ineffable reason. When the love is in trouble, the character suffers a –2 distraction penalty to all actions that don’t directly relate to saving her. If the love ever dies, the character loses the Merit."
+                ]
+            }
         ],
         "Book": "SaD 92",
     }

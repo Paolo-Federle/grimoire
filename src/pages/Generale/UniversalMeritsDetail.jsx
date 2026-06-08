@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookLink } from '../../components/BookLink';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function UniversalMeritsDetail(props) {
     const matchedMerit = props.merits
@@ -11,11 +12,7 @@ export default function UniversalMeritsDetail(props) {
                         {matchedMerit.Prerequisites && (<div><b>Prerequisites:</b> {matchedMerit.Prerequisites}</div>)}
                         {matchedMerit.LongDescription && (
                             <div style={{ paddingBottom: "20px" }}>
-                                {matchedMerit.LongDescription.map((desc, index) => (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: desc }} />
-                                    </p>
-                                ))}
+                                <ContentBlockList content={matchedMerit.LongDescription} />
                             </div>
                         )}
                         {matchedMerit.Book && (<div><b>Book:</b> {BookLink(matchedMerit.Book)}</div>)}

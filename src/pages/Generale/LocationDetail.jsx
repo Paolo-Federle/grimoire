@@ -1,6 +1,6 @@
 import React from 'react';
-import BaseTable from '../../components/BaseTable';
 import { BookLink } from '../../components/BookLink';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function LocationDetail(props) {
     const matchedLocation = props.location
@@ -14,27 +14,7 @@ export default function LocationDetail(props) {
                         </h1>
                         {matchedLocation.Prerequisites && (<div><b>Prerequisites:</b> {matchedLocation.Prerequisites}</div>)}
 
-                        {matchedLocation.LongDescription.map((item, index) => {
-                            if (typeof item !== 'object') {
-                                return (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item }} />
-                                    </p>
-                                );
-                            }
-
-                            const [title, data] = Object.entries(item)[0];
-                            const headers = Object.keys(data[0]);
-
-                            return (
-                                <BaseTable
-                                    key={index}
-                                    headers={headers}
-                                    data={data}
-                                    title={title}
-                                />
-                            );
-                        })}
+                        <ContentBlockList content={matchedLocation.LongDescription} />
                         {matchedLocation.Book && matchedLocation.Book  !== "N/A" && (<div><b>Book:</b> {BookLink(matchedLocation.Book)}</div>)}
                 </>
             )

@@ -1,6 +1,6 @@
 import React from 'react';
-import BaseTable from '../../components/BaseTable';
 import { BookLink } from '../../components/BookLink';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function DisciplinesDetail(props) {
     const matchedDiscipline = props.discipline
@@ -19,27 +19,7 @@ export default function DisciplinesDetail(props) {
 
                     {longDescription.length > 0 && (
                     <div style={{ paddingBottom: "20px" }}>
-                        {longDescription.map((item, index) => {
-                            if (typeof item !== 'object') {
-                                return (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item }} />
-                                    </p>
-                                );
-                            }
-
-                            const [title, data] = Object.entries(item)[0];
-                            const headers = Object.keys(data[0]);
-
-                            return (
-                                <BaseTable
-                                    key={index}
-                                    headers={headers}
-                                    data={data}
-                                    title={title}
-                                />
-                            );
-                        })}
+                        <ContentBlockList content={longDescription} />
                     </div>
                     )}
 
@@ -51,25 +31,7 @@ export default function DisciplinesDetail(props) {
  matchedDiscipline.RollResults.length > 0 &&
  matchedDiscipline.RollResults.some(item => item && item !== "") && (
                     <div style={{ paddingBottom: "20px", paddingTop: "20px" }}>
-                        {matchedDiscipline?.RollResults.map((item, index) => {
-                            if (typeof item !== 'object') {
-                                return (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item }} />
-                                    </p>
-                                );
-                            }
-                            const [title, data] = Object.entries(item)[0];
-                            const headers = Object.keys(data[0]);
-                            return (
-                                <BaseTable
-                                    key={index}
-                                    headers={headers}
-                                    data={data}
-                                    title={title}
-                                />
-                            );
-                        })}
+                        <ContentBlockList content={matchedDiscipline.RollResults} />
                     </div>
                     )}
                     {matchedDiscipline?.Bloodline && matchedDiscipline?.Bloodline !== "N/A" && (<div><b>Bloodline:</b> {matchedDiscipline?.Bloodline}</div>)}

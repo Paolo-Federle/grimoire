@@ -1,4 +1,4 @@
-export const UtterancesData = [
+const rawUtterancesData = [
     {
         "Name": "Awaken the Dead",
         "Tier": "Ba •",
@@ -737,7 +737,7 @@ export const UtterancesData = [
    
 ]
 
-export const GuildUtterancesData = [
+const rawGuildUtterancesData = [
 
     {
         "Name": "Bound As Fingers in a Fist",
@@ -959,7 +959,7 @@ export const GuildUtterancesData = [
    
 ]
 
-export const SpiritUtterancesData = [
+const rawSpiritUtterancesData = [
     {
         "Name": "Body of Clay",
         "Tier": "Ren •",
@@ -1026,7 +1026,7 @@ export const SpiritUtterancesData = [
     
 ]
 
-export const IronBullUtterancesData = [
+const rawIronBullUtterancesData = [
 
     {
         "Name": "Ba'al's Due",
@@ -1094,7 +1094,7 @@ export const IronBullUtterancesData = [
     
 ]
 
-export const MaatUtterancesData = [
+const rawMaatUtterancesData = [
     {
         "Name": "Ebon Mask",
         "Tier": "Ab •",
@@ -1140,7 +1140,7 @@ export const MaatUtterancesData = [
     
 ]
 
-export const WheelUtterancesData = [
+const rawWheelUtterancesData = [
     {
         "Name": "Eye of Radiance",
         "Tier": "Sheut •",
@@ -1163,3 +1163,58 @@ export const WheelUtterancesData = [
         "Book": "Soth 95"
     }
 ]
+
+function compactSharedValue(rows, key) {
+    const values = [...new Set(rows.map((row) => row[key]).filter((value) => value !== undefined && value !== ""))];
+
+    return values.length === 1 ? values[0] : values.join(", ");
+}
+
+function groupUtteranceRows(rows) {
+    const groups = [];
+    const groupByName = new Map();
+    let currentName = "";
+
+    rows.forEach((row) => {
+        const rowName = typeof row.Name === "string" ? row.Name.trim() : "";
+
+        if (rowName) {
+            currentName = rowName;
+        }
+
+        const parentName = currentName || rowName || "Unknown Utterance";
+
+        if (!groupByName.has(parentName)) {
+            const group = {
+                Name: parentName,
+                Ranks: [],
+            };
+
+            groupByName.set(parentName, group);
+            groups.push(group);
+        }
+
+        const { Name, ...rankRow } = row;
+        groupByName.get(parentName).Ranks.push(rankRow);
+    });
+
+    return groups.map((group) => ({
+        ...group,
+        Prerequisites: compactSharedValue(group.Ranks, "Prerequisites"),
+        Book: compactSharedValue(group.Ranks, "Book"),
+    }));
+}
+
+export const UtterancesFlatData = rawUtterancesData;
+export const GuildUtterancesFlatData = rawGuildUtterancesData;
+export const SpiritUtterancesFlatData = rawSpiritUtterancesData;
+export const IronBullUtterancesFlatData = rawIronBullUtterancesData;
+export const MaatUtterancesFlatData = rawMaatUtterancesData;
+export const WheelUtterancesFlatData = rawWheelUtterancesData;
+
+export const UtterancesData = groupUtteranceRows(rawUtterancesData);
+export const GuildUtterancesData = groupUtteranceRows(rawGuildUtterancesData);
+export const SpiritUtterancesData = groupUtteranceRows(rawSpiritUtterancesData);
+export const IronBullUtterancesData = groupUtteranceRows(rawIronBullUtterancesData);
+export const MaatUtterancesData = groupUtteranceRows(rawMaatUtterancesData);
+export const WheelUtterancesData = groupUtteranceRows(rawWheelUtterancesData);

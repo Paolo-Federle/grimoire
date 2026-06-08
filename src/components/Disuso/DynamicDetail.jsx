@@ -1,5 +1,6 @@
 import React from 'react';
 import BaseTable from '../BaseTable';
+import { InlineContent } from '../StructuredContent';
 
 // Function to render a list, which can be either a table or HTML content
 const renderList = (key, value) => (
@@ -13,7 +14,7 @@ const renderList = (key, value) => (
                     title={Object.keys(item)[0]}
                 />
             ) : (
-                <span><b>{key}:</b> <span key={index} dangerouslySetInnerHTML={{ __html: item }} /></span>
+                <span><b>{key}:</b> <InlineContent content={item} /></span>
             )
         ))}
     </div>
@@ -22,7 +23,7 @@ const renderList = (key, value) => (
 // Function to render a simple key-value pair
 const renderSimpleKeyValue = (key, value) => (
     <div key={key}>
-        <b>{key}:</b> <span dangerouslySetInnerHTML={{ __html: value }} />
+        <b>{key}:</b> <InlineContent content={value} />
     </div>
 );
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function ImbueItemDetail(props) {
     const matchedImbuedItem = props.imbuedItem
@@ -18,11 +19,7 @@ export default function ImbueItemDetail(props) {
 
                         {matchedImbuedItem.Descrizione && (
                             <div style={{paddingBottom: "20px"}}>
-                                {matchedImbuedItem.Descrizione.map((desc, index) => (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: desc }} />
-                                    </p>
-                                ))}
+                                <ContentBlockList content={matchedImbuedItem.Descrizione} />
                             </div>
                         )}
                 </>

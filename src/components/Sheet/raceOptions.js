@@ -22,7 +22,7 @@ import { KreweTraitsData } from "../../Data/Geist/KreweTraitsData";
 import { DecreesData } from "../../Data/Mummy/DecreesData";
 import { GuildsData } from "../../Data/Mummy/GuildsData";
 import { JudgesData } from "../../Data/Mummy/JudgesData";
-import { UtterancesData } from "../../Data/Mummy/UtterancesData";
+import { UtterancesFlatData } from "../../Data/Mummy/UtterancesData";
 import { LineagesData } from "../../Data/Promethean/LineagesData";
 import { RefinementsData } from "../../Data/Promethean/RefinementsData";
 import {
@@ -186,7 +186,7 @@ export const racePowerOptions = {
   },
   mummy: {
     utterances: buildOptions(
-      UtterancesData,
+      UtterancesFlatData,
       (item) => `${item?.Name || ""} (${item?.Tier || ""})`
     ),
   },

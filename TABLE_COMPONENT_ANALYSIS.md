@@ -6,6 +6,242 @@ Create one table system that can replace most current table components while pre
 
 This is an analysis and planning file, not an implementation spec carved in stone. The main purpose is to make the next pass safer: decide which table cases should be aligned under one component, and which ones should stay intentionally special.
 
+## Updated project review: table/data/content taxonomy
+
+The current table cleanup is moving in the right direction, but the next decisions should be made by separating three concepts that look similar in the UI and are very different in data:
+
+1. **Ranked parent content**
+   - A real parent item owns ranked child rows.
+   - Examples already migrated: Vampire disciplines, Coils, Bloodline disciplines, Other disciplines, Werewolf gifts, named Changeling contract families.
+   - The preferred data shape is one parent object with a `Ranks` array.
+   - The parent may have `LongDescription`, overview fields, a detail link, favorites/search metadata, and non-visible grouping keys.
+
+2. **Arcana-like sibling table groups**
+   - The outer label is a UI/container concept, not a single parent row for all children.
+   - Inner tables are complete normal tables, often grouped by rank, level, type, or school.
+   - Examples already handled: Mage spells by Arcana; Crúac and Theban Sorcery ritual rank buckets; Changeling `unclassifiedGoblinContractData`.
+   - The preferred rendering is `TableGroup` wrapping normal `SimpleTable` instances.
+
+3. **Independent same-page tables**
+   - Multiple tables are shown on the same page because they belong to the same topic, but they do not need a shared accordion/container.
+   - Examples: many merit pools, clan/covenant splits, weapons/tools, experience tables.
+   - These should remain multiple `SimpleTable` calls unless the page becomes hard to scan or the data has a real hierarchy.
+
+This distinction matters because it prevents two bad outcomes:
+- turning visual groups into fake data parents;
+- turning real parent content into loose page-level table buckets that cannot be searched, linked, or favorited cleanly.
+
+## Updated ranked-data candidates
+
+These should be considered part of the same family as disciplines/gifts/contracts, not as `mergeHeaders` display quirks.
+
+### Mummy Utterances
+
+Files:
+- `src/Data/Mummy/UtterancesData.jsx`
+- `src/pages/Mummy/Utterances.jsx`
+
+Current page rendering:
+- Several `SimpleTable` instances still use `mergeHeaders`, for example `Name`, `Book`, and sometimes `Prerequisites`.
+- This is effectively an old row-span solution for parent/child data.
+
+Recommended direction:
+- Convert each utterance family into a parent object:
+
+```js
+{
+  Name: "Awaken the Dead",
+  Book: "MTC 113",
+  Ranks: [
+    {
+      Tier: "Ba •",
+      Descriptors: "",
+      Summary: "Force a touched corpse to truthfully share knowledge it had in life.",
+      Book: "MTC 113"
+    },
+    {
+      Tier: "Sheut •••",
+      Descriptors: "",
+      Summary: "Animates a corpse into a murderous zombie.",
+      Book: "MTC 113"
+    }
+  ]
+}
+```
+
+Notes:
+- `Tier` should probably remain `Tier`, not be forced into `Rank`, because it carries both Pillar/Decree and dot value.
+- `Prerequisites` may live on the parent when identical for all tiers, or on child rows when it differs.
+- `Book` can live on the parent when identical, but child rows should keep their own `Book` if it differs or is missing in old data.
+- The page can keep the current pools (`General`, `Guild`, `Spirit`, `Granted by...`) as separate `SimpleTable` sections unless they need an outer `TableGroup`.
+
+Applied migration:
+- `src/Data/Mummy/UtterancesData.jsx` now exports ranked parent/child utterance pools.
+- Flat exports such as `UtterancesFlatData` preserve the old row shape for consumers that still need individual tier rows, such as the sheet options.
+- `src/pages/Mummy/Utterances.jsx` now renders these pools through ranked `SimpleTable` instead of `mergeHeaders`.
+
+### MummiesStyleMeritsData
+
+Files:
+- `src/Data/Mummy/MummiesMeritsData.jsx`
+- `src/pages/Mummy/MummyMerits.jsx`
+
+Current shape:
+- Repeated rows for `Disciple of the Wheel`, one per rank.
+- The page uses `mergeHeaders={["Name", "Book"]}`.
+
+Recommended direction:
+- Convert to one parent merit with ranked benefits:
+
+```js
+{
+  Name: "Disciple of the Wheel",
+  Book: "Soth 95",
+  Ranks: [
+    { Rank: "•", Description: "Equivalent to the effects of Guild Status at the same dot Rank, among the Disciples." },
+    { Rank: "••", Description: "May purchase proprietary Utterances." }
+  ]
+}
+```
+
+Notes:
+- This should use the same ranked rendering as disciplines.
+- If more style merits are added later, each merit becomes one parent object.
+- Once this is migrated, `mergeHeaders` becomes much less necessary and can be treated as legacy support.
+
+Applied migration:
+- `src/Data/Mummy/MummiesMeritsData.jsx` now exports `MummiesStyleMeritsData` as parent merits with ranked benefits in `Ranks`.
+- `MummiesStyleMeritsFlatData` preserves the old flat rows if a future consumer needs them.
+- `src/pages/Mummy/MummyMerits.jsx` now renders Mummy style merits through ranked `SimpleTable`.
+
+## Updated Arcana-like candidates
+
+These are candidates for the `TableGroup` pattern used on `/mage/spells`: an outer container that visually/behaviorally owns several sibling `SimpleTable` instances, without pretending the outer container is a parent row in the data.
+
+### Strong candidates
+
+- `src/pages/Promethean/Transmutations.jsx`
+  - Many transmutation class tables are rendered one after another.
+  - The data already includes a `Class` field, but the page removes it with `.map(({ Class, ...r }) => r)`.
+  - This is structurally close to Arcana: a single power system split into class buckets.
+  - Recommended: build a `TRANSMUTATION_SETS` array and render it through `TableGroup title="Transmutations"` or one `TableGroup` per higher-level grouping if future content requires it.
+
+- `src/pages/Hunter/Endowments.jsx`
+  - Many endowment systems are shown as sibling tables.
+  - Some consecutive tables intentionally omit a title (`teleinformaticsInvestigationData`, `teleinformaticsResearchData`, `gospelOfAmonData`, `gospelOfBelethData`) because they visually continue the previous section.
+  - This is a good candidate for `TableGroup` with named sub-sections, especially:
+    - `Teleinformatics` containing Interview, Investigation, Research;
+    - `Goetic Gospel` containing Agares, Amon, Beleth;
+    - the remaining endowment types as sibling sections.
+  - This would remove implicit visual continuation from the page and make grouping explicit.
+
+- `src/pages/Mummy/Affinities.jsx`
+  - The page already has a manual `h1` label `Pillar affinities`, followed by tables for `Ab`, `Ba`, `Ka`, `Ren`, `Sheut`, then `Guild`, `Miscellaneous`, `Bane`.
+  - This should likely become:
+    - `TableGroup title="Pillar Affinities"` for Ab/Ba/Ka/Ren/Sheut;
+    - optional separate `TableGroup` or normal tables for Guild/Miscellaneous/Bane depending on whether they are conceptually peer groups or extra categories.
+
+- `src/pages/Geist/Memento.jsx`
+  - Charms, Vanitas, Fetters, Deathmasks, and Memorabilia are a ranked taxonomy of memento types.
+  - This is not parent/children ranked data; each table is a type/rank bucket.
+  - Candidate for a `TableGroup title="Mementos"` if the page feels like a stack of disconnected titles.
+
+### Medium candidates
+
+- `src/pages/Mummy/Judges.jsx`
+  - One general Judges table plus Ab/Ba/Ka/Ren/Sheut tables.
+  - Possible `TableGroup title="Judges by Pillar"` for the pillar-specific tables.
+  - The general Judges table should probably remain outside the group.
+
+- `src/pages/Mummy/Relic.jsx`
+  - Multiple relic type tables.
+  - Could be grouped under `TableGroup title="Relics"` if the page needs visual hierarchy, but the current split may already be understandable.
+
+- `src/pages/Generale/UniversalMerits.jsx`
+  - Mental/Physical/Social/Supernatural tables are category buckets.
+  - This is Arcana-like structurally, but probably does not need `TableGroup`; the categories are already the main page content and not nested inside a larger parent concept.
+
+### Not currently good Arcana-like candidates
+
+- `src/pages/Vampire/Clan.jsx`, `Covenant.jsx`, `Bloodline.jsx`, `Changeling/Kith.jsx`, `Changeling/Court.jsx`
+  - These are mostly data pools split to avoid fake visual divider rows.
+  - They should remain simple separate tables unless a real outer category improves UX.
+
+- `src/pages/MortalsAndTemplates/Tools.jsx`, `Weapon.jsx`, `Vehicle.jsx`
+  - These are same-page utility pools, not hierarchical grouped content.
+
+- `src/pages/Promethean/Manifestation.jsx`
+  - This remains intentionally special because it combines two values and has a custom interaction model.
+
+## Updated `dangerouslySetInnerHTML` strategy
+
+`dangerouslySetInnerHTML` should not be removed everywhere at once. In many detail pages it exists for a real reason: older data fields contain HTML fragments that must be rendered, not shown as plain text.
+
+The goal is not to remove every `dangerouslySetInnerHTML` mechanically. The goal is to reduce the places where raw HTML rendering is needed by moving renderable content toward shared renderers:
+- `InlineContent` for inline HTML-like formatting that can be represented as React nodes;
+- `StructuredContent` for paragraphs, headings, lists, tables, and table references;
+- direct `dangerouslySetInnerHTML` only as a compatibility fallback for legacy structural HTML that has not been migrated yet.
+
+The safe cleanup path is to classify each use by why it exists.
+
+### Replaceable now with `InlineContent`
+
+Use `InlineContent` when the field is simple text that may contain only inline tags such as `<b>`, `<strong>`, `<i>`, `<em>`, or `<br>`. This preserves the visible formatting without exposing each detail page directly to raw HTML injection.
+
+Good candidates:
+- `src/pages/Vampire/DisciplinesDetail.jsx`
+- `src/pages/Changeling/ContractsDetail.jsx`
+- `src/pages/Changeling/ChangelingMeritsDetail.jsx`
+- `src/pages/Changeling/GoblinFruitsDetail.jsx`
+- `src/pages/Generale/UniversalMeritsDetail.jsx`
+- `src/pages/Generale/DerangementsDetail.jsx`
+- `src/pages/Generale/LocationDetail.jsx`
+- `src/pages/Hunter/DreadPowersDetail.jsx`
+- `src/pages/Mage/MageMeritsDetail.jsx`
+- `src/pages/Mage/ArtifactDetail.jsx`
+- `src/pages/Mage/ImbuedItemsDetail.jsx`
+- `src/pages/Spirit/NuminaDetail.jsx`
+
+These pages often map arrays of strings and wrap each string in a paragraph. If those strings are only inline-rich text, `InlineContent` is enough and avoids direct HTML injection in the page component. If a given field contains block-level HTML, it should stay on the legacy path until the data is migrated.
+
+### Replaceable after data migration to `StructuredContent`
+
+Use `StructuredContent` when the field contains actual block structure: headings, lists, tables, paragraphs, embedded table placeholders, or mixed structured pieces.
+
+Strong candidates:
+- `src/pages/Mage/LegacyDetail.jsx`
+  - It currently has many individual fields with structural HTML.
+  - This is probably the biggest remaining legacy rich-content detail page.
+- Detail pages for disciplines/contracts if their `LongDescription`, `FullDescription`, `RollResults`, or `FullCatch` contain object/table entries mixed with rich text.
+
+Recommended approach:
+- Do not parse arbitrary structural HTML in every detail page.
+- Convert one data family at a time to `StructuredContent` blocks.
+- Keep `StructuredContent` as the shared renderer for paragraphs, headings, lists, lines, table refs, and inline emphasis.
+
+### Still acceptable as a temporary legacy fallback
+
+- `src/components/StructuredContent.jsx` supports `type: "html"` and still contains one direct HTML fallback.
+- `src/pages/Mage/SpellDetail.jsx` still falls back to HTML when legacy strings contain structural HTML or table placeholders.
+
+This is acceptable as a compatibility bridge, but new migrations should prefer structured blocks instead of adding more raw HTML strings.
+
+### Table-specific HTML
+
+`SimpleTable` currently renders `upperText` with `dangerouslySetInnerHTML`.
+This should become either:
+- `upperContent`, rendered with `StructuredContent`/`InlineContent`; or
+- a compatibility prop where strings use `InlineContent` and structured arrays use `StructuredContent`.
+
+This would remove an HTML injection point from the table API while keeping old descriptions working.
+
+## Remaining cleanup priorities
+
+1. Normalize dot characters in migrated ranked data and fix `formatRankValue` so numeric ranks render real `•`, not mojibake.
+2. Convert obvious inline-only detail pages from `dangerouslySetInnerHTML` to `InlineContent`.
+3. Convert `Promethean/Transmutations.jsx`, `Hunter/Endowments.jsx`, and `Mummy/Affinities.jsx` to explicit `TableGroup` where it improves hierarchy.
+4. Add smoke tests for pages using ranked tables and `TableGroup`: Vampire Disciplines, Werewolf Gifts, Changeling Contracts, Mage Spells, and Mummy Utterances.
+
 ## Current scope
 
 This pass is table-focused.

@@ -1,6 +1,6 @@
 import React from 'react';
-import BaseTable from '../../components/BaseTable';
 import { BookLink } from '../../components/BookLink';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function DreadPowerDetail(props) {
     const matchedDreadPower = props.dreadPowers
@@ -15,28 +15,7 @@ export default function DreadPowerDetail(props) {
                     {matchedDreadPower.DicePool && (<div><b>Dice Pool:</b> {matchedDreadPower.DicePool}</div>)}
 
                     <div style={{ paddingBottom: "20px" }}>
-                        {matchedDreadPower.Effect.map((item, index) => {
-
-                            if (typeof item !== 'object') {
-                                return (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: item }} />
-                                    </p>
-                                );
-                            }
-
-                            const [title, data] = Object.entries(item)[0];
-                            const headers = Object.keys(data[0]);
-
-                            return (
-                                <BaseTable
-                                    key={index}
-                                    headers={headers}
-                                    data={data}
-                                    title={title}
-                                />
-                            );
-                        })}
+                        <ContentBlockList content={matchedDreadPower.Effect} />
                     </div>
                     {matchedDreadPower.Book && (<div><b>Book:</b> {BookLink(matchedDreadPower.Book)}</div>)}
                 </>

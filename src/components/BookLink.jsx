@@ -1,6 +1,6 @@
 import React from 'react';
 import { allBooks } from '../Data/BookData';
-import { getFlipHtmlPageUrlsFromSource } from '../utils';
+import { getFlipHtmlPageUrlsFromSource, normalizeDisplayText } from '../utils';
 
 export function BookLink(value) {
   const links = getFlipHtmlPageUrlsFromSource(value, allBooks);
@@ -16,10 +16,10 @@ export function BookLink(value) {
               rel="noopener noreferrer"
               className="text-blue-600 underline hover:text-blue-800 transition-colors"
             >
-              {item.text}
+              {normalizeDisplayText(item.text)}
             </a>
           ) : (
-            <span>{item.text}</span>
+            <span>{normalizeDisplayText(item.text)}</span>
           )}
           {index < links.length - 1 && <span>, </span>}
         </React.Fragment>

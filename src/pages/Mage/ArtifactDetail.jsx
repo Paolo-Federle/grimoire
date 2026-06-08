@@ -1,4 +1,5 @@
 import React from 'react';
+import ContentBlockList from '../../components/ContentBlockList';
 
 export default function ArtifactDetail(props) {
     const matchedArtifact = props.artifact
@@ -17,11 +18,7 @@ export default function ArtifactDetail(props) {
 
                         {matchedArtifact.Descrizione && (
                             <div style={{paddingBottom: "20px"}}>
-                                {matchedArtifact.Descrizione.map((desc, index) => (
-                                    <p key={index}>
-                                        <span dangerouslySetInnerHTML={{ __html: desc }} />
-                                    </p>
-                                ))}
+                                <ContentBlockList content={matchedArtifact.Descrizione} />
                             </div>
                         )}
                 </>
