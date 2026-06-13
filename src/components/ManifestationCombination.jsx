@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import FavoriteToggle from "./FavoriteToggle";
-import { getCurrentRoutePath, normalizeDisplayText } from "../utils";
+import { getCurrentRoutePath, normalizeDisplayText, slugify } from "../utils";
 import { BookLink } from "./BookLink";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
@@ -173,6 +174,7 @@ export default function ManifestationCombination({
   manifestations = [],
   keysData = [],
   manifestationKeys = [],
+  detailBasePath = "",
   title = "Manifestations / Keys",
 }) {
   const [selectedManifestationName, setSelectedManifestationName] = useState(
@@ -257,6 +259,15 @@ export default function ManifestationCombination({
           normalizeName(selectedManifestationName) &&
         normalizeName(item.Key) === normalizeName(selectedKeyName)
     ) || null;
+  const selectedDetailTitle = selectedCombination
+    ? `${selectedCombination.Manifestation} — ${selectedCombination.Key}`
+    : "";
+  const selectedDetailPath =
+    detailBasePath && selectedCombination
+      ? `${detailBasePath}/${slugify(
+          `${selectedCombination.Manifestation} ${selectedCombination.Key}`
+        )}`
+      : "";
 
   const renderDetailPanel = () => (
     <div className="flex min-h-0 min-w-0 flex-col overflow-hidden bg-[#f7f7f7]">
@@ -264,7 +275,19 @@ export default function ManifestationCombination({
         {selectedCombination ? (
           <>
             <h2 className="font-serif text-[22px] font-bold leading-tight text-[#161616] sm:text-[26px]">
+              <span className="hidden">
               {selectedCombination.Manifestation} — {selectedCombination.Key}
+              </span>
+              {selectedDetailPath ? (
+                <Link
+                  to={selectedDetailPath}
+                  className="text-blue-700 underline decoration-blue-700 decoration-1 underline-offset-4 transition-colors hover:text-blue-900 hover:decoration-blue-900"
+                >
+                  {normalizeDisplayText(selectedDetailTitle)}
+                </Link>
+              ) : (
+                normalizeDisplayText(selectedDetailTitle)
+              )}
             </h2>
 
             <div className="mt-2 text-sm text-[#5f5f5f]">

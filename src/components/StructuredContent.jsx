@@ -93,35 +93,6 @@ function renderInlinePart(part, key) {
   return <React.Fragment key={key}>{content}</React.Fragment>;
 }
 
-function getTableData(block, tables) {
-  if (block.type === 'table') {
-    return {
-      title: block.title,
-      headers: block.headers || [],
-      rows: block.rows || [],
-    };
-  }
-
-  const tableIndex =
-    typeof block.index === 'number'
-      ? block.index
-      : typeof block.placeholder === 'string'
-        ? tables?.findIndex((table) => table?.Placeholder === block.placeholder)
-        : -1;
-
-  const tableData = tableIndex >= 0 ? tables?.[tableIndex]?.Data : null;
-
-  if (!Array.isArray(tableData) || tableData.length === 0) {
-    return null;
-  }
-
-  return {
-    title: block.title,
-    headers: tableData[0] || [],
-    rows: tableData.slice(1),
-  };
-}
-
 function renderTableCell(value, key) {
   if (typeof value === 'number') {
     return value;
@@ -130,17 +101,13 @@ function renderTableCell(value, key) {
   return renderInlineContent(value, key);
 }
 
-function renderBlock(block, index, tables) {
+function renderBlock(block, index) {
   if (typeof block === 'string') {
     return <p key={index}>{renderInlineContent(block, `block-${index}`)}</p>;
   }
 
   if (!block || typeof block !== 'object') {
     return null;
-  }
-
-  if (block.type === 'html') {
-    return <div key={index} dangerouslySetInnerHTML={{ __html: normalizeDisplayText(block.content || '') }} />;
   }
 
   if (block.type === 'paragraph') {
@@ -182,24 +149,18 @@ function renderBlock(block, index, tables) {
     );
   }
 
-  if (block.type === 'table' || block.type === 'tableRef') {
-    const table = getTableData(block, tables);
-
-    if (!table) {
-      return null;
-    }
-
+  if (block.type === 'table') {
     return (
       <div key={index}>
-        {table.title ? (
+        {block.title ? (
           <div role="heading" aria-level={3} className="structured-content-heading structured-content-heading-3">
-            {renderInlineContent(table.title, `table-title-${index}`)}
+            {renderInlineContent(block.title, `table-title-${index}`)}
           </div>
         ) : null}
         <table className="table-auto border-collapse border border-white w-full text-sm text-left">
           <thead>
             <tr className="bg-gray-100">
-              {table.headers.map((header, headerIndex) => (
+              {(block.headers || []).map((header, headerIndex) => (
                 <th
                   key={`${index}-header-${headerIndex}`}
                   className="border border-white px-4 py-2 font-medium text-gray-700"
@@ -210,7 +171,7 @@ function renderBlock(block, index, tables) {
             </tr>
           </thead>
           <tbody>
-            {table.rows.map((row, rowIndex) => (
+            {(block.rows || []).map((row, rowIndex) => (
               <tr key={`${index}-row-${rowIndex}`}>
                 {row.map((cell, cellIndex) => (
                   <td key={`${index}-cell-${rowIndex}-${cellIndex}`} className="border border-white px-4 py-2">
@@ -240,8 +201,8 @@ export function isStructuredContent(value) {
   return typeof value === 'object';
 }
 
-export default function StructuredContent({ content, tables = [] }) {
+export default function StructuredContent({ content }) {
   const blocks = Array.isArray(content) ? content : [content];
 
-  return <>{blocks.map((block, index) => renderBlock(block, index, tables))}</>;
+  return <>{blocks.map((block, index) => renderBlock(block, index))}</>;
 }

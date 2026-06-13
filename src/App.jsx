@@ -341,6 +341,86 @@ function findDisciplineBySlug(items, slug) {
   );
 }
 
+function getDuplicateAwareFetishSlug(items, item) {
+  const name = item?.Name || "";
+  const duplicateCount = items.filter((fetish) => fetish?.Name === name).length;
+
+  if (duplicateCount > 1) {
+    return slugify(`${name} ${item?.Rank || ""} ${item?.Book || ""}`);
+  }
+
+  return slugify(name);
+}
+
+function findFetishBySlug(items, slug) {
+  return items.find((item) => getDuplicateAwareFetishSlug(items, item) === slug) || null;
+}
+
+function normalizeRouteName(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function getManifestationCombinationSlug(item) {
+  return slugify(`${item?.Manifestation || ""} ${item?.Key || ""}`);
+}
+
+function findManifestationDetailBySlug(dataModule, slug) {
+  const combination =
+    dataModule.ManifestationsKeysData.find(
+      (item) => getManifestationCombinationSlug(item) === slug
+    ) || null;
+
+  if (!combination) return null;
+
+  const manifestation =
+    dataModule.ManifestationsData.find(
+      (item) =>
+        normalizeRouteName(item?.Name) ===
+        normalizeRouteName(combination.Manifestation)
+    ) || null;
+  const key =
+    dataModule.KeysData.find(
+      (item) => normalizeRouteName(item?.Name) === normalizeRouteName(combination.Key)
+    ) || null;
+
+  return {
+    combination,
+    manifestation,
+    key,
+  };
+}
+
+function getBookCode(book) {
+  return String(book || "").trim().split(/\s+/)[0];
+}
+
+function getDuplicateAwarePrometheanMeritName(items, item) {
+  const name = item?.Name || "";
+  const duplicateCount = items.filter((merit) => merit?.Name === name).length;
+
+  if (duplicateCount > 1) {
+    const bookCode = getBookCode(item?.Book);
+    return bookCode ? `${name} (${bookCode})` : name;
+  }
+
+  return name;
+}
+
+function getDuplicateAwarePrometheanMeritSlug(items, item) {
+  return slugify(getDuplicateAwarePrometheanMeritName(items, item));
+}
+
+function findPrometheanMeritBySlug(items, slug) {
+  const item = items.find((merit) => getDuplicateAwarePrometheanMeritSlug(items, merit) === slug) || null;
+
+  if (!item) return null;
+
+  return {
+    ...item,
+    DisplayName: getDuplicateAwarePrometheanMeritName(items, item),
+  };
+}
+
 const DETAIL_ROUTE_CONFIGS = [
   {
     path: `${PATHS.LOCATIONS_BASE}/:slug`,
@@ -400,6 +480,27 @@ const DETAIL_ROUTE_CONFIGS = [
     loadPage: () => import("./pages/Werewolf/RitesDetail"),
     loadData: () => import("./Data/Werewolf/RitesData"),
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.RitesData, slug),
+  },
+  {
+    path: `${PATHS.WEREWOLF.FETISHES}/:slug`,
+    propKey: "fetish",
+    loadPage: () => import("./pages/Werewolf/FetishDetail"),
+    loadData: () => import("./Data/Werewolf/FetishData"),
+    resolveItem: ({ dataModule, slug }) => findFetishBySlug(dataModule.fetishData, slug),
+  },
+  {
+    path: `${PATHS.WEREWOLF.TALENS}/:slug`,
+    propKey: "talen",
+    loadPage: () => import("./pages/Werewolf/TalenDetail"),
+    loadData: () => import("./Data/Werewolf/TalensData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.TalensData, slug),
+  },
+  {
+    path: `${PATHS.WEREWOLF.MERITS}/:slug`,
+    propKey: "werewolfMerit",
+    loadPage: () => import("./pages/Werewolf/WerewolfMeritsDetail"),
+    loadData: () => import("./Data/Werewolf/WerewolfMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.WerewolfMeritsData, slug),
   },
   {
     path: `${PATHS.MAGE.MERITS}/:slug`,
@@ -487,11 +588,26 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.hunterMeritsDetailData, slug),
   },
   {
+    path: `${PATHS.PROMETHEAN.MERITS}/:slug`,
+    propKey: "prometheanMerit",
+    loadPage: () => import("./pages/Promethean/PrometheanMeritsDetail"),
+    loadData: () => import("./Data/Promethean/PrometheanMeritsData"),
+    resolveItem: ({ dataModule, slug }) =>
+      findPrometheanMeritBySlug(dataModule.PrometheanMeritsData, slug),
+  },
+  {
     path: `${PATHS.GEIST.MERITS}/:slug`,
     propKey: "geistMerit",
     loadPage: () => import("./pages/Geist/GeistMeritsDetail"),
     loadData: () => import("./Data/Geist/GeistMeritsData"),
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.GeistMeritsData, slug),
+  },
+  {
+    path: `${PATHS.GEIST.MANIFESTATION}/:slug`,
+    propKey: "manifestationDetail",
+    loadPage: () => import("./pages/Geist/ManifestationDetail"),
+    loadData: () => import("./Data/Geist/ManifestationData"),
+    resolveItem: ({ dataModule, slug }) => findManifestationDetailBySlug(dataModule, slug),
   },
   {
     path: `${PATHS.OTHERS.ABOMINABLE}/:slug`,

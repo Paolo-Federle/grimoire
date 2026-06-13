@@ -3,65 +3,592 @@ export const ManifestationsData = [
         "Name": "Boneyard",
         "Attribute": "Wits",
         "Activation Cost": "1 plasm",
-        "Action": "Istant",
         "Summary": "Offers control over one’s immediate environment, usually by triggering “haunting” effects",
-        "Book": "GTS 114"
+        "Book": "GTS 114",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "When a Sin-Eater calls forth the Boneyard, he allows his geist’s plasm to flow forth from his body to stain the surrounding area with plasmic residue. In this way, the Sin-Eater may extend his senses across a large area and affect his environment in ways associated with the Key used to unlock the Boneyard. While the Boneyard is unlocked, the Sin-Eater’s body must remain in a trance-like state. The Sin-Eater’s body need not rest in the center of the Boneyard, but he must be somewhere within the affected area. If taken by surprise (not an easy thing against the master of a Boneyard), the Sin-Eater typically loses his Defense against attackers. This Manifestation ends instantly if the Sin-Eater suffers any damage. If his body is otherwise disturbed, he may attempt to retain control of the Boneyard with a Resolve + Composure roll."
+            },
+            {
+                "type": "paragraph",
+                "text": "The basic (one-dot) power of the Boneyard allows the Sin-Eater to create a plasm-tainted area within a particular area whose size is governed by his Manifestation rating and his activation successes. Some Keys may modify the size of the Boneyard in thematically appropriate ways. For example, the Primeval Boneyard may be bigger than other Boneyards if unlocked within a forest or heavily wooded area. While the Boneyard is unlocked, the Sin-Eater can generally sense any particular person or thing within the affected area which she wishes to locate without a roll, provided that the object of her search is not actively hiding from her (either magically or through mundane means). She can project her senses to any spot within the Boneyard and examine the area as if she were standing there. Many Keys allow the Sin-Eater to use more esoteric senses from any vantage point within the Boneyard."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the Boneyard is unlocked, the Sin-Eater can unlock additional Manifestations as desired, and can target their effects against anyone or anything he can perceive within his Boneyard. If an additional Manifestation is unlocked using the same Key as the one used to unlock the Boneyard, the Sin-Eater may add the Boneyard’s activation successes to the next activation roll. If the Keys are different, however, the Boneyard’s activation successes do not apply. There is one exception to this rule: a Sin-Eater may not direct the Rage Manifestation against a target outside his immediate presence through the Boneyard."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Fighting Over Boneyards"
+            },
+            {
+                "type": "paragraph",
+                "text": "Any Sin-Eater with even one dot in Boneyard will immediately know when she has entered into a Boneyard territory created by another Sin-Eater. The intruding Sin-Eater can attempt to establish her own Boneyard within the same area, but the original Sin-Eater may reflexively inflict a penalty equal to his activation successes on attempts by others to establish additional Boneyards within his demesne. If two (or more) Sin-Eaters successfully unlock overlapping Boneyards, the Sin-Eater with the most activation successes is considered to be the master of the Boneyard, and can reflexively apply a penalty equal to his activation successes against his rivals on all Boneyard-related rolls."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Wits + (Key Skill) + Boneyard rating",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The land is thirsty. The Boneyard fails to manifest, and the character loses two extra points of plasm."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to manifest the Boneyard fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater creates a Boneyard lasting for one scene. With Boneyard 1, the radius of the Boneyard is equal to (activation successes x 10) yards. With Boneyard 3, this radius increases to (activation successes x 100) yards. With Boneyard 5, this radius increases to (activation successes) in miles. Once its confines are established, the area covered by the Boneyard is fixed and cannot be modified by the Sin-Eater."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once established, the Boneyard cannot be dispelled prematurely, and the Sin-Eater may not create any new Boneyards while a previously unlocked Boneyard still stands. However, a Sin-Eater may attempt to replace an already existing Boneyard (whether one he created or one created by another Sin-Eater) with a new one, either to improve the Boneyard’s qualities or to assert dominance over another Sin-Eater. In the latter case, whichever Boneyard has more activation successes takes precedence over the other one. The Boneyard’s radius is fixed — although it is initially centered on the Sin-Eater, it does not move with her. Activation successes modify many higher-level Boneyard powers but only while the Sin-Eater remains within the Boneyard he created."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The Sin-Eater recovers the plasm spent in unlocking the Boneyard. If wounded, the Sin-Eater may still maintain the Boneyard with a successful (Resolve + Composure) roll, but not if he is rendered unconscious or leaves the Boneyard."
+            }
+        ],
+        "ElementalContent": [],
+        "ElementalCost": "",
+        "ElementalDicePool": "",
+        "ElementalAction": "",
+        "ElementalRollResult": [],
     },
     {
         "Name": "Caul",
         "Attribute": "Stamina",
         "Activation Cost": "1 plasm",
-        "Action": "Istant",
         "Summary": "Reshapes one’s own body, often in esoteric and frightening ways",
-        "Book": "GTS 121"
+        "Book": "GTS 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Of all Manifestations discovered by Sin-Eaters, the Caul is certainly the most intimate. When a Sin-Eater dons the Caul, he invites his geist deep into his body, allowing its plasm to flow outwards through his every cell, filling him from the inside out. Sharing his body with his geist is an incredibly intimate act, one that strengthens the ties between the Bound and the geist. Once it’s within his body, the geist can change his flesh, molding it in ways defined by the Key used to unlock this Manifestation. The Stigmatic Caul allows a Sin-Eater to control his blood as it seeps from his body, and even to sever limbs to act as homunculi. The Elemental Cauls by contrast suffuse their bodies with the purity of their element. While the Shroud wraps a geist around a Sin-Eater, the Caul bonds the two together. Unless otherwise noted under the unlocking Key, the gross physical changes caused by the Caul are visible to everyone who looks at the Sin-Eater."
+            },
+            {
+                "type": "paragraph",
+                "text": "The basic power of the Caul invites the geist into the Sin-Eater’s body. These powers all affect the Sin-Eater directly, rather than other people or ghosts. Activation successes on this roll normally inform the magnitude of the subsidiary powers that branch off each version of this Manifestation. Where secondary powers require dice rolls, the activation successes are added to the dice pool as normal. The Caul normally lasts until the end of the scene, though a Sin-Eater can choose to dismiss his geist sooner if he so chooses. Most of the subsidiary powers of the Caul are cumulative as the fusion of Sin-Eater and geist warps into a more powerful form. All powers under a single Key that don’t require a roll or plasm expenditure to activate are cumulative; the Sin-Eater gains all benefits as soon as he dons the Caul. Naturally, a Sin-Eater can have a Caul tied to only one Key at a time."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Stamina + (Key Skill) + Caul rating",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The Sin-Eater and geist reject each other on a subconscious level. The Sin-Eater cannot access the Caul until the next sunset."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to manifest the Caul fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater draws his geist within him, infusing his body with plasm and joining into one."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Both Sin-Eater and geist act in harmony. Any rolls to activate the subsidiary powers of the Caul gain the 9-again quality."
+            }
+        ],
+        "ElementalContent": [],
+        "ElementalCost": "",
+        "ElementalDicePool": "",
+        "ElementalAction": "",
+        "ElementalRollResult": [],
     },
     {
         "Name": "Curse",
         "Attribute": "Presence",
         "Activation Cost": "1 plasm",
-        "Action": "Instant",
         "Summary": "Afflicts enemies with strange curses and ailments, or influences their minds.",
-        "Book": "GTS 125"
+        "Book": "GTS 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Manifesting the Curse lets a Sin-Eater’s geist off the leash just a little. It doesn’t directly attack his opponents, instead leaving just a hint of its plasm. Through that plasm, the geist can touch the world. Unlike other Manifestations, the geist can only nudge events around the victim, rather than interacting with her directly — the Beast Curse may turn every animal she meets against her, while the Stigmata Curse ensures that her wounds bleed and attract the attentions of the unquiet dead. Though its effects are subtle, without a geist’s direct intervention, supernatural creatures who can perceive auras or magic can still pick up on signs of the Curse."
+            },
+            {
+                "type": "paragraph",
+                "text": "The basic power of the Curse places a hex on a single person, out to a range of her Psyche dots x 10 yards. The effects of the hex depend on the Key used to unlock the Manifestation. Though the target is normally unaware of being cursed she still resists the geist’s influence, though with the lower of her Resolve and Composure. A curse plagues its target for a limited duration, defined by the activation successes. The hex may take effect immediately; alternately, the Sin-Eater may define a specific occurrence as a trigger for the curse, such as the victim seeing a red-headed man, or the next time she eats meat. Attaching a condition to a curse imposes a -2 modifier on the roll. If the victim doesn’t meet the condition within one day per activation success, the curse dissipates."
+            },
+            {
+                "type": "paragraph",
+                "text": "A person can only be under one hex at a time. A Sin-Eater can end the effects of his own Curse as a reflexive action, though he does have to touch the victim. Another Sin-Eater can force a new hex onto a target, but must roll more activation successes than the existing hex. This applies even if the initial curse was set with a condition that hasn’t yet been met."
+            },
+            {
+                "type": "paragraph",
+                "text": "A Sin-Eater with this Manifestation can also spend a plasm to attempt removing an application of the Curse. If his activation rolls equal or exceed those of the activation successes made to lay the hex in the first place, the curse is removed. If the Sin-Eater attempting to remove the Curse does not have the appropriate Key, the roll suffers a -2 penalty."
+            },
+            {
+                "type": "line",
+                "label": "Cost",
+                "text": "None"
+            },
+            {
+                "type": "line",
+                "label": "Dice Pool",
+                "text": "Presence + (Key Skill) + Curse rating - existing curse’s activation successes"
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Roll Results"
+            },
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The curse lasts longer than it normally would. Determine the duration as if the original hex had two more activation successes."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The Sin-Eater cannot remove the curse."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater removes the curse, though whoever set the hex is aware that someone has tampered with his handiwork."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The curse slips off without a problem. Whoever set the curse is unaware that it has been removed."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Presence + (Key Skill) + Curse rating - lower of target’s Resolve and Composure",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The hex backfires. The Sin-Eater suffers the effects of his hex for the remainder of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to manifest the Curse fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater leaves a trace of his geist’s plasm on his victim. This trace lasts for one day per success, during which time the curse affects its victim. If the Sin-Eater attached a condition to her hex, the duration starts from the point when the victim meets the condition. If the condition isn’t met within one day per success, the hex does not apply."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The victim can sense the presence of the curse, and it weighs on her. She suffers a -1 penalty to any rolls made to resist degeneration or gaining derangements while the hex remains in effect."
+            }
+        ],
+        "ElementalContent": [],
+        "ElementalCost": "",
+        "ElementalDicePool": "",
+        "ElementalAction": "",
+        "ElementalRollResult": [],
     },
     {
         "Name": "Marionette",
         "Attribute": "Manipulation",
         "Activation Cost": "Varies",
-        "Action": "Instant",
         "Summary": "Controls physical objects, animals, and even other people.",
-        "Book": "GTS 130"
+        "Book": "GTS 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Perhaps the most invasive and frightening Manifestation, the Marionette, as its name implies, allows the Sin-Eater to reach out with her plasm to seize control of objects, animals, and even people. To those with the sight to see it, the Sin-Eater reaches out with her hand, and invisible tendrils of plasm reach out to the object of her desire, ensnaring it (or him) and compelling obedience. The Marionette does not inspire loyalty in affected persons — the victim remains free-willed and often vocally opposed, but his body has been enslaved. Some Marionette powers can transform living human beings into virtual zombies, and Sin-Eaters steeped in the traditions of Vodoun and its sister religions often describe slaves bound with Marionette as zombies in order to take advantage of local beliefs about those religions."
+            },
+            {
+                "type": "paragraph",
+                "text": "The precise nature of the control depends upon which Key is used to unlock the Marionette. The Primeval Key and Industrial Key are used to control animals and machinery, respectively, but other Keys provide for more... abstract methods of control, such as the Passion Marionette, which manipulates the emotions of another person, or the Stillness Marionette, which seizes control of her body. The Phantasmal Key unlocks the power to create mystical puppets under the Sin-Eater’s control, while the Stigmata Key allows her to manipulate ghosts and spirits. Generally, the target of the Manifestation must be within the Sin-Eater’s line-of-sight. If the Sin-Eater has an active Boneyard or Oracle Manifestation that allows her to see the target, she may influence it even outside her immediate vision as long as the target is within the range of the other Manifestation. Once control is established, the Sin-Eater can usually perceive her slave and maintain control for the duration of the Manifestation."
+            }
+        ],
+        "FullActivationCost": "Varies",
+        "DicePool": "Manipulation + (Key Skill) + Marionette rating. Other sentient beings targeted for control by the Marionette resist by rolling Resolve + Psyche.",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The activation attempt fails, and the Sin-Eater may not attempt to use any Marionette-related power for the rest of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to unlock the Marionette fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater exudes a tendril of plasm that reaches out and invisibly ensnares the object of the Manifestation, forging a sympathetic connection, which allows for the possibility of control. The activation successes add to other Marionette-related rolls. Unless stated otherwise in the power’s description, the sympathetic link lasts for one scene unless the Sin-Eater chooses to end it prematurely. Once a link is established, the Sin-Eater can maintain it for longer periods at a cost of 1 plasm per hour."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The Sin-Eater regains one point of spent plasm."
+            }
+        ],
+        "ElementalContent": [
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "The Elemental Marionettes"
+            },
+            {
+                "type": "paragraph",
+                "text": "The Elemental versions of the Marionette Manifestation works quite differently from other versions of this power. Instead of manipulating or shaping some other creature, thing or emotion, the Sin-Eater fashions a tiny homunculus from the spiritual remnants of a living being. In order to create a homunculus, the Sin-Eater must create a small fetish called a homunculus egg. The materials required for the egg vary according to the element upon which the homunculus is to be based. Air calls for the dying breath of a human being. Earth requires a handful of dirt from a grave into which a body has been interred within the last hour. Fire requires a handful of ash from a cremated human body or residue from a human being who was burned to ash. Water requires a small quantity of water drawn from the lungs of a drowning victim or a like amount of sea water drawn from the ocean near where a person was buried at sea within the last few minutes."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the Sin-Eater has acquired the appropriate elemental material, she must forge it into a homunculus egg by spending one point of plasm per dot of Size the creature is to have, as well as one permanent Willpower point. The Sin-Eater may not spend more plasm than his Elemental Marionette rating. The appearance of the egg varies according to the elemental type, as does the appearance of the homunculus it carries. Any type of egg will be able to fit inside a person’s hand easily."
+            },
+            {
+                "type": "paragraph",
+                "text": "An egg can be destroyed — each egg has Durability equal to the Sin-Eater’s Marionette rating and Structure equal to its Durability + activation successes. Destroying an egg ends the Manifestation automatically. While it endures, the Sin-Eater may invest the egg with a point of plasm at any time and cause the homunculus to emerge and do her bidding. While the homunculus is active, the Sin-Eater has total control over it and can perceive through its senses and speak through its mouth, but she must maintain constant concentration and can take no action other than to focus on the homunculus. If the Sin-Eater’s concentration wavers or if the homunculus suffers enough damage to otherwise kill it, it automatically reverts back to a homunculus egg. It will also do so, wherever it is, at the end of the scene unless the Sin-Eater spends another plasm to maintain its activity for an additional scene."
+            }
+        ],
+        "ElementalCost": "1 plasm per dot of Size + 1 permanent Willpower",
+        "ElementalDicePool": "Manipulation + Occult + Marionette rating. Generally, there is no opposition roll, but if the deceased person whose body is used as the basis for the homunculus egg exists as a ghost, she may resist the attempt to violate her remains with a reflexive Resistance + Power rating.",
+        "ElementalAction": "Instant",
+        "ElementalRollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The attempt to create the homunculus egg fails. The ghost of the deceased used as the basis for the egg (regardless of whether the deceased was previously active as a ghost) is summoned to the area and immediately becomes hostile towards the Sin-Eater, who is treated as an Anchor for the ghost for the duration of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to create the homunculus egg fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater fashions a homunculus egg that can be used to birth a homunculus with the characteristics outlined below. The egg endures for a time period equal to one month per activation success, at the end of which the Sin-Eater may spend another permanent Willpower to preserve the egg for another term of the same length."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The Sin-Eater and homunculus are well-connected. While the homunculus is active, the Sin-Eater can divert his attention away from directing its action for a number of turns equal to the activation successes before it collapses back into its egg. During that time, the homunculus will continue to follow its last instruction."
+            }
+        ],
     },
     {
         "Name": "Oracle",
         "Attribute": "Intelligence",
         "Activation Cost": "1 plasm",
-        "Action": "Instant",
         "Summary": "Grants heightened sensory powers, clairvoyance, and even precognitive abilities.",
-        "Book": "GTS 137"
+        "Book": "GTS 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Many legends speak of the insight possessed by the dead and of their power to warn the living of future events. Indeed, the term “necromancy” literally refers to the practice of divining the future through communication with the dead. The Oracle Manifestation draws upon this chthonic wisdom, allowing the Sin-Eater to access the special perceptive abilities of her geist. To anyone capable of detecting plasmic energies, a Sin-Eater who has unlocked the Oracle is noticeable for her eyes, which glow with a spectral force. The basic power of the Oracle is simply to augment the Sin-Eater’s perception. Specific Keys refine this perception in appropriate ways."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Intelligence + (Key Skill) + Oracle rating",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The activation attempt fails, and the Sin-Eater may not attempt to use any Oracle-related power for the rest of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to unlock the Oracle fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "A pale mist of plasm steams from the Sin-Eater’s glowing eyes, visible only to ghosts and other Sin-Eaters. For the duration of the scene, the Sin-Eater adds a number of bonus dice equal to the activation successes to all Wits-based rolls to observe and understand phenomena relevant to the Key used to unlock the Oracle."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "Additional successes are their own reward."
+            }
+        ],
+        "ElementalContent": [
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "The Elemental Oracles"
+            },
+            {
+                "type": "line",
+                "label": "Skill",
+                "text": "Occult"
+            },
+            {
+                "type": "paragraph",
+                "text": "Drawing upon her understanding of the elements of the Underworld, the Sin-Eater can acquire a powerful clairvoyant sense. There are four Elemental Oracle powers, each of which must be mastered separately. The Elemental Oracle powers are among the most dangerous Manifestations to use, as they require the Sin-Eater to embrace death in order to transcend the limits of her own body."
+            },
+            {
+                "type": "paragraph",
+                "text": "In order to unlock the Cold Wind Oracle, the Sin-Eater must allow herself to be suffocated or strangled. To unlock the Grave-Dirt Oracle, the Sin-Eater must allow herself to be buried alive. To unlock the Tear-Stained Oracle, the Sin-Eater must drown herself. In all three cases, the Sin-Eater must suffer enough bashing damage from the environment to be rendered unconscious in order to unlock the Manifestation. For the Pyre-Flame Oracle, the Sin-Eater must set herself ablaze, taking at least 2 levels of lethal fire damage and making no effort to put out the blaze herself."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the Sin-Eater unlocks the Manifestation properly, he will take no lasting damage. Instead, he will slip into a death-like trance while his astral form slips free of his body to travel as he wishes. When the Manifestation ends, the Sin-Eater will emerge from his trance (bursting violently out of the earth in the case of the Grave-Dirt Oracle) with no visible signs of injury. If the Manifestation is unsuccessful, however, the Sin-Eater actually suffers the damage inflicted on himself and may well be in danger of dying if he has no one to watch over his body and see that he doesn’t asphyxiate, drown, or burn to a crisp."
+            }
+        ],
+        "ElementalCost": "1 plasm, plus 1 additional plasm per extra hour of astral projection",
+        "ElementalDicePool": "Intelligence + Occult + Oracle rating",
+        "ElementalAction": "Instant",
+        "ElementalRollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The activation attempt fails. The Sin-Eater actually suffers whatever damage was inflicted on his body, and he will not be able to extricate himself from the elemental hazard in which he has placed himself without assistance. Worse, anyone who has been assigned to watch over his body will suffer a -3 penalty on any roll to realize that the attempt has failed and that the Sin-Eater is actually dying."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The activation attempt fails. The Sin-Eater suffers the damage inflicted on his body, but he will be able to extricate himself without taking any more damage. Anyone assigned to watch over him will immediately realize that the attempt has failed and that the Sin-Eater may need assistance."
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Success:",
+                        bold: true
+                    },
+                    " The Sin-Eater falls into a death-like coma. Her astral form slips free from her body and may travel wherever she wishes while in a Twilight state. The astral form is intangible and invisible save to other Twilight beings and to those capable of seeing and/or affecting Twilight beings. While the Sin-Eater’s astral form roams, her body appears to be dead, save to other Sin-Eaters who will automatically realize she is astrally projecting."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: "While astrally projecting, the Sin-Eater can use any Manifestations or other powers that do not require her to physically touch something in the material world. Instead of her normal traits, the Sin-Eater has a Power rating equal to the highest of her Intelligence, Presence, or Strength; a Finesse rating equal to the highest of her Wits, Manipulation, or Dexterity; and a Resistance rating equal to the highest of her Resolve, Composure, or Stamina."
+            },
+            {
+                type: "paragraph",
+                text: "With Elemental Oracle •••, the Sin-Eater can fly in her astral form at a speed equal to (Elemental Oracle rating) x 100 miles per hour. If the Sin-Eater interacts with ghosts while in this form, she gains a three-dice bonus if the ghosts’ remains were interred in or disposed of within that element corresponding to her Key or Keys. That is, if the Sin-Eater interacts with a ghost whose body was buried underground, she may three dice if she possesses the Grave-Dirt Key. If the ghost’s body was buried at sea, the Tear-Stained Key applies. If it was cremated or burned up in a fire, the Pyre-Flame Key applies. Finally, if interacting with someone whose body was left to the elements, she can draw on the Cold Wind Key."
+            },
+            {
+                type: "paragraph",
+                text: "The Sin-Eater can maintain her astral form for a number of hours equal to the activation successes, plus one additional hour per extra plasm spent. At the end of that period, his astral form snaps back to his body, which then awakens, free of all injury. This includes damage taken prior to the activation of this Manifestation, which means it also presents a cheap (if somewhat reckless) means of fast healing. If the Sin-Eater was bound as part of his asphyxiation or drowning, his bonds break instantly. If he was buried in the earth, he bursts free from his grave. If his body was weighted down and dropped into a lake, he effortlessly bobs up to the surface. If he was trapped in a burning building, he walks out without so much as a scorch mark on his clothing."
+            },
+            {
+                type: "paragraph",
+                text: "In addition to allowing for astral projection, this power, due to its reparative properties, is also quite useful for escaping from deadly situations. For example, if a Sin-Eater capable of unlocking the Grave-Dirt Oracle is buried alive by a cave-in, he can use this power to put his body into a protective trance and then astral project to seek help, emerging unscathed once the cave-in is cleared. However, this immunity does not extend to harm coming from some other element or from a non-elemental source. If the aforementioned Sin-Eater were dug out of the cave-in and then set on fire (or simply shot with a pistol), the resulting damage would not be healed when the Manifestation ends. With Elemental Oracle •••••, there is no time limit on how long the astral projection can last — some legends speak of a Sin-Eater who ran afoul of the Mob in the 1920s and was buried alive in the foundation of a newly constructed building. His astral form still wanders the world waiting for that building to be torn down so that his body might be freed at last."
+            },
+            {
+                type: "paragraph",
+                text: "A Sin-Eater will automatically know if someone is tampering with her comatose body with a successful Wits + Composure + Oracle rating + activation successes roll. Regardless of her normal speed, the Sin-Eater may cause her astral form to return to her body instantly and reflexively."
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Exceptional Success:",
+                        bold: true
+                    },
+                    " The Sin-Eater’s Power, Finesse, and Resistance are each considered to be 1 higher."
+                ]
+            }
+        ],
     },
     {
         "Name": "Rage",
         "Attribute": "Strength",
         "Activation Cost": "1 plasm",
-        "Action": "Instant",
         "Summary": "Is the ability to strike at others with pure, unadulterated power. ",
-        "Book": "GTS 142"
+        "Book": "GTS 142",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Some Manifestations are subtle, laying curses on a target or infusing the world around her with the energies of death. The Rage is not subtle at all. At the Sin-Eater’s direction, her geist reaches out and attacks someone. The precise nature of the attack varies depending on the Key used to unlock the Rage. Further, the Sin-Eater can change the appearance of the Rage at any time, as long as it’s thematic to the Key used — a blast of Bestial Rage could send carrion crows to tear his opponent apart or summon a cloud of wasps and bees that crawl all over his flesh. Unless a Key specifically manifests the attack in the physical world, the Rage is generally invisible. The target can perceive its effects, as can certain supernatural creatures using powers such as vampiric Aura Perception or a warlock’s Mage Sight."
+            },
+            {
+                "type": "paragraph",
+                "text": "The basic power of the Rage allows a Sin-Eater to attack a target at a range of up to ten yards per dot of Psyche. The activation roll for the Rage is also the attack roll, with each success dealing a point of bashing damage. The attack roll subtracts Defense or another Trait in the place of defense, depending on the Key (referred to as the Key Defense)."
+            },
+            {
+                "type": "line",
+                "label": "Rage ••",
+                "text": "The damage may be bashing or lethal."
+            },
+            {
+                "type": "line",
+                "label": "Rage •••",
+                "text": "The Sin-Eater may ignore modifiers for concealment up to and including “substantially concealed” (World of Darkness, pg. 182)."
+            },
+            {
+                "type": "line",
+                "label": "Rage ••••",
+                "text": "The range extends to line of sight."
+            },
+            {
+                "type": "line",
+                "label": "Rage •••••",
+                "text": "The Sin-Eater may inflict aggravated damage, at the cost of one Willpower per attack."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Strength + (Key Skill) + Rage rating - (Key Defense)",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The plasm wracks the Sin-Eater’s body, dealing a point of lethal damage."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to manifest the Rage fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater manifests the Rage, directing his geist to strike at someone. The target takes one point of damage (bashing, lethal or aggravated depending on Rage rating) per success."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The terrible wounds inflicted by such potent Rage are their own reward."
+            }
+        ],
+        "ElementalContent": [
+            {
+                type: "line",
+                label: "Key Defense",
+                text: "Stamina"
+            },
+            {
+                type: "paragraph",
+                text: "The Sin-Eater infuses his attacks with the power of one of the four classical elements, altering its effects as appropriate. Note that each Elemental Key must be acquired separately."
+            }
+        ],
+        "ElementalCost": "",
+        "ElementalDicePool": "",
+        "ElementalAction": "",
+        "ElementalRollResult": [],
     },
     {
         "Name": "Shroud",
         "Attribute": "Resolve",
         "Activation Cost": "1 plasm",
-        "Action": "Instant",
         "Summary": "governs effects that alter or improve one’s own body in some way, most often as a form of protection.",
-        "Book": "GTS 146"
+        "Book": "GTS 146",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Shroud is the Manifestation most commonly used for defensive purposes. When a Sin-Eater dons the Shroud, the Bound allows the raw plasm of her geist to flow over her body, congealing into a hard shell which protects her from harm. The geist’s plasm flows out of the Sin-Eater’s body through every pore, enveloping his body and forming a protective armor of plasm. The precise results vary according to the Key used to unlock the Manifestation. Furthermore, Sin-Eaters generally customize their Shrouds, each of which is personal to the one who dons it. A Sin-Eater who favors the Primeval Shroud will often be enveloped into the silhouette of some great menacing creature of rippling muscle and shaggy fur or bristles, while one who favors the Industrial Shroud might seem to wear armor forged from castoff car parts or rusted metal. Regardless of its appearance or effects, the Shroud is generally invisible to anyone save a Sin-Eater or a ghost, either of whom can perceive that the character is defended. Other supernatural creatures may be able to perceive the Shroud with appropriate powers, such as vampiric Aura Perception or Mage Sight."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Resolve + (Key Skill) + Shroud rating",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The attempt to manifest the Shroud goes horribly wrong. The Sin-Eater suffers a number of levels of bashing damage equal to his Shroud rating and will be unable to unlock the Shroud for the remainder of the scene."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The attempt to manifest the Shroud fails."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater manifests her Shroud which provides an Armor bonus equal to her Shroud rating, as well as any special effects provided by the Key used in the activation."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The Sin-Eater’s Shroud rating is considered to be one higher for purposes of determining her Armor rating."
+            }
+        ],
+        "ElementalContent": [],
+        "ElementalCost": "",
+        "ElementalDicePool": "",
+        "ElementalAction": "",
+        "ElementalRollResult": [],
     },
     {
         "Name": "Pit",
         "Attribute": "Composure",
         "Activation Cost": "1 plasm",
-        "Action": "Instant",
         "Summary": "Allows the Sin-Eater to remove an aspect of his victim.",
-        "Book": "BotD 82"
+        "Book": "BotD 82",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Pain. Fear. Rage. Hate. A lot of people think these feelings have something to do with death. They couldn’t be more wrong. The Underworld has no emotion of its own, because death doesn’t care. You could be a pauper in the Mumbai slums or the richest man in history, but when you die, that’s it: you’re dead. The only real emotion in the Underworld comes from its denizens: ghosts remember what it was like to be alive and chances are any ghost you ask would give everything to experience that once again."
+            },
+            {
+                "type": "paragraph",
+                "text": "According to some old ghosts, the Underworld wasn’t always that way. But the past isn’t the present, and right now the Underworld is a place that ultimately does not care about the universe and isn’t about to start. The cursed plasm that gives shape to the never-ending tunnels and caverns isn’t something that a sensible Sin-Eater should mess with."
+            },
+            {
+                "type": "paragraph",
+                "text": "Then again, sensible Sin-Eaters don’t Manifest the Pit."
+            },
+            {
+                "type": "paragraph",
+                "text": "Every ability that the Pit gives requires a Sin-Eater to take in some of that cursed, corrupt plasm and fold it into his geist, absorbing a tiny part of the uncaring world beyond. Doing so, she can unlock powers that make her foes understand not that the universe is out to get them, but that the universe will never know they existed. The Passion Pit kills long-term relationships in favor of short term flings, and encourages people to ignore their noble callings, focusing on simple pleasures. The Primeval Pit shows the natural world’s disdain for the victim’s ongoing existence through whipping branches and howling beasts."
+            },
+            {
+                "type": "paragraph",
+                "text": "A Sin-Eater stains his soul every time he unlocks a Pit, the plasm brushing close against his soul. Just unlocking a Pit is a sin against Synergy 7. The Sin-Eater is forcing a piece of the Underworld into the living world, bringing the energies of death to those who aren’t yet ready for them. A Sin-Eater who wants to remain in tune with his geist and with the world should stay away from this Manifestation."
+            },
+            {
+                "type": "paragraph",
+                "text": "He also can’t channel the plasm generated through his Archetype into the Pit — it needs energy drawn from the Underworld. To that end, he has to be within one yard of an Avernian Gate per dot of Psyche to use an Archetypal Manifestation, though the gate doesn’t have to be open at the time."
+            }
+        ],
+        "FullActivationCost": "1 plasm",
+        "DicePool": "Composure + (Key Skill) + Pit rating - lower of target’s Resolve and Composure",
+        "Action": "Instant",
+        "RollResult": [
+            {
+                "type": "line",
+                "label": "Dramatic Failure",
+                "text": "The Underworld turns on the Sin-Eater, burrowing into his soul and his geist both. The Sin-Eater loses a point of Willpower, and must roll for degeneration as though he’d committed a sin with a Synergy threshold of 4."
+            },
+            {
+                "type": "line",
+                "label": "Failure",
+                "text": "The corrupt energies of the Underworld do not yield to the Sin-Eater’s command."
+            },
+            {
+                "type": "line",
+                "label": "Success",
+                "text": "The Sin-Eater draws the cursed plasm of the Underworld through his geist and unleashes it against his target. In addition to the main effects of the Pit when unlocked with a specific Key, the target subtracts the Sin-Eater’s activation successes from all Composure rolls (to a maximum penalty of -5)."
+            },
+            {
+                "type": "line",
+                "label": "Exceptional Success",
+                "text": "The dark tendrils of the Underworld linger, latching into the target’s mind. She loses a point of Willpower, in addition to the other effects of this Manifestation."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unless otherwise noted, the effects of the Pit last until the end of the scene, though the Sin-Eater can end them before if he chooses."
+            }
+        ],
+        "ElementalContent": [],
+        "ElementalCost": "",
+        "ElementalDicePool": "",
+        "ElementalAction": "",
+        "ElementalRollResult": [],
     },
 ]
 
@@ -187,7 +714,7 @@ export const KeysData = [
         Book: ""
     },
     {
-        Name: "Stygian ",
+        Name: "Stygian",
         Skills: ["Medicine"],
         Summary: "Grant influence over death, decay, and rot",
         Content: [
@@ -223,56 +750,56 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Occult",
         Summary: "Manipulate weather and “cold” phenomena over the affected area.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Cold Wind Boneyard draws upon frigid cold and the devastating power of storms. If the Sin-Eater unlocks the Cold Wind Boneyard while out-of-doors and in cold weather or during a heavy rainstorm, she may add her Occult rating to the activation successes for purposes of determining the maximum area."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. If unlocked outside in cold weather or during a heavy rainstorm, add Occult to Activation for size.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Hinder with weather. Target a person with Wits+Occult+Activation vs. Stamina, impose Activation as a penalty to all die pools while concentration is maintained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target any person within the Boneyard’s area with a powerful sensation of bone-chilling cold. The Sin-Eater’s player must roll (Wits + Occult + activation successes), resisted by the target’s Stamina. If the Sin-Eater is successful, the target suffers a dice penalty on all actions equal to the Sin-Eater’s activation successes for as long as the Sin-Eater maintains concentration on him, as the air around him plunges into bitter cold. With an Exceptional Success, this dice penalty will persist for as long as the Boneyard does, even without the Sin-Eater’s continued concentration. This power costs 1 plasm."
                     }
-                ]
+                ],
             },
             {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). As 2-dot power, but may select multiple targets at 1 Plasm apiece, separate Stamina rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target multiple targets within the Boneyard with even stronger weather effects, such bitterly cold winds or freezing rain. Mechanically, this power functions just like the one before it except that the Sin-Eater may target multiple individuals with dice penalties caused by inclement weather. Each target rolls her Stamina separately, and those who fail to get more successes than the Sin-Eater are affected. This power costs 1 plasm per target to be affected."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Attack with weather. Target a person with Wits+Occult+Activation-Stamina, do Suxx as Bashing damage. Magic armor may apply.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target an individual with a cold-weather attack. The precise nature of each attack depends on the extant environmental conditions — depending on the nature of the weather summoned, an attack might manifest as a lightning bolt, a gust of wind which blows a tree limb down onto the target, or even a snow flurry of incredible force which buries him under several feet of snow and ice. The Sin-Eater’s player must roll (Wits + Occult + activation successes). Generally, because such an attack comes as part of an environmental effect, a targeted character does not receive his Defense. However, living creatures do have some innate resistance to harmful weather phenomena, if only in the form of having enough sense to get out of the rain. Subtract the target’s Stamina from all weather-based attacks. Mundane armor rarely protects against inclement weather, but many forms of magical protection will apply. Each success inflicts one level of bashing damage, and each attack costs 1 plasm."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ). As with 4-dot power, but do Lethal damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may now inflict lethal damage on any target within the Boneyard’s area. This power functions just the same as the 4-dot version, except that all damage is lethal instead of bashing, and each attacks costs 3 plasm."
                     }
-                ]
+                ],
             },
         ],
         Book: "GTS 115"
@@ -283,56 +810,56 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Occult",
         Summary: "Gains additional insights when unlocking the Boneyard within a cave system or across a graveyard.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Grave-Dirt Boneyard draws upon the resonance of cold, dead earth. If the Sin-Eater manifests a Grave-Dirt Boneyard in either an actual cemetery or in a completely subterranean environment such as a network of caverns or underground tunnels, he may add his Occult rating to the activation successes for purposes of determining the affected area. Such an underground environment may be manmade, such as a catacombs, but the environment must be predominantly stone or earthen. The Sin-Eater does not gain the extended range of the Grave-Dirt Boneyard in a completely artificial underground environment such as in subway tunnels."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. If unlocked in cemetery or stone/earthen subterranean complex, add Occult to Activation for size.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Hinder with claustrophobia. Target a person with Manipulation+Occult+Activation vs. Composure, impose Activation as a penalty to all die pools while concentration is maintained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can afflict any person within the Boneyard’s area with a powerful sense of claustrophobia. The Sin-Eater’s player must roll (Manipulation + Occult + activation successes), resisted by the target’s Composure. If the Sin-Eater is successful, the target suffers a dice penalty on all actions equal to the Sin-Eater’s successes for as long as the Sin-Eater maintains concentration on him, as the oppressive gloom of the environment preys upon his mind. With an Exceptional Success, this dice penalty will persist for as long as the Boneyard does, even without the Sin-Eater’s continued concentration. This power costs 1 plasm."
                     }
-                ]
+                ],
             },
             {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). Hinder navigation. Target one or more with Manipulation+Occult+Activation vs. Composure, impose Activation as penalty to navigate, separate Composure rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can cause one or more targets to become lost, whether in the twisting tunnels of a catacomb or amid the menacing tombstones of a cemetary. The Sin-Eater’s player must roll (Manipulation + Occult + activation successes), resisted by the target’s Composure. If the Sin-Eater is successful, the target suffers a dice penalty equal to the activation successes on all attempts to navigate through his current environment. The Sin-Eater may direct this power against multiple targets, with each target rolling Composure separately. This power costs 1 plasm per target to be affected, and the effects last as long as the targets remain within the Boneyard."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Attack with the earth. Target a person with Wits+Occult+Activation-Defense, do Suxx as Bashing damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can cause the very earth itself to rise up against a target. Stones hurl themselves against her, and sinkholes open up to trap her feet and knock her to the ground. The Sin-Eater’s player must roll (Wits + Occult + activation successes, minus Defense). Each success inflicts one level of bashing damage, and each attack costs 1 plasm."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ), as with 4-dot power, but do Lethal damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may now inflict lethal damage on any target within the Boneyard’s area. This power functions just the same as the 4-dot version, except that all damage is lethal instead of bashing, and each attacks costs 3 plasm."
                     }
-                ]
+                ],
             },
         ],
         Book: "GTS 115"
@@ -343,56 +870,56 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Crafts",
         Summary: "Gains additional insights and abilities when unlocking the Boneyard within a building or structure.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Industrial Boneyard draws upon the relentless inhumanity of the machine and the sterility which separates man-made structures from natural ones. If the Sin-Eater unlocks the Industrial Boneyard inside a building of any kind, he may add his Craft rating to the activation successes for purposes of determining the maximum area, but when he does so, the Boneyard’s area can never extend beyond the physical structure of the building itself. In order to gain this benefit, the Sin-Eater need not be inside the structure, but he must be able to touch one of its outer walls. With Industrial Boneyard •••, the Sin-Eater can extend his control to encompass multiple connected buildings which are part of the same unit (such as a mansion and its guesthouse or all the cookie-cutter houses in a residential subdivision) but not any place outside of a structure. With Boneyard •••••, the Sin-Eater’s gaze even covers the grounds of a large estate or the yards and streets of a residential neighborhood."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. If unlocked in or near enough to a building, may add Crafts to Activation for size, but boundaries cannot extend outside the building.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Target a mechanical device and turn it on or off with Wits+Crafts+Activation. Add Activation to Wits-related rolls to perceive aspects of structure at no cost.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target any mechanical device she is capable of perceiving within the Boneyard and turn it on or off at will. The Sin-Eater’s player must roll (Wits + Craft + activation successes) and spend 1 plasm. In addition to this power, the Sin-Eater may reflexively add her activation successes to any Wits-related roll to perceive or understand any aspect of the structure within which she stands. She can easily perceive hidden passages, concealed safes and the like. This aspect of the power costs nothing."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). As with 2-dot power, but may completely control an object and make it act normally at no cost. If electric and not plugged in, cost is 1 Plasm. Limited extended boundaries can encompass multiple connected buildings, but nothing outside a structure.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can completely control a single device within the Boneyard, directing it as he wishes, using the same dice pool as the previous power. However, he can only cause such devices to do things normally within their purview. That is, he could cause a vacuum cleaner to begin cleaning a rug but he could not cause it to fly about the room. This power costs nothing provided that the target device does not require any electricity or is already plugged in if it does require power. Feats such as activating an unplugged appliance or moving an unplugged vacuum cleaner cost 1 plasm per target to be affected."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Target object with Resolve+Crafts+Activation and move telekenetically, cost of Plasm equal to Size. If used to attack, roll Resolve+Size+Activation-Defense.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can telekinetically move any non-living item which he can perceive within the Boneyard. He can cause items to fling themselves at targets or he can turn on a television and cause it to display whatever images he desires. Controlling inanimate objects in this manner costs a number of plasm points equal to the size of the item. The player must roll (Resolve + Craft + activation successes) to activate this power. If the Sin-Eater attempts to hurl the item at a target, the roll is (Resolve + the object’s Size + activation successes, minus the target’s Defense). The Sin-Eater may only make one such attack per turn, and also costs plasm equal to the item’s Size."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ), activation cost is now 5 Plasm. Gain total telekinetic control over everything inside Boneyard for it's duration, may spend 3 Plasm to make an object act unnaturally. Expanded boundaries can extend across grounds of a manmade area.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater gains dominion over every object within the Boneyard’s reach. Unlocking the Boneyard at this level raises the activation cost to 5 plasm, but thereafter, the Sin-Eater pays nothing to use any of the preceding Industrial Boneyard powers. Additionally, while this power is in effect, the Sin-Eater can spend 3 plasm to cause an object to do something completely unnatural, such as causing a chair to wrap its arms around someone sitting in it and restrain her or rearranging the oil on a painting to change what it depicts. These unnatural effects only last as long as the Boneyard does before the object reverts to its prior shape."
                     }
-                ]
+                ],
             },
         ],
         Book: "GTS 117"
@@ -403,56 +930,67 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Empathy",
         Summary: "Sense and influence emotions within the affected area.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Passion Boneyard grants the Sin-Eater understanding of the emotional states of any thinking beings caught within its confines. While the Passion Boneyard is active, the Sin-Eater may add her activation successes to all Empathy rolls to judge the emotional nature of anyone she observes within."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. Add Activation to Empathy when determining emotional nature of those inside.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Impose emotion on 10-yard radius with Manipulation+Empathy+Activation, those that fail to get Activation on Composure+Psyche feel that emotion in that area. Acting contrary imposes Activation as a penalty to all actions.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can instill the area with a particular emotional resonance such that anyone who enters may be compelled to feel that emotional state. The Sin-Eater’s player must roll (Manipulation + Empathy + activation successes). For each point of plasm spent, the Sin-Eater may taint an area with a 10-yard radius with a particular emotion. Anyone who enters the tainted area whose Composure + Psyche is less than the activation successes will be compelled to feel that emotion for as long as they remain within the area. Whenever an affected character attempts to act contrary to the instilled emotion, he suffers a dice penalty on the action equal to the activation successes."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). As 2-dot power, but impose emotions on entire Boneyard for 5 Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can taint any part of the Boneyard or all of it with an emotion, using the rules described under the 2-point version, for a flat cost of 5 plasm."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Gain Plasm/Willpower/Health when those inside the Boneyard act in accordance with imposed emotion in significant ways.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater gains the power to actually feed off the strong emotions inculcated with the Passion Boneyard like a psychic vampire. Whenever a character affected by an emotional resonance instilled by the Sin-Eater acts on it in some important way, the Sin-Eater regains plasm and, in some cases, Willpower. There is no roll associated with this power."
+                    },
+                    {
+                        type: "table",
+                        headers: ["Traits Regained", "Situation"],
+                        rows: [
+                            ["1 plasm", "The target spends a Willpower in furtherance of the emotion"],
+                            ["1 plasm", "The target achieves an Exceptional Success or a Dramatic Failure in furtherance of the emotion"],
+                            ["1 plasm per health level", "The target injures himself as a result of the strong emotion"],
+                            ["3 plasm", "The target either loses Morality or gains a derangement as a result of the strong emotion"],
+                            ["1 plasm per health level, plus 1 Willpower", "The target dies as a direct result of the strong emotion"]
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ). Attack those impacted by imposed emotion with Intelligence+Empathy+Activation-Composure, draining Willpower, then doing Bashing when Willpower is reduced to zero.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can damage someone psychically through the power of emotional resonance. Once a target has come under the effect of an emotional resonance created through the Passion Boneyard, the Sin-Eater may attack them emotionally, draining them of Willpower and even health. Activating this power costs 3 plasm, and the Sin-Eater’s player must roll (Intelligence + Empathy + activation successes, minus the target’s Composure). Each net success on the attack roll causes the target to lose one point of Willpower. If the target is totally drained of Willpower, she becomes emotionally overcome as any remaining successes inflict one point of bashing damage each."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 118"
@@ -463,56 +1001,56 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Persuasion",
         Summary: "Generate simple illusions across the affected area",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Phantasmal Boneyard grants the Sin-Eater the power to see through any illusions which exist within the Boneyard’s area. While the Phantasmal Boneyard is active, the Sin-Eater may add his activation successes to all rolls to detect invisible objects or beings or to see through illusions within the Boneyard. He may also add his activation successes to any Resistance traits subtracted from rolls to manipulate his own perceptions."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. Add Activation to resistance traits subtracted from rolls to avoid having perceptions manipulated, add Activation to rolls to detect invisible objects or beings and penetrate illusions.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Alter a target's perceptions of their environment with Manipulation+Persuasion+Activation vs. Composure+Psyche so long as concentration is maintained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can affect the perceptions of a single individual within the Boneyard. The Sin-Eater’s player must roll (Manipulation + Persuasion + activation successes). This roll is resisted by the target’s Composure + Psyche. If the roll succeeds, the Sin-Eater may alter the target’s perceptions of her environment for as long as he maintains concentration on her. With an Exceptional Success, the illusion will persist for the entire scene even without the Sin-Eater’s continued concentration, although it will remain static and incapable of interacting with the target absent such concentration. Creating such an illusion costs 1 plasm."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). As 2-dot power but affect multiple targets at 1 Plasm apiece, may not split attention between areas.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can create illusions capable of fooling multiple individuals, at a cost of 1 plasm per target. If the targets remain close together, the Sin-Eater can cause the illusion to interact with them all. If they split up, he must choose the target with whom the illusion will interact, but the other targets are still susceptible to this power for the duration of the scene. In other words, the Sin-Eater may not split his attention between different locations within the Boneyard, but so long as he can focus on one area, he can totally control the perceptions of affected targets found there."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Cloak entire Boneyard or any part of it with illusion by rolling Manipulation+Persuasion+Activation for 5 Plasm. Affects anyone inside with Resolve lower than Suxx rolled.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target any part of the Boneyard or all of it, cloaking its true appearance in an illusion of his choosing. A dilapidated hovel can become a stunning mansion, while a desolate graveyard can suddenly become home to a carnival. The Sin-Eater’s player must roll (Manipulation + Persuasion + activation successes), paying a flat cost of 5 plasm. Any character who enters the affected area and whose Resolve is less than the successes rolled for this power sees the area however the Sin-Eater wishes."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ). Create a phantasmal killer that does Bashing for 3 Plasm or Lethal for 6 Plasm. Attacks are Wits+Intimidation+Activation-Composure, and if target's Composure+Psyche exceeds Activation, target is immune.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can harm someone with an illusion. None of the preceding powers are directly harmful, although they can indirectly harm a target by, for example, concealing a flight of stairs or the edge of a cliff. This power, on the other hand, allows the Sin-Eater to create illusions that can kill. The resulting illusion has an ambulatory form and acts as an extension of the Sin-Eater’s will. The Sin-Eater can cause her illusion to attack anyone who believes in it. The illusory killer’s attacks inflict bashing damage if the Sin-Eater spends 3 plasm to activate this power or lethal if she spends 6 motes. Regardless, each attack the killer makes requires the Sin-Eater’s player to roll (Wits + Intimidation + activation successes). Defense does not apply since the killer is illusory and therefore will always “hit” if the Sin-Eater wishes it to. However, the target’s Composure subtracts from the attack roll. Furthermore, if the target’s Composure + Psyche exceeds the activation successes, he is immune to the phantasmal killer."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 118"
@@ -523,56 +1061,56 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Survival",
         Summary: "Gains additional insights and abilities when activating the Boneyard within a forest or wooded area, including influence over animals and plants.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "Manifesting the Primeval Boneyard puts the Sin-Eater in tune with any wild area within the Boneyard’s radius and any wild animals within, allowing her to perceive the movements of such creatures with a thought. If the Sin-Eater unlocks this Boneyard within a heavily wooded or forest area, she can add her Animal Ken to the activation successes for purposes of determining the area. However, in such a case, the area of the Boneyard may never extend beyond the range of the forest in question, and its effects are blocked by signs of encroaching civilization — the Primeval Boneyard’s range cannot extend across any road which cuts through the forest, nor any fence constructed within the last ten years, nor may the Sin-Eater perceive within any manmade structure erected within the Boneyard."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. If unlocked in a heavily wooded/forest area, may add Animal Ken to Activation for size, but Boneyard becomes limited to forest and can't cross man-made structures (roads, fences, etc) or enter buildings.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Target an animal and trigger fight-or-flight reflex, Sin-Eater's choice if it flees the Boneyard or attacks first human it encounters. If target is magical or sentient, roll Wits+Animal Ken+Activation vs. Composure to activate.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target a specific animal within the Boneyard and trigger the creature’s fight or flight instinct. Any affected animal will either flee the Boneyard as fast as it is able or attack the first human it encounters in a rage, whichever the Sin-Eater desires. This power costs 1 plasm. There is no roll unless the animal is magical or otherwise sentient, in which case the Sin-Eater’s player must roll (Wits + Animal Ken + activation successes, resisted by the animal’s Composure). With an Exceptional Success, any affected animal gains a two-die bonus to any actions made under this power’s compulsion, such as Athletics rolls to flee or Brawl rolls to attack."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). As 2-dot power, but target multiple animals for 1 Plasm per target, or control one animal completely for 2 Plasm. By spending 3 Plasm, the animal can speak in your voice.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may target multiple animals with the preceding power at a cost of 1 plasm per creature. He may also target one specific animal and control it completely. This aspect of the power costs 2 plasm but uses the same mechanical rules as the previous power. If the Sin-Eater spends 3 plasm, she can even speak through the animal with her own voice."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Target a person with Manipulation+Animal Ken+Activation vs. Composure+Psyche, all animals they encounter will attack on sight, and reduce their Animal Ken rolls to a Chance Die.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may now engineer more complicated responses in the creatures of the forest. With this power, the Sin-Eater may target a single individual within the Boneyard’s area and instill within him a powerful aura which provokes atavistic rage in most animals. While the target is under this baleful effect the target will automatically provoke a rabid, bloodthirsty frenzy in any and every creature he encounters within the Boneyard, and all but the smallest and most cowardly of such creatures will invariably attack him on sight. This power costs 3 plasm, and the Sin-Eater’s player must roll (Manipulation + Animal Ken + activation successes, resisted by Composure + Psyche). In addition to any other effects, the target of this power is reduced to a Chance Die on all Animal Ken rolls while in the Boneyard. With an Exceptional Successes, the taint placed on the target is so pervasive that it persists for a full day even after the target leaves the Boneyard."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ). Attack targets with plant life. Brawl to grapple, Weaponry to attack otherwise, roll is Wits+Attack Skill+Activation-Defense. Attack does Bashing for 1 Plasm or Lethal for 2 Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can now manipulate plant life within the Boneyard, causing vines to grapple his enemies or trees limbs to smash them. Each attack costs 1 point to inflict bashing damage or 2 to inflict lethal damage. The Sin-Eater’s player must roll (Wits + Brawl) for grapple attacks or (Wits + Weaponry), adding the activation successes as bonus dice. The target’s Defense applies."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 119"
@@ -583,56 +1121,67 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Occult",
         Summary: "Influence over any flames or heat sources within the affected area.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Pyre-Flame Boneyard draws upon the resonance of fire, heat and ash. If the Sin-Eater manifests a Pyre-Flame Boneyard in either in a hot, desolate area like a desert or within the confines of a burnt-out structure, she may add her Occult rating to the activation successes for purposes of determining the affected area."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. If unlocked in a hot, desolate area or a burned out structure, add Occult to Activation for size.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Hinder with feverish disorientation. Target a person with Manipulation+Occult+Activation vs. Stamina, impose Activation as a penalty to all die pools while concentration is maintained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can afflict any person within the Boneyard’s area with a feverish disorientation. The Sin-Eater’s player must roll (Manipulation + Occult + activation successes), resisted by the target’s Stamina. If the Sin-Eater is successful, the target suffers a dice penalty on all actions equal to the Sin-Eater’s successes for as long as the Sin-Eater maintains concentration on him, as he begins to burn with fever. With an Exceptional Success, this dice penalty will persist for as long as the Boneyard does, even without the Sin-Eater’s continued concentration. This power costs 1 plasm."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). Hinder with choking smoke. As 2-dot power, but may select multiple targets at 1 Plasm apiece.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can inflict the previous penalty on multiple targets, each of whom becomes disoriented by the sensation of acrid, burning smoke pouring into his lungs. This power costs 1 plasm per target to be affected, and the effects last as long as the targets remain within the Boneyard. Any target who rolls more successes on Stamina than the Sin-Eater is unaffected."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Ignite a flammable target.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can ignite flammable materials within the Boneyard’s area. The Sin-Eater’s player must roll (Resolve + Occult + activation successes). This roll may gain +1 to +5 bonus dice on attempts to ignite particularly flammable materials, like oily rags or dry brush, or it may suffer a −1 to −5 penalty on attempts to ignite fire retardant materials, like wet cloth or foam insulation. The Sin-Eater may not target any moving object with this power, nor any living being. This power costs a variable number of plasm points equal to the size of the fire to be created. Lighting a candle costs 1 plasm, while blowing up a car might cost 10."
+                    },
+                    {
+                        type: "table",
+                        headers: ["Plasm Cost", "Size", "Description"],
+                        rows: [
+                            ["1", "1 or smaller", "A book."],
+                            ["2", "2-3", "A trash can, a bush."],
+                            ["3", "4-6", "Roughly man-sized."],
+                            ["4", "7-10", "Up to the size of a small car."],
+                            ["5", "11-15", "Up to the size of a large truck. This is the maximum Size which can be targeted with this power."]
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Inflict lethal fire damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may now inflict lethal fire damage on any target within the Boneyard’s area. The Sin-Eater’s player must roll (Wits + Occult + activation successes). Defense does not apply to this roll, but it takes a few seconds for a burning target to take damage from the flames, allowing a quick-witted target to “drop and roll” to put out the flames without taking damage. Any target subject to a successful use of this power may roll (Wits + Athletics) to put out the flames without taking damage. The target’s successes on this roll are subtracted from those rolled for the Sin-Eater, with each remaining success inflicting one level of lethal damage (or aggravated damage for beings who are especially vulnerable to fire). Each attack made with this power costs 3 plasm."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 116"
@@ -643,56 +1192,62 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Occult",
         Summary: "Perceive and affect ghosts within the affected area and can extend his perception into Twilight.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: [
+                    "While this Manifestation is active, the Sin-Eater can perceive ghosts anywhere within the Boneyard’s radius. The Sin-Eater also automatically senses pathways to the Underworld which exist anywhere within the Boneyard’s radius. ",
+                    {
+                        text: "Although all Sin-Eaters can normally see ghosts automatically, a Sin-Eater cannot perceive ghosts outside his immediate presence through a Boneyard unless it has been unlocked with the Stigmata Key.",
+                        bold: true
+                    }
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. Perceive ghosts and pathways to the Underworld anywhere within Boneyard.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Ward an area (roughly 5 Yards x Plasm spent) against ghosts with Power less than your Presence+Occult+Activation roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can ward a location within the Boneyard against spiritual intrusion, forbidding all but the most powerful of ghosts to enter her domain. The Sin-Eater’s player must roll (Presence + Occult + activation successes). The radius of the protected area is generally equal to five yards per plasm spent. However, wards of this nature tend to conform to structural boundaries, so if the radius is approximately equal to the area of the house in which the Sin-Eater stands, usually the ward will be coextensive with the house’s walls instead of forming a true circle. Any ghost will be unable to pass through the ward’s boundaries unless the ghost’s Power exceeds the successes rolled for this power. A ghost who cannot pass through the ward will also be unable to target anyone inside it with Numina. Any ghosts who are already within the confines of the ward when it is erected will be trapped within unless powerful enough to escape."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). Each Plasm spent extends the ward for one hour, each Lethal damage inflicted on self extends the ward for one day after Boneyard ends.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may create wards which endure even past the termination of the Boneyard itself. For every extra plasm spent, a ward created with the 2-dot version of Stigmata Boneyard will endure for one hour after the Boneyard is terminated. For every lethal level of damage the Sin-Eater inflicts on herself, the ward will persist for one full day after the Boneyard falls."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Bind a ghost or spirit into a location with Wits+Occult+Activation vs. Power for one hour per Plasm or one day per Plasm if two Lethal damage are taken. Bound ghost takes Activation(+2 if Lethal damage taken) as penalty to all Numina while bound, and Sin-Eater gains Activation to Social rolls against them and can compel to (de)materialize.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "Having mastered the art of warding, the Sin-Eater progresses to the more difficult art of binding. With this power, the Sin-Eater can temporarily bind a spirit or ghost to a location, sticking the entity’s spiritual body to the spot like a butterfly caught in a web. The Sin-Eater’s player must roll (Wits + Occult + activation successes, resisted by the ghost’s Power). If the roll is successful, the ghost will be bound to a spot within the Boneyard’s area of the Sin-Eater’s choosing for one hour per plasm spent in activating the power. With an Exceptional Success, double the number of hours the ghost is bound. If the Sin-Eater voluntarily suffers two levels of lethal damage, the ghost will instead be bound for one day per plasm spent. While bound, the ghost is incapable of leaving the location to which it is chained and it suffers a dice penalty on all Numina equal to (activation successes + 1 per lethal health level suffered by the Sin-Eater), which is normally enough to render most ghosts helpless. The Sin-Eater may choose to negate the Numina penalty as she wishes, and she can also free a bound ghost as a reflexive action. The Sin-Eater may also compel any ghost she has bound to materialize or dematerialize as she wishes, and she gains a dice bonus equal to the activation successes on all Social rolls to influence or manipulate the ghost."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ). Drain Corpus from ghost equal to Wits+Occult+Activation-Power and convert to 2 Plasm each.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "With this, the ultimate affront to the dignity of the dead, the Sin-Eater may drain Essence directly from a ghost, converting it into plasm. No physical or spiritual contact is necessary, as the Sin-Eater may target any ghost she can perceive within the confines of the Boneyard. There is no plasm cost. Instead, the Sin-Eater must spend either 1 Willpower point or inflict 1 lethal health level on himself per roll. The Sin-Eater’s player must then roll (Wits + Occult + activation successes, minus the ghost’s Power). Each net success drains the ghost of one point of Corpus which is converted into 2 plasm. The Sin-Eater cannot store more plasm than her normal limit, but that does not limit the number of Essence or Corpus levels he can steal -- extra plasm is simply lost."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 119"
@@ -703,56 +1258,56 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Subterfuge",
         Summary: "Dull the perceptions of others within the affected area and even make them fall asleep.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Stillness Boneyard is a subtle place compared to the Boneyards unlocked with the other Keys. Where the Phantasmal Boneyard allows the Sin-Eater to shape what his enemy sees, the Stillness Boneyard allows him to determine what she overlooks. While this Manifestation is unlocked, the Sin-Eater can confer a dice bonus equal to the activation successes on all Stealth-related rolls made for any allies of his choice at a cost of 1 plasm per person."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. Give targets bonus to Stealth rolls equal to Activation for 1 Plasm per target.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Target individual with Resolve less than Activation with a penalty to Wits-based perception of Activation, up to a number of targets equal to Activation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can target any single individual (including an animal) within the Boneyard’s area and inflict on her a dice penalty equal to the activation successes on all Wits rolls pertaining to perception or observation. Doing so is a diceless action which costs 1 plasm per affected target. The Sin-Eater may only inflict this penalty on a character if the activation successes exceed her Resolve, and she may affect no more targets than the activation successes."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). Inflict blindness, deafness and dumbness on target at 2 Plasm cost per sense with Wits+Subterfuge+Activation vs Composure+Psyche so long as concentration is maintained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can silence his enemies, afflicting them with blindness, deafness and dumbness. The Sin-Eater’s player must roll (Wits + Subterfuge + activation successes, resisted by the target’s Composure + Psyche). If the roll succeeds, the Sin-Eater may rob the target of her sight, her hearing or her speech for as long as the Sin-Eater maintains concentration on her, at a cost of 2 plasm. By spending 4 plasm, he can rob her of two of those abilities, and by spending 6 plasm, she can affect all three. With an Exceptional Success, the effect will last as long as the Boneyard does, and no further concentration is required."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Inflict ennui on all targets with less Resolve than Wits+Subterfuge+Activation in Boneyard. 2 Plasm inflicts natural sleep, 4 Plasm inflicts unnatural sleep that lasts as long as the Boneyard does.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "Using her own plasm to leech away the very life force of her enemies, the Sin-Eater can inflict a powerful ennui on a specific target. Usually, this will cause the target to fall asleep or, at the very least, to ignore everything around him. The Sin-Eater’s player must roll (Wits + Subterfuge + activation successes). Every character within the Boneyard whose Resolve is less than the successes rolled for this power will fall asleep for the duration of the Boneyard. For 2 plasm, this is a natural sleep from which a target can be roused by physical contact or simply a loud noise. For 4 plasm, this is an unnatural sleep from which no affected target can be roused until the Boneyard ends."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ). Drain target of Willpower equal to Wits+Subterfuge+Activation-Resolve. If Willpower is reduced to zero, target falls asleep for at least twelve hours.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater may ensnare a target with tendrils of invisible plasm which burrow into her soul and leech it of its vitality. A successful use of this power will cause the target to lose points of Willpower. The Sin-Eater’s player must roll (Wits + Subterfuge + activation successes, minus the target’s Resolve). Each net success causes the target to lose one point of temporary Willpower. If the target is completely drained of Willpower, she lapses into unconsciousness and cannot be aroused for at least twelve hours."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 120"
@@ -763,54 +1318,71 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                type: "line",
+                label: "Area of Effect",
+                text: "20 yards per activation success"
+            },
+            {
+                type: "paragraph",
+                text: "The plasm permeating the Stygian Boneyard grips those living people who cross its boundaries with the certain knowledge of their own mortality. Someone within the Boneyard knows with absolute clarity that she is going to die. Many people, when faced with this information, start to focus on the negative aspects of their lives, those bad habits that bring the last breath ever closer."
+            },
+            {
+                type: "paragraph",
+                text: "As an instant action costing 1 plasm, the Sin-Eater can force one person within the Boneyard to indulge her Vice. If that person does not do so by the end of the scene, she loses a point of Willpower. The Sin-Eater can affect only one person each time he unlocks this Boneyard."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards), Enter Trance, Force one person to indulge in their Vice by the end of the scene or lose Willpower.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Force up to Psyche targets to indulge their Vice in the Scene or lose Willpower, each as a separate action.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character can force the closeness of Death on a number of people in the Boneyard equal to her Psyche. The Sin-Eater cannot affect the same person twice within the same Boneyard, and each person affected takes a separate action."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
-                summary: "Expand Boneyard (100 x Suxx Yards), all who enter the Boneyard roll Stamina+Resolve or suffer 1 Bashing that does not heal for a week, -1 penalty to all Mental rolls on Dramatic Failure. Objects inside Boneyard for duration lose 1 Durability. You can access Plasm equal to Activation while inside Boneyard, though Manifestations fueled by this Plasm end when the Boneyard does.",
-                content: [
+                summary: "Expand Boneyard (100 x Suxx Yards), all who enter the Boneyard roll Stamina + Resolve or suffer 1 Bashing that does not heal for a week, -1 penalty to all Mental rolls on Dramatic Failure. Objects inside Boneyard for duration lose 1 Durability. You can access Plasm equal to Activation while inside Boneyard, though Manifestations fueled by this Plasm end when the Boneyard does.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Bound can drain the fires of life out of the surrounding area. Material objects suffer a month’s wear in a matter of hours and everyone who passes through the area picks up a stubborn head cold. Anyone who passes through the Boneyard must roll Stamina + Resolve as a reflexive action. On a failure, the person suffers a point of bashing damage that refuses to heal for a week. A dramatic failure inflicts a -1 penalty to all Mental rolls for the week as illness fogs the victim’s mind. Objects that remain in the area for the duration of the Boneyard lose one point of Durability. The Sin-Eater can also access a pool of extra plasm equal to the activation successes for as long as he remains within the Boneyard. This plasm only lasts while the Bound remains within the Stygian Boneyard. If she uses it to power any Manifestations with a lasting duration, they all end along when this Manifestation ends."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
-                summary: "Roll Wits+Medicine+Activations-(Durability or Stamina) to do 1 Lethal damage or 1 Structure damage to target person or object, -1 penalty to all rolls for a scene or -1 permanant reduction to equipment bonus on Exceptional Success. If Boneyard overlaps 2nd stage Promethean Wasteland, pay no Plasm.",
-                content: [
+                summary: "Roll Wits + Medicine + Activations - (Durability or Stamina) to do 1 Lethal damage or 1 Structure damage to target person or object, -1 penalty to all rolls for a scene or -1 permanant reduction to equipment bonus on Exceptional Success. If Boneyard overlaps 2nd stage Promethean Wasteland, pay no Plasm.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The plasm permeating the Stygian Boneyard actively decays material objects and ages people by years at a time. As an instant action, the Sin-Eater can affect a person or object in the Boneyard. His player rolls (Wits + Medicine + activation successes) - target’s Durability or Stamina. The target suffers one point of lethal damage or loses one point of Structure per success. On an exceptional success, an object permanently reduces its equipment modifier by one, and a person suffers a -1 penalty to all rolls until the end of the scene. This power costs 2 plasm. If the Sin-Eater’s Boneyard is in an area suffering the second stage of a Promethean’s Wasteland, this power costs no plasm."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ), can create an Avernian Gate inside Boneyard with extended Wits+Medicine+Activation roll needing 10 successes (15 minutes per roll), no cost on Exceptional Success.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The essence of death so permeates the Stygian Boneyard that a Sin-Eater can create a temporary Avernian Gateway in the Boneyard — for as long as it remains Manifested. Creating the gateway is an extended action with a dice pool of Wits + Medicine + activation successes requiring 10 successes, with each roll representing 15 minutes of concentration. The character has to signify a doorway to be the actual location of the gate, which must exist within the Boneyard. If the roll is successful, anyone can open the gate, and once created the Sin-Eater can’t seal the gate unless he also dissipates the Stygian Boneyard. An exceptional success allows the character to open the gate without spending any plasm. This power costs 2 plasm and 1 Willpower."
+                        ]
                     }
                 ]
             }
@@ -823,56 +1395,66 @@ export const ManifestationsKeysData = [
         Attribute: "Wits",
         Skill: "Occult",
         Summary: "Gains additional insights and abilities when activating the Boneyard while on or within a body of water.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Tear-Stained Boneyard draws upon the cold embrace of the sea. If the Sin-Eater extends the Tear-Stained Boneyard to cover a large body of water, he may add her Occult rating to the activation successes for purposes of determining the maximum area. In order to gain this benefit, the Sin-Eater must either actually be on the water far enough from shore to be over her head (although the Boneyard may be unlocked from a boat) or the Sin-Eater must be within (Boneyard rating x 100) yards of the spot where someone has drowned within the last ten years."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Establish Boneyard (10 x Suxx Yards). Enter Trance. If unlocked to cover a large body of water and far enough on the water or near a drowning site, add Occult to Activation for size.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Hinder with sense of drowning. Target a person with Wits+Occult+Activation vs. Composure+Psyche, impose Activation as a penalty to all die pools while concentration is maintained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can target any person within the Boneyard’s area and afflict them with the psychological sensation of drowning. The Sin-Eater’s player must roll (Wits + Occult + activation successes), resisted by the target’s Composure + Psyche. If the Sin-Eater is successful, the target suffers a dice penalty on all actions equal to the Sin-Eater’s activation successes for as long as the Sin-Eater maintains concentration on her, as she becomes unable to draw breath and becomes convinced that she is drowning. With an Exceptional Success, this dice penalty will persist for as long as the Boneyard does, even without the Sin-Eater’s continued concentration. This power costs 1 plasm."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Expand Boneyard (100 x Suxx Yards). As 2-dot power but may select multiple targets at 1 Plasm apiece, separate Composure+Psyche rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can target multiple targets with the 2-dot version of this power. Mechanically, this power functions just like the one before it except that the Sin-Eater may target multiple individuals with dice penalties caused by inclement weather. Each target rolls her Composure separately, and those who fail to get more successes than the Sin-Eater are affected. This power costs 1 plasm per target to be affected."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "Manifest a flood to attack. Target a person with Wits+Occult+Activation-Defense, do Suxx as Bashing damage. If target is in water, Plasm cost is reduced to 0.",
-                content: [
+                summary: "Manifest a flood to attack. Target a person with Wits + Occult + Activation - Defense, do Suxx as Bashing damage. If target is in water, Plasm cost is reduced to 0.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can target an individual with a watery attack even on dry land, as a flood of brackish sea water manifests to strike the target at the Sin-Eater’s bidding before disappearing. The Sin-Eater’s player must roll (Wits + Occult + activation successes). The target’s Defense applies to this roll. Each success inflicts one level of bashing damage, and each attack costs 1 plasm. If the target is actually in the water (whether swimming in the sea or lounging in a bathtub), this power costs nothing to activate."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Expand Boneyard (Miles x Suxx ), as with 4-dot power, but do 2 Bashing per Suxx.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may seek to drown his victim even on dry land. This power functions just the same as the 4-dot version, except that each net success inflicts two points of bashing damage, and each attacks costs 2 plasm."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 117"
@@ -883,56 +1465,56 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Occult",
         Summary: "User  body adopts the characteristics associated with cold air.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Cold Wind Caul chills the Sin-Eater’s body. He always feels cold and slightly clammy, as if he’s been dead for several hours, and turns translucent and indistinct. The Sin-Eater adds his activation successes to any Stealth rolls, and cannot be detected on thermal imaging equipment."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Body is chilled and clammy. Add Activation to Stealth rolls and do not show up to thermal imaging systems.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Blown by a cold wind, rather than walking. Remain 2'' above ground, 'walk' on water.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater is blown by a cold wind rather than walking. He remains roughly two inches above the surface of the ground, and can walk on water just as easily."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Body temperature lowers. Freeze up to 1 gallon of water on touch, do Activation in Bashing damage on grapple.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Bound may drastically reduce his body temperature, freezing up to a gallon of water with a touch and dealing his Caul rating in bashing damage to any opponent he grapples."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Rendered insubstantial. Reflexively ignore any attack on a lower Initiative.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "This power renders the Sin-Eater as insubstantial as the air. He can reflexively spend two points of plasm to completely ignore any attack that occurs after his initiative."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Merge with the wind. Vanish and re-form, move between outdoor points up to 5 miles apart in one minute, carry size 4 or smaller only.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater merges with the winds. By spending two points of plasm, he vanishes and can re-form anywhere within his Caul rating in miles just a minute later. The departure and arrival point must both be outdoors."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 121"
@@ -943,56 +1525,63 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Occult",
         Summary: "User body gains the durability of earth and stone.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: [
+                    "The Grave-Dirt Caul transforms the Sin-Eater’s body into dirt and rock from the inside out. While this Caul is unlocked, she becomes immune to being stunned or knocked out (",
+                    {
+                        text: "World of Darkness Rulebook",
+                        bold: true
+                    },
+                    ", pp. 166-167)."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Body transformed to dirt and stone. Take Bashing from firearms instead of Lethal.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Bones become thick stone. Become immune to being stunned or knocked out.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater’s bones turn to thick stone. She takes bashing damage from firearms instead of lethal."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Flesh becomes dirt and gravel. Gain Activation as temporary Health.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Manifestation transforms even the Sin-Eater’s flesh to dirt and gravel. She gains temporary Health dots equal to her activation successes."
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Bones become diamond-hard. Unarmed attacks deal Lethal rather than Bashing damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater’s bones and nails become diamond-hard. Her unarmed attacks deal lethal damage rather than bashing."
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Roll Stamina+Occult+Activation to become a stone statue for up to 1 day / Psyche, heal at double rate.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "Unlocking this power allows the Sin-Eater to transform herself into a living statue, sometimes called “the Cemetery Angel.” The player spends two plasm and rolls Stamina + Occult + (activation successes). Success indicates that the Sin-Eater becomes a stone statue. She cannot move in this form but is surprisingly resistant to damage. She gains one point of Durability per success, and Structure equal to her Durability + Size. She can remain in this form for up one day per point of Psyche, during which times he heals at twice the normal rate. Any Structure lost in this form is ignored when she reverts to human form. In this form, the Sin-Eater is effectively unconscious and unaware of her surroundings, though she retains some sense of the passage of time. On an exceptional success, she remains aware of her surroundings."
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 121"
@@ -1003,56 +1592,70 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Crafts",
         Summary: "Can physically merge with mechanical devices.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Industrial Caul melds the Sin-Eater and his geist into a figurative ghost in the machine. She blurs the line between living creature and machine, able to bond with man-made devices, and at higher levels can implant things into his body. Subsidiary powers of the Industrial Caul don’t involve dice rolls, and even those that do often deal with more than one piece of technology at once. The power’s effects are considerably surreal, replacing science with what some Bound call “necrotech.”"
+            },
+            {
+                type: "paragraph",
+                text: "Most powers of the Industrial Caul allow the Sin-Eater to meld with pieces of technology. Once she’s implanted a piece of technology, she adds her modified activation successes to her dice pool when using it. When using the Industrial Caul, she can’t properly relate to humans, suffering a -2 modifier to all Presence rolls."
+            },
+            {
+                type: "paragraph",
+                text: "Initially, the Industrial Caul allows a Sin-Eater to implant simple man-made items of up to Size 3 into his body. Every item costs a point of plasm to implant. Whatever she melds with cannot rely on electronic or chemical power sources. She can hide or reveal the objects as a reflexive action."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "-2 to Presence rolls, add Activation to use of implanted tech, implant simple (no electric/chemical power source) devices of up to Size 3, hide/reveal reflexively.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Implant anything up to Size 3, up to a number of devices equal to Caul dots, use up to two at a time extending through the arms.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The Sin-Eater can implant anything of Size 3 or below, including firearms and power tools. She can hold a total number of items in her body up to her Caul rating, though she can only use two items at once (extending each through one of her arms)."
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Manifest all objects implanted simultaneously, growing extra mechanical 'arms' as needed.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At this level, the Sin-Eater may manifest all the objects stored within her simultaneously, growing extra “arms” (which appear as mechanical constructions) as necessary."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Meld with objects of Size up to 10+Psyche, add Activation to use of object. Can't implant other objects while doing so.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character may meld with larger objects, up to Size 10 + the Sin-Eater’s Psyche. She can’t store any other items within herself while joined with a large device, and it costs two points of plasm to join with it. Her hands and legs flow into the machine while she controls it."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Meld and store objects, manifest them simultaneously, each object manifested costs 1 Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can store items within her body when bonding with larger machines, and reveal them as for Industrial Caul •••, though each item she grows an arm for costs a point of plasm."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 122"
@@ -1063,56 +1666,72 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Empathy",
         Summary: "Merges more fully with her geist, gaining greater intelligence and empathic abilities.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Passion Caul invites the geist to share the Sin-Eater’s mind as well as her body. This is the ultimate intimacy, as she shares her every thought and notion with her geist. She can have no real secrets while she dons the Passion Caul, but in exchange she gains her geist’s help in matters of both body and mind. The Sin-Eater adds her Caul rating as bonus dice to all Intelligence rolls she makes while manifesting the Passion Caul (save those to activate Manifestations)."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Fully share mind with your geist. Add Activation to all Intelligence rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Work with your geist's help to solve a mental problem. Gain Rote Action to one Mental Skill roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "She can turn any mundane Mental Skill roll into a rote action by spending a point of plasm."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can work in parallel with her geist to focus on a specific problem."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Add Activation to all Empathy, Intimidation, Persuasion, Socialize and Subterfuge rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character can understand the emotional responses of others on a deeper level than before. She adds her activation successes as bonus dice to all mundane Empathy, Intimidation, Persuasion, Socialize, or Subterfuge rolls."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Roll Manipulation+Empathy+Activation vs Composure+Psyche to cause another touched person to love you for as long as Passion Caul is up. Roll Dexterity+Brawl to touch if resisted. After the Manifestation ends, target knows about manipulation, gets +3 to Composure rolls against you for remainder of Chapter.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "With a touch, the character can forge a strong emotional bond with another person. She can make another person love her for as long as she manifests the Passion Caul. If her target’s actively trying to avoid her, she may first need to succeed at a Dexterity + Brawl roll to touch him (the World of Darkness Rulebook, p. 157). The player spends two plasm and rolls Manipulation + Empathy + (activation successes) versus the target’s Composure + Psyche (resistance is reflexive). Success infuses the target with an overwhelming admiration for the Sin-Eater, coupled with a desire to keep her from harm. He will not take a violent action against her while she manifests the Passion Caul. Some people (especially those with the Virtue of Charity or Justice or Pride or Wrath as their Vice) will go further, fighting on her side because of their infatuation with her. When the effect ends, her target knows that he was manipulated. He gains a +3 modifier to his Composure when dealing with the Sin-Eater until the end of the chapter."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Complete mind/soul merger with geist. Completely negate a mind- or emotion-controlling power used against you for 1 Willpower.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater and geist share complete control of their mind and soul. Any supernatural powers that directly target the Sin-Eater’s mind are diffused and deflected as the geist takes over; another use of the power against the geist simply returns the Sin-Eater to majority control. The Sin-Eater can apply a -5 penalty to any use of a mind or emotion-controlling power used against her by spending a Willpower point; this is a reflexive action."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 122"
@@ -1123,56 +1742,66 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Persuasion",
         Summary: "Can shape his body into horrific forms.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Phantasmal Caul infuses the Sin-Eater with the essence of illusion and madness. His body becomes soft and pliable as ectoplasm under his hands, able to take on terrifying shapes and impossible forms. The Sin-Eater can alter his body’s shape as an Instant action. While this doesn’t directly alter his traits, a suitable modification can add his activation successes to a Physical Skill roll."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Can modify body's shape as Instant action, suitable mod adds Activation to a Physical Skill's rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Alter form to inflict paralyzing fear. Roll Stamina+Expression+Activation-(highest Composure present). For 1 turn / success, viewers take as penalty to act except cowering/running away.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can augment his altered form to inflict paralyzing fear in anyone who sees it. The player spends two plasm and rolls Stamina + Expression + (activation successes) - (the highest Composure rating of any witnesses). Success means whoever sees the Sin-Eater during this activation suffers terrible fear. Viewers suffer a penalty equal to the number of successes rolled for this power on any action that doesn’t involve either cowering in fear or running directly away from the Sin-Eater. This penalty lasts for one turn per success rolled."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Body becomes very pliable. Any Bashing damage taken is halved, rounded down.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s body becomes virtually spectral in its pliability. Any bashing damage he takes is halved (rounding down)."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Warp body to grow limbs stretch chest into a cage. Add Activation to any single Brawl or grapple roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can warp his body in strange ways, stretching his chest into a cage or growing extra limbs. He may spend one plasm to add his activation successes to any Brawl roll, including those made to grapple foes."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Shift into a form that induces madness. Roll Manipulation+Expression+Activation vs Morality+Psyche, inflict minor (or increase to major) derangement on target for one scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can shift into a form that induces utter madness in a single target. The player spends 2 plasm and 1 Willpower, and rolls Manipulation + Expression + (activation successes) versus target’s Composure + Psyche (resistance is reflexive). Success inflicts the target with a new minor derangement, or the major form of an existing minor derangement. This derangement lasts until the end of the scene."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 123"
@@ -1183,56 +1812,84 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Animal ken",
         Summary: "Can acquire animal traits and even animal forms.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Unlocking the Primeval Caul allows a Sin-Eater to take on aspects of animals to enhance his body. Taking on the aspects of all manner of wild animals, the Sin-Eater can add his activation successes to any Perception rolls. If blinded, he can track foes by sound or scent (adding his activation successes to the Wits + Composure roll, as noted on p. 167 of the World of Darkness Rulebook). He also adds his activation successes to any Survival rolls to follow trails."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Senses are heightened. Add Activation to Perception rolls. If blinded, can track foes by sound and scent. Add Activation to Survival when tracking.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Gain instinctive animal awareness. Defense is higher of Wits or Dexterity. Add Activation to Speed.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater gains an animal’s instinctive awareness of what to do in a dangerous situation, and uses the higher of his Wits or Dexterity to determine his Defense. He may also spend one plasm to add his activation successes to his Speed for a turn."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Body takes on animal features. For one scene, distribute Activation amongst Strength, Dexterity and Stamina.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "His body taking on new bestial features, the Sin-Eater can distribute his activation successes among his Physical Attributes. These changes carry through to derived totals such as Initiative and Health. This power costs one Willpower to activate for a scene."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Eat some flesh of an animal Size 3 to 7. Spend one Plasm to store it's form, up to a number equal to Psyche, for up to a month. Can later transform into that animal as Instant action by paying 1 Plasm and 1 Willpower with Stamina+Animal Ken+Activation roll, up to end of scene. Must revert to human form to use Caul benefits besides Perception/Defense bonus.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character can twist his body into that of an animal with Size between 3 and 7. He must first eat some of the animal’s flesh and spend a point of plasm to internalize its form. He can store one animal form per dot of Psyche, but loses them after a month. The player spends 1 plasm (per point of the animal’s Size) and 1 Willpower, and rolls Stamina + Animal Ken + (activation successes) as an instant action. Success grants the animal’s form. If the animal is smaller, add the difference in Size to the Sin-Eater’s Dexterity and subtract it from his Strength and Stamina. If the animal is larger, add the difference in Size to Strength and Stamina but subtract it from his Dexterity. No matter the Size, the Sin-Eater’s Physical Attributes cannot be reduced below one dot."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "In animal form, the Sin-Eater must communicate nonverbally. Where he can use Social Skills, he does so with a three-dice penalty. He gains the bonuses to Perception and Defense for Beast Caul • and ••, but cannot access other powers of the Beast Caul without reverting to human form. The Sin-Eater can remain transformed until the end of the scene, but can revert to human form at any point."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The player may activate this power, or the following, without calling on the one- to three-dot powers associated with the Primeval Caul."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Roll Resolve+Animal Ken+Activation to split into a group of small animals.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can split his body into a group of small animals — a murder of crows, a swarm of rats, or a cluster of spiders. The player spends 2 plasm and rolls Resolve + Animal Ken + (activation successes) as an instant action. Success splits his body into a group of animals, disintegrating where he stands."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "In this form he can do little else than move at four times his Speed each turn — controlling so many distinct bodies is difficult, and makes attacking practically impossible. He gains five dice to all Stealth rolls to avoid pursuit, and anyone attacking the swarm with a normal weapon can’t do damage enough to affect the Bound when he re-forms. Only fire and gas attacks can damage the group. This power lasts until the end of the scene or until the character chooses to end it, and he does not receive other benefits of the Beast Caul when it is active. The Sin-Eater can reflexively spend a point of plasm to remain discorporate for an hour."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 124"
@@ -1243,56 +1900,66 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Occult",
         Summary: "User body generates light and tremendous heat. ",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Pyre-Flame Caul kindles a flame within the Sin-Eater’s breast that eventually consumes his body. He always feels warm to the touch, as though he’s running a fever, and can cause his body to glow as bright as a bonfire. Anyone trying to attack the Sin-Eater suffers his activation successes as a penalty to the attack roll."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Feel warm to the touch. Attacks against you take Activation as a penalty, can glow brightly.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Body is a crucible. Gain 3 Plasm. Can't negate damage with Plasm, counts as agg for Mending the Mortal Coil.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s body is a crucible. He can take one point of lethal damage to gain three points of plasm."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Become more agile. Allocate Activation between Initiative, Speed and Defense.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character gains swift and agile movement. He can spread his activation successes between his Initiative, Speed, and Defense; each two successes grant a +1 bonus."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Body shines more brightly. Those who look directly at you are blinded for Activation turns.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s body shines incredibly bright. Anyone who looks directly at him is blinded for a number of turns equal to his activation successes."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Spend up to Activation Plasm, 1-to-1 for Dexterity, Wits or Manipulation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Bound can transform plasm in his internal crucible. He may spend a number of points of plasm up to his activation successes. Each three points allows him to distribute an extra 2 points among his Finesse Attributes as long as he manifests the Pyre-Flame Caul."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 122"
@@ -1303,56 +1970,66 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Occult",
         Summary: "User  can manipulate his own blood in bizarre and esoteric ways.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Blending with his geist in the Stigmata Caul grants the Sin-Eater power over his own body, controlling even autonomic functions like respiration. The core of blood within him is all that a Sin-Eater needs to control his body. At the most basic level, the Sin-Eater can control his metabolic functions. He does not need to breathe, eat, or sleep while manifesting the Stigmata Caul, and is immune to penalties from hunger or fatigue."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Control autonomic functions of body. Do not need to breathe, eat or sleep, not affected by hunger or fatigue penalties.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Create pool of own blood, at least 1 Bashing worth. See through pool. Lose Defense, shifting between pools is instant action.Animate your spilt blood, move it up to speed, has Strength 1.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character can control his own spilt blood. He must infuse the blood with a point of plasm. While he’s focusing his senses on a pool of infused blood he can move it up to his Speed each turn. The blood cannot climb walls, but the Sin-Eater can form it into specific shapes and even letters, or manipulate objects with an effective Strength of 1."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Control pool of own blood, infused with plasm. Focus and move up to your Speed, form into shapes.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can focus for a moment and see through a pool of his own blood. Spilling enough blood to see through costs him a single point of bashing damage. He can choose to see through any pool of his own shed blood while bound in the Stigmatic Caul, but he can only look through one pool at a time and shifting his vision takes an instant action. While looking through a pool of blood the Sin-Eater isn’t aware of his own surroundings and can’t apply his Defense to any attacks."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Detach arm, move it up to your Speed, has your Physical Attributes, Size 2 and 1/2 your Health.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Perhaps the most disturbing power available to Sin-Eaters, this ability allows the Sin-Eater to detach one of his own arms and control it at range. The limb can move up to the Sin-Eater’s Speed, and has his Physical Attributes and Speed, but is Size 2 and has half of his Health. Controlling his arm takes the Sin-Eater’s full concentration only when it’s out of his immediate area; if it’s in the same room he can control it as a reflexive action. The arm is only destroyed if it suffers its entire Health in aggravated damage, and does not bleed. The Sin-Eater has to collect his own limb, and cannot heal any damage taken by it until he re-attaches it to his body. Attaching the limb is an instant action."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Bigger pool. Create blood homunculus, has your Attributes and Skills but is Size 2 and has 1/2 your Health. You have -3 to act while concentrating on it.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can craft a homunculus out of his own blood. This costs 2 points of plasm, and the amount of blood necessary means the Sin-Eater takes an additional point of lethal damage in addition to the damage taken when invoking the Stigmata Caul. The creation has the same Attributes and Skills as the Sin-Eater, but is only Size 2, and has half the Sin-Eater’s Health. He can see and hear through the homunculus, and control it directly, but doing so gives him a 3-dice penalty on any actions taken by his “main” body. Even when not under his direct control, the homunculus has enough awareness to apply Defense to attacks and resist supernatural powers."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 124"
@@ -1363,56 +2040,66 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Stealth",
         Summary: "User can merge with shadows.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Manifesting the Stillness Caul bonds the Sin-Eater to the essence of the Underworld’s shadows. As he unlocks greater powers of the Stillness Caul he can travel through shadows and even subsume his body into living shadow. Simply manifesting this Caul applies his activation successes as a penalty to all Wits + Composure rolls made to detect him by sight, sound, or scent."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Activation acts as penalty to Wits+Composure rolls to detect you by sight, sound or smell.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Remove self from someone's memories. 1 target at a time, max 1x/day/target. Wits+Stealth+Activation vs. Resolve+Psyche. Removes up to 2 turns (6sec) per point of Caul from memory.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s shadowy body slips around attacks. He may add his Caul rating to his Defense."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Step between shadows within 10 yards / Activation, vanish, reappear at beginning of your next turn.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may step through shadows. He has to be standing in a patch of shadow large enough to conceal himself, and can move to any patch of shadow within 10 yards per activation success. He spends 1 plasm to shadow-step, vanishing utterly, and appears in the destination shadow at the beginning of his next turn."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Become shadow, immune to physical damage, pass through windows, under doors or up flat surfaces. Cannot manipulate objects.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can become living shadow. He may spend a point of plasm to transform into a shadowy, quasi-solid form for the remainder of the scene. As a part-shadow, he can pass through windows and under doors, and may flow or creep up flat surfaces at his full Speed."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As Stillness Caul 2, but completely remove self from short term memory of target. Same roll, with success, target will forget you again every turn.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can reflexively shift between solidity and incorporeal shadow with the expenditure of one plasm. While incorporeal, he becomes immune to physical damage (though not the attacks of entities in Twilight). However, he can only move along flat surfaces, and cannot manipulate objects while in his shadow form."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 125"
@@ -1423,54 +2110,64 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Unlocking the Stygian Caul infuses the Sin-Eater’s body with the essence of death, numbing her to external distractions and giving her a clarity that most people will never experience. Manifesting this Caul reduces all penalties to Mental rolls that she suffers by an amount equal to the activation successes, though this cannot turn a penalty into a bonus. Being detached makes it harder for the Sin-Eater to fully apply herself. Spending a point of Willpower to bolster an action only adds two dice, rather than three."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Reduce all penalties to Mental rolls by Activation, but Willpower only adds +2.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Only take Bashing damage from firearms, no damage from extreme temperatures or pressure, electricity, non-supernatural diseases, drugs and poisons, and do not fall unconscious due to Bashing damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s pulse stops, and her flesh grows cold and waxy like that of a dead man. She can spend a point of plasm as an instant action to gain all the benefits of being a walking corpse for the duration of the Caul: she takes bashing damage from firearms rather than lethal; she suffers no damage from extremes of temperature and pressure; most non-supernatural diseases, drugs, and poisons have no effect. Further, electricity doesn’t cause her damage, though a continuous source still requires a Strength roll to break away. Finally, she doesn’t fall unconscious when she takes her final point of bashing damage."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Spend 1 Plasm reflexively to add Activation to Stamina (but not Health) for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At this level, the Sin-Eater enhances her ability to endure all manner of hardship when in her corpse-form. Her nerves deaden and though her bones may break, rigor mortis in her muscles holds them in place. By spending a point of plasm as a reflexive action, she can add her activation successes to her Stamina (but not derived values such as Health) for the duration of the Caul."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Add Activation to Health, do not fall unconscious due to any types of damage, do not suffer wound penalties. May take 1 Bashing damage to fit through any space as large as your head.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater no longer notices as her muscles tear and bones snap. She ignores mere physical damage, even when it would kill a normal person. In her corpse-form, the Sin-Eater adds her activation successes to her Health, never rolls for unconsciousness due to damage, and suffers no wound penalties. She can voluntarily take a point of bashing damage to fit through any gap large enough to take her head. Finally, her capacity to survive damage is greatly increased."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Pay 1 Plasm to become an Anchor for any ghost you can see for one week.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater channels the essence of death itself, becoming a physical bridge between the Underworld and the living world. She can voluntarily act as an anchor for any ghost she can perceive, though she must spend a point of plasm to do so. She can do this even when in the Lower Mysteries, providing one way for any ghost to visit the living world — assuming she makes it back herself. She remains an anchor for a week, after which her connection to the ghost is lost."
+                        ]
                     }
                 ]
             }
@@ -1483,56 +2180,66 @@ export const ManifestationsKeysData = [
         Attribute: "Stamina",
         Skill: "Occult",
         Summary: "User body gains the characteristics of water.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Tear-Stained Caul infuses the Sin-Eater’s body with brackish, cold water. She may move through water without penalty, swimming at her full running Speed."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Body infused with water. Heal 1B per turn, heal Lethal as Bashing if at least half submerged in water.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Add Activation to Strength rolls for grappling.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater holds her foes with the crushing inevitability of the seas. She adds her activation successes to her Strength when grappling someone."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Body flows around attacks. Defense applies against firearms.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This level allows the Sin-Eater to flow around attacks. She applies her Defense against firearms attacks."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Meld with a body of water of at least Size 10. Move between points up to Caul dots in miles in one scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character can meld with any body of water, reappearing elsewhere. She must be standing in a body of water to unlock this power. Upon doing so, she transforms into liquid form, merges with the body of water, and emerges up to her Caul rating in miles at a different point within the same body of water at the end of the scene."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Transform into a wave, travel 30' forward, do Activation in Lethal damage to everyone within 10' of path.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can transform herself into a crashing wave. She travels 30 feet straight forwards, dealing her activation successes in lethal damage to everyone within 10 feet of her path."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 122"
@@ -1543,56 +2250,66 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Occult",
         Summary: "Can cause inclement weather to dog his target.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Cold-Wind Curse is a subtle one. It is a curse of bleak skies and bitter winds, all felt in the psyche. The victim feels the effects of exposure to wind, rain and chill even indoors or on a sunny day. When outdoors, the curse intensifies, inflicting a penalty equal to half the activation successes on any rolls while exposed."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. Bad weather follows the target. Penalize subject's rolls by 1/2 Activation while exposed.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Extend duration to 3 days / Activation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may increase the duration of the psychic bleakness to three days per activation success by spending an extra point of plasm."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Victim cannot get warm, shivers uncontrollably. -2 modifier to all actions.",
-                content: [
+                summary: "Temperature in vicinity drops below freezing. If using a Physical Skill outdoors, -2 modifier to keep balance.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The general temperature drops, and the victim perceives it as below freezing. Whenever she attempts to use a Physical Skill outdoors suffers a -2 modifier as she tries to keep her balance."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "Temperature in vicinity drops below freezing. If using a Physical Skill outdoors, -2 modifier to keep balance.",
-                content: [
+                summary: "Victim cannot get warm, shivers uncontrollably. -2 modifier to all actions.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Shivering and unable to concentrate, the victim cannot ever get warm enough. All her actions suffer a -2 modifier."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Subject must succeed at a Resolve roll each hour or lose a Willpower point, even indoors.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The gloom reaches into the target’s very soul. The victim must succeed at a Resolve roll or lose a point of Willpower at the end of each hour. This effect is not negated by shelter."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 126"
@@ -1603,56 +2320,66 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Occult",
         Summary: "Inflict claustrophobia, insomnia and despair on her enemy.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A victim of the Grave-Dirt Curse feels the weight of the world pressing down upon him. Normally it’s nothing that a couple of cups of coffee won’t deal with, but at night the weight crushes his chest and stops him breathing just long enough to wake him right back up. This curse lasts for six hours per activation success. The victim cannot sleep for the duration of the hex (see “Fatigue,” World of Darkness Rulebook p. 179, but note that the victim automatically succeeds at Stamina + Resolve rolls)."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 6 hours / Activation. Subject can not sleep for duration of the Curse. See WoD p179 for fatigue rules, but auto-success on Stamina+Resolve rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Sleeplessness extends to anyone who shares a bed with the victim.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The base effect of the Grave-Dirt Curse applies to anyone who attempts to share a bed with the hex’s victim."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Subject becomes short of breath. Subject loses 1 Stamina dot for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim suffers even when he’s not sleeping. He’s short of breath before any exercise. For the duration of the curse, the victim loses one point of Stamina (to a minimum of 1). This effect costs an additional point of plasm, and only affects the victim of the curse."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Subject's limbs feel weighted down. Subject loses 1 Dexterity dot / 2 Activation for the duration, to a minimum of one.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The weight felt by the victim increases again, restricting his arms and limiting his movements. The Sin-Eater spends an extra point of plasm, but reduces his victim’s Dexterity by 1 for every two activation successes (to a minimum of 1)."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Subject feels like wrapped in mud. Rolls for fine physical manipulation are penalized by Activation. Subject loses 1 Willpower point per day.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim’s limbs feel like they’re wrapped in a thick layer of mud. He can’t feel anything. Rolls requiring fine manipulation suffer a penalty equal to the activation successes. Every day the victim goes without touching something, he loses a point of Willpower due to sensory deprivation. The Sin-Eater must spend two extra points of plasm to activate this effect."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 126"
@@ -1663,56 +2390,72 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Crafts",
         Summary: "Cause his enemy to suffer penalties when using technology.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Industrial Curse makes its victim anathema to the modern world. While the Pyre-Flame Curse simply causes items to fail, the Industrial Curse instills devices around the victim with a degree of malevolence. Computers come down with viruses and spyware even if they’re not connected to the Internet, tools slip out of the victim’s hands, and his car’s brakes fail at the worst possible moment. The Sin-Eater using this hex must choose the most recent technology that the curse will affect, and use the appropriate modifier listed under the Industrial Key. The hex won’t affect any newer technology — so hexing a victim hard enough to screw with her laptop won’t fuck with her hybrid car."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The base effect of the Industrial Curse reduces the equipment modifier of a piece of technology to 0. Devices with a negative modifier aren’t affected. The device doesn’t stop functioning, but it fights the cursed character every step of the way."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. Reduce Equipment bonuses for the subject to a maximum of zero.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "All subject's positive Equipment bonuses become negative, negative Equipment bonuses are penalized by a further -2.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Every piece of technology the victim owns turns its bonus into a penalty. The more a device has helped in the past, the more it hinders now. Items that already give a penalty, whether through shoddy workmanship or inherent instability, have their penalty increased by two."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Every roll the subject makes with an item inflicts Activation damage on the item, subtracting Durability as normal.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Every roll the victim makes involving the item deals one point of damage to the item per activation success. This damage is affected by Durability as normal."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Every roll the subject makes with an item inflicts 1 Bashing damage on himself.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "An affected device twists in the victim’s hands, sharp edges protruding surprisingly deep. Every roll the victim makes with an affected piece of technology deals him three dice of bashing damage. The Sin-Eater must spend an extra point of plasm to activate this effect."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "One item of technology with Equipment modifier less than Activation deals 3x Equipment modifier in Lethal damage to the subject.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Accidents happen. Brake lines snap and loaded guns go off before the victim’s had a chance to draw them. The Sin-Eater must spend two points of plasm to activate this effect. One item of technology with an equipment modifier of less than or equal to the activation successes deals (3 x its equipment modifier) dice of lethal damage to the victim."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 127"
@@ -1723,56 +2466,78 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Empathy",
         Summary: "Inflict emotional turmoil on her enemy.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Love and hate tug at the heart of a victim of the Passion Curse, often over people he’s never seen before. The value of the Passion Curse comes from its unpredictability. Even the Sin-Eater unlocking the Manifestation doesn’t know what results the hex will have, only which emotions she encourages her geist to spike."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The victim of this curse finds whichever emotion the Sin-Eater specifies acting as a recurrent theme in his life for the duration of the hex. He doesn’t necessarily feel the emotion directly, but people around him do, and that’s sometimes worse — a man cursed with the passion of love might watch the girl he’s lusted after fall for his best friend, or he makes a move only for her husband to find out."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Initially, the emotional resonance only passes on to people the victim touches, but increasing ranks may extend this effect. A person interacting with the victim in such a manner that the curse may affect him makes a reflexive Resolve + Composure roll. If he does not achieve more than the Sin-Eater’s activation successes, the curse takes hold."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. Subject passes a chosen emotion to others by touch.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "The emotion has a chance to affect anyone the subject speaks to.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Anyone the victim speaks to in person may feel the pull of emotion."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Anyone within 10' of the subject may be affected. Actions that are based in the emotion gain Activation as a bonus, in opposition take Activation as penalty.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Anyone within 10 feet of the victim feels the pull of emotion. Any actions that further the emotion gain a bonus equal to the hex’s activation successes, while those that go against the chosen emotion suffer a penalty equal to the activation successes."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Duration is reduced to 1 hour / Activation. If someone acts in furtherance of the emotion, one roll (ST's choice) that doesn't further is reduced to chance die.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater must spend two extra points of plasm to empower this version of the hex. Whenever the victim takes an action in some way related to the emotion (attempting to seduce a beloved target, trying to dodge an attack made under the influence of wrath), the roll receives a -4 penalty. This version of the curse can only last for one hour per activation success."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Each Dramatic Failure generated by the 4-dot version of this Curse give you 1 Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This level feeds the emotional resonance of the hex back to the Sin-Eater. Every dramatic failure arising from the four-dot hex gives her a point of plasm."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 127"
@@ -1783,56 +2548,72 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Persuasion",
         Summary: "Change the perceptions and beliefs of her target.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Phantasmal Curse is a curse of illusion and madness. The victim may see or hear things that aren’t there at lower levels, while at higher levels the illusions can follow him around and drive him insane. A particularly nasty Sin-Eater can leave someone under the Phantasmal Curse for long enough that his victim is diagnosed with schizophrenia, leaving him alive but very much unable to interfere in the Sin-Eater’s plans."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "To a victim of the Phantasmal Curse, distances warp and twist. Initially, he just appears clumsy and awkward — bottles and jars slip from his grasp, and he can’t write coherently worth a damn. He suffers a penalty to Dexterity and Perception rolls equal to the activation successes. That’s just the start of his torment."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. Perceive distances as warped and twisted. Subject takes Activation as a penalty to Dexterity and Perception rolls. (Not Defense.)",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Create a number of hallucinogenic characters equal to Activation. May dictate details or leave it up to the subconscious.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can insert fictitious characters in the victim’s mind. These characters appear real to the victim, talk to him, and generally act just like other people. The hallucination can be anything from a Manifestation of how the victim wants to look and act to a six-foot three-and-a-half inch talking rabbit. The Sin-Eater can craft one character per activation success, or leave the precise details up to the recesses of her victim’s subconscious. Once created, the fictitious characters are under the control of the victim’s subconscious, not the Sin-Eater."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Distortions impact balance. Subject's Dexterity rolls doing anything but walking slowly forward reduced to chance die in initial Scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim’s sense of balance erodes as distances warp and become thoroughly malleable. All Dexterity rolls to do more than walk forwards slowly are reduced by an additional three dice for a scene when the curse takes hold."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "The subject believes any one simple statement per success unequivocally for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may change the facts of the world as the victim understands them. She can make one simple statement per activation success: “The government can read your thoughts through the fillings in your teeth,” or “Government satellites beam cows into your brain every night,” or “The world is a two-dimensional playpen for higher beings.” The victim believes these statements as objective truths for the duration of the curse, though he may spend a point of Willpower to ignore the effects of the belief for a scene. If the implanted belief puts him in danger (such as believing he can fly while atop a building), he may spend a point of Willpower to end the curse’s effects entirely. Screwing with a victim’s reality in this manner costs two extra points of plasm."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Extend duration to 1 week / Activation. Medication and therapy do not improve it.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "By spending a point of Willpower when she lays the hex on her victim, the Sin-Eater may apply the basic penalty to Dexterity and Perception rolls to all Resolve or Composure-related rolls as well."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 127"
@@ -1843,56 +2624,72 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Animal ken",
         Summary: "Turn animals against the target and even turn the target into an animal.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A man suffering from the Primeval Curse has the natural world turn against him. In the city, he suffers attacks from rats, pigeons, and feral cats and dogs — though if he travels through the sewers, he might find out the truth behind all those alligator stories. In the wilderness, the Curse can make enemies of wolves, cougars, and all manner of other creatures. All effects of the Primeval Curse last for an hour per activation success."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "To begin with, the Primeval Curse just sours its victim’s relationship with any and all animals: for the duration of the Curse, all the victim’s Animal Ken rolls suffer a penalty equal to the activation successes."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 hour / Activation. Subject's Animal Ken rolls are reduced to chance die, even despite any bonuses.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Animals equal to Activation of a specific type gather around the subject, including trying to break into buildings.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Animals of a specific type (canines, birds, snakes or the like) seek the victim out. Though they don’t attack, a number of animals equal to the activation successes home in on the character. These animals follow the victim for the duration of the curse, trying to get as close as possible to him. If he enters a building, the animals drawn by the curse will try their best to break in to be with him."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "All animals within 100 yards / Activation are drawn to the subject.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The animals attracted by Primeval Curse •• are more directly hostile in nature, and will attempt to harm the victim, though not if the only way to do so is suicidal."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Victim takes form of next animal he touches. Non-reflexive physical actions take -4 due to confusion. Separate hex.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The focus of the curse shifts to the victim directly. A hex of this form costs two extra points of plasm. The Sin-Eater summons a ghostly animal that affects the target’s peace of mind — a dead pet, an animal he accidentally or deliberately killed, or the like. The ghost animal silently stalks the target for the curse’s duration, imposing a penalty to Resolve and Composure rolls equal to the activation successes. The shade is an actual ghost, and can be dealt with by other Sin-Eaters, though any rolls to do so suffer a -2 penalty if the intercessor does not possess the Primeval Key."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Victim's mind turns into that of next animal he sees. Supernaturals can resist with 2 plasm (or equivalent) and 1 Willpower to think as human for a turn. Mental/social attributes take penalty equal to Activation. Otherwise, focused on finding food and avoiding predators. Separate hex.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater conjures a stalking ghost as in the four-dot power, but the bestial shade is of more dire aspect. Once per day, if it catches its target alone, it may attack with a dice pool equal to the activation successes. The victim loses one Willpower point per success."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 128"
@@ -1903,56 +2700,66 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Occult",
         Summary: "Cause fire, electricity and other forms of power to refuse to function for the target.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "As man created fire to hold back the dark, the Pyre-Flame Curse steals it back. The only Elemental Curse with largely physical effects, the base curse simply prevents her from making fire: lighters spark but don’t catch, and matches break when she tries to strike them. If she tries to take a flame from another source, say by lighting a piece of paper, the flame dies as she watches."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. Prevents subject from making or taking fire for the duration.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Suppresses fires within 10 yards / Psyche of subject--nobody can start, existing fires go out.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The fire-blocking effect extends to a range of 10 yards per dot of Psyche if the Sin-Eater spends an extra point of plasm when hexing the victim. Not only can nobody make fire in that radius, existing fires go out — especially dangerous in an apartment with a gas stove."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Suppresses electrical devices the subject carries as well.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Sparks of electricity refuse to fire for the victim. Any device that runs on electricity, from computers to light switches, will not work."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Suppresses electrical devices within 10 yards / Psyche of the subject.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This power costs an extra point of plasm but extends the effects of Pyre-Flame Curse ••• out to 10 yards per dot of Psyche. Electrical devices simply stop working when they come into range."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Subject is blinded for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Even the sun turns its face from the victim. She’s struck blind for the duration of the hex. Any visual perception rolls automatically fail, and she uses the Fighting Blind rules (World of Darkness Rulebook, p. 166) in combat."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 126"
@@ -1963,56 +2770,72 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Medicine",
         Summary: "Inflict sickness, stigmatica and hauntings on his enemy.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Other curses are subtle, playing with the victim’s perceptions and mental state. Not so the Stigmata Curse, which afflicts the blood and humours. Stigmata wounds that refuse to clot or heal, strange diseases, and the attentions of the unquiet dead are the domain of these curses."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "At base, the Sin-Eater can inflict a wound that bleeds profusely for the duration of the curse, though it only deals a single point of lethal damage. Bandages can’t stem the flow of blood, though the wound remains strangely pain-free, and the target doesn’t suffer the effects of blood loss. This hex lasts for one hour per activation success, at which point the victim stops bleeding and the wound heals."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 hour / Activation. Do one Lethal damage that is does not stop bleeding, but heals at the end of duration.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Wounds open across the body. Lethal damage equal to Activation. Each wound bleeds profusely, leaves scars after.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Roll one die each scene; if the result is equal to or lower than the activation successes, a new stigmatic wound opens. Some Christian Sin-Eaters enjoy making their victims bleed from the wrists, the feet, and from the side of the torso — the classic wounds of Christ. Others create bloody lines along the victim’s forehead, or write strange symbols in their victims. The target suffers no damage from this bleeding."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Inflict a wasting disease on subject, causing them to take one Lethal damage each hour. Subject takes Activation as a penalty to Social rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can instead inflict a terrible wasting disease. For the duration, the victim takes one point of lethal damage per hour, and suffers a penalty equal to the activation successes on all Social rolls given the lesions and open sores. Despite its appearance, the disease caused by this hex is not contagious."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Subject is anchor for one apparition or poltergeist per Activation for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The smell of the target’s blood calls to the restless dead in the area. The victim becomes an anchor to old ghosts, long enough gone that they don’t remember what it means to be human. One apparition or poltergeist per activation success gains the victim as an anchor for the duration of the hex. The Sin-Eater must spend an extra point of plasm when casting the hex to gain this effect."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Subject is forced into Twilight and cannot re-materialize for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This hex actually “bleeds away” the target’s very flesh, forcing him into Twilight for the duration of the curse, though it costs the Sin-Eater two extra points of plasm. The victim cannot materialize until the curse ends."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 126"
@@ -2023,56 +2846,78 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Stealth",
         Summary: "Inflict invisibility and anonymity on her enemy.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A man walks through a crowded city street. People bump into him, but they don’t even realize he’s there. He asks for help, begs for someone to pay him any heed, and screams at a world that’s forgotten him. And in the darkness, a Sin-Eater watches and laughs. Such is the power of the Stillness Curse, a nightmarish power that excises its victim from human contact — initially just from sight but later from thought entirely. Anyone who labors under the Stillness Curse for too long may be able to attend his own funeral, but only if people remember him for long enough that he’s declared dead."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The basic power of the Stillness Curse removes its victim from the limelight in his own life. All Presence and Manipulation rolls suffer a penalty equal to activation successes, as he has a hard time bringing people around to his way of thinking — or having them pay him much attention at all. To begin with, it’s annoying. But that’s just the start."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Some Sin-Eaters have even used this Curse upon themselves in the interests of anonymity. They find, somewhat to their chagrin, that the powers of the Curse cut them off from their own krewes as well as their enemies — and that the dead still remember them all too well."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. People disregard the subject. -2 penalty to all Presence and Manipulation rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "People tend to forget the victim unless reminded. Gain Depression derangement for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "People don’t remember the victim unless something prompts them, be that a letter arriving for the victim or his actions. While it might be nice to have a landlord forget about the three months of back rent, the victim likely can’t deal with going to a club and watching his girlfriend hit on a guy until he reminds her that he’s right there sat next to her — and then having her shrug and carry on the second he leaves. The victim loses access to all Social Merits for the duration of the curse."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "People forget the victim even when he's present. Each day after the first, victim loses 1 Willpower due to isolation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater spends an extra point of plasm. Even when the victim’s present, people forget him. If they see him, they don’t remark upon it. If they hear him it doesn’t make a difference. For the duration of the curse, the victim’s simply a nonentity, forgotten by the mundane world. The victim suffers a -3 penalty to Social rolls and gains the depression derangement for the duration of the curse."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Subject temporarily retroactively removed from history for the duration--people act like he never existed.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater laying the curse can spend two points of plasm when setting the curse to remove the target’s ability to understand others. Everyone he meets has indistinctly blurred features, and seems to speak in whispered gibberish."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "If Willpower is spent on any form, 1 week / Activation duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The target is stricken with supernaturally intense aphasia. He cannot speak in understandable phrases, and any attempt to write produces meaningless tangles of keystrokes or doodles."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 129"
@@ -2083,54 +2928,74 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Each death inflicted by the Stygian Curse is a little one, but over time they can build up into an inevitable wall of depression, lethargy, and even suicide. A quiet family man discovers he can no longer have children. His wife says she doesn’t mind, but he knows the truth — she wanted another baby that he can’t provide. He can see that look in her eyes, that combination of pity and regret. Every time he puts his all into something, it leaves him drained worse than if he’d just run a marathon. His last vestiges of energy slip away. And on the third day of waking up without knowing why, he sees the Sin-Eater out of the corner of his eye, someone he’d nearly run over a week before, and she says “Don’t do that again.”"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stygian Curse causes the victim’s relationships to decay. He can make enemies fine, but trying to make friends — or keep the ones he has — is harder, as people take what he says the wrong way and read subtexts into his statements that he never intends. Any Empathy, Persuasion, or Socialize rolls suffer a penalty equal to the activation successes."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 day / Activation. Subject takes Activation as a penalty to all Persuade, Empathy, and Socialize rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Subject loses all sexual desire, successes on secondary roll applied as penalty to all who would find him attractive.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This power of the Stygian Curse removes both the desire for and the ability to enjoy any form of sexual activity. This is an instant action with a dice pool of (Intelligence + Medicine + activation successes) contested by the target’s Resolve + Psyche. On a success, the victim is unable to become sexually aroused for the duration of the curse, and can’t produce offspring (though unborn children are unaffected). Apply the activation successes as a penalty to all Social rolls made against people who would otherwise find him attractive. An exceptional success sees the victim unable to produce offspring for one week per activation success beyond the Curse’s duration. This power costs 1 plasm."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "On a successful secondary roll, subject suffers -2 to all rolls after using a Willpower point. Lasts one scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            {
+                                "text": "La petite mort",
+                                "italic": true
+                            },
+                            ", the “little death” is a period of inability and fatigue that strikes after the highs of an orgasm accompanied by a powerful sense of melancholy and regret. The Sin-Eater can kindle that same depression after the victim pushes himself in any situation. The Sin-Eater spends a point of plasm, and the player rolls (Intelligence + Medicine + activation successes) - target’s Resolve as an instant action. On a success, each time the victim spends a point of Willpower to enhance his dice pool he suffers a -2 modifier to any other rolls for the remainder of the scene. On an exceptional success, that penalty lasts for the full duration of the Curse. A dramatic failure restores a point of Willpower to the target after his next successful roll."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "On a successful secondary roll, subject can no longer spend Willpower for the duration of the Curse.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "People cross the street rather than walking near the victim of this Curse, and when they must talk to him — whether they’re selling him coffee or delivering his newspaper — they do so with thinly-veiled disgust. The Sin-Eater’s player spends 2 plasm and rolls Intelligence + Medicine + activation successes as a contested action against the target’s Resolve + Psyche. If successful, the victim cannot spend Willpower for the duration of the Curse, whether to enhance a dice pool or activate a supernatural power. An exceptional success causes the victim to lose a point of Willpower at the start of each scene that he suffers the Curse. Conversely, a dramatic failure restores the target to full Willpower."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "On a successful secondary roll, subject attempts suicide. If they survive, they can never be affected by Stygian Curse again.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The apex power of the Stygian Curse drives its victim to suicide as he becomes painfully aware he will be alone forever. If the victim survives his suicide attempt, the Curse ends immediately and the Sin-Eater cannot affect the victim with the Stygian Curse again. The Sin-Eater spends 2 plasm, and her player rolls Intelligence + Medicine + activation successes in a contested action against the target’s Resolve + Composure + Psyche. If successful, the victim attempts to take his own life in some fashion — maybe cutting his throat with a hunting knife, or knocking back an overdose with half a bottle of Jack Daniels. Work out a dice pool using the victim’s own traits, along with bonuses for equipment or weaponry — a hunting knife uses the victim’s Strength + Weaponry + 1, while an overdose is Intelligence + Medicine + a variable modifier depending on what drugs are available. The Sin-Eater’s player rolls that dice pool and the victim takes one point of lethal damage per success. On an exceptional success, the dice pool does damage as a Killing Blow (World of Darkness Rulebook, p. 168)."
+                        ]
                     }
                 ]
             }
@@ -2143,54 +3008,64 @@ export const ManifestationsKeysData = [
         Attribute: "Presence",
         Skill: "Occult",
         Summary: "Give his enemy an irrational fear of water.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Hexes of sorrow and regret, the potent magics of the Tear-Stained Curse are as varied and capricious as the seas. The initial curse instills the victim with an irrational fear of water for one hour per activation success. Often, she can’t get close enough to drink a single glass for the duration of the curse. The victim gains the derangement: hydrophobia for the duration of the hex."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Place hex on subject within 10 yards / Psyche for 1 hour / Activation. Subject gains Hydrophobia derangement for the duration.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Depression instead of hydrophobia. Subject loses a point of Willpower and can not spend Willpower for the duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can inflict a bout of powerful depression in place of hydrophobia, as the victim’s past failures come back to haunt her. She loses a point of Willpower, and can’t spend Willpower until the curse wears off."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Extend the duration to 1 day / Activation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "If the Sin-Eater pays an extra point of plasm, the curse lasts for one day per activation success."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Bombarded by images of failure and loss. All of subject's rolls take a -2 penalty.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The geist bombards its victim with images of failures and lost loves from throughout her life. This costs the Sin-Eater an extra point of plasm, but inflicts an additional -2 modifier to all dice pools, over and above the effects of Tear-Stained Curse • •."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Subject gains Hysteria Derangement related to water.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim is unable to stand the sight of water at all. For one day per activation success, the victim suffers the hysteria derangement with regards to water. This costs two points of plasm in addition to the activation cost."
+                        ]
                     }
                 ]
             }
@@ -2203,24 +3078,99 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Subterfuge",
         Summary: "Create a homunculus from the element used",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "It is possible for one Sin-Eater to steal a homunculus away from its creator. To do so, the poacher must first acquire the egg and then attempt to harmonize it. The creator intuitively senses when such a theft attempt takes place and can resist reflexively. The creator can also sense the location and distance of a stolen egg with a successful Wits + Composure roll and can find it unerringly absent some type of magical occlusion."
+            },
+            {
+                type: "heading",
+                level: 3,
+                text: "Poaching a Homunculus"
+            },
+            {
+                type: "line",
+                label: "Cost",
+                text: "None but the poacher must have physical possession of the egg."
+            },
+            {
+                type: "line",
+                label: "Dice Pool",
+                text: "Presence + Occult + Marionette rating (sentient beings usually have a resistance roll described under each specific Manifestation)"
+            },
+            {
+                type: "line",
+                label: "Action",
+                text: "Instant"
+            },
+            {
+                type: "heading",
+                level: 2,
+                text: "Roll Results"
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Dramatic Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails, and the egg’s true owner knows exactly where the egg is and who has it."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Success:",
+                        bold: true
+                    },
+                    " The Sin-Eater acquires ownership of the egg but must immediately spend one dot of Willpower to reset the lifespan of the egg for a time span (based on the original activation successes rolled for the creator)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Exceptional Success:",
+                        bold: true
+                    },
+                    " The new owner automatically gains control over the egg, which will endure for (activation successes) months without the expenditure of a Willpower dot."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: "1-4",
                 summary: "Create homunculus. Requires a person's dying breath. 1 Plasm Marionette dot plus a Willpower DOT. Endures 1 month / Activation. 1 Plasm to activate, may direct it. Physical Attributes and Size equal to Marionette dots, use Mental and Social Attributes as well as skills, -3 Presence. Has wings, can fly 3x Speed. Add Activation to its Stealth rolls. Fire/heat attacks get +3 to hurt it.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The basic characteristics of a homunculus forged with Elemental Marionette • are as follows: the creature starts with Strength, Dexterity, Stamina, and Size equal to the Sin-Eater’s Elemental Marionette rating. The homunculus will always use its creator’s Mental and Social Attributes, as well as her Skills (since it is merely an extension of her will and personality), but it suffers a –3 dice penalty on all Presence rolls due to its disturbing appearance. Each homunculus closely resembles the person whose death gave rise to it. That is, a Grave-Dirt homunculus will resemble the person whose grave was disturbed to create the egg. Although the homunculus acts according to the dictates of its creator, it will speak with the voice of the dead person it resembles and often have many of its mannerisms and personality quirks so long as they do not interfere with the Sin-Eater’s control."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "A Cold Wind homunculus is fashioned from a person’s dying breath. It looks like a tiny version of the dead person but with pale blue skin suggestive of cyanosis. Cold Wind homunculi have wings that allow them to fly at three times their normal Speed. Also, Cold Wind homunculi are very difficult to see and add the activation successes to all Stealth rolls. However, they are highly vulnerable to fire- or heat-based attacks, either of which adds a +3 dice bonus to all attack rolls. The egg for a Cold Wind homunculus is an ice-cold shard of glass etched with the face of the deceased person moaning in agony."
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Homunculus can act independent of your direct control, gains 1 dot in Mental and Social Attributes. Activation can be distributed between Mental and Social Attributes (1/ 1 dot) or Skills (1/ 3 dots).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "When the Sin-Eater reaches Elemental Marionette •••••, the homunculus gains the potential for quasi-sentience. In addition to Physical Attributes and Size, the homunculus begins with one dot in each of the Mental and Social Attributes, and the Sin-Eater may spend activation successes to give the creature dot ratings in Mental or Social Attributes (on a one-for-one basis) or in Skills (at a ratio of three Skill dots per activation success spent). Such a homunculus can follow the orders of its creator without her constant supervision, allowing the Sin-Eater to focus on other things while her obedient servant carries out her wishes."
                     }
                 ]
             }
@@ -2233,24 +3183,99 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Subterfuge",
         Summary: "Create a homunculus from the element used",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "It is possible for one Sin-Eater to steal a homunculus away from its creator. To do so, the poacher must first acquire the egg and then attempt to harmonize it. The creator intuitively senses when such a theft attempt takes place and can resist reflexively. The creator can also sense the location and distance of a stolen egg with a successful Wits + Composure roll and can find it unerringly absent some type of magical occlusion."
+            },
+            {
+                type: "heading",
+                level: 3,
+                text: "Poaching a Homunculus"
+            },
+            {
+                type: "line",
+                label: "Cost",
+                text: "None but the poacher must have physical possession of the egg."
+            },
+            {
+                type: "line",
+                label: "Dice Pool",
+                text: "Presence + Occult + Marionette rating (sentient beings usually have a resistance roll described under each specific Manifestation)"
+            },
+            {
+                type: "line",
+                label: "Action",
+                text: "Instant"
+            },
+            {
+                type: "heading",
+                level: 2,
+                text: "Roll Results"
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Dramatic Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails, and the egg’s true owner knows exactly where the egg is and who has it."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Success:",
+                        bold: true
+                    },
+                    " The Sin-Eater acquires ownership of the egg but must immediately spend one dot of Willpower to reset the lifespan of the egg for a time span (based on the original activation successes rolled for the creator)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Exceptional Success:",
+                        bold: true
+                    },
+                    " The new owner automatically gains control over the egg, which will endure for (activation successes) months without the expenditure of a Willpower dot."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: "1-4",
                 summary: "Create homunculus. Requires fresh soil from interment. 1 Plasm Marionette dot plus a Willpower DOT. Endures 1 month / Activation. 1 Plasm to activate, may direct it. Physical Attributes and Size equal to Marionette dots, use Mental and Social Attributes as well as skills, -3 Presence. +1 to Strength rolls and add Activation to Armor. Water-based attacks do Lethal to it.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The basic characteristics of a homunculus forged with Elemental Marionette • are as follows: the creature starts with Strength, Dexterity, Stamina, and Size equal to the Sin-Eater’s Elemental Marionette rating. The homunculus will always use its creator’s Mental and Social Attributes, as well as her Skills (since it is merely an extension of her will and personality), but it suffers a –3 dice penalty on all Presence rolls due to its disturbing appearance. Each homunculus closely resembles the person whose death gave rise to it. That is, a Grave-Dirt homunculus will resemble the person whose grave was disturbed to create the egg. Although the homunculus acts according to the dictates of its creator, it will speak with the voice of the dead person it resembles and often have many of its mannerisms and personality quirks so long as they do not interfere with the Sin-Eater’s control."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "A Grave-Dirt homunculus is formed from the fresh soil of a recently interred body. It also resembles a tiny version of the deceased but with gray rocky skin and the constant aroma of decay. Grave-Dirt homunculi are stronger and more durable than other types, adding +1 to all Strength-based rolls and gaining Armor equal to the activation successes. However, they recoil from water which, in sufficient quantities, can turn their flesh to mud and destroy their material consistency. Water-based attacks inflict lethal damage on Grave-Dirt homunculi, and being totally submerged for more than one turn will instantly turn one back into an egg. The egg of a Grave-Dirt homunculus appears as a brownish-gray rock upon which is etched the image of the deceased."
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Homunculus can act independent of your direct control, gains 1 dot in Mental and Social Attributes. Activation can be distributed between Mental and Social Attributes (1/ 1 dot) or Skills (1/ 3 dots).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "When the Sin-Eater reaches Elemental Marionette •••••, the homunculus gains the potential for quasi-sentience. In addition to Physical Attributes and Size, the homunculus begins with one dot in each of the Mental and Social Attributes, and the Sin-Eater may spend activation successes to give the creature dot ratings in Mental or Social Attributes (on a one-for-one basis) or in Skills (at a ratio of three Skill dots per activation success spent). Such a homunculus can follow the orders of its creator without her constant supervision, allowing the Sin-Eater to focus on other things while her obedient servant carries out her wishes."
                     }
                 ]
             }
@@ -2263,24 +3288,68 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Occult",
         Summary: "Telekinetically manipulate manmade objects.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "With this power, the Sin-Eater exercises dominion over mechanical and technological devices, as well as crafted items such as furniture, building fixtures, and works of art. Any activation roll for the Industrial Marionette is subject to the dice modifiers listed under the Technology Level Modifiers chart on pg. 111. The basic activation roll simply allows for a form of telekinesis — the sympathetic link forged between the Sin-Eater and the affected object allows her to move it around the area at will. Unless combined with the Boneyard or the Oracle, the Sin-Eater must be within line-of-sight of any object he wishes to manipulate with this Manifestation. Some of the higher-level effects associated with the Industrial Boneyard duplicate the powers of this Manifestation, but Industrial Marionette is usually cheaper, sacrificing range and versatility for efficiency."
+            }
+        ],
         Ranks: [
             {
                 dot: "1-4",
                 summary: "Spend 1 Plasm per 5 Size to telekinetically manipulate an object within line of sight of up to 5x Marionette dots in Size, manipulating it in a variety of ways.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "With Industrial Marionette •, the Sin-Eater can manipulate any device or object up to Size 5."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "Each additional dot in this Manifestation adds +5 to the maximum Size."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "Unlocking the Industrial Marionette requires the expenditure of plasm equal to the minimum rating needed to affect the device based on its Size."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "Once he has succeeded on the activation roll, the Sin-Eater can command the affected device to perform any of the following actions with no further plasm cost:"
+                    },
+                    {
+                        type: "list",
+                        items: [
+                            "The Sin-Eater can turn any electrical or mechanical device on or off. This action can be performed reflexively.",
+                            "The Sin-Eater can telekinetically manipulate the device as if he were exercising a Strength against it equal to the activation successes. That is, if the player had rolled four activation successes and the device could be lifted by someone with a Strength + Athletics pool of 4 or less, then the Sin-Eater could freely move the device through will alone. This action requires limited concentration — the Sin-Eater may undertake another action while moving the object, but he suffers a –2 dice penalty on the action."
+                        ]
+                    },
+                    {
+                        type: "paragraph",
+                        text: "The Sin-Eater also has access to the following additional power options, all of which require the expenditure of additional plasm:"
+                    },
+                    {
+                        type: "list",
+                        items: [
+                            "If the activation successes exceed the minimum requirement for moving the device by 1, the Sin-Eater can slide it forcefully across the floor towards a target as an attack. The dice pool for this attack is Resolve + activation successes (– target’s Defense). If the activation successes exceed the minimum requirement for moving the device by 2, the Sin-Eater can telekinetically hurl the device towards the target, using Resolve + activation successes + object’s Size (- target’s Defense). Either form of attack costs 1 plasm per attack and requires total concentration and a full action on the part of the Sin-Eater.",
+                            "While the Sin-Eater maintains concentration, she can cause the device to do anything that would normally fit within its design parameters, even if it could not normally perform such an action unaided. For example, she could command an electric vacuum cleaner to begin sweeping a floor, or she could cause a radio to produce whatever sound she wished or a television to show whatever images she desired. Using this power costs 1 plasm, and control lasts for a scene or until the Sin-Eater is distracted. If control is lost, the Sin-Eater must spend another plasm to reassert it. Generally, the roll for any such sophisticated activity is Wits + Resolve unless some other Attribute or Skill combination seems more relevant (such as Wits + Drive to operate a car through this power, or Intelligence + Computer to hack a computer system). Any actions performed with this power require a full action on the part of the Sin-Eater."
+                        ]
+                    },
+                    {
+                        type: "paragraph",
+                        text: "Finally, at the ultimate level of the Industrial Marionette, the Sin-Eater may unlock this power:"
                     }
                 ]
             },
             {
                 dot: 5,
-                summary: "Roll Resolve+Crafts+Activation and spend Plasm equal to Size. On success, object explodes doing 1 Lethal damage per success to everyone within 3x Size yards. Those dodging can subtract successes on a Dexterity+Athletics roll from the damage.",
-                content: [
+                summary: "Roll Resolve + Crafts + Activation and spend Plasm equal to Size. On success, object explodes doing 1 Lethal damage per success to everyone within 3x Size yards. Those dodging can subtract successes on a Dexterity+Athletics roll from the damage.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "With Industrial Marionette •••••, the Sin-Eater can manipulate a device or object up to Size 25 freely, but he can also manipulate even larger objects by suffering a dice penalty equal to –1 per 10 points of Size to be manipulated in excess of 25. The Sin-Eater may only exceed the normal Size cap with the five-dot version."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "Infusing the object of her attention with plasm, the Sin-Eater can overload it, causing it to explode violently. This power can affect only devices that are either electrical or mechanical in nature. The player spends 1 plasm per point of the targeted device’s Size, and rolls Resolve + Craft + (activation successes) as an instant action. If successful, the targeted device explodes violently, inflicting one level of lethal damage per success on everyone within (device’s Size x 3) yards of the device. Characters aware of what is happening may attempt to leap for cover as a reflexive action, with each success on a Dexterity + Athletics roll reducing the damage inflicted by one point."
                     }
                 ]
             }
@@ -2293,56 +3362,133 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Empathy",
         Summary: "Influence the emotional states of those around her.",
+        "Content": [
+            {
+                type: "heading",
+                level: 3,
+                text: "Emotional Responses"
+            },
+            {
+                type: "paragraph",
+                text: "Below are some of the most common emotional attacks associated with Passion Marionette. The Storyteller has discretion to modify these responses to fit the specific situation."
+            },
+            {
+                type: "table",
+                headers: ["Emotion", "Response"],
+                rows: [
+                    [
+                        "Despair:",
+                        "The target is overcome with ennui and a sense of utter hopelessness. Passion Marionette ••••• allows the Sin-Eater to trigger suicidal impulses in the target. A suicidal character must spend 1 point of Willpower per scene under the effects of this power to resist the urge to do herself harm."
+                    ],
+                    [
+                        "Fear:",
+                        "The target is overcome with an indescribable dread. This fear is not focused towards any particular person or object (as in the case of a phobia). Instead, the target is filled with an irrational panic over the situation in which he finds himself. A vampire affected by this power suffers a dice penalty on all rolls to resist Rotshrek equal to the activation successes."
+                    ],
+                    [
+                        "Hate:",
+                        "The target is overcome with a violent antipathy towards another character. With Passion Marionette •••, the Sin-Eater may determine the focus of the target’s ire. Otherwise, the Storyteller should determine it randomly."
+                    ],
+                    [
+                        "Joy:",
+                        "The target is overcome by laughter and will be inclined towards irrational optimism and inappropriate humor. Observers may well believe that the target is high on drugs."
+                    ],
+                    [
+                        "Love:",
+                        "The target falls in love with another character, becoming fixated on his well-being. With Passion Marionette •••, the Sin-Eater may determine the object of the target’s affection. Otherwise, the Storyteller should determine it randomly."
+                    ],
+                    [
+                        "Rage:",
+                        "The target is overcome with a violent, psychotic rage that drives her to destroy everything in her path that she can. Supernatural beings subject to frenzy suffer a dice penalty on all rolls to resist that state equal to the activation successes."
+                    ],
+                    [
+                        "Sadness:",
+                        "The target is overcome by a pronounced melancholy and will most likely collapse into tears."
+                    ]
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Suggested Modifiers:",
+                        bold: true
+                    },
+                    " The target already feels the desired emotion, which the Sin-Eater merely seeks to heighten (+1 to +3). The target currently feels an emotion diametrically opposed to the one the Sin-Eater seeks to instill (-1 to -3)."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Create sympathetic link to target. Add Activation to all mundane Presence and Manipulation rolls against them.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can unlock the Marionette to forge a sympathetic link to the emotional core of another person. The Sin-Eater must first make a standard Marionette activation roll, resisted by the target’s Composure + Psyche. Once the sympathetic link is formed, the Sin-Eater gains an intuitive insight into the target’s personality. For the duration of the Manifestation, the Sin-Eater may add his activation successes to all Presence- or Manipulation-related rolls made to influence the target through mundane manipulation, in addition to adding activation successes as normal to any other invocation of the Marionette."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 2,
-                summary: "Roll Manipulation+Empathy+Activation vs Composure+Psyche to impose a intense emotion on the target. Target takes Activation as penalty due to being overcome with emotion. Can spend Willpower to negate penalty for one action. When Willpower equal to Activation has been spent, the Manifestation ends and target is immune to emotional manipulation from you for a scene. Max duration of one scene.",
-                content: [
+                summary: "Roll Manipulation + Empathy + Activation vs Composure + Psyche to impose a intense emotion on the target. Target takes Activation as penalty due to being overcome with emotion. Can spend Willpower to negate penalty for one action. When Willpower equal to Activation has been spent, the Manifestation ends and target is immune to emotional manipulation from you for a scene. Max duration of one scene.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Having gained insight into the emotional nature of her victim, the Sin-Eater can trigger an emotional response of her own choosing. The player spends 1 plasm and rolls Manipulation + Empathy + (activation successes), reflexively resisted by Composure + Psyche."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "If the roll is successful, the target immediately assumes a new and intense emotional state of the Sin-Eater’s choice. The target’s response to the emotion should be appropriate to the chart below. In addition to any specific emotional responses, an affected target also suffers a penalty on all dice actions equal to the Sin-Eater’s successes on this roll due to being emotionally overcome. The target can negate this penalty by spending one Willpower point per action undertaken in contravention of the emotion. For example, the character would need to spend points of Willpower to take an action to save someone he is compelled to hate, but he would not need to spend Willpower to attack that person. When the target has spent a total number of Willpower points equal to the activation successes, the Sin-Eater’s control ends, and she may not target that character for emotional manipulation again during the same scene."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "With Passion Marionette • •, the Sin-Eater merely inflicts a strong emotion. She has no influence over the nature of the target’s response, and if, for example, she triggers a homicidal rage in a target, she must take care not to be the target’s first victim."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "You can associate the emotion imposed with a person, place, object or stimulus.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may choose to associate the emotion she inflicts with a particular person or object. Thus, she may cause her target to fall in love with her (or with anyone else of her choice). She may cause the target to develop a specific phobia, such as arachnophobia. Or, she may cause the target to associate his feelings of euphoria with a specific stimulus, whether a drug or some more exotic stimuli, like extreme bondage or even a specific television show."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "For two Plasm, extend duration to 1 day. Extend the duration further by 1 day / Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may extend the effects from the usual scene’s duration to last for a full day by increasing the cost of each manipulation to 2 plasm. Each additional point of plasm extends the emotion’s duration by an additional day."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Instead of an emotion, inflict a mild derangement (severe on Exceptional Success) for one day per Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Having mastered simple emotional states, the Sin-Eater may now choose to instill within the target an emotional state so severe that it rises to the level of a derangement. Mechanically, the roll for inflicting a derangement is the same as the roll for manipulating emotions. However, instead of inflicting an emotional state on her victim, the Sin-Eater curses him with a derangement chosen by the player from the list beginning on pg. 97 of the World of Darkness corebook. The derangement is mild unless the roll results in an Exceptional success, in which case it is severe. The effects of this derangement last for one day per plasm spent."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 133"
@@ -2353,56 +3499,74 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Intimidation",
         Summary: "Control his own geist, projecting his mind into its spectral form.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Instead of exercising control over some external thing or person, the Sin-Eater seizes direct control over her own geist. With this power, the Sin-Eater can cause her geist to manifest externally as a spiritual body that she may then possess and control. While the geist-body is manifested, the Sin-Eater’s own body collapses into a comatose state, and she is completely unaware of what goes on in her vicinity. The Sin-Eater must make a normal Marionette activation roll, but the plasmic tendrils do not extend outward from the Sin-Eater to his target but instead coalesce in front of him, forming a phantasmal body under his control."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Create Geist-body with traits equal to yours, which you inhabit while your body is comatose. Add Activation to Intimidation rolls. You can pay 1 Plasm to de/materialize at will.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At its most basic, the geist-body has traits equal to the Sin-Eater’s own normal traits, but it has its own, usually horrific, appearance. As such, the geist-body gains a dice bonus on all Intimidation rolls equal to the activation successes. While possessing her own geist, the Sin-Eater may materialize and dematerialize at will with the expenditure of 1 plasm, and she has access to all of her normal powers while in this state."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 2,
                 summary: "Make a permanent decision on how to distribute 4 dots amongst Geist-body's Strength, Dexterity, Stamina, Presence, Size and Speed, up to 2 dots apiece.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater gains an additional four dots that may be distributed among the geist-body’s Strength, Dexterity, Stamina, Presence, Size, or Speed, although no more than two points may be added to a single trait. Once the player assigns these dots, they are fixed and cannot be reassigned to any other traits in a later use of this power. The Sin-Eater gains an additional four dots to distribute among those same Attributes with Phantasmal Marionette • • •, • • • • and • • • • •."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Distribute 4 more dots. Can expend one or more to fly (Speed multiplied by dots spent).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Four dots are gained. The player may also choose to spend these dots to acquire the power of flight instead of on improving traits. If the player allocates one dot to flight, the geist-body can fly at its normal Speed. Each additional dot allocated to flight increases the geist-body’s Speed by itself. Thus, by spending three dots on flight, the Sin-Eater could possess a geist-body that flies at three times his normal Speed."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Distribute 4 more dots. Can two or more to gain Lethal weapon (bonus equal to 1/2 dots spent) or to add to flight.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Four dots are gained. The player may also choose to spend dots on a personal weapon for the character’s geist-body. She may grant the geist-body either natural weaponry such as talons or a disemboweling spike, a melee weapon that is an intrinsic part of the geist-body, or simply a freezing or burning touch that allows the geist-body to inflict more damage with Brawl attacks. For every two points allocated to the geist-body, it gains a +1 lethal damage bonus to a certain form of attack."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Distribute 4 more dots. Can add to flight or Lethal weapons.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Four dots are gained. There is no additional effect besides potentially further augmenting Attributes, flight or lethal attacks."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 134"
@@ -2413,56 +3577,92 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Animal ken",
         Summary: "Directly control animals and plants.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Sin-Eater can influence the actions of any single animal she can perceive (whether directly or through the Boneyard or Oracle Manifestations). With a successful activation roll, the Sin-Eater first establishes a bond with the target animal. Then, the Sin-Eater may influence the animal in a variety of ways. The basic level of control allows the Sin-Eater to direct the animal’s actions."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Activating this power costs one plasm per animal, and is an instant action. If successful, the animal does as the Sin-Eater directs for as long as he maintains concentration. The Sin-Eater can perceive through the animal’s senses and even speak through it as a normal speaking action. An animal controlled with this power might be able to chew through the brake lines of a car or carefully stalk a target and drive her into a trap. If the Sin-Eater’s concentration lapses, he still maintains his basic connection but must roll this power again to resume direct control."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Create a bond with a target animal. Must maintain concentration to control; if distracted; re-roll to resume.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "With Primeval Marionette •, the Sin-Eater can command a single animal up to Size 2."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 2,
                 summary: "Control an animal up to Size 5, or two animals up to Size 2.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can command a single animal up to Size 5 or two animals of up to Size 2."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Control an animal up to Size 10, two up to Size 5 or Activation up to Size 2, or control a plant up to Size of Psyche, paying 1 Plasm per plant's Size.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can command a single animal up to Size 10, two animals up to Size 5, or up to (activation successes) in animals of up to Size 2. In addition, the character may insinuate his plasm into the fibers of a plant, animating the plant into motion according to his will."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "To animate a plant, the player spends 1 plasm per dot of Size (up to a maximum number of points equal to the Sin-Eater’s Psyche) and rolls Manipulation + Resolve + (activation successes). As long as the Sin-Eater maintains concentration, he can cause the plant to move as he directs. He can cause its branches to reach out and strike a target. He can cause a mass of vines to wrap up and strangle a target. He can even cause a plant to uproot itself and move about according to his will. If the Sin-Eater wishes to have the plant attack some target, the attack roll is always based on Wits + Brawl + activation successes, with Defense subtracted as normal. The Manifestation lasts for the scene or until the Sin-Eater’s concentration lapses. The Sin-Eater may take no other actions while maintaining control over the plant."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Control an animal of any Size, or any number of animals who's total Size does not exceed 20.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can command a single animal of any size or any combination of animals whose total Size does not exceed 20. The Sin-Eater suffers no penalty for commanding multiple animals. She can arrange the animals under her control like pieces on a chessboard, using sophisticated pack tactics against her enemies."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Control a plant of Size up to 5 / Psyche, paying 1 Plasm per 5 Size. Can make an animal into a familiar with Presence+Animal Ken+Activation-Animal's Stamina. Pay Plasm up to animals natural Stamina, adding +1 to Physical Attributes, +1 to Perception and +1 to Intimidation per Plasm, with a duration of 6 hours / Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "No longer must the Sin-Eater be content with common animals to serve as her minions. With this power, the Sin-Eater can inject plasm into the body of a single animal, greatly increasing its physical prowess and turning it into a familiar that will instinctively obey her in all things for the duration of its enhancement. The player invests one or more plasm into the familiar’s body, up to a maximum plasm equal to the animal’s unmodified Stamina, and rolls Presence + Animal Ken + activation successes (- animal’s Stamina). For each plasm spent, the animal gains +1 to the Physical Attribute of the player’s choice, as well as a +1 dice bonus to all Wits + Composure rolls and to all Intimidation rolls. The Sin-Eater does not need to maintain concentration to ensure the familiar’s loyalty, although he must concentrate to issue new orders that contradict or supersede previous commands. The Sin-Eater and his familiar are joined in a psychic connection that lasts up to six hours per point of plasm spent on the roll (this supersedes the normal duration limit for the Primeval Marionette). However, the effect ends immediately if the animal is slain, if the Sin-Eater suffers enough damage to take wound penalties, or if the Sin-Eater goes to sleep or is otherwise rendered unconscious."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "In addition, when controlling plants as per the three-dot power, the Size of the plant life that can be affected is equal to 5 per plasm spent (up to a maximum plasm equal to the Sin-Eater’s Psyche)."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 134"
@@ -2473,24 +3673,99 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Subterfuge",
         Summary: "Create a homunculus from the element used",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "It is possible for one Sin-Eater to steal a homunculus away from its creator. To do so, the poacher must first acquire the egg and then attempt to harmonize it. The creator intuitively senses when such a theft attempt takes place and can resist reflexively. The creator can also sense the location and distance of a stolen egg with a successful Wits + Composure roll and can find it unerringly absent some type of magical occlusion."
+            },
+            {
+                type: "heading",
+                level: 3,
+                text: "Poaching a Homunculus"
+            },
+            {
+                type: "line",
+                label: "Cost",
+                text: "None but the poacher must have physical possession of the egg."
+            },
+            {
+                type: "line",
+                label: "Dice Pool",
+                text: "Presence + Occult + Marionette rating (sentient beings usually have a resistance roll described under each specific Manifestation)"
+            },
+            {
+                type: "line",
+                label: "Action",
+                text: "Instant"
+            },
+            {
+                type: "heading",
+                level: 2,
+                text: "Roll Results"
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Dramatic Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails, and the egg’s true owner knows exactly where the egg is and who has it."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Success:",
+                        bold: true
+                    },
+                    " The Sin-Eater acquires ownership of the egg but must immediately spend one dot of Willpower to reset the lifespan of the egg for a time span (based on the original activation successes rolled for the creator)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Exceptional Success:",
+                        bold: true
+                    },
+                    " The new owner automatically gains control over the egg, which will endure for (activation successes) months without the expenditure of a Willpower dot."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: "1-4",
                 summary: "Create homunculus. Requires ashes from recent cremation or burning death. 1 Plasm Marionette dot plus a Willpower DOT. Endures 1 month / Activation. 1 Plasm to activate, may direct it. Physical Attributes and Size equal to Marionette dots, use Mental and Social Attributes as well as skills, -3 Presence. Has wings, can fly at normal Speed. Immune to fire/heat attacks. Water-based attacks do Lethal and submerging for more than a turn returns it to an egg.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The basic characteristics of a homunculus forged with Elemental Marionette • are as follows: the creature starts with Strength, Dexterity, Stamina, and Size equal to the Sin-Eater’s Elemental Marionette rating. The homunculus will always use its creator’s Mental and Social Attributes, as well as her Skills (since it is merely an extension of her will and personality), but it suffers a –3 dice penalty on all Presence rolls due to its disturbing appearance. Each homunculus closely resembles the person whose death gave rise to it. That is, a Grave-Dirt homunculus will resemble the person whose grave was disturbed to create the egg. Although the homunculus acts according to the dictates of its creator, it will speak with the voice of the dead person it resembles and often have many of its mannerisms and personality quirks so long as they do not interfere with the Sin-Eater’s control."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "A Pyre-Flame homunculus is forged from the ashes of a recently cremated body or directly from the remains of someone who was burned alive. It resembles the deceased but with black, crackled skin, and an ashy aroma. Like their Cold Wind cousins, Pyre-Flame homunculi have wings and can fly, though at only their normal Speed. Pyre-Flame homunculi are also totally immune to fire or heat-based damage. Like their Grave-Dirt kin, however, these homunculi are highly vulnerable to dousing. Water-based attacks inflict lethal damage on Grave-Dirt homunculi, and being totally submerged for more than one turn will instantly turn one back into an egg. The egg of a Pyre-Flame homunculus appears as a lump of coal, uncomfortably warm to the touch, which smells of burnt flesh."
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Homunculus can act independent of your direct control, gains 1 dot in Mental and Social Attributes. Activation can be distributed between Mental and Social Attributes (1/ 1 dot) or Skills (1/ 3 dots).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "When the Sin-Eater reaches Elemental Marionette •••••, the homunculus gains the potential for quasi-sentience. In addition to Physical Attributes and Size, the homunculus begins with one dot in each of the Mental and Social Attributes, and the Sin-Eater may spend activation successes to give the creature dot ratings in Mental or Social Attributes (on a one-for-one basis) or in Skills (at a ratio of three Skill dots per activation success spent). Such a homunculus can follow the orders of its creator without her constant supervision, allowing the Sin-Eater to focus on other things while her obedient servant carries out her wishes."
                     }
                 ]
             }
@@ -2503,56 +3778,80 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Occult",
         Summary: "Control ghosts and compel them to possess mortals on her behalf.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Through the sanctification of blood, the Stigmata Marionette allows a Sin-Eater to exert control over ghosts. More disturbingly, at its higher levels, this power allows the Sin-Eater to compel a ghost he has enslaved to possess a living person, transforming her into a living zombie forced to obey his commands. While the Stigmata Marionette does not allow the Sin-Eater to control the mind of his living victim, it does enable him to turn her own body against her, leaving her aware of her enslavement but unable to fight against it."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Ghost actions that violate command take Activation as penalty, action done in progress of command gain Activation as bonus.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The basic power of this Manifestation merely weakens a ghost and prevents it from harming the Sin-Eater while simultaneously making it into a more pliable servant. The activation roll forges a sympathetic link with a ghost that penalizes the ghost on actions initiated by the ghost that are contrary to the Sin-Eater’s will. However, the ghost also finds it easier to perform actions undertaken in response to the Sin-Eater’s directives. The ghost is not compelled to obey the Sin-Eater, but if it chooses to do so, its Numina and other powers function more effectively. The player spends 1 plasm and must offer a measure of health to the ghost (suffering his choice of 1 lethal or 3 bashing damage); in addition, the player rolls Manipulation + Occult - ghost’s Resistance. If successful, for the duration of the scene, the targeted ghost suffers a dice penalty equal to the activation successes on all actions that seek to harm the Sin-Eater or that are undertaken in direct violation of his commands. On the other hand, if the ghost undertakes any actions demanded of it by the Sin-Eater, the ghost gains a dice bonus equal to the activation successes. Actions undertaken by the ghost that neither contradict the Sin-Eater’s wishes nor fulfill them suffer neither a penalty nor gain a bonus."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 2,
                 summary: "You become the ghost's temporary anchor, keeping it within 10 yards of you.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may compel a ghost to accompany him wherever he goes. There is no roll — at this power level, the activation roll has the additional effect of temporarily making the Sin-Eater the ghost’s primary Anchor, thereby compelling the ghost to remain within 10 yards of the Sin-Eater at all times. (See the World of Darkness corebook beginning on pg. 209 for a description of the properties of Anchors.) If the Sin-Eater wishes to use this aspect of the Marionette, he must add one Willpower point to the normal cost for Conscription of Blood, but if he does so, the connection between ghost and Sin-Eater lasts for one hour per activation success instead of just a scene."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Roll Manipulation+Intimidation+Activation vs Resistance (which is not affected by penalty) to force ghost to take one action.",
-                content: [
+                summary: "Roll Manipulation + Intimidation + Activation vs Resistance (which is not affected by penalty) to force ghost to take one action.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may actively command a ghost she has bound to do her bidding. The Sin-Eater must first forge a sympathetic link via one of the previous powers. Once the link is forged, the Sin-Eater may issue commands to the ghost bound to her will as she wishes for the duration of the binding. To do so, the player rolls Manipulation + Intimidation + activation successes, opposed by the ghost’s Resistance. This Resistance roll does not suffer the dice penalty normally inflicted by Circumscription of Blood. If successful, the ghost is compelled to perform a single action of the Sin-Eater’s choosing. Commands that are consistent or inconsistent with the ghost’s nature impose bonuses or penalties of one to five dice to the roll. Commanding the ghost of a deceased arsonist to start a fire might gain a +2 bonus, for instance, while commanding the ghost of a murder victim to protect her killer would likely incur a -5 penalty."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "Roll Manipulation+Occult+Activation vs Resolve+Psyche to force ghost into a host. If 3 Plasm was spent, the host is unaware.",
-                content: [
+                summary: "Roll Manipulation + Occult + Activation vs Resolve + Psyche to force ghost into a host. If 3 Plasm was spent, the host is unaware.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can cause a ghost she has tamed with Stigmata Marionette • • to possess a human being, even if the ghost has no Possession Numen or the equivalent. A ghost is powerless to resist this merging if it has already been bound, hence the prerequisite. The player spends 2 plasm and rolls Manipulation + Occult + (activation successes). The target of the possession resists with Resolve + Psyche."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "With success, the ghost immediately possesses the target for the duration of the scene. The target is normally aware of everything that happens during the possession but has no control over his own body and is merely a passive observer to the possessing ghost’s activities. The ghost may generally do as it pleases while possessing the victim, but it remains subject to commands issued by the Sin-Eater with any lesser power of the Stigmata Marionette. If the Sin-Eater spends one additional plasm when triggering the possession, she may suppress the target’s awareness, rendering him completely unaware of what happened during the time of possession unless he gains a number of successes on a Wits + Resolve roll equal to the activation successes. While in possession of the target’s body, the ghost does not have access to any of its Numina."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "While ghost is in a host, it still has access to it's Numina, and the duration extends to 1 hour / Activation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "When enabling a ghostly possession, the Sin-Eater’s increased skill allows the ghost to use any of its Numina that can reasonably be employed while possessing a mortal host. Additionally, the time of possession increases to one hour per activation success."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 135"
@@ -2563,56 +3862,103 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Occult",
         Summary: "Animate and command corpses, raising them as zombie slaves.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "When used to unlock the Marionette, the Stillness Key grants the power to summon mute servants to the Sin-Eater’s will fashioned from the decayed remnants of the dead. Or to use the vulgar parlance, it allows the Sin-Eater to raise zombies. In this context, the Marionette activation roll establishes a sympathetic link to a dead body. The type of body amenable to animation as a zombie is determined by the Sin-Eater’s rating in this power."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Animate a corpse with small motions (twitches, jerks, convulsions).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can affect any sort of corpse, but can achieve little more than crude telekinetic effects, sufficient to cause a skeleton to jerk spasmodically, to make a cadaver sit up on its slab, or to cause a murder victim to open her eyes accusingly. No roll is required for any of these effects, but the corpse cannot be made to attack another or to even stand under its own power. An affected corpse has an effective Strength of 1 for purposes of any actions the Sin-Eater directs it to take."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 2,
                 summary: "Animate an animal of up to Size 1, perceive through it's eyes for as long as you concentrate.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can cause a dead animal of Size 1 or smaller to arise as a zombie. The animal has the normal traits for a creature of its type, regardless of the level of its decomposition. Animating such a foul beast requires constant concentration on the part of the Sin-Eater, and if it lapses at any point, the animal collapses in dead heap and the Manifestation ends, though it can be raised again with another application of this power. While the Sin-Eater maintains concentration, however, he can see through the eyes of his animal-zombie and exercise total control over it."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Animate an animal of up to Size 10 for as long as you concentrate.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Control extends to any animal up to Size 10. While directing his zombie pet’s actions, the Sin-Eater may take no other actions."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Animate a human as long as you concentrate. Physical attributes as body with -1 per 6 months dead. Pay 1 Plasm to distribute Activation amongst Physical Attributes up to 2 higher than its lowest Physical trait. Your Mental and Composure, but Presence and Manipulation are 0. Duration is 1 hour / Activation.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can raise a human corpse as a zombie. The zombie is a mindless, shambling corpse that responds only to its master’s will. A fresh corpse begins with the normal Physical traits it had before death, but every six months of decay reduces each of its Physical traits by 1 to a minimum of 1 each. The zombie normally uses its master’s Mental traits and Composure (since she controls it completely) but has an effective Presence and Manipulation of zero each. If the Sin-Eater spends a second plasm point during the activation roll, she may divide a number of dots equal to the activation successes among the zombie’s Physical traits, but she may not raise any trait more than two above the zombie’s lowest Physical trait."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Animate a corpse with 2 dots in Physical Attributes, 1 dot in Mental and Social Attributes. Pay up to Activation Plasm to distribute 5 dots / Plasm amongst Physical and Mental Attributes and Composure. You can pay a Willpower DOT to extend the duration to permanent.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Bound can raise a more powerful zombie, whether animal or human. At this level, the zombie begins with two dots in each Physical Attribute and one dot in each Social and Mental Attribute. After awakening a zombie, the Sin-Eater can invest it with up to the activation successes in extra plasm. Each additional point of plasm grants five Attribute dots that can be allocated as the Sin-Eater wishes. However, a zombie may never have a Presence or Manipulation higher than 1 — without other magic or a really good disguise, it can never be perceived as anything other than the walking dead. However, if a zombie attempts to intimidate a living person, add the activation successes to the Intimidation roll. A zombie, whether animal or human, created with Stillness Marionette • • • • • is quasi-sentient, but loyal to the Sin-Eater, who no longer needs to maintain constant concentration to direct the zombie’s actions."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "With Stillness Marionette • • and • • •, the activation roll will maintain the zombie for one scene. With Stillness Marionette • • • •, the zombie will last for one hour per activation success. With Stillness Marionette • • • • •, the zombie will last for one day per activation success, and if the Sin-Eater spends a permanent Willpower point, a zombie created at that level will last until destroyed."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "Zombies created through the Stillness Marionette have neither health levels nor suffer wound penalties. Instead, each zombie has a Durability equal to the activation successes rolled in its creation, and a Structure equal to the sum of its Durability and its Size. Zombies take bashing damage from firearms but aggravated damage from fire."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "Although a corpse of any age may be used to create a zombie with Stillness Marionette, fresher corpses work better. The activation roll for Stillness Marionette suffers the following dice modifiers:"
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "The corpse has been dead less than a day (+2).",
+                            "The corpse has been dead less than a week (+1).",
+                            "The corpse has been dead over one month (-1).",
+                            "The corpse has been dead over one year (-2).",
+                            "The corpse has been dead over five years (-3).",
+                            "The corpse has been reduced to a skeleton (-5)."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 136"
@@ -2623,54 +3969,96 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "While the Stillness Marionette allows a Sin-Eater a measure of gross control over a dead body, it pales in comparison with the control offered by the Stygian Marionette. The Bound can project her consciousness directly into a dead body, using that body as if it were her own."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Take over control of a dead body, projecting the consciousness through it and using it almost as if it were one's own.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater forces her geist into a dead body, taking her consciousness along with it. She has to touch the body for the transfer to take place, spending a point of plasm to activate the Manifestation. While she’s inhabiting a dead man’s form, her own body is vulnerable to harm — but not possession. The body she wishes to take can’t have died more than one week before she uses this power."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "When controlling a body, the Sin-Eater uses her own Mental and Social Attributes and Skills, the body’s Physical Attributes and Size, and the lower of each value for Physical Skills. Without some form of disguise, she suffers a -5 modifier to all Presence rolls. On the other hand, the Sin-Eater has an entirely new face, new fingerprints, and even new DNA. While she’s in her new body, the Sin-Eater can use Manifestations as normal, but cannot spend plasm to absorb damage. Her new body doesn’t heal naturally at all. She can’t leverage other benefits of inhabiting a dead body (such as reduced damage from firearms) unless she also manifests the Stygian Caul."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            {
+                                "text": "Emil Horner takes over the body of Robin Moore, a SWAT cop killed by a renegade ghost. In Officer Moore’s body, Emil can still use his Social and Mental Attributes and Skills (with a -5 modifier to his Presence), but he uses the cop’s Physical Attributes — not a bad thing, as the officer was a pretty buff guy. Moving on to Physical Skills, the cop had Athletics 3, Brawl 1, Firearms 3, Stealth 1, Weaponry 2. Emil has Athletics 2, Drive 1, Larceny 3, Stealth 3. Unfortunately, that leaves Emil with just Athletics 2 and Stealth 1.",
+                                "italic": true
+                            }
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 2,
                 summary: "Reduce presence penalty while using new body for a plasm, and can use plasm to heal injuries the body has sustained.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Wounds on the Sin-Eater’s new body close to mere scars — even the deep cuts from an autopsy knit together for the duration of her possession. This is also the only way that the Sin-Eater can heal her stolen body. By spending a point of plasm, the Sin-Eater can reduce the penalty to Presence rolls to -1, rather than -5. She can also heal by forcing her plasm through the new body. As an instant action, she spends a point of plasm and her player rolls Manipulation + Medicine + activation successes. She can heal one point of lethal damage or two points of bashing damage per success."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Can spend a plasm when taking over a body to allow greater physical skills.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can tap in to the muscle memory of her stolen body, accessing reflexes she never knew she had — and enforcing her own trained ability over the dead flesh. By spending an extra point of plasm when activating the Marionette, the Sin-Eater can use the higher rating of each Physical Skill, rather than the lower. If both the body and the Sin-Eater possess the same Skill, that Skill gains the 9-again benefit. If she takes a Skill straight from the body that she does not normally possess she loses the 10-again quality."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            {
+                                "text": "Emil Horner takes over Officer Moore’s body again, but he’s had time to learn. He spends an additional point of plasm when activating the Stygian Marionette. The cop had Athletics 3, Brawl 1, Firearms 3, Stealth 1, Weaponry 2. Emil has Athletics 2, Drive 1, Larceny 3, Stealth 3. Combined, he has Athletics 3, Brawl 1, Drive 1, Firearms 3, Larceny 3, and Stealth 3. Because his body and mind aren’t in perfect alignment, Emil’s player can’t re-roll 10s on Brawl and Firearms rolls. On the other hand, any Athletics and Stealth rolls become 9-again.",
+                                "italic": true
+                            }
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can spend willpower to maintain control of a new body for up to a week; can shift between bodies with a roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can spend 1 Willpower when activating the Marionette to remain in her new shell for up to a week. She can shift her consciousness between bodies with a successful Manipulation + Medicine roll, though whichever body she isn’t using falls into a death-like state and is unable to take any actions. She becomes aware if her own body takes damage, and if it takes enough to kill her, the Manifestation ends immediately as she has to claw herself back from the brink. Both bodies share the protection from possession; once a Sin-Eater has made her claim it is inviolate for as long as her plasm links the two bodies."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Can control both true and new bodies simultaneously, with an extra roll, and penalties to wits and defense.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Rather than inhabiting one body or the other, the Sin-Eater and her geist work in concert so both bodies can act at the same time. Once she’s established possession of another body, the Sin-Eater spends 2 plasm and 1 Willpower, and rolls Manipulation + Medicine + activation successes as an instant action. On a success, the Sin-Eater’s normal body and her inhabited body are both conscious and capable of acting at the same time. The two have to remain within 20 yards of each other. Each body can perform instant or extended actions independent of the other. In combat, both act on the same Initiative. The cognitive dissonance of working four pairs of hands at the same time takes its toll, and the Sin-Eater suffers a -2 modifier to any Wits rolls, and halves her Defense in both bodies. The stress of this power is such that the character can’t use the Stygian Marionette until she gets a full eight hours’ sleep. An exceptional success allows the Sin-Eater to act without a penalty to Wits rolls, but Defense is still halved. A dramatic failure instead calls a nearby ghost into the body affected by the Stygian Marionette."
+                        ]
                     }
                 ]
             }
@@ -2683,24 +4071,99 @@ export const ManifestationsKeysData = [
         Attribute: "Manipulation",
         Skill: "Subterfuge",
         Summary: "Create a homunculus from the element used",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "It is possible for one Sin-Eater to steal a homunculus away from its creator. To do so, the poacher must first acquire the egg and then attempt to harmonize it. The creator intuitively senses when such a theft attempt takes place and can resist reflexively. The creator can also sense the location and distance of a stolen egg with a successful Wits + Composure roll and can find it unerringly absent some type of magical occlusion."
+            },
+            {
+                type: "heading",
+                level: 3,
+                text: "Poaching a Homunculus"
+            },
+            {
+                type: "line",
+                label: "Cost",
+                text: "None but the poacher must have physical possession of the egg."
+            },
+            {
+                type: "line",
+                label: "Dice Pool",
+                text: "Presence + Occult + Marionette rating (sentient beings usually have a resistance roll described under each specific Manifestation)"
+            },
+            {
+                type: "line",
+                label: "Action",
+                text: "Instant"
+            },
+            {
+                type: "heading",
+                level: 2,
+                text: "Roll Results"
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Dramatic Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails, and the egg’s true owner knows exactly where the egg is and who has it."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Failure:",
+                        bold: true
+                    },
+                    " The attempt to steal the homunculus fails."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Success:",
+                        bold: true
+                    },
+                    " The Sin-Eater acquires ownership of the egg but must immediately spend one dot of Willpower to reset the lifespan of the egg for a time span (based on the original activation successes rolled for the creator)."
+                ]
+            },
+            {
+                type: "paragraph",
+                text: [
+                    {
+                        text: "Exceptional Success:",
+                        bold: true
+                    },
+                    " The new owner automatically gains control over the egg, which will endure for (activation successes) months without the expenditure of a Willpower dot."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: "1-4",
                 summary: "Create homunculus. Requires water from lungs of drowning victim or from area where human was buried at sea during same scene. 1 Plasm Marionette dot plus a Willpower DOT. Endures 1 month / Activation. 1 Plasm to activate, may direct it. Physical Attributes and Size equal to Marionette dots, use Mental and Social Attributes as well as skills, -3 Presence. Can swim 4x Speed but moves half Speed on land. Can breath underwater. +3 to heat/fire attacks against it.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "The basic characteristics of a homunculus forged with Elemental Marionette • are as follows: the creature starts with Strength, Dexterity, Stamina, and Size equal to the Sin-Eater’s Elemental Marionette rating. The homunculus will always use its creator’s Mental and Social Attributes, as well as her Skills (since it is merely an extension of her will and personality), but it suffers a –3 dice penalty on all Presence rolls due to its disturbing appearance. Each homunculus closely resembles the person whose death gave rise to it. That is, a Grave-Dirt homunculus will resemble the person whose grave was disturbed to create the egg. Although the homunculus acts according to the dictates of its creator, it will speak with the voice of the dead person it resembles and often have many of its mannerisms and personality quirks so long as they do not interfere with the Sin-Eater’s control."
+                    },
+                    {
+                        type: "paragraph",
+                        text: "Finally, a Tear-Stained homunculus is borne of water either drawn from the lungs of a drowning victim or from the immediate area where a human body was buried at sea earlier in the same scene. Such homunculi usually have greenish-blue, constantly wet skin with jet-black eyes. Most also have webbed hands and feet. The homunculi can breathe underwater and can swim at triple its normal movement rate. If the Sin-Eater wishes, the Tear-Stained homunculus may have a fish tail in place of legs. Such a specimen can swim at four-times its normal Speed but can move at only half its normal Speed while on dry land. Like their Cold Wind cousins, Tear-Stained homunculi are highly vulnerable to fire- or heat-based attacks, either of which adds a +3 dice bonus to all attack rolls. The egg of a Tear-Stained homunculus is a tiny glass snow globe. If one looks closely, one can see that the “snow” appears to be made of fingernail scrappings."
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Homunculus can act independent of your direct control, gains 1 dot in Mental and Social Attributes. Activation can be distributed between Mental and Social Attributes (1/ 1 dot) or Skills (1/ 3 dots).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        type: "paragraph",
+                        text: "When the Sin-Eater reaches Elemental Marionette •••••, the homunculus gains the potential for quasi-sentience. In addition to Physical Attributes and Size, the homunculus begins with one dot in each of the Mental and Social Attributes, and the Sin-Eater may spend activation successes to give the creature dot ratings in Mental or Social Attributes (on a one-for-one basis) or in Skills (at a ratio of three Skill dots per activation success spent). Such a homunculus can follow the orders of its creator without her constant supervision, allowing the Sin-Eater to focus on other things while her obedient servant carries out her wishes."
                     }
                 ]
             }
@@ -2717,32 +4180,14 @@ export const ManifestationsKeysData = [
             {
                 dot: "1-2",
                 summary: "Must be suffocated or strangled (full Bashing). Astral project for 1 hour / Activation + 1 hour / Plasm spent. Can detect tampering with your body with a Wits+Composure+Oracle+Activation roll and return instantly. When you return, all previous damage is healed.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
-                dot: 3-4,
+            {
+                dot: "3-4",
                 summary: "Fly up to 100 miles per hour / Oracle dot, gain +3 bonus when dealing with ghosts that died due to the elements.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Duration is Indefinite.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 137"
@@ -2750,38 +4195,21 @@ export const ManifestationsKeysData = [
     {
         Manifestation: "Oracle",
         Key: "Grave-Dirt",
-        Attribute: "By subjecting herself to environmental trauma associated with an Elemental Key, the user can astrally project.",
-        Summary: "Intelligence",
+        Attribute: "Intelligence",
+        Skill: "Occult",
+        Summary: "By subjecting herself to environmental trauma associated with an Elemental Key, the user can astrally project.",
         Ranks: [
             {
                 dot: "1-2",
                 summary: "Must be buried alive (full Bashing). Astral project for 1 hour / Activation + 1 hour / Plasm spent. Can detect tampering with your body with a Wits+Composure+Oracle+Activation roll and return instantly. When you return, all previous damage is healed.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
-                dot: 3-4,
+            {
+                dot: "3-4",
                 summary: "Fly up to 100 miles per hour / Oracle dot, gain +3 bonus when dealing with ghosts that were buried underground.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Duration is Indefinite.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 137"
@@ -2792,56 +4220,84 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Crafts",
         Summary: "Gain supernatural insights into machines and crafted items.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Industrial Oracle grants insight into crafted objects, from hand-crafted antique furniture to state-of-the art electronics. While this Manifestation is active, the Sin-Eater may apply the activation successes to all rolls made to understand or observe such items. When performing any Wits-related action to study or scrutinize crafted items in the area, add the Sin-Eater’s activation successes as a dice bonus to any such roll. In addition to obvious uses of the Industrial Oracle, the Sin-Eater might add his activation successes to a Wits + Investigation roll to notice a hidden safe or a silent alarm system, or to a Wits + Composure roll to notice how many people in the room are carrying concealed weapons."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Anachrotech Modifiers (see pg. 111) apply to all applications of the Industrial Oracle."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Add Activation to Wits-based rolls to perceive or understand a crafted object.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Add Activation to any roll dealing with the object.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This heightened awareness expands to grant insight into a crafted item’s properties and weaknesses. Whenever a Sin-Eater who has unlocked the Industrial Oracle attempts to operate, damage, disable, or destroy a crafted item (whether kicking in a door, disarming an explosive, or hot-wiring a car), the player may add the activation successes as a dice bonus to any relevant roll. This benefit is no longer limited to Wits-related rolls but may be applied to any roll that can logically benefit from a supernatural insight into the item to be manipulated."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Roll Intelligence+Investigation+Activation to ask a number of questions about object's history equal to successes.",
-                content: [
+                summary: "Roll Intelligence + Investigation + Activation to ask a number of questions about object's history equal to successes.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "By unlocking the Industrial Oracle and then handling the item for several second, plasm will flow from the Bound’s hands through the device, producing a smoky mist of plasm that grants the Sin-Eater visions of the item’s prior history. The player spends 1 plasm and rolls Intelligence + Investigation + (activation successes); success grants valuable insights into the object’s past. Each success allows the Sin-Eater’s player to ask the Storyteller one question about the object’s prior history."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "Roll Intelligence+Investigation+Activation to ignore one point of Durability of object per successes.",
-                content: [
+                summary: "Roll Intelligence + Investigation + Activation to ignore one point of Durability of object per successes.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "With this power, the Sin-Eater may study an object for just a few seconds and instantly notice weak spots and pressure points, making it all that much easier to tear the item apart or smash it to bits. The player spends 1 plasm and rolls Intelligence + Investigation + (activation successes). For each success rolled, the Sin-Eater can ignore one point of the item’s Durability when attacking it or attempting to destroy it during the course of that scene."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Can make a phone call and project senses over the line, or use Industrial Boneyard centered on the other end so long as call is connected.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "By utilizing the power of technology to transcend distance, the Sin-Eater can use telecommunications equipment to project her senses. The Sin-Eater simply makes a phone call and, assuming someone picks up on the other end, she can project her senses to the telephone at the other end. In and of itself, this power may not seem very impressive. The Sin-Eater can perceive anything in the area she called from the vantage point of the receiving telephone, and she can reorient her senses to view anything that could be seen from that vantage point. However, if the Sin-Eater also has access to the Boneyard Manifestation, she can unlock that Manifestation with the Industrial Key, center it on the receiving telephone, and be able to use any powers associated with the Industrial Boneyard as if she were physically at that location. This Manifestation ends immediately if the phone call is disconnected."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater must first unlock the Industrial Oracle through a standard activation roll, before spending one plasm and rolling Intelligence + Investigation + (activation successes). The roll to initiate this power suffers Anachrotech penalties (see pg. 111) as follows: apply no penalty if both the calling and receiving phones are landline telephones. Apply a -4 penalty if both phones are cell phones. If one is a cell phone and the other a land line, apply a -2 penalty. This power may only be used through standard telephones, although rumors among the Sin-Eaters hint that some of their number may exercise this power through fax machines and even through Internet connections, albeit with great difficulty."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "If successful, for the duration of the phone connection, the Sin-Eater can perceive anything in the area where the receiving telephone sits. If the Sin-Eater attempts to unlock the Industrial Boneyard at the target location, the activation for that roll gains a number of bonus dice equal to the successes on this roll."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 139"
@@ -2852,56 +4308,66 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Empathy",
         Summary: "Supernatural insights into the emotional states of others.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Passion Oracle allows the Sin-Eater to gain insight into the emotional heart of anyone with whom she interacts. With the basic power of this Manifestation, the Sin-Eater becomes preternaturally skillful at understanding the emotions of others. For the duration of the scene, she can add his activation successes to any mundane roll based on Empathy or Intimidation. If the Sin-Eater targets someone for such a roll with whom hse has also forged a sympathetic link through the Passion Marionette Manifestation, only the better of the two dice bonuses applies to any relevant roll."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Add Activation to mundane Empathy and Intimidation rolls, exclusive with Passion Marionette bonus.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Gain 9-Again on mundane Empathy and Intimidation rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater also gains the 9-again quality on all mundane Empathy and Intimidation rolls made during the scene."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Roll Wits+Empathy+Activation-(target's Composure) to perceive their emotional aura.",
-                content: [
+                summary: "Roll Wits + Empathy + Activation - (target's Composure) to perceive their emotional aura.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can perceive the auras of other beings, allowing great insight into their emotional states. The player spends 1 plasm and rolls Wits + Empathy + (activation successes) - target’s Composure. Success grants insight into the target’s emotional state. The precise nature of the insight varies from character to character. Most Sin-Eaters seem to associate emotions with colors (such as associating fear with the color orange or anger with bright red). However, many other Sin-Eaters perceive auras through other senses, such as “hearing love” or “smelling despair.” Regardless of how this paranormal sense manifests itself, success on this roll allows the Sin-Eater to immediately comprehend the current emotional state of the person who is the object of her scrutiny."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "When perceiving aura, choose one per success: see Viture, Vice, permanent or temporary Willpower, Morality or a Derangement.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This power allows the Sin-Eater to divine more detailed information than merely the target’s current emotional state. For each success on the above Wits + Empathy roll, the Sin-Eater’s player may learn one of the following: the target’s Virtue, the target’s Vice, the target’s permanent or current Willpower, the target’s current Synthesis (or the equivalent for other types of creatures), or what derangements the target possesses (only one derangement is revealed per success). However, exercising this enhanced power adds 1 Willpower point to the normal cost of aura perception."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Add Activation to one Brawl, Melee or Firearms attack roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s awareness of her enemy’s intentions allows her to anticipate his efforts to evade her attacks. In order to make an Intuitive Attack, the Sin-Eater must spend 1 plasm. Doing so allows her to add her Oracle activation successes to any Brawl, Melee, or Firearms attack roll."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 140"
@@ -2912,56 +4378,87 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Investigation",
         Summary: "The power to see through illusions and lies and acquires the gift of prophecy",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "While most uses of the Phantasmal Key allow the Sin-Eater to create and manipulate illusions, the Phantasmal Oracle allows him to see through illusions instead — not just the glamours and phantasms created through magic but also the less esoteric illusions common to humanity. After unlocking the Phantasmal Oracle, the Sin-Eater may add his activation successes to all mundane Empathy rolls to detect lies. He may also add the activation successes as bonus dice to all mundane Subterfuge and Persuasion rolls, as his insights enable him to better craft his lies to fit his audience’s expectations."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Add Activation to mundane Empathy (Detect Lies), Subterfuge and Persuasion rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Gain 9-Again on mundane Empathy (Detect Lies), Subterfuge and Persuasion rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s insight into these areas grows ever more acute. By spending 1 plasm, the Sin-Eater may gain the 9-again quality on a single Empathy roll to detect lies or a single Subterfuge or Persuasion roll to persuade another of some untruth."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Add Activation to any roll to resist or see through magical illusions or deceptions. Can roll Intelligence+Investigation to resist even if not normally allowed.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s gaze can cut to the heart of even supernatural deceptions. While the Phantasmal Oracle remains unlocked, the Sin-Eater may add her activation successes to any Attribute relevant to resisting or seeing through magical illusions, including effects that confer any form of invisibility. The Sin-Eater may also add the activation successes to any rolls to resist magical effects that might force him to believe something that is untrue. If the effect is one that does not normally allow for a resisted roll, allow the Sin-Eater to roll his Intelligence + Investigation (without adding activation successes) against the roll used to create the deceptive effect. The effects of this power do not stack with other bonuses granted by Manifestations."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "ST rolls your Intelligence+Occult+Activation, takes three minutes to use. Each success gives one cryptic answer to a question.",
-                content: [
+                summary: "ST rolls your Intelligence + Occult + Activation, takes three minutes to use. Each success gives one cryptic answer to a question.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Most illusions conceal the truth. To the Sin-Eater, some illusions reveal it. The Sin-Eater can trigger a powerful hallucination that can grant prophetic warnings. When the player wishes to invoke such a vision, the Storyteller should make the dice roll on his behalf so that the player will not know whether the vision is truly accurate or not. The player spends 3 plasm and rolls Intelligence + Occult + (activation successes); the action requires at least one minute of concentration per plasm spent. If successful, the Sin-Eater has a brief hallucinatory episode that grants insights into future events. For each success, the Sin-Eater may ask one question about the future, which the Storyteller may answer in the form of a cryptic and surrealistic vision."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The farther away the event, the more difficult it is to perceive. Penalties apply as follows:"
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "The Sin-Eater seeks insight into events that will happen within that scene (-0).",
+                            "... within the next hour (-1).",
+                            "... within the next day (-3).",
+                            "... each additional day the Sin-Eater wishes to look into the future (-1)."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "This power automatically fails if the dice penalty based on temporal proximity reduces the dice pool to -10."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Automatically see through any illusion if Psyche is greater than creator's Supernatural Attribute.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s power to pierce the veil of illusion is perfected. While this Manifestation is unlocked, the Sin-Eater can see through any illusory effect automatically provided that his Psyche exceeds that of the creator of the illusion (or exceeds whatever Supernatural Attribute the creator has if she is not a Sin-Eater)."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 140"
@@ -2972,56 +4469,107 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Survival",
         Summary: "Gains powerful animalistic senses.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Through the Primeval Oracle, the Sin-Eater can attune her senses with the natural world, drawing upon her geist’s latent savagery to gain insight into her surroundings. While the Primeval Oracle remains unlocked, the Sin-Eater may add her activation successes as a dice bonus to all her Wits-based perception rolls. She may also add her activation successes as a dice bonus to all mundane Animal Ken and Survival rolls."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Add Activation to Wits-based perception and mundane Animal Ken and Survival rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Add Activation to Initiative and mundane Empathy rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "These animalistic senses give the Sin-Eater an intuitive sense of the mood of those with whom he interacts, especially the mood of those who may be hostile towards him. The Sin-Eater may also add his activation successes to all mundane Empathy rolls and to all Initiative rolls."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Gain 'Direction Sense' Merit while outdoors.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "While the Manifestation is unlocked, the Sin-Eater gains all the benefits of the Direction Sense Merit (see World of Darkness, page 110), but only while outdoors. This benefit cannot be used to help the Sin-Eater navigate while below ground or while inside a building."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Gain 9-Again on Wits-based perception rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "While the basic power of this Manifestation allows for heightened sensory acuity, Beast Senses raise the Sin-Eater’s awareness to truly superhuman levels. He gains the 9-again quality on all Wits-based rolls to observe his surroundings."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Roll Wits+Survival+Activation vs Wits+Stealth to track a target by scent (1 roll / hour).",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "While the Primeval Oracle remains unlocked, the Sin-Eater gains the ability to track others merely by scent. Tracking is treated as an extended and opposed Wits + Survival + (activation successes) roll, resisted by the quarry’s Wits + Stealth. Each roll represents up to one hour of pursuit."
+                        ]
+                    },
+                    {
+                        "type": "line",
+                        "label": "Dramatic Failure",
+                        "text": [
+                            "The Sin-Eater is led astray or follows a false trail, usually straight into danger."
+                        ]
+                    },
+                    {
+                        "type": "line",
+                        "label": "Failure",
+                        "text": [
+                            "The Sin-Eater fails to roll more successes than the quarry. The Sin-Eater loses the scent but can try to find it again with a subsequent roll, although each subsequent roll suffers a cumulative -1 dice penalty."
+                        ]
+                    },
+                    {
+                        "type": "line",
+                        "label": "Success",
+                        "text": [
+                            "The Sin-Eater rolls more successes than the quarry. The Sin-Eater can discern the path taken by his quarry and may track her for up to one hour. The Storyteller determines how many net successes the Sin-Eater needs to accumulate in order to run the quarry to ground. As a general rule of thumb, the extended roll requires 5 net successes for each mile of ground covered by the quarry."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "Additionally, once the Sin-Eater has gotten the scent once, she will remember it for up to a day and can automatically recognize anyone she meets by scent during that time."
+                        ]
+                    },
+                    {
+                        "type": "line",
+                        "label": "Exceptional Success",
+                        "text": [
+                            "The Sin-Eater exceeds the quarry’s successes by 5 or more. The Sin-Eater has the scent and is unshakeable. Even if the Sin-Eater fails a subsequent roll, he will not lose the scent and does not suffer any penalty on subsequent tracking rolls. Additionally, the Sin-Eater will never forget the scent and will always be able to recognize the quarry by it."
+                        ]
+                    },
+                    {
+                        "type": "line",
+                        "label": "Possible Modifiers",
+                        "text": [
+                            "The Sin-Eater has some possession of the quarry that carries her scent (+1 to +3). The scent is very old (-1 per day, to a maximum penalty of -10). Inclement weather has washed away part of the scent (-3)."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 141"
@@ -3036,32 +4584,14 @@ export const ManifestationsKeysData = [
             {
                 dot: "1-2",
                 summary: "Must set yourself on fire (2 Lethal damage). Astral project for 1 hour / Activation + 1 hour / Plasm spent. Can detect tampering with your body with a Wits+Composure+Oracle+Activation roll and return instantly. When you return, all previous damage is healed.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
-                dot: 3-4,
+            {
+                dot: "3-4",
                 summary: "Fly up to 100 miles per hour / Oracle dot, gain +3 bonus when dealing with ghosts that were cremated or burned alive.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 5,
                 summary: "Duration is Indefinite.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
         ],
         Book: "GTS 137"
@@ -3072,56 +4602,94 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Occult",
         Summary: "Insights into ghosts, geists and the spiritual world in which they travel.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "With this Manifestation, the Sin-Eater gains special insight into ghosts and other Twilight beings. The basic power allows the Sin-Eater to add her activation successes to all Wits-based rolls to observe or understand anything pertaining to ghostly activity in the area."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Add Activation to Wits-based rolls to see or understand anything related to ghosts in the area.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
-                summary: "Roll Wits+Occult+Activation-(ghost's Resistance), each success answers one question about the ghost.",
-                content: [
+                summary: "Roll Wits + Occult + Activation - (ghost's Resistance), each success answers one question about the ghost.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may scrutinize a ghost to gain information about it. The player rolls Wits + Occult + (activation successes), resisted by Resistance. If the player rolls more successes than the quarry, for each net success, she may ask the Storyteller one question about the ghost. Possible questions include the following:"
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "Who was the ghost in life?",
+                            "What are the ghost’s Anchors?",
+                            "What Numina does the ghost possess?",
+                            "What are its Virtue and Vice?",
+                            "How did the ghost die?"
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Roll Wits+Composure+Activation-(1/hour) to detect past Numia and Manifestation use in the area. Roll Wits+Occult+Activation and pay 1 Plasm to gain one answer about the event per success.",
-                content: [
+                summary: "Roll Wits + Composure + Activation - (1/hour) to detect past Numia and Manifestation use in the area. Roll Wits+Occult+Activation and pay 1 Plasm to gain one answer about the event per success.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may detect subtle plasmic residue left behind from previous applications of either ghostly Numina or Sin-Eater Manifestations. The player must roll Wits + Composure + activation successes to notice plasmic residue left behind in the last hour. Each additional hour inflicts a cumulative -1 dice penalty. Once the Sin-Eater locates the plasmic remains, she may choose to clairvoyantly observe what occurred when the plasmic residue was left. This power has no cost to find residue."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "Seeing into the past costs 1 plasm to see into the past, and requires a Wits + Occult + (activation successes) roll."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "For each success, the player may ask the Storyteller one question about the events that took place when the Numina or Manifestation was used."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "Roll Wits+Occult+Activation-(1/mile) to detect nearest Underworld Gate.",
-                content: [
+                summary: "Roll Wits + Occult + Activation - (1/mile) to detect nearest Underworld Gate.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "While the Stigmata Oracle is unlocked, the Sin-Eater also gains the ability to locate the nearest entry point to the Underworld. The player must roll Wits + Occult + activation successes, with a dice penalty applied to the roll equal to -1 per mile away that the entry point is (assuming there is one nearby at all). The player may roll a chance die if necessary, but may not use this power to detect entry points so far away that the dice pool is reduced to -10."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
-                summary: "Roll Stamina+Occult+Activation to send your soul to the Autocthonous Depths. Damage to soul occurs to body as well. Can return with one full action, or by reflexive action if 1 Lethal damage is taken.",
-                content: [
+                summary: "Roll Stamina + Occult + Activation to send your soul to the Autocthonous Depths. Damage to soul occurs to body as well. Can return with one full action, or by reflexive action if 1 Lethal damage is taken.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can project his soul into the Underworld. His soul appears in the Autochthonous Depths, where it is as corporeal as any other ghost to be found there. The Sin-Eater’s soul-form can be damaged normally by any of the Underworld’s dangers or inhabitants, and any damage inflicted upon it is also inflicted on his physical body. The Sin-Eater can return to his body automatically and reflexively, but it takes one full action of concentration to do so during which time he may be vulnerable to danger. Alternatively, he may “rip-cord.” Rip-cording instantly returns the Sin-Eater to his physical body but inflicts one level of automatic lethal damage on his body."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The player spends 2 plasm and 1 Willpower, and rolls Stamina + Occult + (activation successes). If successful, her soul appears in the Underworld where it is functionally the same as a ghost. The Sin-Eater retains access to her Manifestations, and her soul-body functions in the Underworld exactly as if she had physically traveled there. The Sin-Eater may only travel instantly to the Autochthonous Depths, but from there may travel to any part of the Underworld through conventional means."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 141"
@@ -3132,56 +4700,86 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Medicine",
         Summary: "Gains supernatural insights about corpses and can even draw upon the knowledge once contained by the deceased.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "With this Manifestation, the Sin-Eater gains insight into the dead. The basic power allows the Sin-Eater to add his activation successes to all Investigation or Medicine related rolls made to examine a dead body or other physical remains."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Add Activation to Investigation and Medicine rolls to examine remains.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Gain 9-Again roll on Investigation and Medicine rolls to examine remains.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater also gains the 9-again quality on all such rolls."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Roll Intelligence+Medicine+Activation to ask a question about 1 minute / success leading up to touched corpse's death.",
-                content: [
+                summary: "Roll Intelligence + Medicine + Activation to ask a question about 1 minute / success leading up to touched corpse's death.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "With this power, the Sin-Eater becomes the ultimate medical examiner. By touching human remains, the Sin-Eater may relive the deceased’s last minutes of life. The player spends 1 plasm and rolls Intelligence + Medicine + (activation successes). For each net success, the Sin-Eater perceives one minute of time seen through the deceased’s eyes leading up to her death."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s player may ask the Storyteller one question about what the character sees per success. Alternatively, the player may choose to ask whether the deceased went on to become a ghost and, if so, may ask questions about the ghost’s current status and whereabouts."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "When asking questions, may ask about life as well as death.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "When questioning the dead, the player may ask questions concerning any aspect of the deceased’s life, rather than just questions pertaining to his death."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
-                summary: "Roll Intelligence+Occult+Activation to take a corpses' Skill Dots, Mental Merit or Specialty for a scene as long as within 10 yards / Psyche of Size 1 remains.",
-                content: [
+                summary: "Roll Intelligence + Occult + Activation to take a corpses' Skill Dots, Mental Merit or Specialty for a scene as long as within 10 yards / Psyche of Size 1 remains.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "With this rather macabre power, the Sin-Eater may appropriate the knowledge and skills of the deceased for her own use. In order to utilize this power, the Sin-Eater must have access to a quantity of human remains at least equivalent to Size 1. If the deceased possessed one or more Skills at a higher level than the Sin-Eater or possessed one or more Mental Merits that the she might find useful, the Sin-Eater can temporarily claim them for herself. The Sin-Eater can only acquire one improved Skill or new Merit at a time, and the benefits only last for a scene, during which time the Sin-Eater can go no farther from the remains than (Psyche x 10) yards without ending the effect."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The player spends 2 plasm and rolls Intelligence + Occult + (activation successes). If successful, for the duration of the scene, the Sin-Eater may gain one of the following benefits:"
+                        ]
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "He may substitute one of the deceased’s Skill ratings in place of his own.",
+                            "He may acquire one Mental Merit possessed by the deceased.",
+                            "He may acquire any Specialty of the deceased."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 142"
@@ -3192,54 +4790,73 @@ export const ManifestationsKeysData = [
         Attribute: "Intelligence",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stygian Oracle calls upon the combined knowledge of the dead to bolster a Sin-Eater’s understanding of the world. With the basic power of this Manifestation, the Sin-Eater can trawl the collective knowledge of every ghost, searching for that one little secret that unlocks whatever mystery has confounded her. For the duration of the scene, she can add her activation successes to her dice pool for any extended Academics or Occult actions, and can understand a number of languages equal to her activation successes."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Scan collective knowledge of local ghosts; add activation successes to extended Academics or Occult checks, and can understand a number of additional languages equal to activation successes.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Gains encyclopedic knowledge merit, or 8-again to rolls to recall something if already possessed. When Stygian Oracle is active, can add activation successes to dice pool for this merit.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "With this Oracle, a Sin-Eater’s connection to the Underworld is never truly broken. Even when not Manifesting the Stygian Oracle, the Bound hears whispers in the back of her mind. She gains the benefits of the Encyclopedic Knowledge Merit at all times. A character who already possesses the Merit gains the 8-again quality on the Intelligence + Wits roll to recall something. When the Stygian Oracle is active, the Sin-Eater adds her activation successes to the Merit’s dice pool."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Can add activation successes to all Academics or Occult checks; gains a permanent number of known languages equal to Oracle dots.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can add her activation successes to all Academics and Occult rolls. When the Oracle is active, she knows all languages ever spoken or written by man, from ancient Sumerian to the languages of lost Polynesian tribes. Even when not using the Oracle, the Sin-Eater knows a number of languages equal to her Oracle dots, in addition to any languages purchased as Merits."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can spend a plasm to add activation successes to pool for navigating the Underworld; can additionally spend a willpower dot to instantly transit between two rivers.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Nobody knows the Underworld like a ghost, and the Stygian Oracle grants a Sin-Eater the knowledge of all the dead. This strange familiarity brings useful shortcuts through the twisting tunnels that wind through the Autochthonous Depths and Lower Mysteries — though some lead to nothing but danger and ruin. When using the Stygian Oracle, the Sin-Eater can spend 1 plasm as a reflexive action to add her activation successes to the dice pool to navigate the Underworld (see “Navigating Dark Passages,” p. 267 of Geist: The Sin-Eaters for more details). If she instead spends a point of Willpower along with the [unclear], she reduces the extended action to travel between two rivers, or between a river and an Avernian Gate, to an instant action. Any failure on this roll is treated as a dramatic failure, as the Sin-Eater follows bad directions straight into a hazardous location."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "For one scene, gains a number of bonus dots to skills in a given category (mental, physical, social) equal to Occult + activation successes, any given skill maxing at four dots. Severe penalties for enhancing an unknown skill this way.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "As the Sin-Eater’s awareness grows, she can draw directly on the Skills of the dead. While she couldn’t gain occult knowledge from Aleister Crowley’s ghost, she can tap into the general understanding of every occultist who has died and entered the Underworld. When Manifesting the Oracle, the Sin-Eater can spend 1 plasm as a reflexive action to enhance her Skills. Her player can add a number of dots equal to the character’s Oracle rating + activation successes, but these must all be in the same category (Mental, Physical, or Social). No Skill can be raised to more than four dots in this fashion. Any Skills that the character doesn’t normally possess become unreliable: any dice pool using that Skill loses the 10-again quality and 1s subtract successes. The dots granted by this power last until the end of the scene."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            {
+                                "text": "Genevieve was a socialite before she became a Sin-Eater, but that’s not going to help her against a gang of ghosts who want her head after a deal gone wrong. They’ve stolen the bodies of some construction workers, and they want to hurt her. Focusing, she calls on the reflexes and muscle memory of 10 generations of fighters through the Stygian Oracle. She has two activation successes, and Oracle 5, giving her seven points to distribute. She spends three to increase her existing Athletics 1 to 4, in case she needs to run, and spends the remaining four on raising her Brawl from 0 to 4 dots, (though any Brawl rolls won’t benefit from 10-again). Smiling, she turns to face her assailants.",
+                                "italic": true
+                            }
+                        ]
                     }
                 ]
             }
@@ -3256,32 +4873,14 @@ export const ManifestationsKeysData = [
             {
                 dot: "1-2",
                 summary: "Must drown yourself (full Bashing). Astral project for 1 hour / Activation + 1 hour / Plasm spent. Can detect tampering with your body with a Wits+Composure+Oracle+Activation roll and return instantly. When you return, all previous damage is healed.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
-                dot: 3-4,
+            {
+                dot: "3-4",
                 summary: "Fly up to 100 miles per hour / Oracle dot, gain +3 bonus when dealing with ghosts that were buried at sea.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Duration is Indefinite.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 137"
@@ -3292,56 +4891,36 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Occult",
         Summary: "Make elemental attacks against another.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Cold Wind Rage chills its victims to the bone, carrying a spectral chill only the target can feel. In addition to damage, the Cold Wind Rage inflicts a penalty to Defense and Speed equal to the Sin-Eater’s Rage rating for the duration of the scene (not cumulative)."
+            },
+            {
+                type: "paragraph",
+                text: "As the damage rises in lethality, the effects become more pronounced. Frost may form on the victim’s skin. A person slain by the Cold Wind Rage may have her heart frozen in her chest, or even leave a frozen corpse that shatters and slowly melts away."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Inflicts Bashing. On hit, victim suffers a -1 penalty to all rolls until the end of the scene.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Penalties stack to a maximum of -5.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 3,
                 summary: "Spend an additional plasm to knock victim back 5 yards per point of damage.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 4,
                 summary: "Spend plasm 1:1 to increase Activation dice pool upto Occult rating. All Cold Wind Rage attacks inflict Lethal for no additional cost.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Victim adds their Stamina to their Defense. On success, re-roll failed dice as if rote.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 143"
@@ -3352,56 +4931,36 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Occult",
         Summary: "Make elemental attacks against another.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "Victims of the Grave-Dirt Rage feel tremendous pressure crushing them, as if they’re being buried alive. It becomes more difficult to speak, as if one’s mouth is choked with dirt. In addition to damage, the Grave-Dirt Rage inflicts a penalty to Manipulation and Speed equal to the Sin-Eater’s Rage rating for the duration of the scene (not cumulative)."
+            },
+            {
+                type: "paragraph",
+                text: "As the damage rises in lethality, the earthen presence becomes increasingly physical. Grave dirt enters the bloodstream, or a victim might develop bruises consistent with the impacts of hurled stone. A person slain by the Grave-Dirt Rage may have his lungs filled with clay, his body crumble to dust, or the very earth swallow it whole."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack. Penalize target's Manipulation and Speed by Rage Dots for a scene.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 3,
                 summary: "Ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 4,
                 summary: "Range extends to line-of-sight.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Damage is Aggravated for one attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 143"
@@ -3412,56 +4971,41 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Crafts",
         Summary: "Damage or destroy mechanical devices.",
+        "Content": [
+            {
+                type: "line",
+                label: "Key Defense",
+                text: "Durability"
+            },
+            {
+                type: "paragraph",
+                text: "The Industrial Rage smashes and breaks the inanimate. This power is used against material objects rather than entities. The Sin-Eater unlocks the power and rolls to attack as usual, targeting the object’s Durability. Anachrotech penalties do not apply to this use of the Industrial Rage; it is no harder to destroy a modern piece of equipment."
+            },
+            {
+                type: "paragraph",
+                text: "An alternate use of this power is to channel the Sin-Eater’s Rage through a man-made item. By spending a point of plasm, the Sin-Eater may add his Rage rating to the dice pool of any attacks made with a man-made item, although this bonus becomes subject to anachrotech penalties. (In order to gain the full bonus, for instance, the item must have been manufactured before 1960.)"
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Attack an object's Durability within 10 yards / Psyche equal to successes with an invisible attack, or add Rage Dots to attacks made with an object (penalized by technology level, p111).",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 3,
                 summary: "Ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 4,
                 summary: "Range extends to line-of-sight.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Damage is Aggravated for one attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 143"
@@ -3472,56 +5016,66 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Persuasion",
         Summary: "Terrorize her enemy so much that he dies of fright.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Passion Rage digs through the victim’s memories, bringing back moments of weakness and pain to cripple the Sin-Eater’s foe. When the Sin-Eater unlocks the Passion Rage, she inflicts mental trauma that deals bashing damage."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Penalize target's Social rolls against you by -2 for a Scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can intimidate her foes by wrapping her image in with his victim’s fears. The victim receives a -2 penalty to any Social rolls made against the Sin-Eater for the duration of the scene."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Reduce target's Defense to 0 until his next turn. Ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This emotional onslaught may make a victim freeze up in terror. The player may spend an extra point of plasm to reduce her victim’s Defense to 0 until his next turn."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "For each point of damage that would be dealt, you can spend 2 Plasm to drain 1 Willpower instead. Range extends to line-of-sight.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This attack focuses the victim’s thoughts on his own mortality. For each point of damage dealt, the Sin-Eater can spend two points of plasm to drain one point of Willpower from the victim instead."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
-                summary: "Instead, roll Manipulation+Empathy+Rage-(lower of target's Resolve and Composure) to do 1 Dot of Mental Attribute damage per success, that heals at a rate of 1 Dot / 2 days. Additionally, may pay 1 Willpower to cause damage to be Aggravated for one attack.",
-                content: [
+                summary: "Instead, roll Manipulation + Empathy + Rage - (lower of target's Resolve and Composure) to do 1 Dot of Mental Attribute damage per success, that heals at a rate of 1 Dot / 2 days. Additionally, may pay 1 Willpower to cause damage to be Aggravated for one attack.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At this level, the Sin-Eater can devastate her target’s mind. The player spends 2 plasm and 1 Willpower, and rolls Manipulation + Empathy + Rage rating - the lower of target’s Resolve and Composure. Each success reduces one of the target’s Mental Attributes by one point. This Attribute damage heals at the same rate as lethal damage."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 144"
@@ -3532,56 +5086,72 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Persuasion",
         Summary: "Create illusions capable of harming an enemy.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A Sin-Eater that unlocks the Phantasmal Rage can conjure realistic illusions that scour her foe’s body. At early levels, the injuries inflicted by this Manifestation are illusory, even debilitating wounds fade as the victim’s head clears. As the Sin-Eater unlocks new powers, she can create illusions that draw a victim into harming himself."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The damage caused by the base Phantasmal Rage is entirely illusory (though it might “count as” bashing, lethal or aggravated as usual). If the victim is outright killed by it, he dies of fright; otherwise he is left unharmed, if perhaps somewhat traumatized, at the end of the scene."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack. Damage is removed at the end of the Scene.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
-                summary: "Instead, roll Manipulation+Persuasion+Rage to create a phantom that attacks before you for three turns with successes as it's pool. Damage may be Bashing or Lethal, and is removed at end of the Scene.",
-                content: [
+                summary: "Instead, roll Manipulation + Persuasion + Rage to create a phantom that attacks before you for three turns with successes as it's pool. Damage may be Bashing or Lethal, and is removed at end of the Scene.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can create a spectral opponent that strikes at his opponent. The player spends 2 plasm and rolls Manipulation + Persuasion + Rage rank. Success creates a spectral combatant with a dice pool equal to this power’s activation successes. This apparition deals illusory damage, and acts just before the Sin-Eater. The main use of this combatant is to stack numbers in the Sin-Eater’s favor. The opponent lasts for three turns, then vanishes into mist."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Instead, roll Presence+Persuasion+Rage vs Resolve+Psyche to cause target to have nightmares the next time they sleep that causes damage equal to their Strength that lasts until the next time they sleep for 6 hours. Alternately, ignore up to -3 of modifiers to Activation.",
-                content: [
+                summary: "Instead, roll Presence + Persuasion + Rage vs Resolve + Psyche to cause target to have nightmares the next time they sleep that causes damage equal to their Strength that lasts until the next time they sleep for 6 hours. Alternately, ignore up to -3 of modifiers to Activation.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "When a Sin-Eater unlocks this ability, he can unleash a dream hunter, a small part of his geist that lingers in his opponent’s mind and strikes when she falls asleep. The player spends 2 plasm and rolls Presence + Persuasion + Rage rank versus the target’s Resolve + Psyche. If the Sin-Eater is successful, the next time the victim falls asleep, she’s haunted by terrible nightmares. She suffers illusory damage equal to her Strength. This damage remains until she next sleeps for more than six hours."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "For remainder of the scene, target must roll Resolve+Composure to do more than move at Speed directly away. Range extends to line-of-sight.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The character can create illusions so terrifying that his victim is hard-pressed to respond. This power costs an additional point of plasm. If the character deals any damage, his target must succeed at a Resolve + Composure roll to do anything other than moving his Speed directly away from the Sin-Eater for the remainder of the scene."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Add target's Strength to your Activation roll. May pay 1 Willpower to make damage Aggravated, and is removed at end of the Scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim’s instinctive reactions to the terrors turn her own body against her. The Sin-Eater adds the victim’s Strength to any damage rolls made with the Phantasmal Rage."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 144"
@@ -3592,56 +5162,72 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Animal ken",
         Summary: "Summon animals to attack her enemy.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Primeval Rage calls forth animals to strike at a Sin-Eater’s enemies. Initially, those animals are spectral extensions of his geist that dissipate immediately after attacking, but at higher levels mundane creatures may join in on the attack."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal. Reduce target's Defense against the attack by 1 / Plasm.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can manifest more than one creature — a murder of crows, a pack of hell-hounds, or a wake of vultures. His attacks are thus harder to defend against. Every point of plasm spent in addition to the one necessary to activate the Primeval Rage reduces the target’s Defense by one point."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
-                summary: "Instead, roll Stamina+Animal Ken+Rage-(target's Stamina) to summon a swarm that attacks with 4 dice at the end of your turn for successes turns. Additionally, ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
+                summary: "Instead, roll Stamina + Animal Ken + Rage - (target's Stamina) to summon a swarm that attacks with 4 dice at the end of your turn for successes turns. Additionally, ignore up to -3 of modifiers for concealment ('substantial').",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This level of Manifestation conjures a swarm of venomous insects that crawls across the target’s skin, painfully biting and stinging. The player spends 2 plasm and rolls Stamina + Animal Ken + Rage rating - target’s Stamina. Success summons a swarm of insects to harass a foe. The swarm acts at the end of the Sin-Eater’s turn and has an attack dice pool of four dice to which the target’s Defense does not apply. The insects attack for one turn per success."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Call nearby animals, add Size of largest to Activation roll. Range extends to line-of-sight.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can augment his attacks with animals in the nearby area by spending a point of plasm. On a city street, rats and feral dogs come to his aid, while in rural areas he can attract cougars, wolves, or even bears. Precisely which animals are in the local area is up to the Storyteller. Add a number of dice to the attack equal to the Size of the largest attacking animal."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Can make the Activation roll against highest Defense of multiple targets (1 additional Plasm / target), Defense is increased by 1 / target, dividing successes amongst them. May pay 1 Willpower to cause damage to be Aggravated for one attack.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may spread his attention to more than one foe at a time by spending a point of plasm per extra target. This power doesn’t allow the character to make more than one attack; instead roll once against the highest Defense of all the targets, plus one per extra victim. If the roll succeeds, allocate the successes between each target. No target can take less than one point of damage if the player rolls enough successes."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The two, four, and five-dot powers of the Primeval Rage can all apply to the same activation roll. In addition to requiring lots of plasm, the Sin-Eater must spend one point of Willpower to use two subsidiary powers, or two points of Willpower to use all three. This is costly, but the combination of powers is potent enough to be worth it."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 145"
@@ -3652,56 +5238,36 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Occult",
         Summary: "Make elemental attacks against another.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "The Pyre-Flame Rage wreathes its victims in ghostly flames. At lower levels, the heat is purely psychosomatic; at higher levels, the invisible flames create very real burn wounds. The target becomes feverish, as if suffering from sunstroke. In addition to damage, the Pyre-Flame Rage inflicts a penalty to Perception and Defense equal to the Sin-Eater’s Rage rating for the duration of the scene (not cumulative)."
+            },
+            {
+                type: "paragraph",
+                text: "A person slain by the Pyre-Flame Rage usually burns entirely to ash, cremated by the power of the geist."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack. Penalize target's Defense and Perception rolls by Rage Dots for a scene.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 3,
                 summary: "Ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 4,
                 summary: "Range extends to line-of-sight.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Damage is Aggravated for one attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 143"
@@ -3712,56 +5278,66 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Occult",
         Summary: "Make the target bleed with a touch.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stigmata Rage calls to the primal energies of blood and death. The ritualistic damage inflicted to activate this key allows a Sin-Eater’s geist to affect ghosts just as easily as he can affect living (or unliving) creatures, and calls on blood to inflict terrible wounds. This Manifestation requires a Sin-Eater get in closer to her foes than other uses of the Rage — the range of this power is 2 yards per dot of Psyche."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 2 yards / Psyche equal to successes with an invisible attack. Can affect ghosts as well.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal. Penalize all of target's Mental rolls by 1/2 Activation, rounded down.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can make humans bleed from their eyes and ears, while ghosts expel similarly vital fluids into the air. In addition to the damage caused by the base attack, her victim becomes woozy and distracted. Every two points of damage dealt (rounded down) also inflicts a -1 modifier (maximum -5) to Mental rolls for the duration of the scene. Successive attacks don’t stack penalties; the highest penalty always applies."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Target bleeds 1 Bashing damage / turn until they receive medical attention (Intelligence+Medicine). Additionally, ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "On a successful attack, the Sin-Eater may spend an extra point of plasm to force more of his victim’s fluids from his body. At the end of the victim’s turn, he takes a point of bashing damage until he receives medical attention (success on a simple Intelligence + Medicine roll suffices) or the scene ends."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Range is 20 yards / Psyche.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The range extends to 20 yards for every dot of Psyche."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Upgrade bleeding damage to Aggravated. May pay 1 Willpower to cause damage to be Aggravated for one attack.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can force her victim’s blood out of every pore. This is akin to Stigmata Rage • • • but costs two points of Willpower in addition to the two-plasm cost. The damage inflicted each turn is aggravated instead of bashing."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 145"
@@ -3772,56 +5348,66 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Stealth",
         Summary: "Strike his enemy in subtle and indirect fashion.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Far from impotent, the Stillness Rage is anger boiled into controlled malice, poison placed in the food, and a stiletto through the heart rather than a frenzied attack with a kitchen knife. The attacks made via the Stillness Rage are invisible, telekinetic attacks, like knives made of unseen ectoplasm. The attacks are completely silent, with no sound of impact or tissue damage."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal. If target dies from the attack, it appears to be from natural causes.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can inflict damage that seems to leave no mark. If he kills a target with the Stillness Rage, he may choose to have the corpse appear as if it died of natural causes."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Reduce the Durability of cover for the target. Additionally, ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can ignore some measure of solid cover when attacking. When striking through cover, the player treats the cover as having 1 less Durability."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Ignore target's Stamina. Range extends to line-of-sight.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can strike from any angle. He spends an additional point of plasm on the attack, and the victim’s Stamina does not subtract as a defense."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
-                summary: "Instead, roll Strength+Brawl+Rage-(target's Defense) to do 2 Lethal damage each turn for successes turns and reduce target's Defense to 0. Additionally, may pay 1 Willpower to cause damage to be Aggravated for one attack.",
-                content: [
+                summary: "Instead, roll Strength + Brawl + Rage - (target's Defense) to do 2 Lethal damage each turn for successes turns and reduce target's Defense to 0. Additionally, may pay 1 Willpower to cause damage to be Aggravated for one attack.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This gruesome power can steal a victim’s breath from his mouth. Ugly purple bruises open on the victim’s throat and she gasps for breath. The player spends 2 plasm and rolls Strength + Brawl + Rage rating - the target’s Defense. If successful, the victim suffers two points of lethal damage per turn and cannot apply her Defense to any incoming attacks. This power lasts for one turn per success."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 146"
@@ -3832,54 +5418,64 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stygian Rage is anything but subtle. Even at low levels the geist putrefies flesh and weakens bones, and can easily disfigure the Bound’s victim. At higher levels, the Sin-Eater can leave his victims fully aware but caged in a prison of dead flesh. Due to the ugly wounds inflicted, every successful attack using the Stygian Rage applies a -1 modifier to the victim’s Social rolls until the damage is healed."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack. Inflicts penalty to social rolls until damage is healed.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Can instead inflict one point of lethal damage per turn for activation success turns. Until damage is healed inflicts -1 Dexterity.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can infect his foe with a necrotizing virus that spreads out from one point to consume her body. Instead of applying the damage from the Rage all at once, the victim takes one point of continuous lethal damage over a number of turns equal to the activation successes (see “Continuous Damage,” World of Darkness Rulebook p. 167). Until she heals the damage from this power, the victim also has a -1 penalty to all Dexterity rolls."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Can instead inflict activation success dots in damage to physical attributes, which heals as though lethal damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Corrupt plasm rots the target’s muscles, leaving her weak. Only later will she notice the strange crawling lumps under her skin where the maggots are consuming her dead meat. The Sin-Eater must spend an extra point of plasm when Manifesting the Stygian Rage to activate this power. Instead of dealing damage normally, the Sin-Eater’s player divides the damage dealt across the victim’s Physical Attributes in any way she sees fit. The victim’s body regrows the dead flesh at a rate equivalent to healing lethal damage (see “Attribute Damage,” World of Darkness Rulebook p. 167)."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can enhance Stygian Rage ●● to instead inflicting two points of lethal damage per turn.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can inflict terrible infections that eat the victim’s flesh from within. As a reflexive action, the Sin-Eater can spend 1 plasm when activating Stigmata Rage • •. If she does, the power deals two points of damage per turn, rather than one."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Deals aggravated damage instead of lethal; permanently lowers Presence and maximum Presence of victim.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Even though the physical trauma heals over time, the victim is scarred for life. The Sin-Eater spends two extra points of plasm and a point of Willpower when unleashing the Stygian Rage. The damage dealt is aggravated instead of lethal. If the victim takes even a single point of damage, she permanently loses one point of Presence. This point does not heal over time, and her maximum Presence score is lowered by one (hence a normal person cannot have a Presence score above 4 after being a victim of this power). Only supernatural healing can restore the loss. Using this power repeatedly against the same target doesn’t cause further loss of Presence."
+                        ]
                     }
                 ]
             }
@@ -3892,56 +5488,36 @@ export const ManifestationsKeysData = [
         Attribute: "Strength",
         Skill: "Occult",
         Summary: "Make elemental attacks against another.",
+        "Content": [
+            {
+                type: "paragraph",
+                text: "To victims of the Tear-Stained Rage, their lungs feel thick and pained, as if filled with brackish water. In addition to damage, the Tear-Stained Rage inflicts a penalty to Physical rolls equal to the Sin-Eater’s Rage rating for the duration of the scene (not cumulative)."
+            },
+            {
+                type: "paragraph",
+                text: "At higher levels of this power, actual water — cold and brackish, sometimes salty, sometimes choked with weeds — coalesces in the victim’s body, pours out of his nose and mouth, or even runs from his tear ducts. The corpse of a person slain by the Tear-Stained Rage usually appears bloated and water-logged, as if it had lain at the bottom of a body of water for days."
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Do Bashing damage to a target within 10 yards / Psyche equal to successes with an invisible attack. Penalize all of target's Physical rolls by Rage Dots for a scene.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Damage may be Bashing or Lethal.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 3,
                 summary: "Ignore up to -3 of modifiers for concealment ('substantial').",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 4,
                 summary: "Range extends to line-of-sight.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
             {
                 dot: 5,
                 summary: "Damage is Aggravated for one attack.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             }
         ],
         Book: "GTS 143"
@@ -3952,56 +5528,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Occult",
         Summary: "Create a Shroud of cold air which inflicts bashing damage on those who attack her. At higher levels, the Sin-Eater can create a Shroud of electricity which inflicts lethal damage. The Cold Wind Shroud is more durable in cold climes",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In addition to providing armor equal to the activation successes, the Cold Wind Shroud also negates completely any damage resulting from extremes of cold. The Cold Wind Shroud also completely negates any Manifestation-based attacks of any form which were unlocked by the Cold Wind Key unless the attacking Sin-Eater got more activation successes with that Key than the defender did in unlocking the Shroud."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, completely negates all damage from extreme cold, and negates any hostile Manifestation using the Cold Wind key if the Shroud has higher activation successes.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Grants immunity to gas and suffocation based attacks while Shroud is active",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater is completely immune to gas-based or suffocation attacks (but not drowning) while this Shroud is active."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Can inflict cold bashing damage based on activation successes when hit or on touch with a Plasm",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may form her Shroud from bitter icy winds, which inflict bashing damage dice equal the activation successes on anyone who touches her or whom she touches while the Shroud is active. Each time damage is inflicted, the Sin-Eater must pay 1 plasm. A Brawl roll may be required in order to inflict this damage on a resisting target, but the damage dice inflicted with this power cannot supplement a Brawl attack ~ the Sin-Eater must choose whether to strike her target or freeze him, but she cannot do both."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Grants immunity to electricity from natural sources while Shroud is active; from supernatural sources, add Occult to the Shroud's effective armor rating.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may completely ignore electricity damage from mundane sources. Against magical effects which inflict electrical damage, the Sin-Eater adds his Occult to the Armor rating of his Shroud to determine how effective it is."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As Cold Wind Shroud ●●●, but inflicts lethal damage instead of bashing.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may forge her Shroud from winds so cold that they may cause instant frostbite. This power functions exactly like the 3-dot version except that the damage inflicted is lethal and the Sin-Eater must pay 2 plasm each time the damage dice are rolled."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 146"
@@ -4012,56 +5598,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Occult",
         Summary: "Inflict feelings of crushing claustrophobia in any who touch him. The GraveDirt Shroud is more durable when the Sin-Eater stands on dirt or rock.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In addition to providing Armor equal to the Sin-Eater’s Shroud rating, the Grave-Dirt Shroud also renders the Sin-Eater completely immune to suffocation (but not drowning or gas attacks) and to any damage inflicted by grapple attacks."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, immunity to suffocation, and invulnerability to damage inflicted by grappling.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Can add Stamina to effective Armor rating granted by Shroud",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may draw upon the strength of the unyielding earth. She now adds her Stamina to her Shroud rating for purposes of determining her Armor rating."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Can choose to downgrade any mundane lethal damage that makes it through the Shroud to bashing.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may cause his Shroud to become particularly resistant to stone, earth and metal. If attacked with a metal or earthen weapon, whether a sword, bullets, or simply a hurled rock, the Sin-Eater may downgrade any damage which bypasses the Shroud from lethal to bashing at a cost of 3 plasm."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Can detonate the Shroud in a cloud of choking dust with a successful secondary roll; significantly incapacitates all in the area, but ends the Shroud. Additionally, allies can be spared from the effect at a cost of 2 Plasm each.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may channel plasm through her Shroud, causing it to explode outward in a cascade of dust. The Sin-Eater’s player must roll (Resolve + Composure + activation successes). Anyone within ten yards whose Stamina is less than the successes on this roll is overcome by a paroxysm of coughing and choking. For the next turn, anyone within the area of effect will be reduced to a Chance Die on all rolls and will lose Defense. Then, for the next (activation successes) turns, any affected characters will suffer a -5 dice penalty on all actions. This effect costs only 2 plasm, but it immediately ends the Manifestation and potentially leaves the Sin-Eater vulnerable to harm. The Sin-Eater can protect allies from the choking dust at a cost of 2 plasm per protected ally."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As long as the Sin-Eater is standing on or near solid earth, they can negate any received damage at 2 Plasm per bashing or lethal health level, or 4 Plasm per aggravated health level.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater is so in tune with the earth that he can shift damage from any source into it. So long as the Sin-Eater is either standing on earth or is no more than (Psyche) yards above the earth, he can negate any amount of damage at a cost of 2 plasm per health level lost. If the attack normally inflicts aggravated damage, the cost increases to 4 plasm per damage level."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 147"
@@ -4072,56 +5668,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Crafts",
         Summary: "Defend more easily against weapons of any sort and can destroy man-made items with a touch.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A Industrial Shroud allows the Sin-Eater to fashion plasm into an armor which is particularly resistant to attacks of a technological nature. By reflexively spending 1 plasm, the Sin-Eater can double her Shroud’s Armor rating against a single attack of which he is aware which involves a man-made device. Such devices may include a crafted melee weapon (such as a knife or sword), a firearm, or any other attack made with a crafted technological device, whether someone trying to run the character over with a car or trying to hit her over the head with a laptop computer."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor. Can pay 1 Plasm reflexively to double Armor for one attack from a man-made weapon.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
-                summary: "Unlock any non-magical lock. For an electronic lock, roll Intelligence+Larceny+Activation-(Technology Level p111).",
-                content: [
+                summary: "Unlock any non-magical lock. For an electronic lock, roll Intelligence + Larceny + Activation - (Technology Level p111).",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can open any non-magical lock with the expenditure of 1 plasm. If the lock is electronic, the Sin-Eater’s player must roll Intelligence + Larceny + (activation successes), applying the anachrotech penalties found on pg. 111."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "You are invisible to electronic surveillance.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can render herself completely invisible to most forms of electronic surveillance, including cameras and recording devices. She may still be detected if, for example, a security guard observes an object moving by itself or a door opening for no reason, but the Sin-Eater herself will not show up on any form of electronic security."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
-                summary: "Roll Intelligence+Crafts+Activation-(Technology Level p111) (Durability applies) to disable a mechanical device by touch, or pay an extra Plasm to do so at 10 yards / Shroud Dot range.",
-                content: [
+                summary: "Roll Intelligence + Crafts + Activation - (Technology Level p111) (Durability applies) to disable a mechanical device by touch, or pay an extra Plasm to do so at 10 yards / Shroud Dot range.",
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may cause any type of machinery (electronic or mechanical) to break down. The player rolls Intelligence + Crafts + (activation successes), applying the anachrotech penalties found on pg, 111. Durability applies to this roll, and each attempt to disable a device costs 1 plasm. This power normally requires the Sin-Eater to touch the item, but by doubling the plasm cost, he can target any device within (Shroud rating x 10) yards."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Inflict Activation Lethal damage by touch. Additionally, may pay 2 Plasm when using Industrial Shroud ●●●● to bypass object's Durability.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may forge her Shroud from electricity, inflicting lethal damage dice equal to the successes on the activation roll on anyone with whom she comes into physical contact. Each time damage is inflicted, the Sin-Eater must pay 2 plasm. A Brawl roll may be required in order to inflict this damage on a resisting target, but the damage dice inflicted with this power cannot supplement a Brawl attack — the Sin-Eater must choose whether to strike her target or electrocute him, but she cannot do both. The Sin-Eater may also pay 2 plasm when using the 4-dot version of this power to bypass a device’s Durability."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 148"
@@ -4132,56 +5738,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Empathy",
         Summary: "Extend his Shroud’s resilience to defend against mental attacks, and she can more easily manipulate or intimidate others. ",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In addition to the normal Armor bonus, the Passion Shroud allows the Sin-Eater to add her Shroud rating to her Resolve or Composure for purposes of resisting magical attacks which might affect her mind or her emotional state."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, and can add Shroud dots to Resolve or Composure to resist mind-affecting supernatural powers.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Can add activation successes as a die bonus to Intimidation",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can make himself more terrifying to others, adding the activation successes as a dice bonus to any Intimidation roll made during the scene."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Can add activation successes to Presence or Manipulation rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may shape his aura to fit the emotional state of anyone with whom he interacts. The Sin-Eater may spend 1 point of plasm in order to add the activation successes for the Shroud as bonus dice to any Presence or Manipulation roll made during the scene."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Can drain Willpower points of a touched or touching target, with a successful secondary roll. Costs one Plasm normally, three Plasm as part of a Brawl attack.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may assault her enemies with a psychically devastating touch. Whenever the Sin-Eater touches or is touched by another person, she may roll a number of dice equal to (activation successes minus the target’s Composure). If the roll is successful, the target becomes emotionally drained and loses one temporary Willpower per success. This attack costs 1 plasm. Unlike similar Shroud powers, this effect can supplement a Brawl attack. That is, the Sin-Eater can strike his target to inflict physical damage and also attempt to drain her of Willpower, although such a double-edged attack raises the plasm cost to 3."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As Passion Shroud ●●●●, but ignores target's composure penalty to the secondary roll, and if all Willpower points are drained can inflict a Derangement of Sin-Eater's choosing.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "As per the 4-dot power, except that the Sin-Eater may trigger a debilitating emotional trauma. At this level, the Sin-Eater may double the normal plasm cost to negate the penalty normally inflicted on the roll by the target’s Composure. Furthermore, if the Sin-Eater completely drains his enemy of Willpower, he may impose a derangement on her of his choice which lasts until she has recovered at least one Willpower point."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 149"
@@ -4192,56 +5808,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Persuasion",
         Summary: "Use her Shroud to deceive others and to hide her own features.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In addition to the normal Armor benefits, the Phantasmal Shroud allows the Sin-Eater to add her Manipulation to her Defense against all attacks made by thinking beings, as the Shroud distracts and disturbs those who would do her harm."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, and can Manipulation to Defense as well against thinking beings.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Anyone attempting to remember details of the Sin-Eater observed under this Shroud take a penalty equal to Activation successes.Anyone attempting to remember details of the Sin-Eater observed under this Shroud take a penalty equal to Activation successes.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may occlude his own features from the observation of others. Anyone attempting to remember anything about the Sin-Eater’s appearance suffers a dice penalty equal to the activation successes. This effect is automatic unless the Sin-Eater chooses not to occlude his features."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "Can cause a target to forget everything about a Sin-Eater after he leaves their presence; requires a successful resisted secondary roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can cause a single target to forget everything about the Sin-Eater once he leaves her presence. The Sin-Eater’s player must roll Manipulation + Persuasion + (activation successes), resisted by the target’s Resolve + Psyche. This power costs 1 plasm."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Can shape the Shroud into an illusion causing onlookers to think the Sin-Eater is someone else; requires one Plasm and higher activation successes than target's Composure per deception.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may reshape his Phantasmal Shroud so as to deceive others. With this power, the Sin-Eater may choose to wrap himself in an illusion which allows him to pose as another person. Compare the activation successes to the Composure of anyone with whom the Sin-Eater interacts. If the successes equal or exceed a given character’s Composure, that character believes the Sin-Eater is who she claims to be. The effects of this illusion last for as long as the Shroud is maintained. This power costs 1 plasm per person to be deceived."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "Can take an utterly terrifying visage visible by one target; roll Activation succeses - Target's Composure, each success yields one bashing damage (1 Plasm) or one lethal damage (3 Plasm). Even if no damage is done, the target is too terrified to attack back for the scene unless Composure is greater than Activation successes.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Drawing upon her terrible understanding of the Underworld and the phantasms which lurk within it, the Sin Eater may cloak herself in an illusory appearance which is utterly frightening to a particular person. Only the targeted individual perceives the Sin-Eater’s terrifying visage, and only that target can be the focus for such an attack. Damage from attacks made with this power often appear to be the result of sudden heart attacks or aneurysms. The Sin-Eater’s player must spend plasm and roll (activation successes, minus the target’s Composure). Each success on the roll inflicts one level of damage on the target. For 1 plasm per attack, this damage is bashing. For 3 plasm per attack, it is lethal. Furthermore, even if the Sin-Eater fails to inflict damage on her enemy, he will be unable to attack her due to his terror for the duration of the scene unless his Composure is higher than the activation successes."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 149"
@@ -4252,56 +5878,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Animal ken",
         Summary: "Augment his own physical traits and manifest animal weaponry such as claws.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Primeval Shroud is more durable than other Shrouds, but fills the Sin-Eater’s mind with the bestial nature of a wild animal. While the Shroud is in place, the Sin-Eater may spend one plasm to add his Stamina to his Shroud Armor against a single attack of any sort."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, and can spend 1 Plasm to add Stamina to this armor against any one attack from any source.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "May reflexively spend up to lesser of Animal Ken or Shroud rating in Plasm to augment a physical attribute by that amount for one roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may temporarily boost his Physical Attributes by channeling plasm through his Shroud. While the Manifestation is active, the Sin-Eater may reflexively spend plasm to boost his Strength, Dexterity or Stamina for a single dice roll. For each plasm spent, the Sin-Eater may increase one of his Physical Attributes by one point. The Sin-Eater may not spend more plasm than the lesser of his Animal Ken or Shroud ratings."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "May reflexively generate plasmic talons, invisible to mortals, which deal +2 lethal damage, or aggravated damage to materialized ghosts.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may reflexively spend 1 plasm to generate plasmic talons or claws which inflict +2 lethal damage. Against materialized ghosts, these claws inflict aggravated damage instead. The talons are normally only visible to Sin-Eaters and ghosts, but their effects may be felt by anyone the Sin-Eater attacks."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "As Primeval Shroud ●●, but bonuses last until the Shroud expires, and can distribute the increase to any physical attributes as desired.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may boost his Physical Attributes for an extended period. While the Shroud is active, the Sin-Eater may spend up to his activation successes in plasm, along with 1 Willpower point. For each plasm spent, the Sin-Eater may add one point to his Strength, Dexterity or Stamina, dividing up the points as he wishes. The effects last for the duration of the Shroud, and the Sin-Eater may only use this power once per Shroud activation."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As Primeval Shroud ●●●, but inflicts aggravated damage to all targets; other Shrouds are affected as though this damage is only lethal.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may manifest claws or talons which inflict aggravated damage on all targets. However, the Armor provided by any type of Shroud defends against these claws as if they only inflicted lethal damage, although any resulting damage is considered aggravated. Activating these claws costs 4 plasm."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 149"
@@ -4312,56 +5948,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Occult",
         Summary: "Sheathe herself in ghostly flames which are intimidating to attacks. At higher levels, these flames become real and can burn those who touch her.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "A Pyre-Flame Shroud illuminates the area surrounding the Sin-Eater with a ghostly fire which envelops his body. In addition to the normal Armor bonus, the Sin-Eater can see in complete darkness by the unearthly light his Shroud generates. Of course, since only Sin-Eaters and ghosts can normally perceive a Shroud, only such beings can perceive the light that the Shroud generates. Thus, the Sin-Eater and his allies can move about easily while his enemies remain in the dark."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, and casts a ghostly illuminating light, visible only by Sin-Eaters or ghosts.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Grants immunity to fire and heat from natural sources while Shroud is active; from supernatural sources, add Occult to the Shroud's effective armor rating.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may totally ignore the harmful effects of natural fire and heat. Against supernatural fire and heat, the Sin-Eater adds her Occult to the Shroud’s Armor rating."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "While Shroud is active, can ignite any flammable object with a touch.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may ignite any flammable material with a touch at a cost of 1 plasm."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Can inflict burning lethal damage based on activation successes when hit or on touch with two Plasm",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater’s aura now burns those who would oppose him. If the Sin-Eater touches another person or is touched by another person, he can choose to burn her with his ghostly flames, inflicting a number of lethal damage dice equal to the activation successes. Each time damage is inflicted, the Sin-Eater must pay 2 plasm. A Brawl roll may be required in order to inflict this damage on a resisting target, but the damage dice inflicted with this power cannot supplement a Brawl attack — the Sin-Eater must choose whether to strike her target or freeze him, but she cannot do both."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As Pyre-Flame Shroud ●●●●, but inflicts aggravated damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "As per the 4-dot power, except if the Sin-Eater pays double the normal plasm cost, the damage is aggravated."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 147"
@@ -4372,56 +6018,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Occult",
         Summary: "grants improved resistance to Numina and Manifestations, and allows the user to enter Twilight.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stigmata Shroud aids the Sin-Eater in defending against the attacks of ghosts and other Sin-Eaters. While the Stigmata Shroud is active, the Sin-Eater adds her Shroud rating to her Resistance against all Numina powers used against her by ghosts and against all Manifestation effects used against her by other Sin-Eaters which affect her body, mind or soul."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, and can add Shroud dots to resistance versus ghost Numina and Manifestations.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Can affect unmanifested ghosts as if they were manifested, including with brawl attacks.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may now touch unmanifested ghosts and any other Twilight beings as if they were manifested. He can harm them with a successful Brawl attack."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "As Stigmata Shroud ●●, but can now affect unmanifested ghosts with melee weapons.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The benefits of the 2-dot power now extend to any melee weapons carried by the Sin-Eater, allowing him to make Weaponry attacks against beings in Twilight."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "May enter the Twilight for Activation success minutes, or until deliberately ended.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Wrapping his bloody cloak tightly about himself, the Sin-Eater may use the Stigmata Shroud to enter Twilight for a limited time himself. The Sin-Eater can dematerialize at will and enter Twilight for one minute per activation success, although he can end the effect and rematerialize at will. This power costs 3 plasm and 1 Willpower, but the Sin-Eater may choose to suffer one level of lethal damage in place of either the plasm cost or the Willpower cost or two levels of lethal damage in place of them both."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As Stigmata Shroud ●●●●, but can bring one person per activation success, and lats for a full scene.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "As per the 4-dot power, except that the Sin-Eater may bring one person per success into Twilight with him. An unwilling person forcibly brought into Twilight may resist by rolling Resolve + Psyche. The Twilight state may lasts for up a scene. He can end the effect and rematerialize himself and/or his companions at will and at no cost. However, once the Sin-Eater rematerializes, anyone who crossed over with him also does so — a Sin-Eater cannot use this power to strand another in a Twilight state."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 150"
@@ -4432,56 +6088,66 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Stealth",
         Summary: "Become invisible and intangible. ",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In addition to its Armor benefits, the Stillness Shroud also improves the Sin-Eater’s stealth. While the Stillness Shroud is active, the Sin-Eater adds her Shroud rating as bonus dice to all Stealth-related rolls."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, and adds Shroud dots to all stealth-related rolls.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Can become invisible to all mortal eyes; automatically successful against passive observers, active ones must roll and beat activation successes. Technology and animals are not affected, and attacking anything ends the Shroud immediately.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can spend 1 plasm to become invisible to other people. While this effect is active, a passive observer will never notice the Sin-Eater’s presence unless he draws attention to himself by touching or attacking the observer or otherwise causing some nearby commotion. Anyone actively searching for the Sin-Eater will be unable to see him unless she gets more successes on a Wits + Composure roll than the activation successes. Anyone who for whatever reason knows that an invisible person is nearby suffers a dice penalty on all attacks against her equal to the activation successes. At this level, the Sin-Eater is still visible to technology such as cameras or infrared goggles, and to the senses of animals. Attacking anyone or attempting to damage any physical object will automatically end this Shroud."
+                        ]
                     }
-                ]
+                ],
             },
-{
+            {
                 dot: 3,
                 summary: "As Stillness Shroud ●●, but extends to animals and technology.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The benefits of the 2-dot power are improved, as the Sin-Eater’s invisibility now extends to technology and to animals. Additionally, the Sin-Eater may now attack others without sacrificing his invisibility, although each attack costs 1 plasm. As with the 2-dot power, anyone who realizes that an invisible person is nearby (such as after being punched by one) suffers a dice penalty on all attacks equal to the activation successes."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 4,
                 summary: "Can become intangiable for one turn for non-combat purposes.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can render himself intangible long enough to pass through a wall or other solid barrier. Doing so requires one full turn of concentration and the expenditure of 1 plasm. The intangibility lasts for one full action."
+                        ]
                     }
-                ]
+                ],
             },
             {
                 dot: 5,
                 summary: "As long as the Sin-Eater has Defense, can now reflexively become intangible to ignore the attack. Costs 3 Plasm, or 5 Plasm if the attack is aggravated. Can even exceed Plasm rates based on Psyche with a Willpower point.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can become intangible reflexively so as to evade physical attacks. When the Sin-Eater is subject to a Brawl, Firearms or Weaponry attack to which his Defense would normally apply, he may spend 3 plasm to allow the attack to pass harmlessly through his body. This defense only applies to attacks with a purely physical component — if the Sin-Eater is attacked with a flaming torch, for example, the fire may still burn him despite his intangibility. Also, if the attack is one which would normally inflict aggravated damage, the plasm cost increases to 5. This power is an exception to the normal limits on how much plasm a Sin-Eater can spend per turn. If the Sin-Eater’s Psyche is not normally high enough to allow him to spend 3 or 5 plasm, he may still do so when activating this power, but doing so will also cost him 1 Willpower point per activation."
+                        ]
                     }
-                ]
+                ],
             }
         ],
         Book: "GTS 150"
@@ -4492,54 +6158,64 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Medicine",
         Summary: "",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stygian Key is the Key of death and decay, and as such only protects the Sin-Eater as long as it can pass the injury on to others. Whenever an attack does no damage to the Sin-Eater, the nearest character — whether friend or foe — is attacked with a dice pool equal to the activation successes. This supernatural attack ignores Defense (but not armor) and deals the same type of damage as the attack that would have hurt the Sin-Eater. The Sin-Eater has no control over who her Shroud attacks, short of getting up close and personal with those who wish her harm."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gains Shroud Dots as Armor, and whenever an attack inflicts no damage, redirect it to the nearest character.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "While active, any Killing Blow inflicts normal damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "As the Bound’s understanding of death grows, so too does her ability to avoid it. With the Stygian Shroud active, she is always aware when people intend to harm her, and her geist can even redirect a sniper’s bullet or an assassin’s knife. When the character dons the Stygian Shroud, any attacks that would normally deal a Killing Blow to the character are instead treated as normal attacks. This includes Killing Blows granted by Merits or supernatural powers. This ability is always active when the character dons the Stygian Shroud."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Triggered when struck in melee and still has Defense, can redirect attack to the nearest character.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Whenever the Sin-Eater could apply her Defense against an attack, she can redirect that attack through her Shroud. Fists and knives strike someone other than their intended target, but bullets still find their mark. The Sin-Eater spends 1 plasm as a reflexive action, and the attack instead strikes the nearest character to her. The new target of this power still receives the benefit of his Defense."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can now choose the target of redirected attacks.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can choose the victim of his Shroud’s wrath. She must touch the intended victim, but her geist will lash out at whoever she has marked. To do so, the player spends 2 plasm and rolls Dexterity + Medicine + activation successes - target’s Defense as an instant action. If her roll is a dramatic failure, the victim gains armor equal to the Shroud’s activation successes. On a success, any time the Stygian Shroud would affect the “nearest character” it instead affects the victim of this power. The victim remains marked for one turn per success."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Whenever Sin-Eater is attacked, their geist attacks the target with a pool of damage taken + activation successes, inflicting lethal damage and draining willpower.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Tendrils of darkness lash out from the Sin-Eater’s body, lashing out at those who harm her. The Sin-Eater spends 2 plasm and 1 Willpower, and her player rolls Resolve + Medicine + activation successes as an instant action. If the roll is successful, every time someone deals damage to the Sin-Eater, her geist attacks that person with a dice pool equal to the damage taken + activation successes, ignoring Defense and armor. This attack always deals lethal damage, and anyone harmed by it also loses a point of Willpower. This power lasts until the Sin-Eater dismisses the Shroud. If the player rolls an exceptional success, the Sin-Eater regains a point of Willpower every time she damages someone with this power."
+                        ]
                     }
                 ]
             }
@@ -4552,54 +6228,64 @@ export const ManifestationsKeysData = [
         Attribute: "Resolve",
         Skill: "Occult",
         Summary: "Breathe underwater and drown others with a touch. The Tear-Stained Shroud is more durable while the Sin-Eater is totally immersed.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "In addition to granting Armor equal to his Shroud rating, the Tear-Stained Shroud allows the Sin-Eater to breathe underwater for its duration. He may also add the activation successes to all rolls relating to swimming or otherwise functioning while underwater."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Gain Shroud Dots as Armor, grants ability to breathe underwater, and can add activation successes as bonus dice to all swimming or other underwater checks.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Can douse any mundane flame up the activation successes in Size; supernaturally sparked ones require a secondary roll.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "By spending 1 plasm, the Sin-Eater can douse any mundane flame whose Size is less than her activation successes. If the flame is magical in nature, the Sin-Eater’s player may roll (Resolve + Composure + activation successes, resisted by whatever dice pool was used to create the magical fire). If the roll succeeds, the magical flame is extinguished."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Can inflict drowning bashing damage based on activation successes when hit or on touch with a Plasm",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater may cause brackish sea water to manifest in the lungs of anyone who touches her or who she touches. This attack inflicts bashing damage dice equal the activation successes on anyone who touches her or whom she touches while the Shroud is active. Each time damage is inflicted, the Sin-Eater must pay 1 plasm. A Brawl roll may be required in order to inflict this damage on a resisting target, but the damage dice inflicted with this power cannot supplement a Brawl attack ~ the Sin-Eater must choose whether to strike her target or drown him, but she cannot do both."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can inflict water damage on any inanimate object with a secondary roll, against electronic items durability is ignored.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "By spending 2 plasm, the Sin-Eater can inflict water damage on any inanimate and/or mechanical device she touches. The Sin-Eater’s player must roll (Resolve + Craft + activation successes). If the device is mechanical, apply Durability as normal. If it is electronic or otherwise vulnerable to water-damage, the attack bypasses Durability."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "As Tear-Stained Shroud ●●●, but instead inflicts automatic bashing damage equal to activation successes-Target's stamina",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "As per the 3-dot version, except that the Sin-Eater may choose to pay 3 plasm instead of 1 to inflict automatic bashing damage equal to (the activation successes minus the target’s Stamina)."
+                        ]
                     }
                 ]
             }
@@ -4612,54 +6298,64 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Occult",
         Summary: "Take away the warmth of the victim’s heart or his ability to breathe.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Cold Wind Pit blows right through the victim as though he weren’t there, chilling his bones and numbing his soul. Initially, this Manifestation chills its victim like walking through a snowstorm in a thin shirt. While it doesn’t have a physical reaction beyond raising gooseflesh, the victim gets a creeping feeling of isolation. He feels that he’s alone in the world, and making connections with other people is harder. He suffers the activation successes as a penalty to Persuasion and Socialize rolls, rather than to Composure."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Persuasion and Socialize (max -5) for one scene",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Lasts until victim next sleeps instead of one scene",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The chill lingers in the victim’s heart. The Cold Wind Pit lasts until the victim next sleeps, rather than until the end of the scene."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Deprives the victim of breath for one minute per success on secondary roll, also causing panic.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can convince the winds to ignore his victim entirely. He can gasp for breath all he likes, but he can’t breathe. The Sin-Eater spends 1 plasm and her player rolls (Composure + Occult + activation successes) - target’s Stamina as an instant action. The victim cannot breathe for one minute per success. The length of time a victim can hold his breath is based on his Stamina; see “Holding Breath” on p. 49 of the World of Darkness Rulebook. The victim panics as he focuses on breathing and suffers a -2 penalty on all rolls until the end of the scene."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "For one scene, all failed Presence or Manipulation rolls are treated as dramatic failures",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Cold Wind Pit fills the victim’s soul with numbing cold. Everyone else sees him, and might even approach him, but he can’t bring himself to respond. The Sin-Eater spends 2 plasm and 1 Willpower and rolls (Composure + Occult + activation successes) - target’s Composure. Every time the victim fails a Presence or Manipulation roll, the result is treated as a Dramatic Failure. This effect lasts until the end of the scene."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "When using Cold Wind Pit ●●●, can add activation successes to secondary roll and cause damage done to Composure rather than health.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "When using Cold Wind Pit • • •, the Sin-Eater can withhold air for much longer. Add the Pit activation successes to the successes rolled for this power to determine the length of time the victim is without air. Any damage suffered as a result of this power is dealt to the victim’s Composure rather than her Health (see “Attribute Damage” on p. 167 of the World of Darkness Rulebook)."
+                        ]
                     }
                 ]
             }
@@ -4672,54 +6368,90 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Occult",
         Summary: "Removes the victim’s ability to trust the ground he walks on.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Grave-Dirt Pit is more than just a figurative title. Beyond bogging his target down in mud or striking him with crippling vertigo, the signature ability of this Pit is the ability to bury its victim alive. The basic power of the Grave-Dirt Pit causes the ground to shift and slide beneath the victim’s feet. Whenever she tries to run, or moves more than half her Speed in one turn in combat, she must succeed at a reflexive Dexterity + Athletics or be knocked down (see “Knockdown,” World of Darkness Rulebook p. 168)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The following modifiers apply to both the activation roll and to rolls for subsidiary powers based on where the victim is standing:"
+                ]
+            },
+            {
+                "type": "table",
+                "headers": ["Modifier", "Situation"],
+                "rows": [
+                    ["+2", "The victim is standing on boggy earth or mud."],
+                    ["+1", "The victim is standing on loose earth or soil."],
+                    ["+1", "The victim is underground."],
+                    ["+0", "The victim is standing on rock or hard-packed earth."],
+                    ["-1", "The victim is standing on asphalt or concrete at ground level."],
+                    ["-1", "For each story the victim is above ground."],
+                    ["-2", "The victim is standing on metal or ceramic."],
+                    ["-4", "The victim is not standing on anything — falling through the air, or floating in water."]
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Composure (max -5) for one scene; potentially causes knockdown if victim moves and fails a secondary roll",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "If a contested secondary roll is successful, victim suffers penalties to Dexterity the higher they are from ground level.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim of this power can’t keep her feet, but she suffers crippling dizziness and vertigo when she’s above ground level. The Sin-Eater rolls Composure + Occult + activation successes in a contended action with the target’s Composure + Psyche. If successful, the victim can’t balance, and suffers a -1 penalty to Dexterity rolls for every story (roughly three yards) above ground, to a maximum of -5. The victim can’t turn this penalty into a bonus by going underground."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Victim's speed reduced to Strength; activation successes applied as a penalty to all Athletics checks, and dramatic failure on Athletics inflicts damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim starts to sink into the ground, and has to fight if she wants to move. The ground reacts to her struggle, becoming thick like molasses as she thrashes around. As an instant action, the Sin-Eater can spend a point of plasm to reduce the victim’s Speed to just her Strength. She also suffers the Pit’s activation successes as a penalty to all Athletics rolls, and if she suffers a dramatic failure on any Athletics roll, the victim takes two points of bashing damage."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Enhances Grave-Dirt Pit ●●, to also inflict damage and stun for one turn.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "In addition to the dizzying effects inflicted by Grave-Dirt Pit • •, the victim is also overcome with nausea. She suffers two points of bashing damage, and can’t take any actions or apply her Defense until the end of her next turn."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Victim is dragged underground; stays there for one turn per success on secondary roll; inflicts damage for falling and they cannot breathe.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "This Manifestation buries its victim alive. The ground under her feet becomes insubstantial and she falls through six feet of earth and rock with no way to climb back up. The Sin-Eater spends 2 plasm and 1 Willpower, and rolls (Composure + Occult + activation successes) - target’s Stamina as an instant action. If successful, the victim takes two points of bashing damage as she falls into the ground. She remains there for one turn per success, during which time she can’t breathe. She counts as being in combat for the purposes of holding her breath (see “Holding Breath,” World of Darkness Rulebook p. 49). If she suffers any lethal damage from suffocation she also loses a point of Stamina until she can heal the damage. When this power ends, the victim is returned to ground level."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "If the victim is on the second floor or higher up, she falls through the floor and doesn’t stop until she’s six feet under. She suffers one additional point of bashing damage for every story fallen, until she’s on the ninth floor or higher, at which point she hits terminal velocity. See p. 179 of the World of Darkness Rulebook for more information on falling damage, but note that the victim cannot make a Dexterity + Athletics roll to break her fall."
+                        ]
                     }
                 ]
             }
@@ -4732,54 +6464,109 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Crafts",
         Summary: "Man-made objects ignore the victim’s existence, and can turn against him. ",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Industrial Pit forces man-made objects to refuse the victim’s existence. He can type for as long as he likes on a computer, but it won’t save his documents or send an e-mail. His car won’t start — or pulls away only to ignore his hand on the wheel."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Sin-Eater’s player doesn’t use the normal Anachrotech modifiers (Geist: The Sin-Eaters p. 111) when activating the Industrial Pit. Instead, the victim suffers a penalty to his Composure equal to the Anachrotech modifier of the newest device he uses over the course of a scene. This penalty can change throughout the scene, but a character who only uses technology from before 1940 does not receive a bonus. The Industrial Pit lasts until the next sunset."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Danny’s pissed off a Sin-Eater who retaliated with the Industrial Pit. She figured that him being an auto mechanic would make for all kinds of fun. Most of the stuff Danny’s using came into common use in the 1960s, so he suffers a -1 modifier to his Composure as his tools turn against him. Thinking that something’s going wrong, he tries to call his boss from his brand new cellphone. His Composure modifier increases to -5 until the end of the scene. Next scene, he only starts suffering a penalty when he uses a technological device.",
+                        "italic": true
+                    }
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Until next sunset, victim suffers a penalty to Composure equal to the anachrotech penalty of the newest device they've used in a given scene.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Sin-Eater selects a specific visible device, of size up to (5+Activation Successes), and makes a secondary roll. If successful, victim always rolls a chance die when using that device.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "No matter what he tries, the victim of the Industrial Pit can’t convince machines to obey his command. This power targets one item used by someone under the influence of the Industrial Pit that the Sin-Eater can see, and that isn’t larger than (Size 5 + 1 for each activation success). The Sin-Eater spends 2 plasm as an instant action and her player rolls Composure + Crafts + activation successes. On a success, the victim is reduced to a chance die on all rolls involving the object for the remainder of the scene."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Can bind a ghost to a machine.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can force a ghost into a machine used by a victim of the Industrial Pit, much as it can possess a human being. The ghost can control the machine as though it were using it. The ghost doesn’t become anchored to the device, and destroying the item has no effect on the ghost. The Sin-Eater spends 2 plasm, and her player rolls Presence + Crafts + activation successes contested by the ghost’s Resistance. Anachrotech modifiers apply to this power as normal, and the item must have been used by a victim of the Industrial Pit within the same scene."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "On a success, the ghost is bound into the item until the end of the scene. It can do anything the item can reasonably do, though it can’t move the item itself unless it possesses Numina that would allow it to do so. Most actions can be resolved by using the ghost’s Power + Finesse in place of an Attribute + Skill roll. The ghost can only use Numina that normally affect items on the item in which it is trapped. Numina that affect people or animals only work against someone who actually touches the item. The ghost remains in the device until the end of the scene."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Enhances Industrial Pit ●●, such that it can affect a maximum size of (10+2*Activation Successes). Additionally, can affect up to Pysche separate machines simultaneously, as long as the total size does not exceed maximum.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can use Industrial Pit • • against a single item of Size 10 (with +2 per activation success). Alternatively, she can jinx a number of items equal to her Psyche as long as the total Size of all the items affected is less than her maximum."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "With a successful contested secondary roll, a target is erased from civilization; credit cards are canceled, all ID checks fail, and they lose the effects of all social merits. Lasts for one week.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Industrial Key is the main way with which a Sin-Eater can interface her geist with the workings of the world. Governments, banks, and corporations all forget that the victim of this power has ever existed. For all that this power can devastate a member of Western society, it’s not easy to pull off, especially against someone well-connected. The Sin-Eater spends 3 plasm as an instant action and his player rolls Manipulation + Crafts + activation successes, contested by the victim’s Resolve + Psyche. Apply the following modifiers to the victim’s pool, based on his Social Merits:"
+                        ]
+                    },
+                    {
+                        "type": "table",
+                        "headers": ["Modifier", "Situation"],
+                        "rows": [
+                            ["+3", "Character has a Mentor in a large company or government department."],
+                            ["+2", "Character has Status • • • or higher in a large company or government department."],
+                            ["+2", "Character has Contacts • • • • or higher."],
+                            ["+2", "Character has Resources • • • or higher."],
+                            ["+1", "Per dot of Fame character possesses."],
+                            ["+1", "Character has Contacts in corporate or business circles."],
+                            ["+1", "Character has Status • • or lower in a large company or government department."],
+                            ["+1", "Character has Status • • • • or higher in another organization."],
+                            ["+1", "Character has Allies • • • or higher."],
+                            ["-1", "Character has no dots in Allies or Contacts."],
+                            ["-1", "Character has no dots in Status or Resources."],
+                            ["-1", "Character has no dots in Fame or Mentor"]
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "If the Sin-Eater is successful, the victim’s credit cards and IDs all come up as cancelled, his driver’s license becomes invalid, his car’s flagged as stolen, his cellphone and Internet connections are cut off, and his home is repossessed. He loses the benefits of all his Social Merits except Inspiring and Striking Looks. Any attempts to prove that he still exists suffer a -5 penalty. The effects of this power last for a whole week, after which the victim is free to pick up the pieces."
+                        ]
                     }
                 ]
             }
@@ -4792,54 +6579,70 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Empathy",
         Summary: "Warps the victim’s mind, stealing his ability to concentrate.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Passion Pit turns a character’s own emotions against him, infusing those passions with the diseased plasm of the Underworld. His thoughts and emotions turn against him, and prevent him from concentrating. The basic effect of the Passion Pit affects Composure as normal."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Composure (max -5) for one scene",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "With a successful resisted roll, the victim suffers an increasing penalty to all extended actions.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim’s thoughts twist into tortuous knots. While simple actions like firing a gun or answering a direct question come easy, focusing beyond a couple of seconds becomes nearly impossible. The Sin-Eater spends 1 plasm as an instant action, and her player rolls (Composure + Empathy + activation successes - target’s Resolve."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "For every success rolled, the victim suffers a cumulative -1 penalty to each roll of his next extended action, up to a maximum penalty of -5. That is, his first roll suffers a -1 penalty, the second a -2 penalty, and so on until the penalty equals the number of successes rolled for this power. On an exceptional success, the affected action cannot extend beyond five rolls at all."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "With a successful contested roll, the victim gains only one Willpower for exercising their Virtue, suffering a penalty to rolls to do so, and afterwords cannot regain Willpower via virtue or vice until the next chapter.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The essence of the Underworld twists every noble intention, warping the victim’s actions into something far darker. When he looks back on what he has actually done, he may be shocked at what really happened. The Sin-Eater spends 1 plasm and her player rolls Composure + Empathy + activation successes, contested by the victim’s Resolve + Psyche. On a success, the next time the victim attempts an action that would channel his Virtue, he only regains 1 Willpower and suffers a -3 penalty to any applicable dice pools. After that, the victim can’t use either Virtue or Vice until the next chapter. On a dramatic failure, the victim can indulge his Vice this scene and receive the benefit of channeling his virtue instead."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "With a successful resisted roll, the next successes rolls for instant or extended actions are reduced to chance die.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "A victim of this power can feel his mind working against him. Unable to think straight for more than a second at a time, almost anything he does is doomed to failure. The Sin-Eater spends 3 plasm and her player rolls (Composure + Empathy + activation successes) - victim’s Resolve. If successful, the victim reduces every dice pool for instant or extended actions to a chance die (reflexive actions are not affected). One action is affected per success rolled."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Enhances Passion Pit ●●●●, such that the victim now must spend Willpower to roll at all.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The tainted plasm unleashed by Passion Pit • • • • works into the victim’s mind, burrowing deep. In order to take an action while this power is active, the victim must spend a Willpower point. Her dice pools are still reduced to a chance die."
+                        ]
                     }
                 ]
             }
@@ -4852,54 +6655,70 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Persuasion",
         Summary: "Conjures visions of a world where the victim does not exist and things are better for his loved ones.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The visions created by the Phantasmal Pit depict a world where the victim died many years ago and nobody cares. Each vision presents itself as a real, probable outcome; the way things will be rather than the way things could be."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "To start with, the visions created by the Phantasmal Pit just leave the victim shaken. The Bound can’t use this power against his intended target if the target is in combat or otherwise engaged in stressful activity, and must touch his intended target in order to activate the Pit."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Composure (max -5) for one scene; must touch the victim, and they must be in a clear state of mind.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "With a successful contested roll, the victim suffers a mild derangement.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The visions produced by the Phantasmal Pit can inflict terrible psychological problems. A Sin-Eater can spur his foes to fixate on their failings, fall into a terrible depression, or react to things that don’t exist. As an instant action, the Sin-Eater spends 1 plasm and his player rolls Composure + Persuasion + activation successes contested by the victim’s Resolve + Composure + Psyche. If the Sin-Eater succeeds, he can choose a mild derangement to inflict on his victim for the scene, and the victim can’t roll Resolve + Composure to resist the derangement’s onset."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "With a successful contested roll, the victim becomes delusional, suffering -2 to all social roles and reacting to confrontation with fight or flight. Victim can spend a Willpower point to become lucid for one minute.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Overwhelmingly, the power of the Underworld is the power to break down the lines between what is real and what is not. Someone affected by this power has no concept of the difference between fantasy and reality; what she imagines is just as real as what exists. The Sin-Eater spends 1 plasm and rolls Composure + Persuasion + activation successes versus the victim’s Resolve + Composure + Psyche in a contested action. If successful, the victim starts to hallucinate. She suffers a -2 penalty to all Social rolls due to her unpredictable behavior, and reacts to anyone who confronts her with threatening or aggressive language accordingly: either she runs like hell, or she tries to attack them. The victim can spend a point of Willpower to become lucid for a minute."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can enhance Phantasmal Pit ●●, such that it now inflicts a severe derangement.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At this level of power, the geist can instead inflict a severe derangement when using Phantasmal Pit • •, though the Sin-Eater must spend an extra point of plasm when unlocking the Manifestation."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "With a successful resisted roll, can inflict the resulting successes in damage to the victim's Presence or Manipulation. This damage heals as if it were lethal damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Some of the most powerful visions produced by the Phantasmal Pit strip away the delusion that one person’s life matters. Buffeted by visions of how the world would be a better place if she had never been born, the victim understands that the world would actually be a better place without her. The Sin-Eater spends 3 plasm and his player rolls (Composure + Persuasion + activation successes) - target’s Resolve. If successful, the Sin-Eater’s player can inflict one point of damage to the victim’s Presence or Manipulation per success rolled. The lost Attributes return as if the victim were healing lethal damage. On an exceptional success, she also loses one point from each ranked Social Merit she possesses (Allies, Contacts, Fame, Mentor, Retainer, and Status). These lost points return after a week."
+                        ]
                     }
                 ]
             }
@@ -4912,54 +6731,88 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Survival",
         Summary: "instills plants and animals with a malevolence towards the victim, culminating in resurrecting a beast that hunts him.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Shadows in the firelight. Eyes glinting just beyond the mouth of the cave. Wind rushing through the leaves of ancient trees, back when the world was young. The Primeval Pit stirs those feelings in the hearts of men once more. Even someone who’s lived in a city all his life understands the cold, dark loneliness that comes from being alone in a hostile world. The predators haven’t gone away; they’re just better at hiding."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "At base, the Primal Pit sparks fear within its victim’s heart. In an urban area, even a small town, the Pit works as normal. If the victim is surrounded by wilderness — no streetlights, buildings, or even cultivated fields — the Sin-Eater has an easier time unlocking the Manifestation. Her activation roll gains the 8-again quality."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Composure (max -5) for one scene; if activated in the wilderness, activation roll gains 8-again property.",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "With a successful resisted roll, the victim's speed drops by two per successes, possibly immobilizing them. Lasts until duration expires or they set foot on man-made terrain.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Well-trod paths through the wilderness normally bow to the feet of man. Not so for a victim of the Primal Pit. The Sin-Eater spends 1 plasm and her player rolls (Composure + Animal Ken + activation successes) - target’s Stamina as an instant action. If her roll is successful, branches, roots, and undergrowth catch at the victim’s legs and pull his feet out from under him. Reduce the victim’s Speed by two for each success rolled. If this reduces his Speed to 0, he’s immobilized. This penalty lasts for the duration of the Pit, or until the victim first steps onto a man-made surface, whichever comes first. On an exceptional success, the victim takes a point of bashing damage from the plants. Conversely, a dramatic failure increases the victim’s Speed by the activation successes."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Forces the victim to either spend a willpower point or do nothing but seek out the nearest civilization.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The geist can tweak the victim’s sense of isolation. He knows that the only way to be safe from the dark is to find more people, to huddle together in the light and hope the darkness fades. The Sin-Eater can spend an extra point of plasm when activating the Pit. If she does, the victim must move towards the nearest group of 10 or more people. If there’s nobody else around, he heads for somewhere that’s likely to have people around — towards the nearest building or road. He must spend a point of Willpower in order to take any other action."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "With a successful contested roll, the victim flees in panic, suffering a large penalty to all other actions.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Most people don’t know what it feels like to be hunted. Those few who survive contact with feral creatures of the night — werewolves especially—have an inkling of that fear. The Sin-Eater can let loose a terrifying shriek that only a victim of the Primeval Pit can hear, tapping directly into the fear of being a prey animal once more. This costs 1 plasm, and the Sin-Eater’s player rolls Presence + Animal Ken + activation successes contested by the victim’s Resolve + Psyche. If the Sin-Eater succeeds, the victim has a hard time doing anything but running in fear. He suffers a penalty to all actions that don’t involve running in abject terror equal to half of (10 - his Willpower), rounding any fractions up. If the victim’s Willpower is less than 5, he blanks the events from his memory. An exceptional success on the roll turns the Sin-Eater’s next Intimidation roll into a rote action, as others hear her howl."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Summons a ghost that takes the form of an undead predator, which hunts down the victim. With a Willpower point spent, the creature remains until the next sunrise, rather than the Pit duration.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Unlocking the final Manifestation of the Primeval Pit summons the ghost of a once-dead predator and gives it physical form so that it can hunt the victim down. The Sin-Eater must spend 3 plasm to summon the beast."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The undead predator takes the form of a carnivorous animal, though the created body is obviously dead — visible bones show through rotting flesh. The beast has the normal Traits for the beast of that chosen type. The Sin-Eater’s player can “spend” his activation successes to raise one of the animal’s Physical Attributes by one, increase its Size by one, or add one point of armor."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The beast does not suffer wound penalties, unconsciousness, or bleeding. The only way to stop it attacking is to fill its last Health box with aggravated damage. Worse, bullets only deal bashing damage to the animal, though the creature takes aggravated damage from fire. The animal operates under a simple set of instructions: it can only move towards its target, who must be a victim of the Primeval Pit, or towards another living being in the same direction. If there’s a living creature within range, the creature can attempt to kill it, but it will only chase after its target."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "The summoned beast lasts for the duration of the Primeval Pit. If the Sin-Eater spends a Willpower point when activating this power, the beast instead lasts until the next sunrise."
+                        ]
                     }
                 ]
             }
@@ -4972,54 +6825,65 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Occult",
         Summary: "Steals light and heat from his victim.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Fire does not give light or heat to a victim of the Pyre-Flame Pit, but it’s more than happy to burn him. A victim struck with the Pyre-Flame Pit is cold even on a balmy summer’s day, and can’t get warm from a flame. He could be stood in the middle of a towering inferno and still be shivering with cold. Ultimately, this still penalizes his Composure — the victim can still see the flames, after all."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Composure (max -5) for one scene",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
+
             },
-{
+            {
                 dot: 2,
                 summary: "Apply activation successes as a penalty to perception to notice whether a surface is hot.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The victim now can’t draw warmth from any source of heat, rather than just fire. He won’t notice that a surface is hot — whether he grabs the handle of a hot pan, or slips in to a scalding hot bath. Apply the activation successes as a penalty to all Wits + Composure rolls to notice that a surface is hot."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "As Pyre-Flame Pit ●●, and victim must spend a Willpower point to even roll perception; additionally, they can see no light from fires.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At this level of power, the victim can’t see any indications that a surface is hot, though the Pit isn’t powerful enough to steal the light of the sun. His blindness includes flames, the glow of hot metal, or steam and bubbles rising in boiling water. The victim must spend a point of Willpower to roll Wits + Composure to notice that an object is hot, and the roll is penalized by Pyre-Flame Pit • •. In situations where the only light comes from flames, the victim is effectively blind (see “Fighting Blind” on p. 166 of the World of Darkness Rulebook)."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "With a successful secondary roll, weapons that would cause a victim to catch flame with an exceptional success now do so with a normal success.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The dark plasm of the Underworld infuses the victim’s clothing, making it more likely to burn. The Sin-Eater spends 2 plasm, and her player rolls (Composure + Occult + activation successes) - target’s Defense. On a success, if the victim takes any damage from a weapon that would normally set his clothes alight on an exceptional success, like a flamethrower, then a success is enough to set them burning. Attacking someone with a cigarette lighter or other small source of flame is a case of trying to touch someone (World of Darkness Rulebook p. 157), with a -2 modifier for the difficulty of touching with a flame. A success on that roll starts a fire the size of a torch and as hot as a candle, and the fire burns for one turn per success."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Can enhance Pyre-Flame Pit ●●●●, such that sparked fires are always at least the size of a torch and the heat of a chemical fire.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can spend an extra point of plasm when activating Pyre-Flame Pit • • • •. If he does, then any resulting fire is at least the size of a torch, and as hot as a chemical fire."
+                        ]
                     }
                 ]
             }
@@ -5032,54 +6896,70 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Occult",
         Summary: "Dulls the fire within the victim’s blood, enables ghosts to manifest around the victim, and even kills his blood’s ability to clot.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Blood is the river of life that flows to the ashen plain of death. The Stigmata Pit calls to the blood of its victim, altering its flow. The initial power of the Stigmata Pit calms the victim’s blood; he doesn’t get riled up and has a hard time bringing himself to do anything. Even when he manages to act, he’s not quick about it. The activation successes apply as a direct penalty to both his Speed and Initiative, not his Composure."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Speed and Initiative (max -5) for one scene",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "If the Sin-Eater can shed at least one lethal point of damage on the victim and succeed on a resisted roll, ghosts gain the successes in bonuses to manifest around the victim.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Using the blood as a tie to the dead, a Sin-Eater can weaken the boundary between living and dead around a victim of the Stigmata Pit. The Sin-Eater must shed some of the victim’s blood to use this power — enough to deal a point of lethal damage. The Sin-Eater’s player rolls (Composure + Occult + activation successes) - target’s Composure. If successful, any ghost with an anchor within five yards of the target gains a bonus to all rolls to manifest equal to the successes rolled to activate this power, until the end of the scene. The victim doesn’t count as a mortal witness for the purposes of working out cumulative manifestation penalties. See “Manifestations,” World of Darkness Rulebook p. 210, for more information. On an exceptional success, a ghost that fails to manifest does not lose a point of Willpower, while a dramatic failure applies a -3 dice penalty to any ghost attempting to manifest."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Victim also suffers activation successes as a penalty to Wits rolls",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The lethargy of the Stigmata Pit spreads to the victim’s mind as well. If the Sin-Eater spends a point of plasm when activating the Pit, the victim suffers the activation successes as a penalty to all Wits-based rolls in addition to Speed and Initiative."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Can enhance Stigmata Pit ●●, such that ghosts can manifest as if the victim were an anchor, and all ghosts in the area are alerted of this ability.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can call ghosts to his victim. By spending an extra point of plasm when activating Stigmata Pit • •, any ghost within 20 yards of the victim can manifest as though it had an anchor. Any ghosts within a hundred yards know that there’s something special about the target, and will probably head towards him."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "With a successful contested roll, the victim suffers an additional point of bashing damage with every attack suffered; if this bashing damage would cause overflow into lethal damage, the victim begins bleeding heavily to death. Vampires lose Vitae instead.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Many Sin-Eaters focus on the ties between blood and the dead. Others focus on the blood pumping through the veins of the living. The Sin-Eater urges tainted plasm deep into her victim’s heart, removing the body’s ability to clot. The Sin-Eater spends 2 plasm and her player rolls Composure + Occult + activation successes contested by the target’s Stamina + Psyche. If successful, the victim’s blood refuses to coagulate. Each attack made against the victim deals a point of bashing damage in addition to other effects. This damage manifests even if the attacker rolls no successes. If the victim fills his rightmost Health box, even with bashing damage, he suffers an additional point of bashing damage each minute as he bleeds to death internally. Any Medicine rolls made to heal the victim suffer a -3 penalty. Every time that a vampire would suffer bashing damage as a result of this power, he instead loses a point of Vitae as it leaks out of his system and pools under his skin."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "On a dramatic failure, the Pit corrupts the plasm in the Sin-Eater’s bloodstream, inflicting a -2 penalty to all rolls and removing his Defense until the end of his next turn. An exceptional success turns that pain on to the victim, who suffers double the normal wound penalties. Characters who don’t normally suffer wound penalties instead suffer the normal penalties."
+                        ]
                     }
                 ]
             }
@@ -5092,54 +6972,70 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Subterfuge",
         Summary: "Dull her victim’s senses, and even remove him from the perceptions of other people.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Insidiously, the Stillness Pit robs its victims of their own senses, overlaying the muted sensory impressions of the Underworld on the otherwise bright and vibrant world. She can identify things by smell, but it’s like she’s breathing through a scarf. Food and drink taste of little more than ash and filthy water. Sounds and colors have their vibrancy stolen, and touching anything’s like grasping it through a ball of cotton wool. The basic power of the Stillness Pit affects the victim’s Perception rolls, as well as his Composure."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from Composure and Perception rolls (max -5) for one scene",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Victim has all perception and surprise rolls reduced to a chance die; additionally, they cannot spend willpower on these rolls.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can spend an extra point of plasm when manifesting the Pit in order to cloud her victim’s senses further. All Perception rolls and rolls to react to surprise are reduced to a chance die for the duration of the Pit. The victim can’t spend Willpower to increase his dice pool. This penalty applies to Skill-Based Perception as well as the standard Wits + Composure roll to notice things."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "With a successful contested roll, the victim becomes invisible, inaudible, and unnoticeable to anyone who cannot see ghosts in Twilight.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Lots of people go through life wanting other people to notice them. This ability kills the victim’s voice and image, leaving him invisible and robbing him of the spotlight — or saving a victim of abuse form his attacker’s sight. The Sin-Eater spends one point of plasm, and her player rolls Composure + Stealth + activation successes contested by the target’s Resolve + Psyche, though if the target is willing the roll is uncontested. If the Sin-Eater succeeds, the victim is rendered invisible and inaudible to people in the physical world for the duration of the Pit. Any attempt to draw people’s attention automatically fails. Anyone who can perceive ghosts in Twilight can still see the victim. On a dramatic failure, the victim becomes more noticeable, gaining a +1 bonus to all Presence rolls until the end of the scene."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "With a successful contested roll, the victim becomes unable to pick up or touch anything. They can spend a willpower point to do so for one turn.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater removes the one thing that most people take for granted: their ability to touch things. While barriers still bar her victim’s progress, a Sin-Eater can leave him unable to pick up a pen or hold his wife. The Sin-Eater spends 2 plasm and her player rolls Composure + Stealth + activation successes contested by the victim’s Stamina + Psyche. On a success, the victim can’t pick up or hold anything until the end of the scene; he can lean on a wall or sit on a chair, but can’t change his clothes or lift so much as a feather. He can spend a point of Willpower to hold an item for one turn. The victim can’t be touched by physical objects in return, including fists and bullets. Any actions that involve touching or striking the victim automatically fail."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Can activate Stillness Pit with a single contested roll; on a success, all above effects are inflicted at once, and the duration is extended until the next sunrise.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Someone who falls foul of a master of the Stillness Pit walks through the world without anyone encountering him. Invisible and untouchable, all he can do is watch people walk by, trapped in his own personal hell."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "This power costs 3 plasm and 1 Willpower and replaces the activation roll for the Stillness Pit with a contested roll of Composure + Stealth + Pit rating contested by the target’s Resolve + Stamina + Psyche. If the Sin-Eater succeeds, she inflicts every power of the Stillness Pit in one outpouring of twisted plasm. For Stillness Pit • • • and • • • •, the Sin-Eater is assumed to have rolled a success. The power so unlocked lasts until the next sunrise, rather than the end of the scene. On an exceptional success, the Sin-Eater regains the point of Willpower spent to activate the Pit, in addition to the normal effects of an exceptional success."
+                        ]
                     }
                 ]
             }
@@ -5152,54 +7048,82 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Medicine",
         Summary: "Consume ghosts, sending her geist out in their form — or wearing it over her own skin.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Stygian Key channels the energy of the Underworld towards a ghost rather than a mortal, corrupting the ghost’s Corpus with raw entropic plasm. The Sin-Eater can use the Stygian Pit against any ghost he’s aware of within 10 yards per point of Psyche. The activation successes are applied as a penalty against rolls made with the ghost’s Resistance, rather than its Composure. The ghost applies its Resistance to the activation roll in place of a physical being’s Resolve or Composure."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "A ghost must be in Twilight for the Stygian Pit to affect it. A Bound attempting this Manifestation on a ghost in the Underworld suffers one point of aggravated damage as the dark energies twist back upon him."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts activation successes from a target ghost's Resistance (max -5) for one scene; victim must be in Twilight, usage in the Underworld instead inflicts one aggravated damage on the Sin-Eater",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "With a successful extended and contested roll, the Sin-Eater devours a ghost, gaining plasm and cast the victim into to the Underworld.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can drain the power from a ghost as his geist consuming its Corpus, drawing it back along the bond between the two and using it to channel the energies of the Underworld. The Sin-Eater spends 1 plasm and her player rolls Composure + Medicine + activation successes versus the target’s Finesse + Resistance as an extended and contested action, requiring successes equal to the ghost’s Corpus and with each roll representing 30 seconds. If the Sin-Eater is successful, her geist consumes the ghost’s Corpus, effectively eating the ghost. She can store one extra point of plasm for every two dots of Corpus (round fractions up). Effects that return all lost plasm also fill this unholy reserve."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "At the end of the scene, the ghost’s essence fades into the Underworld. She re-forms in the Autochthonous Depths with full Corpus and with no further negative effects from the Pit. She still has her anchors (if she had any to begin with), but must find an Avernian Gate in order to return to the physical world."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "With a successful secondary roll, the Sin-Eater's geist can briefly assume the form of a ghost devoured with Stygian Pit ●●, can remotely act as a ghost can.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can project her geist into Twilight wearing the stolen Corpus of a ghost. A character can only use this Manifestation after having successfully used Stygian Pit • •, and can only take on the form of that ghost. The Sin-Eater spends 1 plasm and her player rolls Composure + Medicine + activation successes as an instant action. The geist manifests in Twilight, looking exactly like the affected ghost. It can act independently of the Sin-Eater, but uses his Attributes and Skills rather than gaining the ghost’s Attributes. The geist can Manifest as normal in the presence of the ghost’s anchors, but cannot use any Numina that the ghost had. Accessing the memories of a ghost for specific information requires a reflexive Intelligence + Wits roll. The Sin-Eater and geist can act independently, but if both act on the same turn they each suffer a -2 modifier to any actions. The geist can remain in ghostly form for one turn per success, or until the end of the scene if the player rolls an exceptional success."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "With a successful secondary roll, the Sin-Eater's geist, when in the form of a devoured ghost, can access its memories, including anchors. Extends duration to five minutes per success, but all those who knew the ghost in life gain a temporary derangement.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Having stolen the form of a ghost, a Sin-Eater can wear that ghost’s form. While some Sin-Eaters just use this power as a useful disguise, some less scrupulous Bound track down the ghost’s living anchors. A character can only use this Manifestation after having successfully used Stygian Pit • •, and can only take on the form of that ghost. The Sin-Eater spends 3 plasm, and her player rolls Composure + Medicine + activation successes. If the Sin-Eater possesses the Stygian Caul at • • • or more, he gains a +2 bonus to her dice pool. If successful, the Sin-Eater takes on the outward appearance of the ghost, and can access specific memories by rolling Intelligence + Wits as a reflexive action. The Sin-Eater does not possess his victim’s Numina, and must instead use Manifestations to replicate their effects. The Sin-Eater automatically knows the location and nature of each of the ghost’s anchors as a reflexive action. The Sin-Eater can manifest the stolen ghost’s form for five minutes per success, or until the end of the scene if the player rolls an exceptional success."
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "text": [
+                            "Anyone who knew the ghost when she was alive must make a Resolve + Composure roll. Failure indicates that she gains a temporary Derangement until the end of the scene."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Sin-Eater can now use the Stygian Pit in the Underworld; with an extra point of Plasm can also affect Kerberoi, psychopomps, and other Underworld natives.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Mastery over the Stygian Pit allows a Sin-Eater to use all of the Pit’s powers in the Underworld. Also, he can affect Kerberoi, psychopomps, and other things native to the lands of the dead as well as ghosts. He can’t turn the Pit against beings normally resident in the living world, including humans, vampires, and Prometheans. Using the Pit against something that isn’t a ghost costs an extra point of plasm."
+                        ]
                     }
                 ]
             }
@@ -5212,54 +7136,64 @@ export const ManifestationsKeysData = [
         Attribute: "Composure",
         Skill: "Occult",
         Summary: "Stops the victim gaining sustenance from water, and can even desiccate his victims.",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Water does not slake the thirst of someone inflicted with the Tear-Stained Pit, though it’s more than happy to drown her. This Pit removes the vital spark from any water the victim drinks, leaving it tasting dry and brackish. Though she’s still able to drink water to live when inflicted with the basic version of this Pit, she feels thirsty all the time. She only suffers half the activation successes as a penalty to her Composure (round fractions down), but the Tear-Stained Pit lasts for one day per activation success."
+                ]
+            }
+        ],
         Ranks: [
             {
                 dot: 1,
                 summary: "Subtracts half activation successes from Composure (max -5) for one scene; lasts for one day per activation success",
-                content: [
-                    {
-                        type: 'Paragraph',
-                        text: ""
-                    }
-                ]
             },
-{
+            {
                 dot: 2,
                 summary: "Victim gains no sustenance from drink for the duration, possibly dehydrating",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The Sin-Eater can spend an extra point of plasm when activating the Pit to stop the victim gaining sustenance from water while suffering under the Pit. However much she drinks, she still suffers from the effects of dehydration (see “Deprivation,” World of Darkness Rulebook p. 175) as though she has had no water for the duration."
+                        ]
                     }
                 ]
             },
-{
+            {
                 dot: 3,
                 summary: "Victim's Stamina is halved for purposes of holding breath underwater; drowning damage is doubled.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "Water shows its dislike for the victim, forcing itself down her nose and throat even when she’s doing her best not to breathe. The victim halves her Stamina when working out how long she can hold her breath when immersed in water. When drowning (though not suffocating), she suffers two points of lethal damage per turn, rather than one."
+                        ]
                     }
                 ]
             },
             {
                 dot: 4,
                 summary: "Damages the victim's physical attributes for a number of successes on a secondary roll; heals as if they were lethal damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "The geist actively forces the water out of the Sin-Eater’s victim, drying out her body to an unnatural degree. This is an instant action costing 2 plasm and 1 Willpower, and requires a roll of (Composure + Occult + activation successes) - target’s Stamina. If successful, the victim loses one point of a Physical Attribute per success. The Sin-Eater’s player determines which Attributes are affected. This damage heals at the same rate as lethal damage. An exceptional success permanently reduces the victim’s Speed by 1, while a dramatic failure heals the victim’s rightmost two Health boxes."
+                        ]
                     }
                 ]
             },
             {
                 dot: 5,
                 summary: "Enhances Tear-Stained Pit ●●●●, such that attribute damage heals as if it were physical damage.",
-                content: [
+                "Content": [
                     {
-                        type: 'Paragraph',
-                        text: ""
+                        "type": "paragraph",
+                        "text": [
+                            "At this level, the damage dealt by Tear-Stained Pit • • • • takes even longer to heal. All lost Attribute dots heal at the same rate as aggravated damage."
+                        ]
                     }
                 ]
             }

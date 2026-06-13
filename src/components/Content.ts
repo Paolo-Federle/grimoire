@@ -3,7 +3,6 @@
  *
  * Direzione del progetto:
  * - i dataset piu' recenti tendono a usare blocchi strutturati
- * - i dataset legacy possono ancora fare fallback su html raw
  * - il renderer deve supportare testo, liste, heading, linee tecniche e tabelle
  */
 
@@ -47,26 +46,12 @@ type TableBlock = {
   rows: Array<Array<InlineText | InlineText[] | number>>;
 };
 
-type TableRefBlock = {
-  type: "tableRef";
-  index?: number;
-  placeholder?: string;
-  title?: InlineText | InlineText[];
-};
-
-type HtmlBlock = {
-  type: "html";
-  content: string;
-};
-
 type ContentBlock =
   | string
   | ParagraphBlock
   | HeadingBlock
   | ListBlock
   | LineBlock
-  | TableBlock
-  | TableRefBlock
-  | HtmlBlock;
+  | TableBlock;
 
 type Content = ContentBlock[];

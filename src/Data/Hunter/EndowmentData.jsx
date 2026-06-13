@@ -249,7 +249,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -302,7 +302,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -356,7 +356,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -414,7 +414,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -455,7 +455,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -492,7 +492,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -529,7 +529,7 @@ const advancedArmoryData = [
         "Damage": "0",
         "Ranges": "10/20/40",
         "Capacity": "5",
-        "Size": "4",
+        "Weapon Size": "4",
         "ItemSpecial": "Strength 3"
     },
     {
@@ -605,7 +605,7 @@ const advancedArmoryData = [
         "Damage": "6B/8B/4L",
         "Ranges": "100/200/400",
         "Capacity": "16",
-        "Size": "3",
+        "Weapon Size": "3",
         "ItemSpecial": ""
     },
     {
@@ -659,7 +659,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -697,7 +697,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -760,7 +760,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -806,7 +806,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -861,7 +861,7 @@ const advancedArmoryData = [
         "Damage": "5 (8 again)",
         "Ranges": "300/600/1200",
         "Capacity": "50",
-        "Size": "5",
+        "Weapon Size": "5",
         "ItemSpecial": "Autofire"
     },
     {
@@ -911,7 +911,7 @@ const advancedArmoryData = [
         "Damage": "4",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     },
     {
@@ -952,7 +952,7 @@ const advancedArmoryData = [
         "Damage": "",
         "Ranges": "",
         "Capacity": "",
-        "Size": "",
+        "Weapon Size": "",
         "ItemSpecial": ""
     }
 ]

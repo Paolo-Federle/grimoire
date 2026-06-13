@@ -4,17 +4,7 @@ import { BookLink } from '../../components/BookLink';
 import StructuredContent, { InlineContent } from '../../components/StructuredContent';
 import { normalizeDisplayText } from '../../utils';
 
-const blockHtmlPattern = /<\/?(p|div|ul|ol|li|h[1-6]|table|thead|tbody|tr|td|th)\b/i;
-
-function hasBlockHtml(value) {
-    return typeof value === 'string' && blockHtmlPattern.test(value);
-}
-
 function renderTextContent(value, key, asParagraph = true) {
-    if (hasBlockHtml(value)) {
-        return <StructuredContent key={key} content={{ type: 'html', content: value }} />;
-    }
-
     const content = <InlineContent content={value} prefix={`contract-detail-${key}`} />;
 
     return asParagraph ? <p key={key}>{content}</p> : content;
