@@ -369,7 +369,7 @@ export default function ManifestationCombination({
         ) : null}
 
         <div className="overflow-hidden border border-[#c7c7c7] bg-[#efefef]">
-          <div className="block xl:hidden">
+          <div className="block min-[900px]:hidden">
             <div className="border-b border-[#c7c7c7] bg-[#ececec] p-4">
               <div className="grid gap-4">
                 <MobileSelect
@@ -402,7 +402,7 @@ export default function ManifestationCombination({
             {renderDetailPanel()}
           </div>
 
-          <div className="hidden xl:grid xl:h-[700px] xl:grid-cols-[320px_320px_minmax(0,1fr)] xl:items-stretch">
+          <div className="hidden min-[900px]:grid min-[900px]:h-[700px] min-[900px]:grid-cols-[320px_320px_minmax(0,1fr)] min-[900px]:items-stretch">
             <DesktopListColumn
               title="Manifestations"
               items={manifestationOptions}
