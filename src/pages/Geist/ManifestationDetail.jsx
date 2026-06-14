@@ -132,8 +132,10 @@ function AccordionSection({ title, children, defaultOpen = true }) {
 }
 
 function MechanicsFields({ cost, dicePool, action, prefix, keySkill }) {
+  if (!hasValue(cost) && !hasValue(dicePool) && !hasValue(action)) return null;
+
   return (
-    <div className="mt-4 space-y-1">
+    <div className="mt-2 leading-5">
       <LabeledField label="Cost" value={replaceKeySkill(cost, keySkill)} prefix={`${prefix}-cost`} />
       <LabeledField label="Dice Pool" value={replaceKeySkill(dicePool, keySkill)} prefix={`${prefix}-dice-pool`} />
       <LabeledField label="Action" value={replaceKeySkill(action, keySkill)} prefix={`${prefix}-action`} />
@@ -221,6 +223,13 @@ export default function ManifestationDetail(props) {
       {manifestation ? (
         <AccordionSection title={manifestation.Name}>
           <DetailContent content={manifestation.Content} keySkill={keySkill} />
+          {hasValue(manifestation.FullActivationCost) ||
+          hasValue(manifestation.DicePool) ||
+          hasValue(manifestation.Action) ? (
+            <h2 className="mt-4 font-serif text-[20px] font-bold text-[#161616]">
+              {normalizeDisplayText(`${manifestation.Name} Activation`)}
+            </h2>
+          ) : null}
           <MechanicsFields
             cost={manifestation.FullActivationCost}
             dicePool={manifestation.DicePool}
