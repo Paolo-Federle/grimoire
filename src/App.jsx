@@ -421,6 +421,32 @@ function findPrometheanMeritBySlug(items, slug) {
   };
 }
 
+function getTransmutationDataItems(dataModule) {
+  return [
+    dataModule.TransmutationsOverviewData,
+    ...Object.entries(dataModule)
+      .filter(([key, value]) => key.endsWith("TransmutationsData") && Array.isArray(value))
+      .flatMap(([, value]) => value),
+  ].filter(Boolean);
+}
+
+function getDuplicateAwareTransmutationSlug(items, item) {
+  const name = item?.Name || "";
+  const duplicateCount = items.filter((transmutation) => transmutation?.Name === name).length;
+
+  if (duplicateCount > 1) {
+    return slugify(`${name} ${item?.Class || ""} ${item?.Book || ""}`);
+  }
+
+  return slugify(name);
+}
+
+function findTransmutationBySlug(dataModule, slug) {
+  const items = getTransmutationDataItems(dataModule);
+
+  return items.find((item) => getDuplicateAwareTransmutationSlug(items, item) === slug) || null;
+}
+
 const DETAIL_ROUTE_CONFIGS = [
   {
     path: `${PATHS.LOCATIONS_BASE}/:slug`,
@@ -596,11 +622,29 @@ const DETAIL_ROUTE_CONFIGS = [
       findPrometheanMeritBySlug(dataModule.PrometheanMeritsData, slug),
   },
   {
+    path: `${PATHS.PROMETHEAN.TRANSMUTATIONS}/:slug`,
+    propKey: "transmutation",
+    loadPage: () => import("./pages/Promethean/TransmutationsDetail"),
+    loadData: () => import("./Data/Promethean/TransmutationsData"),
+    resolveItem: ({ dataModule, slug }) => findTransmutationBySlug(dataModule, slug),
+  },
+  {
     path: `${PATHS.GEIST.MERITS}/:slug`,
     propKey: "geistMerit",
     loadPage: () => import("./pages/Geist/GeistMeritsDetail"),
     loadData: () => import("./Data/Geist/GeistMeritsData"),
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.GeistMeritsData, slug),
+  },
+  {
+    path: `${PATHS.GEIST.CEREMONIES}/:slug`,
+    propKey: "ceremony",
+    loadPage: () => import("./pages/Geist/CeremoniesDetail"),
+    loadData: () => import("./Data/Geist/CeremoniesData"),
+    resolveItem: ({ dataModule, slug }) =>
+      findItemBySlug([
+        dataModule.CeremoniesOverviewData,
+        ...dataModule.CeremoniesData,
+      ], slug),
   },
   {
     path: `${PATHS.GEIST.MANIFESTATION}/:slug`,

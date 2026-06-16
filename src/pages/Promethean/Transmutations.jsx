@@ -1,4 +1,6 @@
 import React from 'react';
+import SimpleTable from '../../components/SimpleTable';
+import TableGroup from '../../components/TableGroup';
 import {
     AlchemicusTransmutationsData, BeneficeTransmutationsData, ConsortiumTransmutationsData,
     ContaminationTransmutationsData, CorporeumTransmutationsData, DeceptionTransmutationsData,
@@ -6,28 +8,60 @@ import {
     MesmerismTransmutationsData, MetamorphosisTransmutationsData, SaturninusTransmutationsData,
     SensoriumTransmutationsData, SpiritusTransmutationsData, VitalityTransmutationsData, VulcanusTransmutationsData
 } from '../../Data/Promethean/TransmutationsData';
-import SimpleTable from '../../components/SimpleTable';
+import { slugify } from '../../utils';
+import { PATHS } from '../path';
+
+const TRANSMUTATION_GROUPS = [
+    { title: 'Alchemicus', data: AlchemicusTransmutationsData },
+    { title: 'Benefice', data: BeneficeTransmutationsData },
+    { title: 'Consortium', data: ConsortiumTransmutationsData },
+    { title: 'Contamination', data: ContaminationTransmutationsData },
+    { title: 'Corporeum', data: CorporeumTransmutationsData },
+    { title: 'Deception', data: DeceptionTransmutationsData },
+    { title: 'Disquietism', data: DisquietismTransmutationsData },
+    { title: 'Electrification', data: ElectrificationTransmutationsData },
+    { title: 'Irradiation', data: IrradiationTransmutationsData },
+    { title: 'Mesmerism', data: MesmerismTransmutationsData },
+    { title: 'Metamorphosis', data: MetamorphosisTransmutationsData },
+    { title: 'Saturninus', data: SaturninusTransmutationsData },
+    { title: 'Sensorium', data: SensoriumTransmutationsData },
+    { title: 'Spiritus', data: SpiritusTransmutationsData },
+    { title: 'Vitality', data: VitalityTransmutationsData },
+    { title: 'Vulcanus', data: VulcanusTransmutationsData },
+];
+
+function getDuplicateAwareTransmutationSlug(items, item) {
+    const name = item?.Name || "";
+    const duplicateCount = items.filter((transmutation) => transmutation?.Name === name).length;
+
+    if (duplicateCount > 1) {
+        return slugify(`${name} ${item?.Class || ""} ${item?.Book || ""}`);
+    }
+
+    return slugify(name);
+}
 
 export default function Transmutations() {
+    const headers = ['Name', 'Rank', 'Prerequisites', 'Cost', 'Dice Pool', 'Description', 'Book'];
+    const allTransmutations = TRANSMUTATION_GROUPS.flatMap(({ data }) => data);
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={AlchemicusTransmutationsData.map(({ Class, ...r }) => r)} title="Alchemicus Transmutations" />
-            <SimpleTable table={BeneficeTransmutationsData.map(({ Class, ...r }) => r)} title="Benefice Transmutations" />
-            <SimpleTable table={ConsortiumTransmutationsData.map(({ Class, ...r }) => r)} title="Consortium Transmutations" />
-            <SimpleTable table={ContaminationTransmutationsData.map(({ Class, ...r }) => r)} title="Contamination Transmutations" />
-            <SimpleTable table={CorporeumTransmutationsData.map(({ Class, ...r }) => r)} title="Corporeum Transmutations" />
-            <SimpleTable table={DeceptionTransmutationsData.map(({ Class, ...r }) => r)} title="Deception Transmutations" />
-            <SimpleTable table={DisquietismTransmutationsData.map(({ Class, ...r }) => r)} title="Disquietism Transmutations" />
-            <SimpleTable table={ElectrificationTransmutationsData.map(({ Class, ...r }) => r)} title="Electrification Transmutations" />
-            <SimpleTable table={IrradiationTransmutationsData.map(({ Class, ...r }) => r)} title="Irradiation Transmutations" />
-            <SimpleTable table={MesmerismTransmutationsData.map(({ Class, ...r }) => r)} title="Mesmerism Transmutations" />
-            <SimpleTable table={MetamorphosisTransmutationsData.map(({ Class, ...r }) => r)} title="Metamorphosis Transmutations" />
-            <SimpleTable table={SaturninusTransmutationsData.map(({ Class, ...r }) => r)} title="Saturninus Transmutations" />
-            <SimpleTable table={SensoriumTransmutationsData.map(({ Class, ...r }) => r)} title="Sensorium Transmutations" />
-            <SimpleTable table={SpiritusTransmutationsData.map(({ Class, ...r }) => r)} title="Spiritus Transmutations" />
-            <SimpleTable table={VitalityTransmutationsData.map(({ Class, ...r }) => r)} title="Vitality Transmutations" />
-            <SimpleTable table={VulcanusTransmutationsData.map(({ Class, ...r }) => r)} title="Vulcanus Transmutations" />
+            <TableGroup title="Transmutations" titleLink="transmutations">
+                {TRANSMUTATION_GROUPS.map(({ title, data }) => (
+                    <SimpleTable
+                        key={title}
+                        table={data.map((transmutation) => ({
+                            ...transmutation,
+                            link: `${PATHS.PROMETHEAN.TRANSMUTATIONS}/${getDuplicateAwareTransmutationSlug(allTransmutations, transmutation)}`,
+                        }))}
+                        title={title}
+                        headers={headers}
+                        activeRowLink
+                        titleVariant="nested"
+                    />
+                ))}
+            </TableGroup>
         </div>
     );
 }

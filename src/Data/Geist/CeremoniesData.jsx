@@ -1,331 +1,2827 @@
+export const CeremoniesOverviewData = {
+    "Name": "Ceremonies",
+    "Description": [
+        {
+            "type": "paragraph",
+            "text": "Ceremonies are rituals, generally associated with the ghosts or the dead, which Sin-Eaters can learn. These rituals do not directly use the power of the geist as much as they rely upon the Bound’s deep connection to the Underworld and its denizens. Ceremonies are all exactly that: the Sin-Eater must perform a set of specific actions and must often use specific props like iron wire or mirrors. Without both these props and actions, the ceremony cannot be performed."
+        },
+        {
+            "type": "paragraph",
+            "text": "Although it is possible to write down the physical steps of a ceremony, there are precious few compilations of such information. By and large, Sin-Eaters learn ceremonies directly from a teacher. Many of these ceremonies are centuries old. However, characters can update older ceremonies that better fit with the realities of modern life. For example, most ceremonies that require an image of a target have been adapted so that photographs can be used."
+        },
+        {
+            "type": "paragraph",
+            "text": "Each ceremony is learned as a separate Merit. Sin-Eaters can learn as many or as few ceremonies as they want. The Krewe Binding ceremony is the most widely known of the ceremonies, but many experienced Sin-Eaters know half a dozen or more ceremonies."
+        }
+    ],
+    "Mechanics": [
+        {
+            "type": "paragraph",
+            "text": "Ceremonies are rituals, generally associated with the ghosts or the dead, which Sin-Eaters can learn. These rituals do not directly use the power of the geist as much as they rely upon the Bound’s deep connection to the Underworld and its denizens. Ceremonies are all exactly that: the Sin-Eater must perform a set of specific actions and must often use specific props like iron wire or mirrors. Without both these props and actions, the ceremony cannot be performed."
+        },
+        {
+            "type": "paragraph",
+            "text": "Although it is possible to write down the physical steps of a ceremony, there are precious few compilations of such information. By and large, Sin-Eaters learn ceremonies directly from a teacher. Many of these ceremonies are centuries old. However, characters can update older ceremonies that better fit with the realities of modern life. For example, most ceremonies that require an image of a target have been adapted so that photographs can be used."
+        },
+        {
+            "type": "paragraph",
+            "text": "Each ceremony is learned as a separate Merit. Sin-Eaters can learn as many or as few ceremonies as they want. The Krewe Binding ceremony is the most widely known of the ceremonies, but many experienced Sin-Eaters know half a dozen or more ceremonies."
+        },
+        {
+            "type": "paragraph",
+            "text": "While most ceremonies are easy to complete, there is a consequence for failure. If a character fails the roll three times (in succession or otherwise) without successfully completing the ceremony, the ceremony fails and he must begin again. Dramatic failures are even worse, stripping away all accumulated successes and often inflicting some sort of penalty. Though a ceremony may be comparatively simple and quick, botching the observances can draw down spectral ire."
+        },
+        {
+            "type": "paragraph",
+            "text": "Every ceremony has a few features in common. All ceremonies are performed as extended rolls. The Sin-Eater begins performing the actions involved in the ceremony, and continues with the ritual until he has obtained the necessary number of successes. Unless specified otherwise, a ceremony has a target number of successes equal to 2+ the number of dots in the ceremony. Also, the greater the number of dots in a ceremony, the longer the time between rolls. The character’s Synergy rating may affect this roll (see pg. 86). If the target number of successes is reached on a die roll with five or more successes, the ceremony may be considered an exceptional success, and bestow additional benefits. These benefits don’t apply if an exceptional success was rolled earlier in the process, but the target number of successes is reached with a roll of four or fewer successes — the exceptional success must be the roll that closes the ceremony."
+        }
+    ],
+    "Notes": [
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "UPDATING AND MODIFYING CEREMONIES"
+        },
+        {
+            "type": "paragraph",
+            "text": "By paying one extra dot for a ceremony, a Sin-Eater can modify it. The function of the ceremony remains the same, but the method of performing it can change. Such alterations should not make performing the ceremony particularly easier or harder, merely different. For example, a ceremony that requires a bowl of blood might be changed so that it required the sacrifice of a large toad or a rooster. Similarly, a ceremony that required a photograph could be changed so that clear fingerprints and a bit of skin or hair could work instead. Most often, ceremonies are updated so they can work with the technology and practicalities of modern life. Updating a ceremony requires several days of work, where the Sin-Eater tries out minor variations of the existing ceremony until she has modified it to work how she wants it to. Storytellers are free to forbid versions of ceremonies that seem too easy or too silly."
+        }
+    ]
+}
+
 export const CeremoniesData = [
-    {
-        "Name": "Call upon Huginn",
-        "Rank": "•",
-        "Pool (plus Psyche)": "Intelligence",
-        "Summary": "Send a raven as a messenger to another Sin-Eater",
-        "Book": "DA 170"
-    },
     {
         "Name": "Cigarette Dawn",
         "Rank": "•",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Ask questions of the Living about the Dead",
-        "Book": "BotD 70"
+        "Book": "BotD 70",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Some places and times have an air of melancholy. Watching the sun rise over an old mining town, or sitting with a thermos of coffee in a graveyard and waiting for time to pass. A few places — those around the gates to the Underworld — kindle a special kind of melancholy, an aura that a Sin-Eater can capitalize on to ask one of the living a sensitive question about someone who has died. Sharing a cigarette, the Sin-Eater can ask things that most people could never get away with."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must meet with his companion within 20 yards of an Avernian Gate. She opens a fresh packet of cigarettes and taps the bottom until one juts up above the rest. She has to place that one filter-side down back in the pack — that smoke’s for the dead man. She offers the first cigarette to her companion, takes one, and then lights both from the same lighter without letting it go out. Only after both parties have taken their first drag is either allowed to speak. Some of the Bound use a version of this ceremony with strong drink replacing tobacco, as long as the spirit is right for the area and her companion: dark rum’s good in the Caribbean, while most Scotsmen won’t refuse a single malt whisky. The important thing is the Sin-Eater bringing the indulgence, and both parties partaking in silence."
+            }
+        ],
+        "DicePool": "Psyche + Presence",
+        "Action": "Extended (3 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "Something the Sin-Eater says offends her companion. He might accuse her of disrespecting the dead, or just refuse to talk, but any Presence rolls made against him suffer a -3 modifier."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The moment doesn’t ever really get that special, and the Sin-Eater forges no real connection."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Noises seem to retreat, and the light plays with the smoke in interesting patterns. Tinged with melancholy, the Sin-Eater’s companion wants to tell his story. The Sin-Eater can ask three questions about someone that her companion knows who is now dead, and he will answer as truthfully as he can."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Something seems to click between the Sin-Eater and her companion. Until the end of the scene, she gains a +1 bonus to all Empathy, Persuasion, and Socialize rolls made when talking to him."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The dead man died exactly a month ago"],
+                    ["+1", "The Sin-Eater uses this ceremony as dawn breaks"],
+                    ["-1", "The Sin-Eater has never spoken to her companion before"],
+                    ["-2", "Either the Sin-Eater or her companion doesn’t usually smoke"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Final Vision",
         "Rank": "•",
         "Pool (plus Psyche)": "Wits",
         "Summary": "Allow to see the last turn (6 seconds) of life of a corpse by looking in his eyes.",
-        "Book": "GTS 151"
+        "Book": "GTS 151",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "There are legends that the last thing someone sees before they die is permanently imprinted upon their now-dead eyes. This ceremony allows the Sin-Eater to see this final vision. These images are always from the person’s point of view. The Bound sees exactly what the now dead person saw, no more and no less. If someone was shot in the back, all the Sin-Eater sees is the world appearing to jerk suddenly and then the ground rising up to meet the person as she fell. This ceremony only provides visual information; the ritualist cannot hear anything that was said."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony requires the Sin-Eater to touch the corpse and look into its dead eyes. The corpse can be no more than three days old, but even if the eyes have dried and withered or been pecked at by crows, the Sin-Eater can still use this ceremony. Even so, it can only reveal what the victim saw: a blind victim, or one who was blindfolded or in a totally dark space when she died, will show the Bound a vision of nothing but darkness. Carving out or otherwise removing the corpse’s eyes foils the Final Vision, a fact that is not lost on murderous Sin-Eaters, and a few of the cleverer ghosts."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended (target number of 3)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The ceremony fails, providing the Sin-Eater with no information. Also, the corpse’s eyes wither and cannot be used for this ceremony again."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The Sin-Eater sees everything the corpse did during its last turn of life. The Bound can carefully examine this image, even slow, freeze, or replay the image as desired. However, he must stare into the corpse’s eyes the entire time. Also, the ritualist sees everything exactly as the corpse did; if the corpse was nearsighted and without his glasses, all images will be blurry."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The Sin-Eater can see what the corpse did during its last three minutes of her life. The Sin-Eater can examine and replay these images."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The corpse died less than an hour ago"],
+                    ["+1", "The corpse’s eyes were covered or closed shortly after its death"],
+                    ["-1", "This ceremony has been successfully used on the corpse previously"],
+                    ["-2", "The corpse’s eyes have begun to decay or have been pecked by birds or eaten by insects"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Finding",
         "Rank": "•",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Locate a person or a corpse with a piece of their body.",
-        "Book": "GTS 151"
+        "Book": "GTS 151",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This ceremony is used to divine the location of a person, living or dead. The major limitations are that the Sin-Eater must have at least a tiny piece of the target’s body. A drop of blood (at least 75% free of foreign materials such as dirt), a fingernail clipping, or even a single strand of hair will suffice. Also, the ceremony allows the Sin-Eater to locate the person, but does not provide the person’s location on a map — the Sin-Eater must physically track down the target."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must tie the portion of bodily material in a small cloth bag on the end of a string. The Sin-Eater must then spin slowly in a circle while holding the string in one hand. Eventually, she feels the string begin to pull. This ceremony can be performed as often as desired, such as to triangulate the target’s location. Locating a corpse, an imprisoned captive, or anyone else who is stationary is fairly easy using this ceremony. Locating a living person who is moving around can be exceedingly difficult. This ceremony cannot be used to locate a ghost, only a living or a dead physical body. The Sin-Eater need not know the target’s name, wanting to find the person to which a spot of blood or a lock of hair belong works just as well."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (target number of 3 for locating a corpse or 6 for locating a living target)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every half hour.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The string attracts the attention of ghosts and begins pulling in random directions. The bodily remnant loses its connection and cannot be used for this ceremony again."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the required number is reached, the Sin-Eater feels a pull on the string. The direction the string pulls provides the character with the direction of the person, or their corpse. The strength of the pull gives a rough idea of how far away the target is; the stronger the pull, the nearer the target. As long as the Sin-Eater holds onto the string, she continues to feel this pull. This pull continues for 5 minutes per success rolled."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the number of successes exceeds the needed number by five or more, the ritualist continues to feel the string pulling in the correct direction for the next hour. Also, the Sin-Eater knows more clearly if the target is a few dozen yards, a few miles or a few tens, hundreds or thousands of miles away."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "The Sin-Eater has several different types of physical connections to the target, such as having both a few hairs and a fingernail clipping."],
+                    ["-1", "The pieces of the target are old, worn, or decayed."],
+                    ["-3", "The target is living or a corporeal undead (such as a vampire)."],
+                    ["-3", "The Sin-Eater is attempting to use several connections to the target at once and at least one of these connections is a piece of someone else."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Krewe Binding",
         "Rank": "•",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Form a crew or introduce a new member to a crew.",
-        "Book": "GTS 152"
+        "Book": "GTS 152",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This ceremony sits at the heart of Sin-Eater culture. It allows a group of Bound to found a new krewe and a Sin-Eater to join an existing krewe."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The ritual requires a place associated with death, like a graveyard, morgue, or crematorium, for optimal success. Each founder cuts a palm, doing one point of lethal damage and spillinging a quantity of blood, and lies down to enter a communal death-like trance. There they establish the channel, one part receiving revelation and one part establishing their own ethos. Only a single member need actually know this ceremony, but all founding members must perform the same actions."
+            },
+            {
+                type: "paragraph",
+                text: "To join an existing krewe, the new member must be led by an existing member, who is the only one who need know the ceremony. The new member formally accepts membership in the krewe, cuts her palm for one point of lethal damage, and enters into a vision of the krewe’s channel."
+            }
+        ],
+        "DicePool": "Psyche (or Psyche + Presence)",
+        "Action": "Extended (target number of 6 to found a krewe or 3 to join an existing krewe)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes if founding a krewe or once a turn if joining a krewe.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost, and the rite is tainted. The Sin-Eater can never join the particular krewe. Sin-Eaters attempting to found a krewe must add, subtract, or replace a member before they can perform the ceremony again."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The Sin-Eaters successfully found a krewe or the Sin-Eater successfully joins the krewe. See Founding a Krewe (pp. 179-184) for further information."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "No additional benefit."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "The Sin-Eaters ingest intoxicants or hallucinogens immediately before the ceremony."],
+                    ["-2", "One or more of the individuals joining feels coerced into joining."],
+                    ["-3", "A Sin-Eater joins or attempts to found a krewe for the express purpose of harming or betraying it."]
+                ]
+            }
+        ]
     },
     {
         "Name": "One Last Song",
         "Rank": "•",
         "Pool (plus Psyche)": "Composure",
         "Summary": "Help a companion live the last moments of it's life to the fullest",
-        "Book": "BotD 71"
+        "Book": "BotD 71",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Sometimes, someone’s going to die and there’s nothing a Sin-Eater can do about it. She can’t stop it, but she can make dying a whole lot easier. For one hour, the Sin-Eater’s in complete control. She can make her companion comfortable, help him settle his affairs, or just take him dancing one last time."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater and her companion need to be alone to work this ceremony. She pricks her finger, and smears a single drop of blood upon a key — some Sin-Eaters keep an ornate key just for this ceremony, whilst others use whatever comes to hand. She threads that key onto a chain, and secures the chain around her companion’s neck, tying it closed with two hairs plucked from his head. The target of this ceremony must wear the key around his neck; if he takes it off for even a moment, he dies instantly. While he can be around any number of people, the Sin-Eater has to be nearby — and when the hour is over, she must be the one to take the key from his lifeless body. If anyone else takes the key, the victim returns as a ghost with that person as an anchor. (Note that this does not work on victims who are not poised to die. It only works on the dying.)"
+            }
+        ],
+        "DicePool": "Psyche + Composure",
+        "Action": "Extended (3 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The chain snaps, and the world takes umbrage with one of the Bound changing the flow of life and death. She’s forced to watch as her companion dies immediately, and the Sin-Eater loses a point of Willpower."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The Underworld is hungry for another death and refuses to hear the Sin-Eater’s plea."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The Sin-Eater’s companion has one hour to live. At the end of that time, he will die in a manner befitting the Threshold that’s already claimed him. The ceremony heals any damage, illness, or lingering wounds. A paralyzed man can walk again, though someone born blind won’t be able to see. He also ignores the effects of any derangements."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "For the final hour, the victim is healed to his physical prime. Even if he were born blind or deaf, he can see and hear perfectly."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Victim has a pre-existing terminal condition"],
+                    ["-1", "Victim’s death will be by nature"],
+                    ["-2", "Victim’s death will be by deprivation"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Pass On",
         "Rank": "•",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Release a willing ghost to it's final rest after it's Anchors have been resolved (Must be done in the Underworld)",
-        "Book": "GTS 152"
+        "Book": "GTS 152",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This is one of the most important, but least understood ceremonies used by Sin-Eaters. When they have resolved their various anchors, many ghosts naturally pass on to their “Final Reward”, whatever this may mean. All that Sin-Eaters truly know is that these ghosts vanish forever. However, some ghosts remain in Twilight or the Underworld, unable to depart on their own. With this ceremony, a Sin-Eater can cause willing ghosts whose anchors have all been resolved to “pass on” peacefully to whatever destiny awaits them. Some Bound are surprised to learn how simple this ceremony is – but all of the most difficult work of helping a ghost pass on has been done beforehand."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony can only be performed in the Underworld, and only on a ghost that has resolved its anchors and is ready to “pass on,” to a hopefully better fate than the Underworld. Sin-Eaters can threaten, bribe, coerce, or even attempt to mentally control a ghost into agreeing, but the ghost must assent. The Sin-Eater must have a piece of the ghost’s body or, at minimum, a photograph of the ghost when she was alive or one of the ghost’s personal possessions. The Sin-Eater talks to the ghost, telling it to prepare itself. Then, she sets fire to the lock of hair, photograph, or other physical connection to the ghost. As the item burns, the ghost gradually fades away."
+            }
+        ],
+        "DicePool": "Psyche + Presence",
+        "Action": "Extended (target number of 9)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The ghost develops a new anchor, causing it to haunt the mortal world or a desire to cling to existence in the Underworld. Until the ghost’s anchor or desires have been dealt with, it cannot be subjected to this ceremony again."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the ghost understands where and why it must go, and gradually fades away to an unknown fate."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached on this roll, the ghost fades away to its final reward with a word of thanks. The Sin-Eater who performed the ceremony regains a point of Willpower due to the spiritual power of this event."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+3", "The ghost purposely helped to resolve its anchors in order to pass on."],
+                    ["+1", "The Sin-Eater helped the ghost resolve some of its anchors."],
+                    ["-1", "The Sin-Eater does not possess either a piece of the ghost’s body or a photograph of the ghost."],
+                    ["-3", "The ghost has been threatened or coerced into undergoing this ritual."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Reverse Bargain",
         "Rank": "•",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Create a Sin-eater by forcing a Geist to enter the corpse of a human. The newly created Sin-eater have 1 point of synergy, 3 dots of manifestation and 3 keys.",
-        "Book": "GTS 243"
+        "Book": "GTS 243",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Technically, this profane ceremony shouldn’t even work. Or at least, it shouldn’t work when used on oneself, because the target of the ceremony cannot have a geist bound to him. And without a geist, one can’t empower ceremonies. But it does work. It works a little better when there’s a Sin-Eater performing the ritual on another person, but it’s possible — with the right sacrifices, mind — for one of the Vacant to use this ceremony to bind a geist to himself once more."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The ritualist must have a geist at hand, one that is unable to escape — no small task, particularly given that geists are unwilling to bond with one of the Vacant. The ritualist carves and scars the ceremony’s mortal subject with an obsidian knife, exposing as much blood as is practical to the open air so that the plasm may fuse more readily. The subject of the rite takes five points of lethal damage from this ritual wounding."
+            },
+            {
+                type: "paragraph",
+                text: "It’s possible for one of the Vacant to perform this ceremony without the assistance of a geist. In such a case, though, the ceremony demands death-energy from another source. The character must slay one adult human for each dot of the target geist’s Psyche as part of the ritual, with the same knife he uses to carve his own flesh."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (target number of 20 successes)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The target of the ceremony takes two additional points of lethal damage from the backlash, and the geist may have an opportunity to escape."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the required number is reached, the geist and the mortal are forcibly fused. The character in effect becomes a Sin-Eater with a Synergy of 1, three dots of Keys, and three dots of Manifestations."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the number of successes exceeds the needed number by five or more, the character gains an extra point of Synergy from the process (rising to 2)."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "Each additional sacrificial victim beyond those necessary."],
+                    ["-1", "Each point of the captured geist’s Psyche."],
+                    ["-3", "The ritualist is performing the ceremony on himself."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Speaker of the Dead",
         "Rank": "•",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "By holding the hand of a ghost, the sin-eater let that ghost speak by his mouth.",
-        "Book": "GTS 153"
-    },
-    {
-        "Name": "Coll upon Muninn",
-        "Rank": "••",
-        "Pool (plus Psyche)": "Intelligence",
-        "Summary": "Look through recent memories of a raven",
-        "Book": "DA 171"
+        "Book": "GTS 153",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Many Sin-Eaters take it upon themselves to help ghosts finish things left undone. They tie up loose ends and resolve the ghost’s story. But some messages cannot be passed on by a stranger. This ability allows the Sin-Eater to provide the ghost with a conduit, if only for her voice. She can speak through the Sin-Eater, and the words she utters come out in her own living voice. The Sin-Eater’s appearance does not change (though they might be able to use the Caul to approximate the ghost’s silhouette), but that does not matter, for the speaker may not be seen."
+            },
+            {
+                type: "paragraph",
+                text: "Like Orpheus, the mortal cannot look. It is acceptable for the Sin-Eater’s silhouette or otherwise obscured form to be seen, but if the recipient looks closely enough to see the Sin-Eater’s features, the ghost’s voice is lost in the wind. Using a telephone to contact the recipient mitigates this risk, but they are far, far less likely to believe the voice really belongs to their lost loved one in this age of digital manipulation than they are if they hear the warm tones in person."
+            },
+            {
+                type: "paragraph",
+                text: "Some ghosts, unable to help themselves, use the opportunity to harass or frighten a target of their anger rather than contact a loved one. The Sin-Eater cannot predict what the ghost will say through him, but if the conversation takes a turn he isn’t comfortable with, he may pull the plug at any time."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater simply takes the ghost’s hand and concentrates on relaxing and letting go of his voice, giving it up to the ghost for one scene or until the Sin-Eater chooses to end the effect, whichever comes first."
+            },
+            {
+                type: "paragraph",
+                text: "If the recipient does look and cause the ritual to end early, the Sin-Eater is unable to act as a conduit for that ghost for 3 days."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (target number of 3)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater loses his voice for the rest of the scene."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "Nothing happens."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The shade’s voice emits from the Sin-Eater’s mouth."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "There is no additional affect for exceptional successes."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The recipient is a knowing participant in the séance."],
+                    ["+1", "The recipient is at the ghost’s graveside."],
+                    ["-1", "The recipient has seen the Sin-Eater in the last hour."],
+                    ["-2", "The Sin-Eater has already had negative contact with the recipient."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Distant Vision",
         "Rank": "••",
         "Pool (plus Psyche)": "Wits",
         "Summary": "By looking in a mirror, the sin-eater can see the location of a person or a ghost.",
-        "Book": "GTS 153"
+        "Book": "GTS 153",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This ceremony allows the Sin-Eater to gain a brief vision of an individual. If the individual is a ghost, this ceremony reveals the ghost’s present location in either the mortal world or the Underworld. If the person is alive, then this ceremony shows the person and his immediate surroundings in the mortal world."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony requires a mirror or other similarly reflective surface that once reflected the face of the intended target. If the target is a ghost, then the mirror could either have reflected the person’s face in life, or some physical Manifestation created by the ghost. The Sin-Eater must also either know the individual’s name or at least a unique descriptor, such as “the tall black woman who shot at me yesterday” or “the ghost who is haunting this apartment”. The Sin-Eater stares into the mirror and eventually, images begin to form. This image is visible to other Sin-Eaters, but not to mortals. The image also cannot be photographed with anything except a camera that is also a memento."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended (target number of 4)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The mirror cracks and clouds over, rendering it useless for this ceremony."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater sees a still image of the target and the target’s immediate surroundings, much like a photograph of the target taken at the moment the ceremony was performed. The image appears as though the Bound is looking at the target from approximately 10 feet away. If desired, the Sin-Eater can cause the image to expand, so she can examine some part of the image more closely."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the image depicts motion for the next minute, much like a video image without sound."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The mirror was a personal possession of the target and reflected his image many times."],
+                    ["+1", "The Sin-Eater knows the target’s full legal name."],
+                    ["-1", "The mirror or other surface that reflected the image is cracked, dull, or otherwise in poor condition."],
+                    ["-2", "The target’s image was reflected only very briefly or partially in the mirror."],
+                    ["-3", "The target’s image was reflected in a pane of glass, a polished metal surface, or something else reflective that is not a mirror. This penalty can be cumulative with the one above."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Distant Voices",
         "Rank": "••",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Allow to send a message of 12 words and receive an answer of 12 words to someone, living or dead.",
-        "Book": "GTS 154"
+        "Book": "GTS 154",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater can send a short message and receive a brief response from a target, who can either be living or dead. The target hears the question as if it was spoken to them and answers as they would if asked that question in person (there is no compulsion to tell the truth). Mortals targeted by this ceremony do not immediately notice that the question is coming from a disembodied voice and answer it casually, without considering the source. However, after the ceremony ends, the mortal is free to be puzzled and concerned as to the voice’s source. This ceremony can be performed in both the mortal world and the Underworld and the location of the target doesn’t matter."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "When performing this ceremony to contact a ghost, the Sin-Eater must perform it at the site of her death, at her grave, or in a location where the ghost has appeared previously. When performing this ceremony to contact a living target, the Sin-Eater must perform this ceremony in a building the target lives or once lived in. To contact the target, the Sin-Eater sits down and writes out a message, and then allows the pen or pencil to rest in her hand or her fingers to rest lightly on the keyboard. Any response will come as “automatic writing”, where the Sin-Eater’s hand moves of its own accord to write down the response."
+            }
+        ],
+        "DicePool": "Psyche + Presence",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The target gets a sense that someone hostile is looking for him."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater can send the target a message of up to a dozen words. The target can then send a message of up to a dozen words in response. The Sin-Eater can easily receive this message if she is holding a writing implement."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "No additional effect."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The Sin-Eater has spoken to the target in person. In this case, the target clearly hears the character’s voice and knows who is speaking."],
+                    ["+1", "The Sin-Eater is using a pen, pencil, or stationary that belongs to the target. This can also serve as the connection to the target."],
+                    ["-1", "The Sin-Eater does not know the target’s full name"],
+                    ["-2", "The dwelling, grave, or place of death has been seriously disturbed or modified since the target lived, died, or was buried there."],
+                    ["-3", "The target is living or corporeal undead (such as a vampire)."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Faces in Smoke",
         "Rank": "••",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Reveal the image of the dead in Cigarette Smoke",
-        "Book": "BotD 71"
+        "Book": "BotD 71",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Smoke can be a lot of things. A curl here, a wisp there, and all of a sudden people see a face. A Sin-Eater can use this ceremony to make that face real — a ghost can show its face through the smoke. The ghost knows people can see it, and all of a sudden it has a chance to do something. One lunges, lashing out with claws of solid smoke. Another whispers terrible secrets about the Underworld to its murderer. The Bound, standing as advocate for the dead, just smiles and puffs away on a pipe, waiting for the next person who deserves to see a dead man."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The primary component for this ceremony is a whole lot of tobacco, mixed with a stone stolen from the Underworld, ground into dust. As it burns, the dust infuses plasm into the smoke, making it tangible to ghosts in Twilight. Most Sin-Eaters who make use of this ceremony affect large wooden pipes, or start smoking fat hand-rolled cigars, though in a pinch enough smoke can be made by throwing a pouch of the tobacco and dust mixture into a fire. She draws thick lines in ash on her forehead and the backs of her hands when she’s ready to call on the dead. She inhales the smoke in three deep breaths, before exhaling a huge lungful of smoke in a single cloud that drifts around the ghost."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (4 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 30 seconds.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "Something catches in the Sin-Eater’s throat, and she starts to choke. Her coughing fit inflicts a -2 penalty to all actions until the end of her next turn, and she can’t apply her Defense against attacks for a similar time."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The smoke might get in her witnesses’ eyes, but it doesn’t have any other effects."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The smoke, thick with plasm, reveals the image of a ghost. It doesn’t move through the space occupied by the ghost, instead it moves around the normally insubstantial body. The ghost can directly contact the physical world for one turn. Even though it can affect physical beings, the ghost is still in Twilight and can’t be touched by anyone. If the ghost doesn’t want to touch anyone, it can last for up to a minute, in which time it can speak and be heard without resorting to Numina. Once its time is up, the ghost vanishes. This ceremony doesn’t allow the Sin-Eater to control the ghost in question."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Lingering in the smoke, the ghost can affect the world for longer than before. One choosing to act can take two actions, and one who wishes to speak has three minutes."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "Smoke is from tobacco produced without additives"],
+                    ["-1", "Sin-Eater is stood in strong light."],
+                    ["-2", "Smoke comes from a fire, rather than the Sin-Eater"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Lifting the Scales",
         "Rank": "••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Allow a mortal to perceive Twilight and ghosts with Ghost sight and giving them the power of Death Stains.",
-        "Book": "GTS 154"
+        "Book": "GTS 154",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Sin-Eaters cannot stop seeing the dead. They may suppress their ability with effort, but they see the world in a way that cannot be conveyed with mere words. No ordinary human being can truly understand the things that Sin-Eaters experience without seeing it with their own eyes."
+            },
+            {
+                type: "paragraph",
+                text: "With this ceremony, a Sin-Eater may temporarily bestow the ability to see and hear ghosts, geists, and other creatures that exist in a state of Twilight. Allowing a normal person to see the world from this perspective can have dire consequences. Bearing witness to the sheer enormity of death’s inevitability can forever alter her perspective and outlook on life."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater performs this ritual by daubing the eyelids of the subject with ash taken from a cremated corpse. This may be retrieved from an urn on a mantle, a crematorium, or by more nefarious means."
+            },
+            {
+                type: "paragraph",
+                text: "When the subject next opens her eyes, she sees the world exactly as a Sin-Eater would. Ghosts may be seen and heard, but that is the extent of the interaction. Without using Numina, a ghost may not affect the subject and nor can the subject touch or otherwise physically affect a ghost. The subject may also see deathmarks, including the relative health of those around her. She may even see her own health, in a mirror, for example."
+            },
+            {
+                type: "paragraph",
+                text: "It is impossible to truly prepare an ordinary human for the experience. The first time a subject undergoes Lifting the Scales, she must succeed on a Wits + Composure roll or suffer a temporary derangement for a number of days equal to her Morality. Dramatic Failure on this roll inflicts a permanent derangement. This does not apply to other supernatural creatures gifted with the deathsight."
+            },
+            {
+                type: "paragraph",
+                text: "The effect lasts for one scene."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (target number of 4)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost, and the attempt causes a kind of psychic backlash. The Subject must roll Wits + Composure to avoid a temporary derangement that lasts for a number of days equal to her Morality."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the subject gains ghost sight (p. 174) and can perceive morbid reality and death stains (p. 177)."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "There is no additional effect for exceptional success."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The subject already has some form of psychic or supernatural ability."],
+                    ["+1", "The subject has had the scales lifted from their eyes before."],
+                    ["-1", "The subject is actively resistant to the ceremony."],
+                    ["-2", "The subject has never known anyone who died."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Listening to the Spectral Howl",
         "Rank": "••",
         "Pool (plus Psyche)": "Wits",
         "Summary": "Allow a sin-eater to find a particular type of ghost with a map. The type of ghost may be, by example, a ghost in need of vengeance, in need of protection, etc.",
-        "Book": "GTS 155"
+        "Book": "GTS 155",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Most Sin-Eaters have more than enough ghosts to deal with. However, some foolish or dedicated Sin-Eaters go out looking for ghostly trouble. Others wish to seek particular types of ghosts or ghosts with specific desires. This ceremony allows the Sin-Eater to listen for nearby ghosts calling out their pain or their need. This ceremony can allow the Sin-Eater to either hear or learn the rough location of a nearby ghost that is filled with some desperate need or that is simply filled with rage or hunger. Alternately, the Sin-Eater can instead listen for a ghost with a particular sort of need or hunger, like a desire for vengeance, a desire to protect a loved one, or a desire to destroy and kill."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony can be performed only in the mortal world. (Common wisdom holds it would be suicide to enact the ceremony in the Underworld.) Performing it requires both a radio and a local street map that includes the Sin-Eater’s current location. The Sin-Eater turns the radio between stations, so that it produces either silence or random static and then runs her finger slowly over the map in a spiral starting at her current location. The Sin-Eater must then state if she wishes to find either the closest ghost in desperate need of something or only a ghost in desperate need of a particular thing like justice, aid for a mortal, or the desire to kill mortals. The Sin-Eater moves her finger in a spiral across the map, starting at her current location."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended (4 successes)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The Sin-Eater hears nothing, but one or more ghosts notices the Sin-Eater and any who desire to do so can seek the Sin-Eater out. Meanwhile, the Sin-Eater cannot use this ceremony until the sun next sets."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the required successes are reached, the radio begins making noise when the Sin-Eater’s finger touches a location on the map with a ghost of the desired type in residence. Someone seeking angry ghosts would hear eerie screams of rage and occasional yells about what this particular ghost is angry about or perhaps its name. If no ghost of the desired type exists within the area of the map, the Sin-Eater is certain of this fact."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The particular ghost reveals more about its name and background in its cries and ramblings. Also, even after the ceremony is over, the radio continues broadcasting the particular ghost’s voice for the next full scene."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The radio is more than 20 years old"],
+                    ["+1", "The map is detailed enough to show individual buildings"],
+                    ["-1", "Either the map or the radio is less than a year old"],
+                    ["-2", "The Sin-Eater is using this ceremony in a city or other location with which she is relatively unfamiliar."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Message from Beyond",
         "Rank": "••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Passes on Messages from a Ghost to intended Target",
-        "Book": "BotD 72"
+        "Book": "BotD 72",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "A telephone rings in the same room as you, but nobody else hears it. You pick it up, and a man tells you he knows you murdered your husband. He describes how you did it. He describes how you hid the body. He tells you how you got away with it. Then he says, in your husband’s voice, “But I still love you.” You’ve just received a Message from Beyond. Hope that it’s the last one you get."
+            },
+            {
+                type: "paragraph",
+                text: "A Sin-Eater who creates a Message from Beyond is often acting as the advocate or envoy of the ghost who creates the message. Traditionally, such a Message was in the form of a letters written in the dead man’s handwriting and sealed with wax. Modern advances in technology mean that the Message can take a range of forms, including a handwritten letter, an e-mail, a phone call, or even an online video."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Bound using this ceremony needs the means to create the Message. He then symbolically makes it useless for anyone — but usable by a ghost — by removing the batteries from a cellphone, cutting a computer’s power cord, removing the ink from a pen, and so on. Next, he paints sigils over the means — on the envelope, or on the controls of a device. He gives the items to a ghost in the Underworld, or leaves them within easy reach of a ghost in Twilight, though the items can take longer to charge. The ghost must be alone when creating the Message. Once it’s done, the Message is delivered immediately — a letter materializes in the right mailbox, an e-mail bypasses any spam filters, and a link to an online video shows up on every Web site until the victim clicks on it."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (4 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 2 minutes",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater crafts the wrong sigils. The Message seeks out the wrong recipient."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The Message doesn’t get through."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The ghost’s Message is delivered to its intended recipient at the end of the scene. Only the target can see the Message, to avoid the wrong person finding it. If using audio or video, the ghost’s voice and image come through clear enough to be perfectly identifiable. The items used for this ceremony are good for creating just one Message."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The Sin-Eater has a significant part in the connection between ghost and recipient. He receives a copy of the Message that destroys itself at the end of the scene."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Person contacted is or was an anchor for the ghost"],
+                    ["+1", "Ghost is in the Autochthonous Depths"],
+                    ["-1", "Ghost is in Twilight"],
+                    ["-2", "Ghost is in the Lower Mysteries"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Mortis Mask",
         "Rank": "••",
         "Pool (plus Psyche)": "Dexterity",
         "Summary": "Falsify the cause of death of a corpse (A drowned corpse may look like he's been shot by a gun instead)",
-        "Book": "GTS 155"
+        "Book": "GTS 155",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "With this ceremony, the Sin-Eater may alter the apparent cause of death of a corpse. Though this ritual does not mask the supernatural indicators of how a victim died and will not stand up to inspection from another Sin-Eater, it is enough to fool a forensic technician or medical examiner."
+            },
+            {
+                type: "paragraph",
+                text: "The Sin-Eater may make a corpse who died of a gunshot wound look as if they were strangled instead, or drowned. The charred remains of an arson victim can be made to look as if he simply died in his sleep of heart failure."
+            },
+            {
+                type: "paragraph",
+                text: "This ritual does not affect the death scene. Blood sprayed on the walls will still appear to forensics teams as consistent with the victim’s original method of death. Physical evidence, fingerprints, hair, and fibers, etc., remain. The victim’s deathmarks cannot be modified, and users of other ceremonies such as Final Vision or Psychometry will also see the truth."
+            },
+            {
+                type: "paragraph",
+                text: "Many Reapers use this ceremony to throw the authorities off their scent, but others find more elaborate uses for this power, such as framing rivals or enemies by planting evidence and staging the body to fit. Still others use this ceremony for more obscure purposes better left unsaid."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "When performing this ritual, the Sin-Eater must have a suitable workspace. An examining table, such as that found in a mortuary or morgue, is ideal, but a tile floor or large dining room table will also suffice. The Sin-Eater must use plasm to reform the body. 1 point of plasm will erase a bullet hole or replace a missing arm, 2 points will recreate half the body, and 3 points are required to rebuild an entire body from ashes."
+            }
+        ],
+        "DicePool": "Psyche + Dexterity",
+        "Action": "Extended (target number of 4)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater suffers a number of points of lethal damage equal to the amount of plasm required to repair the body, which manifests in wounds similar to those of the victim."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The body is not reshaped."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The body is reshaped."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The Sin-Eater recoups 1 point of plasm."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The desired appearance remains within the same Threshold of death."],
+                    ["+1", "The victim and the Sin-Eater share the same Threshold."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Plasmic Manifestation",
         "Rank": "••",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Create a plasm \"thing\" that take the look of the ghost and allow it to communicate with the livings.",
-        "Book": "GTS 156"
+        "Book": "GTS 156",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Sin-Eaters who work to facilitate communication between the living and the dead are often frustrated with the difficulties of being the middleman. In their role as medium, it is often easiest to simply let the shade speak for itself."
+            },
+            {
+                type: "paragraph",
+                text: "To that end, the Sin-Eater may shape plasm itself into a viscous Caul, giving form to a ghost in the physical world. The ghost may not do violence in this form; their touch is disgusting but harmless. The shade’s voice is audible, if distorted by the mucilaginous goo."
+            },
+            {
+                type: "paragraph",
+                text: "Some Bonepickers that use their abilities as a medium to make a little money love this ritual, because the actual process by which they talk to ghosts isn’t nearly flashy enough for clients to believe it. Really, who simply sits down to tea with the dead? In most cases, the plasm only takes on the approximate appearance of the ghost. There have been multiple instances of con-artist Sin-Eaters working with unethical shades to impersonate ghosts that have passed on, bilking wealthy clients with lies and false closure."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater literally excretes plasm from one of his orifices. Whether that entails hawking it up and spitting it out, letting it drain from his nostrils, exuding it from an open wound or less polite methods, 2 plasm must be dedicated to the task. This ceremony works best when enacted close to one of a ghost’s anchors. It is possible to summon a shade through other methods, but its ability to communicate with the Sin-Eater is tenuous enough without trying to add another filter between the ghost and the mortals it wishes to contact."
+            },
+            {
+                type: "paragraph",
+                text: "The plasm retains its malleability and puissance for one scene or until the ghost chooses to end the communication."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (target number of 4)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The plasm does not take the form of the ghost in question, and in fact draws the attention of a malicious shade upon the proceedings."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The plasm takes the approximate form of the ghost."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The plasm is sculpted into the exact likeness of the ghost, and there is no question to its identity."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "More than one of the ghost’s anchors are present."],
+                    ["+1", "One of the ghost’s anchors is present."],
+                    ["-1", "The ghost has no nearby anchors, but exists in Twilight."],
+                    ["-2", "The ghost has no anchors and has been summoned from the Underworld."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Spectral Photography",
         "Rank": "••",
         "Pool (plus Psyche)": "Dexterity",
         "Summary": "Capture pictures of ghosts on a place suspected of hauntings",
-        "Book": "GTS 157"
+        "Book": "GTS 157",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater can enter a room where she suspects there has been ghostly activity and can take photographs of these ghosts. These photographs reveal if there were ghosts in a location within the last few days as well as providing images of both the appearance and the activities of the ghosts."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must use a camera that is fully functional but that also has its lens cap on, or otherwise has the lens completely covered. A piece of black tape over the lens works just as well. Both digital and film cameras work equally well, as do video cameras. The Sin-Eater then draws several complex sigils on the object covering the camera lens and takes dozens of photographs of the area where she suspects that ghostly activity took place. When she views the photographs, the ghosts will be clearly visible even if they were in Twilight when they were actually in the location."
+            }
+        ],
+        "DicePool": "Psyche + Dexterity",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The camera takes only inaccurate and distorted photographs for the next day."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the developed or viewed pictures reveal any ghosts who have been within the area within the last week. Blurred images depict the ghost or ghosts acting as they did then and may provide clues as to their identity and motives. The date and time of the haunting may be determined if the camera displays the date and time of the images it takes or if there is a clock in the room."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the images of the ghosts are especially clear and easy to recognize."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The Sin-Eater is using a camera at least 20 years old"],
+                    ["+1", "The Sin-Eater spends at least half an hour taking photographs"],
+                    ["−1", "The camera is of especially poor quality or its lens is only poorly covered."],
+                    ["−2", "The Sin-Eater takes less than half a dozen photographs."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Dead Voices on Air",
         "Rank": "•••",
         "Pool (plus Psyche)": "Wits",
         "Summary": "Capture a ghost, even one in the twilight, on still or moving film.",
-        "Book": "GTS 157"
+        "Book": "GTS 157",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Paranormal investigators use a number of techniques to attempt to prove (or disprove) the existence of ghosts. One of those techniques is known as “Electronic Voice Phenomena.” Some believe that if a ghost is present, echoes of their voice and image may be captured by mundane recording equipment. Whether existing evidence supports EVP or is merely a record of ghosts who manifested by their own means is debatable."
+            },
+            {
+                type: "paragraph",
+                text: "Sin-Eaters who know this ritual can confirm that it is possible to record the image and voice of a ghost, even one in Twilight. It is hardly as easy as simply turning on a video camera in an empty room, but the results are also more interesting than the odd snippets of speech or questionable images the ghost hunters have produced thus far. In this way, some Sin-Eaters pass on messages from dead loved ones, ultimatums from shades bent on revenge or blackmail, or discover the culprit behind a haunting by using the recording device as a kind of spectral surveillance camera."
+            },
+            {
+                type: "paragraph",
+                text: "There is no known way to record images of the Underworld."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "When performing this ceremony, the equipment does not need to be in working order. In fact, it doesn’t even need to be plugged in. No earthly power is needed to initiate the recording. Sin-Eaters find that older technology is actually better for their purposes in this case. (See “anachrotech” on p. 111.) A Betamax camera is good; a Latham Eidoloscope would be even better. The only real limitation is that the media itself must be in usable condition, and the Sin-Eater (or the recipient) must have the means to view or develop the recording. For that reason, most ritualists use 8mm or Betamax as a compromise. The device used does not have to be a video camera. While it is possible to capture full video using this ceremony, the Sin-Eater can choose to record still images or audio only if they so desire."
+            },
+            {
+                type: "paragraph",
+                text: "Whatever the device, the Sin-Eater must prepare it by inscribing a series of insignia upon its surface. If this insignia is not wiped off or damaged, it does not have to be re-inscribed each time. Finally, the Sin-Eater must power the device by infusing it with 1 plasm for every 1 minute she wants to record. In the case of still photographs, she may take one roll of 24 exposures per plasm spent."
+            },
+            {
+                type: "paragraph",
+                text: "The images and sound recorded are generally not of the best quality. The results tend to be grainy and distorted, but definitely recognizable."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended (target number of 6)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The recording attempt draws the attention of something else."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, poor-quality but usable video, audio, or imagery is recorded."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, surprisingly high-quality video, audio, or imagery is recorded."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The recording device is 75+ years old."],
+                    ["+1", "The recording device is 50+ years old."],
+                    ["−1", "The recording device is 25 years old or newer."],
+                    ["−2", "The recording device is 10 years old or newer."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Dedicate Charm",
         "Rank": "•••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Associate an appropriate Key with the Threshold of an un-Dedicated Charm (Memento 1)",
-        "Book": "GTS 158"
+        "Book": "GTS 158",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Any Sin-Eater may use charms. They are found things or traded artifacts, turned into necklaces or keychains, adorned and displayed as symbols of the Sin-Eater’s power. Those Sin-Eaters who learn this ceremony gain the ability to dedicate certain objects already so ripe with deathly energies that they possess their own Threshold, to a specific Key. If a charm is already dedicated, they may also alter the Key associated with a pre-existing charm."
+            },
+            {
+                type: "paragraph",
+                text: "A simple, nondescript item is not a charm itself, no matter how much it resonates with death, but it can provide the blank canvas for one. The act of embellishment and presentation is necessary for the Sin-Eater to tap the latent power of a charm. The intent draws out a certain aspect of the object’s Threshold, dedicating it to the desired Key. For more information on charm mementos, see p. 195."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The ritual props used vary according to the Key with which the item is being dedicated. The charm must be decorated in a way that symbolizes the Key desired, whether through imagery or by using materials suited to the Key."
+            },
+            {
+                type: "list",
+                items: [
+                    "Cold Wind charms may use feathers, or other symbol of the air element.",
+                    "Grave-Dirt charms could be decorated with stones and gems.",
+                    "Pyre-Flame charms might be stained with ash or burnt themselves, if they can survive such treatment.",
+                    "Tear-Stained charms may be decorated with water-based paints or engraved with high-pressure water.",
+                    "Industrial charms might be machined or inlaid with metals.",
+                    "Passion charms might be adorned with a lock of a lover’s hair, or the blood of an enemy.",
+                    "Phantasm charms could use iridescent inks that make their appearance change from different angles.",
+                    "Primeval charms may be decorated with animal parts (feathers, claws, teeth, etc.).",
+                    "Silent charms tend to be the subtlest of charms, incorporating dark imagery and often have animal motifs like a fox or raccoon.",
+                    "Stigmata charms use blood, of course, human or otherwise."
+                ]
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The charm becomes unattuned to any Key, and may not be used until the tainted charm is rededicated. The ritualist who suffered the dramatic failure may only reattempt the dedication after three days and three nights have passed."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the charm is dedicated to the desired Key, providing the Sin-Eater who possesses it with one bonus die on all rolls related to that Key."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "No additional effect beyond extra successes."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The ritual decorations and the desired Key are appropriate to the item’s history."],
+                    ["+1", "The desired Key is appropriate to the item and its history."],
+                    ["−1", "The item is already dedicated to another Key."],
+                    ["−2", "The item was dedicated to another Key with an exceptional success."]
+                ]
+            }
+        ]
     },
     {
         "Name": "The Devil's Bargen",
         "Rank": "•••",
         "Pool (plus Psyche)": "Wits",
         "Summary": "Transfer time from one person to another, with horrific side effects.",
-        "Book": "The House Always Wins 4"
+        "Book": "The House Always Wins 4",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Time, freely given, can be the most valuable commodity a person will ever know. This ceremony allows a Sin-Eater to use that time, keeping someone alive just that little longer—with the full and frank knowledge that the debt will be repaid in full down the line. Someone kept alive by this ceremony is haunted by the Threshold that would have claimed her, as death’s icy grasp clutches at those around her. A murder victim becomes a walking nexus of muggings, car crashes, and other expressions of violent death, while someone who would fall victim to illness instead becomes the center of a web of illness and disease. When death does find the target of the Devil’s Bargain the results are never less than spectacular."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must prepare a token made of ivory by writing a sigil on it in his own blood. He places that token onto a table and buries it in a pile of tobacco, along with a torn-up photograph of whoever is to gain the donated time—a person who must not be a supernatural being. The person donating time writes the duration given on a sheet of paper in black ink. The Sin-Eater then sets that paper on fire and uses it to light the pile. The donor has to grab the token while the pile is burning for the ceremony to succeed. If it has, the skin on the donor’s palm begins to burn. After thirty seconds, the sigil on the token is burned into his skin."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 5 minutes",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The intended transfer happens, but the strange energies warp and twist. Both the donor and the target lose the donated time."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The donor might singe his fingers, but nothing more."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The donor loses the stated amount off his lifespan, though he can’t give longer than he has. The person in the photograph—the target—cannot die until the donated time has elapsed, though she will remain incapacitated and unconscious once her Health track fills up with lethal and aggravated damage. If the target would have died during the donated time, she instead dies at the end, even if she’s in the full blush of health at the time. A given person can only donate time via this ceremony once, period. Any further attempts automatically fail. The target must be a normal human being; if she has a supernatural template of any kind, the ceremony automatically fails and the Sin-Eater takes one point of lethal damage due to feedback. Worse, the ceremony offers diminishing returns. The first transfer is 1:1. The second time the ceremony is used on the same target, she only receives half the donated time. The third time it’s used, she receives a quarter, and so on. The only way to avoid this is if the donor is a supernatural creature, in which case the transfer is always 1:1."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The target of this ceremony regains a point of Willpower, in addition to temporary immortality."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Photograph was developed by hand"],
+                    ["-1", "Photograph is a print-out of a digital photo"],
+                    ["-3", "Donor will not naturally die of old age"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Ease the Path",
         "Rank": "•••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Heal a subject of disease, toxins and give perfect health for one month, then subject dies",
-        "Book": "GotU 39"
+        "Book": "GotU 39",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This Ceremony allows a Sin-Eater to give anyone a new lease on life. Broken bones knit together, and diseases from influenza to the common cold all vanish. Though missing limbs won’t regrow, a paraplegic will walk after this Ceremony. But with all things involving life and death, the world needs balance. For every life, a death. The healthy life granted by Ease the Path lasts for one month and not a day longer — though the Sin-Eater’s under no compulsion to mention this condition. Once the subject’s time is up, she dies. She goes peacefully, in her sleep if at all possible, but the balance is paid. Hope that she’s used her last days to her advantage."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater first has prepare a space for the ceremony, sketching a circle with sigils at the cardinal points in chalk on the floor and burning some strong-smelling herbs or incense. She talks with the subject, finding out not just about his illness but about other areas of his life — his family, his home, his attitude towards living. With all that in mind, she must attempt some form of symbolic medical treatment for his ailment. She could mix a cure from esoteric ingredients (Shakespeare had the right idea with “eye of newt”), apply needles without regard to acupuncture points, or encourage the subject to chant to better focus her psychic healing abilities. Whatever the remedy, it must include a single drop of the Sin-Eater’s Plasm-infused blood. Once the treatment is complete, the Sin-Eater commands the subject to rise and make peace with his life."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (5 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every ten minutes",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater’s remedy works, but only halfway. The victim gains none of the benefits of a success, but he does die a month after the ceremony. The Sin-Eater also suffers one point of Lethal damage immediately."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The Ceremony makes the subject feel better, but it’s no more than the placebo effect."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The Sin-Eater heals the subject, infusing him with a small portion of her geist’s energy. If the subject’s suffering from a disease or from poisoning, the effects end immediately. Any lasting physical problems are fixed by the otherworldly energies. The subject also removes any Derangements, no matter the cause. The subject of the Ceremony cannot die. Any lethal damage heals at a rate of one point every thirty minutes, and aggravated damage heals at a rate of one point every two hours; if she takes more Aggravated damage than her Health she remains unconscious until it’s all healed, but she does not die. All these effects last for one month. The subject doesn’t get sick, and if she gets hurt, she heals at an alarming rate. Once that month is up, she dies peacefully in her sleep. Other Sin-Eaters can see the mark of death on the subject, and can work out how long she’s got left to live just by looking at her."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The subject is healed, but the mark of the Sin-Eater’s Plasm isn’t detectable to other Bound."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["-1", "The Sin-Eater doesn’t touch the subject at any point, such as with psychic healing"],
+                    ["+1", "The Sin-Eater knows everything that is wrong with the subject."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Finding the Crossroads",
         "Rank": "•••",
         "Pool (plus Psyche)": "Wits",
         "Summary": "Divine a nearby location at which someone will soon die.",
-        "Book": "GTS 159"
+        "Book": "GTS 159",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "There are many reasons a Sin-Eater might want to be present when someone dies. Some want to ease the passing, to put the ghost to rest before it falls to the torment of watching its loved ones suffer because of its death. Others attempt to cheat death and fate, preventing the death. Still others keep a watchful eye for new Sin-Eaters, standing by ready to help guide the recently merged. There are even those who simply want to scavenge the leavings of a death, those objects left behind that hold the power to become charms or other mementos."
+            },
+            {
+                type: "paragraph",
+                text: "This ceremony acts as a sort of divination, leading the Sin-eater to the general area where someone will die. It could happen within minutes of the Sin-Eater’s arrival or up to 8 hours afterward, but a death will occur. The ceremony doesn’t provide any information about the manner of death or the victim, only that death will visit this spot, and soon."
+            },
+            {
+                type: "paragraph",
+                text: "Once the Sin-Eater arrives at the location, it becomes a matter of discerning who the potential victim will be. Sometimes it is easily apparent, as the geist comes upon a car accident, a gang fight, or a bout of domestic violence seen through the window. Other times it is as easy as looking for a person tainted by death (see Morbid Reality, p. 177). But often, it isn’t that simple, for their death relies too heavily on chance; a car wreck, a falling piano, or other unpredictable event."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The most common ritual used for this ceremony requires the use of a map and a finger bone tied to one end of a string. The Sin-Eater meditates over the map, suspending the finger bone over the center. The bone slowly begins to twirl in a circle before it stops, hanging over the general area where the death will occur."
+            },
+            {
+                type: "paragraph",
+                text: "The ceremony should not be enacted near a hospital, for the constant struggle of life and death within those halls will confuse the ceremony’s outcome."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The divination points to the wrong location, sending the character on a wild goose chase."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the divination narrows the search to a block radius, within 8 hours of the death."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the divination pinpoints the location to a specific building within 2 hours of the death."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The ceremony is enacted in a time of war, or disaster."],
+                    ["+1", "The bone used for divination comes from a victim of the same Threshold as the Sin-Eater."],
+                    ["−1", "The ceremony is enacted within 5 miles of a hospital."],
+                    ["−3", "The ceremony is enacted within 1 mile of a hospital."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Funerary Tools",
         "Rank": "•••",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Create an item to use in Twilight, with possibility of taking it to the Depths",
-        "Book": "BotD 73"
+        "Book": "BotD 73",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Many rulers tried to take their immense wealth with them beyond death. Egyptian pharaohs believed that grave-goods, buried with them, would join them in the afterlife to ensure the ruler had everything he needed. Flint daggers and jet ornaments buried with people in the Neolithic and Bronze ages were thought to travel to the afterlife. A Sin-Eater can use this ceremony to charge an object with plasm before destroying it, leaving the item’s ghost in Twilight — or sending it straight to the Underworld. Many Sin-Eaters use this to re-unite ghosts with their prized possessions, for example allowing a saxophonist to play from beyond the grave."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater sets the item he wants to send into Twilight on the ground, and pours a circle of salt around it. She paints symbols for the elements of the Underworld on four skulls — not necessarily human skulls; any animal larger than a housecat will do. One skull sits at each cardinal point, looking inwards at the item. Finally, the Sin-Eater places a candle on top of each skull and lights each one in turn. He lights a bundle of birch twigs, and tosses them into the circle. The flames consume the item, leaving only its ghost behind."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (5 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The flames leap high, setting the Sin-Eater’s clothes on fire. The fire is the size of a torch (one point per turn) and as hot as a torch (+1 damage). The item is destroyed."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The item is destroyed, but it doesn’t appear in Twilight."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Flames consume the item until only its ghost remains. The item appears in Twilight, and can be held and used by Twilight beings. All damage to the item is repaired. The Sin-Eater can hold and carry the item without entering Twilight as long as she keeps hold of a handful of ashes from the fire. When she hands the item over, she loses any residual control over it. If she keeps hold of the ashes while she enters the Underworld, the item appears in her hands in the Autochthonous Depths. The ghostly item created is permanent."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The item’s ghost works perfectly, better than it ever could in life. If used as part of an action, its bonus is increased by 1."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Object is naturally flammable"],
+                    ["-1", "Object relies on chemical reactions to function"],
+                    ["-3", "Object relies on electricity to function"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Lemure’s Lure",
         "Rank": "•••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Make a location highly attractive to ghosts, likely causing a temporary haunting of the area.",
-        "Book": "GTS 159"
+        "Book": "GTS 159",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Most of the time, Sin-Eaters wish to prevent or resolve hauntings, but there are occasions when a large number of ghosts can provide an exceedingly valuable distraction. The one limitation on this ceremony is that while the Sin-Eater can call nearby ghosts to a location and cause them to become unusually active, she has no control over their behavior. The result of such a call could be everything from a trio of troublesome ghosts showing up to break crockery and fill the locations with ghostly howls to a maggotheaded monstrosity emerging to devour everyone."
+            },
+            {
+                type: "paragraph",
+                text: "This ceremony can also be used as a trap. It attracts all nearby ghosts, and if the Sin-Eater knows that a particular ghost is nearby, this ceremony attracts this ghost without warning them that anyone is looking for them. Sin-Eaters can use this ceremony to haunt any single structure, a home, an office, or even a warehouse. However, it cannot be used to haunt large structures like shopping malls or apartment complexes, since they contain multiple shops or dwellings. Instead, the Sin-Eater would need to haunt each individual shop or home separately."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "There are two ways to perform this ceremony, in person and at a distance. Performing it in person is relatively easy and quick. The Sin-Eater makes a small cut on his index finger and marks each window or door in his blood. Then, he starts a short chant that ends in a loud shout. This is not a subtle ritual, but it is quite fast."
+            },
+            {
+                type: "paragraph",
+                text: "When performed at a distance, the Sin-Eater must have a map of the location, a picture of it, and a chip of paint, brick, or some other similar bit of the location. The Sin-Eater must then painstakingly draw complex symbols on the map around the location and then mark the spot on the map with his blood, burn the photograph, and eat the chip of paint or brick."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (target number of 5, or at if used at a distance)",
+        "TimeIncrement": "The Sin-Eater may roll once every turn when performing the ritual in person and once every 10 minutes when performing the ritual away from the target location.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. For the next full day, the Sin-Eater attracts ghosts to himself rather than the location."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the chosen location attracts ghosts until the next sunrise. Nearby ghosts are drawn to the location, becoming exceedingly active once there — crying for aid, acting out their urges, and otherwise following their natures with the site as their focus."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the haunting remains in effect for three full days."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "At least one person has died in the location"],
+                    ["+1", "The location is more than 20 years old"],
+                    ["−1", "The location is new and has not yet been used for the purpose for which it was designed"],
+                    ["−3", "The Sin-Eater has never visited the interior of the location"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Loosen the Coil",
         "Rank": "•••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Temporarily allow a mortal to project as a ghost.",
-        "Book": "GTS 160"
+        "Book": "GTS 160",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Mortals have taken temporary sojourns into the land of the dead throughout history. Orpheus slipped past many guardians to find his Eurydice. Through this ceremony, a Sin-Eater may allow an ordinary person to slough off the mortal coil, if only for a little while, and take on ghostly form."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater begins the ceremony by tying a string of silver thread around an item that the subject has chosen. This rope need not be attached to anything; its purpose is purely symbolic. Then the Sin-Eater draws a series of sigils on the body of the subject in a paint mixed from the ashes of a corpse."
+            },
+            {
+                type: "paragraph",
+                text: "When the ritual is complete, the subject’s consciousness separates and becomes, for all intents and purposes, a ghost. Her body is alive, but comatose. The object she chose acts as her anchor (see the World of Darkness Rulebook for information on anchors). She may touch and be touched, even engage in physical combat with ghosts, damaging her Corpus. Wrathful shades may even kill her if the Sin-Eater does not intervene. She is limited, like a ghost, to stay within range of her anchor, but the anchor need not stay with her living body."
+            },
+            {
+                type: "paragraph",
+                text: "If the subject is reduced to 0 Corpus through bashing damage, she fades, immediately returning to her body, where she remains comatose for a number of hours equal to 6 minus her Stamina. If she takes as many points of aggravated damage as she has Corpus, she dies, leaving her body in a vegetative state."
+            },
+            {
+                type: "paragraph",
+                text: "The subject may remain separated from her body for a number of hours equal to her Stamina score. After that, her body begins to suffer one point of lethal damage for each hour she remains away."
+            },
+            {
+                type: "paragraph",
+                text: "If the subject’s anchor is destroyed, she immediately retreats to her body. The subject suffers a −2 penalty to all rolls involving concentration for the rest of the day."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 5 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The Sin-Eater loses a point of Willpower."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the subject enters the Twilight state, effectively becoming a ghost. Each of her Power, Resistance, and Finesse traits is equal to the highest appropriate Attribute; thus, a character with Strength 2, Presence 3, and Intelligence 3 would have a Power trait of 3 as a ghost. Her Corpus is equal to her Health trait. The subject gains no Numina."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the subject may remain in ghostly form for 2 more hours before beginning to take physical damage."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The subject is already near death."],
+                    ["+1", "The ceremony is performed within sight of a gateway to the Underworld."],
+                    ["−1", "The subject ceremony is performed in a location that celebrates life."],
+                    ["−2", "The subject is unwilling."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Moment of Absolution",
         "Rank": "•••",
         "Pool (plus Psyche)": "Wits",
         "Summary": "Receive explanation of why an Anchor is an Anchor.",
-        "Book": "BotD 73"
+        "Book": "BotD 73",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Kiss of Absolution is the kind of ceremony some Sin-Eaters couldn’t care less about and others would happily kill to know, for it can resolve the deepest mystery of a ghost’s existence — precisely why a ghost is anchored to a particular person, place, or object. A specter might not remember what’s so important about an old pen, or may not recognize a child that anchors it to the world. This ceremony allows a Sin-Eater to intervene on the ghost’s behalf, studying the link between ghost and anchor to discover the truth. The ghost can only be a part of this ceremony once, and when she knows how to resolve an anchor, she has to do all that she can to resolve it."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater sits with the ghost in a darkened space. If the anchor is an object, he must hold it in his hands. If it’s a place, he has to be there. If it’s a person, he needs a small piece of the person — a lock of hair, or some fingernail clippings. He carves odd sigils into a candle with a knife, before lighting it. Staring into the flame, the Sin-Eater holds the anchor before him while whispering the ghost’s name. She in turn focuses on the anchor as no more than an object, not something that directly relates to her. By denying her connection, the ghost confirms it exists. The Sin-Eater hears the truth whispered in the ghost’s voice and sees clues in the shadows of the candle’s light."
+            }
+        ],
+        "DicePool": "Psyche + Wits",
+        "Action": "Extended (5 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater sees something, but it bears no relation to the truth. The Storyteller should give the player the same information as for a success, but it has no relation to the anchor used."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The tie between a ghost and her anchor remains inscrutable."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Flickering in the shadows, the Sin-Eater knows the truth. The Storyteller should tell his player precisely why the object is an anchor for the ghost — not just that it meant something to her pre-mortem, but why it did. For example, the Sin-Eater would know that a knife is important to a ghost because it killed her, or because she used it to fend off a rabid dog. The Storyteller should give clues in her explanation as to how the ghost can resolve the anchor."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "One fact gives everything away. The Sin-Eater knows precisely what links the ghost and her anchor, and he also knows what must be done to resolve the anchor."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "Ceremony is performed in a room with no other light, including moonlight"],
+                    ["-1", "Sin-Eater has never dealt with the ghost before"],
+                    ["-2", "Ghost has never seen the anchor before"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Plumbing the Depths",
         "Rank": "•••",
         "Pool (plus Psyche)": "Intelligence",
         "Summary": "See memories of bonded Geist; must continually roll to avoid gaining derangement while searching.",
-        "Book": "GTS 161"
+        "Book": "GTS 161",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater may exist in a gestalt state with her geist, but she is still a separate being. Her thoughts are her own, and the geist’s knowledge must be coaxed from it in turn. All Sin-Eaters may attempt to access the skills their geist knew in life through their keystone memento, but only those who have learned this ceremony may attempt to glean memories directly from their geist."
+            },
+            {
+                type: "paragraph",
+                text: "It is not a safe process. The mind is a twisting labyrinth in the best of cases, and the geist’s mind has been so warped by their evolution from simple ghost into the strange hybrid of shade and symbol that they have become, that it is almost unrecognizable as a human mind. The alien landscape of the geist’s mind does not give up its secrets lightly, and some who travel those dark lands do not return. Sometimes, though, information is required but the geist is not cooperating."
+            },
+            {
+                type: "paragraph",
+                text: "The Sin-Eater who performs this ceremony risks more than just his sanity. His relationship with his geist is also at stake. It’s possible to so offend the geist that it draws back, tearing down some of the Synergy that has been built."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The most important thing required for this ritual to succeed is an environment that soothes both Sin-Eater and geist. This may entail music the geist loved when it was alive, incense that reminds the Sin-Eater of an old lover, or the smell of cooking Sauerbraten. The exact circumstances and props needed vary from Sin-Eater to Sin-Eater, geist to geist. During the meditation, the Sin-Eater visualizes the information he seeks, and must focus only on that goal. Most Sin-Eaters recruit their krewemates to guard them while they perform this sensitive ritual, ensuring that they are not interrupted or meddled with while they are so occupied."
+            },
+            {
+                type: "paragraph",
+                text: "While the Sin-Eater meditates, navigating the winding corridors of the geist’s mind, they are constantly bombarded by the single-minded mania of the geist’s desire, distilled into its purest form. Wave after wave of it crashes over the Sin-Eater even as he searches through the aggregate memories of an existence that could span centuries. For every roll that must be made toward the ceremony’s success, the player must also roll Composure + Resolve to resist being overwhelmed by the geist’s desire. If the roll fails, the Sin-Eater falls prey to an appropriate temporary derangement for a number of days equal to their Psyche. The derangement should fall in line with the geist’s desire, driving the Sin-Eater to fulfill his geist’s obsession with single-minded devotion for the duration."
+            }
+        ],
+        "DicePool": "Psyche + Intelligence",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every hour.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater’s bond with his geist is threatened. The player must roll 3 dice to resist suffering Synergy degeneration."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater receives the memory he is searching for in a series of images and sensory perceptions that must be interpreted."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater receives the information he is seeking in a rare burst of clarity."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The Sin-Eater’s Synergy rating is 8 or above."],
+                    ["+1", "The meditation uses music or other sensory information that soothes the Sin-Eater’s geist."],
+                    ["−1", "The Sin-Eater uses music, incense, etc., that rankles his geist."],
+                    ["−2", "The Sin-Eater’s Synergy rating is 3 or below."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Quicken the Dead",
         "Rank": "•••",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Bind a ghost to a body, creating a zombie.",
-        "Book": "GTS 161"
+        "Book": "GTS 161",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Sin-Eaters walk the edge between life and death, and have the ability to affect the living, the dead, and things in between. This ritual allows the Sin-Eater to bind up a ghost in the trappings of the flesh, imprisoning them in meat, bone, and plasm. The risen zombie thus created is compelled to follow its creator, locked away in the rotting corpse, doing its master’s bidding."
+            },
+            {
+                type: "paragraph",
+                text: "This ritual is a blunt instrument, far coarser than the Wings of the Moth ritual detailed on p. 169. The bodies raised by Quicken the Dead are completely incapable of independent action and do not resemble living, breathing humans in any way. These are the shuffling, shambling zombies of nightmarish legend, their rotting bodies stitched together by plasm, their every action determined by the Sin-Eater that raised them."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The most common ritual used requires the Sin-Eater to lay the body out in a circle of (animal or human) blood, anointing the corpse’s forehead likewise with blood. Alternate rituals involve infusing the corpse with electricity or stuffing the body with herbs and spices. Whichever version of the ritual has been learned, the catalyzing element comes when the Sin-Eater infuses the body with 3 plasm, creating a sufficiently resilient receptacle for the ghost to inhabit."
+            },
+            {
+                type: "paragraph",
+                text: "The zombie holds together for a number of days equal to the Sin-Eater’s Psyche. The ghost is freed after the body falls apart, both from the flesh prison and the Sin-Eater’s domination."
+            }
+        ],
+        "DicePool": "Psyche + Presence",
+        "Action": "Extended (target number of 1 per Health dot of the corpse)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The zombie does not rise and the Sin-Eater loses any control he may have had on other zombies or ghosts, leaving them free to attack him or simply flee."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the zombie rises, under the Sin-Eater’s control."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "No additional effect."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The ghost is a willing participant."],
+                    ["+1", "The ritual is performed in a location already filled with deathly energy, such as a graveyard or a morgue."],
+                    ["−1", "For each zombie the Sin-Eater already controls."],
+                    ["−2", "For each anchor the ghost controls beyond the first."]
+                ]
+            },
+            {
+                type: "heading",
+                level: 2,
+                text: "Zombie servants"
+            },
+            {
+                type: "paragraph",
+                text: "The servants raised by the Sin-Eater are relatively weak as zombies go. If the Storyteller chooses, they can be customized using the rules from Antagonists, p. 26. Otherwise, they use the following rules:"
+            },
+            {
+                type: "line",
+                label: "Power",
+                text: "3"
+            },
+            {
+                type: "line",
+                label: "Finesse",
+                text: "1"
+            },
+            {
+                type: "line",
+                label: "Resilience",
+                text: "4"
+            },
+            {
+                type: "line",
+                label: "Health",
+                text: "7"
+            },
+            {
+                type: "line",
+                label: "Initiative",
+                text: "1"
+            },
+            {
+                type: "line",
+                label: "Physical Integrity",
+                text: "10*"
+            },
+            {
+                type: "line",
+                label: "Size",
+                text: "5"
+            },
+            {
+                type: "line",
+                label: "Speed",
+                text: "1"
+            },
+            {
+                type: "paragraph",
+                text: "*Physical Integrity is a special trait describing the state of the zombie’s undead body. A zombie created from a corpse with all of its limbs and no missing parts starts with an Integrity of 10. Missing both legs or both arms would indicate a starting trait of 5. Physical Integrity limits the maximum number of dice in the zombie’s dice pool. This trait also describes the overall functionality of the zombie, meaning that the reduction of integrity is not necessarily decomposition or losing limbs. Zombies raised by the Sin-Eater simply lose their animating force after a number of days equal to the Sin-Eater’s Psyche."
+            },
+            {
+                type: "paragraph",
+                text: "Every (Resilience) hours, zombies lose one point of Physical Integrity. Under most circumstances, Physical Integrity cannot be replenished once it is lost. Once all of a zombie’s Health points are depleted, subtract any damage done from the remaining points of Physical Integrity. Once this trait reaches zero, the zombie is neutralized. A zombie with one point of Physical Integrity left usually represents the classic decapitated, but still dangerous, zombie head."
+            }
+        ]
     },
     {
         "Name": "Reading the Echoes",
         "Rank": "•••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Can get impressions from the past history of an object.",
-        "Book": "GTS 163"
+        "Book": "GTS 163",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater can read psychic impressions of the past from places and objects. The character could pick up a knife and see images of the murder it was used to commit and possibly even experience the emotions and thoughts of the murderer, or she can stand in a house and see an image of the horrible events that occurred there 40 years before."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "Sin-Eater must hold the object and meditate quietly or she must walk slowly around the location in a light trance. The Sin-Eater need not do anything special or unusual, but she must focus her attention on this task. Doing anything other than walking slowly or talking about what she is experiencing automatically ends this ceremony."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every minute.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The Sin-Eater develops a severe headache to the tune of one point of bashing damage, and cannot use this ceremony until the sun next sets."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater gets a vision of the most emotionally charged or magically powerful event that occurred in the location she is in or directly involving the object she is holding. If there are several extremely powerful incidents, the Sin-Eater receives momentary flashes of multiple visions, but must choose to focus on only one. The Sin-Eater sees and hears a series of images and fragments of conversations. The higher the Sin-Eater’s Psyche, the longer and more detailed these fragments are. These fragments are always informative, but usually do not provide complete information."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater receives clearer flashes of multiple events."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The object was a murder weapon or the location was the site of a murder."],
+                    ["+1", "The Sin-Eater spends up to an hour examining the object or walking around the location."],
+                    ["−1", "The object or location has been significantly damaged, remodeled, reforged, or otherwise deliberately changed since the event or events in question."],
+                    ["−2", "The object or location has been extensively used and visited since the last emotionally or supernaturally charged incident occurred."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Warding Circle",
         "Rank": "•••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Enchant a circle to be impervious to ghosts, and potentially other supernatural creatures as well.",
-        "Book": "GTS 163"
-    },
-    {
-        "Name": "Witness the End",
-        "Rank": "•••",
-        "Pool (plus Psyche)": "Resolve",
-        "Summary": "See a significant death that will happen within a month",
-        "Book": "DA 171"
+        "Book": "GTS 163",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater can draw a circle that keeps out ghosts and prevents any of their powers from affecting those inside this circle. This circle can be no more than 13 feet across, but provides total, if temporary, protection against ghosts as well as also helping to protect those inside against other supernatural beings."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must draw a circle on the ground or floor and then draw a series of more than a dozen complex symbols around the edge of this circle. The circle and symbols can be drawn in any medium, from chalk lines, to ink, to inscribing them in a stone floor with a chisel. The circle can be as small as desired, but cannot be larger than 13 feet across."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes. Reduce this to one roll every minute if the Sin-Eater draws the symbols using stamps or stencils.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The ceremony cannot be successfully performed for three days."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater creates a circular warding. The circle completely protects both itself and those inside from ghosts and all ghostly abilities. In addition to not being able to enter the area, either in Twilight or when materialized, ghosts also can not use any of their Numina to affect anyone inside the circle or the circle itself."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, those within the circle gain +3 dice to resist the supernatural powers of any supernatural being, not simply ghosts, for as long as they remain inside."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "There is at least one ordinary mortal inside the circle"],
+                    ["+1", "The Sin-Eater draws the circle in chalk sprinkled with a few drops of human blood."],
+                    ["−1", "There are supernatural beings other than Bound inside the circle"],
+                    ["−2", "The Sin-Eater uses stamps or stencils to help draw this circle and symbols"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Bind Anchor",
         "Rank": "••••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Create an Anchor for a ghost, even one currently in the Underworld",
-        "Book": "GTS 164"
+        "Book": "GTS 164",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "As a ghost’s anchors are destroyed by hostility or simple attrition, their grip on the living world is diminished. When their last anchor is destroyed, they are swept free, drawn down into the Underworld and the tender ministrations of the Kerberoi. Using this ritual, the Sin-Eater can prolong a ghost’s time in the twilight of the living world by giving them another anchor to which to cling."
+            },
+            {
+                type: "paragraph",
+                text: "With this ceremony, a Sin-Eater can even help a ghost already consigned to the Underworld find respite from that strange and nightmarish existence, allowing them to at least look upon the living. Even the voyeuristic haunting of a ghost in Twilight is preferable to the Underworld for most ghosts."
+            },
+            {
+                type: "paragraph",
+                text: "The new anchor acts like any other anchor, and any object that can be an anchor — be it a piece of jewelry, the house the ghost grew up in, or her great-granddaughter — can be bound to the ghost. See p. 209 of the World of Darkness Rulebook for full information on anchors."
+            },
+            {
+                type: "paragraph",
+                text: "If the desired anchor is a person, their presence (and knowledge) is helpful but not required. A lock of their hair or even a photograph will do."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The hardest part of the process is finding the right item to act as the anchor. The new anchor does not necessarily have to mean something to the ghost, but it helps quite a bit. The ceremony has to be enacted on ground that has a connection with the ghost in question, whether that is his grave, his old bedroom, or the place where he was killed. One anchor has even been bound in the back of a taxi where the ghost was born."
+            },
+            {
+                type: "paragraph",
+                text: "Once the new anchor is found, it must be symbolically connected to the ghost. This is most commonly accomplished by creating an altar, surrounding the object with items that help to evoke the ghost’s life. A ghost that was a beat cop in life might require the new anchor to be surrounded by handcuffs and a badge, or newspaper clippings of arrests he made. Another ghost who was a doctor might want a stethoscope or other accoutrements of her profession."
+            },
+            {
+                type: "paragraph",
+                text: "Only when the ghost feels a connection to the anchor can they forge the link required to turn an object into an anchor."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 6)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 15 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The desired anchor is destroyed, causing the Sin-Eater two points of lethal damage."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the desired anchor is bound. The ghost has a new lease on “life.”"
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater gains 2 plasm."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The new anchor belonged to the ghost in life."],
+                    ["+1", "The new anchor is an exact duplicate of one of the ghost’s lost anchors."],
+                    ["−1", "The ghost in unwilling to be bound to a new anchor."],
+                    ["−2", "The anchor does not resonate with the ghost in any way."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Danse Macabre",
         "Rank": "••••",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Reminds participants of their own morality. Could create Ghosts in the Underworld without anchors",
-        "Book": "BotD 74"
+        "Book": "BotD 74",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Since the late medieval period, artists and composers have created danse macabre, works that remind those who experience them that death comes for everyone. Emperor and peasant child, king and beautiful girl, it doesn’t matter. Everyone dies. These paintings, plays, and compositions reminded people of their own mortality among the horrors of the 14th century. A Sin-Eater can lead a twisted kind of danse macabre: an actual dance that ties their souls in a sympathetic bond with the Great Below. Those who die soon after attending the dance become ghosts without anchors in the Underworld, forever denied final peace. Some Sin-Eaters work this ceremony as penance for crossing a Kerberos, using it to harvest fresh souls for its Dominion."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The ceremony must take place in a room large enough for everyone present to dance, with any furniture cleared away. The first piece of music should be slow and mournful — Camille Saint-Saëns Danse Macabre is by far the most common choice — and following pieces must build on the theme. The Sin-Eater leads the dance dressed in decaying black finery, wearing a plain white mask over his face. He takes the role of Death, and must dance with everyone present for at least five minutes each. While some Sin-Eaters have attempted to update the music used for the ceremony, they have to be very careful to keep the mood somber, focusing on the inevitable mortality of everyone present. If they don’t, the magic of the ceremony is lost."
+            }
+        ],
+        "DicePool": "Psyche + Presence",
+        "Action": "Extended (6 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 15 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The dance forges too close a connection with the Underworld. One of the participants will die before the end of the story. She will return as a ghost, with the location of the dance as her only anchor."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The Sin-Eater finds herself out of step with the energies of death; no effect occurs."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The dance forces each person present to confront their own mortality. Anyone who attends the dance comes away spooked, worried that death will claim them soon. All participants gain the avoidance derangement (mild) until the end of the story. If a dancer dies before the end of the story, she will return as a ghost, but without anchors. She appears in the Autochthonous Depths, without any anchors and unsure of what has just happened. Until the end of the story, the Sin-Eater can spend a point of Willpower when in the Underworld and locate anyone who has died under the effect of this ceremony as an instant action."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The dance resonates with the Underworld, filling the Sin-Eater with spectral energy. He regains one point of plasm."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Each dancer has a partner with whom she shares a connection"],
+                    ["+1", "People dress appropriately for the ball"],
+                    ["-1", "Dancers don’t know each other"],
+                    ["-2", "More than six participants (not including the Sin-Eater)"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Ghost Drinker",
         "Rank": "••••",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Drink either the Ghost's knowledge or it's power. Gain truthful yes/no answers or a bump to Physical Traits",
-        "Book": "BotD 75"
+        "Book": "BotD 75",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Some Sin-Eaters aren’t happy with just locking a ghost up or decanting it into a bottle. After all, even the greatest monster can have its uses. Rather than just unleashing a trapped ghost — and going to all the trouble of imprisoning it once again when the deed is done — this ceremony allows the Sin-Eater to consume part of a ghost’s being while leaving it trapped within the container. When he “drinks the ghost” — an act named for Sin-Eaters who consume ghosts locked within wine or soda bottles — he can take its strength or its knowledge."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater needs to find a ghost captured with the Spectral Captivity ceremony (Geist: The Sin-Eaters p. 168) — not necessarily one that the Sin-Eater has captured himself — and carry it with him into the Underworld. The Sin-Eater makes a small hole in the container, less than a quarter-inch in diameter, and pours in a cup of fluid from one of the Underworld rivers. He presses his thumb over the hole, gives the bottle a good shake, and knocks the contents back. The resulting liquid is cloying and heavy, like drinking bitter molasses, and each use of the ceremony only provides one mouthful of fluid. Enough liquid remains to seal the hole, which the Sin-Eater must sanctify with a drop of his own blood. If he doesn’t, the container remains unsealed and the ghost can escape. A Sin-Eater can only attempt to consume a ghost once. Attempting to use it twice on the same ghost only produces foul, brackish water — which leaves the container unsealed."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (6 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 30 seconds.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The Sin-Eater chokes on the fluid, spitting it out, and hasn’t a chance to plug the hole. The ghost escapes captivity, and cannot be bound or controlled until the next sunrise."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The ghost slips down, but the Sin-Eater can’t swallow the full draught in one. He gains no benefit from the ceremony, but can’t use it on the same ghost again."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The Sin-Eater can drink either the ghost’s knowledge or its power. If he chooses to drink for knowledge, the player can ask the Storyteller one yes-or-no question for each dot of the ghost’s Power. The Storyteller must answer those questions truthfully. If the Sin-Eater drinks for power, he adds half of the ghost’s related Attributes (rounded down) to his Physical Attributes: Power to Strength, Finesse to Dexterity, and Resistance to Stamina. His enhanced Attributes last for five minutes per dot of Psyche."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The ghost loses part of itself to the Sin-Eater. Upon its release, it suffers a -2 modifier to all rolls until the end of the scene."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "Ghost is contained in a wine or soda bottle"],
+                    ["-1", "Ghost is trapped in a space larger than Size 3"],
+                    ["-2", "Ghost is contained in a space larger than Size 7"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Ghostly Guardian",
         "Rank": "••••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Bind a ghost to one of it's Anchors as a protector",
-        "Book": "GTS 164"
+        "Book": "GTS 164",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This potent ceremony can forcibly bind a ghost to watch over a specific location, person, or object and guard its charge from harm to the best of its ability. If this location or item is ever destroyed or the person dies, the ghost is instantly freed. However, the ghost cannot attack, either directly or indirectly, its charge and cannot in any fashion work to free itself or harm its target. It can ask or beg for freedom, but can take no action to free itself. The ghost also cannot venture more than 21 yards from its charge. Also, both the Sin-Eater who performed this ceremony and the ghost’s charge, if the charge is a person, can command the ghost not to attack anyone who is not attempting to harm the ghost’s charge. However, other than protecting its charge, this is the only command the ghost must obey."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must engrave a series of small sigils on a coin and then attach the coin to the target. Typically, Sin-Eaters nail or glue the coin to a place or object and have living targets either keep the coin in their pocket or wear it around their neck as a pendant. If the coin is ever removed, the ghost temporarily ceases to protect its target. Attaching the coin to some other person or object will not cause the ghost to protect that object or person. However, re-attaching the coin to the original target instantly causes the ghost to protect the target again."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation − Ghost’s Power",
+        "Action": "Extended (target number of 5)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The ghost attacks the Sin-Eater who attempted to use this ceremony. No wards or other protections can protect the Sin-Eater from this particular ghost for the next full scene."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the ghost will protect the person, place, or object it is guarding to the very best of its ability for the next week."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the ghost protects the target for the next full month."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+3", "The target is one of the ghost’s anchors that the ghost desires to protect."],
+                    ["+2", "The target is positively connected to the ghost, a relative, or friend of the ghost in life, the ghost’s home or an object the ghost once used."],
+                    ["+1", "The coin used was once touched by the ghost."],
+                    ["−1", "The target is completely unknown to the ghost."],
+                    ["−3", "The target is a supernatural being."],
+                    ["−3", "The target is one of the ghost’s anchors that the ghost desires to harm or destroy."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Mending the Mortal Coil",
         "Rank": "••••",
         "Pool (plus Psyche)": "Intelligence",
         "Summary": "Heal a target of wounds at the cost of plasm.",
-        "Book": "GTS 165"
+        "Book": "GTS 165",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Plasm can keep a Sin-Eater alive even as his flesh is injured and torn. However, this is a temporary measure at best. Actual healing of wounds requires time, a further investiture of plasm, and a ceremony to stave off death."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony is usually quick and brutal, involving ritual acknowledgement of notable figures of death (such as old Underworld gods, the Horsemen, or whomever is most important to the Sin-Eater’s mythological tradition). The Sin-Eater breathes out some of his own plasm, which mingles with the blood of the target and begins to knit into flesh. If the wounds are bleeding, the Sin-Eater uses a portion of the blood to draw appropriate sigils on the flesh. A libation of alcohol, poured into the wound or given to the wounded, is an ideal part of the ceremony."
+            }
+        ],
+        "DicePool": "Psyche + Intelligence",
+        "Action": "Extended (target number of 6, +1 for every point of lethal damage on the target, +2 for every point of aggravated damage on the target)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "No successes are gained. The Sin-Eater loses a point of plasm in the attempt."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater may expend plasm to heal the target’s wounds. Healing one point of bashing damage costs 1 point of plasm; healing a point of lethal damage costs 2 plasm; healing a point of aggravated damage costs 3. The Sin-Eater may spend as much plasm as he chooses, subject to the Psyche-based limits of plasm expenditure per turn and his own reserves. He may also choose to heal aggravated or lethal damage first."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. The target heals one additional point of bashing damage at no cost of plasm."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The character has some form of alcoholic beverage to pour into the wound."],
+                    ["+1", "The character possesses the Stigmata Key."],
+                    ["−1", "The wounded individual hasn’t had anything to eat in the last 8 hours."],
+                    ["−1", "The Sin-Eater is performing the rite on himself."],
+                    ["−2", "The wounded is a living being with no access to a geist (normal human, werewolf, etc.)"],
+                    ["−3", "The wounded is a corporeal undead being (vampire, etc.)."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Warding the Household",
         "Rank": "••••",
         "Pool (plus Psyche)": "Dexterity",
         "Summary": "As Warding Circle, but potentially for an entire building.",
-        "Book": "GTS 165"
+        "Book": "GTS 165",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater can protect a location so that ghosts or other entities in Twilight cannot enter it. Unlike the warding circle, this ceremony can protect either an entire room or an entire dwelling. Also, it lasts far longer, providing lasting protection against ghosts. Many Sin-Eaters use this ceremony to protect their houses and the houses of their loved ones."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater must mark each of the interior walls of the location with bloody handprints. Each exterior wall must be marked with one bloody handprint, while the Sin-Eater chants various phrases asking ghosts to depart. This blood can come from any source, but must be real, whole blood that is not more than a day old. This warding is instantly cancelled if any of these bloody handprints are ever washed off or otherwise removed. However, the hand prints can be concealed behind curtains, paintings, or similar coverings. This ceremony cannot affect any building larger than a large house or shop. It cannot protect an entire office building, an apartment building, or a vast mansion. Sin-Eaters can use this ceremony to protect a single room or even an entire wing of a huge mansion."
+            }
+        ],
+        "DicePool": "Psyche + Dexterity",
+        "Action": "Extended (target number of 10)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. Until the sun next rises, ghosts are attracted to this location. This location also cannot be warded with this ceremony until that time."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the ceremony is a success. Ghosts cannot enter or use any powers to affect anyone or anything inside the warded location. Also, other beings in Twilight attempting to enter the location can only do so if their Power (for spirits) or Psyche or similar Attribute is greater than the Psyche of the Sin-Eater who created this Ward. This warding lasts for one week. At the end of this time, the bloody handprints dry and flake off the walls."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the wards last for one full month."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+3", "The location is owned and used or inhabited by mortals who know nothing about ghosts or the supernatural"],
+                    ["+1", "The Sin-Eater is warding a location that he owns or rents"],
+                    ["−1", "The location being warded is not a dwelling of any sort."],
+                    ["−2", "The location is currently haunted by a ghost."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Crash the Gates",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Stamina",
         "Summary": "Transform body into an open Avernian Gate connected to a random point in the Depths.",
-        "Book": "BotD 76"
+        "Book": "BotD 76",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "To some among the Bound, the idea that life is just for the living is a sickening thought. People exist after death, never again to know the touch of a lover’s hand or the warm kiss of sunlight on skin, but the living take everything for granted. A Sin-Eater can redress that balance, breaking the barriers between the living world and the Underworld, allowing the horrors beyond death to meet the living face to face. The Sin-Eater transforms himself into a temporary Avernian Gate, allowing anything that’s dead to re-enter the world of the living — and the living to enter the Underworld. He has no control over whatever passes through him, and can’t control whereabouts in the Autochthonous Depths to which his portal opens, but if he’s using this ceremony then he probably doesn’t care. The gateway is only temporary, but the ghosts remain after it closes, anchored to where the Sin-Eater stood. That anchor fades over time, sending those ghosts who haven’t latched on to a new target back into the Underworld."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater needs one special ingredient for this ceremony: a chip of stone or other inorganic material taken from an Avernian Gate. He must fully submerge himself in clean water, then he paints sigils on his body in ochre, similar to those used to create a gateway. He paints a different symbol on the stone, and leaves it to steep in a shallow pool of blood. Once the stone has turned deep red, he can swallow it to open the gateway. A particularly painful variant of this ceremony exists in which the Sin-Eater carves the sigils into his body with a sharp knife, though the idea of repeated self-harm is beyond the pale for most Sin-Eaters."
+            }
+        ],
+        "DicePool": "Psyche + Stamina",
+        "Action": "Extended (7 successes required)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "The stone channels some of the Underworld’s twisted energies directly into the Sin-Eater’s body. He suffers two points of aggravated damage."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "The ceremony does nothing."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "The Sin-Eater transforms his body into an open Avernian Gate, connecting to a random point in the Autochthonous Depths. Ghosts in the Underworld can sense the Gate and flock through, emerging in the physical world in Twilight. The Gate will let people cross through in both directions, but the random opening point means a living person will likely be lost forever. The Sin-Eater appears as a full-sized silhouette of his normal self, through which people can see the realm on the other side. In the Great Below he’s a human-shaped door into a world of color and sound and smells. In the physical world, he’s a yawning hole in reality leading to a terrifying underground maze. The Sin-Eater can move in this form, but his Speed is halved. The Gate remains open for one minute per point of Psyche before slamming shut. Any ghost that crossed through gains the Sin-Eater’s location when the ceremony ends as an anchor, allowing it to remain in the physical world and manifest in front of people. That anchor fades to nothing at the end of the scene, dumping the ghost back into the Underworld."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "The ghosts streaming through the Sin-Eater gain his location as an anchor until the next sunrise."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+3", "The Sin-Eater carves the sigils into his body (taking two points of lethal damage)"],
+                    ["+2", "The stone was taken from an open Avernian Gate"],
+                    ["+1", "The Sin-Eater uses fresh human blood to steep the stone"],
+                    ["-1", "The Sin-Eater uses fresh animal blood"],
+                    ["-1", "Character’s Synergy is 4 or 5"],
+                    ["-2", "The Sin-Eater uses blood that isn’t freshly spilled"],
+                    ["-3", "Character’s Synergy is 3 or below"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Create Deathly Passage",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Open or reopen an Avernian Gate",
-        "Book": "GTS 166"
+        "Book": "GTS 166",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Some Sin-Eaters see it as their sworn duty to close off all passageways into the Underworld. They destroy gateways or find ways to decommission them, cutting off access for Sin-Eaters and shades alike. Others find access to the Underworld essential for any number of reasons. Deals with ghosts, searching for information long since erased from the living world and other, less prosaic goals require Sin-Eaters to journey into that dark and deadly labyrinth."
+            },
+            {
+                type: "paragraph",
+                text: "Whatever their reasons, it is difficult enough to find the old roads, shafts sliced into the flesh of the world that give access to the lightless, lifeless depths without Sin-Eaters dynamiting the entrances. As the ancient paths erode, disappear, or are destroyed, it is necessary to blaze new trails into darkness."
+            },
+            {
+                type: "paragraph",
+                text: "With this ceremony, a group of Sin-Eaters may dedicate a new gateway, or reopen a defunct one. The gateway cannot be just anywhere. It must be in the deep places below the earth, or those shallow places where death intrudes upon the living. A newly dedicated cemetery will not do, but one that holds legions worth of soldiers or generation upon generation of a town’s inhabitants would work well. The site of a terrible tragedy, those places where even mortals can feel the chill hand of death on their shoulder, are best suited for hosting an entry into the land of the dead."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony requires at least four Sin-Eaters, each of a different Threshold. While the ritualist performs the actual ceremony, the other three must stand as symbolic guardians of the new passageway. The Sin-Eater performing the ceremony begins by consecrating the area. Then, she anoints each participant with earth taken from the grave of someone of the same Threshold — one of the Torn would be anointed by dirt taken from the grave of a murder victim, or one of the Stricken would be anointed from the grave of a victim of cancer. Next, the leader of the ceremony draws (in chalk or ash) a series of sigils around the desired gateway, each symbolizing one of the Keys used to unlock the gate. Finally, each participant must slash themselves with a blade, suffering one point of lethal damage and spilling their life upon the ground. Only then will the gateway unlock and spread wide, offering admittance into the Underworld."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 7)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The dedication fails spectacularly, causing the potential gateway to explode in a blast of deathly energy, inflicting 4 points of lethal damage on each participant."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the gateway opens, creating a new pathway into the Underworld."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, each Sin-Eater present for the opening receives 4 plasm."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The desired gateway has already been a passage to the Underworld."],
+                    ["+1", "For each Sin-Eater of a different Threshold present beyond the required four."],
+                    ["−1", "For each week since the participating Sin-Eaters travelled into the Underworld."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Dumb Supper",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Makes the Twilight and material worlds one and the same for all ghosts in a given room, for a short time, allowing conventional interaction.",
-        "Book": "GTS 166"
+        "Book": "GTS 166",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This powerful ceremony allows the living and the dead to coexist for a short period of time. In addition to the powerful joy of being able to briefly experience the pleasures of the flesh and the company of the living, this ceremony provides a chance for mortals and ghosts to spend a few short hours with one another."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The ceremony must take place around a table, with a sufficient number of chairs for everyone, living or not, who is present. In addition, there must be a sufficient quantity of place settings and food for everyone. The ceremony must take place at midnight on one of the three nights that the moon is new. To begin the ceremony, the Sin-Eater performing the ceremony must extinguish all the lights in the room and close the doors and curtains so as to make the room dark. The Sin-Eater then welcomes everyone to the supper in a long and fairly elaborate speech. She then turns on the lights and can also open any doors or curtains as desired."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 7)",
+        "TimeIncrement": "The Sin-Eater can make 1 roll every minute",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. All ghosts present are banished back to the Underworld and every living person present suffers one level of bashing damage from a headache."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number of successes is reached, Twilight and the mortal world become one for all ghosts in the room. All ghosts become fully physical and able to interact with both the physical world and any mortals who are present. Ghosts can also consume and enjoy food and drink and indulge any other physical pleasures they may wish to try. However, any ghosts who leave the room where the ceremony is performed become incorporeal until they re-enter the room. This ceremony ends when the sun rises."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "No additional effect."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+3", "A blood relative or anchor of at least one ghost is present."],
+                    ["+1", "The dumb supper is held in an actual dining room with large quantities of good food."],
+                    ["−1", "The food present is meager or of poor quality."],
+                    ["−3", "The ghosts do not know any of the mortals or Sin-Eaters present."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Fetter’s Binding",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Resolve",
         "Summary": "Bind a ghost to it's last Anchor as a Fetter with one of it's Numia (Memento 3)",
-        "Book": "GTS 167"
+        "Book": "GTS 167",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "The creation of a fetter is no small affair. The Sin-Eater locks a ghost inside its anchor, obliging the ghost to use its powers in service of its jailor. In theory, this ceremony is intended to remove those shades that are too dangerous or malicious to be allowed to continue meddling in the living world, without consigning them to the purgatory of the Underworld. Whether imprisonment in an item that makes the ghost completely unable to interact with the world around them is preferable than the Underworld is debatable, but most Sin-Eaters agree that it is after their first trip down."
+            },
+            {
+                type: "paragraph",
+                text: "The reality of things is that while many Sin-Eaters do use this ceremony to render judgment on wicked ghosts without delivering them into the Underworld, there are those who couldn’t care less whether a ghost is guilty or innocent. They choose to bind ghosts into fetters purely to gain the service of their Numina."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "All but one of the ghost’s anchors must be destroyed before the ritual can be performed. The ritual space must be prepared with the anchor placed precisely in the center of a spiral some Sin-Eaters call the “funnel,” and others call the “drain.” The anchor itself is engraved with a series of deathly sigils, which symbolize the imprisonment of a soul. When the ghost enters the spiral, whether it is summoned, tricked, or trapped into its arms, it is inexorably drawn down into its anchor. When the shade is trapped within the anchor, the Sin-Eater must spend a point of Willpower to seal the bindings and create the fetter. For more information on fetter mementos, see p. 201."
+            },
+            {
+                type: "paragraph",
+                text: "Particularly old and powerful ghosts can be more difficult to trap in this manner. For every 50 years the ghost has been active, the roll suffers a −1 die penalty. This penalty can be canceled out by placing existing fetters around the spiral funnel, to create a sort of ghostly trap powered by ghosts. For each fetter so arranged, the ritualist gains a +1 die bonus."
+            }
+        ],
+        "DicePool": "Psyche + Resolve",
+        "Action": "Extended (target number of 7)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 15 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The Sin-Eater loses one Willpower point."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the ghost is bound into its anchor, and the fetter is created."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the ghost is bound into its anchor, the fetter is created, and the Sin-Eater recoups the Willpower spent."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The ghost is a willing participant."],
+                    ["+1", "The ghost and the Sin-Eater share the same Threshold."],
+                    ["+1", "For each fetter used as part of the “funnel.”"],
+                    ["−1", "For every 50 years the ghost has been dead."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Sepulchral Gateway",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Intelligence",
         "Summary": "Allows entry from one Avernian Gate and exit through another, without passage through the Underworld.",
-        "Book": "GTS 167"
+        "Book": "GTS 167",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This powerful ceremony allows the Sin-Eater and anyone traveling with him to enter one Avernian Gate and a few minutes later exit another, without having to actually pass through the Underworld. Using this ceremony, the Sin-Eater and her companions can rapidly traverse the mortal world."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "This ceremony can only be performed in the mortal world, near an Avernian Gate. The Sin-Eater and everyone accompanying her must travel to put a small lump of graveyard dirt on their tongues. Then the Sin-Eater must draw various complex symbols and write the name of her destination on the gateway. The Sin-Eater can either specify a specific other gateway into the Underworld as a destination or she can simply specify a city or other location and will emerge at one of the gateways at this location."
+            },
+            {
+                type: "paragraph",
+                text: "When traveling in this fashion, the Sin-Eater can take along a number of other companions equal to her number of dots of Psyche or twice the number of individuals who belong to her krewe. Everyone must walk into the gateway holding hands. However, they need not continue holding hands when walking the path to their destination. Alternately, the Sin-Eater can drive a memento vehicle into the gateway. When using a memento vehicle, the Sin-Eater can take along as many people as will fit in the vehicle."
+            }
+        ],
+        "DicePool": "Psyche + Intelligence",
+        "Action": "Extended (target number of 7)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The Sin-Eater and anyone accompanying her ends up in the Underworld, in some location they have never seen before."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the Sin-Eater and those accompanying her enter the gateway into the Underworld and walk through a strange and shifting space where a path of bones stretches before them. All manner of ghosts, including some who appear horribly inhuman look in at the travelers, but cannot approach as long as the travelers remain on the path. The journey takes approximately 20 minutes if the characters move at a brisk walk. Halve this time if the characters are traveling in a memento vehicle. Anyone who leaves the path instantly appears at some random location in the Underworld. If they are close to one of the watching ghosts, the lost traveler appears in the Underworld next to this ghost. If this happens, the other travelers can either continue on, abandoning their comrade, or follow him off the path, at which point they will arrive at the same location in the Underworld. Sin-Eaters can take mortals along on this journey, but the sights, sounds, and smells of the journey are strange and terrifying, and unless blindfolded, mortals must make Composure + Resolve rolls to avoid panicking and fleeing off the bone path. At the end of this pathway, the travelers emerge at their destination, walking out of the gateway to the Underworld into the mortal world."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the travel time is halved."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The Sin-Eater has traveled into the Underworld using the gateway at her destination."],
+                    ["−1", "The Sin-Eater has only heard of or seen pictures of the gateway at her destination, but has never seen it in person."],
+                    ["−2", "The Sin-Eater’s destination is a general location and not a specific gateway to the Underworld."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Spectral Captivity",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Presence",
         "Summary": "Binds a ghost inside a room or container, from which it has no power to escape.",
-        "Book": "GTS 168"
+        "Book": "GTS 168",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Sometimes, a ghost is so terrible and difficult to destroy that the Sin-Eater can find no answer other than imprisoning it. The Sin-Eater can order the ghost to enter a room or container and can then bind the ghost so that it must remain within the room or container for as long as it remains closed."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The Sin-Eater marks the interior or exterior of the room or container with a complex sigil meaning prison. The Sin-Eater can then order a single ghost that she can clearly see to enter the room or container. The Sin-Eater must then seal all exits and openings with iron wire (versions of this ceremony also exist that instead use copper wire, high test fishing line, or even human hair). The Sin-Eater can seal the space from the inside or the outside and the space can be anything from a room in a house to a closet or a packing box, to a soda bottle. Wine and soda bottles are especially popular, and some Sin-Eaters have extensive collections of ghosts on their mantle pieces or wine cellars. The ghost can attack the Sin-Eater but cannot flee while the Sin-Eater is making the rolls for this ceremony."
+            }
+        ],
+        "DicePool": "Psyche + Presence − the ghost’s Resistance",
+        "Action": "Extended (target number of 7)",
+        "TimeIncrement": "The Sin-Eater can make one roll every turn.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. Not only isn’t the ghost bound, but the Sin-Eater cannot bind or control this ghost in any fashion for the next 24 hours."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the ghost is forced inside the room or container; once it is wired shut, the ghost cannot leave until the room or container is opened from the outside. The container is also impervious to all attacks by the ghost."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the walls of the room or the container and the wire binding it closed all gain 2 points of Durability as long as the ghost remains inside."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+4", "The Sin-Eater tricks the ghost into willingly entering the room or container."],
+                    ["+1", "The container or room is more than a century old."],
+                    ["−1", "The room or container is not air-tight."],
+                    ["−3", "The Sin-Eater does not own the room or container."]
+                ]
+            }
+        ]
     },
     {
         "Name": "UnBinding",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Intelligence",
         "Summary": "Sever a geist from a Sin-Eater, ending the bargain; causes significant discord.",
-        "Book": "GTS 244"
+        "Book": "GTS 244",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "This profane ceremony is greatly feared among the Bound — and often secretly desired as well. It is a ritual method of severing host and geist, undoing the Bargain. In addition, it can paralyze both host and geist with the enhanced trauma of separation, giving the character an opportunity to use Reverse Bargain to graft the geist into a new host."
+            },
+            {
+                type: "paragraph",
+                text: "This ceremony is a discord trigger for characters of Synergy 2 or higher (roll two dice). If performed on oneself, it is a discord trigger for Synergy 1 or higher (roll two dice)."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The character must usually restrain the target in some way. Like the Reverse Bargain, this ritual involves bloodshed, preferably with an obsidian knife. The character inflicts one point of lethal damage on the target for every other roll made. If the target dies during the ceremony, the geist is not freed, and may choose to resurrect its host at a future time of its choosing. (It may also choose to abandon the body, in which case it is not bound by the ceremony’s power and may do so immediately.)"
+            }
+        ],
+        "DicePool": "Psyche + Intelligence, contested by Resolve + Psyche as a reflexive action. The target may contest the roll even if unconscious; the geist fights while the mortal body is unaware.",
+        "Action": "Extended (target number of 3 successes per dot of the target’s Synergy)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 10 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. The psychic feedback is immense, and the character performing the ceremony immediately loses all remaining points of Willpower."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the required number is reached, the subject is separated. The human host becomes one of the Vacant, with all the rules changes that entails. The geist becomes unfettered. Both human host and geist are wracked with pain from the ceremony, and can take no action more strenuous than speech for eight hours. If the host and geist are reunited within 24 hours (by the Reverse Bargain pact, or by the geist’s action if it can do so), then none of the character’s Keys or Manifestations are lost, and the Bound regains her former Psyche score (instead of having to begin again at 1). The Bound also regains most of her Synergy rating — her new Synergy rating is one point less than it was at the time the ceremony was performed. If the host and geist are not reunited until after that time, they are subject to the limitations of Reverse Bargain, above."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the number of successes exceeds the needed number by five or more, the separated host and geist can take no action for a full 24 hours."
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+1", "The character has found items anathema to the geist and incorporated them into the ritual."],
+                    ["+1", "The knife used is obsidian."],
+                    ["-1", "The knife used is machine-fabricated."]
+                ]
+            }
+        ]
     },
     {
         "Name": "Wings of the Moth",
         "Rank": "•••••",
         "Pool (plus Psyche)": "Manipulation",
         "Summary": "Binds a ghost to a body, effectively returning them to mortality, for one week; at the end of this time, the new body is killed again, and one of their anchors is destroyed.",
-        "Book": "GTS 169"
+        "Book": "GTS 169",
+        "Description": [
+            {
+                type: "paragraph",
+                text: "Ghosts will do almost anything to feel the warmth of the sun on their face again, or the silken brush of a lover’s lips. The existence of a ghost is defined by the absence of life. The things they regret and miss. Their entire being is a roiling core of desire for something they cannot touch or be. This ceremony then, is the most powerful chip a Sin-Eater has when negotiating with the dead."
+            },
+            {
+                type: "paragraph",
+                text: "With this ritual, the Sin-Eater can take a freshly dead corpse and return it to life, save that it is an empty vessel, devoid of soul and personality. Into this vessel, the Sin-Eater may place a ghost of his choosing. For all intents and purposes, it is a living, breathing body and the ghost becomes a normal, mortal being."
+            },
+            {
+                type: "paragraph",
+                text: "A ghost need not be placed into their own body, and in fact most often isn’t, because the body must be fresh or the ceremony won’t work. This can complicate things somewhat for the ghost: they don’t resemble themselves, and have no way of proving their identity to loved ones, and they do resemble another person, with loved ones of their own. But they are alive, and they can feel."
+            },
+            {
+                type: "paragraph",
+                text: "This is not a permanent solution, however. From the moment the ghost begins to draw breath, he has one week to live. When the time allotted runs out, the body dies again. This death will be flavored by the ghost’s Threshold: a shade that was murdered once will have to go through it again; a ghost that died of illness will be felled by illness. Further, one of the ghost’s anchors is destroyed by the second death. If the ghost had but one, they are immediately drawn down into the Underworld. For many ghosts, this is the last hurrah, a final celebration before they give up; one last chance to put something right, or say goodbye."
+            }
+        ],
+        "PerformingCeremony": [
+            {
+                type: "paragraph",
+                text: "The body must be cleansed, bathed, and prepared before the ritual even begins. While the corpse lays inert on a bed of flowers symbolizing death and life (lilies, irises, and lotus are common), the Sin-Eater draws symbols on the body in ash, culminating in a sigil meaning “life” on the corpse’s forehead, and the ghost’s name over the heart."
+            },
+            {
+                type: "paragraph",
+                text: "The effort expended helping the ghost “move in” to the body costs the Sin-Eater one Willpower dot. The dot is expended only if the ceremony is successful. This ceremony is not enacted lightly."
+            }
+        ],
+        "DicePool": "Psyche + Manipulation",
+        "Action": "Extended (target number of 7)",
+        "TimeIncrement": "The Sin-Eater can roll for this ceremony once every 30 minutes.",
+        "RollResults": [
+            {
+                type: "line",
+                label: "Dramatic Failure",
+                text: "All successes are lost. Deathly energy erupts from the body, destroying it; the Sin-Eater suffers three points of lethal damage."
+            },
+            {
+                type: "line",
+                label: "Failure",
+                text: "No successes are gained."
+            },
+            {
+                type: "line",
+                label: "Success",
+                text: "Successes are gained. If the target number is reached, the ghost is bound into the body successfully."
+            },
+            {
+                type: "line",
+                label: "Exceptional Success",
+                text: "Successes are gained. If the target number is reached, the ghost receives an extra three days of “life.”"
+            }
+        ],
+        "Notes": [
+            {
+                type: "table",
+                title: "Suggested Modifiers",
+                headers: ["Modifier", "Situation"],
+                rows: [
+                    ["+2", "The body belongs to the chosen ghost."],
+                    ["+1", "The body belonged to a relative of the chosen ghost."],
+                    ["−1", "For every hour the body has been dead beyond 6."],
+                    ["−2", "The ghost is unwilling to enter the body."]
+                ]
+            }
+        ]
     }
 ]

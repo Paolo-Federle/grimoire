@@ -199,6 +199,22 @@ function hasElementalSection(combination, manifestation) {
   );
 }
 
+function hasManifestationMechanics(manifestation) {
+  return (
+    hasValue(manifestation?.FullActivationCost) ||
+    hasValue(manifestation?.DicePool) ||
+    hasValue(manifestation?.Action)
+  );
+}
+
+function hasElementalMechanics(manifestation) {
+  return (
+    hasValue(manifestation?.ElementalCost) ||
+    hasValue(manifestation?.ElementalDicePool) ||
+    hasValue(manifestation?.ElementalAction)
+  );
+}
+
 export default function ManifestationDetail(props) {
   const detail = props.manifestationDetail;
   const combination = detail?.combination;
@@ -223,9 +239,7 @@ export default function ManifestationDetail(props) {
       {manifestation ? (
         <AccordionSection title={manifestation.Name}>
           <DetailContent content={manifestation.Content} keySkill={keySkill} />
-          {hasValue(manifestation.FullActivationCost) ||
-          hasValue(manifestation.DicePool) ||
-          hasValue(manifestation.Action) ? (
+          {hasManifestationMechanics(manifestation) ? (
             <h2 className="mt-4 font-serif text-[20px] font-bold text-[#161616]">
               {normalizeDisplayText(`${manifestation.Name} Activation`)}
             </h2>
@@ -244,6 +258,11 @@ export default function ManifestationDetail(props) {
       {showElemental ? (
         <AccordionSection title={`The Elemental ${manifestation.Name}`}>
           <DetailContent content={stripRedundantElementalHeading(manifestation.ElementalContent)} keySkill={keySkill} />
+          {hasElementalMechanics(manifestation) ? (
+            <h2 className="mt-4 font-serif text-[20px] font-bold text-[#161616]">
+              {normalizeDisplayText(`Elemental ${manifestation.Name} Activation`)}
+            </h2>
+          ) : null}
           <MechanicsFields
             cost={manifestation.ElementalCost}
             dicePool={manifestation.ElementalDicePool}
