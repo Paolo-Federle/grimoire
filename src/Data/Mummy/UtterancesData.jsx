@@ -4,737 +4,2374 @@ const rawUtterancesData = [
         "Tier": "Ba •",
         "Descriptors": "",
         "Summary": "Force a touched corpse to truthfully share knowledge it had in life.",
-        "Book": "MTC 113"
+        "Book": "MTC 113",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Mummies defy death as corpses infused with life. With this tier, an Arisen may extend a spark of his own animation to a corpse, summoning echoes of the person that body used to be. He must touch the target gently, bathing it in the nimbus of his Sekhem. His player rolls Manipulation + Occult. If the corpse’s skull is not mostly intact, a -5 penalty applies to this roll. For each success, the Arisen may ask the corpse one question and extract a truthful reply."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Any information the deceased knew in life is fair game, but the body can only answer with yes or no (and always replies in the same language as the questions, even if it didn’t know that tongue in life). If the answer cannot be distilled down to yes or no, the cadaver remains silent, and that question is wasted. If the body is intact enough to have a mouth, it animates enough to speak its answer in a dusty whisper. Otherwise, the words mysteriously emanate from the general vicinity of the remains. Repeated unleashing of this Utterance can extract any number of answers from a body."
+                ]
+            }
+        ],
     },
     {
         "Name": "Awaken the Dead",
         "Tier": "Sheut •••",
         "Descriptors": "",
         "Summary": "Animates a corpse into a murderous zombie.",
-        "Book": "MTC 113"
+        "Book": "MTC 113",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "With this tier, the Arisen no longer asks. He commands. By his word and touch and a flare of undying power, he causes a mostly intact human corpse to rise and serve him as a Lifeless monstrosity (see sidebar). The creature has no real mind of its own and little to no recollection of its former self. It exists only to drag others into death, hunting down and killing all people and animals it encounters unless preempted by its creator’s orders. These it obeys to the best of its limited cognition."
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": [
+                    "Awakened Corpse Thrall"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Corpses animated by the second tier of Awaken the Dead have the following statistics and powers:"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Attributes",
+                "text": [
+                    "Intelligence 1, Wits 1, Resolve 2, Strength 1–7 (see below), Dexterity 2, Stamina 5, Presence 1, Manipulation 1, Composure 2"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Skills",
+                "text": [
+                    "Athletics 2, Brawl 3"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Willpower",
+                "text": [
+                    "1"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Initiative",
+                "text": [
+                    "4"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Defense",
+                "text": [
+                    "1"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Speed",
+                "text": [
+                    "11 (species factor 4)"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Size",
+                "text": [
+                    "(defined by corpse)"
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Health",
+                "text": [
+                    "6-10 (based on Size)"
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Decay:",
+                        "bold": true
+                    },
+                    " Corpse thralls can’t heal and suffer one automatic point of bashing damage every day that they exist from steady rot. This damage eventually destroys them, assuming they don’t meet a violent end first. The corpses appear dead while suffering any damage, but can pass for the living until then. All decay is suspended while in their creator’s tomb, but it catches up the moment a cadaver leaves that area (possibly rotting it instantly into dust)."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Hunger:",
+                        "bold": true
+                    },
+                    " The creatures hunger for the flesh of the living, with a lethal bite that inflicts +1 damage. Absent other orders, they will hunt down the living and gorge themselves on flesh, but they cannot swallow, and so they leave behind the chewed remnants of their grisly feats. The hunger is entirely spiritual and can’t be sated."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Languages:",
+                        "bold": true
+                    },
+                    " Corpse thralls do not recall any languages, by default, but understand their creator regardless of the language he speaks (to the limits of their meager intelligence). If the Storyteller prefers, they can speak a rough (monosyllabic) form of their native tongue."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Lifesense:",
+                        "bold": true
+                    },
+                    " The zombies have a pool of six dice to notice living beings (or overcome their Stealth). Child zombies balance their reduced toughness with improved awareness, with 12 dice being rolled to notice the living. Adult zombies only use this increased pool to notice their own children, siblings or parents. All of the creatures remain limited by their Attributes to noticing other things."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "No Mind:",
+                        "bold": true
+                    },
+                    " The creatures have no volition and can’t be reasoned with, mind controlled, or otherwise dissuaded from their assigned tasks. These horrors are monstrous killing machines, not people. They only do as bidden, relentless and pitiless."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Strength of the Grave:",
+                        "bold": true
+                    },
+                    " The manifestation modifier chart (see World of Darkness, p. 210) applies as bonus dots or reduced dots to the Strength of these zombies, starting from a base value of 4. That means the creatures possess Strength 7 in a graveyard or a tomb, falling to Strength 3 if they chase prey into an adjoining parking lot."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Unnatural Toughness:",
+                        "bold": true
+                    },
+                    " These zombies do not sleep, never become fatigued from exertion, and only suffer bashing damage from bullets. Lacking functional biology, they can’t become sick or poisoned, can’t suffocate, and otherwise ignore the burdens of life. The creatures are also immune to wound penalties and don’t fall unconscious when their health fills with bashing, even staying active when their health is full of lethal damage. Only aggravated damage can drop them (which they automatically suffer from fire). The zombies tear apart from the final five points of aggravated suffered, losing one limb per level until at last they lose their heads and their pulped torsos unravel into gore."
+                ]
+            }
+        ],
     },
     {
         "Name": "Awaken the Dead",
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Resurrects a once living being for a short time, but after the utterance expires they can never be again contacted by any means.",
-        "Book": "MTC 113"
+        "Book": "MTC 113",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The mummy can briefly resurrect the dead, working a miracle that defies and subverts the natural order (considered a sin against Memory for mummies with Memory 8+). Unleashing the tier requires him to touch human remains or the space occupied by a manifesting ghost. Should the target exist as both, then whichever half is not present vanishes from its current location and fuses into the touched half. Absent a ghost, a cadaver summons its departed essence from the great beyond. A simultaneous effort to resurrect a ghost and its flesh gives priority to the cadaver. The magic has no effect if the remains are already animated by supernatural power (like a vampire’s body). Neither may this tier affect a mummy, even while she is deceased."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The fused remains transmute to living flesh, rapidly regenerating back to perfect health in mere moments. The revived mortal’s memories include her entire life, plus any experiences as a ghost. She begins her new life with her traits at the time of death, plus full health and Willpower points. If the mummy desires, the departed returns wrapped in ancient Egyptian funereal linens conjured from raw magic; otherwise, she resurrects wearing whatever clothes adorn her remains."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Such a miracle cannot last. After (the mummy’s Memory + Sekhem) hours pass, the resurrected mortal’s body suddenly crumbles to dust and unravels into the great beyond, leaving no trace that can ever again be recalled by this Utterance or any other magic."
+                ]
+            }
+        ],
     },
     {
         "Name": "Blessed Is the God-King",
         "Tier": "Ren •",
         "Descriptors": "Subtle",
         "Summary": "Grants a personal blessing, which may be expended at any time during the scene for a significant target number reduction.",
-        "Book": "MTC 115, Dec 97"
+        "Book": "MTC 115, Dec 97",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Arisen invokes his obedience to Fate and mastery over it, a paradox of power from which he may summon good luck when he needs it most. He may not unleash this tier more than once per scene. Doing so enchants him with a “hanging” blessing that lasts indefinitely, waiting until his player reflexively spends the blessing to reduce the target number of a roll using the mummy’s Attributes and/or Skills by -2. Only one such blessing can enchant him at a time. Unlike most powers mummies possess to reduce target numbers, his player may wait to use this blessing until after he rolls and sees how many additional dice would be counted as successes at the lower target number."
+                ]
+            }
+        ],
     },
     {
         "Name": "Blessed Is the God-King",
         "Tier": "Ab •••",
         "Descriptors": "Subtle",
         "Summary": "Grants a blessing to oneself or another, that allows the target to re-roll a failed check if willpower was applied to the roll, once per scene.",
-        "Book": "MTC 115, Dec 97"
+        "Book": "MTC 115, Dec 97",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The mummy may unleash this tier upon himself or any person he has directly touched previously in the scene. Doing so imbues the target with good fortune for the next hour. While blessed by this magic, beneficiaries receive an added benefit whenever their players spend Willpower to enhance a roll—namely, a failed roll allows them to reroll their dice pool once and use the second result instead (whether better or even worse). The target number and dice pool remains the same, including the extra dice from Willpower expenditure. Stacking this tier on the same target resets the duration of the blessing."
+                ]
+            }
+        ],
     },
     {
         "Name": "Blessed Is the God-King",
         "Tier": "Decree •••••",
         "Descriptors": "Epic",
         "Summary": "The mummy transforms into a powerful godlike being, gaining many advantages, as well as additional ones for each Pillar they have rated at 5.",
-        "Book": "MTC 115, Dec 97"
+        "Book": "MTC 115, Dec 97",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Arisen unleashes his inner divinity along with this tier, transforming himself into an avatar of holy grandeur for the rest of the scene. This transformation confers the following effects:"
+                ]
+            },
+            {
+                "type": "list",
+                "items": [
+                    "His head transfigures into the animal associated with his decree, making his outward form reflect the essential truth of his soul. His senses heighten, allowing him to smell or listen for enemies and to see clearly in the dark. No one can possibly mistake him for human, and he constantly imposes Sybaris on all witnesses as though he possessed Sekhem 10.",
+                    "He grows in stature, increasing his Size by two. All worn and carried possessions grow in proportion with him, though this does not improve their statistics except by increasing their own Size (if applicable).",
+                    "He can reinforce his Attributes with Pillars as though he possessed Sekhem 10.",
+                    "All his actions using Attributes and/or Skills reduce their target number by -1.",
+                    "If he has Ba •••••, he can attack multiple targets each turn using a single weapon or two different attacks, duplicating the effects of the Fluid Attack Merit (see World of Darkness, p. 112).",
+                    "If he has Ka •••••, attacks targeting him add +1 to their target number.",
+                    "If he has Ren •••••, he may purchase Affinities at the reduced cost of 8 experience points each. These Affinities remain dormant unless he is currently unleashing this tier. His player may later pay the difference in experience to make these Affinities available at all times. He still can’t manifest Bane Affinities without prior contact with a Shuankhsen.",
+                    "If he has Sheut •••••, he can reflexively summon an accursed melee weapon forged of light and shadow to his grasp. It vanishes when he drops it (voluntarily or not), though he can simply conjure a replacement as needed. The specific weapon type must be one he is closely familiar with, such as an Egyptian khopesh rather than a generic sword. Whenever the weapon would inflict more than one point of damage, its owner may pull his blow and defer all wounds past the first point. Flesh-devouring rot then erupts outward from the cut or bruise, inflicting one point of automatic aggravated damage each successive turn until all deferred damage points are applied. Multiple deferred strikes on the same victim stack damage each turn, hastening the dissolution of flesh. Diseased victims die screaming and rot into stinking masses of putrid flesh in less than a minute.",
+                    "If this tier is unleashed for the climactic scene (one specific scene per story), no negative effects follow. Calling upon the divine form outside of these Fate-approved moments carries a karmic penalty. This bad luck increases the target number of all the character’s rolled actions using Attributes and/or Skills by +1 for a day after reverting back to the Arisen’s normal form. Moreover, he can’t unleash this tier again while the negative karma endures. Fortunately, the unleashing is only Epic while active, not in its penalized aftermath. Enemies can’t hone in on the mummy in his time of weakness."
+                ]
+            }
+        ],
     },
     {
         "Name": "Call Down the Black Huriyah",
         "Tier": "Ka •",
         "Descriptors": "Subtle",
         "Summary": "Summon wisps of guiding huriyah to direct you to the nearest source of power, or by rolling Presence + Occult, a specific object of power.",
-        "Book": "Dec 98"
+        "Book": "Dec 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Deceived calls upon the first part of the name of forgotten beings that exist only partially within the realm of Duat. The Keepers claim the black angels ‘live’ in the void between the bright stars and that they are composed of magical energy unsuitable for prolonged stays in Duat. Others say they are the vermin that crawl upon the husks of the black stars, hungering always to rekindle the dead fire of their hosts. The ancient magicians of Irem knew them as the watchers with wings of shadow-Sekhem and contact with them was one of the few blasphemous acts that made even those powerful sorcerers balk. At this tier of power the angels of darkness appear as barely visible shadows that flicker in and out of Twilight. They will unerringly lead the Deceived who summoned them to the nearest place or object of power. If she wishes, the mummy may direct the Huriyah towards an object she is familiar with by rolling Presence + Occult with a penalty equal to the rating of the nearest object of power. Powerful objects that are magically protected and/or magically concealed may require a Storyteller-determined roll on the part of the Deceived. The black angels make this roll possible and negate up to 3 dice worth of any penalties inflicted upon the Deceived."
+            }
+        ]
     },
     {
         "Name": "Call Down the Black Huriyah",
         "Tier": "Sheut •••",
         "Descriptors": "Curse, Epic",
         "Summary": "Suffuse the Twilight with a chorus of huriyah, inflicting aggravated damage to other beings there. Inflict a doubled cost on powers ruled by Sheut or pertaining to Twilight.",
-        "Book": "Dec 98"
+        "Book": "Dec 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By invoking a greater portion of their name, the Deceived allows the Black Huriyah to more fully express themselves in Duat. A chorus of shadowy forms appear in Twilight near the Deceived and their unearthly dirge burns with a strange power that tears at those who also happen to be in the Twilight realm. Until the end of the scene any being in Twilight, living or dead, within the immediate vicinity of the Deceived when he activates this Tier takes two aggravated wounds. Supernatural creatures may roll their Sekhem or equivalent characteristic to soak this damage. Additionally, any powers that have the Sheut Pillar as a requirement or that interact with Twilight have their costs doubled. The Deceived who called the black angels is exempt from this penalty and the damage inflicted as she is the conduit that allows their baleful presence to so strongly intrude on Duat."
+            }
+        ]
     },
     {
         "Name": "Call Down the Black Huriyah",
         "Tier": "Ren •••••",
         "Descriptors": "Curse, Epic",
         "Summary": "Sic the huriyah upon a victim as an extended action contesting Manipulation + Expression + Ren against Resolve + Composure + Tolerance, to drain Willpower or Sekhem.",
-        "Book": "Dec 98"
+        "Book": "Dec 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "After completing the naming of the Black Huriyah, the Deceived utters the name of a target she knows is within her immediate presence. In addition to the effects of the second tier, the shadow forms of the Black Huriyah take on a more distinct seeming within Twilight and the physical world at this tier. Their fluttering opaque shapes converge on the victim named by the Deceived and grasp his very essence in their intangible talons as the Deceived who summoned them recites the names of the black angels. In an extended contested roll, the Deceived reflexively rolls Manipulation + Expression + Ren against the victim’s Composure + Resolve + Sekhem. If the Deceived cannot gain 10 successes by the end of three turns, the black angels vanish without consuming any of the victim’s essence. If the Deceived should triumph, the Black Huriyah feast on the victim’s power, destroying a number of Sekhem points equal to one-half of the successes rolled by the Deceived. Other supernatural creatures targeted by this power lose Willpower points instead of Sekhem. If the black angels feasted successfully, the Deceived who called the Black Huriyah gains one dot of Sekhem at the end of the third turn (unless her sahu was destroyed in the process). Mortals can’t be targeted by this power."
+            }
+        ]
     },
     {
         "Name": "Chthonic Dominion",
         "Tier": "Ba •",
         "Descriptors": "",
         "Summary": "Conjures an orb of light, which reveals ghosts and allows them to communicate.",
-        "Book": "MTC 116"
+        "Book": "MTC 116",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The mummy conjures a pale orb of blue-tinted light the size of a child’s heart. The light appears somewhere within (Ba + Sekhem) yards and lasts until dismissed. Its creator can telepathically command it to follow her or to move to a new location within range like a faithful pet, zipping from point to point at whatever speed she imagines."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "The orb illuminates a three-yard radius with a glow as bright as the full moon. More importantly, the light reveals all ghosts within its radiance as if they were visibly manifested and further endows the dead with the power to freely communicate as though successfully using the Ghost Speech Numen (World of Darkness, p. 211) for every sentence. Ghosts possessing other beings or objects appear as a translucent overlay leaking through the forms of their hosts, but may otherwise be seen and heard normally. This unveiling is not optional, but it requires no effort from affected ghosts. The restless dead vanish from sight and hearing when they move beyond the light."
+                ]
+            }
+        ],
     },
     {
         "Name": "Chthonic Dominion",
         "Tier": "Sheut ••",
         "Descriptors": "",
         "Summary": "Issues a command to a ghost, which must comply if it fails a resistance check.",
-        "Book": "MTC 116"
+        "Book": "MTC 116",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Unleashing this tier allows the Arisen to issue one command to a ghost or revenant she can perceive. This command can be any length or complexity, but it must be a single concept (e.g. “Defend this tomb from all redheads unless they speak my name” or “Tell me how you died”). The task can be open ended with no way to complete it (e.g. “Stay here forever”), but it must be possible (e.g. no “Become a vampire”). Alternately, the mummy may target a person or object she suspects is possessed, though only to order any possessing ghosts to depart. The magic of the Utterance ensures the ghost understands the command regardless of language barriers."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Roll the Arisen’s Presence + (Persuasion or Intimidation, as appropriate), subtracting the ghost’s Resistance or Composure. This roll reduces its target number by -1 if the target ghost is illuminated by this Utterance’s first tier. If successful, the ghost must obey to the best of its abilities and must act in good faith to serve the spirit as well as the letter of its orders. Use of this tier overrides previous uses of this tier, so a ghost can only slave under one such compulsion at a time. Ghosts still risk degeneration for actions they are compelled to take, but receive a +1 bonus to resist."
+                ]
+            }
+        ],
     },
     {
         "Name": "Chthonic Dominion",
         "Tier": "Ren ••••",
         "Descriptors": "",
         "Summary": "Permanently modifies a ghost in some fashion, such as changing their Virtue/Vice, editing their anchors, or manipulating their memory.",
-        "Book": "MTC 116"
+        "Book": "MTC 116",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Arisen reshapes a lost soul. The mummy targets a ghost or revenant she can perceive or a known ghost, though the latter requires her to touch one of the ghost’s anchors at the time of unleashing. Targeting a ghost who is not present summons it into proximity with its anchor, as though it spent Willpower to do so. The spirit’s arrival is dramatic, heralded by a scream that precedes the screamer, audible to all witnesses."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Roll the Arisen’s Manipulation + Occult, subtracting a penalty of the ghost’s Resistance or Resolve. Each rolled success allows the mummy to impose one of the following transformations: change its Vice or Virtue, reassign new Morality rating (maximum of the ghost’s Morality at the time of death; raising Morality removes derangements normally), remove all metaphysical connection to one anchor (tearing away the final anchor obliterates the ghost utterly, annihilating all traces of its existence), assign a new anchor (which must be present), remove any number of memories (either specified experiences or spans of time such as “childhood”), or restore any forgotten memories (including supernaturally deleted ones). Unleashed upon on a ghost with the Impassioned Soul, the tier cannot give it Virtue, Vice, Morality, or anchors, but it can reassign or instill a Passion (maximum of three)."
+                ]
+            }
+        ],
     },
     {
         "Name": "Command the Beasts",
         "Tier": "Sheut •",
         "Descriptors": "",
         "Summary": "All animals become unable to percieve the Arisen for a scene.",
-        "Book": "MTC 117"
+        "Book": "MTC 117",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The mummy walks unmolested by the wild things of the world. Unleashing this tier provides perfect stealth against all non-sapient animals for one day. They will not interact with him or notice him under any circumstances unless he initiates physical contact with them, in which case they notice him for a single turn before losing interest again. All supernatural animals, cetaceans, and great apes are immune to this tier, as are any other particularly intelligent animals determined by the Storyteller."
+                ]
+            }
+        ],
     },
     {
         "Name": "Command the Beasts",
         "Tier": "Ren ••",
         "Descriptors": "",
         "Summary": "Become vastly more capable of influencing animals for a day.",
-        "Book": "MTC 117"
+        "Book": "MTC 117",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "Upon unleashing this tier, the mummy crowns himself a god of beasts for the next day. All Animal Ken rolls made for him reduce their target number by –1 (or by –2, if the Arisen meets the Ren ••• requirement). Moreover, on all rolls for him to train or command non-magical animals automatically succeed, unless his orders directly contradict another form of magical control or the animal’s essential nature (as adjudicated by the Storyteller). Finally, animals he commands can carry out complex instructions like a person with Intelligence 1 who shares a language with him, though commanded beasts are not any more intelligent on their own."
+                ]
+            }
+        ],
     },
     {
         "Name": "Command the Beasts",
         "Tier": "Sheut ••••",
         "Descriptors": "Curse, Epic, Potency 2",
         "Summary": "Curse a target such that all animals will seek to destroy them, no matter the cost.",
-        "Book": "MTC 117"
+        "Book": "MTC 117",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The Arisen may curse a single target or an area, turning all beasts against the object of his wrath. In either case, the center of the curse must be within (Sheut + Sekhem) yards at the time of unleashing, and the magic lasts for an equal number of days. The mummy may also add a delay of up to one day before the curse actually takes hold."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "To curse a target, the mummy’s player rolls Presence + Animal Ken in an opposed roll against the target’s Composure + Sekhem. Characters with the Virtue Prudence are immune; their higher dedication to measured reason sets them above the dominion of savage fury. Inanimate objects and structures are automatically affected. If successful, the curse attaches itself. For its duration, all non-magical animals who perceive the target react with maximum hostility, from the lowliest insects to the mightiest predators. Affected creatures attack the target with intent to destroy it utterly. Victims are not simply mauled, but torn to gobbets. All other forms of control magic trump this impulse, allowing the preceding tier to stop a particular assault."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    "Cursing a location radiates a mile in all directions from the designated center, making the magic Epic (individual curses don’t quite merit that label). All non-magical animals within the affected area attack any sapient being they can perceive in the manner described above (sparing mortals with Prudence as their Virtue). If cast upon the Arisen’s tomb, the curse only extends through that structure, but the magic lasts until revoked. The Arisen may also add filters, excluding potential victims who possess certain characteristics (e.g. women, those with shaved heads, people actively praying to the mummy, etc.). Filters can also limit the wrath to specific animal types such as “birds” or “scorpions” or “everything except cats.”"
+                ]
+            }
+        ],
     },
     {
         "Name": "Doom Affliction",
         "Tier": "Ab •",
         "Descriptors": "Curse, Potency 1, Subtle",
         "Summary": "Curse a target's skill rolls with increased target numbers for one day.",
-        "Book": "MTC 118"
+        "Book": "MTC 118",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": [
+                    "The mummy is a creature of Fate, both slave and master. Her will brings ruin to her enemies, tangling them in the darkest threads of destiny’s weave. To unleash this tier, she gestures toward a target victim within 100 yards, invoking the rituals of her guild to curse her foe with misfortune. Her player rolls Intelligence + Occult, resisted by the target’s Composure + Sekhem. If successful, the Utterance curses one of the target’s Skills for a day. Whenever the subject rolls a dice pool using one or more cursed Skills, the target number increases by +1. Repeated curses on the same Skill reset their duration."
+                ]
+            }
+        ],
     },
     {
         "Name": "Doom Affliction",
         "Tier": "Ka ••",
         "Descriptors": "Curse, Potency 2, Subtle",
         "Summary": "Curse a target, such that all attacks against them gain target number reduction for one hour.",
-        "Book": "MTC 118"
+        "Book": "MTC 118",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "From misfortune to murderous harm, the curse of this tier uses the same rules to resolve success. The resulting curse targets the enemy rather than his Skills, reducing the target number by -1 for all rolled attacks and hostile actions solely targeting the foe. This effect endures for one hour. Repeated application resets the duration."
+            }
+        ]
     },
     {
         "Name": "Doom Affliction",
         "Tier": "Ba ••••",
         "Descriptors": "Curse, Potency 3, Subtle",
         "Summary": "Curse a single observed roll of a target with an increased target number, and inflicts dramatic failure if they do not succeed.",
-        "Book": "MTC 118"
+        "Book": "MTC 118",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy unleashes this tier reflexively to mar another’s observed efforts, her swift incantations adding +1 to the target number of any single roll involving an Attribute and/or Skill. The curse also causes any failure to be treated as a dramatic failure in terms of resulting consequence."
+            }
+        ]
     },
     {
-        "Name": "Draw Forth the Bane Heart",
+        "Name": "Draw forth the bane heart",
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
-        "Summary": "Expose Twilight beings to the material realm.",
-        "Book": "Dec 99"
+        "Summary": "",
+        "Book": "Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Deceived summons forth power from the realm of the dead. She penetrates the veil of Twilight and shields herself from the darker beings that may dwell there. Some believe this power calls upon the power of the Devourer, but that is unlikely given how Shuankhsen find Utterances so difficult to master. After activating this power the Deceived reveals all the spirits within the Twilight realm that are within her presence. Mortals may be startled or panicked if this power is used in their presence as alien translucent creatures seemingly materialize in the air around them. The Twilight realm is visible to all until the beginning of the mummy’s next turn."
+            }
+        ]
     },
     {
-        "Name": "Draw Forth the Bane Heart",
+        "Name": "Draw forth the bane heart",
         "Tier": "Ab •••",
         "Descriptors": "",
-        "Summary": "Lethally injured living beings continually roll Stamina against worsening wounds.",
-        "Book": "Dec 99"
+        "Summary": "",
+        "Book": "Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This power works as tier 1 above, except that revealed spirits remain visible until the end of the scene. Unfortunately the powers unleashed by this tier have a most unhealthy effect upon open wounds in living flesh. Any living creature within the Deceived’s presence who has one or more lethal wounds must make a Stamina roll at the start of its turn. Failure indicates the mortal’s wounds turn sour and slick with an oozing pus that inflicts two more lethal wounds."
+            }
+        ]
     },
     {
-        "Name": "Draw Forth the Bane Heart",
+        "Name": "Draw forth the bane heart",
         "Tier": "Ren •••••",
         "Descriptors": "",
-        "Summary": "Exposed ephemeral beings may be struck by material beings. Penalize the Stamina roll by -2.",
-        "Book": "Dec 99"
+        "Summary": "",
+        "Book": "Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This power works as tier 2 above, except that revealed spirits may be targeted and harmed by mundane damage until the end of the scene. Additionally, any living creature within the Deceived’s presence who has one or more lethal wounds must make a Stamina roll with a -2 penalty at the start of its turn. Failure indicates the mortal’s wounds turn sour and slick with an oozing pus that inflicts two lethal wounds."
+            }
+        ]
     },
     {
         "Name": "Dreams of Dead Gods",
         "Tier": "Ba •",
         "Descriptors": "Potency 1",
         "Summary": "Inflicts powerful dreams upon all allies and enemies alike for extended periods, causing derangements that would be advantageous to the mummy. Can be activated even during rest.",
-        "Book": "MTC 118, Dec 99"
+        "Book": "MTC 118, Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By unleashing this reflexive tier, the Arisen scatters mad dreams across the cosmos like stars upon the void. Fate guides who discovers these dreams, keeping their wisdom chiefly among the mind’s eyes of allies and enemies."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Arisen may defer the cost of the unleashing this tier to the future, but he must pay it as soon as he physically can do so beginning the turn after the unleashing. This peculiar achronal aspect of the magic is important because mummies may unleash the tier even while their souls rest in Duat—then pay the cost upon rising. The enchantment of the tier lasts one day, or the entirety of a death cycle if unleashed within death."
+            },
+            {
+                "type": "paragraph",
+                "text": "During the period of enchantment, the scattered dreams “attack” individuals chosen by Fate whenever they sleep (but no more than once per night). The tier’s power reaches across all distance, potentially intruding upon the minds of people living on the opposite side of the planet. Enemies who plan injurious harm to the mummy or members of his cult experience vivid nightmares of the Arisen’s unholy wrath. Those who are allies (or could likely become such) dream clues to help them find the mummy and summon him again. Cultists dream of miracles affirming their faith, absent specific information more useful to their master. Barring a few random prophets and madmen, only those with a serious connection to the Arisen (positive or negative) experience these dream assaults. Peculiarly, Fate does show a predilection for blood inheritance: the children of those drawn toward a mummy’s story almost always feel the same pull if they ever develop the qualities that drew fate’s attention to their parents."
+            },
+            {
+                "type": "paragraph",
+                "text": "When the tier is unleashed, the mummy’s player rolls Manipulation + Occult + Ba. The successes of this roll are compared as needed against the statistics of dreamers to prevent rolling separately for each vision. Dreamers with (lower of Resolve and Composure) + Sekhem less than the rolled successes temporarily gain one flux derangement for one week. Add a +1 modifier to a victim’s Resolve and Composure if she went to sleep under the influence of alcohol or other intoxicants and +1 if she gained Willpower from either Virtue or Vice in the past day. Additional successful dream attacks from the same mummy reset the duration of this curse. Dreamers may be so unfortunate as to suffer dream attacks from multiple mummies."
+            },
+            {
+                "type": "paragraph",
+                "text": "Per its name, a flux derangement changes in accordance with the necessities of Fate and may take mild or severe forms for mortal victims (including Witnesses). Supernatural beings only suffer mild forms. Hunters on the mummy’s trail, for instance, may be instilled with Avoidance or Inferiority Complex to deter their pursuit, or instilled with Narcissism to find their quarry and then melt down in total Hysteria. An eminent archeologist whose skills could help recover the mummy’s remains may find herself developing a Fixation for her work or Paranoia driving her to launch an expedition before imagined rivals can beat her to the dig. A cultist’s Schizophrenia grants revelatory visions of what her Arisen god most needs her to do. (See World of Darkness, pp. 96-100, for information on these derangements and their effects.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Victims afflicted with a flux derangement can escape it by ceasing to be important supporting characters in the mummy’s story. This really only works for victims Fate is trying to drive out, such as hunters giving up their chase. Those whom Fate would draw into the Arisen’s tale have no such recourse, as they cannot flee the role appointed them. However, a victim’s players can reflexively spend one Willpower at any time for her character to fight the curse. This allows her to ignore the derangement for one day, starting the next scene (so she can actually be surprised by sudden worsening of the derangement). Spending three cumulative points this way in the same story inoculates the victim against further dream attacks by that mummy for the rest of the story. With seven cumulative points spent, the resistance broadens to all mummies using this tier."
+            }
+        ]
     },
     {
         "Name": "Dreams of Dead Gods",
         "Tier": "Ka ••",
         "Descriptors": "Curse, Potency 1",
         "Summary": "Inflicts either an alluring or terrifying dream upon a specific target.",
-        "Book": "MTC 118, Dec 99"
+        "Book": "MTC 118, Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "To unleash this tier, a mummy chooses a sapient being he has perceived in the past day, either via his own senses or through some clairvoyant magic. His player rolls Manipulation + Occult + Ka, resisted by the target’s Composure + Sekhem. If the two characters interacted casually, like saying hello as they passed one another on the street, the mummy reduces the target number of his roll by –1. If they had an intense encounter like a sexual liaison or getting in a fight (as allies or enemies), the target number reduction is –2."
+            },
+            {
+                "type": "paragraph",
+                "text": "A successful roll curses the target to dream of the mummy when next she sleeps or meditates, beginning five minutes after she falls asleep or enters a meditative state. The imparted vision is either seductive or frightening. The effects depend on the type of dreams as explained below."
+            },
+            {
+                "type": "paragraph",
+                "text": "An alluring dream allows the mummy to take reflexive seduction actions using his full dice pool as though he were present. His player’s rolls lower their target number by –1 if the victim’s Vice is Lust. When he places the curse, the Arisen designates the setting of the seduction and may use that to ensure a maximum equipment bonus. He only brings Striking Looks into the vision if he possesses such beauty in reality. The dream lasts only for the span of the seduction process itself and the erotic visions that follow if the mummy prevails. Victims whose sexual orientation would not normally find the mummy’s gender sexually attractive experience a more platonic seduction, admiring the Arisen as a captivating new friend. In either case, the dream occurs in real time, so the seduction may be interrupted if the dreamer is awakened."
+            },
+            {
+                "type": "paragraph",
+                "text": "A victim seduced by a mummy’s dream wakes with one additional Willpower point recovered from sleep. This benefit doesn’t stack with multiple dreams. However, the dreamer remains more vulnerable to the Arisen’s power after she awakens. All rolls made for him to affect her with Utterances (using any dice pool) or socially affect her with Attribute and/or Skills reduce their target number by –1 for a week. More importantly, if her attraction is sexual and she encounters the Arisen again in any situation where seduction wouldn’t place her in immediate danger, she feels the irresistible urge to throw herself at the god who ravished her dreams. She must take seduction actions aimed at the mummy, who is free to surrender and accept her overtures. If he resists, her charms may still overpower him. However, if he resists successfully, his rejection crushes her soul, and she loses two Willpower points (or three if her Vice is Lust)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Victims of terrifying dreams find themselves in whatever setting the Arisen inflicts, though imagery tends toward apocalyptic devastation and ancient dungeons. Within this dreamscape, the mummy’s likeness reflexively interrogates the victim to learn the specific information the curse was programmed to extract. The Arisen’s avatar applies whatever modifiers it wants to its own or the victim’s rolls from the examples listed on page 82 of World of Darkness, like torturing her or depicting her loved ones suffering. The victim can’t resist what the dream “physically” does to her, but cracks or not as appropriate to the interrogation rolls. As with seduction, the dream occurs in real time and may be escaped by awakening. If the victim cracks, the mummy who placed the curse experiences a compressed replay of the dream when next he meditates. This psychedelic torrent conveys the entirety of the interrogation in an instant, allowing the Arisen to savor the breaking of his enemy as a prelude to the answers he seeks."
+            }
+        ]
     },
     {
         "Name": "Dreams of Dead Gods",
         "Tier": "Ab ••••",
         "Descriptors": "Curse, Potency 1",
         "Summary": "Anoints a target (potentially the mummy herself) with an intense of aura of terror, desirability, or grandeur.",
-        "Book": "MTC 118, Dec 99"
+        "Book": "MTC 118, Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy targets himself or a character he can perceive within (Sekhem + Memory) yards and invokes ruin, love, or grandeur upon that target’s aura. The Arisen’s player rolls Manipulation + Occult + Ab. The curse may be resisted with a Composure + Sekhem roll. If successful, the effects depend on the type of marking. A given character may only suffer one curse via this tier; adding another replaces the first."
+            },
+            {
+                "type": "paragraph",
+                "text": "Ruin envelops the victim in an aura of distrust for a week. No one believes her unless it is harmful to her that they do so. In any situation where she speaks the truth, others perceive her to be scheming, dissembling, or outright lying. No one gives her the benefit of the doubt on anything. Fundamentally, everyone knows she’s just a terrible person and reacts accordingly within the limits of acceptable decency. As a result, all Social rolls made for the victim suffer a -5 penalty while she’s cursed. Characters willing to look past their strong gut-level aversion can resist with via a successful Wits + Empathy roll made by their players. If the number of successes is equal or greater than the number of successes rolled to unleash the tier, that character realizes the victim isn’t as bad as she thought and reacts normally (i.e., no penalty to interact with her for the duration of the curse). Mummies may shroud themselves in ruin as a self-imposed flaw, hoping to grow from or seek penance in unrelenting scorn."
+            },
+            {
+                "type": "paragraph",
+                "text": "A love curse lasts (Ab rating) days and makes the victim sexually attractive to whatever set of people the Arisen names, as broadly or narrowly as desired. She may draw the attention of bad boys (Morality 4 or less), young adults, mages, or anything else the mummy’s player can articulate, though the mummy must be familiar with the category. This lust overrides normal orientation preference. All sapient beings meeting the criteria who encounter the curse victim feels sexual attraction toward her, but it can be resisted with a Composure + Sekhem roll. If the attracted character’s successes equal or exceed the unleashing activation roll, he may act as he pleases; otherwise, he is compelled to make a seduction attempt targeting the accursed as soon as the situation permits. She may acquiesce or resist, but she can expect to face many suitors, not all of whom may take no for an answer. Should her resistance fail, the natural consequences follow."
+            },
+            {
+                "type": "paragraph",
+                "text": "Grandeur anoints the accursed with an aura of mystical authority for one day. If the mummy targets himself within his own tomb, the enchantment lasts until he leaves his home. This aura provides a +3 bonus to all Social interactions with mortals (not including Witnesses). It also makes the accursed extremely noticeable and memorable, adding a +5 bonus to anyone’s attempts to spot her, overcome her Stealth or remember her later."
+            },
+            {
+                "type": "paragraph",
+                "text": "Should the Arisen unleash grandeur upon himself, he may later take an instant action to rally all mortals who can hear him within a half mile. Taking this action uses up the enchantment and terminates the unleashing. The mummy’s player rolls Manipulation + Persuasion + Ab, applying manifestation location modifiers (World of Darkness, p. 210). All potential targets with a Resolve equal to or less than the rolled successes fall under the spell and begin slowly chanting his name in unison. Witnesses are immune. Chanting characters act as though they succumbed to a Fugue derangement (World of Darkness, p. 100) for the rest of the scene, leaving them with a confusing gap in memory when they regain their senses. If the mummy stays through the scene and basks in the forced adulation, he regains one Willpower point. Such is the vice of gods."
+            }
+        ]
     },
     {
         "Name": "Dust Beneath Feet",
         "Tier": "Ba •",
         "Descriptors": "",
         "Summary": "Grants the mummy mastery of earth and stone, able to command it to certain tasks, as well as giving the ability to swim through it as water.",
-        "Book": "MTC 120"
+        "Book": "MTC 120",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy is ultimately a creature of dust given form and life by the Rite of Return, infinitely more permanent than the matter that clothes her soul. Nonetheless, that dust is hers, and by this Utterance, so all else may be. As this tier unleashes, the mummy’s Sekhem bonds with the surrounding earth for an hour. She can extend the duration to indefinite within her tomb, but using this benefit makes the unleashing terminate as soon as she leaves her tomb. This earthen attunement grants the following powers and benefits:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Whenever she suffers falling damage from landing on an earthen surface (glass, sand, dust, mud, clay, dirt, stone, gravel, concrete, asphalt, metal, etc.), she can spend the next turn doing nothing but regenerating. She heals all damage from the fall, plus all bashing and lethal damage suffered on the turn spent healing. Even aggravated or fatal damage from falling regenerates, causing her crushed body to physically reassemble in the span of heartbeats.",
+                    "She can choose to swim through any inanimate objects made of earthen materials as though they were water, aided greatly by not needing to breathe. She can swim in soil beneath foes or down into the walls of a concrete bunker. Her carried and worn possessions come with her, though she cannot take animate passengers. The material closes behind her as it was before, leaving no trace of her passage. This power also lets her do things such as jump through a metal bank vault door like splashing through a light waterfall or swan dive through a parking deck’s concrete floor to land on the level below. While displacing matter, she can see through that material as though it were well illuminated and transparent out to (Ka + Sekhem) yards.",
+                    "She can take an instant action commanding loose earthen material within (Sekhem rating) yards to transform and exalt itself into robes, tunics, mummification bandages or other simple garments associated with Irem and ancient Egypt. The clothes endure as appropriate to their material and are in no way magical, just wondrous in origin. The power can dress a willing subject in the finest raiment from the dirt beneath his feet. He need only stretch out his limbs to receive the gift. The Arisen may let Fate guide the design of its gifts, rather than impose a particular pattern. Unsurprisingly, gowns and robes provided by Fate are often described as timeless, classical, and perfectly suited to the occasion.",
+                    "If caught in a landslide, earthquake (like that conjured by the third tier), or other earth-based natural disaster, she instinctively swims through earth and regenerates from falls in such a manner that she finds her way safely to the surface without any injuries. She can manage this feat automatically, even while unconscious.",
+                    "While enchanted by this tier, she may then cast its blessing upon any willing beneficiary she is touching by using a separate unleashing to do so."
+                ]
+            }
+        ]
     },
     {
         "Name": "Dust Beneath Feet",
         "Tier": "Ka •••",
         "Descriptors": "Curse",
         "Summary": "Forms an immense earthen exosuit around the mummy, granting many physical bonuses.",
-        "Book": "MTC 120"
+        "Book": "MTC 120",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Life makes dust into something more, but this tier doesn’t quite manage that. Instead, earth adds to life, gathering loose earthen material from the surrounding environment and telekinetically assembling it around the mummy’s body to form a giant statue of herself. If such material is not available, the unleashing fails. This monolithic exoskeleton provides the following benefits for the same duration as the preceding tier (including tomb extension)."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Her Size increases by (her Ka rating), increasing her weight by roughly 500 pounds per dot of Size increase. At most, she is like an elephant rearing up on its hind legs, an unholy colossus. Her Dexterity is penalized by half that amount (minimum Dexterity 1). No one can possibly mistake her for human, and she constantly imposes Sybaris on all witnesses as though she possessed Sekhem 10.",
+                    "The shell of compressed earth provides armor with rating 3/4, Strength requirement of (Ka rating), Defense penalty (none: represented by Dexterity penalty), and Speed penalty of (Ka rating).",
+                    "She adds her Ka rating to her Strength to damage, lift or otherwise manipulate earthen materials. Strength-based dice pools enhanced this way also benefit from the 8-again rule, such as to attack a stone amulet worn by an enemy. The bonuses also apply to Intimidation against roughly human-sized targets, unless Strength is already part of the dice pool.",
+                    "She can use the preceding tier to swim out of the armor rather than wearing it, leaving behind a massive statue of herself with appropriate Size, Durability equal to her Ka rating, and whatever Structure this results in. Such statues are widely revered as holy icons by Arisen cults. Unleashing this tier as a death curse encases the mummy’s body within such a sarcophagus statue as a deterrent to desecration or corpse theft, especially as it fully protects her from all fire not hot enough to burn through the heavy stone."
+                ]
+            }
+        ]
     },
     {
         "Name": "Dust Beneath Feet",
         "Tier": "Sheut ••••",
         "Descriptors": "Curse, Epic",
         "Summary": "Inflicts a moderately powerful earthquake on a large region.",
-        "Book": "MTC 120"
-    },
-    {
-        "Name": "Fire from Sand",
-        "Tier": "Ba •",
-        "Descriptors": "",
-        "Summary": "Ignite combustible solids.",
-        "Book": "DE 454"
-    },
-    {
-        "Name": "Fire from Sand",
-        "Tier": "Ren/Sheut •••",
-        "Descriptors": "",
-        "Summary": "Ignite flammable liquids.",
-        "Book": "DE 454"
-    },
-    {
-        "Name": "Fire from Sand",
-        "Tier": "Ab •••••",
-        "Descriptors": "Curse",
-        "Summary": "Ignite all combustibles that hear your voice, making exceptions as you wish.",
-        "Book": "DE 454"
+        "Book": "MTC 120",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy unleashes her wrath through the earth beneath her, stirring the land like a thrashing dragon buried beneath it. Unleashing this Utterance requires ritual incantations lasting three days straight. Any physical distraction is enough to force her to start over. When the rite ends, the mummy’s player rolls Strength + Occult and must gain exceptional success to begin the devastation. The Arisen may add a delay of up to one day, giving herself time to leave the area before the shaking begins."
+            },
+            {
+                "type": "paragraph",
+                "text": "The unleashed earthquake centers on its creator and is roughly magnitude 6.0 on the Richter scale, unleashing serious destruction within approximately 10 miles. This won’t topple most modern buildings designed to withstand tremors, save perhaps those directly at the epicenter. Sporadic building collapse and lesser damage extends as far as 50 miles away, but the quake can be felt by people 300 miles away. Storytellers should consult descriptions of historical earthquakes and consider the attention paid to earthquake resistance in local building codes when determining the exact effects (e.g., a tremor in Manhattan will wreak havoc it could not in Los Angeles). Actual damage to people may be nigh-infinite for those Fate casts beneath falling skyscrapers, while others escape with mere bruises and scrapes. The Arisen cannot know how anyone will fare, only that the area will suffer terribly."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mummies feeling merciful can spend the last day of their ritual pacing the perimeter of a narrower space while dancing, singing, playing a musical instrument, or otherwise engaging in mindful practice in endless loops around their quarry. When the day ends and the earthquake strikes, it does so immediately, emerging from the center of the defined loop with no delay. However, the disaster ends completely at the edge of the perimeter, leaving the mummy standing just outside the quivering ruins. Only Arisen at Sekhem 8 or higher may unleash this tier as a death curse, but they may do so without any ritual as though they had paced any desired perimeter within the possible area."
+            },
+            {
+                "type": "paragraph",
+                "text": "The earthquake wrought by this tier is not the only calamity. The earth disturbs the dead, giving all ghosts within 10 miles the entirety of that main quake-damaged zone as a single anchor. Affected spirits gain free rein to haunt there as they please, a privilege in which many revel, celebrating their newfound freedom with violent haunting directed at construction workers and others attempting to lessen the ghost’s range via repairs. Worse, the manifestation location modifier for the shared anchor swells to +5, lessening by +1 per sunrise until it drops to its normal level for each specific location in that area."
+            }
+        ]
     },
     {
         "Name": "Forgetting the Name",
         "Tier": "Sheut •",
         "Descriptors": "Epic",
         "Summary": "Use a mortal's given name to doom them to destruction and obscurity.",
-        "Book": "Dec 99"
+        "Book": "Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This rare power is one of the most closely held secrets of the Deceived as it comes closest in effect to the true name magic they perfected during the time of the Nameless Empire. This power cannot be used at any Tier without using the given name of the intended victim. In ancient times it is possible the most powerful of the Deceived could have erased beings from existence and memory, but now they can only achieve a fragment of their former power. By calling out a mortal’s name, the Deceived can wipe him from book of life and death with this formidable Utterance. Mortals of little note or without supernatural protection are instantly struck dead by the mummy’s power. A mortal who resides more than a few miles away from the mummy may have a few extra moments of life, but unless brought under mystical protection his life too will come to an end. Mortals of exceptional character are harder to forget and can even sense their impending doom. These mortals are granted a reprieve of 24 hours before being struck dead by this power, in that time they sense they are in grave danger but not the exact nature of the threat. If the Deceived is destroyed or repudiates the power before it takes effect, the mortal will be spared. Usually only mortals with an exceptionally high Morality or Willpower have this resistance, but the Storyteller is the final arbiter. After his death the mortal is quickly forgotten by other non-supernatural beings and within a year even his closest friends and family remember him rarely."
+            }
+        ]
     },
     {
         "Name": "Forgetting the Name",
         "Tier": "Ab ••",
         "Descriptors": "Epic",
         "Summary": "Contest Wits + Ren against Resolve + Tolerance to doom supernatural beings.",
-        "Book": "Dec 99"
+        "Book": "Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This power functions as tier 1 above except it may target supernatural beings, but not other mummies. Targeted supernatural beings may resist by rolling Resolve + their relevant supernatural power Trait (i.e., Sekhem, Blood Potency, etc.) contested by the Deceived’s roll of Wits + Ren. If the Deceived fails this roll she cannot target the same victim with this power for the remainder of the story, although she may immediately spend 1 Ab to force a re-roll of both die pools with the Deceived incurring a -2 penalty. If the mummy is successful the supernatural being will intuitively understand his jeopardy and will have 48 hours until he is inexplicably destroyed. After he meets his end, mortals and supernaturals alike will have a -3 penalty on any rolls to recall specific details concerning the victim. Mummies are immune to this effect on their memory."
+            }
+        ]
     },
     {
         "Name": "Forgetting the Name",
         "Tier": "Ren ••••",
         "Descriptors": "Epic",
         "Summary": "Contest Wits + Ren against Resolve + Sekhem to doom the Deathless to the loss of Memory.",
-        "Book": "Dec 99"
+        "Book": "Dec 99",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier may only target other mummies. Although the Rite of Return thwarts any attempt to truly destroy a mummy, it offers little protection for the mummy’s sense of self. That part of him that ultimately divides him from the Judges of Duat and unthinking acquiescence to their will. Thus, the Rite of Return shields the Arisen by sacrificing his Memory to the power unleashed upon him. Mummies may resist this power by rolling Resolve + Sekhem vs. the Deceived’s roll of Wits + Ren. If the Deceived fails this roll she cannot target the same victim with this power for the remainder of the story, although she may immediately spend 1 Ren to force a re-roll of both die pools with the Deceived incurring a -2 penalty. If the Deceived is successful the victim takes a -1 cumulative penalty to his Memory rating every 24 hours. Once the penalty is equal to the number of successes garnered by the Deceived no further penalties are inflicted. An Arisen’s Memory cannot be penalized below 0 by this power. Unless the Deceived using it is killed or repudiates this power, this penalty remains until the end of the story. This penalty can be mitigated if the Arisen’s Cult and meret act quickly to help him recover his identity. Once a day a victim with such aid can attempt an Intelligence + Composure roll to avoid accruing additional Memory penalties. Penalties already in place cannot be removed until the end of the story or by confronting the Deceived responsible."
+            }
+        ]
     },
     {
         "Name": "Gift of the Golden Ankh",
         "Tier": "Ka •",
         "Descriptors": "",
         "Summary": "Bolsters the Strength or Stamina of a chosen target, but granting 9-again to intimidate them.",
-        "Book": "MTC 121"
+        "Book": "MTC 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen sometimes wake from a dream in which they remember only a vast ankh shining like a sun against the infinite blackness of the cosmos. From this shared vision, they speak this dream into form, summoning a blazing icon of this primal symbol in front of their hands, a glyph of luminous miracles through which life pours."
+            },
+            {
+                "type": "paragraph",
+                "text": "By focusing the ankh’s shining power upon a mortal (including a Witness) within (Memory + Sekhem) yards, the Sekhem spent for the unleashing reinforces the beneficiary’s Strength or Stamina as though she were a Sekhem 1 mummy reinforcing herself. As the rays spread out, bathing the recipient in a golden corona, the ankh collapses, and the unleashing ends. The bestowed reinforcement endures as normal for the rest of the scene. Beneficiaries with the Vice of Pride retain the blessing for an hour, if longer than the scene."
+            },
+            {
+                "type": "paragraph",
+                "text": "The unleashing Arisen applies the 9 again rule to all Intimidation and Persuasion rolls solely targeting mortals reinforced by this tier. Their blessing is his blessing, for his gift lends fearful credibility to his words."
+            }
+        ]
     },
     {
         "Name": "Gift of the Golden Ankh",
         "Tier": "Ba •••",
         "Descriptors": "",
         "Summary": "Blesses a target with various physical merits.",
-        "Book": "MTC 121"
+        "Book": "MTC 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy may shine the ankh’s empowering nimbus as per the preceding tier to grant one selection of temporary Merits from the list below to a single beneficiary capable of possessing the traits in question. Invalid targets waste the unleashing. The Arisen may even shine the light upon himself. Bestowed Merits last for 12 hours before fading away (or one day for mortals with the Vice of Envy, including Witnesses). A character may receive multiple Merit selections through separate unleashings, but applying the same package twice only resets the duration of that blessing. (See World of Darkness, pp. 110-113, for information on these Merits and their effects.)"
+            },
+            {
+                "type": "line",
+                "label": "Bestowed Merit Options",
+                "text": "Ambidextrous (•••); Fleet of Foot (•••); Iron Stamina (•••); Iron Stomach and Strong Back (•• and •); Natural Immunity and Toxin Resistance (• and ••); Strong Lungs (•••)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Should a beneficiary intentionally attack the mummy who granted her Merits, the blessing immediately terminates and converts to a reflexive curse. Roll the mummy’s Sekhem, applying a penalty of the target’s Composure. Success removes two Willpower points from the ungrateful wretch who squandered the blessings of a god for a futile betrayal."
+            }
+        ]
     },
     {
         "Name": "Gift of the Golden Ankh",
         "Tier": "Ab •••••",
         "Descriptors": "",
         "Summary": "Heals undead in the area, and allows the expenditure of dots of Sekhem to truly resurrect those who have been dead for very short amounts of time.",
-        "Book": "MTC 121"
+        "Book": "MTC 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier follows the same process as those before it. The summoned ankh grants life itself, healing any animate being its golden light illumines. Even Lifeless things such as zombies may be mystically regenerated toward pristine corpses and ghosts may be granted Corpus. The mummy’s player rolls Sekhem, reducing the target number by -2. Each success downgrades one point of lethal damage to bashing damage. If successes remain after downgrading all lethal damage, remaining successes heal bashing damage outright on a one-for-one basis. The tier may only gift the same target with healing once per scene, unless attempting resurrection (see below)."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the Arisen attempts the impossible by trying to heal a mortal’s corpse, he may find himself faced with an unthinkable choice. The body must be extremely fresh, having died no longer ago than the mummy’s Memory rating in minutes. Additionally, the body must be predominantly intact, with a bare minimum of most of its head and torso. Decapitated, hacked-apart, exploded, and cremated bodies are beyond repair (among other unpleasant fates). If all these conditions are met, the mummy can sacrifice a dot of Sekhem to resurrect the deceased. She returns forever changed, permanently transformed into a Witness by purchasing the Witness Merit immediately (even if doing so puts her into experience debt)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The patient returns to life with one point of bashing damage per success on the mummy’s Sekhem roll, with the remainder of her health filled with aggravated damage. For example, three successes mean the beneficiary resurrects with bashing damage in her last three levels instead of the aggravated filling everything else. Needless to say, the dead brought back to life this way often require additional healing magic or severe and immediate medical attention just to avoid dying again."
+            }
+        ]
     },
     {
         "Name": "Kiss of Apep",
         "Tier": "Ren •",
         "Descriptors": "Curse, Potency 1",
         "Summary": "Inflicts a terrible wasting on a touched target, which gradually destroys them unless they make some successful rolls.",
-        "Book": "MTC 122, Dec 100"
+        "Book": "MTC 122, Dec 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy’s touch is ruin, for she is death and life beyond imagining, the crushing hand of eternity. She may unleash this tier reflexively whenever she successfully touches an opponent’s skin (World of Darkness, p. 157). Unholy power sparks and hisses with eerie foxfire hues. The spectral energy soaks into the point of contact and spreads through the victim’s veins, shining softly through the skin as it permeates his entire body. Only then does the light fade, as the true horror begins."
+            },
+            {
+                "type": "paragraph",
+                "text": "As the unleashing takes hold, roll the mummy’s Ren + Sekhem, resisted by the target’s Stamina + Sekhem. Victims with Fortitude as their Virtue add +2 dice. If the mummy wins, the victim contracts a supernatural disease that can infect any animate being, living or dead. Even ghosts can be infected by touching the space their Corpus incorporeally occupies. The malady immediately inflicts one automatic point of bashing damage and prevents healing by any means for an hour (natural or supernatural). The constant wracking pain of the sickness also imposes a –2 wound penalty, cumulative with any penalties from actual injury. After an hour, the opposed roll repeats."
+            },
+            {
+                "type": "paragraph",
+                "text": "Modern medicine cannot halt the curse of the mummy’s grasp, but it can slow it. A drug treatment devised with an exceptional success on an Intelligence + Medicine roll that takes one hour to complete can arrest the progression to one point of damage per day instead of per hour. This requires medicines worth a Resources 3 purchase each day. Developing a cure uses the same action, but the healer’s Medicine rating is capped by the highest Occult rating of advisers consulting with her (which may be her own Occult). Additionally, the roll suffers a –2 penalty unless the supernatural consultant has an Occult specialty pertaining to ancient Egyptian magic. The medicine and herbs necessary to formulate a cure cost Resources 3 (or 4 outside of the Middle East or a large modern city, assuming the supplies are available at all)."
+            },
+            {
+                "type": "paragraph",
+                "text": "If at any point the victim wins the contested roll, the disease halts its ravages, and he may begin to heal. Otherwise, the plague steadily consumes his flesh, withering it away through accelerated aging until the flesh dries up and withers to dust. Eventually, even his bones decay as their matter scatters forward through the ages, dissipated across all of time as a bloodstain marking the forward march of eternity. Only Deathless targets resist this fate, throwing off the disease as soon as they age to death so that they may return again."
+            }
+        ]
     },
     {
         "Name": "Kiss of Apep",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Anoints an object with a Death Curse, affecting anyone who damages or destroys the blessed item.",
-        "Book": "MTC 122, Dec 100"
+        "Book": "MTC 122, Dec 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "To unleash this tier, the Arisen holds an object owned by her cult or her personally and ritually speaks incantations into it from sunset to the next sunrise, bathing it in her projected Sekhem. In the final moment of the rite, no power remains to animate her body, and she begins to plummet into Duat as the first rays of morning crawl across the sky. This brief taste of death arrests itself before her body crumples, but allows her to hurl a death curse (see p. 113) into the intended object and anoint it as a sacred vessel of her wrath. If she feels merciful, she may then speak an increment of time to add a grace period to her magic."
+            },
+            {
+                "type": "paragraph",
+                "text": "Should anyone damage the item or steal it from its proper home without authorization, the suspended death curse takes hold as if the thief carrying it away had slain the mummy. The grace period, if any, gives the thief time to realize his error and return the treasure before the dread magic takes hold. Past that, Fate alone provides a delaying reprieve, and then only to ensure the curse strikes with maximum dramatic impact as a punishment and warning to other would-be thieves. Such delays are most assuredly not mercy. The enchantment waits in potential for its creator’s Ka rating in millennia. Thankfully, each item can only hold one such curse, and the curse strikes only once before it dissipates. Applying a second curse replaces the first. Mummies looking to circumvent this limitation may individually curse pages of parchment and stitch them together into a book, or otherwise invest comparably meticulous effort to craft an overkill punishment."
+            }
+        ]
     },
     {
         "Name": "Kiss of Apep",
         "Tier": "Sheut •••••",
         "Descriptors": "Curse, Potency 3",
         "Summary": "Creates a zone of pure darkness, which does not affect the Arisen; this region is actively hostile to enemies of the mummy, and to ghosts.",
-        "Book": "MTC 122, Dec 100"
+        "Book": "MTC 122, Dec 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "As the Arisen unleashes this tier, black clouds of palpable darkness spread out from her body, filling a space (Sheut x 20) yards in radius. The darkness remains fixed in place where summoned, retreating by one yard of radius per minute until fully dissipated. Direct sunlight doubles this rate of decay. The clouds block out all non-magical light sources, though flames that burn invisibly are no less hot. Effects that permit characters to see in the dark penetrate the obscuring murk normally, though everyone else caught in the tangible shadow is blinded. The creator can also see through it, even if normally unable to see in such conditions. Were the cloud simply darkness, however enduring, it would be horrific enough. Its curse also imposes the following horrors:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Once per turn, the darkness attacks one character within it who is hostile to its creator. Fate guides its choice of targets, but generally chooses those who present a greater immediate threat to the unleashing Arisen over those who simply feel disagreeable toward her. The attack uses a dice pool of the mummy’s Presence + Sheut + Sekhem, applying manifestation modifiers to this roll appropriate to the location (World of Darkness, p. 210). Victims resist via an opposed roll of Resolve + Composure + Sekhem, adding +3 if their Virtue is Hope. If the darkness wins, the enemy and all his worn possessions are dragged into a state of Twilight by inky tendrils, meaning he is left incorporeal in the same manner as ghosts and can physically interact with the restless dead as they do. Victims resume their correct state upon leaving the darkness, but remain trapped outside of substance and form until then.",
+                    "Being dragged into Twilight causes mortals to develop a derangement chosen by Fate, as they experience eons of solitude amidst the darkness of the cosmic firmament in their transition of form to formlessness. This is often a fear or avoidance of darkness, but it can be almost anything. Severe derangements imposed this way last one week, while mild derangements fade in a month. After that, the mind denies what it cannot cope with and heals around its mental scar, willfully forgetting its brief and yet eternal damnation in the dark.",
+                    "The darkness is a maze of ever-shifting corridors to ghosts and other beings in Twilight, folded endlessly in non-Euclidean spirals. Finding a way out requires a Wits + Composure roll with a penalty of the mummy’s Sheut rating, with all failures treated as dramatic failures that draw the lost deeper into the center rather than toward freedom. Those lost must wander five minutes in the gloom before receiving a new chance to escape. Ghosts acting on any magical commands from the unleashing Arisen aren’t affected, allowing them to attack their master’s enemies with impunity.",
+                    "If created within the mummy’s tomb, she may shape the darkness into a smaller configuration, such as to ward a particular tunnel or room with a gauntlet of horror. Such sculpted darkness lasts indefinitely, until revoked."
+                ]
+            }
+        ]
     },
     {
         "Name": "Name the Extinguished Star",
         "Tier": "Ab •",
         "Descriptors": "Curse",
         "Summary": "Unveil a victim with a cloud of anxiety.",
-        "Book": "Dec 100"
+        "Book": "Dec 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Deceived calls upon the name of a forgotten star that was erased from the skies over Irem. Upon saying the first part of this ancient name the area around the Arisen visibly darkens and a flickering wisp of darkness briefly appears in her left hand and then vanishes when she names her intended victim. The victim immediately senses that she is being watched and that powers best left forgotten have been aligned against her. Most mortals will ignore this feeling as a sudden bout of unfounded anxiety or paranoia. Once marked by the extinguished star the victim’s exact location cannot be concealed from the Deceived by any means for the remainder of the scene."
+            }
+        ]
     },
     {
         "Name": "Name the Extinguished Star",
         "Tier": "Sheut ••",
         "Descriptors": "Curse",
         "Summary": "Scry upon the victim, and with their name, deal an extra point of damage when attacking them.",
-        "Book": "Dec 100"
+        "Book": "Dec 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Deceived leaves all but the last syllable of the extinguished star’s name unsaid and calls upon even more of its power from across time. The effect of this power is the same as above except the Deceived can peer into her left hand and form the wisp of darkness known as the black ember; through this remnant she can see and hear her victim’s surroundings as if she was standing with him. Moreover, if the Deceived used the victim’s given name, he suffers +1 damage from any attack directed against him from the Deceived as long as he is marked by the star."
+            }
+        ]
     },
     {
         "Name": "Name the Extinguished Star",
         "Tier": "Ren ••••",
         "Descriptors": "Curse, Epic",
         "Summary": "Use the victim's true name to roll their Stamina + Size as lethal damage in a blinding flare.",
-        "Book": "Dec 100"
+        "Book": "Dec 100",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "When the Deceived marks a victim with the extinguished star at this tier she must use her victim’s True Name when activating the Utterance. The effects are the same as tier 2 above, but the Deceived may call upon the final syllable of the extinguished star at anytime as a reflexive action as long as her victim is marked by the star. By uttering the complete name of the extinguished star, the Deceived calls forth the black ember into her left hand and causes it to ignite with a cold brilliance. Mortals in the presence of the mummy when this Tier is activated are blinded for 1 round as the starless void that seems to fill the black ember is supernaturally imposed upon their vision. The mummy’s victim immediately rolls her Stamina + Size; this roll has a -4 penalty if the victim is more than 1 mile away from the Deceived. Every success rolled by the victim inflicts one lethal wound on him. This roll cannot be botched and instead of re-rolling 10s, these successes inflict aggravated wounds. The +1 damage bonus applied by tier 2 of this power adds one lethal wound to the total after the victim makes his roll."
+            }
+        ]
     },
     {
         "Name": "Obedient Clay",
         "Tier": "Ba •",
         "Descriptors": "Subtle",
         "Summary": "Grants intuitive understanding of a material object's properties.",
-        "Book": "MTC 123"
+        "Book": "MTC 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "As he scrutinizes an object or sample of a substance, the mummy’s senses warp, providing him with intuitive understanding of the thing’s physical and even metaphysical properties. Unleashing this tier requires that the subject he perceives be within (Ba + Sekhem) yards."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Arisen’s player rolls Wits + Ba. Success reveals what the target is made of and any important reactive properties. For example, knowing that an object is flammable (or explosively flammable) is pertinent information in a situation where fire might appear. Similarly, an item’s poisonous, biohazardous, and radioactive properties are generally good information to have in any circumstance. Mummies interpret revealed data through their Skill ratings. A character lacking decent Medicine will only be able to interpret the Ebola virus as a fast-acting bleeding sickness, while Arisen lacking Science can’t differentiate plutonium from invisible poison fire rocks. Exceptional success reveals any supernatural properties, with a level of detail and specificity based on the Arisen’s Occult rating."
+            }
+        ]
     },
     {
         "Name": "Obedient Clay",
         "Tier": "Ren ••",
         "Descriptors": "",
         "Summary": "Transmutes the state of matter of target objects.",
-        "Book": "MTC 123"
+        "Book": "MTC 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Matter alters in accordance with the mummy’s desire, temporarily shifting its phase by one: solid to liquid, liquid to gas, or the reverse of these two processes. Temperature doesn’t change. Consequently, liquid steel doesn’t burn objects like molten slag, but remains most unwise to drink. The transmogrified matter reverts back to its original state after one day, but retains its shape at that time. This can result in solid objects that seem impossible in nature, such as a congealed puddle of wood."
+            },
+            {
+                "type": "paragraph",
+                "text": "To unleash this tier, the Arisen targets an inanimate non-relic object he can perceive (or piece thereof) with Size no greater than his Ren + Sekhem. A cluster of related objects may be targeted, such as all the clothes and/or armor someone is wearing. The maximum size he can affect decreases by one for every five yards away the target is and doubles if he is actually touching his target. The exact effects depend on the target’s current phase, with multiple phase shifts requiring repeated unleashing."
+            },
+            {
+                "type": "paragraph",
+                "text": "Solid objects can be liquefied, causing them to suffer one automatic point of aggravated damage per turn as they soften and ultimately collapse inward like melted wax. Meanwhile, a mass of liquid can be instantly solidified into a substance with Durability 3. Alternatively, liquids may be vaporized into the surrounding atmosphere, later precipitating as widely scattered droplets. Many materials are toxic to breathe as they billow upward in an expanding cloud. Conversely, an appropriate volume of gas can be instantly liquefied. This causes it to splash down to the ground and scatter across the area as appropriate to the specific circumstances."
+            }
+        ]
     },
     {
         "Name": "Obedient Clay",
         "Tier": "Ab ••••",
         "Descriptors": "",
         "Summary": "Transform a target object into almost anything else.",
-        "Book": "MTC 123"
+        "Book": "MTC 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen gains near total mastery over matter. He may unleash this tier while touching any non-magical inanimate object with Size no greater than Ab + Sekhem. Mystical power visibly flows over and through the target, transmuting it into another inanimate object of equal or lesser Size. Base matter can be refined into precious alloys or gems, meaning the character has ample justification to purchase up to Resources •••••. The character must be familiar with what she wants the new material to become, however, either through study or personal experience. The Storyteller may call for a reflexive Intelligence + Skill check at a -1 to -5 penalty in order for a character to recall sufficient information. While this Skill is usually Crafts, it can be anything appropriate to the item’s function (e.g., Firearms for a gun, Medicine for surgical tools or drugs, Science for chemicals, etc.). Objects transformed by this tier do not change back on their own."
+            }
+        ]
     },
     {
         "Name": "Palace Knows Its Pharaoh",
         "Tier": "Ba •",
         "Descriptors": "Subtle",
         "Summary": "Allows a mummy to scry anywhere in the interior of the building they are in. Use is free within the tomb.",
-        "Book": "MTC 124"
+        "Book": "MTC 124",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen concentrates on an artificial structure she currently occupies, attuning her senses and consciousness to the surrounding geometries. Their principles suffuse her being, allowing her to perceive the flow of bounded space and all barriers within. A structure is usually a single building of any size, regardless of how it is partitioned (i.e., both halves of a duplex, all dorms in a university residence hall, every floor of a skyscraper, etc.). Tunnels, sky bridges, and other such links do not make two buildings one. The Storyteller remains the final arbiter of boundary limits."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy’s player rolls Wits + Craft for the Arisen to make sense of this information, applying manifestation modifiers to this roll appropriate to the location (World of Darkness, p. 210). Success forfeits sight and hearing, but allows her to detach and augment her sense of touch as an invisible nimbus of pure awareness. The projected touch flies along at twice the Arisen’s own Speed and passes through all barriers, giving her unfettered access to explore the structure for one hour. Her touch cannot leave the confines of the structure itself, remaining wholly bounded by that space. She continues to experience scent and taste based on her current location, but mystically knows if her body is in imminent danger so she can revoke the unleashing and deal with the threat. Otherwise, the magic grants one hour in which her thoughts may literally wander through and admire the structure and all within."
+            },
+            {
+                "type": "paragraph",
+                "text": "While the mummy’s senses are displaced and transmogrified, she does not actually see or hear, but her tactile acuity allows her to navigate and act as if she has sight and to feel the original vibrations before sound could ever reach her ear. Her clairvoyant visions have no color or other strictly visual qualities, imposing a –2 penalty on rolls made by the player for the Arisen to recognize unfamiliar people and objects. However, darkness, fog, and other strictly visual problems also do not hinder her."
+            },
+            {
+                "type": "paragraph",
+                "text": "Several special unleashing circumstances apply to this tier. Unleashing it within a mummy’s own tomb doesn’t cost a Pillar. That place is hers to admire, and hers to bear witness to the punishments that await unwanted guests. She may anchor her displaced senses to herself, solely to extend her touch as a counter to darkness or fog (at least so long as she stays in the structure)."
+            },
+            {
+                "type": "paragraph",
+                "text": "An exceptional success on the activation roll instantly transports the mummy’s senses to wherever in the structure Fate wants her to perceive. This is usually the most important event occurring in the structure at the time, particularly among those events unknown to her. For example, she may see where special forces have secretly broken in, revealing their raid before it becomes a danger to her. She may then leave that vantage point to explore the structure normally."
+            },
+            {
+                "type": "paragraph",
+                "text": "Should the mummy seek to explore an area warded against scrying, her vision strikes a wall as impassable as the exterior of the structure. The warded space is completely dark and numbingly opaque to her projected touch."
+            }
+        ]
     },
     {
         "Name": "Palace Knows Its Pharaoh",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Allows telekinetic manipulation of the mummy's current structure, and its furnishings. Use is free within the tomb.",
-        "Book": "MTC 124"
+        "Book": "MTC 124",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "From simply sensing the structure she presently inhabits, the Arisen gains the power to exert her force of will upon the building and its inanimate contents. The primary effects of unleashing this tier largely duplicate the Telekinesis Numen (World of Darkness, p. 212), but the mummy’s effective Strength equal his Sekhem, and she can’t strike people directly. Specifically, she can only exert force upon the structure itself, furniture within it, or decorations adorning it. All things brought in temporarily from outside remain untouchable (such as visitors and their personal belongings). The Arisen may take an instant action to exert force anywhere within five yards of her vantage point that she can see, whether using her eyes or the “sight” bestowed by the previous tier. Popular uses of this tier include closing and opening doors, assaulting enemies with heavy furniture, and sliding out chairs to hospitably impress guests."
+            },
+            {
+                "type": "paragraph",
+                "text": "The structural telekinesis can also control the flow of utilities, cutting or dimming electrical power, adjusting the pressure of running water, deactivating security systems, turning on fire alarms and sprinklers, and other such feats. The mummy must focus telekinesis on an appropriate vessel for the utility, such as a wall socket to manipulate electricity. The Storyteller remains the final arbiter of what is possible this way. Finally, locks may be locked with effortless ease, but unlocking them requires a usual lockpicking action substituting the mummy’s Wits for Dexterity."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unleashing this tier within the mummy’s own tomb is free. She need not exhaust her Pillars to command her own sanctum. Such indignity would be unthinkable."
+            }
+        ]
     },
     {
         "Name": "Palace Knows Its Pharaoh",
         "Tier": "Ba •••••",
         "Descriptors": "",
         "Summary": "Connects two doors or gateways, making them portals between one another.",
-        "Book": "MTC 124"
+        "Book": "MTC 124",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "To unleash this tier, the Arisen touches a door, doorway, or similar opening inside a structure. She may touch the target personally or use the preceding tier to do so (possibly focused through tier one). Then, she envisions another similarly sized door or other entrance within the same structure, meaning that buildings with many interchangeable doors afford far more options. The mummy must have seen that door previously, either with her own eyes or by unleashing the first tier."
+            },
+            {
+                "type": "paragraph",
+                "text": "The glorious magic of the third unleashing connects the two locations. As a result, the touched doorway now leads to the other location through imposed adjacency for one minute. Anyone who can fit through the entrance can travel in either direction through the shortcut portal or see through the opening to glimpse the new room it leads into. Used within the mummy’s tomb, the portal connection lasts until the unleashing is revoked. With care, particularly horrifying mazes of impossible Escher-like architecture can be constructed to deter intruders."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mummies with Sekhem 8 or higher can open a door to an unknown destination, leaving the other end for Fate to decide. The door may connect to a particularly interesting doorway elsewhere in the structure, and very often does. But it may also connect to a doorway in another structure on another continent, for reasons unknown. Rare doors have even opened to hidden caverns deep in the earth and into the void of deep space from time to time, making the unleashing Epic."
+            }
+        ]
     },
     {
         "Name": "Power of Re",
         "Tier": "Ab •",
         "Descriptors": "",
         "Summary": "Creates a magical fire which consumes no fuel, and may burn even under water.",
-        "Book": "MTC 125"
+        "Book": "MTC 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen chooses a target within (Sekhem + Ab) yards. This target cannot have a Size rating higher than his Ab rating, though it can be an entire object or a smaller piece that fits within the Size constraints (i.e., just his fists or only the top branches of a small tree). His player rolls Wits + Occult as a ranged attack against that target. A successful hit sets the target spontaneously aflame with a mystical fire that does not consume the targeted object. The size of the object determines the relative size of the flame (i.e., torch, bonfire, inferno), but the fire only burns with the intensity of a candle."
+            },
+            {
+                "type": "paragraph",
+                "text": "Because the conjured flame does not actually require fuel, it burns in conditions that normally preclude fire, such as a vacuum or underwater. It may only be extinguished by beating it into the ground, such as by dropping and rolling. Without such measures, the pale golden fire lasts for (Sekhem + Ab) minutes before flickering and going out. The magic flame can set other fires normally, but these secondary blazes are normal fires and may be extinguished as such. As a final perk, the Arisen may speak through any magic flame he created, causing his voice to emerge from the blaze as though via perfect ventriloquism. Mummies can only have one mystic fire burning at a time; creating a new one instantly extinguishes the old."
+            }
+        ]
     },
     {
         "Name": "Power of Re",
         "Tier": "Sheut ••",
         "Descriptors": "",
         "Summary": "Suppresses natural flames, or draws them in to the magical one created by the first tier.",
-        "Book": "MTC 125"
+        "Book": "MTC 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier suppresses a section of fire no larger in any dimension than (Sekhem + Sheut) yards. At least part of this fire must be within five yards. Unholy darkness swallows the blaze in a writhing miasma, consuming the flame’s power and extinguishing light and dark in an implosion of mutual annihilation. This tier has a special effect when unleashed in the presence of a mystical flame created by the first tier, visibly diverting some of the quenched fire into the magic blaze (unless the magic flame is itself annihilated). Sparking contrails arc toward the blaze from the consumed fire, stoking the magic to greater heat by one category per unleashing fed to it (i.e., candle, torch, Bunsen burner, chemical fire). The added heat endures for the duration of the blaze."
+            }
+        ]
     },
     {
         "Name": "Power of Re",
         "Tier": "Ab ••••",
         "Descriptors": "Curse, Epic",
         "Summary": "Channels a flash of unfathomable brilliance from the sun god, blinding anyone who can see the mummy and inflicting aggravated damage to undead.",
-        "Book": "MTC 125"
+        "Book": "MTC 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "To unleash this tier, the mummy screams with a volume and tone no man can imagine, echoing the roar of an exploding star. The cry sets him momentarily alight with a blaze more brilliant than the noonday sun, a flash of power that sears all undead in his presence. Through him, onlookers witness Re and are seen by him. His sight is not kind."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy’s player rolls Sekhem, with each success inflicting one point of aggravated damage to all ghosts and Lifeless (and vampires) within a radius of (Sekhem x 5) yards. Only total cover provides protection against this burst. Anyone who sees the flash (out to a mile) is also blinded unless their players make a successful Wits + Composure roll with a –3 penalty for their characters to look away in time. Blinding lasts (10 - victim’s Stamina) hours. Characters who have their eyes definitively closed at the time of the flash aren’t blinded. Non-Lifeless mummies blinded by the light also suffer damage like the undead, but the damage is lethal instead of aggravated."
+            },
+            {
+                "type": "paragraph",
+                "text": "Mortals blinded by the light who are within (Sekhem x 5) yards also suffer damage like undead unless they have Faith as their Virtue or their Morality is greater than the unleashing mummy’s Memory. Even after the gruesome burns radiating out from their eyes heal, the scars remain, pale, as though drained of all color. Accordingly, any points of damage actually applied also burns out the Striking Looks Merit, refunding the appropriate experience in the form of a humbling revelation that beauty is meaningless. Mortals who wisely avert their gaze suffer no harm at all."
+            },
+            {
+                "type": "paragraph",
+                "text": "The terrible scarring that afflicts burnt mortals does not steal beauty from seared undead. However, all beings slain by the light transmute into salt and ash, leaving pillars of smoking bones with grinning jaws still agape in wonder. Even ghosts leave these memorials of their annihilation."
+            }
+        ]
     },
     {
         "Name": "Rebuke the Vizier",
         "Tier": "Ka •",
         "Descriptors": "Subtle",
         "Summary": "Creates a personal anti-magic shield that opposes all hostile supernatural effects.",
-        "Book": "MTC 126, Dec 101"
+        "Book": "MTC 126, Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Rite of Return trumps all other magic. Accordingly, a mummy may unleash this tier as a ward against supernatural powers. Doing so encases the Arisen within an invisible shell of exuded Sekhem for one hour, though Witnesses and supernatural beings can see the barrier as a shimmering second skin. Whenever any hostile magic targets the shielded mummy or the space she occupies, make an opposed roll of the aggressor’s Sekhem against the higher of the defender’s Sekhem or Ka rating. If the defender wins, the magic fails to harm or otherwise affect her. Otherwise, the magic functions normally, though she can still resist by whatever means the power allows."
+            }
+        ]
     },
     {
         "Name": "",
         "Tier": "Ba •••",
         "Descriptors": "Curse",
         "Summary": "Automatically nullifies any single supernatural effect.",
-        "Book": "MTC 126, Dec 101"
+        "Book": "MTC 126, Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier may be unleashed reflexively as a defense against any supernatural power against which the previous tier can defend. Doing so is automatically successful, snuffing out the inbound magic without a roll. However, the defense lapses in the moment it flares into existence and does not offer any lingering protection."
+            }
+        ]
     },
     {
         "Name": "",
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Grants insight of supernatural effects on one target, and strips them of one of them.",
-        "Book": "MTC 126, Dec 101"
-    },
-    {
-        "Name": "Regalia of the Mamelukes",
-        "Tier": "Sheut •",
-        "Descriptors": "",
-        "Summary": "Restore basic tools, undoing the ravages of time.",
-        "Book": "DE 454"
-    },
-    {
-        "Name": "Regalia of the Mamelukes",
-        "Tier": "Ka ••",
-        "Descriptors": "",
-        "Summary": "Restored weapons and armor temporarily improve their ratings by one point.",
-        "Book": "DE 454"
-    },
-    {
-        "Name": "Regalia of the Mamelukes",
-        "Tier": "Ba/Ren ••••",
-        "Descriptors": "",
-        "Summary": "Restored weapons temporarily deal aggravated damage to the Deathless and Lifeless.",
-        "Book": "DE 454"
+        "Book": "MTC 126, Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Unleashing this tier upon a target within (Sekhem + Ren) yards reveals all magic that temporarily enchants it to the mummy’s intuition. Indefinite enchantments generally count as temporary for this purpose, provided they could theoretically be terminated in some way. Having beheld the target’s magic, the Arisen scours one such effect from it that isn’t natural to its existence. For example, a mage cannot be stripped of the power to cast spells, nor can a vampire have its animating curse torn away. However, the specific spells hanging on a mage can be sundered, while a vampire’s activated Disciplines may be turned off (forcing him to reactivate them). Similarly, a vessel can have active powers suppressed, but it cannot have its powers taken from it. Victims of curses may have their suffering abated. The Storyteller remains sole arbiter of what magic this tier can annul or not."
+            }
+        ]
     },
     {
         "Name": "Revealing Words",
         "Tier": "Ab •",
         "Descriptors": "Subtle",
         "Summary": "Sense the presence of supernatural beings.",
-        "Book": "Dec 101"
+        "Book": "Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy calls out words of power and probes the true nature of those within her immediate presence. The first tier allows the mummy to sense when other supernatural beings are close by for the remainder of the scene. This grants a +4 bonus on Wits rolls to avoid being surprised by such beings. Also, while it is active this power instantly reveals whether an individual within arm’s reach of the Deceived is mortal or supernatural."
+            }
+        ]
     },
     {
         "Name": "Revealing Words",
         "Tier": "Ba ••",
         "Descriptors": "Subtle",
         "Summary": "Intuit the basic nature of supernatural beings.",
-        "Book": "Dec 101"
+        "Book": "Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This power works as tier 1 and the basic nature and strengths of the supernatural being’s type is also revealed to the mummy; although the mummy must be familiar with specific beings to identify them conclusively, traits such as “living” or “undead” are always revealed by this power. Moreover, this power will also reveal whether a mortal has a strong connection to a supernatural being, but not the nature of the relationship."
+            }
+        ]
     },
     {
         "Name": "Revealing Words",
         "Tier": "Ren ••••",
         "Descriptors": "Subtle",
         "Summary": "Quickly scrutinize the supernatural nature of those in large crowds.",
-        "Book": "Dec 101"
+        "Book": "Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This power works as tier 2 above, except it may be used upon a multitude of targets within the mummy’s vicinity. A small group may only require a few turns to understand, but larger crowds may require that the Deceived take an entire scene to observe."
+            }
+        ]
     },
     {
         "Name": "Revelations of Smoke and Flame",
         "Tier": "Sheut •",
         "Descriptors": "",
         "Summary": "Conjures a cloud of magical smoke, which the mummy can direct to assault those within.",
-        "Book": "MTC 127"
+        "Book": "MTC 127",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen bids the air to thicken and darken with his majesty, and so it does. The unleashing conjures spiraling whirls of incense-sweet smoke or sandstorm grit, forging the whirlwind into a biting, choking miasma extending a maximum radius of (Sheut + Sekhem + Memory) yards. The cloud moves with its creator, staying centered upon him until he deliberately leaves it behind and abandons it. Regardless of location, it contracts by one yard of radius per turn until it dissipates and the magic ends."
+            },
+            {
+                "type": "paragraph",
+                "text": "Within this roiling cloud, visibility drops such that everyone is substantially concealed, though all Arisen and Lifeless can mystically see through its murk. The lacerating grit or choking wisps inflict one automatic point of bashing damage per 30 seconds of exposure, though smoke can’t hurt characters while they hold their breath (or if they don’t require air, like the Arisen)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The unleashing mummy can also wield a particle-based cloud as a weapon. While inside the swirling sandstorm, he can mystically bombard enemies with lacerating waves of grit like shotgun pellets or precision gusts like rifle bullets, but the attacks use Occult rather than Firearms. Each blast also requires him to sacrifice one reinforced dot from a Physical Attribute for metaphysical ammunition. Spent bonus dots may be replenished by further reinforcing those Attributes. These attacks can’t be launched while enchanted by the third tier of this Utterance."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unleashing this tier while enchanted by the Utterance’s second tier produces greater results. The cloud’s radius increases by factor of 10, and it doesn’t begin contracting while anchored to its creator. The swirling fog only begins collapsing when it’s left behind or the second tier ends. Used together this way, the two tiers obscure the Arisen’s flight from curious onlookers behind a peculiar drifting cloud. All sand shots burn the sand to molten glass flung as violently wept tears from the eyes of the mummy’s wings."
+            }
+        ]
     },
     {
         "Name": "Revelations of Smoke and Flame",
         "Tier": "Ab •••",
         "Descriptors": "Epic",
         "Summary": "Wreaths the mummy in flaming, smoking wings, granting flight, striking looks, and the ability to be understood by all who hear him.",
-        "Book": "MTC 127"
+        "Book": "MTC 127",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen summons wings of smoke and fire from his body, unfurling many tongues of flame like peacock feathers adorned with constellations of stars and eyes. His smoldering, alien grandeur is manifest and holy, conferring the following powers for (Sekhem rating) hours:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "He is revealed as a creature of breathtaking beauty, temporarily gaining the two-dot version of the Striking Looks Merit (World of Darkness, p. 117). No one can mistake his presence for human, and he afflicts all witnesses with Sybaris as though he had Sekhem 10.",
+                    "He can fly at twice his ground speed, even hovering in the air with untold multitudes of flaps and flutters. In midair, his beauty soars with his body, increasing his Striking Looks to the four-dot version.",
+                    "He may speak in a normal tone and have his voice carry out to any desired range up to 500 yards without screaming or exerting any effort. A projected whisper sounds above a hurricane as though murmured into every listener’s ear.",
+                    "His constantly beating wings provide him with partial concealment. Their eyes expand his sight, allowing him to see out to (Sekhem rating) miles as though peering from an inch away. He sees in all directions and cannot be surprised without supernatural stealth.",
+                    "If he is simultaneously enchanted by the third tier of this Utterance, all who hear his voice directly understand him across all language barriers. His words grant their own fluency for the duration of the message, though this divine tongue does not help him understand others. Additionally, all mortals who hear his voice with Resolve + Composure lower than his Ab + Sekhem immediately gain a phobia toward him (World of Darkness, p. 97). Mortals with the Witness Merit are immune to this fear, as is anyone the Arisen commands not to fear him—at least, until he revokes that command."
+                ]
+            }
+        ]
     },
     {
         "Name": "Revelations of Smoke and Flame",
         "Tier": "Ba •••••",
         "Descriptors": "Epic",
         "Summary": "The mummy transubstantiates into a pillar of fire.",
-        "Book": "MTC 127"
+        "Book": "MTC 127",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Not all the proud pillars of Irem were carved of stone. By unleashing this tier, the mummy chars his body to ash and does not die. Instead, his power and self blaze forth, filling a pillar around him with a diameter of three yards and a height three times that. The conflagration burns as an inferno within this area, but its heat is only that of a torch. This increases to Bunsen burner heat if his Virtue is Justice or his Vice is Wrath, or stokes to chemical fire heat if he possesses both Traits. The blaze is not optional and can’t be lessened, nor can any non-magical intervention extinguish it (though secondary fires are wholly non-magical and may be contained normally)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Arisen and all his worn/carried possessions exist in an incorporeal and invisible state within the fire like a ghost, unable to physically interact with the world except by charring it. In this state, he can move normally, with the area of fire centered on him. After (Sekhem rating) hours pass, the flames go out, and the mummy’s body regenerates back to its normal state like rapid cremation in reverse. Being subsumed into flames also provides the following powers:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Onlookers regard the flames enfolding him as they would a Sekhem 10 mummy for the purpose of Sybaris.",
+                    "When this tier unleashes, the Arisen may suspend the benefits of any other Utterances currently enchanting him. Their effects abate until the mummy revokes this tier, causing them to reflexively reassert their power and continue their durations right where they left off. Thus, a power lasting for a scene would reassert and continue until the end of the current scene. This allows him to travel with prepared magic so that he is immediately ready for action upon arrival.",
+                    "While the mummy is simultaneously enchanted by the second and third tier of this Utterance, the flames around him grow. The area actually set ablaze stays anchored on him, but a twisting extension of the pillar descends vertically down to the ground from wherever the Arisen flies. A similar extension extends indeterminately skyward above, a twinkle in the skies of distant planets yet unforged. The beam can be seen for 50 miles in most atmospheric conditions. Although hot enough to slay insects and other small vermin, the luminous extensions merely feel uncomfortable to larger creatures and don’t actually inflict damage. Only the part of the pillar shrouding its creator still burns destructively, so she can fly higher to spare the ground from her all-consuming judgment."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "All beings who deliberately follow after this towering pillar add +2 to Stamina for the purposes of calculating Speed and resisting all hardships associated with the journey itself (resisting heat stroke and thirst, etc.). The blessing abates when witnesses can no longer see the light of the column or choose to stop traveling."
+            }
+        ]
     },
     {
         "Name": "Rite of the Sacred Scarab",
         "Tier": "Ka •",
         "Descriptors": "",
         "Summary": "Conjures a scarab talisman, which bolsters defense of those who wear it for one month.",
-        "Book": "MTC 128"
+        "Book": "MTC 128",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy distends her mouth, opening it impossibly wide to vomit up an unusually large scarab beetle. The Lifeless mockery of an insect is surprisingly beautiful, more like a jewelry sculpture than a natural creature, with a gleaming carapace appearing to incorporate gold accents and precious stones. The scarab scuttles a yard away, then freezes in place, folding its legs and antennae against its body as it enters a state of suspended animation."
+            },
+            {
+                "type": "paragraph",
+                "text": "As a talisman, the scarab protects whoever wears it (such as by stringing it on a necklace), subtracting one die from rolls that could result in physical harm (two dice if said harm is the direct result of any Lifeless). As an object, the amulet has Durability 3, Size 0, Structure 3; any damage sufficient enough to impair functioning ends its power and leaves it inert. The talisman loses its power after a month, becoming a strange yet non-magical sculpture. Multiple scarab shields don’t stack, but one generally combines with most other defenses."
+            }
+        ]
     },
     {
         "Name": "Rite of the Sacred Scarab",
         "Tier": "Ren •••",
         "Descriptors": "",
         "Summary": "Conjures a scarab talisman which houses a piece of the mummy's flesh eternally, which returns to the tomb to permit safe resurrection should anything go wrong with its master.",
-        "Book": "MTC 128"
+        "Book": "MTC 128",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier duplicates its predecessor, save that the scarab bites off a tiny piece of its creator’s flesh before it scuttles away. This taste of Sekhem suffuses its body, giving it lasting existence (see the sidebar for its statistics and powers). The Lifeless creature exists thereafter to find its way back to a place where the mummy’s cult can use it as a proxy body while its master is dead. It has no other purpose but to serve as a backup vessel of life, an insurance plan against the unthinkable."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Scarab Minion"
+            },
+            {
+                "type": "paragraph",
+                "text": "Scarabs birthed by the second tier of Rite of the Sacred Scarab have the following statistics and powers:"
+            },
+            {
+                "type": "line",
+                "label": "Attributes",
+                "text": "Intelligence 1, Wits 5, Resolve 5, Strength 1, Dexterity 5, Stamina 5, Presence 1, Manipulation 1, Composure 1"
+            },
+            {
+                "type": "line",
+                "label": "Skills",
+                "text": "Athletics 5, Brawl 5, Stealth 5"
+            },
+            {
+                "type": "line",
+                "label": "Willpower",
+                "text": "10"
+            },
+            {
+                "type": "line",
+                "label": "Initiative",
+                "text": "6"
+            },
+            {
+                "type": "line",
+                "label": "Defense",
+                "text": "5"
+            },
+            {
+                "type": "line",
+                "label": "Speed",
+                "text": "10 (species factor 4)"
+            },
+            {
+                "type": "line",
+                "label": "Size",
+                "text": "0"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Weapons/Attacks:"
+            },
+            {
+                "type": "table",
+                "headers": ["Type", "Damage", "Dice Pool"],
+                "rows": [
+                    ["Bite", "1(B)", 7]
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Health",
+                "text": "10"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Auspicious Carapace:",
+                        "bold": true
+                    },
+                    " The scarab has intrinsic Armor 3 without any Strength requirement or penalties. It gains an additional five health levels from the durability of its design. The combination of enchanted shell plating and erratic, Fate-ordained movements increase the target number of all rolls to notice, track, harm, or attack it by +2."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Enduring Flight:",
+                        "bold": true
+                    },
+                    " The beetle adds +5 to its base Speed while flying. It never tires or needs sleep, able to apply peak exertion constantly without effort."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Good Luck:",
+                        "bold": true
+                    },
+                    " All rolls using Attributes and/or Skills and Initiative rolls made for the scarab reduce their target number by –2. The creature is immune to magic that would raise the target number of any roll made for it."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Hungry Pincers:",
+                        "bold": true
+                    },
+                    " The creature cannot inflict more than a point of damage per bite."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Resurrection Talismans:",
+                        "bold": true
+                    },
+                    " The beetle is a holy Lifeless vessel of Sekhem, courtesy of the Arisen flesh it consumed from its creator. This borrowed power lets it suffer damage and heal like an Arisen. Fate also grants it a perfect instinct to find the shortest, safest route it can take to reach the mummy’s nearest tomb (or nearest cultist, if she lacks an established tomb). The creature hides, flees, and even fights if it must, but it does what is wisest to reach its destination safely. The Arisen’s cult may attempt to summon the mummy back from death, substituting the scarab for its master’s corpse."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Unnatural Toughness:",
+                        "bold": true
+                    },
+                    " See page 114, but the tiny armored horrors only tear apart when they lose their last health point."
+                ]
+            }
+        ]
     },
     {
         "Name": "Rite of the Sacred Scarab",
         "Tier": "Ka •••••",
         "Descriptors": "",
         "Summary": "Conjures a large swarm of scarabs, which may be modified to afford a variety of benefits.",
-        "Book": "MTC 128"
+        "Book": "MTC 128",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Unlike with previous tiers, unleashing the final Rite of the Sacred Scarab disgorges a ravening swarm of beetles into the air around the mummy. Individually, these enchanted insects have the same capabilities as those created by the second tier, but they are less than half the size and lack the power Resurrection Talisman. Instead, the swarm of thousands acts as a weapon for the rest of the scene (or until the death of its master), at which point all the insect monsters crumble to iridescent black dust. The cloud of Lifeless insects has the same overall statistics as an individual and acts as a single entity, adding the following powers:"
+            },
+            {
+                "type": "line",
+                "label": "Beneficent Ward Swarm",
+                "text": "Unleashing this tier alongside the first changes the overall intent of the swarm. A successful “attack” just affixes one of the bugs to all allies (as known and chosen by Fate). The attached scarabs immediately enter stasis and become protective talismans like those created by the first tier. These amulets are weaker, however, only lasting one hour. Those who have Pride as a Vice or Prudence as a Virtue must wait a minute for their talismans to enter stasis and activate."
+            },
+            {
+                "type": "line",
+                "label": "Cloud Body",
+                "text": "The swarm can cover a volume 200 yards across or compress to a denser mass a tenth that size. It only suffers meaningful damage from area-wide damage such as fire, but otherwise, the deaths of a few or even dozens of bugs can’t meaningfully diminish the swarm’s overall numbers. The cloud is thick enough that it obfuscates vision like thick fog and imposes an additional –1 to all non-reflexive actions performed within it due to frightening distraction and the hellish buzzing of endless wings."
+            },
+            {
+                "type": "line",
+                "label": "Final Swarm",
+                "text": "As a death curse, the swarm that tears its way from the mummy’s body fills twice the tier’s usual radius and needs no direction to chase its creator’s killers until the scarabs shred their unhallowed flesh from bone."
+            },
+            {
+                "type": "line",
+                "label": "Hiding the Heart",
+                "text": "Unleashing this tier alongside the second provides ample cover for the scarab that bears its creator’s flesh. The camouflage of similar beetles imposes a –5 penalty to notice the larger, more important variation."
+            },
+            {
+                "type": "line",
+                "label": "Mercies of Lesser Plagues",
+                "text": "As a kindness, the Arisen may disgorge a swarm of Lifeless bejeweled locusts instead of scarabs. Victims caught in the cloud only suffer damage if they have no wounds at all, but a single point of injury reveals the mistake to the swarm and precludes further attacks. Meanwhile, the swarm devours all foliage and edible plant matter within it in the span of a turn, utterly devastating crops and heralding brutal famines to come. A greater kindness can substitute flies for locusts. These bite like scarabs, but only until they successfully draw blood. The first point of damage also inflicts a –2 penalty from itching, stinging welts on the first day (fading to –1 on the second). New fly bites reset the penalty to maximum rather than stacking."
+            },
+            {
+                "type": "line",
+                "label": "Obedient Slaves",
+                "text": "The insects have a limited hive consciousness. What one perceives, they all perceive. The swarm is immune to all mind control targeting one individual at a time. Its creator can telepathically steer the cloud’s movement and shape it with reflexive actions, or can command the group to stop or start eating. Mental commands function across all distances, provided the insects’ master can perceive them to visualize the intended effect. The swarm can’t do much else; it is a simple and elegant weapon of mass destruction."
+            },
+            {
+                "type": "line",
+                "label": "Ravening Might",
+                "text": "The swarm reflexively applies a bite attack roll with a +5 bonus for the high volume of bites against all living beings and edible organic matter within it (including the bodies of Lifeless, vampires, etc.). The swarm doesn’t inflict more than a single point of damage to any victim each turn. Mortals with Justice as their Virtue or Gluttony as their Vice suffer only one damage per minute, as they are fools to be pitied or delicacies to be savored, respectively. Only the Arisen themselves are fully spared. The swarm attack ignores Defense and similar protection, as there is nowhere to jump or evade that isn’t filled with grasping mandibles or buzzing, jeweled wings."
+            },
+            {
+                "type": "line",
+                "label": "Selective Hunger",
+                "text": "When unleashed, the scarabs can be directed to only eat particular organs, such as eyes or tongues, using specified target rules. The insects then only inflict a maximum of however many damage points the Storyteller rules are needed to destroy the organs in question (minimum of one point), at which time they are further devoured. Victims suffer the usual effects of such maiming, which may confer lasting Flaws."
+            },
+            {
+                "type": "line",
+                "label": "Weaknesses",
+                "text": "As fire can destroy them, its presence can keep the insects at bay (two yards from a candle or lighter, three yards away from a torch, five for a bonfire, and six for larger blazes). While fire is the surest way for mortals to survive the hungry bugs, temperatures much colder than freezing make the Lifeless monsters lethargic and unwilling to attack for the first five minutes of exposure, then paralyze the scarabs after that."
+            }
+        ]
     },
     {
         "Name": "Secrets Stripped from Skies",
         "Tier": "Ba •",
         "Descriptors": "Subtle",
         "Summary": "Grants perfect awareness of one's current location.",
-        "Book": "MTC 130"
+        "Book": "MTC 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy unleashes this Utterance while gazing up at the sky. Doing so reveals his location relative to all known geographical referents, using whatever system of measure comes most naturally to him. The accuracy of this intuition roughly matches the information provided by global positioning satellites. For example, he may realize he is 20 miles southwest of Mount Sinai or two blocks north of the Chinese restaurant he had lunch at yesterday. Use of this Utterance automatically allows a mummy to retrace his steps through a maze back to known entrances."
+            }
+        ]
     },
     {
         "Name": "Secrets Stripped from Skies",
         "Tier": "Sheut •••",
         "Descriptors": "Curse",
         "Summary": "Strikes a target the mummy can see with a meteor.",
-        "Book": "MTC 130"
+        "Book": "MTC 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy speaks a word of power that reverberates back across space and time to the beginning of the universe, reshaping its genesis. The passing eons ensure that matter is spun and coalesces in accordance with auspicious wrath, culminating in a blazing meteorite falling upon an intended target. The mummy can only choose a known target he can perceive within one mile, and that target must be exposed to the open sky (i.e., objects inside buildings can’t be targeted, though the building itself is fair game)."
+            },
+            {
+                "type": "paragraph",
+                "text": "Roll the Arisen’s Sheut + Occult + Sekhem as a ranged attack; successes inflict lethal damage (aggravated to inanimate objects and structures). Range penalties do not apply; targets are either within range or not. Cover is calculated from above, rather than the barriers separating the mummy and target. The meteor also creates a bonfire with Bunsen burner intensity inside a two-yard radius around the impact crater, though the flame only persists for the turn the meteor lands unless it sets combustible materials ablaze (e.g., wood, people, etc.). Characters who might be within the initial blast of fire and who are capable of applying their Defense can sometimes escape the worst of the blaze by leaping away; their players roll Dexterity + Athletics and subtract successes from the levels of damage applied. Victims hit by the meteor itself cannot jump away from the resulting flames."
+            }
+        ]
     },
     {
         "Name": "Secrets Stripped from Skies",
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Pulls a secret from Fate, or summons a meteor shower to reign destruction on a large area.",
-        "Book": "MTC 130"
+        "Book": "MTC 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen gazes upon the night sky and listens to the murmurs of the firmament, scrutinizing the cosmic mysteries inscribed upon the patterns of constellations. Roll Memory + Ren, applying a –5 penalty if the sky is more than half covered by clouds and/or too much light pollution drowns out the stars (as in most major cities and suburbs). Success allows the mummy to glean one important truth from Fate, a clue that directly helps solve his most pressing dilemma in the current story. The clue is shrouded in metaphor and cryptic symbolism, but not so much that it isn’t actually useful."
+            },
+            {
+                "type": "paragraph",
+                "text": "If a mummy unleashes the second tier in the same scene he attempted to read the future in the stars (successfully or not), he calls down an Epic meteor shower rather than a single meteorite. The shower ravages everything within a mile of the mummy for a number of turns equal to his Sekhem rating. The Arisen must choose whether to rain destruction in accordance with chance or Fate. In the former case, every possible target in range has a 10% chance of being targeted by a meteor each turn that the skies burn (i.e., roughly 10% of the land is utterly devastated before taking into account the secondary destruction wrought by fires). If Fate guides the shower, meteors fall upon as many or as few targets as it decrees. The meteor strikes use their normal full dice pool, though these reflexive attacks do not require further effort on the mummy’s part. The mummy who unleashed the shower is never within its radius, though allies have no protection beyond trying to huddle in close to him."
+            }
+        ]
     },
     {
         "Name": "Seeds of Life",
         "Tier": "Ka •",
         "Descriptors": "",
         "Summary": "The mummy becomes unharmed by any plant matter, can cure poison with a touch, and can turn sticks to snakes.",
-        "Book": "MTC 131"
+        "Book": "MTC 131",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Upon unleashing this tier, the mummy becomes highly resistant to harm from plants and plant products such as wood and paper for (higher of Sekhem or Memory) hours. During this time, she completely ignores all injury from pertinent environmental factors, such as falling onto a dense canopy or pile of leaves, or standing in the path of splintered shrapnel propelled by hurricane-force winds. Rolled actions attempting to cause her harm with plant matter (such as stabbing her with a stake or shooting her with an arrow) add +2 to their target number, making success highly unlikely."
+            },
+            {
+                "type": "paragraph",
+                "text": "Additionally, an Arisen blessed by this tier may take an instant action to draw poison out of a living person’s body through skin-to-skin touch. The mummy’s player rolls Intelligence + Medicine, but the effective Medicine rating is capped by (highest of the Arisen’s Occult or Survival). Apply a –3 penalty for serious toxins or –5 for life-threatening ones. Success causes the patient to automatically suffer one point of aggravated damage as he forcefully vomits up all the offending matter as a syrupy froth of emerald sap. From this sludge grows a living bouquet of brilliant wildflowers in a span of heartbeats, each blossom unlike any flower that has been or shall ever be again. The blooms live for a day and then shrivel away, leaving only memories. Fate may sometimes compel their virgin budding. Indeed, such magic may once have seeded the early gardens of man with some of their most cherished treasures."
+            },
+            {
+                "type": "paragraph",
+                "text": "Finally, whenever a mummy wielding this tier throws an entirely wooden stick or similarly elongated object, her player may spend one Willpower point. Upon striking a solid or liquid surface, the enchanted projectile transforms into a living serpent in the prime of its life. This transformation lasts until the snake dies or its creator touches it again; otherwise, the serpent lives on and acts according to its instincts. Fate designs the creature, sharing its species with no serpent before or yet to be. (See sidebar for sample statistics.)"
+            },
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "Staff Serpent"
+            },
+            {
+                "type": "paragraph",
+                "text": "Serpents created by the first tier of Seeds of Life have the following statistics and power:"
+            },
+            {
+                "type": "line",
+                "label": "Attributes",
+                "text": "Intelligence 1, Wits 3, Resolve 5, Strength 2, Dexterity 4, Stamina 3, Presence 4, Manipulation 2, Composure 5"
+            },
+            {
+                "type": "line",
+                "label": "Skills",
+                "text": "Athletics 2, Brawl 3, Stealth 5"
+            },
+            {
+                "type": "line",
+                "label": "Merits",
+                "text": "Fighting Finesse (Bite)"
+            },
+            {
+                "type": "line",
+                "label": "Willpower",
+                "text": "10"
+            },
+            {
+                "type": "line",
+                "label": "Initiative",
+                "text": "9"
+            },
+            {
+                "type": "line",
+                "label": "Defense",
+                "text": "3"
+            },
+            {
+                "type": "line",
+                "label": "Speed",
+                "text": "9 (slithering only; species factor 3)"
+            },
+            {
+                "type": "line",
+                "label": "Size",
+                "text": "3"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Weapons/Attacks:"
+            },
+            {
+                "type": "table",
+                "headers": ["Type", "Damage", "Dice Pool"],
+                "rows": [
+                    ["Bite", "1 (L)*", 8]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "* If the serpent’s bite would inflict any damage, it injects Toxicity 5 venom instead."
+            },
+            {
+                "type": "line",
+                "label": "Health",
+                "text": "6"
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Temptation’s Guide:",
+                        "bold": true
+                    },
+                    " The serpent’s mystical presence intuitively guides characters who can perceive the creature. Affected individuals realize all opportunities that are present to indulge their Vice (assisted by the Storyteller if necessary) and regain two Willpower points for doing so rather than one. This effect doesn’t stack with multiple serpents."
+                ]
+            }
+        ]
     },
     {
         "Name": "Seeds of Life",
         "Tier": "Ren ••",
         "Descriptors": "",
         "Summary": "Creates plants bearing food, which subjects those who eat it to enhanced social rolls by the mummy, cure's their poison and ailments, and can train them in certain merits.",
-        "Book": "MTC 131"
+        "Book": "MTC 131",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen may unleash this tier in any natural terrain, whether atop the waves of the deepest sea or upon the most barren desert or in the most verdant jungle. Whatever the location, Fate chooses what grows from those edible plants that can survive there, assuming unlimited irrigation is available (kelp gardens at sea, date and fig trees in a desert oasis, etc.). The mummy can incorporate a specific type of tree in addition to Fate’s offerings by striking the ground with a staff carved from the appropriate type of wood, causing the stick to root itself in the land and become a whole tree. The created plants spring into existence within a radius of (Sekhem + Ren) yards, growing from shoots to fully mature plants in the span of a minute. The resulting garden can produce enough food to sustain (Memory x 5) meals for an adult human before its bounty has been plucked clean."
+            },
+            {
+                "type": "paragraph",
+                "text": "The created food is not solely benevolent, however. All Social actions rolled for the mummy that target characters who have eaten the plants in the past day reduce their target number by -1. To sample an Arisen’s delicacies is to fall under her spell."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unleashing this tier together with the preceding tier grows a garden of sacred panaceas. Anyone who eats a meal of this fruit while afflicted with disease or poison receives a reflexive cure attempt from the Arisen’s magic. Such a meal also qualifies as a valid reason to buy any Mental or Social Attribute from a rating of • to ••, to purchase a Language Merit chosen by Fate to best help the feaster, or to buy the Encyclopedic Knowledge Merit (World of Darkness, p. 109). The last reflects an inculcated mélange of hallucinatory gibberish interspersed with useful trivia. Fate’s factoids include occult truths both useless and horrifying, like the certainty that otherworldly Things claw frantically at the walls between each tick and tock, feeding on scraps of forgotten moments. Players may go into experience debt to make such purchases. Only the garden’s initial bounty has healing properties; all future harvests are regrettably mundane."
+            }
+        ]
     },
     {
         "Name": "Seeds of Life",
         "Tier": "Ab ••••",
         "Descriptors": "Curse, Potency 3",
         "Summary": "Guarantees a target will conceive on their next coupling.",
-        "Book": "MTC 131"
+        "Book": "MTC 131",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy chooses any living adult she can perceive as part of unleashing this tier. Her player makes an Ab + Sekhem roll, resisted by the target’s Resolve + Sekhem. If the Arisen succeeds, the tier’s magic infuses that target with unnatural fertility as an atypical curse. A cursed target’s next mating with an adult partner of the opposite sex results in automatic conception. Such an enchanted pregnancy carries to term without any medical complications (congenital or environmental), but the child is born a Witness and never part of twins or larger sets unless Fate ordains that it be so."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unleashing this tier can make octogenarian conceive just as readily as a counterpart a quarter her age, ignoring such petty limitations as menopause and even regenerating amputated organs if needed (like reversing a hysterectomy, tubal ligation, or vasectomy). Both the father and mother of the child receive this healing in the moment of their attempt at sexual union and retain this healing after they are done, remaining fertile like young adults for the rest of their lives."
+            }
+        ]
     },
     {
         "Name": "Shadow Name",
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
         "Summary": "Take +2 to resist Nomenclature, and penalize its use against you by -2.",
-        "Book": "Dec 101"
+        "Book": "Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "As masters of True Name magic the Deceived had little to fear from their own art, but now they are reduced to mere shells, mumbling broken fragments of their old words of power. Today they must guard themselves from the paltry tricks of other Arisen and the crudely shaped magic of so-called Utterances. After activating this power the Deceived may obscure her True Name for the remainder of the scene. This grants her a +2 die bonus to resist any name magic used against her and inflicts a -2 penalty on any rolls required by such magic to affect her. “Name magic” includes all targeted Utterances and any power that requires direct knowledge of the Deceived or her name."
+            }
+        ]
     },
     {
         "Name": "Shadow Name",
         "Tier": "Ba ••",
         "Descriptors": "Subtle",
         "Summary": "Double the modifiers. Ward those within your tomb with you for three nights.",
-        "Book": "Dec 101"
+        "Book": "Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This power works as tier 1 above, except the bonus and penalty are increased to +4 and -4 respectively. Also, if the mummy uses this ability within her tomb she may extend its protection to all who remain in the tomb with her, and may extend its duration to up to three consecutive nights."
+            }
+        ]
     },
     {
         "Name": "Shadow Name",
         "Tier": "Ren ••••",
         "Descriptors": "Curse, Subtle",
         "Summary": "Contest Nomenclature with Manipulation + Ren to redirect it to another's given name.",
-        "Book": "Dec 101"
+        "Book": "Dec 101",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The last tier of this Utterance requires the Deceived to recite the given or Iremite name of another, mortal or supernatural. The mummy weaves her own name with that of her victim, hoping to deflect or redirect harmful magics intended for her at her unwitting victim. As a reflexive action immediately after the mummy is targeted by a power requiring her name to be used, she may attempt to turn the magic against another victim whom she names. This requires a Manipulation + Ren roll to accomplish and often the Deceived must match the number of successes garnered by the source of the attack as determined by the storyteller. If successful, a diminished version of the magical assault will strike the victim named by the Deceived."
+            }
+        ]
     },
     {
         "Name": "Torn Veil of Forgetting",
         "Tier": "Sheut •",
         "Descriptors": "",
         "Summary": "Hides the mummy from mundane memory.",
-        "Book": "MTC 132, Dec 102"
+        "Book": "MTC 132, Dec 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy cloaks himself in an aura of anonymity, blurring the memories of mortals who encounter him. The shroud lasts for (Memory + Sekhem) hours, during which it affects all mortals who perceive the Arisen in the moment they cease to do so (such as when he walks out of sight, etc.)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The players of potential victims roll Intelligence + Composure with a penalty of the Mummy’s Sheut rating. Failure means the characters forget and/or misremember the entire experience, substituting some boring and uneventful account rather than accept their encounter with something unnatural. For instance, they may remember taking their dog out for a walk and not recall their conversation with the Arisen on said walk, or may remember the conversation taking place with someone else entirely, some other random (and likely fabricated) stranger. Ultimately, Fate controls how the memories distort, but the changes always seek to hide the mummy. Supernatural beings and Witnesses aren’t affected."
+            }
+        ]
     },
     {
         "Name": "Torn Veil of Forgetting",
         "Tier": "Ab •••",
         "Descriptors": "Curse, Subtle",
         "Summary": "Copies some memories from the mummy into the target.",
-        "Book": "MTC 132, Dec 102"
+        "Book": "MTC 132, Dec 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen makes a touch attack against another person as part of unleashing this tier (World of Darkness, p. 157). Skin-to-skin contact is not required. If contact is achieved, the target experiences a compressed vision of whatever memories the mummy chooses to share from those he remembers. At fastest, the vision can show one hour of memory per second experiencing it, though targets subjectively relive the memories at normal speed. Sharing a painful or traumatic memory in this accelerated fashion is extremely unpleasant, inflicting dice of bashing damage equal to the mummy’s Memory + Ab. Animals find all transferred memories traumatic."
+            }
+        ]
     },
     {
         "Name": "Torn Veil of Forgetting",
         "Tier": "Ba •••••",
         "Descriptors": "Curse",
         "Summary": "Rips some memories out of a target completely, giving them to the mummy.",
-        "Book": "MTC 132, Dec 102"
+        "Book": "MTC 132, Dec 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy touches a target as per the previous tier, but a successful touch does not copy designated memories into the target’s mind. Instead, roll the Arisen’s Manipulation + Ba in an opposed roll against the target’s Composure + Sekhem. If the mummy wins, he can pose any one question of the target’s memories. Such a question may be tightly focused, such as “Where did you take my canopic jars?”, or extremely broad, such as “Did anyone ever love you?” All of the target’s memories that would provide an answer to the question fade from the target’s mind and become part of the mummy’s remembrance. Memories excised this way do not return on their own, though the second tier of this Utterance may return copies of them if the Arisen feels generous. Removing knowledge of training can lower or even remove a Skill rating, but such a loss refunds the appropriate experience. A Skill obtained this way doesn’t add dots to the Arisen until his player actually purchases the increase with experience."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unleashing this tier to take particularly cherished memories or hollow out large chunks of the victim’s past (as determined by the Storyteller) is a sin against Memory for Arisen with Memory 7 or higher. Careful and judicious extraction of narrowly specific information remains permitted at all Memory ratings."
+            }
+        ]
     },
     {
         "Name": "Unspeaking What Is Known",
         "Tier": "Ba •",
         "Descriptors": "Subtle",
         "Summary": "Contest Manipulation + Occult + Ba + Enigma against Presence + Occult + Tolerance + Fame to impose Enigma ••••• upon a subject. Forgo the roll for yourself or with a true name.",
-        "Book": "LotD 12"
+        "Book": "LotD 12",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy can draw others into the occultic mysteries of the world, pulling them away from the world’s notice. Unleashing this tier requires the mummy to perceive the target, which can be herself. Her player rolls (Manipulation + Occult + Ba + Enigma), resisted by the target’s (Presence + Occult + Supernatural Advantage + Fame). Success is automatic if targeting oneself, or if the mummy knows the target’s true name. If the mummy wins, the target gains Enigma 5. This conferred Enigma drops by one dot per week that passes until it fades entirely. For targets who already possess Engima, the rating conferred by this tier does not stack (only the highest value applies)."
+            }
+        ]
     },
     {
         "Name": "Unspeaking What Is Known",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Contest Presence + Occult + Ka against Stamina + Resolve + Tolerance to send a subject into Twilight. Forgo the roll for yourself or with a true name.",
-        "Book": "LotD 12"
+        "Book": "LotD 12",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy’s power can unweave the physicality of a target’s being, temporarily suppressing his material form to render him in a state of amxaibit. This requires the mummy to be within 10 yards of a target and be able to perceive him; she must also know his name in order to sorcerously unspeak it. Roll her (Presence + Occult + Ka), resisted by the target’s (Stamina + Resolve + Supernatural Advantage). Success is automatic if the mummy targets herself or knows the target’s true name. With success, the target dissolves into shadows and enters a state of Twilight for one hour per success (or until the mummy reflexively terminates the effect if she targeted herself). Non-mummies who are brought into Twilight this way emit a spiritual scent of blood that all Amkhata within ten miles can perceive, often leading to a feeding frenzy."
+            }
+        ]
     },
     {
         "Name": "Unspeaking What Is Known",
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Spend Willpower and contest Intelligence + Occult + Ren against Resolve + Composure + Ren to annihilate a target who is mortal or whose true name you know, erasing them from memory.",
-        "Book": "LotD 12"
+        "Book": "LotD 12",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier is a weapon of dreadful, spiteful power. It may be unleashed upon any mortal being, or upon any any supernatural being whose true name the mummy knows, but the target and mummy must be able to perceive one another directly (i.e. not via electronic media, clairvoyant visions, etc.). Unlike most Utterances, unleashing this tier also costs one Willpower point. Roll the mummy’s (Intelligence + Occult + Ren) against the target’s (Resolve + Composure + Ren)."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the mummy succeeds, the unspoken target instantly dies and is disintegrated utterly, first decaying to dust before that dust scatters to nothingness upon the cosmic winds of Sekhem throughout the universe. No remains endure, forcing Arisen victims to procure new bodies and risk becoming Shuankhsen. To add insult to annihilation, memories and records of the deceased are forgotten and lost as though the target possessed Enigma 5."
+            },
+            {
+                "type": "paragraph",
+                "text": "Non-mummies who somehow survive having their bodies annihilated, such as some archmages and chthonic gods, cannot rebuild physical forms for themselves (or subsidiary entities of themselves) in the material world by use of any magic for a thousand years. Magic that would circumvent the spirit of this ban as decreed by Fate is likewise annulled by the universe itself and therefore cannot be cheated with clever technicalities or alternate stratagems. For example, the span of time of the ban is likewise proof against entry by the banished entity via time travel from outside that period. What such cosmic entities may do in revenge for such banishment even without a physical body is another matter altogether. Legends among the Deceived speak of the Ochre-Masked King, a primordial demon who has plagued the world’s preeminent civilizations once every thousand years until he can be sent back bodiless once more to the hellscape from whence he came."
+            }
+        ]
     },
     {
         "Name": "Water of Life and Death",
         "Tier": "Ren •",
         "Descriptors": "",
         "Summary": "Creates a natural spring of water.",
-        "Book": "MTC 133"
+        "Book": "MTC 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy strikes the solid ground as she unleashes this Utterance, cracking open a fissure as wide as her hand. Traditionally, the tier targets natural surfaces of stone, sand, or dirt. However, the Arisen can tear open artificial floors with the durability of stone or weaker, provided they are no thicker than a foot atop a natural surface. A spring of pure and fresh water bubbles up from the depths of the earth, pouring out in pulsating gushes like an arterial spray for the first hour before settling into a well. The tier does not create water from nothing, reaching back through time to sculpt the formation of the Earth so that a spring forces its way out at the appointed time and location. A spring created by this Utterance supplies enough water to support a moderate-sized oasis, easily enough to satiate the thirst of a large crowd patient enough to take turns. The spring usually lasts for (Ren + Sekhem) years before drying up, though a spring created in a mummy’s tomb lasts until revoked."
+            }
+        ]
     },
     {
         "Name": "Water of Life and Death",
         "Tier": "Sheut ••",
         "Descriptors": "Curse",
         "Summary": "Transforms all water in a large radius into blood.",
-        "Book": "MTC 133"
+        "Book": "MTC 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen curses all water in her vicinity. As it gives life, so must it be life. The tier’s might affects all standing and flowing water within a radius of two miles, transforming it into human blood. Only liquid is affected (not ice, steam, etc.). The transformation persists for (Sheut + Sekhem) hours, during which any new water brought into the area also changes. If the mummy unleashes this curse upon her tomb, she designates which areas are affected and may choose a duration up to indefinite. Water contained within a creature’s body or mixed into other substances is not transformed. Blood created by this tier nourishes living creatures that subsist on such, but a river or lake turned to blood will obviously kill all the fish and other aquatic life. Vampires may drink transmuted water for vitae, but vomit up twice the points consumed an hour later as their bodies reject the cursed gore."
+            }
+        ]
     },
     {
         "Name": "Water of Life and Death",
         "Tier": "Ba ••••",
         "Descriptors": "",
         "Summary": "Creates a trench within a body of water, permitting passage by the mummy and his allies, but falling on and destroying his enemies.",
-        "Book": "MTC 133"
+        "Book": "MTC 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy gestures toward a large body of liquid such as a lake or river. By the power of this tier, the unleashing parts a corridor with dimensions no greater than ([Ba or Sekhem] x 30) yards deep, ([Ba or Sekhem] x 10) yards wide and up to a mile long. If the trench cannot reach the bottom of the liquid, the unleashing fails. The trench moves with its creator, advancing when she reaches the halfway point and closing the sea behind her at the same pace. Those who do not follow close enough risk being crushed and drowned beneath untold tons of water. Death comes immediately to anyone who cannot resist such cataclysmic forces. The corridor lasts until the mummy traverses the water or a full day passes."
+            }
+        ]
     },
     {
         "Name": "Whispers in the Earth",
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
         "Summary": "Know the nature and layout of subterranean passages.",
-        "Book": "Dec 102"
+        "Book": "Dec 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Deceived calls upon the secret names of the vermin that crawl within the earth and listens closely to their reply. Any subterranean passages that lie beneath the mummy’s feet are revealed to her, whether they were naturally formed or shaped by a man’s hand. This knowledge occurs to the Deceived as a fully formed memory of the layout of the passages and an understanding of their general purpose. In their mind’s eye a city’s sewage system would be understood as a distinct series of passages from the catacombs that bisect them and that were built by a long dead cult to hide the remains of their sacrificial victims. This understanding of the worm’s domain lasts until the end of the scene or the next sunrise, whichever occurs first."
+            }
+        ]
     },
     {
         "Name": "Whispers in the Earth",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Roll Strength + Survival to raise buried foreign structures to the surface.",
-        "Book": "Dec 102"
+        "Book": "Dec 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Similar to the first tier of this Utterance, the Deceived knows if any foreign objects or passages lie within the earth and stone immediately at his feet. The Deceived may will such objects to rise out of the soil and present themselves to the mummy. This requires a Strength + Survival roll. Approximately 50 lbs. worth of object weight may be shifted towards the surface per success, and with an exceptional success tunnels may be formed to buried passageways or structures. After objects are recovered or tunnels are formed from the earth below, the Deceived’s knowledge of what lies beneath her feet fades from her memory."
+            }
+        ]
     },
     {
         "Name": "Whispers in the Earth",
         "Tier": "Ren •••••",
         "Descriptors": "Curse",
         "Summary": "Contest Presence + Survival against Stamina + Composure to swallow a target into the earth.",
-        "Book": "Dec 102"
+        "Book": "Dec 102",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Unlike the first two tiers of this Utterance, this final power puts out of sight that which the Deceived finds offensive or inconvenient, with these words she buries such things beneath the hardy skein of the earth. The mummy rolls Presence + Survival to entomb objects and people beneath the earth. Mundane objects cannot resist the pull of the worms within the earth, but other victims may make Stamina + Composure roll to reflexively resist the power. Successes garnered by the Deceived determine the depth of the burial, with each success indicating the target has been pushed another 5 feet into the soil. An object can be pushed up to 50 feet under the earth with an exceptional success."
+            }
+        ]
     },
     {
         "Name": "Word of the Amanuensis",
         "Tier": "Ren •",
         "Descriptors": "",
         "Summary": "Translates a text.",
-        "Book": "MTC 133"
+        "Book": "MTC 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Invoking the language behind language, the mummy commands a text written in any of the lesser, debased languages used by mortals to translate itself. Whether the words are written in ink, carved in stone, or recorded in electronic bits, the letters physically rearrange themselves, forming a translated text. Any text can be translated in this way, but ciphers, metaphors, riddles, or other obscured data are not normally clarified, though Fate may sometimes replace ambiguities with straightforward, comprehensible language. Intrinsically supernatural languages are also normally untranslatable, but Fate may allow some fraction of the text’s meaning to shine through. The text is translated into any language the mummy knows or the text’s original language."
+            }
+        ]
     },
     {
         "Name": "Word of the Amanuensis",
         "Tier": "Ab •••",
         "Descriptors": "",
         "Summary": "Grants the mummy's speech the ability to be understood by all who hear it.",
-        "Book": "MTC 133"
+        "Book": "MTC 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy fills his mind with the tongue of the Iremite sorcerers. This language is more ancient than the oldest parts of the human collective unconscious and filled with a dark and terrible power. For the rest of the scene, all those who hear the mummy’s words comprehend his meaning without recognizing the words, an unsettling experience even for those immune to Sybaris. Those who do fall prey to Sybaris recall the mummy’s words with terrible clarity, even if they remember nothing else of the encounter. The ability to be understood does not carry with it any extra ability to understand. In addition to making his speech understood, this Utterance puts the weight of untold centuries behind his commands, reducing the target number of all Intimidation rolls made for the mummy by –1. Mortals in the grip of Sybaris can resist their madness in order to obey these commands, and the mummy enjoys an additional –1 target number to commands targeting such individuals."
+            },
+            {
+                "type": "paragraph",
+                "text": "While using this effect, the mummy may unleash the first tier of this Utterance to enchant a written text. When someone attempts to read the enchanted text, it rearranges itself into the reader’s native language just long enough for her to read it, then it shifts back. If a character with a different native language attempts to read the text while it is already translated, nothing happens; he must wait until the text reverts to its natural state before it will transform into a new language. The mummy may choose any duration for this enchantment, from five minutes to eternity, and may end the enchantment at any time by touching the text."
+            }
+        ]
     },
     {
         "Name": "Word of the Amanuensis",
         "Tier": "Ren •••••",
         "Descriptors": "Curse",
         "Summary": "Curses all those who can hear the mummy's speech with aphasia, destroying their ability to speak, read, write, or understand speech.",
-        "Book": "MTC 133"
+        "Book": "MTC 133",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Unleashing a terrible word of anti-language, the Arisen strips away the ability of those around him to use and understand language. The mummy’s player rolls Ren + Academics + Sekhem, and all characters within the sound of the mummy’s voice whose Resolve + Sekhem is lower than the successes garnered are cursed. For the rest of the scene, cursed characters cannot form comprehensible words, nor can they understand any form of speech or writing. Simple gestures can convey crude impressions, but actual sign language or complex pantomime is just as incomprehensible as spoken language. The second tier of this Utterance will make the mummy understood even by victims of this curse. Those who leave the affected area remain cursed until the end of the scene, and those with sufficiently low Resolve + Sekhem who enter the area during the scene become affected. The area travels with the mummy."
+            },
+            {
+                "type": "paragraph",
+                "text": "Alternately, the mummy may unleash this curse against a single target for a more lasting curse. His player rolls Ren + Academics + Sekhem, opposed by the target’s Resolve + Sekhem. Every success rolled in excess of the target’s successes permanently strips the knowledge of one language (chosen by the target’s player) from the target’s mind. The character is refunded the experience cost of the corresponding Language Merit. Languages lost in this way must be relearned through normal study and experience expenditure. If the mummy’s player achieves exceptional success on his roll and removes all of the target’s Language Merits, he strips away even her native language, leaving her utterly unable to speak, write, or understand words. After each day of this curse, the victim attempts to remember her native language, her player rolling Intelligence + Composure with a penalty equal to the mummy’s Ren. Every day this roll fails, she accumulates a +1 bonus on future attempts. Until the victim recovers her native language, she cannot learn or develop any other languages."
+            }
+        ]
     },
     {
         "Name": "Words of Dead Fury",
         "Tier": "Sheut •",
         "Descriptors": "",
         "Summary": "Summons a wrathful ghost, binding it to a new anchor.",
-        "Book": "MTC 134"
+        "Book": "MTC 134",
+        "Content": [
+            {
+                "type": "line",
+                "label": "Effect",
+                "text": "The Arisen summons a ghost by creating a new anchor for it, tying it to the current location, a held object, or the mummy herself. She cannot control what ghost will arrive, but may apply any of the following filters: rough age (newly dead, established ghost, ancient spectre), rough temperament (hostile, neutral, friendly), and potential danger it poses to the Arisen (none, minimal, serious, life-threatening). Danger often comes from power, and power typically comes with age, so these filters provide important finesse over the result. However, it is Fate that chooses what ghost to take and from where. More summoned shades come from nearby than some distant corner of the world, but Fate may reach all places in accordance with its design."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the mummy is an anchor or is touching an anchor of a known ghost while unleashing this tier, she may designate that ghost to arrive rather than invoking Fate’s choice. In either case, the ghost appears as a congealing nebula of dust clouds crushed into Corpus and given form, automatically manifesting it for the scene. The Arisen has no particular control over the ghost after it arrives, though mummies willing to summon dangerous apparitions will likely wield other Utterances to dominate the dead. Imposed anchors endure as normal, often a permanent and meaningful addition to the ghost’s existence. If the ghost is again summoned by this tier, however, it loses its connection to the previous imposition and transfers its feelings to the new anchor. A ghost’s Vice automatically changes to Wrath when he appears. He can reverse this change by indulging the Vice once or through the payment of three Willpower points."
+            }
+        ]
     },
     {
         "Name": "Words of Dead Fury",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Creates a zone in which it is easier for ghosts to manifest, and imbues those who do with added Numina and Essence.",
-        "Book": "MTC 134"
+        "Book": "MTC 134",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy consecrates a location to herself no larger than (Sheut + Ka) miles in diameter for one week. Repeated unleashing of this tier upon the same area resets the duration. At least half of that enchanted area must already have a location manifestation modifier of +1 or higher (World of Darkness, p. 210), often restricting the unleashing to specific structures, streets, neighborhoods, and immediately adjoining areas rather than the tier’s maximum coverage. The minimum manifestation modifier for all parts of the enchanted area further rises by +1 per night, to a maximum of +5."
+            },
+            {
+                "type": "paragraph",
+                "text": "While in the affected area, ghosts temporarily gain the following Numina: Ghost Speech (World of Darkness, p. 211), Maddening (see p. 209), and Terrify (World of Darkness, p. 212). They also gain two Essence points whenever they use Maddening to drive a mortal insane."
+            }
+        ]
+
     },
     {
         "Name": "Words of Dead Fury",
         "Tier": "Ba •••••",
         "Descriptors": "Epic",
         "Summary": "Summons an incredibly dangerous chthonic entity.",
-        "Book": "MTC 134"
+        "Book": "MTC 134",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen summons a horror that is neither wholly ghost, nor entirely demon—an unholy Lifeless chthonic entity ripped from eons past and unleashed upon the present (see sidebar). It may be that such creatures no longer roam the earth because they were all summoned into the future. The tier only functions in areas with a manifestation modifier of +5 or greater, so powerful magic (such as the preceding tier) must prepare the way. When the creature emerges from the spiraling rift, it initially focuses all effort on devouring available ghosts to grow itself. It ignores other victims until it is at full strength. The mummy must wait (successes on a roll of 10 dice) weeks before the stars align such that she can unleash this tier again."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy’s control over the entity is tenuous at best. While within 100 yards of the monster, she can take an instant action to address it with mystic formulae and gibbering incantations, pitting her Presence + Occult + Ba + Sekhem against the creature’s Resistance + Age of 20 dice. The creature suffers a cumulative -1 penalty to resist commands per ghost it devoured that scene (see below). If the roll for the mummy succeeds, she may give the creature one order or standing taboo that it must obey for the rest of its existence. New instructions cannot override previous orders entirely, but can limit or amend them (“kill everyone” can become “kill the firstborn”)."
+            },
+            {
+                "type": "paragraph",
+                "text": "If there is any way to misconstrue an order, the malign intelligence of the horrors finds that way. It isn’t so much that the entity delights in loopholes as it is its nature to bring ruin upon all things, prey and master alike. Accordingly, the first such command is a prohibition against harming the mummy who summoned it. Through the power of Fate, the monster can observe taboos based on information it has no way to know (such as recognizing firstborn). The creature exists until slain, at which point its vast Corpus rapidly dissolves until only nightmares and repressed memories remain."
+            },
+            {
+                "type": "heading",
+                "level": 2,
+                "text": "Chthonic Beast"
+            },
+            {
+                "type": "paragraph",
+                "text": "These inchoate entities undulate endlessly in arrhythmic, non-Euclidian coils of liquid Corpus, endlessly evolving eyes and mouths of varying complexity and apparent species along the entirety of their mass. A susurrus of alien murmurs and polyphonic bellows rise from their choirs of mouths, but the inhuman language resists all attempts at translation. The creatures have no compassion or pity, only their hunger for the living and dead alike."
+            },
+            {
+                "type": "line",
+                "label": "Attributes",
+                "text": "Power 10, Finesse 5, Resistance 10"
+            },
+            {
+                "type": "line",
+                "label": "Willpower",
+                "text": "20"
+            },
+            {
+                "type": "line",
+                "label": "Morality",
+                "text": "0"
+            },
+            {
+                "type": "line",
+                "label": "Virtue",
+                "text": "Faith"
+            },
+            {
+                "type": "line",
+                "label": "Vice",
+                "text": "Gluttony"
+            },
+            {
+                "type": "line",
+                "label": "Initiative",
+                "text": "15"
+            },
+            {
+                "type": "line",
+                "label": "Defense",
+                "text": "0 or 10"
+            },
+            {
+                "type": "line",
+                "label": "Speed",
+                "text": "25 (oozing only, species factor 10)"
+            },
+            {
+                "type": "line",
+                "label": "Size",
+                "text": "10-20 (see below)"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Attacks:"
+            },
+            {
+                "type": "table",
+                "headers": ["Type", "Damage", "Dice Pool"],
+                "rows": [
+                    ["Bites", "0 (L)", 15]
+                ]
+            },
+            {
+                "type": "line",
+                "label": "Corpus",
+                "text": "20-30 (see below)"
+            },
+            {
+                "type": "line",
+                "label": "Anchors",
+                "text": "Location of summoning."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Numina:",
+                        "bold": true
+                    },
+                    " Dead Eyes (see p. 208), Maddening, Magnetic Disruption (functions constantly, even while not manifested), Materialize (see below), Old Soul (Age 10; 20 Essence points; see p. 209), Phantasm, Phantom Arsenal (see p. 210), Regeneration (see p. 210), Siphon (see p. 211), Spectral Toughness (see p. 211), Spirit Prowess (see p. 209), Terrifying, Untethered (see p. 210), Wall Walking (see p. 210), Will from Power (see p. 210). Numina with no listed page number can be found in ",
+                    {
+                        "text": "World of Darkness",
+                        "bold": true
+                    },
+                    " pages 210-212."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Demi-Ghost:",
+                        "bold": true
+                    },
+                    " This horror is not a ghost per se, but it uses ghost rules. It can be targeted as such by all magic that doesn’t attempt to control it, outright destroy it, or banish it to the great beyond. The creature suffers twice the damage ghosts suffer from holy weapons and aggravated damage from fire. The creature recoils from fire, even in a state of Twilight where the fire cannot harm it. It never voluntarily approaches or attacks into a radius of three yards around a torch or larger flame (or one yard surrounding a candle). Ringing it in fire or trapping it in a burning building can effectively cage the beast."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Devour the Dead:",
+                        "bold": true
+                    },
+                    " By default, the creature is Size 10, and its myriad, ever-hungry maws inflict lethal damage. Whenever it destroys a ghost with an unarmed attack, its Corpus gains one dot of Size (maximum Size 20) and regains five Essence points. However, the monster must spend Essence points equal to half its Size (rounded down) each sunrise or waste away, losing one dot of Size. If this reduces it to Size 0, it ceases to exist in this reality."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Materialize:",
+                        "bold": true
+                    },
+                    " As per the Numen. Unlike true ghosts, the creature can’t deliberately de-manifest, use its Defense or [unclear] while materialized. It must wait until the scene ends to return to formlessness. The horror remains physically in Twilight even while materialized, making it solid to ephemera and matter alike."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Soul-Rending:",
+                        "bold": true
+                    },
+                    " Whenever the creature kills a mortal, the victim’s soul is torn free and lingers as a ghost. The new ghost gains the site of its death as an anchor and automatically manifests for the rest of the scene, appearing even before the tatters of its flesh fall away like so many scraps of wrapping paper. Forced manifesting ensures that onlookers can watch the chthonic beast tear the ghost apart a second time."
+                ]
+            }
+        ]
     },
     {
         "Name": "Words of Dead Glory",
         "Tier": "Sheut •",
         "Descriptors": "",
         "Summary": "Conjures a pack of infectious, disease-carrying zombies.",
-        "Book": "MTC 137"
+        "Book": "MTC 137",
+        "Content": [
+            {
+                "type": "line",
+                "label": "Effect",
+                "text": "The Arisen summons a ghost by creating a new anchor for it, tying it to the current location, a held object, or the mummy herself. She cannot control what ghost will arrive, but may apply any of the following filters: rough age (newly dead, established ghost, ancient spectre), rough temperament (hostile, neutral, friendly), and potential danger it poses to the Arisen (none, minimal, serious, life-threatening). Danger often comes from power, and power typically comes with age, so these filters provide important finesse over the result. However, it is Fate that chooses what ghost to take and from where. More summoned shades come from nearby than some distant corner of the world, but Fate may reach all places in accordance with its design."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the mummy is an anchor or is touching an anchor of a known ghost while unleashing this tier, she may designate that ghost to arrive rather than invoking Fate’s choice. In either case, the ghost appears as a congealing nebula of dust clouds crushed into Corpus and given form, automatically manifesting it for the scene. The Arisen has no particular control over the ghost after it arrives, though mummies willing to summon dangerous apparitions will likely wield other Utterances to dominate the dead. Imposed anchors endure as normal, often a permanent and meaningful addition to the ghost’s existence. If the ghost is again summoned by this tier, however, it loses its connection to the previous imposition and transfers its feelings to the new anchor. A ghost’s Vice automatically changes to Wrath when he appears. He can reverse this change by indulging the Vice once or through the payment of three Willpower points."
+            },
+            {
+                "type": "heading",
+                "level": 1,
+                "text": "The Nenitu"
+            },
+            {
+                "type": "paragraph",
+                "text": "These Lifeless creatures have no Social or Mental Attributes, Skills, Merits, Willpower, Morality, Virtue, Vice, or capacity to heal. They are not people, but shambling simulacra of life. They exist only as combatants and can’t conceive of any action besides wandering aimlessly as a group in search of prey, advancing toward prey, or attacking until their prey stops moving. Their problem solving is limited to climbing stairs and ladders and not randomly walking off tall ledges. They have no other mode of interaction."
+            },
+            {
+                "type": "line",
+                "label": "Attributes",
+                "text": "Strength 3, Dexterity 1, Stamina 3"
+            },
+            {
+                "type": "line",
+                "label": "Initiative",
+                "text": "1"
+            },
+            {
+                "type": "line",
+                "label": "Defense",
+                "text": "None"
+            },
+            {
+                "type": "line",
+                "label": "Speed",
+                "text": "6 (species factor 3)"
+            },
+            {
+                "type": "line",
+                "label": "Size",
+                "text": "4-5"
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Attack:"
+            },
+            {
+                "type": "table",
+                "headers": ["Type", "Damage", "Dice Pool"],
+                "rows": [
+                    ["Bite", "1 (L)*", 4],
+                    ["Grapple", "0 (B)", 5],
+                    ["Strike", "0 (B)", 3]
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "* Zombie Plague"
+            },
+            {
+                "type": "line",
+                "label": "Health",
+                "text": "7 or 8"
+            },
+            {
+                "type": "line",
+                "label": "Hunger",
+                "text": "See page 114."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Limited Senses:",
+                        "bold": true
+                    },
+                    " The ",
+                    {
+                        "text": "nenitu",
+                        "italic": true
+                    },
+                    " have a pool of five dice to notice animate beings (or overcome their Stealth) and two dice to notice anything else. They automatically recognize their creator and members of their own pack and do not attack them."
+                ]
+            },
+            {
+                "type": "line",
+                "label": "No Mind",
+                "text": "See page 114."
+            },
+            {
+                "type": "line",
+                "label": "Unnatural Toughness",
+                "text": "See page 114."
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Vulnerability:",
+                        "bold": true
+                    },
+                    " Called shots to the creature’s head with lethal attacks suffer a –1 penalty, but inflict aggravated damage."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": [
+                    {
+                        "text": "Zombie Plague:",
+                        "bold": true
+                    },
+                    " Any mortal who suffers damage from the ",
+                    {
+                        "text": "nenitu",
+                        "italic": true
+                    },
+                    "’s bite becomes infected and suffers one automatic point of bashing damage each turn until dead. If the infected wound is cauterized with fire or a bitten limb is amputated on the first five turns, the disease stops (this involves at least one point of aggravated damage and possibly a permanent flaw). After that, the plague spreads until it ravages every organ. Victims die writhing and vomiting blood while clawing deep gouges in their skin (unless restrained). Their corpses reanimate as ",
+                    {
+                        "text": "nenitu",
+                        "italic": true
+                    },
+                    " a turn later, up to the pack’s limit."
+                ]
+            }
+        ]
     },
     {
         "Name": "Words of Dead Glory",
         "Tier": "Ba ••",
         "Descriptors": "",
         "Summary": "Binds a ghost to a body, creating a revenant, and forces tasks upon it.",
-        "Book": "MTC 137"
+        "Book": "MTC 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy consecrates a location to herself no larger than (Sheut + Ka) miles in diameter for one week. Repeated unleashing of this tier upon the same area resets the duration. At least half of that enchanted area must already have a location manifestation modifier of +1 or higher (World of Darkness, p. 210), often restricting the unleashing to specific structures, streets, neighborhoods, and immediately adjoining areas rather than the tier’s maximum coverage. The minimum manifestation modifier for all parts of the enchanted area further rises by +1 per night, to a maximum of +5."
+            },
+            {
+                "type": "paragraph",
+                "text": "While in the affected area, ghosts temporarily gain the following Numina: Ghost Speech (World of Darkness, p. 211), Maddening (see p. 209), and Terrify (World of Darkness, p. 212). They also gain two Essence points whenever they use Maddening to drive a mortal insane."
+            }
+        ]
     },
     {
         "Name": "Words of Dead Glory",
         "Tier": "Ka ••••",
         "Descriptors": "",
         "Summary": "Binds a ghost to a body, restoring its sanity, but binding it to the mummy's will.",
-        "Book": "MTC 137"
+        "Book": "MTC 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen summons a horror that is neither wholly ghost, nor entirely demon—an unholy Lifeless chthonic entity ripped from eons past and unleashed upon the present (see sidebar). It may be that such creatures no longer roam the earth because they were all summoned into the future. The tier only functions in areas with a manifestation modifier of +5 or greater, so powerful magic (such as the preceding tier) must prepare the way. When the creature emerges from the spiraling rift, it initially focuses all effort on devouring available ghosts to grow itself. It ignores other victims until it is at full strength. The mummy must wait (successes on a roll of 10 dice) weeks before the stars align such that she can unleash this tier again."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy’s control over the entity is tenuous at best. While within 100 yards of the monster, she can take an instant action to address it with mystic formulae and gibbering incantations, pitting her Presence + Occult + Ba + Sekhem against the creature’s Resistance + Age of 20 dice. The creature suffers a cumulative -1 penalty to resist commands per ghost it devoured that scene (see below). If the roll for the mummy succeeds, she may give the creature one order or standing taboo that it must obey for the rest of its existence. New instructions cannot override previous orders entirely, but can limit or amend them (“kill everyone” can become “kill the firstborn”)."
+            },
+            {
+                "type": "paragraph",
+                "text": "If there is any way to misconstrue an order, the malign intelligence of the horrors finds that way. It isn’t so much that the entity delights in loopholes as it is its nature to bring ruin upon all things, prey and master alike. Accordingly, the first such command is a prohibition against harming the mummy who summoned it. Through the power of Fate, the monster can observe taboos based on information it has no way to know (such as recognizing firstborn). The creature exists until slain, at which point its vast Corpus rapidly dissolves until only nightmares and repressed memories remain."
+            }
+        ]
     },
     {
         "Name": "Words of Dead Hunger",
         "Tier": "Ren •",
         "Descriptors": "Subtle",
         "Summary": "Grants the ability to perceive ghosts, and significant ability to act against them, including the ability to steal Numina for later use.",
-        "Book": "MTC 137"
+        "Book": "MTC 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy unleashes a second sight upon her eyes, showing her the secrets of the dead for one hour. The enchantment grants her the following powers:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "She can see ghosts as if they were manifested solely to her. She adds her Ren as a bonus to spot ghosts and revenants.",
+                    "She intuitively recognizes anchors upon seeing them and adds her Ren as a bonus to locate such objects with perception or dedicated searching. By touching an anchor, she can take an instant action to receive a clairvoyant glimpse of the ghost attached to it, just clear enough to know if she recognizes the owner or not.",
+                    "She can strike ghosts with her unarmed attacks as if they were corporeal. However, the dead can also touch her on the turn she attacks or the following one. Maintaining a clinch leaves her vulnerable to physical contact from ghosts until the turn after grappling ceases.",
+                    "Whenever she chooses to inflict damage while grappling a ghost, she can do so by draining the ghost’s vital energy. A nimbus of light swirls out of the held apparition and enters the mummy’s eyes and mouth. Damage inflicted may also take the ghost’s Essence points and convert them into Pillar points for the mummy’s own pools. The number of Essence points required to replenish one Pillar point is the current number of points the mummy has in that Pillar (minimum one). So, if she has Ab 4 and two Ab points left, gaining a third point requires her to take two Essence points.",
+                    "If she drains a ghost’s energy by clinching until that ghost is destroyed, she absorbs knowledge of one of the ghost’s Numen as chosen by Fate. Repeated kills always collect different Numina. This collection matters for later tiers of this Utterance."
+                ]
+            }
+        ]
     },
     {
         "Name": "Words of Dead Hunger",
         "Tier": "Ba ••",
         "Descriptors": "",
         "Summary": "Imbues a ghost with Numen stolen from the first tier, though potentially inflicting derangements as a result.",
-        "Book": "MTC 137"
+        "Book": "MTC 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen is as generous as she is terrible. She may bestow a gift of accursed power to any ghost or revenant visible to her within (Ba + Sekhem) yards. Her player rolls Presence + Occult, resisted by the ghost’s Resilience if it isn’t willing. If the mummy succeeds, she bestows one Numen chosen by Fate to best empower the ghost to serve the mummy’s current needs. Alternately, she can grant one of the Numina she has absorbed with the first tier of this Utterance. Finally, she can always select Siphon (see p. 210) or Untethered (see p. 210) for her gift. Whichever Numen she chooses, the blessing lasts for (her Ba + Memory) days. A ghost may receive any number of separate enchantments from this tier, but every two Numina currently imbued this way gives it one derangement chosen by Fate. Human souls are fragile things."
+            },
+            {
+                "type": "paragraph",
+                "text": "In addition to the temporary Numina, a ghost cursed with power permanently gains the Old Soul Numen (see p. 209), which does not contribute toward the imposed derangement total. Lucid Dead characters must pay experience for this gift, even if they go into experience debt. If the ghost is too recently deceased to feel the Numen’s effects, its magic lies in wait for the centuries to reveal it."
+            }
+        ]
     },
     {
         "Name": "Words of Dead Hunger",
         "Tier": "Sheut ••••",
         "Descriptors": "",
         "Summary": "Consumes ghosts, subjecting them to torment within the mummy's soul, stoking them with hatred should they ever be allowed to return to the world.",
-        "Book": "MTC 137"
+        "Book": "MTC 137",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy opens her mouth impossibly wide, revealing a vortex of twisted rainbows distorted by infinite gravitation. For so long as the unleashing period lasts, her hallowed might lies revealed to the world and afflicts witnesses with Sybaris as though she were Sekhem 10. All ghosts (but not revenants) within (the mummy’s Resolve + Composure + Sekhem) yards in a 180-degree-wide arc in front of her feel a burning pull toward her mouth. They suffer one automatic point of aggravated damage per turn that the force pulls them until they surrender or suffer destruction. They cannot move without automatically surrendering to the pull. Most ghosts ultimately do give in when faced with the certainty of annihilation. The mummy may sustain the vortex each turn without a new unleashing so long as she spends an instant action each turn doing so. If she stops or suffers any points of damage, the unleashing ends."
+            },
+            {
+                "type": "paragraph",
+                "text": "The dead who surrender to the magic stretch and dissolve as they forcibly manifest, turning into luminous contrails that fall like nebulae into the spinning vortex. The ghosts leave the universe when they enter the Arisen’s mouth, but they don’t cease to be. Instead, an endless lake of fire awaits them in which they burn and are not destroyed. Their existence is agony, but they do exist. So they remain forever, unless pardoned by their banisher by unleashing this tier for that purpose."
+            },
+            {
+                "type": "paragraph",
+                "text": "When pardoned, the ghost emerges from the briefly opened vortex maw and instantly manifests. Under most circumstances, any time spent in the lake of fire is sufficient to give it one derangement chosen by Fate for a year. Repeated exposure stacks additional derangements, layering theoretically endless horror within the ghost’s consciousness."
+            },
+            {
+                "type": "paragraph",
+                "text": "The first time a ghost emerges after spending a week or longer in the lake, it does not gain a derangement. Instead, it returns with burning eyes, imbued with the following Numina: Flight of Shadows (see p. 208), Hallowed Passion (see p. 208), Impassioned Soul (see p. 208; Passions: Burn what is beautiful, Serve the mummy who devoured it, [Any specific assigned destructive task]), Pyrokinesis (see p. 210), Untethered (see p. 210), and Will From Power (see p.210). In many respects, the soul becomes more of a spectral fire demon than ghost, a force of destruction upon the wind."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the empowered ghost resolves its specific assigned Passion, it sheds its Hallowed Passion and exchanges it for Lucid Dead. The ghost may then choose to shed (Flight of Shadows, Impassioned Soul, and Pyrokinesis) to gain (Siphon, Spirit Prowess, and Stolen Pillars). After these choices, the blessings calcify and become permanent enhancements. Lucid dead player-controlled characters must pay for them with experience (going into debt as necessary)."
+            }
+        ]
     },
     {
         "Name": "Word-Warding Bonds",
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
         "Summary": "Impose -3 to attacks from those you know by name. With their true name, raise the attack's target number.",
-        "Book": "LotD 13"
+        "Book": "LotD 13",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy who unleashes this tier is shrouded by an aura of necromantic power that deflects the injurious hostility of those whose names he knows. For the next day, if a character whose name he knows takes a rolled action intended to cause him physical harm of any kind, that action suffers a -3 dice penalty. If the mummy knows the aggressor’s true name, the action also increases its target number by one. These defensive benefits apply whether or not the mummy is aware of the action, such as to cause a sniper’s bullet to miss."
+            }
+        ]
     },
     {
         "Name": "Word-Warding Bonds",
         "Tier": "Ab •••",
         "Descriptors": "",
         "Summary": "Project a warding light which forces hostiles you know by name to flee. Supernatural beings whose true name you don't know may spend Willpower to briefly resist.",
-        "Book": "LotD 13"
+        "Book": "LotD 13",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By unleashing this tier, the mummy encircles herself in a nimbus of warding that radiates outward as a muted golden glow to a radius of (Ab x 10 yards) for one hour. Within this diffuse light that has no apparent source, beings whose names the mummy knows and who intend him harm of any kind feel an irresistible push to move as quickly as they are able to get out of the light. They cannot generally take any other action apart from getting outside the warded area, although players of beings with a Supernatural Advantage trait can spend one Willpower point per turn for their characters to resist the compulsion. If the mummy knows a hostile character’s true name, even a Supernatural Advantage trait offers no resistance; such characters must flee as surely as mortals and Amkhata and the like and cannot resist with Willpower."
+            }
+        ]
     },
     {
         "Name": "Word-Warding Bonds",
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Contest Presence + Empathy against Composure + Tolerance to enslave a character for a week with their true name.",
-        "Book": "LotD 13"
+        "Book": "LotD 13",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By invoking a sapient target’s true name and expressing his deep understanding of that name, a mummy unleashing this tier seeks to bind the target’s will and make her bow before him. Both the mummy and target must be able to perceive one another and be within 10 yards of each other. Roll the mummy’s (Presence + Empathy), resisted by the target’s (Composure + Supernatural Advantage). If the mummy succeeds, the target unwillingly falls to her knees and abases herself before her new master. For one week, she cannot take any hostile action directed at her master and must obey all commands he gives her that would not result in immediate physical harm to herself. For instance, he could not make her step off a roof or shoot herself in the head, but could command her to remove all clothing and walk into a crime-ridden ghetto. Mandated obedience is to the letter rather than a spirit of the commands received, so some creative resistance via interpretation is possible. The mummy’s commands can be issued remotely, such as over the phone or via written instructions. It is not possible to command a target not to resist this tier, so any attempt to reset the duration of binding with a new unleashing must contend with the target’s usual resistance roll."
+            }
+        ]
     },
     {
         "Name": "Wrathful Desert Power",
         "Tier": "Ab •",
         "Descriptors": "Curse",
         "Summary": "Grants the ability to fire deadly blasts of sand for a turn.",
-        "Book": "MTC 138"
+        "Book": "MTC 138",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "After paying the Pillar cost, the mummy can launch blasts of scouring sand from his hands or mouth for the rest of the scene. These attacks use a roll of Dexterity + Athletics + Ab, deal lethal damage, and are Armor Piercing 3. They have a range of 20/40/80 and suffer double range penalties, as the stream of sand loses strength and cohesion at longer distances. The blast can cover as narrow or wide an arc as the mummy desires; his sand blasts effectively have the autofire capability. When used as a death curse, the mummy may unleash a single blast at his killer, ignoring wound penalties."
+            }
+        ]
     },
     {
         "Name": "Wrathful Desert Power",
         "Tier": "Ba •••",
         "Descriptors": "",
         "Summary": "Causes a target standing upon sand to be swallowed up by them, or enables travel under the sand by the mummy himself.",
-        "Book": "MTC 138"
+        "Book": "MTC 138",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The desert sands open and swallow a target character within (Ba x 20) yards. Potential targets must be standing on sand deep enough to entomb them. The mummy initiates a grapple (World of Darkness, p. 157), using his Ba + Survival in place of his Strength + Brawl. The target resists as normal, though she may substitute her Athletics for her Brawl if desired. The mummy may reflexively maintain the grapple until his victim escapes, but he may not choose to damage his victim with the grapple. Victims who fail to escape for long periods risk suffocation."
+            },
+            {
+                "type": "paragraph",
+                "text": "Alternately, the mummy may target himself, disappearing into the sands and emerging somewhere else within (Ba x 20) yards. Both his point of origin and his destination must have sand deep enough to contain his body. This version of the Utterance may be unleashed reflexively, and the sudden movement increases his effective Defense by 2 until the end of the turn, but it is not so sudden that he can teleport out of the path of an attack."
+            }
+        ]
     },
     {
         "Name": "Wrathful Desert Power",
         "Tier": "Ka •••••",
         "Descriptors": "",
         "Summary": "Conjures a vast and dangerous sandstorm.",
-        "Book": "MTC 138"
+        "Book": "MTC 138",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "With a sky-rending howl, the Arisen calls up a massive sandstorm, stretching [Ka x 100 yards] distance in every direction and lasting an hour. If there is not sufficient sand in the environment, the mummy breathes forth a quantity of sand sufficient to lacerate the wind. Darkness and obscurement limit visibility to 15 yards and impose a –3 penalty to perception rolls and ranged attacks within that area. Characters suffer a penalty equal to the Arisen’s Ka to all non-reflexive actions attempted within the sandstorm as they are buffeted by the howling, lacerating winds. Characters who are immune to magical fear suffer only half this penalty (rounded up), as it is partially a result of disorientation, panic, and a dreadful, creeping certainty that they will never see the light again. After every 10 minutes of exposure, characters suffer one level of bashing damage if they are up and active. If they go prone or take shelter in the lee of a large object or structure, they are quickly buried in accumulating sand and begin suffocating. Characters who take bashing damage from gunfire, such as mummies and vampires, only take damage once every 20 minutes."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy’s visibility is just as limited as anyone else’s, but he is immune to all the other deleterious effects of the sandstorm. The storm will follow him, though it can only move as fast as a normal storm (assume approximately 50 miles per hour), so if he moves fast enough, he may outpace it. While within the sandstorm, the mummy may disperse his body into the swirling sand and reform elsewhere, using the storm to meet the sand requirement for the second tier of this Utterance. Moreover, he need not spend any Pillars to use the travel function of the power."
+            }
+        ]
     },
-   
+
 ]
 
 const rawGuildUtterancesData = [
@@ -745,7 +2382,17 @@ const rawGuildUtterancesData = [
         "Tier": "Ka •",
         "Descriptors": "Subtle",
         "Summary": "Confer Willpower on the team when leading teamwork.",
-        "Book": "GotD 97"
+        "Book": "GotD 97",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "In times of crisis or danger, the Maa-Kep regard themselves as natural leaders. Not in the modern sense of being the man on the white horse who earns gratitude by issuing commands, but by knowing what’s going on and making the right decisions, no matter who gets the credit. One of their secrets is that doing anything together is often a better idea than letting a group scatter as each tries his own hare-brained scheme. This Maa-Kep Utterance makes that principle even more ironclad."
+            },
+            {
+                "type": "paragraph",
+                "text": "When unleashing the first tier of this Utterance, the mummy selects a number of companions up to his Ka rating he can perceive within a 10 yard radius. For the next hour, if the designated companions partake in an exercise of Teamwork (World of Darkness, p. 134) that focuses on the unleashing mummy as the primary actor and the effort succeeds, each participant regains a point of Willpower (unless they’re already at their natural maximum). The primary actor is included in this restoration. Only actions that require real effort and offer genuine challenges and/or dangers to the participants can restore Willpower; the Storyteller should veto awards that seem intended to cheat the spirit of the unleashing."
+            }
+        ]
     },
     {
         "Name": "Bound As Fingers in a Fist",
@@ -753,7 +2400,23 @@ const rawGuildUtterancesData = [
         "Tier": "Ren ••",
         "Descriptors": "Subtle",
         "Summary": "Distribute charms. You and the holders of the charms sense each other's locations and status and may share thoughts and Willpower.",
-        "Book": "GotD 97"
+        "Book": "GotD 97",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Maa-Kep prepares a number of charms or pieces of jewelry up to his Ren score, and shares them out among colleagues he can perceive immediately before activating this Utterance. The items have (Durability 1, Size 1, Structure 2). Once empowered by the unleashing, the ornaments unify their bearers and maker on a spiritual level for six days. If the trinket is broken or taken away, that individual is removed from the communion, but the thief does not enter it. Ornaments may be reused and empowered with a new unleashing, provided they remain undamaged. While the magic lasts, it grants the following benefits:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Each can intuit where the others are, regardless of distance. Only Duat is shrouded from this sense.",
+                    "Each can send silent messages to another or to all the others. Neither the sending or receiving party can be in Duat. Communication can take the form of verbal telepathy or broadcast psychic images.",
+                    "Each has a continuous passive sense of what the others are doing—eating, fighting, resting, arguing, suffering, etc.",
+                    "Each can donate a point of Willpower to another once per turn.",
+                    "Each adds +2 dice on rolls to resist mind-altering magic."
+                ]
+            }
+        ]
     },
     {
         "Name": "Bound As Fingers in a Fist",
@@ -761,7 +2424,33 @@ const rawGuildUtterancesData = [
         "Tier": "Ba ••••",
         "Descriptors": "Subtle, Unison",
         "Summary": "Roll Manipulation + Empathy - Composure to temporarily alter the Virtue and Vice of a crowd, granting 9-Again and +2 to manipulate them",
-        "Book": "GotD 97"
+        "Book": "GotD 97",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Unleashing this Tier has unusually understated effects for an Utterance, but they’re no less profound for their subtlety. The power of the enchantment reaches out to a radius of 100 yards, affecting all within that bubble who did not participate in the unleashing. The Arisen’s player rolls (Manipulation + Empathy), applying a dice penalty equal the highest Composure among all affected individuals. If successful, all targets temporarily change their Virtue and Vice to match the mummy. Because he now knows exactly how to appeal to them, the Arisen also gets a +2 die bonus and benefits from the 9-again rule for the next hour when targeting them with social actions."
+            },
+            {
+                "type": "paragraph",
+                "text": "When laborers work in unison, the Utterance becomes both more versatile and substantially more powerful. For each additional hierophant who participates, the following benefits are gained:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "The additional mummy gains the social bonuses as well.",
+                    "The unleashing lasts for an additional scene.",
+                    "The range of the unleashing increases by an additional 100 yards."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Acolytes do not increase the range, but otherwise count as hierophants by performing the requisite sign of murmured incantations that evoke sin and conscience. The occultic prayers take half a minute to perform and a successful (Manipulation + Occult) roll to ensure they are vocalized correctly without drawing undue attention that would spoil the rite."
+            },
+            {
+                "type": "paragraph",
+                "text": "The additional Maa-Kep’s Vice and Virtue can be considered for assignment to the crowd. For instance, if two mummies with different Vices and Virtues cooperate on this tier, they could assign the Vice and Virtue of one to the crowd, or of the other, or they could assign one’s Vice and the other’s Virtue. This can’t give the crowd members extra Vices or Virtues, of course."
+            }
+        ]
     },
     {
         "Name": "Discipline the Obstinate",
@@ -769,7 +2458,26 @@ const rawGuildUtterancesData = [
         "Tier": "Ab •",
         "Descriptors": "Curse, Unison",
         "Summary": "Inflict damage and Initiative penalties with an abominable word, with hierophants adding more debilities",
-        "Book": "GotD 98"
+        "Book": "GotD 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This abominable word blasts the flesh and shakes the souls of outsiders who hear it. Anyone within 10 yards who is not completely deaf or behind a soundproof barrier suffers one point of damage and subtracts one from his initiative count. The type of damage taken depends on the nature of the listener. Mortals and non-magical animals suffer aggravated damage. Supernatural beings suffer lethal wounds. Mummies suffer bashing damage unless they share the unleashing mummy’s guild, in which case they’re unharmed and don’t even lose Initiative. This damage ignores mundane armor, but may be stopped normally by supernatural defenses."
+            },
+            {
+                "type": "paragraph",
+                "text": "The more mummies chanting this blasphemy against life, the worse it gets for outsiders listening. Each additional user of the Utterance does another point of damage and pushes enemies farther back on the Initiative queue, but that would happen even if the Arisen just did it serially. When they speak this curse in unison, each additional participant who shares the guiding hierophant’s guild adds an effect to it:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "The first additional participant forces the injured to step back away from the guiding hierophant a number of feet equal to twice the number of participants.",
+                    "The second imposes a -1 die penalty to all non-reflexive actions on anyone who has suffered injury from this tier. The penalty from aching spiritual pain lasts for an hour and does not stack with itself.",
+                    "The third costs listeners a point of Willpower at the moment the penalty from pain goes into effect, a result of crushing depression. Characters cannot suffer further Willpower drain this way until the penalty wears off and is applied anew.",
+                    "The fourth deafens everyone injured, for a number of scenes equal to the total number of participants. This deafness only kicks in after a minute so that the Utterance does not block itself from being unleashed upon a target again in rapid succession."
+                ]
+            }
+        ]
     },
     {
         "Name": "Discipline the Obstinate",
@@ -777,7 +2485,25 @@ const rawGuildUtterancesData = [
         "Tier": "Ren •••",
         "Descriptors": "Curse, Epic",
         "Summary": "Forbid those present from speaking your name or business, under certain circumstances or at all, for a matter of days, causing lethal damage on attempts. As a death curse, inflict permanently on your killers.",
-        "Book": "GotD 98"
+        "Book": "GotD 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "At this level, the mummy curses everyone who speaks his name or discusses his business without permission. Exclusions can be made—“everyone in my meret,” “my guildmates,” “members of my cult,” or all the above and more. The exclusions are defined when unleashing the Utterance."
+            },
+            {
+                "type": "paragraph",
+                "text": "Everyone else within a mile radius is affected for a number of days equal to the mummy’s Ren. If anyone so afflicted speaks the mummy’s name, he takes a point of lethal damage as blood courses from his mouth. If he tries to write it, his hands cramp and the skin of his fingers blisters (again, causing a point of lethal damage). Someone who knowingly discusses the mummy’s plans or activities (even without knowing the name) is similarly hurt. The curse does not harm those who talk about it ignorantly—”Wow, those weirdos in the red robes are really freaking out!” is safe, but “The disciples of Nakhti-the-Soft-Voice-of-Poison are on the prowl!” earns a point of damage. It’s up to the Storyteller to adjudicate edge cases, often in accordance with the course of fate."
+            },
+            {
+                "type": "paragraph",
+                "text": "The magic ensnares everyone present when spoken, and continues to harm them even if they leave its radius in the interim. (Those who enter the zone after the fact can speak the forbidden name in safety.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "If pronounced as a death-curse, the Utterance only harms those who had some direct hand in the mummy’s demise. But in that case, it’s permanent: They take damage every time they say his name or speak of his deeds. Only encountering him arisen anew undoes this otherwise lifelong curse."
+            }
+        ]
     },
     {
         "Name": "Discipline the Obstinate",
@@ -785,7 +2511,29 @@ const rawGuildUtterancesData = [
         "Tier": "Sheut •••••",
         "Descriptors": "Curse, Epic",
         "Summary": "Snuff all lights and blind mortals for hours. Contest Presence + Intimidation against Composure + Resolve + Tolerance to blind mummies for turns and other beings for scenes.",
-        "Book": "GotD 98"
+        "Book": "GotD 98",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "In the wrath of the slave-driver, darkness descends. As with the previous tier, the Arisen can exclude individuals or classes of folks as he prepares the Utterance. Once he speaks it, everyone within one mile for every two points of Sheut goes blind, except those excluded."
+            },
+            {
+                "type": "paragraph",
+                "text": "Afflicted mortals just go blind, period. Their sightlessness lasts for an hour per point of the mummy’s Sheut, and the experience provokes Terror Sybaris."
+            },
+            {
+                "type": "paragraph",
+                "text": "Supernatural beings roll (Composure + Resolve + Advantage Trait) against the Arisen’s (Presence + Intimidation). For every success by which the mummy exceeds the victim, she suffers immediate and total blindness for one scene."
+            },
+            {
+                "type": "paragraph",
+                "text": "Arisen roll (Composure + Resolve + Sekhem) against the unleashing mummy’s (Presence + Intimidation) if they’re not excluded from the casting. Blindness lasts one turn for every success by which the unleashing mummy exceeds the victim."
+            },
+            {
+                "type": "paragraph",
+                "text": "In addition to blinding everyone, the Utterance deactivates all light sources within the radius. Fires smaller than a bonfire snuff out instantly, their final smoke inexplicably perfumed. Light bulbs burn out with spectacular showers of sparks. New lights may be turned on, but for a moment, all is dark."
+            }
+        ]
     },
     {
         "Name": "Harvest the Divine Flesh",
@@ -793,7 +2541,26 @@ const rawGuildUtterancesData = [
         "Tier": "Ka •",
         "Descriptors": "",
         "Summary": "Touch a subject and contest Ka + Sekhem against Stamina + Tolerance to temporarily incapacitate a body part by transmuting it to precious materials.",
-        "Book": "GotD 103"
+        "Book": "GotD 103",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The ancients knew that precious stones and metals represented spiritual energy. Their gods had golden skin and eyes of lapis lazuli. Arisen and mortal souls lack divine might, but alchemy can still condense the power in their flesh into such materials—though not to their advantage. The mummy may unleash this tier reflexively whenever she touches her target’s bare skin (see World of Darkness, p. 157). She must choose a specific target (see World of Darkness, p. 165). Roll the Arisen’s (Ka + Sekhem), resisted by the target’s (Stamina + Sekhem). Smoking black fluids erupt from tears in the mummy’s skin and sink into a body part, which becomes heavy and useless as it turns to gold or another precious substance. The rigidity and weight of the target’s precious flesh imposes a -2 dice cumulative penalty to physical dice pools, and additional effects depending on the body part affected:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Torso: Weighed down by golden skin and muscle, the target cannot breathe. Mortals are prevented from vocalizing and begin to suffocate (see World of Darkness, p. 49). Naturally, this is more of a nuisance than danger for Arisen.",
+                    "Head: Ears of gold and gemstone eyes remove the ability to see and hear. The target becomes completely blind and deaf.",
+                    "Arm: The target’s golden arm can no longer grasp or hold objects, and loses its sense of touch. He automatically drops anything he carries and cannot muster sufficient coordination to pick anything else up.",
+                    "Leg: The target’s leg seizes up; he must succeed at a reflexive (Dexterity + Athletics) roll or fall prone. The target suffers the effects of the Lame Flaw (see World of Darkness, p. 219). If the target already possessed this Flaw (due to this Utterance or another circumstance) he acquires the Crippled Flaw."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This tier’s effects last for a number of turns equal to the mummy’s (Ka + Sekhem). If the Arisen’s player rolls an exceptional success, the Utterance also inflicts one point of aggravated damage, as the transmutation runs deep into bones and vital organs. At the Utterance’s conclusion, this flesh returns to normal, even if it’s been severed from its target. All deleterious effects end at this time, excepting actual damage."
+            }
+        ]
     },
     {
         "Name": "Harvest the Divine Flesh",
@@ -801,7 +2568,21 @@ const rawGuildUtterancesData = [
         "Tier": "Sheut •••",
         "Descriptors": "",
         "Summary": "Contest Sheut + Sekhem against Stamina to permanently transmute a mortal human's body parts to precious materials.",
-        "Book": ""
+        "Book": "GotD 103",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy chants the secrets of alchemical transmutation over her bound and helpless, living mortal target. Animals are not valuable enough to serve as valid targets for the magic. At the conclusion of this hour long ritual she forces the target’s mouth open and seals it with her own. The mummy vomits the smoking black fluid Duat’s demons use to shape soul-stuff into weapons and vestments. Roll (Sheut + Sekhem), resisted by the target’s Stamina. Each success inflicts a point of aggravated damage that cannot be treated by medical science except through amputating affected regions. (Magic remains effective, however.) The mummy chooses which body parts transmute into precious materials."
+            },
+            {
+                "type": "paragraph",
+                "text": "Each success generates precious gems and metals sufficient to make one Resources •• purchase (roughly $2,000 in modern times). Two successes may instead be invested to grant Resources •••, or four successes may be invested to grant Resources ••••. One need only hack off the transmuted parts, inflicting one point of lethal damage to the target per occasion. Optionally, the mummy may drain the target’s blood, which becomes an alchemical agent capable of adding an equivalent value to metal, jewelry or certain works of art—it turns costume jewelry to the real thing and forged art into perfect copies."
+            },
+            {
+                "type": "paragraph",
+                "text": "Dead targets cannot be harvested further, and supernatural beings cannot be affected by this Utterance."
+            }
+        ]
     },
     {
         "Name": "Harvest the Divine Flesh",
@@ -809,7 +2590,23 @@ const rawGuildUtterancesData = [
         "Tier": "Ka •••••",
         "Descriptors": "Epic",
         "Summary": "Undergo a divine transfiguration, gaining bonuses to Sybaris, Presence, Strength, Stamina, and Armor, and attacks against beings in Twilight.",
-        "Book": ""
+        "Book": "GotD 103",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy transmutes into something like a sarcophagus out of an unspoiled tomb, with golden flesh, precious stones for eyes and kingly regalia, including the Scorpion Flail of ancient Irem. Her presence carries metaphysical “weight;” she’s made of the stuff of the gods, more real and solid than the mundane universe around her. Her body isn’t weighed down by this transformation, but glorified; a golden heart pumps Sekhem as fluid, soaking her body in a continuous alchemical transformation. This confers the following powers for a number of hours equal to her Sekhem:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Her golden body blazes with power, as if her presence is as essential as the sun. She cannot conceal her supernatural nature and affects all witnesses with Sybaris as if she had Sekhem 10. As a living objet d’art, she gains the four dot version of the Striking Looks Merit, and as a manifestation of divine power, she adds her Ka score to her Presence.",
+                    "Her metal and mineral flesh is far more durable than flesh, giving her Armor 3/3 with no attendant penalties or strength requirements. She also halves the number of points of damage she actually suffers from each separate injury from heat or flame, rounded up. That leaves at least one point from any burn that would result in actual damage, but increases how long she can last in the face of such injury.",
+                    "Her new form possesses tireless power, granting two bonus dots of Strength and three of Stamina.",
+                    "The mummy’s metaphysical strength extends to beings in Twilight. She may perceive and physically interact with them as if they could be touched in the material plane. Her attacks against beings in this state automatically inflict aggravated damage and reduce their target number by one.",
+                    "The mummy may now unleash the first tier of this Utterance at range by “touching” targets she can perceive within 20 yards with a luminous gold flare of Sekhem. This “touch” uses a dice pool of (Wits + Occult)—contact allows the tier to activate and invoke its usual transmutation."
+                ]
+            }
+        ]
     },
     {
         "Name": "Inscriptions of Flesh",
@@ -817,7 +2614,23 @@ const rawGuildUtterancesData = [
         "Tier": "Ba •",
         "Descriptors": "Subtle",
         "Summary": "Freely roll Ba + Sekhem to read capabilities or debilities in mortal living patterns, gaining +2 to close combat rolls against the subject",
-        "Book": "GotD 112"
+        "Book": "GotD 112",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy transmutes into something like a sarcophagus out of an unspoiled tomb, with golden flesh, precious stones for eyes and kingly regalia, including the Scorpion Flail of ancient Irem. Her presence carries metaphysical “weight;” she’s made of the stuff of the gods, more real and solid than the mundane universe around her. Her body isn’t weighed down by this transformation, but glorified; a golden heart pumps Sekhem as fluid, soaking her body in a continuous alchemical transformation. This confers the following powers for a number of hours equal to her Sekhem:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Her golden body blazes with power, as if her presence is as essential as the sun. She cannot conceal her supernatural nature and affects all witnesses with Sybaris as if she had Sekhem 10. As a living objet d’art, she gains the four dot version of the Striking Looks Merit, and as a manifestation of divine power, she adds her Ka score to her Presence.",
+                    "Her metal and mineral flesh is far more durable than flesh, giving her Armor 3/3 with no attendant penalties or strength requirements. She also halves the number of points of damage she actually suffers from each separate injury from heat or flame, rounded up. That leaves at least one point from any burn that would result in actual damage, but increases how long she can last in the face of such injury.",
+                    "Her new form possesses tireless power, granting two bonus dots of Strength and three of Stamina.",
+                    "The mummy’s metaphysical strength extends to beings in Twilight. She may perceive and physically interact with them as if they could be touched in the material plane. Her attacks against beings in this state automatically inflict aggravated damage and reduce their target number by one.",
+                    "The mummy may now unleash the first tier of this Utterance at range by “touching” targets she can perceive within 20 yards with a luminous gold flare of Sekhem. This “touch” uses a dice pool of (Wits + Occult)—contact allows the tier to activate and invoke its usual transmutation."
+                ]
+            }
+        ]
     },
     {
         "Name": "Inscriptions of Flesh",
@@ -825,7 +2638,38 @@ const rawGuildUtterancesData = [
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Contest Wits + Ka + Sekhem against Composure + Tolerance to read supernatural living patterns. Attacks following scrutiny deal aggravated damage and can aggravate debilities, expose true forms, or drain supernatural energies. Laying hands following scrutiny may heal or cure diseases or debilities.",
-        "Book": "GotD 112"
+        "Book": "GotD 112",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy’s sight understands the flesh-language of magical and undead creatures, including other Arisen. She may unleash the first dot of this power on any corporeal creature except for materialized ghosts and spirits, or automatons made of stone, metal or synthetic materials. Supernatural beings use (Composure + Sekhem) to resist the mummy’s (Wits + Ka + Sekhem) roll. Their complex forms ensure that the bonus to close combat rolls against them only lasts for a single scene."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy may now attack the supernatural substrates of targets’ physical forms. She mars the secret writing in their flesh, or rewrites it to their disadvantage. Every successful Brawl and Weaponry attack inflicted against scrutinized targets inflicts one point of aggravated damage on top of any other damage. Furthermore, if the mummy scores an exceptional success unleashing this tier to study an enemy, she may now inflict one of the following disadvantages with each successful attack:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "If the target carried some systemic disease or chronic condition, the mummy may intensify it so that it inflicts one point of bashing damage per turn, for a number of turns equal to the mummy’s Sekhem.",
+                    "The mummy may subtract one dot of the target’s Strength, or Dexterity with each attack. This Attribute drain lasts for a number of turns equal to the mummy’s Sekhem, or until the target heals aggravated damage equal to the amount inflicted by the attack, whichever comes first. If the target’s Strength or Dexterity falls to 0, he is incapacitated until both Attributes recover to 1 or higher.",
+                    "The mummy may force a shapeshifter or being that conceals its true form under a supernatural aura to revert to its natural form. Arisen revert to their corpse-like sahu manifestations.",
+                    "The mummy may wound the subtle channels that circulate magical energy throughout a supernatural being’s body. Against beings that manifest Pillars, this drains one point from the target’s lowest Pillar, which the mummy may absorb to replenish their own. Against other supernatural beings, this drains one point of a corresponding expendable supernatural resource, but the mummy does not benefit."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy may unleash this Utterance with more benign intentions by studying the target as above, and then touching him with her bare hand or a non-electronic writing implement. The mummy does not need to score an exceptional success, and the target may choose not to resist. Instead of inflicting damage, the mummy grants one of the following effects:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "The mummy cures a mundane disease or debilitating condition, even if it would normally be incurable, so long as a body part necessary to the target’s recovery has not been destroyed or severed.",
+                    "The mummy heals all bashing damage or one point of lethal damage (one point of aggravated with an exceptional success). Mortals become refreshed as if rising from a solid night’s sleep.",
+                    "The mummy reverses any of the effects (except for damage) inflicted by another unleashing of this Utterance."
+                ]
+            }
+        ]
     },
     {
         "Name": "Inscriptions of Flesh",
@@ -833,7 +2677,37 @@ const rawGuildUtterancesData = [
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Restrain a subject and contest Ren + Sekhem against Stamina + Tolerance to reshape their flesh, granting one of several possible benefits or debilities. May cause aggravated damage, or slay a mortal outright.",
-        "Book": "GotD 112"
+        "Book": "GotD 112",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By rewriting the mystic instructions that regulate the subject’s flesh, the mummy reshapes it into beautiful or hideous forms. The mummy needs a moment to read secret names shining beneath the skin. Living tissue is both the target and the surface upon which the mummy writes. The Arisen needs to still her target. If he isn’t lying still, the mummy must overpower him. The grappling maneuver of the same name will suffice, though the Arisen doesn’t need to restrain her target herself."
+            },
+            {
+                "type": "paragraph",
+                "text": "Roll the mummy’s (Ren + Sekhem), resisted by the target’s (Stamina + Sekhem). If the mummy uses a knife, carving tool, or ink brush (including Letters Writ Upon Rivers; see p. 110), she rewrites the ephemeral words adroitly, earning a +2 equipment bonus. A successful roll allows the mummy to perform one of the following actions. Exceptional success allows imposition of two of these conditions, or the same condition twice."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Instantly kill a mortal, as long as he has never used magic. The mummy erases or vandalizes the glyphs commanding vital organs. If the mortal ever possessed a supernatural template, used a magical ritual or relic, or demonstrated psychic sensitivity (such as that provided by Unseen Senses or Witness) the experience has changed him enough to render him immune to this unleashing.",
+                    "Inflict one point of aggravated damage per success. In case of an exceptional success, the condition may not be imposed twice for double damage.",
+                    "Add dots to target’s Physical Attributes equal to the greater of the mummy’s Sekhem or Ren rating. If the mummy’s Sekhem drops while the target enjoys these benefits, this lowers the cap and may degrade these enhancements.",
+                    "Impose any Physical Merit (except for Fighting Styles and Merits that require training) any dot level up to the human maximum or any Physical Flaw. If these Flaws involve a non-functioning body part, the mummy may choose to cripple it, so that it may heal over time, inflict a permanent deformity, or “erase” the part, so that a blinded victim’s eyes vanish, as if he was born without them.",
+                    "Reshape a part of the target into an Amkhata Frame, Head, or Limbs. This does not convert the target into one of the Amkhat; rather, a mummy who has mastered this Utterance knows the secret names of those flesh components, and can rewrite the victim’s body to replicate them. The mummy cannot create a false ka for the victim, and the victim cannot dematerialize, sense Sekhem, or absorb it. In situations where one part is larger than a human body can typically support, other structures thicken and lengthen enough to allow the target to carry it.",
+                    "Perform another action that reshapes the target’s flesh. The player and storyteller may agree on an effect about as potent as the others listed above.",
+                    "Reverse any non-damage effect from the list above."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Beings capable of supernaturally healing aggravated wounds may reverse a non-damaging condition by exerting the effort required to magically heal two points of aggravated damage. If such a being can heal aggravated wounds in others, he can reverse such conditions in them as well, using the same rule. Mortals (including sorcerers) given Physical Merits, enhanced Attributes or Amkhata parts suffer one point of aggravated damage per hour, victims of an inhuman code that cannot sustain them. They maintain any deformities after death. Arisen shake off all conditions whenever they are resurrected, whether or not this restarts the Descent."
+            },
+            {
+                "type": "paragraph",
+                "text": "This Utterance may only be unleashed on normally material beings. Ghosts and other normally incorporeal entities may not be affected. Despite their ability to stalk Twilight, Amkhata may be targeted. The mummy may not target her own body, however."
+            }
+        ]
     },
     {
         "Name": "Redacting the Word",
@@ -841,7 +2715,61 @@ const rawGuildUtterancesData = [
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
         "Summary": "Roll Sheut + Sekhem to erase knowledge from existence.",
-        "Book": "GotD 114"
+        "Book": "GotD 114",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "In a waking dream, the mummy stands before the Endless Scroll and claims the privilege of ancient scribes and historians: the power to censor. Like a Pharaoh eliminating the existence of a rival, he erases a portion of the primordial record. At the first tier, he may only eliminate knowledge, but this is no psychic trick. The knowledge itself vanishes, regardless of the minds that hold it. Roll Sheut + Sekhem, applying the following penalties based on the nature of what the mummy intends to erase."
+            },
+            {
+                "type": "paragraph",
+                "text": "This Utterance may be used to target memory of a living mortal, resisted by a Composure roll. Keep in mind that most mortals are known to at least 100 people in their social network (applying maximum penalty). However, certain individuals may have taken steps to reduce their visibility within the mortal world and inadvertently making the mummy’s job easier. This Utterance may not be unleashed to eliminate self-evident knowledge (“gravity works,” or “I’m standing right here”) and does not affect physical evidence. Thus, when the world forgets that a hermit ever existed, they may rediscover him when his Social Security records come up."
+            },
+            {
+                "type": "paragraph",
+                "text": "Nevertheless, the erasure has a nearly universal effect. No mortal will remember it. Arisen with Memory scores of 4 or less also forget the information. Arisen with Memory Traits of 5 of greater retain the information. So might other supernatural beings, should the storyteller desire it. These creatures reintroduce the information to the Scroll of Ages to the extent necessary to recall it, as their magical nature brings them closer to the cosmic record’s essence. The mummy may exclude specific individuals from forgetting, but this is difficult—he must not simply erase, but rewrite."
+            },
+            {
+                "type": "paragraph",
+                "text": "When this is used to erase knowledge deeply connected to an individual’s life, that person often suffers a derangement and is aware of a dark gap in her consciousness."
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Known to:"
+            },
+            {
+                "type": "table",
+                "headers": ["", ""],
+                "rows": [
+                    ["One to three people", "0"],
+                    ["Four to seven people", "-1"],
+                    ["8 to 20 people", "-2"],
+                    ["20 to 50 people", "-3"],
+                    ["50 to 100 people", "-4"],
+                    ["100 to 1000 people", "-5"],
+                    ["Each additional 1000 people", "-1"],
+                    ["Each person the mummy allows to remember it, including self", "-1"],
+                    ["Each dot of Fame Merit", "-2"]
+                ]
+            },
+            {
+                "type": "heading",
+                "level": 3,
+                "text": "Type of knowledge:"
+            },
+            {
+                "type": "table",
+                "headers": ["", ""],
+                "rows": [
+                    ["Supernatural experiences or genuine lore", "+2"],
+                    ["Known to an Arisen, Memory 1-4", "+2"],
+                    ["Known to an Arisen, Memory 5-7", "0"],
+                    ["Known to an Arisen, Memory 8+", "-5"],
+                    ["Ancient", "-1 per 1000 years known to mortals"]
+                ]
+            }
+        ]
     },
     {
         "Name": "Redacting the Word",
@@ -849,7 +2777,21 @@ const rawGuildUtterancesData = [
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Use a dead subject's true name and image and contest Manipulation + Occult + Sekhem against Composure + Tolerance to erase forensic evidence of their existence.",
-        "Book": "GotD 114"
+        "Book": "GotD 114",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Like a vengeful, ancient monarch, the mummy eradicates the existence of the fallen. By learning the mystical true name of a dead individual (less dynamic now that they are deceased) the mummy may eliminate non-living, physical evidence of her existence. By recording the existence of objects, the Scroll of Ages maintains their reality. The mummy erases the living anchor for that which is written in the Scroll."
+            },
+            {
+                "type": "paragraph",
+                "text": "This manifestation of the Utterance cannot be unleashed on the living, undead or ghosts. It does not destroy magical places or objects, such as vessels or tombs, or living things connected to the target, such as animals or relatives. It can affect Arisen while they are truly dead, though the Arisen’s true names are held in Duat. Thus, a mummy may unleash the Utterance to cover an ally’s tracks before she returns to the living world. Objects vanish in a series of coincidences. Electronic databases scramble and gravestones break. This tier does not affect memories, either, though the first and third tiers do. Cults, particularly those of tribal composition, are thus unaffected."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy must acquire (or create) an image of the target such as a photograph, painting or sculpture. This item must have been created by one who personally saw the target—automated security footage doesn’t work. The mummy meditates for an hour in an occult diagram that represents the Scroll of Ages. His player rolls Manipulation + Occult + Sekhem, resisted by the target’s Composure + Sekhem (while she was last alive, if any—for Arisen characters, this is 1 if they finished their Descent, but may be more if they retreated to henet early) and penalized by 2 for every dot of the target’s Fame Merit, if she possesses it (the Merit greatly increases the amount of the physical evidence the Utterance must eliminate). If the target generated an exceptional amount of physical evidence, further penalties may be levied. Heads of state and international media stars are not so easy to erase from history."
+            }
+        ]
     },
     {
         "Name": "Redacting the Word",
@@ -857,7 +2799,29 @@ const rawGuildUtterancesData = [
         "Tier": "Ren •••••",
         "Descriptors": "",
         "Summary": "Use a subject's true name and captured soul and contest Intelligence + Ren + Sekhem against Resolve + Tolerance to erase the subject from existence completely.",
-        "Book": "GotD 114"
+        "Book": "GotD 114",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The ultimate manifestation of this Utterance wipes a target from the Scroll of Ages. The Scroll accommodates the deletion, rewriting the cosmic record to seamlessly conceal the fact that the victim ever existed. These changes affect the past back to the time of Irem, affecting all memories and physical signs (replicating the first two tiers of this Utterance), though with as much metaphysical economy as possible. Most of what the target did to change the world remains, but gets reassigned to other causes. Children acquire different mothers and fathers. Anyone the target killed remains dead, but slain by another cause. Even deeply personal mystic structures suddenly lack essential context as to their creator. The mummy may influence these cosmic “revisions” to a certain extent, as agreed to by the player and the Storyteller."
+            },
+            {
+                "type": "paragraph",
+                "text": "This tier is difficult to use for one reason: the mummy must acquire the target’s true name. A typical mortal’s true name includes her full legal name, all nicknames (even the most private), and a sequence of mystical syllables that describe her unique connection to the cosmos. Certain relics, such as the Lost Brush of the First Scribe (Mummy: The Curse, p. 230) or the Erudite Bastion of Perfection Affinity (p. 111), are capable of producing them. Ancient, mystic texts also contain individual true names for certain supernatural beings."
+            },
+            {
+                "type": "paragraph",
+                "text": "Magical beings, including sorcerers, possess inherent protections against name theft, but these may be bypassed through the use of certain occult objects or Affinities or through extremely thorough interrogation of anyone who happens to know the name. Arisen’s true names have been separated from them as a consequence of the Rite of Return, though certain effects (chiefly, Apotheosis) are capable of returning their names to them. Regardless, mummies are never valid targets for this tier."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the mummy acquires the target’s true name, he must ensure that her soul has been banished from the realm of the living, lest it renew its bonds with the flow of history. Mortal targets must die, supernatural targets must be neutralized in the material world; the method is not important. At this point, the mummy captures the target’s soul, using it as a beacon to guide him to where the victim has written herself across the Scroll of Ages. In a vision, the mummy clutches the soul and journeys across the cosmos. Using the target’s true name, he claims the right to erase her existence."
+            },
+            {
+                "type": "paragraph",
+                "text": "Over the hour this vision takes place, the mummy’s player rolls Intelligence + Ren + Sekhem, resisted by the target’s Resolve + Sekhem. If a dramatic failure occurs, the target’s spirit overwhelms the mummy’s and she captures him in the presence of the Scroll of Ages. The former victim may instantly slay her soul’s captor and escape his otherworldly clutches."
+            }
+        ]
     },
     {
         "Name": "Ancestry of Forgotten Stars",
@@ -865,7 +2829,13 @@ const rawGuildUtterancesData = [
         "Tier": "Ren •",
         "Descriptors": "Subtle, Unison",
         "Summary": "Officiates manifest a demonic second flesh to interact with Twilight, which for hierophants gains Physical Attribute and Wits bonuses.",
-        "Book": "GotD 121"
+        "Book": "GotD 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Officiates cut the seals of unnatural progenitors on their flesh with stone knives (inflicting one point of lethal damage) and cause the hidden, alien seed in them to flower. All officiates acquire a second, demonic “flesh” that occupies the same space as their normal bodies, but allows them to see and physically interact with ghosts and other beings in a state of Twilight. The second flesh possesses a hideous appearance to those able to see into Twilight; bronze horns, scales, supernumerary limbs and arrays of eyes erupt from the sahu. Acolytes enjoy no other benefits, but hierophants benefit from an additional dot in each Physical Attribute and Wits while interacting with creatures in a state of Twilight; their demon forms are well adapted to its strange vibrations. The transformation lasts for an hour."
+            }
+        ]
     },
     {
         "Name": "Ancestry of Forgotten Stars",
@@ -873,7 +2843,41 @@ const rawGuildUtterancesData = [
         "Tier": "Sheut •••",
         "Descriptors": "Unison",
         "Summary": "Assume the second flesh materially, causing Terror Sybaris, granting Speed and armor bonuses, and opening Twilight pathways to places of power.",
-        "Book": "GotD 121"
+        "Book": "GotD 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Officiates unlock adaptations to non-Euclidian geometry possessed by their inhuman forefathers—powers forgotten by descendants. These perceptions and angles are invisible to closed minds. The change begins in the pineal gland, which officiates must expose to air and light. Any sharp, sturdy tool will do, but the act of cutting or drilling into the skull inflicts two points of aggravated damage. The injury may not be healed while this tier is being maintained, and the Utterance may not be unleashed until every participant exposes the “third eye” in this fashion."
+            },
+            {
+                "type": "paragraph",
+                "text": "All officiates acquire the following benefits:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "They gain the inhuman ephemera-flesh of the Utterance’s first tier and the ability to see into and interact with Twilight, but their transformations are now visible to all. This invokes Sybaris as if the officiates had revealed their true forms, but at the guiding officiant’s Sekhem rating.",
+                    "They add (Sekhem + Sheut) to their Speed Trait, “stealing steps” by moving at alien angles. This also allows them to ignore environmental hindrances to movement, including material barriers less than six inches thick, unless they specifically block ghosts and other Twilight-state entities. Officiates can walk on water, or slide across a single strand of silk without causing it to bend.",
+                    "Unless a weapon or other method of attack is attuned to Twilight, it might phase through their bodies, lessening or preventing injuries. Treat the participants as if they wore bulletproof armor (see World of Darkness, p. 166) with a rating equal to Sheut, except that they downgrade Brawl- and Weaponry-based damage. This protection does not reduce the dice pools of initial attacks, and bashing damage may be downgraded to no damage at all."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "Hierophants also gain the above benefits, as well as the following:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "The +1 bonus to Wits and Physical Attributes from Tier 1 now applies to interactions with normal matter.",
+                    "Hierophants’ Sheut scores do subtract dice from incoming attacks as armor, as the path to strike bends indescribably on the way to their bodies. This even applies to attacks that affect Twilight creatures.",
+                    "A hierophant may step across impossible angles, to the nearest location where magic bends space: a tomb with a Geometry rating of •••+, or another geographical locus of potent supernatural power, even if the location lies hundreds of miles away. The path may be followed by any being able to interact with Twilight for a number of turns equal to the guiding hierophant’s Sekhem."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "The effects of this tier last for a number of turns equal to the guiding hierophant’s Sekhem, after which they degrade to first tier effects for the remainder of an hour."
+            }
+        ]
     },
     {
         "Name": "Ancestry of Forgotten Stars",
@@ -881,7 +2885,33 @@ const rawGuildUtterancesData = [
         "Tier": "Ba •••••",
         "Descriptors": "Epic, Unison",
         "Summary": "Officiates become the Herald of Forgotten Stars, a collective being with shared traits, which cannot be incapacitated, ignores bashing damage, causes bashing damage to mortal witnesses, may colocate, and may answer any question at the cost of Sekhem or a mortal life.",
-        "Book": "GotD 121"
+        "Book": "GotD 121",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Collecting the diluted aspects of their strange ancestry, the ritual officiants coalesce into a being Iremite sorcery calls the Herald of Forgotten Stars. It is a demon of collapsed, convoluted space that crawls and grasps with the modified flesh of component mummies, its many limbs and eyes appearing as if through a cracked prism, impossible to fully describe. Shepherds write that sometimes, a tall, cruel-looking man dressed as ancient royalty stands amidst the crawling chaos, half in shadow, and utters enigmatic statements somehow connected to the nearby witnesses. They do not know if he is the Herald, or a being that accompanies it."
+            },
+            {
+                "type": "paragraph",
+                "text": "Led by hierophants, ritual participants chant the Herald’s true name over the course of an hour. It takes many voices acting in concert to replicate these inhuman syllables, and when they finish, the gathered vibrations crush the participants into one being. The Herald appears, a singular being with many copies where each officiate once stood. These are all the Herald. Officiates cease to act as individuals, and exercise the Herald’s powers:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Mortal onlookers experience Terror Sybaris for viewing the Herald. In addition, living beings without a supernatural template suffer bashing damage equal to the Herald’s Ba each turn, typically by bleeding through the eyes and forehead, until they flee the area. Plant life blackens and earth gradually turns to dust.",
+                    "The Herald possesses the highest Pillars, Sekhem and Attributes chosen from among all participating hierophants, to a maximum Sekhem or Pillar rating of 10. Every participant beyond the first (acolyte or hierophant) also adds +2 Health, +2 to three Attributes of the guiding hierophant’s choice, and +1 to a Pillar of the guiding hierophant’s choice.",
+                    "The Herald is immune to bashing damage and cannot be incapacitated. Attackers may not aim for specific targets within the warped mass, though they may attempt to strike an object or person out of its grasp. It uses its Sheut dots as armor, and downgrades damage as if it were a hierophant benefitting from the second tier of this Utterance. Furthermore, the Herald may choose to ignore one action that may affect it per turn as its spirit and physical form pass through inconceivable planes of existence.",
+                    "Each hierophant submerged within the Herald may take an action on each turn, using their individual Skills, Merits, Affinities and Utterances, though existence within the Herald may affect dice pools, tier access and other circumstances. Multiple magical actions per turn are possible. Acolytes may not take actions except to psychically communicate with one another.",
+                    "The Herald interacts with Twilight and material reality simultaneously.",
+                    "As the Herald slithers across torn space, it may act as if in close range or line of sight in as many locations within an area 10 yards wide per dot of its Sekhem. Any copy of the Herald may transport itself across this radius as an instant action.",
+                    "The Herald may answer any question posed to it, save those dealing with the Judges and the nature of Duat and Irem’s fall, in exchange for one level of Sekhem or a single human sacrifice. Something speaks through the participants, and may answer in riddles but always with some element of truth. The Herald may not pose a question to itself. It absorbs the Sekhem rating, for its part, adding to the total and the time spent in this Utterance."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "This Utterance lasts for one turn per dot of the Herald’s Sekhem, or when it loses its last Health point to aggravated damage. At the Utterance’s conclusion, evenly distribute any damage or negative effects inflicted upon the Herald among each participant, starting with its hierophants."
+            }
+        ]
     },
     {
         "Name": "Jar of Clay",
@@ -889,7 +2919,29 @@ const rawGuildUtterancesData = [
         "Tier": "Ba •",
         "Descriptors": "Epic",
         "Summary": "Store Sekhem within your canopic organs to draw back out later",
-        "Book": ""
+        "Book": "GotD 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The gods created people and fashioned their bodies from clay; thus, flesh contains a touch of the divine, and the Su-Menent can purloin this divinity for themselves. The first tier of Jar of Clay is, in many ways, the most potent."
+            },
+            {
+                "type": "paragraph",
+                "text": "By opening a canopic jar and handling the organ within, the Shepherd may imbue it with the Sekhem blazing within them from the Rite of Return. The Su-Menent may imbue each jar with up to two dots of Sekhem per organ. Infusing their organs with the Rite’s energies borders on heretical, but many of the Shepherds rationalize this by believing the Judges prefer their servants well-prepared for the future—and if they completed their first purpose early in the Descent, well, it’s no use letting that Sekhem go to waste in the repose of henet."
+            },
+            {
+                "type": "paragraph",
+                "text": "At any time, the Arisen may return to their organ, uncorking the jar and retrieving the Sekhem stored within as if it were a relic. This does not provoke a Descent roll, however; the Sekhem is held in abeyance, but it was the Arisen’s originally. Absorbing Sekhem from the canopic jar in this manner leaves the organ no worse for wear. Other beings capable of absorbing Sekhem may profit from the energies stored within the Su-Menent’s organs, but the jar is treated as a one- or two-dot relic as normal, and anyone but the owner doing so damages the organ permanently."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Arisen may decide to unleash this tier remotely, after having bottled the Utterance with Silence Utterance Vessels—an Arisen could draw their Sekhem from halfway across the world as an instant action, as if they held a two-dot relic within their hands. This does provoke a Descent roll, with consequences more severe than mere lost Sekhem. If the roll succeeds, not only is the Sekhem lost, but the organ is rendered a mass of dried and ruined meat. The Arisen may no longer resurrect around it or store Sekhem within—it is lost to them, destroyed utterly. Regrettably, many Arisen desperate enough to try this are already in dire straits, and double down on their folly."
+            },
+            {
+                "type": "paragraph",
+                "text": "If an Arisen destroys her final remaining organ with this tier, the necromantic feedback reverberates through her soul and decree, shattering her other Pillars and leaving her with a mere Remnant of her soul. Ammut smiles as the Arisen is transformed into one of the Lifeless."
+            }
+        ]
     },
     {
         "Name": "Jar of Clay",
@@ -897,7 +2949,33 @@ const rawGuildUtterancesData = [
         "Tier": "Ren •••",
         "Descriptors": "",
         "Summary": "Recraft the sahu for a matter of hours",
-        "Book": ""
+        "Book": "GotD 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Su-Menent intimately understands how the clay of his body interacts with sahu and his Memory. Using his jars as a spiritual anchor, he can refashion the necromantic clay of his own sahu, altering his appearance even if his sahu would not normally have manifested due to his Sekhem’s power. Practitioners typically use their fingers to press “flesh” and sweep hair into shape, but this is not necessary."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the Arisen has incarnated around one of their canopic organs, rather than around their mummified corpse, there is no restriction to this Utterance. If they’re utilizing their corpse for resurrection, Scene-required changes and above are beyond the power of the sahu to disguise. The following actions are divided by the length of time (in actions) required for them to be unleashed."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Instant: The Arisen will look roughly similar, but not the same, as they may alter facial features (though not radically) and/or perfectly groom themselves in but a moment. Anyone searching the Arisen must succeed in a roll for (Wits + Empathy) in a contested roll against the Su-Menent’s (Wits + Subterfuge) to realize it’s the same person after a casual glance.",
+                    "Turn: More extensive remodels to the face with hair/eye/skin color added into the effect. The Arisen has the same body type as before, but looks completely different with exception to her clothing. Anyone pursuing the Arisen who didn’t personally witness the transformation must succeed in a roll for (Wits + Empathy) in a contested roll against the Su-Menent’s (Manipulation + Subterfuge + Sekhem) to realize a trick is afoot, though obviously clothing will still give the Arisen away.",
+                    "Scene: Remodeling now includes height/weight changes and gender switching, and requires a point of Willpower. The Arisen now looks completely different, and there is no hope for a pursuer to recognize the new look, unless the Shepherd is wearing a signature style of clothing. In this case (or if the pursuer is familiar with the Arisen’s body language and basic nature), they must then succeed on a (Wits + Empathy) roll against the Su-Menent’s (Wits + Subterfuge + Sekhem) to even have a reason to be suspicious of the Arisen."
+                ]
+            },
+            {
+                "type": "paragraph",
+                "text": "At this level, the Arisen may decide to impersonate someone, and that means having the research on hand to make the impersonation stick. More than just knowing the person, the Arisen must have pictures or video to see the target’s features in all its static glory. After spending a Willpower point, the Arisen must again succeed in a roll of (Wits + Subterfuge + Sekhem) to carry off the right look. If the Arisen has never met the target or only has a couple of pictures to rely on, she suffers a -2 penalty to the roll. If she knows the target and is going off memory alone, she suffers a -1 penalty to her roll. To play the part, is a different matter. The Arisen rolls (Manipulation + Socialize) in a contested roll against (Wits + Empathy) of anyone they meet who knows the impersonated target. If the Arisen has never met the person they’re impersonating, she suffers -3 to her rolls. If she met the person or knows the target nominally, it’s -1 to the rolls. Add an extra -1 to these penalties if the Arisen didn’t get any successes when altering her features to look like the target."
+            },
+            {
+                "type": "paragraph",
+                "text": "Success or failure, all metamorphoses last for a number of hours (or scenes, whichever comes first) equal to the Arisen’s current Sekhem rating, with one exception: if the mummy is Twice-Arisen, they may activate this tier on a one-time-only basis to permanently reshape the new corpse and sahu to their original body’s appearance."
+            }
+        ]
     },
     {
         "Name": "Jar of Clay",
@@ -905,7 +2983,37 @@ const rawGuildUtterancesData = [
         "Tier": "Ka •••••",
         "Descriptors": "",
         "Summary": "Split your Willpower and Sekhem off into a clay-molded double to carry out a given mission",
-        "Book": ""
+        "Book": "GotD 123",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Like any Arisen, a Su-Menent can reincarnate herself around one of her canopic jars. Jar of Clay practitioners can do one better. They may construct a clay shell of themselves at the site of one of their organs, splitting themselves in two to act through their new vessel. This is a dangerous ploy, because part of the magic involves splitting one’s Sekhem into two separate pools. The Arisen must gamble on sending enough Sekhem to empower her vessel, but not so much that any of it is squandered."
+            },
+            {
+                "type": "paragraph",
+                "text": "To start, the Arisen meditates within a temple or her own tomb. If she is in proximity of any of her other canopic jars, she gains a +2 bonus to her efforts, and rolls (Presence or Resolve + Ka) to create the vessel. Failure means she cannot try again for a number of hours equal to (10 hours – Sekhem). If she succeeds, she must then sacrifice a minimum of two Willpower dots and one Sekhem dot to fuel her double. The clay double is then seemingly spun from the ether at the other location, like a piece of pottery, until it is complete. At that point it becomes “real,” turning into an exact duplicate of the Arisen who created it, right down to their clothing. Watches and electronic equipment will only be the shell of them, and non-functional. Money will look like phony bills, and credits cards won’t work. Relic items are reasonable facsimiles, as are weapons (clay swords may work well, but clay guns won’t fire)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Su-Menent gives the double a short-term goal to complete (or be destroyed trying). This does not make the copy a single-minded automaton, but merely defines the length of its existence. Short-term goals are things it can complete within a day or so, including: track down the thieves to their lair, pick up a vestige from your contact and house it in the vault, protect the witness for the night, provide me with an alibi, lead the hunters away from this city with a false trail, etc."
+            },
+            {
+                "type": "paragraph",
+                "text": "The clay double is an exact copy of the Arisen, and not the “evil version,” or some part of the Arisen that always wanted to be a dancer. For all intents and purposes, it is the Arisen herself, except that it cannot wield Utterances and it only has as many dots of Sekhem and permanent Willpower as the Arisen sacrificed. Pillars are shared from the same pool, though the double cannot meditate to refresh those Pillars. With only a little Sekhem or Willpower at its disposal, it’s limited in getting out of trouble. On the plus side, potentially deleterious spiritual effects (such as a Shuankhsen eating the double) applied to the double merely kills the copy without further danger to the Arisen."
+            },
+            {
+                "type": "paragraph",
+                "text": "If the Su-Menent stays in meditation, she can see, hear, taste, and even speak through her double, and the double obeys, being of the same mind. The double rolls with the same skills as the Arisen. If the Arisen has other duties to attend to, however, then the contact is minimal. The Arisen can see and hear what the double is doing, but it’s like having a television playing in the background with no idea of the specifics. This means the Arisen will know what a conversation is about between her copy and someone else, but she can’t make an Empathy roll to know if the other person is lying. Her copy, being a reflection of her, can make that roll, but that information won’t be transmitted until the connection is fully re-established."
+            },
+            {
+                "type": "paragraph",
+                "text": "The original Arisen suffers -1 to all dice rolls because of this mental distraction, but can spend a point of Willpower to reconnect to her copy and “download” all the information she uncovered or experienced, right down to the results of skill checks. If the copy is destroyed before the mummy can reconnect, all the fine details are lost, but not the overall actions. While connected to her copy, the mummy is meditating and cannot engage in other actions."
+            },
+            {
+                "type": "paragraph",
+                "text": "When the copy completes its goal or is destroyed, it cracks, then crumbles and breaks. Permanent Willpower is refunded to the Arisen, though points of Willpower are lost, as are any levels of Sekhem. The double turns into fragments, which then turn to a fine red dust that blows away. Laboratory analysis won’t reveal much about it other than it’s reality as clay from the bed of the Nile. The Arisen won’t feel any of the wounds or injuries its reflection suffered, but she will know if the copy succeeded in its task regardless of how they were connected—she’s informed of success or failure, along with the memories the double accrued, at the time of the duplicate’s destruction. If the duplicate was forced to make degeneration checks, they are resolved and applied to the Arisen at this time."
+            }
+        ]
     },
 
     {
@@ -914,7 +3022,25 @@ const rawGuildUtterancesData = [
         "Tier": "Sheut •",
         "Descriptors": "",
         "Summary": "Harness a mortal as a sybaritic oracle, substituting your own traits",
-        "Book": "GotD 125"
+        "Book": "GotD 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A controlled burst from the Arisen’s canopic jar fills a mortal with Sybaris, deliberately turning him into an Oracle of Fear. Unlike the standard way that most other Arisen use to question someone afflicted with Sybaris, however, this is a purer method that puts the cultist into a trance so that he might better channel his fear-induced visions. It’s important that the mortal be a cultist or someone familiar with the mummy but not someone immune to Sybaris in all its glory. Any mortal unfamiliar with the Su-Menent or mummies in general will just suffer from the terror normally and not experience this controlled vision. Unlike most other Four-Jar magics, this tier requires the Arisen to have their jar on-hand."
+            },
+            {
+                "type": "paragraph",
+                "text": "The ritual takes an hour to perform, with the mummy meditating and the cultist restrained to prevent them from fleeing the ceremony. Over the course of the ritual, near-effluvial vapors flow from the Arisen’s jar, filling the air with an earthy-smelling miasma. The cultist begins suffering from Sybaris and begins jabbering in terror, allowing the Su-Menent to question them or glean some insight. The tier follows the Oracles of Fear and Sybaritic Omens guidelines, save that the Arisen may substitute their own Composure and Occult ratings for the mortal’s (if they are higher) and that, once the ritual is complete, the cultist forgets all he saw during the Sickness."
+            },
+            {
+                "type": "paragraph",
+                "text": "Any Arisen of Memory 4+ need merely visit one of their canopic jars and spend a point of Willpower to “prime” the organ with the memories of surviving Duat."
+            },
+            {
+                "type": "paragraph",
+                "text": "The second and third tiers of this Utterance fail to function against Arisen or Shuankhsen (they’re already unaffected by the first tier, anyways). Slaughterers rend flesh and the winds of Duat scour bones, but the sahu of Deathless and Lifeless alike seals itself immediately and without cost. It takes more than a mere fragment to harm those who have braved Duat before. Whether the Utterances affect the Deceived is largely a matter of academic conjecture, albeit a topic actively discouraged amongst the Su-Menent."
+            }
+        ]
     },
     {
         "Name": "Jar of Teeth",
@@ -922,7 +3048,29 @@ const rawGuildUtterancesData = [
         "Tier": "Ka ••",
         "Descriptors": "",
         "Summary": "Bleed ghosts of the Duat from lethal wounds, inflicting aggravated damage through both material and Twilight",
-        "Book": "GotD 125"
+        "Book": "GotD 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen return carrying part of Duat inside them, a gift or curse from the Judges, depending with whom you speak. Su-Menent with this Utterance can trap these fragments within the Jar of Teeth and unleash it when they are injured. This requires them to first visit and suffuse an organ with their burning impression of Duat (which may be an organ under the influence of the first tier of Jar of Clay), but once they have, they may unleash this tier remotely."
+            },
+            {
+                "type": "paragraph",
+                "text": "When the mummy suffers lethal damage, he may reflexively activate this tier, causing him to bleed a flood of frenzied vermin from Duat out of his wounds. These are cousins to the Slaughterers, a lesser form of the demons that stalk the desert, not abominations but madness given form and flight. The effect mirrors that of the False Ka of the Amkhata, and those who’ve fought the beasts are uncomfortably reminded of their power. The Ghosts of Duat rend not merely flesh, but the soul of anyone who approaches the Arisen."
+            },
+            {
+                "type": "paragraph",
+                "text": "These ghosts inflict a level of aggravated damage per turn, affecting beings in amxaibit (Twilight), even if the Arisen can’t immediately perceive them. If the victim has Pillars for any reason, they also suffer one level of Pillar loss per turn (randomly chosen by the Storyteller). The demons of Duat will evaporate in puffs of smoke once the wound heals, when they have inflicted 10 points of aggravated damage, or when the creatures skitter more than ten feet away from the mummy. Injuring the Arisen anew will create a new swarm. Regardless, uncorking the Jar of Teeth for this effect means that the Arisen will only continue to bleed vermin for a number of hours equal to his Sekhem or until he heals the wounds."
+            },
+            {
+                "type": "paragraph",
+                "text": "Any Arisen of Memory 4+ need merely visit one of their canopic jars and spend a point of Willpower to “prime” the organ with the memories of surviving Duat."
+            },
+            {
+                "type": "paragraph",
+                "text": "The second and third tiers of this Utterance fail to function against Arisen or Shuankhsen (they’re already unaffected by the first tier, anyways). Slaughterers rend flesh and the winds of Duat scour bones, but the sahu of Deathless and Lifeless alike seals itself immediately and without cost. It takes more than a mere fragment to harm those who have braved Duat before. Whether the Utterances affect the Deceived is largely a matter of academic conjecture, albeit a topic actively discouraged amongst the Su-Menent."
+            }
+        ]
     },
     {
         "Name": "Jar of Teeth",
@@ -930,7 +3078,25 @@ const rawGuildUtterancesData = [
         "Tier": "Ab ••••",
         "Descriptors": "Subtle",
         "Summary": "Contest Presence + Intimidation + Sekhem against Composure + Tolerance to inflict both a potent Terror Sybaris and aggravated damage",
-        "Book": "GotD 125"
+        "Book": "GotD 125",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Teeth of Sybaris are carried upon the winds of Duat. When unleashing this power, the Arisen emanates madness as though flaring with Sekhem 10, and the winds of Duat strike the target (mortal or supernatural) with a particularly potent form of Sybaris. This variant of madness has fangs, and instead of inflicting a mere emotional toll on the onlooker, it injures them physically as well. In the sweep of terror, they feel the Slaughterers biting and chewing them, riddling their bodies with teeth marks."
+            },
+            {
+                "type": "paragraph",
+                "text": "The Arisen points to the target and cries a word of anguish and pain. A tattered column of red-gray smoke with a hint of screaming faces erupts from the mummy’s mouth. She rolls (Presence + Intimidation + Sekhem), resisted by the target’s (Composure + Supernatural Advantage). Successes inflict Terror Sybaris (resisted normally by a Resolve + Composure roll) but also inflict an equal number of aggravated damage levels as the faces bite and tear at the target’s flesh and soul. The same power also afflicts the target with a variant of Unease Sybaris, but only the Flood of Duat manifestation is applied, even if the mummy wouldn’t normally trigger it. The Unease lasts normally (one week per level of Sekhem the unleashing mummy possesses). Even after the scars heal over, the victim will see Slaughterers stalking him in the streets, the mummy’s power condemning him to months of nightmarish paranoia and insomnia. Using the Teeth of Sybaris against the same target in the same scene diminishes the mummy’s activation roll by -2 dice for each additional attack after the first successful strike."
+            },
+            {
+                "type": "paragraph",
+                "text": "Any Arisen of Memory 4+ need merely visit one of their canopic jars and spend a point of Willpower to “prime” the organ with the memories of surviving Duat."
+            },
+            {
+                "type": "paragraph",
+                "text": "The second and third tiers of this Utterance fail to function against Arisen or Shuankhsen (they’re already unaffected by the first tier, anyways). Slaughterers rend flesh and the winds of Duat scour bones, but the sahu of Deathless and Lifeless alike seals itself immediately and without cost. It takes more than a mere fragment to harm those who have braved Duat before. Whether the Utterances affect the Deceived is largely a matter of academic conjecture, albeit a topic actively discouraged amongst the Su-Menent."
+            }
+        ]
     },
     {
         "Name": "Mastery of Heka's Bounty",
@@ -938,7 +3104,17 @@ const rawGuildUtterancesData = [
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
         "Summary": "Penalize enemies' actions by -3 through kicking up disturbances in heka",
-        "Book": "GotD 130"
+        "Book": "GotD 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy inflicts token damage on the environment around her, through scuffs to buildings, or rearrangement of objects that reside within a space. This has the effect of shifting the heka in the air around her, depriving even those who do not understand its purpose of some of its power. While the mummy gains no direct benefit from her action, those who would work against her begin to find that luck is no longer on their side."
+            },
+            {
+                "type": "paragraph",
+                "text": "For the next hour, each of her scuffs and scrapes enchant bubbles extending 5 yards in radius. This allows her to “paint” a corridor of affected area with intermittent marking. Anyone in the affected area who takes an action that would result in any degree of physical or emotional harm to the Arisen (if successful) suffers a -3 dice penalty. This is especially useful in setting ambushes by leading enemies into tight corridors in which bad luck is assured."
+            }
+        ]
     },
     {
         "Name": "Mastery of Heka's Bounty",
@@ -946,7 +3122,17 @@ const rawGuildUtterancesData = [
         "Tier": "Ab ••",
         "Descriptors": "Subtle",
         "Summary": "Disorient unprepared parties by dislocating heka, penalizing Dexterity, Composure, and Mental Attributes by -2",
-        "Book": "GotD 130"
+        "Book": "GotD 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy strategically introduces new elements to the environment, causing the heka flows to shift temporarily. The space’s “feel” shifts, disorientating people familiar with it, and making newcomers noticeably uncomfortable. They may experience a disorientating feeling of deja-vu, or a chilling sensation of someone “walking over their grave” that leave them debilitatingly unsettled. They may just feel that they’re not where they thought they were, or that they’re being tricked by one location being dressed up to look like another."
+            },
+            {
+                "type": "paragraph",
+                "text": "This tier can enchant any space no larger in any dimension than 300 yards. Within this defined space, all Wits, Intelligence, Resolve, Dexterity and Composure-based rolls suffer a -2 dice penalty. Only the mummy and allies warned in advance are immune to the penalty. The mummy may invoke this tier in an ad-hoc manner, but at the cost of inflicting its effects on his allies."
+            }
+        ]
     },
     {
         "Name": "Mastery of Heka's Bounty",
@@ -954,9 +3140,33 @@ const rawGuildUtterancesData = [
         "Tier": "Ren ••••",
         "Descriptors": "Subtle, Unison",
         "Summary": "Damage the environment to steal its heka. Powers wielded by non-officiates increase their activation costs, mortals must roll Resolve + Composure or fall inactive and listless, and the target number to damage structures is reduced.",
-        "Book": "GotD 130"
+        "Book": "GotD 130",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy causes noticeable damage to the environment around her, through smashing objects, windows or doors, application of graffiti or other aesthetic disfigurement. These actions begin to unwind the web of heka contained within the environment, leaving loose threads of energy that the mummy can grasp. Taking hold of these threads, the mummy pulls heka from the air and the objects around her, draining the sustaining creative energy and bending it to her will."
+            },
+            {
+                "type": "paragraph",
+                "text": "Wreaking notable environmental damage ahead of unleashing this tier is required to prepare its power. The mummy can use any means to inflict this collateral damage, whether a minute of casual violence to the place or some more dramatic and sudden method like a battle unleashing or hand grenade. Without this ritual preparation, the magic cannot work."
+            },
+            {
+                "type": "paragraph",
+                "text": "Once the tier unleashes, objects and building start to noticeably decay, while non-Arisen grow unmotivated and listless, even as the mummy starts to perk up with added health and resolution. As the mummy’s command of the heka grows through the scene, the immediate vicinity starts to fall apart, with objects shattering, artwork fading and buildings crumbling."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Any supernatural powers within (Ren + Sekhem) yards of the mummy add one to the number of “fuel traits” (Pillars, blood points, Essence, etc.) that must be spent to power them, provided they already required some cost. In effect, this is an added “tax” that must be paid to prevent the magic from being torn apart. The mummy’s own power use does not trigger this tax.",
+                    "All attacks against the mummy suffer a -1 die penalty, as the commandeered heka reinforces her frame.",
+                    "Mortal antagonists and allies alike within (Ren + Sekhem) yards must reflexively make a successful (Resolve + Composure) roll to continue participating in whatever actions they are engaged with. A failed roll leaves them listless and disinterested, unless their lives are directly threatened. A Dramatic Failure also imposes a derangement chosen by fate by the next day, as their creative spirit is literally shredded by the actions of the mummy. The fugue passes as soon as the mummy leaves the area.",
+                    "Any rolls to inflict damage on the landscape or structures immediately adjacent (objects within (Sekhem rating) yards, or buildings with at least one structural wall within that area) to the mummy are at two lower difficulty to normal. The mummy and her allies require two fewer successes than normal to achieve that damage.",
+                    "If this tier is unleashed as a unison effect, each additional acolyte adds an additional 10 yards to the radius of the projected “power tax” and “mortal numbness” fields."
+                ]
+            }
+        ]
     },
-   
+
 ]
 
 const rawSpiritUtterancesData = [
@@ -965,65 +3175,123 @@ const rawSpiritUtterancesData = [
         "Tier": "Ren •",
         "Descriptors": "",
         "Summary": "Control a single person as if they were a zombie-like drone.",
-        "Book": "Rio 90"
+        "Book": "Rio 90",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Mortals are puppets to the Arisen with this dread incantation, dancing to the twists of her strings. The mummy’s player rolls Manipulation + Intimidation + Ba against a single living person within sight of the mummy, and if successful, turns that person into a temporary willing drone (zombie-ish). The mummy gives him or her a single simple order, and the subject will follow that order until the task is accomplished, or until the next sunrise, whichever comes first. It might be “guard this room” or “kill Senor Flavinho” or “dance, fool, dance!” While “zombified” in this way, the subject is in an occult trance, unable to speak or respond to others. He shambles to his destination at a slow pace, and it is clear to any onlookers that he is either drunk, drugged, or (if the onlooker is, say, a superstitious favela resident familiar with Voudon or Candomblé) impersonating a zombie pretty much perfectly. Particularly strong-willed people (Willpower 6+) can spend 5 Willpower points at once to shake off the effect, but even then, generally only after someone else tries to shake them out of it. If a mortal spends the Willpower, that particular mortal is immune to further uses of this Utterance for the rest of the story."
+            }
+        ]
     },
     {
         "Name": "Body of Clay",
         "Tier": "Ba •••",
         "Descriptors": "",
         "Summary": "Control your drones telepathically from a distance.",
-        "Book": "Rio 90"
+        "Book": "Rio 90",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The effectively “zombified” person can be fed new orders from afar via the Arisen’s telepathic voice. The effect lasts for the same amount of time, but the Arisen can issues as many orders as she wants during that time. Each new order, however, countermands the previous order."
+            }
+        ]
     },
     {
         "Name": "Body of Clay",
         "Tier": "Sheut •••••",
         "Descriptors": "Epic",
         "Summary": "Control an entire crowd of people at once.",
-        "Book": "Rio 90"
+        "Book": "Rio 90",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen can “zombify” an entire crowd, equal to about 50 people. If she spends a dot of Sekhem, she can multiply this number by 10, effectively turning an entire favela neighborhood into willing drones, controlling them as she does for a single individual at the second tier, except that she can issue multiple orders — up to one per dot of Manipulation — allocating them however she likes among the zombie multitude. She cannot spend multiple Sekhem to increase this number."
+            }
+        ]
     },
     {
         "Name": "Drums of the Organ",
         "Tier": "Ba •",
         "Descriptors": "Potency 1",
         "Summary": "Send a curse or blessing via sympathetic connection at a subject that affects one roll.",
-        "Book": "Rio 91"
+        "Book": "Rio 91",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "In the world of spirits, items are as much a part of the person who owns them as is his body. As per classic sympathetic magic, the Arisen affects a target across distances by physically touching an item associated closely with that target: a locket of hair, a favorite toy, a well-used cell phone, or the like. At this tier, she can bless or curse a given target once per day. The blessing gives the target a [+1 per dot of Sheut] bonus on one roll or extended action. The curse levies a [-1 per dot of Sheut] penalty to same. This bonus/penalty is a one-time effect, lasting only one instant action or one roll on an extended action."
+            }
+        ]
     },
     {
         "Name": "Drums of the Organ",
         "Tier": "Ren •••",
         "Descriptors": "Potency 2",
         "Summary": "Create a doll that represents a subject and attack them via sympathetic connection.",
-        "Book": "Rio 91"
+        "Book": "Rio 91",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen constructs a fetish, a crude doll designed to mimic a particular person. By physically affecting the fetish, she can physically affect the person it represents, regardless of distance. She can harm the target by damaging the fetish; her player can roll a number of dice equal to her Manipulation + Ren per day, and can split up the pool into multiple ‘attacks’ throughout, if desired. Any die of this pool that comes up 8 or higher inflicts a level of lethal damage to the associated person. At the Storyteller’s discretion, this tier also allows use of certain Affinities and other Utterances against targets at distance."
+            }
+        ]
     },
     {
         "Name": "Drums of the Organ",
         "Tier": "Ab •••••",
         "Descriptors": "Potency 3",
         "Summary": "Affect a discrete group, such as a bloodline, with the first two Tiers.",
-        "Book": "Rio 91"
+        "Book": "Rio 91",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "With this tier, the mummy can apply the effects of the first two tiers against a single discrete group — an entire bloodline of a mortal, an entire meret of mummies, or the like — up to a maximum of connected souls equal to the mummy’s current Sekhem rating. She constructs a single fetish to represent the bloodline or group, and affects all members of that line or group with a single action against the fetish."
+            }
+        ]
     },
     {
         "Name": "Horse and Rider",
         "Tier": "Ab •",
         "Descriptors": "",
         "Summary": "Tie your senses to a chosen mortal's.",
-        "Book": "Rio 91"
+        "Book": "Rio 91",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen can experience the world through the eyes, ears, nose, and tactile senses of a chosen mortal. This is complete sensory immersion in whatever that mortal experiences, but it does not allow for control over the mortal’s body or mind reading of any kind. The mummy must be in the presence of the chosen mortal to activate this power, but the mortal can then travel anywhere away from the mummy’s presence. If the mortal is a cult member, this link can be established at any distance."
+            },
+            {
+                "type": "paragraph",
+                "text": "The mummy can see through her own senses at the same time, although her player might need to make a Resolve + Composure roll if both her character and the mortal target experience a lot of sensory overload at the same time. This could occur during something such as combat, with failure indicating either the loss of a Willpower point or her being shunted back into her own body/senses for a turn or two (Storyteller discretion)."
+            }
+        ]
     },
     {
         "Name": "Horse and Rider",
         "Tier": "Ba •••",
         "Descriptors": "",
         "Summary": "Possess the chosen mortal in a rudimentary manner.",
-        "Book": "Rio 91"
+        "Book": "Rio 91",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "With this tier, one can walk a mile in another’s shoes. The Arisen mentally possesses a chosen mortal (the “horse”), essentially “riding him” like a Voudon loa or Candomblé Orixá. She can crudely control the mortal from afar, substituting her own Skills (not Attributes) when needed. For instance, if she possesses an old woman who isn’t very good at throwing a punch, she can use her own Brawl Skill for the woman’s. However, the control is crude and she suffers a -1 penalty when substituting Skills."
+            }
+        ]
     },
     {
         "Name": "Horse and Rider",
         "Tier": "Ka •••••",
         "Descriptors": "",
         "Summary": "Possess the chosen mortal and exersise powers through them.",
-        "Book": "Rio 91"
+        "Book": "Rio 91",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen can now so completely possess a chosen mortal target that she is effectively in two places at once. Her Skill substitutions suffer no dice penalty, and she can use Affinities and Utterances through the mortal, as if she were in the room. While the Arisen is in Duat, the mortal once again gains full control of his mind and body."
+            }
+        ]
     },
-    
+
 ]
 
 const rawIronBullUtterancesData = [
@@ -1033,65 +3301,143 @@ const rawIronBullUtterancesData = [
         "Tier": "Ka •",
         "Descriptors": "Subtle",
         "Summary": "Purge physical poisons and supernatural effects via cleansing fire.",
-        "Book": "Rio 92"
+        "Book": "Rio 92",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Just as the fire pits of Baal once consumed worthy sacrifices, so does the Arisen burn away that which is found wanting. At its most basic level, this Utterance requires the mummy herself be the one to sacrifice. By spending a dot of Sekhem she is in return bathed in a refining (if invisible to mystically blind eyes) fire, one that cleanses her body and soul of all impurities. Any unwanted supernatural effects presently affecting her are extinguished, and any poisons that might affect the body or mind are sweated out, making the mummy’s sahu shine like healthy human skin after a good run. An Arisen can only use this tier safely but once per scene; each additional time beyond the first costs an aggravated wound in addition to the dot of Sekhem."
+            }
+        ]
     },
     {
         "Name": "Ba'al's Due",
         "Tier": "Sheut •••",
         "Descriptors": "",
         "Summary": "Purge another with cleansing flame.",
-        "Book": "Rio 92"
+        "Book": "Rio 92",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "At this tier, the Arisen can target another with her purifying flame. She points to someone within [Composure + Sheut] yards and her player rolls Presence + Occult + Sheut – [target’s Supernatural Advantage rating or current Willpower, whichever is higher]. If successful, the mummy consigns that person’s spirit to the flames of sacrifice. For most targets, the spirit fire tests their Morality and, if found wanting, burns it away. Such a target must make a roll as if against a Morality 1 sin, with a failure indicating the loss of a dot. Against a mummy target, the sacrificial flame instead burns away his defining Pillar or Remnant. The target must roll his defining Pillar/Remnant rating as a dice pool. Success means he loses two points of that Pillar; failure means he loses one dot in that Pillar, instead. Lost dots remain gone until the unleasher’s current Descent ends, at which point lost dots reappear, leaving the target shaken but relieved. The unleasher can only successfully target a given mummy once per Descent with this tier, but multiple Arisen possessing this Utterance could of course target the same mummy with it."
+            }
+        ]
     },
     {
         "Name": "Ba'al's Due",
         "Tier": "Ba •••••",
         "Descriptors": "",
         "Summary": "Temporarily restore lost Memory through sacrifices.",
-        "Book": "Rio 92"
+        "Book": "Rio 92",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "A life for a life: that is the demand. The Arisen sacrifices a worthy life in return for her own life — that is, memories of her own life, restored to her now under the auspices of proper sacrifice. The degree of worthiness determines the degree of power. A significant animal life (cow, ox, horse, etc.) yields one dot of lost Memory (can’t exceed normal maximum), while the life of a mortal restores up to two dots of lost Memory and/or dots of a lost Pillar (such as when lost to a Shuankhsen or to the previous tier), in any combination. These fatuous Pillars and Memory, however, are fleeting, lasting only as long as the character’s next loss of Sekhem due to a bad Descent roll (only; other Sekhem losses don’t count)."
+            }
+        ]
     },
     {
         "Name": "Rejuvenating Flesh",
         "Tier": "Ab •",
         "Descriptors": "",
         "Summary": "Physically punish a subject to regain Willpower.",
-        "Book": "Rio 92"
+        "Book": "Rio 92",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By physically punishing a mortal or mummy subject, the user of this Utterance can regain spent Willpower points on a temporary basis. The preferred instrument is a flail, although one can substitute a whip, riding crop, or similar item designed to painfully slap or flagellate someone. This tier requires no unleashing roll, and returns to the mummy one spent Willpower point per blow, up to a maximum of her Ab rating in blows/points (although proper blows must inflict at least one point of lethal damage)."
+            },
+            {
+                "type": "paragraph",
+                "text": "The reason the basis is temporary is that Willpower points restored through this Utterance only last for two hours per dot of Ab rating, disappearing after that time even if they have not been spent. For example, if a mummy with Ab 4 and Willpower 6 uses this tier while having only 3 Willpower points left to spend, she could give herself access to a full 6 Willpower. But if she hasn’t spent any of the 3 gained through this Utterance within 8 hours, she returns to her prior level of Willpower 3 (assuming she hasn’t regained Willpower another way in the meantime; if she has, she drops to that proper level instead). The mummy can only use this Utterance successfully once per day; any successive flailings she performs yield no Willpower points."
+            }
+        ]
     },
     {
         "Name": "Rejuvenating Flesh",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Scarify subject ritually to regain Pillar points.",
-        "Book": "Rio 92"
+        "Book": "Rio 92",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "Over the course of a ritual lasting no fewer than 30 minutes, the Arisen crafts the flesh of another’s body (voluntary or not), scarifying him. In return, she regains temporary Pillar points in the same manner as she regains Willpower points in the first tier of this Utterance, one point per point of lethal damage inflicted on the victim. She can apply regained points to the Pillar(s) of her choice, up to a maximum of either her Ka rating or the victim’s available lethal Health (once he starts taking aggravated damage, no further points can be gained), whichever is less."
+            },
+            {
+                "type": "paragraph",
+                "text": "These reaped Pillar points last for two hours per dot of her Ka rating, disappearing after that time even if she has not spent them. The mummy can only use this Utterance successfully once per Descent; any successive scarifications she performs yield no Pillar points."
+            }
+        ]
     },
     {
         "Name": "Rejuvenating Flesh",
         "Tier": "Sheut ••••",
         "Descriptors": "",
         "Summary": "Ritually vivisect a subject to regain a temporary Sekhem point.",
-        "Book": "Rio 92"
+        "Book": "Rio 92",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen now becomes a vivisectionist of the living. She can remove organs from the body of a living mortal to harvest a temporary dot of Sekhem. Just where this Sekhem comes from is a mystery, since it does not normally reside in mortal organs. To succeed, the vivisectionist must remove at least three organs, even if doing so results in the death of the donor. Easy targets are appendixes, gall bladders, and one kidney or lung; the donor can survive their loss. However, this Utterance does not give the Arisen any medical knowledge; if she doesn’t know how to perform surgery, she will inevitably kill the donor. What’s more, she might kill him before all the organs have been extracted, preventing the harvest of Sekhem. She’d have to start over the next day with a fresh donor."
+            },
+            {
+                "type": "paragraph",
+                "text": "The harvested Sekhem point lasts for one day. The mummy can use this Utterance only once per day (even if the organ extraction is unsuccessful), and of course it requires at least a scene/hour to perform."
+            }
+        ]
     },
     {
         "Name": "Scent of the Oasis Palm",
         "Tier": "Ab •",
         "Descriptors": "Subtle",
         "Summary": "Give off a scent that causes a subject to fall in love with you.",
-        "Book": "Rio 93"
+        "Book": "Rio 93",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "From the Arisen’s sahu wafts an irresistible perfume, a scent hinting at a garden that never existed on this earth. The unleasher makes a Presence + Seduction + Ab roll against a single target, resisted by the target’s Willpower or Sekhem (target’s choice), and with no chance roll permitted. If successful, a mortal target who inhales the perfume recognizes the Arisen as his true ideal of love, the very perfection of the ideal of the beloved. The stricken mortal is not so vain as to think he can have a real relationship-relationship with this divine avatar of Eros (after all, how can a god love a mortal?), but he would certainly do almost anything to earn the attention and favor of the resplendent Arisen, and attempt just about any deed to win her good graces."
+            },
+            {
+                "type": "paragraph",
+                "text": "When a mummy uses this tier to enchant and enthrall a fellow Arisen, success on the unleashing causes the target to effectively fall in love and/or lust with the Arisen (with degree of success mattering and deriving from the success of the roll). The target Arisen wants to be with her, and depending on the roll, might become mildly obsessed with her. He will willingly do what it takes to convince the object of is affection to adore him back, and will risk danger to prevent his love from coming to harm."
+            },
+            {
+                "type": "paragraph",
+                "text": "Regardless of whether the target is a mortal or an Arisen, the effect only truly ends when the caster decides to end it, or when the target’s soul changes fundamentally. In other words, the next time he loses one or more dots of Morality/Memory. If this happens to an Arisen, that mummy can never again be the target of this tier from that particular unleasher; the love spell is broken forever, and with possible negative consequences. If this happens to a mortal, however, the unleasher can conceivably try again later, to reinstitute the obsession, but future attempts suffer a cumulative –2 penalty to the roll."
+            }
+        ]
     },
     {
         "Name": "Scent of the Oasis Palm",
         "Tier": "Ba •••",
         "Descriptors": "Subtle",
         "Summary": "Deliver a kiss that prevents the subject from acting against you in any way.",
-        "Book": "Rio 93"
+        "Book": "Rio 93",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen delivers a kiss, sealing a compact between kisser and kissed. The receiver cannot act against the kisser in any way: cannot attack her physically or conspire to harm her through indirect means (although he can still operate against her cult and its interests). As with the first tier, the recipient suffers this restriction until the kisser ends it or until loss of morality wipes the compact from his mind."
+            }
+        ]
     },
     {
         "Name": "Scent of the Oasis Palm",
         "Tier": "Ren ••••",
         "Descriptors": "Subtle",
         "Summary": "Kiss two different subjects, who then fight jealously.  If one wins, however, you are under the effect of the first Tier to the victor.",
-        "Book": "Rio 93"
+        "Book": "Rio 93",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen now delivers two kisses to two different recipients, igniting a fierce and possessive jealousy in them. Each believes that the other stands in the way of his relationship with the kisser, and each will plot the other’s downfall until only one remains standing or until one or both loses a dot of Memory/Morality, thereby forgetting the rivalry."
+            },
+            {
+                "type": "paragraph",
+                "text": "Unfortunately for the kisser, if one of the rivals ever defeats the other rival (by sending him into Duat), the kisser becomes in effect the winner’s “trophy.” She is now under the same effect that she herself delivered with the previous tier of this Utterance, with the winner being protected from her ire. This drawback ends when either party dies and/or loses a dot of Memory/Morality."
+            }
+        ]
     }
-    
+
 ]
 
 const rawMaatUtterancesData = [
@@ -1100,44 +3446,108 @@ const rawMaatUtterancesData = [
         "Tier": "Ab •",
         "Descriptors": "Subtle",
         "Summary": "Assume a false identity.",
-        "Book": "Rio 88"
+        "Book": "Rio 88",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy is anyone she wants to be. She constructs a persona and becomes that person. This is not a physical alteration, but a psychological and even spiritual one. The mummy completely assumes the new identity whenever she wishes and for however long she wishes. She thinks and acts and remembers just like the new identity would (while also retaining her own memories). All the while, she is aware that this is a role she is assuming, but as far as anyone else is concerned, she is a different personality. If the mummy’s player succeeds on a Manipulation + (Persuasion or Subterfuge) + Ab roll, no magic — no Affinity, no Utterance, etc. — can see through this ruse, this mask, without first having more dice come up 8+ than the mummy’s current Sekhem rating, on whatever activation roll the use of magic requires. (Naturally, if the truth-seeking power or spell requires no roll, it fails to pierce the mask automatically.)"
+            },
+            {
+                "type": "paragraph",
+                "text": "Since this Utterance does not create any physical differences, it is up to the masquer to don different attire or even alter her facial features (through cosmetic surgery or mystical means), if she so desires. For the most part, this Utterance is good for maintaining alternate identities in the mortal world. The mummy cannot be tricked, interrogated, or tortured into betraying her new identity because she is that identity. No spy is ever this good, no matter how deeply he can hypnotize himself. This fictional-yet-real identity even applies against mummies. (Anak-em-Tanen uses it to make other Arisen believe he is not the true trickster he actually is, as well as making Menefes believe the two had a relationship.)"
+            }
+        ]
     },
     {
         "Name": "Ebon Mask",
         "Tier": "Ren •••",
         "Descriptors": "Subtle",
         "Summary": "Place a false identity on a subject, so that even they believe it.",
-        "Book": "Rio 88"
+        "Book": "Rio 88",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mummy places the Ebon Mask upon another, making the person believe that the mask’s identity is his own. Through this Utterance the Arisen can change significant aspects of a target’s identity, such as gender preference (as Anak-em-Tanen has done to Menefes) or temperament (e.g., from gentle to belligerent), and hide any memories that would reveal or betray this new identity. This does not mean the unleasher of this Utterance knows the content of his target’s new memories; the Utterance simply hides from the target’s mind any thoughts that conflict with the new identity traits."
+            },
+            {
+                "type": "paragraph",
+                "text": "Constructing this new identity takes time. The mummy’s player rolls Manipulation + (Persuasion or Subterfuge) + Ren, resisted (subconsciously) by the target’s Resolve + Composure. If successful, she can alter one self-contained aspect of identity per Willpower point she spends when unleashing this Utterance (Storyteller discretion)."
+            },
+            {
+                "type": "paragraph",
+                "text": "This effect lasts for a duration equal to three cycles of the Fountain from which the user learned the Utterance. One can unleashed this tier again within a day before it wears off, to renew the effect for three more cycles, but of course requires a new roll and Willpower expenditure. If, during this time, the unleasher bathes in any Fountain of Ma’at, it cancels this Utterance’s effects and the target becomes more or less aware of what has been done to him (but not necessarily who did it). Regardless, a mummy can only maintain the Ebon Mask upon one soul at a time, as it very much is a singular thing in terms of its occult nature. Using this Utterance upon a new subject cancels the effect on the previous soul, though not in the same revelatory manner as happens when the mummy enters a Fountain; the subject is free of this Utterance’s power, but has no earthly idea why he behaved as he did."
+            }
+        ]
     },
     {
         "Name": "Ebon Mask",
         "Tier": "Decree •••••",
         "Descriptors": "Subtle",
         "Summary": "Place a false identity on a subject permanently, but forget that you have done so.",
-        "Book": "Rio 88"
+        "Book": "Rio 88",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The mask that the mummy places upon another, as per the previous tier, is permanent, provided the subject is mortal — the identity she has constructed for the target effectively becomes that mortal’s new identity. If his memory of the new personality is ever lost, when it finally is recovered, it is this new personality and its memories that the mortal regains, not his original personality’s true memories. There may be ways to remove the Ebon Mask, or to remove it from someone, but these have not yet been discovered by any Arisen, and would be resisted by the unleasher’s defining Pillar rating in any event."
+            },
+            {
+                "type": "paragraph",
+                "text": "The drawback to this tier is that the Utterance’s unleasher forgets that she has unleashed it. She believes that the target’s new persona is real and has always been this way, and if shown evidence to the contrary, remains at a genuine loss to explain how it happened."
+            }
+        ]
     },
     {
         "Name": "Forge of Falsehood",
         "Tier": "Ren •",
         "Descriptors": "Subtle",
         "Summary": "Falsify a Relic for a period of time.",
-        "Book": "Rio 89"
+        "Book": "Rio 89",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "All that glitters is not gold, but the Arisen with this Utterance can certainly fool other Arisen into thinking it is. If her player succeeds on a Manipulation + Subterfuge + Ren roll, she can make any mundane material item appear to be a relic to those sensitive to the flow of such things. Arisen will sense it as if it was a relic, for example, and will even feel a similar magnetic pull to acquire it. It is not a relic, of course, and cannot be drained for Sekhem or returned to Duat, but it can be used to draw flies to honey, so to speak. If the mummy unleashes this tier by spending a point of a Pillar other than Ren, the desired effect lasts for about 24 hours. If the mummy unleashes this tier by spending a point of Ren, the desired effect lasts for a number of days equal to the caster’s Ren rating. Once a being who is sensitive to the flow of Sekhem has handled the item, its falseness becomes apparent to him thereafter. Even if the Arisen unleashes this tier again at a later time, if she does so on the same object, any such being will be able to tell as soon as he interacts with its Sekhem (at range, in the case of Arisen kepher). Thus, it’s best not to use the same mundane item for successive unleashings of this particular tier."
+            }
+        ]
     },
     {
         "Name": "Forge of Falsehood",
         "Tier": "Ka •••",
         "Descriptors": "",
         "Summary": "Create a false Relic that can store Sekhem as if it was real.",
-        "Book": "Rio 89"
+        "Book": "Rio 89",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Arisen can now make an otherwise mundane material item into a kind of relic… sort of. This item has no special power, but does contain Sekhem, sacrificed by the mummy herself as investiture into the false relic. Unlike most Utterances, this tier requires no unleashing roll, but after the Ka point, the other Pillar point spent on the unleashing must come from the Sheut Pillar. She can sacrifice-and-invest a maximum number of Sekhem dots equal to her Ka rating, and can withdraw this Sekhem at any time, so long as she is physically touching the false relic. This is not treated as if she were draining a true relic; she is simply taking back her own Sekhem. A mummy can fashion and maintain only one such item at a time, and any Sekhem not reclaimed when her Descent ends is lost to her and to the world, as the item crumbles to mystically inert dust."
+            },
+            {
+                "type": "paragraph",
+                "text": "If someone other than the item’s creator gets a hold of such an item, that being can access the Sekhem within it, just as if it were a true relic, provided that being has the ability to manipulate or drain Sekhem. This Sekhem is diluted, however, and only translates to a single dot’s worth of Sekhem for anyone other than the mummy to whom it belongs, regardless of how many dots of it she invested initially."
+            }
+        ]
     },
     {
         "Name": "Forge of Falsehood",
         "Tier": "Sheut •••••",
         "Descriptors": "Epic",
         "Summary": "Create a false Relic from a real one, effectively transferring it.",
-        "Book": "Rio 89"
+        "Book": "Rio 89",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier allows the Arisen to perform a useful blasphemy, if she is inclined to risk her Descent. The unleasher can drain the Sekhem from one relic, as normal for draining relics (Mummy: The Curse, p. 156), but rather than gain any benefit from it personally, she instead creates a new (fundamentally false) relic by placing the drained Sekhem—to a maximum of one dot per dot of her Sheut rating—into a mundane material item. Unlike most Utterances, this tier requires no unleashing roll, but both of the Pillar points spent on the unleashing must come from the Sheut Pillar."
+            },
+            {
+                "type": "paragraph",
+                "text": "The resulting relic isn’t a true relic, but it does have a power and a curse of its own. The Storyteller determines the item’s power, possibly working with the player to devise something interesting. It should be in some way tied to the “story” of the item used to create the relic, based on the item’s owner or its history. A serial killer’s axe might have the power to act on its own, or it might contain echoes of the souls of its victims, who can be called upon for knowledge from the Underworld, or the like. The Storyteller creates the relic’s curse, but does not tell the relic creator’s player what it is. (He’ll have to find out.) The serial killer’s axe might instill a bloodthirst into its user or seek its user’s own demise."
+            },
+            {
+                "type": "paragraph",
+                "text": "If a being sensitive to the flow of Sekhem tries to manipulate or drain the false relic as a true one, however, that being gains nothing useful for his effort; the Sekhem used to create the thing isn’t worth a plug nickel in such contexts. If, however, a mummy (specifically) tries to drain the false relic as a relic, the mummy regains a point of Sheut for each dot of Sekhem invested initially (as if the mummy were draining a Sheut-attuned vestige). A mummy can fashion and maintain only one such item at a time."
+            }
+        ]
     },
-    
+
 ]
 
 const rawWheelUtterancesData = [
@@ -1146,21 +3556,42 @@ const rawWheelUtterancesData = [
         "Tier": "Sheut •",
         "Descriptors": "Subtle",
         "Summary": "Scrutinize the Sekhem and defining Pillar of an Arisen mummy.",
-        "Book": "Soth 95"
+        "Book": "Soth 95",
+        "Prerequisite": "Disciple of the Wheel (●●+)",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "The Disciple of the Wheel has learned to study subtle signs, noting traits that correlate with the stars, actions which match the predictions of the heavens. By observing one of the Arisen for three full turns, he is able to accurately assess that Arisen’s defining Pillar, without need for a roll. In addition, if his player further succeeds on a Wits + (Empathy or Occult) + Sheut roll (resisted by the target’s Sekhem), he also discerns both the number of dots in that defining Pillar and the amount/level of Sekhem that the target Arisen possesses in that moment."
+            }
+        ]
     },
     {
         "Name": "Eye of Radiance",
         "Tier": "Ab •••",
         "Descriptors": "Subtle",
         "Summary": "Read an Arisen's history in past Sothic Turns, possibly helping to restore Memory.",
-        "Book": "Soth 95"
+        "Book": "Soth 95",
+        "Prerequisite": "Disciple of the Wheel (●●+)",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "By contemplating the movements of the stars, the Disciple of the Wheel can envision the past of an Arisen he can see. This Utterance can reveal actions the subject took during the last Sothic Turn, and possibly even more distant Sothic Turns. To the Disciple, this may give insights into that Arisen’s actions or motivations, but to the subject, it can provide the fuel necessary to help regain lost Memory. A Disciple may not use this spell on himself, and he may only unleash it after one of the two mummies involved (himself or his target) loses Sekhem during a Descent. The Disciple rolls the higher of his Memory or Ab rating. If the subject Arisen has ever lost Memory, and presently sits at a rating lower than his experience-bought normal rating, success on the roll allows the subject to roll the higher of his own Memory or Ab. Success on the second roll restores one dot of lost Memory. If the subject currently holds unspent Sebayt experience, that mummy’s player (or Storyteller, if an NPC) can roll both Memory and Ab; if either roll results in success, the Memory dot is restored. If the subject Arisen wouldn’t benefit from such a recovery (usually by being at maximum normal Memory), success on the first roll instead bestows one Sebayt experience point that lasts until the end of the subject’s current Descent; if unspent when the subject returns to death, it vanishes. This tier does not work on Shuankhsen or Deceived at all, and it can only affect a given Arisen, for good or ill, once per Descent."
+            }
+        ]
     },
     {
         "Name": "Eye of Radiance",
         "Tier": "Ren •••••",
         "Descriptors": "Cosmic, Curse, Epic",
         "Summary": "Return to a past Sothic Turn to live it anew.",
-        "Book": "Soth 95"
+        "Book": "Soth 95",
+        "Prerequisite": "Disciple of the Wheel (●●+)",
+        "Content": [
+            {
+                "type": "paragraph",
+                "text": "This tier allows the Arisen to not just see beyond the veil of time to other Sothic Turns, but to step through it. She may return to the past and re-experience one of her Sothic Descents again, although it seems to her as if her decisions are new. She may take as many Arisen (only) with her as she has dots of Ren. When the Arisen return to a previous Sothic Turn, they seem to fade from the present day, reappearing at a random point in the near future; perhaps a minute, perhaps a day or more after fading. Theoretically, this spell can be used as an escape method, if a dangerous one. The Arisen do seem to be able to change and affect the past, but whether this is real or simply perception is the subject of debate (and Storyteller discretion; see sidebar)."
+            }
+        ]
     }
 ]
 

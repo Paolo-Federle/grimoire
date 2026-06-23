@@ -447,6 +447,53 @@ function findTransmutationBySlug(dataModule, slug) {
   return items.find((item) => getDuplicateAwareTransmutationSlug(items, item) === slug) || null;
 }
 
+function getCompactSharedValue(rows, key) {
+  const values = [...new Set(rows.map((row) => row?.[key]).filter(Boolean))];
+  return values.join(", ");
+}
+
+function getUtteranceFlatRows(dataModule) {
+  return [
+    dataModule.UtterancesFlatData,
+    dataModule.GuildUtterancesFlatData,
+    dataModule.SpiritUtterancesFlatData,
+    dataModule.IronBullUtterancesFlatData,
+    dataModule.MaatUtterancesFlatData,
+    dataModule.WheelUtterancesFlatData,
+  ].flatMap((rows) => (Array.isArray(rows) ? rows : []));
+}
+
+function getNamedUtteranceRows(dataModule) {
+  let currentName = "";
+
+  return getUtteranceFlatRows(dataModule).map((row) => {
+    const rowName = typeof row?.Name === "string" ? row.Name.trim() : "";
+
+    if (rowName) {
+      currentName = rowName;
+    }
+
+    return {
+      ...row,
+      Name: rowName || currentName,
+    };
+  });
+}
+
+function findUtteranceBySlug(dataModule, slug) {
+  const rows = getNamedUtteranceRows(dataModule);
+  const tiers = rows.filter((row) => slugify(row?.Name) === slug);
+
+  if (!tiers.length) return null;
+
+  return {
+    Name: tiers[0].Name,
+    Prerequisites: getCompactSharedValue(tiers, "Prerequisites"),
+    Book: getCompactSharedValue(tiers, "Book"),
+    Tiers: tiers,
+  };
+}
+
 const DETAIL_ROUTE_CONFIGS = [
   {
     path: `${PATHS.LOCATIONS_BASE}/:slug`,
@@ -607,11 +654,29 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.endowmentDetailData, slug),
   },
   {
+    path: `${PATHS.HUNTER.TACTICS}/:slug`,
+    propKey: "tactic",
+    loadPage: () => import("./pages/Hunter/TacticsDetail"),
+    loadData: () => import("./Data/Hunter/TactictsData"),
+    resolveItem: ({ dataModule, slug }) =>
+      findItemBySlug([
+        dataModule.TactictsOverviewData,
+        ...dataModule.TactictsData,
+      ], slug),
+  },
+  {
     path: `${PATHS.HUNTER.MERITS}/:slug`,
     propKey: "hunterMerit",
     loadPage: () => import("./pages/Hunter/HunterMeritsDetail"),
     loadData: () => import("./Data/Hunter/HunterMeritsData"),
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.hunterMeritsDetailData, slug),
+  },
+  {
+    path: `${PATHS.MUMMY.UTTERANCES}/:slug`,
+    propKey: "utterance",
+    loadPage: () => import("./pages/Mummy/UtterancesDetail"),
+    loadData: () => import("./Data/Mummy/UtterancesData"),
+    resolveItem: ({ dataModule, slug }) => findUtteranceBySlug(dataModule, slug),
   },
   {
     path: `${PATHS.PROMETHEAN.MERITS}/:slug`,

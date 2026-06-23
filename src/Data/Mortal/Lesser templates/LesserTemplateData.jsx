@@ -69,7 +69,7 @@ export const lesserTemplatesData = [
         "Type": "Skinthieves",
         "Association": "",
         "Advantages": "Skinthief Merits",
-        "Book": ""
+        "Book": "Skin 18"
     },
     {
         "Type": "Thaumaturges",
@@ -81,7 +81,7 @@ export const lesserTemplatesData = [
         "Type": "Witches",
         "Association": "",
         "Advantages": "Gutter Magic, Witch Merits",
-        "Book": ""
+        "Book": "WF 135"
     },
     {
         "Type": "Extraordinary mortals",
