@@ -57,7 +57,7 @@ export const lesserTemplatesData = [
         "Type": "Possessed",
         "Association": "",
         "Advantages": "Vestments, Possessed Merits",
-        "Book": ""
+        "Book": "Inf 112"
     },
     {
         "Type": "Psychics",

@@ -390,6 +390,43 @@ function findManifestationDetailBySlug(dataModule, slug) {
   };
 }
 
+function getMementoItems(dataModule) {
+  return [
+    dataModule.CharmData,
+    dataModule.VanitasData,
+    dataModule.FetterData,
+    dataModule.DeathMaskData,
+    dataModule.MemorabiliaData,
+  ].flatMap((items) => (Array.isArray(items) ? items : []));
+}
+
+function findMementoBySlug(dataModule, slug) {
+  return getMementoItems(dataModule).find((item) => slugify(item?.Name) === slug) || null;
+}
+
+function getRelicItems(dataModule) {
+  return [
+    ["standard", dataModule.amuletData],
+    ["standard", dataModule.effigyData],
+    ["standard", dataModule.RegiumData],
+    ["standard", dataModule.textData],
+    ["standard", dataModule.uterData],
+    ["standard", dataModule.sebaData],
+    ["vestige", dataModule.vestigeData],
+  ].flatMap(([detailType, items]) =>
+    Array.isArray(items)
+      ? items.map((item) => ({
+          ...item,
+          DetailType: detailType,
+        }))
+      : []
+  );
+}
+
+function findRelicBySlug(dataModule, slug) {
+  return getRelicItems(dataModule).find((item) => slugify(item?.Name) === slug) || null;
+}
+
 function getBookCode(book) {
   return String(book || "").trim().split(/\s+/)[0];
 }
@@ -418,6 +455,28 @@ function findPrometheanMeritBySlug(items, slug) {
   return {
     ...item,
     DisplayName: getDuplicateAwarePrometheanMeritName(items, item),
+  };
+}
+
+function findReliquaryBySlug(dataModule, slug) {
+  const reliquary =
+    dataModule.reliquaryData.find((item) => slugify(item?.Name) === slug) || null;
+
+  if (reliquary) {
+    return {
+      ...reliquary,
+      DetailType: "item",
+    };
+  }
+
+  const power =
+    dataModule.reliquaryPowersData.find((item) => slugify(item?.["Relic Powers"]) === slug) || null;
+
+  if (!power) return null;
+
+  return {
+    ...power,
+    DetailType: "power",
   };
 }
 
@@ -679,6 +738,13 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findUtteranceBySlug(dataModule, slug),
   },
   {
+    path: `${PATHS.MUMMY.RELICS}/:slug`,
+    propKey: "relic",
+    loadPage: () => import("./pages/Mummy/RelicDetail"),
+    loadData: () => import("./Data/Mummy/RelicsData"),
+    resolveItem: ({ dataModule, slug }) => findRelicBySlug(dataModule, slug),
+  },
+  {
     path: `${PATHS.PROMETHEAN.MERITS}/:slug`,
     propKey: "prometheanMerit",
     loadPage: () => import("./pages/Promethean/PrometheanMeritsDetail"),
@@ -710,6 +776,13 @@ const DETAIL_ROUTE_CONFIGS = [
         dataModule.CeremoniesOverviewData,
         ...dataModule.CeremoniesData,
       ], slug),
+  },
+  {
+    path: `${PATHS.GEIST.MEMENTOS}/:slug`,
+    propKey: "memento",
+    loadPage: () => import("./pages/Geist/MementoDetail"),
+    loadData: () => import("./Data/Geist/MementosData"),
+    resolveItem: ({ dataModule, slug }) => findMementoBySlug(dataModule, slug),
   },
   {
     path: `${PATHS.GEIST.MANIFESTATION}/:slug`,
@@ -748,6 +821,13 @@ const DETAIL_ROUTE_CONFIGS = [
     loadPage: () => import("./pages/MortalsAndTemplates/Lesser templates/PsychicMeritsDetail"),
     loadData: () => import("./Data/Mortal/Lesser templates/PsychicMeritsData"),
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.PsychicMeritsData, slug),
+  },
+  {
+    path: `${PATHS.MORTAL.RELIQUARY}/:slug`,
+    propKey: "reliquary",
+    loadPage: () => import("./pages/MortalsAndTemplates/ReliquaryDetail"),
+    loadData: () => import("./Data/Mortal/ReliquaryData"),
+    resolveItem: ({ dataModule, slug }) => findReliquaryBySlug(dataModule, slug),
   },
   {
     path: `${PATHS.SPIRIT.NUMINA}/:slug`,
