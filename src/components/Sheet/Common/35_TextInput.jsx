@@ -1,6 +1,8 @@
 import { TextField } from "@mui/material";
+import { useSheetView } from "../05_SheetDataContext";
 
-export const TextInput = ({ value, label, onChange }) => {
+export const TextInput = ({ value, label, onChange, disabled = false, multiline = false, rows }) => {
+  const { mode } = useSheetView();
   return (
     <TextField
       type="text"
@@ -10,6 +12,9 @@ export const TextInput = ({ value, label, onChange }) => {
       label={label}
       value={value}
       onChange={(e) => onChange(e.target.value)}
+      disabled={disabled || mode === "play"}
+      multiline={multiline}
+      rows={rows}
       sx={{
         "& .MuiOutlinedInput-root": {
           padding: "4px 8px",

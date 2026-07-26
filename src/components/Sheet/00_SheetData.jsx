@@ -1,12 +1,19 @@
 export const sheetData = {
     "character": {
         "name": "",
+        "player": "",
+        "chronicle": "",
         "age": 0,
         "concept": "",
+        "faction": "",
+        "group": "",
         "virtue": { "selected": "" },
         "vice": { "selected": "" },
         "race": { "selected": "" },
         "background": "",
+        "description": "",
+        "appearance": "",
+        "goals": "",
         "details": {
             "mage": {
                 "path": { "selected": "" },
@@ -275,6 +282,15 @@ export const sheetData = {
         "dots": 1
     }],
     "flaws": [],
+    "backgrounds": [{
+        "name": "",
+        "description": ""
+    }],
+    "relationships": [{
+        "name": "",
+        "type": "",
+        "description": ""
+    }],
     "weapon_attacks": [
         {
             "name": "",
@@ -309,5 +325,11 @@ export const sheetData = {
         }],
 
     },
-    "notes": ""
+    "notes": "",
+    "saved_rolls": [],
+    "settings": {
+        "default_view": "play",
+        "compact": false,
+        "confirm_session_reset": true
+    }
 }

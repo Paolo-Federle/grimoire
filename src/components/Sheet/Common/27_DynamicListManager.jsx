@@ -1,7 +1,8 @@
-import { useSheetData } from "../05_SheetDataContext";
+import { useSheetData, useSheetView } from "../05_SheetDataContext";
 
 export const DynamicListManager = ({ dataKey, RowComponent }) => {
   const { sheetData, setSheetData } = useSheetData();
+  const { mode } = useSheetView();
   const items = sheetData[dataKey] || [];
 
   const getDefaultItem = () => {
@@ -65,6 +66,8 @@ export const DynamicListManager = ({ dataKey, RowComponent }) => {
       </table>
 
       <button
+        type="button"
+        disabled={mode === "play"}
         className="bg-[#333] hover:bg-[#111] text-white px-4 py-2 rounded mt-2 text-sm"
         onClick={addItem}
       >

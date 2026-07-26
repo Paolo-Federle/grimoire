@@ -1,4 +1,5 @@
 import { DotMarker } from "./50_DotMarker";
+import { useSheetView } from "../05_SheetDataContext";
 
 export const DotMarkers = ({ 
   max = 5, 
@@ -11,6 +12,7 @@ export const DotMarkers = ({
   modifierColor = "bg-green-500 border-green-500",
   negativeModifierColor = "bg-red-500 border-red-500"
 }) => {
+  const { mode } = useSheetView();
   return (
     <div className="flex gap-0.5">
       {[...Array(max)].map((_, i) => {
@@ -23,7 +25,7 @@ export const DotMarkers = ({
             key={i}
             filled={isFilled}
             modifier={isModifierPositive || isModifierNegative}
-            onClick={() => onChange(i + 1 === value ? min : i + 1)}
+            onClick={mode === "play" ? undefined : () => onChange(i + 1 === value ? min : i + 1)}
             dotClassName={dotClassName}
             filledColor={filledColor}
             modifierColor={isModifierNegative ? negativeModifierColor : modifierColor}

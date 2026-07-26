@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
-import { useSheetData } from "../05_SheetDataContext";
+import { useSheetData, useSheetView } from "../05_SheetDataContext";
 import { getValueAtPath, updateValueAtPath } from "../sheetStateUtils";
 
 const resolveOption = (option) => {
@@ -28,6 +28,7 @@ export const SelectInput = ({
   selectSx = {},
 }) => {
     const { sheetData, setSheetData } = useSheetData();
+    const { mode } = useSheetView();
     const isUsingField = !!field;
     const availableOptions = options || (isUsingField ? field.choices || [] : []);
 
@@ -65,6 +66,7 @@ export const SelectInput = ({
         >
             <InputLabel sx={{ fontSize: "0.875rem", top: "-2px" }}>{label}</InputLabel>
             <Select
+                disabled={mode === "play"}
                 value={resolvedSelectedValue}
                 onChange={handleChange}
                 label={label}

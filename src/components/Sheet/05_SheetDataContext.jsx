@@ -3,6 +3,7 @@ import { sheetData as initialSheetData } from "./00_SheetData";
 import { normalizeSheetData } from "./sheetStorage";
 
 const SheetDataContext = createContext();
+const SheetViewContext = createContext({ mode: "edit", setMode: () => {} });
 const AUTOSAVE_DELAY_MS = 400;
 
 export const SheetDataProvider = ({
@@ -79,3 +80,5 @@ export const SheetDataProvider = ({
 };
 
 export const useSheetData = () => useContext(SheetDataContext);
+export const SheetViewProvider = SheetViewContext.Provider;
+export const useSheetView = () => useContext(SheetViewContext);

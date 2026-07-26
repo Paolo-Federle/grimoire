@@ -64,7 +64,7 @@ test('renders the sheet route without crashing', async () => {
     await screen.findByRole('button', { name: /\+ new sheet/i }, { timeout: 30000 })
   ).toBeInTheDocument();
   expect(
-    await screen.findByRole('link', { name: /edit sheet mastigos/i }, { timeout: 30000 })
+    await screen.findByRole('link', { name: /open sheet mastigos/i }, { timeout: 30000 })
   ).toBeInTheDocument();
 }, 35000);
 

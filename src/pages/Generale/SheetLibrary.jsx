@@ -1,10 +1,9 @@
 import { useMemo, useRef, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
 import ContentCopyRoundedIcon from "@mui/icons-material/ContentCopyRounded";
 import DeleteOutlineRoundedIcon from "@mui/icons-material/DeleteOutlineRounded";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
-import EditRoundedIcon from "@mui/icons-material/EditRounded";
 import RestartAltRoundedIcon from "@mui/icons-material/RestartAltRounded";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import { getSheetPath } from "../path";
@@ -348,7 +347,17 @@ export default function SheetLibrary() {
               {filteredSheets.map((sheet) => (
                 <article
                   key={sheet.id}
-                  className="border-b border-[#ececec] last:border-b-0"
+                  role="link"
+                  tabIndex={0}
+                  aria-label={`Open sheet ${sheet.displayName}`}
+                  className="cursor-pointer border-b border-[#ececec] outline-none last:border-b-0 focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#555]"
+                  onClick={() => navigate(getSheetPath(sheet.id))}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      navigate(getSheetPath(sheet.id));
+                    }
+                  }}
                 >
                   <div className="flex items-stretch transition-colors hover:bg-[#fafafa]">
                     <div
@@ -390,22 +399,11 @@ export default function SheetLibrary() {
                         <div className="text-gray-700">{formatDate(sheet.updatedAt)}</div>
                       </div>
 
-                      <div className="flex shrink-0 items-center justify-start gap-1 md:justify-end">
-                        <IconButton
-                          component={Link}
-                          to={getSheetPath(sheet.id)}
-                          aria-label={`Edit sheet ${sheet.displayName}`}
-                          title="Edit sheet"
-                          size="small"
-                          sx={{
-                            border: "1px solid #d1d5db",
-                            borderRadius: "10px",
-                            color: "#374151",
-                            "&:hover": { backgroundColor: "#f3f4f6" },
-                          }}
-                        >
-                          <EditRoundedIcon fontSize="small" />
-                        </IconButton>
+                      <div
+                        className="flex shrink-0 items-center justify-start gap-1 md:justify-end"
+                        onClick={(event) => event.stopPropagation()}
+                        onKeyDown={(event) => event.stopPropagation()}
+                      >
                         <IconButton
                           type="button"
                           aria-label={`Duplicate sheet ${sheet.displayName}`}

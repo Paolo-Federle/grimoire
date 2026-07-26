@@ -1,4 +1,5 @@
 import { TextField } from "@mui/material";
+import { useSheetView } from "../05_SheetDataContext";
 
 export const NumberInput = ({
   value,
@@ -8,7 +9,9 @@ export const NumberInput = ({
   style = {},
   allowNegative = false,
   min = null,
+  disabled = false,
 }) => {
+  const { mode } = useSheetView();
   const resolvedMin = min ?? (allowNegative ? undefined : 0);
 
   return (
@@ -19,6 +22,7 @@ export const NumberInput = ({
       fullWidth
       label={label}
       value={value === "" ? 0 : value}
+      disabled={disabled || mode === "play"}
       onChange={(e) => {
         const newValue = e.target.value;
         if (newValue === "" || isNaN(newValue)) {
