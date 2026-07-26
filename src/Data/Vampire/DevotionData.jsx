@@ -2369,28 +2369,6 @@ export const DevotionData = [
         "Book": "Inv 180"
     },
     {
-        "Name": "Oath of Burning Blood",
-        "Prerequisites": "Auspex •••, Dominate •••, Nightmare ••",
-        "XP": "12",
-        "Cost": "○",
-        "Description": "Swear an oath, inflicting damage upon oneself if broken, that may be released by the one sworn to.",
-        "DiceRoll": "Presence + Intimidation + Dominate – subject’s Resolve",
-        "FullCost": "1 Vitae (supplied by the Kindred swearing the Oath), 1 Willpower dot (supplied by the Kindred activating the Devotion)",
-        "Action": "Instant",
-        "FullDescription": [
-            "The Oath of Burning Blood is perhaps the most powerful of the supernatural oaths of avoidance. While most versions of the Blood Oath give a Kindred good reason not to break his Oath, the Oath of Burning Blood actually makes it hard for him to do so, in addition to punishing him severely if he does. Swearing such an Oath is not undertaken lightly, and the lords of the Invictus only impose it in the most serious circumstances. Unlike lesser counterparts, this Devotion is almost completely unknown outside the Invictus, and is spoken of only in rumors.",
-            "Even within the Invictus, there are few Kindred who know it, and most of them are Notaries, rather than Princes. As the Devotion costs a dot of Willpower, the Kindred who know the Devotion are very reluctant to use it. Some Notaries have been known to secretly use the Oath of Blood Knives in place of this one, if they do not agree with the Prince that the case merits this more serious oath. Since those under this Oath rarely even try to break it, such deceptions often go unnoticed.",
-            "Centuries ago, a human warrior named Richard fell in love with Isabel, a Kindred and an Invictus Prince who did not love him back. After he destroyed the first six Kindred she sent to get rid of him, she decided that he would be a valuable servant, and Embraced him. In her first act, she required him to swear an Oath of Burning Blood never to touch her with body or tool. He swore, and was a devoted servant for years. Eventually, however, Isabel was overthrown, beaten into torpor and left to face the rising sun. Richard broke his Oath to carry her to safety, either dying or sinking into torpor beside her. In some versions of the story, they both lay in the dirt, waiting to re-emerge into the night.",
-            "The use of this Devotion resembles the others; the subject writes the text of his oath in his own blood, and then swears to it. As with the Oath of Blood Knives, the swearing Kindred must be acting entirely of his own free will, without supernatural compulsion. As with the other versions, the bloody text of the Oath remains fresh until the swearing Kindred breaks it or dies his Final Death.",
-            "If the activation roll fails, the Oath functions as a Blood-Tell Oath. If the activation roll succeeds, record the number of successes.",
-            "When the swearer faces some force that could compel him to break the Oath, he gets a bonus to his resistance roll equal to the number of successes on the activation roll. This only applies to resistance rolls, and only against forces that could make him break the Oath. The bonus applies to any relevant resistance roll, however, including rolls to resist frenzy and supernatural compulsion.",
-            "On the other hand, if the Kindred wants to break his Oath, he must equal or exceed the activation roll’s successes with a Resolve + Composure roll (essentially contesting the roll after the fact). He can make the attempt as an instant action, and can repeat it as often as he likes. If he fails, it takes a single action, as he gathers his will and then fails to carry through on the action he planned. The subject may also break the Oath instantly and automatically by spending a dot (not a point) of Willpower.",
-            "If the Kindred breaks his Oath, whether voluntarily or not, he takes a number of points of aggravated damage equal to the number of successes gained on the activation roll, as an equal number of points of Vitae burst into flames within his body and burn their way out through his skin. No resistance roll is allowed, as he took the Oath voluntarily. As with the Oath of Blood Knives, a Kindred with insufficient Vitae still takes the aggravated damage, but only loses as much blood as he had in his body. The fire is visible and tangible in every way, possibly provoking frenzy in onlookers or causing damage to surrounding people and possessions.",
-            "This power costs 12 experience points to learn."
-        ],
-        "Book": "Inv 180"
-    },
-    {
         "Name": "Oath of Running Blood",
         "Prerequisites": "",
         "XP": "3",

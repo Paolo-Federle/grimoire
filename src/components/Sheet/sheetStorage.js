@@ -3,6 +3,7 @@ import { slugify } from "../../utils";
 
 export const SHEET_STORAGE_KEY = "grimoire_saved_sheets_v1";
 export const SHEET_FILE_FORMAT = "grimoire-sheet-v1";
+export const SHEET_STORAGE_VERSION = 2;
 
 function isPlainObject(value) {
   return Boolean(value) && typeof value === "object" && !Array.isArray(value);
@@ -35,6 +36,10 @@ export function normalizeSheetData(candidate, template = initialSheetData) {
     const keys = new Set([...Object.keys(template), ...Object.keys(source)]);
 
     keys.forEach((key) => {
+      if (key === "choices") {
+        return;
+      }
+
       if (key in template) {
         result[key] = normalizeSheetData(source[key], template[key]);
         return;
@@ -49,33 +54,33 @@ export function normalizeSheetData(candidate, template = initialSheetData) {
   return candidate !== undefined ? cloneValue(candidate) : cloneValue(template);
 }
 
-function readStorage() {
+function readStorage({ normalizeData = true } = {}) {
   if (typeof window === "undefined" || !window.localStorage) {
-    return { version: 1, sheets: [] };
+    return { version: SHEET_STORAGE_VERSION, sheets: [] };
   }
 
   try {
     const raw = window.localStorage.getItem(SHEET_STORAGE_KEY);
     if (!raw) {
-      return { version: 1, sheets: [] };
+      return { version: SHEET_STORAGE_VERSION, sheets: [] };
     }
 
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== "object" || !Array.isArray(parsed.sheets)) {
-      return { version: 1, sheets: [] };
+      return { version: SHEET_STORAGE_VERSION, sheets: [] };
     }
 
     return {
-      version: 1,
+      version: SHEET_STORAGE_VERSION,
       sheets: parsed.sheets
         .filter((sheet) => sheet && typeof sheet === "object" && sheet.id)
         .map((sheet) => ({
           ...sheet,
-          data: normalizeSheetData(sheet.data),
+          data: normalizeData ? normalizeSheetData(sheet.data) : sheet.data,
         })),
     };
   } catch {
-    return { version: 1, sheets: [] };
+    return { version: SHEET_STORAGE_VERSION, sheets: [] };
   }
 }
 
@@ -96,7 +101,7 @@ function resolveSheetName(data, fallback = "New Sheet") {
 }
 
 export function listStoredSheets() {
-  return [...readStorage().sheets].sort(
+  return [...readStorage({ normalizeData: false }).sheets].sort(
     (left, right) => new Date(right.updatedAt).getTime() - new Date(left.updatedAt).getTime()
   );
 }

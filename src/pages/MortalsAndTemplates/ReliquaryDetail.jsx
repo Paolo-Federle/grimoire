@@ -2,6 +2,7 @@ import React from 'react';
 import ContentBlockList from '../../components/ContentBlockList';
 import { LabeledField } from '../../components/Detail';
 import { BookLink } from '../../components/BookLink';
+import { InlineContent } from '../../components/StructuredContent';
 import { normalizeDisplayText } from '../../utils';
 
 function DetailSection({ label, content }) {
@@ -29,6 +30,59 @@ function DetailContent({ content }) {
     );
 }
 
+function InlineDetailSection({ label, content }) {
+    if (!Array.isArray(content) || content.length === 0) {
+        return null;
+    }
+
+    const [firstBlock, ...remainingBlocks] = content;
+    const labelNode = <strong>{label}:</strong>;
+
+    function renderFirstBlock() {
+        if (typeof firstBlock === 'string') {
+            return (
+                <p>
+                    {labelNode} <InlineContent content={firstBlock} />
+                </p>
+            );
+        }
+
+        if (!firstBlock || typeof firstBlock !== 'object') {
+            return null;
+        }
+
+        if (firstBlock.type === 'paragraph') {
+            return (
+                <p>
+                    {labelNode} <InlineContent content={firstBlock.text ?? firstBlock.content ?? ''} />
+                </p>
+            );
+        }
+
+        if (firstBlock.type === 'line') {
+            return (
+                <div>
+                    {labelNode} <InlineContent content={firstBlock.text ?? firstBlock.content ?? ''} />
+                </div>
+            );
+        }
+
+        return (
+            <>
+                <p>{labelNode}</p>
+                <ContentBlockList content={[firstBlock]} />
+            </>
+        );
+    }
+
+    return (
+        <div className="mt-4">
+            {renderFirstBlock()}
+            <ContentBlockList content={remainingBlocks} />
+        </div>
+    );
+}
+
 function renderBook(book) {
     if (!book) return null;
 
@@ -44,8 +98,7 @@ function ReliquaryItemDetail({ item }) {
         <>
             <h1>{normalizeDisplayText(item.Name)}</h1>
 
-            <DetailSection label="Description" content={item.Description} />
-            <LabeledField label="Powers" value={item.Effect} />
+            <DetailContent content={item.Description} />
             <LabeledField label="Durability" value={item.Durability} />
             <LabeledField label="Size" value={item.Size} />
             <LabeledField label="Structure" value={item.Structure} />
@@ -62,11 +115,10 @@ function ReliquaryPowerDetail({ item }) {
         <>
             <h1>{normalizeDisplayText(item['Relic Powers'])}</h1>
 
-            <DetailSection label="Description" content={item.FullDescription} />
-            <LabeledField label="Effect" value={item.Effect} />
-            <DetailSection label="Cost" content={item.FullCost} />
+            <DetailContent content={item.FullDescription} />
+            <InlineDetailSection label="Cost" content={item.FullCost} />
             <LabeledField label="Action" value={item.Action} />
-            <DetailSection label="Dice Pool" content={item.DiceRoll} />
+            <InlineDetailSection label="Dice Pool" content={item.DiceRoll} />
             <DetailSection label="Roll Results" content={item.RollResults} />
             <DetailContent content={item.Notes} />
             {renderBook(item.Book)}

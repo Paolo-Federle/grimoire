@@ -1,16 +1,66 @@
+import { useEffect, useState } from "react";
 import CategoryContainer from "../Common/17_CategoryContainer";
 import { DotMarkers } from "../Common/40_DotMarkers";
 import CompactDetailLink from "../Common/18_CompactDetailLink";
 import { SelectInput } from "../Common/35_SelectInput";
 import { useSheetData } from "../05_SheetDataContext";
-import { getMeritDetailPath, getMeritOptionsForRace } from "../sheetLookupData";
+import { loadMeritCatalog } from "../sheetMeritData";
 import { updateValueAtPath } from "../sheetStateUtils";
 
 export default function MeritsSection({ paddingOverride }) {
   const { sheetData, setSheetData } = useSheetData();
   const selectedRace = sheetData.character.race.selected || "";
   const merits = sheetData.merits || [];
-  const meritOptions = getMeritOptionsForRace(selectedRace);
+  const [catalogState, setCatalogState] = useState({
+    race: "",
+    options: [],
+    paths: new Map(),
+    isLoading: true,
+    error: null,
+  });
+
+  useEffect(() => {
+    let isActive = true;
+    setCatalogState({
+      race: selectedRace,
+      options: [],
+      paths: new Map(),
+      isLoading: true,
+      error: null,
+    });
+
+    loadMeritCatalog(selectedRace)
+      .then((catalog) => {
+        if (isActive) {
+          setCatalogState({
+            race: selectedRace,
+            ...catalog,
+            isLoading: false,
+            error: null,
+          });
+        }
+      })
+      .catch((error) => {
+        if (isActive) {
+          setCatalogState({
+            race: selectedRace,
+            options: [],
+            paths: new Map(),
+            isLoading: false,
+            error,
+          });
+        }
+      });
+
+    return () => {
+      isActive = false;
+    };
+  }, [selectedRace]);
+
+  const activeCatalog =
+    catalogState.race === selectedRace
+      ? catalogState
+      : { options: [], paths: new Map(), isLoading: true, error: null };
 
   const addMerit = () => {
     setSheetData((prev) =>
@@ -43,10 +93,13 @@ export default function MeritsSection({ paddingOverride }) {
                 currentIndex === index ? null : currentMerit?.name
               )
               .filter(Boolean);
-            const availableOptions = meritOptions.filter(
+            const availableOptions = activeCatalog.options.filter(
               (option) => option === item?.name || !selectedNames.includes(option)
             );
-            const detailPath = getMeritDetailPath(selectedRace, item?.name);
+            if (item?.name && !availableOptions.includes(item.name)) {
+              availableOptions.unshift(item.name);
+            }
+            const detailPath = activeCatalog.paths.get(item?.name) || null;
 
             return (
               <div
@@ -95,6 +148,13 @@ export default function MeritsSection({ paddingOverride }) {
               </div>
             );
           })}
+
+          {activeCatalog.isLoading ? (
+            <div className="text-xs text-gray-500">Loading merits...</div>
+          ) : null}
+          {activeCatalog.error ? (
+            <div className="text-xs text-red-700">Merits could not be loaded.</div>
+          ) : null}
 
           <button
             type="button"

@@ -1,6 +1,6 @@
 const mageMeritsData = [
     {
-        "Title": "Additional Familiars",
+        "Name": "Additional Familiars",
         "Rating": "••",
         "Prerequisites": "Thyrsus Path",
         "Description": "have multiple spirit companions",
@@ -10,7 +10,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Ancient Lands Awakening",
+        "Name": "Ancient Lands Awakening",
         "Rating": "••••",
         "Prerequisites": "Charity or Hope Virtue. This Merit can be taken only at character creation.",
         "Description": "gain Rotes, gnosis dot, mana from Virtue",
@@ -23,7 +23,7 @@ const mageMeritsData = [
         "Book": "GoG 23",
     },
     {
-        "Title": "Artifact",
+        "Name": "Artifact",
         "Rating": "••• or higher",
         "Prerequisites": "",
         "Description": "treasure, imbued, refills own Mana",
@@ -91,7 +91,7 @@ const mageMeritsData = [
         "Book": "M:tA 80",
     },
     {
-        "Title": "Atlantean Hesychia",
+        "Name": "Atlantean Hesychia",
         "Rating": "•",
         "Prerequisites": "Awakened, High Speech",
         "Description": "Reach Astral Planes easier",
@@ -104,7 +104,7 @@ const mageMeritsData = [
         "Book": "SotRT 111",
     },
     {
-        "Title": "Cartomancer",
+        "Name": "Cartomancer",
         "Rating": "• to •••",
         "Prerequisites": "Awakened, Occult Specialty — Tarot, Wits •••",
         "Description": "Gain benefits to magical tasks from Tarot draw",
@@ -171,7 +171,7 @@ const mageMeritsData = [
         "Book": "KST 13, Tarot",
     },
     {
-        "Title": "Daimon",
+        "Name": "Daimon",
         "Rating": "•••",
         "Prerequisites": "",
         "Description": "specialized Dream",
@@ -182,7 +182,7 @@ const mageMeritsData = [
         "Book": "TotW 66",
     },
     {
-        "Title": "Destiny",
+        "Name": "Destiny",
         "Rating": "• to •••••",
         "Prerequisites": "Awakened",
         "Description": "bonus die pool, associated Bane penalty",
@@ -202,7 +202,7 @@ const mageMeritsData = [
         "Book": "M:tA 81",
     },
     {
-        "Title": "Dream",
+        "Name": "Dream",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "gain clues to questions",
@@ -243,7 +243,7 @@ const mageMeritsData = [
         "Book": "M:tA 82",
     },
     {
-        "Title": "Enhanced Item",
+        "Name": "Enhanced Item",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "super-effective tool",
@@ -287,7 +287,7 @@ const mageMeritsData = [
         "Book": "M:tA 82",
     },
     {
-        "Title": "Enhanced Item: Armor",
+        "Name": "Enhanced Item: Armor",
         "Rating": "variable",
         "Prerequisites": "",
         "Description": "",
@@ -299,7 +299,7 @@ const mageMeritsData = [
         "Book": "AA 201",
     },
     {
-        "Title": "Enhanced Item: Bulletproof",
+        "Name": "Enhanced Item: Bulletproof",
         "Rating": "variable",
         "Prerequisites": "",
         "Description": "",
@@ -309,7 +309,7 @@ const mageMeritsData = [
         "Book": "AA 202",
     },
     {
-        "Title": "Enhanced Item: Decreased Size",
+        "Name": "Enhanced Item: Decreased Size",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "",
@@ -319,7 +319,7 @@ const mageMeritsData = [
         "Book": "GotV 204",
     },
     {
-        "Title": "Extemporaneous Affinity",
+        "Name": "Extemporaneous Affinity",
         "Rating": "• , ••• or •••••",
         "Prerequisites": "Awakened",
         "Description": "+1/2/3 to casting Improvised Spells, represents extensive time with no formal training",
@@ -331,7 +331,7 @@ const mageMeritsData = [
         "Book": "Ban 41",
     },
     {
-        "Title": "Familiar",
+        "Name": "Familiar",
         "Rating": "••• or ••••",
         "Prerequisites": "Awakened",
         "Description": "Fetch/Animal spirit",
@@ -581,7 +581,7 @@ const mageMeritsData = [
         "Book": "M:tA 82",
     },
     {
-        "Title": "Feral Mien",
+        "Name": "Feral Mien",
         "Rating": "•••",
         "Prerequisites": "Thyrsus Path",
         "Description": "+3 on Intimidation/Seduction rolls",
@@ -591,7 +591,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Friend of Beasts",
+        "Name": "Friend of Beasts",
         "Rating": "•",
         "Prerequisites": "Thyrsus Path",
         "Description": "+3 on Animal Ken, -2/0 on Socialize",
@@ -601,7 +601,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Geomancer",
+        "Name": "Geomancer",
         "Rating": "•",
         "Prerequisites": "Occult Skill Specialty in Geomancy",
         "Description": "understand and alter Ley Line with construction",
@@ -641,7 +641,7 @@ const mageMeritsData = [
         "Book": "S&S 99, SotRT 51, LoP",
     },
     {
-        "Title": "Gesture Lore",
+        "Name": "Gesture Lore",
         "Rating": "• to •••••",
         "Prerequisites": "Awakened, Dexterity 3, Occult 3",
         "Description": "modify Rote mundras between forms",
@@ -661,7 +661,7 @@ const mageMeritsData = [
         "Book": "TotM 94",
     },
     {
-        "Title": "Ghost Familiar",
+        "Name": "Ghost Familiar",
         "Rating": "•••",
         "Prerequisites": "Awakened",
         "Description": "Ghost bound as Familiar",
@@ -699,7 +699,7 @@ const mageMeritsData = [
         "Book": "Summ 39",
     },
     {
-        "Title": "Glyph Lore",
+        "Name": "Glyph Lore",
         "Rating": "• to ••••",
         "Prerequisites": "High Speech Merit, Awakened, Intelligence 3, Occult 3",
         "Description": "modify Rune aspects between forms",
@@ -712,7 +712,7 @@ const mageMeritsData = [
         "Book": "TotM 97",
     },
     {
-        "Title": "Goetic Familiar",
+        "Name": "Goetic Familiar",
         "Rating": "•••• or •••••",
         "Prerequisites": "Awakened; successful casting of the Goetic Manifestation spell",
         "Description": "attach an embodiment of your Vice to yourself as a familiar",
@@ -751,7 +751,7 @@ const mageMeritsData = [
         "Book": "GoG 96"
     },
     {
-        "Title": "Guise of Death",
+        "Name": "Guise of Death",
         "Rating": "•••••",
         "Prerequisites": "Gnosis 5, Stamina 4",
         "Description": "Coat a Soul Stone in blood to substitute for human sacrafice",
@@ -763,7 +763,7 @@ const mageMeritsData = [
         "Book": "Summ 184"
     },
     {
-        "Title": "High Speech",
+        "Name": "High Speech",
         "Rating": "•",
         "Prerequisites": "Awakened",
         "Description": "allows use of Words of Power",
@@ -775,7 +775,7 @@ const mageMeritsData = [
         "Book": "M:tA 84"
     },
     {
-        "Title": "Identity Anchor",
+        "Name": "Identity Anchor",
         "Rating": "••",
         "Prerequisites": "Thyrsus Path",
         "Description": "never risk sentience when shapechanged",
@@ -785,7 +785,7 @@ const mageMeritsData = [
         "Book": "TotW 153",
     },
     {
-        "Title": "Imbued Item",
+        "Name": "Imbued Item",
         "Rating": "•• or higher",
         "Prerequisites": "",
         "Description": "item with magical ability",
@@ -834,7 +834,7 @@ const mageMeritsData = [
         "Book": "M:tA 84",
     },
     {
-        "Title": "Law of Embodiment",
+        "Name": "Law of Embodiment",
         "Rating": "•••••",
         "Prerequisites": "Gnosis 3, knowledge of at least five rotes",
         "Description": "cast Rote while attacking",
@@ -850,7 +850,7 @@ const mageMeritsData = [
         "Book": "TotM 77",
     },
     {
-        "Title": "Long Shifting",
+        "Name": "Long Shifting",
         "Rating": "•••",
         "Prerequisites": "Thyrsus Path",
         "Description": "cast Shapechange as if +2 Life",
@@ -861,7 +861,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Manifestation Machine	",
+        "Name": "Manifestation Machine	",
         "Rating": "• to •••",
         "Prerequisites": "Awakened and Familiar •••",
         "Description": "+1/dot to Fetch's Manifest rolls",
@@ -874,7 +874,7 @@ const mageMeritsData = [
         "Book": "FC 131",
     },
     {
-        "Title": "Master Exorcist",
+        "Name": "Master Exorcist",
         "Rating": "••",
         "Prerequisites": "Thyrsus Path, Spirit •••",
         "Description": "gain +3 to end possessions",
@@ -884,7 +884,7 @@ const mageMeritsData = [
         "Book": "TotW 153",
     },
     {
-        "Title": "Myrmidon Oath Tongue",
+        "Name": "Myrmidon Oath Tongue",
         "Rating": "••",
         "Prerequisites": "",
         "Description": "language that commands the Proximi family known as Myrmidons",
@@ -895,7 +895,7 @@ const mageMeritsData = [
         "Book": "SotT 218",
     },
     {
-        "Title": "Occultation",
+        "Name": "Occultation",
         "Rating": "• to •••",
         "Prerequisites": "Awakened, no Fame Merit dots",
         "Description": "become lost to mortal society",
@@ -916,7 +916,7 @@ const mageMeritsData = [
         "Book": "M:tA 86",
     },
     {
-        "Title": "Otherworldly Eyes",
+        "Name": "Otherworldly Eyes",
         "Rating": "••",
         "Prerequisites": "Thyrsus Path, Spirit •",
         "Description": "+2 to see Shadow, -2 to see Fallen",
@@ -928,7 +928,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Otherworldly Lore",
+        "Name": "Otherworldly Lore",
         "Rating": "••••",
         "Prerequisites": "Gnosis 3",
         "Description": "gain 9-Again when dealing with a particular breed of other-world creature",
@@ -939,7 +939,7 @@ const mageMeritsData = [
         "Book": "Summ 184",
     },
     {
-        "Title": "Potent Familiar",
+        "Name": "Potent Familiar",
         "Rating": "••",
         "Prerequisites": "Thyrsus Path",
         "Description": "gain bonus points to create Familiar",
@@ -950,7 +950,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Predator’s Innocence",
+        "Name": "Predator’s Innocence",
         "Rating": "•••",
         "Prerequisites": "Thyrsus Path",
         "Description": "be less bothered by natural cycle",
@@ -962,7 +962,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Rote Specialty",
+        "Name": "Rote Specialty",
         "Rating": "• to •••",
         "Prerequisites": "",
         "Description": "gain one Skill-based Rote Specialty / dot",
@@ -979,7 +979,7 @@ const mageMeritsData = [
         "Book": "Ban 42",
     },
     {
-        "Title": "Ritual Synergy",
+        "Name": "Ritual Synergy",
         "Rating": "••• or •••••",
         "Prerequisites": " Gnosis 3 (for •••) or Gnosis 5 (for •••••)",
         "Description": "Cooperate on a spell even if not all participants can cast it",
@@ -1007,7 +1007,7 @@ const mageMeritsData = [
         "Book": "TotM 74",
     },
     {
-        "Title": "Slayer",
+        "Name": "Slayer",
         "Rating": "•••",
         "Prerequisites": "Awakened, Occult 4, Brawl 4 or Weaponry 4",
         "Description": "May make Int+Occult check to reduce summoned creature's Defense against attacks",
@@ -1019,7 +1019,7 @@ const mageMeritsData = [
         "Book": "Summ 185",
     },
     {
-        "Title": "Sleepwalker Retainer",
+        "Name": "Sleepwalker Retainer",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "faithful Sleepwalker assistant",
@@ -1031,7 +1031,7 @@ const mageMeritsData = [
         "Book": "M:tA 88",
     },
     {
-        "Title": "Spirit Status",
+        "Name": "Spirit Status",
         "Rating": "••, •••• or •••••",
         "Prerequisites": "Thyrsus Path",
         "Description": "remove -1/dot penalty for Spirit negotiations",
@@ -1042,7 +1042,7 @@ const mageMeritsData = [
         "Book": "TotW 154",
     },
     {
-        "Title": "Status (Consilium or Order)",
+        "Name": "Status (Consilium or Order)",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Awakened society standing",
@@ -1117,7 +1117,7 @@ const mageMeritsData = [
         "Book": "M:tA 88",
     },
     {
-        "Title": "Status (Seers of the Throne)",
+        "Name": "Status (Seers of the Throne)",
         "Rating": "• to •••••",
         "Prerequisites": "",
         "Description": "Standing within the Seers, also allows increasing of Dream Merit. Having Dream and at least Status (•) requires taking of Flaw: Mystery Commands",
@@ -1136,7 +1136,7 @@ const mageMeritsData = [
         "Book": "SotT 43",
     },
     {
-        "Title": "Summoner's Soul",
+        "Name": "Summoner's Soul",
         "Rating": "•••",
         "Prerequisites": "Awakened",
         "Description": "Gain bonuses when dealing with creatures of favored Realm",
@@ -1154,7 +1154,7 @@ const mageMeritsData = [
         "Book": "Summ 186",
     },
     {
-        "Title": "Supernal Anchor",
+        "Name": "Supernal Anchor",
         "Rating": "•••••",
         "Prerequisites": "Gnosis 5",
         "Description": "defeat Supernal creature in combat to create artificial Soul Stone",
@@ -1167,7 +1167,7 @@ const mageMeritsData = [
         "Book": "Summ 186",
     },
     {
-        "Title": "Supernal Companion",
+        "Name": "Supernal Companion",
         "Rating": "•••••)",
         "Prerequisites": "",
         "Description": "Familiar from Supernal Realm",
@@ -1180,7 +1180,7 @@ const mageMeritsData = [
         "Book": "Summ 186",
     },
     {
-        "Title": "Thrall",
+        "Name": "Thrall",
         "Rating": "•",
         "Prerequisites": "",
         "Description": "owned Soulstone, 3 tasks provided",
@@ -1194,7 +1194,7 @@ const mageMeritsData = [
         "Book": "M:tA 89",
     },
     {
-        "Title": "Void Scourged",
+        "Name": "Void Scourged",
         "Rating": "•• or ••••",
         "Prerequisites": "Awakened",
         "Description": "Gain bonuses when interacting with Acamoth and Gulmoth",
@@ -1210,7 +1210,7 @@ const mageMeritsData = [
 
 const mageMeritsOrderData = [
     {
-        "Title": "Ancient Signs",
+        "Name": "Ancient Signs",
         "Rating": "•••",
         "Prerequisites": "Occult •••, Guardians of the Veil Status •",
         "Description": "Influence secret societies",
@@ -1227,7 +1227,7 @@ const mageMeritsOrderData = [
         "Book": "GotV 58",
     },
     {
-        "Title": "Athenaeum",
+        "Name": "Athenaeum",
         "Rating": "• to •••••; special",
         "Prerequisites": "Mysterium Status •, Sanctum •+",
         "Description": "Gain two dots in Laboratory, Library or Scriptorium per dot",
@@ -1252,7 +1252,7 @@ const mageMeritsOrderData = [
         "Book": "Myst 66",
     },
     {
-        "Title": "Graduate of Otranto",
+        "Name": "Graduate of Otranto",
         "Rating": "•••",
         "Prerequisites": "Acanthus Path, Mysterium Status •, graduate of the Scuola di Otranto",
         "Description": "Gain bonus to cast curses",
@@ -1276,7 +1276,7 @@ const mageMeritsOrderData = [
         "Book": "Myst 72",
     },
     {
-        "Title": "Masque",
+        "Name": "Masque",
         "Rating": "•",
         "Prerequisites": "Manipulation •••, Guardians of the Veil Status •",
         "Description": "Alternate identities, various bonuses (see below)",
@@ -1294,7 +1294,7 @@ const mageMeritsOrderData = [
         "Book": "GotV 69",
     },
     {
-        "Title": "Mystery Initiation",
+        "Name": "Mystery Initiation",
         "Rating": "• to •••••",
         "Prerequisites": "Mysterium Status of at least equal the rating in this Merit.",
         "Description": "Gain bonuses related to Order",
@@ -1305,7 +1305,7 @@ const mageMeritsOrderData = [
         "Book": "Myst 102",
     },
     {
-        "Title": "Oathbound",
+        "Name": "Oathbound",
         "Rating": "• to •••••",
         "Prerequisites": "Awakened, Adamantine Arrow Member",
         "Description": "Bind Allegiance, Principle or Questing Oaths to your soul to gain benefits",
@@ -1334,7 +1334,7 @@ const mageMeritsOrderData = [
 
 const mageMeritsLegacyData = [
     {
-        "Title": "Celestial Name",
+        "Name": "Celestial Name",
         "Rating": "• to •••••••",
         "Prerequisites": "",
         "Description": "Aid in dealing with planetary spirits",
@@ -1347,7 +1347,7 @@ const mageMeritsLegacyData = [
         "Book": "L:tA 114",
     },
     {
-        "Title": "Dreamland",
+        "Name": "Dreamland",
         "Rating": "• to •••••",
         "Prerequisites": " Awakened, Dreamspeaker Legacy",
         "Description": "Visit Dreamtime Libraries",
@@ -1366,7 +1366,7 @@ const mageMeritsLegacyData = [
         "Book": "L:tA 21",
     },
     {
-        "Title": "Image of Perfection",
+        "Name": "Image of Perfection",
         "Rating": "•••",
         "Prerequisites": "Echo Walker, Death 2",
         "Description": "Resist insanity with driving goal",
@@ -1377,7 +1377,7 @@ const mageMeritsLegacyData = [
         "Book": "L:tA 125",
     },
     {
-        "Title": "Skald Cant",
+        "Name": "Skald Cant",
         "Rating": "•",
         "Prerequisites": "Skald, Composure 2, Expression 2",
         "Description": "Aid in memory and spirit dealing",

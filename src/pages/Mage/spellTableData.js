@@ -27,12 +27,12 @@ export const ARCANA_SETS = [
 
 export function buildSpellRows(rows, title) {
     return rows.map((spell) => ({
-        [title]: spell.Titolo,
+        [title]: spell.Name,
         Description: spell.DescrizioneBreve,
         Aspect: spell.Aspect,
         Cost: spell.Cost,
         Arcana: spell.Arcana,
         Book: spell.Book,
-        link: `/mage/spells/${slugify(spell.Titolo)}`,
+        link: `/mage/spells/${slugify(spell.Name)}`,
     }));
 }

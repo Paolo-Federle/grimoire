@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
 import { useSheetData } from "../05_SheetDataContext";
 import { getValueAtPath, updateValueAtPath } from "../sheetStateUtils";
@@ -27,10 +27,9 @@ export const SelectInput = ({
   formControlSx = {},
   selectSx = {},
 }) => {
-  const { sheetData, setSheetData } = useSheetData();
+    const { sheetData, setSheetData } = useSheetData();
     const isUsingField = !!field;
     const availableOptions = options || (isUsingField ? field.choices || [] : []);
-    const resolvedOptions = availableOptions.map(resolveOption);
 
     const resolvedSelectedValue = useMemo(() => {
         if (value !== undefined) return value ?? "";
@@ -39,11 +38,13 @@ export const SelectInput = ({
         return "";
     }, [field, isUsingField, path, sheetData, value]);
 
-    const [selected, setSelected] = useState(resolvedSelectedValue);
-
-    useEffect(() => {
-        setSelected(resolvedSelectedValue);
-    }, [resolvedSelectedValue]);
+    const resolvedOptions = availableOptions.map(resolveOption);
+    if (
+        resolvedSelectedValue !== "" &&
+        !resolvedOptions.some((option) => option.value === resolvedSelectedValue)
+    ) {
+        resolvedOptions.unshift(resolveOption(resolvedSelectedValue));
+    }
 
     const handleChange = (event) => {
         const newValue = event.target.value;
@@ -53,8 +54,6 @@ export const SelectInput = ({
         } else if (path) {
             setSheetData((prev) => updateValueAtPath(prev, path, newValue));
         }
-
-        setSelected(newValue);
     };
 
     return (
@@ -66,7 +65,7 @@ export const SelectInput = ({
         >
             <InputLabel sx={{ fontSize: "0.875rem", top: "-2px" }}>{label}</InputLabel>
             <Select
-                value={selected}
+                value={resolvedSelectedValue}
                 onChange={handleChange}
                 label={label}
                 size="small"
@@ -97,7 +96,7 @@ export const SelectInput = ({
                         value={option.value}
                         sx={{
                             fontSize: "0.875rem",
-                            fontWeight: selected === option.value ? "bold" : "normal",
+                            fontWeight: resolvedSelectedValue === option.value ? "bold" : "normal",
                             padding: "4px 8px",
                         }}
                     >

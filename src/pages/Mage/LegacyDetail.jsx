@@ -44,7 +44,7 @@ export default function LegacyDetail(props) {
             {matchedLegacy && (
                 <>
                     <h1 style={{ marginBottom: '10px' }}>
-                        {matchedLegacy.Nome}
+                        {matchedLegacy.Name}
                         {matchedLegacy.leftHanded && ' (Left Handed)'}
                     </h1>
                     <div style={{ overflow: 'hidden' }}>

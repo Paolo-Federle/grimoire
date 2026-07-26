@@ -1,15 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CategoryContainer from "../Common/17_CategoryContainer";
 import CompactDetailLink from "../Common/18_CompactDetailLink";
 import { NumberInput } from "../Common/35_NumberInput";
 import { SelectInput } from "../Common/35_SelectInput";
 import { DotMarkers } from "../Common/40_DotMarkers";
 import { useSheetData } from "../05_SheetDataContext";
-import {
-  findDerangementOptionIdByName,
-  getDerangementDetailPath,
-  getDerangementOptions,
-} from "../sheetLookupData";
+import { loadDerangementCatalog } from "../sheetDerangementData";
 import { updateValueAtPath } from "../sheetStateUtils";
 
 const getMoralityLabel = (sheetData, selectedRace) => {
@@ -28,7 +24,7 @@ const getMoralityLabel = (sheetData, selectedRace) => {
 const buildDerangementEntryId = (level) =>
   `derangement-${level}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 
-const normalizeDerangementEntries = (entries, level) => {
+const normalizeDerangementEntries = (entries, level, findIdByName = () => "") => {
   if (Array.isArray(entries)) {
     return entries
       .map((entry, index) => {
@@ -36,7 +32,7 @@ const normalizeDerangementEntries = (entries, level) => {
           return null;
         }
 
-        const fallbackId = entry?.name ? findDerangementOptionIdByName(entry.name) : "";
+        const fallbackId = entry?.name ? findIdByName(entry.name) : "";
 
         return {
           id: entry.id || `derangement-${level}-${index}`,
@@ -51,7 +47,7 @@ const normalizeDerangementEntries = (entries, level) => {
     return [
       {
         id: `derangement-${level}-legacy`,
-        derangementId: findDerangementOptionIdByName(entries),
+        derangementId: findIdByName(entries),
         quantity: 1,
       },
     ];
@@ -63,14 +59,44 @@ const normalizeDerangementEntries = (entries, level) => {
 export default function MoralitySection() {
   const { sheetData, setSheetData } = useSheetData();
   const [showDerangements, setShowDerangements] = useState(false);
+  const [catalog, setCatalog] = useState(null);
+  const [catalogError, setCatalogError] = useState(null);
   const selectedRace = sheetData.character.race.selected || "";
   const moralityScore = sheetData.morality.score || 1;
   const moralityLabel = getMoralityLabel(sheetData, selectedRace);
-  const derangementOptions = getDerangementOptions();
+  useEffect(() => {
+    let isActive = true;
+
+    if (!showDerangements || catalog) {
+      return () => {
+        isActive = false;
+      };
+    }
+
+    setCatalogError(null);
+    loadDerangementCatalog()
+      .then((nextCatalog) => {
+        if (isActive) setCatalog(nextCatalog);
+      })
+      .catch((error) => {
+        if (isActive) setCatalogError(error);
+      });
+
+    return () => {
+      isActive = false;
+    };
+  }, [catalog, showDerangements]);
+
+  const findIdByName = (name) =>
+    catalog?.idByName.get(String(name || "").trim().toLowerCase()) || "";
+  const derangementOptions = catalog?.options || [];
   const derangements = sheetData.morality.derangements || {};
   const derangementKeys = Object.keys(derangements).sort((a, b) => Number(b) - Number(a));
   const normalizedDerangements = Object.fromEntries(
-    derangementKeys.map((key) => [key, normalizeDerangementEntries(derangements[key], key)])
+    derangementKeys.map((key) => [
+      key,
+      normalizeDerangementEntries(derangements[key], key, findIdByName),
+    ])
   );
   const totalDerangements = Object.values(normalizedDerangements)
     .flat()
@@ -79,7 +105,7 @@ export default function MoralitySection() {
   const updateDerangementEntries = (level, updater) => {
     setSheetData((prev) =>
       updateValueAtPath(prev, ["morality", "derangements", level], (currentEntries) =>
-        updater(normalizeDerangementEntries(currentEntries, level))
+        updater(normalizeDerangementEntries(currentEntries, level, findIdByName))
       )
     );
   };
@@ -149,7 +175,15 @@ export default function MoralitySection() {
             </button>
           </div>
 
-          {showDerangements ? (
+          {showDerangements && !catalog && !catalogError ? (
+            <div className="text-xs text-gray-500">Loading derangements...</div>
+          ) : null}
+
+          {showDerangements && catalogError ? (
+            <div className="text-xs text-red-700">Derangements could not be loaded.</div>
+          ) : null}
+
+          {showDerangements && catalog ? (
             <div className="grid gap-3 md:grid-cols-2">
               {derangementKeys.map((key) => (
                 <div key={key} className="rounded bg-gray-50 p-3">
@@ -210,7 +244,7 @@ export default function MoralitySection() {
                           />
 
                           <CompactDetailLink
-                            to={getDerangementDetailPath(entry.derangementId)}
+                            to={catalog.pathById.get(entry.derangementId) || null}
                             label="Open derangement details"
                           />
 

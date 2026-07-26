@@ -1,6 +1,6 @@
 export const imbuedItemsData = [
     {
-        'Nome': 'Blood Ring',
+        'Name': 'Blood Ring',
         'Item_Level': 0,
         'Durability': 3,
         'Size': 0,
@@ -18,7 +18,7 @@ export const imbuedItemsData = [
         "Book": "GotV 210"
     },
     {
-        'Nome': 'Acquisitionist’s Torch',
+        'Name': 'Acquisitionist’s Torch',
         'Item_Level': 1,
         'Durability': 2,
         'Size': 1,
@@ -34,7 +34,7 @@ export const imbuedItemsData = [
         "Book": "Myst 210"
     },
     {
-        'Nome': 'Astrally Stabilized Items',
+        'Name': 'Astrally Stabilized Items',
         'Item_Level': 1,
         'Durability': "varies",
         'Size': "varies",
@@ -52,7 +52,7 @@ export const imbuedItemsData = [
         "Book": "AR 114"
     },
     {
-        'Nome': '“Toy” Gun',
+        'Name': '“Toy” Gun',
         'Item_Level': 1,
         'Durability': 3,
         'Size': 0,
@@ -68,7 +68,7 @@ export const imbuedItemsData = [
         "Book": "GotV 204"
     },
     {
-        'Nome': 'Cracked Mirror •• To ••••••',
+        'Name': 'Cracked Mirror •• To ••••••',
         'Item_Level': 2,
         'Durability': 1,
         'Size': "2, 3 or 4",
@@ -86,7 +86,7 @@ export const imbuedItemsData = [
         "Book": "GotV 205"
     },
     {
-        'Nome': 'Invisible Rifle',
+        'Name': 'Invisible Rifle',
         'Item_Level': 2,
         'Durability': 4,
         'Size': 3,
@@ -103,7 +103,7 @@ export const imbuedItemsData = [
         "Book": "GotV 203"
     },
     {
-        'Nome': 'Necradio',
+        'Name': 'Necradio',
         'Item_Level': 2,
         'Durability': "n/a",
         'Size': "n/a",
@@ -119,7 +119,7 @@ export const imbuedItemsData = [
         "Book": "FC 117"
     },
     {
-        'Nome': 'Night Eyes',
+        'Name': 'Night Eyes',
         'Item_Level': 2,
         'Durability': 1,
         'Size': 1,
@@ -134,7 +134,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Sharpshooter’S Scope •• Or ••••',
+        'Name': 'Sharpshooter’S Scope •• Or ••••',
         'Item_Level': "2 or 4",
         'Durability': 3,
         'Size': 1,
@@ -149,7 +149,7 @@ export const imbuedItemsData = [
         "Book": "GotV 208"
     },
     {
-        'Nome': 'Whispering Glove',
+        'Name': 'Whispering Glove',
         'Item_Level': 2,
         'Durability': 1,
         'Size': 1,
@@ -165,7 +165,7 @@ export const imbuedItemsData = [
         "Book": "GotV 210"
     },
     {
-        'Nome': 'Aether Goggles',
+        'Name': 'Aether Goggles',
         'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
@@ -180,7 +180,7 @@ export const imbuedItemsData = [
         "Book": "FC 116"
     },
     {
-        'Nome': 'Band Of Armored Thoughts',
+        'Name': 'Band Of Armored Thoughts',
         'Item_Level': 3,
         'Durability': 2,
         'Size': 0,
@@ -195,7 +195,7 @@ export const imbuedItemsData = [
         "Book": "AA 200"
     },
     {
-        'Nome': 'Camera Non-Obscura',
+        'Name': 'Camera Non-Obscura',
         'Item_Level': 3,
         'Durability': 2,
         'Size': 1,
@@ -211,7 +211,7 @@ export const imbuedItemsData = [
         "Book": "L:tS 127"
     },
     {
-        'Nome': 'Chalice Of Consuming Vigor ••• Or ••••',
+        'Name': 'Chalice Of Consuming Vigor ••• Or ••••',
         'Item_Level': "3 or 4",
         'Durability': 2,
         'Size': 1,
@@ -229,7 +229,7 @@ export const imbuedItemsData = [
         "Book": "Myst 211"
     },
     {
-        'Nome': 'The Chime Of Grief',
+        'Name': 'The Chime Of Grief',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
@@ -245,7 +245,7 @@ export const imbuedItemsData = [
         "Book": "AR 120"
     },
     {
-        'Nome': 'Destiny’S Quill',
+        'Name': 'Destiny’S Quill',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
@@ -262,7 +262,7 @@ export const imbuedItemsData = [
         "Book": "AA 201"
     },
     {
-        'Nome': 'Enigma Sigil',
+        'Name': 'Enigma Sigil',
         'Item_Level': 3,
         'Durability': 3,
         'Size': 0,
@@ -278,7 +278,7 @@ export const imbuedItemsData = [
         "Book": "Myst 211"
     },
     {
-        'Nome': 'First Scribe’s Censer',
+        'Name': 'First Scribe’s Censer',
         'Item_Level': 3,
         'Durability': 5,
         'Size': 0,
@@ -294,7 +294,7 @@ export const imbuedItemsData = [
         "Book": "Myst 210"
     },
     {
-        'Nome': 'Mind Protectors',
+        'Name': 'Mind Protectors',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
@@ -310,7 +310,7 @@ export const imbuedItemsData = [
         "Book": "Ban 70"
     },
     {
-        'Nome': 'Mulligan’s Widget',
+        'Name': 'Mulligan’s Widget',
         'Item_Level': 3,
         'Durability': 2,
         'Size': 0,
@@ -325,7 +325,7 @@ export const imbuedItemsData = [
         "Book": "SL 205"
     },
     {
-        'Nome': 'Network Card',
+        'Name': 'Network Card',
         'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
@@ -340,7 +340,7 @@ export const imbuedItemsData = [
         "Book": "FC 117"
     },
     {
-        'Nome': 'Neverender Batteries',
+        'Name': 'Neverender Batteries',
         'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
@@ -355,7 +355,7 @@ export const imbuedItemsData = [
         "Book": "FC 118"
     },
     {
-        'Nome': 'Nightmask',
+        'Name': 'Nightmask',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
@@ -370,7 +370,7 @@ export const imbuedItemsData = [
         "Book": "AA 203"
     },
     {
-        'Nome': 'Oath Writer',
+        'Name': 'Oath Writer',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 0,
@@ -385,7 +385,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Omniscope',
+        'Name': 'Omniscope',
         'Item_Level': 3,
         'Durability': 2,
         'Size': 1,
@@ -400,7 +400,7 @@ export const imbuedItemsData = [
         "Book": "AA 203"
     },
     {
-        'Nome': 'Pirate Map',
+        'Name': 'Pirate Map',
         'Item_Level': 3,
         'Durability': 0,
         'Size': 1,
@@ -417,7 +417,7 @@ export const imbuedItemsData = [
         "Book": "Myst 211"
     },
     {
-        'Nome': 'Portable Thermostat',
+        'Name': 'Portable Thermostat',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 0,
@@ -432,7 +432,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Portable Window',
+        'Name': 'Portable Window',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
@@ -448,7 +448,7 @@ export const imbuedItemsData = [
         "Book": "AA 204"
     },
     {
-        'Nome': 'Private Curtain',
+        'Name': 'Private Curtain',
         'Item_Level': 3,
         'Durability': "varies",
         'Size': "varies",
@@ -466,7 +466,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Scourge',
+        'Name': 'Scourge',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 2,
@@ -483,7 +483,7 @@ export const imbuedItemsData = [
         "Book": "Ban 73"
     },
     {
-        'Nome': 'Suppressive Thetan Energy Auditing Device',
+        'Name': 'Suppressive Thetan Energy Auditing Device',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 1,
@@ -503,7 +503,7 @@ export const imbuedItemsData = [
         "Book": "Ban 73"
     },
     {
-        'Nome': 'Talisman Of Timely Research ••• Or •••••',
+        'Name': 'Talisman Of Timely Research ••• Or •••••',
         'Item_Level': "3 or 5",
         'Durability': 2,
         'Size': 1,
@@ -520,7 +520,7 @@ export const imbuedItemsData = [
         "Book": "Myst 211"
     },
     {
-        'Nome': 'Thought Worm',
+        'Name': 'Thought Worm',
         'Item_Level': 3,
         'Durability': 1,
         'Size': 0,
@@ -538,7 +538,7 @@ export const imbuedItemsData = [
         "Book": "GotV 210"
     },
     {
-        'Nome': 'Universal Keycard',
+        'Name': 'Universal Keycard',
         'Item_Level': 3,
         'Durability': "n/a",
         'Size': "n/a",
@@ -554,7 +554,7 @@ export const imbuedItemsData = [
         "Book": "FC 118"
     },
     {
-        'Nome': 'All Access Pass',
+        'Name': 'All Access Pass',
         'Item_Level': 4,
         'Durability': "n/a",
         'Size': "n/a",
@@ -570,7 +570,7 @@ export const imbuedItemsData = [
         "Book": "FC 116"
     },
     {
-        'Nome': 'Atroxi Crystals',
+        'Name': 'Atroxi Crystals',
         'Item_Level': 4,
         'Durability': 4,
         'Size': 1,
@@ -586,7 +586,7 @@ export const imbuedItemsData = [
         "Book": "SotRT 81"
     },
     {
-        'Nome': 'Camera Tempora •••• Or ••••••',
+        'Name': 'Camera Tempora •••• Or ••••••',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
@@ -602,7 +602,7 @@ export const imbuedItemsData = [
         "Book": "Myst 212"
     },
     {
-        'Nome': 'Beast Mantle',
+        'Name': 'Beast Mantle',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 4,
@@ -617,7 +617,7 @@ export const imbuedItemsData = [
         "Book": "AA 200"
     },
     {
-        'Nome': 'Bullet-Proof Cotton',
+        'Name': 'Bullet-Proof Cotton',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 3,
@@ -633,7 +633,7 @@ export const imbuedItemsData = [
         "Book": "GotV 204"
     },
     {
-        'Nome': 'Canopic Jar',
+        'Name': 'Canopic Jar',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
@@ -648,7 +648,7 @@ export const imbuedItemsData = [
         "Book": "GotV 204"
     },
     {
-        'Nome': 'Cash Dagger',
+        'Name': 'Cash Dagger',
         'Item_Level': 4,
         'Durability': "n/a",
         'Size': 1,
@@ -664,7 +664,7 @@ export const imbuedItemsData = [
         "Book": "MT 63"
     },
     {
-        'Nome': 'Cloak Of Isolation',
+        'Name': 'Cloak Of Isolation',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 5,
@@ -680,7 +680,7 @@ export const imbuedItemsData = [
         "Book": "GotV 204"
     },
     {
-        'Nome': 'Cloak Of Many Colors',
+        'Name': 'Cloak Of Many Colors',
         'Item_Level': 4,
         'Durability': "varies",
         'Size': "1-3",
@@ -695,7 +695,7 @@ export const imbuedItemsData = [
         "Book": "AA 201"
     },
     {
-        'Nome': 'Daredevil’S Keychain',
+        'Name': 'Daredevil’S Keychain',
         'Item_Level': 4,
         'Durability': 3,
         'Size': 0,
@@ -710,7 +710,7 @@ export const imbuedItemsData = [
         "Book": "GotV 205"
     },
     {
-        'Nome': 'Endless Clip',
+        'Name': 'Endless Clip',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
@@ -725,7 +725,7 @@ export const imbuedItemsData = [
         "Book": "AA 202"
     },
     {
-        'Nome': 'Excavator',
+        'Name': 'Excavator',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
@@ -740,7 +740,7 @@ export const imbuedItemsData = [
         "Book": "Myst 212"
     },
     {
-        'Nome': 'Flawless Barrel',
+        'Name': 'Flawless Barrel',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 2,
@@ -755,7 +755,7 @@ export const imbuedItemsData = [
         "Book": "AA 202"
     },
     {
-        'Nome': 'Ghost-Catcher',
+        'Name': 'Ghost-Catcher',
         'Item_Level': 4,
         'Durability': "n/a",
         'Size': "n/a",
@@ -772,7 +772,7 @@ export const imbuedItemsData = [
         "Book": "FC 117"
     },
     {
-        'Nome': 'Implement Of Understanding',
+        'Name': 'Implement Of Understanding',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
@@ -788,7 +788,7 @@ export const imbuedItemsData = [
         "Book": "Myst 212"
     },
     {
-        'Nome': 'Improved Grip',
+        'Name': 'Improved Grip',
         'Item_Level': 4,
         'Durability': "varies",
         'Size': 1,
@@ -804,7 +804,7 @@ export const imbuedItemsData = [
         "Book": "AA 202"
     },
     {
-        'Nome': 'Interfector’s Mask',
+        'Name': 'Interfector’s Mask',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 2,
@@ -820,7 +820,7 @@ export const imbuedItemsData = [
         "Book": "GotV 206"
     },
     {
-        'Nome': "Kupa's Earring",
+        'Name': "Kupa's Earring",
         'Item_Level': 4,
         'Durability': "n/a",
         'Size': "n/a",
@@ -835,7 +835,7 @@ export const imbuedItemsData = [
         "Book": "NH-TU 71"
     },
     {
-        'Nome': 'Light Eater',
+        'Name': 'Light Eater',
         'Item_Level': 4,
         'Durability': "varies",
         'Size': "varies",
@@ -851,7 +851,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Lucky Boots',
+        'Name': 'Lucky Boots',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 3,
@@ -866,7 +866,7 @@ export const imbuedItemsData = [
         "Book": "AA 203"
     },
     {
-        'Nome': 'Mask Of Ages, The',
+        'Name': 'Mask Of Ages, The',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
@@ -882,7 +882,7 @@ export const imbuedItemsData = [
         "Book": "AR 124"
     },
     {
-        'Nome': 'Phantasmal Prism',
+        'Name': 'Phantasmal Prism',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
@@ -899,7 +899,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Plausible Deniability',
+        'Name': 'Plausible Deniability',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 0,
@@ -914,7 +914,7 @@ export const imbuedItemsData = [
         "Book": "SL 205"
     },
     {
-        'Nome': 'Sleep/wake Watch',
+        'Name': 'Sleep/wake Watch',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 0,
@@ -929,7 +929,7 @@ export const imbuedItemsData = [
         "Book": "AA 204"
     },
     {
-        'Nome': 'Spatial Binoculars',
+        'Name': 'Spatial Binoculars',
         'Item_Level': 4,
         'Durability': 2,
         'Size': 1,
@@ -944,7 +944,7 @@ export const imbuedItemsData = [
         "Book": "AA 205"
     },
     {
-        'Nome': 'Spirit Candles',
+        'Name': 'Spirit Candles',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
@@ -962,7 +962,7 @@ export const imbuedItemsData = [
         "Book": "GotV 209"
     },
     {
-        'Nome': 'Spirit Whistle',
+        'Name': 'Spirit Whistle',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 0,
@@ -977,7 +977,7 @@ export const imbuedItemsData = [
         "Book": "GotV 209"
     },
     {
-        'Nome': 'Subtle Ring',
+        'Name': 'Subtle Ring',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
@@ -992,7 +992,7 @@ export const imbuedItemsData = [
         "Book": "Ban 73"
     },
     {
-        'Nome': 'Supernal Server',
+        'Name': 'Supernal Server',
         'Item_Level': 4,
         'Durability': 3,
         'Size': 2,
@@ -1011,7 +1011,7 @@ export const imbuedItemsData = [
         "Book": "Myst 212"
     },
     {
-        'Nome': 'Tin Whistle',
+        'Name': 'Tin Whistle',
         'Item_Level': 4,
         'Durability': 1,
         'Size': 1,
@@ -1026,7 +1026,7 @@ export const imbuedItemsData = [
         "Book": "AA 205"
     },
     {
-        'Nome': 'Token Of The Great Take',
+        'Name': 'Token Of The Great Take',
         'Item_Level': 4,
         'Durability': 3,
         'Size': 0,
@@ -1044,7 +1044,7 @@ export const imbuedItemsData = [
         "Book": "Myst 213"
     },
     {
-        'Nome': 'Unfriendly Knife',
+        'Name': 'Unfriendly Knife',
         'Item_Level': 4,
         'Durability': 3,
         'Size': 1,
@@ -1060,7 +1060,7 @@ export const imbuedItemsData = [
         "Book": "GotV 210"
     },
     {
-        'Nome': 'Universal Key',
+        'Name': 'Universal Key',
         'Item_Level': "4+",
         'Durability': 2,
         'Size': 0,
@@ -1097,7 +1097,7 @@ export const imbuedItemsData = [
         "Book": "Myst 213"
     },
     {
-        'Nome': 'Universal Toolkit',
+        'Name': 'Universal Toolkit',
         'Item_Level': 4,
         'Durability': 3,
         'Size': 2,
@@ -1112,7 +1112,7 @@ export const imbuedItemsData = [
         "Book": "AA 205"
     },
     {
-        'Nome': 'Abyssal Scope',
+        'Name': 'Abyssal Scope',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 0,
@@ -1128,7 +1128,7 @@ export const imbuedItemsData = [
         "Book": "Ban 69"
     },
     {
-        'Nome': 'Adamantine Taser',
+        'Name': 'Adamantine Taser',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1144,7 +1144,7 @@ export const imbuedItemsData = [
         "Book": "AA 199"
     },
     {
-        'Nome': 'All-Gas Grenade',
+        'Name': 'All-Gas Grenade',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1159,7 +1159,7 @@ export const imbuedItemsData = [
         "Book": "AA 200"
     },
     {
-        'Nome': 'All-Terrain Mobile Energy Source',
+        'Name': 'All-Terrain Mobile Energy Source',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 3,
@@ -1174,7 +1174,7 @@ export const imbuedItemsData = [
         "Book": "AA 200"
     },
     {
-        'Nome': 'Amulet Of Passage',
+        'Name': 'Amulet Of Passage',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1191,7 +1191,7 @@ export const imbuedItemsData = [
         "Book": "Myst 214"
     },
     {
-        'Nome': 'Amulet Of The Enduring Body',
+        'Name': 'Amulet Of The Enduring Body',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1207,7 +1207,7 @@ export const imbuedItemsData = [
         "Book": "Myst 214"
     },
     {
-        'Nome': 'Archetype Altar',
+        'Name': 'Archetype Altar',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 2,
@@ -1225,7 +1225,7 @@ export const imbuedItemsData = [
         "Book": "AR 114"
     },
     {
-        'Nome': 'Atlantean Fire Crystal',
+        'Name': 'Atlantean Fire Crystal',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1241,7 +1241,7 @@ export const imbuedItemsData = [
         "Book": "L:tS 28"
     },
     {
-        'Nome': 'Back Box',
+        'Name': 'Back Box',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 2,
@@ -1256,7 +1256,7 @@ export const imbuedItemsData = [
         "Book": "AA 200"
     },
     {
-        'Nome': 'Black Ribbon',
+        'Name': 'Black Ribbon',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 1,
@@ -1273,7 +1273,7 @@ export const imbuedItemsData = [
         "Book": "AA 201"
     },
     {
-        'Nome': 'Bottomless Bag',
+        'Name': 'Bottomless Bag',
         'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
@@ -1289,7 +1289,7 @@ export const imbuedItemsData = [
         "Book": "FC 116"
     },
     {
-        'Nome': 'Clarity Room, The',
+        'Name': 'Clarity Room, The',
         'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
@@ -1304,7 +1304,7 @@ export const imbuedItemsData = [
         "Book": "RotE 61"
     },
     {
-        'Nome': 'Clouded Crown',
+        'Name': 'Clouded Crown',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1319,7 +1319,7 @@ export const imbuedItemsData = [
         "Book": "GotV 204"
     },
     {
-        'Nome': 'Death Pointer',
+        'Name': 'Death Pointer',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1337,7 +1337,7 @@ export const imbuedItemsData = [
         "Book": "GotV 205"
     },
     {
-        'Nome': 'Familiar Strangler',
+        'Name': 'Familiar Strangler',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 1,
@@ -1354,7 +1354,7 @@ export const imbuedItemsData = [
         "Book": "GotV 205"
     },
     {
-        'Nome': 'Freeman’s Collar',
+        'Name': 'Freeman’s Collar',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1369,7 +1369,7 @@ export const imbuedItemsData = [
         "Book": "AA 202"
     },
     {
-        'Nome': 'Ghost Shirt',
+        'Name': 'Ghost Shirt',
         'Item_Level': 5,
         'Durability': "varies",
         'Size': "3-5",
@@ -1384,7 +1384,7 @@ export const imbuedItemsData = [
         "Book": "AA 202"
     },
     {
-        'Nome': 'Goetic Mirror',
+        'Name': 'Goetic Mirror',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 2,
@@ -1401,7 +1401,7 @@ export const imbuedItemsData = [
         "Book": "AR 123"
     },
     {
-        'Nome': 'Golem, The',
+        'Name': 'Golem, The',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 5,
@@ -1416,7 +1416,7 @@ export const imbuedItemsData = [
         "Book": "MT 43"
     },
     {
-        'Nome': 'Hidden Sword',
+        'Name': 'Hidden Sword',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 2,
@@ -1431,7 +1431,7 @@ export const imbuedItemsData = [
         "Book": "GotV 206"
     },
     {
-        'Nome': 'Infinite Flash Drive',
+        'Name': 'Infinite Flash Drive',
         'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
@@ -1447,7 +1447,7 @@ export const imbuedItemsData = [
         "Book": "FC 117"
     },
     {
-        'Nome': 'Insult To Injury',
+        'Name': 'Insult To Injury',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1462,7 +1462,7 @@ export const imbuedItemsData = [
         "Book": "AA 203"
     },
     {
-        'Nome': 'Magical Silencer',
+        'Name': 'Magical Silencer',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1477,7 +1477,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Mana Bowl',
+        'Name': 'Mana Bowl',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 4,
@@ -1493,7 +1493,7 @@ export const imbuedItemsData = [
         "Book": "S&S 93"
     },
     {
-        'Nome': 'Phantasmic Lantern',
+        'Name': 'Phantasmic Lantern',
         'Item_Level': 5,
         'Durability': 5,
         'Size': 2,
@@ -1508,7 +1508,7 @@ export const imbuedItemsData = [
         "Book": "AA 203"
     },
     {
-        'Nome': 'Portable Armory',
+        'Name': 'Portable Armory',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 2,
@@ -1523,7 +1523,7 @@ export const imbuedItemsData = [
         "Book": "AA 204"
     },
     {
-        'Nome': 'Restorer’s Brush',
+        'Name': 'Restorer’s Brush',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1539,7 +1539,7 @@ export const imbuedItemsData = [
         "Book": "Myst 214"
     },
     {
-        'Nome': 'Scriber Of Ownership',
+        'Name': 'Scriber Of Ownership',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1554,7 +1554,7 @@ export const imbuedItemsData = [
         "Book": "Myst 215"
     },
     {
-        'Nome': 'Sentinel’s Shield',
+        'Name': 'Sentinel’s Shield',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1569,7 +1569,7 @@ export const imbuedItemsData = [
         "Book": "GotV 208"
     },
     {
-        'Nome': 'Shivering Blade',
+        'Name': 'Shivering Blade',
         'Item_Level': 5,
         'Durability': 3,
         'Size': 1,
@@ -1586,7 +1586,7 @@ export const imbuedItemsData = [
         "Book": "GotV 208"
     },
     {
-        'Nome': 'Sigil-Mark ••••• Or ••••••',
+        'Name': 'Sigil-Mark ••••• Or ••••••',
         'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
@@ -1605,7 +1605,7 @@ export const imbuedItemsData = [
         "Book": "S&S 37"
     },
     {
-        'Nome': 'Soma',
+        'Name': 'Soma',
         'Item_Level': 5,
         'Durability': "n/a",
         'Size': "n/a",
@@ -1624,7 +1624,7 @@ export const imbuedItemsData = [
         "Book": "MT 141"
     },
     {
-        'Nome': 'Sown Salt',
+        'Name': 'Sown Salt',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 1,
@@ -1640,7 +1640,7 @@ export const imbuedItemsData = [
         "Book": "Ban 73"
     },
     {
-        'Nome': 'Spectacles Of Discernment',
+        'Name': 'Spectacles Of Discernment',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1655,7 +1655,7 @@ export const imbuedItemsData = [
         "Book": "Myst 215"
     },
     {
-        'Nome': 'Spirit Blade',
+        'Name': 'Spirit Blade',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1670,7 +1670,7 @@ export const imbuedItemsData = [
         "Book": "GotV 209"
     },
     {
-        'Nome': 'Supernal Wardrobe',
+        'Name': 'Supernal Wardrobe',
         'Item_Level': 5,
         'Durability': 1,
         'Size': 3,
@@ -1685,7 +1685,7 @@ export const imbuedItemsData = [
         "Book": "SL 205"
     },
     {
-        'Nome': 'Talisman Of Unnoticed Intrusion',
+        'Name': 'Talisman Of Unnoticed Intrusion',
         'Item_Level': 5,
         'Durability': 2,
         'Size': 1,
@@ -1700,7 +1700,7 @@ export const imbuedItemsData = [
         "Book": "Myst 215"
     },
     {
-        'Nome': 'Universal Outfit •••••, •••••• Or •••••••',
+        'Name': 'Universal Outfit •••••, •••••• Or •••••••',
         'Item_Level': 5,
         'Durability': "1-2",
         'Size': "1-2",
@@ -1718,7 +1718,7 @@ export const imbuedItemsData = [
         "Book": "SL 206"
     },
     {
-        'Nome': 'Vault Gauntlets',
+        'Name': 'Vault Gauntlets',
         'Item_Level': 5,
         'Durability': 5,
         'Size': 1,
@@ -1735,7 +1735,7 @@ export const imbuedItemsData = [
         "Book": "Myst 213"
     },
     {
-        'Nome': 'Alien Cuffs',
+        'Name': 'Alien Cuffs',
         'Item_Level': 6,
         'Durability': 2,
         'Size': 1,
@@ -1752,7 +1752,7 @@ export const imbuedItemsData = [
         "Book": "Ban 69"
     },
     {
-        'Nome': 'Band Of Safety',
+        'Name': 'Band Of Safety',
         'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
@@ -1768,7 +1768,7 @@ export const imbuedItemsData = [
         "Book": "Myst 215"
     },
     {
-        'Nome': 'Bonebreaker',
+        'Name': 'Bonebreaker',
         'Item_Level': 6,
         'Durability': 2,
         'Size': 4,
@@ -1784,7 +1784,7 @@ export const imbuedItemsData = [
         "Book": "GotV 204"
     },
     {
-        'Nome': 'Collector’s Pocket',
+        'Name': 'Collector’s Pocket',
         'Item_Level': 6,
         'Durability': 2,
         'Size': 1,
@@ -1801,7 +1801,7 @@ export const imbuedItemsData = [
         "Book": "Myst 216"
     },
     {
-        'Nome': 'Jaw Locker',
+        'Name': 'Jaw Locker',
         'Item_Level': 6,
         'Durability': "1, 2 or 3",
         'Size': 1,
@@ -1821,7 +1821,7 @@ export const imbuedItemsData = [
         "Book": "GotV 206"
     },
     {
-        'Nome': 'Junk Drawer Pockets',
+        'Name': 'Junk Drawer Pockets',
         'Item_Level': 6,
         'Durability': 1,
         'Size': 0,
@@ -1837,7 +1837,7 @@ export const imbuedItemsData = [
         "Book": "GotV 207"
     },
     {
-        'Nome': 'Puppet Gum',
+        'Name': 'Puppet Gum',
         'Item_Level': 6,
         'Durability': 1,
         'Size': 0,
@@ -1855,7 +1855,7 @@ export const imbuedItemsData = [
         "Book": "GotV 208"
     },
     {
-        'Nome': 'Raiment Of Return',
+        'Name': 'Raiment Of Return',
         'Item_Level': 6,
         'Durability': 3,
         'Size': 4,
@@ -1871,7 +1871,7 @@ export const imbuedItemsData = [
         "Book": "AA 204"
     },
     {
-        'Nome': 'Ring Of New Faces',
+        'Name': 'Ring Of New Faces',
         'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
@@ -1889,7 +1889,7 @@ export const imbuedItemsData = [
         "Book": "GotV 208"
     },
     {
-        'Nome': 'Rune Of Witnessing',
+        'Name': 'Rune Of Witnessing',
         'Item_Level': 6,
         'Durability': 1,
         'Size': 1,
@@ -1906,7 +1906,7 @@ export const imbuedItemsData = [
         "Book": "Ban 73"
     },
     {
-        'Nome': 'Talisman Of Universal Safety',
+        'Name': 'Talisman Of Universal Safety',
         'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
@@ -1922,7 +1922,7 @@ export const imbuedItemsData = [
         "Book": "SL 206"
     },
     {
-        'Nome': 'Tk Gloves',
+        'Name': 'Tk Gloves',
         'Item_Level': 6,
         'Durability': 1,
         'Size': 1,
@@ -1938,7 +1938,7 @@ export const imbuedItemsData = [
         "Book": "AA 205"
     },
     {
-        'Nome': 'Universal Id',
+        'Name': 'Universal Id',
         'Item_Level': 6,
         'Durability': 1,
         'Size': 1,
@@ -1954,7 +1954,7 @@ export const imbuedItemsData = [
         "Book": "SL 206"
     },
     {
-        'Nome': 'Wand Of Duplication',
+        'Name': 'Wand Of Duplication',
         'Item_Level': 6,
         'Durability': 3,
         'Size': 1,
@@ -1971,7 +1971,7 @@ export const imbuedItemsData = [
         "Book": "Myst 216"
     },
     {
-        'Nome': 'Band Of Timelessness',
+        'Name': 'Band Of Timelessness',
         'Item_Level': 7,
         'Durability': 2,
         'Size': 2,
@@ -1989,7 +1989,7 @@ export const imbuedItemsData = [
         "Book": "Myst 216"
     },
     {
-        'Nome': 'Remote Searcher',
+        'Name': 'Remote Searcher',
         'Item_Level': 7,
         'Durability': 2,
         'Size': 1,
@@ -2005,7 +2005,7 @@ export const imbuedItemsData = [
         "Book": "Myst 217"
     },
     {
-        'Nome': 'Safety Box',
+        'Name': 'Safety Box',
         'Item_Level': 7,
         'Durability': 5,
         'Size': "1-2",
@@ -2021,7 +2021,7 @@ export const imbuedItemsData = [
         "Book": "Myst 217"
     },
     {
-        'Nome': 'Truck, The',
+        'Name': 'Truck, The',
         'Item_Level': 7,
         'Durability': 3,
         'Size': 15,
@@ -2084,7 +2084,7 @@ export const imbuedItemsData = [
         "Book": "Ban 74"
     },
     {
-        'Nome': 'Area Wards',
+        'Name': 'Area Wards',
         'Item_Level': 8,
         'Durability': 3,
         'Size': 1,
@@ -2100,7 +2100,7 @@ export const imbuedItemsData = [
         "Book": "Myst 217"
     },
     {
-        'Nome': 'Crystal Heart',
+        'Name': 'Crystal Heart',
         'Item_Level': 8,
         'Durability': 7,
         'Size': 1,
@@ -2115,7 +2115,7 @@ export const imbuedItemsData = [
         "Book": "SotRT 78"
     },
     {
-        'Nome': 'Durandal',
+        'Name': 'Durandal',
         'Item_Level': 8,
         'Durability': 'Special',
         'Size': 2,
@@ -2150,7 +2150,7 @@ export const imbuedItemsData = [
         "Book": "Ban 69"
     },
     {
-        'Nome': 'Supernal Scourge',
+        'Name': 'Supernal Scourge',
         'Item_Level': 8,
         'Durability': "Varies",
         'Size': "Varies",
@@ -2271,7 +2271,7 @@ export const imbuedItemsData = [
         "Book": "Ban 72"
     },
     {
-        'Nome': 'Puppet’s Bauble',
+        'Name': 'Puppet’s Bauble',
         'Item_Level': 9,
         'Durability': 2,
         'Size': 1,
@@ -2287,7 +2287,7 @@ export const imbuedItemsData = [
         "Book": "SL 205"
     },
     {
-        'Nome': 'Translator Chamber',
+        'Name': 'Translator Chamber',
         'Item_Level': 13,
         'Durability': 3,
         'Size': 5,

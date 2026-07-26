@@ -8,7 +8,7 @@ export default function Artifacts() {
         data: artifactData,
         fieldsToRemove: ['Descrizione'],
         urlPrefix: '/mage/artifacts/',
-        keyToUseForLinks: 'Nome'
+        keyToUseForLinks: 'Name'
     });
 
     return (

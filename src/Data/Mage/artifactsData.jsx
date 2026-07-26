@@ -1,6 +1,6 @@
 export const artifactData = [
   {
-    'Nome': 'The Mark of Qazalak',
+    'Name': 'The Mark of Qazalak',
     'Artifact_Level': 3,
     'Durability': 2,
     'Size': 1,
@@ -17,7 +17,7 @@ export const artifactData = [
     "Book": "M:tA 335"
   },
   {
-    'Nome': 'The Ring of the Dethroned Queen',
+    'Name': 'The Ring of the Dethroned Queen',
     'Artifact_Level': 3,
     'Durability': 6,
     'Size': 1,
@@ -107,7 +107,7 @@ export const artifactData = [
     "Book": "RotE 23"
   },
   {
-    'Nome': 'The Spotted Stone',
+    'Name': 'The Spotted Stone',
     'Artifact_Level': 3,
     'Durability': 4,
     'Size': 1,
@@ -122,7 +122,7 @@ export const artifactData = [
     "Book": "M:tA 336"
   },
   {
-    'Nome': 'Astral Crystal',
+    'Name': 'Astral Crystal',
     'Artifact_Level': 4,
     'Durability': 3,
     'Size': 1,
@@ -139,7 +139,7 @@ export const artifactData = [
     "Book": "AR 119"
   },
   {
-    'Nome': 'Coin of the Jester King',
+    'Name': 'Coin of the Jester King',
     'Artifact_Level': 4,
     'Durability': 6,
     'Size': 1,
@@ -156,7 +156,7 @@ export const artifactData = [
     "Book": "M:tA 335"
   },
   {
-    'Nome': 'Count Amaury’s Spectacles',
+    'Name': 'Count Amaury’s Spectacles',
     'Artifact_Level': 4,
     'Durability': 4,
     'Size': 1,
@@ -171,7 +171,7 @@ export const artifactData = [
     "Book": "M:tA 335"
   },
   {
-    'Nome': 'Crystal Dream Bracelet',
+    'Name': 'Crystal Dream Bracelet',
     'Artifact_Level': 4,
     'Durability': 3,
     'Size': 1,
@@ -188,7 +188,7 @@ export const artifactData = [
     "Book": "AR 120"
   },
   {
-    'Nome': 'Dionysian Key',
+    'Name': 'Dionysian Key',
     'Artifact_Level': 4,
     'Durability': 3,
     'Size': 2,
@@ -207,7 +207,7 @@ export const artifactData = [
     "Book": "SotRT 105"
   },
   {
-    'Nome': 'Ferryman’s Flask',
+    'Name': 'Ferryman’s Flask',
     'Artifact_Level': 4,
     'Durability': 4,
     'Size': 1,
@@ -224,7 +224,7 @@ export const artifactData = [
     "Book": "AA 194"
   },
   {
-    'Nome': 'The Hound’s Manacle',
+    'Name': 'The Hound’s Manacle',
     'Artifact_Level': 4,
     'Durability': 5,
     'Size': 1,
@@ -243,7 +243,7 @@ export const artifactData = [
     "Book": "AA 195"
   },
   {
-    'Nome': 'The Judge’s Eye',
+    'Name': 'The Judge’s Eye',
     'Artifact_Level': 4,
     'Durability': 3,
     'Size': 1,
@@ -259,7 +259,7 @@ export const artifactData = [
     "Book": "BoS 123"
   },
   {
-    'Nome': 'The Seal of Nar-Khedai',
+    'Name': 'The Seal of Nar-Khedai',
     'Artifact_Level': 4,
     'Durability': 5,
     'Size': "negligible",
@@ -274,7 +274,7 @@ export const artifactData = [
     "Book": "BU 51"
   },
   {
-    'Nome': 'Amulet of Sekhmet',
+    'Name': 'Amulet of Sekhmet',
     'Artifact_Level': 5,
     'Durability': 4,
     'Size': 0,
@@ -290,7 +290,7 @@ export const artifactData = [
     "Book": "Myst 205"
   },
   {
-    'Nome': 'The Book of Safe Journeys',
+    'Name': 'The Book of Safe Journeys',
     'Artifact_Level': 5,
     'Durability': 2,
     'Size': 1,
@@ -306,7 +306,7 @@ export const artifactData = [
     "Book": "MT 126"
   },
   {
-    'Nome': 'Crystalline Skull',
+    'Name': 'Crystalline Skull',
     'Artifact_Level': 5,
     'Durability': 4,
     'Size': 2,
@@ -324,7 +324,7 @@ export const artifactData = [
     "Book": "SotRT 105"
   },
   {
-    'Nome': 'The Cyclopean Stone',
+    'Name': 'The Cyclopean Stone',
     'Artifact_Level': 5,
     'Durability': 3,
     'Size': 1,
@@ -341,7 +341,7 @@ export const artifactData = [
     "Book": "AR 121"
   },
   {
-    'Nome': 'The Die of Destiny',
+    'Name': 'The Die of Destiny',
     'Artifact_Level': 5,
     'Durability': 8,
     'Size': 1,
@@ -379,7 +379,7 @@ export const artifactData = [
     "Book": "NH-TU 121"
   },
   {
-    'Nome': 'Dreamstone',
+    'Name': 'Dreamstone',
     'Artifact_Level': 5,
     'Durability': 6,
     'Size': 1,
@@ -396,7 +396,7 @@ export const artifactData = [
     "Book": "FC 114"
   },
   {
-    'Nome': 'Konstantinov’s Knife',
+    'Name': 'Konstantinov’s Knife',
     'Artifact_Level': 5,
     'Durability': null,
     'Size': null,
@@ -411,7 +411,7 @@ export const artifactData = [
     "Book": "NH-TU 71"
   },
   {
-    'Nome': 'Peacebringer',
+    'Name': 'Peacebringer',
     'Artifact_Level': 5,
     'Durability': 5,
     'Size': 1,
@@ -427,7 +427,7 @@ export const artifactData = [
     "Book": "BoS 123"
   },
   {
-    'Nome': 'Permit',
+    'Name': 'Permit',
     'Artifact_Level': 5,
     'Durability': 2,
     'Size': 0,
@@ -443,7 +443,7 @@ export const artifactData = [
     "Book": "Ban 71"
   },
   {
-    'Nome': 'Profane Ephod',
+    'Name': 'Profane Ephod',
     'Artifact_Level': 5,
     'Durability': 3,
     'Size': 4,
@@ -463,7 +463,7 @@ export const artifactData = [
     "Book": "SotT 197"
   },
   {
-    'Nome': 'Queen Sorra’s Jewelry',
+    'Name': 'Queen Sorra’s Jewelry',
     'Artifact_Level': 5,
     'Durability': 3,
     'Size': 1,
@@ -481,7 +481,7 @@ export const artifactData = [
     "Book": "AA 195"
   },
   {
-    'Nome': 'The Red Ring',
+    'Name': 'The Red Ring',
     'Artifact_Level': 5,
     'Durability': null,
     'Size': null,
@@ -495,7 +495,7 @@ export const artifactData = [
     "Book": "SotUK 182"
   },
   {
-    'Nome': 'The Rings of Astral Unity',
+    'Name': 'The Rings of Astral Unity',
     'Artifact_Level': 5,
     'Durability': 4,
     'Size': 2,
@@ -511,7 +511,7 @@ export const artifactData = [
     "Book": "AR 125"
   },
   {
-    'Nome': 'Subtle Mirror',
+    'Name': 'Subtle Mirror',
     'Artifact_Level': 5,
     'Durability': 4,
     'Size': 8,
@@ -527,7 +527,7 @@ export const artifactData = [
     "Book": "GotV 203"
   },
   {
-    'Nome': 'The Adamant Banner',
+    'Name': 'The Adamant Banner',
     'Artifact_Level': 6,
     'Durability': 7,
     'Size': 5,
@@ -544,7 +544,7 @@ export const artifactData = [
     "Book": "AA 191"
   },
   {
-    'Nome': 'The Aegis',
+    'Name': 'The Aegis',
     'Artifact_Level': 6,
     'Durability': 5,
     'Size': 3,
@@ -560,7 +560,7 @@ export const artifactData = [
     "Book": "AA 192"
   },
   {
-    'Nome': 'Astral Bubble',
+    'Name': 'Astral Bubble',
     'Artifact_Level': 6,
     'Durability': null,
     'Size': null,
@@ -579,7 +579,7 @@ export const artifactData = [
     "Book": "AR 118"
   },
   {
-    'Nome': 'Coin of the Ferryman',
+    'Name': 'Coin of the Ferryman',
     'Artifact_Level': 6,
     'Durability': null,
     'Size': null,
@@ -595,7 +595,7 @@ export const artifactData = [
     "Book": "NH-TU 71"
   },
   {
-    'Nome': 'Dirala’s Talon',
+    'Name': 'Dirala’s Talon',
     'Artifact_Level': 6,
     'Durability': 5,
     'Size': 1,
@@ -611,7 +611,7 @@ export const artifactData = [
     "Book": "L:tS 147"
   },
   {
-    'Nome': 'The Dragon Chained',
+    'Name': 'The Dragon Chained',
     'Artifact_Level': 6,
     'Durability': 6,
     'Size': 1,
@@ -628,7 +628,7 @@ export const artifactData = [
     "Book": "Ban 69"
   },
   {
-    'Nome': 'Ley Markers',
+    'Name': 'Ley Markers',
     'Artifact_Level': 6,
     'Durability': 5,
     'Size': 2,
@@ -648,7 +648,7 @@ export const artifactData = [
     "Book": "S&S 98"
   },
   {
-    'Nome': 'Pearl of Obscurity',
+    'Name': 'Pearl of Obscurity',
     'Artifact_Level': 6,
     'Durability': 3,
     'Size': 1,
@@ -665,7 +665,7 @@ export const artifactData = [
     "Book": "GotV 202"
   },
   {
-    'Nome': 'Perpetual Motion Machine',
+    'Name': 'Perpetual Motion Machine',
     'Artifact_Level': 6,
     'Durability': 4,
     'Size': 1,
@@ -682,7 +682,7 @@ export const artifactData = [
     "Book": "AA 195"
   },
   {
-    'Nome': 'Seat of Kings',
+    'Name': 'Seat of Kings',
     'Artifact_Level': 6,
     'Durability': 4,
     'Size': 5,
@@ -699,7 +699,7 @@ export const artifactData = [
     "Book": "SL 204"
   },
   {
-    'Nome': 'Shard of the Sun',
+    'Name': 'Shard of the Sun',
     'Artifact_Level': 6,
     'Durability': 6,
     'Size': 2,
@@ -716,7 +716,7 @@ export const artifactData = [
     "Book": "BoS 123"
   },
   {
-    'Nome': 'Tanshien’s Thorn',
+    'Name': 'Tanshien’s Thorn',
     'Artifact_Level': 6,
     'Durability': 6,
     'Size': 2,
@@ -732,7 +732,7 @@ export const artifactData = [
     "Book": "BU 39"
   },
   {
-    'Nome': 'Bane of the Hoard',
+    'Name': 'Bane of the Hoard',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 1,
@@ -750,7 +750,7 @@ export const artifactData = [
     "Book": "GotV 200"
   },
   {
-    'Nome': 'BijDava',
+    'Name': 'BijDava',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 4,
@@ -767,7 +767,7 @@ export const artifactData = [
     "Book": "SotRT 104"
   },
   {
-    'Nome': 'Black Beauty',
+    'Name': 'Black Beauty',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 7,
@@ -785,7 +785,7 @@ export const artifactData = [
     "Book": "AA 192"
   },
   {
-    'Nome': 'Bottled Aether',
+    'Name': 'Bottled Aether',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 1,
@@ -802,7 +802,7 @@ export const artifactData = [
     "Book": "AA 193"
   },
   {
-    'Nome': 'The Codex of Lost Pages',
+    'Name': 'The Codex of Lost Pages',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 1,
@@ -821,7 +821,7 @@ export const artifactData = [
     "Book": "AR 120"
   },
   {
-    'Nome': 'Coin of Lead and Gold',
+    'Name': 'Coin of Lead and Gold',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 0,
@@ -838,7 +838,7 @@ export const artifactData = [
     "Book": "SotT 196"
   },
   {
-    'Nome': 'Crown of Kings',
+    'Name': 'Crown of Kings',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 2,
@@ -854,7 +854,7 @@ export const artifactData = [
     "Book": "GotV 201"
   },
   {
-    'Nome': 'The Dragon’s Eye',
+    'Name': 'The Dragon’s Eye',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 0,
@@ -871,7 +871,7 @@ export const artifactData = [
     "Book": "AA 193"
   },
   {
-    'Nome': 'Gabriel’s Horn',
+    'Name': 'Gabriel’s Horn',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 1,
@@ -888,7 +888,7 @@ export const artifactData = [
     "Book": "AA 194"
   },
   {
-    'Nome': 'Gravity Well',
+    'Name': 'Gravity Well',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 1,
@@ -905,7 +905,7 @@ export const artifactData = [
     "Book": "AA 194"
   },
   {
-    'Nome': 'Karnacki’s Coffin',
+    'Name': 'Karnacki’s Coffin',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 6,
@@ -923,7 +923,7 @@ export const artifactData = [
     "Book": "GotV 201"
   },
   {
-    'Nome': 'The Librarian’s Rod',
+    'Name': 'The Librarian’s Rod',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 2,
@@ -939,7 +939,7 @@ export const artifactData = [
     "Book": "SotRT 81"
   },
   {
-    'Nome': 'The Lord of Storms',
+    'Name': 'The Lord of Storms',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 4,
@@ -955,7 +955,7 @@ export const artifactData = [
     "Book": "GotV 202"
   },
   {
-    'Nome': 'Mask of Aztlán',
+    'Name': 'Mask of Aztlán',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 1,
@@ -971,7 +971,7 @@ export const artifactData = [
     "Book": "SotRT 106"
   },
   {
-    'Nome': 'Orb of Amnesia',
+    'Name': 'Orb of Amnesia',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 1,
@@ -987,7 +987,7 @@ export const artifactData = [
     "Book": "Myst 206"
   },
   {
-    'Nome': 'Profane Urim',
+    'Name': 'Profane Urim',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 4,
@@ -1007,7 +1007,7 @@ export const artifactData = [
     "Book": "SotT 197"
   },
   {
-    'Nome': 'Quicksilver Spear',
+    'Name': 'Quicksilver Spear',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 4,
@@ -1025,7 +1025,7 @@ export const artifactData = [
     "Book": "AA 196"
   },
   {
-    'Nome': 'Rays of Dawn',
+    'Name': 'Rays of Dawn',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 4,
@@ -1041,7 +1041,7 @@ export const artifactData = [
     "Book": "AA 196"
   },
   {
-    'Nome': 'The Robe of the Dethroned Queen',
+    'Name': 'The Robe of the Dethroned Queen',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 5,
@@ -1062,7 +1062,7 @@ export const artifactData = [
     "Book": "RotE 60"
   },
   {
-    'Nome': 'The Scepter of the Dethroned Queen',
+    'Name': 'The Scepter of the Dethroned Queen',
     'Artifact_Level': 7,
     'Durability': 4,
     'Size': 2,
@@ -1094,7 +1094,7 @@ export const artifactData = [
     "Book": "RotE 89"
   },
   {
-    'Nome': 'Shard of the Mountain',
+    'Name': 'Shard of the Mountain',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 4,
@@ -1111,7 +1111,7 @@ export const artifactData = [
     "Book": "AA 197"
   },
   {
-    'Nome': 'Soma',
+    'Name': 'Soma',
     'Artifact_Level': 7,
     'Durability': null,
     'Size': null,
@@ -1129,7 +1129,7 @@ export const artifactData = [
     "Book": "MT 140"
   },
   {
-    'Nome': 'Soul Hammer',
+    'Name': 'Soul Hammer',
     'Artifact_Level': 7,
     'Durability': 5,
     'Size': 2,
@@ -1145,7 +1145,7 @@ export const artifactData = [
     "Book": "Ban 71"
   },
   {
-    'Nome': 'Taroa’s Book',
+    'Name': 'Taroa’s Book',
     'Artifact_Level': 7,
     'Durability': 3,
     'Size': 2,
@@ -1161,7 +1161,7 @@ export const artifactData = [
     "Book": "BoS 124"
   },
   {
-    'Nome': 'Temenotic Obelisk',
+    'Name': 'Temenotic Obelisk',
     'Artifact_Level': 7,
     'Durability': 7,
     'Size': 10,
@@ -1179,7 +1179,7 @@ export const artifactData = [
     "Book": "SotT 196"
   },
   {
-    'Nome': 'Celestial Urn',
+    'Name': 'Celestial Urn',
     'Artifact_Level': 8,
     'Durability': 5,
     'Size': 3,
@@ -1195,7 +1195,7 @@ export const artifactData = [
     "Book": "SL 202"
   },
   {
-    'Nome': 'Coin of Hiding',
+    'Name': 'Coin of Hiding',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
@@ -1212,7 +1212,7 @@ export const artifactData = [
     "Book": "Myst 206"
   },
   {
-    'Nome': 'Creeping Mirror Doll',
+    'Name': 'Creeping Mirror Doll',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
@@ -1231,7 +1231,7 @@ export const artifactData = [
     "Book": "GotV 203"
   },
   {
-    'Nome': 'The Crown',
+    'Name': 'The Crown',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 2,
@@ -1250,7 +1250,7 @@ export const artifactData = [
     "Book": "RotE 110"
   },
   {
-    'Nome': 'The Cup of Life',
+    'Name': 'The Cup of Life',
     'Artifact_Level': 8,
     'Durability': 3,
     'Size': 1,
@@ -1267,7 +1267,7 @@ export const artifactData = [
     "Book": "AR 120"
   },
   {
-    'Nome': 'The Doorway Beyond',
+    'Name': 'The Doorway Beyond',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 5,
@@ -1285,7 +1285,7 @@ export const artifactData = [
     "Book": "AR 115"
   },
   {
-    'Nome': 'Grim Sanctum',
+    'Name': 'Grim Sanctum',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 2,
@@ -1302,7 +1302,7 @@ export const artifactData = [
     "Book": "SL 202"
   },
   {
-    'Nome': 'Imadrillan, Ancestral Axe of the Léon Family',
+    'Name': 'Imadrillan, Ancestral Axe of the Léon Family',
     'Artifact_Level': 8,
     'Durability': 7,
     'Size': 3,
@@ -1319,7 +1319,7 @@ export const artifactData = [
     "Book": "BU 74"
   },
   {
-    'Nome': 'Kingly Regalia',
+    'Name': 'Kingly Regalia',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
@@ -1335,7 +1335,7 @@ export const artifactData = [
     "Book": "Ban 70"
   },
   {
-    'Nome': 'Liar’s Mask',
+    'Name': 'Liar’s Mask',
     'Artifact_Level': 8,
     'Durability': 5,
     'Size': 1,
@@ -1351,7 +1351,7 @@ export const artifactData = [
     "Book": "SL 203"
   },
   {
-    'Nome': 'Mestorian Bracers',
+    'Name': 'Mestorian Bracers',
     'Artifact_Level': 8,
     'Durability': 5,
     'Size': 1,
@@ -1368,7 +1368,7 @@ export const artifactData = [
     "Book": "SotRT 106"
   },
   {
-    'Nome': 'Mirror of Revelation',
+    'Name': 'Mirror of Revelation',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 2,
@@ -1386,7 +1386,7 @@ export const artifactData = [
     "Book": "Myst 207"
   },
   {
-    'Nome': 'The Null Bomb',
+    'Name': 'The Null Bomb',
     'Artifact_Level': 8,
     'Durability': 5,
     'Size': 4,
@@ -1405,7 +1405,7 @@ export const artifactData = [
     "Book": "FC 114"
   },
   {
-    'Nome': 'The Opal of Styx',
+    'Name': 'The Opal of Styx',
     'Artifact_Level': 8,
     'Durability': 6,
     'Size': 1,
@@ -1423,7 +1423,7 @@ export const artifactData = [
     "Book": "M:tA 336"
   },
   {
-    'Nome': 'Pillars of Enduring Creations',
+    'Name': 'Pillars of Enduring Creations',
     'Artifact_Level': 8,
     'Durability': 3,
     'Size': 2,
@@ -1440,7 +1440,7 @@ export const artifactData = [
     "Book": "Myst 207"
   },
   {
-    'Nome': 'Profane Thummim',
+    'Name': 'Profane Thummim',
     'Artifact_Level': 8,
     'Durability': 3,
     'Size': 4,
@@ -1460,7 +1460,7 @@ export const artifactData = [
     "Book": "SotT 197"
   },
   {
-    'Nome': "The Rabbi's Cane",
+    'Name': "The Rabbi's Cane",
     'Artifact_Level': 8,
     'Durability': null,
     'Size': null,
@@ -1476,7 +1476,7 @@ export const artifactData = [
     "Book": "MT 44"
   },
   {
-    'Nome': 'Shadow and Silence',
+    'Name': 'Shadow and Silence',
     'Artifact_Level': 8,
     'Durability': 5,
     'Size': 0,
@@ -1493,7 +1493,7 @@ export const artifactData = [
     "Book": "SL 204"
   },
   {
-    'Nome': 'Soulgate Tome',
+    'Name': 'Soulgate Tome',
     'Artifact_Level': 8,
     'Durability': 4,
     'Size': 1,
@@ -1511,7 +1511,7 @@ export const artifactData = [
     "Book": "Myst 208"
   },
   {
-    'Nome': 'Altar of Hallows',
+    'Name': 'Altar of Hallows',
     'Artifact_Level': 9,
     'Durability': 5,
     'Size': 8,
@@ -1530,7 +1530,7 @@ export const artifactData = [
     "Book": "SotRT 104"
   },
   {
-    'Nome': 'Clockwork Heart',
+    'Name': 'Clockwork Heart',
     'Artifact_Level': 9,
     'Durability': 5,
     'Size': 1,
@@ -1548,7 +1548,7 @@ export const artifactData = [
     "Book": "AA 193"
   },
   {
-    'Nome': 'The Flying Saucer',
+    'Name': 'The Flying Saucer',
     'Artifact_Level': 9,
     'Durability': 5,
     'Size': 22,
@@ -1568,7 +1568,7 @@ export const artifactData = [
     "Book": "AR 121"
   },
   {
-    'Nome': 'Opener of Ways',
+    'Name': 'Opener of Ways',
     'Artifact_Level': 9,
     'Durability': 6,
     'Size': 2,
@@ -1584,7 +1584,7 @@ export const artifactData = [
     "Book": "SL 203"
   },
   {
-    'Nome': 'Shadow and Light',
+    'Name': 'Shadow and Light',
     'Artifact_Level': 9,
     'Durability': 5,
     'Size': 4,
@@ -1601,7 +1601,7 @@ export const artifactData = [
     "Book": "AA 196"
   },
   {
-    'Nome': 'The Unmaker',
+    'Name': 'The Unmaker',
     'Artifact_Level': 9,
     'Durability': 5,
     'Size': 2,
@@ -1618,7 +1618,7 @@ export const artifactData = [
     "Book": "GotV 203"
   },
   {
-    'Nome': 'Vimana Engine',
+    'Name': 'Vimana Engine',
     'Artifact_Level': 9,
     'Durability': 5,
     'Size': 3,
@@ -1642,7 +1642,7 @@ export const artifactData = [
     "Book": "SotRT 106"
   },
   {
-    'Nome': 'Grimoire of the Exarchs',
+    'Name': 'Grimoire of the Exarchs',
     'Artifact_Level': 10,
     'Durability': 3,
     'Size': 2,
@@ -1661,7 +1661,7 @@ export const artifactData = [
     "Book": "Ban 70"
   },
   {
-    'Nome': 'The Mask of Eyes',
+    'Name': 'The Mask of Eyes',
     'Artifact_Level': 10,
     'Durability': 5,
     'Size': 1,
@@ -1680,7 +1680,7 @@ export const artifactData = [
     "Book": "SotT 198"
   },
   {
-    'Nome': 'Ring of the Unvoiced Herald',
+    'Name': 'Ring of the Unvoiced Herald',
     'Artifact_Level': 10,
     'Durability': 4,
     'Size': 1,
@@ -1696,7 +1696,7 @@ export const artifactData = [
     "Book": "SL 204"
   },
   {
-    'Nome': 'St. Peter’s Key',
+    'Name': 'St. Peter’s Key',
     'Artifact_Level': 10,
     'Durability': 4,
     'Size': 1,
@@ -1715,7 +1715,7 @@ export const artifactData = [
     "Book": "Ban 71"
   },
   {
-    'Nome': 'The Teraphim',
+    'Name': 'The Teraphim',
     'Artifact_Level': 11,
     'Durability': 7,
     'Size': 2,
@@ -1733,7 +1733,7 @@ export const artifactData = [
     "Book": "SotT 198"
   },
   {
-    'Nome': 'Eye of Ahriman',
+    'Name': 'Eye of Ahriman',
     'Artifact_Level': 12,
     'Durability': 10,
     'Size': 0,
@@ -1755,7 +1755,7 @@ export const artifactData = [
     "Book": "Myst 208"
   },
   {
-    'Nome': 'Metachronal Clock',
+    'Name': 'Metachronal Clock',
     'Artifact_Level': 12,
     'Durability': 12,
     'Size': "1/unkown",
@@ -1774,7 +1774,7 @@ export const artifactData = [
     "Book": "Myst 209"
   },
   {
-    'Nome': 'The Star of Athichi',
+    'Name': 'The Star of Athichi',
     'Artifact_Level': 14,
     'Durability': 9,
     'Size': 1,

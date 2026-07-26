@@ -2,7 +2,7 @@ const WoDBookData = [
     {
         'Code Name': 'Ant',
         'Type': 'Antagonist',
-        'Title': 'Antagonists',
+        'Name': 'Antagonists',
         "Description": "Details foes that anyone, mortal or supernatural, may encounter in their adventures.",
         'Release Date': '10/04',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/usxk/#p=',
@@ -11,7 +11,7 @@ const WoDBookData = [
     {
         'Code Name': 'Arm',
         'Type': 'Equipment',
-        'Title': 'Armory',
+        'Name': 'Armory',
         "Description": "Contains various forms of weaponry for all the races of the world.",
         'Release Date': '01/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/ddjp/#p=',
@@ -20,7 +20,7 @@ const WoDBookData = [
     {
         'Code Name': 'Reload',
         'Type': 'Equipment',
-        'Title': 'Armory Reloaded',
+        'Name': 'Armory Reloaded',
         "Description": "Provides new items and weapons, as well as mechanics, for combat in a chronicle.",
         'Release Date': '04/09',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/fzkg/#p=',
@@ -29,7 +29,7 @@ const WoDBookData = [
     {
         'Code Name': 'Asy',
         'Type': 'Location',
-        'Title': 'Asylum',
+        'Name': 'Asylum',
         "Description": "Focuses on the insanity of the World of Darkness, and providing rules and information to bring this into a story.",
         'Release Date': '08/07',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/ftry/#p=',
@@ -38,7 +38,7 @@ const WoDBookData = [
     {
         'Code Name': 'BoS',
         'Type': 'Spirit',
-        'Title': 'Book of Spirits',
+        'Name': 'Book of Spirits',
         "Description": "Details the Shadow, its spirit denizens and the various ways in which both interact with the material world.",
         'Release Date': '05/07',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/hfmm/#p=',
@@ -47,7 +47,7 @@ const WoDBookData = [
     {
         'Code Name': 'CB',
         'Type': 'Creatures',
-        'Title': 'Changing Breeds',
+        'Name': 'Changing Breeds',
         "Description": "Rules and information for playing as were-creatures other than werewolves.",
         'Release Date': '12/07',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/bbjd/#p=',
@@ -56,7 +56,7 @@ const WoDBookData = [
     {
         'Code Name': 'Chi',
         'Type': 'Location',
-        'Title': 'Chicago',
+        'Name': 'Chicago',
         "Description": "A guide to Chicago’s supernatural landscape, detailing its history, key locations, and the complex relationships among vampires, werewolves, and mages.",
         'Release Date': '12/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/damg/#p=',
@@ -65,7 +65,7 @@ const WoDBookData = [
     {
         'Code Name': 'DoW',
         'Type': 'Military',
-        'Title': 'Dogs of War',
+        'Name': 'Dogs of War',
         "Description": "Features how the men and women of the military react to the supernatural forces of the night.",
         'Release Date': '06/08',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/hwie/#p=',
@@ -74,7 +74,7 @@ const WoDBookData = [
     {
         'Code Name': 'GS',
         'Type': 'Storytelling',
-        'Title': 'Ghost Stories',
+        'Name': 'Ghost Stories',
         "Description": "",
         'Release Date': '11/04',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/qamp/#p=',
@@ -83,7 +83,7 @@ const WoDBookData = [
     {
         'Code Name': 'Imm',
         'Type': 'Character',
-        'Title': 'Immortals',
+        'Name': 'Immortals',
         "Description": "Focuses on the type of immortals that inhabit the World of Darkness.",
         'Release Date': '05/09',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/uvgj/#p=',
@@ -92,7 +92,7 @@ const WoDBookData = [
     {
         'Code Name': 'Inf',
         'Type': 'Antagonist',
-        'Title': 'Inferno',
+        'Name': 'Inferno',
         "Description": "The content deals with demons, the possessed, and Faustian pacts with the devil.",
         'Release Date': '01/09',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/vowe/#p=',
@@ -101,7 +101,7 @@ const WoDBookData = [
     {
         'Code Name': 'Inn',
         'Type': 'Character',
-        'Title': 'Innocents',
+        'Name': 'Innocents',
         "Description": "Contains both rules for playing as child characters, and running chronicles for children.",
         'Release Date': '04/08',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/mnlx/#p=',
@@ -110,7 +110,7 @@ const WoDBookData = [
     {
         'Code Name': 'MR',
         'Type': 'Travel',
-        'Title': 'Midnight Roads',
+        'Name': 'Midnight Roads',
         "Description": "",
         'Release Date': '02/08',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/ybxh/#p=',
@@ -119,7 +119,7 @@ const WoDBookData = [
     {
         'Code Name': 'Mir',
         'Type': 'Alternate Setting',
-        'Title': 'Mirrors',
+        'Name': 'Mirrors',
         "Description": "A toolbox for Storytellers, allowing changes to mechanics, rules, and setting.",
         'Release Date': '07/10',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/vemq/#p=',
@@ -128,7 +128,7 @@ const WoDBookData = [
     {
         'Code Name': 'MP',
         'Type': 'Location',
-        'Title': 'Mysterious Places',
+        'Name': 'Mysterious Places',
         "Description": "Contains several archetypes for curious and grotesque locales.",
         'Release Date': '06/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/sodx/#p=',
@@ -137,7 +137,7 @@ const WoDBookData = [
     {
         'Code Name': 'Rel',
         'Type': 'Relic',
-        'Title': 'Reliquary',
+        'Name': 'Reliquary',
         "Description": "Highlights the usage of mystical and magical items.",
         'Release Date': '08/07',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/fcef/#p=',
@@ -146,7 +146,7 @@ const WoDBookData = [
     {
         'Code Name': 'SS',
         'Type': 'Magic',
-        'Title': 'Second Sight',
+        'Name': 'Second Sight',
         "Description": "Options to users of minor magics and psychics.",
         'Release Date': '04/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/eufa/#p=',
@@ -155,7 +155,7 @@ const WoDBookData = [
     {
         'Code Name': 'SoM',
         'Type': 'Location',
-        'Title': 'Shadows of Mexico',
+        'Name': 'Shadows of Mexico',
         "Description": "Showcases Mexico and the numerous amounts of supernatural creatures it contains, especially vampires.",
         'Release Date': '10/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/uczl/#p=',
@@ -164,7 +164,7 @@ const WoDBookData = [
     {
         'Code Name': 'SotUK',
         'Type': 'Location',
-        'Title': 'Shadows of the UK',
+        'Name': 'Shadows of the UK',
         "Description": "Focuses on the United Kingdom and all the supernatural forces inhabiting it.",
         'Release Date': '06/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/gwyg/#p=',
@@ -173,7 +173,7 @@ const WoDBookData = [
     {
         'Code Name': 'Skin',
         'Type': 'Creatures',
-        'Title': 'Skinchangers',
+        'Name': 'Skinchangers',
         "Description": "Presents Skinthieves, people who achieve animal transformation through unusual means.",
         'Release Date': '07/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/cptm/#p=',
@@ -182,7 +182,7 @@ const WoDBookData = [
     {
         'Code Name': '13th',
         'Type': 'Police',
-        'Title': 'Tales from the 13th Precinct',
+        'Name': 'Tales from the 13th Precinct',
         "Description": "Highlights the roles of American police officers and how they react to supernatural creatures.",
         'Release Date': '07/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/cfgo/#p=',
@@ -191,7 +191,7 @@ const WoDBookData = [
     {
         'Code Name': 'UL',
         'Type': 'Storytelling',
-        'Title': 'Urban Legends',
+        'Name': 'Urban Legends',
         "Description": "It serves as a way to bring urban legends into the World of Darkness, where they are possibly true - and possibly even more horrific.",
         'Release Date': '04/07',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/ackl/#p=',
@@ -200,7 +200,7 @@ const WoDBookData = [
     {
         'Code Name': 'WoD',
         'Type': 'Core',
-        'Title': 'The World of Darkness',
+        'Name': 'The World of Darkness',
         "Description": "The core rulebook for the World of Darkness game line",
         'Release Date': '08/04',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/xnai/#p=',
@@ -209,7 +209,7 @@ const WoDBookData = [
     {
         'Code Name': 'DE',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras',
+        'Name': 'Dark Eras',
         "Description": "",
         'Release Date': '05/16',
         'LinkTo': '',
@@ -218,7 +218,7 @@ const WoDBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: Three Kingdoms of Darkness (CTL/GTS crossover)',
+        'Name': 'Dark Eras: Three Kingdoms of Darkness (CTL/GTS crossover)',
         "Description": "A setting for Changeling: The Lost and Geist: The Sin-Eaters, taking place in China during the turbulent Three Kingdoms period following the collapse of the Han dynasty.",
         'Release Date': '06/17',
         'LinkTo': '',
@@ -227,7 +227,7 @@ const WoDBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: The Wolf and the Raven (WTF/GTS crossover)',
+        'Name': 'Dark Eras: The Wolf and the Raven (WTF/GTS crossover)',
         "Description": "",
         'Release Date': '01/17',
         'LinkTo': '',
@@ -236,7 +236,7 @@ const WoDBookData = [
     {
         'Code Name': '',
         'Type': 'Joke',
-        'Title': 'Dudes of Legend (April Fools!)',
+        'Name': 'Dudes of Legend (April Fools!)',
         "Description": "A joke sourcebook that contains various hacks and mechanic changes for absurd and over-the-top gameplay in a chronicle.",
         'Release Date': '04/10',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/txci/#p=',
@@ -245,7 +245,7 @@ const WoDBookData = [
     {
         'Code Name': 'GotU',
         'Type': 'Storytelling',
-        'Title': 'Glimpses of the Unknown',
+        'Name': 'Glimpses of the Unknown',
         "Description": "Story ideas for each World of Darkness line",
         'Release Date': '07/11',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/iamt/#p=',
@@ -254,7 +254,7 @@ const WoDBookData = [
     {
         'Code Name': 'MirBE',
         'Type': 'Alternate Setting',
-        'Title': 'Mirrors: Bleeding Edge (World Shard)',
+        'Name': 'Mirrors: Bleeding Edge (World Shard)',
         "Description": "Covers how to transform the Chronicles of Darkness into a cyberpunk setting.",
         'Release Date': '01/11',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/bsdc/#p=',
@@ -264,7 +264,7 @@ const WoDBookData = [
     {
         'Code Name': 'MirIM',
         'Type': 'Alternate Setting',
-        'Title': 'Mirrors: Infinite Macabre (World Shard)',
+        'Name': 'Mirrors: Infinite Macabre (World Shard)',
         "Description": "Explains how to turn the setting of the Chronicles of Darkness into a space opera.",
         'Release Date': '01/11',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/urba/#p=',
@@ -274,7 +274,7 @@ const WoDBookData = [
     {
         'Code Name': 'PM',
         'Type': 'Antagonist',
-        'Title': 'Proverbial Monsters',
+        'Name': 'Proverbial Monsters',
         "Description": "Contains various monsters and story ideas for the story.",
         'Release Date': '10/09',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/dwzq/#p=',
@@ -288,7 +288,7 @@ const VampireBookData = [
     {
         'Code Name': 'AB',
         'Type': 'Bloodlines',
-        'Title': 'Ancient Bloodlines',
+        'Name': 'Ancient Bloodlines',
         "Description": "Expand upon the bloodlines of the historical Kindred.",
         'Release Date': '05/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/hoys/#p=',
@@ -298,7 +298,7 @@ const VampireBookData = [
     {
         'Code Name': 'AM',
         'Type': 'Mystery',
-        'Title': 'Ancient Mysteries',
+        'Name': 'Ancient Mysteries',
         "Description": "Provides information on Elder vampires and the historical eras they come from, as well as how to use them",
         'Release Date': '04/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/kvpi/#p=',
@@ -308,7 +308,7 @@ const VampireBookData = [
     {
         'Code Name': 'Nos',
         'Type': 'Clan',
-        'Title': 'The Beast That Haunts the Blood: Nosferatu',
+        'Name': 'The Beast That Haunts the Blood: Nosferatu',
         "Description": "Clan books that focuses on Nosferatu.",
         'Release Date': '03/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/nldx/#p=',
@@ -318,7 +318,7 @@ const VampireBookData = [
     {
         'Code Name': 'BB',
         'Type': 'Covenant',
-        'Title': "Belial's Brood",
+        'Name': "Belial's Brood",
         "Description": "It explores the nature and motivations of the barbaric Belial's Brood covenant.",
         'Release Date': '01/07',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/wwbs/#p=',
@@ -328,7 +328,7 @@ const VampireBookData = [
     {
         'Code Name': 'Blood',
         'Type': 'Player',
-        'Title': 'The Blood',
+        'Name': 'The Blood',
         "Description": "It serves as a player's handbook, giving new insight on both the in-character and rules considerations of the Kindred condition.",
         'Release Date': '05/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/bniu/#p=',
@@ -338,7 +338,7 @@ const VampireBookData = [
     {
         'Code Name': 'BtC',
         'Type': 'Bloodlines',
-        'Title': 'Bloodlines: the Chosen',
+        'Name': 'Bloodlines: the Chosen',
         "Description": "It details ten bloodlines first mentioned in the core rulebook who consider themselves somehow influential in the destiny of all Kindred.",
         'Release Date': '07/07',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/usrx/#p=',
@@ -348,7 +348,7 @@ const VampireBookData = [
     {
         'Code Name': 'BtH',
         'Type': 'Bloodlines',
-        'Title': 'Bloodlines: the Hidden',
+        'Name': 'Bloodlines: the Hidden',
         "Description": "It includes twelve bloodlines which are hidden, secretive or recently emerged.",
         'Release Date': '02/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/btpm/#p=',
@@ -358,7 +358,7 @@ const VampireBookData = [
     {
         'Code Name': 'BtL',
         'Type': 'Bloodlines',
-        'Title': 'Bloodlines: the Legendary',
+        'Name': 'Bloodlines: the Legendary',
         "Description": "It details nine bloodlines who are the stuff of legend, feared by the Kindred.",
         'Release Date': '01/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/xvlp/#p=',
@@ -368,7 +368,7 @@ const VampireBookData = [
     {
         'Code Name': 'Cart',
         'Type': 'Covenant',
-        'Title': 'Carthians',
+        'Name': 'Carthians',
         "Description": "Explores the idealistic Carthian covenant and the young Kindred that belong to it.",
         'Release Date': '04/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/howb/#p=',
@@ -378,7 +378,7 @@ const VampireBookData = [
     {
         'Code Name': 'Crone',
         'Type': 'Covenant',
-        'Title': 'Circle of the Crone',
+        'Name': 'Circle of the Crone',
         "Description": "It focuses on the Circle of the Crone and the secrets the covenant hides.",
         'Release Date': '08/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/kmbi/#p=',
@@ -388,7 +388,7 @@ const VampireBookData = [
     {
         'Code Name': 'NOrl',
         'Type': 'Location',
-        'Title': 'City of the Damned: New Orleans',
+        'Name': 'City of the Damned: New Orleans',
         "Description": "It explores the city of New Orleans and who stalks the streets after sunset.",
         'Release Date': '05/05',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/sygy/#p=',
@@ -398,7 +398,7 @@ const VampireBookData = [
     {
         'Code Name': 'Cote',
         'Type': 'Coterie',
-        'Title': 'Coteries',
+        'Name': 'Coteries',
         "Description": "It examines the relationships between groups of Kindred, and how they survive in their environments.",
         'Release Date': '10/04',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/irgm/#p=',
@@ -408,7 +408,7 @@ const VampireBookData = [
     {
         'Code Name': 'DC',
         'Type': 'City',
-        'Title': 'Damnation City',
+        'Name': 'Damnation City',
         "Description": "t is designed to aid the Storyteller in the creation of cities and smaller places, such as neighborhoods and unique sites.",
         'Release Date': '08/07',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/gzin/#p=',
@@ -418,7 +418,7 @@ const VampireBookData = [
     {
         'Code Name': 'DM',
         'Type': 'Storytelling',
-        'Title': 'The Danse Macabre',
+        'Name': 'The Danse Macabre',
         "Description": "It includes a slew of new mechanics and rules for Storytellers and players alike.",
         'Release Date': '03/11',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ydlb/#p=',
@@ -427,7 +427,7 @@ const VampireBookData = [
     {
         'Code Name': 'FotC',
         'Type': 'Alternate Setting',
-        'Title': 'Requiem for Rome: Fall of the Camarilla',
+        'Name': 'Requiem for Rome: Fall of the Camarilla',
         "Description": "The second book set in ancient Rome, it is a chronicle set in the last years of Rome (320 CE onwards), depicting the fall of the Camarilla.",
         'Release Date': '01/08',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/gcsf/#p=',
@@ -437,7 +437,7 @@ const VampireBookData = [
     {
         'Code Name': 'Ghou',
         'Type': 'Character',
-        'Title': 'Ghouls',
+        'Name': 'Ghouls',
         "Description": "It elaborates upon the roles of Ghouls in the world of vampires.",
         'Release Date': '05/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/nkrf/#p=',
@@ -447,7 +447,7 @@ const VampireBookData = [
     {
         'Code Name': 'Inv',
         'Type': 'Covenant',
-        'Title': 'The Invictus',
+        'Name': 'The Invictus',
         "Description": "Highlights the activities of the Invictus and its ancient organization.",
         'Release Date': '10/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/fkij/#p=',
@@ -457,7 +457,7 @@ const VampireBookData = [
     {
         'Code Name': 'Daeva',
         'Type': 'Clan',
-        'Title': 'Kiss of the Succubus: Daeva',
+        'Name': 'Kiss of the Succubus: Daeva',
         "Description": "Clan books that focuses on Daeva.",
         'Release Date': '',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/htlw/#p=',
@@ -467,7 +467,7 @@ const VampireBookData = [
     {
         'Code Name': 'LS',
         'Type': 'Covenant',
-        'Title': 'Lancea Sanctum',
+        'Name': 'Lancea Sanctum',
         "Description": "It uncovers much of the mystery surrounding the Lancea Sanctum and the pious Kindred that populate the covenant.",
         'Release Date': '03/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/sdlr/#p=',
@@ -477,7 +477,7 @@ const VampireBookData = [
     {
         'Code Name': 'Vent',
         'Type': 'Clan',
-        'Title': 'Lords Over the Damned: Ventrue',
+        'Name': 'Lords Over the Damned: Ventrue',
         "Description": "Clan books that focuses on Ventrue.",
         'Release Date': '04/08',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/pfmq/#p=',
@@ -487,7 +487,7 @@ const VampireBookData = [
     {
         'Code Name': 'Myth',
         'Type': 'Lore',
-        'Title': 'Mythologies',
+        'Name': 'Mythologies',
         "Description": "Explores different ideas and tales about the origins of the Kindred.",
         'Release Date': '06/06',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ofar/#p=',
@@ -497,7 +497,7 @@ const VampireBookData = [
     {
         'Code Name': 'NH-IS',
         'Type': 'Antagonist',
-        'Title': 'Night Horrors: Immortal Sinners',
+        'Name': 'Night Horrors: Immortal Sinners',
         "Description": "It focuses on both the famous and infamous individual Kindred that inhabit the Chronicles of Darkness.",
         'Release Date': '03/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ewjo/#p=',
@@ -507,7 +507,7 @@ const VampireBookData = [
     {
         'Code Name': 'NH-WD',
         'Type': 'Antagonist',
-        'Title': 'Night Horrors: Wicked Dead',
+        'Name': 'Night Horrors: Wicked Dead',
         "Description": "The vampires and creatures featured within the book focus on the violent side of Kindred unlife.",
         'Release Date': '09/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/jxit/#p=',
@@ -517,7 +517,7 @@ const VampireBookData = [
     {
         'Code Name': 'Noma',
         'Type': 'Travel',
-        'Title': 'Nomads',
+        'Name': 'Nomads',
         "Description": "A guide for both playing Kindred that live outside major cities and Kindred traveling the wilderness.",
         'Release Date': '11/04',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/vbeo/#p=',
@@ -527,7 +527,7 @@ const VampireBookData = [
     {
         'Code Name': 'OD',
         'Type': 'Covenant',
-        'Title': 'Ordo Dracul',
+        'Name': 'Ordo Dracul',
         "Description": "It explores the secrets of the Ordo Dracul and their motivations as a covenant.",
         'Release Date': '07/05',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/azjk/#p=',
@@ -536,7 +536,7 @@ const VampireBookData = [
     {
         'Code Name': 'RCG',
         'Type': 'Storytelling',
-        'Title': 'Requiem Chroniclers Guide',
+        'Name': 'Requiem Chroniclers Guide',
         "Description": "",
         'Release Date': '02/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/wbku/#p=',
@@ -546,7 +546,7 @@ const VampireBookData = [
     {
         'Code Name': 'RfR',
         'Type': 'Alternate Setting',
-        'Title': 'Requiem for Rome',
+        'Name': 'Requiem for Rome',
         "Description": "It depicts the Kindred society of the Roman Empire, including the Camarilla and the Julii clan.",
         'Release Date': '11/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/mabe/#p=',
@@ -556,7 +556,7 @@ const VampireBookData = [
     {
         'Code Name': '',
         'Type': 'Magic',
-        'Title': 'Rites of the Dragon',
+        'Name': 'Rites of the Dragon',
         "Description": "It explores the origins of Dracula, the founder of the Ordo Dracul.",
         'Release Date': '11/04',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/gcuc/#p=',
@@ -566,7 +566,7 @@ const VampireBookData = [
     {
         'Code Name': 'Gan',
         'Type': 'Clan',
-        'Title': 'Savage and Macabre: Gangrel',
+        'Name': 'Savage and Macabre: Gangrel',
         "Description": "Clan books that focuses on Gangrel.",
         'Release Date': '09/08',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/llkd/#p=',
@@ -576,7 +576,7 @@ const VampireBookData = [
     {
         'Code Name': 'Mekh',
         'Type': 'Clan',
-        'Title': 'Shadows in the Dark: Mekhet',
+        'Name': 'Shadows in the Dark: Mekhet',
         "Description": "Clan books that focuses on Mekhet",
         'Release Date': '02/09',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/zkxg/#p=',
@@ -586,7 +586,7 @@ const VampireBookData = [
     {
         'Code Name': 'VtR',
         'Type': 'Core',
-        'Title': 'Vampire: The Requiem',
+        'Name': 'Vampire: The Requiem',
         "Description": "The core rulebook for the Vampire: The Requiem game line.",
         'Release Date': '08/04',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/zwrz/#p=',
@@ -596,7 +596,7 @@ const VampireBookData = [
     {
         'Code Name': 'VII',
         'Type': 'Covenant',
-        'Title': 'VII',
+        'Name': 'VII',
         "Description": "Focuses on the mysterious covenant VII and their purposes and motivations.",
         'Release Date': '08/05',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/xkib/#p=',
@@ -606,7 +606,7 @@ const VampireBookData = [
     {
         'Code Name': 'BSorc',
         'Type': 'Magic',
-        'Title': 'Blood Sorcery: Sacraments and Blasphemies',
+        'Name': 'Blood Sorcery: Sacraments and Blasphemies',
         "Description": " It provides insight into Kindred blood magic and the rituals needed to invoke them.",
         'Release Date': '09/12',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/zuwm/#p=',
@@ -616,7 +616,7 @@ const VampireBookData = [
     {
         'Code Name': 'NWR',
         'Type': 'Alternate Setting',
-        'Title': 'New Wave Requiem',
+        'Name': 'New Wave Requiem',
         "Description": "A historical sourcebook, focusing on the 1980s.",
         'Release Date': '02/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/xjkg/#p=',
@@ -625,7 +625,7 @@ const VampireBookData = [
     {
         'Code Name': 'SDL',
         'Type': 'Alternate Setting',
-        'Title': 'Strange, Dead Love (World Shard)',
+        'Name': 'Strange, Dead Love (World Shard)',
         "Description": "It is a collection of “world shards”, used to create different mixes of setting and rules to present a variety of Vampire worlds conducive to paranormal romance.",
         'Release Date': '12/11',
         'LinkTo': '',
@@ -637,7 +637,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Blas',
         'Type': 'Antagonist',
-        'Title': 'Blasphemies',
+        'Name': 'Blasphemies',
         "Description": "Describes more radical views of Urathan creation myths.",
         'Release Date': '01/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/zsei/#p=',
@@ -647,7 +647,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'BotW',
         'Type': 'Player',
-        'Title': 'Blood of the Wolf',
+        'Name': 'Blood of the Wolf',
         "Description": "Serves as an advanced player's guide.",
         'Release Date': '09/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/rmqk/#p=',
@@ -657,7 +657,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'HG',
         'Type': 'Location',
-        'Title': 'Hunting Ground: The Rockies',
+        'Name': 'Hunting Ground: The Rockies',
         "Description": "",
         'Release Date': '04/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/iwvh/#p=',
@@ -666,7 +666,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'LodgF',
         'Type': 'Lodge',
-        'Title': 'Lodges: The Faithful',
+        'Name': 'Lodges: The Faithful',
         "Description": "It expands on the purpose and uses of Lodges.",
         'Release Date': '11/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/egvo/#p=',
@@ -676,7 +676,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'LodgS',
         'Type': 'Lodge',
-        'Title': 'Lodges: The Splintered',
+        'Name': 'Lodges: The Splintered',
         "Description": "It expands on the Lodges of the world.",
         'Release Date': '09/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/zdfw/#p=',
@@ -686,7 +686,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Lore',
         'Type': 'Spirit',
-        'Title': 'Lore of the Forsaken',
+        'Name': 'Lore of the Forsaken',
         "Description": "It covers the special powers and abilities available to the Uratha.",
         'Release Date': '08/05',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/bzbh/#p=',
@@ -695,7 +695,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'NH-W',
         'Type': 'Antagonist',
-        'Title': 'Night Horrors: Wolfsbane',
+        'Name': 'Night Horrors: Wolfsbane',
         "Description": "It provides antagonists to use in a Werewolf chronicle, and is the first appearance of the Idigam.",
         'Release Date': '09/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/bocw/#p=',
@@ -705,7 +705,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Pred',
         'Type': 'Antagonist',
-        'Title': 'Predators',
+        'Name': 'Predators',
         "Description": "Contains several antagonists to be used in a chronicle.",
         'Release Date': '06/05',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/oyay/#p=',
@@ -715,7 +715,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Pure',
         'Type': 'Antagonist',
-        'Title': 'The Pure',
+        'Name': 'The Pure',
         "Description": "It delves into the society of the Pure, and examines their motivations and history.",
         'Release Date': '11/06',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/uyaa/#p=',
@@ -724,7 +724,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Rage',
         'Type': 'Player',
-        'Title': 'The Rage: Forsaken Players Guide',
+        'Name': 'The Rage: Forsaken Players Guide',
         "Description": "Expands both options for character development as well as Urathan history.",
         'Release Date': '01/07',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/izor/#p=',
@@ -733,7 +733,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'SotM',
         'Type': 'Auspice',
-        'Title': 'Signs of the Moon',
+        'Name': 'Signs of the Moon',
         "Description": "Expands the role of Auspices.",
         'Release Date': '08/10',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/zjdv/#p=',
@@ -742,7 +742,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Terr',
         'Type': 'Location',
-        'Title': 'Territories',
+        'Name': 'Territories',
         "Description": "The concept of werewolf territories is expanded upon.",
         'Release Date': '04/06',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/bcsx/#p=',
@@ -751,7 +751,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'Tribes',
         'Type': 'Tribe',
-        'Title': 'Tribes of the Moon',
+        'Name': 'Tribes of the Moon',
         "Description": "The book expands greatly upon the Tribes of the Moon.",
         'Release Date': '04/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/rmvk/#p=',
@@ -761,7 +761,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'WAtP',
         'Type': 'Antagonist',
-        'Title': 'The War Against the Pure',
+        'Name': 'The War Against the Pure',
         "Description": "Covers the secret war between the Tribes of the Moon and the Pure Tribes.",
         'Release Date': '04/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/nvon/#p=',
@@ -771,7 +771,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'WtF',
         'Type': 'Core',
-        'Title': 'Werewolf: The Forsaken',
+        'Name': 'Werewolf: The Forsaken',
         "Description": "The core rulebook for Werewolf: The Forsaken.",
         'Release Date': '03/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/epch/#p=',
@@ -780,7 +780,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'FCG:TI',
         'Type': 'Storytelling',
-        'Title': "Forsaken Chronicler's Guide I - To Isolate",
+        'Name': "Forsaken Chronicler's Guide I - To Isolate",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/untp/#p=',
@@ -789,7 +789,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'FCG:TR',
         'Type': 'Storytelling',
-        'Title': "Forsaken Chronicler's Guide II - To Rebuild",
+        'Name': "Forsaken Chronicler's Guide II - To Rebuild",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/untp/#p=',
@@ -798,7 +798,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'FCG:TR',
         'Type': 'Storytelling',
-        'Title': "Forsaken Chronicler's Guide II - To Rebuild",
+        'Name': "Forsaken Chronicler's Guide II - To Rebuild",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/upnk/#p=',
@@ -807,7 +807,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'FCG:TT',
         'Type': 'Storytelling',
-        'Title': "Forsaken Chronicler's Guide III - To Transform",
+        'Name': "Forsaken Chronicler's Guide III - To Transform",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/tlfp/#p=',
@@ -816,7 +816,7 @@ const WerewolfBookData = [
     {
         'Code Name': 'FCG:TRA',
         'Type': 'Storytelling',
-        'Title': "Forsaken Chronicler's Guide IV - To Rip Asunder",
+        'Name': "Forsaken Chronicler's Guide IV - To Rip Asunder",
         "Description": "The book contains idea for new chronicles to run, as well as the needed to run them.",
         'Release Date': '06/11',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/nwyh/#p=',
@@ -829,7 +829,7 @@ const MageBookData = [
     {
         'Code Name': 'AA',
         'Type': 'Order',
-        'Title': 'Adamantine Arrow',
+        'Name': 'Adamantine Arrow',
         "Description": "It explores the history and culture of the Adamantine Arrow order.",
         'Release Date': '12/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/wbrm/#p=',
@@ -839,7 +839,7 @@ const MageBookData = [
     {
         'Code Name': 'AR',
         'Type': 'Astral',
-        'Title': 'Astral Realms',
+        'Name': 'Astral Realms',
         "Description": "Provides a focused look on Astral Space and the realms and inhabitants within it.",
         'Release Date': '11/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/hakb/#p=',
@@ -848,7 +848,7 @@ const MageBookData = [
     {
         'Code Name': 'Ban',
         'Type': 'Antagonist',
-        'Title': 'Banishers',
+        'Name': 'Banishers',
         "Description": "Focuses on the Banishers, Awakened who wish to eradicate everything supernatural from the Fallen World.",
         'Release Date': '03/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/ztbh/#p=',
@@ -858,7 +858,7 @@ const MageBookData = [
     {
         'Code Name': 'BU',
         'Type': 'Location',
-        'Title': 'Boston: Unveiled',
+        'Name': 'Boston: Unveiled',
         "Description": "Covers the city of Boston, MA and the local powers residing there.",
         'Release Date': '10/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/rpxp/#p=',
@@ -868,7 +868,7 @@ const MageBookData = [
     {
         'Code Name': 'FC',
         'Type': 'Order',
-        'Title': 'Free Council',
+        'Name': 'Free Council',
         "Description": "It offers a deeper insight into the Free Council and its doings.",
         'Release Date': '05/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/lvae/#p=',
@@ -877,7 +877,7 @@ const MageBookData = [
     {
         'Code Name': 'GoG',
         'Type': 'Magic',
-        'Title': 'Grimoire of Grimoires',
+        'Name': 'Grimoire of Grimoires',
         "Description": "It offers many new grimoires for use within a chronicle, and each one is themed differently.",
         'Release Date': '05/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/mslf/#p=',
@@ -887,7 +887,7 @@ const MageBookData = [
     {
         'Code Name': 'GotV',
         'Type': 'Order',
-        'Title': 'Guardians of the Veil',
+        'Name': 'Guardians of the Veil',
         "Description": "It expands upon the Guardians of the Veil, including their history and unique legacies associated with them.",
         'Release Date': '02/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/nlbf/#p=',
@@ -897,7 +897,7 @@ const MageBookData = [
     {
         'Code Name': 'IEwtA',
         'Type': 'Antagonist',
-        'Title': 'Intruders: Encounters with the Abyss',
+        'Name': 'Intruders: Encounters with the Abyss',
         "Description": "It expands upon ideas of the Abyss and the creatures that break into reality from it.",
         'Release Date': '03/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/zqtf/#p=',
@@ -906,7 +906,7 @@ const MageBookData = [
     {
         'Code Name': 'KST',
         'Type': 'Tarot',
-        'Title': 'Keys to the Supernal Tarot',
+        'Name': 'Keys to the Supernal Tarot',
         "Description": "It expands on the uses of tarot in Mage and how it can be used in chronicles.",
         'Release Date': '11/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/kgda/#p=',
@@ -916,7 +916,7 @@ const MageBookData = [
     {
         'Code Name': 'L:tA',
         'Type': 'Legacies',
-        'Title': 'Legacies: the Ancient',
+        'Name': 'Legacies: the Ancient',
         "Description": "This book offers insight into legacies, as well as options for players to use them.",
         'Release Date': '01/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/stti/#p=',
@@ -926,7 +926,7 @@ const MageBookData = [
     {
         'Code Name': 'L:tS',
         'Type': 'Legacies',
-        'Title': 'Legacies: the Sublime',
+        'Name': 'Legacies: the Sublime',
         "Description": "It details numerous legacies, specialized paths available to Mage characters.",
         'Release Date': '01/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/wemr/#p=',
@@ -935,7 +935,7 @@ const MageBookData = [
     {
         'Code Name': 'M:tA',
         'Type': 'Core',
-        'Title': 'Mage: The Awakening',
+        'Name': 'Mage: The Awakening',
         "Description": "The core rulebook for Mage: The Awakening.",
         'Release Date': '08/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/vkfd/#p=',
@@ -945,7 +945,7 @@ const MageBookData = [
     {
         'Code Name': 'MCG',
         'Type': 'Storytelling',
-        'Title': "Mage Chronicler's Guide",
+        'Name': "Mage Chronicler's Guide",
         "Description": "It serves as a guideline for Storytellers running Mage chronicles.",
         'Release Date': '07/10',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/osto/#p=',
@@ -955,7 +955,7 @@ const MageBookData = [
     {
         'Code Name': 'MT',
         'Type': 'Tradition',
-        'Title': 'Magical Traditions',
+        'Name': 'Magical Traditions',
         "Description": "It provides several traditions for Mage players.",
         'Release Date': '06/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/fako/#p=',
@@ -964,7 +964,7 @@ const MageBookData = [
     {
         'Code Name': 'Myst',
         'Type': 'Order',
-        'Title': 'Mysterium',
+        'Name': 'Mysterium',
         "Description": "Focuses on the Mysterium and their contributions to mage society.",
         'Release Date': '09/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/ivma/#p=',
@@ -974,7 +974,7 @@ const MageBookData = [
     {
         'Code Name': 'NH-TU',
         'Type': 'Antagonist',
-        'Title': 'Night Horrors: The Unbidden',
+        'Name': 'Night Horrors: The Unbidden',
         "Description": "It provides antagonists to use in a Mage chronicle, and to bring horror into magic.",
         'Release Date': '01/10',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/ytny/#p=',
@@ -984,7 +984,7 @@ const MageBookData = [
     {
         'Code Name': 'RotE',
         'Type': 'Chronicle',
-        'Title': 'Reign of the Exarchs',
+        'Name': 'Reign of the Exarchs',
         "Description": "A collection of five stories that form a chronicle.",
         'Release Date': '07/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/novz/#p=',
@@ -993,7 +993,7 @@ const MageBookData = [
     {
         'Code Name': 'S&S',
         'Type': 'Sanctum',
-        'Title': 'Sanctum & Sigil',
+        'Name': 'Sanctum & Sigil',
         "Description": "It provides more information on Mage society, with a focus on cabals and sanctums.",
         'Release Date': '11/05',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/ljzv/#p=',
@@ -1003,7 +1003,7 @@ const MageBookData = [
     {
         'Code Name': 'SotRT',
         'Type': 'Lore',
-        'Title': 'Secrets of the Ruined Temple',
+        'Name': 'Secrets of the Ruined Temple',
         "Description": "The book delves into Atlantean myths, theories, and ancient ruins of Atlantean mages.",
         'Release Date': '05/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/lpvu/#p=',
@@ -1013,7 +1013,7 @@ const MageBookData = [
     {
         'Code Name': 'SotT',
         'Type': 'Order',
-        'Title': 'Seers of the Throne',
+        'Name': 'Seers of the Throne',
         "Description": "Details on the Seers of the Throne and their workings and subservience to the Exarchs.",
         'Release Date': '03/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/poqw/#p=',
@@ -1022,7 +1022,7 @@ const MageBookData = [
     {
         'Code Name': 'Summ',
         'Type': 'Magic',
-        'Title': 'Summoners',
+        'Name': 'Summoners',
         "Description": "Expands on mages who summon creatures from other realms, as well as providing new character options.",
         'Release Date': '04/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/kyci/#p=',
@@ -1032,7 +1032,7 @@ const MageBookData = [
     {
         'Code Name': 'SL',
         'Type': 'Order',
-        'Title': 'Silver Ladder',
+        'Name': 'Silver Ladder',
         "Description": "This book focuses on the Silver Ladder order and their histories and goals.",
         'Release Date': '07/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/trxp/#p=',
@@ -1042,7 +1042,7 @@ const MageBookData = [
     {
         'Code Name': 'TotM',
         'Type': 'Magic',
-        'Title': 'Tome of the Mysteries',
+        'Name': 'Tome of the Mysteries',
         "Description": "It offers information on creating magic as well as how different cultures view and affect magic.",
         'Release Date': '11/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/ogdf/#p=',
@@ -1051,7 +1051,7 @@ const MageBookData = [
     {
         'Code Name': 'TotW',
         'Type': 'Path',
-        'Title': 'Tome of the Watchtowers',
+        'Name': 'Tome of the Watchtowers',
         "Description": "It offers further information and options for players of all five Paths.",
         'Release Date': '04/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/yfcr/#p=',
@@ -1061,7 +1061,7 @@ const MageBookData = [
     {
         'Code Name': 'IM',
         'Type': 'Archmastery',
-        'Title': 'Imperial Mysteries',
+        'Name': 'Imperial Mysteries',
         "Description": "Describes what happens to mages who transcend to the highest level of mystical power, including mechanics for Arcana at 6 dots or more.",
         'Release Date': '01/12',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/bagn/#p=',
@@ -1071,7 +1071,7 @@ const MageBookData = [
     {
         'Code Name': 'LHP',
         'Type': 'Antagonist',
-        'Title': 'Left-Hand Path',
+        'Name': 'Left-Hand Path',
         "Description": "It focuses on the mages who use forbidden magics.",
         'Release Date': '11/12',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/emtg/#p=',
@@ -1080,7 +1080,7 @@ const MageBookData = [
     {
         'Code Name': 'MN',
         'Type': 'Alternate Setting',
-        'Title': 'Mage Noir',
+        'Name': 'Mage Noir',
         "Description": "setting of Mage to the American 1940's and shows the effect that the world wars had on the Awakened world.",
         'Release Date': '03/11'
     }
@@ -1090,7 +1090,7 @@ const PrometheanBookData = [
     {
         'Code Name': 'MO',
         'Type': 'Player',
-        'Title': 'Magnum Opus',
+        'Name': 'Magnum Opus',
         "Description": "This book explores the true origins of the Prometheans, the alternate means of creating them, new Refinements and Transmutations, and working with complications in Promethean storylines, from going to the Wastes to working in other supernatural creatures.",
         'Release Date': '02/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/grgn/#p=',
@@ -1099,7 +1099,7 @@ const PrometheanBookData = [
     {
         'Code Name': 'PB',
         'Type': 'Antagonist',
-        'Title': "Pandora's Book",
+        'Name': "Pandora's Book",
         'Description': 'This book focuses on the antagonists of the Prometheans, including the Centimani and the Pandorans, details on the mysterious qashmallim, and more information on the properties as Pyros.',
         'Release Date': '10/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/wqxc/#p=',
@@ -1108,7 +1108,7 @@ const PrometheanBookData = [
     {
         'Code Name': 'PTC',
         'Type': 'Core',
-        'Title': 'Promethean: The Created',
+        'Name': 'Promethean: The Created',
         "Description": "The core rulebook for the Promethean: The Created",
         'Release Date': '08/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/rsnd/#p=',
@@ -1118,7 +1118,7 @@ const PrometheanBookData = [
     {
         'Code Name': 'SN',
         'Type': 'Storytelling',
-        'Title': 'Saturnine Night',
+        'Name': 'Saturnine Night',
         "Description": "The book's main themes include bringing strong science fiction elements into storylines through new types of Prometheans and a new Lineage, as well as tips on creating new Lineages and creating short and long-term Promethean chronicles.",
         'Release Date': '03/07',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/bklg/#p=',
@@ -1128,7 +1128,7 @@ const PrometheanBookData = [
     {
         'Code Name': 'SA',
         'Type': 'Player',
-        'Title': 'Strange Alchemies',
+        'Name': 'Strange Alchemies',
         "Description": "This book expands and details many of the concepts brought forth in the first book; the Lineages each receive an in-depth section on their rituals and habits and the Refinements get more detail and new Transmutations.",
         'Release Date': '11/06',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/vvmg/#p=',
@@ -1137,7 +1137,7 @@ const PrometheanBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: A Handful of Dust',
+        'Name': 'Dark Eras: A Handful of Dust',
         "Description": "",
         'Release Date': '09/16'
     }
@@ -1147,7 +1147,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'AN',
         'Type': 'Antagonist',
-        'Title': 'Autumn Nightmares',
+        'Name': 'Autumn Nightmares',
         "Description": "Contains details of the characters and creatures which are the main antagonists of Changelings, most notably other Changelings, the True Fae, and fetches. It uses the Autumn Court's emotion, fear, as its main theme.",
         'Release Date': '10/07',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ntdw/#p=',
@@ -1157,7 +1157,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'CtL',
         'Type': 'Core',
-        'Title': 'Changeling: The Lost',
+        'Name': 'Changeling: The Lost',
         "Description": "The core rulebook for the Changeling: The Lost",
         'Release Date': '08/07',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/lqcx/#p=',
@@ -1166,7 +1166,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'DitD',
         'Type': 'Storytelling',
-        'Title': 'Dancers in the Dusk',
+        'Name': 'Dancers in the Dusk',
         "Description": "",
         'Release Date': '04/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/wfic/#p=',
@@ -1176,7 +1176,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'ER',
         'Type': 'Arcadia',
-        'Title': 'The Equinox Road',
+        'Name': 'The Equinox Road',
         "Description": "It gathers together the last missing pieces of the Changeling Universe, including more on Arcadia, the True Fae, and roleplaying the most complicated, high-power aspects of Changeling campaigns.",
         'Release Date': '08/08',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/zofl/#p=',
@@ -1186,7 +1186,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'LoS',
         'Type': 'Court',
-        'Title': 'Lords of Summer',
+        'Name': 'Lords of Summer',
         "Description": "It deals with changeling freeholds, more information on the Great Courts, and new Entitlements.",
         'Release Date': '06/08',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/vyhz/#p=',
@@ -1195,7 +1195,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'NH-GF',
         'Type': 'Antagonist',
-        'Title': 'Night Horrors: Grim Fears',
+        'Name': 'Night Horrors: Grim Fears',
         "Description": "It contains many antagonists and monsters to use in a Changeling game.",
         'Release Date': '10/08',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/mudg/#p=',
@@ -1205,7 +1205,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'RoS',
         'Type': 'Magic',
-        'Title': 'Rites of Spring',
+        'Name': 'Rites of Spring',
         "Description": "Expands upon the information about faerie magic.",
         'Release Date': '02/08',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/eimy/#p=',
@@ -1215,7 +1215,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'SaD',
         'Type': 'Player',
-        'Title': 'Swords at Dawn',
+        'Name': 'Swords at Dawn',
         "Description": "Expands the options available to players for character development in a chronicle.",
         'Release Date': '07/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/boih/#p=',
@@ -1224,7 +1224,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'WM',
         'Type': 'Player',
-        'Title': 'Winter Masques',
+        'Name': 'Winter Masques',
         "Description": "It contains more options for player characters, in particular more information on the Seemings - including new Kiths and Contracts - and of Court structures beyond the seasonal courts common in the Western world.",
         'Release Date': '12/07',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/qtyn/#p=',
@@ -1234,7 +1234,7 @@ const ChangelingBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: Changeling: The Lost Compilation',
+        'Name': 'Dark Eras: Changeling: The Lost Compilation',
         "Description": "",
         'Release Date': '06/20',
         'LinkTo': '',
@@ -1244,7 +1244,7 @@ const ChangelingBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: Lily, Sabre and Thorn',
+        'Name': 'Dark Eras: Lily, Sabre and Thorn',
         "Description": "A setting for Changeling: The Lost set in France during the era of swashbucklers.",
         'Release Date': '08/17',
         'LinkTo': '',
@@ -1253,7 +1253,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'GobM',
         'Type': 'Location',
-        'Title': 'Goblin Markets',
+        'Name': 'Goblin Markets',
         "Description": "It provides information for designing a Goblin Market to place into a changeling chronicle.",
         'Release Date': '09/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/vvmm/#p=',
@@ -1263,7 +1263,7 @@ const ChangelingBookData = [
     {
         'Code Name': 'VL',
         'Type': 'Alternate Setting',
-        'Title': 'Victorian Lost',
+        'Name': 'Victorian Lost',
         "Description": "It contains information to run a Changeling game in the Victorian era.",
         'Release Date': '06/12',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ucqo/#p=',
@@ -1275,7 +1275,7 @@ const HunterBookData = [
     {
         'Code Name': 'HRG',
         'Type': 'Fiction',
-        'Title': 'Horror Recognition Guide',
+        'Name': 'Horror Recognition Guide',
         "Description": "Book show case files generic enough to be used as information for any ongoing chronicle of Hunter.",
         'Release Date': '02/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/lrmr/#p=',
@@ -1284,7 +1284,7 @@ const HunterBookData = [
     {
         'Code Name': 'HTV',
         'Type': 'Core',
-        'Title': 'Hunter: The Vigil',
+        'Name': 'Hunter: The Vigil',
         "Description": "The core rulebook for Hunter: The Vigil.",
         'Release Date': '08/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/gtky/#p=',
@@ -1294,7 +1294,7 @@ const HunterBookData = [
     {
         'Code Name': 'NS',
         'Type': 'Antagonist',
-        'Title': 'Night Stalkers',
+        'Name': 'Night Stalkers',
         "Description": "Focuses on hunters who pursue the creatures tied to vampires.",
         'Release Date': '03/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/duni/#p=',
@@ -1304,7 +1304,7 @@ const HunterBookData = [
     {
         'Code Name': 'Slash',
         'Type': 'Antagonist',
-        'Title': 'Slasher',
+        'Name': 'Slasher',
         "Description": "Closely examines the role of the mass murderers and serial killers in the World of Darkness, including those under supernatural influences, and those that are hunters who have been pushed too far.",
         'Release Date': '02/09',
         'LinkTo': 'https://online.fliphtml5.com/dymxg/snlj/#p=',
@@ -1313,7 +1313,7 @@ const HunterBookData = [
     {
         'Code Name': 'SpSl',
         'Type': 'Antagonist',
-        'Title': 'Spirit Slayers',
+        'Name': 'Spirit Slayers',
         "Description": "Focuses on hunters who pursue the creatures tied into the spirit world, particularly werewolves and ghosts.",
         'Release Date': '04/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/nris/#p=',
@@ -1322,7 +1322,7 @@ const HunterBookData = [
     {
         'Code Name': 'WF',
         'Type': 'Antagonist',
-        'Title': 'Witch Finders',
+        'Name': 'Witch Finders',
         "Description": "This book puts an emphasis on hunters who go after mages, witches, and other humans who practice magic in violation of the laws of man.",
         'Release Date': '09/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/otob/#p=',
@@ -1332,7 +1332,7 @@ const HunterBookData = [
     {
         'Code Name': 'C&C',
         'Type': 'Faction',
-        'Title': 'Compacts and Conspiracies',
+        'Name': 'Compacts and Conspiracies',
         "Description": "Details more information on existing compacts and conspiracies from the HTV: Hunter: The Vigil Rulebook",
         'Release Date': '05/10',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/dxha/#p=',
@@ -1341,7 +1341,7 @@ const HunterBookData = [
     {
         'Code Name': 'BbBB',
         'Type': 'Adventure',
-        'Title': '	Block by Bloody Block',
+        'Name': '	Block by Bloody Block',
         "Description": "",
         'Release Date': '12/08',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/yemc/#p=',
@@ -1350,7 +1350,7 @@ const HunterBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: Doubting Souls',
+        'Name': 'Dark Eras: Doubting Souls',
         "Description": "A setting for Hunter: The Vigil about the Vigil in North America during early stages of European colonization.",
         'Release Date': '02/17',
         'LinkTo': '',
@@ -1360,7 +1360,7 @@ const HunterBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: Fallen Blossoms',
+        'Name': 'Dark Eras: Fallen Blossoms',
         "Description": "Is a setting for Hunter: The Vigil in the Tokugawa Shogunate of Japan.",
         'Release Date': '03/17'
     }
@@ -1370,7 +1370,7 @@ const GeistBookData = [
     {
         'Code Name': 'BotD',
         'Type': 'Underworld',
-        'Title': 'Book of the Dead',
+        'Name': 'Book of the Dead',
         "Description": "It describes in great detail the Underworld and all of the horrors and wonders within.",
         'Release Date': '12/09',
         'LinkTo': 'https://online.fliphtml5.com/qmsqd/ynhq/#p=',
@@ -1379,7 +1379,7 @@ const GeistBookData = [
     {
         'Code Name': 'GTS',
         'Type': 'Core',
-        'Title': 'Geist: The Sin-Eaters',
+        'Name': 'Geist: The Sin-Eaters',
         "Description": "The core rulebook for Geist: The Sin-Eaters.",
         'Release Date': '08/09',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ocxw/#p=',
@@ -1389,7 +1389,7 @@ const GeistBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': "Dark Eras: God's Own Country",
+        'Name': "Dark Eras: God's Own Country",
         "Description": "Setting for Geist: The Sin-Eaters in post-WW2 New Zealand.",
         'Release Date': '10/17',
         'LinkTo': '',
@@ -1401,7 +1401,7 @@ const MummyBookData = [
     {
         'Code Name': 'Dec',
         'Type': 'Faction',
-        'Title': 'Book of the Deceived',
+        'Name': 'Book of the Deceived',
         "Description": "",
         'Release Date': '11/14',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/scxi/#p=',
@@ -1410,7 +1410,7 @@ const MummyBookData = [
     {
         'Code Name': 'DC',
         'Type': 'Location',
-        'Title': 'Cursed Necropolis: DC',
+        'Name': 'Cursed Necropolis: DC',
         "Description": "",
         'Release Date': '05/14',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/uxgu/#p=',
@@ -1420,7 +1420,7 @@ const MummyBookData = [
     {
         'Code Name': 'Rio',
         'Type': 'Location',
-        'Title': 'Cursed Necropolis: Rio',
+        'Name': 'Cursed Necropolis: Rio',
         "Description": "",
         'Release Date': '04/17',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/fefn/#p=',
@@ -1430,7 +1430,7 @@ const MummyBookData = [
     {
         'Code Name': '',
         'Type': 'Alternate Setting',
-        'Title': 'Dark Eras: Ruins of Empire',
+        'Name': 'Dark Eras: Ruins of Empire',
         "Description": "Outline the signature setting of Rio de Janeiro, Brazil.",
         'Release Date': '01/17',
         'LinkTo': '',
@@ -1439,7 +1439,7 @@ const MummyBookData = [
     {
         'Code Name': 'GotD',
         'Type': 'Fiction',
-        'Title': 'Dreams of Avarice',
+        'Name': 'Dreams of Avarice',
         "Description": "A mummy story.",
         'Release Date': '10/13',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/vnxu/#p=',
@@ -1448,7 +1448,7 @@ const MummyBookData = [
     {
         'Code Name': 'GotD',
         'Type': 'Alternate Setting',
-        'Title': 'Guildhalls of the Deathless',
+        'Name': 'Guildhalls of the Deathless',
         "Description": "A setting for Mummy: The Curse at the turn of the 20th century.",
         'Release Date': '10/13',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/uuga/#p=',
@@ -1458,7 +1458,7 @@ const MummyBookData = [
     {
         'Code Name': 'LotD',
         'Type': 'Faction',
-        'Title': 'Lore of the Deceived',
+        'Name': 'Lore of the Deceived',
         "Description": "",
         'Release Date': '02/15',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ssgx/#p=',
@@ -1468,7 +1468,7 @@ const MummyBookData = [
     {
         'Code Name': 'MTC',
         'Type': 'Core',
-        'Title': 'Mummy: The Curse',
+        'Name': 'Mummy: The Curse',
         "Description": "The core rulebook for Mummy: The Curse.",
         'Release Date': '03/13',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/ewte/#p=',
@@ -1477,7 +1477,7 @@ const MummyBookData = [
     {
         'Code Name': 'Soth',
         'Type': 'Lore',
-        'Title': 'Sothis Ascends',
+        'Name': 'Sothis Ascends',
         "Description": "This book examines the Sothic Turn; the cycle of existence within which Mummies live and die. Since their creation, there have been five Turns and each is examined: one part historical setting, one part grab-bag of artifacts, powers, and antagonists.",
         'Release Date': '04/15',
         'LinkTo': 'https://online.fliphtml5.com/rjrdg/qudq/#p=',
@@ -1488,7 +1488,7 @@ const MummyBookData = [
 export const ModulesBooksData = [
     {
         "Code Name": "",
-        "Title": "A Night With Jack",
+        "Name": "A Night With Jack",
         "Description": "",
         "Date": "07/08",
         "Game Line": "World of Darkness",
@@ -1497,7 +1497,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Abedju Cipher",
+        "Name": "The Abedju Cipher",
         "Description": "",
         "Date": "07/09",
         "Game Line": "Mage: The Awakening",
@@ -1506,7 +1506,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Bad Night at Blackmoon Farm",
+        "Name": "Bad Night at Blackmoon Farm",
         "Description": "",
         "Date": "10/08",
         "Game Line": "Hunter: The Vigil",
@@ -1515,7 +1515,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "BD",
-        "Title": "Blood Drive",
+        "Name": "Blood Drive",
         "Description": "",
         "Date": "05/09",
         "Game Line": "HTV Night Stalkers",
@@ -1524,7 +1524,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Blood Red + Ash Grey",
+        "Name": "Blood Red + Ash Grey",
         "Description": "",
         "Date": "06/07",
         "Game Line": "Vampire: The Requiem",
@@ -1533,7 +1533,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "CWork",
-        "Title": "Chicago Workings",
+        "Name": "Chicago Workings",
         "Description": "",
         "Date": "01/07",
         "Game Line": "WoD Chicago",
@@ -1542,7 +1542,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Coyote Falls",
+        "Name": "Coyote Falls",
         "Description": "",
         "Date": "09/10",
         "Game Line": "Werewolf: The Forsaken",
@@ -1551,7 +1551,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Criminal Intent",
+        "Name": "Criminal Intent",
         "Description": "",
         "Date": "01/08",
         "Game Line": "Vampire: The Requiem",
@@ -1560,7 +1560,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Dem Bones",
+        "Name": "Dem Bones",
         "Description": "",
         "Date": "08/09",
         "Game Line": "Geist: The Sin-Eaters",
@@ -1569,7 +1569,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Devil's Night",
+        "Name": "The Devil's Night",
         "Description": "free html",
         "Date": "10/09",
         "Game Line": "World of Darkness",
@@ -1578,7 +1578,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Eve of Judgment",
+        "Name": "Eve of Judgment",
         "Description": "",
         "Date": "04/13",
         "Game Line": "Mummy: The Curse",
@@ -1587,7 +1587,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Fallen is Babylon",
+        "Name": "Fallen is Babylon",
         "Description": "",
         "Date": "07/10",
         "Game Line": "WoD Inferno",
@@ -1596,7 +1596,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Fear-Maker's Promise",
+        "Name": "The Fear-Maker's Promise",
         "Description": "",
         "Date": "08/07",
         "Game Line": "Changeling: The Lost",
@@ -1605,7 +1605,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Golden Watch",
+        "Name": "The Golden Watch",
         "Description": "",
         "Date": "07/09",
         "Game Line": "World of Darkness",
@@ -1614,7 +1614,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Harvesters",
+        "Name": "The Harvesters",
         "Description": "",
         "Date": "02/08",
         "Game Line": "WoD Midnight Roads",
@@ -1623,7 +1623,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The House Always Wins",
+        "Name": "The House Always Wins",
         "Description": "",
         "Date": "08/09",
         "Game Line": "Geist: The Sin-Eaters",
@@ -1632,7 +1632,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Hungry Streets",
+        "Name": "The Hungry Streets",
         "Description": "",
         "Date": "08/10",
         "Game Line": "Vampire: The Requiem",
@@ -1641,7 +1641,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Into the Void",
+        "Name": "Into the Void",
         "Description": "",
         "Date": "05/11",
         "Game Line": "Vampire: The Requiem",
@@ -1650,7 +1650,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "LoP",
-        "Title": "Lines of Power",
+        "Name": "Lines of Power",
         "Description": "",
         "Date": "03/08",
         "Game Line": "Mage: The Awakening",
@@ -1659,7 +1659,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "MWO",
-        "Title": "Murder Will Out",
+        "Name": "Murder Will Out",
         "Description": "",
         "Date": "01/09",
         "Game Line": "HTV Slasher",
@@ -1668,7 +1668,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The New Kid",
+        "Name": "The New Kid",
         "Description": "",
         "Date": "05/08",
         "Game Line": "WoD Innocents",
@@ -1677,7 +1677,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Nightmare on Hill Manor",
+        "Name": "Nightmare on Hill Manor",
         "Description": "",
         "Date": "06/11",
         "Game Line": "World of Darkness",
@@ -1686,7 +1686,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Parlor Games",
+        "Name": "Parlor Games",
         "Description": "",
         "Date": "01/07",
         "Game Line": "Werewolf: The Forsaken",
@@ -1695,7 +1695,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "Pater",
-        "Title": "Paterfamilias",
+        "Name": "Paterfamilias",
         "Description": "",
         "Date": "02/10",
         "Game Line": "VTR Requiem for Rome",
@@ -1704,7 +1704,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Reap the Whirlwind",
+        "Name": "Reap the Whirlwind",
         "Description": "",
         "Date": "06/13",
         "Game Line": "Vampire: The Requiem",
@@ -1713,7 +1713,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "The Resurrectionists",
+        "Name": "The Resurrectionists",
         "Description": "",
         "Date": "01/07",
         "Game Line": "Vampire: The Requiem",
@@ -1722,7 +1722,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "tRBP",
-        "Title": "The Rose-Bride's Plight",
+        "Name": "The Rose-Bride's Plight",
         "Description": "",
         "Date": "10/08",
         "Game Line": "Changeling: The Lost",
@@ -1731,7 +1731,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "RoU",
-        "Title": "Ruins of Ur",
+        "Name": "Ruins of Ur",
         "Description": "",
         "Date": "07/08",
         "Game Line": "WoD Dogs of War",
@@ -1740,7 +1740,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Scenes of Frenzy",
+        "Name": "Scenes of Frenzy",
         "Description": "",
         "Date": "07/07",
         "Game Line": "Vampire: The Requiem",
@@ -1749,7 +1749,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Scenes of the Embrace",
+        "Name": "Scenes of the Embrace",
         "Description": "",
         "Date": "01/11",
         "Game Line": "Vampire: The Requiem",
@@ -1758,7 +1758,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "Spf",
-        "Title": "Spearfinger",
+        "Name": "Spearfinger",
         "Description": "",
         "Date": "01/09",
         "Game Line": "HTV Witch Finders",
@@ -1767,7 +1767,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "SAS Guidebook",
+        "Name": "SAS Guidebook",
         "Description": "",
         "Date": "02/08",
         "Game Line": "Storyteller Adventure System",
@@ -1776,7 +1776,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "To The Flame",
+        "Name": "To The Flame",
         "Description": "",
         "Date": "08/08",
         "Game Line": "Promethean: The Created",
@@ -1785,7 +1785,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "",
-        "Title": "Through the Ebon Gate",
+        "Name": "Through the Ebon Gate",
         "Description": "",
         "Date": "12/09",
         "Game Line": "Geist: The Sin-Eaters",
@@ -1794,7 +1794,7 @@ export const ModulesBooksData = [
     },
     {
         "Code Name": "UtS",
-        "Title": "Under the Skin",
+        "Name": "Under the Skin",
         "Description": "",
         "Date": "02/09",
         "Game Line": "HTV Spirit Slayers",

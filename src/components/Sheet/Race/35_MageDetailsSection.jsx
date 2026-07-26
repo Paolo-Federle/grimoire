@@ -4,7 +4,7 @@ import { SelectInput } from "../Common/35_SelectInput";
 import { TextInput } from "../Common/35_TextInput";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
-import { getSpellByTitle, getSpellDetailPath, getSpellOptionsForArcanaLevel } from "../sheetLookupData";
+import { getSpellByTitle, getSpellDetailPath, getSpellOptionsForArcanaLevel } from "../sheetSpellData";
 
 const arcanaOptions = [
   "death",

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import CharacterSheet from "../../components/Sheet/10_CharacterSheet";
 import { PATHS } from "../path";
@@ -17,6 +17,14 @@ export default function SheetEditor() {
   const { sheetId = "" } = useParams();
   const storedSheet = useMemo(() => getStoredSheet(sheetId), [sheetId]);
   const [lastSavedSheet, setLastSavedSheet] = useState(storedSheet);
+  const isMountedRef = useRef(true);
+
+  useEffect(
+    () => () => {
+      isMountedRef.current = false;
+    },
+    []
+  );
 
   useEffect(() => {
     setLastSavedSheet(storedSheet);
@@ -38,7 +46,9 @@ export default function SheetEditor() {
 
   const handleSheetChange = (nextSheetData) => {
     const savedSheet = saveStoredSheet(sheetId, nextSheetData);
-    setLastSavedSheet(savedSheet);
+    if (isMountedRef.current) {
+      setLastSavedSheet(savedSheet);
+    }
   };
 
   return (

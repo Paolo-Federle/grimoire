@@ -40,7 +40,7 @@ export default function SpellDetail({ spell }) {
   return (
     <div className="longTextContainer">
       <h1>
-        {matchedSpell.Titolo} ({matchedSpell.Arcana})
+        {matchedSpell.Name} ({matchedSpell.Arcana})
       </h1>
 
       {renderContentField(matchedSpell.DescrizioneAlta)}

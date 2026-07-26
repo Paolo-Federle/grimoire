@@ -1,6 +1,6 @@
 const spiritOneData = [
     {
-        "Titolo": "Coaxing the Spirits",
+        "Name": "Coaxing the Spirits",
         "Arcana": "Spirit •",
         "DescrizioneAlta": "The mage can whisper to a spirit sleeping within a material object and ask for its aid, making it easier to use the object. The spirit does not awaken, but it does yield its power a bit, allowing the mage to pick a lock easier and faster, carve a wooden statue with more ease and grace, or even drive a car with more facility.",
         "Practice": "Compelling",
@@ -30,7 +30,7 @@ const spiritOneData = [
         "Book": "M:tA 245"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -75,7 +75,7 @@ const spiritOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Exorcist's Eye",
+        "Name": "Exorcist's Eye",
         "Arcana": "Spirit •",
         "DescrizioneAlta": "This spell enables a mage to detect the presence of a possessing entity within a terrestrial being, often to the end of expelling that spirit by means of the “Exorcism” spell, p. 248. Those who are knowledgeable in the ways of the spirit realm may be able to identify what sort of spirit inhabits a given individual, but such information is not necessarily conveyed by this spell.",
         "Practice": "Unveiling",
@@ -96,7 +96,7 @@ const spiritOneData = [
         "Book": "M:tA 245"
     },
     {
-        "Titolo": "Gremlins",
+        "Name": "Gremlins",
         "Arcana": "Spirit •",
         "DescrizioneAlta": "Pilots during World War II told stories about “gremlins,” capricious little imps that caused inexplicable mechanical failures that could be traced to no other source. This spell may not conjure gremlins, but a similar result can be had by subtly whispering to a spirit that slumbers in a material object, coercing it to betray its owner and fail to function properly at a critical moment.",
         "Practice": "Compelling",
@@ -117,7 +117,7 @@ const spiritOneData = [
         "Book": "TotM 72"
     },
     {
-        "Titolo": "Otherworldly Instrument",
+        "Name": "Otherworldly Instrument",
         "Arcana": "Death • + Spirit •",
         "DescrizioneAlta": "The mage simultaneously shapes existing ectoplasm and/or ephemera into simple forms that are identical to both ghosts and spirits and can be interacted with by either. The willworker can create a basic tool for use by a spirit or ghost, such as a bar to use as a lever, a claw hammer for pounding in or removing nails or even a club that the entity could use to attack others of its kind.",
         "Practice": "Compelling",
@@ -138,7 +138,7 @@ const spiritOneData = [
         "Book": "TotM 18"
     },
     {
-        "Titolo": "Second Sight",
+        "Name": "Second Sight",
         "Arcana": "Spirit •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). He can also determine the Strength of the local Gauntlet (see “Gauntlet Strength,” p. 282).",
         "Practice": "Unveiling",
@@ -159,7 +159,7 @@ const spiritOneData = [
         "Book": "M:tA 246"
     },
     {
-        "Titolo": "Spirit Tongue",
+        "Name": "Spirit Tongue",
         "Arcana": "Spirit •",
         "DescrizioneAlta": [
             {
@@ -192,7 +192,7 @@ const spiritOneData = [
 
 const spiritTwoData = [
     {
-        "Titolo": "Analyze Spirit",
+        "Name": "Analyze Spirit",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "The mage can look at a spirit and learn its strengths, weaknesses and some of the powers it possesses.",
         "Practice": "Knowing",
@@ -220,7 +220,7 @@ const spiritTwoData = [
         "Book": "Myst 204"
     },
     {
-        "Titolo": "Communion with the Messenger",
+        "Name": "Communion with the Messenger",
         "Arcana": "Prime ••, Spirit ••",
         "DescrizioneAlta": "The Templar calls out to seek the audience of an “angel” in its literal definition from New Testament Greek as a messenger.",
         "Practice": "Ruling",
@@ -269,7 +269,7 @@ const spiritTwoData = [
         "Book": "MT 89"
     },
     {
-        "Titolo": "Cowing the Spirit",
+        "Name": "Cowing the Spirit",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "A spirit resides within most things, animate or inanimate, most of which sleep soundly, only vaguely understanding what transpires around them. With rudimentary training in the mystic arts of the Shadow, a willworker can encourage such an entity to stir for just a moment, aiding in the task for which the instrument that houses the spirit was crafted. With slightly greater skill, one might frighten such a spirit away from its appointed duty, turning an otherwise trustworthy piece of equipment astray.",
         "Practice": "Ruling",
@@ -290,7 +290,7 @@ const spiritTwoData = [
         "Book": "AA 187"
     },
     {
-        "Titolo": "Ephemeral Shield",
+        "Name": "Ephemeral Shield",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "The mage protects himself with ephemeral armor that defends against physical attacks or attacks made by ephemeral entities.",
         "Practice": "Shielding",
@@ -315,7 +315,7 @@ const spiritTwoData = [
         "Book": "M:tA 246"
     },
     {
-        "Titolo": "Gossamer Touch",
+        "Name": "Gossamer Touch",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "Through the casting of this spell, the mage gains the power to physically interact with spirits and spiritual things in the Twilight state, as the Death 2 “Touch of the Grave” spell, p. 138. She can also touch spirits and be touched in turn by any nearby spirit. She cannot affect ghosts or affect mental projections (she needs the Death and Mind Arcana, respectively, for those effects).",
         "Practice": "Ruling",
@@ -330,7 +330,7 @@ const spiritTwoData = [
         "Book": "M:tA 247"
     },
     {
-        "Titolo": "Grant the Second Sight",
+        "Name": "Grant the Second Sight",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "This is as the Spirit 1 “Second Sight” spell, p. 246, except that the mage casts it upon another mage or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -351,7 +351,7 @@ const spiritTwoData = [
         "Book": "M:tA 247"
     },
     {
-        "Titolo": "Invitation to the Orishas",
+        "Name": "Invitation to the Orishas",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "In one of the most basic spells of Santería, an Awakened santero can call down one of the orishas and allow the deity to possess him. The orisha can then use its powers through the mage’s body, dispense godly wisdom...or, unfortunately, wreak punishment on anyone who happens to offend it. Although this rite is considered a sacred act as well as a useful practice, santeros do understand that they risk their lives by trucking with the orishas. But, characteristically, they realize that if they should die while being ridden by an orisha, they have become a great ebbó. Some traditions even hold that if someone dies while being ridden by an orisha, that person can become an orisha.",
         "Practice": "Ruling",
@@ -382,7 +382,7 @@ const spiritTwoData = [
         "Book": "MT 76"
     },
     {
-        "Titolo": "Lesser Spirit Summons",
+        "Name": "Lesser Spirit Summons",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": [
             {
@@ -412,7 +412,7 @@ const spiritTwoData = [
         "Book": "M:tA 247"
     },
     {
-        "Titolo": "Peer Across the Gauntlet",
+        "Name": "Peer Across the Gauntlet",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "The mage can peer across the Gauntlet into the Shadow Realm, the spiritual reflection of the material world. If he is in the Shadow Realm, he can use this spell to peer into the material realm.",
         "Practice": "Unveiling",
@@ -433,7 +433,7 @@ const spiritTwoData = [
         "Book": "M:tA 247"
     },
     {
-        "Titolo": "Place of Power",
+        "Name": "Place of Power",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "The mage can fortify or weaken the Gauntlet at a Hallow.",
         "Practice": "Ruling",
@@ -454,7 +454,7 @@ const spiritTwoData = [
         "Book": "M:tA 247"
     },
     {
-        "Titolo": "Read Spirit",
+        "Name": "Read Spirit",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": [
             {
@@ -484,7 +484,7 @@ const spiritTwoData = [
         "Book": "AA 188"
     },
     {
-        "Titolo": "Soul Jar",
+        "Name": "Soul Jar",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "Certain ancient cultures such as the Egyptians recognized that a soul could be placed within a container to prevent its release back into the cycle of birth and death. This spell creates such a receptacle.",
         "Practice": "Ruling",
@@ -509,7 +509,7 @@ const spiritTwoData = [
         "Book": "M:tA 248"
     },
     {
-        "Titolo": "Spirit Pact",
+        "Name": "Spirit Pact",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": [
             {
@@ -547,7 +547,7 @@ const spiritTwoData = [
         "Book": "TotM 129"
     },
     {
-        "Titolo": "Spiritual Bulwark",
+        "Name": "Spiritual Bulwark",
         "Arcana": "Spirit ••",
         "DescrizioneAlta": "By means of this spell, the mage reduces the efficacy of undesirable non-attack-based Numina targeting him.",
         "Practice": "Shielding",
@@ -571,7 +571,7 @@ const spiritTwoData = [
 
 const spiritThreeData = [
     {
-        "Titolo": "Alien Highway",
+        "Name": "Alien Highway",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage opens a road as in the Spirit 3 spell “Spirit Road,” but instead of crossing the Gauntlet to the Shadow Realm, there is a 25% chance that the road leads to a random spot on earth, a 25% chance of opening into the Abyss, and a 25% chance of opening onto the vastness of outer space. There is, of course, a 25% chance that the spell works exactly as Spirit Road and allows access to the Shadow Realm. The intent of this spell, however, is to open a path that will enable a Banisher to send an alien entity 'home.'",
         "Practice": "Weaving",
@@ -607,7 +607,7 @@ const spiritThreeData = [
         "Book": "Ban 68"
     },
     {
-        "Titolo": "Control Spirit",
+        "Name": "Control Spirit",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage can force a spirit to perform an action. A single, simple command (“Attack!” “Flee!” “Stand there!”) can be issued per success.",
         "Practice": "Ruling",
@@ -628,7 +628,7 @@ const spiritThreeData = [
         "Book": "M:tA 248"
     },
     {
-        "Titolo": "Create Fetish Tattoo",
+        "Name": "Create Fetish Tattoo",
         "Arcana": "Life •• or ••• + Spirit •••",
         "DescrizioneAlta": "The willworker tattoos his flesh (with Life 2), or that of another (with Life 3), with specially prepared ink suitable to serve as the housing for a spirit. While this spell does not actually bind a spirit, when a spirit is eventually bound into the spell, it enters the ink and not the person. Most mages who make use of this spell create the marks as glyphs in High Speech, so as to be usable for a wide variety of spirits. Otherwise, each such being is apt to require a tattoo that specifically honors the being’s nature and purpose (writhing flames for a fire-spirit, or an image of a medicinal plant for one of healing, for example).",
         "Practice": "Patterning",
@@ -660,7 +660,7 @@ const spiritThreeData = [
         "Book": "TotM 73"
     },
     {
-        "Titolo": "Exorcism",
+        "Name": "Exorcism",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage can exorcise a possessing spirit or haunting ghost, forcing it out of the body it possesses or freeing it from its physical fetter.",
         "Practice": "Weaving",
@@ -685,7 +685,7 @@ const spiritThreeData = [
         "Book": "M:tA 248"
     },
     {
-        "Titolo": "Familiar Pact",
+        "Name": "Familiar Pact",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage can forge a personal pact with a familiar.",
         "Practice": "Weaving",
@@ -706,7 +706,7 @@ const spiritThreeData = [
         "Book": "M:tA 249"
     },
     {
-        "Titolo": "Greater Spirit Summons",
+        "Name": "Greater Spirit Summons",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "By means of this spell, a mage can issue a summons to a Shadow Realm spirit of whatever power, known or unknown to her. It is easier and often safer to call known entities, but sometimes mages do not have the luxury of ease or safety.",
         "Practice": "Weaving",
@@ -735,7 +735,7 @@ const spiritThreeData = [
         "Book": "M:tA 249"
     },
     {
-        "Titolo": "Harm Spirit",
+        "Name": "Harm Spirit",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage can damage a spirit’s Corpus.",
         "Practice": "Fraying",
@@ -760,7 +760,7 @@ const spiritThreeData = [
         "Book": "M:tA 249"
     },
     {
-        "Titolo": "Hone the Pack Spirit",
+        "Name": "Hone the Pack Spirit",
         "Arcana": "Song: Bleeding Leviathan) (Spirit •••, Life ••",
         "DescrizioneAlta": [
             {
@@ -823,7 +823,7 @@ const spiritThreeData = [
         "Book": "GoG 57"
     },
     {
-        "Titolo": "Nullify Shadow Resonance",
+        "Name": "Nullify Shadow Resonance",
         "Arcana": "Prime ••• + Spirit •••",
         "DescrizioneAlta": "The Shadow Realm exerts a subtle influence over the material world, every moment of every day. In many cases, this ephemeral connection actually effects the way people act and can even touch their spirits in unquantifiable ways, filling them with hope, fear, understanding, love, honor, or whatever other emotion best encapsulates the dominant emotional fabric of the local Shadow. This resonance can lead people to believe in more than what their eyes reveal to them; aware, on some deep-seated, instinctual level, that wonders and horrors lurk beyond the limits of mundane perceptions. This spell, however, negates Shadow’s rarified leverage over the material realm, significantly reducing its impact upon people and places.",
         "Practice": "Weaving",
@@ -855,7 +855,7 @@ const spiritThreeData = [
         "Book": "SotT 195"
     },
     {
-        "Titolo": "Numinous Shield",
+        "Name": "Numinous Shield",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage creates a personal ward against spirit powers and Numina.",
         "Practice": "Shielding",
@@ -891,7 +891,7 @@ const spiritThreeData = [
         "Book": "M:tA 249"
     },
     {
-        "Titolo": "Otherworldly Armory",
+        "Name": "Otherworldly Armory",
         "Arcana": "Matter ••• + Spirit •••, optional Space •••",
         "DescrizioneAlta": "By calling upon a spirit whose aspect aligns with a particular sort of physical endeavor, the mage can draw the entity through the Gauntlet and shape it into a material form suitable to the task at hand.",
         "Practice": "Weaving",
@@ -927,7 +927,7 @@ const spiritThreeData = [
         "Book": "SL 201"
     },
     {
-        "Titolo": "Reaching",
+        "Name": "Reaching",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": [
             {
@@ -957,7 +957,7 @@ const spiritThreeData = [
         "Book": "M:tA 250"
     },
     {
-        "Titolo": "Restore Corpus",
+        "Name": "Restore Corpus",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage can heal a spirit’s Corpus.",
         "Practice": "Perfecting",
@@ -984,7 +984,7 @@ const spiritThreeData = [
         "Book": "M:tA 250"
     },
     {
-        "Titolo": "Restore Lost Soul",
+        "Name": "Restore Lost Soul",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage can restore a severed or stolen soul. A mage with Death 3 can sever a soul (see “Sever the Sleeping Soul,” p. 141), and certain spirits have powers that allow them to steal souls. The mage must have the soul and its original owner at hand, unless he has a Space 2 sympathetic connection to both (or a Space Portal that transcends distance, allowing him to teleport one to the other). Retrieving the soul might be dangerous, since it usually requires confronting the being that took it and who might have wards protecting it from being snatched away.",
         "Practice": "Weaving",
@@ -1005,7 +1005,7 @@ const spiritThreeData = [
         "Book": "M:tA 250"
     },
     {
-        "Titolo": "Rouse Spirit",
+        "Name": "Rouse Spirit",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The willworker learns how to awaken the dormant spirit slumbering within an object. Such objects or places then gain a measure of sentience that increases with time, use and care. Roused objects can be used to affect beings in Twilight or across the Gauntlet.",
         "Practice": "Weaving",
@@ -1038,7 +1038,7 @@ const spiritThreeData = [
         "Book": "M:tA 250"
     },
     {
-        "Titolo": "Spirit Road",
+        "Name": "Spirit Road",
         "Arcana": "Spirit •••",
         "DescrizioneAlta": "The mage opens a road across the Gauntlet, a lane where he can cross over to the Shadow Realm and where spirits from the Shadow Realm can cross over into the material world (although they are in the state of Twilight unless they can manifest with their own power). The mage cannot stop other beings from using the road unless he works to physically or mystically bar them. In ancient days, it is said, the worlds of spirit and flesh were one and there was no need for such a road. Now, the invisible realms are well hidden from the eyes of ordinary men and only those who understand the secrets of spirits can lower the wall between flesh and spirit.",
         "Practice": "Weaving",
@@ -1074,7 +1074,7 @@ const spiritThreeData = [
         "Book": "M:tA 251"
     },
     {
-        "Titolo": "Spirit Steed",
+        "Name": "Spirit Steed",
         "Arcana": "Spirit ••• or Spirit ••• + Space •• + Fate ••",
         "DescrizioneAlta": "This spell enables a mage to form a pact with a spirit, similar to that created by the Spirit 3 spell “Familiar Pact,” but more limited in scope. In this case, a large (Size 7) spirit agrees to serve as the mage’s steed for the Duration of the spell, bearing her wherever she needs to go.",
         "Practice": "Weaving",
@@ -1106,7 +1106,7 @@ const spiritThreeData = [
         "Book": "AA 188"
     },
     {
-        "Titolo": "Summon Cryptid",
+        "Name": "Summon Cryptid",
         "Arcana": "Life ••• + Space •• + Spirit •••",
         "DescrizioneAlta": "Willworkers interested in seeing the Mothman, the Jersey Devil, the Fiji mermaid, or the Mongolian death worm often find nothing but fanciful tales and badly-crafted fake corpses for their efforts. Those who learn this spell, on the other hand — and who dare to wander into some of the loneliest and remotest places on Earth — sometimes find a great deal more. This spell calls a cryptid out of the Verge or other impossible space in which it dwells.",
         "Practice": "Weaving",
@@ -1131,7 +1131,7 @@ const spiritThreeData = [
         "Book": "Summ 29"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1222,7 +1222,7 @@ const spiritThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "The Divining Spirit",
+        "Name": "The Divining Spirit",
         "Arcana": "Spirit ••• + Time •••",
         "DescrizioneAlta": "The mage summons a greater spirit from the Shadow Realm, likely unknown to her. This spirit is not drawn from the current Shadow Realm, however, but is drawn from the Shadow’s past or future for divinatory purposes.",
         "Practice": "Weaving",
@@ -1279,7 +1279,7 @@ const spiritThreeData = [
 
 const spiritFourData = [
     {
-        "Titolo": "Activate Spirit",
+        "Name": "Activate Spirit",
         "Arcana": "Prime •••• + Spirit ••••",
         "DescrizioneAlta": "There is a story of Jascei, a holy man who gained wisdom by studying the motions of the stars from atop the highest mountain on the island of Atlantis. This sage often had cause to call upon the small gods of the world in the pursuit of his sacred task. On occasion, he would borrow their miraculous abilities directly rather than trusting in such beings to interpret the will of a man of Atlantis. While his ability to direct the powers of the otherworldly could not save him from the Fall, it is said that he called upon many spirits at the end, even as his temple fell down around him, to scatter his decades of compiled lore to the far corners of the Earth that they should be discovered again in time.",
         "Practice": "Patterning",
@@ -1304,7 +1304,7 @@ const spiritFourData = [
         "Book": "GoG 109"
     },
     {
-        "Titolo": "Bind Spirit",
+        "Name": "Bind Spirit",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage can bind a spirit into the material world. In some cases, this means tying the creature to a given location (which may be a form of imprisonment or even torture). When undertaken with indefinite Duration (with Spirit 5), this spell can confine a being to a place forever (usually somewhere out of the way and well guarded against intrusion), unless it is freed by other magics.",
         "Practice": "Patterning",
@@ -1325,7 +1325,7 @@ const spiritFourData = [
         "Book": "M:tA 251"
     },
     {
-        "Titolo": "Create Fetish",
+        "Name": "Create Fetish",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage invites or compels a spirit to inhabit an object and lend its powers to that object in the form of a fetish. Such beings (for those who care about such things) often wish to be placed within an object somehow appropriate to their nature, and grant use of their Numina to whomever holds the object in question. Thus, a fire-spirit may inhabit a dagger of obsidian, or a healing-spirit could possess a container meant for holding water. The spirit still uses its own Essence to fuel its powers and can lapse into slumber if overtaxed. A spirit forced into a fetish rails to be set free, cries that can be heard by any with active Spirit senses.",
         "Practice": "Patterning",
@@ -1358,7 +1358,7 @@ const spiritFourData = [
         "Book": "M:tA 252"
     },
     {
-        "Titolo": "Essence Gift",
+        "Name": "Essence Gift",
         "Arcana": "Spirit •••• + Prime ••••",
         "DescrizioneAlta": "The mage can convert Mana into Essence and channel it into a spirit.",
         "Practice": "Patterning",
@@ -1379,7 +1379,7 @@ const spiritFourData = [
         "Book": "M:tA 252"
     },
     {
-        "Titolo": "Goetic Evocation",
+        "Name": "Goetic Evocation",
         "Arcana": "Spirit •••• + Mind ••••",
         "DescrizioneAlta": "The mage manifests a denizen of his own psyche, his repressed or unsavory urges given form as an ephemeral entity in Twilight.",
         "Practice": "Patterning",
@@ -1429,7 +1429,7 @@ const spiritFourData = [
         "Book": "M:tA 324"
     },
     {
-        "Titolo": "Grant Familiar",
+        "Name": "Grant Familiar",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage can forge a pact with a familiar for another mage. This is how most inexperienced mages (those who begin play with the Familiar Merit) get such helpmates.",
         "Practice": "Patterning",
@@ -1450,7 +1450,7 @@ const spiritFourData = [
         "Book": "M:tA 253"
     },
     {
-        "Titolo": "Living Land",
+        "Name": "Living Land",
         "Arcana": "Spirit ••••, Fate ••",
         "Practice": "Patterning",
         "Action": "Extended",
@@ -1474,7 +1474,7 @@ const spiritFourData = [
         "Book": "GoG 69"
     },
     {
-        "Titolo": "Medicine Bag",
+        "Name": "Medicine Bag",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage can create an object that can store Essence.",
         "Practice": "Patterning",
@@ -1499,7 +1499,7 @@ const spiritFourData = [
         "Book": "M:tA 253"
     },
     {
-        "Titolo": "Outer Channel",
+        "Name": "Outer Channel",
         "Arcana": "Space •••• + Spirit ••••",
         "DescrizioneAlta": "Similar to Spirit Road, the mage opens a channel between this world and the outer realms, piercing the Gauntlet and the mage’s own Wisdom to do so. It is not a sane act, not by any means, opening a road that would allow a quincunx entity (or any other mad being) through.",
         "Practice": "Weaving",
@@ -1527,7 +1527,7 @@ const spiritFourData = [
         "Book": "Summ 144"
     },
     {
-        "Titolo": "Road Master",
+        "Name": "Road Master",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage can control access to the Spirit Roads he creates to cross the Gauntlet, as described in 'Spirit Road' (p. 251). He can also choose to cross the Gauntlet on his own without creating a Spirit Road.",
         "Practice": "Patterning",
@@ -1552,7 +1552,7 @@ const spiritFourData = [
         "Book": "M:tA 254"
     },
     {
-        "Titolo": "Sacramental Chain",
+        "Name": "Sacramental Chain",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage can channel Essence from a spirit or locus (or a Medicine Bag) and give it to another spirit or place it into something that can hold it.",
         "Practice": "Patterning",
@@ -1577,7 +1577,7 @@ const spiritFourData = [
         "Book": "M:tA 253"
     },
     {
-        "Titolo": "Spirit Guardian",
+        "Name": "Spirit Guardian",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "This spell enables a mage to bind a spirit guardian to a person, object or place. The entity watches over its charge to the best of its ability, protecting the subject with the powers available to it. While weak spirits have few powers to offer, they are easy to bind. While strong spirits are difficult to fetter with this spell, they usually have many capabilities to bring to bear.",
         "Practice": "Patterning",
@@ -1598,7 +1598,7 @@ const spiritFourData = [
         "Book": "M:tA 253"
     },
     {
-        "Titolo": "Spirit Possession",
+        "Name": "Spirit Possession",
         "Arcana": "Spirit ••••",
         "DescrizioneAlta": "The mage can cause a spirit to possess a living creature’s body.",
         "Practice": "Patterning",
@@ -1630,7 +1630,7 @@ const spiritFourData = [
         "Book": "M:tA 253"
     },
     {
-        "Titolo": "Spiritual Ascension",
+        "Name": "Spiritual Ascension",
         "Arcana": "“Unwinding Fleshly Bonds“) (Life •••• + Spirit ••••",
         "RoteDice": "Intelligence + Occult + Life",
         "RoteDescrizione": [
@@ -1650,7 +1650,7 @@ const spiritFourData = [
 
 const spiritFiveData = [
     {
-        "Titolo": "Control Gauntlet",
+        "Name": "Control Gauntlet",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "The mage can increase or decrease the Gauntlet’s Strength as per the Spirit 2 “Place of Power” spell, p. 248, but without the need for a Hallow. The local Gauntlet can be made nonexistent or nigh impermeable.",
         "Practice": "Making",
@@ -1665,7 +1665,7 @@ const spiritFiveData = [
         "Book": "M:tA 254"
     },
     {
-        "Titolo": "Dragon's Call",
+        "Name": "Dragon's Call",
         "Arcana": "Spirit ••••• + Prime •••••",
         "DescrizioneAlta": "The mage meditates at a powerful Hallow, reaching across the Abyss to the Supernal Realm of her Awakening, and calls forth one of the dragons. To do so, the character must speak in the tongue of the dragons (which is one reason that Llana does not allow nonmembers to witness this spell in progress). The mage is free to request a specific dragon, but any dragon can use the path thus created. The dragon rides the pathway through the Abyss and into the Fallen World, emerging from the Hallow to speak with the mage.",
         "Practice": "Making",
@@ -1693,7 +1693,7 @@ const spiritFiveData = [
         "Book": "KST 149"
     },
     {
-        "Titolo": "Invoke Twilight",
+        "Name": "Invoke Twilight",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "The mage creates a state of Twilight in an astral realm where there is none.",
         "Practice": "Making",
@@ -1718,7 +1718,7 @@ const spiritFiveData = [
         "Book": "AR 29"
     },
     {
-        "Titolo": "Materialize Spirit",
+        "Name": "Materialize Spirit",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "The mage can cause a spirit (including a ghost) to materialize. A spirit that cannot normally incarnate may be given physical substance by way of this spell. (A spirit with the power to manifest can be compelled to do so with the “Control Spirit” spell, p. 248.)",
         "Practice": "Making",
@@ -1739,7 +1739,7 @@ const spiritFiveData = [
         "Book": "M:tA 254"
     },
     {
-        "Titolo": "Secret Marriage",
+        "Name": "Secret Marriage",
         "Arcana": "Death ••••• or Spirit •••••",
         "DescrizioneAlta": "The mage installs a willing ghost or spirit in a protohomunculus, giving the subject a lasting body in the Material Realm.",
         "Practice": "Making",
@@ -1784,7 +1784,7 @@ const spiritFiveData = [
         "Book": "TotM 152"
     },
     {
-        "Titolo": "Shadow Slave",
+        "Name": "Shadow Slave",
         "Arcana": "Spirit ••••• + Death •••",
         "DescrizioneAlta": "This gruesome spell infuses conjured shadows (using the Death Arcanum) with an animating spirit, a soul spun of ephemera, and binds the grim creation to the caster’s will. Some mages choose to stuff a corpse with these oozing shadows, animating the inert flesh with living darkness, while others use no crude mortal shell to contain the roiling blackness.",
         "Practice": "Making",
@@ -1805,7 +1805,7 @@ const spiritFiveData = [
         "Book": "M:tA 255"
     },
     {
-        "Titolo": "Shape Spirit",
+        "Name": "Shape Spirit",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "The mage can create or fundamentally alter a spirit. She can generate a spirit out of free-floating ephemera or so alter an extant spirit as to make it a new entity, one (should the caster wish it) possessed of appearance, mindset, traits and powers so distinct from the original as to be indiscernible as what it once was by any who did not witness the transformation.",
         "Practice": "Making or Unmaking",
@@ -1852,7 +1852,7 @@ const spiritFiveData = [
         "Book": "M:tA 255"
     },
     {
-        "Titolo": "Spirit Court",
+        "Name": "Spirit Court",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "This spell enables a mage to create a spirit court of her own, one in which she is the ranking “spirit noble.” The court can be filled with its own courtiers, enforcers, spies, hangers-on and such.",
         "Practice": "Making",
@@ -1881,7 +1881,7 @@ const spiritFiveData = [
         "Book": "M:tA 255"
     },
     {
-        "Titolo": "Spirit Manse",
+        "Name": "Spirit Manse",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "The mage creates a sanctum in the Shadow Realm.",
         "Practice": "Making",
@@ -1915,7 +1915,7 @@ const spiritFiveData = [
         "Book": "M:tA 256"
     },
     {
-        "Titolo": "Summon Royal Avatar",
+        "Name": "Summon Royal Avatar",
         "Arcana": "Spirit •••••",
         "DescrizioneAlta": "Since the most ancient times, mages have aspired to commune with the gods. Indeed, in ancient Atlantis, the Ladder to Heaven was constructed for the very purpose of converse with the powers that moved (and were, in turn moved by) the most expansive processes of the cosmos. The Celestial Ladder is gone, but beings still dwell within the Fallen World possessed of such immense power as to be considered divinities in their own right. Masters of the Spirit Arcanum who wish to have contact with such entities make use of this spell to do so.",
         "Practice": "Making",

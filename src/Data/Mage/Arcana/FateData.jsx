@@ -1,6 +1,6 @@
 const fateOneData = [
     {
-        "Titolo": "Aim for the Dead",
+        "Name": "Aim for the Dead",
         "Arcana": "Fate •, Space •, Death •",
         "DescrizioneAlta": "The mage excels at striking specific targets on an undead creature’s body.",
         "Practice": "Knowing",
@@ -21,7 +21,7 @@ const fateOneData = [
         "Book": "Ban 56"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -59,7 +59,7 @@ const fateOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Friendly Face",
+        "Name": "Friendly Face",
         "Arcana": "Fate •",
         "DescrizioneAlta": "Practitioners of Fate can discern a great deal of knowledge, if they know where to look or whom to ask. Using this spell, Initiates of Fate can determine to what realm they should look when seeking to summon assistance for the matter at hand.",
         "Practice": "Knowing",
@@ -89,7 +89,7 @@ const fateOneData = [
         "Book": "Summ 208"
     },
     {
-        "Titolo": "Interconnections",
+        "Name": "Interconnections",
         "Arcana": "Fate •",
         "DescrizioneAlta": "This spell reveals themes and interconnections between people, places and things. In other words, the caster can read the degree of sympathetic connection between subjects. The mage can also sense manipulations of destiny and their causes. This ability extends to any supernatural effect that will or might result in a person’s destiny unfolding in a manner different from that in which it is “meant” to.",
         "Practice": "Knowing",
@@ -143,7 +143,7 @@ const fateOneData = [
         "Book": "M:tA 148"
     },
     {
-        "Titolo": "Quantum Flux",
+        "Name": "Quantum Flux",
         "Arcana": "Fate •",
         "DescrizioneAlta": "The mage reads probability and compensates for deleterious factors. At this level of expertise, she can only mitigate or negate those small factors that add up against her (the crooked house dealer suddenly realizes that he didn’t stack the deck quite as well as he had originally imagined, for example), rather than actively setting events in her favor. Most mages who read possibilities in this way have a preference for either determinism or chaos, but there are quite a few who do not care to put their own spin on the matter and take such things at face value.",
         "Practice": "Compelling",
@@ -168,7 +168,7 @@ const fateOneData = [
         "Book": "M:tA 148"
     },
     {
-        "Titolo": "Reading the Outermost Eddies",
+        "Name": "Reading the Outermost Eddies",
         "Arcana": "Fate •",
         "DescrizioneAlta": "Some twists of fate and fortune are too small and insignificant to warrant much in the way of prophetic powers. Destiny rarely hinges upon a coin toss, though a hundred bucks could ride on one. Some believe that this spell creates a small manipulation of chance, while others maintain that it just gives a mage an idea of what’s coming next. In either case, the results are the same. The caster knows the outcome of some small random (or mostly random) action in her immediately vicinity. Thus, she may know from which roll of scratch-tickets to get her Lottery ticket in order to win something (not necessarily the grand prize, but definitely $20). The spell cannot bring about a life-altering change. Nor can it be used to change the probability of an event already set in motion. (A mage couldn’t use the spell on a scratch-ticket she’d already bought, but must use it before buying one ticket out of many.) Nor may the spell create any chance that an impossibility will come to pass. Those who attempt to use the spell repeatedly to build up to a life-altering change (buying ten thousand $20 winning tickets over the course of one week) often find themselves punished by fortune, subject to all manner of ill luck.",
         "Practice": "Compelling",
@@ -193,7 +193,7 @@ const fateOneData = [
         "Book": "M:tA 149"
     },
     {
-        "Titolo": "Sharpshooter's Eye",
+        "Name": "Sharpshooter's Eye",
         "Arcana": "Fate • + Space • and Life or Matter •",
         "DescrizioneAlta": "In driving rain, at night, aiming at the smallest of moving targets, the willworker armed with this spell might just make a shot if her skill is sufficient for the task. This magic eliminates all of the minor random factors that conspire against ranged attacks, while giving the mage a flawless lock on an object or living creature within her normal line of sight. It cannot be used to shoot around corners, but it can be used to shoot a hummingbird out of the air or to put a hole directly through the middle of a playing card flicked up into the air.",
         "Practice": "Knowing",
@@ -222,7 +222,7 @@ const fateOneData = [
         "Book": "M:tA 149"
     },
     {
-        "Titolo": "Sacrifice Fortune",
+        "Name": "Sacrifice Fortune",
         "Arcana": "Fate •",
         "DescrizioneAlta": "The mage may forgo what would otherwise be an impressive success, pooling magical energy that may later be used to relinquish control over a finishing spell.",
         "Practice": "Compelling",
@@ -251,7 +251,7 @@ const fateOneData = [
         "Book": "TotM 131"
     },
     {
-        "Titolo": "Study Final Name",
+        "Name": "Study Final Name",
         "Arcana": "Fate • + Death •",
         "DescrizioneAlta": "The mage can read a recorded Final Name and understand its nature. She drinks in the knowledge that this Final Name contains, the summation of all that its owner was.",
         "Practice": "Unveiling",
@@ -301,7 +301,7 @@ const fateOneData = [
         "Book": "L:tS 101"
     },
     {
-        "Titolo": "Synchronicity",
+        "Name": "Synchronicity",
         "Arcana": "Fate •",
         "DescrizioneAlta": [
             {
@@ -339,7 +339,7 @@ const fateOneData = [
         "Book": "TotM 60"
     },
     {
-        "Titolo": "The Sybil's Sight",
+        "Name": "The Sybil's Sight",
         "Arcana": "Fate •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). He detects the particular qualities a given mystic force has in its interactions with fate. Many describe the result as a “thickness” or “gravity,” a tangling of threads.",
         "Practice": "Unveiling",
@@ -360,7 +360,7 @@ const fateOneData = [
         "Book": "M:tA 149"
     },
     {
-        "Titolo": "Winds of Chance",
+        "Name": "Winds of Chance",
         "Arcana": "Fate •",
         "DescrizioneAlta": "The mage can evade or attract good or ill fortune. Generally speaking, this effect is more a roleplaying consideration than anything else. If the willworker wants to find someone interesting to share a beer with on a Saturday night, such a person happens to ask, “In this seat taken?” in a crowded bar. Likewise, she could make someone’s morning commute a waking nightmare, causing him to get splashed by a passing car, harassed by an utter nutcase on the bus, and defecated on by a low-flying pigeon as he walks in the door 45 minutes late.",
         "Practice": "Compelling",
@@ -378,7 +378,7 @@ const fateOneData = [
 
 const fateTwoData = [
     {
-        "Titolo": "Deathless Oath",
+        "Name": "Deathless Oath",
         "Arcana": "Death •••• + Fate ••",
         "DescrizioneAlta": "Last Days of Atlantis tells of Khadarmas, a valiant warrior of the Dragon’s Talon, who even unto the very crumbling of the high towers of Atlantis, refused to relent in the pursuit of his sworn duty. He escorted many people to the shores, to an awaiting craft that ferried the refugees to safety. It was the potter, Seddu, who first noticed the shard of stone, clearly from the shattered remains of the ziggurat upon which rested the Ladder to Heaven itself, embedded in Khadarmas’ side, and the trail of blood that had long since stopped flowing from the wound. So great was the soldier’s devotion to his people, however, that even his death could not prevent him from saving lives, until at last, Khadarmas, too, was swallowed by the waves, bidden a tearful farewell by those he had given his life to rescue from Atlantis’ doom.",
         "Practice": "Ruling",
@@ -399,7 +399,7 @@ const fateTwoData = [
         "Book": "GoG 110"
     },
     {
-        "Titolo": "Dialing the Lucky Number",
+        "Name": "Dialing the Lucky Number",
         "Arcana": "Fate •• + Forces •• + Space ••",
         "DescrizioneAlta": [
             {
@@ -433,7 +433,7 @@ const fateTwoData = [
         "Book": "FC 105"
     },
     {
-        "Titolo": "Exceptional Luck",
+        "Name": "Exceptional Luck",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "The mage’s endeavors are blessed with exceptional luck that defies the odds.",
         "Practice": "Ruling",
@@ -458,7 +458,7 @@ const fateTwoData = [
         "Book": "M:tA 151"
     },
     {
-        "Titolo": "Fate's Justice",
+        "Name": "Fate's Justice",
         "Arcana": "Fate •• + Mind •• + Time ••",
         "DescrizioneAlta": "“As a man sows, so shall he reap,” the saying goes, and willworkers weave the threads of Fate to ensure such things come to pass. This spell preemptively invokes Fate to curse the subject of the spell immediately before the subject takes a particular action, usually a hostile action against someone (such as the caster). The power of the spell then intervenes to frustrate the attempt and bring ill-fortune on the would-be perpetrator.",
         "Practice": "Ruling",
@@ -483,7 +483,7 @@ const fateTwoData = [
         "Book": "FC 106"
     },
     {
-        "Titolo": "Fortunate Timing",
+        "Name": "Fortunate Timing",
         "Arcana": "Fate •• + Time •",
         "DescrizioneAlta": [
             {
@@ -513,7 +513,7 @@ const fateTwoData = [
         "Book": "FC 106"
     },
     {
-        "Titolo": "Fortune's Protection",
+        "Name": "Fortune's Protection",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "The caster weaves a web of probability about herself, ensuring that attacks are unlikely to affect her. She “just happens” to stumble at the right moment, causing a bullet to miss her, or she unthinkingly turns just the right way so that a knife slides off her jacket rather than piercing it.",
         "Practice": "Shielding",
@@ -534,7 +534,7 @@ const fateTwoData = [
         "Book": "M:tA 152"
     },
     {
-        "Titolo": "Grant the Sybil's Sight",
+        "Name": "Grant the Sybil's Sight",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "As the Fate 1 'Sybil's Sight' spell, except that the mage casts this upon another mage, or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -555,7 +555,7 @@ const fateTwoData = [
         "Book": "M:tA 152"
     },
     {
-        "Titolo": "Heroic Effort",
+        "Name": "Heroic Effort",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "Sometimes, a person just has to give a desperate situation her all. Usually, it’s not enough to make a difference, but sometimes — just sometimes — she manages to pull off the one-in-a-million stunt that saves the day. Of course, those with the power to manipulate the odds are often a little less hesitant about jumping into such “hopeless situations.”",
         "Practice": "Ruling",
@@ -576,7 +576,7 @@ const fateTwoData = [
         "Book": "AA 175"
     },
     {
-        "Titolo": "Loyal Possession",
+        "Name": "Loyal Possession",
         "Arcana": "Fate •• + Mind ••",
         "DescrizioneAlta": "Mages often become quite attached to certain possessions and want to ensure they don’t become permanently lost. This spell helps to do just that.",
         "Practice": "Ruling",
@@ -613,7 +613,7 @@ const fateTwoData = [
         "Book": "FC 107"
     },
     {
-        "Titolo": "Platonic Mechanism",
+        "Name": "Platonic Mechanism",
         "Arcana": "Fate ••",
         "DescrizioneAlta": [
             {
@@ -655,7 +655,7 @@ const fateTwoData = [
         "Book": "M:tA 152"
     },
     {
-        "Titolo": "Querulous Minds",
+        "Name": "Querulous Minds",
         "Arcana": "Fate •• + Prime •",
         "DescrizioneAlta": "By reading the fates around him, a mage can detect those Sleepers who have had an experience with the supernatural.",
         "Practice": "Unveiling",
@@ -685,7 +685,7 @@ const fateTwoData = [
         "Book": "GotV 187"
     },
     {
-        "Titolo": "Reveal Enigmas",
+        "Name": "Reveal Enigmas",
         "Arcana": "Fate ••, Mind ••, and possibly Matter •",
         "DescrizioneAlta": "This spell finds both uncovers patterns and temporarily enhances the mage’s mind to allow the mage to understand these patterns, allowing him to solve complex puzzles and learn the answer to various secrets that are hidden inside such patterns and puzzles. This spell can provide the answer to any puzzle that can be solved with an instant action. If used to solve a physical mystery, such as how to put together a jigsaw puzzle or the combination of a safe, this spell also requires Matter •.",
         "Practice": "Unveiling",
@@ -706,7 +706,7 @@ const fateTwoData = [
         "Book": "Myst 193"
     },
     {
-        "Titolo": "Scribe Final Name",
+        "Name": "Scribe Final Name",
         "Arcana": "Fate •• + Death •",
         "DescrizioneAlta": "The mage captures a Final Name in a solid, physical form, allowing it to be both preserved and studied.",
         "Practice": "Ruling",
@@ -727,7 +727,7 @@ const fateTwoData = [
         "Book": "L:tS 101"
     },
     {
-        "Titolo": "Shifting the Odds",
+        "Name": "Shifting the Odds",
         "Arcana": "Fate ••",
         "DescrizioneAlta": [
             {
@@ -761,7 +761,7 @@ const fateTwoData = [
         "Book": "M:tA 153"
     },
     {
-        "Titolo": "Sniffing the Winds of Fate",
+        "Name": "Sniffing the Winds of Fate",
         "Arcana": "Fate •• + Death ••",
         "DescrizioneAlta": [
             {
@@ -799,7 +799,7 @@ const fateTwoData = [
         "Book": "GotV 187"
     },
     {
-        "Titolo": "Swearing an Oath",
+        "Name": "Swearing an Oath",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "The mage learns the basics of binding oaths, acquiring the ability to swear such an oath (effectively declaring her intentions officially to Creation). The metaphysical weight of her vow is small and has little momentum, but such an oath can turn the tide in a mage’s darkest moments, being the deciding factor that transforms disaster into victory.",
         "Practice": "Ruling",
@@ -824,7 +824,7 @@ const fateTwoData = [
         "Book": "M:tA 153"
     },
     {
-        "Titolo": "The Evil Eye",
+        "Name": "The Evil Eye",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "This spell is a basic curse intended to bring about immediate ill-fortune upon another. In ancient times, such a working was almost always undertaken by way of physically staring at the one to be cursed, directing a baleful glare at him and thereby hexing his actions. Now, it may be directed through less obvious means, but many mages still prefer the old-fashioned aspect.",
         "Practice": "Ruling",
@@ -853,7 +853,7 @@ const fateTwoData = [
         "Book": "M:tA 151"
     },
     {
-        "Titolo": "The Perfect Moment",
+        "Name": "The Perfect Moment",
         "Arcana": "Fate ••",
         "DescrizioneAlta": [
             {
@@ -887,7 +887,7 @@ const fateTwoData = [
         "Book": "M:tA 152"
     },
     {
-        "Titolo": "Zone of Extremity",
+        "Name": "Zone of Extremity",
         "Arcana": "Fate ••",
         "DescrizioneAlta": "The mage alters probability, so that all mundane actions with uncertain outcomes resolve themselves as either triumphs or disasters.",
         "Practice": "Ruling",
@@ -948,7 +948,7 @@ const fateTwoData = [
 
 const fateThreeData = [
     {
-        "Titolo": "Alter Oath",
+        "Name": "Alter Oath",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage can alter the terms and conditions of a Fate-based oath. Note that a mage trying to get another to alter the tenets of an oath can easily constitute intent to violate said vow (and therefore subject the mage to the deleterious effects of breaking an oath).",
         "Practice": "Weaving",
@@ -977,7 +977,7 @@ const fateThreeData = [
         "Book": "M:tA 154"
     },
     {
-        "Titolo": "Alternate Scenerio",
+        "Name": "Alternate Scenerio",
         "Arcana": "Fate •••, Time •••",
         "DescrizioneAlta": "The mage splits across multiple time streams, coalescing into one person at the most favorable version of events.",
         "Practice": "Weaving",
@@ -1014,7 +1014,7 @@ const fateThreeData = [
         "Book": "GoG 57"
     },
     {
-        "Titolo": "Bad Penny",
+        "Name": "Bad Penny",
         "Arcana": "Fate •••",
         "DescrizioneAlta": [
             {
@@ -1052,7 +1052,7 @@ const fateThreeData = [
         "Book": "TotM 136"
     },
     {
-        "Titolo": "Bestow Exceptional Luck",
+        "Name": "Bestow Exceptional Luck",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "As with the Fate 2 “Exceptional Luck” spell, p. 151, except that the mage can give others the 9-again quality for one or more rolls.",
         "Practice": "Weaving",
@@ -1067,7 +1067,7 @@ const fateThreeData = [
         "Book": "M:tA 155"
     },
     {
-        "Titolo": "Blessing",
+        "Name": "Blessing",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage shields a target from harm for a short time. The target doesn’t avoid harm through obvious magical intervention but through lucky coincidence. For instance, the target might suddenly decide to drive home by a different route, thus avoiding a traffic accident that might otherwise have claimed his life.",
         "Practice": "Weaving",
@@ -1129,7 +1129,7 @@ const fateThreeData = [
         "Book": "TotM 61"
     },
     {
-        "Titolo": "Cursed Object",
+        "Name": "Cursed Object",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage imbues an item with bad luck, which rubs off on its primary owner or user.",
         "Practice": "Weaving",
@@ -1158,7 +1158,7 @@ const fateThreeData = [
         "Book": "TotM 136"
     },
     {
-        "Titolo": "Eleggua's Notice",
+        "Name": "Eleggua's Notice",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "A santero who is menaced or even annoyed by a rival can try and attract the notice of Elegguá, the trickster god, onto the enemy. Elegguá, once his notice is drawn, watches over the mage, making sure if his rival menaces him directly, the rival suffers for it.",
         "Practice": "Fraying",
@@ -1192,7 +1192,7 @@ const fateThreeData = [
         "Book": "MT 75"
     },
     {
-        "Titolo": "Fabricate Fortune",
+        "Name": "Fabricate Fortune",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "This spell creates a false destiny upon a person or thing. The mage can make a given thing seem destined to come to pass, even if none of the momentum of destiny is behind it, deceiving others with the power to perceive fortune. A dagger seems destined to slay a king or a child looks to cursory Fate sensing to be the Antichrist.",
         "Practice": "Veiling",
@@ -1217,7 +1217,7 @@ const fateThreeData = [
         "Book": "M:tA 155"
     },
     {
-        "Titolo": "Grant Fortune's Protection",
+        "Name": "Grant Fortune's Protection",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "As with the Fate 2 “Fortune Protection” spell, above, but the mage can now cast this upon others.",
         "Practice": "Shielding",
@@ -1232,7 +1232,7 @@ const fateThreeData = [
         "Book": "M:tA 155"
     },
     {
-        "Titolo": "Instill Malediction",
+        "Name": "Instill Malediction",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage relinquishes a finishing spell without sacrificing a Willpower point. Instead, the willworker accomplishes the relinquishment by making the Enchanted Item a focus for unspecified future ill-fortune. This spell may not be used to relinquish control over curse spells.",
         "Practice": "Fraying",
@@ -1314,7 +1314,7 @@ const fateThreeData = [
         "Book": "TotM 130"
     },
     {
-        "Titolo": "Lucky Coin",
+        "Name": "Lucky Coin",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage learns how to interact with a lifeless object, bringing fortune to bear upon it. By touching the destiny of an object, the mage fortifies its ability to perform the tasks for which it was designed.",
         "Practice": "Perfecting",
@@ -1339,7 +1339,7 @@ const fateThreeData = [
         "Book": "M:tA 155"
     },
     {
-        "Titolo": "Monkey's Paw",
+        "Name": "Monkey's Paw",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage learns how to bring bad fortune onto lifeless objects, similar to how he can cause luck with “Lucky Coin,” above, bringing fortune to bear upon them. For example, a car just won’t work right (when it works at all), or an enraged wife murders her spouse with an unlucky paperweight.",
         "Practice": "Fraying",
@@ -1364,7 +1364,7 @@ const fateThreeData = [
         "Book": "M:tA 155"
     },
     {
-        "Titolo": "Occlude Destiny",
+        "Name": "Occlude Destiny",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage prevents outside powers from perceiving or tampering with a given destiny, creating an “inviolable fate.” He can conceal a true “child of prophecy” or another so favored (or ill-favored) by fate against perception by those with an eye for such things. This effect can protect the mage’s Destiny Merit against being detected or altered by another willworker, for example, or shield an oath against having its conditions altered by outside magic.",
         "Practice": "Veiling and Shielding",
@@ -1389,7 +1389,7 @@ const fateThreeData = [
         "Book": "M:tA 155"
     },
     {
-        "Titolo": "Sense Strength and Weakness",
+        "Name": "Sense Strength and Weakness",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "This spell gives the mage an intuitive understanding of the most and least competent members of a group within a specific context. To provide meaningful results, the spell must affect at least 2 targets. The mage may visualize her search for information in any number of ways, but for game purposes it boils down to this question: “Who is the most and least competent at (a specific activity)?” To arrive at an answer, the mage reads the threads of destiny, following them to specific scenarios.",
         "Practice": "Unveiling",
@@ -1422,7 +1422,7 @@ const fateThreeData = [
         "Book": "GoG 72"
     },
     {
-        "Titolo": "Shared Fate",
+        "Name": "Shared Fate",
         "Arcana": "Fate •••",
         "DescrizioneAlta": [
             {
@@ -1452,7 +1452,7 @@ const fateThreeData = [
         "Book": "FC 107"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1524,7 +1524,7 @@ const fateThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Superlative Luck",
+        "Name": "Superlative Luck",
         "Arcana": "Fate •••",
         "DescrizioneAlta": "The mage’s endeavors are blessed with amazing luck that defies the odds and credibility.",
         "Practice": "Weaving",
@@ -1549,7 +1549,7 @@ const fateThreeData = [
         "Book": "M:tA 156"
     },
     {
-        "Titolo": "Tangle the Threads",
+        "Name": "Tangle the Threads",
         "Arcana": "Fate ••• + Mind •• + Prime ••",
         "DescrizioneAlta": "Likely, the single most common application of the ability to magically tamper with the skein of destiny is to be found upon the battlefield. Ricocheting bullets “coincidentally” strike their intended targets, while enemies slip on patches of ice, and someone “just happened” to have left something leaning against the alley wall that can be used as a weapon. When these powers are used to one’s benefit, they are great boons. When used by the enemy, however, these powers constitute an unacceptable liability. This spell was created to level the playing field somewhat in just that respect.",
         "Practice": "Weaving",
@@ -1574,7 +1574,7 @@ const fateThreeData = [
         "Book": "AA 176"
     },
     {
-        "Titolo": "Technology Curse",
+        "Name": "Technology Curse",
         "Arcana": "Fate •••, Forces ••",
         "DescrizioneAlta": "Sleepers in the Western world increasingly rely on electronics to run their lives, and increasingly mundane items are controlled by microprocessors from cars to refrigerators. With this spell, a mage can render a victim unable to use these devices, banishing them from the modern world.",
         "Practice": "Fraying",
@@ -1595,7 +1595,7 @@ const fateThreeData = [
         "Book": "SotT 190"
     },
     {
-        "Titolo": "Uncover Final Name",
+        "Name": "Uncover Final Name",
         "Arcana": "Fate ••• + Death ••",
         "DescrizioneAlta": "If a person dies without a Namer present to record his Final Name, that name is lost. But “lost” is not the same as “destroyed.” With the right knowledge of sympathetic connections, what was lost may be found again.",
         "Practice": "Perfecting",
@@ -1627,7 +1627,7 @@ const fateThreeData = [
 
 const fateFourData = [
     {
-        "Titolo": "Assuming the Name",
+        "Name": "Assuming the Name",
         "Arcana": "Fate •••• + Death •••",
         "DescrizioneAlta": "The mage can actually alter his own Final Name for a short time, replacing the name with one stored by the “Scribe Final Name” spell. This can be the perfect camouflage or the perfect information-gathering tool. If the mage has Fate 5, he may cast this spell on another person as well (unwilling targets resist reflexively with Resolve).",
         "Practice": "Patterning",
@@ -1658,7 +1658,7 @@ const fateFourData = [
         "Book": "L:tS 102"
     },
     {
-        "Titolo": "Coincidental Travel",
+        "Name": "Coincidental Travel",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "The willworker reshapes the threads of fate to inevitably move her toward her chosen destination. She simply selects her destination, uses this spell and then all manner of coincidences help and even impel her along her way.",
         "Practice": "Weaving",
@@ -1687,7 +1687,7 @@ const fateFourData = [
         "Book": "SL 196"
     },
     {
-        "Titolo": "Destroy Bindings",
+        "Name": "Destroy Bindings",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "This spell enables a mage to free a soul that has been forcibly bound outside of its proper place (such as one stolen and reattached using the Death Arcanum, or one kept in a soul jar). The caster can sever the connection between a mage and her familiar, release a spirit that has been placed into a fetish, and even free a ghost from an anchor.",
         "Practice": "Unraveling",
@@ -1712,7 +1712,7 @@ const fateFourData = [
         "Book": "M:tA 156"
     },
     {
-        "Titolo": "Forbidden Fate",
+        "Name": "Forbidden Fate",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "The willworker alters someone’s destiny so the person has great difficulty accomplishing a single specific goal. Attempts by the target to accomplish this goal are fraught with ill fortune and literally everything that can go wrong does. Microphones screech or go dead at particularly inopportune times, the target stumbles while running, and fragile objects the target uses are far more inclined to fall and break.",
         "Practice": "Ruling",
@@ -1733,7 +1733,7 @@ const fateFourData = [
         "Book": "SL 196"
     },
     {
-        "Titolo": "Fortune's Fool",
+        "Name": "Fortune's Fool",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "It is said that fortune favors the bold. Unfortunately for the bold, accidents still happen. With this spell, the mage learns to store misfortune and inflict it upon others, turning accident into opportunity.",
         "Practice": "Patterning",
@@ -1754,7 +1754,7 @@ const fateFourData = [
         "Book": "AA 177"
     },
     {
-        "Titolo": "Gift of Fortune",
+        "Name": "Gift of Fortune",
         "Arcana": "Fate •••• + Space ••",
         "DescrizioneAlta": [
             {
@@ -1829,7 +1829,7 @@ const fateFourData = [
         "Book": "M:tA 157"
     },
     {
-        "Titolo": "Probable Cause",
+        "Name": "Probable Cause",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "The mage can ensure the probability of succeeding in nearly anything to which he puts his hand.",
         "Practice": "Perfecting",
@@ -1854,7 +1854,7 @@ const fateFourData = [
         "Book": "M:tA 157"
     },
     {
-        "Titolo": "Sanctify Oaths",
+        "Name": "Sanctify Oaths",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "The mage can witness the swearing of oaths on the part of others as he did for himself with Fate 2 (“Swearing an Oath,” p. 153), bringing the weight of destiny to bear upon them. Note that the participant(s) need not be aware that the mage has the means to place metaphysical momentum behind such vows. An individual considered to own or bear responsibility for the life of another (such as a child’s parent) can swear oaths in that person’s name.",
         "Practice": "Patterning",
@@ -1879,7 +1879,7 @@ const fateFourData = [
         "Book": "M:tA 157"
     },
     {
-        "Titolo": "Sever Oaths",
+        "Name": "Sever Oaths",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "The mage severs an oath completely. He may also use this spell to freely manipulate an oath he has sworn (with Fate 2).",
         "Practice": "Patterning",
@@ -1900,7 +1900,7 @@ const fateFourData = [
         "Book": "M:tA 158"
     },
     {
-        "Titolo": "Transfer Destiny",
+        "Name": "Transfer Destiny",
         "Arcana": "Fate ••••",
         "DescrizioneAlta": "The mage transfers a Destiny from its original subject to another.",
         "Practice": "Patterning",
@@ -1936,7 +1936,7 @@ const fateFourData = [
 
 const fateFiveData = [
     {
-        "Titolo": "Break the Chains",
+        "Name": "Break the Chains",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "The mage can dispel or rearrange the conditions of another mage’s geas.",
         "Practice": "Patterning",
@@ -1957,7 +1957,7 @@ const fateFiveData = [
         "Book": "M:tA 159"
     },
     {
-        "Titolo": "Forge Destiny",
+        "Name": "Forge Destiny",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "The mage determines the destiny of a living being. A living saint can be set almost irrevocably upon a murderous path, while an animal that might otherwise go to a cruel and abusive home can be given the good fortune of ending up with a kind and loving family. These sorts of manipulations, having to overcome a certain degree of the subject’s self-determination, can be quite difficult for even the most experienced of willworkers, so most undertake it only rarely.",
         "Practice": "Making",
@@ -1986,7 +1986,7 @@ const fateFiveData = [
         "Book": "M:tA 159"
     },
     {
-        "Titolo": "Forge Doom",
+        "Name": "Forge Doom",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "A living being, place, thing, condition, flaw or behavior can be declared someone’s doom. For example, a sword could be forged as a person’s doom, as could the sanctum of his direst enemy or even his estranged son. Likewise, the leg he injured in a long-ago car crash could be made his doom, as could his philandering, or being beneath the full moon’s light.",
         "Practice": "Unmaking",
@@ -2015,7 +2015,7 @@ const fateFiveData = [
         "Book": "M:tA 159"
     },
     {
-        "Titolo": "Forge Godsend",
+        "Name": "Forge Godsend",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "A living being, place, thing, condition, behavior or a physical strength (swift reflexes, unyielding fortitude or a good right hook) can be declared a godsend.",
         "Practice": "Making",
@@ -2040,7 +2040,7 @@ const fateFiveData = [
         "Book": "M:tA 159"
     },
     {
-        "Titolo": "Geas",
+        "Name": "Geas",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "This spell creates a geas, enabling a willworker to forcibly compel another to heed her will as though having sworn an oath to that effect. If the subject cannot resist this magic, then he must do as he is bidden or suffer the enmity of destiny. The mage is under no obligation to be reasonable when levying a Geas upon another, although the objective must still be possible. “Count every grain of sand on this beach,” while extraordinarily improbable for most people, is at least possible, but “Using only your own physical abilities, swim to the bottom of the ocean and back,” is not.",
         "Practice": "Making",
@@ -2102,7 +2102,7 @@ const fateFiveData = [
         "Book": "M:tA 160"
     },
     {
-        "Titolo": "Great Curse",
+        "Name": "Great Curse",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "This is a more powerful version of the “Evil Eye” spell, p. 151. Every task the victim undertakes surely fails.",
         "Practice": "Unmaking",
@@ -2123,7 +2123,7 @@ const fateFiveData = [
         "Book": "M:tA 160"
     },
     {
-        "Titolo": "Infectious Curse",
+        "Name": "Infectious Curse",
         "Arcana": "Fate ••••• + Space ••",
         "DescrizioneAlta": "By way of this spell, a willworker spreads the effects of the “Great Curse” (see Mage: The Awakening, pp. 160–161) through contagion, effectively, an infectious plague of ill fortune that not only affects its initial target but also all those with whom he comes in contact.",
         "Practice": "Unmaking",
@@ -2144,7 +2144,7 @@ const fateFiveData = [
         "Book": "TotM 33"
     },
     {
-        "Titolo": "Swarm of Locusts",
+        "Name": "Swarm of Locusts",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "The mage can create chaotic conditions: rains of frogs, every animal within a city block going berserk simultaneously, and other similarly “Fortean” occurrences. He totally surrenders control of the effects of the spell when he casts it; he puts the matter in Fate’s hands. While Sleepers who witness this chaos might be befuddled, confused and scared, they are temporarily open to the possibilities of magic and are not instrumental in causing Paradoxes for any spell they witness in the affected area.",
         "Practice": "Patterning",
@@ -2202,7 +2202,7 @@ const fateFiveData = [
         "Book": "M:tA 161"
     },
     {
-        "Titolo": "True Love",
+        "Name": "True Love",
         "Arcana": "Fate •••••",
         "DescrizioneAlta": "This rote doesn’t see common use, especially in modern times, but it is nonetheless one of the most frequently cited and quoted sections of Orpheus’ Last Riddle. The spell is buried in a long, moving poem written to Eurydice by Orpheus. Part of the poem remarks upon her beauty and her grace, but much of it is a collection of moments — descriptions of how sunlight played on her hair on a particular day, or the sound of her laugh or of something she whispered to him while they made love. The spell itself does not create love, but gives it a supernatural depth. Lovers who undertake this spell must be very, very careful — if love sours, this spell becomes a curse.",
         "Practice": "Making",

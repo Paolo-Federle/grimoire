@@ -1,6 +1,6 @@
 const mindOneData = [
     {
-        "Titolo": "Aura Perception",
+        "Name": "Aura Perception",
         "Arcana": "Mind •",
         "DescrizioneAlta": "The mage can discern the mental and emotional states of a thinking being by reading his aura. Some mages perceive auras as a series of colors, while others describe them in terms of musical notes, odors, tastes, or other purely non-physical senses.",
         "Practice": "Unveiling",
@@ -134,7 +134,7 @@ const mindOneData = [
         "Book": "M:tA 205"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -179,7 +179,7 @@ const mindOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Detect Alien Mind",
+        "Name": "Detect Alien Mind",
         "Arcana": "Mind • + Prime •",
         "DescrizioneAlta": "Occasionally, beings from other planes of existence manage to masquerade as human beings, animals, or even inanimate objects. In many cases, various Mage Sights can be of help in detecting these strange Resonances, but sometimes, a little something more is called for.",
         "Practice": "Unveiling",
@@ -200,7 +200,7 @@ const mindOneData = [
         "Book": "Summ 209"
     },
     {
-        "Titolo": "Know Virtue",
+        "Name": "Know Virtue",
         "Arcana": "Mind •",
         "DescrizioneAlta": "Epee developed this spell to know, at a glance, the best parts of a person’s soul. Everyone has the potential to be charitable or courageous or wise, but one of these traits is generally stronger than the others.",
         "Practice": "Knowing",
@@ -221,7 +221,7 @@ const mindOneData = [
         "Book": "KST 103"
     },
     {
-        "Titolo": "Mask of Normality",
+        "Name": "Mask of Normality",
         "Arcana": "Mind •",
         "DescrizioneAlta": "Cast on an item of unusual shape or aspect, this spell causes Sleepers to perceive the item as an everyday, contemporary object.",
         "Practice": "Compelling",
@@ -275,7 +275,7 @@ const mindOneData = [
         "Book": "TotM 143"
     },
     {
-        "Titolo": "Merge Mind",
+        "Name": "Merge Mind",
         "Arcana": "Mind •",
         "DescrizioneAlta": "With this spell, a mage can combine disparate or divided parts of himself into a single, focused mind, stopping the process of 'runaway thoughts' or sometimes avoiding schizophrenic episodes, at least for the length of the spell’s Duration (one scene).",
         "Practice": "Compelling",
@@ -296,7 +296,7 @@ const mindOneData = [
         "Book": "Ban 59"
     },
     {
-        "Titolo": "One Mind, Two Thoughts",
+        "Name": "One Mind, Two Thoughts",
         "Arcana": "Mind •",
         "DescrizioneAlta": "This spell enables the mage to hold two individual and wholly distinct trains of thought at once, provided neither is intensely physically demanding. He creates parallel processes within his conscious mind. While he cannot do anything that requires intense or exacting physical labor (like fixing a computer and planning out a rousing speech at the same time), one of his two actions can require extremely minimal physical exertion (like planning a speech and typing an editorial for the local paper).",
         "Practice": "Compelling",
@@ -317,7 +317,7 @@ const mindOneData = [
         "Book": "M:tA 206"
     },
     {
-        "Titolo": "Sense Consciousness",
+        "Name": "Sense Consciousness",
         "Arcana": "Mind •",
         "DescrizioneAlta": "The mage can detect the presence of minds in the material world or mental projections in the state of Twilight. He knows how to detect the presence of psychic activity, from the basest to the most complex and elevated. This sense allows the mage to know when other thinking creatures are present, and roughly what sorts of minds are present.",
         "Practice": "Knowing",
@@ -338,7 +338,7 @@ const mindOneData = [
         "Book": "M:tA 206"
     },
     {
-        "Titolo": "Third Eye",
+        "Name": "Third Eye",
         "Arcana": "Mind •",
         "DescrizioneAlta": "The mage gains the Mage Sight and can sense when others nearby use exceptional mental powers. He can also read resonance, discerning the emotional and psychic qualities of it and understanding the context behind it.",
         "Practice": "Unveiling",
@@ -362,7 +362,7 @@ const mindOneData = [
 
 const mindTwoData = [
     {
-        "Titolo": "Alter Aura",
+        "Name": "Alter Aura",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can alter their own aura, creating the seeming of any mental or emotional state they wish. They do not actually alter their emotional state, only its appearance in their aura. However, they cannot change their nature to appear as something they are not, such as a Sleeper or vampire.",
         "Practice": "Veiling",
@@ -383,7 +383,7 @@ const mindTwoData = [
         "Book": "M:tA 207"
     },
     {
-        "Titolo": "Beast Control",
+        "Name": "Beast Control",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage manipulates a simple mind (that of a reptile, insect, fish or invertebrate), imposing basic telepathic control on it. He can compel such a creature to act in ways he commands, so long as the animal in question understands the behavior it is intended to undertake. Such compulsions cannot be completely inimical to the creature (like commanding ants to march into a fire or the average deep-sea fish to leap onto land). Otherwise, the mage has fairly complete command.",
         "Practice": "Ruling",
@@ -404,7 +404,7 @@ const mindTwoData = [
         "Book": "M:tA 207"
     },
     {
-        "Titolo": "Control Waking",
+        "Name": "Control Waking",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "Through manipulation of a sleeping person’s mind, the mage can send her target into a deeper sleep and ensure that he remain oblivious to the outside world, or she can wake him instantly.",
         "Practice": "Ruling",
@@ -425,7 +425,7 @@ const mindTwoData = [
         "Book": "GotV 191"
     },
     {
-        "Titolo": "Delayed Rest",
+        "Name": "Delayed Rest",
         "Arcana": "Mind ••; optional + Life ••",
         "DescrizioneAlta": "An apprentice of Mind cannot eliminate the need for sleep completely, but he can keep his thoughts organized long enough to get the job done.",
         "Practice": "Ruling",
@@ -453,7 +453,7 @@ const mindTwoData = [
         "Book": "GotV 192"
     },
     {
-        "Titolo": "Directory Enquiry",
+        "Name": "Directory Enquiry",
         "Arcana": "Forces •, Mind ••",
         "DescrizioneAlta": "Sometimes it’s useful to know someone’s telephone number. A mage using this spell can reach his senses into a mobile phone or into the land line of a building (he only needs to be able to see the phone line leading into the building) and divine its number.",
         "Practice": "Knowing",
@@ -474,7 +474,7 @@ const mindTwoData = [
         "Book": "RotE 53"
     },
     {
-        "Titolo": "Don Spirit Mask",
+        "Name": "Don Spirit Mask",
         "Arcana": "Mind •• + Death •• and/or Spirit ••",
         "DescrizioneAlta": "A number of cultures historically maintained longstanding traditions of wearing masks as a means of approaching the invisible world with proper reverence and respect. While some mages uphold that ancient practice, this spell is intended for a decidedly different purpose. The caster seeks to deceive nearby ephemeral entities into believing that she is one of them.",
         "Practice": "Veiling",
@@ -495,7 +495,7 @@ const mindTwoData = [
         "Book": "Summ 210"
     },
     {
-        "Titolo": "Eagle-Eye View",
+        "Name": "Eagle-Eye View",
         "Arcana": "Mind •• + Space ••",
         "DescrizioneAlta": "Since the first human climbed a tree to get a better view of a fight, warriors have known that the best place to observe a battle is from above. Mortals must rely on helicopters, spy satellites and drones for this kind of intelligence. Knowledge gained from these sources is valuable, but that value is decreased by the time lapse between when a scouting unit reports the situation and when that information is relayed to combatants on the ground. Mages are not bound by such conventions. This spell allows the caster to gain an overhead perspective of a fight, granting her valuable tactical information she can process in realtime as the battle unfolds.",
         "Practice": "Ruling",
@@ -516,7 +516,7 @@ const mindTwoData = [
         "Book": "AA 182"
     },
     {
-        "Titolo": "Emotional Urging",
+        "Name": "Emotional Urging",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can project emotions. These feelings are more a suggestion than a mandate, though they are apt to be heeded if they make sense for the individual and situation. (Causing someone to feel sad when walking into a decrepit old house is reasonable and likely to be dismissed as a natural reaction, whereas making someone feel sadistic glee at the funeral of a sibling almost certainly causes the subject to question from whence that emotion came).",
         "Practice": "Ruling",
@@ -537,7 +537,7 @@ const mindTwoData = [
         "Book": "M:tA 207"
     },
     {
-        "Titolo": "Euphoria",
+        "Name": "Euphoria",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can create a powerful feeling of euphoria that blocks out pain, allowing them to keep functioning even when grievously injured.",
         "Practice": "Ruling",
@@ -558,7 +558,7 @@ const mindTwoData = [
         "Book": "SotT 192"
     },
     {
-        "Titolo": "False Speech (lesser)",
+        "Name": "False Speech (lesser)",
         "Arcana": "Forces •• + Mind •• or Forces ••• + Mind •••",
         "DescrizioneAlta": "With this magic, a willworker causes spoken words within the radius of effect to be heard as whatever he desires.",
         "Practice": "Veiling",
@@ -579,7 +579,7 @@ const mindTwoData = [
         "Book": "TotM 25"
     },
     {
-        "Titolo": "First Impressions",
+        "Name": "First Impressions",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "Sometimes you just get the feeling you know someone, can trust him or are meant to be his friend. A mage with this spell can generate that sensation, regardless of whether or not it is genuine. This sort of normally spontaneous connection can make a chosen person feel more at ease in the mage’s presence and may help to lay the groundwork for a friendship, love affair or even just a con.",
         "Practice": "Ruling",
@@ -600,7 +600,7 @@ const mindTwoData = [
         "Book": "M:tA 208"
     },
     {
-        "Titolo": "Gain Skill",
+        "Name": "Gain Skill",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage temporarily gains knowledge and use of a particular Skill.",
         "Practice": "Knowing",
@@ -621,7 +621,7 @@ const mindTwoData = [
         "Book": "FC 111"
     },
     {
-        "Titolo": "Hurried Rest",
+        "Name": "Hurried Rest",
         "Arcana": "Mind •• + Life ••",
         "DescrizioneAlta": "By putting his mind into a supernaturally deep sleep, a mage can force a full night’s rest into the space of a few hours.",
         "Practice": "Weaving",
@@ -649,7 +649,7 @@ const mindTwoData = [
         "Book": "GotV 192"
     },
     {
-        "Titolo": "Incognito Presence",
+        "Name": "Incognito Presence",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "Despite the spell’s name, the mage is not forgotten by those who witness her passing or otherwise interact with her. Rather, they sense nothing special about her and so are as apt to dismiss her presence as they are that of anyone else. On the street, they take no more notice of her than they would were she just a Sleeper, and are likely to forget ever having seen her soon thereafter.",
         "Practice": "Veiling",
@@ -670,7 +670,7 @@ const mindTwoData = [
         "Book": "M:tA 208"
     },
     {
-        "Titolo": "Inconspicuous Object",
+        "Name": "Inconspicuous Object",
         "Arcana": "Matter •• + Mind ••",
         "DescrizioneAlta": "By using this magic, a mage can render an object unnoticed, even if it rests in plain view. Observers’ gazes simply pass over the item in question.",
         "Practice": "Ruling",
@@ -691,7 +691,7 @@ const mindTwoData = [
         "Book": "TotM 22"
     },
     {
-        "Titolo": "Inspire",
+        "Name": "Inspire",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can telepathically insert a single idea into the mind of her target, who will believe that the idea came as a flash of inspiration. The idea to be implanted must be relatively simple, something that could be summed up in a single sentence. Examples might include “The map I’m looking for could be behind the bookcase” or “There’s probably an alarm on that door, so I’d better not open it.” The target is not compelled to act on the inspiration in any particular way, but will react to it as he’d react to any idea: probably follow it (if it’s reasonable), possibly try it (if it could be a lucky hunch) or dismiss it (if it’s wildly inappropriate). ",
         "Practice": "Ruling",
@@ -712,7 +712,7 @@ const mindTwoData = [
         "Book": "GotV 192"
     },
     {
-        "Titolo": "Memory Hole",
+        "Name": "Memory Hole",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "By compartmentalizing his mind, the mage can make it so that even he does not remember certain thoughts hidden within his mind (whether temporarily or permanently), allowing for convincing lies to even a polygraph or telepathic scan.",
         "Practice": "Veiling",
@@ -733,7 +733,7 @@ const mindTwoData = [
         "Book": "M:tA 208"
     },
     {
-        "Titolo": "Mental Shield",
+        "Name": "Mental Shield",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can erect a mental shield to protect himself. He can defend his thoughts, shielding them against the notice of others. This may mean concealing his mind from any kind of detection, blatantly preventing others from reading any of his thoughts or just concealing particular thoughts.",
         "Practice": "Shielding",
@@ -761,7 +761,7 @@ const mindTwoData = [
         "Book": "M:tA 208"
     },
     {
-        "Titolo": "Misperception",
+        "Name": "Misperception",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The willworker can protect herself from harm by manipulating the perceptions of others and convincing them that she is slightly displaced from her actual location, causing an attacker to momentarily believe that the mage is a half-step to the left, for example. Alternately, the caster might project subtle but persistent suggestions, compelling enemies to hesitate at critical moments and turn blows astray. A fatal shot to the chest could be turned into a graze, or a crippling blow to the leg might be reduced to a painful strike that leaves the leg functional. Such magic is of no help in dealing with attacks that cover a wide area (such as explosives) or those that don’t depend on the mage being exactly where she appears to be (like a fall from a high ledge).",
         "Practice": "Shielding",
@@ -782,7 +782,7 @@ const mindTwoData = [
         "Book": "M:tA 209"
     },
     {
-        "Titolo": "Moment of Doubt",
+        "Name": "Moment of Doubt",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage implants a brief but convincing sensation of doubt into the target’s mind. The actual moment of uncertainty is brief, but its effects linger for the duration of the spell. The recipient becomes unsure of herself, making it difficult for her to complete whatever activities she’s engaged in, or to initiate a new course of action. Though the sudden loss of confidence is imposed by the mage’s will, it feels to the target like genuine self-doubt, even if it’s out of character for her to second-guess herself.",
         "Practice": "Ruling",
@@ -803,7 +803,7 @@ const mindTwoData = [
         "Book": "GotV 193"
     },
     {
-        "Titolo": "Opening the Lidless Eye",
+        "Name": "Opening the Lidless Eye",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "As the Mind 1 “Third Eye” spell, p. 206, except that the mage casts this upon another mage or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -824,7 +824,7 @@ const mindTwoData = [
         "Book": "M:tA 209"
     },
     {
-        "Titolo": "Perfect Mnemonic",
+        "Name": "Perfect Mnemonic",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "Imbuing her words with arcane gravitas, a mage can brand an idea directly into a subject’s memory. Should such a subject fall prey to dementia or brain damage, forgetting even his own name, he will never forget the ideas burned into the deepest recesses of his psyche.",
         "Practice": "Ruling",
@@ -852,7 +852,7 @@ const mindTwoData = [
         "Book": "Myst 199"
     },
     {
-        "Titolo": "Phantom Thoughts",
+        "Name": "Phantom Thoughts",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "Sometimes it’s better to allow another mage a glimpse into your mind rather than block him completely. A closed mind causes more suspicion than an open mind that reveals only what you choose.",
         "Practice": "Veiling",
@@ -873,7 +873,7 @@ const mindTwoData = [
         "Book": "AA 183"
     },
     {
-        "Titolo": "Playback Vision",
+        "Name": "Playback Vision",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can “record” a hallucinogenic vision (though it needn’t be purely visually-driven, and can feature input from all the senses) and “play it back” to himself or to another individual.",
         "Practice": "Ruling",
@@ -894,7 +894,7 @@ const mindTwoData = [
         "Book": "MT 138"
     },
     {
-        "Titolo": "Stammer",
+        "Name": "Stammer",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The use of High Speech among order mages is commonplace. Most mages learn the proper pronunciation of the ancient language during their apprenticeship and rarely seriously misspeak a word during the casting of a spell. The language of Atlantis is the language of power, and when High Speech is spoken incorrectly, that power has a negative impact on spellcasting.",
         "Practice": "Ruling",
@@ -915,7 +915,7 @@ const mindTwoData = [
         "Book": "Ban 59"
     },
     {
-        "Titolo": "Voice from Afar",
+        "Name": "Voice from Afar",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "The mage can employ limited telepathic projection. This mental communication carries no supernatural compulsion with it and a recipient knows that he does not think the thoughts for himself, unless he is mentally disturbed or inclined to believe that he might hear voices. Such communication may serve as the carrier of an empathic projection (see “Emotional Urging,” p. 207).",
         "Practice": "Ruling",
@@ -936,7 +936,7 @@ const mindTwoData = [
         "Book": "M:tA 210"
     },
     {
-        "Titolo": "Willful Process",
+        "Name": "Willful Process",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "Sometimes it is not enough to simply be smarter. With this spell, a mage can perfect his ability to remember and take advantage of what he’s learned. Likewise, a clever mage may apply this bit of sorcery to his interactions with others, allowing his previous experiences in dealing with others to drive his instinctual responses.",
         "Practice": "Ruling",
@@ -964,7 +964,7 @@ const mindTwoData = [
         "Book": "Myst 200"
     },
     {
-        "Titolo": "Zeal",
+        "Name": "Zeal",
         "Arcana": "Mind ••",
         "DescrizioneAlta": "By using this spell, the mage eliminates doubt and banishes uncertainty, leaving only a clear determination for an action.",
         "Practice": "Ruling",
@@ -988,7 +988,7 @@ const mindTwoData = [
 
 const mindThreeData = [
     {
-        "Titolo": "Astral Invitation",
+        "Name": "Astral Invitation",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage marks one or more companions and creates a one-way bridge between their minds and his, allowing them to enter his dream space. A mage’s dream space is full of personal information and potential secrets — insecurities and aspirations are all evident, if not always clearly presented. Even a mage’s real name can be found there, making this spell one casts only on sure friends.",
         "Practice": "Weaving",
@@ -1009,7 +1009,7 @@ const mindThreeData = [
         "Book": "AR 23"
     },
     {
-        "Titolo": "Astral Entrance",
+        "Name": "Astral Entrance",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "When a group enters Astral Space with the intention of traveling together, they must find each other there first. This spell makes a section of Astral Space the definitive entrance point for incoming astral travelers.",
         "Practice": "Weaving",
@@ -1030,7 +1030,7 @@ const mindThreeData = [
         "Book": "AR 22"
     },
     {
-        "Titolo": "Augment the Mind",
+        "Name": "Augment the Mind",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can raise one of his Mental or Social Attributes.",
         "Practice": "Perfecting",
@@ -1066,7 +1066,7 @@ const mindThreeData = [
         "Book": "M:tA 210"
     },
     {
-        "Titolo": "Aura Cloak",
+        "Name": "Aura Cloak",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage alters another person’s aura as he does for himself with “Alter Aura,” p. 207. He does not actually alter the person’s emotional state, only its aura appearance.",
         "Practice": "Ruling",
@@ -1087,7 +1087,7 @@ const mindThreeData = [
         "Book": "M:tA 211"
     },
     {
-        "Titolo": "Bestow High Speech",
+        "Name": "Bestow High Speech",
         "Arcana": "Mind ••• + Prime •••",
         "DescrizioneAlta": "The mage fills a mortal’s mind with knowledge of the Atlantean High Speech and opens the mortal’s eyes and ears to the language of magic.",
         "Practice": "Weaving",
@@ -1121,7 +1121,7 @@ const mindThreeData = [
         "Book": "Myst 98"
     },
     {
-        "Titolo": "Bestow Skill",
+        "Name": "Bestow Skill",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage temporarily grants knowledge and use of a particular Skill to another.",
         "Practice": "Weaving",
@@ -1142,7 +1142,7 @@ const mindThreeData = [
         "Book": "FC 111"
     },
     {
-        "Titolo": "Bolster Virtue",
+        "Name": "Bolster Virtue",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Any Disciple of Mind can make himself smarter or wittier, and Epee is no stranger to such magic. He felt, however, that calling forth his Virtue and empowering it was a different sort of spell, and he found a way to do it that produces surprising results.",
         "Practice": "Perfecting",
@@ -1162,7 +1162,7 @@ const mindThreeData = [
         "Book": "KST 103"
     },
     {
-        "Titolo": "Curse of Dementia",
+        "Name": "Curse of Dementia",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Per the Death spell 'Curse of Withering,' except that the 'Curse of Dementia' spell drains the item's owner of their Mental Attributes.",
         "Practice": "Ruling",
@@ -1177,7 +1177,7 @@ const mindThreeData = [
         "Book": "TotM 138"
     },
     {
-        "Titolo": "Curse of Ostracism",
+        "Name": "Curse of Ostracism",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Per the Death spell 'Curse of Withering,' except that the 'Curse of Ostracism' spell drains the item's owner of their Social Attributes.",
         "Practice": "Ruling",
@@ -1192,7 +1192,7 @@ const mindThreeData = [
         "Book": "TotM 138"
     },
     {
-        "Titolo": "Defer Conscience",
+        "Name": "Defer Conscience",
         "Arcana": "Mind ••• + Time •••",
         "DescrizioneAlta": "War is an ugly thing — it places soldiers in difficult circumstances, forcing them to choose between morality and duty. Arrows are no strangers to this hard choice, and there comes a time when all must decide to put their principles on the line for the sake of protecting those weaker than themselves. At such times, it is important to be able to act with conviction and urgency, unimpeded by the inner struggles inherent to questionable deeds.",
         "Practice": "Weaving",
@@ -1220,7 +1220,7 @@ const mindThreeData = [
         "Book": "AA 183"
     },
     {
-        "Titolo": "Denial of Senses",
+        "Name": "Denial of Senses",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "By reaching into a victim’s mind, a mage can diminish the target’s perceptions and make it less likely that he will notice anything that doesn’t already hold his focus.",
         "Practice": "Fraying",
@@ -1241,7 +1241,7 @@ const mindThreeData = [
         "Book": "GotV 193"
     },
     {
-        "Titolo": "Diplomat's Protection",
+        "Name": "Diplomat's Protection",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can make herself seem too impressive and awe-inspiring for potential opponents to be willing to attack. Would-be attackers look at the mage and find themselves psychologically incapable of attacking her in any manner. They can attempt to block the mage’s path, but cannot attempt to harm her in any way. This spell works equally well on humans, animals and supernatural beings, but has no effect on any sort of automatic defense or anything completely mindless. In addition, this spell is insufficiently powerful to overcome the target’s survival instinct. As a result, it functions only as long as the mage does nothing to directly threaten the target’s safety.",
         "Practice": "Ruling",
@@ -1262,7 +1262,7 @@ const mindThreeData = [
         "Book": "SL 200"
     },
     {
-        "Titolo": "Directed Havoc",
+        "Name": "Directed Havoc",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "This protective measure permits an unauthorized user to employ any of an item’s imbued spells that specify a person as a target of an effect. Whenever the user sets off an effect, however, this spell redirects the effect to affect a different target. When multiple alternative targets are available, the item reads the unauthorized user’s mind, determining which target would displease her the most. A healing spell would therefore assist the thief’s enemies, while called lightning would strike her, or one of her allies.",
         "Practice": "Weaving",
@@ -1283,7 +1283,7 @@ const mindThreeData = [
         "Book": "GoG 57"
     },
     {
-        "Titolo": "Disinhibiting Sympathy",
+        "Name": "Disinhibiting Sympathy",
         "Arcana": "Mind •••, Space •••",
         "DescrizioneAlta": "The mage not only makes it difficult for his target to avoid indulging his Vice, but makes that condition affect anyone to whom the target is close. The victim is Patient Zero of a memetic infection that destroys the inhibitions of people she knows.",
         "Practice": "Ruling",
@@ -1312,7 +1312,7 @@ const mindThreeData = [
         "Book": "GoG 57"
     },
     {
-        "Titolo": "Disrupt Concentration",
+        "Name": "Disrupt Concentration",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Concentration is important for the Awakened — spells require concentration to maintain, and much of their learning comes from extended periods of concentrated study. Astral travel requires deep concentration in the form of meditation. This spell makes a mind restless, incapable of concentrating on one thing for more than an instant.",
         "Practice": "Fraying",
@@ -1333,7 +1333,7 @@ const mindThreeData = [
         "Book": "AR 23"
     },
     {
-        "Titolo": "Enforce Paradigm",
+        "Name": "Enforce Paradigm",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage causes a Sleeper to interpret any supernatural phenomena he may witness as a mundane, scientifically explicable event. The spell reinforces the human mind’s tendency to interpret unexpected sensory input according to familiar patterns. The spell is most often used to reduce the chances of a Paradox.",
         "Practice": "Weaving",
@@ -1354,7 +1354,7 @@ const mindThreeData = [
         "Book": "TotM 65"
     },
     {
-        "Titolo": "Eternal Now",
+        "Name": "Eternal Now",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage temporarily removes the ability of the target to process new memories.",
         "Practice": "Fraying",
@@ -1375,7 +1375,7 @@ const mindThreeData = [
         "Book": "Myst 200"
     },
     {
-        "Titolo": "Eyes of the Master",
+        "Name": "Eyes of the Master",
         "Arcana": "Mind ••• + Space ••",
         "DescrizioneAlta": "Some mentors cannot let their protégés remain unobserved. These masters feel the need to constantly mentally eavesdrop on their students. This spell allows the master to forge a long-term telepathic link with the recipient. While this spell does not require a formal mentor-student relationship, forging the necessary deep psychic connection to someone does require the subject’s willing participation.",
         "Practice": "Weaving",
@@ -1396,7 +1396,7 @@ const mindThreeData = [
         "Book": "GotV 193"
     },
     {
-        "Titolo": "False Fame",
+        "Name": "False Fame",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "In this day and age, in the culture we live in, celebrity matters. People want the status of celebrity for its own sake, divorced from any merit or achievement. There are so many celebrities now, in so many fields, that it’s impossible to keep track of them. A clever magician can use this to his own advantage, creating in the people he meets the rather unsettling sensation that the man standing before them is famous, and they know him — if only they could remember what his name was. The mage gets preferential treatment. The best table in the restaurant. Front-of-the-line entry into the club without being on the guest list. He gets to misbehave — within reason — and given a lot more slack than a nobody would get. They indulge his eccentric behavior. He receives the perks of being famous without any of the trouble. Having said that, overuse of this spell can be risky. Conning the world into thinking you’re famous is one thing, but having your picture taken while you’re about your mystic business is quite another.",
         "Practice": "Weaving",
@@ -1417,7 +1417,7 @@ const mindThreeData = [
         "Book": "TotM 66"
     },
     {
-        "Titolo": "False Speech (greater)",
+        "Name": "False Speech (greater)",
         "Arcana": "Forces •• + Mind •• or Forces ••• + Mind •••",
         "DescrizioneAlta": "With this magic, a willworker causes spoken words within the radius of effect to be heard as whatever he desires.",
         "Practice": "Veiling",
@@ -1438,7 +1438,7 @@ const mindThreeData = [
         "Book": "TotM 25"
     },
     {
-        "Titolo": "Goetic Inversion",
+        "Name": "Goetic Inversion",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The goeticist can separate her Virtue from the core of her consciousness, compelling her to resist her better nature, or else find her inmost",
         "Practice": "Ruling",
@@ -1483,7 +1483,7 @@ const mindThreeData = [
         "Book": "IEwtA 107"
     },
     {
-        "Titolo": "Goetic Struggle",
+        "Name": "Goetic Struggle",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Most treatises on goetic magic begin by teaching an initiate to master his own Vice.",
         "Practice": "Ruling",
@@ -1513,7 +1513,7 @@ const mindThreeData = [
         "Book": "M:tA 324"
     },
     {
-        "Titolo": "Greater Beast Control",
+        "Name": "Greater Beast Control",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can manipulate a median mind (anything up to, but not including, primates, cetaceans and cephalopods). He can exert control over most animal life, compelling such creatures to perform actions according to his desires so long as they are not completely inimical to such actions.",
         "Practice": "Ruling",
@@ -1534,7 +1534,7 @@ const mindThreeData = [
         "Book": "M:tA 211"
     },
     {
-        "Titolo": "Implant Subliminal Message",
+        "Name": "Implant Subliminal Message",
         "Arcana": "Mind ••• + Forces •• or Matter ••",
         "DescrizioneAlta": "This spell implants a subliminal message in any piece of electronic media, including radio broadcasts, web pages and television programs. Affecting a print article, such as a newspaper story, requires Matter 2 instead of Force 2. Anyone who reads, watches or listens to the targeted piece of media will be subject to the affect of this spell.",
         "Practice": "Weaving",
@@ -1588,7 +1588,7 @@ const mindThreeData = [
         "Book": "GotV 194"
     },
     {
-        "Titolo": "Imposter",
+        "Name": "Imposter",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can cloud another’s perceptions to make him think the caster is someone else. The mage’s false image can mimic an actual person or a fictional persona she creates for herself.",
         "Practice": "Weaving",
@@ -1609,7 +1609,7 @@ const mindThreeData = [
         "Book": "M:tA 211"
     },
     {
-        "Titolo": "Induce Hoarding Instinct",
+        "Name": "Induce Hoarding Instinct",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage ensorcels an item so that its owner becomes irrationally possessive of it, refusing to part with it even at the risk of self-destruction. This is most often cast to augment a cursed item, so that its owner cleaves to it even after its sinister purpose is revealed.",
         "Practice": "Weaving",
@@ -1630,7 +1630,7 @@ const mindThreeData = [
         "Book": "TotM 138"
     },
     {
-        "Titolo": "Induce Sleep",
+        "Name": "Induce Sleep",
         "Arcana": "Mind ••• + Life ••",
         "DescrizioneAlta": "The mage can both prevent sleeping targets from waking and encourage tired targets to fall asleep.",
         "Practice": "Ruling",
@@ -1680,7 +1680,7 @@ const mindThreeData = [
         "Book": "Myst 201"
     },
     {
-        "Titolo": "Kinesthesia",
+        "Name": "Kinesthesia",
         "Arcana": "Mind ••• + Space • + Time •",
         "DescrizioneAlta": "A solid plan is a good thing to have, but the wise combatant counts on things going to hell just as soon as the plan comes into contact with reality. Often, willworkers find themselves forced to contend with less-than-ideal circumstances, taxing reflexes and adaptability beyond their limits. When such circumstances occur, the well-prepared individual is often the victorious one.",
         "Practice": "Perfecting",
@@ -1701,7 +1701,7 @@ const mindThreeData = [
         "Book": "AA 183"
     },
     {
-        "Titolo": "Know the Truth",
+        "Name": "Know the Truth",
         "Arcana": "Mind ••• Time •••",
         "DescrizioneAlta": "The camera sometimes lies. The newspapers don’t always tell the truth. A Tamer of Winds however, knows that the truth is written on the air, and using the magic of Time, can call the winds back to ascertain whether a written or printed document, a piece of film or a photograph or drawing is true.",
         "Practice": "Knowing",
@@ -1722,7 +1722,7 @@ const mindThreeData = [
         "Book": "L:tA 69"
     },
     {
-        "Titolo": "Know Thyself",
+        "Name": "Know Thyself",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "In the world of magic, one’s own mind cannot be trusted. Mages can change memories, even basic personality issues. The Guardians of the Veil are well-known for editing the memories of Sleepers as well as those of mages who cross the line. Though memory-editing spells do not usually cause permanent changes in Awakened targets, even a temporary change could lead to disaster. Guardians who possess sufficient skill with the Mind Arcanum often regularly use this spell to sift through their memories, looking for gaps or more subtle discontinuities, both in memory or behavior. Mages who are truly paranoid might even use mental compulsions on themselves, forcing them to cast this spell on a regular basis.",
         "Practice": "Knowing",
@@ -1771,7 +1771,7 @@ const mindThreeData = [
         "Book": "GotV 194"
     },
     {
-        "Titolo": "Lift the Astral Barrier",
+        "Name": "Lift the Astral Barrier",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Piercing the Astral Threshold into Astral Space requires Mana to open the way. This spell pays that cost on another’s behalf.",
         "Practice": "Weaving",
@@ -1792,7 +1792,7 @@ const mindThreeData = [
         "Book": "AR 23"
     },
     {
-        "Titolo": "Mental Wall",
+        "Name": "Mental Wall",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage erects a mental shield on another person, as with “Mental Shield,” p. 208.",
         "Practice": "Shielding",
@@ -1807,7 +1807,7 @@ const mindThreeData = [
         "Book": "M:tA 211"
     },
     {
-        "Titolo": "Multi-Tasking",
+        "Name": "Multi-Tasking",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage performs complex multitasking.",
         "Practice": "Weaving",
@@ -1828,7 +1828,7 @@ const mindThreeData = [
         "Book": "M:tA 211"
     },
     {
-        "Titolo": "Passion Link",
+        "Name": "Passion Link",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage peers into her subject’s mind and forges a connection between one topic and one powerful emotion. For the duration of the spell, the subject’s emotions are no longer his own when that topic comes up. The mere mention of the trigger topic might enrage him, delight him or send him into a downward spiral of depression. While this doesn’t give the mage control over the subject, it gives him an edge when the subject is responding to the trigger topic. This is a highly versatile spell, and mages have used it for a variety of purposes, from breaking up relationships, to defending the Veil, to killing enemies.",
         "Practice": "Weaving",
@@ -1857,7 +1857,7 @@ const mindThreeData = [
         "Book": "GotV 195"
     },
     {
-        "Titolo": "Past Life Regression",
+        "Name": "Past Life Regression",
         "Arcana": "Mind ••• + Time •••",
         "DescrizioneAlta": "To find one's way through past lives is often to find out the key to the present. A mage with this spell can bring himself and others through other past lives, reliving one or more of their previous sojourns on earth.",
         "Practice": "Patterning",
@@ -1904,7 +1904,7 @@ const mindThreeData = [
         "Book": "MT 105"
     },
     {
-        "Titolo": "Precious Malediction",
+        "Name": "Precious Malediction",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "When cast on a cursed object, Precious Malediction detects when the object’s owner intends to destroy it, and then alters the owner’s attitude toward the object to one of frenzied, unseemly protectiveness.",
         "Practice": "Weaving",
@@ -1925,7 +1925,7 @@ const mindThreeData = [
         "Book": "TotM 137"
     },
     {
-        "Titolo": "Preserve Astral Object",
+        "Name": "Preserve Astral Object",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Astral objects are fleeting. They come and go with a realm’s dreamlike transitions, here one moment and gone the next. Sometimes, an astral object is too important to let go. It might be an object with an important sympathetic connection, or maybe it’s just a gun the mage wants to level against a native later on. Or the mage has created something potent in his Oneiros that he wants to carry into the Temenos. This spell makes all that possible.",
         "Practice": "Weaving",
@@ -1946,7 +1946,7 @@ const mindThreeData = [
         "Book": "AR 24"
     },
     {
-        "Titolo": "Preserve Astral Space",
+        "Name": "Preserve Astral Space",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The astral is a dangerous and interesting place, but one that shifts rapidly. When a mage needs respite from the dangers or needs extra time to explore a dream space, this spell delays her departure.",
         "Practice": "Weaving",
@@ -1967,7 +1967,7 @@ const mindThreeData = [
         "Book": "AR 25"
     },
     {
-        "Titolo": "Provoke Wrath",
+        "Name": "Provoke Wrath",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The willworker may provoke a violent reaction in a target, overwhelming her ability to stay calm.",
         "Practice": "Weaving",
@@ -1988,7 +1988,7 @@ const mindThreeData = [
         "Book": "SotT 193"
     },
     {
-        "Titolo": "Psychic Assault",
+        "Name": "Psychic Assault",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can perform a crude psychic assault, causing psychic trauma that translates into damage on a victim’s body as neurons misfire and muscles spasm damagingly.",
         "Practice": "Fraying",
@@ -2009,7 +2009,7 @@ const mindThreeData = [
         "Book": "M:tA 212"
     },
     {
-        "Titolo": "Read Trends",
+        "Name": "Read Trends",
         "Arcana": "Mind •••; optional Time ••",
         "DescrizioneAlta": "This spell allows the mage to cast her mind out and gain a general sense of public opinion about a particular issue. Instead of reading individual minds and sifting through their thoughts, this spell allows the caster to get a vague and general sense of the attitudes and feelings of a large number of people. To cast this spell, the mage must be exceedingly familiar with the region where he is casting it. This region can range from a large apartment building or a neighborhood of a few city blocks to an entire city.",
         "Practice": "Knowing",
@@ -2070,7 +2070,7 @@ const mindThreeData = [
         "Book": "GotV 195"
     },
     {
-        "Titolo": "Seal Oneiros",
+        "Name": "Seal Oneiros",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "When “Mental Shield” isn’t enough insurance, a mage makes his Oneiros off-limits to astral travelers by blocking it with this spell.",
         "Practice": "Weaving",
@@ -2091,7 +2091,7 @@ const mindThreeData = [
         "Book": "AR 24"
     },
     {
-        "Titolo": "Shackled Morality",
+        "Name": "Shackled Morality",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "It has been said that virtue is its own reward. Performing an act of kindness or compassion, because one can rather than because one should, promotes growth of character and spirit. This spell forces people to think about why they are acting so generously and negates the altruistic nature of a virtuous deed.",
         "Practice": "Fraying",
@@ -2111,7 +2111,7 @@ const mindThreeData = [
         "Book": "GoG 117"
     },
     {
-        "Titolo": "Shroud of Disinterest",
+        "Name": "Shroud of Disinterest",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "This defensive measure surrounds an item in a field of psychic energy, making noticing or remembering difficult. The object does not become invisible; instead, it alters the observer’s sense of priorities, so that the object fails to register as interesting or memorable.",
         "Practice": "Weaving",
@@ -2177,7 +2177,7 @@ const mindThreeData = [
         "Book": "TotM 142"
     },
     {
-        "Titolo": "Sleep of the Just",
+        "Name": "Sleep of the Just",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can control her sleep cycle and dreams. She can cast spells to regulate her sleep cycle, sleeping as much or as little as she desires (though deleterious physical consequences can set in if the willworker sleeps too much or too little, unless Life Arcanum magic is used to compensate for radically altered patterns). The mage also controls when and about what she dreams.",
         "Practice": "Weaving",
@@ -2214,7 +2214,7 @@ const mindThreeData = [
         "Book": "M:tA 212"
     },
     {
-        "Titolo": "Summon Esoteric",
+        "Name": "Summon Esoteric",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "By means of this magic, a mage can call forth an esoteric from the forefront of the human consciousness.",
         "Practice": "Weaving",
@@ -2235,7 +2235,7 @@ const mindThreeData = [
         "Book": "Summ 54"
     },
     {
-        "Titolo": "Summon Morphean",
+        "Name": "Summon Morphean",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "This spell enables a willworker to call forth a morphean from the depths of her own dream-realm or, if she is powerful enough and her consciousness is somewhere within the deeper reaches of the Astral, that of another.",
         "Practice": "Weaving",
@@ -2263,7 +2263,7 @@ const mindThreeData = [
         "Book": "Summ 52"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -2356,7 +2356,7 @@ const mindThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Telepathic Alarm",
+        "Name": "Telepathic Alarm",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "When this defensive magic is installed in an object, a telepathic connection opens between the item’s owner and any unauthorized person coming into contact with it. The owner senses the interloper’s identity and can read his conscious thoughts. She may beam her own thoughts into the interloper’s brain (in Sleepers, this triggers Disbelief). The connection establishes sympathy between owner and interloper, which, if he knows Space 2, allows the owner to cast spells at the interloper from a distance.",
         "Practice": "Weaving",
@@ -2377,7 +2377,7 @@ const mindThreeData = [
         "Book": "TotM 141"
     },
     {
-        "Titolo": "Telepathic Eavesdropping",
+        "Name": "Telepathic Eavesdropping",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage “taps” a telepathic contact between two (or more) individuals, hearing all the thoughts and feeling the emotions without giving any evidence that she is doing so.",
         "Practice": "Weaving",
@@ -2405,7 +2405,7 @@ const mindThreeData = [
         "Book": "GotV 196"
     },
     {
-        "Titolo": "Telepathy",
+        "Name": "Telepathy",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "This spell enables the mage to make direct mind-to-mind contact with another sentient being (usually but not always a human), and to converse, share thoughts, images and emotions in a medium free of the awkward constraints of physical communication. With some creatures (goats or exceedingly alien spirits, for example) this is largely an exercise in futility and frustration for anything more complicated than the most basic of concepts. Ideas, images and words can all be shared freely between the mage and another individual.",
         "Practice": "Weaving",
@@ -2471,7 +2471,7 @@ const mindThreeData = [
         "Book": "M:tA 212"
     },
     {
-        "Titolo": "The Inescapable Question",
+        "Name": "The Inescapable Question",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Many of the Awakened know that social change begins with the challenging of assumptions. The prophet constantly The prophet constantly questions, causing discomfort and doubt in those who would listen. With the right insight, a mage can stop even the most hostile of opponents dead in his tracks, sent into a moment of self-examination by a simple “why?”",
         "Practice": "Ruling",
@@ -2496,7 +2496,7 @@ const mindThreeData = [
         "Book": "L:tA 34"
     },
     {
-        "Titolo": "Transfer Will",
+        "Name": "Transfer Will",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage effects a transaction between two individuals, the recipient and the donor, permanently shifting a Willpower dot from the latter to the former.",
         "Practice": "Weaving",
@@ -2517,7 +2517,7 @@ const mindThreeData = [
         "Book": "TotM 66"
     },
     {
-        "Titolo": "Universal Language",
+        "Name": "Universal Language",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "The mage can translate any idea into or out of any language based upon root concepts. This spell works for spoken words, written words, encoded signals and concepts that exist only as thought. The mage must be able to perceive the medium in which the idea exists (meaning telepathy for thoughts in another’s mind, for example) and may be limited in his ability to express a concept he can translate (like trying to tell something to a hyper-intelligent insectoid life form while lacking the appropriate mouth parts to speak its language).",
         "Practice": "Weaving",
@@ -2538,7 +2538,7 @@ const mindThreeData = [
         "Book": "M:tA 213"
     },
     {
-        "Titolo": "Will of Fire",
+        "Name": "Will of Fire",
         "Arcana": "Mind •••",
         "DescrizioneAlta": "Fiery rhetoric can bolster human spirits. With the right words, a mage can give a group of friends and followers the will to succeed above and beyond their own capacity.",
         "Practice": "Perfecting",
@@ -2603,7 +2603,7 @@ const mindThreeData = [
 
 const mindFourData = [
     {
-        "Titolo": "Astral Interdiction",
+        "Name": "Astral Interdiction",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": [
             {
@@ -2633,7 +2633,7 @@ const mindFourData = [
         "Book": "AR 25"
     },
     {
-        "Titolo": "Augment Other Minds",
+        "Name": "Augment Other Minds",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage can raise one of another human being’s Mental or Social Attributes, as per the Mind 3 “Augment the Mind” spell, p. 210.",
         "Practice": "Perfecting",
@@ -2658,7 +2658,7 @@ const mindFourData = [
         "Book": "M:tA 213"
     },
     {
-        "Titolo": "Autopilot",
+        "Name": "Autopilot",
         "Arcana": "Matter ••• + Mind ••••",
         "DescrizioneAlta": "The subject of innumerable Knight Rider jokes, this nevertheless useful spell allows the mage to create an artificial mind in an automobile (or any other vehicle the mage knows how to drive or pilot) that is capable of controlling the vehicle, leaving the caster free for other tasks.",
         "Practice": "Patterning",
@@ -2683,7 +2683,7 @@ const mindFourData = [
         "Book": "TotM 67"
     },
     {
-        "Titolo": "Befuddle",
+        "Name": "Befuddle",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage can lower another’s Mental or Social Attributes.",
         "Practice": "Unraveling",
@@ -2712,7 +2712,7 @@ const mindFourData = [
         "Book": "M:tA 213"
     },
     {
-        "Titolo": "Breach the Vault of Memory",
+        "Name": "Breach the Vault of Memory",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell gives the willworker power over that which helps define a person: memory. The mage can add to, modify or delete a subject’s memories in whatever way he sees fit. (It helps but is not necessary to cast “Read the Depths,” p. 215, first.) An individual could be made to forget where she parked her car, the fact that she likes strawberry ice cream, or even why she wears a wedding band. Naturally, short-term and less deeply ingrained memories are easier to manipulate than those that are long term or more fundamental to a person’s identity, but just about any memory can be sculpted according a mage’s desires.",
         "Practice": "Patterning",
@@ -2778,7 +2778,7 @@ const mindFourData = [
         "Book": "M:tA 214"
     },
     {
-        "Titolo": "Call Eidolon",
+        "Name": "Call Eidolon",
         "Arcana": "Mind •••• + Spirit ••••",
         "DescrizioneAlta": [
             {
@@ -2846,7 +2846,7 @@ const mindFourData = [
         "Book": "Ban 59"
     },
     {
-        "Titolo": "Climbing the Tree",
+        "Name": "Climbing the Tree",
         "Arcana": "Mind •••• + Any Arcanum •••",
         "DescrizioneAlta": "A great part of the teaching of Kabbalah involves the mage's efforts to understand and achieve union with the Tree of Life. Kabbalists see this as a form of metaphysical “climbing” of the Tree to reach the higher sephiroth and greater understanding. Traditionally this is accomplished by intense meditation and prayer; this spell allows the Kabbalist to make the journey more literal.",
         "Practice": "Weaving",
@@ -2878,7 +2878,7 @@ const mindFourData = [
         "Book": "MT 43"
     },
     {
-        "Titolo": "Confuse Language",
+        "Name": "Confuse Language",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell throws the target’s language skills into chaos. She can’t read, write (or type), speak or understand spoken language. This deficiency even extends to all forms of sign language.",
         "Practice": "Unraveling",
@@ -2899,7 +2899,7 @@ const mindFourData = [
         "Book": "Ban 61"
     },
     {
-        "Titolo": "Dream Bridge",
+        "Name": "Dream Bridge",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "Magic bores a hole from one Oneiros to another, making it possible to travel between them without passing through the Astral Threshold again. Though the spell makes such a journey possible, the spell does not make the journey easy. Astral travelers must find the path or portal between Oneiroi in order to move from one to the other, and dream spaces sometimes portray the portals idiosyncratically.",
         "Practice": "Patterning",
@@ -2919,7 +2919,7 @@ const mindFourData = [
         "Book": "AR 25"
     },
     {
-        "Titolo": "Dream Traveler",
+        "Name": "Dream Traveler",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage can psychically enter the dreams of another. This spell is much the same as “Psychic Projection,” p. 215, save that the willworker enters the dreams of a sleeping individual. The mage can use Mind spells while within those dreams to alter the subject’s “psychic landscape,” controlling the complexion of dreams with as much or as little precision as she wishes.",
         "Practice": "Patterning",
@@ -2940,7 +2940,7 @@ const mindFourData = [
         "Book": "M:tA 214"
     },
     {
-        "Titolo": "Gleaning the Crowd",
+        "Name": "Gleaning the Crowd",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "With this spell, the mage psychically projects his consciousness into Twilight amid a crowd of gatherers. Once there, he can plumb the depths of the crowd’s aggregate minds, creating in some fashion one giant brain (crowd represents new synapses, and the caster forges between himself and the crowd new synaptic connections, making a massive – if temporary – neural network).",
         "Practice": "Patterning",
@@ -2977,7 +2977,7 @@ const mindFourData = [
         "Book": "MT 139"
     },
     {
-        "Titolo": "Goetic Doppelganger",
+        "Name": "Goetic Doppelganger",
         "Arcana": "Spirit •••• + Mind ••••",
         "DescrizioneAlta": "Once a mage has accepted the dark side of his own nature he gains in understanding of how to release the inner demons of his enemies. For a Mind untempered by exposure to Le Livre Rouge, facing one’s foulest desires and inner corruption is unsettling at best.",
         "Practice": "Patterning",
@@ -3027,7 +3027,7 @@ const mindFourData = [
         "Book": "GoG 117"
     },
     {
-        "Titolo": "Hallucination",
+        "Name": "Hallucination",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage creates false sensory input — a sensory hallucination.",
         "Practice": "Patterning",
@@ -3052,7 +3052,7 @@ const mindFourData = [
         "Book": "M:tA 215"
     },
     {
-        "Titolo": "Knowing the Dead",
+        "Name": "Knowing the Dead",
         "Arcana": "Mind •••• + Death ••",
         "DescrizioneAlta": "The mage can read the minds of ghosts.",
         "Practice": "Patterning",
@@ -3073,7 +3073,7 @@ const mindFourData = [
         "Book": "Myst 201"
     },
     {
-        "Titolo": "Lashes of Fire",
+        "Name": "Lashes of Fire",
         "Arcana": "Mind •••• + Forces •••• + Fate ••",
         "DescrizioneAlta": "This devastating spell has long been attributed to Kabbalistic practices, though most practitioners ardently insist that it goes against everything that Kabbalah teaches. By means of this terrible curse, the subject is 'denied the forgiveness of God,' and moreover is cursed to suffer savage lashes as from a whip of fire each time he transgresses.",
         "Practice": "Patterning",
@@ -3107,7 +3107,7 @@ const mindFourData = [
         "Book": "MT 42"
     },
     {
-        "Titolo": "Living Library",
+        "Name": "Living Library",
         "Arcana": "Mind ••••; optional: Matter ••• or Forces •••",
         "DescrizioneAlta": "With this spell, the mage seals knowledge inside his own or a chosen target’s mind. The target does not necessarily know this knowledge herself; it is merely stored in her mind until the spell expires.",
         "Practice": "Patterning",
@@ -3173,7 +3173,7 @@ const mindFourData = [
         "Book": "S&S 22"
     },
     {
-        "Titolo": "Love Spell",
+        "Name": "Love Spell",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "Everybody needs to be loved. Most people want a significant other. Many people just want to get laid. With the classic love spell, being in love becomes easy, if temporary. The spell makes its target become romantically and/or sexually attracted to the mage who casts the spell. The mage is irresistible. The object of the magician’s affection gets sweaty, or feels flutterings in his stomach. He experiences — for a brief period — all the physical and emotional sensations of being madly in love. In the end, the Love Spell forces someone to want love — and probably to want and have sex — against that person’s natural will. Although no mortal court could ever return a conviction, many mages see no real difference between forcing someone to want to have sex with you and simply forcing someone to have sex.",
         "Practice": "Weaving",
@@ -3211,7 +3211,7 @@ const mindFourData = [
         "Book": "TotM 67"
     },
     {
-        "Titolo": "Memory Oath",
+        "Name": "Memory Oath",
         "Arcana": "Mind •••• + Fate •• + Time ••; optional Space ••",
         "DescrizioneAlta": [
             {
@@ -3244,7 +3244,7 @@ const mindFourData = [
         "Book": "GotV 196"
     },
     {
-        "Titolo": "Opening the Dream Space",
+        "Name": "Opening the Dream Space",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "Casting this spell on another allows the mage to enter the target’s Oneiros rather than her own when passing through the Astral Threshold.",
         "Practice": "Patterning",
@@ -3265,7 +3265,7 @@ const mindFourData = [
         "Book": "AR 26"
     },
     {
-        "Titolo": "Psychic Projection",
+        "Name": "Psychic Projection",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage can project his mind into the state of Twilight. This mental form has no Corpus or ephemeral body, just an intangible, semi-transparent image that can be affected only by mind-affecting powers. Likewise, the mentally projecting mage cannot affect creatures or things physically except through magic.",
         "Practice": "Patterning",
@@ -3297,7 +3297,7 @@ const mindFourData = [
         "Book": "M:tA 215"
     },
     {
-        "Titolo": "Psychic Sword",
+        "Name": "Psychic Sword",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage performs a greater psychic assault.",
         "Practice": "Unraveling",
@@ -3322,7 +3322,7 @@ const mindFourData = [
         "Book": "M:tA 216"
     },
     {
-        "Titolo": "Psychic Violation",
+        "Name": "Psychic Violation",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell floods the mind of another thinking creature with images torn from the most horrific thoughts and memories of a Fang of Mara, those spawned by looking upon the naked consciousness of one of the greatest and most powerful beings native to the Abyss. The result is typically mind-numbing terror, as the consciousness recoils from concepts and vistas it was truly not meant to encompass.",
         "Practice": "Unraveling",
@@ -3354,7 +3354,7 @@ const mindFourData = [
         "Book": "L:tS 143"
     },
     {
-        "Titolo": "Purge Oneiros",
+        "Name": "Purge Oneiros",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell washes all non-native inhabitants out of a mage’s Oneiros with a flood of mental energy. The mage uses this spell to cast out unwanted astral travelers.",
         "Practice": "Unraveling",
@@ -3375,7 +3375,7 @@ const mindFourData = [
         "Book": "AR 27"
     },
     {
-        "Titolo": "Read the Depths",
+        "Name": "Read the Depths",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage can telepathically enter a subject’s subconscious. This includes the ability to read an individual’s memories as opposed to just his surface thoughts.",
         "Practice": "Patterning",
@@ -3397,7 +3397,7 @@ const mindFourData = [
         "Book": "M:tA 215"
     },
     {
-        "Titolo": "Reinforce the Lie",
+        "Name": "Reinforce the Lie",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "Sleepwalkers are, to many willworkers, one of the most prized of resources: un-Awakened individuals nevertheless partially outside of the Exarchs’ Lie, capable of beholding feats of Supernal magic without invoking the deleterious consequences of a Sleeper’s presence. To the Seers of the Throne, however, the Lie must stand flawless and inviolate, especially when its power can hinder the Seers’ enemies. This spell temporarily suppresses a Sleepwalker’s resistance to the Lie, making her the equivalent of any other Sleeper when beholding vulgar magic.",
         "Practice": "Unraveling",
@@ -3418,7 +3418,7 @@ const mindFourData = [
         "Book": "SotT 194"
     },
     {
-        "Titolo": "Seal Other's Oneiros",
+        "Name": "Seal Other's Oneiros",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "Protecting one’s Oneiros is just prudence. Sealing another’s dream space away from potential intruders furthers one’s aims and thwarts others’ goals.",
         "Practice": "Weaving",
@@ -3439,7 +3439,7 @@ const mindFourData = [
         "Book": "AR 26"
     },
     {
-        "Titolo": "Severed Sense",
+        "Name": "Severed Sense",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "A mage can effectively “turn off” a target’s senses, leaving himself free to do as he pleases, undetected.",
         "Practice": "Unraveling",
@@ -3460,7 +3460,7 @@ const mindFourData = [
         "Book": "GotV 197"
     },
     {
-        "Titolo": "Shape Soul Stone",
+        "Name": "Shape Soul Stone",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "Soul stones can take any shape, from the fang of a beast to a silver bell. Whether to make the soul stone concealable, transportable or simply beautiful, a mage can use this spell to change the shape of her soul stone.",
         "Practice": "Patterning",
@@ -3493,7 +3493,7 @@ const mindFourData = [
         "Book": "TotM 68"
     },
     {
-        "Titolo": "Silver Threads",
+        "Name": "Silver Threads",
         "Arcana": "Mind ••••, Space ••••",
         "DescrizioneAlta": "Astral Space is enormous and easy to get lost in. This spell binds astral bodies to one another with faint silver threads, allowing their owners to easily meet in Astral Space or keep from getting separated.",
         "Practice": "Patterning",
@@ -3514,7 +3514,7 @@ const mindFourData = [
         "Book": "AR 27"
     },
     {
-        "Titolo": "Skeptic",
+        "Name": "Skeptic",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell acts on the minds of Sleepers, making them less likely to believe an anomalous event can be explained rationally. Used cautiously, this spell has the potential to cause an enemy mage to be the source of his own undoing. The Guardians of the Veil greatly disapprove of this application of magic, and upon hearing of the use of it, are likely to go to great lengths to... dissuade an encore performance.",
         "Practice": "Perfecting",
@@ -3539,7 +3539,7 @@ const mindFourData = [
         "Book": "AA 184"
     },
     {
-        "Titolo": "Skill Mastery",
+        "Name": "Skill Mastery",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage temporarily gains knowledge and use of one or more Skills.",
         "Practice": "Patterning",
@@ -3560,7 +3560,7 @@ const mindFourData = [
         "Book": "FC 111"
     },
     {
-        "Titolo": "Summon Astral Archtype",
+        "Name": "Summon Astral Archtype",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "With this spell, a mage can call down a small incarnation of a universal concept, giving shape to it within the immaterial state of Twilight.",
         "Practice": "Patterning",
@@ -3581,7 +3581,7 @@ const mindFourData = [
         "Book": "Summ 56"
     },
     {
-        "Titolo": "Suppress Wisdom",
+        "Name": "Suppress Wisdom",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "This spell enables a mage to temporarily confound her moral center, allowing her to perform a single, specified act counter to the dictates of Wisdom without fear of degeneration.",
         "Practice": "Patterning",
@@ -3602,7 +3602,7 @@ const mindFourData = [
         "Book": "TotM 68"
     },
     {
-        "Titolo": "Supreme Augmentation",
+        "Name": "Supreme Augmentation",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage can raise more than one of his Mental and Social Attributes.",
         "Practice": "Perfecting",
@@ -3623,7 +3623,7 @@ const mindFourData = [
         "Book": "M:tA 216"
     },
     {
-        "Titolo": "Telepathic Control",
+        "Name": "Telepathic Control",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage exerts telepathic control over humans and other higher minds. At this level, subjects cannot be compelled to undertake actions inimical to their nature (so most people could not be made to undertake blatantly suicidal actions, for example).",
         "Practice": "Patterning",
@@ -3644,7 +3644,7 @@ const mindFourData = [
         "Book": "M:tA 216"
     },
     {
-        "Titolo": "Triumphant Will",
+        "Name": "Triumphant Will",
         "Arcana": "Mind ••••",
         "DescrizioneAlta": "The mage skilled in this spell is capable of merging a lifetime’s worth of learning into a single reaction. Alternately, such a magus might place years of social interaction at the forefront of his mind, drawing conclusions about the behaviors and the best way to influence those around him in a hundred different ways.",
         "Practice": "Patterning",
@@ -3672,7 +3672,7 @@ const mindFourData = [
         "Book": "Myst 201"
     },
     {
-        "Titolo": "Virtual Voyage",
+        "Name": "Virtual Voyage",
         "Arcana": "Mind •••• + Forces ••",
         "DescrizioneAlta": [
             {
@@ -3708,7 +3708,7 @@ const mindFourData = [
 
 const mindFiveData = [
     {
-        "Titolo": "Astral Imprisonment",
+        "Name": "Astral Imprisonment",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "This spell seals the target’s astral path shut around him and denies him the ability to move in and out of Astral Space. Mages use this spell to trap rivals inside an astral stratum with no ability to escape.",
         "Practice": "Unmaking",
@@ -3729,7 +3729,7 @@ const mindFiveData = [
         "Book": "AR 27"
     },
     {
-        "Titolo": "Casual Brutality",
+        "Name": "Casual Brutality",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "Behavioral science studies suggest that the ways in which people interact with one another, with regard to morality, are based equally on societal notions of propriety and personal ideals. If either part of the equation is removed, either societal perception or personal values, the morality of an individual will likely begin a downward spiral.",
         "Practice": "Unraveling",
@@ -3752,7 +3752,7 @@ const mindFiveData = [
         "Book": "GoG 118"
     },
     {
-        "Titolo": "Construct Homunculus Persona",
+        "Name": "Construct Homunculus Persona",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": [
             {
@@ -3848,7 +3848,7 @@ const mindFiveData = [
         "Book": "TotM 150"
     },
     {
-        "Titolo": "Dream Network",
+        "Name": "Dream Network",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "Mages create bridges between their Oneiroi, ensuring that the astral travelers can move horizontally between dream spaces.",
         "Practice": "Making",
@@ -3869,7 +3869,7 @@ const mindFiveData = [
         "Book": "AR 28"
     },
     {
-        "Titolo": "Fiery Servant",
+        "Name": "Fiery Servant",
         "Arcana": "Forces •••• + Mind •••••",
         "DescrizioneAlta": "Some mages pride themselves on their leadership skills. Many have the ability to make men lay down their lives. The truly powerful, however, can make even the fire itself follow them, creating beings made of flame to do their bidding.",
         "Practice": "Making",
@@ -3905,7 +3905,7 @@ const mindFiveData = [
         "Book": "L:tA 43"
     },
     {
-        "Titolo": "Goetic Manifestation",
+        "Name": "Goetic Manifestation",
         "Arcana": "Mind ••••• + Spirit •••••",
         "DescrizioneAlta": "This spell withdraws an aspect of the willworker’s demon, the personification of her Vice, out of her mind and spirit and manifests it in a physical shape, fettering it to service as a familiar.",
         "Practice": "Making/Unmaking",
@@ -3930,7 +3930,7 @@ const mindFiveData = [
         "Book": "GoG 95"
     },
     {
-        "Titolo": "Network",
+        "Name": "Network",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "Whereas with “Telepathy,” p. 212, the willworker could contact other individual minds telepathically, she can now connect multiple minds, creating a network.",
         "Practice": "Making",
@@ -3984,7 +3984,7 @@ const mindFiveData = [
         "Book": "M:tA 217"
     },
     {
-        "Titolo": "Nightmare Journey",
+        "Name": "Nightmare Journey",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "Teachers of the Fangs of Mara use this spell to separate students’ consciousnesses from their bodies and send the consciousnesses into the thoughts of the acamoth.",
         "Practice": "Making",
@@ -4008,7 +4008,7 @@ const mindFiveData = [
         "Book": "L:tS 144"
     },
     {
-        "Titolo": "No Exit",
+        "Name": "No Exit",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "The mage can rework the communication paths of the target person’s brain to form a loop that prevents thoughts or words from escaping the conscious mind. To all intents and purposes, the targeted individual appears catatonic or, at best, profoundly autistic. Attempts to communicate by other means, such as drawing or writing (including typing), result in gibberish.",
         "Practice": "Unmaking",
@@ -4029,7 +4029,7 @@ const mindFiveData = [
         "Book": "Ban 61"
     },
     {
-        "Titolo": "Possession",
+        "Name": "Possession",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "The mage can psychically possess another.",
         "Practice": "Making",
@@ -4050,7 +4050,7 @@ const mindFiveData = [
         "Book": "M:tA 217"
     },
     {
-        "Titolo": "Psychic Dominion",
+        "Name": "Psychic Dominion",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "The willworker can utterly dominate the mind of another thinking being, subjugating the entity’s survival instincts or most deep-seated moral convictions. He could issue a suicidal command and compel another to heed it or force her to do something she considers absolutely abhorrent. This is exactly the same as manipulating a mind or telepathically controlling it, save that there is literally no limit to the sorts of thoughts and behaviors the willworker can force upon a subject.",
         "Practice": "Making",
@@ -4065,7 +4065,7 @@ const mindFiveData = [
         "Book": "M:tA 217"
     },
     {
-        "Titolo": "Psychic Genesis",
+        "Name": "Psychic Genesis",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "The mage can create a consciousness. He could generate a self-aware intelligence with a Twilight presence, possibly investing it into a physical shell. The caster could therefore create, say, a sentient computer or something similar. He could put the mind in a form incapable of anything other than telepathic interaction, but such is exceedingly cruel and almost always leads to the creation’s insanity, unless the consciousness is frequently interacted with or created without a need or desire for contact.",
         "Practice": "Making",
@@ -4090,7 +4090,7 @@ const mindFiveData = [
         "Book": "M:tA 218"
     },
     {
-        "Titolo": "Psychic Reprogramming",
+        "Name": "Psychic Reprogramming",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "The mage can perform psychic reprogramming.",
         "Practice": "Making",
@@ -4115,7 +4115,7 @@ const mindFiveData = [
         "Book": "M:tA 218"
     },
     {
-        "Titolo": "Shadow Projection",
+        "Name": "Shadow Projection",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "This spell enables the mage to send her consciousness past the Gauntlet into the Shadow Realm.",
         "Practice": "Making",
@@ -4136,7 +4136,7 @@ const mindFiveData = [
         "Book": "M:tA 218"
     },
     {
-        "Titolo": "Sin Eating",
+        "Name": "Sin Eating",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "One of the foremost responsibilities of the Guardians of the Veil is to take on the burden of sin so that others need not. But, when Guardians fail to execute this heavy burden, others must sometimes sully their own hands with ugly necessities. Accepting the price of his failure, however, a Guardian can assimilate the wickedness of others and purify it in the crucible of his ongoing sacrifice, redeeming the virtuous and embracing his own damnation thereby. This spell enables the Guardian to do just that, drawing out the sins of others and taking their weight upon his own soul, so sparing them the pain of wickedness and nudging them back toward virtue.",
         "Practice": "Making/Unmaking",
@@ -4241,7 +4241,7 @@ const mindFiveData = [
         "Book": "GoG 48"
     },
     {
-        "Titolo": "Temenos Sanctuary",
+        "Name": "Temenos Sanctuary",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "This spell creates a sanctuary within the Temenos.",
         "Practice": "Making",
@@ -4269,7 +4269,7 @@ const mindFiveData = [
         "Book": "L:tS 19"
     },
     {
-        "Titolo": "The Book of Self",
+        "Name": "The Book of Self",
         "Arcana": "Mind ••••• + Matter •••••",
         "DescrizioneAlta": "This practice dates back to Atlantean times, though the nature of the spell has changed through the ages. A mage nearing the end of his life would create a scroll (or, in later times, a book) that contained his very essence, written in Atlantean runes. The mage’s consciousness is copied into the book, allowing the willworker a form of immortality.",
         "Practice": "Making",
@@ -4312,7 +4312,7 @@ const mindFiveData = [
         "Book": "GotV 197"
     },
     {
-        "Titolo": "Twilight Temple",
+        "Name": "Twilight Temple",
         "Arcana": "Mind •••••",
         "DescrizioneAlta": "This spell enables a willworker to sculpt the ephemeral stuff of Twilight to create an immaterial abode for himself that can be accessed and used by his psychic form.",
         "Practice": "Making",

@@ -25,7 +25,7 @@ const spaceData = [...spaceOneData, ...spaceTwoData, ...spaceThreeData, ...space
 const spiritData = [...spiritOneData, ...spiritTwoData, ...spiritThreeData, ...spiritFourData, ...spiritFiveData];
 
 function getSpellByTitle(title) {
-  const spell = SpellsData.find((entry) => entry.Titolo === title);
+  const spell = SpellsData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find spell fixture: ${title}`);
@@ -35,7 +35,7 @@ function getSpellByTitle(title) {
 }
 
 function getFateSpellByTitle(title) {
-  const spell = fateData.find((entry) => entry.Titolo === title);
+  const spell = fateData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Fate spell fixture: ${title}`);
@@ -45,7 +45,7 @@ function getFateSpellByTitle(title) {
 }
 
 function getForceSpellByTitle(title) {
-  const spell = forceData.find((entry) => entry.Titolo === title);
+  const spell = forceData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Force spell fixture: ${title}`);
@@ -55,7 +55,7 @@ function getForceSpellByTitle(title) {
 }
 
 function getMatterSpellByTitle(title) {
-  const spell = matterData.find((entry) => entry.Titolo === title);
+  const spell = matterData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Matter spell fixture: ${title}`);
@@ -65,7 +65,7 @@ function getMatterSpellByTitle(title) {
 }
 
 function getMindSpellByTitle(title) {
-  const spell = mindData.find((entry) => entry.Titolo === title);
+  const spell = mindData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Mind spell fixture: ${title}`);
@@ -75,7 +75,7 @@ function getMindSpellByTitle(title) {
 }
 
 function getLifeSpellByTitle(title) {
-  const spell = lifeData.find((entry) => entry.Titolo === title);
+  const spell = lifeData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Life spell fixture: ${title}`);
@@ -85,7 +85,7 @@ function getLifeSpellByTitle(title) {
 }
 
 function getPrimeSpellByTitle(title) {
-  const spell = primeData.find((entry) => entry.Titolo === title);
+  const spell = primeData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Prime spell fixture: ${title}`);
@@ -95,7 +95,7 @@ function getPrimeSpellByTitle(title) {
 }
 
 function getSpaceSpellByTitle(title) {
-  const spell = spaceData.find((entry) => entry.Titolo === title);
+  const spell = spaceData.find((entry) => entry.Name === title);
 
   if (!spell) {
     throw new Error(`Unable to find Space spell fixture: ${title}`);
@@ -106,7 +106,7 @@ function getSpaceSpellByTitle(title) {
 
 function getStructuredSpellByTitle(title) {
   const spell = SpellsData.find(
-    (entry) => entry.Titolo === title && Array.isArray(entry.DescrizioneMiddle)
+    (entry) => entry.Name === title && Array.isArray(entry.DescrizioneMiddle)
   );
 
   if (!spell) {
@@ -119,7 +119,7 @@ function getStructuredSpellByTitle(title) {
 function getStructuredSpellByTitleAndArcana(title, arcana) {
   const spell = SpellsData.find(
     (entry) =>
-      entry.Titolo === title &&
+      entry.Name === title &&
       entry.Arcana === arcana &&
       Array.isArray(entry.DescrizioneMiddle)
   );
@@ -862,7 +862,7 @@ describe('SpellDetail special content rendering', () => {
     const deathSummoningView = renderSpell(
       SpellsData.find(
         (entry) =>
-          entry.Titolo === 'Summon Supernal Being' &&
+          entry.Name === 'Summon Supernal Being' &&
           entry.Arcana === 'Death •••' &&
           Array.isArray(entry.DescrizioneMiddle)
       )
@@ -1437,7 +1437,7 @@ describe('SpellDetail special content rendering', () => {
     ]);
 
     spiritData
-      .filter((spell) => migratedTitles.has(spell.Titolo))
+      .filter((spell) => migratedTitles.has(spell.Name))
       .forEach((spell) => {
         expect(typeof spell.DescrizioneMiddle).not.toBe('string');
 

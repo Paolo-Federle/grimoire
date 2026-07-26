@@ -16,6 +16,7 @@ export default function MobileSimpleTable({ headers, data, activeRowLink }) {
 
     const renderValue = (header, row, value, i) => {
         if (header === "Book") return BookLink(value);
+        if (React.isValidElement(value)) return value;
 
         const displayValue = Array.isArray(value)
             ? normalizeDisplayText(value.join(", "))

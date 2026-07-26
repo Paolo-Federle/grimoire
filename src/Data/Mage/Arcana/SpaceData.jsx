@@ -1,6 +1,6 @@
 const spaceOneData = [
     {
-        "Titolo": "Angle Vision",
+        "Name": "Angle Vision",
         "Arcana": "Space •",
         "DescrizioneAlta": "The mage can see around objects, corners, or other obstructions that are blocking his view. His vision shifts as if he’d changed his vantage point to look around the blockage.",
         "Practice": "Unveiling",
@@ -25,7 +25,7 @@ const spaceOneData = [
         "Book": "GotV 197"
     },
     {
-        "Titolo": "Correspondence",
+        "Name": "Correspondence",
         "Arcana": "Space •",
         "DescrizioneAlta": "The mage can analyze the connections between things, people, and places, determining their degree of sympathetic connection. This spell provides useful information to the caster who intends to affect a subject through someone or something to whom or to which the target is emotionally bound. It might be a very dear friend, a treasured childhood possession, or that nook beneath the old oak where the subject fell in love for the first time.",
         "Practice": "Knowing",
@@ -46,7 +46,7 @@ const spaceOneData = [
         "Book": "M:tA 232"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -91,7 +91,7 @@ const spaceOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Finder",
+        "Name": "Finder",
         "Arcana": "Space •",
         "DescrizioneAlta": "The mage can flawlessly track an item in his immediate surroundings.",
         "Practice": "Knowing",
@@ -112,7 +112,7 @@ const spaceOneData = [
         "Book": "M:tA 233"
     },
     {
-        "Titolo": "Omnivision",
+        "Name": "Omnivision",
         "Arcana": "Space •",
         "DescrizioneAlta": "The mage can perceive 360 degrees around himself. He essentially has “eyes” on the back and sides of his head.",
         "Practice": "Unveiling",
@@ -133,7 +133,7 @@ const spaceOneData = [
         "Book": "M:tA 233"
     },
     {
-        "Titolo": "Spatial Awareness",
+        "Name": "Spatial Awareness",
         "Arcana": "Space •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). He can detect spatial distortions and manipulations. He is capable of discerning disturbances in the local fabric of space (typically caused by use of more advanced applications of this very Arcanum). He can detect when someone has altered the spatial axes of an area (for example, making a place larger on the inside than outside), used a location as the origin point or terminus for teleportation, or created (or overcome) a Space Ward (see below). This sense transcends the normal five senses, but most mages tend to understand it in terms of sight.",
         "Practice": "Unveiling",
@@ -154,7 +154,7 @@ const spaceOneData = [
         "Book": "M:tA 233"
     },
     {
-        "Titolo": "Spatial Map",
+        "Name": "Spatial Map",
         "Arcana": "Space •",
         "DescrizioneAlta": "Statistics show that each individual involved in the average gunfight stands only a relatively small chance of being fatally wounded. Fear distorts spatial perception, just as it distorts the perception of time, influencing shooters’ aim. A mage who casts this spell is not guaranteed to be any less afraid during a gunfight, but she does have a much more accurate sense of where everyone and everything is. The spell creates a mental spatial map that constantly updates the mage on the changing topography of her surroundings, from the guy with the shotgun sneaking up among the parked cars, to the stray leaf blowing by in that sudden breeze.",
         "Practice": "Unveiling",
@@ -182,7 +182,7 @@ const spaceOneData = [
 
 const spaceTwoData = [
     {
-        "Titolo": "Apportation",
+        "Name": "Apportation",
         "Arcana": "Space ••",
         "DescrizioneAlta": "With the aid of another Arcanum, the mage can move something to a remotely viewed location or remove something from it. (The “Scrying” spell, p. 235, allows a mage to remotely view a location.) She can, with the appropriate dots of Forces, Matter or Life (Matter 2 for a brick, for example, or Life 2 for a guinea pig), draw an item through a scrying window to her current location if the object, creature or energy source is small enough. If she wishes, she can also send such subjects from her location through the window to the other location. Naturally, this use of scrying (which either causes a disembodied hand to reach out of thin air and grab or deposit something, or makes that something appear or disappear without any plausible explanation) is quite vulgar.",
         "Practice": "Ruling",
@@ -203,7 +203,7 @@ const spaceTwoData = [
         "Book": "M:tA 234"
     },
     {
-        "Titolo": "Astral Beacon",
+        "Name": "Astral Beacon",
         "Arcana": "Space •• + Mind ••",
         "DescrizioneAlta": "Mages use this spell to mark locations in Astral Space so that they can easily be found by allies. The caster marks the location with a specific emotional “signature.” Once the caster transmits this signature to another individual using “Voice From Afar” (or another Mind spell that transmits emotions), that individual can travel to the desired astral location once she visits its particular Astral plane (Oneiros, Temenos or Dreamtime).",
         "Practice": "Ruling",
@@ -253,7 +253,7 @@ const spaceTwoData = [
         "Book": "TotM 71"
     },
     {
-        "Titolo": "Bestow Spatial Awareness",
+        "Name": "Bestow Spatial Awareness",
         "Arcana": "Space ••",
         "DescrizioneAlta": "As the Space 1 'Spatial Awareness' spell, p. 233, except that the mage casts it upon another mage or a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -274,7 +274,7 @@ const spaceTwoData = [
         "Book": "M:tA 234"
     },
     {
-        "Titolo": "Conceal Sympathy",
+        "Name": "Conceal Sympathy",
         "Arcana": "Space ••",
         "DescrizioneAlta": "The mage can conceal any sympathetic connections he has to people, places, or things, making it appear that he might know a lover only casually or not know her at all.",
         "Practice": "Veiling",
@@ -295,7 +295,7 @@ const spaceTwoData = [
         "Book": "M:tA 234"
     },
     {
-        "Titolo": "Follow Through",
+        "Name": "Follow Through",
         "Arcana": "Space ••",
         "DescrizioneAlta": [
             {
@@ -325,7 +325,7 @@ const spaceTwoData = [
         "Book": "M:tA 234"
     },
     {
-        "Titolo": "Intrusion Warning",
+        "Name": "Intrusion Warning",
         "Arcana": "Space ••",
         "DescrizioneAlta": "Sometimes a mage doesn’t want to prevent something from entering or leaving a place, she just wants to know when it does. Casting this spell creates a sensitivity that will warn her in such an event.",
         "Practice": "Knowing",
@@ -383,7 +383,7 @@ const spaceTwoData = [
         "Book": "GotV 198"
     },
     {
-        "Titolo": "Locate Source",
+        "Name": "Locate Source",
         "Arcana": "Space ••",
         "DescrizioneAlta": "The mage can determine the precise location where an object was made or an individual was born or died. Using this spell to determine an object’s location requires Matter 1, determining where an item was enchanted requires Prime 1, determining where someone died requires Death 1, and learning where they were born requires Life 1. If Time 1 is also included, the caster will also learn precisely when this event occurred.",
         "Practice": "Unveiling",
@@ -404,7 +404,7 @@ const spaceTwoData = [
         "Book": "Myst 204"
     },
     {
-        "Titolo": "Moving Target",
+        "Name": "Moving Target",
         "Arcana": "Space •• + Time •• (optional Prime ••)",
         "DescrizioneAlta": "In addition to being able to locate a person or object to whom the caster has a sympathetic connection, this spell also allows the caster to trace the movements of the target of this spell. This spell allows the caster to track the past movements of the target (with Time 3, he can also predict where the target may go next). If the caster includes Prime in the spell, the spell also indicates when and where the person or object used or was associated with magic (but not what kind).",
         "Practice": "Knowing",
@@ -438,7 +438,7 @@ const spaceTwoData = [
         "Book": "GotV 198"
     },
     {
-        "Titolo": "Scrying",
+        "Name": "Scrying",
         "Arcana": "Space ••",
         "DescrizioneAlta": "The mage can view a location remotely. She can employ all of her senses through these 'perceptual windows,' allowing her to see, hear, smell, and even touch things on the far side. This spell can be used for a variety of purposes, from checking up on a loved one to spying on a hated enemy. Mages through time have doubtlessly used it for virtually every possible reason.",
         "Practice": "Ruling",
@@ -467,7 +467,7 @@ const spaceTwoData = [
         "Book": "M:tA 235"
     },
     {
-        "Titolo": "Sympathetic Tap",
+        "Name": "Sympathetic Tap",
         "Arcana": "Space ••",
         "DescrizioneAlta": "Every interaction of a person creates a slight ripple in Space, the threads of sympathetic connections vibrating and strengthening when association reinforces them. This spell allows the mage to watch the connection of a target for those moments it becomes active.",
         "Practice": "Knowing",
@@ -529,7 +529,7 @@ const spaceTwoData = [
         "Book": "SotT 195"
     },
     {
-        "Titolo": "Track Projectile",
+        "Name": "Track Projectile",
         "Arcana": "Space •• (or Space •• + Time ••)",
         "DescrizioneAlta": "The mage gains the ability to determine the exact trajectory of any small, moving object that passes near him. All he needs is one point on the object’s path, and he can extrapolate where the object came from, where it went, and every point in between.",
         "Practice": "Unveiling",
@@ -554,7 +554,7 @@ const spaceTwoData = [
         "Book": "AA 185"
     },
     {
-        "Titolo": "Untouchable",
+        "Name": "Untouchable",
         "Arcana": "Space ••",
         "DescrizioneAlta": "The best policy for avoiding harm in a fight is to not be where attacks are directed. This spell enables a mage to perform slight intuitive 'tweaks' on the local fabric of space to slip away from hostile attention. Generally speaking, this exceptional avoidance looks coincidental, something plausible for the individual in question. Thus, a seemingly clumsy mage blunders his way out of harm’s way, while a lithe, graceful martial artist flows like water, managing to avoid her enemy’s path at the last possible moment.",
         "Practice": "Shielding",
@@ -579,7 +579,7 @@ const spaceTwoData = [
         "Book": "M:tA 235"
     },
     {
-        "Titolo": "Ward",
+        "Name": "Ward",
         "Arcana": "Space ••",
         "DescrizioneAlta": [
             {
@@ -629,7 +629,7 @@ const spaceTwoData = [
 
 const spaceThreeData = [
     {
-        "Titolo": "Avoidance Tactics",
+        "Name": "Avoidance Tactics",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage can now cast the 'Untouchable' spell, p. 235, on others.",
         "Practice": "Shielding",
@@ -650,7 +650,7 @@ const spaceThreeData = [
         "Book": "M:tA 236"
     },
     {
-        "Titolo": "Ban",
+        "Name": "Ban",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage can create a Ban to restrict something from passing through a Ward (see 'Ward,' p. 236).",
         "Practice": "Weaving",
@@ -679,7 +679,7 @@ const spaceThreeData = [
         "Book": "M:tA 237"
     },
     {
-        "Titolo": "Destroy the Threads",
+        "Name": "Destroy the Threads",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage destroys a sympathetic connection.",
         "Practice": "Fraying",
@@ -704,7 +704,7 @@ const spaceThreeData = [
         "Book": "M:tA 237"
     },
     {
-        "Titolo": "Double Shape",
+        "Name": "Double Shape",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage merges two objects into one, so that at any given time, one object exists in the Material Realm, while the other co-exists with the object in a pocket dimension. As an instant action, the item’s owner can switch the two items, so that, for example, one’s enchanted handgun disappears, to be replaced by its other half, an enhanced chainsaw.",
         "Practice": "Weaving",
@@ -733,7 +733,7 @@ const spaceThreeData = [
         "Book": "TotM 143"
     },
     {
-        "Titolo": "Duplicate Sympathy",
+        "Name": "Duplicate Sympathy",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage may assume the sympathetic connections of another, or grant another the use of her own.",
         "Practice": "Weaving",
@@ -787,7 +787,7 @@ const spaceThreeData = [
         "Book": "SotT 194"
     },
     {
-        "Titolo": "Expanded Volume",
+        "Name": "Expanded Volume",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage adds to the internal volume of any existing container or enclosed space of Size 3 or less, without expanding the space’s external dimensions. Thus a jar, shoe box or jacket pocket could hold two, three or more times than what could normally fit into a container of that size. The interior behaves exactly as if the container had become deeper, which means someone reaching in might not be able to touch the bottom and fragile objects might break if allowed to drop into the container. Objects must be inserted and retrieved by hand, and must be small enough to fit through the container’s opening. The item is capable of holding the full weight of whatever fits inside without breaking, but will become appropriately heavy as it’s filled.",
         "Practice": "Weaving",
@@ -815,7 +815,7 @@ const spaceThreeData = [
         "Book": "GotV 199"
     },
     {
-        "Titolo": "Eyes of the Building",
+        "Name": "Eyes of the Building",
         "Arcana": "Space •••",
         "DescrizioneAlta": "Some mages know buildings inside out. Some mages, with a little concentration, find that they can see and hear everything that goes on inside the buildings they have made or in those buildings to which they have a special link.",
         "Practice": "Instant",
@@ -848,7 +848,7 @@ const spaceThreeData = [
         "Book": "L:tA 61"
     },
     {
-        "Titolo": "Hostile Space",
+        "Name": "Hostile Space",
         "Arcana": "Space ••• + Mind ••",
         "DescrizioneAlta": "Summoned beings often have their genesis in alien landscapes and they are not necessarily comfortable in this world. This spell actually increases the discomfort that many such entities feel within the confines of the material realm.",
         "Practice": "Weaving",
@@ -873,7 +873,7 @@ const spaceThreeData = [
         "Book": "Summ 211"
     },
     {
-        "Titolo": "Instill Elusiveness",
+        "Name": "Instill Elusiveness",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage enchants an item so that it changes its position in space when it is touched by an unauthorized user. The item teleports to a new location within its range of movement. If there’s a hidden or inaccessible location within that radius, the item goes there. Otherwise it moves as far away as it can without rematerializing within a solid object. The item may move in a random direction, or make a series of consistent hops in the same direction. Although the item is not blessed with intelligence, the object does appear to calculate its moves to engineer maximum exasperation in the interloper.",
         "Practice": "Weaving",
@@ -931,7 +931,7 @@ const spaceThreeData = [
         "Book": "TotM 140"
     },
     {
-        "Titolo": "Instill Homing Instinct",
+        "Name": "Instill Homing Instinct",
         "Arcana": "Space •••",
         "DescrizioneAlta": [
             {
@@ -997,7 +997,7 @@ const spaceThreeData = [
         "Book": "TotM 144"
     },
     {
-        "Titolo": "Interpose",
+        "Name": "Interpose",
         "Arcana": "Space •••",
         "DescrizioneAlta": "During the course of defending those weaker than themselves, warriors are occasionally required to put their own bodies in harm’s way, so as to spare others pain and suffering that they are ill-equipped to endure. This sacrifice is among the noblest undertaken by the career combatant, for it demonstrates the sense of love and duty that she feels toward her people.",
         "Practice": "Shielding",
@@ -1018,7 +1018,7 @@ const spaceThreeData = [
         "Book": "AA 186"
     },
     {
-        "Titolo": "Maintained Sympathy",
+        "Name": "Maintained Sympathy",
         "Arcana": "Space •••",
         "DescrizioneAlta": "Travelers appear in the astral without any more than clothes on their back. This is usually enough — a mage’s best weapons in Astral Space are his spells and his wits — but sometimes it helps to have an edge. This spell manifests representations of real-world sympathies in the astral for the mage to use.",
         "Practice": "Weaving",
@@ -1039,7 +1039,7 @@ const spaceThreeData = [
         "Book": "AR 28"
     },
     {
-        "Titolo": "Multispatial Perception",
+        "Name": "Multispatial Perception",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage can scry multiple locations simultaneously.",
         "Practice": "Fraying",
@@ -1060,7 +1060,7 @@ const spaceThreeData = [
         "Book": "M:tA 237"
     },
     {
-        "Titolo": "New Threads",
+        "Name": "New Threads",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage creates a sympathetic connection by fortifying that elusive bond between things that creates the principle of sympathy (using a favored childhood treasure, for example, to work either deleterious or beneficial magic upon another).",
         "Practice": "Weaving",
@@ -1085,7 +1085,7 @@ const spaceThreeData = [
         "Book": "M:tA 237"
     },
     {
-        "Titolo": "Portal",
+        "Name": "Portal",
         "Arcana": "Space •••",
         "DescrizioneAlta": [
             {
@@ -1142,7 +1142,7 @@ const spaceThreeData = [
         "Book": "M:tA 238"
     },
     {
-        "Titolo": "Ranged Blow",
+        "Name": "Ranged Blow",
         "Arcana": "Space •••",
         "DescrizioneAlta": "The mage can punch, kick, or stab a target from afar.",
         "Practice": "Weaving",
@@ -1163,7 +1163,7 @@ const spaceThreeData = [
         "Book": "M:tA 238"
     },
     {
-        "Titolo": "Repel",
+        "Name": "Repel",
         "Arcana": "Space ••• + [Conjuctional Arcanum]",
         "DescrizioneAlta": [
             {
@@ -1196,7 +1196,7 @@ const spaceThreeData = [
         "Book": "AA 186"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1287,7 +1287,7 @@ const spaceThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Walls in the Labyrinth",
+        "Name": "Walls in the Labyrinth",
         "Arcana": "Space •••, Fate ••, Time ••, Prime •-•••••",
         "DescrizioneAlta": [
             {
@@ -1351,7 +1351,7 @@ const spaceThreeData = [
 
 const spaceFourData = [
     {
-        "Titolo": "Arcade",
+        "Name": "Arcade",
         "Arcana": "Space ••••",
         "DescrizioneAlta": [
             {
@@ -1430,7 +1430,7 @@ const spaceFourData = [
         "Book": "RotE 22"
     },
     {
-        "Titolo": "Astral Reaches",
+        "Name": "Astral Reaches",
         "Arcana": "Space ••••",
         "DescrizioneAlta": "An adept of Space masters the ability to reach between astral realms and strata. The mage can use spells that short-circuit distance, such as 'Apportation' and 'Portal,' to travel between any portions of Astral Space.",
         "Practice": "Patterning",
@@ -1451,7 +1451,7 @@ const spaceFourData = [
         "Book": "AR 28"
     },
     {
-        "Titolo": "Co-Location",
+        "Name": "Co-Location",
         "Arcana": "Space ••••",
         "DescrizioneAlta": "The mage performs personal co-location, being in two or more places at once. He creates multiple images of himself, one of which is really him. Without the use of the Mind Arcanum for multi-tasking, these duplicates are just that, reflections like those in a mirror, all performing the same tasks, saying the same things simultaneously. These duplicates are normally insubstantial, but the mage is capable of choosing which location she is actually at from moment to moment.",
         "Practice": "Patterning",
@@ -1480,7 +1480,7 @@ const spaceFourData = [
         "Book": "M:tA 239"
     },
     {
-        "Titolo": "Ephemeral Co-Location",
+        "Name": "Ephemeral Co-Location",
         "Arcana": "Space •••• + Spirit •••",
         "DescrizioneAlta": "Warlocks of advanced skill in their Path’s Arcana can be in many places at once. Those who learn this spell, however, can also be in different realms, simultaneously.",
         "Practice": "Patterning",
@@ -1521,7 +1521,7 @@ const spaceFourData = [
         "Book": "Summ 211"
     },
     {
-        "Titolo": "Look Within the Gauntlet",
+        "Name": "Look Within the Gauntlet",
         "Arcana": "Space •••• + Spirit •••",
         "DescrizioneAlta": "By picking apart the weave of the Gauntlet between the material and the ephemeral, a willworker can look inside that barrier, to behold its astounding emptiness and, just maybe, to study some of its otherworldly life.",
         "Practice": "Patterning",
@@ -1542,7 +1542,7 @@ const spaceFourData = [
         "Book": "Summ 62"
     },
     {
-        "Titolo": "Pocket Realm",
+        "Name": "Pocket Realm",
         "Arcana": "Space ••••",
         "DescrizioneAlta": "The mage creates a pocket universe to which he can escape (with his familiar, provided he chooses to bring it, along with any possessions he might wish to carry). This “space” has no particular size beyond that imparted upon it by the mage himself.",
         "Practice": "Patterning",
@@ -1586,7 +1586,7 @@ const spaceFourData = [
         "Book": "M:tA 239"
     },
     {
-        "Titolo": "Portal Key",
+        "Name": "Portal Key",
         "Arcana": "Space ••••",
         "DescrizioneAlta": "The mage can attune a portal (see “Portal,” p. 238) he creates to some kind of activation trigger (such as a particular word or phrase, a given gesture or even something inherent, such as the presence of a redhead or a member of the mage’s own family), so that the portal opens and is usable by any one who performs the trigger, but it otherwise remains closed. The mage can also use the Portal Key to declare who can (and cannot) pass through the portal.",
         "Practice": "Patterning",
@@ -1607,7 +1607,7 @@ const spaceFourData = [
         "Book": "M:tA 240"
     },
     {
-        "Titolo": "Safe Keeping",
+        "Name": "Safe Keeping",
         "Arcana": "Space ••••",
         "DescrizioneAlta": "The mage can place an item into his Pocket Realm (see p. 239) for safekeeping and retrieve it with another casting of this spell.",
         "Practice": "Patterning",
@@ -1639,7 +1639,7 @@ const spaceFourData = [
         "Book": "M:tA 240"
     },
     {
-        "Titolo": "Shatter Space",
+        "Name": "Shatter Space",
         "Arcana": "Space •••• + Fate ••",
         "DescrizioneAlta": "This bizarre spell divides an area into “cells” that cease to be geographically contiguous with one another; their spatial interaction is determined randomly. The most common use of the spell is to hinder targets caught in the cells from easily traveling to other cells within the spell’s area.",
         "Practice": "Patterning",
@@ -1683,7 +1683,7 @@ const spaceFourData = [
         "Book": "TotM 72"
     },
     {
-        "Titolo": "Suspension",
+        "Name": "Suspension",
         "Arcana": "Space ••••",
         "DescrizioneAlta": "By means of this spell, the mage essentially entangles a given being or object with invisible spatial strands, rendering him incapable of leaving.",
         "Practice": "Patterning",
@@ -1724,7 +1724,7 @@ const spaceFourData = [
         "Book": "M:tA 240"
     },
     {
-        "Titolo": "Teleportation",
+        "Name": "Teleportation",
         "Arcana": "Space ••••",
         "DescrizioneAlta": [
             {
@@ -1761,7 +1761,7 @@ const spaceFourData = [
 
 const spaceFiveData = [
     {
-        "Titolo": "Dimensional Axis",
+        "Name": "Dimensional Axis",
         "Arcana": "Space •••••",
         "DescrizioneAlta": [
             {
@@ -1795,7 +1795,7 @@ const spaceFiveData = [
         "Book": "M:tA 241"
     },
     {
-        "Titolo": "Hide Space",
+        "Name": "Hide Space",
         "Arcana": "Space •••••",
         "DescrizioneAlta": [
             {
@@ -1843,7 +1843,7 @@ const spaceFiveData = [
         "Book": "M:tA 242"
     },
     {
-        "Titolo": "Labyrinth",
+        "Name": "Labyrinth",
         "Arcana": "Space •••••",
         "DescrizioneAlta": "The mage can mutate dimensional axes. A hallway can be made to go on for miles (despite the fact that it is in a building that is only a hundred feet across).",
         "Practice": "Making",
@@ -1868,7 +1868,7 @@ const spaceFiveData = [
         "Book": "M:tA 242"
     },
     {
-        "Titolo": "Manifold Presence",
+        "Name": "Manifold Presence",
         "Arcana": "Space ••••• + Life •••• or •••••; optional Matter ••••• and/or Mind • or •••",
         "DescrizioneAlta": "Just as the sun is one thing and yet exists everywhere in half of the world at once, a mage with an advanced knowledge of Space and Life (and, quite possibly, some understanding of Matter and/or Mind) can simultaneously be in several places physically. The mage could, if he wished, chop a winter’s worth of firewood in an hour or so, guard every entrance to a building, or even become a one-man mob.",
         "Practice": "Making",
@@ -1901,7 +1901,7 @@ const spaceFiveData = [
         "Book": "M:tA 242"
     },
     {
-        "Titolo": "Oubliette",
+        "Name": "Oubliette",
         "Arcana": "Space ••••• + Forces •••, Mind ••••, Time ••••",
         "DescrizioneAlta": [
             {
@@ -1942,7 +1942,7 @@ const spaceFiveData = [
         "Book": "M:tA 243"
     },
     {
-        "Titolo": "Phased Strike",
+        "Name": "Phased Strike",
         "Arcana": "Space••••• + Matter •••, •••• or•••••",
         "DescrizioneAlta": "Armor of one sort or another is likely almost as old as the human desire to harm one another with weaponry. Indeed, some forms of armor are so effective that they force innovations in the science of armed aggression. Arrows have long contended with various sorts of physical protection, and worked at means of circumventing them. While this spell requires a considerable degree of Awakened prowess, Phased Strike ranks among the more elegant solutions to the age-old problem.",
         "Practice": "Unmaking",
@@ -1971,7 +1971,7 @@ const spaceFiveData = [
         "Book": "AA 187"
     },
     {
-        "Titolo": "Shrink/Expand",
+        "Name": "Shrink/Expand",
         "Arcana": "Space ••••• + Life ••, ••• or •••• or Matter ••",
         "DescrizioneAlta": "The mage can warp spatial axes to cause an object to become smaller or larger.",
         "Practice": "Making",
@@ -2004,7 +2004,7 @@ const spaceFiveData = [
         "Book": "M:tA 243"
     },
     {
-        "Titolo": "Worlds Collide",
+        "Name": "Worlds Collide",
         "Arcana": "Space •••••",
         "DescrizioneAlta": "The mage can co-locate people or objects with one another and cause them to physically interact. When two or more objects (including people) are superimposed upon one another and allowed to interact, they are usually destroyed in a very messy fashion, as molecular lattices collide and drive each other apart. For living creatures, the result is usually crippling at the very least.",
         "Practice": "Unmaking",

@@ -17,7 +17,7 @@ export default function Legacy() {
             'thirdAttainmentOptArcana', 'thirdAttainmentOptDescrizione'
         ],
         urlPrefix: '/mage/legacy/',
-        keyToUseForLinks: 'Nome'
+        keyToUseForLinks: 'Name'
     });
 
     return (

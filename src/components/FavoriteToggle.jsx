@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { IconButton, Tooltip } from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 
-import { toggleFavorite, isFavorite } from "../utils";
+import { getFavoriteKey, toggleFavorite, useFavoriteKey } from "../favoritesStore";
 
 export default function FavoriteToggle({ row, columns, sourcePath, titleIsLink = false }) {
-  const [, forceRerender] = useState(0);
-
-  const fav = isFavorite(row, columns, sourcePath);
+  const fav = useFavoriteKey(getFavoriteKey(row, columns, sourcePath));
 
   return (
     <Tooltip title={fav ? "Remove from favorites" : "Add to favorites"}>
@@ -21,7 +19,6 @@ export default function FavoriteToggle({ row, columns, sourcePath, titleIsLink =
           // ✅ passa titleIsLink come 4° parametro
           toggleFavorite(row, columns, sourcePath, titleIsLink);
 
-          forceRerender((t) => t + 1);
         }}
         aria-label={fav ? "remove favorite" : "add favorite"}
       >

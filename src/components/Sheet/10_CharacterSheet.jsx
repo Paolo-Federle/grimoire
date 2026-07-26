@@ -7,6 +7,7 @@ import CharacterInfoSection from "./CharacterInfo/15_CharacterInfoSection";
 import { HealthTracker } from "./Health/Health";
 import { WillpowerTracker } from "./Willpower/Willpower";
 import { SheetDataProvider } from "./05_SheetDataContext";
+import { SheetCatalogProvider } from "./07_SheetCatalogContext";
 import RaceSection from "./Race/15_RaceSection";
 import SheetAutoCalculations from "./20_SheetAutoCalculations";
 import MoralitySection from "./Traits/15_MoralitySection";
@@ -21,36 +22,34 @@ export default function CharacterSheet({ initialData, onSheetDataChange }) {
 
   return (
     <SheetDataProvider initialData={initialData} onChange={onSheetDataChange}>
-      <SheetAutoCalculations />
-      <Pages pages={pages}>
-        <>
-          <CharacterInfoSection />
-          <AttributesSection min={1} max={5} />
-          <SkillsSection min={0} max={5} />
+      <SheetCatalogProvider>
+        <SheetAutoCalculations />
+        <Pages pages={pages}>
+          <>
+            <CharacterInfoSection />
+            <AttributesSection min={1} max={5} />
+            <SkillsSection min={0} max={5} />
 
-          <div className="flex w-full p-4 space-x-4">
-            <HealthTracker />
-            <WillpowerTracker />
-            <MoralitySection />
+            <div className="flex w-full p-4 space-x-4">
+              <HealthTracker />
+              <WillpowerTracker />
+              <MoralitySection />
+            </div>
+
+            <DerivedStatsSection />
+
+            <div className="flex w-full p-4 space-x-4">
+              <EquipmentSection paddingOverride={true} />
+              <MeritsSection min={1} max={5} paddingOverride={true} />
+            </div>
+          </>
+
+          <div>
+            <RaceSection />
           </div>
-
-          <DerivedStatsSection />
-
-          <div className="flex w-full p-4 space-x-4">
-            <EquipmentSection paddingOverride={true} />
-            <MeritsSection min={1} max={5} paddingOverride={true} />
-
-
-          </div>
-          
-        </>
-
-        <div>
-          <RaceSection />
-        </div>
-
-      </Pages>
+        </Pages>
+      </SheetCatalogProvider>
     </SheetDataProvider>
 
-  )
+  );
 }

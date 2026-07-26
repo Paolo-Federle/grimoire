@@ -4,7 +4,7 @@ import { updateValueAtPath } from "./sheetStateUtils";
 import {
   getMageResourceStats,
   getVampireResourceStats,
-} from "./sheetLookupData";
+} from "./sheetResourceData";
 
 export default function SheetAutoCalculations() {
   const { sheetData, setSheetData } = useSheetData();

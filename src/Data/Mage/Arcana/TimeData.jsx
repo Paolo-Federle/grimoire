@@ -1,6 +1,6 @@
 const timeOneData = [
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -38,7 +38,7 @@ const timeOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Momentary Flux",
+        "Name": "Momentary Flux",
         "Arcana": "Time •",
         "DescrizioneAlta": "This is the power to discern the “Butterfly Effect.” The mage can judge a currently ongoing event, one about to take place (within the next five turns) or one that has just taken place (within five turns) and discover whether it will be beneficial or adverse for her.",
         "Practice": "Knowing",
@@ -59,7 +59,7 @@ const timeOneData = [
         "Book": "M:tA 257"
     },
     {
-        "Titolo": "Perfect Timing",
+        "Name": "Perfect Timing",
         "Arcana": "Time •",
         "DescrizioneAlta": "This spell allows a mage to accurately assess all of the temporal components occurring in her immediate presence, giving her an opportunity to act at exactly the proper time to have the maximum effect. If she wants to throw a punch, she knows how and where to strike with the greatest possible (mundane) precision and force. Or if she wants to convince someone of something, she knows the most opportune instant in which to speak.",
         "Practice": "Knowing",
@@ -80,7 +80,7 @@ const timeOneData = [
         "Book": "M:tA 258"
     },
     {
-        "Titolo": "Precise Dating",
+        "Name": "Precise Dating",
         "Arcana": "Time •",
         "DescrizioneAlta": "The mage can determine exactly when an object or living being attained its current form. This spell reveals when an object was made, when a raw gemstone was cut or a hunk of ore was mined, when a person or animal was born or when a body or fragment of bone died. Including Life • or Matter • reveals the date of the other major changes the person or object underwent — allowing a mage who finds a human skull to determine when the skull’s owner was born and when he died, or holding a knife, and knowing when it was made and when the ore it was made from was mined. Also, if combined with Forces •, this spell can be used to determine the last time a piece of electrically powered or electronic equipment was used or when a computer file was created or edited.",
         "Practice": "Unveiling",
@@ -131,7 +131,7 @@ const timeOneData = [
         "Book": "Myst 204"
     },
     {
-        "Titolo": "Temporal Eddies",
+        "Name": "Temporal Eddies",
         "Arcana": "Time •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see 'Mage Sight,' p. 110). He perceives resonance through the way in which it 'snags' things, people and events moving through the timestream, by the magnitude of its presence (in much the same way as scientists determine the presence of a black hole by witnessing the phenomena around it). He can also tell perfect time, anywhere, discerning the passage of instants with such clarity that his sense is more precise than even those most carefully maintained clock.",
         "Practice": "Unveiling",
@@ -147,7 +147,7 @@ const timeOneData = [
         "Book": "M:tA 258"
     },
     {
-        "Titolo": "Temporal Wrinkles",
+        "Name": "Temporal Wrinkles",
         "Arcana": "Time •",
         "DescrizioneAlta": "The mage can sense temporal disturbances. She can detect the presence of temporal phenomena, such as the subtle distortions clinging to a person suffering from 'lost time' or those surrounding advanced uses of this Arcanum.",
         "Practice": "Unveiling",
@@ -168,7 +168,7 @@ const timeOneData = [
         "Book": "M:tA 258"
     },
     {
-        "Titolo": "Tempus Fugit",
+        "Name": "Tempus Fugit",
         "Arcana": "Time •",
         "DescrizioneAlta": "Time is relative: it crawls when you’re stuck in traffic, it speeds by when you’re visiting a lover. With this spell, the mage can influence a target’s subjective experience of time.",
         "Practice": "Compelling",
@@ -193,7 +193,7 @@ const timeOneData = [
         "Book": "GotV 199"
     },
     {
-        "Titolo": "Time Limit",
+        "Name": "Time Limit",
         "Arcana": "Time •",
         "DescrizioneAlta": "The mage relinquishes control over a finishing spell, by accepting a time limit on the item’s operations.",
         "Practice": "Compelling",
@@ -247,7 +247,7 @@ const timeOneData = [
         "Book": "TotM 132"
     },
     {
-        "Titolo": "Time's Mark",
+        "Name": "Time's Mark",
         "Arcana": "Time • + Matter or Life •",
         "DescrizioneAlta": "The mage can tell the age of a living being or an object.",
         "Practice": "Knowing",
@@ -287,7 +287,7 @@ const timeOneData = [
 
 const timeTwoData = [
     {
-        "Titolo": "Augury",
+        "Name": "Augury",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The mage sees the future in terms of generalities.",
         "Practice": "Unveiling",
@@ -320,7 +320,7 @@ const timeTwoData = [
         "Book": "M:tA 258"
     },
     {
-        "Titolo": "Ephemeral Postcognition",
+        "Name": "Ephemeral Postcognition",
         "Arcana": "Prime • + Time ••",
         "DescrizioneAlta": "For some mages, it is not enough merely to know what a summoned entity is; they must also understand where it came from. This spell enables such willworkers to catch fleeting glimpses of the native realities of the ephemeral beings that they call into the Fallen World by studying the immediate history of the Resonance that such creatures carry with them.",
         "Practice": "Ruling",
@@ -349,7 +349,7 @@ const timeTwoData = [
         "Book": "Summ 210"
     },
     {
-        "Titolo": "Flip of the Coin",
+        "Name": "Flip of the Coin",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The mage can glance forward and check the outcome of a simple undertaking, one with only two major variables (heads or tails, for example, or cutting the red wire instead of the green one). This sense works only under circumstances where consequences are immediate (someone wins the coin toss or the bomb blows up).",
         "Practice": "Knowing",
@@ -374,7 +374,7 @@ const timeTwoData = [
         "Book": "M:tA 259"
     },
     {
-        "Titolo": "Glimpsing the Future",
+        "Name": "Glimpsing the Future",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The mage can study the outcome of a current personal action. The willworker can quickly scan the immediate future and determine whether her next action will go well or not, and adjust to improve her chances of success. Effectively, the mage watches herself perform an action in the immediate future in an instant and then decides how it could be done better.",
         "Practice": "Knowing",
@@ -399,7 +399,7 @@ const timeTwoData = [
         "Book": "M:tA 259"
     },
     {
-        "Titolo": "Library of Time",
+        "Name": "Library of Time",
         "Arcana": "Time ••",
         "DescrizioneAlta": "While the Guardians are known for their patience and deliberation, they also appreciate the need for speed. At times when they must pore over tomes of lore as quickly as possible, the use of the Time Arcanum allows them to research in minutes what others would take hours to do.",
         "Practice": "Ruling",
@@ -420,7 +420,7 @@ const timeTwoData = [
         "Book": "GotV 199"
     },
     {
-        "Titolo": "Postcognition",
+        "Name": "Postcognition",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The mage can experience postcognition. She can review the past of her current location or any moment in her own past, or that of an object, with flawless clarity. To focus this sense on something or someplace other than the mage’s current physical location, the mage must also use Space 2. Without the use of Space 2, she can do this only for an exact spot in which she was or is. She can look only at what was going on while she was physically present in such a location. Generally speaking, the past is much easier to read than the future (since the past’s variables are already locked into place), giving a more-or-less objective view of how things unfolded at a given time, in a given place.",
         "Practice": "Unveiling",
@@ -445,7 +445,7 @@ const timeTwoData = [
         "Book": "M:tA 260"
     },
     {
-        "Titolo": "Shield of Chronos",
+        "Name": "Shield of Chronos",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The mage protects himself against Time senses, warding against sensory uses of the Time Arcanum and making it harder for others to scry upon his past or future (or, for those who look from the past or the future, his present).",
         "Practice": "Veiling",
@@ -470,7 +470,7 @@ const timeTwoData = [
         "Book": "M:tA 261"
     },
     {
-        "Titolo": "Temporal Dodge",
+        "Name": "Temporal Dodge",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The mage protects herself from harm. She creates a small bubble of 'warped' time, either speeding herself up or slowing things down as they approach her. She performs small manipulations to her immediate temporal surroundings, protecting herself from harm by delicately twisting the fabric of time. She could, for example, decelerate incoming gunfire (by expanding the fourth-dimensional axis of its movement) or slightly speed up her own motions so as to allow her to roll better with punches and other attacks.",
         "Practice": "Shielding",
@@ -495,7 +495,7 @@ const timeTwoData = [
         "Book": "M:tA 261"
     },
     {
-        "Titolo": "Temporal Flow",
+        "Name": "Temporal Flow",
         "Arcana": "Time ••",
         "DescrizioneAlta": "As the Time 1 'Temporal Eddies' spell, except that the mage casts this upon another mage, or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a sleeper, it invokes Disbelief immediately, regardless of the spell’s Duration.",
         "Practice": "Unveiling",
@@ -520,7 +520,7 @@ const timeTwoData = [
         "Book": "M:tA 262"
     },
     {
-        "Titolo": "Worst Moment",
+        "Name": "Worst Moment",
         "Arcana": "Time ••",
         "DescrizioneAlta": "The Banisher learns the best possible time to strike her opponents, taking advantage of terrain, injury or any other conditions that might help.",
         "Practice": "Knowing",
@@ -548,7 +548,7 @@ const timeTwoData = [
 
 const timeThreeData = [
     {
-        "Titolo": "Acceleration",
+        "Name": "Acceleration",
         "Arcana": "Time •••",
         "DescrizioneAlta": "The mage accelerates his personal temporal motion, enabling her to move and act quicker than is normally possible.",
         "Practice": "Perfecting",
@@ -585,7 +585,7 @@ const timeThreeData = [
         "Book": "M:tA 262"
     },
     {
-        "Titolo": "Borrow From the Future",
+        "Name": "Borrow From the Future",
         "Arcana": "Time •••",
         "DescrizioneAlta": "The mage ensorcels an item so that users can borrow successes from their future destinies and apply them to their present circumstances.",
         "Practice": "Weaving",
@@ -610,7 +610,7 @@ const timeThreeData = [
         "Book": "TotM 262"
     },
     {
-        "Titolo": "Divination",
+        "Name": "Divination",
         "Arcana": "Time •••",
         "DescrizioneAlta": "The mage can read the future. As per the Time 2 “Augury” spell, p. 258, save that the mage receives more specific details.",
         "Practice": "Unveiling",
@@ -639,7 +639,7 @@ const timeThreeData = [
         "Book": "M:tA 263"
     },
     {
-        "Titolo": "Falsify Temporal Presence",
+        "Name": "Falsify Temporal Presence",
         "Arcana": "Time •••",
         "DescrizioneAlta": "Among the more treasured of the arts available to those who pursue understanding of the Time Arcanum is the ability to read the past or the future, learning what has already come to pass or what may yet be. Some mages learn to occlude their own pasts and futures from others’ scrutiny (see Mage: The Awakening, p. 261: “Shield of Chronos”), but simple concealment isn’t always sufficient; sometimes, deception is called for. Under these sorts of circumstances, mages skilled in Time’s magic can fabricate events in history or yet to come, deliberately leading enemies astray.",
         "Practice": "Weaving",
@@ -660,7 +660,7 @@ const timeThreeData = [
         "Book": "SotT 195"
     },
     {
-        "Titolo": "Metabolic Suspension",
+        "Name": "Metabolic Suspension",
         "Arcana": "Life •••, Time •••; or Life ••••; or Time ••••",
         "DescrizioneAlta": "Where lesser mages enhance and reinforce their metabolisms with superhuman efficiency, mages with appropriate command of Life and/or Time may transcend such frailties outright.",
         "Practice": "Perfecting",
@@ -685,7 +685,7 @@ const timeThreeData = [
         "Book": "Myst 196"
     },
     {
-        "Titolo": "Prophetic Dream",
+        "Name": "Prophetic Dream",
         "Arcana": "Mind ••• + Time •••",
         "DescrizioneAlta": "This spell causes a chosen subject, even a Sleeper, to experience a precognitive dream.",
         "Practice": "Weaving",
@@ -714,7 +714,7 @@ const timeThreeData = [
         "Book": "TotM 28"
     },
     {
-        "Titolo": "Rapid Fire",
+        "Name": "Rapid Fire",
         "Arcana": "Time ••• + Forces •• + Life •• + Matter ••",
         "DescrizioneAlta": "Put simply, the ability to empty more lead into an enemy is almost always preferable to less. But not everyone has access to automatic weaponry or, for that matter, the training or even the desire to make use of such instruments. This is a spell for those who wish to employ the axiom that “too much is never enough,” without having to tote submachine guns everywhere they go.",
         "Practice": "Weaving",
@@ -735,7 +735,7 @@ const timeThreeData = [
         "Book": "AA 189"
     },
     {
-        "Titolo": "Review History",
+        "Name": "Review History",
         "Arcana": "Time •••, Mind •• and Death • or Matter •",
         "DescrizioneAlta": "During the course of a few minutes, the mage can review the entirety of a person’s life by touching the person’s corpse, or even holding one of her bones. Similarly, the mage can learn the entire history of an object by touching the object or a fragment of it. Using this spell on a corpse or fragment of bone requires Death •; using this spell on an object requires Matter •.",
         "Practice": "Unveiling",
@@ -756,7 +756,7 @@ const timeThreeData = [
         "Book": "Myst 205"
     },
     {
-        "Titolo": "Shifting Sands",
+        "Name": "Shifting Sands",
         "Arcana": "Time •••",
         "DescrizioneAlta": "The mage rewinds time. He grabs hold of the threads of time and pulls himself back one turn, allowing him to choose a different approach to a situation (though, from the perspective of all save the willworker himself, this is the first and only time this moment has occurred or will occur).",
         "Practice": "Weaving",
@@ -793,7 +793,7 @@ const timeThreeData = [
         "Book": "M:tA 263"
     },
     {
-        "Titolo": "Strike in the Perfect Moment",
+        "Name": "Strike in the Perfect Moment",
         "Arcana": "Time •••",
         "DescrizioneAlta": "This spell gives the mage a supernatural sense of fighting rhythm. She can sense moments when her opponent isn’t prepared to defend against an attack.",
         "Practice": "Perfecting",
@@ -814,7 +814,7 @@ const timeThreeData = [
         "Book": "GoG 72"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -886,7 +886,7 @@ const timeThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Temporal Shift",
+        "Name": "Temporal Shift",
         "Arcana": "Time •••",
         "DescrizioneAlta": "The mage protects others. This works like the Time 2 “Temporal Dodge” spell, p. 261, except that the mage can now cast it upon others.",
         "Practice": "Shielding",
@@ -907,7 +907,7 @@ const timeThreeData = [
         "Book": "M:tA 263"
     },
     {
-        "Titolo": "Time Out of Mind",
+        "Name": "Time Out of Mind",
         "Arcana": "Time ••• + Mind ••",
         "DescrizioneAlta": "The mage can enter a “timeless” state of mind wherein lengthy contemplation is possible in virtually no time at all.",
         "Practice": "Weaving",
@@ -931,7 +931,7 @@ const timeThreeData = [
 
 const timeFourData = [
     {
-        "Titolo": "Chronos' Curse",
+        "Name": "Chronos' Curse",
         "Arcana": "Time ••••",
         "DescrizioneAlta": "Through the use of this spell, a mage can cause an individual to “lag” within the flow of time. As she sees it, everything around her occurs at an accelerated rate and she struggles to keep up.",
         "Practice": "Patterning",
@@ -952,7 +952,7 @@ const timeFourData = [
         "Book": "M:tA 264"
     },
     {
-        "Titolo": "Create Potentiality",
+        "Name": "Create Potentiality",
         "Arcana": "Time ••••",
         "DescrizioneAlta": "Possibility is an amazing thing; nearly anything — no matter how unlikely — can, potentially, happen. Mages with considerable skill in the nuances of the Time Arcanum can latch onto those improbable future events, guiding the present moment toward them.",
         "Practice": "Patterning",
@@ -973,7 +973,7 @@ const timeFourData = [
         "Book": "Summ 212"
     },
     {
-        "Titolo": "Erase History",
+        "Name": "Erase History",
         "Arcana": "Time ••••",
         "DescrizioneAlta": [
             {
@@ -1015,7 +1015,7 @@ const timeFourData = [
         "Book": "L:tS 133"
     },
     {
-        "Titolo": "Eternal Object",
+        "Name": "Eternal Object",
         "Arcana": "Time •••• + Matter •",
         "DescrizioneAlta": "This spell allows the mage to “freeze” an object in time, preserving it in its current state. Despite the name, though, the spell isn’t necessarily permanent. Students of the Last Riddle feel that this spell was a precursor to whatever magic currently enchants the grimoire, since that magic is considerably more potent than this spell.",
         "Practice": "Patterning",
@@ -1035,7 +1035,7 @@ const timeFourData = [
         "Book": "GoG 133"
     },
     {
-        "Titolo": "Precognitive Ordeal",
+        "Name": "Precognitive Ordeal",
         "Arcana": "Time ••••",
         "DescrizioneAlta": "Guardians of the Veil know and understand that they must suffer for the good of many. Those that master this magic, however, truly take to heart this axiom, looking forward to the pain that will befall them and drawing strength from an awareness of the trials to come. Though the knowledge that comes to the Guardian takes the shape of a nebulous sense, she nevertheless takes comfort in the certainty that she will and must endure.",
         "Practice": "Patterning",
@@ -1056,7 +1056,7 @@ const timeFourData = [
         "Book": "GoG 47"
     },
     {
-        "Titolo": "Present as Past",
+        "Name": "Present as Past",
         "Arcana": "Time ••••",
         "DescrizioneAlta": "The mage predicts the immediate future with absolute clarity.",
         "Practice": "Patterning",
@@ -1081,7 +1081,7 @@ const timeFourData = [
         "Book": "M:tA 264"
     },
     {
-        "Titolo": "Prophecy",
+        "Name": "Prophecy",
         "Arcana": "Time ••••",
         "DescrizioneAlta": "The mage can gain prescriptive advice on how to alter the future, perhaps to make something come true or to avert an event he fears or knows is coming.",
         "Practice": "Patterning",
@@ -1114,7 +1114,7 @@ const timeFourData = [
         "Book": "M:tA 264"
     },
     {
-        "Titolo": "Temporal Pocket",
+        "Name": "Temporal Pocket",
         "Arcana": "Time ••••",
         "DescrizioneAlta": [
             {
@@ -1185,7 +1185,7 @@ const timeFourData = [
         "Book": "M:tA 265"
     },
     {
-        "Titolo": "Temporal Stutter",
+        "Name": "Temporal Stutter",
         "Arcana": "Time ••••",
         "DescrizioneAlta": "The mage causes people or things to stutter forward in time.",
         "Practice": "Patterning",
@@ -1220,7 +1220,7 @@ const timeFourData = [
 
 const timeFiveData = [
     {
-        "Titolo": "Duplicate",
+        "Name": "Duplicate",
         "Arcana": "Time •••••",
         "DescrizioneAlta": "The mage prepares Time to repeat itself, allowing him to duplicate the results of a single action as if he had performed that action exactly the same way two times.",
         "Practice": "Making",
@@ -1253,7 +1253,7 @@ const timeFiveData = [
         "Book": "AA 189"
     },
     {
-        "Titolo": "Faerie Glade",
+        "Name": "Faerie Glade",
         "Arcana": "Time •••••",
         "DescrizioneAlta": "It is said that, in elder days, the Fair Folk lived in places that were not quite in synch with time as mortal creatures knew it. Thus, the tales of men who bedded down in mushroom rings, only to wake a century later or the next morning, as bent and hobbling ancients. This spell mimics such faerie enchantments, allowing a mage to push a place outside of the normal flow of time so that those within experience a lot of subjective time in a very short period of “mainstream” time, or vice versa.",
         "Practice": "Making",
@@ -1277,7 +1277,7 @@ const timeFiveData = [
         "Book": "M:tA 265"
     },
     {
-        "Titolo": "Future Legacy",
+        "Name": "Future Legacy",
         "Arcana": "Time •••••",
         "DescrizioneAlta": "The mage shunts an object forward in time. While he could previously move things forward in time for a few turns using “Temporal Stutter,” p. 265, mastery of this level allows him to move an object far into the future, perhaps to keep it out of enemy hands or to ensure that only an heir will wield it.",
         "Practice": "Making",
@@ -1339,7 +1339,7 @@ const timeFiveData = [
         "Book": "M:tA 267"
     },
     {
-        "Titolo": "Legacy of Power",
+        "Name": "Legacy of Power",
         "Arcana": "Fate •• + Prime •• + Time •••••",
         "DescrizioneAlta": "The mage shunts some of her personal stores of Mana forward in time, to a moment when she will need it.",
         "Practice": "Making",
@@ -1360,7 +1360,7 @@ const timeFiveData = [
         "Book": "SL 202"
     },
     {
-        "Titolo": "Rewrite History",
+        "Name": "Rewrite History",
         "Arcana": "Time •••••",
         "DescrizioneAlta": "The mage can sculpt his personal history, within normal possibility. The willworker can perform extensive modifications to his own past, enabling him to redefine the person he currently is, even if only temporarily. He cannot, however, change his soul’s history, remaking his magical past (he cannot change his Path, Gnosis or Arcana).",
         "Practice": "Making and Unmaking",
@@ -1389,7 +1389,7 @@ const timeFiveData = [
         "Book": "M:tA 267"
     },
     {
-        "Titolo": "Stop Time",
+        "Name": "Stop Time",
         "Arcana": "Time •••••",
         "DescrizioneAlta": "The mage suspends time around the target. The target’s subjective perception shows him as existing in one moment and then, instantaneously, another later time. To onlookers, it appears as if the target is perfectly still, even if he’s in mid-air.",
         "Practice": "Unmaking",
@@ -1410,7 +1410,7 @@ const timeFiveData = [
         "Book": "M:tA 267"
     },
     {
-        "Titolo": "Temporal Lifeline",
+        "Name": "Temporal Lifeline",
         "Arcana": "Time •••••",
         "DescrizioneAlta": "The mage forges a temporal connection with the moment of the spell’s casting and can later choose to return there with knowledge of what “happened” in the future.",
         "Practice": "Making",

@@ -8,7 +8,7 @@ export default function ArtifactDetail(props) {
         <div className='longTextContainer'>
             {matchedArtifact && (
                 <>
-                        <h1>{matchedArtifact.Nome} (Rank {matchedArtifact["Artifact_Level"]})</h1>
+                        <h1>{matchedArtifact.Name} (Rank {matchedArtifact["Artifact_Level"]})</h1>
 
                         {matchedArtifact.Durability && (<div><b>Durability:</b> {matchedArtifact.Durability}</div>)}
                         {matchedArtifact.Size && (<div><b>Size:</b> {matchedArtifact.Size}</div>)}

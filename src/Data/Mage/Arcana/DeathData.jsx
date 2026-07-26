@@ -1,6 +1,6 @@
 const deathOneData = [
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Death •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -38,7 +38,7 @@ const deathOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Ectoplasmic Shaping",
+        "Name": "Ectoplasmic Shaping",
         "Arcana": "Death •",
         "DescrizioneAlta": "The mage can alter the form of an ectoplasmic manifestation (see “Ectoplasm,” p. 136), shaping it with his will into whatever form he desires. He must contend with the will of the mage who conjured the ectoplasm or the ghost who manifests through it.",
         "Practice": "Compelling",
@@ -59,7 +59,7 @@ const deathOneData = [
         "Book": "M:tA 133"
     },
     {
-        "Titolo": "Forensic Gaze",
+        "Name": "Forensic Gaze",
         "Arcana": "Death •",
         "DescrizioneAlta": [
             {
@@ -93,7 +93,7 @@ const deathOneData = [
         "Book": "M:tA 134"
     },
     {
-        "Titolo": "Grim Sight",
+        "Name": "Grim Sight",
         "Arcana": "Death •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110), perceiving the supernatural through the lens of Death. He sees the weight of death around a person — not his likelihood of death (unless the subject has a terminal illness), but how often he has rubbed shoulders (knowingly or not) with the dead or dying. Those who have suffered the loss of many loved ones or who have killed many people tend to bear heavy burdens. This sight also applies to things or places.",
         "Practice": "Unveiling",
@@ -114,7 +114,7 @@ const deathOneData = [
         "Book": "M:tA 134"
     },
     {
-        "Titolo": "Instill Mortality",
+        "Name": "Instill Mortality",
         "Arcana": "Death •",
         "DescrizioneAlta": "The mage relinquishes an imbuement or enhancement spell without sacrificing a Willpower point. Instead, the willworker accomplishes the relinquishment by giving the Enchanted Item the capacity for decay and eventual demise.",
         "Practice": "Compelling",
@@ -155,7 +155,7 @@ const deathOneData = [
         "Book": "TotM 130"
     },
     {
-        "Titolo": "Pain Harvest",
+        "Name": "Pain Harvest",
         "Arcana": "Death •",
         "DescrizioneAlta": "After unwillingly undergoing an injury, the mage may intensify its severity, gaining a quantity of magical power that may be later used to relinquish control over a finishing spell.",
         "Practice": "Compelling",
@@ -184,7 +184,7 @@ const deathOneData = [
         "Book": "TotM 131"
     },
     {
-        "Titolo": "Shadow Sculpting",
+        "Name": "Shadow Sculpting",
         "Arcana": "Death •",
         "DescrizioneAlta": "While the Forces Arcanum teaches a mage how to ignite or snuff out a light, it gives no power over the quality of darkness. In Atlantean cosmology, darkness was not merely the absence of light, but an active force. An initiate of Death learns how to manipulate that force, giving form to existing shadows or thickening them. Mages use this spell to hide themselves from easy scrutiny, literally hiding in shadows, and even sculpting shadows to best cover themselves or an awkwardly shaped object that otherwise might jut out into the light under natural conditions.",
         "Practice": "Compelling",
@@ -209,7 +209,7 @@ const deathOneData = [
         "Book": "M:tA 135"
     },
     {
-        "Titolo": "Soul Marks",
+        "Name": "Soul Marks",
         "Arcana": "Death •",
         "DescrizioneAlta": "This sense enables a mage to perceive a soul’s health. He can discern the presence of derangements, but not necessarily their kind (that might require a period of study with an extended Intelligence + Empathy roll). Other kinds of soul marks can also be detected, such as the telltale signs of a mage who has created a soul stone (see “Soul Stones,”p.277). Some soul marks (such as serving as a vampiric vessel) are sufficiently rare and insidious as to penalize rolls made to perceive them.",
         "Practice": "Knowing",
@@ -224,7 +224,7 @@ const deathOneData = [
         "Book": "M:tA 135"
     },
     {
-        "Titolo": "Speak with the Dead",
+        "Name": "Speak with the Dead",
         "Arcana": "Death •",
         "DescrizioneAlta": "The mage can see, hear and speak with ghosts within Twilight. He can also detect their unseen presence, if they are hiding or have chosen not to reveal themselves. He can see spirits within Twilight, too, but they appear hazy and indistinct and he cannot hear them, unless he also uses Spirit 1 while casting this spell. He cannot perceive mental projections unless he adds Mind 1 to the casting.",
         "Practice": "Unveiling",
@@ -248,7 +248,7 @@ const deathOneData = [
 
 const deathTwoData = [
     {
-        "Titolo": "Animate Shadows",
+        "Name": "Animate Shadows",
         "Arcana": "Death ••",
         "DescrizioneAlta": "As with Shadow Sculpting, above, but the mage can now cause the darkness to move, even causing it to travel from its naturally occurring place to somewhere darkness could not possibly exist, such as beneath the direct glare of a lamp.",
         "Practice": "Ruling",
@@ -269,7 +269,7 @@ const deathTwoData = [
         "Book": "M:tA"
     },
     {
-        "Titolo": "Bestow Ghostly Sight",
+        "Name": "Bestow Ghostly Sight",
         "Arcana": "Death •• + Prime ••••",
         "DescrizioneAlta": "By altering the Pattern of a Sleeper’s perceptual capabilities, this spell enables the Sleeper to gaze into Twilight and perceive the shades of the dead.",
         "Practice": "Patterning",
@@ -290,7 +290,7 @@ const deathTwoData = [
         "Book": "TotM 29"
     },
     {
-        "Titolo": "Corpse Mask",
+        "Name": "Corpse Mask",
         "Arcana": "Death ••",
         "DescrizioneAlta": "The mage alters the appearance of death by adding or subtracting features from a corpse. The mage could, for example, make the small pile of ashes left behind by a person killed by fire look as though she died from a stab wound to the neck. In this fashion, mages have turned murder most foul into seeming accidents or the product of natural causes, or taken a perfectly innocent circumstance (quiet heart failure in the night or a tumble down a flight of stairs) and used it to frame someone for a killing she never committed.",
         "Practice": "Veiling",
@@ -311,7 +311,7 @@ const deathTwoData = [
         "Book": "M:tA 136"
     },
     {
-        "Titolo": "Corpse Unmasking",
+        "Name": "Corpse Unmasking",
         "Arcana": "Death •• + Prime •",
         "DescrizioneAlta": [
             {
@@ -357,7 +357,7 @@ const deathTwoData = [
         "Book": "GotV 186"
     },
     {
-        "Titolo": "Decay",
+        "Name": "Decay",
         "Arcana": "Death ••",
         "DescrizioneAlta": "The mage can cause a material object to corrode, rust or become rotten.",
         "Practice": "Ruling",
@@ -378,7 +378,7 @@ const deathTwoData = [
         "Book": "M:tA 136"
     },
     {
-        "Titolo": "Dislodge the Soul",
+        "Name": "Dislodge the Soul",
         "Arcana": "Death •• + Prime •",
         "DescrizioneAlta": "The mage can magically knock a Sleeper’s soul out of alignment. This does not remove the soul, or it physically harm the Sleeper, but the lack of alignment does make him more susceptible to soul-affecting magic in the future. The mage, for her part, can use this spell as a weapon or a threat, but it is more commonly used by the Echo Walkers to gain information about the Ones Before (see below).",
         "Practice": "Ruling",
@@ -423,7 +423,7 @@ const deathTwoData = [
         "Book": "L:tA 124"
     },
     {
-        "Titolo": "Ectoplasm",
+        "Name": "Ectoplasm",
         "Arcana": "Death ••",
         "DescrizioneAlta": [
             {
@@ -457,7 +457,7 @@ const deathTwoData = [
         "Book": "M:tA 136"
     },
     {
-        "Titolo": "Entropic Guard",
+        "Name": "Entropic Guard",
         "Arcana": "Death ••",
         "DescrizioneAlta": "By stealing vigor from incoming attacks, a mage guards himself against harm. Effectively, the mage’s shield attacks the vitality of an incoming assault, eroding its forcefulness with a primal decay.",
         "Practice": "Shielding",
@@ -482,7 +482,7 @@ const deathTwoData = [
         "Book": "M:tA 136"
     },
     {
-        "Titolo": "Final Sight",
+        "Name": "Final Sight",
         "Arcana": "Death ••",
         "DescrizioneAlta": "This spell evokes ectoplasm from the eyes of a corpse, forming an ectoplasmic image of the last thing the corpse saw. The effect is visible for all present to see, including Sleepers.",
         "Practice": "Ruling",
@@ -511,7 +511,7 @@ const deathTwoData = [
         "Book": "GotV 186"
     },
     {
-        "Titolo": "Forensic Invisibility",
+        "Name": "Forensic Invisibility",
         "Arcana": "Death ••, Matter •",
         "DescrizioneAlta": "This spell destroys material evidence that might emanate from a mage or the things she carries. Rapid decay obliterates fibers, dead skin, hair, saliva and all other detritus. She leaves behind fine, sterile ash that scatters in the slightest breeze.",
         "Practice": "Ruling",
@@ -532,7 +532,7 @@ const deathTwoData = [
         "Book": "Ban 54"
     },
     {
-        "Titolo": "Ghost Summons",
+        "Name": "Ghost Summons",
         "Arcana": "Death ••",
         "DescrizioneAlta": "The mage calls a specific ghost or sends out a general call to the nearest ghost within sensory range. He may either call one or more ghosts personally known to him, or he may specify any type of ghost of his choosing (male ghosts or child ghosts, for example), or even send out a general summons to all restless shades within his sensory range (in which case, the closest one to him responds). The ghost comes to the caster with as much speed as it can muster, although it cannot be made to go farther than the maximum distance it is allowed to travel from its anchor.",
         "Practice": "Ruling",
@@ -553,7 +553,7 @@ const deathTwoData = [
         "Book": "M:tA 137"
     },
     {
-        "Titolo": "Grant the Grim Sight",
+        "Name": "Grant the Grim Sight",
         "Arcana": "Death ••",
         "DescrizioneAlta": "The mage can give another supernatural being Mage Sight. This is as the Death 1 “Grim Sight” spell, p. 134, except that the mage casts it upon another mage or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -574,7 +574,7 @@ const deathTwoData = [
         "Book": "M:tA 137"
     },
     {
-        "Titolo": "Lighten Anchor",
+        "Name": "Lighten Anchor",
         "Arcana": "Death ••",
         "DescrizioneAlta": "The mage increases a ghost’s ability to stray from its anchor.",
         "Practice": "Ruling",
@@ -595,7 +595,7 @@ const deathTwoData = [
         "Book": "TotM 60"
     },
     {
-        "Titolo": "Quiet Grave",
+        "Name": "Quiet Grave",
         "Arcana": "Death ••",
         "DescrizioneAlta": "Once cast on a corpse, this spell interferes with attempts to make the corpse rise again.",
         "Practice": "Shielding",
@@ -629,7 +629,7 @@ const deathTwoData = [
         "Book": "Ban 54"
     },
     {
-        "Titolo": "Soul Jar",
+        "Name": "Soul Jar",
         "Arcana": "Death ••",
         "DescrizioneAlta": "Certain ancient cultures such as the Egyptians recognized that a soul could be placed within a container to prevent its release back into the cycle of birth and death. This spell creates such a receptacle.",
         "Practice": "Ruling",
@@ -658,7 +658,7 @@ const deathTwoData = [
         "Book": "M:tA 137"
     },
     {
-        "Titolo": "Suppress Aura",
+        "Name": "Suppress Aura",
         "Arcana": "Death ••",
         "DescrizioneAlta": "The mage suppresses his own or another’s personal aura. Effectively, he causes the aura to lapse into slumber, smoothing the telltale ripples it creates in the Tapestry and rendering it more difficult (or virtually impossible) to detect, save by the most puissant of sensory abilities.",
         "Practice": "Veiling",
@@ -679,7 +679,7 @@ const deathTwoData = [
         "Book": "M:tA 137"
     },
     {
-        "Titolo": "Touch of the Grave",
+        "Name": "Touch of the Grave",
         "Arcana": "Death ••",
         "DescrizioneAlta": [
             {
@@ -720,7 +720,7 @@ const deathTwoData = [
 
 const deathThreeData = [
     {
-        "Titolo": "Arm Ghost",
+        "Name": "Arm Ghost",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage casts “Arm Ghost,” then any other spell, with a ghost as the designated recipient of the second spell. That spell does not take effect; instead, the one-time ability to activate the spell’s effect passes to the ghost. The ghost can use the effect at any time thereafter, as an instant action. The roll for the subject spell is made when the ghost chooses to unleash it, using the mage’s relevant dice pool. The ghost gains the benefit from any positive effects of the roll that would apply to the mage. Where story logic permits, however, all ill effects, including Paradoxes and dramatic failures, are suffered by the willworker, even if she is a great distance from the ghost when the spell is used.",
         "Practice": "Weaving",
@@ -741,7 +741,7 @@ const deathThreeData = [
         "Book": "TotM 134"
     },
     {
-        "Titolo": "Call Shadow Person",
+        "Name": "Call Shadow Person",
         "Arcana": "Death ••• + Mind ••• + Spirit •••",
         "DescrizioneAlta": "“Shadow People,” as they are known by the Sleeper occult community, are, allegedly, entities from another layer of reality. It is uncertain whether they are demons, ghosts, spirits, astral beings or something else. Often connected to the sites of particularly potent hauntings (not necessarily ghostly in origin), these beings are usually accompanied by feelings of dread and are sometimes reported as chasing or even harming people.",
         "Practice": "Weaving",
@@ -762,7 +762,7 @@ const deathThreeData = [
         "Book": "GoG 78"
     },
     {
-        "Titolo": "Control Ghost",
+        "Name": "Control Ghost",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage can force a ghost to perform an action. A single, simple command (“Attack!” “Flee!” “Stand there!”) can be issued per success.",
         "Practice": "Ruling",
@@ -787,7 +787,7 @@ const deathThreeData = [
         "Book": "M:tA 138"
     },
     {
-        "Titolo": "Corpse Flesh",
+        "Name": "Corpse Flesh",
         "Arcana": "Death ••• + Life •••",
         "DescrizioneAlta": "Many philosophies throughout time have espoused the notion that life is pain and death brings surcease. Some Awakened could not agree more. This spell deadens the body’s pain responses and terminates circulation and respiration without deleterious effects, as well as bestowing one or two other interesting advantages.",
         "Practice": "Weaving",
@@ -808,7 +808,7 @@ const deathThreeData = [
         "Book": "AA 173"
     },
     {
-        "Titolo": "Curse of Withering",
+        "Name": "Curse of Withering",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The magician weaves a curse into a physical object, so that it gradually drains the life force from its owner.",
         "Practice": "Weaving",
@@ -858,7 +858,7 @@ const deathThreeData = [
         "Book": "TotM 137"
     },
     {
-        "Titolo": "Destroy Ephemera",
+        "Name": "Destroy Ephemera",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage mystically attacks an ephemeral object.",
         "Practice": "Fraying",
@@ -879,7 +879,7 @@ const deathThreeData = [
         "Book": "M:tA 138"
     },
     {
-        "Titolo": "Destroy Object",
+        "Name": "Destroy Object",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage mystically attacks a material object, causing it to decay instantly.",
         "Practice": "Fraying",
@@ -900,7 +900,7 @@ const deathThreeData = [
         "Book": "M:tA 139"
     },
     {
-        "Titolo": "Devouring the Slain",
+        "Name": "Devouring the Slain",
         "Arcana": "Death •••",
         "DescrizioneAlta": [
             {
@@ -942,7 +942,7 @@ const deathThreeData = [
         "Book": "M:tA 139"
     },
     {
-        "Titolo": "Dissipate Unreal Construct",
+        "Name": "Dissipate Unreal Construct",
         "Arcana": "Death ••• + Prime •••",
         "DescrizioneAlta": "By casting this spell, a mage can dissolve a Prime Arcanum phantasm, or other object crafted out of “unreal” matter (such as one sculpted out of ephemera and then drawn through the Gauntlet or one perhaps made by unusual Numina or the magics of other supernatural creatures).",
         "Practice": "Fraying",
@@ -963,7 +963,7 @@ const deathThreeData = [
         "Book": "TotM 26"
     },
     {
-        "Titolo": "Entropic Shroud",
+        "Name": "Entropic Shroud",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage can cast the “Entropic Guard” spell (p. 136) on others, protecting them with a field of entropic decay.",
         "Practice": "Shielding",
@@ -984,7 +984,7 @@ const deathThreeData = [
         "Book": "M:tA 139"
     },
     {
-        "Titolo": "Ghost Gate",
+        "Name": "Ghost Gate",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage creates a gateway that transforms anyone who steps through it into a Twilight state of existence. They become Twilight beings until they exit the gateway. While Twilight, they can touch ghosts, pick up ghostly objects or read tomes hidden there. They can also engage in physical or magical combat with ghosts, damaging their Corpus. Conversely, wrathful shades might physically lash out at visitors, causing them harm.",
         "Practice": "Weaving",
@@ -1009,7 +1009,7 @@ const deathThreeData = [
         "Book": "M:tA 139"
     },
     {
-        "Titolo": "Ghostly Object",
+        "Name": "Ghostly Object",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage creates a ghostly item by turning a real material object into a Twilight object. To do so, he must destroy the real object, eliminating all its Structure points, and then cast this spell upon its remains. The subject then becomes a ghost of itself within Twilight, allowing the mage to manipulate it with Death 2 (see the “Touch of the Grave” spell, p. 138).",
         "Practice": "Weaving",
@@ -1024,7 +1024,7 @@ const deathThreeData = [
         "Book": "M:tA 140"
     },
     {
-        "Titolo": "Healing the Dead Mind",
+        "Name": "Healing the Dead Mind",
         "Arcana": "Death •••",
         "DescrizioneAlta": "Many ghosts don’t realize that they are dead, much less retain any clear memory of the circumstances of their deaths or the events that have happened since. This is lamentable in that it holds them to a ghostly existence rather than allowing them to pass on to their final destiny. It is, however, also frustrating to mages who might otherwise gain a great deal of information from talking to a ghost. With this spell, the mage can grant self-awareness and intelligence to a ghost.",
         "Practice": "Perfecting",
@@ -1049,7 +1049,7 @@ const deathThreeData = [
         "Book": "Myst 192"
     },
     {
-        "Titolo": "Hollow Victory",
+        "Name": "Hollow Victory",
         "Arcana": "Death •••",
         "DescrizioneAlta": "It is very unusual for any mage other than a Banisher to know this spell. Used as a last resort and a final act of defiance, this spell allows the Banisher to submit to death rather than face capture and torment by order mages. The Banisher also reaffirms her commitment to erasing magic from the world by removing herself, and the tainted power within her, from it.",
         "Practice": "Fraying",
@@ -1070,7 +1070,7 @@ const deathThreeData = [
         "Book": "Ban 54"
     },
     {
-        "Titolo": "Martyr's Bequest",
+        "Name": "Martyr's Bequest",
         "Arcana": "Death ••• + Life ••• and/or Mind ••• and/or Prime •••",
         "DescrizioneAlta": "When the cold chill of impending death takes hold of a mage, it is possible for her to willingly give up what life remains to her for the benefit of her friends and allies, enabling them to continue the good fight, fortified in mind, body and spirit by her sacrifice.",
         "Practice": "Perfecting",
@@ -1111,7 +1111,7 @@ const deathThreeData = [
         "Book": "SL 195"
     },
     {
-        "Titolo": "Orpheus' Lament",
+        "Name": "Orpheus' Lament",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage creates an ambiance of death so profound that sentient beings are driven to tears (or driven away) by it. The rote as written in the Last Riddle requires the caster to sing or otherwise create music in order to achieve this effect, and the grimoire even includes lyrics (in Greek, granted) that speak of love lost, light extinguished and the inevitability of death.",
         "Practice": "Perfecting",
@@ -1135,7 +1135,7 @@ const deathThreeData = [
         "Book": "GoG 131"
     },
     {
-        "Titolo": "Quicken Corpse",
+        "Name": "Quicken Corpse",
         "Arcana": "Death •••",
         "DescrizioneAlta": [
             {
@@ -1224,7 +1224,7 @@ const deathThreeData = [
         "Book": "M:tA 140"
     },
     {
-        "Titolo": "Restore Corpus",
+        "Name": "Restore Corpus",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage can heal a ghost’s Corpus.",
         "Practice": "Perfecting",
@@ -1245,7 +1245,7 @@ const deathThreeData = [
         "Book": "M:tA 141"
     },
     {
-        "Titolo": "Sculpt Ephemera",
+        "Name": "Sculpt Ephemera",
         "Arcana": "Death •••",
         "DescrizioneAlta": "Inanimate objects and places within Twilight or the Shadow Realm are made from a substance called ephemera. The mage can shore up or degrade the Durability of such ephemera, and the item can be reshaped, changing a heap of metal into a bicycle frame or a stick into a spear. The mage cannot affect animate ephemera, such as a nature spirit or a fetch. Doing that requires Spirit.",
         "Practice": "Perfecting or Weaving",
@@ -1266,7 +1266,7 @@ const deathThreeData = [
         "Book": "M:tA 141"
     },
     {
-        "Titolo": "Self Repairing Zombie",
+        "Name": "Self Repairing Zombie",
         "Arcana": "Death ••• + Matter •••",
         "DescrizioneAlta": "While the use of the dead on the battlefields of the Awakened is frowned upon by many, Necromancers of the Stygian Path still hold these arts to be among their inherent blessings as willworkers. And a tool is only as useful as its present condition allows it to be, but the middle of combat is a bad time to have to take valuable time out to mend a battered zombie. Thus, enterprising Moros strive to think of new and better ways in which to allow animated corpses to mend their own injuries.",
         "Practice": "Perfecting",
@@ -1287,7 +1287,7 @@ const deathThreeData = [
         "Book": "AA 173"
     },
     {
-        "Titolo": "Sever the Sleeping Soul",
+        "Name": "Sever the Sleeping Soul",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage severs a soul from a Sleeper. While the soul is separated from the body, the subject suffers all the normal afflictions of soullessness. See 'Soul Loss,' p. 276.",
         "Practice": "Fraying",
@@ -1324,7 +1324,7 @@ const deathThreeData = [
         "Book": "M:tA 141"
     },
     {
-        "Titolo": "Shadow-Forged",
+        "Name": "Shadow-Forged",
         "Arcana": "Death ••• + Matter •••",
         "DescrizioneAlta": "Acolytes of Death learn how to draw the shadows around them to conceal themselves from view. With deeper knowledge of the Arcanum, a Disciple of Death and Matter can draw the shadows down and weave them into sturdy, useful shapes such as swords, knives or simple tools.",
         "Practice": "Weaving",
@@ -1358,7 +1358,7 @@ const deathThreeData = [
         "Book": "AA 174"
     },
     {
-        "Titolo": "Summon Shadows",
+        "Name": "Summon Shadows",
         "Arcana": "Death •••",
         "DescrizioneAlta": "As with 'Shadow Sculpting,' p. 135, and 'Animate Shadows,' p. 136, but the mage now creates darkness from nothing. In addition, he gives it a semi-substantial form so that it can touch things and even provide a weak barrier.",
         "Practice": "Weaving",
@@ -1379,7 +1379,7 @@ const deathThreeData = [
         "Book": "M:tA 142"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Death •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1451,7 +1451,7 @@ const deathThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Suppress Own Life",
+        "Name": "Suppress Own Life",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage can temporarily suppress his own life. While in this state, the mage is well and truly dead. The physical symptoms of death, other than decomposition, set in (the onset and passing of rigor mortis, the receding of the gums and the skin of the scalp and fingertips, the pooling of blood at the bottom of the body). The mind and spirit are absent.",
         "Practice": "Veiling",
@@ -1480,7 +1480,7 @@ const deathThreeData = [
         "Book": "M:tA 142"
     },
     {
-        "Titolo": "The Metal Dead (Song: Blade Broken)",
+        "Name": "The Metal Dead (Song: Blade Broken)",
         "Arcana": "Death •••, Matter •••",
         "DescrizioneAlta": "This spell causes a corpse’s bones to flense their way out of the flesh, for they’ve been transmuted into razor sharp iron and wire: metal servants with a dim spirit capable of obeying the mage’s commands.",
         "Practice": "Weaving",
@@ -1509,7 +1509,7 @@ const deathThreeData = [
         "Book": "GoG 56"
     },
     {
-        "Titolo": "Transfer Anchor",
+        "Name": "Transfer Anchor",
         "Arcana": "Death •••",
         "DescrizioneAlta": "The mage severs a ghost’s relationship to its present anchor, designating a new one to take its place. The replacement anchor is often an Enchanted Item.",
         "Practice": "Weaving",
@@ -1587,7 +1587,7 @@ const deathThreeData = [
 
 const deathFourData = [
     {
-        "Titolo": "Cloak of Decay",
+        "Name": "Cloak of Decay",
         "Arcana": "Death •••• + Fate ••",
         "DescrizioneAlta": "As “Destroy Object” (see p. 139 of Mage: The Awakening), except the mage surrounds himself with a field of entropy that acts to continually weaken melee weapons used to assault him. Each attack, successful or not, wears at weapons until attackers find their swords shattered, their knives dulled and their spears broken.",
         "Practice": "Fraying",
@@ -1608,7 +1608,7 @@ const deathFourData = [
         "Book": "AA 175"
     },
     {
-        "Titolo": "Enervation",
+        "Name": "Enervation",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage can draw the vigor of life from a person’s body, leaving him weak and helpless, so that a weight-lifting champion is rendered barely able to lift a child’s toy.",
         "Practice": "Unraveling",
@@ -1633,7 +1633,7 @@ const deathFourData = [
         "Book": "M:tA 143"
     },
     {
-        "Titolo": "Ghost Familiar Pact",
+        "Name": "Ghost Familiar Pact",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "With this spell, a willworker forges the familiar bond between himself and a ghost of Twilight.",
         "Practice": "Weaving",
@@ -1658,7 +1658,7 @@ const deathFourData = [
         "Book": "Summ 38"
     },
     {
-        "Titolo": "Ghostly Archive",
+        "Name": "Ghostly Archive",
         "Arcana": "Death •••• + Spirit •••",
         "DescrizioneAlta": "The account of Asharna in Last Days of Atlantis tells of her studies in the Cenacle of Sighs, as well as the means by which she, as a librarian, bound the shades of the dead to service. Through the efforts of Asharna and those like her, the lore of the Cenacle of Sighs continued to grow and thrive, even unto the ending of Atlantis.",
         "Practice": "Patterning",
@@ -1683,7 +1683,7 @@ const deathFourData = [
         "Book": "GoG 110"
     },
     {
-        "Titolo": "Haunted Shell",
+        "Name": "Haunted Shell",
         "Arcana": "Death •••• + Matter ••••",
         "DescrizioneAlta": "This spell invests an object with a ghostly entity, allowing the ghost to not only use its Numina freely, but to move any moveable parts on the object, effectively animating the item within its normal physical limits.",
         "Practice": "Patterning",
@@ -1701,7 +1701,7 @@ const deathFourData = [
         "Book": "GoG 29"
     },
     {
-        "Titolo": "Haunting",
+        "Name": "Haunting",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage causes a recently dead (within the past hour) or dying Sleeper to cling to a physical anchor rather than move on to whatever afterlife awaits. (The dying Sleeper begins haunting immediately upon physical death, so long as he dies within the Duration of the spell)",
         "Practice": "Patterning",
@@ -1759,7 +1759,7 @@ const deathFourData = [
         "Book": "M:tA 143"
     },
     {
-        "Titolo": "Revenant",
+        "Name": "Revenant",
         "Arcana": "Death ••••",
         "DescrizioneAlta": [
             {
@@ -1823,7 +1823,7 @@ const deathFourData = [
         "Book": "M:tA 143"
     },
     {
-        "Titolo": "Rotting Flesh",
+        "Name": "Rotting Flesh",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "One of the most vicious direct mystic assaults known to the Awakened world, Rotting Flesh rends and destroys the physical form of a living being, riddling it with corruption and putrefaction. This assault is brutally effective, but is the metaphysical equivalent of using a club rather than a scalpel. Flesh corrodes and rots, bones twist, crack and turn to ash, and blood thickens with globs of corrupted tissue and rivulets of pus. While each component of this assault, taken on its own, looks to be perhaps some effect of natural decay, taken together, they cannot be mistaken for anything but unnatural. Certainly, any that witness such a spell know the magic for what it is, as the victim is afflicted with the rot of the grave.",
         "Practice": "Unraveling",
@@ -1852,7 +1852,7 @@ const deathFourData = [
         "Book": "M:tA 144"
     },
     {
-        "Titolo": "Scourge Ghost",
+        "Name": "Scourge Ghost",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage subjects a ghost to nearly unbearable psychic agony. Fear of this ghastly punishment inspires obedience in even the most willful phantom.",
         "Practice": "Unraveling",
@@ -1873,7 +1873,7 @@ const deathFourData = [
         "Book": "TotM 134"
     },
     {
-        "Titolo": "Shadow Flesh",
+        "Name": "Shadow Flesh",
         "Arcana": "Death •••• + Life ••••, optional Matter ••••",
         "DescrizioneAlta": "Some mages favor grandiose displays of shapeshifting prowess, adopting all manner of fanciful forms: bird and beasts, other people, even the very elements. Certain applications of this ancient art, however, are considerably more insidious. Shapechanging willworkers in need of stealth and unimpeded movement might — with a considerable degree of mystic prowess — adopt a form particularly well-suited to such pursuits, transforming into living darkness.",
         "Practice": "Patterning",
@@ -1902,7 +1902,7 @@ const deathFourData = [
         "Book": "SotT 189"
     },
     {
-        "Titolo": "Slay Own Aura",
+        "Name": "Slay Own Aura",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage destroys all sign of his own aura. This destruction permanently removes all signature of the mage’s current aura, such that it cannot be read by any magic.",
         "Practice": "Unraveling",
@@ -1923,7 +1923,7 @@ const deathFourData = [
         "Book": "M:tA 144"
     },
     {
-        "Titolo": "Soul Binding",
+        "Name": "Soul Binding",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage can attach a stolen soul to himself or another, but only if he or the target currently has no soul.",
         "Practice": "Patterning",
@@ -1944,7 +1944,7 @@ const deathFourData = [
         "Book": "M:tA 144"
     },
     {
-        "Titolo": "Suppress Other's Life",
+        "Name": "Suppress Other's Life",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage can suppress life in others temporarily. The effects are the same as the “Suppress Own Life” spell, p. 142.",
         "Practice": "Veiling",
@@ -1969,7 +1969,7 @@ const deathFourData = [
         "Book": "M:tA 144"
     },
     {
-        "Titolo": "Twilight Shift",
+        "Name": "Twilight Shift",
         "Arcana": "Death ••••",
         "DescrizioneAlta": "The mage can personally transform himself into the Twilight state of existence without needing to pass through a gateway.",
         "Practice": "Patterning",
@@ -1990,7 +1990,7 @@ const deathFourData = [
         "Book": "M:tA 145"
     },
     {
-        "Titolo": "Undying Zeal",
+        "Name": "Undying Zeal",
         "Arcana": "Death ••••, Time ••",
         "DescrizioneAlta": "This spell reflects a Banisher’s intense dedication. If he casts this spell, he will become a revenant at the moment he wills himself to die. As soon as his heart stops, he continues his crusade — he might not even have time to hit the floor before his new incarnation soldiers on. As one of the walking dead, his actions depend on inflexible passions instead of genuine human feelings.",
         "Practice": "Patterning",
@@ -2027,7 +2027,7 @@ const deathFourData = [
 
 const deathFiveData = [
     {
-        "Titolo": "Atonement",
+        "Name": "Atonement",
         "Arcana": "Death ••••• + Fate ••",
         "DescrizioneAlta": "Rumors of the Awakened raising the dead are partly true. A mage with the right knowledge really can return a dead person to life. But the mage cannot cheat death without giving something in return — himself. With this spell, the mage gives up his own life, and dies so that another might live, and more than this, so that the other might Awaken.",
         "Practice": "Making",
@@ -2069,7 +2069,7 @@ const deathFiveData = [
         "Book": "L:tA 35"
     },
     {
-        "Titolo": "Create Ghost",
+        "Name": "Create Ghost",
         "Arcana": "Death ••••• + Mind •••• + Time ••",
         "DescrizioneAlta": "Although masters of Death can summon ghosts from the underworld without the aid of any other Arcana, many of the dead do not leave ghosts behind and so cannot be summoned in this fashion, while other ghosts either fade over time or forget the experiences of their mortal lives. This spell reaches back into the past, to the moment of the individual’s death, and calls his ghost into the present day.",
         "Practice": "Unveiling",
@@ -2090,7 +2090,7 @@ const deathFiveData = [
         "Book": "Myst 193"
     },
     {
-        "Titolo": "Deathlike Journey",
+        "Name": "Deathlike Journey",
         "Arcana": "Death ••••• + Life ••",
         "Practice": "Making",
         "Action": "Extended",
@@ -2122,7 +2122,7 @@ const deathFiveData = [
         "Book": "L:tA 104"
     },
     {
-        "Titolo": "Destroy Mana",
+        "Name": "Destroy Mana",
         "Arcana": "Death •••••",
         "DescrizioneAlta": "The mage can destroy Mana.",
         "Practice": "Unmaking",
@@ -2143,7 +2143,7 @@ const deathFiveData = [
         "Book": "M:tA 145"
     },
     {
-        "Titolo": "Devouring the Living",
+        "Name": "Devouring the Living",
         "Arcana": "Death •••••",
         "DescrizioneAlta": "The mage consumes a healthy lifeforce or ghost. Just as he is able to do with an ailing person under the shadow of death, the mage can now consume a fully healthy soul, one not touched with the taint of the grave, revitalizing his stores of Mana or stealing the victim’s will. Likewise, he may devour any nearby ghost for its spiritual energies, augmenting himself in a similar manner.",
         "Practice": "Unraveling",
@@ -2164,7 +2164,7 @@ const deathFiveData = [
         "Book": "M:tA 145"
     },
     {
-        "Titolo": "Grant Ghost Familiar",
+        "Name": "Grant Ghost Familiar",
         "Arcana": "Death •••••",
         "DescrizioneAlta": "The willworker is capable of forging a familiar bond between a ghost and another mage. By way of this magic, mages unskilled in the secrets of the Death Arcanum might gain ghostly familiars of their own.",
         "Practice": "Patterning",
@@ -2185,7 +2185,7 @@ const deathFiveData = [
         "Book": "Summ 39"
     },
     {
-        "Titolo": "Grant Lifespan",
+        "Name": "Grant Lifespan",
         "Arcana": "Death •••••",
         "DescrizioneAlta": [
             {
@@ -2231,7 +2231,7 @@ const deathFiveData = [
         "Book": "L:tA 35"
     },
     {
-        "Titolo": "Quell the Spark",
+        "Name": "Quell the Spark",
         "Arcana": "Death •••••",
         "DescrizioneAlta": "The mage can dispel any spell, regardless of what Arcana were used to create it — he does not need Prime 1 or any other Arcana lore. The mage must first have Mage Sight so that he can perceive the spell to be affected.",
         "Practice": "Unmaking",
@@ -2251,7 +2251,7 @@ const deathFiveData = [
         "Book": "M:tA 145"
     },
     {
-        "Titolo": "Quicken Ghost",
+        "Name": "Quicken Ghost",
         "Arcana": "Death •••••",
         "DescrizioneAlta": "The mage quickens a ghost, restoring mindless shades to a semblance of the personality they had in life, and turning ancient ghosts into more potent specters.",
         "Practice": "Making",
@@ -2272,7 +2272,7 @@ const deathFiveData = [
         "Book": "M:tA 146"
     },
     {
-        "Titolo": "Secret Marriage",
+        "Name": "Secret Marriage",
         "Arcana": "Death ••••• or Spirit •••••",
         "DescrizioneAlta": "The mage installs a willing ghost or spirit in a proto-homunculus, giving the subject a lasting body in the Material Realm.",
         "Practice": "Making",
@@ -2317,7 +2317,7 @@ const deathFiveData = [
         "Book": "TotM 152"
     },
     {
-        "Titolo": "Steal Body",
+        "Name": "Steal Body",
         "Arcana": "Death ••••• + Life •••",
         "DescrizioneAlta": "The mage rips soul from body and possesses the target’s now-vacant form, leaving the victim and the mage’s former body dead. The spell is a means of prolonging life and also of obtaining a newer, younger, fitter body. Some mages also see it as an opportunity to experiment: obtaining a body of a different sex, race or the like in order to see how 'the other half' lives (and dies, for that matter).",
         "Practice": "Unmaking",
@@ -2342,7 +2342,7 @@ const deathFiveData = [
         "Book": "FC 105"
     },
     {
-        "Titolo": "Steal Lifespan",
+        "Name": "Steal Lifespan",
         "Arcana": "Death •••••",
         "DescrizioneAlta": [
             {
@@ -2376,7 +2376,7 @@ const deathFiveData = [
         "Book": "M:tA 146"
     },
     {
-        "Titolo": "Summon Chthonian",
+        "Name": "Summon Chthonian",
         "Arcana": "Death ••••• + Prime ••• + Spirit •••",
         "DescrizioneAlta": "Mages who wish to learn the some of the strangest secrets of death sometimes discover this spell when perusing ancient grimoires in some of the oldest Awakened libraries in the world. Concealed within its arcane formulae is a summoning spell intended to call to the material realm one of the dread and alien chthonians.",
         "Practice": "Making/Unmaking",
@@ -2394,7 +2394,7 @@ const deathFiveData = [
         "Book": "Summ 46"
     },
     {
-        "Titolo": "Summon the Dead",
+        "Name": "Summon the Dead",
         "Arcana": "Death •••••",
         "DescrizioneAlta": "The mage can summon a ghost from the Underworld, making it appear next to him within Twilight. The Underworld is a dread place where, according to most mages, ghosts without anchors are banished. The caster can use other spells to compel the ghost to manifest, or can provide ectoplasm for its manifestation. This spell is most often cast to learn the secrets of the long-departed, such as the locations of lost treasures or the existence of lost heirs.",
         "Practice": "Making",

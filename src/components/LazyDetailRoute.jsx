@@ -1,19 +1,13 @@
 import React, { startTransition, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { RouteLoadError, RouteLoadingFallback, RouteNotFound } from "./RouteFeedback";
 
 const INITIAL_STATE = {
   PageComponent: null,
   item: null,
   isResolved: false,
+  error: null,
 };
-
-function RouteLoadingFallback() {
-  return (
-    <div className="longTextContainer" style={{ padding: "1rem 0" }}>
-      Loading...
-    </div>
-  );
-}
 
 export default function LazyDetailRoute({
   loadPage,
@@ -23,6 +17,7 @@ export default function LazyDetailRoute({
 }) {
   const { slug = "" } = useParams();
   const [state, setState] = useState(INITIAL_STATE);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     let isActive = true;
@@ -40,10 +35,11 @@ export default function LazyDetailRoute({
             PageComponent: pageModule.default,
             item: resolveItem({ dataModule, slug }),
             isResolved: true,
+            error: null,
           });
         });
       })
-      .catch(() => {
+      .catch((error) => {
         if (!isActive) {
           return;
         }
@@ -53,6 +49,7 @@ export default function LazyDetailRoute({
             PageComponent: null,
             item: null,
             isResolved: true,
+            error,
           });
         });
       });
@@ -60,14 +57,18 @@ export default function LazyDetailRoute({
     return () => {
       isActive = false;
     };
-  }, [loadData, loadPage, resolveItem, slug]);
+  }, [loadData, loadPage, resolveItem, retryCount, slug]);
 
   if (!state.isResolved) {
     return <RouteLoadingFallback />;
   }
 
-  if (!state.PageComponent) {
-    return null;
+  if (state.error) {
+    return <RouteLoadError onRetry={() => setRetryCount((count) => count + 1)} />;
+  }
+
+  if (!state.PageComponent || !state.item) {
+    return <RouteNotFound title="Content not found" />;
   }
 
   const PageComponent = state.PageComponent;

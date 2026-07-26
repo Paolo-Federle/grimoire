@@ -1,10 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
-
-const initializeDots = (length, filledCount) => {
-  return Array.from({ length }, (_, i) => i < filledCount);
-};
 
 const getEnergyColor = (race) => {
   const raceColors = {
@@ -25,30 +21,14 @@ export const RaceEnergyTracker = ({ compact = false }) => {
   const energyPoolName = sheetData.race_traits.race_specific_names[selectedRace]?.energy_pool;
   const maxEnergy = sheetData.race_traits.energy_pool.max;
   const currentEnergy = sheetData.race_traits.energy_pool.current;
-  const [energyPool, setEnergyPool] = useState(() =>
-    initializeDots(maxEnergy, currentEnergy)
-  );
+  const energyPool = Array.from({ length: maxEnergy }, (_, index) => index < currentEnergy);
   const energyColor = getEnergyColor(selectedRace);
 
-  useEffect(() => {
-    setEnergyPool(initializeDots(maxEnergy, currentEnergy));
-  }, [currentEnergy, maxEnergy]);
-
-  useEffect(() => {
-    const filledDots = energyPool.filter(Boolean).length;
-    setSheetData((prev) =>
-      updateValueAtPath(prev, ["race_traits", "energy_pool", "current"], filledDots)
-    );
-  }, [energyPool, setSheetData]);
-
   const setEnergyLevel = (index) => {
-    setEnergyPool((prev) => {
-      if (index === 0 && prev.filter(Boolean).length === 1 && prev[0]) {
-        return prev.map(() => false);
-      }
-
-      return prev.map((_, i) => i <= index);
-    });
+    const nextValue = index === 0 && currentEnergy === 1 ? 0 : index + 1;
+    setSheetData((prev) =>
+      updateValueAtPath(prev, ["race_traits", "energy_pool", "current"], nextValue)
+    );
   };
 
   return (

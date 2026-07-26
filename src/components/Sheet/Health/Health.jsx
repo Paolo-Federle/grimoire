@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { ModifierControl } from "../Common/40_ModifierControl";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
@@ -9,7 +9,7 @@ const initializeArray = (arr, length, defaultValue) => {
 
 export const HealthTracker = () => {
     const { sheetData, setSheetData } = useSheetData();
-    const [healthMod, setHealthMod] = useState(sheetData.derived_stats.health_mod || 0);
+    const healthMod = sheetData.derived_stats.health_mod || 0;
 
     const getMaxHealth = () => {
         return sheetData.attributes.physical.stamina.base +
@@ -18,30 +18,42 @@ export const HealthTracker = () => {
             healthMod;
     };
 
-    const maxHealth = getMaxHealth();
-    const [damage, setDamage] = useState(initializeArray(sheetData.derived_stats.damage || [], maxHealth, "none"));
-    const [resistantDamage, setResistantDamage] = useState(initializeArray(sheetData.derived_stats.resistant_damage || [], maxHealth, false));
-
-    useEffect(() => {
-        setDamage(prev => initializeArray(prev, maxHealth, "none"));
-        setResistantDamage(prev => initializeArray(prev, maxHealth, false));
-    }, [maxHealth]);
+    const maxHealth = Math.max(0, getMaxHealth());
+    const damage = initializeArray(sheetData.derived_stats.damage || [], maxHealth, "none");
+    const resistantDamage = initializeArray(
+        sheetData.derived_stats.resistant_damage || [],
+        maxHealth,
+        false
+    );
 
     useEffect(() => {
         setSheetData((prev) => {
-            let updatedSheetData = updateValueAtPath(prev, ["derived_stats", "damage"], damage);
-            updatedSheetData = updateValueAtPath(updatedSheetData, ["derived_stats", "resistant_damage"], resistantDamage);
-            updatedSheetData = updateValueAtPath(updatedSheetData, ["derived_stats", "health_mod"], healthMod);
+            const currentDamage = prev.derived_stats.damage || [];
+            const currentResistantDamage = prev.derived_stats.resistant_damage || [];
+            if (currentDamage.length === maxHealth && currentResistantDamage.length === maxHealth) {
+                return prev;
+            }
+
+            let updatedSheetData = updateValueAtPath(
+                prev,
+                ["derived_stats", "damage"],
+                initializeArray(currentDamage, maxHealth, "none")
+            );
+            updatedSheetData = updateValueAtPath(
+                updatedSheetData,
+                ["derived_stats", "resistant_damage"],
+                initializeArray(currentResistantDamage, maxHealth, false)
+            );
             return updatedSheetData;
         });
-    }, [damage, healthMod, resistantDamage, setSheetData]);
+    }, [maxHealth, setSheetData]);
 
     const DAMAGE_ORDER = ["none", "bashing", "lethal", "aggravated"];
 
     const cycleDamage = (index) => {
-        setDamage(prev => {
-            const newDamage = [...prev];
-            const currentLevelIndex = DAMAGE_ORDER.indexOf(prev[index]);
+        setSheetData((prev) => updateValueAtPath(prev, ["derived_stats", "damage"], (items = []) => {
+            const newDamage = initializeArray(items, maxHealth, "none");
+            const currentLevelIndex = DAMAGE_ORDER.indexOf(newDamage[index]);
             const nextLevelIndex = (currentLevelIndex + 1) % DAMAGE_ORDER.length;
             const nextLevel = DAMAGE_ORDER[nextLevelIndex];
 
@@ -62,20 +74,27 @@ export const HealthTracker = () => {
             }
 
             return newDamage;
-        });
+        }));
     };
 
     const toggleResistantDamage = (index) => {
-        setResistantDamage(prev => {
-            const newResistantDamage = [...prev];
+        setSheetData((prev) => updateValueAtPath(
+            prev,
+            ["derived_stats", "resistant_damage"],
+            (items = []) => {
+            const newResistantDamage = initializeArray(items, maxHealth, false);
             newResistantDamage[index] = !newResistantDamage[index];
 
             return newResistantDamage;
-        });
+        }));
     };
 
     const handleHealthModChange = (value) => {
-        setHealthMod(prev => prev + value);
+        setSheetData((prev) => updateValueAtPath(
+            prev,
+            ["derived_stats", "health_mod"],
+            (currentValue = 0) => currentValue + value
+        ));
     };
 
     return (

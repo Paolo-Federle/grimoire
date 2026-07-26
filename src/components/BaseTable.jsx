@@ -5,6 +5,7 @@ import FavoriteToggle from "./FavoriteToggle";
 import { getCurrentRoutePath, normalizeDisplayText } from "../utils";
 
 function renderDisplayValue(value) {
+  if (React.isValidElement(value)) return value;
   if (Array.isArray(value)) return normalizeDisplayText(value.join(", "));
   if (value !== null && typeof value === "object") return "";
   return normalizeDisplayText(value);

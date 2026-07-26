@@ -672,10 +672,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "No cost to use this Power, but at the time of the object’s purchase or creation, a character must invest 4 Willpower points to “bond” with the device. This is a one-time expenditure. The owner needn’t be fully cogent of the bond forming; it can happen spontaneously (though a player should always have the choice, even when the character does not)."
                 ]
             }
@@ -684,7 +680,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Resolve + Crafts"
             }
         ],
@@ -739,10 +734,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower per 1 Willpower stored"
                 ]
             }
@@ -751,7 +742,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary. Once per day, the character can spend two Willpower points to store one Willpower point in the object. Up to five Willpower points (net cost will be 10 Willpower) can be stored in this way. A character can withdraw these stored-up points at any time. He cannot draw more points in a scene than his Resolve score, however."
             }
         ],
@@ -794,10 +784,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The device must be rubbed down in the blood of the user. This blood must come from a lethal wound. This Power demands that at least one point of lethal damage be taken in letting that blood. (However, the user needn’t necessarily do this to himself – if he’s already in the middle of a fracas and finds that his enemy has opened a slice under his ribs, he can use that blood in service to the relic.)"
                 ]
             }
@@ -806,7 +792,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Survival"
             }
         ],
@@ -879,10 +864,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "No cost is necessary to resist the effects of derangements. If the possessing character fails a roll to resist a derangement, the roll doesn’t actually fail but is instead considered a complete success."
                 ]
             }
@@ -891,7 +872,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "None"
             }
         ],
@@ -933,10 +913,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -945,7 +921,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll is necessary. The bonus is active for the remainder of the scene following the expenditure of Willpower."
             }
         ],
@@ -982,10 +957,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -994,7 +965,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Crafts"
             }
         ],
@@ -1046,10 +1016,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower"
                 ]
             }
@@ -1058,7 +1024,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Manipulation + Crafts"
             }
         ],
@@ -1104,10 +1069,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -1116,7 +1077,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "This Power involves no roll. The expenditure of Willpower is enough to activate it. This Power impedes a monster’s attack. The number of dots in this Power is equal to the dice penalty conferred to a monster’s attack. This applies to any kind of attack a monster makes, be it physical or mystical (in other words, it would hamper a vampire’s Weaponry attack in the same way it would harm its mind-altering attack). This Power only protects the user from inhuman creatures, i.e. those that follow a code of behavior different from Morality. This protection applies to creatures close to the wielder; they must be within a number of yards equal to the user’s Wits + Resolve pool. Once active, this Power lasts for the remainder of the scene. As an added benefit, the wielder may expend a Willpower dot to extend this protection to up to three other individuals within the yard range. These individuals gain the same bonus as the wielder; monsters find their attacks hampered against these characters, as well. If the Willpower dot is not spent, only the wielder gains the protection. Protecting oneself is easy. Protecting others requires sacrifice."
             }
         ],
@@ -1147,10 +1107,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -1159,7 +1115,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Occult versus entity’s Power + Resistance (if an entity is willing, however, no dice roll is necessary on behalf of that ghost or spirit). Other characters aside from the user may each contribute one Willpower point toward this, and each Willpower point spent in this way grants a +1 bonus to the Wits + Occult roll, to a maximum of +5 dice."
             }
         ],
@@ -1256,10 +1211,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower, but it also requires the user to smear blood or saliva on the blade (it needn’t be his own)"
                 ]
             }
@@ -1268,7 +1219,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -1334,10 +1284,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower, but it also requires the user to smear blood or saliva on the blade (it needn’t be his own)"
                 ]
             }
@@ -1346,7 +1292,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -1382,10 +1327,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "One point of bashing damage equates to +1 to the given Attribute; one point of lethal damage equates to +2 to the given Attribute. The user cannot spend a mix of bashing and lethal; the cost is either ",
                     {
                         text: "all",
@@ -1404,7 +1345,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No dice pool necessary. The expenditure of one’s own Health is enough to stir the Power and confer the benefit. This exchange only works for a single action, and that action must take place within five minutes of the object’s activation or the damage suffered is taken with no benefit gained. Once the Attribute bonus is used one time (or at the end of five minutes, whichever comes first), to regain it the exchange must be made again, with new pain and injury suffered atop the prior damage."
             }
         ],
@@ -1449,10 +1389,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower"
                 ]
             }
@@ -1461,7 +1397,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Crafts"
             }
         ],
@@ -1537,10 +1472,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The relic does not require anyone to bond with it. Its blessing is conferred the moment a character touches it (requiring contact with that individual’s skin), and the blessing goes away the moment the character ",
                     {
                         text: "stops",
@@ -1599,10 +1530,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The relic does not require anyone to bond with it. Its blessing is conferred the moment a character touches it (requiring contact with that individual’s skin), and the blessing goes away the moment the character ",
                     {
                         text: "stops",
@@ -1646,10 +1573,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "None"
                 ]
             }
@@ -1658,7 +1581,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Stealth"
             }
         ],
@@ -1742,10 +1664,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -1754,7 +1672,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -1779,10 +1696,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The user must spend his own Physical Attributes to heal damage to himself or another. One dot from his Physical Attributes will eradicate all bashing damage. One dot can also heal one point of lethal damage. Two dots spent can heal one point of aggravated damage. It takes one full turn per Physical Attribute dot spent (so, if the character wants to heal one point of aggravated damage, he must spend two dots of his own Physical Attributes, which represents two turns of concentration). The Attribute dots “heal” and return at the rate of one dot per 24-hour period. Note, too, that by reducing one’s Physical Attributes, other scores (Defense, Initiative, Health, Speed) may be affected."
                 ]
             }
@@ -1791,7 +1704,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -1816,10 +1728,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The character spends nothing up front, as this Power is automatic — provided that the relic is touching the skin of his chest. However, after this item provides its ability (i.e. when the character goes beyond his normal “breath-holding” duration, which is found on p. 49 of the ",
                     {
                         text: "World of Darkness Rulebook",
@@ -1833,7 +1741,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -1870,10 +1777,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -1882,7 +1785,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Resolve"
             }
         ],
@@ -1946,10 +1848,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower"
                 ]
             }
@@ -1958,7 +1856,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Manipulation + Expression versus Resolve + Composure"
             }
         ],
@@ -2011,10 +1908,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -2023,7 +1916,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Presence + Expression"
             }
         ],
@@ -2112,10 +2004,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The object features no cost to activate, but it does extract an insidious price from the user. Once the scene is over in which the relic has provided this benefit, the user begins to suffer one of the following flaws (chosen by the Storyteller): Hard of Hearing, Mute, or Poor Sight. (These can be found on p. 219 in the ",
                     {
                         text: "World of Darkness Rulebook",
@@ -2129,7 +2017,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll is necessary. The character only needs to concentrate for one turn."
             }
         ],
@@ -2166,10 +2053,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower"
                 ]
             }
@@ -2178,7 +2061,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll is necessary. Upon spending the Willpower point, the relic’s Power is active for the next extended Research roll the player makes for the character."
             }
         ],
@@ -2209,10 +2091,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower per use"
                 ]
             }
@@ -2221,7 +2099,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: [
                     "No roll is necessary. When a player makes a roll for her character, she may, upon discovering the results of that roll, spend a Willpower point to activate Luck Token and “upgrade” the level of success. The level of success moves up only by one rank – a Dramatic Failure becomes a Failure, a Failure becomes a complete Success, or a Success becomes an Exceptional Success. Note that this only works for instant or reflexive actions, not for extended rolls. An extended roll does not take place in a single moment of time. And luck is purely the provenance of that single moment, fleeting and certainly temporary. In describing how it manifests, make it clear that some element of luck is in play. In avoiding a dramatic failure, the stone jamming the gun’s barrel jostles free at the last second – yes, the shot goes astray, but at least it didn’t blow up in the character’s hand. In avoiding a failure, such as when jumping a fence, maybe the character ",
                     {
@@ -2259,10 +2136,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower per use"
                 ]
             }
@@ -2271,7 +2144,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: [
                     "No roll is necessary. When a player makes a roll for her character, she may, upon discovering the results of that roll, spend a Willpower point to activate Luck Token and “upgrade” the level of success. The level of success moves up only by one rank – a Dramatic Failure becomes a Failure, a Failure becomes a complete Success, or a Success becomes an Exceptional Success. Note that this only works for instant or reflexive actions, not for extended rolls. An extended roll does not take place in a single moment of time. And luck is purely the provenance of that single moment, fleeting and certainly temporary. In describing how it manifests, make it clear that some element of luck is in play. In avoiding a dramatic failure, the stone jamming the gun’s barrel jostles free at the last second – yes, the shot goes astray, but at least it didn’t blow up in the character’s hand. In avoiding a failure, such as when jumping a fence, maybe the character ",
                     {
@@ -2348,10 +2220,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "None, or 1 Mental Attribute dot (see above)"
                 ]
             }
@@ -2360,7 +2228,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Presence + Occult"
             }
         ],
@@ -2442,10 +2309,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "5 Willpower points and the character must sacrifice a beloved inorganic object by destroying it. Some have suggested that Mother Nature is pleased by the annihilation of things that are clearly not her own (plastics, crafted metals, electronics)."
                 ]
             }
@@ -2454,7 +2317,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Presence + Expression"
             }
         ],
@@ -2516,10 +2378,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "A user does not activate this object; it activates ",
                     {
                         text: "itself",
@@ -2533,7 +2391,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -2569,10 +2426,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "None"
                 ]
             }
@@ -2581,7 +2434,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary. This Power is always active."
             }
         ],
@@ -2612,10 +2464,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower, except for items which support Brawl, Weaponry or Firearms rolls – these require 3 Willpower to activate."
                 ]
             }
@@ -2624,7 +2472,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary"
             }
         ],
@@ -2717,10 +2564,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower"
                 ]
             }
@@ -2729,7 +2572,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Survival"
             }
         ],
@@ -2775,10 +2617,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -2787,7 +2625,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Resolve + Crafts"
             }
         ],
@@ -2833,10 +2670,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -2845,7 +2678,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Stamina + Survival"
             }
         ],
@@ -2897,10 +2729,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "This item costs nothing to use on a regular basis, but the user must bond with the item at the time of purchase or creation. This “bond” requires the character to expend either one dot from his Physical Attributes, or two Willpower dots. Moreover, the character cannot regain these invested traits by spending experience points until a week has passed in-game. If a second individual successfully bonds with the relic, the first bond is broken. The relic may not be bonded with more than one individual at any given time."
                 ]
             }
@@ -2939,10 +2767,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "The user pays no direct cost, but that doesn’t mean the object doesn’t extract some kind of price from its keeper. While active, the user cannot regain Willpower points through acts in accordance with his Virtue. Also, while active, rolls to resist degeneration are made at -1 dice as the user’s heart grows callused to sin and evil."
                 ]
             }
@@ -2951,7 +2775,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Manipulation + Subterfuge"
             }
         ],
@@ -3028,10 +2851,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "None"
                 ]
             }
@@ -3040,7 +2859,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "This Power involves no roll. The item detects the presence of a single creature type up to a number of yards equal to 100 yards around itself. It does not identify the creature. For instance, on a crowded subway platform, it would not distinguish a noted creature from the rest of the crowd. Moreover, it does not make hidden creatures visible. It simply denotes their presence in that given radius. Worth noting is that the object does not necessarily need to be activated or held by a user. A silk rose may turn real in the presence of a changeling whether or not its owner is touching it or even somewhere nearby."
             }
         ],
@@ -3076,10 +2894,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower (with the addition of one Willpower dot if need be)"
                 ]
             }
@@ -3088,7 +2902,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary. This key Power only works once per day. If the character requires its use more than once in a given 24-hour period, she may spend an additional Willpower dot per use."
             }
         ],
@@ -3131,10 +2944,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower, and the item extracts an additional price as well. While the character isn’t physically harmed by the Power (though his clothing and any equipment he carries are), he does suffer two side effects immediately after enacting Smite. The first is that he assumes the Narcissism derangement that lasts for the next seven days (or Megalomania, if Narcissism is already possessed), as the character feels swollen with divine or infernal might. The second effect is that the Power is dizzying, leaving a character feeling either drunk or hung-over. Assume that until the character can sleep for an uninterrupted eight hours, he suffers a -3 roll on all Physical and Mental rolls. Possessing the Iron Stamina Merit at any level lowers this penalty to -2, but cannot reduce it any further."
                 ]
             }
@@ -3143,7 +2952,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Strength + Presence"
             }
         ],
@@ -3189,10 +2997,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "For the duration of the item’s effect (one scene), the user willingly suffers a -1 penalty to all Physical rolls."
                 ]
             }
@@ -3201,7 +3005,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Resolve + Composure"
             }
         ],
@@ -3298,10 +3101,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower dot and 1 Attribute dot sacrificed to “bond” with the item. This is a one-time expenditure. All other advantages of this Power cost nothing, unless a character decides to take more than 2 Willpower points per week (at which point, lethal damage occurs as noted above)."
                 ]
             }
@@ -3310,7 +3109,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Composure + Empathy"
             }
         ],
@@ -3384,10 +3182,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "1 Willpower"
                 ]
             }
@@ -3396,7 +3190,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll is necessary to activate the Power, but a Jumping roll is necessary to reflect its bonus. This Power only works on a single jump. It can be used multiple times in a scene, but each use requires the Willpower expenditure."
             }
         ],
@@ -3444,10 +3237,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "3 Willpower"
                 ]
             }
@@ -3456,7 +3245,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Presence + Larceny"
             }
         ],
@@ -3531,10 +3319,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "3 Willpower, and the character gains one of the following severe derangements: Anxiety, Obsessive-Compulsion, or Schizophrenia. The derangement is a result of one’s control over, and out-of-sync feeling with, time itself. The severe version lasts for 12 hours. After that, the derangement downgrades to the mild version, which disappears after ",
                     {
                         text: "another",
@@ -3548,7 +3332,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Intelligence + Resolve"
             }
         ],
@@ -3607,10 +3390,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower"
                 ]
             }
@@ -3619,7 +3398,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll is necessary. The Power lasts for one scene."
             }
         ],
@@ -3650,10 +3428,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower for a mild derangement, 4 for a severe derangement"
                 ]
             }
@@ -3662,7 +3436,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Manipulation + Empathy versus target’s Resolve + Composure"
             }
         ],
@@ -3744,10 +3517,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "None"
                 ]
             }
@@ -3756,7 +3525,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "No roll necessary. This ability is endemic to the object and does not need to be activated."
             }
         ],
@@ -3814,10 +3582,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "2 Willpower (or 4 points if traveling between worlds)"
                 ]
             }
@@ -3826,7 +3590,6 @@ const reliquaryPowersData = [
         "DiceRoll": [
             {
                 type: "line",
-                label: "Dice Pool",
                 text: "Wits + Manipulation"
             }
         ],
@@ -3962,10 +3725,6 @@ const reliquaryPowersData = [
             {
                 type: "paragraph",
                 text: [
-                    {
-                        text: "Cost: ",
-                        bold: true
-                    },
                     "No cost is necessary to access the relic’s Skills or Merits, though it’s worth noting that a relic with this Power is a character in its own right, and it can be moody or dismissive of the character’s needs. If it feels the character did not listen to it last time, it may grow hesitant to offer its “wisdom” so easily the next time, demanding some kind of repayment or action as proof of the character’s commitment. There remains, however, an ",
                     {
                         text: "initial",

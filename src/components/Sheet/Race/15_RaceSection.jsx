@@ -1,17 +1,20 @@
+import { lazy, Suspense } from "react";
 import CategoryContainer from "../Common/17_CategoryContainer";
 import { DotMarkers } from "../Common/40_DotMarkers";
 import { useSheetData } from "../05_SheetDataContext";
+import { useSheetCatalog } from "../07_SheetCatalogContext";
 import { updateValueAtPath } from "../sheetStateUtils";
-import { raceSectionConfig } from "../raceOptions";
 import { RaceEnergyTracker } from "../Energy/RaceEnergyTracker";
 import RaceDotsGroup from "./25_RaceDotsGroup";
 import RaceOptionList from "./27_RaceOptionList";
-import MageDetailsSection from "./35_MageDetailsSection";
+
+const MageDetailsSection = lazy(() => import("./35_MageDetailsSection"));
 
 export default function RaceSection() {
   const { sheetData, setSheetData } = useSheetData();
+  const { catalog, isLoading, error } = useSheetCatalog();
   const selectedRace = sheetData.character.race.selected || "";
-  const selectedConfig = raceSectionConfig[selectedRace];
+  const selectedConfig = catalog.sectionConfig;
   const energyStrengthLabel =
     sheetData.race_traits.race_specific_names[selectedRace]?.energy_strength;
   const energyPoolLabel =
@@ -36,6 +39,30 @@ export default function RaceSection() {
         <CategoryContainer section="RACE DETAILS">
           <div className="w-full rounded border border-dashed border-gray-300 p-4 text-center text-sm text-gray-600">
             Mortal characters do not currently have race-specific power lists in the sheet.
+          </div>
+        </CategoryContainer>
+      </div>
+    );
+  }
+
+  if (isLoading) {
+    return (
+      <div className="w-full">
+        <CategoryContainer section="RACE DETAILS">
+          <div className="w-full rounded border border-gray-200 p-4 text-center text-sm text-gray-600">
+            Loading race details...
+          </div>
+        </CategoryContainer>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="w-full">
+        <CategoryContainer section="RACE DETAILS">
+          <div className="w-full rounded border border-red-200 p-4 text-center text-sm text-red-700">
+            Race details could not be loaded. Try reselecting the race.
           </div>
         </CategoryContainer>
       </div>
@@ -100,7 +127,11 @@ export default function RaceSection() {
         </CategoryContainer>
       )}
 
-      {selectedRace === "mage" && <MageDetailsSection />}
+      {selectedRace === "mage" && (
+        <Suspense fallback={<div className="p-4 text-sm text-gray-600">Loading spells...</div>}>
+          <MageDetailsSection />
+        </Suspense>
+      )}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 const matterOneData = [
     {
-        "Titolo": "Alter Conductivity",
+        "Name": "Alter Conductivity",
         "Arcana": "Matter •",
         "DescrizioneAlta": "The mage alters the conductivity of a simple object. An electrical cord can be rendered completely non-conductive, while concrete can be made to conduct electricity like copper.",
         "Practice": "Compelling",
@@ -54,7 +54,7 @@ const matterOneData = [
         "Book": "M:tA 194"
     },
     {
-        "Titolo": "Breach Point",
+        "Name": "Breach Point",
         "Arcana": "Matter • + Death • + Space •",
         "DescrizioneAlta": "By means of this spell, a mage discerns the hidden vulnerabilities in any form of cover behind which her enemies might hide during the heat of battle. There is a significant difference, after all, between shooting through all of the moving parts inside a car door, and shooting through nothing more than a thin sheet of metal on one side, a bit of plastic one the other and nothing but empty air in between.",
         "Practice": "Unveiling",
@@ -82,7 +82,7 @@ const matterOneData = [
         "Book": "AA 181"
     },
     {
-        "Titolo": "Crafter's Eye",
+        "Name": "Crafter's Eye",
         "Arcana": "Matter •",
         "DescrizioneAlta": "The mage can see any wear, flaws, breaks or damage to a particular object with an eye toward repairing it. Some mages liken this to comparing the object’s present state to its “ideal” or original state of existence.",
         "Practice": "Knowing",
@@ -115,7 +115,7 @@ const matterOneData = [
         "Book": "M:tA 194"
     },
     {
-        "Titolo": "Craftsman's Eye",
+        "Name": "Craftsman's Eye",
         "Arcana": "Matter •",
         "DescrizioneAlta": "The mage can discover the proper function of an object with moving parts. At the Storyteller’s discretion, this might aid Craft Skill rolls.",
         "Practice": "Knowing",
@@ -130,7 +130,7 @@ const matterOneData = [
         "Book": "FC 110"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -175,7 +175,7 @@ const matterOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Dark Matter",
+        "Name": "Dark Matter",
         "Arcana": "Matter •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). This spell is especially good for reading resonance that is ponderous (“thick”, “sluggish” or “dense” as some have called it).",
         "Practice": "Unveiling",
@@ -196,7 +196,7 @@ const matterOneData = [
         "Book": "M:tA 194"
     },
     {
-        "Titolo": "Detect Substance",
+        "Name": "Detect Substance",
         "Arcana": "Matter •",
         "DescrizioneAlta": "This spell enables a mage to discern the presence of a given sort of material in her immediate vicinity. She could decide to search for ferrous metals, clean water or a particular kind of plastic, even a unique object known to her (meaning that the mage almost never needs to worry about where she left her car keys, unless she lives in a singularly enormous house). Among other things, this spell can reveal if a person is carrying a handgun (by looking for gunpowder) or is wearing a wire (by examining for copper wiring on the torso).",
         "Practice": "Knowing",
@@ -246,7 +246,7 @@ const matterOneData = [
         "Book": "M:tA 195"
     },
     {
-        "Titolo": "Discern Composition",
+        "Name": "Discern Composition",
         "Arcana": "Matter •",
         "DescrizioneAlta": [
             {
@@ -276,7 +276,7 @@ const matterOneData = [
         "Book": "M:tA 195"
     },
     {
-        "Titolo": "Eye for Destruction",
+        "Name": "Eye for Destruction",
         "Arcana": "Death • + Matter •",
         "DescrizioneAlta": "This spell enables the caster to discern the hidden flaws in any object made of lifeless matter (including animated corpses, but not sentient undead like vampires or Prometheans, who are not exactly dead or undead).",
         "Practice": "Knowing",
@@ -297,7 +297,7 @@ const matterOneData = [
         "Book": "TotM 19"
     },
     {
-        "Titolo": "Find the Hidden Hoard",
+        "Name": "Find the Hidden Hoard",
         "Arcana": "Matter •",
         "DescrizioneAlta": "The mage can find secret compartments within inanimate matter, discovering hidden doors, safes, and vaults.",
         "Practice": "Unveiling",
@@ -318,7 +318,7 @@ const matterOneData = [
         "Book": "M:tA 195"
     },
     {
-        "Titolo": "Sense Poisons and Drugs",
+        "Name": "Sense Poisons and Drugs",
         "Arcana": "Matter •, Life •",
         "DescrizioneAlta": "The mage can sense the presence of poisons and drugs in liquid, solid, or gaseous matter. He might not know the name of a specific substance but immediately understands what effects it would have in the human body. His senses extend to substances that have been adulterated by a poison or drug, so he can detect a drugged drink or poisoned food. Even if a substance is not a poison or drug per se, he understands at a glance what effects the substance would have if inhaled, ingested or introduced into the bloodstream.",
         "Practice": "Knowing",
@@ -342,7 +342,7 @@ const matterOneData = [
 
 const matterTwoData = [
     {
-        "Titolo": "Alter Accuracy",
+        "Name": "Alter Accuracy",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "The mage improves the balance and heft of a simple item. This application could, for example, improve the accuracy of a sword since it is easier and smoother to wield, a screwdriver turn more quickly (its weight shifts so well it practically turns itself) or a hammer hit harder. Any object that might conceivably benefit from a more efficient or better-weighted design could serve as the target of this spell.",
         "Practice": "Ruling",
@@ -367,7 +367,7 @@ const matterTwoData = [
         "Book": "M:tA 196"
     },
     {
-        "Titolo": "Control Object",
+        "Name": "Control Object",
         "Arcana": "Matter •• + Spirit •",
         "DescrizioneAlta": "The willworker can speak to the spirit of a device and ask it to perform an action that is within the normal range of the device’s function. In effect, the mage talks to a device and asks it to work.",
         "Practice": "Ruling",
@@ -392,7 +392,7 @@ const matterTwoData = [
         "Book": "SL 198"
     },
     {
-        "Titolo": "Deceptive Appearance",
+        "Name": "Deceptive Appearance",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "Although the ability to change one substance into another is useful, sometimes merely the perception of change (without tinkering with the true components) is desired. With this spell, the mage can make an object appear to be made of something else, without actually changing the object itself.",
         "Practice": "Veiling",
@@ -421,7 +421,7 @@ const matterTwoData = [
         "Book": "Myst 197"
     },
     {
-        "Titolo": "Eyes of the Earth",
+        "Name": "Eyes of the Earth",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "As the Matter 1 “Dark Matter” spell, p. 194, except that the mage casts this upon another mage or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -442,7 +442,7 @@ const matterTwoData = [
         "Book": "M:tA 196"
     },
     {
-        "Titolo": "Find the Cornerstone",
+        "Name": "Find the Cornerstone",
         "Arcana": "Matter •• + Space •",
         "DescrizioneAlta": "Some mages are craftsmen, with a craftsman’s eye. With only the slightest application of magic, a mage can point out the weak spot in any structure, the central point on which the structure’s integrity depends. Knowing the weak point of an edifice means that a true craftsman can act on it, protecting it from tampering and bolstering the integrity of the building as a whole. Conversely, it makes demolition easy.",
         "Practice": "Knowing",
@@ -470,7 +470,7 @@ const matterTwoData = [
         "Book": "L:tA 61"
     },
     {
-        "Titolo": "Loosen the Threads",
+        "Name": "Loosen the Threads",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "This spell opens locks, unties knots, or otherwise enables the mage to gain access to the contents of something that has been locked away. It also unsticks swollen doors or windows and allows rusted shut locks to be manipulated normally.",
         "Practice": "Ruling",
@@ -491,7 +491,7 @@ const matterTwoData = [
         "Book": "GoG 103"
     },
     {
-        "Titolo": "Shape Liquid",
+        "Name": "Shape Liquid",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "The mage can impart cohesion to liquid or vapor, forming it into shapes of his choosing or moving it as he desires. He could, for example, carve a corridor through fog or rain so that he doesn’t get wet.",
         "Practice": "Ruling",
@@ -583,7 +583,7 @@ const matterTwoData = [
         "Book": "M:tA 196"
     },
     {
-        "Titolo": "Steel Windows",
+        "Name": "Steel Windows",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "The mage can make an opaque object transparent or vice-versa, or he could choose to affect only one surface. He could, for example, make the outer surface of a bank vault door transparent, allowing him to see the mechanisms within.",
         "Practice": "Ruling",
@@ -604,7 +604,7 @@ const matterTwoData = [
         "Book": "M:tA 197"
     },
     {
-        "Titolo": "Temporary Repair",
+        "Name": "Temporary Repair",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "With a touch, the mage renders an inoperative machine functional for the spell’s duration, so long as the reason the machine doesn’t function is a matter of worn, broken, or missing parts.",
         "Practice": "Ruling",
@@ -619,7 +619,7 @@ const matterTwoData = [
         "Book": "FC 111"
     },
     {
-        "Titolo": "Transmute Water",
+        "Name": "Transmute Water",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "The mage can transmute one common liquid substance into another common liquid substance. The mage could turn water into milk or orange juice into gasoline. (Even though milk and orange juice are organic derivatives, they are not alive, so can be manipulated with this Arcanum.)",
         "Practice": "Ruling",
@@ -683,7 +683,7 @@ const matterTwoData = [
         "Book": "M:tA 197"
     },
     {
-        "Titolo": "Unseen Aegis",
+        "Name": "Unseen Aegis",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "This spell acts subtly upon inert material in the mage’s immediate vicinity, which defends her from harm. Air forms a “cushion” that blunts the inertia of an incoming fist. Ambient moisture acts to douse a hurled bolt of flame. A bullet temporarily becomes a bit softer in mid-flight, blunting its impact. The exact method of protection varies from mage to mage and attack to attack. The effect is the same, though: a general protection from almost all sorts of physical harm.",
         "Practice": "Shielding",
@@ -708,7 +708,7 @@ const matterTwoData = [
         "Book": "M:tA 197"
     },
     {
-        "Titolo": "Weaponize Object",
+        "Name": "Weaponize Object",
         "Arcana": "Matter ••",
         "DescrizioneAlta": "With this spell, the mage can fortify a mundane item, allowing it to be wielded as an effective hand-held weapon despite its flaws. By force of will, he sharpens the object’s edges, shifts its balance or toughens its exterior just enough to make it serviceable for combat.",
         "Practice": "Ruling",
@@ -732,7 +732,7 @@ const matterTwoData = [
 
 const matterThreeData = [
     {
-        "Titolo": "Acidic Spatter",
+        "Name": "Acidic Spatter",
         "Arcana": "Matter ••• + Life ••",
         "DescrizioneAlta": [
             {
@@ -765,7 +765,7 @@ const matterThreeData = [
         "Book": "AA 182"
     },
     {
-        "Titolo": "Alter Integrity",
+        "Name": "Alter Integrity",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The mage can reinforce or degrade an object’s Durability.",
         "Practice": "Perfecting or Fraying",
@@ -786,7 +786,7 @@ const matterThreeData = [
         "Book": "M:tA 198"
     },
     {
-        "Titolo": "Alter Raiment",
+        "Name": "Alter Raiment",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The mage can alter the garments he’s currently wearing, creating anything from a subtle color change to a complete transformation in an outfit’s size, shape and style.",
         "Practice": "Weaving",
@@ -807,7 +807,7 @@ const matterThreeData = [
         "Book": "GotV 190"
     },
     {
-        "Titolo": "Animate Object",
+        "Name": "Animate Object",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "Just as a mage using Death 3 “Quicken Corpse” can reanimate a dead body, so can a mage with this spell animate an inanimate object, such as a doll, stuffed animal or even a car.",
         "Practice": "Weaving",
@@ -848,7 +848,7 @@ const matterThreeData = [
         "Book": "S&S 145"
     },
     {
-        "Titolo": "Animate Object",
+        "Name": "Animate Object",
         "Arcana": "Matter ••• + Spirit •••",
         "DescrizioneAlta": "The willworker can temporarily awaken the spirit within an object or device and animate it so it can move and act on its own.",
         "Practice": "Ruling",
@@ -888,7 +888,7 @@ const matterThreeData = [
         "Book": "SL 199"
     },
     {
-        "Titolo": "Armor Piercing",
+        "Name": "Armor Piercing",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The mage bestows the “armor piercing” quality upon an object.",
         "Practice": "Ruling",
@@ -945,7 +945,7 @@ const matterThreeData = [
         "Book": "M:tA 198"
     },
     {
-        "Titolo": "Backbite",
+        "Name": "Backbite",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "In the hands of a mage, a weapon can become a danger to its wielder. The mage alters the configuration of a weapon so that it doesn’t attack a target — the weapon attacks its own user. A gun misfires, exploding in the hands of the wielder. A bow’s string slices open one’s forearm. A knife turns out to have a razor-sharp grip.",
         "Practice": "Weaving",
@@ -966,7 +966,7 @@ const matterThreeData = [
         "Book": "GotV 190"
     },
     {
-        "Titolo": "Books of Metal",
+        "Name": "Books of Metal",
         "Arcana": "Matter ••• + Prime •",
         "DescrizioneAlta": "The Forge Master’s idiosyncratic approach to magic expresses itself in their approach to grimoires. Instead of books, Forge Masters inscribe their grimoires in metal. The Glyphs of a grimoire could hide in the filigree of a bracelet or the chasing of a brooch, but some Powersmiths prefer to hammer their grimoires into the metal itself. Such a grimoire shows no visible sign of its nature: to read the grimoire, a mage requires both Matter 1 and Prime 1, to sense how the mystic pattern of the rote is coded into the crystal structure of the metal.",
         "Practice": "Weaving",
@@ -994,7 +994,7 @@ const matterThreeData = [
         "Book": "L:tA 78"
     },
     {
-        "Titolo": "Bundle Enhancements",
+        "Name": "Bundle Enhancements",
         "Arcana": "Matter •••",
         "DescrizioneAlta": [
             {
@@ -1024,7 +1024,7 @@ const matterThreeData = [
         "Book": "TotM 128"
     },
     {
-        "Titolo": "Enhance Toxin",
+        "Name": "Enhance Toxin",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The poisoner’s craft is a distasteful one, but one that has, nevertheless, been practiced through centuries and millennia, by the Awakened as surely as by Sleepers. This spell amplifies the deleterious qualities of a toxic substance, rendering it even more lethal to its victim than it normally would be.",
         "Practice": "Perfecting",
@@ -1045,14 +1045,14 @@ const matterThreeData = [
         "Book": "SotT 192"
     },
     {
-        "Titolo": "Gift of the Unseen Aegis",
+        "Name": "Gift of the Unseen Aegis",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "As with the Matter 2 “Unseen Aegis” spell, p. 293, but the mage can now cast this magic upon others.",
         "DescrizioneBreve": "grant Shielding",
         "Book": "MET: Awakening"
     },
     {
-        "Titolo": "Jury-Rig",
+        "Name": "Jury-Rig",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "There are times when you just need a machine to work a certain way and you don’t have time to adjust it or they just don’t make one that does everything you need. Jury Rig is the answer. The spell allows a mage to swiftly superimpose pieces of various machines into one another in such a way as to produce a desired result. With this spell, a mage could, for example, integrate a nail-gun and shotgun together to produce a weapon that fires a barrage of nails with each pull of the trigger. Or he could combine a coffeemaker and an ice-cream mixer for making one-step, coffee-flavored ice cream, or a washer and dryer together to do laundry in one cycle.",
         "Practice": "Weaving",
@@ -1077,7 +1077,7 @@ const matterThreeData = [
         "Book": "M:tA 198"
     },
     {
-        "Titolo": "Manufacture Drop",
+        "Name": "Manufacture Drop",
         "Arcana": "Life •• + Matter •••",
         "DescrizioneAlta": "The alchemist manufactures gross material in the form of a liquid to be dropped into the eye or ear canal. Spells that convey information to the user, or alter his perceptions, can be imprinted in alchemical drops.",
         "Practice": "Weaving",
@@ -1098,7 +1098,7 @@ const matterThreeData = [
         "Book": "TotM 148"
     },
     {
-        "Titolo": "Manufacture Medication",
+        "Name": "Manufacture Medication",
         "Arcana": "Life •• + Matter •••",
         "DescrizioneAlta": "The alchemist manufactures gross material in the form of a pill or intravenous liquid. To be instilled in medication, a spell must act on its user’s organic biology, healing him or bolstering his Physical Traits. (Sensory spells are imprinted in drops, another form of gross material; see below.)",
         "Practice": "Weaving",
@@ -1193,7 +1193,7 @@ const matterThreeData = [
         "Book": "TotM 147"
     },
     {
-        "Titolo": "Manufacture Oil or Jelly",
+        "Name": "Manufacture Oil or Jelly",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The alchemist manufactures gross material in the form of a sticky, viscous substance. To be imprinted in a salve, a spell must bolster, degrade or otherwise alter inorganic matter.",
         "Practice": "Weaving",
@@ -1214,7 +1214,7 @@ const matterThreeData = [
         "Book": "TotM 147"
     },
     {
-        "Titolo": "Manufacture Powder",
+        "Name": "Manufacture Powder",
         "Arcana": "Forces •• + Matter •••",
         "DescrizioneAlta": "The alchemist manufactures gross material in the form of an explosive powder. Any spell with an area effect can be imprinted onto a gross powder keyed to its specific effect.",
         "Practice": "Weaving",
@@ -1235,7 +1235,7 @@ const matterThreeData = [
         "Book": "TotM 147"
     },
     {
-        "Titolo": "Manufacture Salve",
+        "Name": "Manufacture Salve",
         "Arcana": "Life •• + Matter •••",
         "DescrizioneAlta": "The alchemist manufactures gross material in the form of a salve, cream or unguent, formulated to contain a particular spell effect. To be imprinted in a salve, a spell must protect the beneficiary from harm or influence.",
         "Practice": "Weaving",
@@ -1256,7 +1256,7 @@ const matterThreeData = [
         "Book": "TotM 147"
     },
     {
-        "Titolo": "Manufacture Spray",
+        "Name": "Manufacture Spray",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The alchemist manufactures gross material in the form of a low-density liquid that can be easily dispersed into a mist via a sprayer or aerosol can. To be imprinted in a spray, a spell must harm or influence a person, creature or supernatural entity. (Certain entities, such as ghosts and spirits, may be difficult or impossible to target with a spray.)",
         "Practice": "Weaving",
@@ -1277,7 +1277,7 @@ const matterThreeData = [
         "Book": "TotM 147"
     },
     {
-        "Titolo": "Perfect Lock",
+        "Name": "Perfect Lock",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "Mages have historically been known for their need for privacy. While in ancient times, this was done by weaving Space, giving them Pocket Realms, or the use of secure sanctums, in modern times, sometimes all a mage may need is a little privacy. By fusing the molecules of a door or window together, it becomes impossible to open the door, window, gate, etc. Even the mage himself cannot pass through the doorway without first canceling the spell.",
         "Practice": "Weaving",
@@ -1298,7 +1298,7 @@ const matterThreeData = [
         "Book": "GotV 191"
     },
     {
-        "Titolo": "Plasticity",
+        "Name": "Plasticity",
         "Arcana": "Matter •••",
         "DescrizioneAlta": [
             {
@@ -1336,7 +1336,7 @@ const matterThreeData = [
         "Book": "M:tA 199"
     },
     {
-        "Titolo": "Reassembly",
+        "Name": "Reassembly",
         "Arcana": "Matter ••• + Space •••",
         "DescrizioneAlta": "The mage calls and reassembles the widely separated parts of an item. The spell “Repair Object” repairs only objects when most of the pieces are present; this spell allows the mage to recreate a shattered vase merely by holding a single fragment of the vase and calling the remainder of the vase to it.",
         "Practice": "Unraveling",
@@ -1357,7 +1357,7 @@ const matterThreeData = [
         "Book": "Myst 198"
     },
     {
-        "Titolo": "Repair Object",
+        "Name": "Repair Object",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The mage can repair an object without leaving seams (it appears like it was never broken).",
         "Practice": "Perfecting",
@@ -1378,7 +1378,7 @@ const matterThreeData = [
         "Book": "M:tA 199"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1469,7 +1469,7 @@ const matterThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Transmute Earth",
+        "Name": "Transmute Earth",
         "Arcana": "Matter •••",
         "DescrizioneAlta": "The mage can transmute one common solid substance into another common solid substance. The mage could turn a small chunk of granite into glass or a plaster paperweight into a wooden one. At this level, however, a mage cannot transform the substance of multiple materials at once. Thus, she could not transmute an entire car, but she could turn its fender to balsa wood or its frame to rubber. Transformations that involve precious metals or otherwise rare materials are not possible at this level. (That is, “precious” and “rare” by common Sleeper estimation. While diamonds are by no means rare, they have significant metaphysical weight based upon the importance most people believe them to possess.) Such workings require use of the Matter 4 “Transmute Gold” spell, p. 202.",
         "Practice": "Ruling",
@@ -1509,7 +1509,7 @@ const matterThreeData = [
         "Book": "M:tA 200"
     },
     {
-        "Titolo": "Verminous Metamorphosis",
+        "Name": "Verminous Metamorphosis",
         "Arcana": "Matter ••• + Life •••",
         "DescrizioneAlta": "Much like the miracle that allowed for the transformation of Moses’ staff, this spell enables a mage to alter a piece (or pieces) of lifeless material into simple vermin, such as spiders, scorpions or biting flies. Some mages are known to fling a fistful of small change or pebbles, transforming the objects in mid-flight to harry (or even seriously harm) enemies.",
         "Practice": "Weaving",
@@ -1574,7 +1574,7 @@ const matterThreeData = [
 
 const matterFourData = [
     {
-        "Titolo": "Alter Efficiency",
+        "Name": "Alter Efficiency",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can improve or degrade a mechanical object’s workings. Complicated items such as mechanical devices might be made more or less efficient through the careful manipulation of the quality of their inner workings.",
         "Practice": "Weaving",
@@ -1599,7 +1599,7 @@ const matterFourData = [
         "Book": "M:tA 201"
     },
     {
-        "Titolo": "Annihilate Matter",
+        "Name": "Annihilate Matter",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can destroy inert matter, reducing it to nothingness and utterly dissolving its atomic lattice. In effect, he makes it cease to be. A material’s hardness or density does not appreciably factor into this destruction; only sheer quantity (in terms of cubic volume) really has much bearing on the process.",
         "Practice": "Unraveling",
@@ -1620,7 +1620,7 @@ const matterFourData = [
         "Book": "M:tA 201"
     },
     {
-        "Titolo": "Chimerical Manifestation",
+        "Name": "Chimerical Manifestation",
         "Arcana": "Matter •••• + Mind ••••; optional Prime •••",
         "DescrizioneAlta": "The mage manifests an object from Astral Space in the real world, giving the object form and power.",
         "Practice": "Making",
@@ -1638,7 +1638,7 @@ const matterFourData = [
         "Book": "AR 117"
     },
     {
-        "Titolo": "Duplication",
+        "Name": "Duplication",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage creates a precise duplicate of a mundane object.",
         "Practice": "Patterning",
@@ -1667,7 +1667,7 @@ const matterFourData = [
         "Book": "Myst 198"
     },
     {
-        "Titolo": "Fold Object",
+        "Name": "Fold Object",
         "Arcana": "Matter ••••, Space •••",
         "DescrizioneAlta": "This spell changes a three-dimensional object into a two-dimensional one. Its weight stays the same, but its volume is reduced accordingly, allowing it to be folded like paper.",
         "Practice": "Weaving",
@@ -1695,7 +1695,7 @@ const matterFourData = [
         "Book": "AA 182"
     },
     {
-        "Titolo": "Improve Quality",
+        "Name": "Improve Quality",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The archetypal rags-to-finery spell, this spell allows the mage to increase the worth (in mundane, monetary terms) of an object. Linen clothes become silk, decades-old cars become this year’s model, old black and white televisions become plasma screens and personal cassette players become mp3 players.",
         "Practice": "Patterning",
@@ -1720,7 +1720,7 @@ const matterFourData = [
         "Book": "SotT 192"
     },
     {
-        "Titolo": "Lesser Transmogrification",
+        "Name": "Lesser Transmogrification",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can turn a single liquid substance into a single solid substance, and vice-versa.",
         "Practice": "Patterning",
@@ -1741,7 +1741,7 @@ const matterFourData = [
         "Book": "M:tA 201"
     },
     {
-        "Titolo": "Reconfigure Object",
+        "Name": "Reconfigure Object",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can turn an object into a different type of object. Its form is altered, but its material substance remains unchanged.",
         "Practice": "Patterning",
@@ -1761,7 +1761,7 @@ const matterFourData = [
         "Book": "M:tA 201"
     },
     {
-        "Titolo": "Secret Compartment",
+        "Name": "Secret Compartment",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can create a hollow area inside a block of solid matter whose only point of access is a hatch that’s invisible until opened.",
         "Practice": "Patterning",
@@ -1794,7 +1794,7 @@ const matterFourData = [
         "Book": "Ban 58"
     },
     {
-        "Titolo": "Shape Air",
+        "Name": "Shape Air",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can control the flow and density of air or control the dispersion of a gaseous substance, such as mustard gas, sarin (nerve gas) or helium.",
         "Practice": "Patterning",
@@ -1880,7 +1880,7 @@ const matterFourData = [
         "Book": "M:tA 201"
     },
     {
-        "Titolo": "Stone Servitor",
+        "Name": "Stone Servitor",
         "Arcana": "Matter •••• + Mind •••••",
         "DescrizioneAlta": "This spell creates a self-aware servant of animate stone from out of nearby substances, even the air itself.",
         "Practice": "Making",
@@ -1905,7 +1905,7 @@ const matterFourData = [
         "Book": "TotM 32"
     },
     {
-        "Titolo": "The Golem",
+        "Name": "The Golem",
         "Arcana": "Matter •••• + Fate ••",
         "DescrizioneAlta": "According to legend, the creation of the Golem, an animated being of lifeless clay given vitality by the power of the Tree of Life, is a feat accomplished by many great masters of the tradition. The most famous version of the tale dates from 16th century Prague, where the Maharal, Rabbi Judah Loew, created a Golem to protect the Jews of his city from anti-Semitic violence.",
         "Practice": "Weaving",
@@ -1934,7 +1934,7 @@ const matterFourData = [
         "Book": "MT 41"
     },
     {
-        "Titolo": "Transmute Air",
+        "Name": "Transmute Air",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can transform one gaseous substance into another gaseous substance, such as turning nerve gas into harmless oxygen or oxygen into laughing gas.",
         "Practice": "Patterning",
@@ -1955,7 +1955,7 @@ const matterFourData = [
         "Book": "M:tA 202"
     },
     {
-        "Titolo": "Transmute Gold",
+        "Name": "Transmute Gold",
         "Arcana": "Matter ••••",
         "DescrizioneAlta": "The mage can transmute a precious or rare substance, such as gold or diamond, into a common substance, such as wood or mud.",
         "Practice": "Patterning",
@@ -1976,7 +1976,7 @@ const matterFourData = [
         "Book": "M:tA 202"
     },
     {
-        "Titolo": "Transubstantiation of Content",
+        "Name": "Transubstantiation of Content",
         "Arcana": "Matter ••••, Mind •••",
         "DescrizioneAlta": "Despite the popular image of wizards poring over ponderous hoards of obscure and dusty tomes, many modern mages prefer the compact elegance of sophisticated electronic media. With this spell, a mage can freely mix and convert data across any storage medium, provided the original object stores deliberate data in some fashion.",
         "Practice": "Patterning",
@@ -2000,7 +2000,7 @@ const matterFourData = [
 
 const matterFiveData = [
     {
-        "Titolo": "Alter Size",
+        "Name": "Alter Size",
         "Arcana": "Matter •••••",
         "DescrizioneAlta": "The mage can alter an object’s Size, making it larger or smaller.",
         "Practice": "Making",
@@ -2021,7 +2021,7 @@ const matterFiveData = [
         "Book": "M:tA 203"
     },
     {
-        "Titolo": "Annihilate Extraordinary Matter",
+        "Name": "Annihilate Extraordinary Matter",
         "Arcana": "Matter •••••",
         "DescrizioneAlta": "This is identical to the ability to destroy normal materials, as with “Annihilate Matter”, p. 201, save that it affects enchanted substances that are normally protected such as enhanced or imbued items, Artifacts and thaumium (see “Forge Thaumium,” below).",
         "Practice": "Unmaking",
@@ -2042,7 +2042,7 @@ const matterFiveData = [
         "Book": "M:tA 203"
     },
     {
-        "Titolo": "Chimerical Conjuration",
+        "Name": "Chimerical Conjuration",
         "Arcana": "Matter •••••, Mind ••••, Spirit ••••",
         "DescrizioneAlta": "The mage tears an object from Astral Space into the Fallen World.",
         "Practice": "Patterning",
@@ -2064,7 +2064,7 @@ const matterFiveData = [
         "Book": "AR 118"
     },
     {
-        "Titolo": "Construct Homunculus Form",
+        "Name": "Construct Homunculus Form",
         "Arcana": "Matter •••••",
         "DescrizioneAlta": "The alchemist manufactures the lifeless, inanimate physical form of a homunculus. The resulting artificial body is sometimes known as a proto-homunculus, or proto for short. The large number of successes required to work this spell can be racked up over time, with multiple instances of the spell. Any interval may pass between castings of the spell, provided that any organic or perishable components of the form are kept from decaying, either by magical means or through simple refrigeration. The Mana cost must be paid for each casting. Paradox, which may destroy or reverse one’s progress, remains a risk with each session.",
         "Practice": "Making",
@@ -2308,7 +2308,7 @@ const matterFiveData = [
         "Book": "TotM 149"
     },
     {
-        "Titolo": "Forge Thaumium",
+        "Name": "Forge Thaumium",
         "Arcana": "Matter •••••, Prime •••",
         "DescrizioneAlta": "Masters of Matter can forge a substance, when charged with Mana, that’s capable of serving as a shield against mystic will. Called “thaumium” (from the Greek word for “wonder” or “marvel”), this material is created as an alloy of perfected gold (orichalcum), silver (lunargent) and mercury (hermium). (Note: Transmuted versions of such materials are not acceptable.) The result, when properly crafted, a flawlessly mirrored substance. When charged with Mana, thaumium has a faint luminescence. A thaumium object may take the form of a necklace, breastplate, a watch or a sword. The shape and size of an object is irrelevant to how much inherent countermagic it provides.",
         "Practice": "Making",
@@ -2381,7 +2381,7 @@ const matterFiveData = [
         "Book": "M:tA 203"
     },
     {
-        "Titolo": "Greater Transmogrification",
+        "Name": "Greater Transmogrification",
         "Arcana": "Matter •••••",
         "DescrizioneAlta": "The mage can now transform liquids and solids into gases, and vice-versa in any combination.",
         "Practice": "Patterning",
@@ -2401,7 +2401,7 @@ const matterFiveData = [
         "Book": "M:tA 204"
     },
     {
-        "Titolo": "Petrification",
+        "Name": "Petrification",
         "Arcana": "Life •••• + Matter •••••",
         "DescrizioneAlta": "The ages-old fear of the magician comes all too often from the fear of transformation, the fear that the worker of wonders is going to be able to take control of your form. The fear of becoming stone, of becoming hard, dead and immovable has preoccupied the tellers of myth and fairytale for centuries. The mages who can actually make it happen are few. The mages who can make it last are even fewer.",
         "Practice": "Patterning",
@@ -2455,7 +2455,7 @@ const matterFiveData = [
         "Book": "L:tA 61"
     },
     {
-        "Titolo": "Raw Creation",
+        "Name": "Raw Creation",
         "Arcana": "Matter •••••",
         "DescrizioneAlta": "The mage can create an object out of nothing.",
         "Practice": "Making",
@@ -2480,7 +2480,7 @@ const matterFiveData = [
         "Book": "M:tA 204"
     },
     {
-        "Titolo": "Self-Repairing Machine",
+        "Name": "Self-Repairing Machine",
         "Arcana": "Matter •••••",
         "DescrizioneAlta": "The mage can give objects a self-repairing function. The willworker’s understanding is such that he can fabricate materials that 'heal' themselves by bonding with nearby molecules, atomically restructuring them in ways considered impossible to modern science.",
         "Practice": "Making",

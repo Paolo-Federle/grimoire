@@ -1,6 +1,6 @@
 const lifeOneData = [
     {
-        "Titolo": "Analyze Life",
+        "Name": "Analyze Life",
         "Arcana": "Life •",
         "DescrizioneAlta": "The mage discerns the species, age and sex of a nearby living plant or animal, including humans.",
         "Practice": "Knowing",
@@ -21,7 +21,7 @@ const lifeOneData = [
         "Book": "M:tA 180"
     },
     {
-        "Titolo": "Cleanse the Body",
+        "Name": "Cleanse the Body",
         "Arcana": "Life •",
         "DescrizioneAlta": "The mage can cleanse herself of drugs, toxins or poisons.",
         "Practice": "Compelling",
@@ -49,7 +49,7 @@ const lifeOneData = [
         "Book": "M:tA 180"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -94,7 +94,7 @@ const lifeOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Forgo Rest",
+        "Name": "Forgo Rest",
         "Arcana": "Life •",
         "DescrizioneAlta": "An initiate of Life can overcome some of the weaknesses of the body, at least for a time. A mage using this spell can go without sleep for an extended period, with no impairment of faculties, at least until fatigue becomes too great. Mages find it most useful to forgo rest when they must focus their attention on a task for a long period of time.",
         "Practice": "Compelling",
@@ -126,7 +126,7 @@ const lifeOneData = [
         "Book": "FC 110"
     },
     {
-        "Titolo": "Healer's Trance",
+        "Name": "Healer's Trance",
         "Arcana": "Life •",
         "DescrizioneAlta": "The mage can discern the state of health of a living being and detect and identify any illnesses.",
         "Practice": "Knowing",
@@ -147,7 +147,7 @@ const lifeOneData = [
         "Book": "M:tA 181"
     },
     {
-        "Titolo": "Pulse of the Living World",
+        "Name": "Pulse of the Living World",
         "Arcana": "Life •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). He is able to detect the presence of mystic vital animation in the area, effectively reading resonance as a function of reality’s living energies.",
         "Practice": "Unveiling",
@@ -168,7 +168,7 @@ const lifeOneData = [
         "Book": "M:tA 181"
     },
     {
-        "Titolo": "Sense Life",
+        "Name": "Sense Life",
         "Arcana": "Life •",
         "DescrizioneAlta": [
             {
@@ -238,7 +238,7 @@ const lifeOneData = [
 
 const lifeTwoData = [
     {
-        "Titolo": "Body Control",
+        "Name": "Body Control",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage has perfect conscious control of his bodily functions, from breathing and reflexes to metabolism and circulation.",
         "Practice": "Ruling",
@@ -303,7 +303,7 @@ const lifeTwoData = [
         "Book": "M:tA 182"
     },
     {
-        "Titolo": "Bread Alone",
+        "Name": "Bread Alone",
         "Arcana": "Life ••",
         "DescrizioneAlta": [
             {
@@ -333,7 +333,7 @@ const lifeTwoData = [
         "Book": "TotM 64"
     },
     {
-        "Titolo": "Control Base Life",
+        "Name": "Control Base Life",
         "Arcana": "Life ••",
         "DescrizioneAlta": [
             {
@@ -404,7 +404,7 @@ const lifeTwoData = [
         "Book": "M:tA 182"
     },
     {
-        "Titolo": "Evidence Shroud",
+        "Name": "Evidence Shroud",
         "Arcana": "Life •• + Matter ••",
         "DescrizioneAlta": "The mage erases all forensic evidence of any activities already undertaken during the current scene. This includes hairs, body fluids, fingerprints as well as inorganic evidence such as footprints and fibers. The mage leaves an unusably blurry or distorted image on security camera videotapes or other recorded media. If the willworker’s activity is the destruction of existing evidence — for example, the cleanup of blood and tissues from a murder scene — the spell ensures that all incriminating materials are completely removed.",
         "Practice": "Veiling",
@@ -425,7 +425,7 @@ const lifeTwoData = [
         "Book": "TotM 65"
     },
     {
-        "Titolo": "Heal Flora and Fauna",
+        "Name": "Heal Flora and Fauna",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage can heal the wounds of animals and plants.",
         "Practice": "Ruling",
@@ -446,7 +446,7 @@ const lifeTwoData = [
         "Book": "M:tA 182"
     },
     {
-        "Titolo": "Organic Resilience",
+        "Name": "Organic Resilience",
         "Arcana": "Life ••",
         "DescrizioneAlta": [
             {
@@ -480,7 +480,7 @@ const lifeTwoData = [
         "Book": "M:tA 183"
     },
     {
-        "Titolo": "Purify Bodies",
+        "Name": "Purify Bodies",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage cleanses others of drugs, toxins or poisons.",
         "Practice": "Compelling",
@@ -501,7 +501,7 @@ const lifeTwoData = [
         "Book": "M:tA 183"
     },
     {
-        "Titolo": "Puissant Skill",
+        "Name": "Puissant Skill",
         "Arcana": "Life ••",
         "DescrizioneAlta": "Muscle memory can aid the human body in accomplishing truly tremendous feats, allowing reaction with more speed and surety than the human mind can register. With this spell, a mage can perfect his muscle memory, drawing on even the most basic of training to hone his reflexes and responses to stunning and breathtaking perfection.",
         "Practice": "Ruling",
@@ -529,7 +529,7 @@ const lifeTwoData = [
         "Book": "Myst 195"
     },
     {
-        "Titolo": "Self-Healing",
+        "Name": "Self-Healing",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage can heal herself of injuries and wounds.",
         "Practice": "Ruling",
@@ -554,7 +554,7 @@ const lifeTwoData = [
         "Book": "M:tA 183"
     },
     {
-        "Titolo": "Self-Purging",
+        "Name": "Self-Purging",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage can cure sickness or disease in herself.",
         "Practice": "Ruling",
@@ -575,7 +575,7 @@ const lifeTwoData = [
         "Book": "M:tA 183"
     },
     {
-        "Titolo": "Simulate Basic Needs",
+        "Name": "Simulate Basic Needs",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage can immediately obviate the effects of hunger and fatigue on him, readying himself for another full day of work in a few seconds.",
         "Practice": "Ruling",
@@ -608,7 +608,7 @@ const lifeTwoData = [
         "Book": "Ban 57"
     },
     {
-        "Titolo": "Sustenance",
+        "Name": "Sustenance",
         "Arcana": "Life •• + Spirit ••",
         "DescrizioneAlta": "This spell allows the mage to sustain her physical body with food and drink consumed while in the Dreamtime.",
         "Practice": "Weaving",
@@ -628,7 +628,7 @@ const lifeTwoData = [
         "Book": "GoG 140"
     },
     {
-        "Titolo": "Transfer Base Features",
+        "Name": "Transfer Base Features",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage gives one base life form features from another base life form.",
         "Practice": "Ruling",
@@ -653,7 +653,7 @@ const lifeTwoData = [
         "Book": "M:tA 184"
     },
     {
-        "Titolo": "Transform Base Life",
+        "Name": "Transform Base Life",
         "Arcana": "Life ••",
         "DescrizioneAlta": "The mage can transform one base form of life (such as insects, fungi, or plants) into another base life form. (Note that sentient beings of whatever kind are not considered base life.) By transmuting the living energy of a plant, such as a growing flower or unripe acorn, a mage can transform such life into another form of life entirely, such as an insect swarm. Alternately, the mage can change one kind of insect (or other simple invertebrate life) into another (such as a cockroach into a wasp or an earthworm into a millipede).",
         "Practice": "Ruling",
@@ -749,7 +749,7 @@ const lifeTwoData = [
         "Book": "M:tA 184"
     },
     {
-        "Titolo": "Visions of the Living World",
+        "Name": "Visions of the Living World",
         "Arcana": "Life ••",
         "DescrizioneAlta": "As the Life 1 “Pulse of the Living World” spell, p. 181, except that the mage casts this magic upon another mage, or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -773,7 +773,7 @@ const lifeTwoData = [
 
 const lifeThreeData = [
     {
-        "Titolo": "Banish Plague",
+        "Name": "Banish Plague",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can cure sickness or disease in others.",
         "Practice": "Ruling",
@@ -798,7 +798,7 @@ const lifeThreeData = [
         "Book": "M:tA 185"
     },
     {
-        "Titolo": "Body Mastery",
+        "Name": "Body Mastery",
         "Arcana": "Life •••",
         "DescrizioneAlta": "This spell enhances mages’ health, boosts the speed of their healing, and lengthens their lifespan.",
         "Practice": "Ruling",
@@ -819,7 +819,7 @@ const lifeThreeData = [
         "Book": "Myst 195, GoG 32"
     },
     {
-        "Titolo": "Chemical Imbalance",
+        "Name": "Chemical Imbalance",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can disrupt the chemical balance of the brain, thus affecting the target’s motor skills and emotions.",
         "Practice": "Fraying",
@@ -879,7 +879,7 @@ const lifeThreeData = [
         "Book": "TotM 65"
     },
     {
-        "Titolo": "Control Median Life",
+        "Name": "Control Median Life",
         "Arcana": "Life •••",
         "DescrizioneAlta": [
             {
@@ -909,7 +909,7 @@ const lifeThreeData = [
         "Book": "M:tA 185"
     },
     {
-        "Titolo": "Curse of Predation",
+        "Name": "Curse of Predation",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage creates a cursed object, most often one carried or worn on the person, that attracts to its owner the attention of carnivorous animals. The item emits the distress pheromones of a wounded animal, triggering attack instincts of nearby predators. Depending on the location, these might include raptors, carrion-eating birds, coyotes, hyenas, hogs, wolves, bears, or big cats. In urban settings, the greatest danger will come from domesticated dogs, whose feral instincts kick into overdrive when aroused by the presence of a cursed item. The density of dog populations in cities makes these items even more dangerous there than in wilderness areas, where predator populations are spread out in relation to their food sources. Still, a cursed item makes a handy addition to an enemy’s sleeping bag as he prepares for a camping trip to a grizzly-infested mountain pass.",
         "Practice": "Weaving",
@@ -967,7 +967,7 @@ const lifeThreeData = [
         "Book": "TotM 138"
     },
     {
-        "Titolo": "Degrading the Form",
+        "Name": "Degrading the Form",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can lower one of his Physical Attributes or that of a base or median life form. The mage might wish to appear infirm or feeble.",
         "Practice": "Fraying",
@@ -988,7 +988,7 @@ const lifeThreeData = [
         "Book": "M:tA 186"
     },
     {
-        "Titolo": "Enforced Silence",
+        "Name": "Enforced Silence",
         "Arcana": "Life ••• + optional Mind •••",
         "DescrizioneAlta": "The mage quells a target creature’s vocalizations, eliminating its ability to make any noise with its voice. At her command, vocal cords seize up, the tongue is paralyzed, the lips fail to shape sounds; as a result, the target is unable to generate any sound louder than breathing. Not even hisses or tongue clicks are possible. The target can cough (and so cannot be made to choke while this spell is active), but his coughs sound like barely audible wheezing. The spell works on any living being that creates noise with its breath.",
         "Practice": "Weaving",
@@ -1042,7 +1042,7 @@ const lifeThreeData = [
         "Book": "GotV 188"
     },
     {
-        "Titolo": "Feral Reflex",
+        "Name": "Feral Reflex",
         "Arcana": "Life ••• + Mind •••",
         "DescrizioneAlta": "Many animals move with adroitness and surety that far outstrip that common to humans. Replicating these natural instincts for grace, a mage acquires a heightened ability to evade his enemies’ blows in battle.",
         "Practice": "Perfecting",
@@ -1070,7 +1070,7 @@ const lifeThreeData = [
         "Book": "AA 180"
     },
     {
-        "Titolo": "Gaia's Hold",
+        "Name": "Gaia's Hold",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage calls upon flora to slow and entangle her target. Grass grows and knots around the target’s feet, tree branches catch and snag at clothing and limbs, and vines spiral and twist around the target in an ever tightening grasp.",
         "Practice": "Ruling",
@@ -1103,7 +1103,7 @@ const lifeThreeData = [
         "Book": "AA 180"
     },
     {
-        "Titolo": "Healing Heart",
+        "Name": "Healing Heart",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can heal the wounds of other humans.",
         "Practice": "Perfecting",
@@ -1124,7 +1124,7 @@ const lifeThreeData = [
         "Book": "M:tA 186"
     },
     {
-        "Titolo": "Honing the Form",
+        "Name": "Honing the Form",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can raise one of his Physical Attributes or that of a base or median life form.",
         "Practice": "Perfecting",
@@ -1145,7 +1145,7 @@ const lifeThreeData = [
         "Book": "M:tA 186"
     },
     {
-        "Titolo": "Image of Striking Beauty",
+        "Name": "Image of Striking Beauty",
         "Arcana": "Life ••• + Mind ••",
         "DescrizioneAlta": "The mage can subtly alter his body in order to make himself appear exceptionally attractive.",
         "Practice": "Weaving",
@@ -1166,7 +1166,7 @@ const lifeThreeData = [
         "Book": "SL 197"
     },
     {
-        "Titolo": "Induce Vertigo",
+        "Name": "Induce Vertigo",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can send a victim into a fit of vertigo with a single touch.",
         "Practice": "Fraying",
@@ -1202,7 +1202,7 @@ const lifeThreeData = [
         "Book": "Ban 58"
     },
     {
-        "Titolo": "Inflict Agony",
+        "Name": "Inflict Agony",
         "Arcana": "Life •••",
         "DescrizioneAlta": "Pain is a powerful motivator. Animals instinctively shrink back from causes of suffering; some scientists even believe that plants do so. Every living thing reflexively does what it can to avoid pain. Thus, some mages find benefit in magic intended to inflict harm upon others without having to resort to more lasting forms of violence, whether as a tool of interrogation or one of simple cruelty.",
         "Practice": "Fraying",
@@ -1227,7 +1227,7 @@ const lifeThreeData = [
         "Book": "SotT 191"
     },
     {
-        "Titolo": "Metabolic Suspension",
+        "Name": "Metabolic Suspension",
         "Arcana": "Life •••, Time •••; or Life ••••; or Time ••••",
         "DescrizioneAlta": "Where lesser mages enhance and reinforce their metabolisms with superhuman efficiency, mages with appropriate command of Life and/or Time may transcend such frailties outright.",
         "Practice": "Perfecting",
@@ -1248,7 +1248,7 @@ const lifeThreeData = [
         "Book": "Myst 196"
     },
     {
-        "Titolo": "Organic Shield",
+        "Name": "Organic Shield",
         "Arcana": "Life •••",
         "DescrizioneAlta": "As with the Life 2 “Organic Resilience” spell, p. 183, but the mage can now cast this magic upon others.",
         "Practice": "Shielding",
@@ -1263,7 +1263,7 @@ const lifeThreeData = [
         "Book": "M:tA 187"
     },
     {
-        "Titolo": "Palsy",
+        "Name": "Palsy",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage robs her subject of motor control by afflicting him with powerful tremors and muscle spasms. The subject’s muscles twitch and seize up uncontrollably. The subject’s hands, only vaguely under his control, shake with a violent palsy, making it impossible for him to maintain hold on an item. The rest of his body suffers similarly, making it challenging to move with any grace and may even render him unable to stay on his feet.",
         "Practice": "Weaving",
@@ -1288,7 +1288,7 @@ const lifeThreeData = [
         "Book": "GotV 189"
     },
     {
-        "Titolo": "Physical Reconfiguration",
+        "Name": "Physical Reconfiguration",
         "Arcana": "Life •••, optional Mind •",
         "DescrizioneAlta": "By selectively altering certain aspects of his physiology, a mage can temporarily replicate certain exceptional — if entirely non-magical — capabilities. Further changes can be affected by those with minimal proficiency in more cerebral magics.",
         "Practice": "Perfecting",
@@ -1313,7 +1313,7 @@ const lifeThreeData = [
         "Book": "SL 198"
     },
     {
-        "Titolo": "Scent of Nature",
+        "Name": "Scent of Nature",
         "Arcana": "Life •••",
         "DescrizioneAlta": "This spell alters the chemical composition of the mage’s scent. To predators, the mage will smell like a stronger hunter and to prey the caster will smell non-threatening, like a member of its species.",
         "Practice": "Weaving",
@@ -1333,7 +1333,7 @@ const lifeThreeData = [
         "Book": "GoG 139"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1424,7 +1424,7 @@ const lifeThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Transfer Median Features",
+        "Name": "Transfer Median Features",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can give a median life form features from another median or base life form. A shark could be given crocodilian limbs and the ability to breathe air, for instance, or a spider monkey could be granted a scorpion’s stinger tail and the venom to go with it.",
         "Practice": "Weaving",
@@ -1445,7 +1445,7 @@ const lifeThreeData = [
         "Book": "M:tA 187"
     },
     {
-        "Titolo": "Transform Median Life",
+        "Name": "Transform Median Life",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can transform one form of median life (most mammals, fish, birds and reptiles) into another median or base life form.",
         "Practice": "Weaving",
@@ -1499,7 +1499,7 @@ const lifeThreeData = [
         "Book": "M:tA 187"
     },
     {
-        "Titolo": "Transform Self",
+        "Name": "Transform Self",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can give himself the features of a base or median life form. He may affect certain changes in his own body, such as developing fungal, plant, or animal features in order to thrive in a given environment or under a set of circumstances. He could, for example, supplement his intake of food in a harsh desert by granting himself the ability to absorb nutrients directly from the ground, or he could enhance his jaw strength to that of a hyena in order to crack bones and get at the marrow within.",
         "Practice": "Weaving",
@@ -1520,7 +1520,7 @@ const lifeThreeData = [
         "Book": "M:tA 187"
     },
     {
-        "Titolo": "Trigger Autonomic Function",
+        "Name": "Trigger Autonomic Function",
         "Arcana": "Life •••",
         "DescrizioneAlta": "Certain bodily functions occur in response to various stimuli in natural situations. With this spell, the normally autonomic functions are triggered regardless of stimuli, bringing about various physical states that may be incongruous with the outside situation.",
         "Practice": "Weaving",
@@ -1549,7 +1549,7 @@ const lifeThreeData = [
         "Book": "Myst 196"
     },
     {
-        "Titolo": "Two Faces",
+        "Name": "Two Faces",
         "Arcana": "Life •••",
         "DescrizioneAlta": "The mage can change his features.",
         "Practice": "Weaving",
@@ -1570,7 +1570,7 @@ const lifeThreeData = [
         "Book": "M:tA 188"
     },
     {
-        "Titolo": "Verminous Metamorphosis",
+        "Name": "Verminous Metamorphosis",
         "Arcana": "Matter ••• + Life •••",
         "DescrizioneAlta": "Much like the miracle that allowed for the transformation of Moses’ staff, this spell enables a mage to alter a piece (or pieces) of lifeless material into simple vermin, such as spiders, scorpions or biting flies. Some mages are known to fling a fistful of small change or pebbles, transforming the objects in mid-flight to harry (or even seriously harm) enemies.",
         "Practice": "Weaving",
@@ -1635,7 +1635,7 @@ const lifeThreeData = [
 
 const lifeFourData = [
     {
-        "Titolo": "Accelerate Healing",
+        "Name": "Accelerate Healing",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "Heroic legends are rife with tales of warriors who kept fighting long after sustaining injuries that should have killed any human being. Emulating these great figures of myth, some Arrows will themselves to mend in seconds injuries that might otherwise take months to heal.",
         "Practice": "Patterning",
@@ -1667,7 +1667,7 @@ const lifeFourData = [
         "Book": "AA 180"
     },
     {
-        "Titolo": "Animal Degradation",
+        "Name": "Animal Degradation",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can degrade more than one Physical Attribute of a base or median life form.",
         "Practice": "Unraveling",
@@ -1688,7 +1688,7 @@ const lifeFourData = [
         "Book": "M:tA 188"
     },
     {
-        "Titolo": "Animal Minion",
+        "Name": "Animal Minion",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage exerts gross bodily control over base or median life. Effectively, the mage uses the affected creature like a marionette. Other Life Arcanum magics can move a beast to act within the limits of its instincts and understanding, but this spell enables the mage to push it beyond the parameters of its ingrained behavior (though not, without other alterations, beyond the limits of its physical capabilities).",
         "Practice": "Patterning",
@@ -1709,7 +1709,7 @@ const lifeFourData = [
         "Book": "M:tA 188"
     },
     {
-        "Titolo": "Bind the Wayward Body",
+        "Name": "Bind the Wayward Body",
         "Arcana": "Life •••• + Space •",
         "DescrizioneAlta": "The mountains have harbored many a fugitive in its hollers and caves throughout the years. Some have never been brought to justice. Others have fallen prey to this powerful piece of hoodoo magic. This spell enables the mage to literally stop a fugitive in his tracks, rendering the person unable to move forward or backward for a period of time that is usually just long enough for his pursuers to catch him.",
         "Practice": "Unraveling",
@@ -1750,7 +1750,7 @@ const lifeFourData = [
         "Book": "MT 124"
     },
     {
-        "Titolo": "Contagion",
+        "Name": "Contagion",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can cause sickness or disease.",
         "Practice": "Unraveling",
@@ -1771,7 +1771,7 @@ const lifeFourData = [
         "Book": "M:tA 188"
     },
     {
-        "Titolo": "Control Reactions",
+        "Name": "Control Reactions",
         "Arcana": "Life •••• + Mind ••",
         "DescrizioneAlta": [
             {
@@ -1830,7 +1830,7 @@ const lifeFourData = [
         "Book": "GotV 189"
     },
     {
-        "Titolo": "Doppelganger",
+        "Name": "Doppelganger",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "Sometimes the right man for the job is someone else. A mage with this spell can be that someone else. “Doppelganger” enables a mage to alter her build and features to conform to those possessed by another human being of either gender and any age and size. Conservation of mass does not apply, so a five-foot-tall, 97-pound woman could become a man of 6’7” and 340 pounds. Despite the spell’s name, it need not always be used to mimic an actual person and can be employed to become an Everyman or to take on particular characteristics suited to a task (becoming a brawny linebacker sort when applying for a job as a bouncer). Without other Life Arcanum alterations, the mage’s physical capabilities (i.e., Attributes) remain as they are in her normal form.",
         "Practice": "Patterning",
@@ -1851,7 +1851,7 @@ const lifeFourData = [
         "Book": "M:tA 188"
     },
     {
-        "Titolo": "Enfeeblement",
+        "Name": "Enfeeblement",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can degrade one of another person’s Physical Attributes.",
         "Practice": "Unraveling",
@@ -1880,7 +1880,7 @@ const lifeFourData = [
         "Book": "M:tA 189"
     },
     {
-        "Titolo": "Hone Another's Form",
+        "Name": "Hone Another's Form",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can raise one of another human being’s Physical Attributes, as per the Life 3 “Honing the Form” spell, p. 186.",
         "Practice": "Perfecting",
@@ -1909,7 +1909,7 @@ const lifeFourData = [
         "Book": "M:tA 189"
     },
     {
-        "Titolo": "Life Force Assault",
+        "Name": "Life Force Assault",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage attacks a target’s life force, the mystical field generated by all living things.",
         "Practice": "Unraveling",
@@ -1930,7 +1930,7 @@ const lifeFourData = [
         "Book": "M:tA 190"
     },
     {
-        "Titolo": "Many Faces",
+        "Name": "Many Faces",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can change another human being’s features as per the Life 3 “Two Faces” spell, p. 188.",
         "Practice": "Weaving",
@@ -1955,7 +1955,7 @@ const lifeFourData = [
         "Book": "M:tA 190"
     },
     {
-        "Titolo": "Perfect Mask",
+        "Name": "Perfect Mask",
         "Arcana": "Life •••• + Mind •••",
         "DescrizioneAlta": "In her duties, a Guardian must sometimes not only appear to be someone else, she must know how to act like the person she’s imitating. This spell allows her to draw from the memories of the person she mimics.",
         "Practice": "Patterning",
@@ -1983,7 +1983,7 @@ const lifeFourData = [
         "Book": "GotV 190"
     },
     {
-        "Titolo": "Shapechanging",
+        "Name": "Shapechanging",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage takes on the physical characteristics, including Attributes and Size, of an average member of the biological type into which he changes. The mage learns how to alter his shape into that of any other form of natural biological life more advanced than a single-celled organism. He can become anything from an elephant or blue whale, to an earthworm or a black ant, to a fern or a wood mushroom. If he is not careful, however, he can lose himself in the mindset (such as it is in some cases) of whatever organism into which he transforms, his intellect overwhelmed by either instinctual responses and brain chemistry, or in the case of plants neurology completely unsuited to voluntary thought.",
         "Practice": "Patterning",
@@ -2045,7 +2045,7 @@ const lifeFourData = [
         "Book": "M:tA 190"
     },
     {
-        "Titolo": "Skilled Triumph",
+        "Name": "Skilled Triumph",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "All mages know of the Collective Human Unconscious, the collection of human knowledge regarded as one of the many layers of the Astral Plane. Some of the Awakened, however, discuss a similar realm that is to the nuances of the human body what the Collective Unconscious is to the mind. A mage who uses this spell can tap into that place, where the body memory of all the greatest physical feats of humanity is kept, allowing even the most strenuous of physical feats to become simple.",
         "Practice": "Patterning",
@@ -2073,7 +2073,7 @@ const lifeFourData = [
         "Book": "Myst 197"
     },
     {
-        "Titolo": "Supreme Honing",
+        "Name": "Supreme Honing",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can raise more than one of his Physical Attributes or those of a base or median life form.",
         "Practice": "Perfecting",
@@ -2094,7 +2094,7 @@ const lifeFourData = [
         "Book": "M:tA 190"
     },
     {
-        "Titolo": "Sustain Body",
+        "Name": "Sustain Body",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "One cannot stay too long in Astral Space. The body withers while the mind is at play. This spell nourishes and refreshes a mage’s body from within the astral, lengthening the period an astral traveler may go without returning.",
         "Practice": "Patterning",
@@ -2115,7 +2115,7 @@ const lifeFourData = [
         "Book": "AR 22"
     },
     {
-        "Titolo": "Transform Other",
+        "Name": "Transform Other",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can give another human being features from a base or median life form, as per the Life 3 “Transform Self” spell, p. 187.",
         "Practice": "Weaving",
@@ -2136,7 +2136,7 @@ const lifeFourData = [
         "Book": "M:tA 191"
     },
     {
-        "Titolo": "Trigger the Lizard Brain",
+        "Name": "Trigger the Lizard Brain",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can control the instinctual reactions of human beings as he does with lower life forms using the “Control Median Life” spell, p. 185.",
         "Practice": "Weaving",
@@ -2151,7 +2151,7 @@ const lifeFourData = [
         "Book": "M:tA 191"
     },
     {
-        "Titolo": "Uplift the Species",
+        "Name": "Uplift the Species",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can change a form of base life into a form of median life.",
         "Practice": "Patterning",
@@ -2176,7 +2176,7 @@ const lifeFourData = [
         "Book": "M:tA 191"
     },
     {
-        "Titolo": "Venom",
+        "Name": "Venom",
         "Arcana": "Life ••••",
         "DescrizioneAlta": "The mage can create deadly toxins.",
         "Practice": "Unraveling",
@@ -2200,7 +2200,7 @@ const lifeFourData = [
 
 const lifeFiveData = [
     {
-        "Titolo": "Animate Humunculus",
+        "Name": "Animate Humunculus",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The alchemist imbues a proto-homunculus, already gifted with form and a latent personality, with the final spark necessary to bring it to artificial life. To do so, the mage must permanently sacrifice a dot of Willpower.",
         "Practice": "Making",
@@ -2258,7 +2258,7 @@ const lifeFiveData = [
         "Book": "TotM 151"
     },
     {
-        "Titolo": "Create Life",
+        "Name": "Create Life",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can create a living biological creature up to the most complex of natural organisms. Granted, without the uses of other Arcana like Mind, this construct is mindless, motivated only by instinct, but few can argue with the sheer, godlike authority possessed by one who is able to conjure up life at will.",
         "Practice": "Making",
@@ -2279,7 +2279,7 @@ const lifeFiveData = [
         "Book": "M:tA 191"
     },
     {
-        "Titolo": "Evolutionary Shift",
+        "Name": "Evolutionary Shift",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can transform a base or median life form into a human being.",
         "Practice": "Patterning",
@@ -2300,7 +2300,7 @@ const lifeFiveData = [
         "Book": "M:tA 191"
     },
     {
-        "Titolo": "Fantasia",
+        "Name": "Fantasia",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can perform the most fantastic of alterations to extant life, creating beasts directly out of myth and legend, or if she is inclined, mind-shattering horrors dredged out of the depths of the most fevered of imaginations. Any ability that can conceivably be possessed by a normal living creature (whether or not such is a characteristic that is or has ever been intrinsic to a specimen of earthly flora or fauna) can be imparted, such as the ability to mix certain enzymes to produce flame, or sacs of biochemical gas that can be used to float on water or even in air. More mundane qualities, such as a fly’s ability to vomit digestive fluids, a cat’s enhanced night vision, or a moose’s incredible sense of smell can all be given.",
         "Practice": "Making",
@@ -2325,7 +2325,7 @@ const lifeFiveData = [
         "Book": "M:tA 192"
     },
     {
-        "Titolo": "Ghastly Metamorphosis",
+        "Name": "Ghastly Metamorphosis",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "Armed with this gruesome spell, a willworker can inflict a hideous transformation upon another human being (Awakened or otherwise), causing her new form to shred its way out of her current body in an agonizing shower of gore.",
         "Practice": "Unraveling",
@@ -2361,7 +2361,7 @@ const lifeFiveData = [
         "Book": "TotM 30"
     },
     {
-        "Titolo": "Greater Shapechanging",
+        "Name": "Greater Shapechanging",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can change shape without the possibility of becoming “lost” in her new form, and can change others with the same facility with which she transforms herself. The mage retains full control of her reason in this form, as do any she chooses to change (unless she would rather have another be forced to fight for control of his faculties, as per lesser “Shapechanging” at Life 4).",
         "Practice": "Making",
@@ -2382,7 +2382,7 @@ const lifeFiveData = [
         "Book": "M:tA 192"
     },
     {
-        "Titolo": "Hereditary Change",
+        "Name": "Hereditary Change",
         "Arcana": "Life •••••",
         "DescrizioneAlta": [
             {
@@ -2420,7 +2420,7 @@ const lifeFiveData = [
         "Book": "M:tA 192"
     },
     {
-        "Titolo": "Human Minion",
+        "Name": "Human Minion",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage exerts gross bodily control over human beings. As per the Life 4 “Animal Minion” spell, p. 188. The mage controls the affected creature like a marionette.",
         "Practice": "Patterning",
@@ -2441,7 +2441,7 @@ const lifeFiveData = [
         "Book": "M:tA 192"
     },
     {
-        "Titolo": "Multitudinous Form",
+        "Name": "Multitudinous Form",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "This spell transforms the body of the mage into a swarm of insects, all driven by the mind of the caster.",
         "Practice": "Making",
@@ -2476,7 +2476,7 @@ const lifeFiveData = [
         "Book": "GoG 140"
     },
     {
-        "Titolo": "Regeneration",
+        "Name": "Regeneration",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can temporarily regenerate his own or another person’s lost limb or organ.",
         "Practice": "Making",
@@ -2550,7 +2550,7 @@ const lifeFiveData = [
         "Book": "M:tA 193"
     },
     {
-        "Titolo": "Ultimate Degradation",
+        "Name": "Ultimate Degradation",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can lower more than one of a person’s Physical Attributes.",
         "Practice": "Unmaking",
@@ -2571,7 +2571,7 @@ const lifeFiveData = [
         "Book": "M:tA 193"
     },
     {
-        "Titolo": "Ultimate Honing",
+        "Name": "Ultimate Honing",
         "Arcana": "Life •••••",
         "DescrizioneAlta": "The mage can raise more than one of another human being’s Physical Attributes, as per the Life 4 “Hone Another’s Form” spell, p. 189.",
         "Practice": "Perfecting",
@@ -2592,7 +2592,7 @@ const lifeFiveData = [
         "Book": "M:tA 193"
     },
     {
-        "Titolo": "Vital Balance",
+        "Name": "Vital Balance",
         "Arcana": "Life ••••• + Death ••••",
         "DescrizioneAlta": "This spell slows down aging. The mage ages far more slowly and thus can live much longer than normal.",
         "Practice": "Ruling",

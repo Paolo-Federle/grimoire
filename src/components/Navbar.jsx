@@ -1,39 +1,77 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import SearchIcon from "@mui/icons-material/Search";
 import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 import { PATHS } from "../pages/path";
-import { getFavoritesCount } from "../utils"; // ADATTA PATH SE DIVERSO
+import { useFavoritesCount } from "../favoritesStore";
+import WikiSearch from "./WikiSearch";
+
+function CollapsibleNavbarSearch({ expandedWidthClass = "w-60", onNavigate }) {
+  const wrapperRef = useRef(null);
+  const [expanded, setExpanded] = useState(false);
+
+  useEffect(() => {
+    if (!expanded) return undefined;
+
+    const handlePointerDown = (event) => {
+      if (!wrapperRef.current?.contains(event.target)) setExpanded(false);
+    };
+
+    document.addEventListener("mousedown", handlePointerDown);
+    return () => document.removeEventListener("mousedown", handlePointerDown);
+  }, [expanded]);
+
+  const handleNavigate = () => {
+    setExpanded(false);
+    onNavigate?.();
+  };
+
+  return (
+    <div
+      ref={wrapperRef}
+      className={`relative flex h-10 items-center transition-[width] duration-200 ${
+        expanded ? expandedWidthClass : "w-10"
+      }`}
+    >
+      {expanded ? (
+        <WikiSearch
+          variant="navbar"
+          placeholder="Search the wiki..."
+          maxResults={8}
+          autoFocus
+          onDismiss={() => setExpanded(false)}
+          onNavigate={handleNavigate}
+        />
+      ) : (
+        <IconButton
+          onClick={() => setExpanded(true)}
+          aria-label="Search the wiki"
+          sx={{ color: "white" }}
+        >
+          <SearchIcon />
+        </IconButton>
+      )}
+    </div>
+  );
+}
 
 export default function Navbar() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 770);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1180);
   const [open, setOpen] = useState(false);
 
-  const [hasFavs, setHasFavs] = useState(() => getFavoritesCount() > 0);
+  const hasFavs = useFavoritesCount() > 0;
 
   const toggle = () => setOpen((v) => !v);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 770);
+    const handleResize = () => setIsMobile(window.innerWidth <= 1180);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  // Aggiorna la stellina quando cambiano i preferiti (e anche tra tab diverse)
-  useEffect(() => {
-    const refreshFavs = () => setHasFavs(getFavoritesCount() > 0);
-
-    window.addEventListener("favorites:changed", refreshFavs);
-    window.addEventListener("storage", refreshFavs);
-
-    return () => {
-      window.removeEventListener("favorites:changed", refreshFavs);
-      window.removeEventListener("storage", refreshFavs);
-    };
   }, []);
 
   const navItems = [
@@ -95,6 +133,13 @@ export default function Navbar() {
           onClick={toggle}
         >
           <div className="mt-16 flex flex-col px-6 space-y-3">
+            <div className="pb-2" onClick={(event) => event.stopPropagation()}>
+              <CollapsibleNavbarSearch
+                expandedWidthClass="w-full"
+                onNavigate={() => setOpen(false)}
+              />
+            </div>
+
             {/* ⭐ Favorites before Home */}
             <NavLink
               key={favoritesItem.to}
@@ -130,10 +175,12 @@ export default function Navbar() {
         <nav
           className="
             w-full bg-neutral-900 text-white
-            flex justify-center items-center gap-6 py-3
+            flex justify-center items-center gap-2 py-3 px-3
             sticky top-0 z-[1000]
           "
         >
+          <CollapsibleNavbarSearch />
+
           {/* ⭐ Favorites icon before Home */}
           <NavLink
             key={favoritesItem.to}

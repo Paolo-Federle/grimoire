@@ -1,55 +1,51 @@
-import { Vices } from "../../Data/Mortal/VirtueViceData"
-import { Virtues } from "../../Data/Mortal/VirtueViceData"
-import { characterDetailOptions } from "./raceOptions"
-
 export const sheetData = {
     "character": {
         "name": "",
         "age": 0,
         "concept": "",
-        "virtue": { "selected": "", "choices": Virtues },
-        "vice": { "selected": "", "choices": Vices },
-        "race": { "selected": "", "choices": ["mortal", "mage", "vampire", "changeling", "werewolf", "hunter", "geist", "mummy", "promethean"] },
+        "virtue": { "selected": "" },
+        "vice": { "selected": "" },
+        "race": { "selected": "" },
         "background": "",
         "details": {
             "mage": {
-                "path": { "selected": "", "choices": characterDetailOptions.mage.path },
-                "order": { "selected": "", "choices": characterDetailOptions.mage.order },
-                "legacy": { "selected": "", "choices": characterDetailOptions.mage.legacy }
+                "path": { "selected": "" },
+                "order": { "selected": "" },
+                "legacy": { "selected": "" }
             },
             "vampire": {
-                "clan": { "selected": "", "choices": characterDetailOptions.vampire.clan },
-                "covenant": { "selected": "", "choices": characterDetailOptions.vampire.covenant },
-                "bloodline": { "selected": "", "choices": characterDetailOptions.vampire.bloodline },
+                "clan": { "selected": "" },
+                "covenant": { "selected": "" },
+                "bloodline": { "selected": "" },
             },
             "changeling": {
-                "seeming": { "selected": "", "choices": characterDetailOptions.changeling.seeming },
-                "court": { "selected": "", "choices": characterDetailOptions.changeling.court },
-                "kith": { "selected": "", "choices": characterDetailOptions.changeling.kith }
+                "seeming": { "selected": "" },
+                "court": { "selected": "" },
+                "kith": { "selected": "" }
             },
             "werewolf": {
-                "auspice": { "selected": "", "choices": characterDetailOptions.werewolf.auspice },
-                "tribe": { "selected": "", "choices": characterDetailOptions.werewolf.tribe },
-                "lodge": { "selected": "", "choices": characterDetailOptions.werewolf.lodge }
+                "auspice": { "selected": "" },
+                "tribe": { "selected": "" },
+                "lodge": { "selected": "" }
             },
             "hunter": {
-                "profession": { "selected": "", "choices": characterDetailOptions.hunter.profession },
-                "compact": { "selected": "", "choices": characterDetailOptions.hunter.compact },
-                "conspiracy": { "selected": "", "choices": characterDetailOptions.hunter.conspiracy }
+                "profession": { "selected": "" },
+                "compact": { "selected": "" },
+                "conspiracy": { "selected": "" }
             },
             "geist": {
-                "archetype": { "selected": "", "choices": characterDetailOptions.geist.archetype },
-                "threshold": { "selected": "", "choices": characterDetailOptions.geist.threshold },
+                "archetype": { "selected": "" },
+                "threshold": { "selected": "" },
                 "krewe": ""
             },
             "mummy": {
-                "decree": { "selected": "", "choices": characterDetailOptions.mummy.decree },
-                "guild": { "selected": "", "choices": characterDetailOptions.mummy.guild },
-                "judge": { "selected": "", "choices": characterDetailOptions.mummy.judge }
+                "decree": { "selected": "" },
+                "guild": { "selected": "" },
+                "judge": { "selected": "" }
             },
             "promethean": {
-                "lineage": { "selected": "", "choices": characterDetailOptions.promethean.lineage },
-                "refinement": { "selected": "", "choices": characterDetailOptions.promethean.refinement },
+                "lineage": { "selected": "" },
+                "refinement": { "selected": "" },
                 "athanor": ""
             }
         }

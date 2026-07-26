@@ -7,7 +7,7 @@ export default function MageMerits() {
     const config = {
         fieldsToRemove: ['LongDescription'],
         urlPrefix: '/mage/merits/',
-        keyToUseForLinks: 'Title'
+        keyToUseForLinks: 'Name'
     };
 
     const reducedMageMeritsData = removeFieldsAndAddLink({

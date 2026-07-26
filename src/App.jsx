@@ -3,7 +3,10 @@ import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import Navbar from "./components/Navbar";
 import Breadcrumbs from "./components/Breadcrumbs";
+import RaceSearchBanner from "./components/RaceSearchBanner";
 import LazyDetailRoute from "./components/LazyDetailRoute";
+import AppErrorBoundary from "./components/AppErrorBoundary";
+import { RouteNotFound } from "./components/RouteFeedback";
 import "./css/App.css";
 import "./css/Races-Style.css";
 import theme from "./css/muiTheme";
@@ -11,10 +14,12 @@ import { getSheetPath, PATHS } from "./pages/path";
 import { slugify } from "./utils";
 
 const HomePage = lazy(() => import("./pages/home"));
+const SearchPage = lazy(() => import("./pages/Generale/Search"));
 const FavoritesPage = lazy(() => import("./pages/favorites"));
 const SheetLibraryPage = lazy(() => import("./pages/Generale/SheetLibrary"));
 const SheetEditorPage = lazy(() => import("./pages/Generale/SheetEditor"));
 const BooksPage = lazy(() => import("./pages/Generale/Books"));
+const BookDetailPage = lazy(() => import("./pages/Generale/BookDetail"));
 const SizePage = lazy(() => import("./pages/Generale/Size"));
 const ItemsPage = lazy(() => import("./pages/Generale/Items"));
 const SkillsPage = lazy(() => import("./pages/Generale/Skills"));
@@ -157,9 +162,11 @@ const ROUTE_FALLBACK = (
 
 const GENERAL_ROUTES = [
   { path: PATHS.HOME, Page: HomePage },
+  { path: PATHS.SEARCH, Page: SearchPage },
   { path: PATHS.FAVORITES, Page: FavoritesPage },
   { path: PATHS.SHEET, Page: SheetLibraryPage },
   { path: PATHS.BOOKS, Page: BooksPage },
+  { path: PATHS.BOOK_DETAIL, Page: BookDetailPage },
   { path: PATHS.SIZE, Page: SizePage },
   { path: PATHS.ITEMS, Page: ItemsPage },
   { path: PATHS.SKILLS, Page: SkillsPage },
@@ -321,7 +328,7 @@ const OTHER_ROUTES = [
 ];
 
 function getItemRouteSlug(item) {
-  return item?.Name || item?.Title || item?.Nome || item?.Titolo || item?.slug || "unknown";
+  return item?.Name || item?.slug || "unknown";
 }
 
 function findItemBySlug(items, slug) {
@@ -823,6 +830,13 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.PsychicMeritsData, slug),
   },
   {
+    path: `${PATHS.MORTAL.THAUMATURGY}/:slug`,
+    propKey: "thaumaturgyMerit",
+    loadPage: () => import("./pages/MortalsAndTemplates/Lesser templates/ThaumaturgyDetail"),
+    loadData: () => import("./Data/Mortal/Lesser templates/ThaumaturgyData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.ThaumaturgyMeritsData, slug),
+  },
+  {
     path: `${PATHS.MORTAL.RELIQUARY}/:slug`,
     propKey: "reliquary",
     loadPage: () => import("./pages/MortalsAndTemplates/ReliquaryDetail"),
@@ -869,37 +883,41 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Navbar />
-      <Breadcrumbs />
-      <div className="page-container">
-        <Routes>
-          {routeGroups.flat().map(({ path, Page }) => (
-            <Route key={path} path={path} element={renderLazyPage(Page)} />
-          ))}
-          <Route
-            path={getSheetPath()}
-            element={renderLazyPage(SheetEditorPage)}
-          />
-          <Route
-            path={`${PATHS.SHEET_LEGACY_EDITOR}/:sheetId`}
-            element={<LegacySheetEditorRedirect />}
-          />
-          {ARCANA_ROUTE_CONFIGS.map(({ path, arcana }) => (
+      <AppErrorBoundary>
+        <Navbar />
+        <Breadcrumbs />
+        <RaceSearchBanner />
+        <div className="page-container">
+          <Routes>
+            {routeGroups.flat().map(({ path, Page }) => (
+              <Route key={path} path={path} element={renderLazyPage(Page)} />
+            ))}
             <Route
-              key={path}
-              path={path}
-              element={renderLazyPage(ArcanaPage, { arcana })}
+              path={getSheetPath()}
+              element={renderLazyPage(SheetEditorPage)}
             />
-          ))}
-          {DETAIL_ROUTE_CONFIGS.map(({ path, ...routeConfig }) => (
             <Route
-              key={path}
-              path={path}
-              element={<LazyDetailRoute {...routeConfig} />}
+              path={`${PATHS.SHEET_LEGACY_EDITOR}/:sheetId`}
+              element={<LegacySheetEditorRedirect />}
             />
-          ))}
-        </Routes>
-      </div>
+            {ARCANA_ROUTE_CONFIGS.map(({ path, arcana }) => (
+              <Route
+                key={path}
+                path={path}
+                element={renderLazyPage(ArcanaPage, { arcana })}
+              />
+            ))}
+            {DETAIL_ROUTE_CONFIGS.map(({ path, ...routeConfig }) => (
+              <Route
+                key={path}
+                path={path}
+                element={<LazyDetailRoute {...routeConfig} />}
+              />
+            ))}
+            <Route path="*" element={<RouteNotFound />} />
+          </Routes>
+        </div>
+      </AppErrorBoundary>
     </ThemeProvider>
   );
 }

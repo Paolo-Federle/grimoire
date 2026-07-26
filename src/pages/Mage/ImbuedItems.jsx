@@ -8,7 +8,7 @@ export default function ImbuedItems() {
         data: imbuedItemsData,
         fieldsToRemove: ['Descrizione'],
         urlPrefix: '/mage/imbued_items/',
-        keyToUseForLinks: 'Nome'
+        keyToUseForLinks: 'Name'
     });
 
     return (

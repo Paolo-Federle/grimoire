@@ -1,7 +1,7 @@
 export const LegacyData = [
 
     {
-        "Nome": "Walkers in Mists",
+        "Name": "Walkers in Mists",
         "Cammino": ["Acanthus"],
         "Ordine": ["Mysterium", "Seers of the Throne"],
         "Nickname": "druidic travelers",
@@ -97,7 +97,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the mage also has Time 4, he can read prophecies from within his Mist Haven (above), similar to the “Prophecy” spell (p. 264). He performs an instant action and can ask one question about a subject’s possible future (what might happen rather than what will happen) per Time dot. This power can be used concerning the same target only once every 24 hours."
     },
     {
-        "Nome": "Subtle Ones",
+        "Name": "Subtle Ones",
         "Cammino": ["Mastigos"],
         "Ordine": ["Guardians of the Veil", "Seers of the Throne"],
         "Nickname": "spies unseen",
@@ -190,7 +190,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If she also knows Space 4, the mage can co-locate a number of False Presences in different places at the same time (similar to the Space 4 “Co-Location” spell, p. 239). She performs an instant action (no roll required) and can create one persona per dot of Mind that she has. She can multitask (as per the Mind 3 “Multi-Tasking” spell, p. 211) up to a total of two mental and/ or social instant actions or three mental and/or social extended actions between herself and her false personas."
     },
     {
-        "Nome": "Uncrowned Kings",
+        "Name": "Uncrowned Kings",
         "Cammino": ["Moros"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "mentalist craftsmen",
@@ -269,7 +269,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If he also knows Prime 4, he can siphon Mana from objects he has worked his Matter magic upon, similar to the “Siphon Integrity” spell (p. 229). The object must have been created or modified by the mage himself using the Matter Arcanum, and only one such object can be siphoned per day. An instant action is performed and Resolve + Occult + Prime is rolled. Each success siphons one Mana, but inflicts two points of Structure damage to the item (bypassing Durability)."
     },
     {
-        "Nome": "Perfected Adept",
+        "Name": "Perfected Adept",
         "Cammino": ["Obrimos"],
         "Ordine": ["Adamantine Arrow"],
         "Nickname": "living weapons",
@@ -349,7 +349,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If he also has Forces 4, his Telekinetic Strike now delivers lethal damage. In addition, he can use his chi to turn aside bullets and other projectiles, similar to the Forces 4 “Control Velocity” spell (p. 172). An instant action is performed and a Dexterity + Brawl + Forces roll is made. The number of successes determines the degree to which he can turn the projectile (as per the spell description). He can take this action at any point in the initiative roster, even before he is normally allowed to act, as long as he has not yet acted the turn."
     },
     {
-        "Nome": "Orphans of Proteus",
+        "Name": "Orphans of Proteus",
         "Cammino": ["Thyrsus"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "shapeshifters",
@@ -423,7 +423,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the mage also knows Matter 4, she could choose stone as her shapeshifting form, changing herself into a rock. She cannot move, although she can perceive her surroundings. The obvious use for this version of the attainment is camouflage, but it provides another unique benefit. The mage can communicate with any nearby mineral-based spirits without needing the Spirit Arcanum, or if she journeys through Astral Space while her body is in rock form, she can interact with the ancient mineral spirits of the Dreamtime."
     },
     {
-        "Nome": "Tremere Lich",
+        "Name": "Tremere Lich",
         "Cammino": ["Moros"],
         "Ordine": [""],
         "Nickname": "immortal soulsuckers",
@@ -535,7 +535,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Scelesti",
+        "Name": "Scelesti",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "worshipers of the Abyss (Attainments vary)",
@@ -664,7 +664,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the mage also has Time 4, he can use a spirit as the mouthpiece of a greater prophecy, similar to the Time 4 “Prophecy” spell (p. 264). He performs an instant action and can ask one question about a specified target’s possible future (what might happen rather than what will happen) per Time dot. This power can be used concerning the same target only once every 24 hours."
     },
     {
-        "Nome": "Storm Keepers",
+        "Name": "Storm Keepers",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "weathermen",
@@ -790,7 +790,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "A mage with Time 4 can effect a delay to weather by a number of hours equal to the number of successes on an instant Wits + Science + Time roll. He can also gain advice (similar to the Time 4 “Prophecy” spell) on how severe alterations will affect the future. Thus he can tell if creating an artificial rainy season to end a drought will result in a catastrophic erosion of valuable topsoil in another area in the near future due to a lack of rain."
     },
     {
-        "Nome": "Liberatores",
+        "Name": "Liberatores",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "empowerers of the masses",
@@ -899,7 +899,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The Liberatore gains the effects of the Spirit 3 “Numinous Shield” spell, its protection equal to his Spirit dots. This Attainment of indefinite Duration and cannot be dispelled. He can also grant similar protection to others with an instant Composure + Persuasion + Spirit roll. This affects a single target (unless he accepts dice penalties to increase the Target factors) and lasts for one scene."
     },
     {
-        "Nome": "Bokor",
+        "Name": "Bokor",
         "Cammino": ["Moros"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "voodoun necromancers",
@@ -1037,7 +1037,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the mage also knows Mind 4, his Psychic Assault now delivers lethal damage (though the notes on range and sympathetic connection still apply). In addition, the mage learns to control the living as well as the dead, up to a point. This effect is similar to the Mind 4 spell “Telepathic Control” (see p. 216 of Mage: The Awakening). This Attainment can only be used on targets within sensory range, and cannot be used to force targets into tasks inimical to their nature. The Attainment requires an instant and contested action. The player rolls Presence + Occult + Mind, while the target resists with a reflexive Resolve + Gnosis roll. If the Bokor wins, the target is compelled to follow the Bokor’s mental commands for the remainder of the scene (for Sleepers; mages are only subject to a single turn of domination). While the mage cannot force targets to commit suicide, he can force them into dangerous situations by giving them commands that aren’t immediately harmful. “Walk across the street” isn’t dangerous in itself, but if the street is a busy highway, then the command is much more sinister."
     },
     {
-        "Nome": "Ascended Adept",
+        "Name": "Ascended Adept",
         "Cammino": ["Obrimos"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "gnostic mindwalkers",
@@ -1148,7 +1148,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Ascended Adepts with the Dream Merit at 5 dots and this level of Attainment can also enter the dreams of others, similar to the Mind 4 “Dream Traveler” spell. Unlike that spell, this aspect of the Attainment also allows the mage to enter a target’s Oneiros, his personal astral dream realm, as if he were entering his own."
     },
     {
-        "Nome": "Neocologists",
+        "Name": "Neocologists",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "urban reclaimers",
@@ -1279,7 +1279,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Clavicularius",
+        "Name": "Clavicularius",
         "Cammino": ["Mastigos"],
         "Ordine": ["Silver Ladder", "Seers of the Throne"],
         "Nickname": "goetic masters",
@@ -1812,7 +1812,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Daksha",
+        "Name": "Daksha",
         "Cammino": ["Obrimos"],
         "Ordine": ["Mysterium", "Seers of the Throne"],
         "Nickname": "hermaphroditic ascendants",
@@ -2398,7 +2398,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If a Daksha at the third level of initiation has Time 3, he/she can also use his/her third eye to read the future in the Akashic Record, an effect identical to the Time 3 spell “Divination.” Again, the Daksha’s information appears to the character as if written in the air in High Speech, waiting for the Daksha to read it."
     },
     {
-        "Nome": "Daoine",
+        "Name": "Daoine",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "fate's scale balancers",
@@ -2710,7 +2710,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the Daoine also has Mind 4, she can additionally place a mental compulsion on the target of this attainment that makes the target believe that following the terms of his oath is not only his own idea (rather than a supernaturallyenforced vow), but a perfectlynatural and logical thing to do. This functions like the Mind 4 “Telepathic Control” spell(see Mage: The Awakening, p. 216), but can only compel the target to believe that obeying his oath is what he wants to do. This effect lasts as long as the base effect of the attainment."
     },
     {
-        "Nome": "Fallen Pillar",
+        "Name": "Fallen Pillar",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "ascetic wanderers",
@@ -3298,7 +3298,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "House of Ariadne",
+        "Name": "House of Ariadne",
         "Cammino": ["Acanthus"],
         "Ordine": [ "Seers of the Throne"],
         "Nickname": "urban geomancers",
@@ -3783,7 +3783,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the Metropolitan also has Space 4, her meditative walk can lead her to the place best suited for her purpose.She can seek places with particular resonances, defensible locations for sanctums or sealed-off tunnels unknown to any other mage."
     },
     {
-        "Nome": "Pygmalian Society",
+        "Name": "Pygmalian Society",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "artistic emotive manipulators",
@@ -4270,7 +4270,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Scions of God",
+        "Name": "Scions of God",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": ["Silver Ladder", "Seers of the Throne"],
         "Nickname": "guardian angels",
@@ -4659,7 +4659,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Sodality of the Tor",
+        "Name": "Sodality of the Tor",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "pagan spiralwalkers",
@@ -5206,7 +5206,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the Sodality witch also possesses Time 4, she may gaze into the immediate future, understanding the flows of the world around her before they are made manifest. This functions like the Time 4 spell “Present as Past” (see Mage: The Awakening, p. 264), save that the base duration is prolonged, rather than transitory. She must allocate successes from the above roll towards this effect."
     },
     {
-        "Nome": "Stone Scribes",
+        "Name": "Stone Scribes",
         "Cammino": ["Moros"],
         "Ordine": ["Mysterium", "Seers of the Throne"],
         "Nickname": "recorders of history",
@@ -5531,7 +5531,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Threnodists",
+        "Name": "Threnodists",
         "Cammino": ["Mastigos"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "quantum physicists",
@@ -5878,7 +5878,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The wave-particle duality at the core of any discussion of quantum mechanics mirrors a long-standing conundrum plaguing the history of scientific thought, the mind-body problem. At this level of attainment, the Threnodist may take full advantage of both the non-local properties of his own waveform and the highly localized particular nature of his body, leaving the latter behind while extending the former. His consciousness (his “pilot wave”) may then move freely and interact with the low-amplitude waveform of the earth — what other mages call Twilight — as delineated in the Mind 4 spell “Psychic Projection.”"
     },
     {
-        "Nome": "Transhuman Engineers",
+        "Name": "Transhuman Engineers",
         "Cammino": ["Obrimos"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "technological advocates",
@@ -6399,7 +6399,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Fangs of Mara",
+        "Name": "Fangs of Mara",
         "Cammino": ["Mastigos"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "psychopathic fearmongers",
@@ -6700,7 +6700,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Cult of the Doomsday Clock",
+        "Name": "Cult of the Doomsday Clock",
         "Cammino": ["Moros"],
         "Ordine": [""],
         "Nickname": "abyssal timebreakers",
@@ -7276,7 +7276,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Dreamspeakers",
+        "Name": "Dreamspeakers",
         "Cammino": ["Thyrsus"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "astral shamans",
@@ -7829,7 +7829,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Tamers of the Cave",
+        "Name": "Tamers of the Cave",
         "Cammino": ["Mastigos"],
         "Ordine": [""],
         "Nickname": "martyrs in training",
@@ -8340,7 +8340,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Tamers of Fire",
+        "Name": "Tamers of Fire",
         "Cammino": ["Obrimos"],
         "Ordine": [""],
         "Nickname": "inspirationalists",
@@ -8643,7 +8643,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The mage can now use the fire in his heart to refine and burn away the imperfections in the hearts of the people who follow him. A word of criticism here, an encouragement there, a revelatory phrase, and the hearts of the mage’s friend burn within them. Their eyes see more clearly, their minds think faster, their own tongues speak more powerfully. This Attainment is similar to the effect of the Mind 4 spell “Augment Other Minds” (see  Mage: The Awakening, p. 213), except that the mage rolls Presence + Expression + Mind. The mage can augment one of the subject’s Mental or Social Attributes by one dot for each success he gains."
     },
     {
-        "Nome": "Tamers of Rivers",
+        "Name": "Tamers of Rivers",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "agents of change",
@@ -9086,7 +9086,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "An Adept of Life can extend this Attainment into the human body. A simple movement of liquids, the thickening or thinning of blood, can cause a person to lose all inhibitions, raging like a wounded dog, freezing in terror like a frightened rabbit, defending territory like a guard dog or rutting like a cat in heat. Blood will out, and as blood rises and falls, primal emotions come into play. The effect works like the Life 4 “Trigger the Lizard Brain” spell (see  Mage: The Awakening, p. 191), except that the mage rolls Dexterity + Intimidation + Life, contested by the subject’s Resolve + Gnosis."
     },
     {
-        "Nome": "Tamers of Stone",
+        "Name": "Tamers of Stone",
         "Cammino": ["Moros"],
         "Ordine": [""],
         "Nickname": "builders of foundations",
@@ -9446,7 +9446,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": " With Matter 4, the Tamer of Stone can cause objects he works on to transcend the limitations of physical space, remaking them in any form he desires at frightening speed, duplicating the effect of the Matter 4 “Reconfigure Object” spell (see Mage: The Awakening , p. 201). The player rolls Dexterity + Crafts + Matter to create the effect."
     },
     {
-        "Nome": "Tamers of Winds",
+        "Name": "Tamers of Winds",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "truthspreaders",
@@ -9817,7 +9817,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The Tamer of Winds who is also an Adept of Mind can now extend his control of the air, and his control of truth into the minds of others, giving them a remarkable degree of clarity — or making them believe anything he tells them. His truth becomes their truth. The Aeolian just has to speak to his target for the power to take effect. Maybe he’s gently persuasive. Maybe he’s seductive. Maybe he comes up with an amazing piece of propaganda. The effect is similar to the Mind 4 “Breach the Vault of Memory” spell (see Mage: The Awakening,  p. 214). The player rolls Presence + Persuasion + Mind, and the target reflexively contests with Composure + Gnosis. If the mage is successful, the target’s memory changes subtly. The minute alteration of the subject’s experiences and the things the subject knows  about the world allow the mage to make the subject believe whatever he wants her to believe, if only for a short while."
     },
     {
-        "Nome": "Forge Masters",
+        "Name": "Forge Masters",
         "Cammino": ["Moros"],
         "Ordine": [ "Seers of the Throne"],
         "Nickname": "artificer metallurgists",
@@ -10353,7 +10353,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the Forge Master is also an Adept of Matter, anything conjured by the Primal Forge also gains additional Durability, as with the Matter-based advantage to Primal Tempering. The Attainment can also conjure items of siderite and other perfected metals. This makes conjured items easier to temporarily imbue with spells (thanks to the +1 equipment bonus to spellcasting). A conjured item of siderite does not gain still more Durability for its substance: the object is still, after all, just a very good illusion."
     },
     {
-        "Nome": "Skalds",
+        "Name": "Skalds",
         "Cammino": ["Acanthus"],
         "Ordine": ["Adamantine Arrow", "Council of Free Assemblies", "Guardians of the Veil", "Mysterium", "Silver Ladder", "Seers of the Throne"],
         "Nickname": "oral lorekeepers",
@@ -10596,7 +10596,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Sphinx",
+        "Name": "Sphinx",
         "Cammino": ["Moros"],
         "Ordine": ["Mysterium", "Seers of the Throne"],
         "Nickname": "seekers of mysteries",
@@ -10903,7 +10903,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Thread Cutters",
+        "Name": "Thread Cutters",
         "Cammino": ["Moros"],
         "Ordine": ["Guardians of the Veil"],
         "Nickname": "dharma's executioners",
@@ -11321,7 +11321,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Thrice-Great",
+        "Name": "Thrice-Great",
         "Cammino": ["Obrimos"],
         "Ordine": ["Silver Ladder", "Seers of the Throne"],
         "Nickname": "spirit hierarchs",
@@ -11938,7 +11938,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "On the other hand, a Dominus who is also an Adept of Prime can offer spirits a most tremendous boon. By casting the Orb of the Firmament into an active Hallow, a Stargazer transforms the Hallow into a locus of equal strength. Seen from the Shadow Realm, the Hallow’s power curls in on itself and then beams out, transformed, like a brilliant, circling searchlight. The Hallow continues to produce Essence for a scene, and then reverts to its former state."
     },
     {
-        "Nome": "Echo Walkers",
+        "Name": "Echo Walkers",
         "Cammino": ["Obrimos"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "seekers of the Ones Before",
@@ -12304,7 +12304,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Echo Walkers with the appropriate magical expertise can extend this Attainment’s “divine right” to magic. With a simple command, they can quash any active spells that offend them, in much the same way as the Prime 4 “Supernal Dispellation” spell (see p. 229 of Mage: The Awakening). This requires the Echo Walker’s player to roll Resolve + Occult + Prime as an instant action, and equal or exceed the Potency of the targeted spell. She does not need to know the Arcana involved in the spell; she must simply recognize that the spell exists."
     },
     {
-        "Nome": "Logophages",
+        "Name": "Logophages",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": ["Adamantine Arrow", "Council of Free Assemblies", "Guardians of the Veil", "Mysterium", "Silver Ladder", "Seers of the Throne"],
         "Nickname": "secret-eaters",
@@ -12757,7 +12757,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "With Fate 4, the Logophage manipulates the circumstances surrounding his attempt to steal away another’s memories. Events conspire to make the target uncertain, off balance and unprepared at the moment that the Secret Keeper abuses her mind. The Logophage gains the benefit of the Fate 4 “Probable Cause” spell when using Righteous Theft."
     },
     {
-        "Nome": "Bearers of the Eternal Voice",
+        "Name": "Bearers of the Eternal Voice",
         "Cammino": ["Mastigos"],
         "Ordine": ["Guardians of the Veil", "Seers of the Throne"],
         "Nickname": "master persuaders",
@@ -12856,7 +12856,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The power of her speech allows the mage to forge a lasting Intimate sympathetic connections with anyone on whom she has used her Spoken Reality Attainment. This use of the Attainment also alerts her any time the subject talks about events closely related to the memories the mage altered. If the mage wishes, she can listen in on both sides of any conversation the subject is having if she spends 1 Mana and succeeds at a Wits + Empathy roll, modified by the –2 dice penalty for an Intimate sympathetic connection. If this roll succeeds, the mage can listen in to the conversation for the next scene without needing to make another roll. If she fails, she cannot attempt to listen in again using this Attainment, although she can use other magics to do so."
     },
     {
-        "Nome": "Eleventh Question",
+        "Name": "Eleventh Question",
         "Cammino": [""],
         "Ordine": ["Guardians of the Veil"],
         "Nickname": "mystic sleuths",
@@ -12979,7 +12979,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The mage is not only able to connect the quarry to a particular place and time, but she understands why the quarry will be there. This can be used to great effect to understand a subject’s motives."
     },
     {
-        "Nome": "Votaries of the Ordained",
+        "Name": "Votaries of the Ordained",
         "Cammino": ["Moros"],
         "Ordine": ["Guardians of the Veil", "Seers of the Throne"],
         "Nickname": "safeguarders of Destiny",
@@ -13111,7 +13111,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The Votary may choose to summon his charge to him through use of the Space 2 “Apportation” spell. If the charge is a location or person, he may not use “Apportation” at all but may instead instantly take himself to his charge through the Space 3 “Portal” spell. Neither of these requires any roll."
     },
     {
-        "Nome": "Austere",
+        "Name": "Austere",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": ["Guardians of the Veil"],
         "Nickname": "mechanistic moral abstainists",
@@ -13371,7 +13371,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Blank Badges",
+        "Name": "Blank Badges",
         "Cammino": ["Acanthus"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "anarch infiltrators",
@@ -13502,7 +13502,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Cryptologos",
+        "Name": "Cryptologos",
         "Cammino": ["Mastigos"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "high speech decrypters",
@@ -13653,7 +13653,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Imagineers",
+        "Name": "Imagineers",
         "Cammino": ["Thyrsus"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "creationistic muses",
@@ -13835,7 +13835,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Eyes of Ain Soph",
+        "Name": "Eyes of Ain Soph",
         "Cammino": ["Obrimos"],
         "Ordine": ["Mysterium", "Seers of the Throne"],
         "Nickname": "countermagical seekers",
@@ -13941,7 +13941,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Mages who investigate the most profound and dangerous mysteries can always use potent guardians. This Attainment allows the mage to call upon such guardians as those summoned by the “Spirit Guardian” spell (see Mage: The Awakening, p. 253). Most mages who bind spirits in this fashion also agree to make an offering of Essence, services or some other recompense in return for the spirit acting as a guardian, and many mages seek out spirits who are filled with curiosity and agree to share their knowledge with the spirit in return for its services."
     },
     {
-        "Nome": "Singers in Silence",
+        "Name": "Singers in Silence",
         "Cammino": ["Acanthus"],
         "Ordine": ["Mysterium"],
         "Nickname": "deathkeeners",
@@ -14084,7 +14084,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the mage also has Fate 4, she may sing in the polyphonic chorus of every dead and doomed soul she has ever heard. Nothing can prepare a listener for the agony and horror of this cacophony. Each instant action spent crying out in this terrible voice inflicts one point of bashing damage to all Sleepers within earshot unless they have more Composure dots than the mage’s Fate dots. Because this music damages the soul rather than the body, injuries inflicted by the Attainment leave no physical marks. As a purely cosmetic side effect, the music also causes everyone who hears it to think of his greatest personal regret, which occasionally prompts wayward souls to reform their behavior if they survive the experience."
     },
     {
-        "Nome": "Reality Stalker",
+        "Name": "Reality Stalker",
         "Cammino": ["Mastigos"],
         "Ordine": ["Mysterium", "Seers of the Throne"],
         "Nickname": "translocation specialists",
@@ -14146,7 +14146,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Expanding on his ability to cloud the minds of others, the mage can now render one or more targets unable to perceive himself or any object up to Size 6 that he designates. The mage cannot use this Attainment to hide any other living being, and using it on an object requires him to touch this object. Whether he is using this Attainment on himself or an object, the mage’s player rolls Wits + Stealth + Mind vs. the Wits + Gnosis of anyone who views him while the Attainment is active. If the target succeeds in this roll, his perceptions are unaffected."
     },
     {
-        "Nome": "Unforgotten Scions",
+        "Name": "Unforgotten Scions",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "driven beyond reason by Dreamtime",
@@ -14319,7 +14319,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Wraiths of Epochs",
+        "Name": "Wraiths of Epochs",
         "Cammino": ["Moros"],
         "Ordine": ["Mysterium"],
         "Nickname": "sorcerous historians",
@@ -14486,7 +14486,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the mage also has Death 4, he may perform an instant action to dissolve his body and personal possessions into a state of Twilight as per the Death 4 “Twilight Shift”spell (see Mage: TheAwakening, p. 147); no roll or Mana expenditure is required. He merely applies a moment’s effort to surrender his flesh to the erosion of time or resume the illusion of lasting solidity."
     },
     {
-        "Nome": "The Awakening Gambit",
+        "Name": "The Awakening Gambit",
         "Cammino": ["Acanthus"],
         "Ordine": ["Adamantine Arrow","Mysterium"],
         "Nickname": "encouragers of Awakenings",
@@ -14844,7 +14844,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Brotherhood of the Demon Wind",
+        "Name": "Brotherhood of the Demon Wind",
         "Cammino": ["Mastigos"],
         "Ordine": ["Adamantine Arrow"],
         "Nickname": "wandering samurai",
@@ -14931,7 +14931,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "By skipping off the weave of space, the Wave-man’s movements become utterly unpredictable. The mage spends a point of Mana as an instant action and may teleport anywhere within visual range (including anyplace that he can see through the use of his first Attainment) with an effect similar to the Space 4 spell “Teleportation.” If the mage must, for any reason, test against an effect intended to bar his passage (such as a ban or ward), he is considered to have successes equal to his dots in the Space Arcanum."
     },
     {
-        "Nome": "Devourers of the Flesh",
+        "Name": "Devourers of the Flesh",
         "Cammino": ["Thyrsus"],
         "Ordine": ["Adamantine Arrow"],
         "Nickname": "cannibalistic predators",
@@ -14999,7 +14999,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "By feeding on a body (whether dead or, per the former half of this Attainment, still living), the Cannibal steals her enemy’s strength and grows powerful by it. For each point of a human body’s Size that she consumes (subject to the Stamina limitations of the previous Attainment, in the case of dead bodies), the mage may add one dot to either her Strength or Stamina Attributes for an hour, per Life 4 “Supreme Honing,” out to a maximum of the willworker’s dots in Life in both Attributes simultaneously — even if she eats again before the hour is up, the mage may not increase those Attributes by more than her dots in Life, total. In the event of a “feast” of multiple bodies, the period of augmentation begins from the time that the willworker finishes gorging. While this Attainment is active, any spell used by the mage to augment with magic an Attribute boosted by the Attainment has a maximum Duration of a single turn."
     },
     {
-        "Nome": "Bene Ashmedai",
+        "Name": "Bene Ashmedai",
         "Cammino": ["Mastigos"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "embodiments of Vice",
@@ -15165,7 +15165,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Keepers of the Covenant",
+        "Name": "Keepers of the Covenant",
         "Cammino": ["Thyrsus"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "intermediaries between flesh & spirit",
@@ -15245,7 +15245,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Lords of the Inanimate",
+        "Name": "Lords of the Inanimate",
         "Cammino": ["Thyrsus"],
         "Ordine": [ "Silver Ladder"],
         "Nickname": "sympathizers with spirits of objects",
@@ -15376,7 +15376,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Pure Sovereigns",
+        "Name": "The Pure Sovereigns",
         "Cammino": ["Obrimos"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "paragons of physical and mental acumen",
@@ -15503,7 +15503,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Reality Makers",
+        "Name": "The Reality Makers",
         "Cammino": ["Mastigos"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "drifters through life on the wings of fate",
@@ -15634,7 +15634,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Members of this Legacy who learn Fate 4 truly fit their nickname. By making a successful roll, they can duplicate the effects of the Fate 4 spell “Coincidental Travel,” thus allowing them to easily travel to any desired destination. Also, if combined with their other Attainments, even the minimal financial cost demanded by this Attainment can be avoided through the use of phantasmal money."
     },
     {
-        "Nome": "The Sisterhood of the Blessed",
+        "Name": "The Sisterhood of the Blessed",
         "Cammino": ["Acanthus"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "subtle manipulators of Fate for power",
@@ -15741,7 +15741,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Blessed who become Adepts of Mind master an especially subtle form of deception. By making a Manipulation + Subterfuge + Mind roll, they can duplicate the affects of the Mind 4 spell “Hallucination” (Mage: The Awakening, p. 215). While they can cause the target to experience anything imaginable, most of the Blessed prefer vague and subtle hallucinations, like causing the target to overhear a bit of fictitious gossip spoken in the voice of an enemy, or perhaps of a dear friend. Careful use of this Attainment allows the Blessed to control and manipulate those around them to an exceedingly precise degree."
     },
     {
-        "Nome": "Stewards of the Celestial Orrery",
+        "Name": "Stewards of the Celestial Orrery",
         "Cammino": ["Obrimos"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "believers in the will of the Oracles",
@@ -15822,7 +15822,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "An Augur sufficiently potent in her connection to the Supernal and highly skilled in the arts of Prime is her own foremost source of arcane power. After realigning the energies needed to create the Ley Lines effect (with the optional secondary component of her previous Attainment), she may — with the expenditure of a Willpower point — effectively become a Hallow of a rating equal to her dots in the Prime Arcanum. Just like a normal Hallow, the mage may produce Mana in this fashion only once per day. While the Augur may not perform an oblation to recover Mana through the use of this Attainment, other Awakened may draw upon the power that radiates from her refined spirit."
     },
     {
-        "Nome": "The Carnival Melancholy",
+        "Name": "The Carnival Melancholy",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "barterers of souls for luck",
@@ -15916,7 +15916,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "As the previous optional Attainment ability, except that the mage may expend a point of Morality after a die roll to re-roll. Regardless of the outcome, however, he must accept the results of the second roll; he may not continue to spend points of Morality in hopes of getting a better roll."
     },
     {
-        "Nome": "Timori",
+        "Name": "Timori",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "the Feared",
@@ -16261,7 +16261,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Dreamers of the Black Sun",
+        "Name": "Dreamers of the Black Sun",
         "Cammino": ["Mastigos"],
         "Ordine": [""],
         "Nickname": "apocalyptic engineers of fear & disaster",
@@ -16516,7 +16516,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "If the Dreamer also has Death 4, the energies she releases can actually scorch the victim’s eyes, dealing actual physical damage to them and rendering him blind until the wounds can be healed (by normal means or otherwise). The added effect is similar to the Death 4 “Rotting Flesh” spell (see p. 144 of Mage: The Awakening), but it relies on the Attainment roll described here instead of that of the spell. If the Attainment roll is a success, apply the damage to the target as described in the spell."
     },
     {
-        "Nome": "Tellurians",
+        "Name": "Tellurians",
         "Cammino": ["Obrimos"],
         "Ordine": ["Mysterium"],
         "Nickname": "ley line cartographers",
@@ -16641,7 +16641,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Gaolers of Ialdabaoth",
+        "Name": "Gaolers of Ialdabaoth",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "imprisoners of Abyssal entities",
@@ -16702,7 +16702,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Path of the Book",
+        "Name": "The Path of the Book",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "bibliophiles",
@@ -16752,7 +16752,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The mage can now gain a wealth of information about the immediate future from the visual symbols around him. He can now duplicate the effects of the “Present as Past” spell (Mage: The Awakening, p. 264). However, he can perform this ability only once per scene, and only where he can see at least moderate amounts of text."
     },
     {
-        "Nome": "Followers of the True Soul",
+        "Name": "Followers of the True Soul",
         "Cammino": ["Mastigos"],
         "Ordine": [""],
         "Nickname": "deluded followers of Tazanteotl",
@@ -16938,7 +16938,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Celestial Masters",
+        "Name": "The Celestial Masters",
         "Cammino": ["Moros"],
         "Ordine": ["Council of Free Assemblies", "Silver Ladder"],
         "Nickname": "explorers of matter & energy",
@@ -17258,7 +17258,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The Celestial Masters still wish to map the stars, and with this Attainment, it might someday be possible. The character can instantly teleport himself within line of sight as an instant action, or, if the player spends a point of Mana, a reflexive action. Since the mage can see for miles and walls are no obstacle to his vision, “line of sight” allows for a great deal of flexibility. This Attainment cannot be used through a scrying window, however (though nothing prevents the mage from simply casting the “Teleportation” spell)."
     },
     {
-        "Nome": "The Illumined Path",
+        "Name": "The Illumined Path",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "guides towards enlightenment",
@@ -17553,7 +17553,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "At this level the mage discovers a magical technique that other willworkers have searched for over the centuries: the secret of using magic to heal damage inflicted by containing Paradox. The trick isn’t so much to heal the damage, but to prevent it from happening. The mage creates a layer of tissue at the instant of the Paradox to absorb the damage, which then immediately dissolves. In game terms, the player can spend a point of Mana and roll Stamina + Occult + Life as a reflexive action whenever the character suffers damage from containing a Paradox. For every success, the character can ignore one level of bashing damage from the Paradox. Any remaining damage is still considered Resistant, and cannot be healed by magic."
     },
     {
-        "Nome": "The Illumined Path (Reverse)",
+        "Name": "The Illumined Path (Reverse)",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "hamperers of Awakening",
@@ -17641,7 +17641,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "As described above. The Left-Handed version of the Illumined Path finds this Attainment just as useful as the standard version."
     },
     {
-        "Nome": "Mimir's Voice",
+        "Name": "Mimir's Voice",
         "Cammino": ["Mastigos"],
         "Ordine": [""],
         "Nickname": "agents of potential",
@@ -17954,7 +17954,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The Advisor can’t implant the desire to learn (rather, she can, but doing so would violate the Code of the Legacy), but she can certainly improve a person’s ability to do so. This Attainment is similar to the Mind spell “Augment Other Minds.” When someone approaches the mage for help, she can touch that person gently and boost any one of his Mental or Social Attributes by a number of dots equal to her Mind Arcanum rating. This requires the expenditure of one Mana point. These changes last for the scene, during which time the Advisor works with the person to figure out whatever problems are vexing him. Use of this spell might well be justification for using experience points to increase Mental or Social Attributes or Skills."
     },
     {
-        "Nome": "The Roses of Eden",
+        "Name": "The Roses of Eden",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "builders of a new mage society",
@@ -18219,7 +18219,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Whipping Boys",
+        "Name": "Whipping Boys",
         "Cammino": ["Obrimos"],
         "Ordine": [""],
         "Nickname": "BDSM ecstatics",
@@ -18444,7 +18444,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Following a Session, the mage can leave his body behind and go wandering through Twilight, as described in the “Psychic Projection” spell (p. 215 of Mage: The Awakening). This Attainment does not cost Mana or require a roll. The character can stay detached from his body for up to an hour after the Session is complete. After that, the mage can cast the Psychic Projection spell to remain in this state. If he does so, the spell is considered covert, rather than vulgar (since the mage is already out of his body)."
     },
     {
-        "Nome": "Scelesti (variant)",
+        "Name": "Scelesti (variant)",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "enigmatic seers",
@@ -18509,7 +18509,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Architects of the Future",
+        "Name": "The Architects of the Future",
         "Cammino": ["Acanthus"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "shapers of the Exarchs' desired future",
@@ -18622,7 +18622,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "The Architect learns to cast his mind out to the furthest reaches of the unknown in an attempt to gain some inspiration as to the desires and plans of the Exarchs. By spending 1 point of Mana and making a successful Composure + Wits + Mind roll, her mind is instantly transported to the Omphalos of the Anima Mundi (Astral Realms, p. 74), while her body remains asleep where she left it. The Architect can take others along if they are in telepathic contract with her when she makes this roll, and either that person or the Architect spends one additional point of Mana for each person she brings with her. The Architect always arrives at the Omphalos, but can go further into the Anima Mundi or back to Temenos as she desires."
     },
     {
-        "Nome": "Chrysalides",
+        "Name": "Chrysalides",
         "Cammino": ["Thyrsus"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "exemplars of perfection & decrepitude in one",
@@ -18764,7 +18764,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "A Swan that is an Adept of Mind may perform the exchange in her remaining Mental Attributes as well, following the rules for Physical attributes above."
     },
     {
-        "Nome": "The Masters of Destruction",
+        "Name": "The Masters of Destruction",
         "Cammino": ["Moros"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "saboteurs & destroyers",
@@ -18858,7 +18858,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "By studying both Matter and Death, Destroyers enhance their arsenal of destruction by gaining even more powerful ways to transform durable objects into fragments or even into dust. When used to completely destroy an object, this attainment leaves behind no traces at all — the object is simply gone. This ability is similar to the Matter 4 “Annihilate Matter” spell (Mage: The Awakening, p. 201)."
     },
     {
-        "Nome": "Princes of the Many Masks",
+        "Name": "Princes of the Many Masks",
         "Cammino": ["Acanthus"],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "consummate impersonators & actors",
@@ -18958,7 +18958,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "One of the greatest tools for successful infiltration is the ability to alter the memories of the people you are fooling. Targets of this attainment could be made to ignore having seen the mage break into a safe or to remember the person’s superior introducing the mage to her and instructing the person to do everything possible to assist the mage. This attainment is similar to the Mind 4 “Breach the Vault of Memory” spell (Mage: The Awakening, p. 214). All alterations to a target’s memory last for up to an hour, but as long as the Imposter is in the person’s presence when this hour elapses, she can cause the alteration to continue by making another roll. If the Imposter possesses Mind 5, this alteration of memory lasts for one day."
     },
     {
-        "Nome": "Secret Order of the Gate",
+        "Name": "Secret Order of the Gate",
         "Cammino": [""],
         "Ordine": ["Seers of the Throne"],
         "Nickname": "balancers between reality & the Abyss",
@@ -19187,7 +19187,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "A Gatekeeper in the Place Between who possesses Spirit 4 may force an Abyssal Manifestation to do his bidding. This is treated like the spell “Spirit Guardian” except that the mage can also direct the entity to perform other services, though he must always specify a specific target. Roll Presence + Intimidation + Spirit the entity’s Resistance. The Gatekeeper may use the Space manifestation of the Attainment to bid the entity accompany him back to the material plane."
     },
     {
-        "Nome": "Choir of Hashmallim",
+        "Name": "Choir of Hashmallim",
         "Cammino": ["Obrimos"],
         "Ordine": [""],
         "Nickname": "channelers of the Aether against the Abyss",
@@ -19439,7 +19439,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Concord of Serpents",
+        "Name": "The Concord of Serpents",
         "Cammino": ["Mastigos"],
         "Ordine": [""],
         "Nickname": "challengers & adversaries",
@@ -19501,7 +19501,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "By spending a point of Mana and succeeding on a Resolve + Empathy + Mind roll as a reflexive action, an Adversary may extend the benefits of his second Attainment to a willing individual within sensory range. Note that each individual use of the mage’s second Attainment upon another requires its own expenditure of Mana, while multiple points of Willpower may be bestowed through a single use of the Attainment (if the subject were to receive two dots of lethal damage to her last three dots of Health, for example, she would receive two points of Willpower at the a cost to the Adversary of one point of Mana). The peril to the beneficiary of this Attainment must be real enough that the subject genuinely believes in its capacity to cause her serious harm. Some Adversaries are known to arrange for such circumstances, whether subtly or overtly, simply to demonstrate to their quarry the wages of perseverance. As with the previous optional Attainment, no sympathetic tie, whether temporary or permanent, is created through the use of this Attainment, and existing ties are unaffected by it."
     },
     {
-        "Nome": "Katsinam Suukya",
+        "Name": "Katsinam Suukya",
         "Cammino": ["Thyrsus"],
         "Ordine": [""],
         "Nickname": "teachers of the traditional ways",
@@ -19653,7 +19653,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The People of the Hour",
+        "Name": "The People of the Hour",
         "Cammino": ["Acanthus"],
         "Ordine": [""],
         "Nickname": "dwellers in the moment",
@@ -19817,7 +19817,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "Stygian Heralds",
+        "Name": "Stygian Heralds",
         "Cammino": ["Moros"],
         "Ordine": [""],
         "Nickname": "summoners of fallen heroes",
@@ -20001,7 +20001,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Legion",
+        "Name": "The Legion",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "hosts to Abyssal creatures",
@@ -20160,7 +20160,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Morphean Continuity",
+        "Name": "The Morphean Continuity",
         "Cammino": ["Acanthus"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "hosts to a creature of Dreamtime",
@@ -20342,7 +20342,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "With sufficient understanding of the nuances of the temporal flow, a fully symbiotic Dreamcrafter can retreat into her own imaginings, effectively mimicking the effects of the Time 4 spell “Temporal Pocket” (see Mage: The Awakening, p. 265), with automatic successes equal to her dots in Time."
     },
     {
-        "Nome": "Scelesti (variant)",
+        "Name": "Scelesti (variant)",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "students of Vice, Virtue & suffering",
@@ -20466,7 +20466,7 @@ export const LegacyData = [
         ]
     },
     {
-        "Nome": "The Quiescent",
+        "Name": "The Quiescent",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "abstainers from vulgar magic",
@@ -20597,7 +20597,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "Applying knowledge of weak points isn’t limited to inanimate objects. A Quiet mage with this level of skill can find the weak point in a living being, applying potentially fatal force to an attack. The player spends one point of Mana to add the mage’s Gnosis to an attack. The attack can take any mundane form (punch, stab, gunshot) but cannot be magically enhanced in any way. A humane mage can use this power to knock out troublesome opponents quickly. A less humane mage can walk into a room with a gun and kill everyone in it in a few seconds."
     },
     {
-        "Nome": "Cwn Annwn",
+        "Name": "Cwn Annwn",
         "Cammino": ["Obrimos"],
         "Ordine": ["Silver Ladder"],
         "Nickname": "world-builders and world-destroyers",
@@ -20822,7 +20822,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "The Hunter's Flesh (Scelesti)",
+        "Name": "The Hunter's Flesh (Scelesti)",
         "Cammino": ["Acanthus", "Mastigos", "Moros", "Obrimos", "Thyrsus"],
         "Ordine": [""],
         "Nickname": "supreme hunters",
@@ -20859,7 +20859,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "House Nagaraja (Tremere)",
+        "Name": "House Nagaraja (Tremere)",
         "Cammino": ["Moros"],
         "Ordine": [""],
         "Nickname": "masters of others' stolen Vices",
@@ -20923,7 +20923,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "House Seo Hel (Tremere)",
+        "Name": "House Seo Hel (Tremere)",
         "Cammino": ["Moros"],
         "Ordine": [""],
         "Nickname": "students of souls and objects",
@@ -21032,7 +21032,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": ""
     },
     {
-        "Nome": "Cloud Infinite",
+        "Name": "Cloud Infinite",
         "Cammino": ["Obrimos"],
         "Ordine": ["Council of Free Assemblies"],
         "Nickname": "hijackers of others' souls for mental power",
@@ -21207,7 +21207,7 @@ export const LegacyData = [
         "thirdAttainmentOptDescrizione": "With Prime 4, the mage may now remotely access souls in his possession for the purpose of any attainment from her Legacy, provided they’re connected via ley line (as per the Prime 3 spell, “Ley Lines”). She may access a maximum number of souls at any given time equal to the lower of her Mind and Prime dots. This allows her to access multiple soul stones and soul jars (one per turn) that might not be physically present. Users often cast “Mobile Node,” (see below) to ease the use of this attainment."
     },
     {
-        "Nome": "(Legion)",
+        "Name": "(Legion)",
         "Cammino": ["Mastigos"],
         "Ordine": ["Guardians of the Veil"],
         "Nickname": "soul-thieves who seek to avoid sin",

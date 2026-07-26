@@ -130,7 +130,7 @@ function StyledOccultTable({ headers, rows, title, action }) {
 }
 
 const righeComplete = oggettiParanormali.map((item) => ({
-  Nome: item.Nome ?? "",
+  Name: item.Name ?? "",
   Descrizione: item.Descrizione ?? "",
   Effetto: item.Effetto ?? "",
   Origine: item.Origine ?? "",
@@ -191,7 +191,7 @@ export default function OggettiOcculti() {
 
       <StyledOccultTable
         title="Oggetti paranormali"
-        headers={["Nome", "Descrizione", "Effetto", "Origine"]}
+        headers={["Name", "Descrizione", "Effetto", "Origine"]}
         rows={righeComplete}
       />
     </div>

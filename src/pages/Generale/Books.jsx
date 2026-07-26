@@ -1,23 +1,13 @@
 import React from 'react';
-import {
-    WoDBookData, VampireBookData, WerewolfBookData, MageBookData,
-    PrometheanBookData, ChangelingBookData, HunterBookData, GeistBookData,
-    MummyBookData
-} from '../../Data/BookData';
 import SimpleTable from '../../components/SimpleTable';
+import {
+    BOOK_COLLECTIONS,
+    getBookFirstPageUrl,
+    getBookPath,
+} from '../../books/bookNavigation';
 
-function getFirstPagePdfLink(linkTo) {
-    if (!linkTo) return '';
-
-    if (linkTo.includes('#p=')) {
-        return linkTo.replace(/#p=.*/, '#p=1');
-    }
-
-    return `${linkTo}#p=1`;
-}
-
-function ExternalPdfLink({ linkTo }) {
-    const pdfLink = getFirstPagePdfLink(linkTo);
+function ExternalPdfLink({ book }) {
+    const pdfLink = getBookFirstPageUrl(book);
 
     if (!pdfLink) return '';
 
@@ -36,32 +26,19 @@ function ExternalPdfLink({ linkTo }) {
 function addExternalPdfColumn(books) {
     return books.map((book) => ({
         ...book,
-        'External PDF': <ExternalPdfLink linkTo={book.LinkTo} />,
+        link: getBookPath(book),
+        'External PDF': <ExternalPdfLink book={book} />,
     }));
 }
 
-export default function Books(props) {
-
-    const bookSets = ['World of Darkness', 'Vampire: The Requiem',
-        'Werewolf: The Forsaken', 'Mage: The Awakening', 'Promethean: The Created',
-        'Changeling: The Lost', 'Hunter: The Vigil', 'Geist: The Sin-Eaters',
-        'Mummy: The Curse'];
-
-    const bookData = [
-        WoDBookData, VampireBookData, WerewolfBookData, MageBookData, PrometheanBookData,
-        ChangelingBookData, HunterBookData, GeistBookData, MummyBookData
-    ];
-
-    // Define the headers that correspond to your data keys
-    const tableFields = ['Code Name', 'Type', 'Title', 'Description', 'Release Date', 'External PDF'];
-
-
-    const renderedBookTables = bookData.map((book, index) => (
+export default function Books() {
+    const tableFields = ['Name', 'Code Name', 'Type', 'Description', 'Release Date', 'External PDF'];
+    const renderedBookTables = BOOK_COLLECTIONS.map((collection) => (
         <SimpleTable
-            key={bookSets[index]}
-            title={bookSets[index]}
-            table={addExternalPdfColumn(book)}
-            activeRowLink={false}
+            key={collection.id}
+            title={collection.label}
+            table={addExternalPdfColumn(collection.books)}
+            activeRowLink
             headers={tableFields}
         />
     ));

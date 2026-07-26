@@ -2,10 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Home.css';
 import { PATHS } from './path';
+import WikiSearch from '../components/WikiSearch';
 
 export default function Home() {
     return (
-        <>
+        <main className="home-content">
+            <section className="mx-auto w-full max-w-3xl px-5">
+                <WikiSearch
+                    variant="hero"
+                    placeholder="Search spells, merits, powers, books..."
+                    maxResults={8}
+                />
+            </section>
             <div className="center-vertically flex-row">
                 <div className="flexed-column">
                     <table className="home-table-container">
@@ -96,7 +104,7 @@ export default function Home() {
                     </table>
                 </div>
             </div>
-        </>
+        </main>
     );
 }
 

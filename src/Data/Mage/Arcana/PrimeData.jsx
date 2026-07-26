@@ -1,6 +1,6 @@
 const primeOneData = [
     {
-        "Titolo": "Analyze Enchanted Item",
+        "Name": "Analyze Enchanted Item",
         "Arcana": "Prime •",
         "DescrizioneAlta": "The mage can scrutinize an enchanted item — an Artifact, enhanced item, or imbued item — to discern its powers.",
         "Practice": "Knowing",
@@ -25,7 +25,7 @@ const primeOneData = [
         "Book": "M:tA 219"
     },
     {
-        "Titolo": "Chronicle Resonance",
+        "Name": "Chronicle Resonance",
         "Arcana": "Prime • + Time ••",
         "DescrizioneAlta": "The willworker discerns local sources of Resonance over time. These include sources that are currently present but have grown less intense, as well as those that have disappeared completely. She can track the progress of the dispersing Resonance over time, as well as any sudden changes that took place during the time period studied (such as magical alterations to a given source of Resonance). She is not able to learn who did these things, or how (not without making use of other magics, at any rate), but can use this magic to get a feel for the local pattern of Resonance.",
         "Practice": "Unveiling",
@@ -79,7 +79,7 @@ const primeOneData = [
         "Book": "TotM 20"
     },
     {
-        "Titolo": "Copy Grimoire",
+        "Name": "Copy Grimoire",
         "Arcana": "Matter •, Prime •",
         "Practice": "Compelling",
         "Action": "Extended",
@@ -110,7 +110,7 @@ const primeOneData = [
         "Book": "Myst 48"
     },
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -155,7 +155,7 @@ const primeOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Detect Banisher",
+        "Name": "Detect Banisher",
         "Arcana": "Prime •",
         "Practice": "Knowing",
         "Action": "Instant",
@@ -184,7 +184,7 @@ const primeOneData = [
         "Book": "Ban 62"
     },
     {
-        "Titolo": "Discern Phantasm",
+        "Name": "Discern Phantasm",
         "Arcana": "Prime •",
         "DescrizioneAlta": "The mage can see through Prime-based illusions (those created with manifested Mana; see “Phantasm,” p. 227), knowing them for what they are. Having substance, however, they do not vanish from her sight.",
         "Practice": "Unveiling",
@@ -205,7 +205,7 @@ const primeOneData = [
         "Book": "M:tA 220"
     },
     {
-        "Titolo": "Dispel Magic",
+        "Name": "Dispel Magic",
         "Arcana": "Prime •",
         "DescrizioneAlta": "Mages can dismantle or dispel existing spells, a process also known as 'unweaving.'",
         "Practice": "Compelling",
@@ -226,7 +226,7 @@ const primeOneData = [
         "Book": "M:tA 220"
     },
     {
-        "Titolo": "Ephemeral Postcognition",
+        "Name": "Ephemeral Postcognition",
         "Arcana": "Prime • + Time ••",
         "DescrizioneAlta": "For some mages, it is not enough merely to know what a summoned entity is; they must also understand where it came from. This spell enables such willworkers to catch fleeting glimpses of the native realities of the ephemeral beings that they call into the Fallen World by studying the immediate history of the Resonance that such creatures carry with them.",
         "Practice": "Ruling",
@@ -255,7 +255,7 @@ const primeOneData = [
         "Book": "Summ 210"
     },
     {
-        "Titolo": "Gauge Essence",
+        "Name": "Gauge Essence",
         "Arcana": "Prime • + Death •, Life •, and/or Spirit •",
         "DescrizioneAlta": "Ghosts and spirits of all sorts use Essence, an ephemeral substance often imprinted with certain emotional qualities, signifying its origin. Just like scientists can discern the difference between a diamond mined in southern Africa, for instance, and one acquired from elsewhere in the world, an astute willworker can analyze the individual qualities of a particular source of Essence.",
         "Practice": "Knowing",
@@ -284,7 +284,7 @@ const primeOneData = [
         "Book": "Summ 210"
     },
     {
-        "Titolo": "Inscribe Grimoire",
+        "Name": "Inscribe Grimoire",
         "Arcana": "Prime •",
         "DescrizioneAlta": "The mage can record the secrets of his rotes into a magical book readable by other Awakened minds.",
         "Practice": "Compelling",
@@ -317,7 +317,7 @@ const primeOneData = [
         "Book": "M:tA 220"
     },
     {
-        "Titolo": "Abyssal Perception",
+        "Name": "Abyssal Perception",
         "Arcana": "Prime • + Death • + Prime • + Space • + Spirit •",
         "DescrizioneAlta": "This spell enables a mage to perceive the presence of Abyssal phenomena, though it is not properly a Mage Sight. Rather, this sense manifests as a powerful awareness of the pressing “wrongness” of the Abyss as the willworker closes on it (or, conversely, as it closes on the willworker...).",
         "Practice": "Knowing",
@@ -342,7 +342,7 @@ const primeOneData = [
         "Book": "GoG 77"
     },
     {
-        "Titolo": "Supernal Vision",
+        "Name": "Supernal Vision",
         "Arcana": "Prime •",
         "DescrizioneAlta": [
             {
@@ -428,7 +428,7 @@ const primeOneData = [
 
 const primeTwoData = [
     {
-        "Titolo": "Activate Enchanted Item",
+        "Name": "Activate Enchanted Item",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The willworker gains the ability to activate a contingent Artifact or imbued item, artificially satisfying the trigger of such an item (usually after having carefully analyzed it with “Analyze Enchanted Item,” p. 219).",
         "Practice": "Compelling",
@@ -449,7 +449,7 @@ const primeTwoData = [
         "Book": "M:tA 221"
     },
     {
-        "Titolo": "Cleanse Aura",
+        "Name": "Cleanse Aura",
         "Arcana": "Prime ••; optional + Life ••",
         "DescrizioneAlta": [
             {
@@ -491,7 +491,7 @@ const primeTwoData = [
         "Book": "IEwtA 189"
     },
     {
-        "Titolo": "Counterspell Prime",
+        "Name": "Counterspell Prime",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The mage can counter spells from any Arcanum, and he can counter covert spells without first identifying their components.",
         "Practice": "Shielding",
@@ -512,7 +512,7 @@ const primeTwoData = [
         "Book": "M:tA 222"
     },
     {
-        "Titolo": "Ephemeral Image",
+        "Name": "Ephemeral Image",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The mage can create purely two-dimensional inanimate phantasms. These creations possess no substance at all; they are simply flat images that must be overlaid upon some existing surface. However, using this spell, the mage can change the color or pattern of a suit, the picture and written information on an ID card, the appearance of a photograph, or even the apparent value of a piece of currency. The mage could also attempt to disguise a blank piece of paper as a valuable oil painting, but anyone touching it would feel smooth modern paper and not rough and aging paint.",
         "Practice": "Weaving",
@@ -533,7 +533,7 @@ const primeTwoData = [
         "Book": "SL 200"
     },
     {
-        "Titolo": "Locate Node",
+        "Name": "Locate Node",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The African spirit Eshu often appears to travelers at places where two roads cross. Similarly, Hermes (for the Greeks) or Mercury (for the Romans) was associated with crossroads, as was the Christian St. Simon. Magic or Mana gathers here in larger clusters than at normal crossings, for crossroads are not just where two roads meet. They are where two ley lines or lines of power intersect one another, called a “node” by mages. Using a wand made specifically for this purpose, the mage can locate the nearest ley line node.",
         "Practice": "Unveiling",
@@ -554,7 +554,7 @@ const primeTwoData = [
         "Book": "MT 124"
     },
     {
-        "Titolo": "Magic Shield",
+        "Name": "Magic Shield",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "This spell creates a shield against outside magic. Such a matrix of power is visible to those with Mage Sight, appearing as ghostly white flames limning the form of the caster.",
         "Practice": "Shielding",
@@ -583,7 +583,7 @@ const primeTwoData = [
         "Book": "M:tA 222"
     },
     {
-        "Titolo": "Manipulate Contingent Trigger",
+        "Name": "Manipulate Contingent Trigger",
         "Arcana": "Fate •• + Prime ••",
         "DescrizioneAlta": "A mage might make use of an Imbued Item for a variety of reasons: a way to carry magic that he doesn’t normally possess or to cheat the limits of how many spells his pattern can tolerate, or perhaps even to give certain limited magical abilities to a Sleeper or Sleepwalker. By way of this spell, however, the contingent triggers with which many such objects are programmed can be temporarily altered, potentially making the invocation of an item’s power difficult — if not impossible — for its possessor.",
         "Practice": "Ruling",
@@ -604,7 +604,7 @@ const primeTwoData = [
         "Book": "SotT 194"
     },
     {
-        "Titolo": "Paths of Power",
+        "Name": "Paths of Power",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "This rote allows the mage to see ley lines and to sense the direction of the nearest.",
         "Practice": "Knowing",
@@ -624,7 +624,7 @@ const primeTwoData = [
         "Book": "GoG 139"
     },
     {
-        "Titolo": "Primal Flow",
+        "Name": "Primal Flow",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "As the Prime 1 “Supernal Vision” spell, p. 221, except that the mage casts this effect upon another mage, or even a supernatural being such as a ghost or werewolf. If this spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -645,7 +645,7 @@ const primeTwoData = [
         "Book": "M:tA 222"
     },
     {
-        "Titolo": "Shadow Chess",
+        "Name": "Shadow Chess",
         "Arcana": "Prime •• + Spirit ••• or •••••",
         "DescrizioneAlta": [
             {
@@ -713,7 +713,7 @@ const primeTwoData = [
         "Book": "TotM 124"
     },
     {
-        "Titolo": "Sigilization",
+        "Name": "Sigilization",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "This spell imposes upon an image or object (not a living creature) the caster’s own aura, or that of a group of people, such as a cabal of mages. Mages use this spell most often to create a sigil, an image or object that bears their personal mark.",
         "Practice": "Ruling",
@@ -786,7 +786,7 @@ const primeTwoData = [
         "Book": "S&S 37"
     },
     {
-        "Titolo": "Spell Cloaks",
+        "Name": "Spell Cloaks",
         "Arcana": "Prime ••• + Conjunctional Arcanum",
         "Cost": "1 Mana",
         "DescrizioneAlta": [
@@ -803,7 +803,7 @@ const primeTwoData = [
         "Book": "TotM 70"
     },
     {
-        "Titolo": "Squaring the Circle",
+        "Name": "Squaring the Circle",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The mage creates a mystical space where two mages can engage in the Duel Arcane, a wizard’s war. See 'The Duel Arcane,' p. 286, for rules on using this spell.",
         "Practice": "Ruling",
@@ -818,7 +818,7 @@ const primeTwoData = [
         "Book": "Myst 202"
     },
     {
-        "Titolo": "Supernal Script",
+        "Name": "Supernal Script",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The mage extracts minute traces of tass from his Awakened Pattern, shaping the energy into an enchanted pigment invisible to normal senses. To the appropriate Mage Sight, however, the ink glows brightly and distinctly.",
         "Practice": "Ruling",
@@ -839,7 +839,7 @@ const primeTwoData = [
         "Book": "Myst 202"
     },
     {
-        "Titolo": "Transform Aura",
+        "Name": "Transform Aura",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The mage can alter his aura’s nature. While many mages can manipulate the quality of their personal resonance or cloak it entirely, none do so with the finesse of a willworker skilled in Prime. He can alter the nature of his aura, appearing to be a Sleeper (or even an inhuman creature), or he can hide it or even disperse it completely for a time. Though an aura returns to its original state once the spell expires, it can be warded away for quite some time.",
         "Practice": "Veiling",
@@ -868,7 +868,7 @@ const primeTwoData = [
         "Book": "M:tA 223"
     },
     {
-        "Titolo": "Unseen Spy",
+        "Name": "Unseen Spy",
         "Arcana": "Prime ••",
         "DescrizioneAlta": "The mage can hide himself from other willworkers’ magical senses when he attempts to scrutinize or dispel their magic.",
         "Practice": "Veiling",
@@ -892,7 +892,7 @@ const primeTwoData = [
 
 const primeThreeData = [
     {
-        "Titolo": "Armor of the Soul",
+        "Name": "Armor of the Soul",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can weave a barrier around a soul, protecting it from being stolen by a spirit or severed by an adept of Death.",
         "Practice": "Veiling",
@@ -913,7 +913,7 @@ const primeThreeData = [
         "Book": "M:tA 223"
     },
     {
-        "Titolo": "Astral Tass Conversion",
+        "Name": "Astral Tass Conversion",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "When traveling into Astral Space, every mage carries with her the Mana she can normally call upon in the real world. What she lacks is a store of tass from which she can replenish that supply — and this spell makes that possible.",
         "Practice": "Weaving",
@@ -934,7 +934,7 @@ const primeThreeData = [
         "Book": "AR 28"
     },
     {
-        "Titolo": "Celestial Fire",
+        "Name": "Celestial Fire",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage manifests celestial fire.",
         "Practice": "Fraying",
@@ -963,7 +963,7 @@ const primeThreeData = [
         "Book": "M:tA 224"
     },
     {
-        "Titolo": "Channel Mana",
+        "Name": "Channel Mana",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can channel Mana from a Hallow without need of an hour-long oblation (see p. 77), or he can take it from tass or an enchanted item.",
         "Practice": "Weaving",
@@ -992,7 +992,7 @@ const primeThreeData = [
         "Book": "M:tA 224"
     },
     {
-        "Titolo": "Controlled Dispellation",
+        "Name": "Controlled Dispellation",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can unravel an existing spell against only those targets he chooses, letting the spell continue to affect others.",
         "Practice": "Fraying",
@@ -1020,7 +1020,7 @@ const primeThreeData = [
         "Book": "M:tA 224"
     },
     {
-        "Titolo": "Create Tass",
+        "Name": "Create Tass",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage creates tass, solidified Mana. Tass can look like anything: a rock, a hammer, a table or even a car or a dog. (If it manifests as a seemingly living creature, the tass sits, inanimate, in whatever position it was created until such time as an outside force acts upon it. In other words, the mage could create a tass dog if he really wanted to, and curl it up by his fireplace, but as a lifeless, inanimate thing, it won’t go anywhere or do anything of its own accord.)",
         "Practice": "Weaving",
@@ -1049,7 +1049,7 @@ const primeThreeData = [
         "Book": "M:tA 224"
     },
     {
-        "Titolo": "Disguise Resonance",
+        "Name": "Disguise Resonance",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can change the appearance of an area’s resonance, making it appear to possess different qualities or even hide its magical signature, meaning that she could make a powerful Hallow look like a magical dead zone.",
         "Practice": "Veiling",
@@ -1074,7 +1074,7 @@ const primeThreeData = [
         "Book": "M:tA 225"
     },
     {
-        "Titolo": "Disguise Spell",
+        "Name": "Disguise Spell",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "As with the Prime 3 “Disguise Resonance” spell, the mage changes the appearance of resonance, but instead of affecting an area, he casts Disguise Spell upon a spell, to make it appear to occult investigators to be a different type of spell than it really is. He cannot change the actual effects of the spell this way, only its resonance and appearance to Mage Sight.",
         "Practice": "Veiling",
@@ -1103,7 +1103,7 @@ const primeThreeData = [
         "Book": "TotM 68"
     },
     {
-        "Titolo": "Dissolve Tass",
+        "Name": "Dissolve Tass",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can dissolve tass back into the Tapestry.",
         "Practice": "Fraying",
@@ -1124,7 +1124,7 @@ const primeThreeData = [
         "Book": "M:tA 225"
     },
     {
-        "Titolo": "Energetic Tass",
+        "Name": "Energetic Tass",
         "Arcana": "Forces ••• + Prime •••",
         "DescrizioneAlta": "By means of this spell, a mage can craft tass that does not take the shape of a solid material object but, rather, the form of some kind of simple energy (light, heat, electricity or sound). Such tass might be a fire that burns without the need for fuel, or a pattern of shifting lights, crawling arcs of electricity or an otherworldly sound with no discernable source.",
         "Practice": "Weaving",
@@ -1180,7 +1180,7 @@ const primeThreeData = [
         "Book": "TotM 69"
     },
     {
-        "Titolo": "Ephemeral Enchantment",
+        "Name": "Ephemeral Enchantment",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage enchants an object, allowing it to strike (if it is a weapon) or protect (if it is armor) against Twilight or Shadow Realm entities.",
         "Practice": "Weaving",
@@ -1205,7 +1205,7 @@ const primeThreeData = [
         "Book": "M:tA 225"
     },
     {
-        "Titolo": "False Signature",
+        "Name": "False Signature",
         "Arcana": "Prime ••• + conjunctional Arcanum (e.g., Prime 2 + Forces)",
         "DescrizioneAlta": [
             {
@@ -1238,7 +1238,7 @@ const primeThreeData = [
         "Book": "AA 184"
     },
     {
-        "Titolo": "Fortify Phantasmal Item",
+        "Name": "Fortify Phantasmal Item",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "Through the casting of this spell, a mage can augment a piece of non-weapon phantasmal equipment.",
         "Practice": "Perfecting",
@@ -1266,7 +1266,7 @@ const primeThreeData = [
         "Book": "TotM 27"
     },
     {
-        "Titolo": "Girding the Champion's Faith",
+        "Name": "Girding the Champion's Faith",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The Templar invokes a brilliant armor forged from the light of God to turn back the blows of his most ardent enemies.",
         "Practice": "Shielding",
@@ -1306,7 +1306,7 @@ const primeThreeData = [
         "Book": "MT 88"
     },
     {
-        "Titolo": "Hallow Bond",
+        "Name": "Hallow Bond",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "Through the use of this spell, the mage gains a mystical connection with a Hallow, allowing him to restrict who can harvest Mana from it.",
         "Practice": "Weaving",
@@ -1355,7 +1355,7 @@ const primeThreeData = [
         "Book": "S&S 94"
     },
     {
-        "Titolo": "Imbue Animal",
+        "Name": "Imbue Animal",
         "Arcana": "Prime ••• + Life •••",
         "DescrizioneAlta": "The Banisher can imbue a living creature with one or more spells, creating an animal that functions as an imbued item.",
         "Practice": "Weaving",
@@ -1387,7 +1387,7 @@ const primeThreeData = [
         "Book": "Ban 62"
     },
     {
-        "Titolo": "Imbue Item",
+        "Name": "Imbue Item",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can imbue an item with magical powers.",
         "Practice": "Weaving",
@@ -1423,7 +1423,7 @@ const primeThreeData = [
         "Book": "M:tA 225"
     },
     {
-        "Titolo": "Imbue Mana",
+        "Name": "Imbue Mana",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can imbue a living creature with Mana.",
         "Practice": "Weaving",
@@ -1452,7 +1452,7 @@ const primeThreeData = [
         "Book": "M:tA 226"
     },
     {
-        "Titolo": "Instill Exclusiveness",
+        "Name": "Instill Exclusiveness",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage weaves an enchantment into an item preventing anyone but its present owner from drawing on its imbued powers.",
         "Practice": "Weaving",
@@ -1481,7 +1481,7 @@ const primeThreeData = [
         "Book": "TotM 142"
     },
     {
-        "Titolo": "Item Failsafe",
+        "Name": "Item Failsafe",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The magician enchants an Imbued Item so that its spells are inaccessible to unauthorized users.",
         "Practice": "Weaving",
@@ -1502,7 +1502,7 @@ const primeThreeData = [
         "Book": "TotM 141"
     },
     {
-        "Titolo": "Last Testament",
+        "Name": "Last Testament",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage enchants an item so that its owner may designate a rightful heir in the event of his death or long-term disappearance. Only that individual may then attune to the device. (See “Authorization,” p. 139.)",
         "Practice": "Weaving",
@@ -1535,7 +1535,7 @@ const primeThreeData = [
         "Book": "TotM 143"
     },
     {
-        "Titolo": "Ley Lines",
+        "Name": "Ley Lines",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "This spell harnesses the subtle power of the Earth’s ley lines, enabling a willworker to generate perpetual free energy for any number of purposes. Ley energies course unseen and unnoticed by most over the contours of the planet. It is said that the ancients realigned and manipulated such sources of perpetual power.",
         "Practice": "Weaving",
@@ -1568,7 +1568,7 @@ const primeThreeData = [
         "Book": "M:tA 226"
     },
     {
-        "Titolo": "Ley Shift",
+        "Name": "Ley Shift",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can shift the geographical position of a ley line in a direction or shape of her choosing. While this spell moves the line’s direction of flow, the spell cannot sever or destroy the ley line, or reverse its direction of flow (see “Ley Flow,” below).",
         "Practice": "Weaving",
@@ -1601,7 +1601,7 @@ const primeThreeData = [
         "Book": "S&S 97"
     },
     {
-        "Titolo": "Magic Wall",
+        "Name": "Magic Wall",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage can now cast a Magic Shield on another person.",
         "Practice": "Shielding",
@@ -1622,7 +1622,7 @@ const primeThreeData = [
         "Book": "M:tA 227"
     },
     {
-        "Titolo": "Mana Leech",
+        "Name": "Mana Leech",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage curses an item so that it drains its Awakened owner of Mana.",
         "Practice": "Weaving",
@@ -1643,7 +1643,7 @@ const primeThreeData = [
         "Book": "TotM 139"
     },
     {
-        "Titolo": "Marked Power",
+        "Name": "Marked Power",
         "Arcana": "Prime ••• + Space ••",
         "DescrizioneAlta": "The art of intelligence-gathering includes a variety of ways to mark your target to allow for easier surveillance. This particular method of marking a mage targets their greatest strength and weakness, Mana.",
         "Practice": "Weaving",
@@ -1688,7 +1688,7 @@ const primeThreeData = [
         "Book": "Ban 62"
     },
     {
-        "Titolo": "Mystic Shackle",
+        "Name": "Mystic Shackle",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage curses an item so that it penalizes the use of one or more Arcana.",
         "Practice": "Weaving",
@@ -1709,7 +1709,7 @@ const primeThreeData = [
         "Book": "TotM 139"
     },
     {
-        "Titolo": "Path in the Skin",
+        "Name": "Path in the Skin",
         "Arcana": "Prime ••• + Life •• or •••",
         "DescrizioneAlta": "Mages use this spell to imbue their bodies with the properties of a magical tool. See “Body Art, Tattoos and Scarification,” p. 100, for the effects of the tool. The caster requires Life 2 to use the spell on herself and Life 3 to use it on another person.",
         "Practice": "Weaving",
@@ -1734,7 +1734,7 @@ const primeThreeData = [
         "Book": "TotM 69"
     },
     {
-        "Titolo": "Payment in Power",
+        "Name": "Payment in Power",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "This spell alters the usual cost of relinquishing a finishing spell. Instead of sacrificing a Willpower dot, the willworker pays Mana, spent over a period of days. Mana spent for this purpose is in addition to any other Mana costs required to make the item.",
         "Practice": "Weaving",
@@ -1755,7 +1755,7 @@ const primeThreeData = [
         "Book": "TotM 129"
     },
     {
-        "Titolo": "Phantasm",
+        "Name": "Phantasm",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "This spell creates an inanimate phantasm, a construct woven of Mana threads. Such a creation possesses a degree of substance and appears to be a normal object of its type to Sleeping eyes, but is in reality a solidified illusion. The mage can create books, knives, chairs, stones or any other lifeless, inanimate objects she can think of. These objects do not and cannot possess qualities such as conductivity, magnetism or the like. Phantasmal wood does not float in water and it does not fuel a fire (though it can still be destroyed by such, it does not sustain the flame on its own).",
         "Practice": "Weaving",
@@ -1784,7 +1784,7 @@ const primeThreeData = [
         "Book": "M:tA 227"
     },
     {
-        "Titolo": "Price of Hubris",
+        "Name": "Price of Hubris",
         "Arcana": "Prime ••• + any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "For many mages, the casting of a vulgar spell is an act of arrogance. Even with full knowledge that the Fallen World rejects such overt displays of power, the mage who routinely employs such spells is akin to a brawler who relies only on his strength. In either case, the person’s arrogance becomes the root of his defeat.",
         "Practice": "Shielding",
@@ -1816,7 +1816,7 @@ const primeThreeData = [
         "Book": "Ban 63"
     },
     {
-        "Titolo": "Reset Platonic Exemplar",
+        "Name": "Reset Platonic Exemplar",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage removes all spells woven into a Platonic exemplar, freeing up room for replacement magics.",
         "Practice": "Fraying",
@@ -1841,7 +1841,7 @@ const primeThreeData = [
         "Book": "TotM 133"
     },
     {
-        "Titolo": "Subvert Ownership",
+        "Name": "Subvert Ownership",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The mage may specify a new rightful owner, set of authorized users or designated heir (per the “Last Testament” spell) for an Enchanted Item.",
         "Practice": "Fraying",
@@ -1862,7 +1862,7 @@ const primeThreeData = [
         "Book": "TotM 145"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1953,7 +1953,7 @@ const primeThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Target Interloper",
+        "Name": "Target Interloper",
         "Arcana": "Prime •••",
         "DescrizioneAlta": "The willworker adds a defensive mechanism to anitem, allowing another spell, which must also be cast into the item, to target any unauthorized person touching the device. Typically, the spell must be capable of targeting an individual, without a complex set of options. However, if a ghost has been bound to the item, that entity can make any necessary decisions when the defense mechanism activates.",
         "Practice": "Weaving",
@@ -1978,7 +1978,7 @@ const primeThreeData = [
         "Book": "TotM 140"
     },
     {
-        "Titolo": "Temporal Phantasm",
+        "Name": "Temporal Phantasm",
         "Arcana": "Prime ••• + Time ••",
         "DescrizioneAlta": "The mage summons a temporal echo from the past, imbuing the echo with solidity and fixed causality through infusion of Mana. The result is a nearly perfect copy of an inanimate object from the past, though a sadly impermanent one lacking any complicated features or supernatural powers of the original.",
         "Practice": "Weaving",
@@ -2022,7 +2022,7 @@ const primeThreeData = [
         "Book": "Myst 202"
     },
     {
-        "Titolo": "Transform Other Aura",
+        "Name": "Transform Other Aura",
         "Arcana": "Prime •••",
         "Description": "The mage can alter another’s aura, changing the appearance of his true nature just as he does for himself with Prime 2.",
         "Practice": "Veiling",
@@ -2043,7 +2043,7 @@ const primeThreeData = [
         "Book": "M:tA 227"
     },
     {
-        "Titolo": "Tribute of Iron",
+        "Name": "Tribute of Iron",
         "Arcana": "Prime ••• + Death •",
         "DescrizioneAlta": "Anyone who dies by metal, whether shot, crushed by a car or stabbed with a knife, belongs to Oggún. Horrible accidents and casualties of war are often considered the god of metal taking his tribute in blood from the world of men. One story, though, has it that a santero enslaved in Cuba rose up with a spade and slew several of his keepers in a burst of rage. He saw his masters’ relatives coming to kill him, and begged Oggún for help. The story says that Oggún answered him, telling him to taste the blood of his victims. The slave did so, and he found his strength replenished. He killed many of the slavers before they finally brought him low, and as the bullets pierced his heart, he uttered his thanks to Oggún and promised his blood and soul to the orisha.",
         "Practice": "Weaving",
@@ -2076,7 +2076,7 @@ const primeThreeData = [
 
 const primeFourData = [
     {
-        "Titolo": "Annihilate Spells",
+        "Name": "Annihilate Spells",
         "Arcana": "Prime •••• + Time •••",
         "DescrizioneAlta": "The mage counters or activates all hung and prolonged spells that a target has active. A capable Banisher can spread this effect across an area.",
         "Practice": "Unraveling",
@@ -2108,7 +2108,7 @@ const primeFourData = [
         "Book": "Ban 62"
     },
     {
-        "Titolo": "Awaken Hallow",
+        "Name": "Awaken Hallow",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage awakens a dormant Hallow.",
         "Practice": "Patterning",
@@ -2129,7 +2129,7 @@ const primeFourData = [
         "Book": "M:tA 228"
     },
     {
-        "Titolo": "Bodyguard's Blessing",
+        "Name": "Bodyguard's Blessing",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mark of a dedicated bodyguard has always been the willingness to take a bullet (or arrow or sword in earlier times) for the people placed under the bodyguard’s protection. This spell allows the mage to redirect a magical attack from its intended target to the mage.",
         "Practice": "Ruling",
@@ -2150,7 +2150,7 @@ const primeFourData = [
         "Book": "AA 184"
     },
     {
-        "Titolo": "Channel Paradox",
+        "Name": "Channel Paradox",
         "Arcana": "Life ••• + Prime ••••",
         "DescrizioneAlta": "Every manifestation of Paradox widens the great gulf of the Abyss, or so the Guardians of the Veil teach their neophytes. By accepting the hurts of Paradox into one’s own flesh, however, Plures believed the Abyss could be denied greater purchase in the Fallen World. This spell enables just that, allowing the Guardian to draw Paradox into his own living pattern, thus preventing the taint of the Abyss from further infecting this world.",
         "Practice": "Patterning",
@@ -2189,7 +2189,7 @@ const primeFourData = [
         "Book": "GoG 47"
     },
     {
-        "Titolo": "Curse of the Fallen World",
+        "Name": "Curse of the Fallen World",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "This spell forces an enemy mage to reveal his Awakened state with every spell he casts and increases the likelihood of a backlash against that mage.",
         "Practice": "Fraying",
@@ -2221,7 +2221,7 @@ const primeFourData = [
         "Book": "Ban 64"
     },
     {
-        "Titolo": "Delusions of Grandeur",
+        "Name": "Delusions of Grandeur",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The heady rush of power involved with casting a spell is like a drug to mages. The more power available to a mage, the greater the temptation to use that power. This spell tempts a mage with power, then punishes him for using it.",
         "Practice": "Unraveling",
@@ -2242,7 +2242,7 @@ const primeFourData = [
         "Book": "Ban 64"
     },
     {
-        "Titolo": "Disenchant Item",
+        "Name": "Disenchant Item",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "Although an item’s finishing spells cannot be dispelled, Disenchant Item allows the mage to permanently excise one other spell from an Enchanted Item. Disenchant Item may target an imbued spell, curse, enhancement or defense. The spell can also be used to remove the item’s ability to hold Mana, if any. All Mana in the device when this effect is used disperses uselessly.",
         "Practice": "Unraveling",
@@ -2263,7 +2263,7 @@ const primeFourData = [
         "Book": "TotM 144"
     },
     {
-        "Titolo": "Eyes of the Awakened",
+        "Name": "Eyes of the Awakened",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage allows a Sleeper to possess Mage Sight. For the Duration of the spell, the Sleeper sees things that she did not believe possible before. During this period, her witnessing the Mysteries does not invoke Disbelief, but she still adversely influences a Paradox as a normal Sleeper witness.",
         "Practice": "Patterning",
@@ -2278,7 +2278,7 @@ const primeFourData = [
         "Book": "M:tA 228"
     },
     {
-        "Titolo": "Ley Flow",
+        "Name": "Ley Flow",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage can alter the flow of energy through a ley line, adjusting the flow anywhere from a torrent to a mere trickle, or, instead, he can change the current’s direction of flow, sending the current back upstream to its source node.",
         "Practice": "Patterning",
@@ -2307,7 +2307,7 @@ const primeFourData = [
         "Book": "S&S 98"
     },
     {
-        "Titolo": "Marionette",
+        "Name": "Marionette",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "By way of this magic, the willworker creates a potentially animate phantasm of an animal or other obviously non-human creature. It can move, but only as she directs it through active concentration. The phantasm moves as it would normally be able to, so a phantasm of a monkey can walk or run on all fours, walk awkwardly upright and swing by its hands or its tail, while a remote control car moves on its wheels. A ferret phantasm could, for example, filch a set of keys, while a wolf could be used to attack someone.",
         "Practice": "Patterning",
@@ -2336,7 +2336,7 @@ const primeFourData = [
         "Book": "M:tA 228"
     },
     {
-        "Titolo": "Phantasmal Weapon",
+        "Name": "Phantasmal Weapon",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage creates a sturdy phantasm, and can even create functional weapons and armor.",
         "Practice": "Patterning",
@@ -2357,7 +2357,7 @@ const primeFourData = [
         "Book": "M:tA 228"
     },
     {
-        "Titolo": "Pierce Magical Shield",
+        "Name": "Pierce Magical Shield",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage can bypass the protection granted by magical Shielding spells.",
         "Practice": "Unraveling",
@@ -2395,7 +2395,7 @@ const primeFourData = [
         "Book": "Ban 64"
     },
     {
-        "Titolo": "Poison Mana",
+        "Name": "Poison Mana",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage can introduce dangerous occult vibrations to part or all of a supply of Mana as long as it isn’t being stored within a living being. Once used, the poisoned Mana injures whoever’s channeling it.",
         "Practice": "Fraying/Patterning",
@@ -2429,7 +2429,7 @@ const primeFourData = [
         "Book": "Ban 65"
     },
     {
-        "Titolo": "Primal Transfer",
+        "Name": "Primal Transfer",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "One problem with crafting magic items for other mages is the loss of psychic force — of one’s very soul — involved in letting go of a spell so other people can use the item. An Adept of Prime, however, can demand that a client give of herself to assist in the item’s enchantment: the client, not the mage himself, sacrifices a dot of Willpower to make the spell independent.",
         "Practice": "Patterning",
@@ -2450,7 +2450,7 @@ const primeFourData = [
         "Book": "L:tA 78"
     },
     {
-        "Titolo": "Scour Other's Pattern",
+        "Name": "Scour Other's Pattern",
         "Arcana": "Prime •••• + Life •••",
         "DescrizioneAlta": [
             {
@@ -2491,7 +2491,7 @@ const primeFourData = [
         "Book": "TotM 70"
     },
     {
-        "Titolo": "Siphon Essence",
+        "Name": "Siphon Essence",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage can pull the Essence out of a spirit, ghost or locus and convert it to personal Mana. He may either add it to his Mana store or disperse it into the Tapestry, as he wishes. Most experienced willworkers are quick to point out the folly almost always inherent to pillaging a locus. Even if there are no werewolves present (a rare enough occurrence), spirits regard loci in the same way that mages look at Hallows, and resent those who cheat them of their rightful sustenance. While not all spirits have the means to exact immediate retribution, most have long memories and at least a few allies willing and able to make life hell for pirating mages.",
         "Practice": "Unraveling",
@@ -2512,7 +2512,7 @@ const primeFourData = [
         "Book": "M:tA 229"
     },
     {
-        "Titolo": "Siphon Integrity",
+        "Name": "Siphon Integrity",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage can pull the Mana out of a mundane lifeless object. He may either add this Mana to his own or disperse it into the Tapestry, as he wishes. Most such Patterns have but little Mana invested in them and siphoning it all away (or simply dispersing it) damages the item.",
         "Practice": "Unraveling",
@@ -2541,7 +2541,7 @@ const primeFourData = [
         "Book": "M:tA 229"
     },
     {
-        "Titolo": "Supernal Augumentation",
+        "Name": "Supernal Augumentation",
         "Arcana": "Prime •••• + Life ••• or Matter •••",
         "DescrizioneAlta": "Martial artists have demonstrated through the ages the incredible potential of ordinary weapons: hands, feet, swords, axes, and bows, for example. Sometimes, however, an Arrow requires recourse to force greater than that which her armaments will normally allow. Sometimes, she needs to destroy creatures of flesh and bone (or other, less natural organisms) with rapidity and finality, and elegance be damned.",
         "Practice": "Unraveling",
@@ -2574,7 +2574,7 @@ const primeFourData = [
         "Book": "AA 185"
     },
     {
-        "Titolo": "Supernal Dispellation",
+        "Name": "Supernal Dispellation",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage can dispel magic. He can attack the Pattern of a spell, destroying it by pulling apart the threads that comprise it. At this level, the mage does not need to have any dots in the Arcana used in the magic to be dispelled. His Prime lore is enough to unweave any spell.",
         "Practice": "Unraveling",
@@ -2595,7 +2595,7 @@ const primeFourData = [
         "Book": "M:tA 229"
     },
     {
-        "Titolo": "Suppress Enchantment",
+        "Name": "Suppress Enchantment",
         "Arcana": "Prime ••••",
         "DescrizioneAlta": "The mage temporarily suppresses the power of an Artifact or imbued item, making one of its powers unusable for the Duration.",
         "Practice": "Unraveling",
@@ -2620,7 +2620,7 @@ const primeFourData = [
         "Book": "Myst 203"
     },
     {
-        "Titolo": "Suppress Hallow",
+        "Name": "Suppress Hallow",
         "Arcana": "Prime ••••",
         "Description": "The mage suppresses an active Hallow.",
         "Practice": "Unraveling",
@@ -2641,7 +2641,7 @@ const primeFourData = [
         "Book": "M:tA 229"
     },
     {
-        "Titolo": "Tainted Source",
+        "Name": "Tainted Source",
         "Arcana": "Prime ••••",
         "Description": "Poisoning a well used by your enemies has been a valid (if repugnant) strategy employed by humans in their struggles against each other from time out of mind. This spell poisons the Awakened version of the town well, the Hallow.",
         "Practice": "Unraveling",
@@ -2717,7 +2717,7 @@ const primeFourData = [
 
 const primeFiveData = [
     {
-        "Titolo": "Concealing the Dragon's Path",
+        "Name": "Concealing the Dragon's Path",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "This spell enables the mage to hide ley lines from the view of another who might otherwise be able to see them. This may be used as a way of protecting valuable sources of power from rivals or to preserve a path of power for the caster’s use.",
         "Practice": "Unmaking",
@@ -2738,7 +2738,7 @@ const primeFiveData = [
         "Book": "GoG 103"
     },
     {
-        "Titolo": "Create Complex Phantasm",
+        "Name": "Create Complex Phantasm",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "The mage creates a complex phantasm. These beings can mimic living people and complex objects (computers), and stand up to some degree of mundane scrutiny. Such a phantasm is subject to the same rules as a simple moving phantasm (see 'Marionette,' p. 228). A mechanical or electronic device, however, doesn’t conduct electricity (and doesn’t work if plugged into a socket; only the mage’s concentration makes it seem to work normally).",
         "Practice": "Making",
@@ -2759,7 +2759,7 @@ const primeFiveData = [
         "Book": "M:tA 230"
     },
     {
-        "Titolo": "Create Hallow",
+        "Name": "Create Hallow",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "The mage can create a temporary Hallow.",
         "Practice": "Making",
@@ -2817,7 +2817,7 @@ const primeFiveData = [
         "Book": "M:tA 230"
     },
     {
-        "Titolo": "Dead Zone",
+        "Name": "Dead Zone",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "The mage expels the ambient Mana from an area, creating a 'magic dead zone.'",
         "Practice": "Unmaking",
@@ -2908,7 +2908,7 @@ const primeFiveData = [
         "Book": "M:tA 230"
     },
     {
-        "Titolo": "Dessicate",
+        "Name": "Dessicate",
         "Arcana": "Prime ••••• + Life •••",
         "DescrizioneAlta": "The mage can drain the subject of one of her Physical Attributes, her Mana (if Awakened) or her Health and augment his own pool.",
         "Practice": "Unmaking",
@@ -2936,7 +2936,7 @@ const primeFiveData = [
         "Book": "Ban 65"
     },
     {
-        "Titolo": "Forge Tulpa",
+        "Name": "Forge Tulpa",
         "Arcana": "Prime ••••• + Mind •••••",
         "DescrizioneAlta": "A tulpa, an idea-form so forcefully visualized that it assumes material substance, is known to Tibetan mysticism. The tulpa is dreamed into being by a creative mind in a state of intense and deliberate imagination. Such creations often grow beyond the direct control of their creators, becoming free-willed beings halfway to possessing reality of their own. Sometimes a tulpa becomes wicked or even physically monstrous, but this is the product of flawed discipline on the part of the creator, rather than any fault of the dream-being itself. A tulpa may look like a human being, an animal, a monster or just about any kind of physiologically plausible being of which the willworker can conceive.",
         "Practice": "Making",
@@ -2965,7 +2965,7 @@ const primeFiveData = [
         "Book": "M:tA 231"
     },
     {
-        "Titolo": "Halt the Flow",
+        "Name": "Halt the Flow",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "The act of denying resources to an enemy is fundamental in any conflict. Sometimes harsh measures must be taken in particularly brutal situations to gain final victory. This spell is employed with the idea that it is better to destroy something than let the enemy use it to destroy you.",
         "Practice": "Unmaking",
@@ -3009,7 +3009,7 @@ const primeFiveData = [
         "Book": "Ban 66"
     },
     {
-        "Titolo": "Scorched Earth",
+        "Name": "Scorched Earth",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "Drawing an enemy to a battlefield of your choosing is a basic tenet of combat, understood instinctively even by lower life forms. Use of this spell prepares a battlefield on which magic is not welcome.",
         "Practice": "Unmaking",
@@ -3083,7 +3083,7 @@ const primeFiveData = [
         "Book": "Ban 66"
     },
     {
-        "Titolo": "Siphon Mana",
+        "Name": "Siphon Mana",
         "Arcana": "Prime •••••",
         "DescrizioneAlta": "The mage can siphon Mana at sensory range from an unwilling mage and add it to his own pool.",
         "Practice": "Unraveling",
@@ -3103,7 +3103,7 @@ const primeFiveData = [
         "Book": "M:tA 231"
     },
     {
-        "Titolo": "Supernal Sense",
+        "Name": "Supernal Sense",
         "Arcana": "Prime ••••• + Space •••",
         "DescrizioneAlta": "The mage expands his sense of the Supernal until he can sense the presence and rough location of all active spells within a certain radius.",
         "Practice": "Knowing",
@@ -3136,7 +3136,7 @@ const primeFiveData = [
         "Book": "TotM 71"
     },
     {
-        "Titolo": "Universal Bane",
+        "Name": "Universal Bane",
         "Arcana": "Prime ••••• + Space •••",
         "Practice": "Patterning",
         "Action": "Instant",

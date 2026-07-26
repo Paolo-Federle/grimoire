@@ -9,7 +9,7 @@ export default function MageMeritsDetail(props) {
         <div className='longTextContainer'>
             {matchedMerit && (
                 <>
-                        <h1>{matchedMerit.Title} ({matchedMerit.Rating})</h1>
+                        <h1>{matchedMerit.Name} ({matchedMerit.Rating})</h1>
                         {matchedMerit.Prerequisites && (<div><b>Prerequisites:</b> {matchedMerit.Prerequisites}</div>)}
                         {matchedMerit.LongDescription && (
                             <div style={{ paddingBottom: "20px" }}>

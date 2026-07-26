@@ -1,9 +1,9 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useMemo } from "react";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import SimpleTable from "../components/SimpleTable"; // ADATTA PATH
-import { listFavorites, clearFavorites } from "../utils"; // ADATTA PATH
+import { clearFavorites, useFavorites } from "../favoritesStore";
 
 function signatureFromKeys(keys) {
   return [...keys].sort().join("|");
@@ -65,22 +65,7 @@ function getTitleLinkFromFromPath(fromPath) {
 }
 
 export default function FavoritesPage() {
-  const [snapshot, setSnapshot] = useState([]);
-
-  const refresh = () => setSnapshot(listFavorites());
-
-  useEffect(() => {
-    refresh();
-
-    const onChanged = () => refresh();
-    window.addEventListener("favorites:changed", onChanged);
-    window.addEventListener("storage", onChanged);
-
-    return () => {
-      window.removeEventListener("favorites:changed", onChanged);
-      window.removeEventListener("storage", onChanged);
-    };
-  }, []);
+  const snapshot = useFavorites();
 
   const groups = useMemo(() => groupFavorites(snapshot), [snapshot]);
 

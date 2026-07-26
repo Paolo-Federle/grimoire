@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import TitleDots from "../Common/35_TitleDots";
 import { ModifierControl } from "../Common/40_ModifierControl";
 import { useSheetData } from "../05_SheetDataContext";
@@ -6,27 +5,22 @@ import { updateValueAtPath } from "../sheetStateUtils";
 
 export const SkillsRow = ({ name, category, max, min }) => {
   const { sheetData, setSheetData } = useSheetData();
-  const [value, setValue] = useState(sheetData.skills[category][name].base);
-  const [modifier, setModifier] = useState(sheetData.skills[category][name].modifier);
-
-  useEffect(() => {
-    setSheetData((prev) =>
-      updateValueAtPath(prev, ["skills", category, name, "base"], value)
-    );
-  }, [category, name, setSheetData, value]);
-
-  useEffect(() => {
-    setSheetData((prev) =>
-      updateValueAtPath(prev, ["skills", category, name, "modifier"], modifier)
-    );
-  }, [category, modifier, name, setSheetData]);
+  const { base: value, modifier } = sheetData.skills[category][name];
 
   const handleChange = (newValue) => {
-    setValue(newValue);
+    setSheetData((prev) =>
+      updateValueAtPath(prev, ["skills", category, name, "base"], newValue)
+    );
   };
 
   const handleModifierChange = (delta) => {
-    setModifier((prev) => prev + delta);
+    setSheetData((prev) =>
+      updateValueAtPath(
+        prev,
+        ["skills", category, name, "modifier"],
+        (currentValue = 0) => currentValue + delta
+      )
+    );
   };
 
   return (

@@ -1,6 +1,6 @@
 const forceOneData = [
     {
-        "Titolo": "Counterspell",
+        "Name": "Counterspell",
         "Arcana": "Any one of the attacking spell’s Arcana at •",
         "DescrizioneAlta": "The mage creates Pattern interference that can weaken or even cancel a spell.",
         "Practice": "Shielding",
@@ -45,7 +45,7 @@ const forceOneData = [
         "Book": "M:tA 123"
     },
     {
-        "Titolo": "Influence Heat",
+        "Name": "Influence Heat",
         "Arcana": "Forces •",
         "DescrizioneAlta": "The mage can guide the direction and/or flow of existing heat. He could, for example, keep warm in cold weather by pulling the ambient warmth shed by other human bodies to himself, or make sure that the dim heat from a radiator on the other side of a bathroom reached the shower stall. He could not increase the temperature of the heat at this level, nor create heat where there is none.",
         "Practice": "Compelling",
@@ -60,7 +60,7 @@ const forceOneData = [
         "Book": "M:tA 162"
     },
     {
-        "Titolo": "Influence Light",
+        "Name": "Influence Light",
         "Arcana": "Forces •",
         "DescrizioneAlta": "The mage can guide the direction and/or flow of existing light. He could, for example, cause a wide-angle lantern beam to focus more tightly, like a flashlight beam, or split visible white light into its full spectrum of colors, like a prism. He could not (at this level) cause a weak light to become brighter or cause light to appear where it did not already exist.",
         "Practice": "Compelling",
@@ -81,7 +81,7 @@ const forceOneData = [
         "Book": "M:tA 163"
     },
     {
-        "Titolo": "Influence Sound",
+        "Name": "Influence Sound",
         "Arcana": "Forces •",
         "DescrizioneAlta": "The mage can guide the direction and/or flow of existing sound. He could, for example, focus sound waves from across a vast chamber so he can listen in on a whispered conversation, or ensure that the sound of his own voice does not carry beyond the person to whom he is speaking. He could not amplify the volume, however, or create a noise from thin air.",
         "Practice": "Compelling",
@@ -96,7 +96,7 @@ const forceOneData = [
         "Book": "M:tA 163"
     },
     {
-        "Titolo": "Nightsight",
+        "Name": "Nightsight",
         "Arcana": "Forces •",
         "DescrizioneAlta": "By attuning her perceptions to pick up trace amounts of ambient light, supplementing this with an intuitive feel for vibration, heat and the like, a mage can see in the dark with the same clarity as most nocturnal predators. She can essentially perceive the infrared or ultraviolet spectrum and detect electromagnetic radiation, or sonic or kinetic energy.",
         "Practice": "Unveiling",
@@ -117,7 +117,7 @@ const forceOneData = [
         "Book": "M:tA 163"
     },
     {
-        "Titolo": "Outer Music",
+        "Name": "Outer Music",
         "Arcana": "Forces •",
         "DescrizioneAlta": "This spell enables the mage to eavesdrop on the noise of space itself, sorting out signal-to-noise frequencies without benefit of complex machinery or sensors. In theory, a mage using this spell could identify transmissions from alien lifeforms, hear the “music of the spheres” as the planets and stars emit their telltale signature noises or catch the sound of approaching spacecraft. Naturally, if no such data or noise is present, the spell produces only silence or white noise.",
         "Practice": "Knowing",
@@ -138,7 +138,7 @@ const forceOneData = [
         "Book": "Ban 56"
     },
     {
-        "Titolo": "Read Matrices",
+        "Name": "Read Matrices",
         "Arcana": "Forces •",
         "DescrizioneAlta": "The mage gains the Mage Sight (see “Mage Sight,” p. 110). He can perceive energy and magical resonance, detecting the presence of all of the universe’s various forms of energy: heat, gravity, electromagnetism and the like, including the presence or absence of different sorts of radiation, such as x-rays or cosmic radiation, either visually or through tactile perception. An undiscerning mage might be fairly blinded by the overwhelming variety and sheer quantity of energy that moves around her at all times, unable to process the ever-shifting tapestry of power that is all but invisible to the untrained eye. The mage is also especially aware of resonance’s energetic aspects and flow, its vibratory frequency and movement.",
         "Practice": "Unveiling",
@@ -192,7 +192,7 @@ const forceOneData = [
         "Book": "M:tA 163"
     },
     {
-        "Titolo": "Receiver",
+        "Name": "Receiver",
         "Arcana": "Forces •",
         "DescrizioneAlta": "The mage can hear sounds on subsonic or supersonic frequencies that the human ear cannot normally distinguish, but this spell does not improve her hearing ability (it adds no dice, but does extend the range of sounds she can hear).",
         "Practice": "Unveiling",
@@ -213,7 +213,7 @@ const forceOneData = [
         "Book": "M:tA 164"
     },
     {
-        "Titolo": "Tune In",
+        "Name": "Tune In",
         "Arcana": "Forces •",
         "DescrizioneAlta": [
             {
@@ -246,7 +246,7 @@ const forceOneData = [
 
 const forceTwoData = [
     {
-        "Titolo": "Activate Police Band",
+        "Name": "Activate Police Band",
         "Arcana": "Forces ••",
         "DescrizioneAlta": [
             {
@@ -279,7 +279,7 @@ const forceTwoData = [
         "Book": "Ban 56"
     },
     {
-        "Titolo": "Aether Net",
+        "Name": "Aether Net",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can create a wireless Internet connection or cell phone connection where there is none, allowing such devices to work even in the absence of their normal network(s).",
         "Practice": "Ruling",
@@ -303,7 +303,7 @@ const forceTwoData = [
         "Book": "FC 108"
     },
     {
-        "Titolo": "Alter Frequency",
+        "Name": "Alter Frequency",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can increase or decrease the frequency of an existing sound, making it sound deeper or higher, as she desires.",
         "Practice": "Ruling",
@@ -324,7 +324,7 @@ const forceTwoData = [
         "Book": "GotV 188"
     },
     {
-        "Titolo": "Circuit Television",
+        "Name": "Circuit Television",
         "Arcana": "Forces •• + Space •",
         "DescrizioneAlta": "With this spell, the mage can connect a television monitor to any camera that is nearly connected to a network to which the monitor is connected. This spell is almost always used with a computer connected to the Internet, because many monitoring cameras in the Western world are connected to an intranet that is connected to the Internet. Although the camera is distant, the network is not, so this is not sympathetic magic. The spell also does not grant control of the camera, so the mage can only see what the camera is pointing at. This is not a Space portal; the mage can only look in the same way that a Sleeper who is actually connected to the camera could look.",
         "Practice": "Ruling",
@@ -344,7 +344,7 @@ const forceTwoData = [
         "Book": "FC 108"
     },
     {
-        "Titolo": "Control Heat",
+        "Name": "Control Heat",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can increase or decrease the temperature of an area.",
         "Practice": "Ruling",
@@ -365,7 +365,7 @@ const forceTwoData = [
         "Book": "M:tA 165"
     },
     {
-        "Titolo": "Control Light",
+        "Name": "Control Light",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can brighten or weaken an existing light source, such that a 40-watt light bulb can be made to shine as brightly as a floodlight.",
         "Practice": "Ruling",
@@ -386,7 +386,7 @@ const forceTwoData = [
         "Book": "M:tA 165"
     },
     {
-        "Titolo": "Control Sound",
+        "Name": "Control Sound",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can amplify or turn down the volume of sound in an area, such as making the music coming out of a pair of headphones loud enough for dozens of people to hear clearly.",
         "Practice": "Ruling",
@@ -407,7 +407,7 @@ const forceTwoData = [
         "Book": "M:tA 165"
     },
     {
-        "Titolo": "Control Traffic",
+        "Name": "Control Traffic",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "Through a careful manipulation of electrical current, the mage can cause traffic lights to spontaneously change. The mage may choose to simply induce a random change in the lights or try to specify which lights will change to which color. This can be useful for more than just cutting down the length of the mage’s morning commute; at least one cabal is known to use this spell to trap their enemies in massive traffic jams, then assassinate them while they sit, vulnerable, in their car.",
         "Practice": "Ruling",
@@ -428,7 +428,7 @@ const forceTwoData = [
         "Book": "TotM 61"
     },
     {
-        "Titolo": "Electronic Eye",
+        "Name": "Electronic Eye",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "This spell allows a mage to read information from magnetic and optical storage media.",
         "Practice": "Knowing",
@@ -449,7 +449,7 @@ const forceTwoData = [
         "Book": "FC 108"
     },
     {
-        "Titolo": "Eyes of the Matrix",
+        "Name": "Eyes of the Matrix",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "As the Forces 1 “Read Matrices” spell (see p. 163), except that the mage casts this rote upon another mage, or even a supernatural being such as a ghost or werewolf. If the spell is cast upon a Sleeper, it invokes Disbelief immediately, even if its Duration is less than one scene.",
         "Practice": "Unveiling",
@@ -470,7 +470,7 @@ const forceTwoData = [
         "Book": "M:tA 165"
     },
     {
-        "Titolo": "Fireproofing",
+        "Name": "Fireproofing",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "Fire can be a dangerous tool to use, since it often harms its user as well. Some mages have learned how to make their bodies fireproof, by manipulating the air around their bodies in such a way that fire cannot harm them.",
         "Practice": "Shielding",
@@ -491,7 +491,7 @@ const forceTwoData = [
         "Book": "L:tA 44"
     },
     {
-        "Titolo": "Friction Reduction",
+        "Name": "Friction Reduction",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage reduces the friction (static or kinetic) between two solid objects. A book on a table will appear to slide effortlessly across the surface with little resistance. A walker will have a hard time maintaining a foothold. Objects on an incline will move downward.",
         "Practice": "Ruling",
@@ -561,7 +561,7 @@ const forceTwoData = [
         "Book": "TotM 62"
     },
     {
-        "Titolo": "Influence Electricity",
+        "Name": "Influence Electricity",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can influence the direction or flow of electricity. He can, for example, cause an existing electrical current (such as that moving through appliances or in walls) to flash or arc out and strike a target. He could not amplify the current at this level.",
         "Practice": "Ruling",
@@ -647,7 +647,7 @@ const forceTwoData = [
         "Book": "M:tA 165"
     },
     {
-        "Titolo": "Influence Fire",
+        "Name": "Influence Fire",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can influence the direction or flow of an existing flame. He can, for example, cause a campfire to leap from its place and onto a person, or direct the flame from a Zippo lighter in an arc to the pool of liquor on the countertop. He could not fan the flames to make a larger or hotter fire at this level.",
         "Practice": "Ruling",
@@ -729,7 +729,7 @@ const forceTwoData = [
         "Book": "M:tA 166"
     },
     {
-        "Titolo": "Insulate",
+        "Name": "Insulate",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "Electricity is the hidden force animating the modern world and in its raw form the fury of creation itself. Seers that meditate on it as a metaphor for magic find the ability to protect themselves from the damaging effects of contact with electricity useful.",
         "Practice": "Shielding",
@@ -750,7 +750,7 @@ const forceTwoData = [
         "Book": "SotT 191"
     },
     {
-        "Titolo": "Invisible Object",
+        "Name": "Invisible Object",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can render an inanimate object invisible to all forms of sight, including cameras. Cast in combination with “Influence Sound,” p. 163, the mage can redirect any sounds the object makes (such as the clicking of a camera shutter), making them seem to come from another location.",
         "Practice": "Veiling",
@@ -771,7 +771,7 @@ const forceTwoData = [
         "Book": "M:tA 166"
     },
     {
-        "Titolo": "Invisibility to Machines",
+        "Name": "Invisibility to Machines",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage becomes undetectable to electronic devices of all kinds.",
         "Practice": "Veiling",
@@ -803,7 +803,7 @@ const forceTwoData = [
         "Book": "FC 108"
     },
     {
-        "Titolo": "Invoke Password",
+        "Name": "Invoke Password",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage learns an electronic password or code.",
         "Practice": "Knowing",
@@ -828,7 +828,7 @@ const forceTwoData = [
         "Book": "FC 109"
     },
     {
-        "Titolo": "Kinetic Blow",
+        "Name": "Kinetic Blow",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage focuses the force of a physical attack, such as a punch or kick, down to a pinpoint, inflicting damage as though the person on the other end is stabbed with a knife.",
         "Practice": "Ruling",
@@ -853,7 +853,7 @@ const forceTwoData = [
         "Book": "M:tA 166"
     },
     {
-        "Titolo": "Modulate Frequency",
+        "Name": "Modulate Frequency",
         "Arcana": "Forces •• + Fate •",
         "DescrizioneAlta": "While it’s virtually impossible to completely prevent enemies from intercepting transmissions between allies, a measure of security is often necessary when sharing information over the airwaves. By means of this spell, willworkers can speak more freely, comfortable in the increased safety of their communications.",
         "Practice": "Veiling",
@@ -874,7 +874,7 @@ const forceTwoData = [
         "Book": "AA 177"
     },
     {
-        "Titolo": "Modulate Speech",
+        "Name": "Modulate Speech",
         "Arcana": "Fate • + Forces ••",
         "DescrizioneAlta": "A leader’s ability to communicate successfully is dependent upon many factors, not the least of which is her ability to use her voice to the greatest advantage in the pursuit of conveying intent. A mousy, timid voice does little to inspire — even when making a grand, stirring speech — while a low, rasping tone might incite a reflexive sense of trepidation, even when one wishes to offer comfort. Even a clear, resounding voice can benefit from a little careful manipulation, subtly downplaying or even phasing out all the little vocal imperfections people take for granted, leaving words too powerful and compelling to be denied. With this magic, a passable speaker can sound like a good one or even a great one, and a great speaker can move others to heights and depths of passion reserved for the most legendary of orators.",
         "Practice": "Ruling",
@@ -895,7 +895,7 @@ const forceTwoData = [
         "Book": "SL 197"
     },
     {
-        "Titolo": "Nullify Combustion",
+        "Name": "Nullify Combustion",
         "Arcana": "Forces •• + Death ••",
         "DescrizioneAlta": "Fire has been an instrument of battle for nearly as long as people have engaged in organized conflict. It is said by some that ancient Atlantis itself made use of great mystic siege engines, churning out hellish flames and spewing them upon the forces of enemy nations. Thus, it is unsurprising that magics have been developed to quell such flames before ever they’re ignited.",
         "Practice": "Ruling",
@@ -920,7 +920,7 @@ const forceTwoData = [
         "Book": "AA 177"
     },
     {
-        "Titolo": "Spare Sleepers",
+        "Name": "Spare Sleepers",
         "Arcana": "Forces ••, Space •, Prime •",
         "DescrizioneAlta": "The mage can fire (or throw or loose) ranged weapon attacks that will strike only mages and other supernatural beings. He can sweep a fully automatic weapon through a crowd without fear of hitting Sleepers, blindly loose arrows or throw knives, or use the spell to guarantee that he isn’t hitting a supernatural target’s Sleeper double, or a Sleeper that he mistakenly thinks is a supernatural being.",
         "Practice": "Ruling",
@@ -945,7 +945,7 @@ const forceTwoData = [
         "Book": "Ban 56"
     },
     {
-        "Titolo": "Telekinetic Push",
+        "Name": "Telekinetic Push",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "Sometimes a mage needs to make her point magically, but without causing any real bodily harm. In such instances, the power to gesture or nod and toss an opponent backwards is useful.",
         "Practice": "Ruling",
@@ -973,7 +973,7 @@ const forceTwoData = [
         "Book": "GotU 23"
     },
     {
-        "Titolo": "Transmission",
+        "Name": "Transmission",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "The mage can hijack an extant radio signal, transmitting her own words on it and replacing the original transmission.",
         "Practice": "Ruling",
@@ -994,7 +994,7 @@ const forceTwoData = [
         "Book": "M:tA 167"
     },
     {
-        "Titolo": "Unseen Shield",
+        "Name": "Unseen Shield",
         "Arcana": "Forces ••",
         "DescrizioneAlta": "Through the use of this spell, the mage deflects incoming attacks with an energy shield, dispersing their force along its invisible contours and causing a punch to land harmlessly. Kinetic attacks (like fists and bullets) are as surely turned aside as energy-based ones (like a gout of flame or a laser), their momentum stolen or power leeched away.",
         "Practice": "Shielding",
@@ -1033,7 +1033,7 @@ const forceTwoData = [
 
 const forceThreeData = [
     {
-        "Titolo": "Autonomous Servant",
+        "Name": "Autonomous Servant",
         "Arcana": "Forces ••• + Mind • or •••••; optional Space ••",
         "DescrizioneAlta": "The mage can have a spell perform an extended-action task for him while he goes about his own business. He might have it cook him dinner while he watches TV, or lift buckets of water while he reads a book.",
         "Practice": "Weaving",
@@ -1066,7 +1066,7 @@ const forceThreeData = [
         "Book": "M:tA 167"
     },
     {
-        "Titolo": "Bestow Unseen Shield",
+        "Name": "Bestow Unseen Shield",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage casts a protective ward upon others. As with the Forces 2 'Unseen Shield' spell, p. 167.",
         "Practice": "Shielding",
@@ -1081,7 +1081,7 @@ const forceThreeData = [
         "Book": "M:tA 168"
     },
     {
-        "Titolo": "Call Lightning",
+        "Name": "Call Lightning",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage calls down lightning from a stormy sky to strike a target of his choice. He cannot conjure lightning from nothing (at least, not at this level). He can bring down lightning only from a pre-existing storm or a storm he causes through the 'Change Weather' spell, p. 172.",
         "Practice": "Weaving",
@@ -1106,7 +1106,7 @@ const forceThreeData = [
         "Book": "M:tA 168"
     },
     {
-        "Titolo": "Complex Transmission",
+        "Name": "Complex Transmission",
         "Arcana": "Forces •••",
         "DescrizioneAlta": [
             {
@@ -1133,7 +1133,7 @@ const forceThreeData = [
         "Book": "FC 109"
     },
     {
-        "Titolo": "Control Electricity",
+        "Name": "Control Electricity",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage can diminish an electrical current and/or alter its direction of flow. He could cut the power to a certain outlet, redirect all the electricity in the building to a single outlet, or send the power coursing through one outlet to multiple outlets (assuming the physical wiring exists or there is some other way to control conductivity). He cannot increase the current at this level, since that involves generating new electricity. He can work with only existing electricity at this level.",
         "Practice": "Weaving",
@@ -1154,7 +1154,7 @@ const forceThreeData = [
         "Book": "M:tA 168"
     },
     {
-        "Titolo": "Control Fire",
+        "Name": "Control Fire",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage can fuel an existing fire, increasing its size and intensity. Likewise, he can deprive an existing fire of fuel, dampening or even extinguishing it.",
         "Practice": "Weaving or Fraying",
@@ -1186,7 +1186,7 @@ const forceThreeData = [
         "Book": "M:tA 168"
     },
     {
-        "Titolo": "Curse of Electrical Rebellion",
+        "Name": "Curse of Electrical Rebellion",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage creates a cursed item that will cause electrical components to short out, malfunction and otherwise stop working in the owner’s presence. Computers, automobiles, elevators, heaters, hair dryers and cell phones comprise just part of the list of rebellious devices. Malfunctions range in seriousness from merely inconvenient to life-threatening.",
         "Practice": "Weaving",
@@ -1207,7 +1207,7 @@ const forceThreeData = [
         "Book": "TotM 139"
     },
     {
-        "Titolo": "Cutting Scream",
+        "Name": "Cutting Scream",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage focuses the sound of his voice to damage and deafen a single opponent within range of touch.",
         "Practice": "Fraying",
@@ -1228,7 +1228,7 @@ const forceThreeData = [
         "Book": "AA 178"
     },
     {
-        "Titolo": "Empowered Voice",
+        "Name": "Empowered Voice",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "There’s a time for words, and a time for action. With this spell, a mage can move from one scenario to the other instantly, as her voice is transformed from a tool of communication into a potent weapon. A single syllable uttered by the mage is magically amplified, creating a thunderous shockwave to sweep aside any who would stand in her way.",
         "Practice": "Weaving",
@@ -1249,7 +1249,7 @@ const forceThreeData = [
         "Book": "AA 178"
     },
     {
-        "Titolo": "Floating Step",
+        "Name": "Floating Step",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "This spell manipulates wind currents and kinetic energy around the mage to improve her balance and jumping ability, all while reducing her effective weight.",
         "Practice": "Weaving",
@@ -1270,7 +1270,7 @@ const forceThreeData = [
         "Book": "GoG 70"
     },
     {
-        "Titolo": "Instill Shock",
+        "Name": "Instill Shock",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage weaves a protective measure into an electronic device or other device capable of holding a significant charge of electrical energy. Unauthorized individuals touching the device receive a powerful shock.",
         "Practice": "Weaving",
@@ -1295,7 +1295,7 @@ const forceThreeData = [
         "Book": "TotM 140"
     },
     {
-        "Titolo": "Light Mastery",
+        "Name": "Light Mastery",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage can create or extinguish light. He could cause a room to go pitch-black or light a dark cave from nothing but the tip of a glowing finger.",
         "Practice": "Weaving",
@@ -1349,7 +1349,7 @@ const forceThreeData = [
         "Book": "M:tA 169"
     },
     {
-        "Titolo": "Optimize Kinetic Attack",
+        "Name": "Optimize Kinetic Attack",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "This spell channels wasted kinetic energy from a mage’s movements into the speed and force of an attack.",
         "Practice": "Weaving",
@@ -1382,7 +1382,7 @@ const forceThreeData = [
         "Book": "GoG 71"
     },
     {
-        "Titolo": "Personal Invisibility",
+        "Name": "Personal Invisibility",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage can turn herself invisible. As with the Forces 2 “Invisible Object” spell, p. 166, but cast upon herself. Cast in combination with “Sound Mastery,” p. 170, the mage can be invisible and completely silent. She must maintain concentration as an instant action to remain unseen.",
         "Practice": "Veiling",
@@ -1418,7 +1418,7 @@ const forceThreeData = [
         "Book": "M:tA 169"
     },
     {
-        "Titolo": "Sorcerer's Retribution",
+        "Name": "Sorcerer's Retribution",
         "Arcana": "Song: Angels of Malice) (Forces •••, Prime ••",
         "DescrizioneAlta": "This spell creates a matrix of kinetic and magical energy around the caster that’s sensitive to invading magic. This whirling shard of bound force orbits him, avoiding nearby objects and leaving nothing other than a slight breeze to indicate its existence. When anyone casts a damaging spell on the caster the matrix lashes out, intercepting the intrusion and following it back to strike the source.",
         "Practice": "Shielding",
@@ -1443,7 +1443,7 @@ const forceThreeData = [
         "Book": "GoG 55"
     },
     {
-        "Titolo": "Sound Mastery",
+        "Name": "Sound Mastery",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage creates sounds or silences them. He could, for example, create the sound of a police siren or render absolutely silent the footfalls of a stealthy intruder. He can also record sounds, storing them magically for later playback.",
         "Practice": "Weaving",
@@ -1505,7 +1505,7 @@ const forceThreeData = [
         "Book": "M:tA 170"
     },
     {
-        "Titolo": "Stay the Invisible Fires",
+        "Name": "Stay the Invisible Fires",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage creates an invisible shield against radiation. For the Duration, the mage is immune to the effects of harmful radiation and does not become irradiated, although other side effects can cause harm. So the mage could handle plutonium with bare hands without risk, but couldn’t resist the heat of a nuclear reactor (and would want to be careful to wash off any radioactive materials before the Duration ended or before coming into contact with anyone else).",
         "Practice": "Shielding",
@@ -1520,7 +1520,7 @@ const forceThreeData = [
         "Book": "FC 109"
     },
     {
-        "Titolo": "Summon Supernal Being",
+        "Name": "Summon Supernal Being",
         "Arcana": "Any Arcanum •••",
         "Practice": "Weaving",
         "Action": "Extended",
@@ -1611,7 +1611,7 @@ const forceThreeData = [
         "Book": "Summ 73"
     },
     {
-        "Titolo": "Supernal Hack",
+        "Name": "Supernal Hack",
         "Arcana": "Forces ••• + Matter •••",
         "DescrizioneAlta": [
             {
@@ -1634,7 +1634,7 @@ const forceThreeData = [
         "Book": "Myst 194"
     },
     {
-        "Titolo": "Telekinesis",
+        "Name": "Telekinesis",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage can telekinetically lift and/or use an object remotely.",
         "Practice": "Weaving",
@@ -1670,7 +1670,7 @@ const forceThreeData = [
         "Book": "M:tA 170"
     },
     {
-        "Titolo": "Telekinetic Strike",
+        "Name": "Telekinetic Strike",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage creates a ball of telekinetic force that he hurls at his intended target.",
         "Practice": "Fraying",
@@ -1691,7 +1691,7 @@ const forceThreeData = [
         "Book": "M:tA 170"
     },
     {
-        "Titolo": "Turn Projectile",
+        "Name": "Turn Projectile",
         "Arcana": "Forces •••",
         "DescrizioneAlta": "The mage can direct the course of a fast projectile.",
         "Practice": "Weaving",
@@ -1785,7 +1785,7 @@ const forceThreeData = [
 
 const forceFourData = [
     {
-        "Titolo": "Bag of Winds",
+        "Name": "Bag of Winds",
         "Arcana": "Forces •••• + Fate •• + Time ••",
         "DescrizioneAlta": "Aeolus gave Odysseus a bag of winds, and if the bag didn’t work, it was because of the incompetence of the hero’s men, not the efficacy of the magic. Mages have long passed on the method of duplicating Aeolus’ result in a bag or a pocket.",
         "Practice": "Patterning",
@@ -1821,7 +1821,7 @@ const forceFourData = [
         "Book": "L:tA 68"
     },
     {
-        "Titolo": "Bestow Invisibility",
+        "Name": "Bestow Invisibility",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage can turn another person invisible, as he does with himself with the Forces 3 “Personal Invisibility” spell, p. 169. The target must maintain concentration to remain unseen.",
         "Practice": "Veiling",
@@ -1842,7 +1842,7 @@ const forceFourData = [
         "Book": "M:tA 171"
     },
     {
-        "Titolo": "Burst of Speed",
+        "Name": "Burst of Speed",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": [
             {
@@ -1876,7 +1876,7 @@ const forceFourData = [
         "Book": "M:tA 171"
     },
     {
-        "Titolo": "Change Weather",
+        "Name": "Change Weather",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage alters weather patterns, bringing almost any sort of normal (non-disastrous) weather to bear on an area, given enough time and effort. (Note that a frost in late spring, while potentially very destructive to local food production, is not the same sort of thing as a tornado or typhoon, and can be created using this level of Forces.)",
         "Practice": "Patterning",
@@ -1901,7 +1901,7 @@ const forceFourData = [
         "Book": "M:tA 172"
     },
     {
-        "Titolo": "Containment",
+        "Name": "Containment",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "Mages who regularly work with ancient artifacts or experiment with explosives, advanced technologies, or unusual types of magic often risk injury or death if the device or spell suddenly reacts in some violent and unpredictable manner. This spell provides automatic protection for the mage, her laboratory, and her companions.",
         "Practice": "Shielding",
@@ -1929,7 +1929,7 @@ const forceFourData = [
         "Book": "Myst 195"
     },
     {
-        "Titolo": "Control Velocity",
+        "Name": "Control Velocity",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage can increase or decrease the velocity of an object (but not a living creature). He could, for example, make a hurtling truck slow down, or speed up (or slow down) a bullet.",
         "Practice": "Patterning or Unraveling",
@@ -2018,7 +2018,7 @@ const forceFourData = [
         "Book": "M:tA 172"
     },
     {
-        "Titolo": "Destroy Spirit",
+        "Name": "Destroy Spirit",
         "Arcana": "Forces ••••, Prime ••••",
         "DescrizioneAlta": "Caging a creature is all well and good, but sometimes you just need to annihilate it. Designed to simultaneously attack all aspects of spirits, ghosts, and other ephemeral beings, this spell is a weapon against anything that comes from anywhere other than the flesh-and-blood world of mundane Sleepers. The raw might of the Aether is brought to bear against the target, potentially destroying all traces of the unfortunate entity.",
         "Practice": "Unraveling",
@@ -2039,7 +2039,7 @@ const forceFourData = [
         "Book": "Summ 208"
     },
     {
-        "Titolo": "Fiery Transformation",
+        "Name": "Fiery Transformation",
         "Arcana": "Forces •••• + Life ••••; optional Matter ••••",
         "DescrizioneAlta": "Stories of old tell of willworkers using the power of magic to metamorphose into all manner of strange forms. Many chose to become animals or to take on the shape of other people, while some assumed more fanciful skins. With this spell, a mage transforms into a creature of living flame.",
         "Practice": "Patterning",
@@ -2076,7 +2076,7 @@ const forceFourData = [
         "Book": "M:tA 172"
     },
     {
-        "Titolo": "Fiery Servant",
+        "Name": "Fiery Servant",
         "Arcana": "Forces •••• + Mind •••••",
         "DescrizioneAlta": "Some mages pride themselves on their leadership skills. Many have the ability to make men lay down their lives. The truly powerful, however, can make even the fire itself follow them, creating beings made of flame to do their bidding.",
         "Practice": "Making",
@@ -2116,7 +2116,7 @@ const forceFourData = [
         "Book": "L:tA 43"
     },
     {
-        "Titolo": "Firebolt",
+        "Name": "Firebolt",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "One of the signature spells of the battle-minded Obrimos, this magic allows a willworker to project a lancing gout of flame from his fingertips toward a target at range.",
         "Practice": "Unraveling",
@@ -2137,7 +2137,7 @@ const forceFourData = [
         "Book": "AA 179"
     },
     {
-        "Titolo": "Firestarter",
+        "Name": "Firestarter",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "Sometimes the wrath of the Tamers of Fire burns hot and bright. Magical arson may not be honorable, but fire can cleanse, and fire can destroy. When all looks impossible, an inferno from nowhere can ensure that even if a Champion doesn’t get out alive, his opponents join him in the flames.",
         "Practice": "Unraveling",
@@ -2233,7 +2233,7 @@ const forceFourData = [
         "Book": "L:tA 43"
     },
     {
-        "Titolo": "Friction Knife",
+        "Name": "Friction Knife",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage increases the force of friction upon a given subject to the point that contact with the air itself causes lacerations and abrasions. A stiff wind can mean excruciating pain or death in the case of a very powerful caster.",
         "Practice": "Fraying",
@@ -2254,7 +2254,7 @@ const forceFourData = [
         "Book": "M:tA 173"
     },
     {
-        "Titolo": "Gravity Shift",
+        "Name": "Gravity Shift",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "Sometimes the path a mage needs to follow becomes blocked or impassable. No matter — with this spell the caster isn’t limited to walking on the ground. He can amble up the side of a wall or stride across a ceiling, avoiding obstructions that would slow the passage of earthbound travelers.",
         "Practice": "Patterning",
@@ -2287,7 +2287,7 @@ const forceFourData = [
         "Book": "AA 179"
     },
     {
-        "Titolo": "Influence Magnet",
+        "Name": "Influence Magnet",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage can strengthen or weaken any natural magnet or magnetic substance.",
         "Practice": "Patterning",
@@ -2320,7 +2320,7 @@ const forceFourData = [
         "Book": "TotM 63"
     },
     {
-        "Titolo": "Invisible Fire",
+        "Name": "Invisible Fire",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage strikes a target with a concentrated amount of radiation.",
         "Practice": "Fraying",
@@ -2341,7 +2341,7 @@ const forceFourData = [
         "Book": "FC 110"
     },
     {
-        "Titolo": "Kinetic Ripple",
+        "Name": "Kinetic Ripple",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage lashes out with her magic, harming anyone near her with a shimmering wave of force. Those nearest the mage suffer the most damage, as the wave of force quickly decreases in ferocity the further the wave spreads. The visible effects from this spell on a body are misleading. Serious internal damage can be caused while leaving only bruises.",
         "Practice": "Unraveling",
@@ -2374,7 +2374,7 @@ const forceFourData = [
         "Book": "AA 180"
     },
     {
-        "Titolo": "Levitation",
+        "Name": "Levitation",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage can lift himself off the ground using telekinetic force. At this level of Forces, travel is slow and requires concentration.",
         "Practice": "Patterning",
@@ -2410,7 +2410,7 @@ const forceFourData = [
         "Book": "M:tA 173"
     },
     {
-        "Titolo": "Quench the Invisible Fires",
+        "Name": "Quench the Invisible Fires",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "This spell cleanses radioactivity from an affected area.",
         "Practice": "Unraveling",
@@ -2439,7 +2439,7 @@ const forceFourData = [
         "Book": "FC 110"
     },
     {
-        "Titolo": "Sensory Deprivation",
+        "Name": "Sensory Deprivation",
         "Arcana": "Forces ••••; optional Life ••• or Mind ••",
         "DescrizioneAlta": [
             {
@@ -2477,7 +2477,7 @@ const forceFourData = [
         "Book": "TotM 63"
     },
     {
-        "Titolo": "Thunderbolt",
+        "Name": "Thunderbolt",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage conjures up crackling tendrils of electricity that dance between her fingertips, and then sends them at a ranged target.",
         "Practice": "Unraveling",
@@ -2498,7 +2498,7 @@ const forceFourData = [
         "Book": "M:tA 173"
     },
     {
-        "Titolo": "Transform Energy",
+        "Name": "Transform Energy",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage can transform energy: sound into light or heat, or electricity into sound, or fire into electricity, or any combination of these forces. All kinds of energy have their origins in certain physical principles that manifested long ago and diverged from a single course. Using that sympathy, a mage can change one kind of energy into another.",
         "Practice": "Patterning",
@@ -2580,7 +2580,7 @@ const forceFourData = [
         "Book": "M:tA 173"
     },
     {
-        "Titolo": "Trojan Horse",
+        "Name": "Trojan Horse",
         "Arcana": "Forces •••• + Time •• + Fate ••",
         "DescrizioneAlta": "The use of this spell is undoubtedly an act of cruelty; some might even call it an act of terrorism. In the end, however, the difference between a terrorist and a freedom fighter depends on point of view. Certainly, Banishers have no qualms about using this spell in their fight against mages. The mage plants a destructive spell in a Sleeper subject, concealing a lethal time bomb within an unsuspecting person.",
         "Practice": "Unraveling",
@@ -2631,7 +2631,7 @@ const forceFourData = [
         "Book": "Ban 57"
     },
     {
-        "Titolo": "Unseen Hand",
+        "Name": "Unseen Hand",
         "Arcana": "Forces ••••",
         "DescrizioneAlta": "The mage can telekinetically lift a living creature remotely.",
         "Practice": "Weaving",
@@ -2675,7 +2675,7 @@ const forceFourData = [
 
 const forceFiveData = [
     {
-        "Titolo": "Adverse Weather",
+        "Name": "Adverse Weather",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage creates a major weather disturbance such as a tsunami or monsoon, following the guidelines of the “Change Weather” spell, p. 172.",
         "Practice": "Making",
@@ -2699,7 +2699,7 @@ const forceFiveData = [
         "Book": "M:tA 174"
     },
     {
-        "Titolo": "Bestow Burst of Speed",
+        "Name": "Bestow Burst of Speed",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage allows others to vastly speed up their movement, as he does for himself with Forces 4 “Burst of Speed,” p. 171.",
         "Practice": "Patterning",
@@ -2720,7 +2720,7 @@ const forceFiveData = [
         "Book": "M:tA 175"
     },
     {
-        "Titolo": "Bestow Levitation",
+        "Name": "Bestow Levitation",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage can impart levitation to others. This is identical to that which a mage could bestow upon himself with “Levitation,” p. 173, although the target must concentrate to levitate. This spell can be cast upon only willing targets. To lift an unwilling target, the caster must use “Unseen Hand,” p. 174.",
         "Practice": "Making",
@@ -2741,7 +2741,7 @@ const forceFiveData = [
         "Book": "M:tA 175"
     },
     {
-        "Titolo": "Complete Invisibility",
+        "Name": "Complete Invisibility",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage can turn herself invisible, as with the Forces 3 “Personal Invisibility” spell, p. 169, but she no longer needs to maintain concentration to remain unseen.",
         "Practice": "Veiling",
@@ -2762,7 +2762,7 @@ const forceFiveData = [
         "Book": "M:tA 175"
     },
     {
-        "Titolo": "Control Gravity",
+        "Name": "Control Gravity",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage redirects the force of gravity, causing people and things to fall in another direction, such as sideways or upward.",
         "Practice": "Making",
@@ -2823,7 +2823,7 @@ const forceFiveData = [
         "Book": "M:tA 176"
     },
     {
-        "Titolo": "Create Sunlight",
+        "Name": "Create Sunlight",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage creates sunlight. He does not really turn night into day, but does create a miniature sun, a source of true sunlight.",
         "Practice": "Making",
@@ -2873,7 +2873,7 @@ const forceFiveData = [
         "Book": "M:tA 176"
     },
     {
-        "Titolo": "Earthquake",
+        "Name": "Earthquake",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "With this spell, a mage can create a localized earthquake by manipulating the balance of force and pressure beneath the ground.",
         "Practice": "Unmaking",
@@ -2919,7 +2919,7 @@ const forceFiveData = [
         "Book": "M:tA 176"
     },
     {
-        "Titolo": "Electromagnetic Pulse",
+        "Name": "Electromagnetic Pulse",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage creates an EMP that destroys power and electrical devices.",
         "Practice": "Unmaking",
@@ -2948,7 +2948,7 @@ const forceFiveData = [
         "Book": "M:tA 177"
     },
     {
-        "Titolo": "Eradicate Radiation",
+        "Name": "Eradicate Radiation",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage extinguishes a source of nuclear radiation in an area.",
         "Practice": "Unmaking",
@@ -3002,7 +3002,7 @@ const forceFiveData = [
         "Book": "M:tA 177"
     },
     {
-        "Titolo": "Flight",
+        "Name": "Flight",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage acquires the power of flight, using telekinetic force to repel herself from the surface of the Earth and upward into the air. This is a more advanced version of Forces 4 “Levitation” (p. 173). The mage now has more maneuverability and no longer needs to maintain concentration to lift away from gravity’s pull.",
         "Practice": "Making",
@@ -3043,7 +3043,7 @@ const forceFiveData = [
         "Book": "M:tA 177"
     },
     {
-        "Titolo": "Increase Gravity",
+        "Name": "Increase Gravity",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "This spell increases the pull of gravity, as if the Earth were a larger body.",
         "Practice": "Making",
@@ -3093,7 +3093,7 @@ const forceFiveData = [
         "Book": "M:tA 178"
     },
     {
-        "Titolo": "Magnetize",
+        "Name": "Magnetize",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "By manipulating an object’s magnetic properties, the mage can turn non-magnetic objects into temporary magnets.",
         "Practice": "Patterning",
@@ -3118,7 +3118,7 @@ const forceFiveData = [
         "Book": "TotM 63"
     },
     {
-        "Titolo": "Nullify Gravity",
+        "Name": "Nullify Gravity",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "This spell decreases the pull of gravity as if the Earth were a smaller body.",
         "Practice": "Unmaking",
@@ -3168,7 +3168,7 @@ const forceFiveData = [
         "Book": "M:tA 178"
     },
     {
-        "Titolo": "Radiation",
+        "Name": "Radiation",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage irradiates an area, causing it to be suffused with deadly radiation.",
         "Practice": "Unmaking",
@@ -3306,7 +3306,7 @@ const forceFiveData = [
         "Book": "M:tA 178"
     },
     {
-        "Titolo": "Velocity Mastery",
+        "Name": "Velocity Mastery",
         "Arcana": "Forces •••••",
         "DescrizioneAlta": "The mage can completely control an object or even a living creature’s velocity, causing the subject to speed up or slow down beyond personal control. The mage can even halt bullets in midair.",
         "Practice": "Making or Unmaking",

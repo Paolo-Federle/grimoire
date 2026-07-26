@@ -20,12 +20,12 @@
 // const SPIRIT_NUMINA_DETAILS = Object.fromEntries(spiritNuminaData.map(n => [slug(n.Name), `/spirit/numina/${slug(n.Name)}`]));
 // const DERANGEMENT_DETAILS = Object.fromEntries(derangementData.map(d => [slug(d.Name), `/derangements/${slug(d.Name)}`]));
 // const LOCATION_DETAILS = Object.fromEntries(allLocation.map(l => [slug(l.Name), `/merits/location/${slug(l.Name)}`]));
-// const UNIVERSAL_MERIT_DETAILS = Object.fromEntries(allUniMeritsData.map(m => [slug(m.Title), `/universal_merit/${slug(m.Title)}`]));
-// const MAGE_MERIT_DETAILS = Object.fromEntries(allMageMeritsData.map(m => [slug(m.Title), `/mage/merits/${slug(m.Title)}`]));
-// const MAGE_LEGACY_DETAILS = Object.fromEntries(LegacyData.map(l => [slug(l.Nome), `/mage/legacy/${slug(l.Nome)}`]));
-// const MAGE_SPELL_DETAILS = Object.fromEntries(SpellsData.map(s => [slug(s.Titolo), `/mage/spells/${slug(s.Titolo)}`]));
-// const MAGE_ARTIFACT_DETAILS = Object.fromEntries(artifactData.map(a => [slug(a.Nome), `/mage/artifacts/${slug(a.Nome)}`]));
-// const MAGE_IMBUED_ITEM_DETAILS = Object.fromEntries(imbuedItemsData.map(i => [slug(i.Nome), `/mage/imbued_items/${slug(i.Nome)}`]));
+// const UNIVERSAL_MERIT_DETAILS = Object.fromEntries(allUniMeritsData.map(m => [slug(m.Name), `/universal_merit/${slug(m.Name)}`]));
+// const MAGE_MERIT_DETAILS = Object.fromEntries(allMageMeritsData.map(m => [slug(m.Name), `/mage/merits/${slug(m.Name)}`]));
+// const MAGE_LEGACY_DETAILS = Object.fromEntries(LegacyData.map(l => [slug(l.Name), `/mage/legacy/${slug(l.Name)}`]));
+// const MAGE_SPELL_DETAILS = Object.fromEntries(SpellsData.map(s => [slug(s.Name), `/mage/spells/${slug(s.Name)}`]));
+// const MAGE_ARTIFACT_DETAILS = Object.fromEntries(artifactData.map(a => [slug(a.Name), `/mage/artifacts/${slug(a.Name)}`]));
+// const MAGE_IMBUED_ITEM_DETAILS = Object.fromEntries(imbuedItemsData.map(i => [slug(i.Name), `/mage/imbued_items/${slug(i.Name)}`]));
 // const CHANGELING_CONTRACT_DETAILS = Object.fromEntries(allContracts.map(c => [slug(c.Name), `/changeling/contracts/${slug(c.Name)}`]));
 // const CHANGELING_MERIT_DETAILS = Object.fromEntries(allChangelingMeritsData.map(m => [slug(m.Name), `/changeling/merits/${slug(m.Name)}`]));
 // const CHANGELING_TOKEN_DETAILS = Object.fromEntries(allToken.map(t => [slug(t.Name), `/changeling/tokens/${slug(t.Name)}`]));
@@ -37,8 +37,10 @@
 
 export const PATHS = {
     HOME: '/',
+    SEARCH: '/search',
     FAVORITES: '/favorites',
     BOOKS: '/books',
+    BOOK_DETAIL: '/books/:slug',
     SIZE: '/size',
     ITEMS: '/items',
     NPC: 'npc',

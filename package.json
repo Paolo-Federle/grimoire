@@ -15,8 +15,11 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "prestart": "node scripts/generate-search-index.mjs",
     "start": "vite",
+    "predev": "node scripts/generate-search-index.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/generate-search-index.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run"
