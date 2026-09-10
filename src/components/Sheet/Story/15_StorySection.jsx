@@ -2,6 +2,7 @@ import CategoryContainer from "../Common/17_CategoryContainer";
 import { TextInput } from "../Common/35_TextInput";
 import { useSheetData, useSheetView } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
+import ExperienceSection from "../Experience/15_ExperienceSection";
 
 const emptyBackground = { name: "", description: "" };
 const emptyRelationship = { name: "", type: "", description: "" };
@@ -67,6 +68,8 @@ export default function StorySection() {
 
   return (
     <div className="space-y-4">
+      <ExperienceSection />
+
       <CategoryContainer section="CHRONICLE & IDENTITY">
         <div className="grid w-full gap-3 md:grid-cols-2">
           {[

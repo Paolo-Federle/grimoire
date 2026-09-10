@@ -1,4 +1,5 @@
 import React from 'react';
+import { BookLink } from '../../components/BookLink';
 import StructuredContent, { InlineContent } from '../../components/StructuredContent';
 
 function RichContent({ content }) {
@@ -66,7 +67,8 @@ export default function LegacyDetail(props) {
                                 <LabeledRichContent label="Appearance" content={matchedLegacy.appearance} />
                                 <LabeledRichContent label="Background" content={matchedLegacy.background} />
                                 <LabeledRichContent label="Character Creation" content={matchedLegacy.characterCreation} />
-                                <LabeledRichContent label="Organizzation" content={matchedLegacy.organizzation} />
+                                <LabeledRichContent label="Orders" content={matchedLegacy.orders} />
+                                <LabeledRichContent label="Organization" content={matchedLegacy.organizzation} />
                                 <LabeledRichContent label="Suggested Oblations" content={matchedLegacy.suggestedOblations} />
                                 <LabeledRichContent label="Concepts" content={matchedLegacy.concepts} />
                                 <RichContent content={matchedLegacy.historySocietyCulture} />
@@ -94,6 +96,7 @@ export default function LegacyDetail(props) {
                                 <RichContent content={matchedLegacy.thirdAttainmentDescription} />
                                 <LabeledRichContent label="Optional Arcanum" content={matchedLegacy.thirdAttainmentOptArcana} />
                                 <RichContent content={matchedLegacy.thirdAttainmentOptDescrizione} />
+                                {matchedLegacy.Book && <div><b>Book:</b> {BookLink(matchedLegacy.Book)}</div>}
                                 <br />
                             </div>
                         </div>

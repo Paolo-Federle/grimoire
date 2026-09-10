@@ -10,7 +10,7 @@ import { RouteNotFound } from "./components/RouteFeedback";
 import "./css/App.css";
 import "./css/Races-Style.css";
 import theme from "./css/muiTheme";
-import { getSheetPath, PATHS } from "./pages/path";
+import { getMageLegacyPath, getSheetPath, PATHS } from "./pages/path";
 import { slugify } from "./utils";
 
 const HomePage = lazy(() => import("./pages/home"));
@@ -649,11 +649,14 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.allMageMeritsData, slug),
   },
   {
-    path: `${PATHS.MAGE.LEGACY}/:slug`,
+    path: getMageLegacyPath(),
     propKey: "legacy",
     loadPage: () => import("./pages/Mage/LegacyDetail"),
-    loadData: () => import("./Data/Mage/LegacyData"),
-    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.LegacyData, slug),
+    loadData: ({ slug }) =>
+      import("./Data/Mage/LegacyDetailLoader").then(({ loadLegacyDetailById }) =>
+        loadLegacyDetailById(slug)
+      ),
+    resolveItem: ({ dataModule }) => dataModule,
   },
   {
     path: `${PATHS.MAGE.SPELLS}/:slug`,

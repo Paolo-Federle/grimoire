@@ -149,7 +149,10 @@ p {
     font-size: 1.05rem;
 }
 
-.longTextContainer .structured-content-heading-3 {
+.longTextContainer .structured-content-heading-3,
+.longTextContainer .structured-content-heading-4,
+.longTextContainer .structured-content-heading-5,
+.longTextContainer .structured-content-heading-6 {
     font-size: 1rem;
 }
 

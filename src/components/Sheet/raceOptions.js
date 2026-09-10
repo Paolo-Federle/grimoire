@@ -45,6 +45,28 @@ const extractOptions = (items, field) =>
 const buildOptions = (items, formatter) =>
   uniqueOptions((items || []).map((item) => formatter(item)));
 
+const buildLegacyOptions = (items) => {
+  const nameCounts = (items || []).reduce((counts, item) => {
+    const name = normalizeOption(item?.Name);
+
+    if (name) {
+      counts.set(name, (counts.get(name) || 0) + 1);
+    }
+
+    return counts;
+  }, new Map());
+
+  return (items || [])
+    .filter((item) => normalizeOption(item?.Id) && normalizeOption(item?.Name))
+    .map((item) => ({
+      value: item.Id,
+      label:
+        nameCounts.get(item.Name) > 1 && item.Book
+          ? `${item.Name} — ${item.Book}`
+          : item.Name,
+    }));
+};
+
 const detailPath = (basePath, name) =>
   name ? `${basePath}/${slugify(name)}` : null;
 
@@ -86,17 +108,17 @@ const werewolfTribes = [
 ];
 
 async function loadMageCatalog() {
-  const [{ Paths }, { Orders }, { LegacyData }] = await Promise.all([
+  const [{ Paths }, { Orders }, { LegacyIndexData }] = await Promise.all([
     import("../../Data/Mage/PathData"),
     import("../../Data/Mage/OrderData"),
-    import("../../Data/Mage/LegacyData"),
+    import("../../Data/Mage/LegacyIndexData"),
   ]);
 
   return {
     characterDetails: {
       path: Paths,
       order: Orders,
-      legacy: extractOptions(LegacyData, "Name"),
+      legacy: buildLegacyOptions(LegacyIndexData),
     },
     sectionConfig: mageDots,
   };

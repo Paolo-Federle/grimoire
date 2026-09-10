@@ -2,6 +2,7 @@ import { act, fireEvent, render, screen } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import LazyDetailRoute from "../components/LazyDetailRoute";
+import StructuredContent from "../components/StructuredContent";
 import { SheetDataProvider, useSheetData } from "../components/Sheet/05_SheetDataContext";
 import { sheetData } from "../components/Sheet/00_SheetData";
 import { normalizeSheetData } from "../components/Sheet/sheetStorage";
@@ -84,11 +85,30 @@ describe("race catalogs", () => {
       catalog.sectionConfig.dotGroups.length + catalog.sectionConfig.lists.length
     ).toBeGreaterThan(0);
   });
+
+  it("uses stable Legacy IDs and disambiguates duplicate display names", async () => {
+    const catalog = await loadRaceCatalog("mage");
+    const legacyOptions = catalog.characterDetails.legacy;
+    const scelestiOptions = legacyOptions.filter((option) =>
+      option.label.startsWith("Scelesti (variant)")
+    );
+
+    expect(legacyOptions).toHaveLength(94);
+    expect(new Set(legacyOptions.map((option) => option.value)).size).toBe(94);
+    expect(scelestiOptions).toEqual([
+      { value: "scelesti_variant", label: "Scelesti (variant) — KST" },
+      {
+        value: "scelesti_variant_nh_tu",
+        label: "Scelesti (variant) — NH-TU",
+      },
+    ]);
+  });
 });
 
 describe("detail route feedback", () => {
   it("renders a not-found state when the slug has no matching data", async () => {
     const Page = ({ item }) => <div>{item?.name}</div>;
+    const loadData = vi.fn(() => Promise.resolve({ items: [] }));
 
     render(
       <MemoryRouter initialEntries={["/details/missing"]}>
@@ -98,7 +118,7 @@ describe("detail route feedback", () => {
             element={
               <LazyDetailRoute
                 loadPage={() => Promise.resolve({ default: Page })}
-                loadData={() => Promise.resolve({ items: [] })}
+                loadData={loadData}
                 propKey="item"
                 resolveItem={() => null}
               />
@@ -109,6 +129,7 @@ describe("detail route feedback", () => {
     );
 
     expect(await screen.findByRole("heading", { name: "Content not found" })).toBeInTheDocument();
+    expect(loadData).toHaveBeenCalledWith({ slug: "missing" });
   });
 
   it("renders a retryable error when a lazy module fails", async () => {
@@ -134,6 +155,20 @@ describe("detail route feedback", () => {
       await screen.findByRole("heading", { name: "Content could not be loaded" })
     ).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Try again" })).toBeInTheDocument();
+  });
+});
+
+describe("structured editorial content", () => {
+  it("preserves the semantic level of deeply nested headings", () => {
+    render(
+      <StructuredContent
+        content={{ type: "heading", level: 4, text: "Optional Attainment" }}
+      />
+    );
+
+    expect(
+      screen.getByRole("heading", { level: 4, name: "Optional Attainment" })
+    ).toBeInTheDocument();
   });
 });
 

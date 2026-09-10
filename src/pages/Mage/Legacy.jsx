@@ -1,28 +1,33 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable';
-import { LegacyData } from '../../Data/Mage/LegacyData';
-import { removeFieldsAndAddLink } from '../../utils';
+import { LegacyIndexData } from '../../Data/Mage/LegacyIndexData';
+import { getMageLegacyPath } from '../path';
 
 export default function Legacy() {
-    const LegacyReducedData = removeFieldsAndAddLink({
-        data: LegacyData,
-        fieldsToRemove: [
-            'leftHanded', 'descrizione', 'alternateNickname', 'orders', 'appearance', 'background',
-            'organizzation', 'suggestedOblations', 'concepts', 'historySocietyCulture', 'magic',
-            'attainmentsDescrizione', 'firstAttainmentName', 'firstAttainmentPrerequisites',
-            'firstAttainmentDescription', 'firstAttainmentOptArcana', 'firstAttainmentOptDescrizione',
-            'secondAttainmentName', 'secondAttainmentPrerequisites', 'secondAttainmentDescription',
-            'secondAttainmentOptArcana', 'secondAttainmentOptDescrizione',
-            'thirdAttainmentName', 'thirdAttainmentPrerequisites', 'thirdAttainmentDescription',
-            'thirdAttainmentOptArcana', 'thirdAttainmentOptDescrizione'
-        ],
-        urlPrefix: '/mage/legacy/',
-        keyToUseForLinks: 'Name'
-    });
+    const headers = [
+        'Name',
+        'Cammino',
+        'Ordine',
+        'Nickname',
+        'Primary Arcanum',
+        'Conjunctional Arcanum',
+        'Optional Arcanum',
+        'Book',
+    ];
+
+    const legacyTableData = LegacyIndexData.map((legacy) => ({
+        ...legacy,
+        link: getMageLegacyPath(legacy.Id),
+    }));
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={LegacyReducedData} title="Legacy" activeRowLink={true} />
+            <SimpleTable
+                table={legacyTableData}
+                title="Legacy"
+                headers={headers}
+                activeRowLink={true}
+            />
         </div>
     );
 }

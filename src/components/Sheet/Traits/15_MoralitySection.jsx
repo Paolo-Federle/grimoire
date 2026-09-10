@@ -56,7 +56,7 @@ const normalizeDerangementEntries = (entries, level, findIdByName = () => "") =>
   return [];
 };
 
-export default function MoralitySection() {
+export default function MoralitySection({ paddingOverride }) {
   const { sheetData, setSheetData } = useSheetData();
   const [showDerangements, setShowDerangements] = useState(false);
   const [catalog, setCatalog] = useState(null);
@@ -142,7 +142,7 @@ export default function MoralitySection() {
 
   return (
     <div className="w-full">
-      <CategoryContainer section={moralityLabel}>
+      <CategoryContainer section={moralityLabel} paddingOverride={paddingOverride}>
         <div className="w-full space-y-3">
           <div className="flex items-center justify-between gap-4">
             <span className="text-sm font-semibold text-gray-600">Current rating</span>

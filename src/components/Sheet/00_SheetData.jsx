@@ -314,6 +314,7 @@ export const sheetData = {
         "unspent_total": 0,
         "extra_unspent": 0,
         "gained": [{
+            "session": "",
             "quantity": 0,
             "extra_quantity": 0,
             "description": ""

@@ -115,7 +115,7 @@ function renderBlock(block, index) {
   }
 
   if (block.type === 'heading') {
-    const level = block.level >= 1 && block.level <= 3 ? block.level : 2;
+    const level = block.level >= 1 && block.level <= 6 ? block.level : 2;
     return (
       <div
         key={index}

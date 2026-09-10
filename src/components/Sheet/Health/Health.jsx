@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { ModifierControl } from "../Common/40_ModifierControl";
+import CategoryContainer from "../Common/17_CategoryContainer";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
 
@@ -98,8 +99,7 @@ export const HealthTracker = () => {
     };
 
     return (
-        <div className="w-full">
-            <h1 className="text-l font-bold capitalize my-2 text-center">HEALTH</h1>
+        <CategoryContainer section="HEALTH" paddingOverride="w-full">
             <div className="flex justify-center items-center gap-4">
                 <div className="grid grid-cols-5 gap-3">
                     {Array.from({ length: maxHealth }).map((_, i) => (
@@ -125,6 +125,6 @@ export const HealthTracker = () => {
                 </div>
                 <ModifierControl modifier={healthMod} onChange={handleHealthModChange} />
             </div>
-        </div>
+        </CategoryContainer>
     );
 };

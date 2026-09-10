@@ -1,6 +1,8 @@
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import { sheetData } from "../components/Sheet/00_SheetData";
-import {
+import { SheetDataProvider } from "../components/Sheet/05_SheetDataContext";
+import DiceRoller, {
   buildSheetTraits,
   rollDicePool,
 } from "../components/Sheet/Dice/DiceRoller";
@@ -11,6 +13,32 @@ const randomSequence = (...dice) => {
 };
 
 describe("World of Darkness 1E dice roller", () => {
+  it("opens and closes the roller without losing the configured pool", async () => {
+    render(
+      <SheetDataProvider initialData={sheetData}>
+        <DiceRoller />
+      </SheetDataProvider>
+    );
+
+    const collapseButton = screen.getByRole("button", { name: /Collapse dice roller/i });
+    expect(collapseButton).toHaveAttribute("aria-expanded", "true");
+
+    fireEvent.change(screen.getByRole("spinbutton", { name: "Dice modifier" }), {
+      target: { value: "2" },
+    });
+    expect(collapseButton).toHaveAccessibleName(/3 dice/i);
+
+    fireEvent.click(collapseButton);
+    expect(collapseButton).toHaveAttribute("aria-expanded", "false");
+    await waitFor(() => {
+      expect(screen.queryByRole("spinbutton", { name: "Dice modifier" })).not.toBeInTheDocument();
+    });
+
+    fireEvent.click(collapseButton);
+    expect(collapseButton).toHaveAttribute("aria-expanded", "true");
+    expect(await screen.findByRole("spinbutton", { name: "Dice modifier" })).toHaveValue(2);
+  });
+
   it("counts successes and applies 10-again", () => {
     const result = rollDicePool(3, 10, false, randomSequence(8, 10, 4, 9));
 

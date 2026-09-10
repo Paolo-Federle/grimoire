@@ -210,5 +210,7 @@ export const PATHS = {
 export const getSheetPath = (sheetId = ":sheetId") => `${PATHS.SHEET}/${sheetId}`;
 export const getLegacySheetEditorPath = (sheetId = ":sheetId") =>
     `${PATHS.SHEET_LEGACY_EDITOR}/${sheetId}`;
+export const getMageLegacyPath = (legacyId = ":slug") =>
+    `${PATHS.MAGE.LEGACY}/${legacyId}`;
 
 

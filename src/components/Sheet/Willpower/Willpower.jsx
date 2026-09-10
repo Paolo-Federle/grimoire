@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { ModifierControl } from "../Common/40_ModifierControl";
+import CategoryContainer from "../Common/17_CategoryContainer";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
 
@@ -85,8 +86,7 @@ export const WillpowerTracker = () => {
     };
 
     return (
-        <div className="w-full">
-            <h1 className="text-l font-bold capitalize my-2 text-center">WILLPOWER</h1>
+        <CategoryContainer section="WILLPOWER" paddingOverride="w-full">
             <div className="flex justify-center items-center gap-4">
                 <div className="grid grid-cols-5 gap-2">
                     {Array.from({ length: maxWillpower }).map((_, i) => (
@@ -113,6 +113,6 @@ export const WillpowerTracker = () => {
                 </div>
                 <ModifierControl modifier={willpowerMod} onChange={handleWillpowerModChange} />
             </div>
-        </div>
+        </CategoryContainer>
     );
 };

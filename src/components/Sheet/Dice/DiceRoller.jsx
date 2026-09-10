@@ -1,5 +1,8 @@
-import { useMemo, useState } from "react";
+import { useId, useMemo, useState } from "react";
+import Collapse from "@mui/material/Collapse";
 import CasinoRoundedIcon from "@mui/icons-material/CasinoRounded";
+import ExpandLessRoundedIcon from "@mui/icons-material/ExpandLessRounded";
+import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
 
@@ -218,6 +221,7 @@ const resultLabel = (result) => {
 
 export default function DiceRoller() {
   const { sheetData, setSheetData } = useSheetData();
+  const panelId = useId();
   const traits = useMemo(() => buildSheetTraits(sheetData), [sheetData]);
   const availableTraits = useMemo(
     () => traits.filter((trait) => trait.value !== 0),
@@ -234,6 +238,7 @@ export default function DiceRoller() {
   const [result, setResult] = useState(null);
   const [rollName, setRollName] = useState("");
   const [selectedSavedRoll, setSelectedSavedRoll] = useState("");
+  const [isExpanded, setIsExpanded] = useState(true);
 
   const selectedTraits = components
     .map((id) => {
@@ -243,6 +248,13 @@ export default function DiceRoller() {
     .filter(Boolean);
   const basePool = selectedTraits.reduce((sum, trait) => sum + trait.value, 0);
   const pool = basePool + Number(modifier || 0);
+  const poolLabel = pool <= 0 ? "Chance die" : `${pool} ${pool === 1 ? "die" : "dice"}`;
+  const selectedTraitsLabel = selectedTraits
+    .map((trait) => `${trait.label} ${trait.value}`)
+    .join(" + ");
+  const accordionSummary = selectedTraitsLabel
+    ? `${poolLabel} · ${selectedTraitsLabel}`
+    : poolLabel;
 
   const updateComponent = (index, value) => {
     setComponents((current) =>
@@ -302,7 +314,41 @@ export default function DiceRoller() {
   };
 
   return (
-    <section className="rounded-2xl border border-[#d4d4d4] bg-gradient-to-br from-slate-950 to-slate-700 p-4 text-white shadow-lg">
+    <section
+      aria-label="Dice roller"
+      className="overflow-hidden rounded-2xl border border-[#d4d4d4] bg-gradient-to-br from-slate-950 to-slate-700 text-white shadow-lg"
+    >
+      <button
+        type="button"
+        className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left hover:bg-white/[0.06] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-white/70"
+        aria-controls={panelId}
+        aria-expanded={isExpanded}
+        aria-label={`${isExpanded ? "Collapse" : "Expand"} dice roller. ${accordionSummary}`}
+        onClick={() => setIsExpanded((current) => !current)}
+      >
+        <span className="flex min-w-0 items-center gap-2.5">
+          <CasinoRoundedIcon sx={{ fontSize: "1.2rem" }} />
+          <span className="min-w-0">
+            <span className="block text-sm font-semibold tracking-wide">Dice roller</span>
+            <span className="block truncate text-xs font-normal text-slate-300">
+              {accordionSummary}
+            </span>
+          </span>
+        </span>
+        {isExpanded ? (
+          <ExpandLessRoundedIcon aria-hidden="true" />
+        ) : (
+          <ExpandMoreRoundedIcon aria-hidden="true" />
+        )}
+      </button>
+
+      <Collapse in={isExpanded} timeout="auto" unmountOnExit>
+        <div
+          id={panelId}
+          role="region"
+          aria-label="Dice roller controls"
+          className="border-t border-white/10 p-4"
+        >
       <div className="mb-3 grid gap-2 md:grid-cols-[minmax(0,1fr)_auto]">
         <select
           aria-label="Saved rolls"
@@ -353,7 +399,7 @@ export default function DiceRoller() {
           Save current roll
         </button>
         <div className="flex items-center justify-center rounded bg-white/10 px-3 py-1 font-bold">
-          {pool} dice
+          {poolLabel}
         </div>
       </div>
 
@@ -408,6 +454,8 @@ export default function DiceRoller() {
           </div>
         </div>
       ) : null}
+        </div>
+      </Collapse>
     </section>
   );
 }

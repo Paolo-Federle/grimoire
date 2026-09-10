@@ -24,7 +24,7 @@ export default function LazyDetailRoute({
 
     setState(INITIAL_STATE);
 
-    Promise.all([loadPage(), loadData()])
+    Promise.all([loadPage(), loadData({ slug })])
       .then(([pageModule, dataModule]) => {
         if (!isActive) {
           return;

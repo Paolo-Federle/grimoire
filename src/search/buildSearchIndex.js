@@ -1,4 +1,4 @@
-import { PATHS } from "../pages/path";
+import { getMageLegacyPath, PATHS } from "../pages/path";
 import { slugify } from "../utils";
 import { getBookPath } from "../books/bookNavigation";
 
@@ -14,7 +14,7 @@ import { fetishData } from "../Data/Werewolf/FetishData";
 import { TalensData } from "../Data/Werewolf/TalensData";
 import { WerewolfMeritsData } from "../Data/Werewolf/WerewolfMeritsData";
 import { allMageMeritsData } from "../Data/Mage/mageMeritsData";
-import { LegacyData } from "../Data/Mage/LegacyData";
+import { LegacyIndexData } from "../Data/Mage/LegacyIndexData";
 import { SpellsData } from "../Data/Mage/Arcana/allArcana";
 import { artifactData } from "../Data/Mage/artifactsData";
 import { imbuedItemsData } from "../Data/Mage/imbuedItemsData";
@@ -107,6 +107,7 @@ const summaryFields = [
   "Effetto",
   "LongDescription",
   "Content",
+  "Nickname",
 ];
 
 function flattenText(value) {
@@ -230,7 +231,13 @@ const searchSources = [
   { id: "werewolf-talens", gameLine: "werewolf", type: "Talen", items: TalensData, basePath: PATHS.WEREWOLF.TALENS },
   { id: "werewolf-merits", gameLine: "werewolf", type: "Merit", items: WerewolfMeritsData, basePath: PATHS.WEREWOLF.MERITS },
   { id: "mage-merits", gameLine: "mage", type: "Merit", items: allMageMeritsData, basePath: PATHS.MAGE.MERITS },
-  { id: "mage-legacies", gameLine: "mage", type: "Legacy", items: LegacyData, basePath: PATHS.MAGE.LEGACY },
+  {
+    id: "mage-legacies",
+    gameLine: "mage",
+    type: "Legacy",
+    items: LegacyIndexData,
+    path: (item) => getMageLegacyPath(item.Id),
+  },
   { id: "mage-spells", gameLine: "mage", type: "Spell", items: SpellsData, basePath: PATHS.MAGE.SPELLS },
   { id: "mage-artifacts", gameLine: "mage", type: "Artifact", items: artifactData, basePath: PATHS.MAGE.ARTIFACTS },
   { id: "mage-imbued-items", gameLine: "mage", type: "Imbued Item", items: imbuedItemsData, basePath: PATHS.MAGE.IMBUED_ITEMS },

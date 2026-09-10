@@ -47,7 +47,7 @@ export const DynamicListManager = ({ dataKey, RowComponent }) => {
   };
 
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex w-full min-w-0 flex-col overflow-x-auto">
       <table className="w-full border-hidden">
         <RowComponent isHeader={true} />
 

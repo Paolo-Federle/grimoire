@@ -1,7 +1,18 @@
-import { fireEvent, render, screen, waitForElementToBeRemoved } from '@testing-library/react';
+import {
+  fireEvent,
+  render,
+  screen,
+  waitForElementToBeRemoved,
+  within,
+} from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import App from '../App';
-import { getLegacySheetEditorPath, getSheetPath, PATHS } from '../pages/path';
+import {
+  getLegacySheetEditorPath,
+  getMageLegacyPath,
+  getSheetPath,
+  PATHS,
+} from '../pages/path';
 import { SHEET_STORAGE_KEY } from '../components/Sheet/sheetStorage';
 
 beforeEach(() => {
@@ -28,6 +39,41 @@ test('renders home page entry points', async () => {
   expect(sheetsLink).toHaveAttribute('href', PATHS.SHEET);
   expect(await screen.findByRole('link', { name: /mage: the awakening/i })).toBeInTheDocument();
 });
+
+test.each([
+  ['scelesti_variant', 'Inevitable Ending'],
+  ['scelesti_variant_nh_tu', 'The Stains of Sin'],
+])('renders the Legacy detail identified by %s', async (legacyId, attainmentName) => {
+  renderApp(getMageLegacyPath(legacyId));
+
+  expect(
+    await screen.findByRole('heading', { name: /^Scelesti \(variant\)/ }, { timeout: 30000 })
+  ).toBeInTheDocument();
+  expect(
+    await screen.findByRole('heading', { name: attainmentName }, { timeout: 30000 })
+  ).toBeInTheDocument();
+}, 35000);
+
+test('renders the complete Thread Cutters success table', async () => {
+  renderApp(getMageLegacyPath('thread_cutters'));
+
+  expect(
+    await screen.findByRole('heading', { name: /^Thread Cutters/ }, { timeout: 30000 })
+  ).toBeInTheDocument();
+
+  const successTable = await screen.findByRole('table', {}, { timeout: 30000 });
+  expect(
+    within(successTable).getByRole('columnheader', { name: 'Successes' })
+  ).toBeInTheDocument();
+  expect(
+    within(successTable).getByRole('columnheader', { name: 'Result' })
+  ).toBeInTheDocument();
+  expect(within(successTable).getAllByRole('row')).toHaveLength(6);
+  expect(within(successTable).getByText('5')).toBeInTheDocument();
+  expect(
+    within(successTable).getByText(/she understands the “moral calculus”/)
+  ).toBeInTheDocument();
+}, 35000);
 
 test('renders the sheet route without crashing', async () => {
   window.localStorage.setItem(

@@ -27,7 +27,7 @@ function SheetContent({ initialData }) {
   const pages = [
     { key: "overview", label: "Character" },
     { key: "powers", label: "Powers" },
-    { key: "story", label: "Story" },
+    { key: "story", label: "Story & XP" },
     { key: "settings", label: "Settings" },
   ];
 
@@ -64,7 +64,7 @@ function SheetContent({ initialData }) {
             <div className="flex w-full flex-col gap-4 p-4 md:flex-row">
               <HealthTracker />
               <WillpowerTracker />
-              <MoralitySection />
+              <MoralitySection paddingOverride="w-full" />
             </div>
 
             <DerivedStatsSection />
