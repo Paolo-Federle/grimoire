@@ -84,6 +84,7 @@ export default function CharacterInfoSection() {
                     label={toLabel(fieldKey)}
                     field={fieldValue}
                     options={catalog.characterDetails[fieldKey] || []}
+                    allowEmpty
                     onChange={(value) => handleRaceDetailChange(fieldKey, value)}
                   />
                 );

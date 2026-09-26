@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useId, useMemo } from "react";
 import { Select, MenuItem, FormControl, InputLabel } from "@mui/material";
 import { useSheetData, useSheetView } from "../05_SheetDataContext";
 import { getValueAtPath, updateValueAtPath } from "../sheetStateUtils";
@@ -24,11 +24,15 @@ export const SelectInput = ({
   value = undefined,
   label = "Select an option",
   onChange = null,
+  allowEmpty = false,
+  emptyLabel = "— None —",
   formControlSx = {},
   selectSx = {},
 }) => {
     const { sheetData, setSheetData } = useSheetData();
     const { mode } = useSheetView();
+    const inputId = useId();
+    const labelId = `${inputId}-label`;
     const isUsingField = !!field;
     const availableOptions = options || (isUsingField ? field.choices || [] : []);
 
@@ -40,6 +44,9 @@ export const SelectInput = ({
     }, [field, isUsingField, path, sheetData, value]);
 
     const resolvedOptions = availableOptions.map(resolveOption);
+    if (allowEmpty && !resolvedOptions.some((option) => option.value === "")) {
+        resolvedOptions.unshift({ value: "", label: emptyLabel });
+    }
     if (
         resolvedSelectedValue !== "" &&
         !resolvedOptions.some((option) => option.value === resolvedSelectedValue)
@@ -64,8 +71,12 @@ export const SelectInput = ({
             size="small"
             sx={{ fontSize: "1rem", ...formControlSx }}
         >
-            <InputLabel sx={{ fontSize: "0.875rem", top: "-2px" }}>{label}</InputLabel>
+            <InputLabel id={labelId} sx={{ fontSize: "0.875rem", top: "-2px" }}>
+                {label}
+            </InputLabel>
             <Select
+                id={inputId}
+                labelId={labelId}
                 disabled={mode === "play"}
                 value={resolvedSelectedValue}
                 onChange={handleChange}

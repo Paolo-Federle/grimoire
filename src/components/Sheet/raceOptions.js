@@ -67,6 +67,29 @@ const buildLegacyOptions = (items) => {
     }));
 };
 
+const normalizeArcanaNames = (values) =>
+  (Array.isArray(values) ? values : String(values || "").split("/"))
+    .map((value) => normalizeOption(value).toLowerCase())
+    .filter(Boolean);
+
+const buildMageArcanaAffinities = (paths, legacies) => ({
+  paths: Object.fromEntries(
+    (paths || []).map((path) => [
+      path?.["Path name"],
+      {
+        ruling: normalizeArcanaNames(path?.["Ruling arcana"]),
+        inferior: normalizeArcanaNames(path?.["Inferior arcanum"])[0] || "",
+      },
+    ])
+  ),
+  legacies: Object.fromEntries(
+    (legacies || []).map((legacy) => [
+      legacy?.Id,
+      normalizeArcanaNames(legacy?.["Primary Arcanum"]),
+    ])
+  ),
+});
+
 const detailPath = (basePath, name) =>
   name ? `${basePath}/${slugify(name)}` : null;
 
@@ -108,11 +131,13 @@ const werewolfTribes = [
 ];
 
 async function loadMageCatalog() {
-  const [{ Paths }, { Orders }, { LegacyIndexData }] = await Promise.all([
+  const [{ default: PathData, Paths }, { Orders }, { LegacyIndexData }] = await Promise.all([
     import("../../Data/Mage/PathData"),
     import("../../Data/Mage/OrderData"),
     import("../../Data/Mage/LegacyIndexData"),
   ]);
+
+  const arcanaAffinities = buildMageArcanaAffinities(PathData, LegacyIndexData);
 
   return {
     characterDetails: {
@@ -120,7 +145,13 @@ async function loadMageCatalog() {
       order: Orders,
       legacy: buildLegacyOptions(LegacyIndexData),
     },
-    sectionConfig: mageDots,
+    sectionConfig: {
+      ...mageDots,
+      dotGroups: mageDots.dotGroups.map((group) => ({
+        ...group,
+        affinities: arcanaAffinities,
+      })),
+    },
   };
 }
 

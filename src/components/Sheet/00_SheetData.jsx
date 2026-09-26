@@ -120,7 +120,8 @@ export const sheetData = {
                 "spirit": 0,
                 "space": 0,
                 "time": 0
-            }
+            },
+            "arcana_affinity_overrides": {}
         },
         "vampire": {
             "disciplines": [{ "name": "", "dots": 1 }],

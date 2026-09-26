@@ -168,7 +168,8 @@ export default function MoralitySection({ paddingOverride }) {
 
             <button
               type="button"
-              className="rounded bg-[#333] px-3 py-2 text-xs text-white hover:bg-[#111]"
+              className="rounded bg-[#333] px-2 py-1 text-xs text-white hover:bg-[#111] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500"
+              aria-expanded={showDerangements}
               onClick={() => setShowDerangements((prev) => !prev)}
             >
               {showDerangements ? "Hide derangements" : "Show derangements"}
