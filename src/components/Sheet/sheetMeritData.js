@@ -24,8 +24,13 @@ function uniqueByName(items) {
 }
 
 async function buildMeritCatalog(race) {
-  const { allUniMeritsData } = await import("../../Data/universalMeritsData");
+  const [{ allUniMeritsData }, { allLocation }] = await Promise.all([
+    import("../../Data/universalMeritsData"),
+    import("../../Data/LocationMeritData"),
+  ]);
   const entries = buildEntries(allUniMeritsData, "Name", PATHS.UNIVERSAL_MERITS);
+
+  entries.push(...buildEntries(allLocation, "Name", PATHS.LOCATIONS_BASE));
 
   if (race === "mage") {
     const { allMageMeritsData } = await import("../../Data/Mage/mageMeritsData");
