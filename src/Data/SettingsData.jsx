@@ -31,6 +31,18 @@ export const SettingsData = [
         "Book": "MirIM 4"
     },
     {
+        "Name": "Requiem for Rome",
+        "Lines": "Vampire: The Requiem",
+        "Summary": "Kindred politics in the Roman Empire, with the Camarilla and the Julii clan.",
+        "Book": "RfR 18"
+    },
+    {
+        "Name": "New Wave Requiem",
+        "Lines": "Vampire: The Requiem",
+        "Summary": "Vampire chronicles in the 1980s, amid Cold War anxiety, excess and a fragile Masquerade.",
+        "Book": "NWR 10"
+    },
+    {
         "Name": "When The World Ends",
         "Lines": "Vampire: The Requiem",
         "Summary": "A post-apocalyptic world in the midst of a nuclear winter.",
@@ -41,6 +53,12 @@ export const SettingsData = [
         "Lines": "Werewolf: The Forsaken",
         "Summary": "Werewolves learn through visions that they once ruled openly, and how to do so again.",
         "Book": "FCG:TT 8"
+    },
+    {
+        "Name": "Mage Noir",
+        "Lines": "Mage: The Awakening",
+        "Summary": "The Awakened in 1940s America, shaped by war, disillusionment and noir mysteries.",
+        "Book": "MN 1"
     },
     {
         "Name": "The Diamond Way",
@@ -59,6 +77,12 @@ export const SettingsData = [
         "Lines": "Mage: The Awakening",
         "Summary": "Four-color large-scale superheroics.",
         "Book": "MCG 210"
+    },
+    {
+        "Name": "Victorian Lost",
+        "Lines": "Changeling: The Lost",
+        "Summary": "Changelings in late Victorian England, amid industrial change, class tensions and fairy-tale horrors.",
+        "Book": "VL 1"
     },
     {
         "Name": "The Game of Immortals",

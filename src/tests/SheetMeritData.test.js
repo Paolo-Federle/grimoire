@@ -11,6 +11,13 @@ describe("sheet Merit catalog", () => {
     );
     expect(catalog.paths.get("Sanctum")).toBe(`${PATHS.LOCATIONS_BASE}/sanctum`);
     expect(catalog.paths.get("Hollow")).toBe(`${PATHS.LOCATIONS_BASE}/hollow`);
+    expect(catalog.categories.get("Hollow")).toEqual([
+      "Size", "Amenities", "Doors", "Wards",
+    ]);
+    expect(catalog.categories.get("Haven")).toEqual(["Location", "Size", "Security"]);
+    expect(catalog.categories.get("Sanctum")).toEqual(["Security", "Size"]);
+    expect(catalog.categories.get("Safehouse")).toEqual(["Cache", "Secrecy", "Size", "Traps"]);
+    expect(catalog.categories.has("Hallow")).toBe(false);
   });
 
   it("keeps location names deduplicated alongside racial Merits", async () => {

@@ -15,6 +15,7 @@ export default function MeritsSection({ paddingOverride }) {
     race: "",
     options: [],
     paths: new Map(),
+    categories: new Map(),
     isLoading: true,
     error: null,
   });
@@ -25,6 +26,7 @@ export default function MeritsSection({ paddingOverride }) {
       race: selectedRace,
       options: [],
       paths: new Map(),
+      categories: new Map(),
       isLoading: true,
       error: null,
     });
@@ -46,6 +48,7 @@ export default function MeritsSection({ paddingOverride }) {
             race: selectedRace,
             options: [],
             paths: new Map(),
+            categories: new Map(),
             isLoading: false,
             error,
           });
@@ -60,7 +63,37 @@ export default function MeritsSection({ paddingOverride }) {
   const activeCatalog =
     catalogState.race === selectedRace
       ? catalogState
-      : { options: [], paths: new Map(), isLoading: true, error: null };
+      : {
+          options: [], paths: new Map(), categories: new Map(),
+          isLoading: true, error: null,
+        };
+
+  const selectMerit = (index, name) => {
+    const categories = activeCatalog.categories.get(name) || [];
+    setSheetData((prev) =>
+      updateValueAtPath(prev, ["merits", index], (current) => {
+        if (current.name === name) return current;
+        const merit = { ...current };
+        delete merit.aspects;
+        return categories.length
+          ? {
+              ...merit, name, dots: 0,
+              aspects: Object.fromEntries(categories.map((category) => [category, 0])),
+            }
+          : { ...merit, name, dots: Math.max(1, Math.min(5, current.dots ?? 1)) };
+      })
+    );
+  };
+
+  const updateAspect = (index, category, value, categories) => {
+    setSheetData((prev) =>
+      updateValueAtPath(prev, ["merits", index], (current) => {
+        const aspects = { ...current.aspects, [category]: value };
+        const dots = categories.reduce((total, name) => total + (aspects[name] ?? 0), 0);
+        return { ...current, aspects, dots };
+      })
+    );
+  };
 
   const addMerit = () => {
     setSheetData((prev) =>
@@ -100,51 +133,87 @@ export default function MeritsSection({ paddingOverride }) {
               availableOptions.unshift(item.name);
             }
             const detailPath = activeCatalog.paths.get(item?.name) || null;
+            const categories = activeCatalog.categories.get(item?.name) || [];
+            const hasAspects = categories.length > 0;
 
             return (
               <div
                 key={`merit-${index}`}
-                className="rounded bg-gray-50 p-3"
+                className="rounded bg-gray-50 p-2"
               >
-                <div className="space-y-2">
-                  <div className="grid gap-2 md:grid-cols-[minmax(0,1fr)_auto] md:items-center">
+                <div className="grid grid-cols-[minmax(0,1fr)_auto_auto] items-center gap-2">
+                  <div className="min-w-0">
                     <SelectInput
                       label="Merit"
                       options={availableOptions}
                       path={["merits", index, "name"]}
+                      onChange={(name) => selectMerit(index, name)}
                     />
-
-                    <div className="flex items-center gap-2">
-                      <CompactDetailLink to={detailPath} label="Open merit details" />
-                      <button
-                        type="button"
-                        title="Remove merit"
-                        aria-label="Remove merit"
-                        className={`inline-flex h-8 w-8 items-center justify-center rounded bg-[#333] text-sm font-semibold text-white hover:bg-[#111] ${
-                          merits.length > 1 ? "" : "invisible"
-                        }`}
-                        onClick={() => removeMerit(index)}
-                        >
-                        x
-                      </button>
-                    </div>
                   </div>
 
-                  <div className="flex items-center gap-3">
-                    <span className="text-sm font-semibold">Dots</span>
-                    <DotMarkers
-                      min={1}
-                      max={5}
-                      value={item?.dots ?? 1}
-                      modifier={0}
-                      onChange={(newValue) =>
-                        setSheetData((prev) =>
-                          updateValueAtPath(prev, ["merits", index, "dots"], newValue)
-                        )
-                      }
-                    />
+                  <div className="flex shrink-0 items-center gap-2">
+                    {!hasAspects ? (
+                      <span className="hidden text-xs font-semibold text-gray-600 sm:inline">
+                        Dots
+                      </span>
+                    ) : null}
+                    {hasAspects ? (
+                      <span className="text-sm font-semibold" aria-label={`${item.name} total dots`}>
+                        Total: {item?.dots ?? 0}
+                      </span>
+                    ) : (
+                      <DotMarkers
+                        min={1}
+                        max={5}
+                        value={item?.dots ?? 1}
+                        modifier={0}
+                        onChange={(newValue) =>
+                          setSheetData((prev) =>
+                            updateValueAtPath(prev, ["merits", index, "dots"], newValue)
+                          )
+                        }
+                      />
+                    )}
+                  </div>
+
+                  <div className="flex shrink-0 items-center gap-1.5">
+                    <CompactDetailLink to={detailPath} label="Open merit details" />
+                    <button
+                      type="button"
+                      title="Remove merit"
+                      aria-label="Remove merit"
+                      className={`inline-flex h-8 w-8 items-center justify-center rounded bg-[#333] text-sm font-semibold text-white hover:bg-[#111] ${
+                        merits.length > 1 ? "" : "invisible"
+                      }`}
+                      onClick={() => removeMerit(index)}
+                    >
+                      x
+                    </button>
                   </div>
                 </div>
+                {hasAspects ? (
+                  <div className="mt-2 space-y-1 border-t border-gray-200 pt-2">
+                    {!item.aspects && item.dots > 0 ? (
+                      <p className="text-xs text-gray-600">
+                        Previously recorded: {item.dots} dots. Set the aspects below; the total will be recalculated.
+                      </p>
+                    ) : null}
+                    {categories.map((category) => (
+                      <div key={category} className="flex items-center justify-between gap-2 text-xs">
+                        <span>{category}</span>
+                        <div role="group" aria-label={`${item.name} ${category} dots`}>
+                          <DotMarkers
+                            min={0}
+                            max={5}
+                            value={item.aspects?.[category] ?? 0}
+                            modifier={0}
+                            onChange={(value) => updateAspect(index, category, value, categories)}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
               </div>
             );
           })}
@@ -158,7 +227,7 @@ export default function MeritsSection({ paddingOverride }) {
 
           <button
             type="button"
-            className="rounded bg-[#333] px-4 py-2 text-sm text-white hover:bg-[#111]"
+            className="rounded bg-[#333] px-3 py-1.5 text-sm text-white hover:bg-[#111]"
             onClick={addMerit}
           >
             + Add Merit

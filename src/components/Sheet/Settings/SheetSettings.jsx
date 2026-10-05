@@ -32,7 +32,7 @@ export default function SheetSettings() {
             </label>
 
             <label className="space-y-1 text-sm font-medium">
-              Current view
+              Saved sheet mode
               <select
                 className="block w-full rounded-lg border border-gray-300 bg-white px-3 py-2"
                 value={mode}

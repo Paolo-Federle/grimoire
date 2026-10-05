@@ -331,6 +331,7 @@ export const sheetData = {
     "saved_rolls": [],
     "settings": {
         "default_view": "play",
+        "view_mode": null,
         "compact": false,
         "confirm_session_reset": true
     }

@@ -9,6 +9,12 @@ function buildEntries(items, key, path) {
     .map((item) => ({
       name: item[key],
       link: path ? `${path}/${slugify(item[key])}` : null,
+      // Location Merits list their separately rated aspects in braces.
+      categories: String(item.Dots || "")
+        .match(/\{([^}]+)\}/)?.[1]
+        .split(",")
+        .map((category) => category.trim())
+        .filter(Boolean) || [],
     }));
 }
 
@@ -44,6 +50,11 @@ async function buildMeritCatalog(race) {
   return {
     options: uniqueEntries.map((entry) => entry.name),
     paths: new Map(uniqueEntries.map((entry) => [entry.name, entry.link])),
+    categories: new Map(
+      uniqueEntries
+        .filter((entry) => entry.categories.length > 0)
+        .map((entry) => [entry.name, entry.categories])
+    ),
   };
 }
 

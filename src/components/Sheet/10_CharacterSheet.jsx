@@ -19,11 +19,32 @@ import DerivedStatsSection from "./Traits/15_DerivedStatsSection";
 import StorySection from "./Story/15_StorySection";
 import SheetSettings from "./Settings/SheetSettings";
 import DiceRoller from "./Dice/DiceRoller";
-import { useState } from "react";
+import { useCallback } from "react";
+import { updateValueAtPath } from "./sheetStateUtils";
 
-function SheetContent({ initialData }) {
-  const { sheetData } = useSheetData();
-  const [mode, setMode] = useState(initialData?.settings?.default_view || "play");
+const isSheetMode = (value) => value === "play" || value === "edit";
+
+function SheetContent() {
+  const { sheetData, setSheetData } = useSheetData();
+  const savedMode = sheetData.settings?.view_mode;
+  const defaultMode = sheetData.settings?.default_view;
+  const mode = isSheetMode(savedMode)
+    ? savedMode
+    : isSheetMode(defaultMode)
+      ? defaultMode
+      : "play";
+  const setMode = useCallback(
+    (nextMode) => {
+      if (!isSheetMode(nextMode)) {
+        return;
+      }
+
+      setSheetData((prev) =>
+        updateValueAtPath(prev, ["settings", "view_mode"], nextMode)
+      );
+    },
+    [setSheetData]
+  );
   const pages = [
     { key: "overview", label: "Character" },
     { key: "powers", label: "Powers" },
@@ -88,7 +109,7 @@ export default function CharacterSheet({ initialData, onSheetDataChange }) {
     <SheetDataProvider initialData={initialData} onChange={onSheetDataChange}>
       <SheetCatalogProvider>
         <SheetAutoCalculations />
-        <SheetContent initialData={initialData} />
+        <SheetContent />
       </SheetCatalogProvider>
     </SheetDataProvider>
   );
