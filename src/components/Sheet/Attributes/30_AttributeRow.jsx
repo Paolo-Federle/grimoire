@@ -2,10 +2,15 @@ import TitleDots from "../Common/35_TitleDots";
 import { ModifierControl } from "../Common/40_ModifierControl";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
+import { getWerewolfForm, getSheetAttributeTotal, isWerewolfSheet } from "../sheetWerewolfForms";
 
 export const AttributeRow = ({ name, category, max, min }) => {
   const { sheetData, setSheetData } = useSheetData();
   const { base: value, modifier } = sheetData.attributes[category][name];
+  const werewolf = isWerewolfSheet(sheetData);
+  const form = werewolf ? getWerewolfForm(sheetData) : null;
+  const currentValue = getSheetAttributeTotal(sheetData, category, name);
+  const label = name.charAt(0).toUpperCase() + name.slice(1);
 
   const handleChange = (newValue) => {
     setSheetData((prev) =>
@@ -24,16 +29,19 @@ export const AttributeRow = ({ name, category, max, min }) => {
   };
 
   return (
-    <div className="flex items-center gap-3">
+    <div role="group" aria-label={`${label} attribute`} className="min-w-0">
       <TitleDots
+        aligned
         name={name}
         min={min}
-        max={max}
+        max={werewolf ? Math.max(max, value, currentValue) : max}
+        editableMax={max}
+        dotsLabel={werewolf ? `${label}: ${currentValue} (${form.name})` : undefined}
         value={value}
-        modifier={modifier}
+        modifier={werewolf ? currentValue - value : modifier}
         onChange={handleChange}
+        trailing={<ModifierControl compact modifier={modifier} onChange={handleModifierChange} />}
       />
-      <ModifierControl modifier={modifier} onChange={handleModifierChange} />
     </div>
   );
 };

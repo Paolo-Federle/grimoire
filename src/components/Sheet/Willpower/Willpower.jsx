@@ -86,32 +86,34 @@ export const WillpowerTracker = () => {
     };
 
     return (
-        <CategoryContainer section="WILLPOWER" paddingOverride="w-full">
-            <div className="flex justify-center items-center gap-4">
-                <div className="grid grid-cols-5 gap-2">
+        <CategoryContainer section="WILLPOWER" paddingOverride="w-full p-4 sm:p-5" fillHeight>
+            <div className="flex w-full min-w-0 flex-col gap-3">
+                <div className="grid grid-cols-[repeat(5,2rem)] gap-3">
                     {Array.from({ length: maxWillpower }).map((_, i) => (
                         <div key={i} className="relative flex items-center">
-                            <div
-                                className={`willpower-box relative flex h-[22px] w-[24px] cursor-pointer items-center justify-center rounded-full border-2 transition-all duration-300 ${i >= maxWillpower - willpowerMod ? 'border-green-400' : 'border-blue-500'}`}
-                                onMouseDown={(e) => {
-                                    e.preventDefault();
-                                    if (e.button === 2) cycleWillpower(i, true);
-                                    else cycleWillpower(i, false);
-                                }}
-                                onContextMenu={(e) => e.preventDefault()}
+                            <button
+                                type="button"
+                                aria-label={`Willpower box ${i + 1}: ${willpower[i]}`}
+                                title={`Point ${i + 1}: ${willpower[i]}`}
+                                className={`willpower-box relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 ${i >= maxWillpower - willpowerMod ? 'border-green-400' : 'border-blue-500'}`}
+                                onClick={() => cycleWillpower(i)}
+                                onContextMenu={(e) => { e.preventDefault(); cycleWillpower(i, true); }}
                             >
-                                <div className={`h-[22px] w-[22px] rounded-full transition-opacity ${i >= maxWillpower - willpowerMod ? (willpower[i] === "filled" ? "bg-green-400" : "bg-transparent") : (willpower[i] === "filled" ? "bg-blue-500" : "bg-transparent")}`} />
+                                <span className={`absolute inset-0 rounded-full ${i >= maxWillpower - willpowerMod ? (willpower[i] === "filled" ? "bg-green-400" : "bg-transparent") : (willpower[i] === "filled" ? "bg-blue-500" : "bg-transparent")}`} />
                                 {willpower[i] === "crossed" && (
                                     <svg className={`absolute h-[28px] w-[28px] ${i >= maxWillpower - willpowerMod ? 'text-green-500' : 'text-blue-600'}`} viewBox="0 0 24 24">
                                         <line x1="3" y1="3" x2="21" y2="21" stroke="currentColor" strokeWidth="3" />
                                         <line x1="21" y1="3" x2="3" y2="21" stroke="currentColor" strokeWidth="3" />
                                     </svg>
                                 )}
-                            </div>
+                            </button>
                         </div>
                     ))}
                 </div>
-                <ModifierControl modifier={willpowerMod} onChange={handleWillpowerModChange} />
+                <div className="mt-auto flex min-h-12 items-center justify-between gap-3 border-t border-gray-100 pt-3">
+                    <span className="text-xs text-gray-500">Willpower modifier</span>
+                    <ModifierControl modifier={willpowerMod} onChange={handleWillpowerModChange} />
+                </div>
             </div>
         </CategoryContainer>
     );

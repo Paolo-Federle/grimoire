@@ -48,6 +48,16 @@ export function normalizeSheetData(candidate, template = initialSheetData) {
       result[key] = cloneValue(source[key]);
     });
 
+    if (template === initialSheetData && isPlainObject(result.morality?.derangements)) {
+      result.morality.derangements = Object.fromEntries(
+        Object.entries(result.morality.derangements).map(([level, entries]) => [level,
+          Array.isArray(entries) ? entries.map((entry) => isPlainObject(entry)
+            ? Object.fromEntries(Object.entries(entry).filter(([key]) => key !== "quantity"))
+            : entry) : entries,
+        ])
+      );
+    }
+
     return result;
   }
 

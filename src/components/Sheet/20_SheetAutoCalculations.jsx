@@ -26,7 +26,7 @@ export default function SheetAutoCalculations() {
   const powerTrait = sheetData.race_traits.energy_strength.value;
 
   useEffect(() => {
-    const nextSpeedBase = strength + dexterity + size;
+    const nextSpeedBase = strength + dexterity + (selectedRace === "werewolf" ? 5 : size);
     const nextDefenseBase = Math.min(dexterity, wits);
     const nextInitiativeBase = dexterity + composure;
     const mageResourceStats = getMageResourceStats(powerTrait);

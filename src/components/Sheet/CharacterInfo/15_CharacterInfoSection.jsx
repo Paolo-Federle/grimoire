@@ -47,13 +47,14 @@ export default function CharacterInfoSection() {
   return (
     <div className="w-full">
       <CategoryContainer section="CHARACTER INFO">
-        <div className="w-1/3 space-y-4">
+        <div className="grid w-full min-w-0 gap-5 sm:grid-cols-2 md:grid-cols-3">
+        <div className="min-w-0 space-y-4">
           <TextInput value={character.name} label="Name" onChange={(val) => handleChange("name", val)} />
           <NumberInput value={character.age} label="Age" onChange={(val) => handleChange("age", val)} />
           <TextInput value={character.concept} label="Concept" onChange={(val) => handleChange("concept", val)} />
         </div>
 
-        <div className="w-1/3 space-y-4">
+        <div className="min-w-0 space-y-4">
           <SelectInput
             field={character.race}
             options={RACE_CHOICES}
@@ -75,7 +76,7 @@ export default function CharacterInfoSection() {
         </div>
 
         {selectedRace && raceFields.length > 0 && (
-          <div className="w-1/3 space-y-4">
+          <div className="min-w-0 space-y-4 sm:col-span-2 md:col-span-1">
             {raceFields.map(([fieldKey, fieldValue]) => {
               if (fieldValue && typeof fieldValue === "object" && "selected" in fieldValue) {
                 return (
@@ -118,6 +119,7 @@ export default function CharacterInfoSection() {
             ) : null}
           </div>
         )}
+        </div>
       </CategoryContainer>
     </div>
   );

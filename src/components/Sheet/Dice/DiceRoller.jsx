@@ -5,6 +5,7 @@ import ExpandLessRoundedIcon from "@mui/icons-material/ExpandLessRounded";
 import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
+import { getActiveWerewolfStats, getSheetAttributeTotal } from "../sheetWerewolfForms";
 
 const title = (value) =>
   String(value || "")
@@ -16,7 +17,7 @@ const totalTrait = (trait) =>
 
 const addTraits = (target, idPrefix, group, traits, valueReader = Number) => {
   Object.entries(traits || {}).forEach(([key, value]) => {
-    const resolvedValue = valueReader(value);
+    const resolvedValue = valueReader(value, key);
     if (Number.isFinite(resolvedValue)) {
       target.push({
         id: `${idPrefix}.${key}`,
@@ -30,9 +31,10 @@ const addTraits = (target, idPrefix, group, traits, valueReader = Number) => {
 
 export function buildSheetTraits(sheetData) {
   const traits = [];
+  const formStats = getActiveWerewolfStats(sheetData);
 
   Object.entries(sheetData.attributes || {}).forEach(([category, values]) =>
-    addTraits(traits, `attributes.${category}`, `Attributes · ${title(category)}`, values, totalTrait)
+    addTraits(traits, `attributes.${category}`, `Attributes · ${title(category)}`, values, (_, name) => getSheetAttributeTotal(sheetData, category, name))
   );
   Object.entries(sheetData.skills || {}).forEach(([category, values]) =>
     addTraits(traits, `skills.${category}`, `Skills · ${title(category)}`, values, totalTrait)
@@ -61,6 +63,7 @@ export function buildSheetTraits(sheetData) {
     );
   }
   if (selectedRace === "werewolf") {
+    traits.push({ id: "werewolf.perception", group: "Werewolf", label: "Perception", value: formStats.perception });
     addTraits(
       traits,
       "renown",
@@ -100,22 +103,22 @@ export function buildSheetTraits(sheetData) {
       group: "Derived",
       label: "Defense",
       value:
-        Number(sheetData.derived_stats?.defense?.base || 0) +
-        Number(sheetData.derived_stats?.defense?.modifier || 0),
+        formStats?.defense ?? (Number(sheetData.derived_stats?.defense?.base || 0) +
+        Number(sheetData.derived_stats?.defense?.modifier || 0)),
     },
     {
       id: "derived.initiative",
       group: "Derived",
       label: "Initiative",
       value:
-        Number(sheetData.derived_stats?.initiative?.base || 0) +
-        Number(sheetData.derived_stats?.initiative?.modifier || 0),
+        formStats?.initiative ?? (Number(sheetData.derived_stats?.initiative?.base || 0) +
+        Number(sheetData.derived_stats?.initiative?.modifier || 0)),
     },
     {
       id: "derived.size",
       group: "Derived",
       label: "Size",
-      value: Number(sheetData.derived_stats?.size || 0),
+      value: formStats?.size ?? Number(sheetData.derived_stats?.size || 0),
     }
   );
 

@@ -52,12 +52,12 @@ export default function SheetEditor() {
   };
 
   return (
-    <div className="space-y-4">
-      <div className="longTextContainer">
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-          <div>
-            <h1 className="text-2xl font-bold">{getSheetName(lastSavedSheet)}</h1>
-            <p className="text-sm text-gray-600">
+    <div className="min-w-0 space-y-5 bg-gray-50 py-6 sm:space-y-6">
+      <div className="mx-auto w-full max-w-6xl px-3 sm:px-6">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="min-w-0">
+            <h1 className="m-0 break-words text-2xl font-bold tracking-tight sm:text-3xl">{getSheetName(lastSavedSheet)}</h1>
+            <p className="mb-0 mt-1.5 text-xs text-gray-500 sm:text-sm">
               {lastSavedSheet?.updatedAt
                 ? `Saved ${new Date(lastSavedSheet.updatedAt).toLocaleString("en-GB")}`
                 : "Autosave enabled"}

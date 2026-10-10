@@ -2,11 +2,12 @@ import { AttributeRow } from "./30_AttributeRow";
 import { CategoryTitle } from "../Common/25_CategoryTitle";
 
 export const AttributesCategories = ({ min, max, category, attributes }) => {
-  const responsiveSpan = category === "social" ? "md:col-span-2 lg:col-span-1" : "";
+  const responsiveSpan = category === "social" ? "md:col-span-2 xl:col-span-1" : "";
 
   return (
-    <div className={`min-w-0 ${responsiveSpan}`}>
+    <section className={`min-w-0 p-3 ${responsiveSpan}`}>
       <CategoryTitle category={category} />
+      <div className="space-y-1.5">
       {Object.keys(attributes).map((attr) => (
         <AttributeRow
           key={attr}
@@ -16,6 +17,7 @@ export const AttributesCategories = ({ min, max, category, attributes }) => {
           max={max}
         />
       ))}
-    </div>
+      </div>
+    </section>
   );
 };

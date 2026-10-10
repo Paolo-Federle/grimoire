@@ -36,18 +36,18 @@ export const SkillsRow = ({ name, category, max, min }) => {
   };
 
   return (
-    <div className="min-w-0 py-0.5">
-      <div className="flex min-w-0 items-center gap-2">
+    <div className="min-w-0">
         <TitleDots
+          aligned
           name={name}
           min={min}
-          max={max}
+          max={Math.max(max, value, value + modifier)}
+          editableMax={max}
           value={value}
           modifier={modifier}
           onChange={handleChange}
+          trailing={<ModifierControl compact modifier={modifier} onChange={handleModifierChange} />}
         />
-        <ModifierControl modifier={modifier} onChange={handleModifierChange} />
-      </div>
       <SkillSpecialties
         skillName={name}
         specialties={specialties}

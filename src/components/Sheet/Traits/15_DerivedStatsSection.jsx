@@ -5,6 +5,7 @@ import { NumberInput } from "../Common/35_NumberInput";
 import { TextInput } from "../Common/35_TextInput";
 import { useSheetData } from "../05_SheetDataContext";
 import { updateValueAtPath } from "../sheetStateUtils";
+import { getActiveWerewolfStats, getWerewolfForm } from "../sheetWerewolfForms";
 
 const formatModifier = (value) => {
   if (!value) {
@@ -15,11 +16,11 @@ const formatModifier = (value) => {
 };
 
 const SummaryRow = ({ label, value, details = null }) => (
-  <div className="flex min-w-0 flex-wrap items-baseline gap-x-2 gap-y-0.5 rounded bg-gray-50 px-2.5 py-1.5 text-sm">
-    <span className="font-semibold">{label}</span>
-    <span className="tabular-nums">{value}</span>
+  <div className="flex min-w-0 flex-col gap-1 rounded-lg border border-gray-100 bg-gray-50 p-3">
+    <span className="text-xs font-medium text-gray-500">{label}</span>
+    <span className="break-words text-lg font-semibold tabular-nums text-gray-900">{value}</span>
     {details ? (
-      <span className="whitespace-nowrap text-xs text-gray-500">{details}</span>
+      <span className="text-xs text-gray-500">{details}</span>
     ) : null}
   </div>
 );
@@ -28,6 +29,7 @@ export default function DerivedStatsSection() {
   const { sheetData, setSheetData } = useSheetData();
   const [showDetails, setShowDetails] = useState(false);
   const detailsId = useId();
+  const formStats = getActiveWerewolfStats(sheetData);
   const size = sheetData.derived_stats.size;
   const armor = sheetData.derived_stats.armor;
   const speedBase = sheetData.derived_stats.speed.base || 0;
@@ -37,23 +39,24 @@ export default function DerivedStatsSection() {
   const initiativeBase = sheetData.derived_stats.initiative.base || 0;
   const initiativeModifier = sheetData.derived_stats.initiative.modifier || 0;
 
-  const totalSpeed = speedBase + speedModifier;
-  const totalDefense = defenseBase + defenseModifier;
-  const totalInitiative = initiativeBase + initiativeModifier;
+  const totalSpeed = formStats?.speed ?? speedBase + speedModifier;
+  const totalDefense = formStats?.defense ?? defenseBase + defenseModifier;
+  const totalInitiative = formStats?.initiative ?? initiativeBase + initiativeModifier;
 
   return (
     <div className="w-full">
       <CategoryContainer section="OTHER TRAITS">
         <div className="w-full space-y-3">
-          <div className="grid w-full gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-            <SummaryRow label="Size" value={size} />
-            <SummaryRow label="Armor" value={armor || "-"} />
+          {formStats && <p className="m-0 text-xs text-gray-500">Current form: {getWerewolfForm(sheetData).name}. Detail controls edit Hishu values and additional modifiers.</p>}
+          <div className={`grid w-full grid-cols-2 gap-3 sm:grid-cols-3 ${formStats ? "xl:grid-cols-6" : "xl:grid-cols-5"}`}>
+            <SummaryRow label="Size" value={formStats?.size ?? size} />
+            <SummaryRow label="Armor" value={formStats?.armor ?? (armor || "-")} />
             <SummaryRow
               label="Speed"
               value={totalSpeed}
               details={
                 showDetails
-                  ? `Base ${speedBase} | Mod ${formatModifier(speedModifier)}`
+                  ? `Base ${speedBase} | Mod ${formatModifier(speedModifier)}${formStats ? ` | Form ${formatModifier(getWerewolfForm(sheetData).speed)}` : ""}`
                   : null
               }
             />
@@ -62,7 +65,7 @@ export default function DerivedStatsSection() {
               value={totalDefense}
               details={
                 showDetails
-                  ? `Base ${defenseBase} | Mod ${formatModifier(defenseModifier)}`
+                  ? formStats ? "Lower of current Dexterity and Wits, plus modifier" : `Base ${defenseBase} | Mod ${formatModifier(defenseModifier)}`
                   : null
               }
             />
@@ -71,10 +74,11 @@ export default function DerivedStatsSection() {
               value={totalInitiative}
               details={
                 showDetails
-                  ? `Base ${initiativeBase} | Mod ${formatModifier(initiativeModifier)}`
+                  ? `Base ${initiativeBase} | Mod ${formatModifier(initiativeModifier)}${formStats ? ` | Form ${formatModifier(getWerewolfForm(sheetData).initiative)}` : ""}`
                   : null
               }
             />
+            {formStats && <SummaryRow label="Perception" value={formStats.perception} details={showDetails ? `Wits + Composure | Form ${formatModifier(getWerewolfForm(sheetData).perception)}` : null} />}
           </div>
 
           <div className="flex justify-end">

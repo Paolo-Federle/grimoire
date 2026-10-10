@@ -252,6 +252,9 @@ export const sheetData = {
         "size": 5
     },
     "race_details": {
+        "werewolf": {
+            "current_form": "hishu"
+        },
         "mage": {
             "active_spells": [{
                 "arcana": "",
