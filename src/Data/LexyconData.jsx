@@ -13,7 +13,13 @@ const mageLexyconData = [
   },
   {
     "Name": "Acanthus",
-    "Description": "A mage whose Path leads to Arcadia. Acanthus epitomize the tarot card of “The Fool.”Adamantine Arrow",
+    "Description": "A mage whose Path leads to Arcadia. Acanthus epitomize the tarot card of “The Fool.”",
+    "Long Description": [],
+    "Book": "MTA"
+  },
+  {
+    "Name": "Adamantine Arrow",
+    "Description": "An order that practices the occult art of war, defending the Awakened and the secrets of magic.",
     "Long Description": [],
     "Book": "MTA"
   },
@@ -169,7 +175,13 @@ const mageLexyconData = [
   },
   {
     "Name": "Forces",
-    "Description": "The Arcanum that governs electricity, gravity, kinetic energy, light, physics, radiation, sound and weather. Free Council",
+    "Description": "The Arcanum that governs electricity, gravity, kinetic energy, light, physics, radiation, sound and weather.",
+    "Long Description": [],
+    "Book": "MTA"
+  },
+  {
+    "Name": "Free Council",
+    "Description": "A modern magical order that seeks wisdom in human culture, technology and democratic cooperation.",
     "Long Description": [],
     "Book": "MTA"
   },

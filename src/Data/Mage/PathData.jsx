@@ -1,48 +1,59 @@
 const PathData = [
     {
+        'Name': 'Acanthus',
         'Path name': 'Acanthus',
         'Nickname': 'Enchanters',
         'Bonus trait': 'Composure',
         'Ruling arcana': 'Time/Fate',
         'Inferior arcanum': 'Forces',
         'Book': 'M:tA 92',
-        'link': "/mage/order/acanthus"
+        // Preserve the identity of favorites saved before Path details existed.
+        '__favKey': "/mage/order/acanthus",
+        'link': "/mage/path/acanthus"
     },
     {
+        'Name': 'Mastigos',
         'Path name': 'Mastigos',
         'Nickname': 'Warlocks',
         'Bonus trait': 'Resolve',
         'Ruling arcana': 'Space/Mind',
         'Inferior arcanum': 'Matter',
         'Book': 'M:tA 95',
-        'link': "/mage/order/mastigos"
+        '__favKey': "/mage/order/mastigos",
+        'link': "/mage/path/mastigos"
     },
     {
+        'Name': 'Moros',
         'Path name': 'Moros',
         'Nickname': 'Necromancers',
         'Bonus trait': 'Composure',
         'Ruling arcana': 'Matter/Death',
         'Inferior arcanum': 'Spirit',
         'Book': 'M:tA 98',
-        'link': "/mage/order/moros"
+        '__favKey': "/mage/order/moros",
+        'link': "/mage/path/moros"
     },
     {
+        'Name': 'Obrimos',
         'Path name': 'Obrimos',
         'Nickname': 'Theurges',
         'Bonus trait': 'Resolve',
         'Ruling arcana': 'Forces/Prime',
         'Inferior arcanum': 'Death',
         'Book': 'M:tA 101',
-        'link': "/mage/order/obrimos"
+        '__favKey': "/mage/order/obrimos",
+        'link': "/mage/path/obrimos"
     },
     {
+        'Name': 'Thyrsus',
         'Path name': 'Thyrsus',
         'Nickname': 'Shamans',
         'Bonus trait': 'Composure',
         'Ruling arcana': 'Life/Spirit',
         'Inferior arcanum': 'Mind',
         'Book': 'M:tA 104',
-        'link': "/mage/order/thyrsus"
+        '__favKey': "/mage/order/thyrsus",
+        'link': "/mage/path/thyrsus"
     }
 ]
 

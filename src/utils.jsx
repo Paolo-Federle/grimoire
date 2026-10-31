@@ -101,7 +101,7 @@ export function getFlipHtmlPageUrlsFromSource(source, allBooks) {
   
     return normalizeDisplayText(source).split(',').map(part => {
       const trimmed = part.trim();
-      const match = trimmed.match(/^([^\s]+)\s+(\d+)$/);
+      const match = trimmed.match(/^([^\s]+)\s+(\d+)(?:\s*[-–]\s*\d+)?$/);
       if (!match) return { text: trimmed, url: null };
   
       const codeName = match[1];

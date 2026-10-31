@@ -25,7 +25,7 @@ const normalizedSpells = SpellsData.map((spell) => ({
   level: extractSpellLevel(spell.Arcana),
   dicePool: cleanHtmlText(spell.RoteDice || ""),
   detailPath: spell?.Name
-    ? `${PATHS.MAGE.SPELLS}/${slugify(spell.Name)}`
+    ? `${PATHS.MAGE.ARCANA}/${slugify(spell.Name)}`
     : null,
 }));
 

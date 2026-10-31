@@ -23,7 +23,7 @@
 // const UNIVERSAL_MERIT_DETAILS = Object.fromEntries(allUniMeritsData.map(m => [slug(m.Name), `/universal_merit/${slug(m.Name)}`]));
 // const MAGE_MERIT_DETAILS = Object.fromEntries(allMageMeritsData.map(m => [slug(m.Name), `/mage/merits/${slug(m.Name)}`]));
 // const MAGE_LEGACY_DETAILS = Object.fromEntries(LegacyData.map(l => [slug(l.Name), `/mage/legacy/${slug(l.Name)}`]));
-// const MAGE_SPELL_DETAILS = Object.fromEntries(SpellsData.map(s => [slug(s.Name), `/mage/spells/${slug(s.Name)}`]));
+// const MAGE_SPELL_DETAILS = Object.fromEntries(SpellsData.map(s => [slug(s.Name), `/mage/arcana/${slug(s.Name)}`]));
 // const MAGE_ARTIFACT_DETAILS = Object.fromEntries(artifactData.map(a => [slug(a.Name), `/mage/artifacts/${slug(a.Name)}`]));
 // const MAGE_IMBUED_ITEM_DETAILS = Object.fromEntries(imbuedItemsData.map(i => [slug(i.Name), `/mage/imbued_items/${slug(i.Name)}`]));
 // const CHANGELING_CONTRACT_DETAILS = Object.fromEntries(allContracts.map(c => [slug(c.Name), `/changeling/contracts/${slug(c.Name)}`]));
@@ -48,6 +48,7 @@ export const PATHS = {
     SHEET: '/sheet',
     SHEET_LEGACY_EDITOR: '/sheet/editor',
     TRAITS: '/traits',
+    ENERGY_POOLS: '/traits/energy_pools',
     EXTERNAL_RESOURCES: '/external_resources',
     LEXYCON: '/lexycon',
     SETTINGS: '/settings',
@@ -78,12 +79,13 @@ export const PATHS = {
         BASE: '/mage',
         MERITS: '/mage/merits',
         LEGACY: '/mage/legacy',
-        SPELLS: '/mage/spells',
+        ARCANA: '/mage/arcana',
         ARTIFACTS: '/mage/artifacts',
         IMBUED_ITEMS: '/mage/imbued_items',
         PATH: '/mage/path',
         ORDER: '/mage/order',
         GNOSIS: '/mage/gnosis',
+        MANA: '/mage/mana',
         WISDOM: '/mage/wisdom',
         GRIMOIRES: '/mage/grimoires',
         EXPERIENCE: '/mage/experience_point',
@@ -212,5 +214,14 @@ export const getLegacySheetEditorPath = (sheetId = ":sheetId") =>
     `${PATHS.SHEET_LEGACY_EDITOR}/${sheetId}`;
 export const getMageLegacyPath = (legacyId = ":slug") =>
     `${PATHS.MAGE.LEGACY}/${legacyId}`;
+
+// Kept outside PATHS so redirects do not become indexed wiki pages.
+export const LEGACY_MAGE_SPELLS_PATH = '/mage/spells';
+
+export function getCanonicalMageArcanaPath(path) {
+    return typeof path === 'string'
+        ? path.replace(/^\/mage\/spells(?=\/|[?#]|$)/, PATHS.MAGE.ARCANA)
+        : path;
+}
 
 

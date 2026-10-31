@@ -26,6 +26,12 @@ export const TraitsData = [
         "link": PATHS.HUNTER.DREAD_POWERS
     },
     {
+        "Name": "Energy pools",
+        "Specific to": "Supernatural characters",
+        "Description": "Resources used to fuel supernatural powers and abilities",
+        "link": PATHS.ENERGY_POOLS
+    },
+    {
         "Name": "Psychic powers",
         "Specific to": "",
         "Description": "Paranormal abilities denied to ordinary people",

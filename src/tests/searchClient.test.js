@@ -10,7 +10,7 @@ const entries = [
     type: "Spell",
     book: "Mage Core 120",
     meta: "Fate",
-    path: "/mage/spells/cafe_of_fate",
+    path: "/mage/arcana/cafe_of_fate",
   },
   {
     id: "merit-1",
@@ -30,7 +30,7 @@ const entries = [
     type: "Spell",
     book: "Mysteries 20",
     meta: "Matter",
-    path: "/mage/spells/hidden_hoard",
+    path: "/mage/arcana/hidden_hoard",
   },
 ];
 

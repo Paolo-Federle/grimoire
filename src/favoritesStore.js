@@ -1,5 +1,6 @@
 import { useSyncExternalStore } from "react";
 import { getCurrentRoutePath, slugify } from "./utils";
+import { getCanonicalMageArcanaPath } from "./pages/path";
 
 export const FAVORITES_STORAGE_KEY = "grimoire_favorites_v1";
 
@@ -8,13 +9,32 @@ const EMPTY_ITEMS = [];
 let isInitialized = false;
 let snapshot = { items: EMPTY_ITEMS, keys: new Set() };
 
+function normalizeFavoritePaths(item) {
+  if (!item || typeof item !== "object") return item;
+
+  const key = getCanonicalMageArcanaPath(item.key);
+  const from = getCanonicalMageArcanaPath(item.from);
+  const linkUrl = getCanonicalMageArcanaPath(item.linkUrl);
+  if (key === item.key && from === item.from && linkUrl === item.linkUrl) return item;
+
+  return { ...item, key, from, linkUrl };
+}
+
 function buildSnapshot(items) {
-  const sortedItems = [...items].sort(
+  const sortedItems = items.map(normalizeFavoritePaths).sort(
     (left, right) => (right?.savedAt || 0) - (left?.savedAt || 0)
   );
+  const keys = new Set();
+  const uniqueItems = sortedItems.filter((item) => {
+    if (!item?.key) return true;
+    if (keys.has(item.key)) return false;
+    keys.add(item.key);
+    return true;
+  });
+
   return {
-    items: sortedItems,
-    keys: new Set(sortedItems.map((item) => item?.key).filter(Boolean)),
+    items: uniqueItems,
+    keys,
   };
 }
 
@@ -79,13 +99,13 @@ function writeItems(items) {
 }
 
 export function getFavoriteKey(row, columns, from = getCurrentRoutePath()) {
-  if (row?.__favKey && typeof row.__favKey === "string") return row.__favKey;
-  if (row?.link && typeof row.link === "string") return row.link;
+  if (row?.__favKey && typeof row.__favKey === "string") return getCanonicalMageArcanaPath(row.__favKey);
+  if (row?.link && typeof row.link === "string") return getCanonicalMageArcanaPath(row.link);
 
   const visibleColumns = (columns || []).filter((column) => column && column !== "link");
   const firstColumn = visibleColumns[0] || null;
   const title = firstColumn && row?.[firstColumn] ? String(row[firstColumn]) : "unknown";
-  return `${from}#${slugify(title)}`;
+  return `${getCanonicalMageArcanaPath(from)}#${slugify(title)}`;
 }
 
 export function buildFavoriteItem(
@@ -101,11 +121,11 @@ export function buildFavoriteItem(
       return [column, Array.isArray(value) ? value.join(", ") : value];
     })
   );
-  const link = typeof row?.link === "string" ? row.link : null;
+  const link = typeof row?.link === "string" ? getCanonicalMageArcanaPath(row.link) : null;
 
   return {
     key: getFavoriteKey(row, visibleColumns, from),
-    from,
+    from: getCanonicalMageArcanaPath(from),
     data,
     savedAt: Date.now(),
     titleIsLink: Boolean(titleIsLink),

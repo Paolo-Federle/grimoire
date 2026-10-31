@@ -1,162 +1,122 @@
 # AGENTS.md
 
+## Come orientarsi
+
+Ultima verifica dei riferimenti: 2026-10-23.
+
+- Leggere questo file per le regole di modifica e [PROJECT_CONTEXT.md](./PROJECT_CONTEXT.md) per la mappa del codice e lo stato delle funzionalità.
+- L'[indice delle guide AI](./docs/ai/README.md) collega gli `AGENTS.md` locali di dati, pagine, componenti, sheet e ricerca. Leggere quelli delle aree coinvolte prima di modificarle.
+- Per interventi trasversali usare i [flussi operativi](./docs/ai/WORKFLOWS.md); per scegliere le verifiche usare la [mappa dei test](./docs/ai/TESTING.md).
+- [README.md](./README.md) contiene avvio, build e comandi di verifica.
+- Per tabelle e dati ranked consultare [TABLE_COMPONENT_ANALYSIS.md](./TABLE_COMPONENT_ANALYSIS.md).
+- Per i contenuti delle magie consultare [ArcanaContentMigrationAnalysis.md](./src/Data/Mage/Arcana/ArcanaContentMigrationAnalysis.md).
+- [TODO.md](./TODO.md) è il backlog: una voce aperta può riguardare il completamento di una funzionalità già presente in parte.
+- Verificare le affermazioni sullo stato corrente contro codice, `package.json` e configurazioni. Aggiornare queste guide quando cambiano strumenti, percorsi o pattern condivisi.
+
 ## Scopo del progetto
-- `grimoire` e` un'app React statica orientata alla consultazione di contenuti.
-- I contenuti principali sono nel repository, soprattutto in `src/Data`, non arrivano da un backend osservato nel progetto.
-- L'app genera molte pagine e viste dinamiche a partire da dataset locali, con forte attenzione a omogeneita` delle pagine e riuso di pochi componenti.
-- Parte del progetto include anche una `sheet` interattiva per il personaggio, gestita lato client.
 
-## Stack tecnologico
-- React 18
-- React Router DOM 6
-- `react-scripts` (Create React App) per sviluppo/build
-- Material UI (`@mui/material`, `@mui/icons-material`, `@emotion/*`)
-- Tailwind CSS presente nel progetto e candidabile a uso piu` esteso
-- CSS custom in `src/css`
-- Jest + Testing Library per test React
-- Playwright per smoke test / test di navigazione
-- Deploy statico osservato verso GitHub Pages tramite `gh-pages`
+- `grimoire` è un'app React statica di consultazione, alimentata soprattutto dai dataset locali in `src/Data`.
+- Liste, dettagli, ricerca globale e navigazione per manuale riusano gli stessi contenuti.
+- La scheda personaggio (`sheet`) è un sottosistema client in evoluzione, con libreria, persistenza locale e cataloghi derivati dalla wiki.
 
-## Struttura del progetto
-- `src/App.js`: composizione principale delle route.
-- `src/pages/*`: pagine per sezioni e sottosezioni del dominio.
-- `src/Data/*`: dataset statici usati per generare liste e dettagli.
-- `src/components/*`: componenti riusabili per tabelle, dettagli, navbar, breadcrumbs, sheet.
-- `src/components/Sheet/*`: sottosistema della scheda personaggio.
-- `src/utils.jsx`: utility generiche, slug, preferiti e helper vari.
-- `src/pages/path.js`: costanti `PATHS` usate dal routing.
-- `tests/*`: suite Playwright.
-- `public/*`: asset pubblici standard CRA.
+## Stack e comandi reali
 
-## Convenzioni di naming
-- Convenzione osservata: file pagina e componenti in PascalCase, spesso con nomi descrittivi del dominio (`Vampire`, `DisciplinesDetail`, `UniversalMeritsDetail`).
-- Convenzione osservata: molte cartelle sono organizzate per linea tematica o "razza" (`Vampire`, `Mage`, `Werewolf`, `Changeling`, ecc.).
-- Convenzione osservata: i dataset hanno chiavi eterogenee (`Name`, `Title`, `Nome`, `Titolo`), quindi il codice spesso gestisce piu` varianti.
-- Convenzione osservata nella sheet: prefisso numerico nei file (`15_AttributesSection.jsx`, `30_AttributeRow.jsx`) per ordinare blocchi/componenti.
-- Esistono alcune anomalie di naming gia` presenti nel repo:
-  - `src/pages/Vampire/DevotionsDetail .jsx`
-  - `src/components/Sheet/Common/32_DynamicInput.jsx.jsx`
-  - cartelle con spazi come `Lesser templates`
-- Non normalizzare questi nomi in modo opportunistico senza richiesta esplicita: potrebbero avere impatti sugli import.
+- React 18, React Router DOM 6 e `HashRouter`.
+- Vite per sviluppo/build; configurazione in `vite.config.mjs`.
+- Vitest + Testing Library + jsdom per i test in `src/tests`; usare `vi` per mock e timer.
+- Playwright per i test browser in `tests`.
+- Material UI 6, Emotion, Tailwind CSS 3 e CSS custom in `src/css` e `src/index.css`.
+- Deploy GitHub Pages con `gh-pages -d dist`.
+- Create React App, `react-scripts` e Jest sono riferimenti storici. Non esiste uno script `lint` in `package.json`.
 
-## Convenzioni per componenti, hooks, utility, API/service layer
-- Componenti:
-  - privilegiare componenti riusabili e generici per liste, tabelle e dettagli;
-  - prima di creare un nuovo componente, verificare se il caso rientra gia` in `SimpleTable`, `BaseTable`, `MultipleTables`, `ManyHeadersTable`, `Detail`.
-- Hooks:
-  - non e` presente un layer esteso di custom hooks;
-  - hook osservato e centrale: `useSheetData()` per la sheet.
-- Utility:
-  - utilita` trasversali in `src/utils.jsx`;
-  - utilita` specifiche della sheet in `src/components/Sheet/sheetStateUtils.js`.
-- API / service layer:
-  - non osservato un vero service layer;
-  - non osservate chiamate API applicative nel progetto;
-  - trattare il progetto come app content-driven statica finche' non emerge altro.
+```bash
+npm ci
+npm start
+npm run build
+npm run preview
+npm run check:docs
+npm test
+npm test -- src/tests/pages/Mage/SpellDetail.test.jsx
+npx playwright test tests/example.spec.js --project=chromium
+npx playwright test tests/table-detail-pages.spec.js --project=chromium
+```
 
-## Gestione dello stato
-- App principale:
-  - stato per lo piu` locale ai componenti tramite `useState`;
-  - routing con `HashRouter` in `src/index.js`.
-- Preferiti:
-  - salvati in `localStorage` tramite helper in `src/utils.jsx`;
-  - comunicazione con evento custom `favorites:changed`.
-- Sheet:
-  - stato condiviso tramite `SheetDataProvider` e `useSheetData()`;
-  - struttura iniziale in `src/components/Sheet/00_SheetData.jsx`;
-  - aggiornamenti annidati da fare in modo immutabile usando `sheetStateUtils.js`.
+- `npm run dev` è un alias di avvio. `prestart`, `predev` e `prebuild` rigenerano l'indice di ricerca.
+- URL locale: `http://localhost:3000/grimoire/#/`. Vite usa `base: "/grimoire/"` e produce `dist/`.
+- Non usare `--watchAll=false`: è un'opzione del vecchio runner Jest. `npm test` esegue già una singola passata.
+- Playwright prevede l'avvio automatico di Vite; il suo URL predefinito manca però dello slash finale richiesto dalla base Vite. Impostare `PLAYWRIGHT_APP_BASE=http://127.0.0.1:3000/grimoire/` per la verifica. In caso di timeout del server, avviarlo con `npm start -- --host 127.0.0.1` e lasciare che Playwright lo riusi. Vedere esempi e limiti in `README.md` e `PROJECT_CONTEXT.md`.
+- `npm run deploy` pubblica il sito: eseguirlo solo quando la richiesta comprende il deploy.
 
-## Gestione delle chiamate API
-- Nessuna chiamata API applicativa osservata.
-- Non introdurre fetch/service layer "per pulizia architetturale" se non serve davvero a una feature richiesta.
-- Se in futuro vengono introdotte API, documentare separatamente perche' oggi il progetto e` principalmente statico e locale.
+## Struttura e punti di ingresso
 
-## Styling / UI system
-- Styling misto:
-- CSS custom in `src/css`
-- utility class Tailwind presenti in molte view/componenti
-- Material UI per controlli, icone e theme
-- Tema MUI osservato in `src/css/muiTheme.js`.
-- Chiarimento di progetto:
-- Tailwind oggi non e` usato in modo sistematico, ma puo` essere esteso anche in modo piu` completo.
-- Non esiste una convenzione formale tra CSS custom, Tailwind e MUI.
-- Preferenza dichiarata: privilegiare Tailwind e MUI rispetto a nuovo CSS custom, salvo casi specifici.
-- Convenzione osservata:
-- contenuto editoriale e tabelle con forte riuso di markup semplice;
-- la UI non e` costruita su un design system formale separato.
-- Preservare l'aspetto uniforme delle pagine gia` esistenti: meglio estendere pattern esistenti che introdurre un nuovo linguaggio visivo.
+- `index.html` → `src/index.jsx` → `src/App.jsx`: avvio e routing. I precedenti `src/index.js` e `src/App.js` non esistono più.
+- `src/pages/path.js`: `PATHS` e helper per gli URL di sheet e Legacy.
+- `src/pages/*`: pagine delle linee di gioco e sezioni generali.
+- `src/Data/*`: dataset statici; controllare gli export effettivi prima di usarli.
+- `src/components/SimpleTable.jsx`, `src/components/SimpleTable/*`, `src/components/BaseTable.jsx`, `src/components/TableGroup.jsx`: famiglia tabellare attuale.
+- `src/components/Detail.jsx`, `ContentBlockList.jsx`, `StructuredContent.jsx`, `Content.ts`: rendering condiviso dei contenuti.
+- `src/components/LazyDetailRoute.jsx`, `RouteFeedback.jsx`, `AppErrorBoundary.jsx`: caricamento dei dettagli e gestione degli errori.
+- `src/search/*` e `scripts/generate-search-index.mjs`: costruzione e lettura dell'indice statico.
+- `src/books/bookNavigation.js`: catalogo, slug e collegamenti ai manuali.
+- `src/favoritesStore.js`: stato e persistenza dei preferiti; `src/utils.jsx`: slug, trasformazioni e normalizzazione del testo.
+- `src/components/Sheet/*`: stato, cataloghi, storage e componenti della scheda; pagine di accesso `SheetLibrary.jsx` e `SheetEditor.jsx` in `src/pages/Generale`.
 
-## Regole di modifica del codice
-- Preservare struttura, route e shape dei dati esistenti.
-- Procedere con modifiche piccole e locali.
-- Riutilizzare i componenti gia` presenti prima di introdurne di nuovi.
-- Se un componente riceve dati/props non usati immediatamente, non eliminarli senza verificare se servono ad altre viste, tabelle o dettagli.
-- Nei flussi della sheet usare aggiornamenti immutabili; evitare mutazioni profonde dirette.
-- Quando si toccano route o link:
-  - verificare `PATHS` in `src/pages/path.js`;
-  - verificare compatibilita` con `HashRouter`;
-  - ricordare che il deploy osservato usa `homepage: /grimoire/`.
-- Quando si tocca rendering di testo ricco:
-- rispettare il pattern esistente basato su HTML incorporato nei dati;
-- preferire boundary condivise invece di moltiplicare `dangerouslySetInnerHTML` in nuovi punti;
-- tenere presente la direzione desiderata del progetto: progressiva riduzione dell'HTML direttamente nei dataset, soprattutto nei dataset piu` nuovi.
+## Dati, tabelle e dettagli
 
-## Cose da non fare
-- Non rifattorizzare l'architettura generale senza richiesta esplicita.
-- Non sostituire in massa i componenti tabellari con nuove astrazioni.
-- Non trasformare il progetto in un'app "API-first" o "state-managed" senza bisogno reale.
-- Non rimuovere campi dai dataset perche' sembrano ridondanti: molti dati sono usati in liste e dettagli diversi.
-- Non normalizzare naming/file path anomali senza verificare gli import.
-- Non cambiare `HashRouter` in `BrowserRouter` senza considerare il deploy statico su GitHub Pages.
-- Non introdurre una sanitizzazione aggressiva del contenuto HTML senza verificare l'impatto sulla formattazione editoriale gia` presente.
-- Non migrare in massa inglese/italiano o naming dei dati senza un lavoro mirato e controllato: l'obiettivo dichiarato e` convergere verso l'inglese standard, ma con cambiamenti progressivi.
+- Riutilizzare `SimpleTable` per righe normali e genitori con `Ranks`, `TableGroup` per gruppi di tabelle sorelle, `BaseTable` per gli usi di livello inferiore già presenti.
+- `ManyHeadersTable`, `MultipleTables` e `CombinationTable` sono stati rimossi. Non ricrearne gli import né usare le vecchie props `mergeHeaders`/`headerCheckFields` come API corrente.
+- Distinguere un genitore reale con figli ranked da un raggruppamento visivo per livello/tipologia. Non introdurre righe fittizie con valori `N/A` per disegnare separatori.
+- I dataset migrati usano `Name` come identità canonica; i Legacy Mage hanno anche un `Id` stabile. Restano chiavi descrittive miste italiano/inglese: verificarle nel dataset concreto, senza rinominarle in massa.
+- Preferire `headers` espliciti quando un dataset include campi tecnici, di raggruppamento o di dettaglio.
+- Preservare campi, export aggregati e varianti flat: possono servire a route, dettagli, ricerca, preferiti o selettori della sheet anche quando non compaiono nella tabella.
+- Le pagine possono preparare e filtrare i dati; evitare mutazioni degli oggetti importati quando si aggiungono link o valori di presentazione.
 
-## Checklist prima di proporre modifiche
-- La modifica rispetta i componenti gia` separati?
-- Sto riusando un pattern gia` presente invece di introdurne uno nuovo?
-- Sto preservando la shape dei dati passati ai componenti?
-- Ho verificato se la pagina nasce da dataset in `src/Data`?
-- Ho controllato `PATHS` e i link generati?
-- Se tocco la sheet, sto aggiornando lo stato in modo immutabile?
-- Se tocco la sheet, sto preservando il fatto che e` una feature separata dalla wiki ma con possibile accesso ai dataset?
-- Se tocco test:
-- Jest deve riflettere route/componenti reali;
-- Playwright deve testare l'app, non siti esterni.
+## Routing, caricamento e ricerca
 
-## Comandi utili
-- `npm start`
-- `npm run build`
-- `npm test -- --watchAll=false`
-- `npx playwright test tests/example.spec.js --project=chromium`
-- `npx playwright test tests/table-detail-pages.spec.js --project=chromium`
-- `npm run deploy`
+- Le pagine sono caricate con `React.lazy`; i dettagli usano configurazioni in `App.jsx` con `loadPage`, `loadData`, `propKey` e `resolveItem`, eseguite da `LazyDetailRoute` sul parametro `:slug`.
+- Conservare il caricamento differito. Per i Legacy usare `LegacyIndexData.js` per gli elenchi e `LegacyDetailLoader.js` per i dettagli, evitando import pesanti anticipati.
+- Quando si modifica una route, controllare `PATHS`, resolver in `App.jsx`, link nelle liste, indice di ricerca e preferiti. Alcuni resolver disambiguano nomi duplicati con manuale/tipologia; non sostituirli con un semplice `slugify(Name)`.
+- `slugify` genera slug con underscore; i Legacy usano `getMageLegacyPath(Id)`. Preservare gli URL esistenti.
+- Per la sezione Mage usare `PATHS.MAGE.ARCANA` (`/mage/arcana` e dettagli `/:slug`). I precedenti URL `/mage/spells` sono alias con redirect; i preferiti salvati vengono normalizzati da `favoritesStore.js`.
+- Conservare `HashRouter` e il prefisso statico `/grimoire/`; il solo campo `homepage` di `package.json` non configura Vite.
+- Il runtime legge `search-index.json` con `fetch`, ma si tratta di un asset statico dello stesso sito, non di un backend applicativo.
+- Dopo modifiche ai dataset o alle fonti indicizzate, rigenerare con `node scripts/generate-search-index.mjs` se il server è già avviato. Il file generato in `public/` è ignorato da Git e non va modificato manualmente.
+- Nuovi contenuti possono richiedere l'aggiornamento di `src/search/buildSearchIndex.js`; aggiungere una pagina non ne garantisce automaticamente l'indicizzazione.
+- Quando si aggiungono pagine o dettagli, verificare e aggiornare anche le voci e i collegamenti del lessico nella linea di gioco pertinente. Seguire il [flusso di manutenzione del lessico](./docs/ai/WORKFLOWS.md#mantenere-il-lessico-allineato), anche quando si rinomina o rimuove una destinazione esistente.
 
-## File/cartelle importanti
-- `src/App.js`
-- `src/index.js`
-- `src/pages/path.js`
-- `src/utils.jsx`
-- `src/components/Detail.jsx`
-- `src/components/BaseTable.jsx`
-- `src/components/SimpleTable.jsx`
-- `src/components/Sheet/00_SheetData.jsx`
-- `src/components/Sheet/05_SheetDataContext.jsx`
-- `src/components/Sheet/sheetStateUtils.js`
-- `tests/example.spec.js`
-- `tests/table-detail-pages.spec.js`
-- `playwright.config.js`
+## Testo ricco e stile
 
-## Note per lavorare in sicurezza su questo progetto
-- Il progetto e` fortemente data-driven: piccoli cambiamenti a utility comuni o componenti tabellari possono avere impatti molto ampi.
-- Le chiavi dei dataset non sono uniformi; verificare sempre i nomi effettivi dei campi.
-- Il rendering HTML nei contenuti e` una scelta gia` presente e funzionale al progetto statico; trattarlo con cautela.
-- Direzione dichiarata: nel tempo i dataset dovrebbero contenere meno HTML inline e modelli dati piu` puliti, ma senza rotture improvvise dei contenuti esistenti.
-- La sheet e` una feature ancora in corso e concettualmente separata dalla wiki, ma dovrebbe poter attingere ai dataset quando serve.
-- Direzione dichiarata su naming e lingua: convergere verso l'inglese standard.
-- Warning di build e test non sono considerati accettabili a regime: vanno ridotti e sistemati progressivamente.
-- La copertura test e` di tipo smoke/integrativo, non di business logic estesa.
-- Attenzioni / Rischi / Da verificare:
-- molti dettagli di pagina usano `dangerouslySetInnerHTML`;
-- esistono file/path anomali con spazi o doppie estensioni;
-- sono presenti warning residui in Jest/React Router e alcuni warning ESLint in build, da sistemare;
-- la presenza contemporanea di CRA, Tailwind, CSS custom e MUI richiede cautela su stile e regressioni visive.
+- Riutilizzare `StructuredContent` per paragrafi, titoli, liste, righe etichettate e tabelle; `InlineContent` per testo ed enfasi inline.
+- `ContentBlockList` gestisce anche i blocchi legacy con tabelle nominate. `Detail.jsx` espone gli helper dei dettagli.
+- `InlineContent` mantiene compatibilità con stringhe HTML inline mediante `DOMParser` e nodi React. Il renderer attuale non espone blocchi `html`/`tableRef` né un fallback `dangerouslySetInnerHTML`.
+- Preservare la formattazione dei contenuti legacy verificandone il rendering; migrare progressivamente verso dati strutturati. Non introdurre nuovi punti di HTML grezzo o sanitizzazioni che alterino il testo.
+- Preferire Tailwind e MUI a nuovo CSS custom; tema in `src/css/muiTheme.js`. Estendere il linguaggio visivo esistente.
+
+## Stato, preferiti e sheet
+
+- La wiki usa principalmente stato locale. I preferiti sono gestiti da `favoritesStore.js` tramite `useSyncExternalStore` e `localStorage` (`grimoire_favorites_v1`), con evento compatibile `favorites:changed` e sincronizzazione tramite `storage`.
+- `SheetDataProvider`/`useSheetData()` gestiscono i dati; `SheetViewProvider`/`useSheetView()` la modalità Play/Edit; `SheetCatalogProvider`/`useSheetCatalog()` i cataloghi caricati per razza.
+- Il modello iniziale è `00_SheetData.jsx`; usare aggiornamenti immutabili, in particolare `updateValueAtPath` in `sheetStateUtils.js`.
+- `sheetStorage.js` normalizza, salva, importa ed esporta le schede. Conservare compatibilità con dati già salvati/importati e non persistere i cataloghi `choices` dentro ogni scheda.
+- La libreria è su `/sheet`, l'editor su `/sheet/:sheetId`; i vecchi URL `/sheet/editor/:sheetId` vengono reindirizzati.
+- L'autosalvataggio del provider è differito di 400 ms e scarica le modifiche pendenti allo smontaggio. Preservarlo quando si toccano context, navigazione o storage.
+- La sheet accede già ai dataset wiki tramite cataloghi e helper dedicati: preservare questa integrazione e la distinzione dalla consultazione.
+
+## Convenzioni e limiti delle modifiche
+
+- Procedere con modifiche piccole e locali; preservare struttura, route e shape dei dati.
+- Non rifattorizzare l'architettura generale, sostituire in massa le tabelle o introdurre service layer/state manager senza una necessità della feature richiesta.
+- Non eliminare props o campi apparentemente inutilizzati senza controllare tutti i consumatori.
+- Conservare i nomi anomali ancora importati: `src/pages/Vampire/DevotionsDetail .jsx`, `src/components/Sheet/Common/32_DynamicInput.jsx.jsx`, cartelle `Lesser templates`.
+- Componenti/pagine sono generalmente PascalCase; nella sheet i prefissi numerici ordinano le sezioni. Convergere verso inglese standard in modo progressivo.
+- `dist/`, `build/` residuo, `node_modules/`, report Playwright e indice di ricerca generato non sono fonti da aggiornare manualmente.
+
+## Verifiche prima della consegna
+
+- Controllare i dati effettivi e riusare un pattern già presente.
+- Se cambiano link o identità, verificare lista → dettaglio, ricerca, preferiti e compatibilità con HashRouter.
+- Se cambia la sheet, verificare aggiornamenti immutabili, normalizzazione dei vecchi dati, Play/Edit e persistenza.
+- Eseguire i test Vitest pertinenti; per componenti condivisi e routing ampliare a `npm test` e build. Per navigazione/UI usare gli smoke Playwright appropriati sull'app locale.
+- Non trattare i test Playwright esistenti come copertura completa: alcuni scenari sheet sono rimasti alla UI precedente.
+- Non aumentare i warning. Distinguere gli errori osservati nella verifica corrente dai debiti storici; la build Vite non esegue un controllo ESLint.
+- Se cambiano guide o riferimenti, eseguire `npm run check:docs` e `git diff --check`. Il controllo documentale verifica link Markdown locali e ancore; le affermazioni sul comportamento richiedono comunque confronto con il codice.

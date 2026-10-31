@@ -178,6 +178,66 @@ describe("favorites store", () => {
     vi.resetModules();
   });
 
+  it("keeps saved spell favorites selected and removable after the Arcana URL migration", async () => {
+    const originalData = { "Death 1": "Soul Marks", Description: "Read the marks on a soul" };
+    window.localStorage.setItem("grimoire_favorites_v1", JSON.stringify({
+      v: 1,
+      items: [{
+        key: "/mage/spells/soul_marks",
+        from: "/mage/spells",
+        linkUrl: "/mage/spells/soul_marks",
+        titleIsLink: true,
+        data: originalData,
+        savedAt: 123,
+      }],
+    }));
+    const store = await import("../favoritesStore");
+
+    expect(store.listFavorites()).toEqual([{
+      key: "/mage/arcana/soul_marks",
+      from: "/mage/arcana",
+      linkUrl: "/mage/arcana/soul_marks",
+      titleIsLink: true,
+      data: originalData,
+      savedAt: 123,
+    }]);
+    const { default: FavoritesPage } = await import("../pages/favorites");
+    render(
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <FavoritesPage />
+      </MemoryRouter>
+    );
+    expect(screen.getByRole("link", { name: "Arcana", exact: true })).toHaveAttribute("href", "/mage/arcana");
+    expect(screen.getByRole("link", { name: "Soul Marks", exact: true })).toHaveAttribute("href", "/mage/arcana/soul_marks");
+    let result;
+    act(() => {
+      result = store.toggleFavorite(
+        { "Death 1": "Soul Marks", link: "/mage/arcana/soul_marks" },
+        ["Death 1"],
+        "/mage/arcana",
+        true
+      );
+    });
+    expect(result.isFavorite).toBe(false);
+    expect(store.listFavorites()).toEqual([]);
+  }, 30000);
+
+  it("merges old and new URLs for the same favorite while retaining the most recent record", async () => {
+    window.localStorage.setItem("grimoire_favorites_v1", JSON.stringify({
+      v: 1,
+      items: [
+        { key: "/mage/spells/ward", from: "/mage/spells", savedAt: 1, data: { Name: "Ward" } },
+        { key: "/mage/arcana/ward", from: "/mage/arcana", savedAt: 2, data: { Name: "Ward", Note: "Kept" } },
+        { key: "/vampire/disciplines/vigor", from: "/vampire/disciplines", savedAt: 3, data: { Name: "Vigor" } },
+      ],
+    }));
+    const store = await import("../favoritesStore");
+
+    expect(store.getFavoritesCount()).toBe(2);
+    expect(store.listFavorites().find(item => item.key === "/mage/arcana/ward").data.Note).toBe("Kept");
+    expect(store.listFavorites()[0].key).toBe("/vampire/disciplines/vigor");
+  });
+
   it("reads localStorage once and reuses the cached index", async () => {
     const getItemSpy = vi.spyOn(Storage.prototype, "getItem");
     const store = await import("../favoritesStore");

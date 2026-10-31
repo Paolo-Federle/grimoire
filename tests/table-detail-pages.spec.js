@@ -14,7 +14,7 @@ const TABLE_PAGES = [
   { name: 'Universal Merits', path: '#' + PATHS.UNIVERSAL_MERITS },
   // { name: 'Vampire Devotions', path: '#' + PATHS.VAMPIRE.DEVOTIONS },
   // { name: 'Vampire Disciplines', path: '#' + PATHS.VAMPIRE.DISCIPLINES },
-  // { name: 'Mage Spells', path: '#' + PATHS.MAGE.SPELLS },
+  // { name: 'Mage Arcana', path: '#' + PATHS.MAGE.ARCANA },
   // { name: 'Mage Artifacts', path: '#' + PATHS.MAGE.ARTIFACTS },
   // { name: 'Changeling Contracts', path: '#' + PATHS.CHANGELING.CONTRACTS },
 ];

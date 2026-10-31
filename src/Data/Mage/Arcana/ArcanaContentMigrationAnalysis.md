@@ -1,8 +1,12 @@
 # Arcana Content Migration Playbook
 
+Last verified: 2026-10-22. All ten existing Arcana datasets have already been migrated to structured content and have corpus assertions in `src/tests/pages/Mage/SpellDetail.test.jsx`. Use this guide to maintain that standard and handle newly added legacy content; the migration phases below are not an outstanding checklist for the existing files.
+
+See [AGENTS.md](../../../../AGENTS.md) for project rules and [PROJECT_CONTEXT.md](../../../../PROJECT_CONTEXT.md) for current tooling and routing.
+
 ## Purpose
 
-This file is the working guide for migrating `src/Data/Mage/Arcana/*Data.jsx` away from inline HTML and placeholder-driven rendering.
+This file is the working guide for maintaining `src/Data/Mage/Arcana/*Data.jsx` as structured content and converting any additional legacy material away from inline HTML and placeholders.
 
 The goal is to make Arcana data:
 
@@ -19,9 +23,9 @@ Before changing any Arcana file, keep these runtime facts in mind.
 
 ### Primary renderer
 
-- Structured content is rendered by [StructuredContent.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/components/StructuredContent.jsx)
-- Spell detail pages are rendered by [SpellDetail.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/pages/Mage/SpellDetail.jsx)
-- The shared content shape is documented in [Content.ts](C:/Users/Paolo/boolean/Progetti/grimoire/src/components/Content.ts)
+- Structured content is rendered by [StructuredContent.jsx](../../../../src/components/StructuredContent.jsx)
+- Spell detail pages are rendered by [SpellDetail.jsx](../../../../src/pages/Mage/SpellDetail.jsx)
+- The shared content shape is documented in [Content.ts](../../../../src/components/Content.ts)
 
 ### What `SpellDetail` does today
 
@@ -31,9 +35,9 @@ It uses:
 
 - `StructuredContent` for block-based content
 - `InlineContent` for simple inline fields such as `Practice`, `Action`, `Duration`, `Aspect`, `Cost`, `RoteName`, `RoteDice`
-- legacy HTML fallback only when a content field still contains structural HTML or table placeholders
+- `InlineContent` for remaining simple string content; there is no structural HTML or table-placeholder fallback
 
-This means new Arcana migrations should target structured blocks first, not HTML strings.
+New or edited Arcana content should use structured blocks. `SpellDetail` and `StructuredContent` no longer use `dangerouslySetInnerHTML`; blocks of type `html`/`tableRef`, side `Tables` containers, and `[TABLE1]` markers are not supported renderer APIs.
 
 ### What `StructuredContent` supports
 
@@ -116,25 +120,25 @@ In practice:
 
 The following Arcana files have already been migrated to this standard and are safe references:
 
-- [DeathData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/DeathData.jsx)
-- [FateData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/FateData.jsx)
-- [ForceData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/ForceData.jsx)
-- [LifeData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/LifeData.jsx)
-- [MatterData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/MatterData.jsx)
-- [MindData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/MindData.jsx)
-- [PrimeData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/PrimeData.jsx)
-- [SpaceData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/SpaceData.jsx)
-- [SpiritData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/SpiritData.jsx)
-- [TimeData.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/Data/Mage/Arcana/TimeData.jsx)
+- [DeathData.jsx](../../../../src/Data/Mage/Arcana/DeathData.jsx)
+- [FateData.jsx](../../../../src/Data/Mage/Arcana/FateData.jsx)
+- [ForceData.jsx](../../../../src/Data/Mage/Arcana/ForceData.jsx)
+- [LifeData.jsx](../../../../src/Data/Mage/Arcana/LifeData.jsx)
+- [MatterData.jsx](../../../../src/Data/Mage/Arcana/MatterData.jsx)
+- [MindData.jsx](../../../../src/Data/Mage/Arcana/MindData.jsx)
+- [PrimeData.jsx](../../../../src/Data/Mage/Arcana/PrimeData.jsx)
+- [SpaceData.jsx](../../../../src/Data/Mage/Arcana/SpaceData.jsx)
+- [SpiritData.jsx](../../../../src/Data/Mage/Arcana/SpiritData.jsx)
+- [TimeData.jsx](../../../../src/Data/Mage/Arcana/TimeData.jsx)
 
-When migrating another Arcana, compare against these files before inventing a new pattern.
+When adding or editing Arcana content, compare against these files before inventing a new pattern. All ten existing files are references, rather than a queue of files still awaiting migration.
 
 ## Test Location And Why It Matters
 
 The migration safety net lives in:
 
-- [App.test.js](C:/Users/Paolo/boolean/Progetti/grimoire/src/tests/App.test.js)
-- [SpellDetail.test.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/tests/pages/Mage/SpellDetail.test.jsx)
+- [App.test.jsx](../../../../src/tests/App.test.jsx)
+- [SpellDetail.test.jsx](../../../../src/tests/pages/Mage/SpellDetail.test.jsx)
 
 `SpellDetail.test.jsx` is the main regression suite for Arcana migration.
 
@@ -147,6 +151,14 @@ It already covers:
 - absence of structural HTML, inline HTML, placeholders, and legacy table containers
 
 Before broadening a migration, add or extend tests there.
+
+The current runner is Vitest. Run the focused suite with:
+
+```bash
+npm test -- src/tests/pages/Mage/SpellDetail.test.jsx
+```
+
+For shared renderer or routing changes, also run `npm test` and `npm run build`. Do not use the old Jest option `--watchAll=false`.
 
 ## Rules That Must Not Be Broken
 
@@ -203,7 +215,7 @@ Unsafe:
 
 ## Recommended Migration Workflow
 
-Use this order every time.
+Use this order when introducing additional legacy material. For new entries, write structured content directly; do not recreate an HTML intermediate or re-migrate already structured files.
 
 ### Phase 1: stabilize malformed legacy HTML
 
@@ -361,11 +373,12 @@ When shaping data, remember:
 
 - `InlineContent` handles plain strings, arrays, and inline objects
 - `StructuredContent` renders `paragraph`, `heading`, `list`, `line`, and `table`
-- `SpellDetail` still supports legacy structural HTML only as a compatibility fallback
+- `InlineContent` converts legacy inline HTML to text, emphasis, and line breaks through `DOMParser`; it does not preserve structural lists/tables as an HTML fallback
+- `SpellDetail` delegates content to `StructuredContent` or `InlineContent`; structural HTML and table placeholders must be converted before being added
 
 So the ideal migration result is:
 
-- no need for legacy fallback for the completed Arcana file
+- no unsupported HTML blocks, table references, or placeholders in the completed Arcana file
 - data can render entirely through the structured path
 
 ## Minimum Review Checklist For Every Arcana Pass
@@ -408,7 +421,7 @@ Corpus assertions should check:
 - a large Arcana file can still be migrated safely in broad regular batches if the conversion logic is conservative
 - renderer regressions may surface only after a new Arcana introduces a slightly different inline shape
 
-In this case, `MindData` exposed a renderer gap where a single inline object was not being rendered correctly. The right fix was in [StructuredContent.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/components/StructuredContent.jsx), not in the migrated data.
+In this case, `MindData` exposed a renderer gap where a single inline object was not being rendered correctly. The right fix was in [StructuredContent.jsx](../../../../src/components/StructuredContent.jsx), not in the migrated data.
 
 Rule:
 
@@ -421,6 +434,6 @@ A future Arcana file should only be called complete when:
 1. it renders correctly in `SpellDetail`
 2. it passes the corpus rules above
 3. its special cases are explicitly preserved
-4. its tests live in [SpellDetail.test.jsx](C:/Users/Paolo/boolean/Progetti/grimoire/src/tests/pages/Mage/SpellDetail.test.jsx)
+4. its tests live in [SpellDetail.test.jsx](../../../../src/tests/pages/Mage/SpellDetail.test.jsx)
 
 That is the standard to follow from now on.

@@ -23,9 +23,9 @@ const pages = [
         ],
         abilities: [
             {
-                text: "The Wise can influence the world around them through Spells crafted by their knowledge of the ten Arcana. Additionally, these can sometimes be internalized in the form of Attainments that are unaffected by mortal disbelief.",
+                text: "The Wise can influence the world around them through spells crafted by their knowledge of the ten Arcana. Additionally, these can sometimes be internalized in the form of Attainments that are unaffected by mortal disbelief.",
                 links: [
-                    { text: "Spells", url: "/mage/spells" },
+                    { text: "Arcana", url: "/mage/arcana" },
                     { text: "Attainments", url: "/mage/attainments" }
                 ]
             },

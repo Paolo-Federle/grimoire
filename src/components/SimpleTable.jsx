@@ -63,7 +63,7 @@ export default function SimpleTable({
                     onClick={() => setIsSectionActive((p) => !p)}
                     className={titleClassName}
                 >
-                    {normalizeDisplayText(title)} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                    {React.isValidElement(title) ? title : normalizeDisplayText(title)} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
                 </TitleTag>
             )}
 

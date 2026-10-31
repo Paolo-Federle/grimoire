@@ -1,33 +1,32 @@
 import React from 'react';
 import SimpleTable from '../../components/SimpleTable';
-import { ARCANA_SETS, SPELL_FIELDS, buildSpellRows } from './spellTableData';
+import TableGroup from '../../components/TableGroup';
+import { ARCANA_SETS, SPELL_FIELDS, buildSpellRows } from './arcanaTableData';
 
-export default function Arcana(props) {
-    const lowercaseArcanaSets = ARCANA_SETS.map(set => set.name.toLowerCase());
+export default function Arcana() {
+    const renderedArcanaTables = ARCANA_SETS.map((arcana) => (
+        <TableGroup key={arcana.name} title={arcana.name}>
+            {arcana.data.map((rows, index) => {
+                const title = `${arcana.name} ${index + 1}`;
 
-    // Find the index of the arcana specified in props.arcana
-    const arcanaIndex = lowercaseArcanaSets.indexOf(props.arcana.toLowerCase());
-    const selectedArcana = ARCANA_SETS[arcanaIndex];
+                return (
+                    <SimpleTable
+                        key={title}
+                        table={buildSpellRows(rows, title)}
+                        title={title}
+                        headers={[title, ...SPELL_FIELDS]}
+                        activeRowLink={true}
+                        titleVariant="nested"
+                    />
+                );
+            })}
+        </TableGroup>
+    ));
 
-    if (!selectedArcana) {
-        return null;
-    }
-
-    const renderedArcanaTables = selectedArcana.data.map((rows, index) => {
-        const title = `${selectedArcana.name} ${index + 1}`;
-
-        return (
-            <SimpleTable
-                key={title}
-                table={buildSpellRows(rows, title)}
-                title={title}
-                headers={[title, ...SPELL_FIELDS]}
-                activeRowLink={true}
-            />
-        );
-    });
-
-    return <div className='grid-container'>
-        {renderedArcanaTables}
-        </div>;
+    return <div>
+        <h1>Arcana</h1>
+        <div className='grid-container'>
+            {renderedArcanaTables}
+        </div>
+    </div>;
 }

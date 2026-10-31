@@ -5,7 +5,7 @@ import {
   waitForElementToBeRemoved,
   within,
 } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
+import { MemoryRouter, useLocation } from 'react-router-dom';
 import App from '../App';
 import {
   getLegacySheetEditorPath,
@@ -29,6 +29,27 @@ function renderApp(initialEntry = PATHS.HOME) {
     </MemoryRouter>
   );
 }
+
+function CurrentRoute() {
+  const { pathname, search, hash } = useLocation();
+  return <output data-testid="current-route">{pathname}{search}{hash}</output>;
+}
+
+test.each([
+  ['/mage/arcana/ward', '/mage/arcana/ward'],
+  ['/mage/spells/ward?source=bookmark#notes', '/mage/arcana/ward?source=bookmark#notes'],
+])('opens the spell detail at %s with the canonical Arcana URL', async (entry, expectedRoute) => {
+  render(
+    <MemoryRouter initialEntries={[entry]} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <App />
+      <CurrentRoute />
+    </MemoryRouter>
+  );
+
+  expect(await screen.findByRole('heading', { name: /^Ward \(/ }, { timeout: 30000 })).toBeInTheDocument();
+  expect(screen.getByTestId('current-route')).toHaveTextContent(expectedRoute);
+  expect(screen.getByRole('link', { name: 'Arcana', exact: true })).toHaveAttribute('href', '/mage/arcana');
+}, 35000);
 
 test('renders home page entry points', async () => {
   renderApp();

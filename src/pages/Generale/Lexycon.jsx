@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   mageLexyconData,
   changelingLexyconData,
@@ -11,6 +12,7 @@ import {
 import { sortByKey } from '../../utils';
 import { TextField, Button, Box, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
+import { getLexyconPath } from './lexyconLinks';
 
 export default function Lexycon() {
   const theme = useTheme();
@@ -80,17 +82,24 @@ export default function Lexycon() {
               columnGap: '40px',
             }}
           >
-            {data.map((parola, index) => (
-              <div
-                className="lexicon-item"
-                key={`${parola.Name}-${parola.Book}-${index}`}
-                style={{ breakInside: 'avoid', margin: '20px 0' }}
-              >
-                <p>
-                  <b>{parola.Name} ({parola.Book}):</b> {parola.Description}
-                </p>
-              </div>
-            ))}
+            {data.map((parola, index) => {
+              const path = getLexyconPath(sectionName, parola);
+
+              return (
+                <div
+                  className="lexicon-item"
+                  key={`${parola.Name}-${parola.Book}-${index}`}
+                  style={{ breakInside: 'avoid', margin: '20px 0' }}
+                >
+                  <p>
+                    <b>
+                      {path ? <Link to={path} className="underline">{parola.Name}</Link> : parola.Name}
+                      {' '}({parola.Book}):
+                    </b> {parola.Description}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         )}
       </div>

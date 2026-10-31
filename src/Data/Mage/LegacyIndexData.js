@@ -2,10 +2,10 @@ export const LegacyIndexData = [
   {
     "Id": "walkers_in_mists",
     "Name": "Walkers in Mists",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium",
       "Seers of the Throne"
     ],
@@ -25,10 +25,10 @@ export const LegacyIndexData = [
   {
     "Id": "subtle_ones",
     "Name": "Subtle Ones",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil",
       "Seers of the Throne"
     ],
@@ -48,10 +48,10 @@ export const LegacyIndexData = [
   {
     "Id": "uncrowned_kings",
     "Name": "Uncrowned Kings",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "mentalist craftsmen",
@@ -70,10 +70,10 @@ export const LegacyIndexData = [
   {
     "Id": "perfected_adept",
     "Name": "Perfected Adept",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Adamantine Arrow"
     ],
     "Nickname": "living weapons",
@@ -92,10 +92,10 @@ export const LegacyIndexData = [
   {
     "Id": "orphans_of_proteus",
     "Name": "Orphans of Proteus",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "shapeshifters",
@@ -114,10 +114,10 @@ export const LegacyIndexData = [
   {
     "Id": "tremere_lich",
     "Name": "Tremere Lich",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "immortal soulsuckers",
@@ -136,14 +136,14 @@ export const LegacyIndexData = [
   {
     "Id": "scelesti",
     "Name": "Scelesti",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "worshipers of the Abyss (Attainments vary)",
@@ -163,10 +163,10 @@ export const LegacyIndexData = [
   {
     "Id": "storm_keepers",
     "Name": "Storm Keepers",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "weathermen",
@@ -185,10 +185,10 @@ export const LegacyIndexData = [
   {
     "Id": "liberatores",
     "Name": "Liberatores",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "empowerers of the masses",
@@ -207,10 +207,10 @@ export const LegacyIndexData = [
   {
     "Id": "bokor",
     "Name": "Bokor",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "voodoun necromancers",
@@ -229,10 +229,10 @@ export const LegacyIndexData = [
   {
     "Id": "ascended_adept",
     "Name": "Ascended Adept",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "gnostic mindwalkers",
@@ -251,10 +251,10 @@ export const LegacyIndexData = [
   {
     "Id": "neocologists",
     "Name": "Neocologists",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "urban reclaimers",
@@ -274,10 +274,10 @@ export const LegacyIndexData = [
   {
     "Id": "clavicularius",
     "Name": "Clavicularius",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder",
       "Seers of the Throne"
     ],
@@ -297,10 +297,10 @@ export const LegacyIndexData = [
   {
     "Id": "daksha",
     "Name": "Daksha",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium",
       "Seers of the Throne"
     ],
@@ -320,10 +320,10 @@ export const LegacyIndexData = [
   {
     "Id": "daoine",
     "Name": "Daoine",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "fate's scale balancers",
@@ -342,10 +342,10 @@ export const LegacyIndexData = [
   {
     "Id": "fallen_pillar",
     "Name": "Fallen Pillar",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "ascetic wanderers",
@@ -365,10 +365,10 @@ export const LegacyIndexData = [
   {
     "Id": "house_of_ariadne",
     "Name": "House of Ariadne",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "urban geomancers",
@@ -388,10 +388,10 @@ export const LegacyIndexData = [
   {
     "Id": "pygmalian_society",
     "Name": "Pygmalian Society",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "artistic emotive manipulators",
@@ -410,14 +410,14 @@ export const LegacyIndexData = [
   {
     "Id": "scions_of_god",
     "Name": "Scions of God",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder",
       "Seers of the Throne"
     ],
@@ -438,10 +438,10 @@ export const LegacyIndexData = [
   {
     "Id": "sodality_of_the_tor",
     "Name": "Sodality of the Tor",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "pagan spiralwalkers",
@@ -461,10 +461,10 @@ export const LegacyIndexData = [
   {
     "Id": "stone_scribes",
     "Name": "Stone Scribes",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium",
       "Seers of the Throne"
     ],
@@ -484,10 +484,10 @@ export const LegacyIndexData = [
   {
     "Id": "threnodists",
     "Name": "Threnodists",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "quantum physicists",
@@ -506,10 +506,10 @@ export const LegacyIndexData = [
   {
     "Id": "transhuman_engineers",
     "Name": "Transhuman Engineers",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "technological advocates",
@@ -528,10 +528,10 @@ export const LegacyIndexData = [
   {
     "Id": "fangs_of_mara",
     "Name": "Fangs of Mara",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "psychopathic fearmongers",
@@ -550,10 +550,10 @@ export const LegacyIndexData = [
   {
     "Id": "cult_of_the_doomsday_clock",
     "Name": "Cult of the Doomsday Clock",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "abyssal timebreakers",
@@ -572,10 +572,10 @@ export const LegacyIndexData = [
   {
     "Id": "dreamspeakers",
     "Name": "Dreamspeakers",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "astral shamans",
@@ -594,10 +594,10 @@ export const LegacyIndexData = [
   {
     "Id": "tamers_of_the_cave",
     "Name": "Tamers of the Cave",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "martyrs in training",
@@ -616,10 +616,10 @@ export const LegacyIndexData = [
   {
     "Id": "tamers_of_fire",
     "Name": "Tamers of Fire",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "inspirationalists",
@@ -638,10 +638,10 @@ export const LegacyIndexData = [
   {
     "Id": "tamers_of_rivers",
     "Name": "Tamers of Rivers",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "agents of change",
@@ -660,10 +660,10 @@ export const LegacyIndexData = [
   {
     "Id": "tamers_of_stone",
     "Name": "Tamers of Stone",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "builders of foundations",
@@ -682,10 +682,10 @@ export const LegacyIndexData = [
   {
     "Id": "tamers_of_winds",
     "Name": "Tamers of Winds",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "truthspreaders",
@@ -704,10 +704,10 @@ export const LegacyIndexData = [
   {
     "Id": "forge_masters",
     "Name": "Forge Masters",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "artificer metallurgists",
@@ -726,10 +726,10 @@ export const LegacyIndexData = [
   {
     "Id": "skalds",
     "Name": "Skalds",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Adamantine Arrow",
       "Council of Free Assemblies",
       "Guardians of the Veil",
@@ -753,10 +753,10 @@ export const LegacyIndexData = [
   {
     "Id": "sphinx",
     "Name": "Sphinx",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium",
       "Seers of the Throne"
     ],
@@ -776,10 +776,10 @@ export const LegacyIndexData = [
   {
     "Id": "thread_cutters",
     "Name": "Thread Cutters",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil"
     ],
     "Nickname": "dharma's executioners",
@@ -798,10 +798,10 @@ export const LegacyIndexData = [
   {
     "Id": "thricegreat",
     "Name": "Thrice-Great",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder",
       "Seers of the Throne"
     ],
@@ -821,10 +821,10 @@ export const LegacyIndexData = [
   {
     "Id": "echo_walkers",
     "Name": "Echo Walkers",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "seekers of the Ones Before",
@@ -843,14 +843,14 @@ export const LegacyIndexData = [
   {
     "Id": "logophages",
     "Name": "Logophages",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Adamantine Arrow",
       "Council of Free Assemblies",
       "Guardians of the Veil",
@@ -874,10 +874,10 @@ export const LegacyIndexData = [
   {
     "Id": "bearers_of_the_eternal_voice",
     "Name": "Bearers of the Eternal Voice",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil",
       "Seers of the Throne"
     ],
@@ -897,10 +897,10 @@ export const LegacyIndexData = [
   {
     "Id": "eleventh_question",
     "Name": "Eleventh Question",
-    "Cammino": [
+    "Path": [
       ""
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil"
     ],
     "Nickname": "mystic sleuths",
@@ -920,10 +920,10 @@ export const LegacyIndexData = [
   {
     "Id": "votaries_of_the_ordained",
     "Name": "Votaries of the Ordained",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil",
       "Seers of the Throne"
     ],
@@ -935,7 +935,7 @@ export const LegacyIndexData = [
       ""
     ],
     "Optional Arcanum": [
-      "space"
+      "Space"
     ],
     "Book": "GotV",
     "leftHanded": false
@@ -943,14 +943,14 @@ export const LegacyIndexData = [
   {
     "Id": "austere",
     "Name": "Austere",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil"
     ],
     "Nickname": "mechanistic moral abstainists",
@@ -970,10 +970,10 @@ export const LegacyIndexData = [
   {
     "Id": "blank_badges",
     "Name": "Blank Badges",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "anarch infiltrators",
@@ -992,10 +992,10 @@ export const LegacyIndexData = [
   {
     "Id": "cryptologos",
     "Name": "Cryptologos",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "high speech decrypters",
@@ -1014,10 +1014,10 @@ export const LegacyIndexData = [
   {
     "Id": "imagineers",
     "Name": "Imagineers",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "creationistic muses",
@@ -1036,10 +1036,10 @@ export const LegacyIndexData = [
   {
     "Id": "eyes_of_ain_soph",
     "Name": "Eyes of Ain Soph",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium",
       "Seers of the Throne"
     ],
@@ -1059,10 +1059,10 @@ export const LegacyIndexData = [
   {
     "Id": "singers_in_silence",
     "Name": "Singers in Silence",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium"
     ],
     "Nickname": "deathkeeners",
@@ -1081,10 +1081,10 @@ export const LegacyIndexData = [
   {
     "Id": "reality_stalker",
     "Name": "Reality Stalker",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium",
       "Seers of the Throne"
     ],
@@ -1104,14 +1104,14 @@ export const LegacyIndexData = [
   {
     "Id": "unforgotten_scions",
     "Name": "Unforgotten Scions",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "driven beyond reason by Dreamtime",
@@ -1130,10 +1130,10 @@ export const LegacyIndexData = [
   {
     "Id": "wraiths_of_epochs",
     "Name": "Wraiths of Epochs",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium"
     ],
     "Nickname": "sorcerous historians",
@@ -1153,10 +1153,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_awakening_gambit",
     "Name": "The Awakening Gambit",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Adamantine Arrow",
       "Mysterium"
     ],
@@ -1177,10 +1177,10 @@ export const LegacyIndexData = [
   {
     "Id": "brotherhood_of_the_demon_wind",
     "Name": "Brotherhood of the Demon Wind",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Adamantine Arrow"
     ],
     "Nickname": "wandering samurai",
@@ -1199,10 +1199,10 @@ export const LegacyIndexData = [
   {
     "Id": "devourers_of_the_flesh",
     "Name": "Devourers of the Flesh",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Adamantine Arrow"
     ],
     "Nickname": "cannibalistic predators",
@@ -1221,10 +1221,10 @@ export const LegacyIndexData = [
   {
     "Id": "bene_ashmedai",
     "Name": "Bene Ashmedai",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "embodiments of Vice",
@@ -1243,10 +1243,10 @@ export const LegacyIndexData = [
   {
     "Id": "keepers_of_the_covenant",
     "Name": "Keepers of the Covenant",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "intermediaries between flesh & spirit",
@@ -1265,10 +1265,10 @@ export const LegacyIndexData = [
   {
     "Id": "lords_of_the_inanimate",
     "Name": "Lords of the Inanimate",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "sympathizers with spirits of objects",
@@ -1287,10 +1287,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_pure_sovereigns",
     "Name": "The Pure Sovereigns",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "paragons of physical and mental acumen",
@@ -1309,10 +1309,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_reality_makers",
     "Name": "The Reality Makers",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "drifters through life on the wings of fate",
@@ -1331,10 +1331,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_sisterhood_of_the_blessed",
     "Name": "The Sisterhood of the Blessed",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "subtle manipulators of Fate for power",
@@ -1353,10 +1353,10 @@ export const LegacyIndexData = [
   {
     "Id": "stewards_of_the_celestial_orrery",
     "Name": "Stewards of the Celestial Orrery",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "believers in the will of the Oracles",
@@ -1375,14 +1375,14 @@ export const LegacyIndexData = [
   {
     "Id": "the_carnival_melancholy",
     "Name": "The Carnival Melancholy",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "barterers of souls for luck",
@@ -1401,14 +1401,14 @@ export const LegacyIndexData = [
   {
     "Id": "timori",
     "Name": "Timori",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "the Feared",
@@ -1427,10 +1427,10 @@ export const LegacyIndexData = [
   {
     "Id": "dreamers_of_the_black_sun",
     "Name": "Dreamers of the Black Sun",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "apocalyptic engineers of fear & disaster",
@@ -1449,10 +1449,10 @@ export const LegacyIndexData = [
   {
     "Id": "tellurians",
     "Name": "Tellurians",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Mysterium"
     ],
     "Nickname": "ley line cartographers",
@@ -1471,14 +1471,14 @@ export const LegacyIndexData = [
   {
     "Id": "gaolers_of_ialdabaoth",
     "Name": "Gaolers of Ialdabaoth",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "imprisoners of Abyssal entities",
@@ -1497,14 +1497,14 @@ export const LegacyIndexData = [
   {
     "Id": "the_path_of_the_book",
     "Name": "The Path of the Book",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "bibliophiles",
@@ -1523,10 +1523,10 @@ export const LegacyIndexData = [
   {
     "Id": "followers_of_the_true_soul",
     "Name": "Followers of the True Soul",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "deluded followers of Tazanteotl",
@@ -1545,10 +1545,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_celestial_masters",
     "Name": "The Celestial Masters",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies",
       "Silver Ladder"
     ],
@@ -1569,10 +1569,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_illumined_path",
     "Name": "The Illumined Path",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "guides towards enlightenment",
@@ -1592,10 +1592,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_illumined_path_reverse",
     "Name": "The Illumined Path (Reverse)",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "hamperers of Awakening",
@@ -1615,10 +1615,10 @@ export const LegacyIndexData = [
   {
     "Id": "mimirs_voice",
     "Name": "Mimir's Voice",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "agents of potential",
@@ -1637,10 +1637,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_roses_of_eden",
     "Name": "The Roses of Eden",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "builders of a new mage society",
@@ -1659,10 +1659,10 @@ export const LegacyIndexData = [
   {
     "Id": "whipping_boys",
     "Name": "Whipping Boys",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "BDSM ecstatics",
@@ -1681,14 +1681,14 @@ export const LegacyIndexData = [
   {
     "Id": "scelesti_variant",
     "Name": "Scelesti (variant)",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "enigmatic seers",
@@ -1707,10 +1707,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_architects_of_the_future",
     "Name": "The Architects of the Future",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "shapers of the Exarchs' desired future",
@@ -1729,10 +1729,10 @@ export const LegacyIndexData = [
   {
     "Id": "chrysalides",
     "Name": "Chrysalides",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "exemplars of perfection & decrepitude in one",
@@ -1751,10 +1751,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_masters_of_destruction",
     "Name": "The Masters of Destruction",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "saboteurs & destroyers",
@@ -1773,10 +1773,10 @@ export const LegacyIndexData = [
   {
     "Id": "princes_of_the_many_masks",
     "Name": "Princes of the Many Masks",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "consummate impersonators & actors",
@@ -1795,10 +1795,10 @@ export const LegacyIndexData = [
   {
     "Id": "secret_order_of_the_gate",
     "Name": "Secret Order of the Gate",
-    "Cammino": [
+    "Path": [
       ""
     ],
-    "Ordine": [
+    "Order": [
       "Seers of the Throne"
     ],
     "Nickname": "balancers between reality & the Abyss",
@@ -1817,10 +1817,10 @@ export const LegacyIndexData = [
   {
     "Id": "choir_of_hashmallim",
     "Name": "Choir of Hashmallim",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "channelers of the Aether against the Abyss",
@@ -1839,10 +1839,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_concord_of_serpents",
     "Name": "The Concord of Serpents",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "challengers & adversaries",
@@ -1861,10 +1861,10 @@ export const LegacyIndexData = [
   {
     "Id": "katsinam_suukya",
     "Name": "Katsinam Suukya",
-    "Cammino": [
+    "Path": [
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "teachers of the traditional ways",
@@ -1883,10 +1883,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_people_of_the_hour",
     "Name": "The People of the Hour",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "dwellers in the moment",
@@ -1905,10 +1905,10 @@ export const LegacyIndexData = [
   {
     "Id": "stygian_heralds",
     "Name": "Stygian Heralds",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "summoners of fallen heroes",
@@ -1927,14 +1927,14 @@ export const LegacyIndexData = [
   {
     "Id": "the_legion",
     "Name": "The Legion",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "hosts to Abyssal creatures",
@@ -1953,10 +1953,10 @@ export const LegacyIndexData = [
   {
     "Id": "the_morphean_continuity",
     "Name": "The Morphean Continuity",
-    "Cammino": [
+    "Path": [
       "Acanthus"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "hosts to a creature of Dreamtime",
@@ -1975,14 +1975,14 @@ export const LegacyIndexData = [
   {
     "Id": "scelesti_variant_nh_tu",
     "Name": "Scelesti (variant)",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "students of Vice, Virtue & suffering",
@@ -2002,14 +2002,14 @@ export const LegacyIndexData = [
   {
     "Id": "the_quiescent",
     "Name": "The Quiescent",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "abstainers from vulgar magic",
@@ -2028,10 +2028,10 @@ export const LegacyIndexData = [
   {
     "Id": "cwn_annwn",
     "Name": "Cwn Annwn",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Silver Ladder"
     ],
     "Nickname": "world-builders and world-destroyers",
@@ -2050,14 +2050,14 @@ export const LegacyIndexData = [
   {
     "Id": "the_hunters_flesh_scelesti",
     "Name": "The Hunter's Flesh (Scelesti)",
-    "Cammino": [
+    "Path": [
       "Acanthus",
       "Mastigos",
       "Moros",
       "Obrimos",
       "Thyrsus"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "supreme hunters",
@@ -2076,10 +2076,10 @@ export const LegacyIndexData = [
   {
     "Id": "house_nagaraja_tremere",
     "Name": "House Nagaraja (Tremere)",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "masters of others' stolen Vices",
@@ -2098,10 +2098,10 @@ export const LegacyIndexData = [
   {
     "Id": "house_seo_hel_tremere",
     "Name": "House Seo Hel (Tremere)",
-    "Cammino": [
+    "Path": [
       "Moros"
     ],
-    "Ordine": [
+    "Order": [
       ""
     ],
     "Nickname": "students of souls and objects",
@@ -2120,10 +2120,10 @@ export const LegacyIndexData = [
   {
     "Id": "cloud_infinite",
     "Name": "Cloud Infinite",
-    "Cammino": [
+    "Path": [
       "Obrimos"
     ],
-    "Ordine": [
+    "Order": [
       "Council of Free Assemblies"
     ],
     "Nickname": "hijackers of others' souls for mental power",
@@ -2142,10 +2142,10 @@ export const LegacyIndexData = [
   {
     "Id": "legion",
     "Name": "(Legion)",
-    "Cammino": [
+    "Path": [
       "Mastigos"
     ],
-    "Ordine": [
+    "Order": [
       "Guardians of the Veil"
     ],
     "Nickname": "soul-thieves who seek to avoid sin",

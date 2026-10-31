@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { Navigate, Route, Routes, useParams } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import Navbar from "./components/Navbar";
 import Breadcrumbs from "./components/Breadcrumbs";
@@ -10,7 +10,13 @@ import { RouteNotFound } from "./components/RouteFeedback";
 import "./css/App.css";
 import "./css/Races-Style.css";
 import theme from "./css/muiTheme";
-import { getMageLegacyPath, getSheetPath, PATHS } from "./pages/path";
+import {
+  getCanonicalMageArcanaPath,
+  getMageLegacyPath,
+  getSheetPath,
+  LEGACY_MAGE_SPELLS_PATH,
+  PATHS,
+} from "./pages/path";
 import { slugify } from "./utils";
 
 const HomePage = lazy(() => import("./pages/home"));
@@ -27,6 +33,7 @@ const LocationPage = lazy(() => import("./pages/Generale/Location"));
 const SettingsPage = lazy(() => import("./pages/Generale/Settings"));
 const UniversalMeritsPage = lazy(() => import("./pages/Generale/UniversalMerits"));
 const TraitsPage = lazy(() => import("./pages/Generale/Traits"));
+const EnergyPoolsPage = lazy(() => import("./pages/Generale/EnergyPools"));
 const ExternalResourcesPage = lazy(() => import("./pages/Generale/ExternalResources"));
 const DerangementsPage = lazy(() => import("./pages/Generale/Derangements"));
 const LexyconPage = lazy(() => import("./pages/Generale/Lexycon"));
@@ -77,13 +84,14 @@ const MagePage = lazy(() => import("./pages/Mage/Mage"));
 const PathPage = lazy(() => import("./pages/Mage/Path"));
 const OrderPage = lazy(() => import("./pages/Mage/Order"));
 const GnosisPage = lazy(() => import("./pages/Mage/Gnosis"));
+const ManaPage = lazy(() => import("./pages/Mage/Mana"));
 const WisdomPage = lazy(() => import("./pages/Mage/Wisdom"));
 const LegacyPage = lazy(() => import("./pages/Mage/Legacy"));
 const MageMeritsPage = lazy(() => import("./pages/Mage/MageMerits"));
 const GrimoirePage = lazy(() => import("./pages/Mage/Grimoire"));
 const MageExperiencePage = lazy(() => import("./pages/Mage/MageExperiencePoints"));
-const SpellsPage = lazy(() => import("./pages/Mage/Spells"));
 const ArcanaPage = lazy(() => import("./pages/Mage/Arcana"));
+const ArcanumPage = lazy(() => import("./pages/Mage/Arcanum"));
 const ArtifactsPage = lazy(() => import("./pages/Mage/Artifact"));
 const ImbuedItemsPage = lazy(() => import("./pages/Mage/ImbuedItems"));
 const PrometheanPage = lazy(() => import("./pages/Promethean/Promethean"));
@@ -174,6 +182,7 @@ const GENERAL_ROUTES = [
   { path: PATHS.SETTINGS, Page: SettingsPage },
   { path: PATHS.UNIVERSAL_MERITS, Page: UniversalMeritsPage },
   { path: PATHS.TRAITS, Page: TraitsPage },
+  { path: PATHS.ENERGY_POOLS, Page: EnergyPoolsPage },
   { path: PATHS.EXTERNAL_RESOURCES, Page: ExternalResourcesPage },
   { path: PATHS.DERANGEMENTS, Page: DerangementsPage },
   { path: PATHS.LEXYCON, Page: LexyconPage },
@@ -228,12 +237,13 @@ const MAGE_ROUTES = [
   { path: PATHS.MAGE.PATH, Page: PathPage },
   { path: PATHS.MAGE.ORDER, Page: OrderPage },
   { path: PATHS.MAGE.GNOSIS, Page: GnosisPage },
+  { path: PATHS.MAGE.MANA, Page: ManaPage },
   { path: PATHS.MAGE.WISDOM, Page: WisdomPage },
   { path: PATHS.MAGE.LEGACY, Page: LegacyPage },
   { path: PATHS.MAGE.MERITS, Page: MageMeritsPage },
   { path: PATHS.MAGE.GRIMOIRES, Page: GrimoirePage },
   { path: PATHS.MAGE.EXPERIENCE, Page: MageExperiencePage },
-  { path: PATHS.MAGE.SPELLS, Page: SpellsPage },
+  { path: PATHS.MAGE.ARCANA, Page: ArcanaPage },
   { path: PATHS.MAGE.ARTIFACTS, Page: ArtifactsPage },
   { path: PATHS.MAGE.IMBUED_ITEMS, Page: ImbuedItemsPage },
 ];
@@ -562,6 +572,20 @@ function findUtteranceBySlug(dataModule, slug) {
 
 const DETAIL_ROUTE_CONFIGS = [
   {
+    path: `${PATHS.MAGE.ORDER}/:slug`,
+    propKey: "order",
+    loadPage: () => import("./pages/Mage/OrderDetail"),
+    loadData: () => import("./Data/Mage/OrderDetailData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.OrderDetailData, slug),
+  },
+  {
+    path: `${PATHS.MAGE.PATH}/:slug`,
+    propKey: "path",
+    loadPage: () => import("./pages/Mage/PathDetail"),
+    loadData: () => import("./Data/Mage/PathDetailData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.PathDetailData, slug),
+  },
+  {
     path: `${PATHS.LOCATIONS_BASE}/:slug`,
     propKey: "location",
     loadPage: () => import("./pages/Generale/LocationDetail"),
@@ -659,7 +683,7 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule }) => dataModule,
   },
   {
-    path: `${PATHS.MAGE.SPELLS}/:slug`,
+    path: `${PATHS.MAGE.ARCANA}/:slug`,
     propKey: "spell",
     loadPage: () => import("./pages/Mage/SpellDetail"),
     loadData: () => import("./Data/Mage/Arcana/allArcana"),
@@ -753,6 +777,13 @@ const DETAIL_ROUTE_CONFIGS = [
     loadPage: () => import("./pages/Mummy/RelicDetail"),
     loadData: () => import("./Data/Mummy/RelicsData"),
     resolveItem: ({ dataModule, slug }) => findRelicBySlug(dataModule, slug),
+  },
+  {
+    path: `${PATHS.MUMMY.MERITS}/:slug`,
+    propKey: "mummyMerit",
+    loadPage: () => import("./pages/Mummy/MummyMeritsDetail"),
+    loadData: () => import("./Data/Mummy/MummiesMeritsData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.mummyMeritsDetailData, slug),
   },
   {
     path: `${PATHS.PROMETHEAN.MERITS}/:slug`,
@@ -868,6 +899,16 @@ function LegacySheetEditorRedirect() {
   return <Navigate replace to={getSheetPath(sheetId)} />;
 }
 
+function LegacyMageSpellsRedirect() {
+  const { pathname, search, hash } = useLocation();
+  return (
+    <Navigate
+      replace
+      to={{ pathname: getCanonicalMageArcanaPath(pathname), search, hash }}
+    />
+  );
+}
+
 function App() {
   const routeGroups = [
     GENERAL_ROUTES,
@@ -903,11 +944,15 @@ function App() {
               path={`${PATHS.SHEET_LEGACY_EDITOR}/:sheetId`}
               element={<LegacySheetEditorRedirect />}
             />
+            <Route
+              path={`${LEGACY_MAGE_SPELLS_PATH}/*`}
+              element={<LegacyMageSpellsRedirect />}
+            />
             {ARCANA_ROUTE_CONFIGS.map(({ path, arcana }) => (
               <Route
                 key={path}
                 path={path}
-                element={renderLazyPage(ArcanaPage, { arcana })}
+                element={renderLazyPage(ArcanumPage, { arcanum: arcana })}
               />
             ))}
             {DETAIL_ROUTE_CONFIGS.map(({ path, ...routeConfig }) => (

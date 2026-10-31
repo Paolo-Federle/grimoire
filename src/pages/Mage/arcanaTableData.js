@@ -9,6 +9,7 @@ import { spaceOneData, spaceTwoData, spaceThreeData, spaceFourData, spaceFiveDat
 import { spiritOneData, spiritTwoData, spiritThreeData, spiritFourData, spiritFiveData } from '../../Data/Mage/Arcana/SpiritData';
 import { timeOneData, timeTwoData, timeThreeData, timeFourData, timeFiveData } from '../../Data/Mage/Arcana/TimeData';
 import { slugify } from '../../utils';
+import { PATHS } from '../path';
 
 export const SPELL_FIELDS = ['Description', 'Aspect', 'Cost', 'Arcana', 'Book'];
 
@@ -33,6 +34,6 @@ export function buildSpellRows(rows, title) {
         Cost: spell.Cost,
         Arcana: spell.Arcana,
         Book: spell.Book,
-        link: `/mage/spells/${slugify(spell.Name)}`,
+        link: `${PATHS.MAGE.ARCANA}/${slugify(spell.Name)}`,
     }));
 }

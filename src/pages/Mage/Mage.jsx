@@ -26,13 +26,17 @@ export default function Mage() {
                             and a Morality trait called <Link to={PATHS.MAGE.WISDOM}>Wisdom</Link>.  As Mages grow and face challenges, they
                             accumulate <Link to={PATHS.MAGE.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
+                        <p>
+                            Mages store and spend <Link to={PATHS.MAGE.MANA}>Mana</Link>, the Supernal energy that fuels their magic
+                            and restores their Patterns.
+                        </p>
                     </div>
                     <div>
                         <h2>Abilities</h2>
                         <p>
-                            The Wise can influence the world around them through <Link to={PATHS.MAGE.SPELLS}>Spells</Link> crafted
-                            by their knowledge of the ten Arcana (<Link to={PATHS.MAGE.DEATH}>Death</Link>, <Link to={PATHS.MAGE.FATE}>Fate</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.FORCE}>Force</Link>,&nbsp;
+                            The Wise can influence the world around them through spells crafted
+                            by their knowledge of the ten <Link to={PATHS.MAGE.ARCANA}>Arcana</Link> (<Link to={PATHS.MAGE.DEATH}>Death</Link>, <Link to={PATHS.MAGE.FATE}>Fate</Link>,&nbsp;
+                            <Link to={PATHS.MAGE.FORCE}>Forces</Link>,&nbsp;
                             <Link to={PATHS.MAGE.LIFE}>Life</Link>,&nbsp;
                             <Link to={PATHS.MAGE.MATTER}>Matter</Link>,&nbsp;
                             <Link to={PATHS.MAGE.MIND}>Mind</Link>,&nbsp;

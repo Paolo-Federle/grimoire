@@ -15,6 +15,10 @@ import { TalensData } from "../Data/Werewolf/TalensData";
 import { WerewolfMeritsData } from "../Data/Werewolf/WerewolfMeritsData";
 import { allMageMeritsData } from "../Data/Mage/mageMeritsData";
 import { LegacyIndexData } from "../Data/Mage/LegacyIndexData";
+import { PathDetailData } from "../Data/Mage/PathDetailData";
+import { ManaData } from "../Data/Mage/ManaData";
+import { EnergyPoolsData } from "../Data/EnergyPoolsData";
+import { OrderDetailData } from "../Data/Mage/OrderDetailData";
 import { SpellsData } from "../Data/Mage/Arcana/allArcana";
 import { artifactData } from "../Data/Mage/artifactsData";
 import { imbuedItemsData } from "../Data/Mage/imbuedItemsData";
@@ -44,6 +48,15 @@ import {
   vestigeData,
 } from "../Data/Mummy/RelicsData";
 import { PrometheanMeritsData } from "../Data/Promethean/PrometheanMeritsData";
+import {
+  CultAxisData,
+  CultBenefitsData,
+  CultMeritsData,
+  MummiesMeritsData,
+  MummiesStyleMeritsData,
+  MummiesTombMeritsData,
+  MummiesTombsDrawbackData,
+} from "../Data/Mummy/MummiesMeritsData";
 import {
   AlchemicusTransmutationsData,
   BeneficeTransmutationsData,
@@ -213,6 +226,17 @@ function getTransmutationPath(item) {
 }
 
 const searchSources = [
+  { id: "mage-mana", gameLine: "mage", type: "Energy Pool", items: [ManaData], path: () => PATHS.MAGE.MANA },
+  {
+    id: "energy-pools", gameLine: "general", type: "Wiki Page", path: () => PATHS.ENERGY_POOLS,
+    items: [{ Name: "Energy pools", Description: `Supernatural energy pools: ${EnergyPoolsData.map((pool) => pool.Name).join(", ")}.` }],
+  },
+  {
+    id: "mage-orders", gameLine: "mage", type: "Order", items: OrderDetailData,
+    title: (item) => item.DisplayName ? `${item.DisplayName} (${item.Name})` : item.Name,
+    path: (item) => item.link,
+  },
+  { id: "mage-paths", gameLine: "mage", type: "Path", items: PathDetailData, basePath: PATHS.MAGE.PATH },
   { id: "locations", gameLine: "general", type: "Location", items: allLocation, basePath: PATHS.LOCATIONS_BASE },
   { id: "universal-merits", gameLine: "general", type: "Merit", items: allUniMeritsData, basePath: PATHS.UNIVERSAL_MERITS },
   {
@@ -238,7 +262,7 @@ const searchSources = [
     items: LegacyIndexData,
     path: (item) => getMageLegacyPath(item.Id),
   },
-  { id: "mage-spells", gameLine: "mage", type: "Spell", items: SpellsData, basePath: PATHS.MAGE.SPELLS },
+  { id: "mage-spells", gameLine: "mage", type: "Spell", items: SpellsData, basePath: PATHS.MAGE.ARCANA },
   { id: "mage-artifacts", gameLine: "mage", type: "Artifact", items: artifactData, basePath: PATHS.MAGE.ARTIFACTS },
   { id: "mage-imbued-items", gameLine: "mage", type: "Imbued Item", items: imbuedItemsData, basePath: PATHS.MAGE.IMBUED_ITEMS },
   { id: "changeling-contracts", gameLine: "changeling", type: "Contract", items: allContracts, basePath: PATHS.CHANGELING.CONTRACTS },
@@ -269,6 +293,30 @@ const searchSources = [
     type: "Relic",
     items: [...amuletData, ...effigyData, ...RegiumData, ...textData, ...uterData, ...sebaData, ...vestigeData],
     basePath: PATHS.MUMMY.RELICS,
+  },
+  {
+    id: "mummy-merits",
+    gameLine: "mummy",
+    type: "Merit",
+    items: [...MummiesMeritsData, ...MummiesStyleMeritsData, ...MummiesTombMeritsData, ...CultMeritsData],
+    basePath: PATHS.MUMMY.MERITS,
+  },
+  { id: "mummy-tomb-drawbacks", gameLine: "mummy", type: "Tomb Drawback", items: MummiesTombsDrawbackData, basePath: PATHS.MUMMY.MERITS },
+  {
+    id: "mummy-cult-axes",
+    gameLine: "mummy",
+    type: "Cult Axis",
+    items: CultAxisData,
+    title: (item) => item.Axis,
+    basePath: PATHS.MUMMY.MERITS,
+  },
+  {
+    id: "mummy-cult-benefits",
+    gameLine: "mummy",
+    type: "Cult Benefit",
+    items: CultBenefitsData,
+    title: (item) => item.Benefit,
+    basePath: PATHS.MUMMY.MERITS,
   },
   {
     id: "promethean-merits",

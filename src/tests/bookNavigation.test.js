@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { getFlipHtmlPageUrlsFromSource } from "../utils";
 import {
   bookCatalog,
   extractBookReferenceCodes,
@@ -8,6 +9,14 @@ import {
 } from "../books/bookNavigation";
 
 describe("book navigation", () => {
+  it("links page ranges to their opening spread while preserving the printed citation", () => {
+    const books = [{ 'Code Name': 'Core', PagesOffset: '2', LinkTo: 'https://example.com/manual/#p=' }];
+    expect(getFlipHtmlPageUrlsFromSource('Core 92-94, Core 95–97, Core 98', books)).toEqual([
+      { text: 'Core 92-94', url: 'https://example.com/manual/#p=94' },
+      { text: 'Core 95–97', url: 'https://example.com/manual/#p=96' },
+      { text: 'Core 98', url: 'https://example.com/manual/#p=100' },
+    ]);
+  });
   it("creates one stable detail path for every catalog book", () => {
     const slugs = bookCatalog.map((book) => book.slug);
 

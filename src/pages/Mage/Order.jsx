@@ -6,7 +6,12 @@ export default function Order() {
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={OrderData} title={'Order'} />
+            <SimpleTable
+                table={OrderData}
+                title="Order"
+                headers={['Order', 'Nickname', 'Creed', 'Tools', 'Rote Skills', 'Book']}
+                activeRowLink
+            />
         </div>
     );
 }

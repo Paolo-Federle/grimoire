@@ -1,5 +1,6 @@
 const OrderData = [
     {
+        'Name': 'Adamantine Arrow',
         'Order': 'Adamantine Arrow',
         'Nickname': 'Arrows',
         'Creed': 'Service is magical',
@@ -9,6 +10,7 @@ const OrderData = [
         'link': "/mage/order/adamantine_arrow"
     },
     {
+        'Name': 'Council of Free Assemblies',
         'Order': 'Council of Free Assemblies',
         'Nickname': 'Libertines',
         'Creed': 'Humanity is magical',
@@ -18,6 +20,7 @@ const OrderData = [
         'link': "/mage/order/council_of_free_assemblies"
     },
     {
+        'Name': 'Guardians of the Veil',
         'Order': 'Guardians of the Veil	',
         'Nickname': 'Guardians',
         'Creed': 'Magic is fragile',
@@ -27,6 +30,7 @@ const OrderData = [
         'link': "/mage/order/guardians_of_the_veil"
     },
     {
+        'Name': 'Mysterium',
         'Order': 'Mysterium',
         'Nickname': 'Mystagogues',
         'Creed': 'Magic is alive',
@@ -36,6 +40,7 @@ const OrderData = [
         'link': "/mage/order/mysterium"
     },
     {
+        'Name': 'Silver Ladder',
         'Order': 'Silver Ladder',
         'Nickname': 'Théarchs',
         'Creed': "Magic is humanity's right",
@@ -45,13 +50,16 @@ const OrderData = [
         'link': "/mage/order/silver_ladder"
     },
     {
+        'Name': 'Seers of the Throne',
         'Order': 'Seers of the Throne',
         'Nickname': 'Seers',
         'Creed': 'Magic is payment',
         'Tools': 'The word',
         'Rote Skills': 'Investigation, Occult, Persuasion',
         'Book': 'M:tA 308',
-        'link': "/mage/order/seers_of_the_throne"
+        // No profile in the supplied PDF; retain the old favorite identity.
+        'link': null,
+        '__favKey': '/mage/order/seers_of_the_throne'
     }
 ]
 

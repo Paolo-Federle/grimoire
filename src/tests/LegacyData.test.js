@@ -44,6 +44,13 @@ describe("Legacy detail data", () => {
       expect(detail.Id).toBe(LegacyIndexData[index].Id);
       expect(detail.Name).toBe(LegacyIndexData[index].Name);
       expect(detail.Book).toBe(LegacyIndexData[index].Book);
+      for (const field of ['Path', 'Order', 'Primary Arcanum', 'Optional Arcanum', 'Conjunctional Arcanum']) {
+        expect(Array.isArray(detail[field])).toBe(true);
+        expect(detail[field]).toEqual(LegacyIndexData[index][field]);
+      }
+      expect(detail).not.toHaveProperty('Cammino');
+      expect(detail).not.toHaveProperty('Ordine');
+      expect(detail).not.toHaveProperty('Secondary Arcanum');
     });
   });
 

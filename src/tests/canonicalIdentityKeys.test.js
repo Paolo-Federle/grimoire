@@ -16,6 +16,8 @@ import { allMageMeritsData } from "../Data/Mage/mageMeritsData";
 import { artifactData } from "../Data/Mage/artifactsData";
 import { imbuedItemsData } from "../Data/Mage/imbuedItemsData";
 import { LegacyIndexData } from "../Data/Mage/LegacyIndexData";
+import PathData from "../Data/Mage/PathData";
+import OrderData from "../Data/Mage/OrderData";
 import { SpellsData } from "../Data/Mage/Arcana/allArcana";
 import { oggettiParanormali } from "../Data/OggettiParanormali";
 import { slugify } from "../utils";
@@ -36,6 +38,8 @@ const migratedDatasets = [
   artifactData,
   imbuedItemsData,
   LegacyIndexData,
+  PathData,
+  OrderData,
   SpellsData,
   oggettiParanormali,
 ];
