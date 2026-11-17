@@ -1,0 +1,1 @@
+.center-races{display:flex;justify-content:center;margin:0 auto;max-width:1080px}.main-races{width:100%;padding:20px clamp(16px,5vw,60px);box-sizing:border-box}.main-races>.title{font-size:2em;margin:0 0 20px;text-wrap:balance}.main-races p a{color:#1a0dab;text-decoration:underline}.main-races p a:hover{color:#551a8b;text-decoration:underline}
