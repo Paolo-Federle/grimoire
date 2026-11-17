@@ -1,3 +1,5 @@
+import { thaumaturgyTraditionIndex } from './ThaumaturgyTraditionIndex';
+
 export const thaumaturgyMeritsData = [
     {
         "Name": "Dream",
@@ -2470,53 +2472,7 @@ export const ThaumaturgyMeritsData = [
     ...thaumaturgyRitualMeritsData,
 ];
 
-export const ThaumaturgyTraditionsData = [
-    {
-        "Tradition": "Apostle of the Dark One",
-        "Strength": "+1 to using magic to fulfill Vice",
-        "Weakness": "Morality dots cost new dots*4.",
-        "Defining Merit": "Communion",
-        "Path Merits": "Curse of Ill-Fortune, Enchantment, Evocation (Spirits), Familiar, Luck Magic, Sacrifice (Spirits), Scrying, Second Sight, Visionary Trances",
-        "Book": "SS 81",
-    },
-    {
-        "Tradition": "Ceremonial Magician",
-        "Strength": "+1 to research Rituals in a libary",
-        "Weakness": "The penalty for improvised ritual tools is increased by one",
-        "Defining Merit": "Luck Magic",
-        "Path Merits": "Alchemy (External), Alchemy (Internal)*, Communion*, Curse of Ill-Fortune, Enchantment, Evocation (Spirits), Favorable Fortune, Healing, Scrying, See Auras",
-        "Book": "SS 83",
-    },
-    {
-        "Tradition": "Hedge Witch",
-        "Strength": "Reduce penalties for improvised tools by one",
-        "Weakness": "-1 to use Rituals in a place inappropriate for the Rituals use",
-        "Defining Merit": "Enchantment",
-        "Path Merits": "Curse of Ill-Fortune, Dream-Travel, Familiar (Embodied only), Healing, Invocation (Spirits), Luck Magic*, Scrying, See Auras, See Spirits, Visionary Trances*, Weather Control",
-        "Book": "SS 87",
-    },
-    {
-        "Tradition": "Shaman",
-        "Strength": "+1 to Social rolls with Spirits",
-        "Weakness": "Must pay for See Spirits.",
-        "Defining Merit": "Visionary Trances",
-        "Path Merits": "Alchemy (Internal)* Familiar (Twilight only), Dream Travel, Evocation (Spirits), Invocation (Spirits)* Healing, Psychic Projection, Sacrifice, See Spirits, Weather Control",
-        "Book": "SS 90",
-    },
-    {
-        "Tradition": "Taoist Alchemist",
-        "Strength": "+1 die on meditation rolls. Successful meditation grants +1 on the next ritual.",
-        "Weakness": "Additional -1 on informal rituals. May not benefit from meditation on rituals shorter than half an hour",
-        "Defining Merit": "Internal Alchemy or External Alchemy",
-        "Path Merits": "Alchemy (Internal), Alchemy (External), Geomancy, Healing, Longevity, Luck Magic, Second Sight, See Auras.",
-        "Book": "SS 94",
-    },
-    {
-        "Tradition": "Vodoun",
-        "Strength": "+1 to social rolls with ghost. +1 to know about ghosts, at the Storyteller's discretion",
-        "Weakness": "-1 to resist a spirit or ghost's mind affecting powers",
-        "Defining Merit": "Invocation (Ghosts)",
-        "Path Merits": "Curse of Ill-Fortune, Evocation (Ghosts), Healing, Luck Magic, Sacrifice (Ghosts), Second Sight, Soul Jar, Weather Control",
-        "Book": "SS 97",
-    }
-]
+export const ThaumaturgyTraditionsData = thaumaturgyTraditionIndex.map((item) => ({
+    ...item,
+    Tradition: item.Name,
+}));

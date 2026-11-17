@@ -24,9 +24,10 @@ export default function RaceSearchBanner() {
   return (
     <section className="mx-auto mt-5 w-full max-w-3xl px-5">
       <WikiSearch
+        key={config.scope}
         scope={config.scope}
         allowGlobalToggle
-        placeholder={`Search ${config.label} content...`}
+        placeholder={`Search ${config.label} content…`}
         maxResults={8}
       />
     </section>

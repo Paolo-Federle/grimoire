@@ -22,13 +22,21 @@ const HEADERS = [
 
 export default function Legacy() {
     const [searchParams, setSearchParams] = useSearchParams();
+    const matchMode = searchParams.get('match') === 'and' ? 'and' : 'or';
     const activeFilters = FILTERS.map((filter) => ({
         ...filter,
         value: searchParams.get(filter.parameter) || '',
     }));
-    const hasFilters = activeFilters.some((filter) => filter.value);
+    const hasFilters = matchMode === 'and' || activeFilters.some((filter) => filter.value);
+    const affiliationFilters = activeFilters.filter(({ parameter, value }) => (
+        (parameter === 'path' || parameter === 'order') && value
+    ));
+    const arcanumFilters = activeFilters.filter(({ parameter }) => parameter !== 'path' && parameter !== 'order');
     const legacyTableData = LegacyIndexData.filter((legacy) => (
-        activeFilters.every(({ field, value }) => !value || legacy[field].includes(value))
+        (matchMode === 'and'
+            ? affiliationFilters.every(({ field, value }) => legacy[field].includes(value))
+            : affiliationFilters.length === 0 || affiliationFilters.some(({ field, value }) => legacy[field].includes(value)))
+        && arcanumFilters.every(({ field, value }) => !value || legacy[field].includes(value))
     )).map((legacy) => ({ ...legacy, link: getMageLegacyPath(legacy.Id) }));
 
     function updateFilter(parameter, value) {
@@ -44,8 +52,27 @@ export default function Legacy() {
         setSearchParams((current) => {
             const next = new URLSearchParams(current);
             FILTERS.forEach(({ parameter }) => next.delete(parameter));
+            next.delete('match');
             return next;
         }, { replace: true });
+    }
+
+    function renderFilter({ field, parameter, placeholder, options, value }) {
+        return (
+            <label key={parameter} className="min-w-0 text-xs text-neutral-600">
+                {field}
+                <select
+                    name={parameter}
+                    autoComplete="off"
+                    value={value}
+                    className="mt-1 h-8 w-full rounded border border-neutral-300 bg-white px-2 text-xs text-neutral-900 focus:border-neutral-600 focus:outline-none focus:ring-1 focus:ring-neutral-600"
+                    onChange={(event) => updateFilter(parameter, event.target.value)}
+                >
+                    <option value="">{placeholder}</option>
+                    {options.map((option) => <option key={option} value={option}>{option}</option>)}
+                </select>
+            </label>
+        );
     }
 
     return (
@@ -70,21 +97,34 @@ export default function Legacy() {
                 aria-label="Legacy filters"
                 className="mb-3 grid grid-cols-2 gap-x-3 gap-y-2 border-b border-neutral-200 pb-3 md:grid-cols-3 lg:grid-cols-5"
             >
-                {activeFilters.map(({ field, parameter, placeholder, options, value }) => (
-                    <label key={parameter} className="min-w-0 text-xs text-neutral-600">
-                        {field}
-                        <select
-                            name={parameter}
-                            autoComplete="off"
-                            value={value}
-                            className="mt-1 h-8 w-full rounded border border-neutral-300 bg-white px-2 text-xs text-neutral-900 focus:border-neutral-600 focus:outline-none focus:ring-1 focus:ring-neutral-600"
-                            onChange={(event) => updateFilter(parameter, event.target.value)}
-                        >
-                            <option value="">{placeholder}</option>
-                            {options.map((option) => <option key={option} value={option}>{option}</option>)}
-                        </select>
-                    </label>
-                ))}
+                <div className="col-span-2 grid min-w-0 grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-end gap-2">
+                    {renderFilter(activeFilters.find(({ parameter }) => parameter === 'path'))}
+                    <fieldset className="m-0 flex h-8 min-w-0 rounded border border-neutral-300 bg-neutral-50 p-0.5">
+                        <legend className="sr-only">Match Path and Order</legend>
+                        {['or', 'and'].map((mode) => (
+                            <label
+                                key={mode}
+                                className="cursor-pointer"
+                                title={mode === 'or' ? 'Match either Path or Order' : 'Match both Path and Order'}
+                            >
+                                <input
+                                    type="radio"
+                                    name="legacy-affiliation-mode"
+                                    value={mode}
+                                    checked={matchMode === mode}
+                                    autoComplete="off"
+                                    className="peer sr-only"
+                                    onChange={() => updateFilter('match', mode === 'and' ? 'and' : '')}
+                                />
+                                <span className="flex h-full items-center rounded-sm px-2 text-[10px] font-semibold text-neutral-500 peer-checked:bg-neutral-800 peer-checked:text-white peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-blue-600">
+                                    {mode.toUpperCase()}
+                                </span>
+                            </label>
+                        ))}
+                    </fieldset>
+                    {renderFilter(activeFilters.find(({ parameter }) => parameter === 'order'))}
+                </div>
+                {arcanumFilters.map(renderFilter)}
             </section>
             {legacyTableData.length ? (
                 <div className="overflow-x-auto">

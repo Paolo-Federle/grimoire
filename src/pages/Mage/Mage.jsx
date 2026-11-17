@@ -9,6 +9,7 @@ export default function Mage() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Mage: the Awakening</h1>
+                <p className="mb-5"><Link to={PATHS.MAGE.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
                 <section >
                     <div>
                         <p>
@@ -35,14 +36,14 @@ export default function Mage() {
                         <h2>Abilities</h2>
                         <p>
                             The Wise can influence the world around them through spells crafted
-                            by their knowledge of the ten <Link to={PATHS.MAGE.ARCANA}>Arcana</Link> (<Link to={PATHS.MAGE.DEATH}>Death</Link>, <Link to={PATHS.MAGE.FATE}>Fate</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.FORCE}>Forces</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.LIFE}>Life</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.MATTER}>Matter</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.MIND}>Mind</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.PRIME}>Prime</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.SPACE}>Space</Link>,&nbsp;
-                            <Link to={PATHS.MAGE.SPIRIT}>Spirit</Link>,&nbsp;
+                            by their knowledge of the ten <Link to={PATHS.MAGE.ARCANA}>Arcana</Link> (<Link to={PATHS.MAGE.DEATH}>Death</Link>, <Link to={PATHS.MAGE.FATE}>Fate</Link>,{" "}
+                            <Link to={PATHS.MAGE.FORCE}>Forces</Link>,{" "}
+                            <Link to={PATHS.MAGE.LIFE}>Life</Link>,{" "}
+                            <Link to={PATHS.MAGE.MATTER}>Matter</Link>,{" "}
+                            <Link to={PATHS.MAGE.MIND}>Mind</Link>,{" "}
+                            <Link to={PATHS.MAGE.PRIME}>Prime</Link>,{" "}
+                            <Link to={PATHS.MAGE.SPACE}>Space</Link>,{" "}
+                            <Link to={PATHS.MAGE.SPIRIT}>Spirit</Link>,{" "}
                             <Link to={PATHS.MAGE.TIME}>Time</Link>).
                             Additionally, these can sometimes be internalized
                             in the form of Attainments that are unaffected by mortal disbelief.
@@ -57,8 +58,8 @@ export default function Mage() {
                         <h2>Advantages</h2>
                         <p>
                             Mages have access to several unique <Link to={PATHS.MAGE.MERITS}>Merits</Link> beyond mortal scope,
-                            including specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and <Link to='/mage/combat_styles'>Combat Styles</Link>.
-                            They can also access the universally available list of Merits.
+                            including specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and Combat Styles.
+                            They can also access <Link to={PATHS.UNIVERSAL_MERITS}>Universal Merits</Link>.
                         </p>
                         <p>
                             The Wise have worked over millennia to establish Proximi Families to act as servants, imbued with Blessings.

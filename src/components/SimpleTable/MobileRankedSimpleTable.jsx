@@ -3,6 +3,7 @@ import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { BookLink } from "../BookLink";
 import FavoriteToggle from "../FavoriteToggle";
+import TableRowLink from "./TableRowLink";
 import {
     DEFAULT_RANKED_FIELD,
     getRankedChildValue,
@@ -15,7 +16,6 @@ export default function MobileRankedSimpleTable({
     activeRowLink,
     sourcePath,
     columnsToSave,
-    handleLinkClick,
     rankedField = DEFAULT_RANKED_FIELD,
     nestedRankField = "dot",
     nestedSummaryField = "summary",
@@ -24,6 +24,7 @@ export default function MobileRankedSimpleTable({
     rankedParentHeaders,
 }) {
     const [openSections, setOpenSections] = useState({});
+    const parentHeader = Array.isArray(rankedParentHeaders) ? rankedParentHeaders[0] : headers[0];
 
     const toggleSection = (rowIndex) => {
         setOpenSections((prev) => ({
@@ -34,28 +35,18 @@ export default function MobileRankedSimpleTable({
 
     const canTitleLink = (row) => !!(activeRowLink && row?.link);
 
-    const renderParentValue = (header, row, cellIndex) => {
-        const hasParentHeaders = Array.isArray(rankedParentHeaders);
-        const parentHeader = hasParentHeaders ? rankedParentHeaders[cellIndex] : header;
-
+    const renderParentValue = (row) => {
         if (!parentHeader) return "";
 
         if (parentHeader === "Book") return row.Book ? BookLink(row.Book) : "";
 
         const value = renderSimpleValue(row[parentHeader]);
-        const isFirstCell = cellIndex === 0;
-        const titleIsLink = isFirstCell && canTitleLink(row);
-
-        if (!titleIsLink) return value;
+        if (!canTitleLink(row)) return value;
 
         return (
-            <a
-                href={row.link}
-                onClick={(e) => handleLinkClick(e, row.link)}
-                className="underline text-white"
-            >
+            <TableRowLink to={row.link} className="underline text-white">
                 {value}
-            </a>
+            </TableRowLink>
         );
     };
 
@@ -74,13 +65,9 @@ export default function MobileRankedSimpleTable({
         if (!titleIsLink) return value;
 
         return (
-            <a
-                href={row.link}
-                onClick={(e) => handleLinkClick(e, row.link)}
-                className="underline text-blue-600"
-            >
+            <TableRowLink to={row.link} className="underline text-blue-600">
                 {value}
-            </a>
+            </TableRowLink>
         );
     };
 
@@ -90,11 +77,12 @@ export default function MobileRankedSimpleTable({
                 const rankedRows = Array.isArray(row?.[rankedField]) ? row[rankedField] : [];
                 const isOpen = !!openSections[rowIndex];
                 const titleIsLink = canTitleLink(row);
+                const parentTitle = renderSimpleValue(row[parentHeader]);
 
                 return (
                     <React.Fragment key={rowIndex}>
                         <div className="bg-neutral-900 text-white rounded-md">
-                            <div className="flex items-center justify-between px-4 py-3">
+                            <div className="flex items-center justify-between px-4 py-2">
                                 <div className="font-bold text-lg flex-1">
                                     <span
                                         style={{
@@ -109,7 +97,7 @@ export default function MobileRankedSimpleTable({
                                             sourcePath={sourcePath}
                                             titleIsLink={titleIsLink}
                                         />
-                                        {renderParentValue(headers[0], row, 0)}
+                                        {renderParentValue(row)}
                                     </span>
                                 </div>
 
@@ -117,7 +105,9 @@ export default function MobileRankedSimpleTable({
                                     <button
                                         type="button"
                                         onClick={() => toggleSection(rowIndex)}
-                                        className="p-1 text-white"
+                                        aria-expanded={isOpen}
+                                        aria-label={parentTitle ? `Ranks for ${parentTitle}` : "Ranks"}
+                                        className="inline-flex size-11 shrink-0 items-center justify-center rounded text-white hover:bg-neutral-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white"
                                     >
                                         {isOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />}
                                     </button>

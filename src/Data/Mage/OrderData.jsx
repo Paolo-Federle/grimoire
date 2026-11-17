@@ -57,7 +57,7 @@ const OrderData = [
         'Tools': 'The word',
         'Rote Skills': 'Investigation, Occult, Persuasion',
         'Book': 'M:tA 308',
-        // No profile in the supplied PDF; retain the old favorite identity.
+        // Historical sheet choice; the wiki lists its four ministries separately.
         'link': null,
         '__favKey': '/mage/order/seers_of_the_throne'
     }

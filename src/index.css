@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  a {
+    @apply text-blue-600 hover:underline;
+  }
+}
 
 body {
   margin: 0;

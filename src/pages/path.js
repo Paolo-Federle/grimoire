@@ -1,3 +1,5 @@
+import { slugify } from '../utils';
+
 // paths.js
 // import { allDiscipline } from '../Data/Vampire/DisciplineData';
 // import { DevotionData } from '../Data/Vampire/DevotionData';
@@ -59,6 +61,7 @@ export const PATHS = {
 
     VAMPIRE: {
         BASE: '/vampire',
+        QUICK_REFERENCE: '/vampire/character_creation_quick_reference',
         DISCIPLINES: '/vampire/disciplines',
         DEVOTIONS: '/vampire/devotions',
         MERITS: '/vampire/merits',
@@ -77,6 +80,7 @@ export const PATHS = {
 
     MAGE: {
         BASE: '/mage',
+        QUICK_REFERENCE: '/mage/character_creation_quick_reference',
         MERITS: '/mage/merits',
         LEGACY: '/mage/legacy',
         ARCANA: '/mage/arcana',
@@ -84,6 +88,8 @@ export const PATHS = {
         IMBUED_ITEMS: '/mage/imbued_items',
         PATH: '/mage/path',
         ORDER: '/mage/order',
+        MINISTRIES: '/mage/ministries',
+        PRELACIES: '/mage/prelacies',
         GNOSIS: '/mage/gnosis',
         MANA: '/mage/mana',
         WISDOM: '/mage/wisdom',
@@ -102,6 +108,7 @@ export const PATHS = {
     },
     WEREWOLF: {
         BASE: '/werewolf',
+        QUICK_REFERENCE: '/werewolf/character_creation_quick_reference',
         GIFTS: '/werewolf/gifts',
         RITES: '/werewolf/rites',
         MERITS: '/werewolf/merits',
@@ -117,6 +124,7 @@ export const PATHS = {
 
     CHANGELING: {
         BASE: '/changeling',
+        QUICK_REFERENCE: '/changeling/character_creation_quick_reference',
         CONTRACTS: '/changeling/contracts',
         MERITS: '/changeling/merits',
         TOKENS: '/changeling/tokens',
@@ -162,6 +170,7 @@ export const PATHS = {
 
     PROMETHEAN: {
         BASE: '/promethean',
+        QUICK_REFERENCE: '/promethean/character_creation_quick_reference',
         LINEAGE: '/promethean/lineage',
         REFINEMENTS: '/promethean/refinements',
         MOCKERIES: '/promethean/mockeries',
@@ -176,6 +185,7 @@ export const PATHS = {
 
     GEIST: {
         BASE: '/geist',
+        QUICK_REFERENCE: '/geist/character_creation_quick_reference',
         THRESHOLDS:'/geist/thresholds',
         ARCHETYPES: '/geist/archetypes',
         KREWE_TRAITS:'/geist/krewe_traits',
@@ -191,6 +201,7 @@ export const PATHS = {
 
     MUMMY: {
         BASE: '/mummy',
+        QUICK_REFERENCE: '/mummy/character_creation_quick_reference',
         GUILD: '/mummy/guild',
         DECREE: '/mummy/decree',
         JUDGE: '/mummy/judge',
@@ -214,6 +225,13 @@ export const getLegacySheetEditorPath = (sheetId = ":sheetId") =>
     `${PATHS.SHEET_LEGACY_EDITOR}/${sheetId}`;
 export const getMageLegacyPath = (legacyId = ":slug") =>
     `${PATHS.MAGE.LEGACY}/${legacyId}`;
+
+export const getThaumaturgyTraditionPath = (name) =>
+    `${PATHS.MORTAL.THAUMATURGY}/traditions/${name ? slugify(name) : ':slug'}`;
+
+export const getMagePrelacyPath = (name) => name
+    ? `${PATHS.MAGE.PRELACIES}?prelacy=${encodeURIComponent(slugify(name))}`
+    : PATHS.MAGE.PRELACIES;
 
 // Kept outside PATHS so redirects do not become indexed wiki pages.
 export const LEGACY_MAGE_SPELLS_PATH = '/mage/spells';

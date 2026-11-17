@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../css/Races.css';
 import { Link } from 'react-router-dom';
+import { PATHS } from '../path';
 import SimpleTable from '../../components/SimpleTable';
 import { lesserTemplatesData } from '../../Data/Mortal/Lesser templates/LesserTemplateData';
 
@@ -17,10 +18,11 @@ export default function Mortal() {
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            Mortal humans have a <Link to='/mortal/morality'>Morality</Link> and
-                            a <Link to='/mortal/virtue_vice'>Virtue and Vice</Link>.
+                            Mortal humans have <Link to={PATHS.MORTAL.MORALITY}>Morality</Link>,
+                            a <Link to={PATHS.MORTAL.VIRTUE_VICE}>Virtue and a Vice</Link>,
+                            and access to <Link to={PATHS.UNIVERSAL_MERITS}>Universal Merits</Link>.
                         </p>
-                        <SimpleTable table={lesserTemplatesData} title={'Lesser Templates Character Types'} activeRowLink={false} />
+                        <SimpleTable table={lesserTemplatesData} title="Lesser Template Character Types" titleVariant="nested" activeRowLink={false} />
                     </div>
                 </section>
             </main>

@@ -6,7 +6,7 @@ import { OtherGroupsData, TribesForsakenData, TribesPureData } from '../../Data/
 export default function Tribes() {
     return (
         <div className='grid-container'>
-            <SimpleTable table={TribesForsakenData} title={'Forsaken Tribes'} />
+            <SimpleTable table={TribesForsakenData} title={'Forsaken Tribes'} headers={['Name', 'Description', 'Patron', 'Book']} />
             <SimpleTable table={TribesPureData} title={'Pure Tribes'} />
             <SimpleTable table={OtherGroupsData} title={'Other Groups'} />
         </div>

@@ -111,6 +111,15 @@ npx playwright test tests/table-detail-pages.spec.js --project=chromium
 - Componenti/pagine sono generalmente PascalCase; nella sheet i prefissi numerici ordinano le sezioni. Convergere verso inglese standard in modo progressivo.
 - `dist/`, `build/` residuo, `node_modules/`, report Playwright e indice di ricerca generato non sono fonti da aggiornare manualmente.
 
+## Aggiornamento della kanban
+
+- Quando si aggiungono o modificano contenuti, funzionalità o altri elementi del progetto, aggiornare anche la [kanban Grimoire](https://github.com/users/Paolo-Federle/projects/5) (`Paolo-Federle`, Project 5) prima della consegna. L'aggiornamento fa parte del lavoro richiesto e non richiede una richiesta separata dell'utente.
+- Leggere prima le schede e i campi correnti; aggiornare la scheda pertinente, creandone una solo se il lavoro non è già tracciato. Preservare note, attività aperte e metadati esistenti; evitare duplicati e modifiche a schede estranee all'intervento.
+- Allineare lo stato al risultato effettivo, distinguendo pagina elenco, dettagli e funzionalità ancora parziali. Usare gli stati esistenti; non segnare come concluso un intero sottosistema per una singola miglioria.
+- Aggiungere una nota sintetica con data, lavoro svolto, verifiche effettivamente eseguite e attività residue. Distinguere esplicitamente implementazione locale, commit/push e deploy: un lavoro completato in locale può essere `Done`, ma la nota deve indicare se non è ancora pubblicato.
+- Usare il plugin GitHub quando supporta l'operazione; per GitHub Projects usare la CLI autenticata (`gh project`, oppure `gh api graphql`). Verificare l'esito rileggendo le schede aggiornate. Non eseguire commit, push o deploy solo per aggiornare la board.
+- Se l'accesso alla board non è disponibile, completare il lavoro locale e segnalare nel riepilogo che l'aggiornamento kanban resta da effettuare, indicando le schede e le modifiche previste; non dichiararlo eseguito.
+
 ## Verifiche prima della consegna
 
 - Controllare i dati effettivi e riusare un pattern già presente.

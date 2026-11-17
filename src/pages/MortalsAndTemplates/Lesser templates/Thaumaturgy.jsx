@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleTable from '../../../components/SimpleTable';
-import { PATHS } from '../../path';
+import { getThaumaturgyTraditionPath, PATHS } from '../../path';
 import { slugify } from '../../../utils';
 import {
     thaumaturgyMeritsData,
@@ -15,6 +15,12 @@ function addDetailLinks(data) {
     }));
 }
 
+const traditionsWithLinks = ThaumaturgyTraditionsData.map((item) => ({
+    ...item,
+    link: getThaumaturgyTraditionPath(item.Name),
+    __favKey: `${PATHS.MORTAL.THAUMATURGY}#${slugify(item.Name)}`,
+}));
+
 export default function Thaumaturgy() {
 
     const headers = ['Name', 'Rank', 'Prerequisite', 'Description', 'Book']
@@ -23,7 +29,12 @@ export default function Thaumaturgy() {
 
     return (
         <div className='grid-container'>
-            <SimpleTable table={ThaumaturgyTraditionsData} title={'Thaumaturgy Traditions'} activeRowLink={false} />
+            <SimpleTable
+                table={traditionsWithLinks}
+                title="Thaumaturgy Traditions"
+                headers={['Tradition', 'Strength', 'Weakness', 'Defining Merit', 'Path Merits', 'Book']}
+                activeRowLink
+            />
             <SimpleTable table={meritsWithLinks} title={'Thaumaturgy Merits'} headers={headers} activeRowLink />
             <SimpleTable table={ritualMeritsWithLinks} title={'Thaumaturgy Ritual Merits'} headers={headers} activeRowLink />
         </div>

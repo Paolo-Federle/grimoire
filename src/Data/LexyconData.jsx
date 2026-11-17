@@ -1,4 +1,66 @@
+import { thaumaturgyTraditionIndex } from './Mortal/Lesser templates/ThaumaturgyTraditionIndex';
+
+export const secondSightLexyconData = thaumaturgyTraditionIndex.map(({ Name, Description, Book }) => ({
+  Name,
+  Description,
+  Book,
+}));
+
 const mageLexyconData = [
+  {
+    "Name": "Prelacy of Doctrine",
+    "Description": "The Father’s Prelacy, favored by Paternoster. Its Crown, Sword and Temple initiations govern Mana, magical authority and the punishment of unauthorized magic.",
+    "Long Description": [],
+    "Book": "SotT 73-74"
+  },
+  {
+    "Name": "Prelacy of Fury",
+    "Description": "The General’s Prelacy, favored by the Praetorian Ministry. Its initiations command destructive forces, combat and the elements.",
+    "Long Description": [],
+    "Book": "SotT 74-75"
+  },
+  {
+    "Name": "Prelacy of Obligation",
+    "Description": "The Unity’s Prelacy, favored by the Hegemonic Ministry. Its initiations harness the Exarchs’ psychic laws to influence desires, minds and social behavior.",
+    "Long Description": [],
+    "Book": "SotT 75-76"
+  },
+  {
+    "Name": "Prelacy of Vision",
+    "Description": "The Eye’s Prelacy, favored by Panopticon. Its initiations draw on the Pantognosis to reveal and manipulate sympathetic connections.",
+    "Long Description": [],
+    "Book": "SotT 76-78"
+  },
+  {
+    "Name": "Seers of the Throne",
+    "Description": "Mages who serve the Exarchs and uphold the Lie. Their four Greater Ministries are the Hegemonic Ministry, Panopticon, Paternoster and the Praetorian Ministry.",
+    "Long Description": [],
+    "Book": "SotT 56-71"
+  },
+  {
+    "Name": "Hegemonic Ministry",
+    "Description": "A Greater Ministry of the Seers of the Throne serving the Unity through governments, bureaucracy and political division. Its members are called hegemons.",
+    "Long Description": [],
+    "Book": "SotT 56-59"
+  },
+  {
+    "Name": "Ministry of Panopticon",
+    "Description": "A Greater Ministry of the Seers of the Throne serving the Eye through surveillance and the destruction of privacy. Its members are called watchers.",
+    "Long Description": [],
+    "Book": "SotT 60-63"
+  },
+  {
+    "Name": "Ministry of Paternoster",
+    "Description": "A Greater Ministry of the Seers of the Throne serving the Father by manipulating religions and concealing Supernal knowledge from Sleepers. Its priests are called hierodules.",
+    "Long Description": [],
+    "Book": "SotT 64-67"
+  },
+  {
+    "Name": "Praetorian Ministry",
+    "Description": "A Greater Ministry of the Seers of the Throne serving the General through controlled violence, fear and perpetual warfare.",
+    "Long Description": [],
+    "Book": "SotT 68-71"
+  },
   {
     "Name": "Aether, the",
     "Description": "A Supernal Realm where the Ruling Arcana are Forces and Prime. Mages who walk the Obrimos Path claim a Watchtower in this realm.",
@@ -40,6 +102,12 @@ const mageLexyconData = [
     "Description": "A mage who has attained the second degree (2 dots) of knowledge in an Arcanum.",
     "Long Description": [],
     "Book": "MTA"
+  },
+  {
+    "Name": "Apostate",
+    "Description": "A mage who belongs to no order.",
+    "Long Description": [],
+    "Book": "M:tA 68"
   },
   {
     "Name": "Arcadia",
@@ -1460,6 +1528,12 @@ const changelingLexyconData = [
     "Description": "An object that holds a changeling’s created dream; going to sleep with a dream phial releases the dream into the sleeper’s mind as he slumbers. Created through dreamweaving.",
     "Long Description": [],
     "Book": "CTL"
+  },
+  {
+    "Name": "Courtless",
+    "Description": "A changeling who belongs to none of the four Great Courts. Courtless changelings are sometimes called the Colorless Court.",
+    "Long Description": [],
+    "Book": "CtL 76"
   },
   {
     "Name": "dream riding",

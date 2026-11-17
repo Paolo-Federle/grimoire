@@ -30,8 +30,9 @@ test('shows English headers and combines all five filters from a bookmarked URL'
     expect(screen.getByRole('combobox', { name: 'Optional Arcanum', exact: true })).toHaveValue('Time');
 });
 
-test('matches any member of array fields and offers distinct nonblank Arcana', () => {
+test('matches either Path or Order, then narrows those matches by selected Arcana', () => {
     renderLegacy();
+    expect(screen.getByRole('radio', { name: 'OR', exact: true })).toBeChecked();
     const order = screen.getByRole('combobox', { name: 'Order', exact: true });
     fireEvent.change(order, { target: { value: 'Seers of the Throne' } });
     expect(screen.getByRole('link', { name: 'Walkers in Mists', exact: true })).toBeInTheDocument();
@@ -39,14 +40,62 @@ test('matches any member of array fields and offers distinct nonblank Arcana', (
     expect(screen.queryByRole('link', { name: 'Uncrowned Kings', exact: true })).not.toBeInTheDocument();
     fireEvent.change(screen.getByRole('combobox', { name: 'Path', exact: true }), { target: { value: 'Acanthus' } });
     expect(screen.getByRole('link', { name: 'Walkers in Mists', exact: true })).toBeInTheDocument();
-    expect(screen.queryByRole('link', { name: 'Subtle Ones', exact: true })).not.toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Subtle Ones', exact: true })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Storm Keepers', exact: true })).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Uncrowned Kings', exact: true })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Tremere Lich', exact: true })).not.toBeInTheDocument();
     expect(screen.getByTestId('route')).toHaveTextContent('order=Seers+of+the+Throne&path=Acanthus');
+    fireEvent.change(screen.getByRole('combobox', { name: 'Primary Arcanum', exact: true }), { target: { value: 'Space' } });
+    expect(screen.getByRole('link', { name: 'Walkers in Mists', exact: true })).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Subtle Ones', exact: true })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Storm Keepers', exact: true })).not.toBeInTheDocument();
     for (const name of ['Primary Arcanum', 'Optional Arcanum', 'Conjunctional Arcanum']) {
         const options = within(screen.getByRole('combobox', { name, exact: true })).getAllByRole('option');
         expect(options).toHaveLength(11);
         expect(options.slice(1).every(option => option.value.trim())).toBe(true);
         expect(options.filter(option => option.value === 'Space')).toHaveLength(1);
     }
+});
+
+test('switches visually between OR and AND without clearing selections, including a single active affiliation', () => {
+    renderLegacy('?path=Acanthus&order=Seers+of+the+Throne');
+    expect(screen.getByRole('status')).toHaveTextContent('Showing 50 of 94 Legacies');
+    fireEvent.click(screen.getByRole('radio', { name: 'AND', exact: true }));
+    expect(screen.getByRole('radio', { name: 'AND', exact: true })).toBeChecked();
+    expect(screen.getByRole('status')).toHaveTextContent('Showing 7 of 94 Legacies');
+    expect(screen.getByTestId('route')).toHaveTextContent('match=and');
+    expect(screen.getByRole('link', { name: 'Walkers in Mists', exact: true })).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Storm Keepers', exact: true })).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Subtle Ones', exact: true })).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole('radio', { name: 'OR', exact: true }));
+    expect(screen.getByRole('status')).toHaveTextContent('Showing 50 of 94 Legacies');
+    expect(screen.getByTestId('route')).not.toHaveTextContent('match=');
+    expect(screen.getByRole('combobox', { name: 'Path', exact: true })).toHaveValue('Acanthus');
+    expect(screen.getByRole('combobox', { name: 'Order', exact: true })).toHaveValue('Seers of the Throne');
+    fireEvent.click(screen.getByRole('radio', { name: 'AND', exact: true }));
+    fireEvent.change(screen.getByRole('combobox', { name: 'Order', exact: true }), { target: { value: '' } });
+    expect(screen.getByRole('link', { name: 'Storm Keepers', exact: true })).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Subtle Ones', exact: true })).not.toBeInTheDocument();
+});
+
+test('loads AND from a bookmark with no affiliation selected and resets it to the OR default', () => {
+    renderLegacy('?match=and&source=bookmark');
+    expect(screen.getByRole('radio', { name: 'AND', exact: true })).toBeChecked();
+    expect(screen.getByRole('status')).toHaveTextContent('Showing 94 of 94 Legacies');
+    fireEvent.click(screen.getByRole('button', { name: 'Clear filters' }));
+    expect(screen.getByRole('radio', { name: 'OR', exact: true })).toBeChecked();
+    expect(screen.getByTestId('route')).toHaveTextContent('/mage/legacy?source=bookmark');
+    expect(screen.getByRole('button', { name: 'Clear filters' })).toBeDisabled();
+});
+
+test('includes a Legacy through its Order even when the selected Path differs from its parent Path', () => {
+    renderLegacy('?path=Acanthus&order=Silver+Ladder');
+    expect(screen.getByRole('link', { name: 'Clavicularius', exact: true })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Storm Keepers', exact: true })).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: 'Tremere Lich', exact: true })).not.toBeInTheDocument();
+    fireEvent.change(screen.getByRole('combobox', { name: 'Order', exact: true }), { target: { value: '' } });
+    expect(screen.queryByRole('link', { name: 'Clavicularius', exact: true })).not.toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Storm Keepers', exact: true })).toBeInTheDocument();
 });
 
 test('explains empty results and clears filters while preserving unrelated query parameters', () => {

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useId, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -33,7 +33,7 @@ export default function SimpleTable({
 }) {
     const [isSectionActive, setIsSectionActive] = useState(true);
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-    const navigate = useNavigate();
+    const titleId = useId();
     const sourcePath = getCurrentRoutePath();
     const isRankedTable = hasRankedRows(table, rankedField);
 
@@ -48,22 +48,24 @@ export default function SimpleTable({
         : headers || Object.keys(table?.[0] || {}).filter((h) => h !== "link");
     const columnsToSave = (tableHeaders || []).filter((h) => h !== "link");
     const TitleTag = titleVariant === "nested" ? "h2" : "h1";
-    const titleClassName = titleVariant === "nested"
-        ? "cursor-pointer text-xl flex items-center gap-1"
-        : "cursor-pointer text-2xl flex items-center gap-1";
-    const handleLinkClick = (e, link) => {
-        e.preventDefault();
-        navigate(link);
-    };
+    const titleClassName = titleVariant === "nested" ? "text-xl" : "text-2xl";
+    const titleIsElement = React.isValidElement(title);
 
     return (
         <div className={className}>
             {title && (
-                <TitleTag
-                    onClick={() => setIsSectionActive((p) => !p)}
-                    className={titleClassName}
-                >
-                    {React.isValidElement(title) ? title : normalizeDisplayText(title)} {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                <TitleTag className={`flex items-center gap-1 ${titleClassName}`}>
+                    {titleIsElement && <span id={titleId}>{title}</span>}
+                    <button
+                        type="button"
+                        aria-expanded={isSectionActive}
+                        aria-labelledby={titleIsElement ? titleId : undefined}
+                        onClick={() => setIsSectionActive((current) => !current)}
+                        className="inline-flex min-h-8 items-center gap-1 rounded text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                    >
+                        {!titleIsElement && normalizeDisplayText(title)}
+                        {isSectionActive ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                    </button>
                 </TitleTag>
             )}
 
@@ -90,7 +92,6 @@ export default function SimpleTable({
                             activeRowLink={activeRowLink}
                             sourcePath={sourcePath}
                             columnsToSave={columnsToSave}
-                            handleLinkClick={handleLinkClick}
                             rankedField={rankedField}
                             nestedRankField={nestedRankField}
                             nestedSummaryField={nestedSummaryField}
@@ -106,7 +107,6 @@ export default function SimpleTable({
                             activeRowLink={activeRowLink}
                             sourcePath={sourcePath}
                             columnsToSave={columnsToSave}
-                            handleLinkClick={handleLinkClick}
                             rankedField={rankedField}
                             nestedRankField={nestedRankField}
                             nestedSummaryField={nestedSummaryField}

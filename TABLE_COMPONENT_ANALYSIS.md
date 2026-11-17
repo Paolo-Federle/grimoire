@@ -23,6 +23,7 @@ Una famiglia con contenuto proprio non è un separatore grafico. Un livello Arca
 - `src/components/SimpleTable/DesktopSimpleTable.jsx` e `MobileSimpleTable.jsx`: tabella desktop e card mobile flat.
 - `src/components/SimpleTable/DesktopRankedSimpleTable.jsx` e `MobileRankedSimpleTable.jsx`: genitori/figli; sul mobile i gruppi sono richiudibili.
 - `src/components/SimpleTable/rankedTableUtils.js`: rilevamento `Ranks`, colonne e normalizzazione dei valori figli.
+- `src/components/SimpleTable/TableRowLink.jsx`: collegamenti delle righe compatibili con HashRouter e con l'apertura in un'altra scheda. Gli URL esterni usano la navigazione del browser.
 - `src/components/BaseTable.jsx`: renderer desktop con `BookLink`, preferiti e link nella prima colonna; usato anche nei dettagli e nei blocchi legacy.
 - `src/components/TableGroup.jsx`: contenitore di tabelle sorelle, con titolo, eventuale link e apertura/chiusura.
 
@@ -40,6 +41,8 @@ Props principali:
 - `rankHeader="Rank"`, `summaryHeader="Summary"`, `nestedRankField="dot"`, `nestedSummaryField="summary"`: adattamento dei campi ranked.
 
 La scelta mobile avviene sotto 768 px. I due layout conservano preferiti, link e riferimenti ai manuali. Il renderer desktop flat delega a `BaseTable`, che chiama la prop dei link `onRowClick`.
+
+Il titolo testuale apre e chiude la tabella anche da tastiera. Se il titolo contiene un link, il pulsante accanto al link gestisce l'espansione. Su mobile, i pulsanti dei genitori ranked indicano il nome del gruppo e lo stato aperto o chiuso.
 
 Passare `headers` espliciti quando le righe includono descrizioni lunghe, gruppi, chiavi tecniche o campi non visibili: le colonne inferite dalle chiavi del primo oggetto non sono uno schema editoriale affidabile.
 

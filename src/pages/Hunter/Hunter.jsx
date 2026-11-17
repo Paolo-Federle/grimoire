@@ -11,7 +11,7 @@ export default function Hunter() {
                 <section >
                     <div>
                         <p>
-                            In <b>Hunter: the Vigil</b> you play as a mortal, fighting back against the ever-present darkness.
+                            In <b>Hunter: the Vigil</b>, you play as a mortal fighting back against the ever-present darkness.
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
@@ -20,7 +20,7 @@ export default function Hunter() {
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            Those who carry the Vigil have normal human Morality.
+                            Those who carry the Vigil have normal human <Link to={PATHS.MORTAL.MORALITY}>Morality</Link>.
                         </p>
                     </div>
 
@@ -35,7 +35,7 @@ export default function Hunter() {
                         <h2>Advantages</h2>
                         <p>
                             Hunters have access to several unique <Link to={PATHS.HUNTER.MERITS}>Merits</Link>, including
-                            specific <Link to='/merits/location'>Locations</Link> and <Link to='/hunter/combat_styles'>Combat Styles</Link>.
+                            specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and Combat Styles.
                         </p>
                         <p>
                             Being mundane humans, Hunters often have a normal <Link to={PATHS.HUNTER.PROFESSION}>Profession</Link>.

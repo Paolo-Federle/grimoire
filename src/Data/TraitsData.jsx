@@ -38,6 +38,12 @@ export const TraitsData = [
         "link": PATHS.MORTAL.PSYCHIC_POWERS
     },
     {
+        "Name": "Prelacies",
+        "Specific to": "Seers of the Throne",
+        "Description": "Exarch-granted initiations: learning rules and the Archigenitor Prelacies of Doctrine, Fury, Obligation and Vision",
+        "link": PATHS.MAGE.PRELACIES
+    },
+    {
         "Name": "Merits",
         "Specific to": "",
         "Description": "Unique advantages of creatures",

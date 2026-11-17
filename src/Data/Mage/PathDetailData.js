@@ -6,10 +6,6 @@ import PathData from './PathData';
 const pathProfiles = [
   {
     "Name": "Acanthus",
-    "Tagline": "Enchanters on the Path of Thistle",
-    "Watchtower": "Lunargent Thorn",
-    "Realm": "Arcadia",
-    "RealmDescription": "Kingdom of Enchantment and Abode of the Fae",
     "Description": [
       {
         "type": "paragraph",
@@ -152,10 +148,6 @@ const pathProfiles = [
   },
   {
     "Name": "Mastigos",
-    "Tagline": "Warlocks on the Path of Scourging",
-    "Watchtower": "Iron Gauntlet",
-    "Realm": "Pandemonium",
-    "RealmDescription": "Kingdom of Nightmares and Abode of Demons",
     "Description": [
       {
         "type": "paragraph",
@@ -303,10 +295,6 @@ const pathProfiles = [
   },
   {
     "Name": "Moros",
-    "Tagline": "Necromancers on the Path of Doom",
-    "Watchtower": "Lead Coin",
-    "Realm": "Stygia",
-    "RealmDescription": "Kingdom of Crypts and Abode of Shades",
     "Description": [
       {
         "type": "paragraph",
@@ -447,10 +435,6 @@ const pathProfiles = [
   },
   {
     "Name": "Obrimos",
-    "Tagline": "Theurgists on the Path of the Mighty",
-    "Watchtower": "Golden Key",
-    "Realm": "the Aether",
-    "RealmDescription": "Kingdom of the Celestial Spheres and Abode of Angels",
     "Description": [
       {
         "type": "paragraph",
@@ -594,10 +578,6 @@ const pathProfiles = [
   },
   {
     "Name": "Thyrsus",
-    "Tagline": "Shamans on the Path of Ecstasy",
-    "Watchtower": "Stone Book",
-    "Realm": "Primal Wild",
-    "RealmDescription": "Kingdom of Totems and Abode of Beasts",
     "Description": [
       {
         "type": "paragraph",

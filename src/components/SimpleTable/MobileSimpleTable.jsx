@@ -1,18 +1,12 @@
 import React from "react";
 import { BookLink } from "../BookLink";
-import { useNavigate } from "react-router-dom";
 import FavoriteToggle from "../FavoriteToggle";
+import TableRowLink from "./TableRowLink";
 import { getCurrentRoutePath, normalizeDisplayText } from "../../utils";
 
 export default function MobileSimpleTable({ headers, data, activeRowLink }) {
-    const navigate = useNavigate();
     const sourcePath = getCurrentRoutePath();
     const columnsToSave = (headers || []).filter((h) => h !== "link");
-
-    const handleLinkClick = (e, link) => {
-        e.preventDefault();
-        navigate(link);
-    };
 
     const renderValue = (header, row, value, i) => {
         if (header === "Book") return BookLink(value);
@@ -29,13 +23,9 @@ export default function MobileSimpleTable({ headers, data, activeRowLink }) {
 
         if (shouldLink) {
             return (
-                <a
-                    href={row.link}
-                    onClick={(e) => handleLinkClick(e, row.link)}
-                    className="underline text-blue-600"
-                >
+                <TableRowLink to={row.link} className="underline text-blue-600">
                     {displayValue}
-                </a>
+                </TableRowLink>
             );
         }
 

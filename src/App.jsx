@@ -14,6 +14,7 @@ import {
   getCanonicalMageArcanaPath,
   getMageLegacyPath,
   getSheetPath,
+  getThaumaturgyTraditionPath,
   LEGACY_MAGE_SPELLS_PATH,
   PATHS,
 } from "./pages/path";
@@ -54,6 +55,7 @@ const PsychicsPowersPage = lazy(
   () => import("./pages/MortalsAndTemplates/Lesser templates/Psychics")
 );
 const VampirePage = lazy(() => import("./pages/Vampire/Vampire"));
+const VampireQuickReferencePage = lazy(() => import("./pages/Vampire/VampireQuickReference"));
 const DisciplinesPage = lazy(() => import("./pages/Vampire/Disciplines"));
 const DevotionPage = lazy(() => import("./pages/Vampire/Devotion"));
 const VampireExperiencePage = lazy(
@@ -67,6 +69,7 @@ const GhoulFamiliesPage = lazy(() => import("./pages/Vampire/Ghoul"));
 const VampireMeritsPage = lazy(() => import("./pages/Vampire/VampireMerits"));
 const HumanityPage = lazy(() => import("./pages/Vampire/Humanity"));
 const WerewolfPage = lazy(() => import("./pages/Werewolf/Werewolf"));
+const WerewolfQuickReferencePage = lazy(() => import("./pages/Werewolf/WerewolfQuickReference"));
 const GiftsPage = lazy(() => import("./pages/Werewolf/Gifts"));
 const RitesPage = lazy(() => import("./pages/Werewolf/Rites"));
 const WerewolfMeritsPage = lazy(() => import("./pages/Werewolf/WerewolfMerits"));
@@ -81,10 +84,12 @@ const WerewolfExperiencePage = lazy(
   () => import("./pages/Werewolf/WerewolfExperiencePoints")
 );
 const MagePage = lazy(() => import("./pages/Mage/Mage"));
+const MageQuickReferencePage = lazy(() => import("./pages/Mage/MageQuickReference"));
 const PathPage = lazy(() => import("./pages/Mage/Path"));
 const OrderPage = lazy(() => import("./pages/Mage/Order"));
 const GnosisPage = lazy(() => import("./pages/Mage/Gnosis"));
 const ManaPage = lazy(() => import("./pages/Mage/Mana"));
+const PrelaciesPage = lazy(() => import("./pages/Mage/Prelacies"));
 const WisdomPage = lazy(() => import("./pages/Mage/Wisdom"));
 const LegacyPage = lazy(() => import("./pages/Mage/Legacy"));
 const MageMeritsPage = lazy(() => import("./pages/Mage/MageMerits"));
@@ -95,6 +100,7 @@ const ArcanumPage = lazy(() => import("./pages/Mage/Arcanum"));
 const ArtifactsPage = lazy(() => import("./pages/Mage/Artifact"));
 const ImbuedItemsPage = lazy(() => import("./pages/Mage/ImbuedItems"));
 const PrometheanPage = lazy(() => import("./pages/Promethean/Promethean"));
+const PrometheanQuickReferencePage = lazy(() => import("./pages/Promethean/PrometheanQuickReference"));
 const AzothPage = lazy(() => import("./pages/Promethean/Azoth"));
 const TransmutationsPage = lazy(() => import("./pages/Promethean/Transmutations"));
 const BestowmentsPage = lazy(() => import("./pages/Promethean/Bestowments"));
@@ -108,6 +114,7 @@ const PrometheanExperiencePage = lazy(
   () => import("./pages/Promethean/PrometheanExperiencePoints")
 );
 const ChangelingPage = lazy(() => import("./pages/Changeling/Changeling"));
+const ChangelingQuickReferencePage = lazy(() => import("./pages/Changeling/ChangelingQuickReference"));
 const SeemingPage = lazy(() => import("./pages/Changeling/Seeming"));
 const KithPage = lazy(() => import("./pages/Changeling/Kith"));
 const CourtPage = lazy(() => import("./pages/Changeling/Court"));
@@ -135,6 +142,7 @@ const CompactConspiraciesPage = lazy(
 );
 const DreadPowersPage = lazy(() => import("./pages/Hunter/DreadPowers"));
 const GeistPage = lazy(() => import("./pages/Geist/Geist"));
+const GeistQuickReferencePage = lazy(() => import("./pages/Geist/GeistQuickReference"));
 const PsychePage = lazy(() => import("./pages/Geist/Psyche"));
 const KeysAndHauntsPage = lazy(() => import("./pages/Geist/KeysAndHaunts"));
 const CeremoniesPage = lazy(() => import("./pages/Geist/Ceremonies"));
@@ -147,6 +155,7 @@ const ThresholdsPage = lazy(() => import("./pages/Geist/Thresholds"));
 const ManifestationPage = lazy(() => import("./pages/Promethean/Manifestation"));
 const GeistExperiencePage = lazy(() => import("./pages/Geist/GeistExperiencePoints"));
 const MummyPage = lazy(() => import("./pages/Mummy/Mummy"));
+const MummyQuickReferencePage = lazy(() => import("./pages/Mummy/MummyQuickReference"));
 const AffinitiesPage = lazy(() => import("./pages/Mummy/Affinities"));
 const UtterancesPage = lazy(() => import("./pages/Mummy/Utterances"));
 const JudgesPage = lazy(() => import("./pages/Mummy/Judges"));
@@ -205,6 +214,7 @@ const MORTAL_ROUTES = [
 
 const VAMPIRE_ROUTES = [
   { path: PATHS.VAMPIRE.BASE, Page: VampirePage },
+  { path: PATHS.VAMPIRE.QUICK_REFERENCE, Page: VampireQuickReferencePage },
   { path: PATHS.VAMPIRE.DISCIPLINES, Page: DisciplinesPage },
   { path: PATHS.VAMPIRE.DEVOTIONS, Page: DevotionPage },
   { path: PATHS.VAMPIRE.EXPERIENCE, Page: VampireExperiencePage },
@@ -219,6 +229,7 @@ const VAMPIRE_ROUTES = [
 
 const WEREWOLF_ROUTES = [
   { path: PATHS.WEREWOLF.BASE, Page: WerewolfPage },
+  { path: PATHS.WEREWOLF.QUICK_REFERENCE, Page: WerewolfQuickReferencePage },
   { path: PATHS.WEREWOLF.GIFTS, Page: GiftsPage },
   { path: PATHS.WEREWOLF.RITES, Page: RitesPage },
   { path: PATHS.WEREWOLF.MERITS, Page: WerewolfMeritsPage },
@@ -234,10 +245,12 @@ const WEREWOLF_ROUTES = [
 
 const MAGE_ROUTES = [
   { path: PATHS.MAGE.BASE, Page: MagePage },
+  { path: PATHS.MAGE.QUICK_REFERENCE, Page: MageQuickReferencePage },
   { path: PATHS.MAGE.PATH, Page: PathPage },
   { path: PATHS.MAGE.ORDER, Page: OrderPage },
   { path: PATHS.MAGE.GNOSIS, Page: GnosisPage },
   { path: PATHS.MAGE.MANA, Page: ManaPage },
+  { path: PATHS.MAGE.PRELACIES, Page: PrelaciesPage },
   { path: PATHS.MAGE.WISDOM, Page: WisdomPage },
   { path: PATHS.MAGE.LEGACY, Page: LegacyPage },
   { path: PATHS.MAGE.MERITS, Page: MageMeritsPage },
@@ -263,6 +276,7 @@ const ARCANA_ROUTE_CONFIGS = [
 
 const PROMETHEAN_ROUTES = [
   { path: PATHS.PROMETHEAN.BASE, Page: PrometheanPage },
+  { path: PATHS.PROMETHEAN.QUICK_REFERENCE, Page: PrometheanQuickReferencePage },
   { path: PATHS.PROMETHEAN.AZOTH, Page: AzothPage },
   { path: PATHS.PROMETHEAN.TRANSMUTATIONS, Page: TransmutationsPage },
   { path: PATHS.PROMETHEAN.BESTOWMENTS, Page: BestowmentsPage },
@@ -275,6 +289,7 @@ const PROMETHEAN_ROUTES = [
 
 const CHANGELING_ROUTES = [
   { path: PATHS.CHANGELING.BASE, Page: ChangelingPage },
+  { path: PATHS.CHANGELING.QUICK_REFERENCE, Page: ChangelingQuickReferencePage },
   { path: PATHS.CHANGELING.SEEMINGS, Page: SeemingPage },
   { path: PATHS.CHANGELING.KITHS, Page: KithPage },
   { path: PATHS.CHANGELING.COURT, Page: CourtPage },
@@ -302,6 +317,7 @@ const HUNTER_ROUTES = [
 
 const GEIST_ROUTES = [
   { path: PATHS.GEIST.BASE, Page: GeistPage },
+  { path: PATHS.GEIST.QUICK_REFERENCE, Page: GeistQuickReferencePage },
   { path: PATHS.GEIST.PSYCHE, Page: PsychePage },
   { path: PATHS.GEIST.KEYS_AND_HAUNTS, Page: KeysAndHauntsPage },
   { path: PATHS.GEIST.CEREMONIES, Page: CeremoniesPage },
@@ -317,6 +333,7 @@ const GEIST_ROUTES = [
 
 const MUMMY_ROUTES = [
   { path: PATHS.MUMMY.BASE, Page: MummyPage },
+  { path: PATHS.MUMMY.QUICK_REFERENCE, Page: MummyQuickReferencePage },
   { path: PATHS.MUMMY.AFFINITIES, Page: AffinitiesPage },
   { path: PATHS.MUMMY.UTTERANCES, Page: UtterancesPage },
   { path: PATHS.MUMMY.JUDGE, Page: JudgesPage },
@@ -571,6 +588,13 @@ function findUtteranceBySlug(dataModule, slug) {
 }
 
 const DETAIL_ROUTE_CONFIGS = [
+  {
+    path: `${PATHS.MAGE.MINISTRIES}/:slug`,
+    propKey: "ministry",
+    loadPage: () => import("./pages/Mage/MinistryDetail"),
+    loadData: () => import("./Data/Mage/MinistryDetailData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.MinistryDetailData, slug),
+  },
   {
     path: `${PATHS.MAGE.ORDER}/:slug`,
     propKey: "order",
@@ -864,6 +888,13 @@ const DETAIL_ROUTE_CONFIGS = [
     resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.PsychicMeritsData, slug),
   },
   {
+    path: getThaumaturgyTraditionPath(),
+    propKey: "tradition",
+    loadPage: () => import("./pages/MortalsAndTemplates/Lesser templates/ThaumaturgyTraditionDetail"),
+    loadData: () => import("./Data/Mortal/Lesser templates/ThaumaturgyTraditionDetailData"),
+    resolveItem: ({ dataModule, slug }) => findItemBySlug(dataModule.thaumaturgyTraditionDetailData, slug),
+  },
+  {
     path: `${PATHS.MORTAL.THAUMATURGY}/:slug`,
     propKey: "thaumaturgyMerit",
     loadPage: () => import("./pages/MortalsAndTemplates/Lesser templates/ThaumaturgyDetail"),
@@ -933,6 +964,7 @@ function App() {
         <RaceSearchBanner />
         <div className="page-container">
           <Routes>
+            <Route path={PATHS.MAGE.MINISTRIES} element={<Navigate to={PATHS.MAGE.ORDER} replace />} />
             {routeGroups.flat().map(({ path, Page }) => (
               <Route key={path} path={path} element={renderLazyPage(Page)} />
             ))}

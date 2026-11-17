@@ -7,22 +7,23 @@
 
 .main-races {
     width: 100%;
-    padding: 20px 60px;
+    padding: 20px clamp(16px, 5vw, 60px);
     box-sizing: border-box;
 }
 
-.title {
+.main-races > .title {
     font-size: 2em;
     margin: 0;
     margin-bottom: 20px;
+    text-wrap: balance;
 }
 
-a {
-    color: #1a0dab; /* standard blue */
+.main-races p a {
+    color: #1a0dab;
     text-decoration: underline;
-  }
-  
-  a:hover {
-    color: #551a8b; /* standard visited-link purple */
+}
+
+.main-races p a:hover {
+    color: #551a8b;
     text-decoration: underline;
-  }
+}

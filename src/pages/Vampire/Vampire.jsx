@@ -8,6 +8,7 @@ export default function Vampire() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Vampire: the Requiem</h1>
+                <p className="mb-5"><Link to={PATHS.VAMPIRE.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
 
                 <section >
                     <div>
@@ -21,8 +22,8 @@ export default function Vampire() {
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            Kindred posses a unique Power Stat trait called <Link to={PATHS.VAMPIRE.BLOOD_POTENCY}>Blood Potency</Link>,
-                            and a Morality trait called <Link to={PATHS.VAMPIRE.HUMANITY}>Humanity</Link>.  As Changelings grow and face challenges, they
+                            Kindred possess a unique Power Stat trait called <Link to={PATHS.VAMPIRE.BLOOD_POTENCY}>Blood Potency</Link>,
+                            and a Morality trait called <Link to={PATHS.VAMPIRE.HUMANITY}>Humanity</Link>. As vampires grow and face challenges, they
                             accumulate <Link to={PATHS.VAMPIRE.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>

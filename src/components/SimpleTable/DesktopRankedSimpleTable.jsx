@@ -1,6 +1,7 @@
 import React from "react";
 import { BookLink } from "../BookLink";
 import FavoriteToggle from "../FavoriteToggle";
+import TableRowLink from "./TableRowLink";
 import {
     DEFAULT_RANKED_FIELD,
     getRankedChildValue,
@@ -13,7 +14,6 @@ export default function DesktopRankedSimpleTable({
     activeRowLink,
     sourcePath,
     columnsToSave,
-    handleLinkClick,
     rankedField = DEFAULT_RANKED_FIELD,
     nestedRankField = "dot",
     nestedSummaryField = "summary",
@@ -53,13 +53,9 @@ export default function DesktopRankedSimpleTable({
                 />
 
                 {titleIsLink ? (
-                    <a
-                        href={row.link}
-                        onClick={(e) => handleLinkClick(e, row.link)}
-                        className="underline text-white"
-                    >
+                    <TableRowLink to={row.link} className="underline text-white">
                         {value}
-                    </a>
+                    </TableRowLink>
                 ) : (
                     value
                 )}
@@ -100,13 +96,9 @@ export default function DesktopRankedSimpleTable({
                 )}
 
                 {titleIsLink ? (
-                    <a
-                        href={row.link}
-                        onClick={(e) => handleLinkClick(e, row.link)}
-                        className="text-blue-600 underline hover:text-blue-800"
-                    >
+                    <TableRowLink to={row.link} className="text-blue-600 underline hover:text-blue-800">
                         {value}
-                    </a>
+                    </TableRowLink>
                 ) : (
                     value
                 )}

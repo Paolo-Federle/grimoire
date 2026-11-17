@@ -51,15 +51,18 @@ test('keeps five complete PDF profiles and preserves all six historical sheet ch
     });
 });
 
-test('links the five available details and keeps Seers visible without a dead link or technical columns', () => {
+test('separates the Pentacle orders from the four Seer ministries without technical columns', () => {
     renderInRouter(<Order />);
     OrderDetailData.forEach(order => {
         expect(screen.getByRole('link', { name: order.Name, exact: true })).toHaveAttribute('href', order.link);
     });
-    expect(screen.getByText('Seers of the Throne')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Orders of the Pentacle' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Ministries — Seers of the Throne' })).toBeInTheDocument();
+    expect(screen.queryByText('Seers of the Throne', { exact: true })).not.toBeInTheDocument();
     expect(screen.queryByRole('link', { name: 'Seers of the Throne' })).not.toBeInTheDocument();
     expect(screen.getAllByRole('columnheader').map(header => header.textContent)).toEqual([
         'Order', 'Nickname', 'Creed', 'Tools', 'Rote Skills', 'Book',
+        'Ministry', 'Exarch', 'Creed', 'Rote Skills', 'Book',
     ]);
     expect(screen.queryByText(/There are weapons that bring death/)).not.toBeInTheDocument();
 });
@@ -72,10 +75,14 @@ test('recognizes and removes every Order favorite saved before details existed, 
         expect(getFavoriteKey(order, ['Order'], PATHS.MAGE.ORDER)).toBe(oldLink);
     });
     renderInRouter(<Order />);
-    OrderData.forEach(order => {
+    OrderData.slice(0, 5).forEach(order => {
         const row = screen.getByText(order.Name, { exact: true }).closest('tr');
         fireEvent.click(within(row).getByRole('button', { name: 'remove favorite' }));
     });
+    expect(listFavorites()).toHaveLength(1);
+    const seers = OrderData.find(order => order.Name === 'Seers of the Throne');
+    expect(getFavoriteKey(seers, ['Order'], PATHS.MAGE.ORDER)).toBe('/mage/order/seers_of_the_throne');
+    toggleFavorite(seers, ['Order'], PATHS.MAGE.ORDER);
     expect(listFavorites()).toEqual([]);
 });
 

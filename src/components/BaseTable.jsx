@@ -1,7 +1,7 @@
 import React from "react";
 import { BookLink } from "./BookLink";
-import { useNavigate } from "react-router-dom";
 import FavoriteToggle from "./FavoriteToggle";
+import TableRowLink from "./SimpleTable/TableRowLink";
 import { getCurrentRoutePath, normalizeDisplayText } from "../utils";
 
 function renderDisplayValue(value) {
@@ -17,12 +17,7 @@ export default function BaseTable({
   onRowClick,
   title,
 }) {
-  const navigate = useNavigate();
   const sourcePath = getCurrentRoutePath();
-
-  const goRouteId = (id) => {
-    navigate(`${id}`);
-  };
 
   const columnsToSave = (headers || []).filter((h) => h !== "link");
 
@@ -59,16 +54,9 @@ export default function BaseTable({
                 if (isFirstCell) {
                   const textNode =
                     onRowClick && row.link ? (
-                      <a
-                        href={row.link}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          goRouteId(row.link);
-                        }}
-                        style={{ textDecoration: "underline" }}
-                      >
+                      <TableRowLink to={row.link} className="underline">
                         {displayValue}
-                      </a>
+                      </TableRowLink>
                     ) : (
                       displayValue
                     );

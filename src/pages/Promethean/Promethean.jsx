@@ -8,6 +8,7 @@ export default function Promethean() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Promethean: the Created</h1>
+                <p className="mb-5"><Link to={PATHS.PROMETHEAN.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
                 <section >
                     <div>
                         <p>
@@ -17,15 +18,15 @@ export default function Promethean() {
                         <p>
                             Each Created has a <Link to={PATHS.PROMETHEAN.LINEAGE}>Lineage</Link> that shapes their form,
                             and their path takes them through many <Link to={PATHS.PROMETHEAN.REFINEMENTS}>Refinements</Link> over the long years.
-                         Some fall from the Pilgrimage, creating <Link to={PATHS.PROMETHEAN.MOCKERIES}>Mockeries</Link>, twisted Lineages shaped by failure or corruption.
+                            Some fall from the Pilgrimage, creating <Link to={PATHS.PROMETHEAN.MOCKERIES}>Mockeries</Link>, twisted Lineages shaped by failure or corruption.
                         </p>
                         <p>
-                            Prometheans may also cultivate an <Link to={PATHS.PROMETHEAN.ATHANOR}>Athanor</Link> out of their developing understanding.
+                            Prometheans may also cultivate an Athanor out of their developing understanding.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            The Created posses a unique Power Stat trait called <Link to={PATHS.PROMETHEAN.AZOTH}>Azoth</Link>, and
-                            a Morality trait called <Link to={PATHS.PROMETHEAN.HUMANITY}>Humanity</Link>. As Prometheans grow and face challenges, they
+                            The Created possess a unique Power Stat trait called <Link to={PATHS.PROMETHEAN.AZOTH}>Azoth</Link>, and
+                            a Morality trait called Humanity. As Prometheans grow and face challenges, they
                             accumulate <Link to={PATHS.PROMETHEAN.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
@@ -38,7 +39,7 @@ export default function Promethean() {
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            The Created have access to several unique <Link to='/promethean/merits'>Merits</Link> beyond mortal scope.
+                            The Created have access to several unique <Link to={PATHS.PROMETHEAN.MERITS}>Merits</Link> beyond mortal scope.
                         </p>
                     </div>
                 </section>

@@ -8,6 +8,7 @@ export default function Werewolf() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Werewolf: the Forsaken</h1>
+                <p className="mb-5"><Link to={PATHS.WEREWOLF.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
 
                 <section >
                     <div>
@@ -19,7 +20,7 @@ export default function Werewolf() {
                         <p>
                             Each Forsaken is born to an <Link to={PATHS.WEREWOLF.AUSPICES}>Auspice</Link>, a phase of the Moon.
                             Most will also join a <Link to={PATHS.WEREWOLF.TRIBES}>Tribe</Link>, as Werewolves are pack animals by nature.
-                            Additionally, they may join a <Link to={PATHS.WEREWOLF.LODGES}>Lodge</Link> who has common interests.
+                            They may also join a <Link to={PATHS.WEREWOLF.LODGES}>Lodge</Link> whose members share their interests.
                         </p>
                         <h2>Technicalities</h2>
                         <p>
@@ -42,7 +43,7 @@ export default function Werewolf() {
                         <h2>Advantages</h2>
                         <p>
                             The Forsaken have access to several unique <Link to={PATHS.WEREWOLF.MERITS}>Merits</Link> beyond mortal scope, including
-                            specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and <Link to='/werewolf/combat_styles'>Combat Styles</Link>.
+                            specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and Combat Styles.
                         </p>
                     </div>
                 </section>

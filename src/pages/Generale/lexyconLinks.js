@@ -1,4 +1,5 @@
-import { PATHS } from '../path';
+import { getMagePrelacyPath, getThaumaturgyTraditionPath, PATHS } from '../path';
+import { thaumaturgyTraditionIndex } from '../../Data/Mortal/Lesser templates/ThaumaturgyTraditionIndex';
 
 function normalizeTerm(name) {
   return name
@@ -12,7 +13,9 @@ function normalizeTerm(name) {
 // Use verified pages and aliases within each game line. A matching name alone
 // can refer to a different concept (for example, the Rage Gift or the Wound Gift).
 const linkGroups = {
+  'Second Sight': thaumaturgyTraditionIndex.map(({ Name }) => [getThaumaturgyTraditionPath(Name), [Name]]),
   'Mage the Awakening': [
+    [PATHS.MAGE.QUICK_REFERENCE, ['Apostate']],
     [PATHS.MAGE.ARCANA, ['Arcanum', 'Arcana']],
     [PATHS.MAGE.DEATH, ['Death']],
     [PATHS.MAGE.FATE, ['Fate']],
@@ -28,13 +31,22 @@ const linkGroups = {
     [PATHS.MAGE.MANA, ['Mana', 'tass']],
     [PATHS.MAGE.WISDOM, ['Wisdom']],
     [PATHS.MAGE.LEGACY, ['Legacy']],
+    [PATHS.MAGE.PRELACIES, ['Prelacy', 'Prelacies', 'Archigenitor']],
+    [getMagePrelacyPath('Doctrine'), ['Doctrine', 'Prelacy of Doctrine']],
+    [getMagePrelacyPath('Fury'), ['Fury', 'Prelacy of Fury']],
+    [getMagePrelacyPath('Obligation'), ['Obligation', 'Prelacy of Obligation']],
+    [getMagePrelacyPath('Vision'), ['Vision', 'Prelacy of Vision']],
     [PATHS.MAGE.PATH, ['Path']],
     [`${PATHS.MAGE.PATH}/acanthus`, ['Acanthus']],
     [`${PATHS.MAGE.PATH}/mastigos`, ['Mastigos']],
     [`${PATHS.MAGE.PATH}/moros`, ['Moros']],
     [`${PATHS.MAGE.PATH}/obrimos`, ['Obrimos']],
     [`${PATHS.MAGE.PATH}/thyrsus`, ['Thyrsus']],
-    [PATHS.MAGE.ORDER, ['order']],
+    [PATHS.MAGE.ORDER, ['order', 'Pentacle, the', 'Seers of the Throne', 'Greater Ministries']],
+    [`${PATHS.MAGE.MINISTRIES}/hegemonic_ministry`, ['Hegemonic Ministry', 'Hegemons']],
+    [`${PATHS.MAGE.MINISTRIES}/ministry_of_panopticon`, ['Ministry of Panopticon', 'Panopticon', 'Watchers']],
+    [`${PATHS.MAGE.MINISTRIES}/ministry_of_paternoster`, ['Ministry of Paternoster', 'Paternoster', 'Hierodules']],
+    [`${PATHS.MAGE.MINISTRIES}/praetorian_ministry`, ['Praetorian Ministry', 'Praetorians']],
     [`${PATHS.MAGE.ORDER}/adamantine_arrow`, ['Adamantine Arrow']],
     [`${PATHS.MAGE.ORDER}/council_of_free_assemblies`, ['Free Council', 'Council of Free Assemblies']],
     [`${PATHS.MAGE.ORDER}/guardians_of_the_veil`, [
@@ -54,6 +66,7 @@ const linkGroups = {
   'Changeling the Lost': [
     [PATHS.ENERGY_POOLS, ['Glamour']],
     [PATHS.CHANGELING.BASE, ['changeling', 'Lost']],
+    [`${PATHS.CHANGELING.QUICK_REFERENCE}#creation-court`, ['Courtless', 'Colorless Court']],
     [PATHS.CHANGELING.CONTRACTS, ['Contract', 'Goblin Contract']],
     [PATHS.CHANGELING.COURT, ['Court, Great Court', 'Autumn Court', 'Spring Court', 'Summer Court', 'Winter Court']],
     [PATHS.CHANGELING.ENTITLEMENTS, ['entitlement']],
@@ -66,6 +79,7 @@ const linkGroups = {
     [`${PATHS.LOCATIONS_BASE}/hollow`, ['Hollow']],
   ],
   'Vampire the Requiem': [
+    [PATHS.VAMPIRE.QUICK_REFERENCE, ['unbound']],
     [PATHS.ENERGY_POOLS, ['Vitae']],
     [PATHS.VAMPIRE.BASE, ['Kindred', 'Damned', 'Requiem']],
     [PATHS.VAMPIRE.BLOODLINE, ['bloodline']],
@@ -102,7 +116,7 @@ const linkGroups = {
     [PATHS.ENERGY_POOLS, ['plasm']],
     [PATHS.GEIST.BASE, ['Sin-Eater', 'Bound']],
     [PATHS.GEIST.CEREMONIES, ['ceremony']],
-    [PATHS.GEIST.KEYS_AND_HAUNTS, ['Key']],
+    [`${PATHS.GEIST.QUICK_REFERENCE}#creation-keys`, ['Key', 'keystone']],
     [`${PATHS.LOCATIONS_BASE}/haunt`, ['Haunt']],
     [PATHS.GEIST.KREWE_TRAITS, ['krewe']],
     [PATHS.GEIST.MANIFESTATION, ['Manifestation']],
@@ -111,7 +125,7 @@ const linkGroups = {
     [PATHS.GEIST.SYNERGY, ['Synergy']],
   ],
   'Promethean the Created': [
-    [PATHS.ENERGY_POOLS, ['Pyros']],
+    [`${PATHS.PROMETHEAN.QUICK_REFERENCE}#creation-pyros`, ['Pyros']],
     [PATHS.PROMETHEAN.BASE, ['Promethean']],
     [PATHS.PROMETHEAN.AZOTH, ['Azoth']],
     [PATHS.PROMETHEAN.BESTOWMENTS, ['Bestowment']],
@@ -139,6 +153,7 @@ const linkGroups = {
     [PATHS.MUMMY.JUDGE, ['Judges of Duat']],
     [PATHS.MUMMY.RELICS, ['relic', 'vestige']],
     [PATHS.MUMMY.SEKHEM, ['Sekhem']],
+    [`${PATHS.MUMMY.QUICK_REFERENCE}#creation-sekhem`, ['Descent, the']],
     [PATHS.MUMMY.UTTERANCES, ['Utterance']],
     [`${PATHS.MUMMY.MERITS}/cult`, ['cult']],
   ],

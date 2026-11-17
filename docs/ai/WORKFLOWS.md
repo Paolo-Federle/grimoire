@@ -78,5 +78,6 @@ Il lessico richiede aggiornamenti espliciti quando si aggiungono pagine o dettag
 
 - Riesaminare il diff, distinguere problemi preesistenti da regressioni e riportare cosa è stato davvero eseguito.
 - Aggiornare istruzioni, contesto o backlog nel punto indicato dall'[indice](./README.md#quale-fonte-aggiornare).
+- Aggiornare e rileggere le schede della kanban interessate da aggiunte o modifiche al progetto, seguendo le [regole di aggiornamento della kanban](../../AGENTS.md#aggiornamento-della-kanban). Riportare lavoro svolto, verifiche e stato locale/pubblicato senza attendere una richiesta separata.
 - Eseguire `npm run check:docs` se cambiano guide o riferimenti, oltre alle verifiche applicative richieste dalla modifica.
 - Conservare le condizioni di eventuali workaround e le date delle verifiche; non riportare esiti storici come appena riprodotti.

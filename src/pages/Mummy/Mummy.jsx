@@ -9,10 +9,11 @@ export default function Mummy() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Mummy: the Curse</h1>
+                <p className="mb-5"><Link to={PATHS.MUMMY.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
                 <section >
                     <div>
                         <p>
-                            In <b>Mummy: the Curse</b> you play one of the Arisen, ancient servants of arcane masters given eternally renewed life and a task to pursue.
+                            In <b>Mummy: the Curse</b>, you play one of the Arisen, ancient servants of arcane masters given eternally renewed life and a task to pursue.
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
@@ -40,7 +41,7 @@ export default function Mummy() {
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            Mummies have access to several unique Deathless <Link to='/mummy/merits'>Merits</Link>, including those of their Tomb.
+                            Mummies have access to several unique Deathless <Link to={PATHS.MUMMY.MERITS}>Merits</Link>, including those of their Tomb.
                         </p>
                     </div>
                 </section>

@@ -1,4 +1,4 @@
-import { getMageLegacyPath, PATHS } from "../pages/path";
+import { getMageLegacyPath, getMagePrelacyPath, getThaumaturgyTraditionPath, PATHS } from "../pages/path";
 import { slugify } from "../utils";
 import { getBookPath } from "../books/bookNavigation";
 
@@ -19,6 +19,8 @@ import { PathDetailData } from "../Data/Mage/PathDetailData";
 import { ManaData } from "../Data/Mage/ManaData";
 import { EnergyPoolsData } from "../Data/EnergyPoolsData";
 import { OrderDetailData } from "../Data/Mage/OrderDetailData";
+import { MinistryData } from "../Data/Mage/MinistryData";
+import { PrelaciesData } from "../Data/Mage/PrelaciesData";
 import { SpellsData } from "../Data/Mage/Arcana/allArcana";
 import { artifactData } from "../Data/Mage/artifactsData";
 import { imbuedItemsData } from "../Data/Mage/imbuedItemsData";
@@ -95,6 +97,7 @@ import {
 import { AspectsData, FavorsData } from "../Data/Others/AspectsFavorsData";
 import { PsychicMeritsData } from "../Data/Mortal/Lesser templates/PsychicMeritsData";
 import { ThaumaturgyMeritsData } from "../Data/Mortal/Lesser templates/ThaumaturgyData";
+import { thaumaturgyTraditionIndex } from "../Data/Mortal/Lesser templates/ThaumaturgyTraditionIndex";
 import { reliquaryData, reliquaryPowersData } from "../Data/Mortal/ReliquaryData";
 import { spiritNuminaData } from "../Data/Spirit/SpiritNuminaData";
 import {
@@ -226,6 +229,9 @@ function getTransmutationPath(item) {
 }
 
 const searchSources = [
+  { id: "mage-prelacies", gameLine: "mage", type: "Prelacy", items: [PrelaciesData], path: () => getMagePrelacyPath() },
+  { id: "mage-prelacy-learning", gameLine: "mage", type: "Prelacy", items: [PrelaciesData.Learning], path: (item) => getMagePrelacyPath(item.Name) },
+  { id: "mage-archigenitor-prelacies", gameLine: "mage", type: "Prelacy", items: PrelaciesData.Prelacies, path: (item) => getMagePrelacyPath(item.Name) },
   { id: "mage-mana", gameLine: "mage", type: "Energy Pool", items: [ManaData], path: () => PATHS.MAGE.MANA },
   {
     id: "energy-pools", gameLine: "general", type: "Wiki Page", path: () => PATHS.ENERGY_POOLS,
@@ -236,6 +242,7 @@ const searchSources = [
     title: (item) => item.DisplayName ? `${item.DisplayName} (${item.Name})` : item.Name,
     path: (item) => item.link,
   },
+  { id: "mage-ministries", gameLine: "mage", type: "Ministry", items: MinistryData, path: (item) => item.link },
   { id: "mage-paths", gameLine: "mage", type: "Path", items: PathDetailData, basePath: PATHS.MAGE.PATH },
   { id: "locations", gameLine: "general", type: "Location", items: allLocation, basePath: PATHS.LOCATIONS_BASE },
   { id: "universal-merits", gameLine: "general", type: "Merit", items: allUniMeritsData, basePath: PATHS.UNIVERSAL_MERITS },
@@ -354,6 +361,7 @@ const searchSources = [
   { id: "aspects-favors", gameLine: "other", type: "Aspect or Favor", items: [...AspectsData, ...FavorsData], basePath: PATHS.OTHERS.ASPECTS_FAVORRS },
   { id: "psychic-merits", gameLine: "mortal", type: "Psychic Merit", items: PsychicMeritsData, basePath: PATHS.MORTAL.PSYCHIC_POWERS },
   { id: "thaumaturgy", gameLine: "mortal", type: "Thaumaturgy", items: ThaumaturgyMeritsData, basePath: PATHS.MORTAL.THAUMATURGY },
+  { id: "thaumaturgy-traditions", gameLine: "mortal", type: "Thaumaturgy Tradition", items: thaumaturgyTraditionIndex, path: (item) => getThaumaturgyTraditionPath(item.Name) },
   { id: "reliquary", gameLine: "mortal", type: "Reliquary Item", items: reliquaryData, basePath: PATHS.MORTAL.RELIQUARY },
   {
     id: "reliquary-powers",

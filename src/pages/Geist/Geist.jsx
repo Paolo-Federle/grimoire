@@ -8,14 +8,15 @@ export default function Geist() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Geist: the Sin-Eaters</h1>
+                <p className="mb-5"><Link to={PATHS.GEIST.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
                 <section >
                     <div>
                         <p>
-                            In <b>Geist: the Sin-Eaters</b> you play as one who has died and made a deal with an incarnation of death itself to live again.
+                            In <b>Geist: the Sin-Eaters</b>, you play as one who has died and made a deal with an incarnation of death itself to live again.
                         </p>
                         <h2>Origins and Organizations</h2>
                         <p>
-                            The Bound either have <Link to={PATHS.GEIST.THRESHOLDS}>Thresholds</Link> describing the character of their
+                            The Bound have <Link to={PATHS.GEIST.THRESHOLDS}>Thresholds</Link> describing the character of their
                             deaths. <Link to={PATHS.GEIST.ARCHETYPES}>Archetypes</Link> describe what they do with their second life and what greater missions move them.
                         </p>
                         <p>
@@ -25,7 +26,7 @@ export default function Geist() {
                         <h2>Technicalities</h2>
                         <p>
                             The twice-living possess a unique power trait called <Link to={PATHS.GEIST.PSYCHE}>Psyche</Link>, and a Morality
-                            trait called <Link to={PATHS.GEIST.SYNERGY}>Synergy</Link>. As Geist grow and face challenges, they
+                            trait called <Link to={PATHS.GEIST.SYNERGY}>Synergy</Link>. As Sin-Eaters grow and face challenges, they
                             accumulate <Link to={PATHS.GEIST.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
                     </div>
@@ -35,14 +36,14 @@ export default function Geist() {
                         <p>
                             Sin-Eaters can unlock <Link to={PATHS.GEIST.MANIFESTATION}>Manifestations</Link> through the Keys of the Underworld to
                             conjure ghostly phenomena. They can also learn and teach deathly <Link to={PATHS.GEIST.CEREMONIES}>Ceremonies</Link>.
-                            </p>
+                        </p>
                         <p>
                             Many Sin-Eaters carry <Link to={PATHS.GEIST.MEMENTOS}>Mementos</Link> touched by significant deaths.
                         </p>
                         <h2>Advantages</h2>
                         <p>
-                            Sin-Eaters have access to several unique <Link to='/geist/merits'>Merits</Link> beyond mortal
-                            scope, as well as specific <Link to='/geist/locations'>Locations</Link>.
+                            Sin-Eaters have access to several unique <Link to={PATHS.GEIST.MERITS}>Merits</Link> beyond mortal
+                            scope, as well as specific Locations.
                         </p>
                     </div>
                 </section>

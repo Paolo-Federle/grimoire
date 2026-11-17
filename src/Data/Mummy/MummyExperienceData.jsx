@@ -1,7 +1,7 @@
 export const MummyExperienceData = [
     {
         'Trait': 'Attribute',
-        'Experience point Cost': 'New Dots 4'
+        'Experience point Cost': 'New Dots x4'
     }, {
         'Trait': 'Skill',
         'Experience point Cost': 'New Dots x3'

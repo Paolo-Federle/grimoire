@@ -8,6 +8,7 @@ import {
   prometheanLexyconData,
   mummyLexyconData,
   werewolfLexyconData,
+  secondSightLexyconData,
 } from '../../Data/LexyconData';
 import { sortByKey } from '../../utils';
 import { TextField, Button, Box, useMediaQuery } from '@mui/material';
@@ -27,6 +28,7 @@ export default function Lexycon() {
     'Geist the Sin-Eaters': geistLexyconData,
     'Promethean the Created': prometheanLexyconData,
     'Mummy the Curse': mummyLexyconData,
+    'Second Sight': secondSightLexyconData,
   };
 
   const lexyconData = Object.fromEntries(

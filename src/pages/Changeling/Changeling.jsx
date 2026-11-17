@@ -8,6 +8,7 @@ export default function Changeling() {
         <div className='center-races'>
             <main className='main-races'>
                 <h1 className='title'>Changeling: the Lost</h1>
+                <p className="mb-5"><Link to={PATHS.CHANGELING.QUICK_REFERENCE}>Character Creation Quick Reference</Link></p>
                 <section >
                     <div>
                         <p>
@@ -25,7 +26,7 @@ export default function Changeling() {
                         </p>
                         <h2>Technicalities</h2>
                         <p>
-                            The Lost posses a unique Power Stat trait called <Link to={PATHS.CHANGELING.WYRD}>Wyrd</Link>, and
+                            The Lost possess a unique Power Stat trait called <Link to={PATHS.CHANGELING.WYRD}>Wyrd</Link>, and
                             a Morality trait called <Link to={PATHS.CHANGELING.CLARITY}>Clarity</Link>. As Changelings grow and face challenges, they
                             accumulate <Link to={PATHS.CHANGELING.EXPERIENCE}>Experience Points</Link>, which they use to refine their abilities and unlock new potential.
                         </p>
@@ -35,7 +36,7 @@ export default function Changeling() {
                         <h2>Abilities</h2>
                         <p>
                             The Lost may exploit <Link to={PATHS.CHANGELING.CONTRACTS}>Contracts</Link> with the world to manipulate it, and may bind
-                            themselves or others with <Link to={PATHS.CHANGELING.PLEDGES}>Pledges</Link> to gain power and protection
+                            themselves or others with <Link to={PATHS.CHANGELING.PLEDGES}>Pledges</Link> to gain power and protection.
                         </p>
                         <p>
                             Many Changelings discover <Link to={PATHS.CHANGELING.GOBLIN_FRUITS}>Goblin Fruits</Link> in the Hedge, or
@@ -44,7 +45,7 @@ export default function Changeling() {
                         <h2>Advantages</h2>
                         <p>
                             Changelings have access to several unique <Link to={PATHS.CHANGELING.MERITS}>Merits</Link> beyond mortal
-                            scope, including specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and <Link to='/changeling/combat_styles'>Combat Styles</Link>.
+                            scope, including specific <Link to={PATHS.LOCATIONS_BASE}>Locations</Link> and Combat Styles.
                         </p>
                     </div>
                 </section>

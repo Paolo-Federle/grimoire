@@ -3,30 +3,40 @@ export const TribesForsakenData = [
         "Name": "Blood Talons",
         "Description": "Followers of Destroyer Wolf, the Blood Talons focus on the raw potency of the Uratha, encouraging growth as warriors and primal beings.",
         "Patron": "Destroyer Wolf",
+        "Primary Renown": "Glory",
+        "Gift Lists": "Inspiration, Rage, Strength",
         "Book": "WtF 84, Rage 14, Tribes 16"
     },
     {
         "Name": "Bone Shadows",
         "Description": "Followers of Death Wolf, the Bone Shadows focus on the spirituality of the Uratha, concerning themselves with the Hisil and its inhabitants.",
         "Patron": "Death Wolf",
+        "Primary Renown": "Wisdom",
+        "Gift Lists": "Death, Insight, Warding",
         "Book": "WtF 87, Rage 28, Tribes 52"
     },
     {
         "Name": "Hunters in Darkness",
         "Description": "Followers of Black Wolf, the Hunters in Darkness focus on the sanctity of Uratha interests, guarding what is truly special from defilement and destruction.",
         "Patron": "Black Wolf",
+        "Primary Renown": "Purity",
+        "Gift Lists": "Elemental, Nature, Stealth",
         "Book": "WtF 90, Rage 44, Tribes 86"
     },
     {
         "Name": "Iron Masters",
         "Description": "Followers of Red Wolf, the Iron Masters focus on the adaptability of the Uratha, embracing the achievements of Man while attempting to keep balance.",
         "Patron": "Red Wolf",
+        "Primary Renown": "Cunning",
+        "Gift Lists": "Knowledge, Shaping, Technology",
         "Book": "WtF 93, Rage 58, Tribes 120"
     },
     {
         "Name": "Storm Lords",
         "Description": "Followers of Winter Wolf, the Storm Lords focus on duty inherited by the Uratha from Father Wolf, seeking to lead others in his noble image.",
         "Patron": "Winter Wolf",
+        "Primary Renown": "Honor",
+        "Gift Lists": "Dominance, Evasion, Weather",
         "Book": "WtF 96, Rage 72, Tribes 158"
     },
     {

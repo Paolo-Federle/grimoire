@@ -6,7 +6,8 @@ const { test, expect } = require('@playwright/test');
 
 const BASE_URL =
   process.env.PLAYWRIGHT_APP_BASE || 'http://127.0.0.1:3000/grimoire';
-const APP_ORIGIN = new URL(BASE_URL).origin;
+const APP_URL = new URL(BASE_URL);
+const appPath = APP_URL.pathname.replace(/\/$/, '');
 
 const TABLE_PAGES = [
   { name: 'Locations', path: '#' + PATHS.LOCATIONS_BASE },
@@ -59,21 +60,10 @@ function looksLikeBookReference(text) {
   return compactBookPattern.test(value) || shortCodePattern.test(value);
 }
 
-function buildTargetUrl(href) {
-  if (!href) return '';
-
-  if (href.startsWith('http')) return href;
-  if (href.startsWith('#/')) return `${BASE_URL}${href}`;
-  if (href.startsWith('/#/')) return `${APP_ORIGIN}${href}`;
-  if (href.startsWith('/')) return `${BASE_URL}#${href}`;
-  return `${BASE_URL}#/${href.replace(/^#?\/?/, '')}`;
-}
-
-function isLikelyDetailLink(href, linkText, columnName) {
-  const targetUrl = buildTargetUrl(href);
-
-  if (!targetUrl) return false;
-  if (!targetUrl.includes('/grimoire#')) return false;
+function isLikelyDetailLink(targetUrl, linkText, columnName) {
+  const url = new URL(targetUrl);
+  if (url.origin !== APP_URL.origin || url.pathname.replace(/\/$/, '') !== appPath) return false;
+  if (!url.hash.startsWith('#/')) return false;
   if (isExcludedHeader(columnName)) return false;
   if (looksLikeBookReference(linkText)) return false;
 
@@ -165,18 +155,17 @@ async function extractRowLinks(table, pageName, tableIndex) {
 
       for (let colIndex = 0; colIndex < thCellCount; colIndex++) {
         const cell = thCells.nth(colIndex);
-        const anchors = cell.locator('a');
+        const anchors = cell.locator('a[href]');
         const anchorCount = await anchors.count();
 
         for (let a = 0; a < anchorCount; a++) {
           const link = anchors.nth(a);
-          const href = (await link.getAttribute('href')) || '';
           const linkText = normalizeText(await link.innerText().catch(() => ''));
-          const targetUrl = buildTargetUrl(href);
+          const targetUrl = await link.evaluate((anchor) => anchor.href);
 
           const columnName = headerMap[0]?.text || 'Name';
 
-          if (!isLikelyDetailLink(href, linkText, columnName)) {
+          if (!isLikelyDetailLink(targetUrl, linkText, columnName)) {
             continue;
           }
 
@@ -187,7 +176,6 @@ async function extractRowLinks(table, pageName, tableIndex) {
             columnIndex: colIndex,
             columnName,
             linkText: linkText || '(senza testo)',
-            href,
             targetUrl,
           });
         }
@@ -209,16 +197,15 @@ async function extractRowLinks(table, pageName, tableIndex) {
       const columnName = header?.text || `column_${colIndex + 1}`;
 
       const cell = cells.nth(colIndex);
-      const anchors = cell.locator('a');
+      const anchors = cell.locator('a[href]');
       const anchorCount = await anchors.count();
 
       for (let a = 0; a < anchorCount; a++) {
         const link = anchors.nth(a);
-        const href = (await link.getAttribute('href')) || '';
         const linkText = normalizeText(await link.innerText().catch(() => ''));
-        const targetUrl = buildTargetUrl(href);
+        const targetUrl = await link.evaluate((anchor) => anchor.href);
 
-        if (!isLikelyDetailLink(href, linkText, columnName)) {
+        if (!isLikelyDetailLink(targetUrl, linkText, columnName)) {
           continue;
         }
 
@@ -229,7 +216,6 @@ async function extractRowLinks(table, pageName, tableIndex) {
           columnIndex: colIndex,
           columnName,
           linkText: linkText || '(senza testo)',
-          href,
           targetUrl,
         });
       }
